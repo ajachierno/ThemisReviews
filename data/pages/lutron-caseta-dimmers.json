@@ -1,0 +1,484 @@
+{
+  "slug": "lutron-caseta-dimmers",
+  "family": "light-switches",
+  "family_title": "Light switches",
+  "noun": "switch",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Lutron Caseta Switches and Dimmers",
+  "subtitle": "Caseta switches and dimmers on Lutron's Clear Connect RF, ranked.",
+  "intro": "We pulled the Lutron Caseta switches, dimmers, and kits selling on Amazon and scored them on rating, review volume, and features. Caseta switches need a Lutron Smart Bridge for app, voice, and automation control. Without one, a Caseta switch still works at the wall and with a paired Pico remote.",
+  "reviews_ceiling": 6000,
+  "feature_weights": {
+    "no_neutral": 0.3,
+    "dimming": 0.2,
+    "pico_included": 0.3,
+    "hub_included": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "pico_included",
+      "label": "Pico remote included",
+      "type": "bool"
+    },
+    {
+      "key": "hub_included",
+      "label": "Smart Hub included",
+      "type": "bool"
+    },
+    {
+      "key": "load",
+      "label": "Load rating"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "pico_included",
+      "label": "Pico",
+      "type": "bool"
+    },
+    {
+      "key": "hub_included",
+      "label": "Hub",
+      "type": "bool"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07HM6L48C",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "No neutral needed, and the Pico remote and bracket turn any 3-way into a smart 3-way. 1K+ bought in the past month."
+    },
+    {
+      "asin": "B00KLAXFQA",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "The plain Caseta dimmer: 5,667 reviews at 4.7 stars and works in old boxes without a neutral."
+    },
+    {
+      "asin": "B08FRPJFXQ",
+      "label": "Best Starter Kit",
+      "kind": "special",
+      "why": "Switch, Smart Hub, and wallplate in one box. The hub alone is most of the price."
+    },
+    {
+      "asin": "B017LRCG38",
+      "label": "Best On/Off Switch",
+      "kind": "premium",
+      "why": "For fans and lights you don't want to dim. Rated for 600 W of lighting or fans up to 6 A."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07HM6L48C",
+      "brand": "Lutron",
+      "model": "Caseta 3-way dimmer kit",
+      "specs": {
+        "type": "Dimmer + Pico",
+        "neutral": "Not required",
+        "load": "Dimmable LED, incandescent, halogen",
+        "in_box": "Dimmer, Pico remote, bracket"
+      },
+      "features": {
+        "no_neutral": true,
+        "dimming": true,
+        "pico_included": true,
+        "hub_included": false
+      },
+      "verdict": "The kit most people should start with. It installs in old boxes without a neutral, and the Pico gives you a second switch location without running wire.",
+      "pros": [
+        "No neutral wire needed",
+        "Pico remote and wall bracket included for a wireless 3-way",
+        "3,052 reviews at 4.7 stars, 1K+ bought in the past month",
+        "Clear Connect RF doesn't use your Wi-Fi"
+      ],
+      "cons": [
+        "Smart Hub sold separately",
+        "Dimming only works with dimmable bulbs",
+        "Costs more than Wi-Fi dimmers"
+      ],
+      "name": "Lutron Caseta 3-Way Smart Dimmer Kit; LED Dimmer, Wireless Remote & Bracket",
+      "image": "https://m.media-amazon.com/images/I/71GsI+LMUbL._SL1500_.jpg",
+      "price": 74.95,
+      "rating": 4.7,
+      "reviews_count": 3052,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B00KLAXFQA",
+      "brand": "Lutron",
+      "model": "Caseta smart dimmer",
+      "specs": {
+        "type": "Dimmer",
+        "neutral": "Not required",
+        "load": "Dimmable LED, incandescent, halogen",
+        "in_box": "Dimmer"
+      },
+      "features": {
+        "no_neutral": true,
+        "dimming": true,
+        "pico_included": false,
+        "hub_included": false
+      },
+      "verdict": "The Caseta dimmer on its own. It's the most-reviewed smart dimmer we've seen, and it works without a neutral.",
+      "pros": [
+        "5,667 reviews at 4.7 stars",
+        "No neutral wire needed",
+        "Works with Alexa, Apple Home, Google, Ring, and Sonos through the Smart Hub",
+        "Scenes, schedules, geofencing, and smart away"
+      ],
+      "cons": [
+        "Smart Hub sold separately",
+        "Pico remote sold separately",
+        "No wallplate included"
+      ],
+      "name": "Lutron Caseta Smart Dimmer Switch (Smart Hub Required), No Neutral Required",
+      "image": "https://m.media-amazon.com/images/I/71hYjweIGvL._SL1500_.jpg",
+      "price": 64.95,
+      "rating": 4.7,
+      "reviews_count": 5667,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B017LRCG38",
+      "brand": "Lutron",
+      "model": "Caseta smart switch",
+      "specs": {
+        "type": "On/off switch",
+        "neutral": "Required",
+        "load": "600 W lighting, fans up to 6 A",
+        "in_box": "Switch"
+      },
+      "features": {
+        "no_neutral": false,
+        "dimming": false,
+        "pico_included": false,
+        "hub_included": false
+      },
+      "verdict": "Caseta's on/off switch for ceiling fans, exhaust fans, and lights you don't dim.",
+      "pros": [
+        "Controls lights or ceiling fans",
+        "3,089 reviews at 4.7 stars",
+        "Pico remotes add 3-way or 4-way control without wiring",
+        "Certified for Apple Home, Alexa, and Google"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "No dimming",
+        "Smart Hub sold separately"
+      ],
+      "name": "Lutron Caseta Smart Light Switch for Lighting and Fans (Smart Hub Required)",
+      "image": "https://m.media-amazon.com/images/I/71Btt4IaKaL._SL1500_.jpg",
+      "price": 64.95,
+      "rating": 4.7,
+      "reviews_count": 3089,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B08FRN8FK5",
+      "brand": "Lutron",
+      "model": "Caseta 3-way switch kit",
+      "specs": {
+        "type": "On/off switch + Pico",
+        "neutral": "Required",
+        "load": "600 W incandescent, 5 A LED, 3 A fans",
+        "in_box": "Switch, Pico remote, wallplate and adapter"
+      },
+      "features": {
+        "no_neutral": false,
+        "dimming": false,
+        "pico_included": true,
+        "hub_included": false
+      },
+      "verdict": "The on/off version of the 3-way kit, popular for porch, patio, and garage lights.",
+      "pros": [
+        "Switch, Pico remote, and wallplate in one box",
+        "1,457 reviews at 4.7 stars",
+        "Handles exhaust and ceiling fans up to 3 A",
+        "Geofencing alerts if you leave lights on"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "On/off only",
+        "Smart Hub sold separately"
+      ],
+      "name": "Lutron Caseta 3-Way Smart Switch Kit; Switch, Wireless Remote & More",
+      "image": "https://m.media-amazon.com/images/I/51evF9XiWYL._SL1000_.jpg",
+      "price": 74.95,
+      "rating": 4.7,
+      "reviews_count": 1457,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B08FRPJFXQ",
+      "brand": "Lutron",
+      "model": "Caseta smart switch starter kit",
+      "specs": {
+        "type": "On/off switch + Smart Hub",
+        "neutral": "Required",
+        "load": "5 A",
+        "in_box": "Switch, Smart Hub, wallplate"
+      },
+      "features": {
+        "no_neutral": false,
+        "dimming": false,
+        "pico_included": false,
+        "hub_included": true
+      },
+      "verdict": "Everything you need for your first Caseta switch, including the Smart Hub that every other product here requires.",
+      "pros": [
+        "Includes the Caseta Smart Hub",
+        "Hub works without Wi-Fi and integrates with Alexa, Apple Home, Google, Ring, and Sonos",
+        "Wallplate included",
+        "24/7 phone support"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "On/off only",
+        "Pico remote sold separately"
+      ],
+      "name": "Lutron Caseta Smart Switch Starter Kit; Smart Light Switch, Hub & Wallplate",
+      "image": "https://m.media-amazon.com/images/I/51uHO02lZdL._SL1000_.jpg",
+      "price": 83.95,
+      "rating": 4.6,
+      "reviews_count": 279,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0BSHKS26L",
+      "brand": "Lutron",
+      "model": "Caseta Diva smart dimmer",
+      "specs": {
+        "type": "Dimmer (slider)",
+        "neutral": "Not required",
+        "load": "150 W LED, 600 W incandescent",
+        "in_box": "Dimmer, wallplate"
+      },
+      "features": {
+        "no_neutral": true,
+        "dimming": true,
+        "pico_included": false,
+        "hub_included": false
+      },
+      "verdict": "Lutron's classic Diva paddle and slider, now smart. Pick it if you want the dimmer to look like a regular Diva.",
+      "pros": [
+        "Diva paddle with a slider and soft-glow light bar",
+        "Preset turns lights on at your favorite level",
+        "Wallplate included",
+        "686 reviews at 4.7 stars"
+      ],
+      "cons": [
+        "Not rated for low-voltage track or landscape lighting",
+        "Smart Hub sold separately",
+        "Costs more than the standard Caseta dimmer"
+      ],
+      "name": "Lutron Caseta Diva Smart Dimmer Switch (Smart Hub Required), w Wallplate",
+      "image": "https://m.media-amazon.com/images/I/71+F03jud+L._SL1500_.jpg",
+      "price": 74.2,
+      "rating": 4.7,
+      "reviews_count": 686,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0BYPBGBSD",
+      "brand": "Lutron",
+      "model": "Caseta Claro smart switch",
+      "specs": {
+        "type": "On/off switch",
+        "neutral": "Required",
+        "load": "5 A lighting, 3 A fans",
+        "in_box": "Switch"
+      },
+      "features": {
+        "no_neutral": false,
+        "dimming": false,
+        "pico_included": false,
+        "hub_included": false
+      },
+      "verdict": "The smart version of Lutron's Claro paddle. It matches ordinary paddle switches better than the Caseta original.",
+      "pros": [
+        "Classic Claro paddle look",
+        "LED indicator glows when the light is on",
+        "Controls lights or fans",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "Only 199 reviews across its variants",
+        "Smart Hub sold separately"
+      ],
+      "name": "Lutron Caseta Claro Smart Switch for Lighting and Fans (Smart Hub Required)",
+      "image": "https://m.media-amazon.com/images/I/71WHFWFIN6L._SL1500_.jpg",
+      "price": 64.95,
+      "rating": 4.7,
+      "reviews_count": 199,
+      "bought": null
+    },
+    {
+      "asin": "B0CJGL5QKX",
+      "brand": "Lutron",
+      "model": "Claro 3-way switch kit",
+      "specs": {
+        "type": "On/off switch + Pico",
+        "neutral": "Required",
+        "load": "5 A LED, 3 A fans",
+        "in_box": "Switch, Pico paddle remote, bracket, wallplate"
+      },
+      "features": {
+        "no_neutral": false,
+        "dimming": false,
+        "pico_included": true,
+        "hub_included": false
+      },
+      "verdict": "The Claro switch with a matching Pico paddle remote, so both ends of a 3-way look the same.",
+      "pros": [
+        "Pico paddle remote matches the Claro switch",
+        "Bracket and wallplate included",
+        "4.7 stars, 200+ bought in the past month"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "On/off only",
+        "Smart Hub sold separately"
+      ],
+      "name": "Lutron Claro 3-Way Smart Switch Kit; Switch, Wallplate, Remote & Bracket",
+      "image": "https://m.media-amazon.com/images/I/71Ju2md35fL._SL1500_.jpg",
+      "price": 79.95,
+      "rating": 4.7,
+      "reviews_count": 145,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B07SJJBTYY",
+      "brand": "Lutron",
+      "model": "Caseta smart dimmer with wallplate",
+      "specs": {
+        "type": "Dimmer",
+        "neutral": "Not required",
+        "load": "Dimmable LED, incandescent, halogen",
+        "in_box": "Dimmer, wallplate"
+      },
+      "features": {
+        "no_neutral": true,
+        "dimming": true,
+        "pico_included": false,
+        "hub_included": false
+      },
+      "verdict": "The standard Caseta dimmer bundled with a wallplate. It has the highest rating on this list.",
+      "pros": [
+        "4.8 stars from 1,057 reviews",
+        "No neutral wire needed",
+        "Wallplate included"
+      ],
+      "cons": [
+        "Costs a few dollars more than the dimmer alone",
+        "Smart Hub sold separately",
+        "Pico remote sold separately"
+      ],
+      "name": "Lutron Caseta Smart Dimmer Switch (Smart Hub Required), with Wallplate",
+      "image": "https://m.media-amazon.com/images/I/51hB5pp0KOL._AC_SL1000_.jpg",
+      "price": 69.2,
+      "rating": 4.8,
+      "reviews_count": 1057,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CJ6DFMT7",
+      "brand": "Lutron",
+      "model": "Caseta 3-way Diva dimmer kit",
+      "specs": {
+        "type": "Dimmer (slider) + Pico",
+        "neutral": "Not required",
+        "load": "Dimmable LED, incandescent, halogen",
+        "in_box": "Diva dimmer, Pico paddle remote"
+      },
+      "features": {
+        "no_neutral": true,
+        "dimming": true,
+        "pico_included": true,
+        "hub_included": false
+      },
+      "verdict": "The Diva dimmer paired with a matching Pico paddle remote for a 3-way that looks like your other Diva switches.",
+      "pros": [
+        "Diva slider with a matching Pico paddle remote",
+        "Installs without cutting or rewiring",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Most expensive kit here",
+        "Only 162 reviews",
+        "Smart Hub sold separately"
+      ],
+      "name": "Lutron Caseta 3-Way Smart Dimmer Kit; Diva Dimmer & Paddle Wireless Remote",
+      "image": "https://m.media-amazon.com/images/I/71fu98T+B+L._SL1500_.jpg",
+      "price": 84.95,
+      "rating": 4.7,
+      "reviews_count": 162,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G465YJ1P",
+      "brand": "Lutron",
+      "model": "PD-5WS-DV-WH (reseller listing)",
+      "flag": "Commercial-voltage version at about 78% more than the home switch",
+      "verdict": "It's a real Lutron part, but it's the 120/277 V commercial version sold by an AV reseller for $115.70. The Caseta smart switch Amazon sells for $64.95 does the same job in a house.",
+      "reasons": [
+        "At $115.70 it costs about 78% more than the Caseta smart switch on this list, which Amazon sells and ships.",
+        "Its 277 V rating only matters on commercial lighting circuits. Homes run lights on 120 V.",
+        "The listing's title drops the Lutron brand name and sits outside Lutron's main Caseta listings, so it's easy to mistake for the standard switch.",
+        "Buy from listings sold by Amazon or Lutron, like the ones above, to keep the price and the paperwork straightforward."
+      ],
+      "name": "Caseta Wireless In-wall Electronic Switches - PD-5WS-DV-WH",
+      "image": "https://m.media-amazon.com/images/I/21yc+gdDesL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 115.7,
+      "rating": 4.1,
+      "reviews_count": 6,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Do Caseta switches need a neutral wire?",
+      "a": "Most Caseta dimmers don't, which is the main reason people pick them for older houses. The on/off switch and the fan control need a neutral, so check the model before you buy."
+    },
+    {
+      "q": "Do I need the Smart Bridge?",
+      "a": "For app control, schedules, voice assistants, Apple Home, or Home Assistant, yes. A Caseta switch with a Pico remote works without one. Several kits on this list include the bridge."
+    },
+    {
+      "q": "How do Caseta switches handle 3-way circuits?",
+      "a": "Lutron uses a Pico remote in place of the second switch. You cap the traveler wire at the other box and mount a Pico in a wallplate bracket there. No extra wiring is needed."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}

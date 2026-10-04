@@ -26,3 +26,20 @@ Never hand-edit `docs/` (except `docs/assets/` images). Edit the JSON or `build.
 GitHub Pages serves the `main` branch, `/docs` folder. To use a custom domain, set
 `custom_domain` in `data/site.json`, rebuild (this writes `docs/CNAME`), and add the DNS
 records at your registrar.
+
+## Category pages
+
+Each ready sub-page has `data/pages/<slug>.json` (products, one avoid pick, awards,
+scoring weights, spec/table columns, buyer's guide). Those files are generated, so don't
+hand-edit them. The workflow lives in `research/`:
+
+1. `python research/amz.py search research/search-all.json "<query>"` and
+   `python research/amz.py products research/prod-all.json <ASIN>...` pull live Amazon data
+   with real Chrome (Amazon blocks headless browsers, and it rate-limits fast scraping, so the
+   scraper is paced).
+2. Write the editorial (verdicts, pros, cons, specs, awards, avoid reasons) in
+   `research/editorial/<slug>.json`. Page titles, intros, and buyer's guides are in
+   `research/meta.py`.
+3. `python research/merge.py <slug>` fills price, rating, review count, title, and image
+   from the scrape into `data/pages/<slug>.json`. Numbers never come from the editorial file.
+4. Set `"ready": true` on the sub-page in `data/site.json`, then `python build.py`.

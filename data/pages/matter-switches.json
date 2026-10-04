@@ -1,0 +1,492 @@
+{
+  "slug": "matter-switches",
+  "family": "light-switches",
+  "family_title": "Light switches",
+  "noun": "switch",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Matter Light Switches",
+  "subtitle": "Switches that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "intro": "We pulled the Matter light switches selling on Amazon and scored them on rating, review volume, and features: 3-way support, Thread versus Wi-Fi, and no-neutral options. The comparison table shows whether each switch runs Matter over Wi-Fi or over Thread.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "three_way": 0.5,
+    "no_neutral": 0.25,
+    "energy_monitoring": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "energy_monitoring",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "energy_monitoring",
+      "label": "Energy",
+      "type": "bool"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DKHCF53T",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Single-pole, 3-way, or 4-way, with energy monitoring, for about $20. 1K+ bought in the past month."
+    },
+    {
+      "asin": "B0C2B6RSDX",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$15.99 for a Matter switch with 4.5 stars from over 1,300 reviews."
+    },
+    {
+      "asin": "B0DCK65T2Y",
+      "label": "Best Thread Switch",
+      "kind": "special",
+      "why": "Matter over Thread with no Eve cloud and no account, and it works in 3-way setups."
+    },
+    {
+      "asin": "B0GR1TR26Y",
+      "label": "Best Name Brand",
+      "kind": "premium",
+      "why": "Leviton's Decora switch with Matter built in. The most-bought Matter switch in our data at 3K+ a month."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DKHCF53T",
+      "brand": "Tapo",
+      "model": "S515",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Yes, 3-way and 4-way",
+        "style": "Paddle",
+        "extras": "Away mode, groups"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "energy_monitoring": true
+      },
+      "verdict": "The most capable Matter switch for the money: single-pole, 3-way, or 4-way, with energy tracking.",
+      "pros": [
+        "Works single-pole, 3-way, or 4-way",
+        "Tracks energy use of the connected lights",
+        "Matter certified, plus Alexa, Siri, Google, and Bixby",
+        "1K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "Needs 2.4 GHz Wi-Fi",
+        "4.4 stars, slightly below the S505"
+      ],
+      "name": "Tapo Smart Switch, S515, Single-Pole/3-Way/4-Way, Matter Compatible",
+      "image": "https://m.media-amazon.com/images/I/6172ICKagjL._SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.4,
+      "reviews_count": 578,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0C2B6RSDX",
+      "brand": "Tapo",
+      "model": "S505",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "style": "Paddle",
+        "extras": "Local LAN control"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "The cheapest well-reviewed Matter switch. It keeps working on your local network when the internet is down.",
+      "pros": [
+        "$15.99 with 4.5 stars from 1,376 reviews",
+        "Matter multi-admin across Apple Home, Alexa, Google, and SmartThings",
+        "Local control when the internet is down",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Needs 2.4 GHz Wi-Fi"
+      ],
+      "name": "Tapo Matter Smart Light Switch, S505, Single Pole, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/6108Lynye6L._SL1500_.jpg",
+      "price": 15.99,
+      "rating": 4.5,
+      "reviews_count": 1376,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0CC8NP7ZD",
+      "brand": "Kasa",
+      "model": "KS205",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "style": "Paddle",
+        "extras": "Away mode"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Kasa's Matter switch has the highest rating among the big sellers here. Good pick if you already use the Kasa app.",
+      "pros": [
+        "4.6 stars from 1,147 reviews",
+        "Matter multi-admin plus Siri, Alexa, and Google",
+        "Away mode and countdown timers",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Costs $6 more than the Tapo S505"
+      ],
+      "name": "Kasa Matter Smart Light Switch, KS205, Single Pole, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/51uFhM+11bL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 21.99,
+      "rating": 4.6,
+      "reviews_count": 1147,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GR1TR26Y",
+      "brand": "Leviton",
+      "model": "D315S-1RW",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Not stated in listing",
+        "three_way_text": "Not stated in listing",
+        "style": "Decora paddle",
+        "extras": "My Leviton app"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Leviton's Decora smart switch with Matter ready out of the box. It's selling faster than anything else in this category.",
+      "pros": [
+        "3K+ bought in the past month",
+        "Works with Alexa, Google, Apple Home, SmartThings, and Home Assistant",
+        "Decora styling from a major electrical brand",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Costs about twice as much as Tapo and Kasa",
+        "Listing doesn't cover neutral or 3-way requirements",
+        "Thin listing with no spec table"
+      ],
+      "name": "Leviton Decora Smart Switch, Wi-Fi, D315S-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/61KwGf1AfBL._SL1500_.jpg",
+      "price": 34.99,
+      "rating": 4.4,
+      "reviews_count": 200,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0DCK65T2Y",
+      "brand": "Eve",
+      "model": "Light Switch (Matter)",
+      "specs": {
+        "radio": "Thread",
+        "neutral": "Not stated in listing",
+        "three_way_text": "Yes, replaces one switch",
+        "style": "Rocker",
+        "extras": "No cloud or account"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "The privacy pick. Eve runs entirely local over Thread with no Eve cloud or account, and it handles 3-way by replacing one switch.",
+      "pros": [
+        "Matter over Thread, so it doesn't load your Wi-Fi",
+        "No Eve cloud, no registration, no tracking",
+        "Works in single-pole or 3-way by replacing one switch",
+        "UL certified, sold by Amazon"
+      ],
+      "cons": [
+        "Needs a Thread border router (HomePod mini, Apple TV 4K, SmartThings hub, and others)",
+        "3.9-star rating",
+        "Most expensive switch on this list"
+      ],
+      "name": "Eve Light Switch (Matter) – Smart Wall Switch",
+      "image": "https://m.media-amazon.com/images/I/716NXTCmGxL._SL1500_.jpg",
+      "price": 43.95,
+      "rating": 3.9,
+      "reviews_count": 79,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0DN1H69ZP",
+      "brand": "Aqara",
+      "model": "H2 (1 channel)",
+      "specs": {
+        "radio": "Thread (or Zigbee)",
+        "neutral": "Optional",
+        "three_way_text": "Yes",
+        "style": "Two buttons",
+        "extras": "Decoupled scene button"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": true,
+        "energy_monitoring": true
+      },
+      "verdict": "The only Matter switch here that installs without a neutral. It runs Matter over Thread or Zigbee and handles 3-way.",
+      "pros": [
+        "Works with or without a neutral wire",
+        "Matter over Thread, or Zigbee with an Aqara hub",
+        "Single-pole and 3-way",
+        "Power monitoring when a neutral is connected"
+      ],
+      "cons": [
+        "3.8-star rating",
+        "Needs a Thread border router for Matter",
+        "Power monitoring and overload protection need a neutral"
+      ],
+      "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
+      "image": "https://m.media-amazon.com/images/I/61lq1-DChlL._SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.8,
+      "reviews_count": 58,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0HFK45TN2",
+      "brand": "Enbrighten",
+      "model": "Matter smart switch",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Not stated in listing",
+        "three_way_text": "Not stated in listing",
+        "style": "Paddle",
+        "extras": "Flying leads"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Enbrighten's new Matter over Wi-Fi switch, with flying leads and a shallow body for crowded boxes.",
+      "pros": [
+        "Color-coded flying leads and 20% shallower housing",
+        "Matter or the Enbrighten app, no hub",
+        "Wall switch keeps working when Wi-Fi is down",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Only 11 reviews so far",
+        "Listing doesn't cover 3-way or neutral requirements",
+        "Needs 2.4 GHz Wi-Fi"
+      ],
+      "name": "Enbrighten Smart Light Switch, Matter, Plastic Yoke, Flying Leads",
+      "image": "https://m.media-amazon.com/images/I/71xXm1++7XL._SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.6,
+      "reviews_count": 11,
+      "bought": null
+    },
+    {
+      "asin": "B0FSRR5K9J",
+      "brand": "SONOFF",
+      "model": "TX Gen2 T6-1C-120M",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Not listed",
+        "style": "Glass touch",
+        "extras": "Relay-decoupled mode"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "A cheap touch switch with a mode that keeps smart bulbs powered even when someone presses the button.",
+      "pros": [
+        "$15.90, the lowest price here",
+        "Independent relay mode keeps smart bulbs online",
+        "Dimmable LED locator light",
+        "Matter plus the eWeLink app"
+      ],
+      "cons": [
+        "Touch panel style",
+        "No 3-way listed",
+        "Needs 2.4 GHz Wi-Fi"
+      ],
+      "name": "SONOFF TX Gen2 Smart Wall Touch Switch, 1-Channel 120-Type Panel, 2.4GHz Wi-Fi, eWeLink App Control, Matter Compatible, Works with Apple Home/Google Home/Amazon Alexa - T6-1C-120M",
+      "image": "https://m.media-amazon.com/images/I/61BHW3zsE-L._SL1500_.jpg",
+      "price": 15.9,
+      "rating": 4.4,
+      "reviews_count": 71,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CLVQFLRY",
+      "brand": "Legrand",
+      "model": "Radiant Wi-Fi Matter",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Yes, with any 3-way switch",
+        "style": "Paddle",
+        "extras": "Screwless wallplate included"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "A Matter switch from Legrand's radiant line that works in a 3-way with any standard 3-way switch.",
+      "pros": [
+        "3-way with any ordinary 3-way switch",
+        "Screwless wallplate included",
+        "Matches other radiant switches and outlets",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.8-star rating",
+        "Needs a neutral wire",
+        "Needs WPA2 2.4 GHz Wi-Fi"
+      ],
+      "name": "Legrand Radiant Wi-Fi Matter Smart Light Switch, White 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61Q-7Nu9bbL._AC_SL1500_.jpg",
+      "price": 25.79,
+      "rating": 3.8,
+      "reviews_count": 50,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GLN62QJ7",
+      "brand": "LYSOME",
+      "model": "Matter smart switch",
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Yes, with mechanical switches",
+        "style": "Push button",
+        "extras": "UL, cUL, FCC"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "energy_monitoring": false
+      },
+      "verdict": "A budget Matter switch that handles 3-way with an ordinary switch at the other end and lists UL certification.",
+      "pros": [
+        "3-way with standard mechanical switches",
+        "UL, cUL, and FCC certified",
+        "Overload and overheat protection",
+        "Under 0.5 W standby power"
+      ],
+      "cons": [
+        "Only 25 reviews",
+        "Sold by a third-party seller",
+        "Spec table lists a 5 A rating"
+      ],
+      "name": "Matter Smart Light Switch, Voice Control Smart Wall Switch Compatible with Alexa & Google Assistant, APP Control and Timer Schedule, Neutral Wire Required, 3 Way, 2.4 GHz Wi-Fi, White, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61eDn5SvDPL._SL1500_.jpg",
+      "price": 20.99,
+      "rating": 4.0,
+      "reviews_count": 25,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DNSBH62L",
+      "brand": "MOES",
+      "model": "Matter-WiFi 1 gang switch",
+      "flag": "Title says 1-gang single switch, bullets describe a double switch",
+      "verdict": "You can't tell from this listing what you're buying. The title says a single 1-gang switch, and the bullets describe a double switch that controls two fixtures.",
+      "reasons": [
+        "The title reads \"1 Gang Switch\" while two bullets describe a \"double switch\" that controls two fixtures.",
+        "The listing names SmartThings and HomeKit for Matter but only Alexa for voice, so it's unclear what's actually supported.",
+        "No 3-way support, no smart bulbs, and no dimming, per its own note.",
+        "The Tapo S505 costs less, has 1,376 reviews, and clearly states what it does."
+      ],
+      "name": "MOES Matter-WiFi Smart 1 Gang Switch, Neutral Required",
+      "image": "https://m.media-amazon.com/images/I/61K0W6VT2IL._SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.0,
+      "reviews_count": 17,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Matter over Wi-Fi or Matter over Thread?",
+      "a": "Matter over Wi-Fi switches connect to your router like any Wi-Fi device and need nothing else. Matter over Thread switches need a Thread border router, such as a HomePod mini, Apple TV 4K, Nest Hub (2nd gen), or a recent Echo, but they form a low-power mesh that doesn't load your Wi-Fi."
+    },
+    {
+      "q": "Do I need a hub for a Matter switch?",
+      "a": "You need a Matter controller, which is usually a smart speaker or streaming box you already own. Apple, Google, Amazon, and Samsung all ship Matter controllers in their current hubs and speakers."
+    },
+    {
+      "q": "Can I use a Matter switch with Alexa and Apple Home at the same time?",
+      "a": "Yes. Matter's multi-admin feature lets you add the same switch to more than one ecosystem. Add it to the first app, then generate a pairing code from that app to share it with the second."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+    },
+    {
+      "q": "Will a smart switch work on a 3-way circuit?",
+      "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}

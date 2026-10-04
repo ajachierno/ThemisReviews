@@ -1,0 +1,496 @@
+{
+  "slug": "wifi-switches",
+  "family": "light-switches",
+  "family_title": "Light switches",
+  "noun": "switch",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Light Switches",
+  "subtitle": "No-hub smart switches that connect straight to your router.",
+  "intro": "We pulled the best-selling Wi-Fi light switches on Amazon and scored them on rating, review volume, and features: 3-way support, no-neutral options, and Apple Home support. Wi-Fi switches with Matter have their own page, so this list covers the app-based ones.",
+  "reviews_ceiling": 40000,
+  "feature_weights": {
+    "three_way": 0.4,
+    "alexa_and_google": 0.35,
+    "safety_listed": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "voice",
+      "label": "Voice"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "voice",
+      "label": "Voice"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B01EZV35QU",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Over 43,000 reviews at 4.5 stars, about $16, and a mature app with schedules and away mode."
+    },
+    {
+      "asin": "B095X911T8",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$14.99 and simple to set up, as long as Alexa is the only assistant you use."
+    },
+    {
+      "asin": "B07724HNTX",
+      "label": "Best for 3-Way",
+      "kind": "special",
+      "why": "A matched main and companion switch for stairways and hallways, with nearly 20,000 reviews."
+    },
+    {
+      "asin": "B0DHYLF7PQ",
+      "label": "Best Multipack",
+      "kind": "premium",
+      "why": "Four switches for about $43, or under $11 each, with a 4.6-star rating."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B01EZV35QU",
+      "brand": "Kasa",
+      "model": "HS200",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Kasa or Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "The best-selling smart switch on Amazon for good reason: it's cheap, reliable, and the Kasa app is easy to live with.",
+      "pros": [
+        "43,194 reviews at 4.5 stars and 6K+ bought in the past month",
+        "Works with Alexa and Google Assistant, no hub",
+        "Schedules, countdowns, and an away mode that randomizes the lights",
+        "UL certified, sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only; the 3-way version is a separate kit",
+        "Needs a neutral wire and 2.4 GHz Wi-Fi",
+        "No Apple Home or Matter"
+      ],
+      "name": "Kasa Smart Light Switch, Single Pole, Need Neutral Wire, HS200",
+      "image": "https://m.media-amazon.com/images/I/611JGGx4DPL._SL1500_.jpg",
+      "price": 15.99,
+      "rating": 4.5,
+      "reviews_count": 43194,
+      "bought": "6K+ bought in past month"
+    },
+    {
+      "asin": "B07724HNTX",
+      "brand": "Kasa",
+      "model": "HS210 kit",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, kit included",
+        "app": "Kasa or Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "Main + companion switch"
+      },
+      "features": {
+        "three_way": true,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "The easy answer for a light controlled from two places. The kit includes both switches, so you replace both ends at once.",
+      "pros": [
+        "Complete 3-way kit in one box",
+        "19,918 reviews at 4.6 stars",
+        "Also works as a single-pole switch",
+        "Alexa and Google with no hub"
+      ],
+      "cons": [
+        "Costs about twice as much as a single HS200",
+        "Needs a neutral wire",
+        "No Apple Home or Matter"
+      ],
+      "name": "Kasa Smart 3 Way Switch, HS210 KIT, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/61wXUxO7APL._SL1500_.jpg",
+      "price": 32.99,
+      "rating": 4.6,
+      "reviews_count": 19918,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B07R7PCCT9",
+      "brand": "TREATLIFE",
+      "model": "Single pole smart switch",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "A popular, well-rated budget switch that runs on the Smart Life app.",
+      "pros": [
+        "4.5 stars from 4,265 reviews",
+        "Alexa and Google with no hub",
+        "Schedules and countdown timers"
+      ],
+      "cons": [
+        "Single-pole only, per the listing",
+        "No safety certification named in the listing",
+        "Smart Life is a cloud-based app"
+      ],
+      "name": "TREATLIFE Single Pole Smart Light Switch, Neutral Wire Required, 2.4GHz Wi-Fi Light Switch, Works with Alexa and Google Home, Schedule, Remote Control",
+      "image": "https://m.media-amazon.com/images/I/61wzwQdVeGL._AC_SL1500_.jpg",
+      "price": 17.09,
+      "rating": 4.5,
+      "reviews_count": 4265,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B095X911T8",
+      "brand": "Amazon Basics",
+      "model": "Smart Light Switch",
+      "specs": {
+        "neutral": "Not stated in listing",
+        "three_way_text": "No (single pole)",
+        "app": "Alexa app",
+        "voice": "Alexa only",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": false,
+        "safety_listed": false
+      },
+      "verdict": "The cheapest way to add a switch to an Alexa home. It's set up and controlled entirely through the Alexa app.",
+      "pros": [
+        "$14.99, the lowest price on this list",
+        "Sets up in the Alexa app with no extra app",
+        "4.4 stars from 4,184 reviews, sold by Amazon",
+        "Schedules through Alexa routines"
+      ],
+      "cons": [
+        "Works with Alexa only, not Google or Apple",
+        "Single-pole only",
+        "Useless if you ever leave Alexa"
+      ],
+      "name": "Amazon Basics Smart Light Switch, Single Pole, Works with Alexa Only, Voice Control, Schedule, 2.4 GHz Wi-Fi, No Hub Required, Easy to Install, White",
+      "image": "https://m.media-amazon.com/images/I/618hX8ZtV-L._AC_SL1500_.jpg",
+      "price": 14.99,
+      "rating": 4.4,
+      "reviews_count": 4184,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0BS3LG9TX",
+      "brand": "GHome",
+      "model": "SW5",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "GHome",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "A cheap, UL and FCC certified switch with a 4.5-star rating and 1,800 W capacity.",
+      "pros": [
+        "UL and FCC certified",
+        "Rated 15 A, 1,800 W",
+        "Alexa and Google with no hub",
+        "Group control for whole-house off"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Sold by a third-party seller"
+      ],
+      "name": "GHome Smart Light Switch, Single Pole, SW5-1 Pack, Neutral Wire Required",
+      "image": "https://m.media-amazon.com/images/I/61XSCQRd1FL._SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.5,
+      "reviews_count": 1555,
+      "bought": null
+    },
+    {
+      "asin": "B0DHYLF7PQ",
+      "brand": "Tapo",
+      "model": "S500 (4-pack)",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "4 switches"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "TP-Link's Tapo switch in a four-pack. If you're doing several rooms, it's the cheapest per switch on this list.",
+      "pros": [
+        "Four switches for under $11 each",
+        "4.6 stars from 862 reviews",
+        "UL certified with a 2-year warranty",
+        "Away mode and schedules"
+      ],
+      "cons": [
+        "Only sold as a 4-pack in this listing",
+        "Single-pole only",
+        "Needs a neutral wire"
+      ],
+      "name": "Tapo Smart Light Switch, Single Pole, Need Neutral Wire, S500(4-Pack)",
+      "image": "https://m.media-amazon.com/images/I/61VvHFGA9PL._SL1500_.jpg",
+      "price": 42.99,
+      "rating": 4.6,
+      "reviews_count": 862,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B07DXDP662",
+      "brand": "Lesim",
+      "model": "1 gang touch switch",
+      "specs": {
+        "neutral": "Not stated in listing",
+        "three_way_text": "No (1-way)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Glass touch",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "A glass touch panel for people who want the switch to look modern. Works with the Smart Life app.",
+      "pros": [
+        "Glass touch panel",
+        "UL certified",
+        "Alexa and Google with no hub",
+        "Group control and device sharing"
+      ],
+      "cons": [
+        "Touch panel isn't for everyone",
+        "Listing doesn't say whether a neutral is required",
+        "Single-pole only"
+      ],
+      "name": "Smart Light Switch WiFi Wall Switch Touch Switch 1 Gang, Voice Control, Remote Control, Timer & Schedule UL Certified, No Hub Required",
+      "image": "https://m.media-amazon.com/images/I/51awkPxvOlL._AC_SL1300_.jpg",
+      "price": 19.99,
+      "rating": 4.2,
+      "reviews_count": 638,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B078ZNJNSK",
+      "brand": "Nexete",
+      "model": "Smart Wi-Fi switch",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life or Tuya",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "A basic Tuya-based switch that also works with IFTTT. Nothing special, but it's well rated.",
+      "pros": [
+        "4.4 stars from 253 reviews",
+        "Works with Alexa, Google, and IFTTT",
+        "Can control lights or fans"
+      ],
+      "cons": [
+        "Single-pole only",
+        "No safety certification named in the listing",
+        "Needs a neutral wire"
+      ],
+      "name": "Smart WiFi Switch - Wireless Smartphone Controlled Wall Light Switch, Compatible with Alexa, Google Home, IFTTT, Android & iOS - No Hub Required (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/41lEez693TL._AC_SL1024_.jpg",
+      "price": 18.97,
+      "rating": 4.4,
+      "reviews_count": 253,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0D2X8HCQD",
+      "brand": "MOES",
+      "model": "Smart toggle switch",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, replaces one or both",
+        "app": "MOES / Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Self-locking toggle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": true,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "One of the few Wi-Fi switches with a real toggle that stays in place, and it handles 3-way.",
+      "pros": [
+        "Self-locking toggle shows on or off at a glance",
+        "Works single-pole or 3-way, replacing one or both switches",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "3.7-star rating",
+        "Can't control fans or smart bulbs, per the listing",
+        "No safety certification named in the listing"
+      ],
+      "name": "MOES Smart Toggle Switch, Single Pole & 3-Way, WiFi, Neutral Wire Required",
+      "image": "https://m.media-amazon.com/images/I/61zl0BVnX5L._SL1500_.jpg",
+      "price": 24.99,
+      "rating": 3.7,
+      "reviews_count": 77,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07KYX37T8",
+      "brand": "BN-LINK",
+      "model": "In-wall smart switch",
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "Cheap and widely bought, but reviews are lukewarm. Fine for a low-stakes room.",
+      "pros": [
+        "Under $14",
+        "Alexa and Google with no hub",
+        "AP mode if normal pairing fails"
+      ],
+      "cons": [
+        "3.7-star rating from 786 reviews",
+        "Single-pole only",
+        "No safety certification named in the listing"
+      ],
+      "name": "BN-LINK WiFi Smart in-Wall Light Switch, No Hub Required with Timer Function, White, Compatible with Alexa and Google Assistant, Neutral Wire Needed, 2.4 Ghz Network Only",
+      "image": "https://m.media-amazon.com/images/I/413FnzHtgoL._SL1500_.jpg",
+      "price": 13.66,
+      "rating": 3.7,
+      "reviews_count": 786,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CGMWH2XV",
+      "brand": "Bkiyougo",
+      "model": "10A wireless smart switch (2-pack)",
+      "flag": "A bare relay module sold as a light switch, with contradictory ratings",
+      "verdict": "It's listed as a Wi-Fi light switch, but it's a bare relay module meant to be wired into a circuit, and its own ratings don't agree with each other.",
+      "reasons": [
+        "The title says 10 A, the spec table says 16 A, and a bullet claims 3,500 W at 10 A max. At 120 V, 10 A is 1,200 W, so those figures can't all be true.",
+        "It isn't a wall switch. It's a DIY module rated for 100 to 240 V that you hide in a box and wire yourself.",
+        "The bullet meant to describe compatibility says it's \"Incompatible with any household appliances.\"",
+        "The listing names no safety certification beyond FCC, which covers radio emissions, not electrical safety."
+      ],
+      "name": "10A Wireless Smart Switch, Wi-Fi Light Switch Compatible with Alexa & Google Home & SmartThings, FCC Certified, No Hub Required Support DIY Module(2 Pack)",
+      "image": "https://m.media-amazon.com/images/I/612A-d+IGzL._SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.2,
+      "reviews_count": 273,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will a Wi-Fi switch work on a 5 GHz network?",
+      "a": "Almost every Wi-Fi switch here needs 2.4 GHz. Most routers broadcast both bands under one name, and that usually works. If setup fails, turn on a separate 2.4 GHz network temporarily or stand near the router."
+    },
+    {
+      "q": "What happens when the internet goes down?",
+      "a": "The switch still works as a wall switch. App control and voice control often stop, because many Wi-Fi switches route commands through the maker's cloud. Matter and Apple Home models can keep working locally on your network."
+    },
+    {
+      "q": "How many Wi-Fi switches can my router handle?",
+      "a": "It depends on the router. Many consumer models cope with 30 to 50 devices, and some cheaper ones struggle earlier. If you plan to put a switch in every room, a mesh Wi-Fi system or a hub-based protocol such as Z-Wave, Zigbee, or Thread puts less load on your network."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+    },
+    {
+      "q": "Will a smart switch work on a 3-way circuit?",
+      "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}

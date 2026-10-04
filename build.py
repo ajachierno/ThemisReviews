@@ -5,6 +5,7 @@ Zero dependencies. Run:  python build.py
 """
 import html
 import json
+import math
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -32,7 +33,7 @@ def base_url(site):
 
 
 def page(site, title, body, is_home=False, description=None, canonical="",
-         structured_data=""):
+         structured_data="", updated=None):
     desc = description or site["description"]
     base = base_url(site)
     image = f"{base}/assets/logo.jpg" if base else "assets/logo.jpg"
@@ -84,7 +85,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
   <p class="disclosure"><b>Affiliate disclosure.</b> {esc(site['brand'])} is reader-supported.
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings come from Amazon and change over time.</p>
-  <p class="muted">{home_link}Last updated on {esc(site['updated'])}. Not affiliated with Amazon,
+  <p class="muted">{home_link}Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon,
   the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
@@ -186,6 +187,238 @@ def build_home(site):
         encoding="utf-8")
 
 
+# --------------------------------------------------------------------------- category pages
+# Each ready sub-page has data/pages/<slug>.json: products (up to 10), one avoid pick,
+# editorial awards, scoring weights, spec/table columns, and a buyer's guide.
+
+def amazon_url(site, asin):
+    base = f"https://{site['amazon_domain']}/dp/{asin}"
+    return f"{base}?tag={site['affiliate_tag']}&linkCode=ll1" if site["affiliate_tag"] else base
+
+
+def money(v):
+    return f"${v:,.2f}"
+
+
+def stars(rating):
+    pct = round(rating / 5 * 100)
+    return f'<span class="stars" style="--pct:{pct}%" aria-label="{rating} out of 5 stars"></span>'
+
+
+def score_product(p, cat):
+    """Same 100-point scale as ToolboxTop10: rating, review volume (log scale), features."""
+    w = cat["weights"]
+    rating_s = p["rating"] / 5.0
+    reviews_s = min(1.0, math.log10(p["reviews_count"] + 1) / math.log10(cat.get("reviews_ceiling", 20000)))
+    feat_s = min(1.0, sum(cat["feature_weights"].get(k, 0) for k, on in p["features"].items() if on))
+    return round((w["rating"] * rating_s + w["reviews"] * reviews_s + w["features"] * feat_s) * 100)
+
+
+def rank_products(cat):
+    for p in cat["products"]:
+        p["score"] = score_product(p, cat)
+        p["awards"] = []
+    ranked = sorted(cat["products"], key=lambda p: (-p["score"], -p["reviews_count"]))
+    for i, p in enumerate(ranked, 1):
+        p["rank"] = i
+    by_asin = {p["asin"]: p for p in ranked}
+    for a in cat.get("awards", []):
+        by_asin[a["asin"]]["awards"].append(a)
+    return ranked
+
+
+def spec_value(p, field):
+    if field.get("type") == "bool":
+        return "Yes" if p["features"].get(field["key"]) else "No"
+    v = p["specs"].get(field["key"])
+    return "&mdash;" if v in (None, "") else esc(v)
+
+
+def render_award(a, p, site):
+    return f"""
+    <a class="hero-card {esc(a['kind'])}" href="{amazon_url(site, p['asin'])}" target="_blank" rel="sponsored nofollow noopener">
+      <span class="hero-tag">{esc(a['label'])}</span>
+      <img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy">
+      <div class="hero-body">
+        <div class="hero-brand">{esc(p['brand'])}</div>
+        <div class="hero-name">{esc(p['brand'])} {esc(p['model'])}</div>
+        <div class="hero-meta">{stars(p['rating'])} <b>{p['rating']}</b> <span class="muted">({p['reviews_count']:,})</span></div>
+        <p class="hero-why">{esc(a['why'])}</p>
+        <div class="hero-price">{money(p['price'])}</div>
+        <span class="btn">View on Amazon &rarr;</span>
+      </div>
+    </a>"""
+
+
+def render_table(ranked, avoid, columns):
+    heads = "".join(f"<th>{esc(c['label'])}</th>" for c in columns)
+    rows = []
+    for p in ranked:
+        cells = "".join(f"<td>{spec_value(p, c)}</td>" for c in columns)
+        rows.append(f'<tr><td class="c">{p["rank"]}</td>'
+                    f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
+                    f'<td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
+                    f'<td class="c">{p["reviews_count"]:,}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
+    for a in avoid:
+        rows.append(f'<tr class="avoid-row"><td class="c">&#10005;</td>'
+                    f'<td><a href="#avoid-{esc(a["asin"])}">{esc(a["brand"])} {esc(a["model"])}</a></td>'
+                    f'<td>{money(a["price"])}</td><td class="c">{a["rating"]}</td>'
+                    f'<td class="c">{a["reviews_count"]:,}</td>'
+                    f'<td colspan="{len(columns)}">{esc(a["flag"])}</td><td class="c"><b>AVOID</b></td></tr>')
+    return (f'<div class="tablewrap"><table class="ptable"><thead><tr><th>#</th><th>Switch</th><th>Price</th>'
+            f'<th>Rating</th><th>Reviews</th>{heads}<th>Score</th></tr></thead>'
+            f'<tbody>{"".join(rows)}</tbody></table></div>')
+
+
+def render_card(p, site, spec_fields):
+    url = amazon_url(site, p["asin"])
+    badges = "".join(f'<span class="badge {esc(a["kind"])}">{esc(a["label"])}</span>' for a in p["awards"])
+    specs = "".join(f'<div class="spec"><dt>{esc(f["label"])}</dt><dd>{spec_value(p, f)}</dd></div>'
+                    for f in spec_fields)
+    pros = "".join(f"<li>{esc(x)}</li>" for x in p["pros"])
+    cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
+    bought = f'<div class="tiny muted">{esc(p["bought"])}</div>' if p.get("bought") else ""
+    return f"""
+    <article class="card{' awarded' if p['awards'] else ''}" id="{esc(p['asin'])}">
+      <div class="rank">#{p['rank']}</div>
+      <div class="card-head">
+        <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges">{badges}</div>
+          <div class="brand">{esc(p['brand'])}</div>
+          <h3>{esc(p['name'])}</h3>
+          <div class="rate">{stars(p['rating'])} <b>{p['rating']}</b> <span class="muted">{p['reviews_count']:,} reviews</span></div>
+          <div class="scorebar"><span style="width:{p['score']}%"></span><em>Score {p['score']}/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">{money(p['price'])}</div>
+          <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          {bought}
+        </div>
+      </div>
+      <p class="verdict">{esc(p['verdict'])}</p>
+      <dl class="specs">{specs}</dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul>{pros}</ul></div>
+        <div class="cons"><h4>Cons</h4><ul>{cons}</ul></div>
+      </div>
+    </article>"""
+
+
+def render_avoid(avoid, site, noun):
+    cards = []
+    for a in avoid:
+        reasons = "".join(f"<li>{esc(r)}</li>" for r in a["reasons"])
+        cards.append(f"""
+      <article class="avoid-card" id="avoid-{esc(a['asin'])}">
+        <span class="avoid-flag">&#10005; Avoid</span>
+        <div class="avoid-head">
+          <div class="card-img"><img src="{esc(a['image'])}" alt="{esc(a['name'])}" loading="lazy"></div>
+          <div class="card-title">
+            <div class="brand">{esc(a['brand'])}</div>
+            <h3>{esc(a['name'])}</h3>
+            <div class="rate">{stars(a['rating'])} <b>{a['rating']}</b> <span class="muted">{a['reviews_count']:,} reviews &middot; {money(a['price'])}</span></div>
+          </div>
+        </div>
+        <p class="verdict"><b>{esc(a['verdict'])}</b></p>
+        <div class="reasons"><h4>Why we'd skip it</h4><ul>{reasons}</ul></div>
+        <a class="btn ghost" href="{amazon_url(site, a['asin'])}" target="_blank" rel="sponsored nofollow noopener">See the listing on Amazon (so you recognize it)</a>
+      </article>""")
+    return f"""
+  <section class="avoid" id="avoid">
+    <h2>The one to avoid</h2>
+    <p class="avoid-lead">This {esc(noun)} turns up in the search results but has problems serious enough that we'd keep looking.</p>
+    {''.join(cards)}
+  </section>"""
+
+
+def render_family_links(site, cat):
+    """Links to the same product type on the other protocols (e.g. every light-switch page)."""
+    links = []
+    for proto in site["protocols"]:
+        for s in proto["subs"]:
+            if s.get("ready") and s.get("family") == cat.get("family") and s["slug"] != cat["slug"]:
+                links.append(f'<a class="sub-link" href="{esc(s["slug"])}.html">{esc(s["title"])} <span class="arrow">&rarr;</span></a>')
+    if not links:
+        return ""
+    return f"""
+  <section id="other">
+    <h2>{esc(cat['family_title'])} on other protocols</h2>
+    <div class="sub-grid flat">{''.join(links)}</div>
+  </section>"""
+
+
+def build_category(site, proto, sub):
+    cat = load(f"pages/{sub['slug']}.json")
+    ranked = rank_products(cat)
+    by_asin = {p["asin"]: p for p in ranked}
+    awards = "".join(render_award(a, by_asin[a["asin"]], site) for a in cat["awards"])
+    cards = "".join(render_card(p, site, cat["spec_fields"]) for p in ranked)
+    guide = "".join(f"<details><summary>{esc(g['q'])}</summary><p>{esc(g['a'])}</p></details>"
+                    for g in cat["buyers_guide"])
+    n = len(ranked)
+    jump = ('<nav class="jump" aria-label="On this page"><a href="#picks" class="jump-all">Top picks</a>'
+            '<a href="#compare">Compare</a><a href="#ranked">Full list</a>'
+            + ('<a href="#avoid" class="avoid-link">Avoid</a>' if cat["avoid"] else "")
+            + '<a href="#guide">Buyer\'s guide</a></nav>')
+    body = f"""
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; <a href="./#{esc(proto['slug'])}">{esc(proto['name'])}</a> &rsaquo; {esc(sub['title'])}</nav>
+  <section class="lead">
+    <h1>{esc(cat['title'])}</h1>
+    <p class="sub">{esc(cat['subtitle'])}</p>
+    <p class="intro">{esc(cat['intro'])}</p>
+    <p class="muted tiny">Prices, ratings, and review counts captured from Amazon on {esc(cat['data_captured'])}.</p>
+  </section>
+  {jump}
+  <section id="picks">
+    <h2>Our picks</h2>
+    <div class="heroes">{awards}</div>
+  </section>
+  <section id="compare">
+    <h2>Side-by-side</h2>
+    <p class="swipe-hint">Swipe the table sideways to see every column.</p>
+    {render_table(ranked, cat['avoid'], cat['table_columns'])}
+  </section>
+  <section id="ranked">
+    <h2>The full ranking</h2>
+    <p class="group-sub">Scored out of 100: {round(cat['weights']['rating']*100)}% customer rating, {round(cat['weights']['reviews']*100)}% review volume, {round(cat['weights']['features']*100)}% features.</p>
+    {cards}
+  </section>
+  {render_avoid(cat['avoid'], site, cat.get('noun', 'product')) if cat['avoid'] else ''}
+  <section id="guide" class="guide">
+    <h2>Buyer's guide</h2>
+    {guide}
+  </section>
+  {render_family_links(site, cat)}"""
+    base = base_url(site)
+    url = f"{base}/{sub['slug']}.html" if base else ""
+    items = {"@context": "https://schema.org", "@type": "ItemList", "name": cat["title"],
+             "itemListElement": [{"@type": "ListItem", "position": p["rank"], "name": p["name"],
+                                  "url": amazon_url(site, p["asin"])} for p in ranked]}
+    faq = {"@context": "https://schema.org", "@type": "FAQPage",
+           "mainEntity": [{"@type": "Question", "name": g["q"],
+                           "acceptedAnswer": {"@type": "Answer", "text": g["a"]}} for g in cat["buyers_guide"]]}
+    (OUT / f"{sub['slug']}.html").write_text(
+        page(site, f"{cat['title']} ({cat['data_captured'][:4]}) | {site['brand']}", body,
+             description=cat["intro"], canonical=url, structured_data=jsonld(items, faq),
+             updated=cat["data_captured"]),
+        encoding="utf-8")
+    picks = ", ".join(f"{a['label']} = {by_asin[a['asin']]['brand']} {by_asin[a['asin']]['model']}" for a in cat["awards"])
+    print(f"  {sub['slug']}: {n} products + {len(cat['avoid'])} avoid; {picks}")
+    return url
+
+
+def build_sitemap(site, urls):
+    base = base_url(site)
+    if not base:
+        return
+    locs = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{esc(site['updated'])}</lastmod></url>" for u in urls)
+    (OUT / "sitemap.xml").write_text(
+        f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{locs}</urlset>\n',
+        encoding="utf-8")
+    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+
+
 def main():
     site = load("site.json")
     ASSETS.mkdir(parents=True, exist_ok=True)
@@ -194,7 +427,14 @@ def main():
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"] + "\n", encoding="utf-8")
     build_home(site)
-    print(f"Built home page with {len(site['protocols'])} protocols -> {OUT}")
+    print(f"Built home page with {len(site['protocols'])} protocols")
+    urls = [f"{base_url(site)}/"]
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if sub.get("ready"):
+                urls.append(build_category(site, proto, sub))
+    build_sitemap(site, urls)
+    print(f"{len(urls) - 1} category pages -> {OUT}")
 
 
 CSS = r"""
@@ -278,7 +518,8 @@ details.subs>summary:focus-visible{outline:2px solid var(--gold);outline-offset:
   grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}
 .sub-link{display:flex;align-items:center;justify-content:space-between;gap:8px;
   background:var(--card);border:1px solid var(--line);border-radius:9px;padding:10px 12px;font-size:.92rem}
-a.sub-link:hover{border-color:var(--gold);color:var(--gold-ink)}
+a.sub-link{color:var(--gold-ink);border-color:rgba(216,178,90,.45)}
+a.sub-link:hover{border-color:var(--gold);background:var(--card-2)}
 .sub-link.soon{color:var(--muted)}
 .soon-tag{flex:none;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;
   border:1px solid var(--line);border-radius:20px;padding:1px 8px}
@@ -288,6 +529,86 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 footer .muted{font-size:.85rem}
 footer a{color:var(--gold-ink)}
 .to-top{display:none}
+/* category pages */
+.tiny{font-size:.8rem} .c{text-align:center}
+.crumbs{font-size:.85rem;color:var(--muted);margin:4px 0 0} .crumbs a{color:var(--gold-ink)}
+.lead .intro{max-width:75ch;margin:.6em 0}
+.stars{--pct:100%;display:inline-block;width:88px;height:16px;vertical-align:-2px;
+  background:linear-gradient(90deg,var(--gold) var(--pct),#3a3558 var(--pct));
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.6' height='16' viewBox='0 0 20 20'%3E%3Cpath d='M10 1l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9 4.8 17.6l1-5.8L1.5 7.7l5.9-.9z'/%3E%3C/svg%3E");
+  mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.6' height='16' viewBox='0 0 20 20'%3E%3Cpath d='M10 1l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9 4.8 17.6l1-5.8L1.5 7.7l5.9-.9z'/%3E%3C/svg%3E");
+  -webkit-mask-size:17.6px 16px;mask-size:17.6px 16px;-webkit-mask-repeat:repeat-x;mask-repeat:repeat-x}
+.btn{display:inline-block;background:var(--gold);color:#1a1405;font-weight:700;padding:9px 16px;border-radius:9px;font-size:.92rem}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--gold-ink);padding:6px 0}
+.heroes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:20px}
+.hero-card{display:flex;flex-direction:column;gap:10px;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:22px 18px 18px;border-top:4px solid var(--pro);position:relative;transition:transform .1s}
+.hero-card:hover{transform:translateY(-2px)}
+.hero-card img{width:100%;height:150px;object-fit:contain;background:#fff;border-radius:10px}
+.hero-tag{position:absolute;top:-12px;left:16px;background:var(--pro);color:#08130c;font-size:.72rem;font-weight:800;
+  letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:20px}
+.hero-card.budget{border-top-color:#5b9bff} .hero-card.budget .hero-tag{background:#5b9bff;color:#06101f}
+.hero-card.premium{border-top-color:var(--purple)} .hero-card.premium .hero-tag{background:var(--purple);color:#fff}
+.hero-card.special{border-top-color:var(--gold)} .hero-card.special .hero-tag{background:var(--gold);color:#1a1405}
+.hero-brand{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.hero-name{font-weight:700}
+.hero-why{margin:4px 0 0;font-size:.9rem;color:var(--muted)}
+.hero-price{font-size:1.4rem;font-weight:800;margin-top:auto}
+.hero-card .btn{text-align:center}
+.ptable{min-width:900px}
+.ptable td{white-space:nowrap} .ptable td:nth-child(n+6){white-space:normal;min-width:110px} .ptable td:first-child{font-weight:400}
+.ptable a{color:var(--gold-ink);font-weight:600}
+tr.avoid-row td{background:#2a1420;color:#ff9d94;font-weight:600;white-space:normal}
+tr.avoid-row a{color:#ff9d94;text-decoration:underline}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;margin:18px 0;position:relative;overflow:hidden}
+.card.awarded{border:1px solid rgba(216,178,90,.35)}
+.rank{position:absolute;top:0;left:0;background:var(--ink);color:var(--bg);font-weight:800;font-size:.95rem;padding:4px 12px;border-bottom-right-radius:12px}
+.card.awarded .rank{background:var(--gold)}
+.card-head{display:grid;grid-template-columns:132px 1fr auto;gap:18px;align-items:start}
+.card-img img{width:132px;height:132px;object-fit:contain;background:#fff;border-radius:10px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;min-height:4px}
+.badge{display:inline-block;background:var(--pro);color:#08130c;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.03em;padding:2px 9px;border-radius:20px}
+.badge.budget{background:#5b9bff;color:#06101f} .badge.premium{background:var(--purple);color:#fff} .badge.special{background:var(--gold);color:#1a1405}
+.card-title .brand{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:6px}
+.card-title h3{margin:.1em 0 .4em;font-size:1.08rem;line-height:1.35}
+.rate b{margin:0 4px 0 6px}
+.scorebar{position:relative;height:8px;background:var(--line);border-radius:6px;margin:12px 0 0;max-width:280px}
+.scorebar span{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--purple),var(--gold));border-radius:6px}
+.scorebar em{position:absolute;right:-2px;top:12px;font-size:.75rem;color:var(--muted);font-style:normal}
+.card-buy{text-align:right}
+.price{font-size:1.6rem;font-weight:800}
+.card-buy .btn{margin:8px 0 6px}
+.card .verdict{margin:22px 0 14px}
+.specs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 18px;margin:0 0 16px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.spec dt{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.spec dd{margin:2px 0 0;font-weight:600;font-size:.92rem}
+.pc h4{margin:0 0 6px} .pros h4{color:var(--pro)} .cons h4{color:var(--con)}
+.avoid h2{color:#ff6b5c}
+.avoid-lead{max-width:75ch;color:var(--muted)}
+.avoid-card{position:relative;background:var(--card);border:2px solid #e0483c;border-radius:var(--radius);padding:22px;margin:18px 0;box-shadow:var(--shadow)}
+.avoid-flag{position:absolute;top:-13px;left:18px;background:#c0261e;color:#fff;font-weight:800;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;padding:4px 14px;border-radius:20px}
+.avoid-head{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:center}
+.avoid-card .card-img img{width:110px;height:110px}
+.avoid-card .verdict{background:none;border:0;padding:0;color:#ff9d94}
+.reasons h4{margin:0 0 6px;color:#ff6b5c} .reasons ul{margin:0 0 16px;padding-left:20px} .reasons li{margin:6px 0}
+.guide details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:8px 0}
+.guide summary{font-weight:700;cursor:pointer}
+.guide details p{margin:.6em 0 0;color:var(--muted)}
+.sub-grid.flat{padding:0}
+@media (max-width:720px){
+  .heroes{grid-template-columns:1fr}
+  .card{padding:16px}
+  .card-head{grid-template-columns:96px 1fr;gap:12px}
+  .card-img img{width:96px;height:96px}
+  .card-buy{grid-column:1/-1;display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px 12px;text-align:left}
+  .card-buy .price{font-size:1.45rem}
+  .card-buy .btn{grid-row:2;grid-column:1/-1;text-align:center;padding:13px 16px;margin:0}
+  .specs{grid-template-columns:repeat(2,1fr)}
+  .ptable td:nth-child(2),.ptable th:nth-child(2){position:sticky;left:0;z-index:1;background:var(--card);white-space:normal;min-width:120px}
+  .ptable th:nth-child(2){background:#1e1a3a}
+  #compare .ptable tr>:first-child{position:static;box-shadow:none}
+}
 @media (max-width:720px){
   header.site{padding:10px 16px}
   .home-head{padding-top:12px}
