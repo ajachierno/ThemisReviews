@@ -61,6 +61,8 @@
   function open(){ if(sub.value){ window.location.href = sub.value + '.html'; } }
   proto.addEventListener('change', fill);
   sub.addEventListener('change', function(){ go.disabled = !sub.value; });
+  var cur = null;
+  if(cur){ proto.value = cur[0]; fill(); sub.value = cur[1]; go.disabled = true; }
   sub.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ open(); } });
   go.addEventListener('click', open);
 })();</script>

@@ -101,8 +101,19 @@ footer a{color:var(--gold-ink)}
 .quicknav select:focus-visible,.quicknav .btn:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 .quicknav option:disabled{color:#7d7896}
 .quicknav .btn{border:0;cursor:pointer;font:inherit;font-weight:700;padding:10px 22px}
+.quicknav-bar{margin:4px 0 14px;padding:10px 12px;border-left-width:1px}
+.quicknav-bar select{min-width:210px;padding:8px 36px 8px 12px;font-size:.9rem}
+.quicknav-bar .btn{padding:8px 18px}
+.back-home{display:inline-flex;align-items:center;background:var(--card-2);color:var(--ink);border:1px solid var(--line);
+  border-radius:9px;padding:8px 14px;font-size:.9rem;font-weight:600;white-space:nowrap}
+.back-home:hover{border-color:var(--gold);color:var(--gold-ink)}
+.back-home:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 @media (max-width:720px){
   .quicknav{padding:14px}
+  .quicknav-bar{padding:10px}
+  .quicknav-bar .quicknav-controls{grid-template-columns:1fr 1fr}
+  .quicknav-bar #qn-protocol,.quicknav-bar #qn-review{grid-column:1/-1}
+  .quicknav-bar .back-home{order:3;justify-content:center} .quicknav-bar #qn-go{order:4}
   .quicknav-controls{display:grid;grid-template-columns:1fr;gap:8px}
   .quicknav select{min-width:0;width:100%}
 }

@@ -178,8 +178,10 @@ def render_systems(site, data):
   </section>"""
 
 
-def render_quicknav(protocols):
-    """Protocol dropdown -> review dropdown -> Go. Planned pages show as disabled options."""
+def render_quicknav(protocols, compact=False, current=None):
+    """Protocol dropdown -> review dropdown -> Go. Planned pages show as disabled options.
+    compact: slim toolbar for category pages (no heading, adds a Home button).
+    current: (protocol_slug, page_slug) to preselect on a category page."""
     data = {p["slug"]: [{"slug": x["slug"], "title": x["title"], "ready": bool(x.get("ready"))} for x in p["subs"]]
             for p in protocols}
     opts = "".join(f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in protocols)
@@ -201,9 +203,27 @@ def render_quicknav(protocols):
   function open(){ if(sub.value){ window.location.href = sub.value + '.html'; } }
   proto.addEventListener('change', fill);
   sub.addEventListener('change', function(){ go.disabled = !sub.value; });
+  var cur = __CURRENT__;
+  if(cur){ proto.value = cur[0]; fill(); sub.value = cur[1]; go.disabled = true; }
   sub.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ open(); } });
   go.addEventListener('click', open);
-})();""".replace("__DATA__", json.dumps(data))
+})();""".replace("__DATA__", json.dumps(data)).replace("__CURRENT__", json.dumps(list(current) if current else None))
+    if compact:
+        return f"""
+  <nav class="quicknav quicknav-bar" aria-label="Jump straight to reviews">
+    <div class="quicknav-controls">
+      <a class="back-home" href="./">&larr; Home</a>
+      <select id="qn-protocol" aria-label="Protocol">
+        <option value="">Choose a protocol&hellip;</option>
+        {opts}
+      </select>
+      <select id="qn-review" aria-label="Review" disabled>
+        <option value="">Choose a review&hellip;</option>
+      </select>
+      <button type="button" id="qn-go" class="btn" disabled>Go</button>
+    </div>
+    <script>{js}</script>
+  </nav>"""
     return f"""
   <section class="quicknav" aria-labelledby="qn-h">
     <h2 id="qn-h">Jump straight to reviews</h2>
@@ -473,6 +493,7 @@ def build_category(site, proto, sub):
             + ('<a href="#avoid" class="avoid-link">Avoid</a>' if cat["avoid"] else "")
             + '<a href="#guide">Buyer\'s guide</a></nav>')
     body = f"""
+  {render_quicknav(site["protocols"], compact=True, current=(proto["slug"], sub["slug"]))}
   <nav class="crumbs"><a href="./">Home</a> &rsaquo; <a href="./#{esc(proto['slug'])}">{esc(proto['name'])}</a> &rsaquo; {esc(sub['title'])}</nav>
   <section class="lead">
     <h1>{esc(cat['title'])}</h1>
@@ -653,8 +674,19 @@ footer a{color:var(--gold-ink)}
 .quicknav select:focus-visible,.quicknav .btn:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 .quicknav option:disabled{color:#7d7896}
 .quicknav .btn{border:0;cursor:pointer;font:inherit;font-weight:700;padding:10px 22px}
+.quicknav-bar{margin:4px 0 14px;padding:10px 12px;border-left-width:1px}
+.quicknav-bar select{min-width:210px;padding:8px 36px 8px 12px;font-size:.9rem}
+.quicknav-bar .btn{padding:8px 18px}
+.back-home{display:inline-flex;align-items:center;background:var(--card-2);color:var(--ink);border:1px solid var(--line);
+  border-radius:9px;padding:8px 14px;font-size:.9rem;font-weight:600;white-space:nowrap}
+.back-home:hover{border-color:var(--gold);color:var(--gold-ink)}
+.back-home:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
 @media (max-width:720px){
   .quicknav{padding:14px}
+  .quicknav-bar{padding:10px}
+  .quicknav-bar .quicknav-controls{grid-template-columns:1fr 1fr}
+  .quicknav-bar #qn-protocol,.quicknav-bar #qn-review{grid-column:1/-1}
+  .quicknav-bar .back-home{order:3;justify-content:center} .quicknav-bar #qn-go{order:4}
   .quicknav-controls{display:grid;grid-template-columns:1fr;gap:8px}
   .quicknav select{min-width:0;width:100%}
 }
