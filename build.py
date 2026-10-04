@@ -552,14 +552,14 @@ def build_category(site, proto, sub):
         encoding="utf-8")
     picks = ", ".join(f"{a['label']} = {by_asin[a['asin']]['brand']} {by_asin[a['asin']]['model']}" for a in cat["awards"])
     print(f"  {sub['slug']}: {n} products + {len(cat['avoid'])} avoid; {picks}")
-    return url
+    return url, cat["data_captured"]
 
 
 def build_sitemap(site, urls):
     base = base_url(site)
     if not base:
         return
-    locs = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{esc(site['updated'])}</lastmod></url>" for u in urls)
+    locs = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{esc(d)}</lastmod></url>" for u, d in urls)
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{locs}</urlset>\n',
         encoding="utf-8")
@@ -575,7 +575,7 @@ def main():
         (OUT / "CNAME").write_text(site["custom_domain"] + "\n", encoding="utf-8")
     build_home(site)
     print(f"Built home page with {len(site['protocols'])} protocols")
-    urls = [f"{base_url(site)}/"]
+    urls = [(f"{base_url(site)}/", site["updated"])]
     for proto in site["protocols"]:
         for sub in proto["subs"]:
             if sub.get("ready"):

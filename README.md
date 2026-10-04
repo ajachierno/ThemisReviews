@@ -43,6 +43,9 @@ hand-edit them. The workflow lives in `research/`:
 3. `python research/merge.py <slug>` fills price, rating, review count, title, and image
    from the scrape into `data/pages/<slug>.json`. Numbers never come from the editorial file.
 4. Set `"ready": true` on the sub-page in `data/site.json`, then `python build.py`.
+5. Commit and push, wait for GitHub Pages to deploy, then `python research/gsc.py submit` to
+   resubmit the sitemap to Google Search Console (`python research/gsc.py status` shows
+   per-URL index status). Bump `updated` in `data/site.json` when the home page changes.
 
 Every product and avoid pick needs a `"systems"` list naming the smart home systems it
 works with (slugs from `data/systems.json`, or `[]` for standalone gear). `merge.py`
