@@ -357,11 +357,15 @@
         },
         {
           "slug": "bluetooth-trackers",
-          "title": "Bluetooth trackers"
+          "title": "Bluetooth trackers",
+          "family": "trackers",
+          "ready": true
         },
         {
           "slug": "bluetooth-proxies",
-          "title": "Bluetooth proxies"
+          "title": "Bluetooth proxies",
+          "family": "hubs",
+          "ready": true
         }
       ]
     },
@@ -405,7 +409,9 @@
         },
         {
           "slug": "thread-blinds",
-          "title": "Thread blinds and shades"
+          "title": "Thread blinds and shades",
+          "family": "blinds",
+          "ready": true
         },
         {
           "slug": "thread-border-routers",
@@ -583,7 +589,9 @@
         },
         {
           "slug": "rf-weather-stations",
-          "title": "433 MHz weather stations"
+          "title": "433 MHz weather stations",
+          "family": "weather-stations",
+          "ready": true
         },
         {
           "slug": "rf-temperature-sensors",
@@ -593,7 +601,9 @@
         },
         {
           "slug": "rf-bridges",
-          "title": "RF bridges and SDR receivers"
+          "title": "RF bridges and SDR receivers",
+          "family": "hubs",
+          "ready": true
         }
       ]
     }

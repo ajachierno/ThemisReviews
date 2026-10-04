@@ -1,0 +1,486 @@
+{
+  "slug": "thread-blinds",
+  "family": "blinds",
+  "family_title": "Blinds and shades",
+  "noun": "shade",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Thread and Matter Smart Blinds",
+  "subtitle": "Matter-over-Thread shade motors and motorized shades, ranked.",
+  "intro": "Thread blinds are new, so most have few reviews. We scored the Matter-over-Thread motors and shades on Amazon on rating, review volume, and features: retrofit fit, battery or solar power, and app support.",
+  "reviews_ceiling": 100,
+  "feature_weights": {
+    "remote": 0.3,
+    "no_cloud": 0.25,
+    "complete": 0.2,
+    "long_charge": 0.25
+  },
+  "systems_note": "Matter-over-Thread shades work with every Matter platform once you have a Thread border router.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "fit",
+      "label": "Fits"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "remote",
+      "label": "Remote included",
+      "type": "bool"
+    },
+    {
+      "key": "notes",
+      "label": "Notes"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "fit",
+      "label": "Fits"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "remote",
+      "label": "Remote",
+      "type": "bool"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D54KR9W7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Eve's retrofit motor with local Matter control, no cloud or account, and the most reviews of any Thread shade here."
+    },
+    {
+      "asin": "B0FG2C8W67",
+      "label": "Best Budget Kit",
+      "kind": "budget",
+      "why": "A Matter-over-Thread motor with a remote and bracket for $112.88."
+    },
+    {
+      "asin": "B0B4DK18Z3",
+      "label": "Best Complete Shade",
+      "kind": "special",
+      "why": "Made-to-measure SmartWings shades with a Matter motor option, rated 4.6 stars."
+    },
+    {
+      "asin": "B0FYM58RFW",
+      "label": "Best for Small Tubes",
+      "kind": "premium",
+      "why": "Fits 17, 25, and 28 mm tubes that 1.5 in. motors can't."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D54KR9W7",
+      "brand": "Eve",
+      "model": "MotionBlinds Upgrade Kit",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor",
+        "fit": "Existing roller blinds (check tube size)",
+        "power": "Not stated in bullets",
+        "remote": false,
+        "notes": "No cloud, no account"
+      },
+      "features": {
+        "remote": false,
+        "no_cloud": true,
+        "complete": false,
+        "long_charge": false
+      },
+      "verdict": "The most trusted retrofit motor: local Matter control with no cloud, sold by Amazon.",
+      "pros": [
+        "No Eve cloud, registration, or tracking",
+        "Replaces the chain in your existing blind",
+        "4.4 stars from 47 reviews, sold by Amazon"
+      ],
+      "cons": [
+        "$175.70",
+        "No remote listed",
+        "Power details aren't in the bullets"
+      ],
+      "name": "Eve Motionblinds Upgrade Kit for Roller Blinds (Matter)",
+      "image": "https://m.media-amazon.com/images/I/71SpuixWljL._AC_SL1500_.jpg",
+      "price": 175.7,
+      "rating": 4.4,
+      "reviews_count": 47,
+      "bought": null
+    },
+    {
+      "asin": "B0FG2C8W67",
+      "brand": "TeFei",
+      "model": "Matter roller shade motor kit",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor",
+        "fit": "1.5 in. (38 mm) tubes",
+        "power": "USB-C, 3-5 months per charge",
+        "remote": true,
+        "notes": "RF remote, 300 ft."
+      },
+      "features": {
+        "remote": true,
+        "no_cloud": false,
+        "complete": false,
+        "long_charge": true
+      },
+      "verdict": "A complete retrofit kit with motor, remote, and bracket for 1.5 in. shade tubes.",
+      "pros": [
+        "Remote and bracket included",
+        "3 to 5 months per USB-C charge",
+        "Works with roller, zebra, and Roman shades"
+      ],
+      "cons": [
+        "Only 12 reviews",
+        "1.5 in. tubes only",
+        "Sold by the brand"
+      ],
+      "name": "Smart Blinds Motor for 1.5\"(38mm) Shade Tube Work with Homekit, Build with Matter Over Thread, Type-C Rechargeable Roller Shade Motor, Work with HomeKit, Home Assistant, Alexa, Motorized Blinds",
+      "image": "https://m.media-amazon.com/images/I/618gCKxjoWL._AC_SL1500_.jpg",
+      "price": 112.88,
+      "rating": 4.4,
+      "reviews_count": 12,
+      "bought": null
+    },
+    {
+      "asin": "B0F42GMH45",
+      "brand": "TeFei",
+      "model": "Matter blinds motor kit (Home Assistant)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor",
+        "fit": "1.5 in. (38 mm) tubes",
+        "power": "USB-C, 3-5 months; 5 V option",
+        "remote": true,
+        "notes": "Names Home Assistant"
+      },
+      "features": {
+        "remote": true,
+        "no_cloud": false,
+        "complete": false,
+        "long_charge": true
+      },
+      "verdict": "TeFei's kit that also names Home Assistant, with a remote and an optional 5 V power supply.",
+      "pros": [
+        "Remote and bracket included",
+        "Optional 5 V wired power",
+        "Names Home Assistant"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "4.1 stars",
+        "1.5 in. tubes only"
+      ],
+      "name": "Matter Smart Blinds Motor Kit for 1.5\" Shade Tube, Type C Rechargeable Roller Shade Motor, Work with Thread Low Power Consumption, Home Assistant, Alexa, HomeKit Motorized Blinds",
+      "image": "https://m.media-amazon.com/images/I/6104mQIUqBL._AC_SL1500_.jpg",
+      "price": 112.68,
+      "rating": 4.1,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0GSR94QV1",
+      "brand": "TeFei",
+      "model": "Matter motor (motor only)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor",
+        "fit": "1.5 in. (38 mm) tubes, up to 11 lb.",
+        "power": "USB-C",
+        "remote": false,
+        "notes": "Needs an AC123 remote for setup"
+      },
+      "features": {
+        "remote": false,
+        "no_cloud": false,
+        "complete": false,
+        "long_charge": false
+      },
+      "verdict": "A cheaper motor-only pack for adding windows once you already own TeFei's AC123 remote.",
+      "pros": [
+        "$99.88",
+        "Lifts shades up to 11 lb.",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "Setup requires an AC123 remote, not included",
+        "No bracket",
+        "Only 12 reviews"
+      ],
+      "name": "Matter Roller Shade Motor - Expand Your Smart Home - Single Pack for 1.5\" Shade Tube - Work with HomeKit, Alexa, Google Home - Type-C Rechargeable, High Torque (No Brackets/Remote)",
+      "image": "https://m.media-amazon.com/images/I/519mzVnMRjL._AC_SL1500_.jpg",
+      "price": 99.88,
+      "rating": 4.4,
+      "reviews_count": 12,
+      "bought": null
+    },
+    {
+      "asin": "B0FYM58RFW",
+      "brand": "Benexmart",
+      "model": "Matter over Thread shade motor",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor",
+        "fit": "17, 25, and 28 mm tubes",
+        "power": "800 mAh built-in battery",
+        "remote": false,
+        "notes": "Two speeds"
+      },
+      "features": {
+        "remote": false,
+        "no_cloud": false,
+        "complete": false,
+        "long_charge": false
+      },
+      "verdict": "A motor for the smaller tubes found in many off-the-shelf roller blinds.",
+      "pros": [
+        "Fits 17, 25, and 28 mm tubes",
+        "Quiet and fast speed settings",
+        "$96.99"
+      ],
+      "cons": [
+        "Only 2 reviews",
+        "800 mAh battery",
+        "No remote listed"
+      ],
+      "name": "Matter Over Thread Smart Roller Shade Motor, Built-in Battery Blinds Motor for 17/25/28mm Tube, Automatic Blind Opener for HomeKit Google Home Alexa SmartThings (Motor+1-Channel Remote+Solar Panel)",
+      "image": "https://m.media-amazon.com/images/I/41bHzoXRopL._AC_SL1000_.jpg",
+      "price": 96.99,
+      "rating": 4.0,
+      "reviews_count": 2,
+      "bought": null
+    },
+    {
+      "asin": "B0B4DK18Z3",
+      "brand": "SmartWings",
+      "model": "Light filtering roller shade",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete custom shade",
+        "fit": "16-110 in. wide, 22-148 in. tall",
+        "power": "Rechargeable, 4-6 months",
+        "remote": true,
+        "notes": "Choose the SW301 Matter motor"
+      },
+      "features": {
+        "remote": true,
+        "no_cloud": false,
+        "complete": true,
+        "long_charge": true
+      },
+      "verdict": "A made-to-measure shade that arrives with the motor installed; pick the Matter motor for Thread.",
+      "pros": [
+        "Custom sizes",
+        "4 to 6 months per charge, solar option",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Pick the SW301 Matter motor; other options are Zigbee, Z-Wave, or RF",
+        "Ships in 5 to 6 days",
+        "Only 14 reviews"
+      ],
+      "name": "SmartWings Motorized Light Filtering Roller Shade 70% Blackout Linen White",
+      "image": "https://m.media-amazon.com/images/I/71I40Rmi1NL._AC_SL1500_.jpg",
+      "price": 159.99,
+      "rating": 4.6,
+      "reviews_count": 14,
+      "bought": null
+    },
+    {
+      "asin": "B09M9PZJWT",
+      "brand": "SmartWings",
+      "model": "Motorized roller shade (70% blackout)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete custom shade",
+        "fit": "Custom sizes",
+        "power": "Rechargeable, 4-6 months",
+        "remote": true,
+        "notes": "Multiple motor options"
+      },
+      "features": {
+        "remote": true,
+        "no_cloud": false,
+        "complete": true,
+        "long_charge": true
+      },
+      "verdict": "SmartWings' semi-blackout shade, sold by SmartWings directly, in multiple fabrics.",
+      "pros": [
+        "Sold by SmartWings",
+        "Several fabrics",
+        "Solar charging option"
+      ],
+      "cons": [
+        "Choose the Matter motor at checkout",
+        "Ships in 8 to 9 days",
+        "4.2 stars from 24 reviews"
+      ],
+      "name": "SmartWings Motorized Smart Roller Shades, 70% Blackout Linen White",
+      "image": "https://m.media-amazon.com/images/I/713JjfuU48L._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.2,
+      "reviews_count": 24,
+      "bought": null
+    },
+    {
+      "asin": "B0G2B2WZ7L",
+      "brand": "SmartWings",
+      "model": "Blackout roller shade",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete custom shade",
+        "fit": "16-110 in. wide, 22-121 in. tall",
+        "power": "Rechargeable, 4-6 months",
+        "remote": true,
+        "notes": "Choose the SW301 Matter motor"
+      },
+      "features": {
+        "remote": true,
+        "no_cloud": false,
+        "complete": true,
+        "long_charge": true
+      },
+      "verdict": "The 100% blackout version for bedrooms.",
+      "pros": [
+        "100% blackout",
+        "Custom sizes",
+        "Matter over Thread motor option"
+      ],
+      "cons": [
+        "Only 1 review",
+        "$169.99 and up",
+        "Sold by a reseller"
+      ],
+      "name": "SmartWings Motorized Roller Shades 100% Blackout Work with Matter Homekit Over Thread, Alexa, Z-Wave, Smart Blinds for Windows, Cordless Remote Control Optional, Customized Size, Essential White",
+      "image": "https://m.media-amazon.com/images/I/715zcHiVIwL._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0D9F4P592",
+      "brand": "Blindsmart",
+      "model": "Matter Thread blinds motor",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "smartthings"
+      ],
+      "flag": "Needs a remote to set up that isn't listed in the box",
+      "verdict": "The listing says the motor needs \"AT LEAST ONE REMOTE\" to set its limits, but never says a remote is included.",
+      "reasons": [
+        "Setup requires a remote control to set the up and down limits, per the listing.",
+        "No bullet lists what's in the box, so you can't tell whether the remote is included.",
+        "The tube size is 38 mm, but the bullets give no battery or charging details.",
+        "It has 3.4 stars, the lowest of the Thread motors we found."
+      ],
+      "name": "Matter Thread Smart Blinds Motor for 38mm Tube, Direct Connection with Home & Google Home & SmartThings | Automated Roller Shade Motor for Matter Smart Home (Motor with 6-Channel Remote)",
+      "image": "https://m.media-amazon.com/images/I/41rmUfpIdGL._AC_SL1000_.jpg",
+      "price": 109.99,
+      "rating": 3.4,
+      "reviews_count": 11,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Motor kit or complete shade?",
+      "a": "A motor kit fits inside a roller shade you already own, if the tube size matches. A complete shade arrives with the motor installed, cut to your window. Measure the tube or window carefully before ordering either."
+    },
+    {
+      "q": "Why Thread for blinds?",
+      "a": "Thread is low power, so battery motors last months between charges, and Matter over Thread works with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant. You need a Thread border router."
+    },
+    {
+      "q": "How are they powered?",
+      "a": "Most use a built-in rechargeable battery charged over USB-C or by an optional solar panel. Expect a few months per charge depending on how often the shade moves."
+    }
+  ]
+}

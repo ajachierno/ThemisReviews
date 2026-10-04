@@ -1,0 +1,484 @@
+{
+  "slug": "rf-weather-stations",
+  "family": "weather-stations",
+  "family_title": "Weather stations",
+  "noun": "station",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wireless Home Weather Stations",
+  "subtitle": "Indoor-outdoor weather stations with wireless sensors, ranked from live Amazon data.",
+  "intro": "We pulled the wireless home weather stations selling on Amazon and scored them on rating, review volume, and features: wind and rain sensing, color displays, and Wi-Fi uploads. Most use 433 MHz or 915 MHz sensors; the table shows what each listing states.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "wind_rain": 0.35,
+    "wifi": 0.25,
+    "color": 0.2,
+    "multi_sensor": 0.2
+  },
+  "systems_note": "Most stations here are standalone. Wi-Fi models upload to their own apps; Ambient Weather also has an official Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "measures",
+      "label": "Outdoor sensor measures"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "connection",
+      "label": "Connectivity"
+    },
+    {
+      "key": "frequency",
+      "label": "Sensor frequency"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "measures",
+      "label": "Measures"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "connection",
+      "label": "Wi-Fi"
+    },
+    {
+      "key": "frequency",
+      "label": "Frequency"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B00N1XCA9M",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Wind, rain, temperature, and humidity on a color display, with 7,110 reviews and 1K+ bought last month."
+    },
+    {
+      "asin": "B0CWL7ST6S",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A color atomic-clock station with alerts and room for 3 sensors, for $29.99."
+    },
+    {
+      "asin": "B0BBH688XG",
+      "label": "Best Smart Home Station",
+      "kind": "special",
+      "why": "Full sensor array on Wi-Fi, with Alexa, Google Home, IFTTT, and Home Assistant support."
+    },
+    {
+      "asin": "B0GZ3CRC9Q",
+      "label": "Best Wi-Fi Value",
+      "kind": "premium",
+      "why": "Wind, rain, pressure, and dual-band Wi-Fi with 2 years of data, rated 4.6 stars."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00N1XCA9M",
+      "brand": "AcuRite",
+      "model": "Iris 5-in-1 (01512MCB)",
+      "systems": [],
+      "systems_label": "Standalone display",
+      "specs": {
+        "measures": "Temp, humidity, wind, rain",
+        "display": "Color LCD",
+        "connection": "No",
+        "frequency": "Not stated in listing",
+        "range": "Not stated"
+      },
+      "features": {
+        "wind_rain": true,
+        "wifi": false,
+        "color": true,
+        "multi_sensor": false
+      },
+      "verdict": "The most popular full weather station: wind, rain, and a personalized forecast on a color screen.",
+      "pros": [
+        "Wind speed, direction, and rainfall",
+        "Color display with dimmer",
+        "7,110 reviews, sold by Amazon"
+      ],
+      "cons": [
+        "No Wi-Fi",
+        "$109.99",
+        "Frequency isn't stated"
+      ],
+      "name": "AcuRite Iris (01512MCB) Indoor/Outdoor Wireless Weather Station, Color Screen",
+      "image": "https://m.media-amazon.com/images/I/813GZ1WzSZS._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.4,
+      "reviews_count": 7110,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B016BERUKQ",
+      "brand": "AcuRite",
+      "model": "02077M color station",
+      "systems": [],
+      "systems_label": "Standalone display",
+      "specs": {
+        "measures": "Temp, humidity",
+        "display": "Color LCD",
+        "connection": "No",
+        "frequency": "433 MHz",
+        "range": "Not stated"
+      },
+      "features": {
+        "wind_rain": false,
+        "wifi": false,
+        "color": true,
+        "multi_sensor": false
+      },
+      "verdict": "A cheap color station with a 12-hour forecast and moon phase.",
+      "pros": [
+        "$39.99",
+        "6,083 reviews, sold by Amazon",
+        "433 MHz stated"
+      ],
+      "cons": [
+        "No wind or rain",
+        "No Wi-Fi",
+        "Batteries not included for the sensor"
+      ],
+      "name": "AcuRite Wireless Home Weather Station with Color Display, Indoor Outdoor Thermometer and Temperature Sensor (02077M)",
+      "image": "https://m.media-amazon.com/images/I/81r8M5fSgDS._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.3,
+      "reviews_count": 6083,
+      "bought": "800+ bought in past month"
+    },
+    {
+      "asin": "B0836CM7KY",
+      "brand": "Newentor",
+      "model": "Color weather station",
+      "systems": [],
+      "systems_label": "Standalone display",
+      "specs": {
+        "measures": "Temp, humidity",
+        "display": "Color LCD",
+        "connection": "No",
+        "frequency": "Not stated in listing",
+        "range": "Not stated"
+      },
+      "features": {
+        "wind_rain": false,
+        "wifi": false,
+        "color": true,
+        "multi_sensor": true
+      },
+      "verdict": "The most-reviewed station here, with an atomic clock and up to 3 sensors.",
+      "pros": [
+        "21,524 reviews, 3K+ bought in the past month",
+        "Supports 3 sensors",
+        "Always-on display with included adapter"
+      ],
+      "cons": [
+        "No wind or rain",
+        "No Wi-Fi",
+        "Sold by a reseller"
+      ],
+      "name": "Newentor Weather Station Wireless Indoor Outdoor Thermometer, Black,1Sensor",
+      "image": "https://m.media-amazon.com/images/I/71Mk5iJGjFL._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.3,
+      "reviews_count": 21524,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0CWL7ST6S",
+      "brand": "DreamSky",
+      "model": "Atomic clock weather station",
+      "systems": [],
+      "systems_label": "Standalone display",
+      "specs": {
+        "measures": "Temp, humidity",
+        "display": "Color LCD",
+        "connection": "No",
+        "frequency": "Not stated in listing",
+        "range": "Not stated"
+      },
+      "features": {
+        "wind_rain": false,
+        "wifi": false,
+        "color": true,
+        "multi_sensor": true
+      },
+      "verdict": "A $29.99 color station with WWVB atomic time, alerts, and up to 3 sensors.",
+      "pros": [
+        "$29.99",
+        "High/low temperature alerts",
+        "WWVB atomic clock with auto DST",
+        "4.4 stars"
+      ],
+      "cons": [
+        "No wind or rain",
+        "No Wi-Fi",
+        "Extra sensors sold separately"
+      ],
+      "name": "DreamSky Weather Station Indoor Outdoor Thermometer Wireless, Atomic Clock",
+      "image": "https://m.media-amazon.com/images/I/71JHRI6aiVL._SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 2933,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0GKD6BZC6",
+      "brand": "BluSon",
+      "model": "7.5 in. weather station",
+      "systems": [],
+      "systems_label": "Standalone display",
+      "specs": {
+        "measures": "Temp, humidity",
+        "display": "7.5 in. color",
+        "connection": "No",
+        "frequency": "Not stated in listing",
+        "range": "328 ft."
+      },
+      "features": {
+        "wind_rain": false,
+        "wifi": false,
+        "color": true,
+        "multi_sensor": true
+      },
+      "verdict": "A large 7.5 in. color display with atomic time and room for 3 sensors.",
+      "pros": [
+        "7.5 in. HD color display",
+        "328 ft. range",
+        "600+ bought in the past month"
+      ],
+      "cons": [
+        "Only 218 reviews",
+        "No wind or rain",
+        "Sold by a reseller"
+      ],
+      "name": "BluSon Weather Station Wireless Indoor Outdoor Thermometer, Atomic Clock",
+      "image": "https://m.media-amazon.com/images/I/71hZZ7eLgeL._SL1500_.jpg",
+      "price": 33.99,
+      "rating": 4.2,
+      "reviews_count": 218,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0B9HMYR9T",
+      "brand": "La Crosse",
+      "model": "V11-TH Wi-Fi station",
+      "systems": [],
+      "systems_label": "La Crosse View app",
+      "specs": {
+        "measures": "Temp, humidity",
+        "display": "Color",
+        "connection": "Wi-Fi (optional)",
+        "frequency": "Not stated in listing",
+        "range": "400 ft."
+      },
+      "features": {
+        "wind_rain": false,
+        "wifi": true,
+        "color": true,
+        "multi_sensor": true
+      },
+      "verdict": "A Wi-Fi station that works standalone or with the La Crosse View app and alerts.",
+      "pros": [
+        "Wi-Fi with app alerts",
+        "400 ft. range",
+        "Expandable with more sensors and displays"
+      ],
+      "cons": [
+        "3.9 stars from 79 reviews",
+        "No wind or rain",
+        "$88.99"
+      ],
+      "name": "La Crosse Technology V11-TH Color Wireless WiFi Weather Station…",
+      "image": "https://m.media-amazon.com/images/I/81Rqxhhh-rL._SL1500_.jpg",
+      "price": 88.99,
+      "rating": 3.9,
+      "reviews_count": 79,
+      "bought": null
+    },
+    {
+      "asin": "B0BBH688XG",
+      "brand": "Ambient Weather",
+      "model": "WS-1965",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "measures": "Temp, humidity, pressure, wind, rain",
+        "display": "Color LCD",
+        "connection": "Wi-Fi",
+        "frequency": "Not stated in listing",
+        "range": "Not stated"
+      },
+      "features": {
+        "wind_rain": true,
+        "wifi": true,
+        "color": true,
+        "multi_sensor": false
+      },
+      "verdict": "A complete Wi-Fi weather station that plugs into Alexa, Google Home, IFTTT, and Home Assistant.",
+      "pros": [
+        "All-in-one sensor array",
+        "16-second updates",
+        "Alexa, Google Home, and IFTTT",
+        "Official Home Assistant integration"
+      ],
+      "cons": [
+        "$149.99",
+        "4.2 stars",
+        "Some features depend on Ambient Weather Network"
+      ],
+      "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
+      "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
+      "price": 149.99,
+      "rating": 4.2,
+      "reviews_count": 554,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0GZ3CRC9Q",
+      "brand": "Sainlogic",
+      "model": "Wi-Fi weather station",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Sainlogic app",
+      "specs": {
+        "measures": "Temp, humidity, pressure, wind, rain",
+        "display": "Yes",
+        "connection": "Wi-Fi (2.4/5 GHz)",
+        "frequency": "Not stated in listing",
+        "range": "443 ft."
+      },
+      "features": {
+        "wind_rain": true,
+        "wifi": true,
+        "color": false,
+        "multi_sensor": false
+      },
+      "verdict": "Full wind and rain sensing on dual-band Wi-Fi, with Weather Underground and Alexa.",
+      "pros": [
+        "Wind, rain, and pressure",
+        "2.4 or 5 GHz Wi-Fi",
+        "2 years of data with Excel export",
+        "4.6 stars from 976 reviews"
+      ],
+      "cons": [
+        "$169.99",
+        "Sold by a reseller",
+        "Display type isn't detailed"
+      ],
+      "name": "Sainlogic WiFi Weather Station with 443FT Wireless Indoor Outdoor Sensor",
+      "image": "https://m.media-amazon.com/images/I/71cPgG+qHVL._SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.6,
+      "reviews_count": 976,
+      "bought": null
+    },
+    {
+      "asin": "B0H7RPJ912",
+      "brand": "Sainlogic",
+      "model": "Wi-Fi weather station (newer)",
+      "systems": [],
+      "systems_label": "Sainlogic app",
+      "specs": {
+        "measures": "Temp, humidity, rain",
+        "display": "Yes",
+        "connection": "Wi-Fi (2.4/5 GHz) + Bluetooth setup",
+        "frequency": "Not stated in listing",
+        "range": "443 ft."
+      },
+      "features": {
+        "wind_rain": true,
+        "wifi": true,
+        "color": false,
+        "multi_sensor": false
+      },
+      "verdict": "A cheaper Sainlogic with a leveled rain gauge and Bluetooth setup.",
+      "pros": [
+        "Rain gauge with bubble level",
+        "Dual-band Wi-Fi",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Only 23 reviews",
+        "Only 20 left at capture time",
+        "Wind sensing isn't mentioned"
+      ],
+      "name": "Sainlogic 443FT Wireless Weather Station WiFi with Indoor Outdoor Sensor",
+      "image": "https://m.media-amazon.com/images/I/71T2SWVFiyL._SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.8,
+      "reviews_count": 23,
+      "bought": null
+    },
+    {
+      "asin": "B00T0K8MNI",
+      "brand": "AcuRite",
+      "model": "Iris 5-in-1 sensor (06004M)",
+      "systems": [],
+      "systems_label": "AcuRite 5-in-1 displays",
+      "specs": {
+        "measures": "Temp, humidity, wind, rain",
+        "display": "None (sensor only)",
+        "connection": "No",
+        "frequency": "433 MHz",
+        "range": "330 ft."
+      },
+      "features": {
+        "wind_rain": true,
+        "wifi": false,
+        "color": false,
+        "multi_sensor": false
+      },
+      "verdict": "The 5-in-1 sensor on its own, to replace a broken one or pair with an AcuRite display.",
+      "pros": [
+        "433 MHz, every 36 seconds",
+        "330 ft. range",
+        "4.5 stars, sold by Amazon"
+      ],
+      "cons": [
+        "Sensor only; needs an AcuRite 5-in-1 display",
+        "4 AA batteries not included",
+        "$89.99"
+      ],
+      "name": "AcuRite Iris (5-in-1) Weather Sensor with Rain Gauge, Wind Speed, Wind Direction, Temperature and Humidity (06004M)",
+      "image": "https://m.media-amazon.com/images/I/51tK3fhFfqL._SL1000_.jpg",
+      "price": 89.99,
+      "rating": 4.5,
+      "reviews_count": 1683,
+      "bought": "300+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Can a 433 MHz weather station join my smart home?",
+      "a": "Not by itself. These stations send to their own console. Some models add Wi-Fi to upload to weather services, and Home Assistant can read many of their sensors with a USB SDR and rtl_433, which is a do-it-yourself project."
+    },
+    {
+      "q": "Where should the outdoor sensor go?",
+      "a": "In open air, away from roofs, walls, and pavement that radiate heat, ideally 5 ft. or more above the ground. Wind sensors need to be above nearby obstacles to read accurately."
+    },
+    {
+      "q": "What does 5-in-1 or 7-in-1 mean?",
+      "a": "The number of measurements the outdoor sensor takes: usually temperature, humidity, wind speed, wind direction, and rainfall, with light and UV added in 7-in-1 models."
+    }
+  ]
+}

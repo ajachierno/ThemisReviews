@@ -55,7 +55,12 @@ async def run(mode, out, items):
         ctx = await b.new_context(locale="en-US", viewport={"width": 1366, "height": 900})
         ctx.set_default_timeout(45000)
         warm = await ctx.new_page()
-        await warm.goto("https://www.amazon.com/", wait_until="domcontentloaded"); await warm.wait_for_timeout(2500)
+        for _try in range(3):
+            try:
+                await warm.goto("https://www.amazon.com/", wait_until="domcontentloaded"); await warm.wait_for_timeout(2500); break
+            except Exception as e:
+                print(f"warm-up failed ({str(e)[:60]}), retrying in 60 s", file=sys.stderr, flush=True)
+                await warm.wait_for_timeout(60000)
         if mode == "search":
             for it in items:
                 for n in ((1,) if os.environ.get("ONEPAGE") else (1, 2)):
@@ -77,10 +82,17 @@ async def run(mode, out, items):
                         await pg.wait_for_timeout(1200)
                         d = await pg.evaluate(PRODUCT_JS); break
                     except Exception as e:
-                        d = {"title": None, "error": (await pg.title()) + " | " + str(e)[:120]}
+                        try:
+                            page_title = await pg.title()
+                        except Exception:
+                            page_title = ""
+                        d = {"title": None, "error": page_title + " | " + str(e)[:120]}
                         print(f"{it}: attempt {attempt} failed ({d['error'][:60]}), backing off", file=sys.stderr, flush=True)
                         await pg.wait_for_timeout(45000)
-                        await pg.goto("https://www.amazon.com/", wait_until="commit"); await pg.wait_for_timeout(4000)
+                        try:
+                            await pg.goto("https://www.amazon.com/", wait_until="commit"); await pg.wait_for_timeout(4000)
+                        except Exception as e2:
+                            print(f"{it}: homepage reload failed ({str(e2)[:60]}), continuing", file=sys.stderr, flush=True)
                 d["asin"] = it; res[it] = d
                 fails = fails + 1 if not d.get("title") else 0
                 json.dump(res, open(out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
