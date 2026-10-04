@@ -1,0 +1,391 @@
+{
+  "feature_weights": {
+    "long_range": 0.35,
+    "extra_sensors": 0.35,
+    "usb_power": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "pets",
+      "label": "Pet immune"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07FHL7J11",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "800 Series Long Range, adjustable sensitivity, and battery or USB power. On USB it also repeats signal."
+    },
+    {
+      "asin": "B01MQXXG0I",
+      "label": "Best for Pets",
+      "kind": "budget",
+      "why": "Ignores pets up to 55 lbs, with up to 5-year battery life and 692 reviews."
+    },
+    {
+      "asin": "B0DCL43CS2",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "Indoor or outdoor, a 30 ft detection radius, and temperature monitoring."
+    },
+    {
+      "asin": "B08XHZP7NV",
+      "label": "Most Sensors",
+      "kind": "premium",
+      "why": "Motion plus temperature, humidity, light, UV, and vibration in a 1.8 in. body."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07FHL7J11",
+      "brand": "Zooz",
+      "model": "ZSE18 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Battery (up to 1 yr) or micro USB",
+        "extras": "Vibration (select hubs)",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": false,
+        "usb_power": true
+      },
+      "verdict": "The Z-Wave motion sensor to buy: Long Range, adjustable, and it can run on USB power and repeat signal.",
+      "pros": [
+        "800 Series Long Range",
+        "Adjustable sensitivity and retrigger time",
+        "USB power option turns it into a repeater",
+        "Magnetic mount"
+      ],
+      "cons": [
+        "Battery rated up to a year",
+        "Not supported by Wink, ADT, Vivint, or Alarm.com, per the listing",
+        "USB cable not included"
+      ]
+    },
+    {
+      "asin": "B01MQXXG0I",
+      "brand": "Ecolink",
+      "model": "PIRZWAVE2.5-ECO",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Battery (up to 5 yrs)",
+        "extras": "Motion only",
+        "location": "Indoor",
+        "pets": "Up to 55 lbs"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "usb_power": false
+      },
+      "verdict": "A long-running PIR sensor with pet immunity and a 5-year battery rating.",
+      "pros": [
+        "Pet immunity up to 55 lbs",
+        "Up to 5-year battery life",
+        "Corner or flush mounting, no tools",
+        "692 reviews"
+      ],
+      "cons": [
+        "Older Z-Wave Plus chip",
+        "The listing's compatibility note calls it a door/window sensor, a copy-paste slip",
+        "Sold by a third-party seller"
+      ]
+    },
+    {
+      "asin": "B00FB1TBKS",
+      "brand": "Ecolink",
+      "model": "PIRZWAVE2-ECO",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Battery",
+        "extras": "Motion only",
+        "location": "Indoor",
+        "pets": "Up to 55 lbs"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "usb_power": false
+      },
+      "verdict": "The earlier Ecolink pet-immune model. Cheaper, but stock is running out.",
+      "pros": [
+        "Pet immunity up to 55 lbs",
+        "Flush and corner brackets included",
+        "$27.99"
+      ],
+      "cons": [
+        "Only 1 left in stock at capture time",
+        "3.9 stars",
+        "Older model"
+      ]
+    },
+    {
+      "asin": "B0DF88BT77",
+      "brand": "HomeSeer",
+      "model": "MS100 G8",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Battery or micro USB",
+        "extras": "No-motion timer",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": false,
+        "usb_power": true
+      },
+      "verdict": "A Long Range motion sensor that also reports when a room has been empty for a set time.",
+      "pros": [
+        "Reports no-motion periods for vacancy automations",
+        "800 Series Long Range",
+        "Battery or USB power"
+      ],
+      "cons": [
+        "3.9 stars from 11 reviews",
+        "9 left in stock at capture time",
+        "$39.95"
+      ]
+    },
+    {
+      "asin": "B0DCL43CS2",
+      "brand": "Zooz",
+      "model": "ZSE70 outdoor/indoor",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "2 CR123A or 12 V supply",
+        "extras": "Temperature, light",
+        "location": "Indoor or outdoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "A weatherproof motion sensor with a 30 ft radius, for driveways, porches, and yards.",
+      "pros": [
+        "Indoor or outdoor",
+        "30 ft detection radius",
+        "Temperature and light readings",
+        "Long Range"
+      ],
+      "cons": [
+        "Only works with open Z-Wave hubs, not alarm panels",
+        "SmartThings and Hubitat need a custom driver",
+        "4.0 stars"
+      ]
+    },
+    {
+      "asin": "B08XHZP7NV",
+      "brand": "Aeotec",
+      "model": "MultiSensor 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "power": "Not listed",
+        "extras": "Temperature, humidity, light, UV, vibration",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "Six sensors in one small device, for rooms where you want climate and light data as well as motion.",
+      "pros": [
+        "Motion, temperature, humidity, light, UV, and vibration",
+        "1.8 in., fits a corner, shelf, or recessed light",
+        "S2 and SmartStart"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$49.99",
+        "No Long Range"
+      ]
+    },
+    {
+      "asin": "B07226MG2T",
+      "brand": "Enbrighten",
+      "model": "Motion sensor light switch",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave",
+        "power": "Hardwired (wall switch)",
+        "extras": "Light level",
+        "location": "In-wall",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "A wall switch with a built-in motion sensor, for lights that should switch themselves on and off.",
+      "pros": [
+        "Occupancy, vacancy, or manual modes",
+        "Light-sensing option",
+        "Timeouts from 5 seconds to 30 minutes",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Replaces a wall switch, so it needs wiring",
+        "$57.49",
+        "Only sees motion near the switch"
+      ]
+    },
+    {
+      "asin": "B00Q59PBZE",
+      "brand": "HomeSeer",
+      "model": "HSM200",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Plugs into an outlet",
+        "extras": "Temperature, light, RGB LED",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": true
+      },
+      "verdict": "A plug-in multisensor with a programmable color LED that doubles as a status light.",
+      "pros": [
+        "No batteries, plugs into a standard outlet",
+        "RGB LED in 7 colors for alerts",
+        "Temperature and light"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Placement limited to outlets",
+        "SmartThings needs HomeSeer's Edge driver"
+      ]
+    },
+    {
+      "asin": "B09GDL6BGY",
+      "brand": "Zooz",
+      "model": "ZSE11 Q Sensor 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Batteries (included) or micro USB",
+        "extras": "Temperature, humidity, light",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "usb_power": true
+      },
+      "verdict": "A four-in-one Long Range sensor with an adjustable mount. Works best with hubs that handle multisensors well.",
+      "pros": [
+        "Motion, temperature, humidity, and light",
+        "Adjustable bracket",
+        "Batteries included, or USB power"
+      ],
+      "cons": [
+        "3.6 stars",
+        "SmartThings needs a custom Edge driver",
+        "Basic Z-Wave hubs may not show all readings"
+      ]
+    }
+  ],
+  "avoid": []
+}

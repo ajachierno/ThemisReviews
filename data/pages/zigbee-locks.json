@@ -1,0 +1,260 @@
+{
+  "slug": "zigbee-locks",
+  "family": "locks",
+  "family_title": "Smart locks",
+  "noun": "lock",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Smart Locks",
+  "subtitle": "Zigbee deadbolts and conversion kits, ranked from live Amazon data.",
+  "intro": "Zigbee locks are mostly Kwikset's Zigbee 3.0 models and Aqara's hub-based locks. We pulled what's selling on Amazon and scored it on rating, review volume, and features.",
+  "reviews_ceiling": 3000,
+  "feature_weights": {
+    "auto_lock": 0.35,
+    "retrofit": 0.3,
+    "home_key": 0.35
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "entry",
+      "label": "Entry methods"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "rating",
+      "label": "BHMA rating (listed)"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "entry",
+      "label": "Entry"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "rating",
+      "label": "BHMA"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BZSD2L1W",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Fingerprint and Apple Home Key with 2,570 reviews, on Zigbee through Aqara's hub."
+    },
+    {
+      "asin": "B09HYYZH6R",
+      "label": "Best Retrofit",
+      "kind": "budget",
+      "why": "Converts your existing deadbolt by replacing only the interior, and pairs with Echo and SmartThings hubs."
+    },
+    {
+      "asin": "B08XXVND8V",
+      "label": "Best Touchscreen",
+      "kind": "special",
+      "why": "BHMA Grade 2 with a touchscreen, SmartKey re-keying, and a long list of supported hubs."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BZSD2L1W",
+      "brand": "Aqara",
+      "model": "Smart Lock U100",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "type": "Deadbolt",
+        "entry": "Fingerprint, Home Key, code, app",
+        "hub": "Aqara Zigbee 3.0 hub for remote features",
+        "rating": "Not listed",
+        "extras": "Auto lock"
+      },
+      "features": {
+        "auto_lock": true,
+        "retrofit": false,
+        "home_key": true
+      },
+      "verdict": "The most popular lock on Zigbee: fingerprint, Apple Home Key, and auto lock.",
+      "pros": [
+        "Fingerprint reader, up to 50 prints",
+        "Apple Home Key tap to unlock",
+        "2,570 reviews, 500+ bought in the past month"
+      ],
+      "cons": [
+        "Remote and voice features need an Aqara Zigbee hub",
+        "4.1 stars",
+        "Sold by the brand"
+      ],
+      "name": "Aqara Smart Lock U100, Apple Home Key, Fingerprint Deadbolt, Gray",
+      "image": "https://m.media-amazon.com/images/I/71Xd5LTPrTL._AC_SL1500_.jpg",
+      "price": 139.99,
+      "rating": 4.1,
+      "reviews_count": 2570,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B09HYYZH6R",
+      "brand": "Kwikset",
+      "model": "Convert (Zigbee 3.0)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit (interior only)",
+        "entry": "Your existing key, hub control",
+        "hub": "Echo (4th gen), Echo Show 10, SmartThings, Xfinity",
+        "rating": "Not listed",
+        "extras": "Keeps your exterior hardware"
+      },
+      "features": {
+        "auto_lock": false,
+        "retrofit": true,
+        "home_key": false
+      },
+      "verdict": "Makes your current deadbolt smart by replacing just the inside half, so the outside looks the same.",
+      "pros": [
+        "Keeps your exterior lock and keys",
+        "Pairs with Echo devices that have Zigbee, SmartThings, and Xfinity",
+        "$80.97"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Sold by a third-party seller",
+        "Measure backset, bore, and door thickness first, per the listing"
+      ],
+      "name": "Kwikset Convert Zigbee 3.0 Electronic Smart Lock Conversion Kit in Satin Nickel",
+      "image": "https://m.media-amazon.com/images/I/41pEPPO84OL._AC_SL1000_.jpg",
+      "price": 80.97,
+      "rating": 3.8,
+      "reviews_count": 49,
+      "bought": null
+    },
+    {
+      "asin": "B09HZB4D71",
+      "brand": "Kwikset",
+      "model": "914 SmartCode (Zigbee 3.0)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Deadbolt",
+        "entry": "Keypad, key",
+        "hub": "Any Zigbee panel or hub",
+        "rating": "Not listed",
+        "extras": "30-second auto lock, SmartKey"
+      },
+      "features": {
+        "auto_lock": true,
+        "retrofit": false,
+        "home_key": false
+      },
+      "verdict": "A keypad deadbolt with auto lock and SmartKey re-keying, on Zigbee 3.0.",
+      "pros": [
+        "30-second auto lock",
+        "Up to 30 user codes",
+        "SmartKey security, re-key it yourself"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$170.37",
+        "Only 30 codes"
+      ],
+      "name": "Kwikset 914 Contemporary Keypad SmartCode Electronic Deadbolt Smart Lock featuring SmartKey Security and ZigBee 3.0 Technology in Matte Black",
+      "image": "https://m.media-amazon.com/images/I/51ErYJww9zL._AC_SL1000_.jpg",
+      "price": 170.37,
+      "rating": 3.6,
+      "reviews_count": 48,
+      "bought": null
+    },
+    {
+      "asin": "B08XXVND8V",
+      "brand": "Kwikset",
+      "model": "916 SmartCode (Zigbee 3.0)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Deadbolt",
+        "entry": "Touchscreen, key",
+        "hub": "Echo, SmartThings, Tuya, Abode, others",
+        "rating": "Grade 2",
+        "extras": "SmartKey"
+      },
+      "features": {
+        "auto_lock": false,
+        "retrofit": false,
+        "home_key": false
+      },
+      "verdict": "Kwikset's touchscreen deadbolt on Zigbee 3.0, BHMA Grade 2, with the broadest hub list here.",
+      "pros": [
+        "BHMA Grade 2",
+        "Works with Echo, SmartThings, Tuya, and Abode Zigbee hubs",
+        "SmartKey re-keying"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$219.00",
+        "Up to 30 user codes"
+      ],
+      "name": "Kwikset 916 Keyless Entry Touchscreen SmartCode Electronic Deadbolt Smart Lock Featuring SmartKey Security and ZigBee 3.0 Technology in Traditional Satin Nickel, Zigbee Hub Sold Separately",
+      "image": "https://m.media-amazon.com/images/I/61QuHA19hLS._AC_SL1500_.jpg",
+      "price": 219.0,
+      "rating": 3.6,
+      "reviews_count": 58,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Will a smart lock fit my door?",
+      "a": "Most smart deadbolts fit a standard US door with a 2-1/8 in. bore hole and a 2-3/8 or 2-3/4 in. backset. Retrofit locks like Level Bolt replace only the inside parts and keep your existing key and hardware."
+    },
+    {
+      "q": "What happens if the batteries die?",
+      "a": "Locks warn you in their app before the batteries run out. Most also have a backup key, an emergency power point, or both. Check the listing for which one yours has."
+    },
+    {
+      "q": "Is a smart lock secure?",
+      "a": "Look for encrypted radios (Z-Wave S2, Matter, Thread, or the maker's encrypted Bluetooth), auto-lock, and an activity log. ANSI/BHMA grade ratings describe physical strength; Grade 2 or better is typical for a front door."
+    }
+  ]
+}

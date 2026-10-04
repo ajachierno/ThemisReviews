@@ -1,0 +1,494 @@
+{
+  "slug": "matter-locks",
+  "family": "locks",
+  "family_title": "Smart locks",
+  "noun": "lock",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Matter Smart Locks",
+  "subtitle": "Smart locks that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "intro": "We pulled the Matter smart locks selling on Amazon and scored them on rating, review volume, and features: Apple Home Key, fingerprint readers, and auto-lock. Most run Matter over Thread and need a Thread border router.",
+  "reviews_ceiling": 11000,
+  "feature_weights": {
+    "fingerprint": 0.3,
+    "home_key": 0.35,
+    "wifi_too": 0.35
+  },
+  "spec_fields": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "entry",
+      "label": "Entry methods"
+    },
+    {
+      "key": "home_key",
+      "label": "Apple Home Key",
+      "type": "bool"
+    },
+    {
+      "key": "fingerprint",
+      "label": "Fingerprint",
+      "type": "bool"
+    },
+    {
+      "key": "rating",
+      "label": "BHMA rating (listed)"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "entry",
+      "label": "Entry"
+    },
+    {
+      "key": "home_key",
+      "label": "Home Key",
+      "type": "bool"
+    },
+    {
+      "key": "rating",
+      "label": "BHMA"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FQC6VCDW",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Fingerprint, built-in Wi-Fi, and Matter over Thread for $89.99, with over 10,000 reviews."
+    },
+    {
+      "asin": "B0CZNZGGS7",
+      "label": "Best Budget Home Key",
+      "kind": "budget",
+      "why": "Apple Home Key tap-to-unlock for $113.99, with Matter through Aqara's hub."
+    },
+    {
+      "asin": "B0F8RC3YRF",
+      "label": "Best Retrofit",
+      "kind": "special",
+      "why": "Replaces only the deadbolt inside your door, so you keep your keys and hardware."
+    },
+    {
+      "asin": "B0FRS6T6HL",
+      "label": "Most Advanced",
+      "kind": "premium",
+      "why": "UWB hands-free unlocking that senses you approaching, plus fingerprint and Home Key."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FQC6VCDW",
+      "brand": "ULTRALOQ",
+      "model": "Bolt SE",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread (plus built-in Wi-Fi)",
+        "entry": "Fingerprint, code, app, web, eKey, voice",
+        "rating": "Not listed",
+        "extras": "Auto lock, 50 prints"
+      },
+      "features": {
+        "fingerprint": true,
+        "home_key": false,
+        "wifi_too": true
+      },
+      "verdict": "The Matter lock most people should buy: fingerprint, Wi-Fi for the app, and Matter over Thread, for under $90.",
+      "pros": [
+        "$89.99 with 10,333 reviews",
+        "Fingerprint reader, up to 50 prints",
+        "Built-in Wi-Fi plus Matter over Thread",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "No Apple Home Key",
+        "BHMA rating isn't listed",
+        "Sold by the brand"
+      ],
+      "name": "ULTRALOQ Bolt SE Wi-Fi Smart Lock, Matter Over Thread, App Remote Access",
+      "image": "https://m.media-amazon.com/images/I/61TZMukfPyL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.3,
+      "reviews_count": 10333,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0CZNZGGS7",
+      "brand": "Aqara",
+      "model": "Smart Lock U50",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Zigbee to a Matter-compatible Aqara hub",
+        "entry": "Keypad, Home Key, app",
+        "rating": "Not listed",
+        "extras": "Auto lock, Zigbee2MQTT support"
+      },
+      "features": {
+        "fingerprint": false,
+        "home_key": true,
+        "wifi_too": false
+      },
+      "verdict": "The cheapest way to Apple Home Key tap-to-unlock, with Matter through Aqara's hub.",
+      "pros": [
+        "Apple Home Key",
+        "Matter through a compatible Aqara hub",
+        "Works with Zigbee2MQTT",
+        "$113.99"
+      ],
+      "cons": [
+        "No fingerprint reader",
+        "Remote features need an Aqara hub",
+        "4.0 stars"
+      ],
+      "name": "Aqara Smart Lock U50, Apple Home Key, Keyless Entry Deadbolt, Black",
+      "image": "https://m.media-amazon.com/images/I/71L7tlPSexL._AC_SL1500_.jpg",
+      "price": 113.99,
+      "rating": 4.0,
+      "reviews_count": 671,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FRS6T6HL",
+      "brand": "Aqara",
+      "model": "Smart Lock U400 (UWB)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread",
+        "entry": "UWB hands-free, Home Key, fingerprint",
+        "rating": "Not listed",
+        "extras": "Detects approach and direction"
+      },
+      "features": {
+        "fingerprint": true,
+        "home_key": true,
+        "wifi_too": false
+      },
+      "verdict": "A hands-free lock that uses UWB to sense you approaching and unlock, plus fingerprint and Home Key.",
+      "pros": [
+        "UWB detects presence and direction for hands-free unlocking",
+        "Fingerprint and Apple Home Key",
+        "Matter over Thread",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "$269.99",
+        "Home Key needs an Apple Thread-enabled Matter controller",
+        "4.1 stars"
+      ],
+      "name": "Aqara UWB Smart Lock U400, Apple Home Key, Fingerprint Deadbolt, Black",
+      "image": "https://m.media-amazon.com/images/I/61STzCIW1TL._AC_SL1500_.jpg",
+      "price": 269.99,
+      "rating": 4.1,
+      "reviews_count": 405,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DJPTB7KG",
+      "brand": "Kwikset",
+      "model": "Halo Select",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread (plus Wi-Fi)",
+        "entry": "Keypad, app, geofence Auto-Unlock",
+        "rating": "Grade AAA (per title)",
+        "extras": "No hub needed"
+      },
+      "features": {
+        "fingerprint": false,
+        "home_key": false,
+        "wifi_too": true
+      },
+      "verdict": "Kwikset's Wi-Fi and Matter deadbolt with geofence Auto-Unlock and a Grade AAA claim.",
+      "pros": [
+        "Wi-Fi and Matter, no hub required",
+        "Geofence Auto-Unlock",
+        "Works with Alexa, Apple Home, and Google",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.9 stars",
+        "$209.00",
+        "No fingerprint reader"
+      ],
+      "name": "Kwikset Halo Select Smart Lock Keyless Entry Door Lock Wi-Fi and Matter Enabled Deadbolt No Hub Needed, Geofence Auto-Unlock, Grade AAA Certified, Easy Install, Satin Nickel Lifetime Finish Warranty",
+      "image": "https://m.media-amazon.com/images/I/71DWvdNOPxL._AC_SL1500_.jpg",
+      "price": 209.0,
+      "rating": 3.9,
+      "reviews_count": 266,
+      "bought": null
+    },
+    {
+      "asin": "B0FP7PBL1F",
+      "brand": "Kwikset",
+      "model": "Halo Select Plus",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi and Matter",
+        "entry": "Touchscreen, NFC, Home Key, app",
+        "rating": "Not listed",
+        "extras": "Geofencing"
+      },
+      "features": {
+        "fingerprint": false,
+        "home_key": true,
+        "wifi_too": true
+      },
+      "verdict": "The Halo Select with a touchscreen and Apple Home Key. Pricey, and reviews are mixed.",
+      "pros": [
+        "Apple Home Key and NFC tap to unlock",
+        "Wi-Fi and Matter",
+        "Touchscreen"
+      ],
+      "cons": [
+        "$309.00, the most expensive here",
+        "3.4 stars",
+        "No fingerprint reader"
+      ],
+      "name": "Kwikset Halo Select Plus Wi-Fi and Matter Enabled, Touchscreen Smart Lock",
+      "image": "https://m.media-amazon.com/images/I/61Nktr9qnaL._AC_SL1500_.jpg",
+      "price": 309.0,
+      "rating": 3.4,
+      "reviews_count": 101,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FXM1QCVT",
+      "brand": "Philips",
+      "model": "Matter over Thread lock",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread",
+        "entry": "Touchscreen, fingerprint, app",
+        "rating": "Not listed",
+        "extras": "Auto lock"
+      },
+      "features": {
+        "fingerprint": true,
+        "home_key": false,
+        "wifi_too": false
+      },
+      "verdict": "A touchscreen fingerprint deadbolt with Matter over Thread, for $119.99.",
+      "pros": [
+        "Fingerprint and touchscreen",
+        "Matter over Thread with Apple Home, Alexa, Google, and SmartThings",
+        "4.2 stars"
+      ],
+      "cons": [
+        "Only 48 reviews",
+        "Needs a Thread border router",
+        "Sold by the brand"
+      ],
+      "name": "Philips Smart Lock Matter Over Thread, Touchscreen Fingerprint Deadbolt",
+      "image": "https://m.media-amazon.com/images/I/71DcynVeYJL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.2,
+      "reviews_count": 48,
+      "bought": null
+    },
+    {
+      "asin": "B0F8RC3YRF",
+      "brand": "Level",
+      "model": "Bolt",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread",
+        "entry": "App, your existing key",
+        "rating": "Not listed",
+        "extras": "Invisible retrofit"
+      },
+      "features": {
+        "fingerprint": false,
+        "home_key": false,
+        "wifi_too": false
+      },
+      "verdict": "An invisible retrofit: it replaces the bolt inside your door and keeps your existing keys and hardware.",
+      "pros": [
+        "Keeps your current keys, handles, and look",
+        "Matter over Thread on up to 3 platforms at once",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "3.5 stars",
+        "No keypad or fingerprint",
+        "$199.00"
+      ],
+      "name": "Level Bolt Smart Deadbolt - Make Your Lock Smart, Keep Your Keys & Hardware",
+      "image": "https://m.media-amazon.com/images/I/718d6IRtn+L._AC_SL1500_.jpg",
+      "price": 199.0,
+      "rating": 3.5,
+      "reviews_count": 80,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0BCGH7D8H",
+      "brand": "Yale",
+      "model": "Smart Lock with Matter (Google)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread",
+        "entry": "Keypad, phone tap, Google Assistant, key",
+        "rating": "Grade 2",
+        "extras": "Google Home and Yale Access app"
+      },
+      "features": {
+        "fingerprint": false,
+        "home_key": false,
+        "wifi_too": false
+      },
+      "verdict": "Yale's Matter deadbolt built around Google Home, with a BHMA Grade 2 rating.",
+      "pros": [
+        "BHMA Grade 2",
+        "Google Home and Yale Access app control",
+        "Backup key",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Google Home features are US and Canada only, per the listing",
+        "$169.99"
+      ],
+      "name": "Yale Smart Lock Deadbolt with Google Matter, Keyless Entry, Matte Black",
+      "image": "https://m.media-amazon.com/images/I/71CFNJdkUfL._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 3.4,
+      "reviews_count": 289,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0GX14GPT3",
+      "brand": "TCL",
+      "model": "Palm vein deadbolt",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread (plus Wi-Fi)",
+        "entry": "Palm vein, fingerprint, app",
+        "rating": "Not listed",
+        "extras": "Touch-free palm unlock"
+      },
+      "features": {
+        "fingerprint": true,
+        "home_key": false,
+        "wifi_too": true
+      },
+      "verdict": "A touch-free palm-vein lock with Matter over Thread. Very new, with only a handful of reviews.",
+      "pros": [
+        "Palm vein recognition, touch-free",
+        "Matter over Thread",
+        "Works with Alexa, Google, and SmartThings"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "$159.99",
+        "Sold by the brand"
+      ],
+      "name": "TCL Smart Lock, Palm Vein Keyless Entry Deadbolt with Matter Over Thread",
+      "image": "https://m.media-amazon.com/images/I/71GAIRzmoeL._AC_SL1500_.jpg",
+      "price": 159.99,
+      "rating": 5.0,
+      "reviews_count": 7,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Will a smart lock fit my door?",
+      "a": "Most smart deadbolts fit a standard US door with a 2-1/8 in. bore hole and a 2-3/8 or 2-3/4 in. backset. Retrofit locks like Level Bolt replace only the inside parts and keep your existing key and hardware."
+    },
+    {
+      "q": "What happens if the batteries die?",
+      "a": "Locks warn you in their app before the batteries run out. Most also have a backup key, an emergency power point, or both. Check the listing for which one yours has."
+    },
+    {
+      "q": "Is a smart lock secure?",
+      "a": "Look for encrypted radios (Z-Wave S2, Matter, Thread, or the maker's encrypted Bluetooth), auto-lock, and an activity log. ANSI/BHMA grade ratings describe physical strength; Grade 2 or better is typical for a front door."
+    }
+  ]
+}

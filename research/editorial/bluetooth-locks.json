@@ -1,0 +1,79 @@
+{
+  "feature_weights": {"fingerprint": 0.35, "auto_lock": 0.30, "voice_gateway": 0.35},
+  "systems_note": "Alexa and Google control on these locks needs the maker's Wi-Fi gateway, sold separately.",
+  "spec_fields": [
+    {"key": "type", "label": "Type"},
+    {"key": "entry", "label": "Entry methods"},
+    {"key": "app", "label": "App"},
+    {"key": "remote", "label": "Remote access"},
+    {"key": "fingerprint", "label": "Fingerprint reader", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "type", "label": "Type"},
+    {"key": "fingerprint", "label": "Fingerprint", "type": "bool"},
+    {"key": "app", "label": "App"},
+    {"key": "remote", "label": "Remote access"}
+  ],
+  "awards": [
+    {"asin": "B0DCJYTLFX", "label": "Best Overall", "kind": "overall", "why": "A fingerprint deadbolt with 8 ways in, 2K+ bought last month, and a BHMA/ANSI certification claim, for $49.98."},
+    {"asin": "B0D9JX1Y9Z", "label": "Best Budget", "kind": "budget", "why": "$44.99 with a 0.3-second fingerprint reader, USB-C backup power, and 2,424 reviews."},
+    {"asin": "B08D29XQS7", "label": "Best with Handle", "kind": "special", "why": "Fingerprint, keypad, fob, and auto-lock in a handle set, with the most reviews here."},
+    {"asin": "B0B9HY417C", "label": "Best Name Brand", "kind": "premium", "why": "Yale's Bluetooth keypad deadbolt with Auto-Unlock and Apple Watch support, sold by Amazon."}
+  ],
+  "products": [
+    {"asin": "B0DCJYTLFX", "brand": "Veise", "model": "VE017", "systems": ["alexa", "google-home"],
+     "specs": {"type": "Deadbolt", "entry": "Fingerprint, app, fob, code, voice", "app": "KK Home", "remote": "With G1 gateway", "extras": "USB-C backup, multi-tenant management"},
+     "features": {"fingerprint": true, "auto_lock": false, "voice_gateway": true},
+     "verdict": "The best value in Bluetooth fingerprint deadbolts: cheap, popular, and well rated.",
+     "pros": ["$49.98 with 4.3 stars from 1,311 reviews", "Swedish FPC fingerprint sensor", "USB-C emergency power", "2K+ bought in the past month, sold by Amazon"],
+     "cons": ["Remote access and voice need the G1 gateway", "KK Home app", "BHMA grade isn't spelled out"]},
+    {"asin": "B0D9JX1Y9Z", "brand": "DESLOC", "model": "B200", "systems": ["alexa", "google-home"],
+     "specs": {"type": "Deadbolt", "entry": "Fingerprint, PIN, app, eKey, fob, key, voice", "app": "TTLock", "remote": "With gateway", "extras": "USB-C backup, AA batteries"},
+     "features": {"fingerprint": true, "auto_lock": false, "voice_gateway": true},
+     "verdict": "A $44.99 fingerprint deadbolt with eight ways in and a fast reader.",
+     "pros": ["$44.99 with 2,424 reviews", "Fingerprint unlock in under 0.3 seconds", "USB-C emergency power"],
+     "cons": ["BHMA Grade 3", "Remote access and voice need a gateway", "TTLock app"]},
+    {"asin": "B08D29XQS7", "brand": "Sifely", "model": "Fingerprint lock with handle", "systems": ["alexa", "google-home"],
+     "specs": {"type": "Handle set", "entry": "Fingerprint, keypad, fob, code, app, key", "app": "Not named in bullets", "remote": "With gateway", "extras": "Auto-lock, no drilling"},
+     "features": {"fingerprint": true, "auto_lock": true, "voice_gateway": true},
+     "verdict": "A handle lock with fingerprint, fob, and auto-lock, popular with Airbnb hosts.",
+     "pros": ["4.4 stars from 4,336 reviews", "Auto-lock", "Time-limited codes for guests and cleaners"],
+     "cons": ["Handle set, not a deadbolt", "Remote access needs a gateway", "Sold by the brand"]},
+    {"asin": "B0B9HY417C", "brand": "Yale", "model": "Bluetooth keypad deadbolt", "systems": [], "systems_label": "Yale Access app (Bluetooth)",
+     "specs": {"type": "Deadbolt", "entry": "Keypad, app, Apple Watch, Auto-Unlock", "app": "Yale Access", "remote": "Not listed", "extras": "Auto-Unlock, Auto-Lock"},
+     "features": {"fingerprint": false, "auto_lock": true, "voice_gateway": false},
+     "verdict": "Yale's Bluetooth deadbolt with Auto-Unlock as you arrive and Apple Watch unlocking.",
+     "pros": ["Auto-Unlock and Auto-Lock", "Unlock from an Apple Watch", "Sold by Amazon"],
+     "cons": ["$159.94", "No fingerprint reader", "The listing doesn't cover remote access or voice assistants"]},
+    {"asin": "B0D6B4JZCT", "brand": "Ulecoce", "model": "U68 with knob", "systems": ["alexa", "google-home"],
+     "specs": {"type": "Deadbolt + knob set", "entry": "Fingerprint, keypad, app (within 5 m)", "app": "Not named in bullets", "remote": "With gateway", "extras": "Auto-lock, 512 prints and codes"},
+     "features": {"fingerprint": true, "auto_lock": true, "voice_gateway": true},
+     "verdict": "A deadbolt and knob set with a big fingerprint memory and auto-lock.",
+     "pros": ["Stores up to 512 fingerprints and codes", "Auto-lock", "2K+ bought in the past month"],
+     "cons": ["App unlocking works within about 5 m", "Remote access needs a gateway", "Sold by the brand"]},
+    {"asin": "B0C66NCTXX", "brand": "Yamiry", "model": "Fingerprint handle lock", "systems": ["alexa", "google-home"],
+     "specs": {"type": "Handle", "entry": "Fingerprint, keypad, app", "app": "Not named in bullets", "remote": "With Wi-Fi gateway", "extras": "6 unlock methods"},
+     "features": {"fingerprint": true, "auto_lock": false, "voice_gateway": true},
+     "verdict": "A fingerprint door handle that's selling 3K+ a month.",
+     "pros": ["3,633 reviews, 3K+ bought in the past month", "Six unlock methods", "10-minute install"],
+     "cons": ["Handle, not a deadbolt", "Remote access needs a Wi-Fi gateway", "4.3 stars"]},
+    {"asin": "B0DGQ8HCVB", "brand": "Yamiry", "model": "Fingerprint keypad knob", "systems": [], "systems_label": "Yamiry app (Bluetooth)",
+     "specs": {"type": "Knob", "entry": "Fingerprint, keypad, fob, app", "app": "Not named in bullets", "remote": "With Wi-Fi gateway", "extras": "Auto lock, 50 users"},
+     "features": {"fingerprint": true, "auto_lock": true, "voice_gateway": false},
+     "verdict": "A fingerprint door knob for interior or side doors, with auto lock.",
+     "pros": ["Fingerprint, keypad, and fob", "Aluminum body", "2K+ bought in the past month"],
+     "cons": ["Stores 50 passwords and fingerprints", "Knob, not a deadbolt", "Voice assistants aren't mentioned"]}
+  ],
+  "avoid": [
+    {"asin": "B0D5J58YS8", "brand": "Yale", "model": "Digital Keypad Deadbolt", "systems": [], "systems_label": "Not connected",
+     "flag": "Shows up as a smart lock, has no app, Bluetooth, or Wi-Fi",
+     "verdict": "It's a decent keypad deadbolt, but it isn't a smart lock. It appears in smart lock search results with no connectivity at all.",
+     "reasons": [
+       "The listing says \"No app. No phone setup. No Wi-Fi.\"",
+       "With no wireless radio, it can't join any smart home system or send alerts.",
+       "Codes can only be managed at the lock, up to 20 of them.",
+       "If you want a connected lock for a similar price, the Veise VE017 and DESLOC B200 above cost less."
+     ]}
+  ]
+}

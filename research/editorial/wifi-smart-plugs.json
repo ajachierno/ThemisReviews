@@ -1,0 +1,418 @@
+{
+  "feature_weights": {
+    "energy": 0.4,
+    "apple_home": 0.3,
+    "outdoor": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "energy",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "apple_home",
+      "label": "Apple Home",
+      "type": "bool"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "energy",
+      "label": "Energy",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B091699Z3W",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,704 reviews and Alexa and Google support."
+    },
+    {
+      "asin": "B089DR29T6",
+      "label": "Best for Alexa Homes",
+      "kind": "budget",
+      "why": "Over 571,000 reviews at 4.7 stars, and it sets up in the Alexa app in minutes."
+    },
+    {
+      "asin": "B08LN3C7WK",
+      "label": "Best Energy Monitoring",
+      "kind": "special",
+      "why": "Real-time and historical energy use for $10.99."
+    },
+    {
+      "asin": "B091FXH2FR",
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "why": "Two independently controlled outdoor outlets, 15 A each, with 17,491 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B091699Z3W",
+      "brand": "Kasa",
+      "model": "EP10 Ultra Mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Kasa",
+        "load": "15 A",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "The best general-purpose smart plug: tiny, cheap, reliable, and it works with Alexa and Google.",
+      "pros": [
+        "$10 with 4.5 stars from 40,704 reviews",
+        "Mini size leaves the second outlet free",
+        "15 A rating",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "No Apple Home",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B089DR29T6",
+      "brand": "Amazon",
+      "model": "Smart Plug",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Alexa",
+        "load": "Not listed",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "The most-reviewed smart plug on Amazon. Perfect if Alexa runs your house; useless if it doesn't.",
+      "pros": [
+        "4.7 stars from over 571,000 reviews",
+        "Sets up entirely in the Alexa app",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Works with Alexa only",
+        "No energy monitoring",
+        "Load rating isn't listed"
+      ]
+    },
+    {
+      "asin": "B08LN3C7WK",
+      "brand": "Kasa",
+      "model": "KP115",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Kasa",
+        "load": "Not listed",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": true,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "A mini plug with real-time and historical energy monitoring, for barely more than the plain version.",
+      "pros": [
+        "Energy monitoring",
+        "$10.99 with 17,796 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "No Apple Home",
+        "2.4 GHz Wi-Fi only",
+        "Load rating isn't in the listing bullets"
+      ]
+    },
+    {
+      "asin": "B07B8W2KHZ",
+      "brand": "Kasa",
+      "model": "HS103P2 (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Kasa",
+        "load": "Not listed",
+        "pack": "2 plugs"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "Kasa's classic plug in a two-pack, with 150,663 reviews behind it.",
+      "pros": [
+        "Two plugs for $14.99",
+        "4.6 stars from 150,663 reviews",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "Bulkier than the EP10",
+        "No energy monitoring",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B08X448XHR",
+      "brand": "Govee",
+      "model": "Smart plug",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Govee Home",
+        "load": "Not listed",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "A Wi-Fi plug with Bluetooth backup, popular with people already using Govee lights.",
+      "pros": [
+        "Wi-Fi plus Bluetooth for control when Wi-Fi drops",
+        "4.5 stars from 13,954 reviews",
+        "Works with Alexa and Google"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "Govee app only",
+        "Load rating isn't listed"
+      ]
+    },
+    {
+      "asin": "B0B62LPR5Z",
+      "brand": "EIGHTREE",
+      "model": "Smart plug (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Smart Life",
+        "load": "15 A",
+        "pack": "4 plugs"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "Four Smart Life plugs for about $6 each, with Bluetooth-assisted setup.",
+      "pros": [
+        "About $6.25 per plug",
+        "Bluetooth-assisted pairing",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "Smart Life is a cloud-based app",
+        "No energy monitoring",
+        "Voice control needs account linking"
+      ]
+    },
+    {
+      "asin": "B0B14C719T",
+      "brand": "Kasa",
+      "model": "EP25P4 (4-pack)",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Kasa or Apple Home",
+        "load": "15 A",
+        "pack": "4 plugs"
+      },
+      "features": {
+        "energy": true,
+        "apple_home": true,
+        "outdoor": false
+      },
+      "verdict": "Kasa's Apple Home plug with energy monitoring, in a four-pack. The pick for iPhone homes that don't want Matter.",
+      "pros": [
+        "Works in Apple Home with Siri",
+        "Energy monitoring",
+        "15 A, about $11 per plug"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Only sold as a 4-pack here",
+        "Apple Home remote access needs a home hub"
+      ]
+    },
+    {
+      "asin": "B091FXH2FR",
+      "brand": "Kasa",
+      "model": "EP40 outdoor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Outdoor",
+        "app": "Kasa",
+        "load": "15 A per outlet",
+        "pack": "1 plug, 2 outlets"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": true
+      },
+      "verdict": "The outdoor plug to buy: two outlets controlled separately, 15 A each, with a weather cover.",
+      "pros": [
+        "Two independently controlled outlets",
+        "15 A per outlet",
+        "4.6 stars from 17,491 reviews"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "Needs Wi-Fi coverage outside",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B08TNF4835",
+      "brand": "SONOFF",
+      "model": "S31",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "eWeLink",
+        "load": "15 A",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": true,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "A cheap ETL-certified plug with energy monitoring and IFTTT support.",
+      "pros": [
+        "Energy monitoring for $10.90",
+        "ETL certified",
+        "IFTTT support"
+      ],
+      "cons": [
+        "4.1 stars",
+        "eWeLink app",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0D7ZXYPRL",
+      "brand": "GHome",
+      "model": "Smart plug",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "GHome",
+        "load": "Not listed",
+        "pack": "1 plug"
+      },
+      "features": {
+        "energy": false,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "The cheapest plug on this list, with Bluetooth-assisted setup and 5K+ sales a month.",
+      "pros": [
+        "$9.99",
+        "Wi-Fi plus Bluetooth setup",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "Sold by a third-party seller",
+        "No energy monitoring",
+        "Load rating isn't listed"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GR59XKYJ",
+      "brand": "MOOEGG",
+      "model": "10A Wi-Fi smart plug",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "flag": "10 A rating, two-thirds of a standard plug",
+      "verdict": "It's cheap, but it's rated for 10 A. The Kasa EP10 costs $2 more and handles 15 A.",
+      "reasons": [
+        "10 A is about 1,200 W at 120 V, so kettles, toasters, and coffee makers can exceed it.",
+        "The Kasa EP10 above costs $10.00 and is rated 15 A.",
+        "The listing says testing was \"conducted to UL standards\", which isn't the same as being UL or ETL listed.",
+        "The listing refers to the \"APP\" without ever naming which app it uses."
+      ]
+    }
+  ]
+}

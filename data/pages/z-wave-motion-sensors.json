@@ -1,0 +1,473 @@
+{
+  "slug": "z-wave-motion-sensors",
+  "family": "motion-sensors",
+  "family_title": "Motion sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Motion Sensors",
+  "subtitle": "Battery and wired Z-Wave motion sensors, ranked from live Amazon data.",
+  "intro": "We pulled the Z-Wave motion sensors selling on Amazon and scored them on rating, review volume, and features: 800 Series Long Range radios, extra sensors like temperature and light, and pet immunity.",
+  "reviews_ceiling": 800,
+  "feature_weights": {
+    "long_range": 0.35,
+    "extra_sensors": 0.35,
+    "usb_power": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "pets",
+      "label": "Pet immune"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07FHL7J11",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "800 Series Long Range, adjustable sensitivity, and battery or USB power. On USB it also repeats signal."
+    },
+    {
+      "asin": "B01MQXXG0I",
+      "label": "Best for Pets",
+      "kind": "budget",
+      "why": "Ignores pets up to 55 lbs, with up to 5-year battery life and 692 reviews."
+    },
+    {
+      "asin": "B0DCL43CS2",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "Indoor or outdoor, a 30 ft detection radius, and temperature monitoring."
+    },
+    {
+      "asin": "B08XHZP7NV",
+      "label": "Most Sensors",
+      "kind": "premium",
+      "why": "Motion plus temperature, humidity, light, UV, and vibration in a 1.8 in. body."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07FHL7J11",
+      "brand": "Zooz",
+      "model": "ZSE18 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Battery (up to 1 yr) or micro USB",
+        "extras": "Vibration (select hubs)",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": false,
+        "usb_power": true
+      },
+      "verdict": "The Z-Wave motion sensor to buy: Long Range, adjustable, and it can run on USB power and repeat signal.",
+      "pros": [
+        "800 Series Long Range",
+        "Adjustable sensitivity and retrigger time",
+        "USB power option turns it into a repeater",
+        "Magnetic mount"
+      ],
+      "cons": [
+        "Battery rated up to a year",
+        "Not supported by Wink, ADT, Vivint, or Alarm.com, per the listing",
+        "USB cable not included"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range S2 Motion Sensor ZSE18 800LR with Magnetic Mount, Works with Z-Box, Hubitat, and Home Assistant",
+      "image": "https://m.media-amazon.com/images/I/51IfGq5MbsL._AC_SL1500_.jpg",
+      "price": 37.95,
+      "rating": 4.1,
+      "reviews_count": 269,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B01MQXXG0I",
+      "brand": "Ecolink",
+      "model": "PIRZWAVE2.5-ECO",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Battery (up to 5 yrs)",
+        "extras": "Motion only",
+        "location": "Indoor",
+        "pets": "Up to 55 lbs"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "usb_power": false
+      },
+      "verdict": "A long-running PIR sensor with pet immunity and a 5-year battery rating.",
+      "pros": [
+        "Pet immunity up to 55 lbs",
+        "Up to 5-year battery life",
+        "Corner or flush mounting, no tools",
+        "692 reviews"
+      ],
+      "cons": [
+        "Older Z-Wave Plus chip",
+        "The listing's compatibility note calls it a door/window sensor, a copy-paste slip",
+        "Sold by a third-party seller"
+      ],
+      "name": "Ecolink Z-Wave PIR Motion Detector Pet Immune, White (PIRZWAVE2.5-ECO)",
+      "image": "https://m.media-amazon.com/images/I/31FCjzRGJ9L._AC_SL1000_.jpg",
+      "price": 32.99,
+      "rating": 4.2,
+      "reviews_count": 692,
+      "bought": null
+    },
+    {
+      "asin": "B00FB1TBKS",
+      "brand": "Ecolink",
+      "model": "PIRZWAVE2-ECO",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Battery",
+        "extras": "Motion only",
+        "location": "Indoor",
+        "pets": "Up to 55 lbs"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "usb_power": false
+      },
+      "verdict": "The earlier Ecolink pet-immune model. Cheaper, but stock is running out.",
+      "pros": [
+        "Pet immunity up to 55 lbs",
+        "Flush and corner brackets included",
+        "$27.99"
+      ],
+      "cons": [
+        "Only 1 left in stock at capture time",
+        "3.9 stars",
+        "Older model"
+      ],
+      "name": "Ecolink Intelligent Technology Z-Wave Pet Immunity Motion Detector with Pet Immunity, White (PIRZWAVE2-ECO)",
+      "image": "https://m.media-amazon.com/images/I/3165XOts8DL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 27.99,
+      "rating": 3.9,
+      "reviews_count": 409,
+      "bought": null
+    },
+    {
+      "asin": "B0DF88BT77",
+      "brand": "HomeSeer",
+      "model": "MS100 G8",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Battery or micro USB",
+        "extras": "No-motion timer",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": false,
+        "usb_power": true
+      },
+      "verdict": "A Long Range motion sensor that also reports when a room has been empty for a set time.",
+      "pros": [
+        "Reports no-motion periods for vacancy automations",
+        "800 Series Long Range",
+        "Battery or USB power"
+      ],
+      "cons": [
+        "3.9 stars from 11 reviews",
+        "9 left in stock at capture time",
+        "$39.95"
+      ],
+      "name": "HomeSeer Smart Motion Sensor (MS100 G8), 800 Series Mesh & Long Range Z-Wave Technology, Compatible with HomeSeer, Home Assistant, Hubitat (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/51G1pKAozwL._AC_SL1000_.jpg",
+      "price": 39.95,
+      "rating": 3.9,
+      "reviews_count": 11,
+      "bought": null
+    },
+    {
+      "asin": "B0DCL43CS2",
+      "brand": "Zooz",
+      "model": "ZSE70 outdoor/indoor",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "2 CR123A or 12 V supply",
+        "extras": "Temperature, light",
+        "location": "Indoor or outdoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "A weatherproof motion sensor with a 30 ft radius, for driveways, porches, and yards.",
+      "pros": [
+        "Indoor or outdoor",
+        "30 ft detection radius",
+        "Temperature and light readings",
+        "Long Range"
+      ],
+      "cons": [
+        "Only works with open Z-Wave hubs, not alarm panels",
+        "SmartThings and Hubitat need a custom driver",
+        "4.0 stars"
+      ],
+      "name": "Zooz Outdoor/Indoor Motion Sensor ZSE70, Z-Wave Long Range, Temperature Monitoring, 800 LR Range",
+      "image": "https://m.media-amazon.com/images/I/61hlDa1jAZL._AC_SL1500_.jpg",
+      "price": 47.95,
+      "rating": 4.0,
+      "reviews_count": 59,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B08XHZP7NV",
+      "brand": "Aeotec",
+      "model": "MultiSensor 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "power": "Not listed",
+        "extras": "Temperature, humidity, light, UV, vibration",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "Six sensors in one small device, for rooms where you want climate and light data as well as motion.",
+      "pros": [
+        "Motion, temperature, humidity, light, UV, and vibration",
+        "1.8 in., fits a corner, shelf, or recessed light",
+        "S2 and SmartStart"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$49.99",
+        "No Long Range"
+      ],
+      "name": "Aeotec MultiSensor 7, 6-in-1 Zwave Sensors Contains Monitor Motion, Temperature, Light, Humidity, UV, and Vibration, Z-Wave Plus, Gen7, S2, SmartStart Enabled, Compatible with Zwave Hub Smartthings",
+      "image": "https://m.media-amazon.com/images/I/61CHj5F2NzS._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.8,
+      "reviews_count": 112,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07226MG2T",
+      "brand": "Enbrighten",
+      "model": "Motion sensor light switch",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave",
+        "power": "Hardwired (wall switch)",
+        "extras": "Light level",
+        "location": "In-wall",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": false
+      },
+      "verdict": "A wall switch with a built-in motion sensor, for lights that should switch themselves on and off.",
+      "pros": [
+        "Occupancy, vacancy, or manual modes",
+        "Light-sensing option",
+        "Timeouts from 5 seconds to 30 minutes",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Replaces a wall switch, so it needs wiring",
+        "$57.49",
+        "Only sees motion near the switch"
+      ],
+      "name": "Enbrighten Z-Wave Smart Motion Sensor Light Indoor, On/Off, Vacancy/Occupancy Sensor, Includes White & Almond, Zwave Hub Required, Works with SmartThings, Wink, & Alexa, Smart Light Switch, 26931",
+      "image": "https://m.media-amazon.com/images/I/71Qu9rJHlPL._SL1500_.jpg",
+      "price": 57.49,
+      "rating": 4.3,
+      "reviews_count": 578,
+      "bought": null
+    },
+    {
+      "asin": "B00Q59PBZE",
+      "brand": "HomeSeer",
+      "model": "HSM200",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "power": "Plugs into an outlet",
+        "extras": "Temperature, light, RGB LED",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "usb_power": true
+      },
+      "verdict": "A plug-in multisensor with a programmable color LED that doubles as a status light.",
+      "pros": [
+        "No batteries, plugs into a standard outlet",
+        "RGB LED in 7 colors for alerts",
+        "Temperature and light"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Placement limited to outlets",
+        "SmartThings needs HomeSeer's Edge driver"
+      ],
+      "name": "HomeSeer Smart Motion, Temperature & Light Sensor (HSM200), AC Powered, Z-Wave Plus Technology, Includes Programmable RGB LED Indicator, Compatible with HomeSeer, Home Assistant & Hubitat (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/31Aqucx0vyL._AC_SL1000_.jpg",
+      "price": 49.95,
+      "rating": 3.4,
+      "reviews_count": 114,
+      "bought": null
+    },
+    {
+      "asin": "B09GDL6BGY",
+      "brand": "Zooz",
+      "model": "ZSE11 Q Sensor 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "power": "Batteries (included) or micro USB",
+        "extras": "Temperature, humidity, light",
+        "location": "Indoor",
+        "pets": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "usb_power": true
+      },
+      "verdict": "A four-in-one Long Range sensor with an adjustable mount. Works best with hubs that handle multisensors well.",
+      "pros": [
+        "Motion, temperature, humidity, and light",
+        "Adjustable bracket",
+        "Batteries included, or USB power"
+      ],
+      "cons": [
+        "3.6 stars",
+        "SmartThings needs a custom Edge driver",
+        "Basic Z-Wave hubs may not show all readings"
+      ],
+      "name": "Zooz Z-Wave Long Range Q Sensor ZSE11 800LR | Motion, Temperature, Humidity, Light (Hub Required)",
+      "image": "https://m.media-amazon.com/images/I/41xURZEyPGL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 46.95,
+      "rating": 3.6,
+      "reviews_count": 126,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "PIR motion or mmWave presence?",
+      "a": "PIR sensors detect movement and are cheap with long battery life, but they think a room is empty when you sit still. mmWave presence sensors detect a person sitting still, so lights stay on while you read, but many need wired power."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    },
+    {
+      "q": "Where should I put a motion sensor?",
+      "a": "In a corner about 6 to 8 feet up, facing across the room rather than straight at the doorway. Keep PIR sensors away from heat vents and direct sun, which cause false triggers."
+    }
+  ]
+}

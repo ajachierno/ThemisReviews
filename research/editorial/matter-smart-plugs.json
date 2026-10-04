@@ -1,0 +1,476 @@
+{
+  "feature_weights": {
+    "energy": 0.5,
+    "outdoor": 0.25,
+    "dual": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "energy",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "app",
+      "label": "Maker app"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "energy",
+      "label": "Energy",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BNWGZ545",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A 15 A Matter plug for $11.99 with 2,925 reviews, sold by Amazon."
+    },
+    {
+      "asin": "B0DP8KKHQB",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$10.39 for a Matter plug that also sets up with zero effort in Alexa."
+    },
+    {
+      "asin": "B0DKGBP38V",
+      "label": "Best Energy Monitoring",
+      "kind": "special",
+      "why": "Matter plus detailed energy tracking, two plugs for $23.99."
+    },
+    {
+      "asin": "B0CVN3CNCD",
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "why": "Two independently controlled IP65 outdoor outlets, 2K+ bought last month."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BNWGZ545",
+      "brand": "Tapo",
+      "model": "P125M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A / 1,800 W",
+        "pack": "1 plug",
+        "app": "Tapo"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "The Matter plug to buy. Cheap, well reviewed, 15 A, and it keeps working on your network when the internet is down.",
+      "pros": [
+        "$11.99 with 2,925 reviews",
+        "15 A / 1,800 W",
+        "Local control over Matter",
+        "1K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "2.4 GHz Wi-Fi only",
+        "Bigger than some minis"
+      ]
+    },
+    {
+      "asin": "B0DP8KKHQB",
+      "brand": "Amazon Basics",
+      "model": "Matter smart plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed",
+        "pack": "1 plug",
+        "app": "None (Matter or Alexa)"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Amazon's Matter plug. Cheap, and unlike the original Amazon Smart Plug it isn't locked to Alexa.",
+      "pros": [
+        "$10.39",
+        "Works with Alexa, Google, Apple Home, and SmartThings through Matter",
+        "Zero-touch Alexa setup option"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Load rating isn't listed",
+        "Needs a Matter controller"
+      ]
+    },
+    {
+      "asin": "B0DKGBP38V",
+      "brand": "Tapo",
+      "model": "P110M (2-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A",
+        "pack": "2 plugs",
+        "app": "Tapo"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Tapo's energy-monitoring Matter plug, two for $23.99.",
+      "pros": [
+        "Detailed energy statistics",
+        "About $12 per plug",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Only sold in multipacks here",
+        "4.4 stars",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0BYGRLRS1",
+      "brand": "Kasa",
+      "model": "KP125M (2-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A / 1,800 W",
+        "pack": "2 plugs",
+        "app": "Kasa"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Kasa's Matter plug with energy monitoring, for people already using the Kasa app.",
+      "pros": [
+        "Energy monitoring",
+        "2,271 reviews",
+        "Local control over Matter"
+      ],
+      "cons": [
+        "Costs more per plug than the Tapo P110M",
+        "4.3 stars",
+        "Only sold in multipacks here"
+      ]
+    },
+    {
+      "asin": "B0C36Z4L6S",
+      "brand": "Linkind",
+      "model": "Matter smart plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A / 1,800 W",
+        "pack": "1 plug",
+        "app": "AiDot"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A cheap, highly rated Matter plug.",
+      "pros": [
+        "$10.99 with 4.6 stars",
+        "15 A / 1,800 W",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "156 reviews",
+        "No energy monitoring",
+        "Sold by the brand, not Amazon"
+      ]
+    },
+    {
+      "asin": "B0CJFHQZ7Y",
+      "brand": "meross",
+      "model": "Matter plug with energy monitoring",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed",
+        "pack": "Not stated in listing",
+        "app": "meross"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A Matter plug with a power meter and a standby-killer feature that cuts idle power draw.",
+      "pros": [
+        "Real-time and historical energy data",
+        "Standby killer turns off idle devices",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$49.99, and the listing doesn't say how many plugs are included",
+        "Load rating isn't in the bullets",
+        "195 reviews"
+      ]
+    },
+    {
+      "asin": "B0CVN3CNCD",
+      "brand": "Tapo",
+      "model": "P400M outdoor",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Outdoor (IP65)",
+        "outlets": "2, independent",
+        "load": "Not listed",
+        "pack": "1 plug, 2 outlets",
+        "app": "Tapo"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": true,
+        "dual": true
+      },
+      "verdict": "The outdoor Matter plug to get: two outlets controlled separately in an IP65 housing.",
+      "pros": [
+        "Two independently controlled outlets",
+        "IP65 weather resistance",
+        "4.5 stars, 2K+ bought in the past month"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "Needs Wi-Fi coverage outside",
+        "Load rating isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DLYLR52Q",
+      "brand": "GE Cync",
+      "model": "Indoor smart plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed",
+        "pack": "1 plug",
+        "app": "Cync"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A Cync plug that joins any platform through Matter. Handy if you already have Cync lights.",
+      "pros": [
+        "Works with Alexa, Google, and SmartThings through Matter",
+        "400+ bought in the past month",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "4.3 stars",
+        "No energy monitoring",
+        "Load rating isn't listed"
+      ]
+    },
+    {
+      "asin": "B07X52W1J8",
+      "brand": "Minoston",
+      "model": "Matter outdoor plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Outdoor (IP65)",
+        "outlets": "1",
+        "load": "Heavy duty (not specified)",
+        "pack": "1 plug",
+        "app": "Smart Life or Minoston"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": true,
+        "dual": false
+      },
+      "verdict": "A cheaper single-outlet outdoor Matter plug with 3,842 reviews.",
+      "pros": [
+        "IP65 weatherproof",
+        "3,842 reviews",
+        "$18.99"
+      ],
+      "cons": [
+        "One outlet",
+        "Sold by a third-party seller",
+        "No energy monitoring"
+      ]
+    },
+    {
+      "asin": "B0FSZS357P",
+      "brand": "SONOFF",
+      "model": "S41s (4-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A / 1,800 W",
+        "pack": "4 plugs",
+        "app": "eWeLink"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Four ETL-certified 15 A Matter plugs for about $7.50 each.",
+      "pros": [
+        "About $7.50 per plug",
+        "ETL certified, 15 A / 1,800 W",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 97 reviews",
+        "No energy monitoring",
+        "Sold by the brand, not Amazon"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HB9F2J9W",
+      "brand": "JAJAHBOZI (sold as EHomeSmart)",
+      "model": "Matter smart plug (2-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "No amp rating, unclear brand, vague safety claims",
+      "verdict": "The listing never says how much power the plug can handle, and it's unclear who actually makes it.",
+      "reasons": [
+        "No amp or watt rating appears anywhere in the listing.",
+        "The seller is EHomeSmart, the spec table says the brand is JAJAHBOZI, and the app is AiDot.",
+        "It says it's \"certified with fire-resistant material\" without naming a certification such as ETL or UL.",
+        "It claims to manage your power load precisely, but lists no energy monitoring."
+      ]
+    }
+  ]
+}

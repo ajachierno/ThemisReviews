@@ -1,0 +1,517 @@
+{
+  "slug": "z-wave-smart-plugs",
+  "family": "smart-plugs",
+  "family_title": "Smart plugs",
+  "noun": "plug",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Z-Wave Smart Plugs",
+  "subtitle": "Plug-in Z-Wave outlets that also strengthen your mesh, ranked from live Amazon data.",
+  "intro": "We pulled the Z-Wave smart plugs selling on Amazon and scored them on rating, review volume, and features: 800 Series Long Range radios, energy monitoring, and outdoor ratings. Every Z-Wave plug also acts as a repeater for the rest of your network.",
+  "reviews_ceiling": 900,
+  "feature_weights": {
+    "long_range": 0.35,
+    "energy": 0.35,
+    "outdoor": 0.15,
+    "dual": 0.15
+  },
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "energy",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "energy",
+      "label": "Energy",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BHL9MBRZ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "800 Series Long Range with energy monitoring and a 4.8-star rating."
+    },
+    {
+      "asin": "B0BWY63YVX",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$19.99 with energy monitoring, and it repeats signal for the rest of your Z-Wave network."
+    },
+    {
+      "asin": "B0BHF6MPNK",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "IP65 weatherproof housing with Long Range, for holiday lights, pumps, and patio lighting."
+    },
+    {
+      "asin": "B0CRL5F1QY",
+      "label": "Best Dual Outlet",
+      "kind": "premium",
+      "why": "Two independently controlled outlets in one plug, with Long Range."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BHL9MBRZ",
+      "brand": "Zooz",
+      "model": "ZEN04 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A resistive"
+      },
+      "features": {
+        "long_range": true,
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "The Z-Wave plug to buy. Long Range, energy monitoring, and the best rating on this list.",
+      "pros": [
+        "4.8 stars, 200+ bought in the past month",
+        "800 Series Long Range with S2 and SmartStart",
+        "Real-time energy monitoring"
+      ],
+      "cons": [
+        "No dimming",
+        "Sold by a third-party seller",
+        "Long Range needs a hub that supports it"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range Smart Plug ZEN04 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat",
+      "image": "https://m.media-amazon.com/images/I/31hXY+yJXJL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 35.95,
+      "rating": 4.8,
+      "reviews_count": 68,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B01NAO4B9Z",
+      "brand": "Leviton",
+      "model": "DZPA1-2BW",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A"
+      },
+      "features": {
+        "long_range": false,
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A long-running name-brand Z-Wave plug with the most reviews here.",
+      "pros": [
+        "732 reviews at 4.5 stars",
+        "15 A grounded receptacle",
+        "Repeats Z-Wave signal"
+      ],
+      "cons": [
+        "Older Z-Wave Plus chip",
+        "No energy monitoring",
+        "Sold by a third-party seller"
+      ],
+      "name": "Leviton Decora Smart Plug, Z-Wave, DZPA1-2BW, White",
+      "image": "https://m.media-amazon.com/images/I/61vGR2W+AuL._SL1000_.jpg",
+      "price": 30.0,
+      "rating": 4.5,
+      "reviews_count": 732,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0CQX4JFV2",
+      "brand": "Minoston",
+      "model": "Mini plug (800 Series)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "15 A"
+      },
+      "features": {
+        "long_range": false,
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A compact 800 Series plug that leaves the second outlet free, with 506 reviews.",
+      "pros": [
+        "Mini size leaves the other outlet usable",
+        "800 Series with S2 and SmartStart",
+        "506 reviews at 4.5 stars"
+      ],
+      "cons": [
+        "Long Range isn't mentioned in the listing",
+        "No energy monitoring",
+        "Sold by a third-party seller"
+      ],
+      "name": "Minoston Smart Plug, 15A Mini Z-Wave 800 Series Plug-in Socket with Built-in Repeater and Range Extender, Z-Wave Hub Required, Compatible with SmartThings, Wink, FCC and ETL Listed, MP21Z",
+      "image": "https://m.media-amazon.com/images/I/61pIYAaVcUL._SL1500_.jpg",
+      "price": 28.99,
+      "rating": 4.5,
+      "reviews_count": 506,
+      "bought": null
+    },
+    {
+      "asin": "B0CGHR5NV1",
+      "brand": "Minoston",
+      "model": "Mini plug (800 Series LR)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "energy": false,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Minoston's mini plug with Z-Wave Long Range.",
+      "pros": [
+        "Z-Wave Long Range",
+        "Compact size",
+        "ETL listed"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "112 reviews",
+        "Load rating isn't in the listing"
+      ],
+      "name": "Minoston Zwave Outlet Mini, Compact Size, 800 Series Z-Wave Long Range, ETL",
+      "image": "https://m.media-amazon.com/images/I/618CqDkWI7L._SL1500_.jpg",
+      "price": 28.99,
+      "rating": 4.5,
+      "reviews_count": 112,
+      "bought": null
+    },
+    {
+      "asin": "B0CRL5F1QY",
+      "brand": "Minoston",
+      "model": "Dual outlet plug (800 Series LR)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "2, independent",
+        "load": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "energy": false,
+        "outdoor": false,
+        "dual": true
+      },
+      "verdict": "Two independently controlled outlets in one plug, with Long Range.",
+      "pros": [
+        "Each outlet controlled separately",
+        "Z-Wave Long Range",
+        "Repeats signal"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "59 reviews",
+        "Covers both sockets of a duplex outlet"
+      ],
+      "name": "Minoston 800 Series Zwave Dual Outlet Plug, On/Off Z-Wave Repeater Switch with 2 Individual Control Sockets, Hub Required, Z Wave LR Smart Plugs Compatible with SmartThings, Hubitat, Fibaro (MP26Z)",
+      "image": "https://m.media-amazon.com/images/I/51yRAIkPMmL._SL1500_.jpg",
+      "price": 34.99,
+      "rating": 4.4,
+      "reviews_count": 59,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0BWY63YVX",
+      "brand": "NEO",
+      "model": "Smart mini plug",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus (500, S2)",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "The cheapest Z-Wave plug here, and it still meters energy.",
+      "pros": [
+        "$19.99",
+        "Energy monitoring",
+        "Compact, repeats signal"
+      ],
+      "cons": [
+        "Older 500 Series chip",
+        "Load rating isn't listed",
+        "Sold by a third-party seller"
+      ],
+      "name": "NEO Z-Wave Plus Smart Mini Plug, Compact Z-Wave Outlet for Home Automation, Works with Smartthings, Basic On/Off Function, 500 S2",
+      "image": "https://m.media-amazon.com/images/I/41ITLUa-54L._SL1200_.jpg",
+      "price": 19.99,
+      "rating": 4.3,
+      "reviews_count": 103,
+      "bought": null
+    },
+    {
+      "asin": "B0BHF6MPNK",
+      "brand": "Zooz",
+      "model": "ZEN05 outdoor",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Outdoor (IP65)",
+        "outlets": "1",
+        "load": "15 A resistive"
+      },
+      "features": {
+        "long_range": true,
+        "energy": false,
+        "outdoor": true,
+        "dual": false
+      },
+      "verdict": "A weatherproof Long Range plug for outdoor lights and pumps.",
+      "pros": [
+        "IP65 weatherproof",
+        "Long Range up to 1,300 ft",
+        "S2 and SmartStart"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "No dimming",
+        "Sold by a third-party seller"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range Outdoor Single Plug ZEN05 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat",
+      "image": "https://m.media-amazon.com/images/I/41UNEX3qMBL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 34.95,
+      "rating": 4.4,
+      "reviews_count": 54,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0BHC73DLB",
+      "brand": "Zooz",
+      "model": "ZEN14 outdoor double",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Outdoor (IP65)",
+        "outlets": "2, independent",
+        "load": "15 A total"
+      },
+      "features": {
+        "long_range": true,
+        "energy": false,
+        "outdoor": true,
+        "dual": true
+      },
+      "verdict": "Two outdoor outlets controlled separately, in an IP65 housing.",
+      "pros": [
+        "Two independently controlled outdoor outlets",
+        "IP65 weatherproof",
+        "Long Range"
+      ],
+      "cons": [
+        "15 A total shared between both outlets",
+        "4.1 stars",
+        "No energy monitoring"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range Outdoor Double Plug ZEN14 | Hub Required | Works with The Z-Box Hub, Home Assistant, and Hubitat",
+      "image": "https://m.media-amazon.com/images/I/71dWHlfu0bL._AC_SL1500_.jpg",
+      "price": 39.95,
+      "rating": 4.1,
+      "reviews_count": 100,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0GXW9HZRK",
+      "brand": "Ezlo",
+      "model": "Energy monitoring plug (LR)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "A Long Range plug that tracks watts and kWh, with over-current protection.",
+      "pros": [
+        "Energy monitoring in watts and kWh",
+        "Z-Wave Long Range",
+        "Over-current protection"
+      ],
+      "cons": [
+        "Only 21 reviews",
+        "Load rating isn't listed",
+        "Newer brand on Amazon"
+      ],
+      "name": "Ezlo Z-Wave Smart Plug with Energy Monitoring, Outlet, Long Range | Z-Wave Hub Required",
+      "image": "https://m.media-amazon.com/images/I/31wVmrahOnL._SL1000_.jpg",
+      "price": 25.95,
+      "rating": 4.2,
+      "reviews_count": 21,
+      "bought": null
+    },
+    {
+      "asin": "B0CKWX2S5B",
+      "brand": "Minoston",
+      "model": "Energy monitor plug (800 Series)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "location": "Indoor",
+        "outlets": "1",
+        "load": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "energy": true,
+        "outdoor": false,
+        "dual": false
+      },
+      "verdict": "Minoston's 800 Series plug with energy monitoring.",
+      "pros": [
+        "Energy monitoring",
+        "800 Series with S2 and SmartStart",
+        "50+ bought in the past month"
+      ],
+      "cons": [
+        "Long Range isn't mentioned in the listing",
+        "4.1 stars from 26 reviews",
+        "Load rating isn't listed"
+      ],
+      "name": "Minoston Zwave Plug Energy Monitor, 800 Series Zwave Outlet, Built-in Repeater Range Extender, Z-Wave Hub Required, Alexa and Google Assistant Compatible (MP21ZP)",
+      "image": "https://m.media-amazon.com/images/I/61zRhKNU87L._SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.1,
+      "reviews_count": 26,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What can I plug into a smart plug?",
+      "a": "Lamps, fans, coffee makers, holiday lights, and anything else that turns on with a physical switch left in the on position. Check the plug's amp rating (most are 15 A) before plugging in anything that draws a lot of power."
+    },
+    {
+      "q": "Is energy monitoring worth paying for?",
+      "a": "If you want to know what a fridge, dehumidifier, or entertainment center costs to run, yes. Energy-monitoring plugs also let you trigger automations, like an alert when the washer finishes."
+    },
+    {
+      "q": "Will a smart plug block the second outlet?",
+      "a": "Bulky plugs often cover the other socket. Mini designs leave it free, so check the shape before you buy several."
+    },
+    {
+      "q": "Are smart plugs safe for heaters and air conditioners?",
+      "a": "Only if the plug's rating covers the appliance's draw and the maker allows it. Many plugs are rated 15 A, but heaters run near that limit for hours. Check the appliance's manual; some say not to use any timer or smart plug."
+    }
+  ]
+}

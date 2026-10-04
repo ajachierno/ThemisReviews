@@ -1,0 +1,51 @@
+{
+  "feature_weights": {"no_cloud": 0.50, "alarm": 0.50},
+  "spec_fields": [
+    {"key": "radio", "label": "Matter over"},
+    {"key": "pack", "label": "In the box"},
+    {"key": "no_cloud", "label": "No cloud account", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "radio", "label": "Matter over"},
+    {"key": "pack", "label": "Pack"},
+    {"key": "no_cloud", "label": "No cloud", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "awards": [
+    {"asin": "B0C3SL4K28", "label": "Best Overall", "kind": "overall", "why": "Three local-only Eve sensors with 784 reviews at 4.2 stars."},
+    {"asin": "B0BTL8B72D", "label": "Best Budget", "kind": "budget", "why": "$27.99, the most reviews of any Matter contact sensor, and remote alarm support."},
+    {"asin": "B0BZSY26WP", "label": "Best Single", "kind": "special", "why": "One Eve sensor for $29.95 if you only need to watch one door."}
+  ],
+  "products": [
+    {"asin": "B0C3SL4K28", "brand": "Eve", "model": "Door & Window (Matter) 3-pack", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"radio": "Thread", "pack": "3 sensors", "extras": "Open time and duration stats"},
+     "features": {"no_cloud": true, "alarm": false},
+     "verdict": "The Matter door sensor to get. Local only, no account, and it works on every major platform.",
+     "pros": ["No Eve cloud, registration, or tracking", "Open-time and duration statistics in the Eve app", "784 reviews, sold by Amazon"],
+     "cons": ["Needs a Thread border router", "Statistics need the Eve app for iOS", "$93.99 for three"]},
+    {"asin": "B0BTL8B72D", "brand": "Aqara", "model": "Door and Window Sensor P2", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"radio": "Thread", "pack": "1 sensor", "extras": "Remote alarm, voice alerts"},
+     "features": {"no_cloud": false, "alarm": true},
+     "verdict": "Aqara's native Matter sensor, the cheapest and most-reviewed one here, with mixed ratings.",
+     "pros": ["$27.99 with 1,120 reviews", "Native Matter over Thread", "Voice alerts through Siri, Alexa, and Google"],
+     "cons": ["3.6 stars", "Needs a Thread border router", "Some features need the Aqara app"]},
+    {"asin": "B0BZSY26WP", "brand": "Eve", "model": "Door & Window (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"radio": "Thread", "pack": "1 sensor", "extras": "Open time and duration stats"},
+     "features": {"no_cloud": true, "alarm": false},
+     "verdict": "A single Eve sensor for one door or window.",
+     "pros": ["Local only, no account", "Works on every major platform", "Sold by Amazon"],
+     "cons": ["Costs more per sensor than the 3-pack", "Needs a Thread border router", "147 reviews"]}
+  ],
+  "avoid": [
+    {"asin": "B0DR3C9D17", "brand": "arre", "model": "Contact sensor (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "flag": "No specs at all, 2.6 stars",
+     "verdict": "The listing is a list of logos: no battery type, no battery life, no size, and no mounting details.",
+     "reasons": [
+       "Each bullet is a single phrase like \"Works with Apple Home\" with no specifications.",
+       "Battery type, battery life, and size aren't listed anywhere.",
+       "2.6 stars from 13 reviews.",
+       "The Aqara P2 costs less and has a real listing and over a thousand reviews."
+     ]}
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "slug": "thread-smart-plugs",
+  "family": "smart-plugs",
+  "family_title": "Smart plugs",
+  "noun": "plug",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Thread Smart Plugs",
+  "subtitle": "Matter-over-Thread plugs that strengthen your Thread network, ranked.",
+  "intro": "Thread plugs are the easiest way to extend a Thread network, because each one routes signal for other devices. We pulled the ones selling on Amazon and scored them on rating, review volume, and features. Every plug here needs a Thread border router.",
+  "reviews_ceiling": 500,
+  "feature_weights": {
+    "energy": 0.6,
+    "outdoor": 0.4
+  },
+  "spec_fields": [
+    {
+      "key": "energy",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "app",
+      "label": "Maker app"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "energy",
+      "label": "Energy",
+      "type": "bool"
+    },
+    {
+      "key": "location",
+      "label": "Use"
+    },
+    {
+      "key": "load",
+      "label": "Max load"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BZBGD87V",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Matter over Thread with a power meter, no cloud account, and 400+ bought last month."
+    },
+    {
+      "asin": "B0CWTKW9BB",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$17.99 for a 15 A Thread plug in a mini size."
+    },
+    {
+      "asin": "B0HC79KN8J",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "The only outdoor Thread plug we found, with IP65 and energy monitoring."
+    },
+    {
+      "asin": "B0C1CL2MV3",
+      "label": "Best Multipack",
+      "kind": "premium",
+      "why": "Two Eve Energy plugs, about $30 each, to start a Thread network properly."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BZBGD87V",
+      "brand": "Eve",
+      "model": "Energy (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "load": "Not listed",
+        "pack": "1 plug",
+        "app": "Eve (optional)",
+        "extras": "No cloud or account"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false
+      },
+      "verdict": "The Thread plug most people should get. It meters power, runs locally, and has the most reviews here.",
+      "pros": [
+        "Power metering",
+        "No cloud, no account, local control",
+        "Works with Apple, Google, Amazon, and SmartThings hubs",
+        "400+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Needs a Thread border router",
+        "Load rating isn't in the bullets"
+      ],
+      "name": "Eve Energy (Matter) - Smart Plug, App and Voice Control, 100% Privacy, Matter Over Thread, Works with Apple Home, Alexa, Google Home, SmartThings",
+      "image": "https://m.media-amazon.com/images/I/31GvBvc2g7L._SL1000_.jpg",
+      "price": 30.35,
+      "rating": 4.2,
+      "reviews_count": 435,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0C1CL2MV3",
+      "brand": "Eve",
+      "model": "Energy (Matter) 2-pack",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "load": "Not listed",
+        "pack": "2 plugs",
+        "app": "Eve (optional)",
+        "extras": "No cloud or account"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false
+      },
+      "verdict": "Two Eve Energy plugs. Two or more Thread plugs give your network a sturdier mesh.",
+      "pros": [
+        "About $30 per plug",
+        "Power metering",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Needs a Thread border router",
+        "4.3 stars",
+        "Bulkier than the Onvis mini"
+      ],
+      "name": "Eve Energy (Matter) 2-Pack - Smart Plug & Power Meter",
+      "image": "https://m.media-amazon.com/images/I/41qHMQXosrL._SL1000_.jpg",
+      "price": 59.95,
+      "rating": 4.3,
+      "reviews_count": 322,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0CWTKW9BB",
+      "brand": "Onvis",
+      "model": "Thread mini plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "load": "15 A / 1,800 W",
+        "pack": "1 plug",
+        "app": "Onvis",
+        "extras": "Mini size"
+      },
+      "features": {
+        "energy": false,
+        "outdoor": false
+      },
+      "verdict": "The cheapest Thread plug here, in a mini size with a 15 A rating.",
+      "pros": [
+        "$17.99",
+        "15 A / 1,800 W",
+        "Mini size"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "4.0 stars",
+        "Sold by the brand, not Amazon"
+      ],
+      "name": "Onvis Matter Over Thread Smart Plug, Smart Mini Outlet, Works with Apple Home, Alexa & Google Home, 15A/1800W （1Pack）",
+      "image": "https://m.media-amazon.com/images/I/61hFc+5nnfL._SL1500_.jpg",
+      "price": 17.99,
+      "rating": 4.0,
+      "reviews_count": 151,
+      "bought": null
+    },
+    {
+      "asin": "B0H7X7T22R",
+      "brand": "Onvis",
+      "model": "Thread plug with energy monitoring",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "load": "15 A / 1,800 W",
+        "pack": "1 plug",
+        "app": "Onvis",
+        "extras": "Historical usage"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false
+      },
+      "verdict": "Onvis's energy-monitoring Thread plug, cheaper than Eve Energy.",
+      "pros": [
+        "Real-time and historical energy data",
+        "15 A / 1,800 W",
+        "$19.99"
+      ],
+      "cons": [
+        "Only 32 reviews",
+        "Needs a Thread border router",
+        "Sold by the brand, not Amazon"
+      ],
+      "name": "Onvis Matter Over Thread Smart Plug with Energy Monitoring, App & Voice Control",
+      "image": "https://m.media-amazon.com/images/I/61tEdBM5H8L._SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.2,
+      "reviews_count": 32,
+      "bought": null
+    },
+    {
+      "asin": "B0HC79KN8J",
+      "brand": "Onvis",
+      "model": "Outdoor Thread plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Outdoor (IP65)",
+        "load": "Not listed",
+        "pack": "1 plug",
+        "app": "Onvis",
+        "extras": "Weather-resistant"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": true
+      },
+      "verdict": "An outdoor Thread plug with energy monitoring. New, with very few reviews.",
+      "pros": [
+        "IP65 weather resistance",
+        "Energy monitoring",
+        "Extends Thread coverage outdoors"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Load rating isn't in the bullets",
+        "Needs a Thread router in range"
+      ],
+      "name": "Onvis Outdoor Smart Plug, Matter Over Thread, Energy Monitoring, IP65",
+      "image": "https://m.media-amazon.com/images/I/71-5ME57jzL._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.1,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0H948PZGL",
+      "brand": "Onvis",
+      "model": "T20 smart outlet with power meter",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "load": "Not listed",
+        "pack": "1 outlet",
+        "app": "Onvis",
+        "extras": "Voltage, current, and wattage readings"
+      },
+      "features": {
+        "energy": true,
+        "outdoor": false
+      },
+      "verdict": "An Onvis outlet that reports live voltage, current, and wattage. Very new.",
+      "pros": [
+        "Live voltage, current, and wattage",
+        "Daily and monthly usage reports",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "Only 5 reviews and 3 left in stock at capture time",
+        "$39.99",
+        "Load rating isn't listed"
+      ],
+      "name": "Onvis Smart Outlet with Power Meter, Matter Over Thread",
+      "image": "https://m.media-amazon.com/images/I/619TxHb8yKL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 5,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09T4S3QKC",
+      "brand": "Wemo",
+      "model": "Smart Plug with Thread",
+      "systems": [
+        "apple-home"
+      ],
+      "flag": "Discontinued brand, Apple Home only, 3.1 stars",
+      "verdict": "Belkin has wound down Wemo, this plug only works with Apple Home, and it's rated 3.1 stars by over a thousand buyers.",
+      "reasons": [
+        "Belkin ended support for Wemo products on January 31, 2026. The Thread models still work inside Apple Home, but there's no future development.",
+        "Apple HomeKit only, per the listing.",
+        "3.1 stars from 1,172 reviews.",
+        "Sold by a third-party reseller, not Belkin or Amazon."
+      ],
+      "name": "Wemo Smart Plug with Thread - Smart Outlet for Apple HomeKit - Smart Home Products, Smart Home Lighting, Smart Home Gadgets - Homekit Smart Plug - Works W/ Apple iPhone, Easy NFC Set Up, White",
+      "image": "https://m.media-amazon.com/images/I/41s350A1mZL._AC_SL1500_.jpg",
+      "price": 27.99,
+      "rating": 3.1,
+      "reviews_count": 1172,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What can I plug into a smart plug?",
+      "a": "Lamps, fans, coffee makers, holiday lights, and anything else that turns on with a physical switch left in the on position. Check the plug's amp rating (most are 15 A) before plugging in anything that draws a lot of power."
+    },
+    {
+      "q": "Is energy monitoring worth paying for?",
+      "a": "If you want to know what a fridge, dehumidifier, or entertainment center costs to run, yes. Energy-monitoring plugs also let you trigger automations, like an alert when the washer finishes."
+    },
+    {
+      "q": "Will a smart plug block the second outlet?",
+      "a": "Bulky plugs often cover the other socket. Mini designs leave it free, so check the shape before you buy several."
+    },
+    {
+      "q": "Are smart plugs safe for heaters and air conditioners?",
+      "a": "Only if the plug's rating covers the appliance's draw and the maker allows it. Many plugs are rated 15 A, but heaters run near that limit for hours. Check the appliance's manual; some say not to use any timer or smart plug."
+    }
+  ]
+}

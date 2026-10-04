@@ -161,3 +161,7 @@ PAGES.update({
              "a": "Matter over Wi-Fi dimmers connect to your router and need nothing else. Matter over Thread dimmers need a Thread border router, such as a HomePod mini, Apple TV 4K, Nest Hub (2nd gen), or Echo Hub, but they don't add load to your Wi-Fi."},
             "NEUTRAL", "3WAY", "SAFETY"]},
 })
+
+
+from meta_batch3 import PAGES as _B3  # noqa: E402
+PAGES.update(_B3)

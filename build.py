@@ -116,9 +116,9 @@ def sys_icon(slug):
             f'<svg viewBox="0 0 20 20" width="17" height="17" aria-hidden="true">{SYSTEM_ICONS[slug]}</svg></span>')
 
 
-def sys_icons(slugs):
+def sys_icons(slugs, empty_label="Standalone"):
     if not slugs:
-        return '<span class="tiny muted">Standalone</span>'
+        return f'<span class="tiny muted">{esc(empty_label)}</span>'
     return '<span class="sys-icons">' + "".join(sys_icon(x) for x in SYSTEM_NAMES if x in slugs) + "</span>"
 
 
@@ -381,7 +381,7 @@ def render_award(a, p, site):
     </a>"""
 
 
-def render_table(ranked, avoid, columns):
+def render_table(ranked, avoid, columns, noun="product"):
     heads = "".join(f"<th>{esc(c['label'])}</th>" for c in columns)
     rows = []
     for p in ranked:
@@ -389,14 +389,14 @@ def render_table(ranked, avoid, columns):
         rows.append(f'<tr><td class="c">{p["rank"]}</td>'
                     f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
                     f'<td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
-                    f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"])}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
+                    f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"], p.get("systems_label", "Standalone"))}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
         rows.append(f'<tr class="avoid-row"><td class="c">&#10005;</td>'
                     f'<td><a href="#avoid-{esc(a["asin"])}">{esc(a["brand"])} {esc(a["model"])}</a></td>'
                     f'<td>{money(a["price"])}</td><td class="c">{a["rating"]}</td>'
-                    f'<td class="c">{a["reviews_count"]:,}</td><td>{sys_icons(a["systems"])}</td>'
+                    f'<td class="c">{a["reviews_count"]:,}</td><td>{sys_icons(a["systems"], a.get("systems_label", "Standalone"))}</td>'
                     f'<td colspan="{len(columns)}">{esc(a["flag"])}</td><td class="c"><b>AVOID</b></td></tr>')
-    return (f'<div class="tablewrap"><table class="ptable"><thead><tr><th>#</th><th>Switch</th><th>Price</th>'
+    return (f'<div class="tablewrap"><table class="ptable"><thead><tr><th>#</th><th>{esc(noun.capitalize())}</th><th>Price</th>'
             f'<th>Rating</th><th>Reviews</th><th>Works with</th>{heads}<th>Score</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
@@ -522,7 +522,7 @@ def build_category(site, proto, sub):
   <section id="compare">
     <h2>Side-by-side</h2>
     <p class="swipe-hint">Swipe the table sideways to see every column.</p>
-    {render_table(ranked, cat['avoid'], cat['table_columns'])}
+    {render_table(ranked, cat['avoid'], cat['table_columns'], cat.get('noun', 'product'))}
     <p class="tiny muted legend">Works with: hover or tap an icon for the system name. A system is shown when it supports the product directly or through the hub the listing requires.{(' ' + esc(cat['systems_note'])) if cat.get('systems_note') else ''}</p>
   </section>
   <section id="ranked">

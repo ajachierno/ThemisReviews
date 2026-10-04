@@ -1,0 +1,253 @@
+{
+  "feature_weights": {
+    "long_range": 0.4,
+    "extra_sensors": 0.4,
+    "recessed": 0.2
+  },
+  "systems_note": "Ring's sensor is made for the Ring Alarm base station; Ring doesn't support other Z-Wave hubs.",
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "mount",
+      "label": "Mounting"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "mount",
+      "label": "Mounting"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09JKKLRLW",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A tiny 800 Series Long Range sensor that fits almost any frame, with an optional outdoor case."
+    },
+    {
+      "asin": "B07ZB2QLC2",
+      "label": "Best for Ring Alarm",
+      "kind": "budget",
+      "why": "Nearly 30,000 reviews at 4.7 stars, for homes running Ring Alarm."
+    },
+    {
+      "asin": "B0GR6BB2YT",
+      "label": "Most Sensors",
+      "kind": "premium",
+      "why": "Open/close plus tilt, vibration, temperature, humidity, and mold-risk alerts."
+    },
+    {
+      "asin": "B082PT71MM",
+      "label": "Best Hidden",
+      "kind": "special",
+      "why": "Recessed design that disappears inside the door frame."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09JKKLRLW",
+      "brand": "Zooz",
+      "model": "ZSE41 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "mount": "Surface, extra small",
+        "extras": "Open/close only",
+        "hub": "Any Z-Wave hub",
+        "battery": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": false,
+        "recessed": false
+      },
+      "verdict": "The best general-purpose Z-Wave contact sensor: small, Long Range, and easy to hide.",
+      "pros": [
+        "Extra small, fits most frames",
+        "800 Series Long Range",
+        "Rubber-coated against splashes; outdoor case sold separately",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "No extra sensors",
+        "Sold by a third-party seller",
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B0GR6BB2YT",
+      "brand": "Aeotec",
+      "model": "Door Window Sensor 8",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "mount": "Surface",
+        "extras": "Tilt, vibration, temperature, humidity",
+        "hub": "Any Z-Wave hub",
+        "battery": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "recessed": false
+      },
+      "verdict": "A contact sensor that also tracks tilt, vibration, temperature, and humidity, with mold-risk alerts.",
+      "pros": [
+        "Open/close, tilt, and vibration",
+        "Temperature and humidity with dew point and mold hazard alerts",
+        "Z-Wave Long Range",
+        "Tamper alert"
+      ],
+      "cons": [
+        "Only 15 reviews",
+        "Larger than single-purpose sensors",
+        "$39.99"
+      ]
+    },
+    {
+      "asin": "B082PT71MM",
+      "brand": "Aeotec",
+      "model": "Recessed Door Sensor 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "mount": "Recessed (drilled into frame)",
+        "extras": "Open/close only",
+        "hub": "Any Z-Wave hub",
+        "battery": "Not listed"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "recessed": true
+      },
+      "verdict": "A hidden sensor that fits in a hole drilled into the door frame, for doors where a stick-on sensor looks wrong.",
+      "pros": [
+        "Invisible once installed",
+        "S2 security and SmartStart",
+        "353 reviews"
+      ],
+      "cons": [
+        "You have to drill the frame and the door",
+        "3.8 stars",
+        "No Long Range"
+      ]
+    },
+    {
+      "asin": "B0G8J8F7HS",
+      "brand": "Shelly",
+      "model": "Wave Door/Window LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "mount": "Surface",
+        "extras": "Tilt angle, light",
+        "hub": "Any Z-Wave hub",
+        "battery": "Not listed"
+      },
+      "features": {
+        "long_range": true,
+        "extra_sensors": true,
+        "recessed": false
+      },
+      "verdict": "A Long Range sensor that also reports tilt angle and light level. Reviews are mixed.",
+      "pros": [
+        "Measures tilt angle, handy for windows",
+        "Built-in light sensor",
+        "Z-Wave Long Range"
+      ],
+      "cons": [
+        "3.4 stars from 19 reviews",
+        "Range claims in the listing are best case",
+        "Newer product"
+      ]
+    },
+    {
+      "asin": "B07ZB2QLC2",
+      "brand": "Ring",
+      "model": "Alarm Contact Sensor (2nd gen)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "series": "Not stated in listing",
+        "mount": "Surface, slim",
+        "extras": "Open/close only",
+        "hub": "Ring Alarm base station",
+        "battery": "About 3 years"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "recessed": false
+      },
+      "verdict": "The most-reviewed contact sensor by far. Ring Alarm sensors run on Z-Wave, but this one is built for Ring Alarm, not general Z-Wave hubs.",
+      "pros": [
+        "4.7 stars from 29,544 reviews",
+        "$14.99, about 3-year battery",
+        "Tool-free installation",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Needs a Ring Alarm base station",
+        "Ring doesn't support other Z-Wave hubs",
+        "Professional monitoring needs a Ring subscription"
+      ]
+    }
+  ],
+  "avoid": []
+}

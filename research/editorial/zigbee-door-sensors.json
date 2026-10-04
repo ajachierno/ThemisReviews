@@ -1,0 +1,431 @@
+{
+  "feature_weights": {
+    "open_hub": 0.45,
+    "tamper": 0.25,
+    "extra_sensors": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "open_hub",
+      "label": "Any Zigbee hub",
+      "type": "bool"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "tamper",
+      "label": "Tamper alert",
+      "type": "bool"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08R9PH4JT",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Pairs with Echo hubs, Home Assistant, SmartThings, Hubitat, and Homey, with 786 reviews."
+    },
+    {
+      "asin": "B0GKFB3XCL",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$13.90 with a tamper alert and 200+ bought last month."
+    },
+    {
+      "asin": "B07D37VDM3",
+      "label": "Best for Aqara Homes",
+      "kind": "special",
+      "why": "The most-reviewed Zigbee contact sensor, at 4.4 stars from over 6,000 reviews."
+    },
+    {
+      "asin": "B0G52D5CY6",
+      "label": "Most Sensors",
+      "kind": "premium",
+      "why": "Adds tilt angle and light level, with up to 5-year battery life."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08R9PH4JT",
+      "brand": "THIRDREALITY",
+      "model": "Zigbee contact sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Echo with Zigbee, or any Zigbee hub",
+        "battery": "2 AAA, up to 2 years",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "The most flexible Zigbee door sensor: it pairs to Echo hubs and every major open Zigbee platform.",
+      "pros": [
+        "Works with Echo (4th gen) and other Echo Zigbee hubs",
+        "Lists Home Assistant, SmartThings, Hubitat, and Homey",
+        "AAA batteries, rated up to 2 years",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "Bigger than coin-cell sensors",
+        "4.3 stars",
+        "Sold by the brand, not Amazon"
+      ]
+    },
+    {
+      "asin": "B09XCWRHCT",
+      "brand": "THIRDREALITY",
+      "model": "Zigbee contact sensor (2-pack)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Echo with Zigbee, or any Zigbee hub",
+        "battery": "2 AAA, up to 2 years",
+        "extras": "Open/close only",
+        "pack": "2 sensors"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "The same ThirdReality sensor in a two-pack, for a front and back door.",
+      "pros": [
+        "Two sensors",
+        "4.4 stars",
+        "Up to 2-year battery life"
+      ],
+      "cons": [
+        "No per-unit savings over two singles",
+        "Bigger than coin-cell sensors",
+        "Sold by the brand"
+      ]
+    },
+    {
+      "asin": "B0GKFB3XCL",
+      "brand": "SONOFF",
+      "model": "SNZB-04PR2",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Any Zigbee hub",
+        "battery": "AAA",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": true,
+        "extra_sensors": false
+      },
+      "verdict": "A cheap, AAA-powered sensor with a tamper alert if someone pulls it off the frame.",
+      "pros": [
+        "$13.90",
+        "Tamper alert",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Needs a Zigbee hub",
+        "Sold by the brand, not Amazon"
+      ]
+    },
+    {
+      "asin": "B0HB933HR1",
+      "brand": "SONOFF",
+      "model": "SNZB-04PR1",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Any Zigbee hub",
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": true,
+        "extra_sensors": false
+      },
+      "verdict": "A sibling of the PR2 with tamper detection and local Zigbee automations.",
+      "pros": [
+        "Tamper alert",
+        "Local automations keep working without internet",
+        "50+ bought in the past month"
+      ],
+      "cons": [
+        "3.5 stars from 7 reviews",
+        "Costs more than the PR2",
+        "Battery type isn't listed"
+      ]
+    },
+    {
+      "asin": "B07D37VDM3",
+      "brand": "Aqara",
+      "model": "Door and Window Sensor",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "hub": "Aqara hub",
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": false,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "The most-reviewed Zigbee contact sensor. Tiny, cheap, and built around Aqara's hub.",
+      "pros": [
+        "4.4 stars from 6,103 reviews",
+        "Very small",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "Designed for the Aqara hub",
+        "The listing has no product bullets",
+        "Coin-cell battery"
+      ]
+    },
+    {
+      "asin": "B0CTQCGT8X",
+      "brand": "Aqara",
+      "model": "Door and Window Sensor T1",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "hub": "Aqara hub only",
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": false,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "Aqara's newer contact sensor. The listing says it works only with Aqara's hub.",
+      "pros": [
+        "Small",
+        "Works with Apple Home, Alexa, and Google through the Aqara hub",
+        "Sold by Aqara"
+      ],
+      "cons": [
+        "\"Not compatible with hubs from other brands\", per the listing",
+        "Keep within about 33 ft of the hub, per the listing",
+        "76 reviews"
+      ]
+    },
+    {
+      "asin": "B0FHH6WTD6",
+      "brand": "Haozee",
+      "model": "Door and window sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Zigbee 3.0 hub, Home Assistant via Zigbee2MQTT",
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "The cheapest decent Zigbee door sensor, with Home Assistant support named in the listing.",
+      "pros": [
+        "$9.99",
+        "Zigbee 3.0, Home Assistant via Zigbee2MQTT",
+        "Low-battery alerts"
+      ],
+      "cons": [
+        "Only 61 reviews",
+        "Battery type isn't listed",
+        "Sold by the brand"
+      ]
+    },
+    {
+      "asin": "B0G52D5CY6",
+      "brand": "Shelly",
+      "model": "BLU Door/Window ZB",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Zigbee hub or Bluetooth gateway",
+        "battery": "Up to 5 years",
+        "extras": "Tilt angle, light level",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": false,
+        "extra_sensors": true
+      },
+      "verdict": "A Zigbee and Bluetooth sensor that also reads tilt and light level, with a 5-year battery.",
+      "pros": [
+        "Measures tilt angle and light level",
+        "Up to 5-year battery",
+        "Zigbee or Bluetooth"
+      ],
+      "cons": [
+        "Only 3 left in stock at capture time",
+        "40 reviews",
+        "$22.99"
+      ]
+    },
+    {
+      "asin": "B0GWCCCWT3",
+      "brand": "colorpanda",
+      "model": "Zigbee mini contact sensor",
+      "systems": [
+        "alexa",
+        "apple-home"
+      ],
+      "specs": {
+        "hub": "Colorpanda or Tuya hub",
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": false,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "A cheap Tuya-ecosystem sensor that can sound an alarm on Alexa or HomePod speakers.",
+      "pros": [
+        "$9.99",
+        "Adhesive mount, no tools",
+        "Can trigger alarms on Alexa or HomePod through the brand's hubs"
+      ],
+      "cons": [
+        "3.7 stars from 14 reviews",
+        "Needs a Colorpanda or Tuya hub",
+        "Smart Life is a cloud-based app"
+      ]
+    },
+    {
+      "asin": "B0GTGNTD4H",
+      "brand": "PersianCat",
+      "model": "Zigbee door and window sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "hub": "Any Zigbee gateway",
+        "battery": "AAA",
+        "extras": "Open/close only",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "A basic AAA-powered Zigbee sensor. Very new, with almost no reviews.",
+      "pros": [
+        "$11.99",
+        "AAA battery",
+        "Works with Zigbee gateways"
+      ],
+      "cons": [
+        "Only 4 reviews",
+        "Thin listing with no compatibility details",
+        "Unknown brand"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B01N3CVD4L",
+      "brand": "Visonic / Xfinity",
+      "model": "MCT-350 (XHS2)",
+      "systems": [],
+      "flag": "Resold Xfinity alarm sensor with no product details",
+      "verdict": "It's a sensor made for Comcast's Xfinity Home alarm system, resold by a third party with no description at all.",
+      "reasons": [
+        "The listing has no bullets, no specs, and no compatibility information.",
+        "It's built for the Xfinity Home security system, not for general smart home hubs.",
+        "It's sold by a third-party reseller, so there's no telling what condition it's in or what support you'd get.",
+        "For about the same price, the Haozee and SONOFF sensors above are new, current models with real listings."
+      ]
+    }
+  ]
+}

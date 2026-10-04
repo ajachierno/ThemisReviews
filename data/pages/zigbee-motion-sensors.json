@@ -1,0 +1,517 @@
+{
+  "slug": "zigbee-motion-sensors",
+  "family": "motion-sensors",
+  "family_title": "Motion sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Zigbee Motion and Presence Sensors",
+  "subtitle": "PIR motion and mmWave presence sensors on Zigbee, ranked.",
+  "intro": "We pulled the Zigbee motion and presence sensors selling on Amazon and scored them on rating, review volume, and features: presence detection, light sensing, and open Zigbee 3.0 pairing.",
+  "reviews_ceiling": 1500,
+  "feature_weights": {
+    "presence": 0.4,
+    "light_sensor": 0.3,
+    "long_battery": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Detection"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "presence",
+      "label": "Detects still people",
+      "type": "bool"
+    },
+    {
+      "key": "light_sensor",
+      "label": "Light sensor",
+      "type": "bool"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Detection"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "light_sensor",
+      "label": "Light",
+      "type": "bool"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C1GB4DVR",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Fast 5-second detection, a 3-year battery, 848 reviews, and $16.50."
+    },
+    {
+      "asin": "B08RRRWK6B",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$13.99, pet friendly, and pairs straight to Echo hubs. The most reviews here."
+    },
+    {
+      "asin": "B0CNGKFG9Y",
+      "label": "Best Presence Sensor",
+      "kind": "special",
+      "why": "Radar presence detection that keeps the lights on while you sit still, for $17.90."
+    },
+    {
+      "asin": "B0FG2MD3YP",
+      "label": "Most Capable",
+      "kind": "premium",
+      "why": "PIR plus 60 GHz mmWave in a wireless 5-in-1 sensor that runs on Zigbee or Matter over Thread."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C1GB4DVR",
+      "brand": "SONOFF",
+      "model": "SNZB-03P",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "power": "Battery, about 3 years",
+        "hub": "Zigbee hub",
+        "extras": "5-second retrigger"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": false,
+        "long_battery": true
+      },
+      "verdict": "The Zigbee motion sensor to buy: fast, cheap, and the battery lasts years.",
+      "pros": [
+        "Retriggers in as little as 5 seconds",
+        "Rated for about 3 years on a battery",
+        "848 reviews, 300+ bought in the past month"
+      ],
+      "cons": [
+        "The title says a SONOFF Zigbee Bridge is required; the bullets say any Zigbee hub",
+        "No light sensor",
+        "Sold by the brand, not Amazon"
+      ],
+      "name": "SONOFF SNZB-03P Zigbee Motion Sensor, 3-Year Battery Life, for Alert System and Automations Wireless Motion Detector, SONOFF Zigbee Bridge Required, Batteries Included (1 Pack)",
+      "image": "https://m.media-amazon.com/images/I/51dZyuxTAvL._AC_SL1500_.jpg",
+      "price": 16.5,
+      "rating": 4.2,
+      "reviews_count": 848,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B08RRRWK6B",
+      "brand": "THIRDREALITY",
+      "model": "Zigbee motion sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "power": "Battery",
+        "hub": "Echo with Zigbee, or any Zigbee hub",
+        "extras": "Pet friendly"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": false,
+        "long_battery": false
+      },
+      "verdict": "The cheapest well-known Zigbee motion sensor, and it pairs straight to Echo hubs for Alexa routines.",
+      "pros": [
+        "$13.99 with 1,275 reviews",
+        "Pairs directly with Echo devices that have Zigbee",
+        "Pet friendly",
+        "Lists Home Assistant, SmartThings, Hubitat, and Homey"
+      ],
+      "cons": [
+        "3.9 stars",
+        "No light sensor",
+        "Battery life isn't listed"
+      ],
+      "name": "THIRDREALITY Zigbee Motion Sensor, Pet Friendly, Compatible with Home Assistant, SmartThings, Aeotec, Homey, Hubitat or Echo Devices with Built-in Zigbee Hub",
+      "image": "https://m.media-amazon.com/images/I/417jQeyeigL._AC_SL1500_.jpg",
+      "price": 13.99,
+      "rating": 3.9,
+      "reviews_count": 1275,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0DX61CQPW",
+      "brand": "THIRDREALITY",
+      "model": "Motion Sensor R1",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Motion (not heat-based)",
+        "power": "Not listed",
+        "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+        "extras": "Adjustable sensitivity"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": false,
+        "long_battery": false
+      },
+      "verdict": "ThirdReality's newer sensor with adjustable sensitivity that isn't fooled by heat or sunlight, per the listing.",
+      "pros": [
+        "Adjustable sensitivity",
+        "Not affected by heat or sunlight, per the listing",
+        "Zigbee 3.0, pairs with Echo hubs"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Power source isn't spelled out in the bullets",
+        "135 reviews"
+      ],
+      "name": "THIRDREALITY Zigbee Motion Sensor R1,Adjustable Sensitivity,Real-time Alerts,Zigbee Hub Required,Support Home Assistant,SmartThings, Homey, Hubitat or Echo Devices with Built-in Zigbee hub",
+      "image": "https://m.media-amazon.com/images/I/516iv10NFDL._AC_SL1500_.jpg",
+      "price": 17.99,
+      "rating": 3.8,
+      "reviews_count": 135,
+      "bought": null
+    },
+    {
+      "asin": "B09QKVMMTB",
+      "brand": "Aqara",
+      "model": "Motion Sensor P1",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "power": "Battery, up to 5 years",
+        "hub": "Aqara hub only",
+        "extras": "Works in low temperatures"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": false,
+        "long_battery": true
+      },
+      "verdict": "A long-lasting motion sensor for Aqara homes, with a 5-year battery rating.",
+      "pros": [
+        "Up to 5-year battery life",
+        "828 reviews, 200+ bought in the past month",
+        "Apple Home, Alexa, and Google through the Aqara hub"
+      ],
+      "cons": [
+        "Needs an Aqara hub; not compatible with other Zigbee hubs, per the listing",
+        "No light sensor listed",
+        "$20.99"
+      ],
+      "name": "Aqara Zigbee 3.0 Motion Sensor P1 1 Pack, for Alert System Automations",
+      "image": "https://m.media-amazon.com/images/I/6197566IwpL._AC_SL1500_.jpg",
+      "price": 20.99,
+      "rating": 4.2,
+      "reviews_count": 828,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B095TZTGNB",
+      "brand": "Aeotec",
+      "model": "SmartThings Motion Sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "power": "Battery",
+        "hub": "SmartThings or other Zigbee hubs",
+        "extras": "Magnetic mount"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": false,
+        "long_battery": false
+      },
+      "verdict": "The official SmartThings motion sensor, with the best rating here.",
+      "pros": [
+        "4.6 stars from 422 reviews",
+        "Magnetic mount",
+        "Made for SmartThings, works with other Zigbee hubs"
+      ],
+      "cons": [
+        "$48.99, several times the price of the SONOFF",
+        "No light sensor",
+        "Battery life isn't listed"
+      ],
+      "name": "Aeotec SmartThings Motion Sensor, Zigbee, Magnetic Mounting, Works with Smart Home Hub and Compatible Zigbee Hubs",
+      "image": "https://m.media-amazon.com/images/I/51i--y1gzAL._AC_SL1500_.jpg",
+      "price": 48.99,
+      "rating": 4.6,
+      "reviews_count": 422,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CNGKFG9Y",
+      "brand": "SONOFF",
+      "model": "SNZB-06P",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (5.8 GHz radar)",
+        "power": "Wired",
+        "hub": "Zigbee hub",
+        "extras": "Detects still people"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": false,
+        "long_battery": false
+      },
+      "verdict": "Cheap presence detection. It sees people sitting still, so lights don't switch off on you mid-book.",
+      "pros": [
+        "Detects stationary people",
+        "$17.90",
+        "454 reviews"
+      ],
+      "cons": [
+        "Needs power, not a battery",
+        "Needs a Zigbee hub",
+        "4.0 stars"
+      ],
+      "name": "SONOFF Zigbee Human Presence Sensor, SNZB-06P Zigbee Smart Motion Detector with 5.8GHZ cmWave Radar, Requires ZigBee Bridge (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/51f3jD8nNiL._AC_SL1500_.jpg",
+      "price": 17.9,
+      "rating": 4.0,
+      "reviews_count": 454,
+      "bought": null
+    },
+    {
+      "asin": "B0GZVPQQRX",
+      "brand": "SONOFF",
+      "model": "SNZB-06P24",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (24 GHz mmWave)",
+        "power": "USB-C",
+        "hub": "Zigbee hub",
+        "extras": "Zones, self-calibration"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": true,
+        "long_battery": false
+      },
+      "verdict": "A 24 GHz mmWave presence sensor with zones and a light sensor, sensitive enough to pick up breathing.",
+      "pros": [
+        "Detects micro-movements like breathing",
+        "Zone positioning",
+        "Light sensor built in",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Needs USB-C power",
+        "More setup than a PIR sensor"
+      ],
+      "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24GHz mmWave & Light Sensor, Zone Positioning, Self-Learning Calibration, USB-C Powered, Works with Home Assistant, Alexa, SmartThings, Hub Required",
+      "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
+      "price": 24.9,
+      "rating": 3.8,
+      "reviews_count": 181,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0D5QPH3T6",
+      "brand": "Aqara",
+      "model": "Presence Sensor FP1E",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (mmWave)",
+        "power": "Wired",
+        "hub": "Aqara Zigbee 3.0 hub",
+        "extras": "Matter through the Aqara hub"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": false,
+        "long_battery": false
+      },
+      "verdict": "An mmWave presence sensor that reaches every Matter platform through Aqara's hub.",
+      "pros": [
+        "mmWave presence detection",
+        "Matter bridging through the Aqara hub",
+        "492 reviews"
+      ],
+      "cons": [
+        "Needs an Aqara hub",
+        "Wired power",
+        "4.0 stars"
+      ],
+      "name": "Aqara Zigbee Presence Sensor FP1E, mmWave Radar Wired Motion Sensor",
+      "image": "https://m.media-amazon.com/images/I/61gblrXx8SL._SL1500_.jpg",
+      "price": 42.99,
+      "rating": 4.0,
+      "reviews_count": 492,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0FG2MD3YP",
+      "brand": "Aqara",
+      "model": "Presence Sensor FP300",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR + 60 GHz mmWave",
+        "power": "Battery (wireless)",
+        "hub": "Zigbee hub or Thread border router",
+        "extras": "5-in-1, AI learning"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": true,
+        "long_battery": false
+      },
+      "verdict": "A wireless presence sensor that combines PIR and mmWave, on Zigbee or Matter over Thread. Popular, with mixed ratings.",
+      "pros": [
+        "PIR plus 60 GHz mmWave",
+        "Wireless, battery powered",
+        "Zigbee or Matter over Thread",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$49.99",
+        "Adaptive AI features take time to learn the room"
+      ],
+      "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
+      "image": "https://m.media-amazon.com/images/I/61rVKe4shTL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.7,
+      "reviews_count": 902,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0H4GD6GGK",
+      "brand": "Shelly",
+      "model": "BLU Motion ZB",
+      "systems": [
+        "home-assistant",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "power": "Battery",
+        "hub": "Zigbee hub or Bluetooth gateway",
+        "extras": "Light sensor"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": true,
+        "long_battery": false
+      },
+      "verdict": "A compact motion and light sensor that speaks Zigbee or Bluetooth.",
+      "pros": [
+        "Motion plus light level",
+        "Zigbee or Bluetooth",
+        "4.5 stars, 200+ bought in the past month"
+      ],
+      "cons": [
+        "Only 43 reviews",
+        "Battery life isn't in the bullets",
+        "$26.99"
+      ],
+      "name": "Shelly BLU Motion ZB, Smart Bluetooth & Zigbee Motion & Light Sensor, Compatible with Alexa, Home Assistant, Google, SmartThings, PIR Motion Detection, Beacon Mode, AES encryption",
+      "image": "https://m.media-amazon.com/images/I/71k0OijsvhL._AC_SL1500_.jpg",
+      "price": 26.99,
+      "rating": 4.5,
+      "reviews_count": 43,
+      "bought": "200+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "PIR motion or mmWave presence?",
+      "a": "PIR sensors detect movement and are cheap with long battery life, but they think a room is empty when you sit still. mmWave presence sensors detect a person sitting still, so lights stay on while you read, but many need wired power."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    },
+    {
+      "q": "Where should I put a motion sensor?",
+      "a": "In a corner about 6 to 8 feet up, facing across the room rather than straight at the doorway. Keep PIR sensors away from heat vents and direct sun, which cause false triggers."
+    }
+  ]
+}

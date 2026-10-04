@@ -1,0 +1,304 @@
+{
+  "feature_weights": {
+    "presence": 0.4,
+    "light_sensor": 0.3,
+    "battery": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Detection"
+    },
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "light_sensor",
+      "label": "Light sensor",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Detection"
+    },
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0H6JFC9RQ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Radar plus PIR presence with temperature, humidity, and light, on AAA batteries rated for up to 2 years."
+    },
+    {
+      "asin": "B0CT8W9NRB",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A native Matter motion and light sensor for $31.99 with a 170° view."
+    },
+    {
+      "asin": "B0BZT5W3V5",
+      "label": "Best Indoor/Outdoor",
+      "kind": "special",
+      "why": "IPX3 water resistance and a 9 m range, so it works on a covered porch too."
+    },
+    {
+      "asin": "B0DYC9235W",
+      "label": "Best Wi-Fi Presence",
+      "kind": "premium",
+      "why": "Radar, PIR, and light in one sensor over Matter Wi-Fi, so no Thread border router needed."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0H6JFC9RQ",
+      "brand": "GL Technologies",
+      "model": "LWR02 5-in-1",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (24 GHz mmWave + PIR)",
+        "radio": "Thread",
+        "power": "2 AAA, up to 2 years",
+        "range": "Not listed",
+        "extras": "Temperature, humidity"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": true,
+        "battery": true
+      },
+      "verdict": "The most complete Matter sensor here: presence, motion, temperature, humidity, and light, on batteries.",
+      "pros": [
+        "Radar for stillness, PIR for movement",
+        "Temperature, humidity, and light too",
+        "AAA batteries rated up to 2 years, rechargeables supported",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Only 48 reviews",
+        "$49.99",
+        "Needs a Thread border router"
+      ]
+    },
+    {
+      "asin": "B0CT8W9NRB",
+      "brand": "Aqara",
+      "model": "Motion and Light Sensor P2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "radio": "Thread",
+        "power": "Battery",
+        "range": "Up to 23 ft (7 m), 170°",
+        "extras": "Separate light sensor"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": true,
+        "battery": true
+      },
+      "verdict": "Aqara's native Matter motion sensor with a wide 170° view. Popular, with mixed ratings.",
+      "pros": [
+        "170° horizontal view, up to 23 ft",
+        "Separate light sensor",
+        "666 reviews"
+      ],
+      "cons": [
+        "3.5 stars",
+        "PIR only, no presence detection",
+        "Needs a Thread border router"
+      ]
+    },
+    {
+      "asin": "B0BZT5W3V5",
+      "brand": "Eve",
+      "model": "Motion (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "PIR motion",
+        "radio": "Thread",
+        "power": "Battery",
+        "range": "Up to 9 m, 120°",
+        "extras": "IPX3, light sensor"
+      },
+      "features": {
+        "presence": false,
+        "light_sensor": true,
+        "battery": true
+      },
+      "verdict": "A local-only motion sensor that can go outdoors under cover, thanks to IPX3 water resistance.",
+      "pros": [
+        "IPX3 water resistant, indoor or outdoor",
+        "Up to 9 m range",
+        "Light-based automations in the Eve app"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$43.95",
+        "Brightness refinements need the Eve app for iOS"
+      ]
+    },
+    {
+      "asin": "B0DYC9235W",
+      "brand": "meross",
+      "model": "MS600",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (mmWave + PIR)",
+        "radio": "Wi-Fi",
+        "power": "Wired (1.5 m cord)",
+        "range": "Not listed",
+        "extras": "Light sensor"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": true,
+        "battery": false
+      },
+      "verdict": "A corded presence sensor over Matter Wi-Fi, so it works without a Thread border router.",
+      "pros": [
+        "Radar, PIR, and light in one",
+        "Matter over Wi-Fi, no Thread router needed",
+        "Local control through Matter"
+      ],
+      "cons": [
+        "Needs continuous power",
+        "3.7 stars",
+        "1.5 m cord limits placement"
+      ]
+    },
+    {
+      "asin": "B0G8HLQ633",
+      "brand": "meross",
+      "model": "MS605",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (static detection)",
+        "radio": "Thread",
+        "power": "Battery",
+        "range": "Not listed",
+        "extras": "IP67, foldable stand"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": false,
+        "battery": true
+      },
+      "verdict": "A battery presence sensor with an IP67 rating and a flexible stand. Reviews are poor so far.",
+      "pros": [
+        "Battery-powered presence detection",
+        "IP67 rating",
+        "Foldable, rotatable stand"
+      ],
+      "cons": [
+        "3.1 stars from 88 reviews",
+        "16 left in stock at capture time",
+        "Needs a Thread border router"
+      ]
+    },
+    {
+      "asin": "B0F9YVNJ1C",
+      "brand": "GL Technologies",
+      "model": "LWR01",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Presence (mmWave)",
+        "radio": "Thread",
+        "power": "Battery",
+        "range": "3.5 m still, 6 m moving",
+        "extras": "IPX3"
+      },
+      "features": {
+        "presence": true,
+        "light_sensor": false,
+        "battery": true
+      },
+      "verdict": "The earlier GL presence sensor, splashproof for bathrooms. The LWR02 has replaced it with more sensors.",
+      "pros": [
+        "Battery mmWave presence",
+        "IPX3, fine for bathrooms",
+        "Detects stillness up to 3.5 m"
+      ],
+      "cons": [
+        "3.3 stars",
+        "Shorter range for still people",
+        "Needs a Thread border router"
+      ]
+    }
+  ],
+  "avoid": []
+}

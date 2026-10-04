@@ -48,20 +48,28 @@
           "ready": true
         },
         {
+          "slug": "z-wave-smart-plugs",
+          "title": "Z-Wave smart plugs",
+          "family": "smart-plugs",
+          "ready": true
+        },
+        {
           "slug": "z-wave-door-sensors",
-          "title": "Z-Wave door and window sensors"
+          "title": "Z-Wave door and window sensors",
+          "family": "door-sensors",
+          "ready": true
         },
         {
           "slug": "z-wave-motion-sensors",
-          "title": "Z-Wave motion sensors"
-        },
-        {
-          "slug": "z-wave-smart-plugs",
-          "title": "Z-Wave smart plugs"
+          "title": "Z-Wave motion sensors",
+          "family": "motion-sensors",
+          "ready": true
         },
         {
           "slug": "z-wave-door-locks",
-          "title": "Z-Wave door locks"
+          "title": "Z-Wave smart locks",
+          "family": "locks",
+          "ready": true
         },
         {
           "slug": "z-wave-leak-sensors",
@@ -113,20 +121,32 @@
           "ready": true
         },
         {
-          "slug": "zigbee-bulbs",
-          "title": "Zigbee bulbs"
+          "slug": "zigbee-smart-plugs",
+          "title": "Zigbee smart plugs",
+          "family": "smart-plugs",
+          "ready": true
         },
         {
           "slug": "zigbee-door-sensors",
-          "title": "Zigbee door and window sensors"
+          "title": "Zigbee door and window sensors",
+          "family": "door-sensors",
+          "ready": true
         },
         {
           "slug": "zigbee-motion-sensors",
-          "title": "Zigbee motion sensors"
+          "title": "Zigbee motion sensors",
+          "family": "motion-sensors",
+          "ready": true
         },
         {
-          "slug": "zigbee-smart-plugs",
-          "title": "Zigbee smart plugs"
+          "slug": "zigbee-locks",
+          "title": "Zigbee smart locks",
+          "family": "locks",
+          "ready": true
+        },
+        {
+          "slug": "zigbee-bulbs",
+          "title": "Zigbee bulbs"
         },
         {
           "slug": "zigbee-temperature-sensors",
@@ -182,7 +202,27 @@
         },
         {
           "slug": "wifi-smart-plugs",
-          "title": "Wi-Fi smart plugs"
+          "title": "Wi-Fi smart plugs",
+          "family": "smart-plugs",
+          "ready": true
+        },
+        {
+          "slug": "wifi-door-sensors",
+          "title": "Wi-Fi door and window sensors",
+          "family": "door-sensors",
+          "ready": true
+        },
+        {
+          "slug": "wifi-motion-sensors",
+          "title": "Wi-Fi motion sensors",
+          "family": "motion-sensors",
+          "ready": true
+        },
+        {
+          "slug": "wifi-locks",
+          "title": "Wi-Fi smart locks",
+          "family": "locks",
+          "ready": true
         },
         {
           "slug": "wifi-cameras",
@@ -239,7 +279,9 @@
         },
         {
           "slug": "bluetooth-locks",
-          "title": "Bluetooth smart locks"
+          "title": "Bluetooth smart locks",
+          "family": "locks",
+          "ready": true
         },
         {
           "slug": "bluetooth-temperature-sensors",
@@ -292,12 +334,14 @@
           "ready": true
         },
         {
-          "slug": "thread-sensors",
-          "title": "Thread sensors"
+          "slug": "thread-smart-plugs",
+          "title": "Thread smart plugs",
+          "family": "smart-plugs",
+          "ready": true
         },
         {
-          "slug": "thread-smart-plugs",
-          "title": "Thread smart plugs"
+          "slug": "thread-sensors",
+          "title": "Thread sensors"
         },
         {
           "slug": "thread-locks",
@@ -352,19 +396,31 @@
         },
         {
           "slug": "matter-smart-plugs",
-          "title": "Matter smart plugs"
+          "title": "Matter smart plugs",
+          "family": "smart-plugs",
+          "ready": true
+        },
+        {
+          "slug": "matter-door-sensors",
+          "title": "Matter door and window sensors",
+          "family": "door-sensors",
+          "ready": true
+        },
+        {
+          "slug": "matter-motion-sensors",
+          "title": "Matter motion sensors",
+          "family": "motion-sensors",
+          "ready": true
+        },
+        {
+          "slug": "matter-locks",
+          "title": "Matter smart locks",
+          "family": "locks",
+          "ready": true
         },
         {
           "slug": "matter-bulbs",
           "title": "Matter bulbs"
-        },
-        {
-          "slug": "matter-sensors",
-          "title": "Matter sensors"
-        },
-        {
-          "slug": "matter-locks",
-          "title": "Matter smart locks"
         },
         {
           "slug": "matter-controllers",
