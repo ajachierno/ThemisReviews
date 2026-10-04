@@ -1,0 +1,232 @@
+{
+  "brand": "ThemisReviews",
+  "tagline": "Smart home tech, weighed fairly.",
+  "description": "Side-by-side reviews of smart home gear, sorted by the radio it talks on. Start with the protocol that fits your house, then pick the switches, sensors, and locks that run on it.",
+  "affiliate_tag": "",
+  "amazon_domain": "www.amazon.com",
+  "custom_domain": "",
+  "updated": "2026-10-04",
+  "protocols": [
+    {
+      "slug": "z-wave",
+      "name": "Z-Wave",
+      "summary": "Low-power mesh on a sub-GHz band, built for home automation and nothing else.",
+      "verdict": "The safest pick for a hub-based setup that has to keep working for years. Every certified device talks to every certified controller, and its band stays out of Wi-Fi's way.",
+      "facts": {"band": "908.42 MHz (US), 868.42 MHz (EU)", "topology": "Mesh (Long Range: star)", "hub": "Yes, a Z-Wave controller", "power": "Low, battery sensors last 1-3 years", "best_for": "Locks, switches, whole-house sensor networks"},
+      "pros": [
+        "Sub-GHz radio doesn't compete with Wi-Fi or Zigbee on 2.4 GHz",
+        "Lower frequency gets through walls and floors better than 2.4 GHz",
+        "Mandatory certification, so devices from different brands work together",
+        "Every mains-powered device repeats the signal and extends the mesh",
+        "S2 security is required on newer certified devices",
+        "Z-Wave Long Range reaches outbuildings and supports up to 4,000 devices"
+      ],
+      "cons": [
+        "Needs a hub or USB controller; there's no phone-only setup",
+        "Devices usually cost more than Zigbee or Wi-Fi equivalents",
+        "Frequencies are regional, so a US device won't work on an EU controller",
+        "Low bandwidth rules out cameras and anything streaming",
+        "Classic mesh tops out at 232 devices and 4 hops"
+      ],
+      "subs": [
+        {"slug": "z-wave-switches", "title": "Z-Wave switches"},
+        {"slug": "z-wave-dimmers", "title": "Z-Wave dimmers"},
+        {"slug": "z-wave-door-sensors", "title": "Z-Wave door and window sensors"},
+        {"slug": "z-wave-motion-sensors", "title": "Z-Wave motion sensors"},
+        {"slug": "z-wave-smart-plugs", "title": "Z-Wave smart plugs"},
+        {"slug": "z-wave-door-locks", "title": "Z-Wave door locks"},
+        {"slug": "z-wave-leak-sensors", "title": "Z-Wave leak sensors"},
+        {"slug": "z-wave-controllers", "title": "Z-Wave hubs and controllers"}
+      ]
+    },
+    {
+      "slug": "zigbee",
+      "name": "Zigbee",
+      "summary": "Cheap, low-power 2.4 GHz mesh with the widest catalog of small sensors.",
+      "verdict": "The budget king for sensors and bulbs. Pair it with a good coordinator and plenty of plug-in repeaters and it's rock solid.",
+      "facts": {"band": "2.4 GHz (IEEE 802.15.4)", "topology": "Mesh", "hub": "Yes, a Zigbee coordinator", "power": "Very low, coin-cell sensors last 1-2 years", "best_for": "Lots of cheap sensors, bulbs, buttons"},
+      "pros": [
+        "Sensors and buttons are among the cheapest on the market",
+        "Huge catalog from Aqara, IKEA, Philips Hue, Sonoff, Third Reality, and others",
+        "Mains-powered devices act as routers and strengthen the mesh",
+        "Coin-cell battery devices run for a year or more",
+        "Works fully local with Home Assistant (ZHA or Zigbee2MQTT)"
+      ],
+      "cons": [
+        "Shares the 2.4 GHz band with Wi-Fi, so channel planning matters",
+        "Some brands bend the spec; Aqara devices can drop off third-party routers",
+        "Needs a coordinator (hub or USB stick)",
+        "Brand hubs like Hue only accept their own approved devices",
+        "Bulbs used as repeaters break the mesh when someone flips the wall switch"
+      ],
+      "subs": [
+        {"slug": "zigbee-switches", "title": "Zigbee switches"},
+        {"slug": "zigbee-bulbs", "title": "Zigbee bulbs"},
+        {"slug": "zigbee-door-sensors", "title": "Zigbee door and window sensors"},
+        {"slug": "zigbee-motion-sensors", "title": "Zigbee motion sensors"},
+        {"slug": "zigbee-smart-plugs", "title": "Zigbee smart plugs"},
+        {"slug": "zigbee-temperature-sensors", "title": "Zigbee temperature and humidity sensors"},
+        {"slug": "zigbee-buttons", "title": "Zigbee buttons and remotes"},
+        {"slug": "zigbee-coordinators", "title": "Zigbee hubs and coordinators"}
+      ]
+    },
+    {
+      "slug": "wifi",
+      "name": "Wi-Fi",
+      "summary": "Uses the router you already own. No hub, lots of bandwidth, lots of power draw.",
+      "verdict": "Right for cameras, doorbells, and anything plugged in. Wrong for battery sensors, and a few dozen devices can overload a cheap router.",
+      "facts": {"band": "2.4 GHz (most smart devices), 5 GHz (cameras)", "topology": "Star, through your router", "hub": "No", "power": "High, poor fit for batteries", "best_for": "Cameras, doorbells, plugs, appliances"},
+      "pros": [
+        "No hub; it joins the network you already have",
+        "Enough bandwidth for live video and audio",
+        "Widest choice of brands and the lowest entry prices",
+        "Setup is usually an app and a few taps"
+      ],
+      "cons": [
+        "Power hungry; battery Wi-Fi sensors need frequent charging",
+        "Many devices only support 2.4 GHz, which complicates setup on mixed-band routers",
+        "Dozens of devices can overload consumer routers",
+        "Many products depend on the maker's cloud and stop working if it shuts down",
+        "No mesh between devices; range is whatever your router covers"
+      ],
+      "subs": [
+        {"slug": "wifi-smart-plugs", "title": "Wi-Fi smart plugs"},
+        {"slug": "wifi-switches", "title": "Wi-Fi switches"},
+        {"slug": "wifi-cameras", "title": "Wi-Fi security cameras"},
+        {"slug": "wifi-doorbells", "title": "Wi-Fi video doorbells"},
+        {"slug": "wifi-bulbs", "title": "Wi-Fi bulbs"},
+        {"slug": "wifi-thermostats", "title": "Wi-Fi thermostats"},
+        {"slug": "wifi-garage-openers", "title": "Wi-Fi garage door openers"}
+      ]
+    },
+    {
+      "slug": "bluetooth",
+      "name": "Bluetooth",
+      "summary": "Phone-to-device and short range. Easy to set up, hard to reach from outside the room.",
+      "verdict": "Fine for one-room gadgets you control from your phone. For whole-house automation, plan on a hub or Bluetooth proxies.",
+      "facts": {"band": "2.4 GHz", "topology": "Point-to-point (Bluetooth Mesh exists but is rare)", "hub": "No for phone control; yes for remote access", "power": "Very low with Bluetooth LE", "best_for": "Locks, trackers, sensors near a hub"},
+      "pros": [
+        "Pairs straight to your phone with no hub or network",
+        "Bluetooth LE sips power, so sensors run for months or years",
+        "Keeps working when the internet is down",
+        "Home Assistant can extend coverage with cheap ESP32 Bluetooth proxies"
+      ],
+      "cons": [
+        "Short range, often a single room through walls",
+        "No remote control unless a hub, bridge, or proxy is in range",
+        "Bluetooth Mesh has little product support for home automation",
+        "Many devices work only through the maker's own app"
+      ],
+      "subs": [
+        {"slug": "bluetooth-locks", "title": "Bluetooth smart locks"},
+        {"slug": "bluetooth-temperature-sensors", "title": "Bluetooth temperature and humidity sensors"},
+        {"slug": "bluetooth-plant-sensors", "title": "Bluetooth plant sensors"},
+        {"slug": "bluetooth-trackers", "title": "Bluetooth trackers"},
+        {"slug": "bluetooth-proxies", "title": "Bluetooth proxies"}
+      ]
+    },
+    {
+      "slug": "thread",
+      "name": "Thread",
+      "summary": "IP-based, self-healing 2.4 GHz mesh. The low-power radio behind most new Matter devices.",
+      "verdict": "The best bet for new battery devices if you already own a border router. The catalog is still smaller than Zigbee's or Z-Wave's.",
+      "facts": {"band": "2.4 GHz (IEEE 802.15.4)", "topology": "Mesh", "hub": "Needs a Thread border router", "power": "Very low", "best_for": "Matter sensors, locks, blinds"},
+      "pros": [
+        "Every device gets an IPv6 address, so there's no proprietary translation layer",
+        "Self-healing mesh with no single point of failure if you run more than one border router",
+        "Low power with fast response times",
+        "Border routers are built into devices many people already own: HomePod mini, Apple TV 4K, Nest Hub (2nd gen), and some Echo models"
+      ],
+      "cons": [
+        "Needs a Thread border router",
+        "Border routers from different ecosystems don't always share one network",
+        "Smaller product catalog than Zigbee or Z-Wave",
+        "Shares the 2.4 GHz band with Wi-Fi and Zigbee",
+        "Newer standard, so firmware and pairing bugs still show up"
+      ],
+      "subs": [
+        {"slug": "thread-sensors", "title": "Thread sensors"},
+        {"slug": "thread-smart-plugs", "title": "Thread smart plugs"},
+        {"slug": "thread-locks", "title": "Thread smart locks"},
+        {"slug": "thread-blinds", "title": "Thread blinds and shades"},
+        {"slug": "thread-border-routers", "title": "Thread border routers"}
+      ]
+    },
+    {
+      "slug": "matter",
+      "name": "Matter",
+      "summary": "A shared language, not a radio. Runs over Wi-Fi, Thread, or Ethernet and works across Apple, Google, Amazon, SmartThings, and Home Assistant.",
+      "verdict": "Buy Matter devices when you can, because they keep your options open. Check that the features you need are in the spec before you buy.",
+      "facts": {"band": "Wi-Fi, Thread, or Ethernet", "topology": "Depends on the radio underneath", "hub": "A Matter controller (most smart speakers and hubs qualify)", "power": "Depends on the radio underneath", "best_for": "Anyone mixing ecosystems or avoiding lock-in"},
+      "pros": [
+        "One device works with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant",
+        "Multi-admin lets several ecosystems control the same device at once",
+        "Local control by design, no cloud needed for day-to-day use",
+        "Setup is a QR code scan in whichever app you prefer"
+      ],
+      "cons": [
+        "Only device types in the current spec are supported, so advanced features often stay in the maker's app",
+        "Each platform exposes a different slice of what a device can do",
+        "Pairing and multi-admin bugs are still common",
+        "Matter over Thread devices still need a Thread border router"
+      ],
+      "subs": [
+        {"slug": "matter-smart-plugs", "title": "Matter smart plugs"},
+        {"slug": "matter-switches", "title": "Matter switches"},
+        {"slug": "matter-bulbs", "title": "Matter bulbs"},
+        {"slug": "matter-sensors", "title": "Matter sensors"},
+        {"slug": "matter-locks", "title": "Matter smart locks"},
+        {"slug": "matter-controllers", "title": "Matter hubs and controllers"}
+      ]
+    },
+    {
+      "slug": "lutron-clear-connect",
+      "name": "Lutron Clear Connect",
+      "summary": "Lutron's own RF used by Caseta and RadioRA. Proprietary and very reliable.",
+      "verdict": "If you only care about lighting and want it to just work, this is the benchmark. Expect to stay inside the Lutron catalog.",
+      "facts": {"band": "434 MHz (Clear Connect Type A)", "topology": "Star to a Lutron bridge or processor", "hub": "Yes, a Lutron Smart Bridge or processor", "power": "Pico remotes run about 10 years on a coin cell", "best_for": "Light switches, dimmers, shades"},
+      "pros": [
+        "Very reliable; its band has almost no competing traffic",
+        "Dimmers work with a wide range of LED bulbs without flicker",
+        "Pico remotes run for years and need no wiring",
+        "Integrates with HomeKit, Alexa, Google, SmartThings, and Home Assistant through the bridge"
+      ],
+      "cons": [
+        "Only Lutron devices join the network",
+        "Requires a Lutron bridge or processor",
+        "Lighting and shades only; no general-purpose sensors",
+        "Costs more per switch than most Zigbee or Wi-Fi options"
+      ],
+      "subs": [
+        {"slug": "lutron-caseta-dimmers", "title": "Caseta dimmers and switches"},
+        {"slug": "lutron-pico-remotes", "title": "Pico remotes"},
+        {"slug": "lutron-shades", "title": "Lutron shades"},
+        {"slug": "lutron-bridges", "title": "Lutron bridges"}
+      ]
+    },
+    {
+      "slug": "433-mhz-rf",
+      "name": "433 MHz RF",
+      "summary": "Simple one-way radio found in cheap sensors, weather stations, and remotes.",
+      "verdict": "Great for cheap outdoor sensors you only need to read. Skip it for anything security-related.",
+      "facts": {"band": "433.92 MHz (some US gear uses 315 MHz)", "topology": "One-way broadcast", "hub": "Yes, an RF bridge or SDR receiver", "power": "Very low", "best_for": "Weather stations, outdoor temperature sensors"},
+      "pros": [
+        "Very cheap sensors",
+        "Long range through walls and out to the yard",
+        "Batteries last a long time",
+        "A $30 SDR dongle running rtl_433 can read hundreds of device models"
+      ],
+      "cons": [
+        "No common standard; each brand uses its own encoding",
+        "Mostly one-way, with no confirmation that a command arrived",
+        "Typically no encryption, so signals can be sniffed or replayed",
+        "Needs an RF bridge or SDR to get into a smart home system"
+      ],
+      "subs": [
+        {"slug": "rf-weather-stations", "title": "433 MHz weather stations"},
+        {"slug": "rf-temperature-sensors", "title": "433 MHz temperature sensors"},
+        {"slug": "rf-bridges", "title": "RF bridges and SDR receivers"}
+      ]
+    }
+  ]
+}
