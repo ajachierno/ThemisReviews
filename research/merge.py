@@ -50,6 +50,13 @@ def merge(slug):
             p.update(live(p["asin"]))
             if name_override:
                 p["name"] = name_override
+    # Every product and avoid pick must say which systems it works with (an empty list means
+    # standalone). Slugs must match data/systems.json so the table icons render.
+    known = {s["slug"] for s in json.loads((HERE / "editorial" / "systems.json").read_text(encoding="utf-8"))["systems"]}
+    for p in ed["products"] + ed["avoid"]:
+        assert "systems" in p, f"{slug}: {p['asin']} has no \"systems\" list (use [] for standalone)"
+        bad = set(p["systems"]) - known
+        assert not bad, f"{slug}: {p['asin']} has unknown systems {bad}"
     asins = {p["asin"] for p in ed["products"]}
     for a in ed["awards"]:
         assert a["asin"] in asins, f"{slug}: award {a['label']} points at {a['asin']} not in products"

@@ -1,96 +1,443 @@
 {
-  "feature_weights": {"three_way": 0.40, "alexa_and_google": 0.35, "safety_listed": 0.25},
+  "feature_weights": {
+    "three_way": 0.4,
+    "alexa_and_google": 0.35,
+    "safety_listed": 0.25
+  },
   "spec_fields": [
-    {"key": "neutral", "label": "Neutral wire"},
-    {"key": "three_way_text", "label": "3-way"},
-    {"key": "app", "label": "App"},
-    {"key": "voice", "label": "Voice"},
-    {"key": "style", "label": "Style"},
-    {"key": "pack", "label": "In the box"}
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "voice",
+      "label": "Voice"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
   ],
   "table_columns": [
-    {"key": "pack", "label": "Pack"},
-    {"key": "three_way_text", "label": "3-way"},
-    {"key": "voice", "label": "Voice"},
-    {"key": "app", "label": "App"}
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "voice",
+      "label": "Voice"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
   ],
   "awards": [
-    {"asin": "B01EZV35QU", "label": "Best Overall", "kind": "overall", "why": "Over 43,000 reviews at 4.5 stars, about $16, and a mature app with schedules and away mode."},
-    {"asin": "B095X911T8", "label": "Best Budget", "kind": "budget", "why": "$14.99 and simple to set up, as long as Alexa is the only assistant you use."},
-    {"asin": "B07724HNTX", "label": "Best for 3-Way", "kind": "special", "why": "A matched main and companion switch for stairways and hallways, with nearly 20,000 reviews."},
-    {"asin": "B0DHYLF7PQ", "label": "Best Multipack", "kind": "premium", "why": "Four switches for about $43, or under $11 each, with a 4.6-star rating."}
+    {
+      "asin": "B01EZV35QU",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Over 43,000 reviews at 4.5 stars, about $16, and a mature app with schedules and away mode."
+    },
+    {
+      "asin": "B095X911T8",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$14.99 and simple to set up, as long as Alexa is the only assistant you use."
+    },
+    {
+      "asin": "B07724HNTX",
+      "label": "Best for 3-Way",
+      "kind": "special",
+      "why": "A matched main and companion switch for stairways and hallways, with nearly 20,000 reviews."
+    },
+    {
+      "asin": "B0DHYLF7PQ",
+      "label": "Best Multipack",
+      "kind": "premium",
+      "why": "Four switches for about $43, or under $11 each, with a 4.6-star rating."
+    }
   ],
   "products": [
-    {"asin": "B01EZV35QU", "brand": "Kasa", "model": "HS200",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "Kasa or Tapo", "voice": "Alexa, Google", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": true},
-     "verdict": "The best-selling smart switch on Amazon for good reason: it's cheap, reliable, and the Kasa app is easy to live with.",
-     "pros": ["43,194 reviews at 4.5 stars and 6K+ bought in the past month", "Works with Alexa and Google Assistant, no hub", "Schedules, countdowns, and an away mode that randomizes the lights", "UL certified, sold by Amazon"],
-     "cons": ["Single-pole only; the 3-way version is a separate kit", "Needs a neutral wire and 2.4 GHz Wi-Fi", "No Apple Home or Matter"]},
-    {"asin": "B07724HNTX", "brand": "Kasa", "model": "HS210 kit",
-     "specs": {"neutral": "Required", "three_way_text": "Yes, kit included", "app": "Kasa or Tapo", "voice": "Alexa, Google", "style": "Paddle", "pack": "Main + companion switch"},
-     "features": {"three_way": true, "alexa_and_google": true, "safety_listed": true},
-     "verdict": "The easy answer for a light controlled from two places. The kit includes both switches, so you replace both ends at once.",
-     "pros": ["Complete 3-way kit in one box", "19,918 reviews at 4.6 stars", "Also works as a single-pole switch", "Alexa and Google with no hub"],
-     "cons": ["Costs about twice as much as a single HS200", "Needs a neutral wire", "No Apple Home or Matter"]},
-    {"asin": "B07R7PCCT9", "brand": "TREATLIFE", "model": "Single pole smart switch",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "Smart Life", "voice": "Alexa, Google", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": false},
-     "verdict": "A popular, well-rated budget switch that runs on the Smart Life app.",
-     "pros": ["4.5 stars from 4,265 reviews", "Alexa and Google with no hub", "Schedules and countdown timers"],
-     "cons": ["Single-pole only, per the listing", "No safety certification named in the listing", "Smart Life is a cloud-based app"]},
-    {"asin": "B095X911T8", "brand": "Amazon Basics", "model": "Smart Light Switch",
-     "specs": {"neutral": "Not stated in listing", "three_way_text": "No (single pole)", "app": "Alexa app", "voice": "Alexa only", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": false, "safety_listed": false},
-     "verdict": "The cheapest way to add a switch to an Alexa home. It's set up and controlled entirely through the Alexa app.",
-     "pros": ["$14.99, the lowest price on this list", "Sets up in the Alexa app with no extra app", "4.4 stars from 4,184 reviews, sold by Amazon", "Schedules through Alexa routines"],
-     "cons": ["Works with Alexa only, not Google or Apple", "Single-pole only", "Useless if you ever leave Alexa"]},
-    {"asin": "B0BS3LG9TX", "brand": "GHome", "model": "SW5",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "GHome", "voice": "Alexa, Google", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": true},
-     "verdict": "A cheap, UL and FCC certified switch with a 4.5-star rating and 1,800 W capacity.",
-     "pros": ["UL and FCC certified", "Rated 15 A, 1,800 W", "Alexa and Google with no hub", "Group control for whole-house off"],
-     "cons": ["Single-pole only", "Needs a neutral wire", "Sold by a third-party seller"]},
-    {"asin": "B0DHYLF7PQ", "brand": "Tapo", "model": "S500 (4-pack)",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "Tapo", "voice": "Alexa, Google", "style": "Paddle", "pack": "4 switches"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": true},
-     "verdict": "TP-Link's Tapo switch in a four-pack. If you're doing several rooms, it's the cheapest per switch on this list.",
-     "pros": ["Four switches for under $11 each", "4.6 stars from 862 reviews", "UL certified with a 2-year warranty", "Away mode and schedules"],
-     "cons": ["Only sold as a 4-pack in this listing", "Single-pole only", "Needs a neutral wire"]},
-    {"asin": "B07DXDP662", "brand": "Lesim", "model": "1 gang touch switch",
-     "specs": {"neutral": "Not stated in listing", "three_way_text": "No (1-way)", "app": "Smart Life", "voice": "Alexa, Google", "style": "Glass touch", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": true},
-     "verdict": "A glass touch panel for people who want the switch to look modern. Works with the Smart Life app.",
-     "pros": ["Glass touch panel", "UL certified", "Alexa and Google with no hub", "Group control and device sharing"],
-     "cons": ["Touch panel isn't for everyone", "Listing doesn't say whether a neutral is required", "Single-pole only"]},
-    {"asin": "B078ZNJNSK", "brand": "Nexete", "model": "Smart Wi-Fi switch",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "Smart Life or Tuya", "voice": "Alexa, Google", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": false},
-     "verdict": "A basic Tuya-based switch that also works with IFTTT. Nothing special, but it's well rated.",
-     "pros": ["4.4 stars from 253 reviews", "Works with Alexa, Google, and IFTTT", "Can control lights or fans"],
-     "cons": ["Single-pole only", "No safety certification named in the listing", "Needs a neutral wire"]},
-    {"asin": "B0D2X8HCQD", "brand": "MOES", "model": "Smart toggle switch",
-     "specs": {"neutral": "Required", "three_way_text": "Yes, replaces one or both", "app": "MOES / Smart Life", "voice": "Alexa, Google", "style": "Self-locking toggle", "pack": "1 switch"},
-     "features": {"three_way": true, "alexa_and_google": true, "safety_listed": false},
-     "verdict": "One of the few Wi-Fi switches with a real toggle that stays in place, and it handles 3-way.",
-     "pros": ["Self-locking toggle shows on or off at a glance", "Works single-pole or 3-way, replacing one or both switches", "Alexa and Google"],
-     "cons": ["3.7-star rating", "Can't control fans or smart bulbs, per the listing", "No safety certification named in the listing"]},
-    {"asin": "B07KYX37T8", "brand": "BN-LINK", "model": "In-wall smart switch",
-     "specs": {"neutral": "Required", "three_way_text": "No (single pole)", "app": "Smart Life", "voice": "Alexa, Google", "style": "Paddle", "pack": "1 switch"},
-     "features": {"three_way": false, "alexa_and_google": true, "safety_listed": false},
-     "verdict": "Cheap and widely bought, but reviews are lukewarm. Fine for a low-stakes room.",
-     "pros": ["Under $14", "Alexa and Google with no hub", "AP mode if normal pairing fails"],
-     "cons": ["3.7-star rating from 786 reviews", "Single-pole only", "No safety certification named in the listing"]}
+    {
+      "asin": "B01EZV35QU",
+      "brand": "Kasa",
+      "model": "HS200",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Kasa or Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "The best-selling smart switch on Amazon for good reason: it's cheap, reliable, and the Kasa app is easy to live with.",
+      "pros": [
+        "43,194 reviews at 4.5 stars and 6K+ bought in the past month",
+        "Works with Alexa and Google Assistant, no hub",
+        "Schedules, countdowns, and an away mode that randomizes the lights",
+        "UL certified, sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only; the 3-way version is a separate kit",
+        "Needs a neutral wire and 2.4 GHz Wi-Fi",
+        "No Apple Home or Matter"
+      ]
+    },
+    {
+      "asin": "B07724HNTX",
+      "brand": "Kasa",
+      "model": "HS210 kit",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, kit included",
+        "app": "Kasa or Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "Main + companion switch"
+      },
+      "features": {
+        "three_way": true,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "The easy answer for a light controlled from two places. The kit includes both switches, so you replace both ends at once.",
+      "pros": [
+        "Complete 3-way kit in one box",
+        "19,918 reviews at 4.6 stars",
+        "Also works as a single-pole switch",
+        "Alexa and Google with no hub"
+      ],
+      "cons": [
+        "Costs about twice as much as a single HS200",
+        "Needs a neutral wire",
+        "No Apple Home or Matter"
+      ]
+    },
+    {
+      "asin": "B07R7PCCT9",
+      "brand": "TREATLIFE",
+      "model": "Single pole smart switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "A popular, well-rated budget switch that runs on the Smart Life app.",
+      "pros": [
+        "4.5 stars from 4,265 reviews",
+        "Alexa and Google with no hub",
+        "Schedules and countdown timers"
+      ],
+      "cons": [
+        "Single-pole only, per the listing",
+        "No safety certification named in the listing",
+        "Smart Life is a cloud-based app"
+      ]
+    },
+    {
+      "asin": "B095X911T8",
+      "brand": "Amazon Basics",
+      "model": "Smart Light Switch",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "neutral": "Not stated in listing",
+        "three_way_text": "No (single pole)",
+        "app": "Alexa app",
+        "voice": "Alexa only",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": false,
+        "safety_listed": false
+      },
+      "verdict": "The cheapest way to add a switch to an Alexa home. It's set up and controlled entirely through the Alexa app.",
+      "pros": [
+        "$14.99, the lowest price on this list",
+        "Sets up in the Alexa app with no extra app",
+        "4.4 stars from 4,184 reviews, sold by Amazon",
+        "Schedules through Alexa routines"
+      ],
+      "cons": [
+        "Works with Alexa only, not Google or Apple",
+        "Single-pole only",
+        "Useless if you ever leave Alexa"
+      ]
+    },
+    {
+      "asin": "B0BS3LG9TX",
+      "brand": "GHome",
+      "model": "SW5",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "GHome",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "A cheap, UL and FCC certified switch with a 4.5-star rating and 1,800 W capacity.",
+      "pros": [
+        "UL and FCC certified",
+        "Rated 15 A, 1,800 W",
+        "Alexa and Google with no hub",
+        "Group control for whole-house off"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Sold by a third-party seller"
+      ]
+    },
+    {
+      "asin": "B0DHYLF7PQ",
+      "brand": "Tapo",
+      "model": "S500 (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Tapo",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "4 switches"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "TP-Link's Tapo switch in a four-pack. If you're doing several rooms, it's the cheapest per switch on this list.",
+      "pros": [
+        "Four switches for under $11 each",
+        "4.6 stars from 862 reviews",
+        "UL certified with a 2-year warranty",
+        "Away mode and schedules"
+      ],
+      "cons": [
+        "Only sold as a 4-pack in this listing",
+        "Single-pole only",
+        "Needs a neutral wire"
+      ]
+    },
+    {
+      "asin": "B07DXDP662",
+      "brand": "Lesim",
+      "model": "1 gang touch switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Not stated in listing",
+        "three_way_text": "No (1-way)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Glass touch",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": true
+      },
+      "verdict": "A glass touch panel for people who want the switch to look modern. Works with the Smart Life app.",
+      "pros": [
+        "Glass touch panel",
+        "UL certified",
+        "Alexa and Google with no hub",
+        "Group control and device sharing"
+      ],
+      "cons": [
+        "Touch panel isn't for everyone",
+        "Listing doesn't say whether a neutral is required",
+        "Single-pole only"
+      ]
+    },
+    {
+      "asin": "B078ZNJNSK",
+      "brand": "Nexete",
+      "model": "Smart Wi-Fi switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life or Tuya",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "A basic Tuya-based switch that also works with IFTTT. Nothing special, but it's well rated.",
+      "pros": [
+        "4.4 stars from 253 reviews",
+        "Works with Alexa, Google, and IFTTT",
+        "Can control lights or fans"
+      ],
+      "cons": [
+        "Single-pole only",
+        "No safety certification named in the listing",
+        "Needs a neutral wire"
+      ]
+    },
+    {
+      "asin": "B0D2X8HCQD",
+      "brand": "MOES",
+      "model": "Smart toggle switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, replaces one or both",
+        "app": "MOES / Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Self-locking toggle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": true,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "One of the few Wi-Fi switches with a real toggle that stays in place, and it handles 3-way.",
+      "pros": [
+        "Self-locking toggle shows on or off at a glance",
+        "Works single-pole or 3-way, replacing one or both switches",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "3.7-star rating",
+        "Can't control fans or smart bulbs, per the listing",
+        "No safety certification named in the listing"
+      ]
+    },
+    {
+      "asin": "B07KYX37T8",
+      "brand": "BN-LINK",
+      "model": "In-wall smart switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "app": "Smart Life",
+        "voice": "Alexa, Google",
+        "style": "Paddle",
+        "pack": "1 switch"
+      },
+      "features": {
+        "three_way": false,
+        "alexa_and_google": true,
+        "safety_listed": false
+      },
+      "verdict": "Cheap and widely bought, but reviews are lukewarm. Fine for a low-stakes room.",
+      "pros": [
+        "Under $14",
+        "Alexa and Google with no hub",
+        "AP mode if normal pairing fails"
+      ],
+      "cons": [
+        "3.7-star rating from 786 reviews",
+        "Single-pole only",
+        "No safety certification named in the listing"
+      ]
+    }
   ],
   "avoid": [
-    {"asin": "B0CGMWH2XV", "brand": "Bkiyougo", "model": "10A wireless smart switch (2-pack)",
-     "flag": "A bare relay module sold as a light switch, with contradictory ratings",
-     "verdict": "It's listed as a Wi-Fi light switch, but it's a bare relay module meant to be wired into a circuit, and its own ratings don't agree with each other.",
-     "reasons": [
-       "The title says 10 A, the spec table says 16 A, and a bullet claims 3,500 W at 10 A max. At 120 V, 10 A is 1,200 W, so those figures can't all be true.",
-       "It isn't a wall switch. It's a DIY module rated for 100 to 240 V that you hide in a box and wire yourself.",
-       "The bullet meant to describe compatibility says it's \"Incompatible with any household appliances.\"",
-       "The listing names no safety certification beyond FCC, which covers radio emissions, not electrical safety."
-     ]}
+    {
+      "asin": "B0CGMWH2XV",
+      "brand": "Bkiyougo",
+      "model": "10A wireless smart switch (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "flag": "A bare relay module sold as a light switch, with contradictory ratings",
+      "verdict": "It's listed as a Wi-Fi light switch, but it's a bare relay module meant to be wired into a circuit, and its own ratings don't agree with each other.",
+      "reasons": [
+        "The title says 10 A, the spec table says 16 A, and a bullet claims 3,500 W at 10 A max. At 120 V, 10 A is 1,200 W, so those figures can't all be true.",
+        "It isn't a wall switch. It's a DIY module rated for 100 to 240 V that you hide in a box and wire yourself.",
+        "The bullet meant to describe compatibility says it's \"Incompatible with any household appliances.\"",
+        "The listing names no safety certification beyond FCC, which covers radio emissions, not electrical safety."
+      ]
+    }
   ]
 }

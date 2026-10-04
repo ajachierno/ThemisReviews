@@ -1,49 +1,205 @@
 {
-  "feature_weights": {"local_bluetooth": 0.40, "alexa_and_google": 0.30, "multi_location": 0.30},
+  "feature_weights": {
+    "local_bluetooth": 0.4,
+    "alexa_and_google": 0.3,
+    "multi_location": 0.3
+  },
   "spec_fields": [
-    {"key": "type", "label": "Type"},
-    {"key": "radios", "label": "Radios"},
-    {"key": "neutral", "label": "Neutral wire"},
-    {"key": "controls", "label": "Controls"},
-    {"key": "local_bluetooth", "label": "Works without internet", "type": "bool"},
-    {"key": "remote_access", "label": "Remote access"}
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radios",
+      "label": "Radios"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "controls",
+      "label": "Controls"
+    },
+    {
+      "key": "local_bluetooth",
+      "label": "Works without internet",
+      "type": "bool"
+    },
+    {
+      "key": "remote_access",
+      "label": "Remote access"
+    }
   ],
   "table_columns": [
-    {"key": "type", "label": "Type"},
-    {"key": "radios", "label": "Radios"},
-    {"key": "neutral", "label": "Neutral"},
-    {"key": "controls", "label": "Controls"}
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radios",
+      "label": "Radios"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "controls",
+      "label": "Controls"
+    }
   ],
   "awards": [
-    {"asin": "B07NWBD7YB", "label": "Best Overall", "kind": "overall", "why": "A GE Cync in-wall paddle with built-in Wi-Fi for remote and voice control, for about $17."},
-    {"asin": "B082LJX44F", "label": "Best No-Wiring Option", "kind": "special", "why": "Sticks to any wall and runs about two years on its battery, but only controls Cync smart lights."},
-    {"asin": "B0FBDR3HCC", "label": "Best Local-Only", "kind": "premium", "why": "Pure Bluetooth control with no router or hub needed, and two circuits in one gang."}
+    {
+      "asin": "B07NWBD7YB",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A GE Cync in-wall paddle with built-in Wi-Fi for remote and voice control, for about $17."
+    },
+    {
+      "asin": "B082LJX44F",
+      "label": "Best No-Wiring Option",
+      "kind": "special",
+      "why": "Sticks to any wall and runs about two years on its battery, but only controls Cync smart lights."
+    },
+    {
+      "asin": "B0FBDR3HCC",
+      "label": "Best Local-Only",
+      "kind": "premium",
+      "why": "Pure Bluetooth control with no router or hub needed, and two circuits in one gang."
+    }
   ],
   "products": [
-    {"asin": "B07NWBD7YB", "brand": "GE Cync", "model": "Smart paddle switch",
-     "specs": {"type": "In-wall on/off", "radios": "Wi-Fi + Bluetooth", "neutral": "Required (plus ground)", "controls": "The light it's wired to", "remote_access": "Built-in Wi-Fi"},
-     "features": {"local_bluetooth": false, "alexa_and_google": true, "multi_location": false},
-     "verdict": "A normal in-wall smart switch that uses Bluetooth alongside Wi-Fi. Wi-Fi handles remote access and voice control.",
-     "pros": ["Built-in Wi-Fi for control away from home", "Works with Alexa and Google", "Schedules and scenes in the Cync app", "Sold by Amazon"],
-     "cons": ["Needs a neutral and a ground wire", "Only 1 left in stock at capture time", "Spec table lists a 2 A rating"]},
-    {"asin": "B082LJX44F", "brand": "GE Cync", "model": "Wire-free smart dimmer",
-     "specs": {"type": "Battery wall remote", "radios": "Bluetooth (Wi-Fi via Cync app)", "neutral": "Not needed (no wiring)", "controls": "Cync smart bulbs, strips, switches, plugs", "remote_access": "Through other Cync devices"},
-     "features": {"local_bluetooth": true, "alexa_and_google": false, "multi_location": true},
-     "verdict": "A stick-on dimmer for Cync smart bulbs and light strips. It doesn't switch power to a fixture, so it only makes sense if you use Cync lights.",
-     "pros": ["No wiring, sticks to any wall", "Replaceable battery rated for over two years", "Pair with another Cync switch for multi-location control", "4.4 stars from 176 reviews"],
-     "cons": ["Only controls Cync and C by GE smart devices", "Doesn't cut power to a regular fixture", "Only 10 left in stock at capture time"]},
-    {"asin": "B0DX7762RF", "brand": "Avatar Controls", "model": "Wi-Fi switch with Bluetooth remote",
-     "specs": {"type": "In-wall on/off", "radios": "Wi-Fi + Bluetooth", "neutral": "Required", "controls": "The light it's wired to", "remote_access": "Built-in Wi-Fi"},
-     "features": {"local_bluetooth": true, "alexa_and_google": true, "multi_location": false},
-     "verdict": "A Wi-Fi switch with a Bluetooth fallback, so you can still control it from your phone when Wi-Fi is down.",
-     "pros": ["Bluetooth control when Wi-Fi is unavailable", "Alexa and Google voice control", "Physical push button instead of a touch panel", "100+ bought in the past month"],
-     "cons": ["Single-pole only", "Needs a neutral wire", "Runs on the cloud-based Smart Life app"]},
-    {"asin": "B0FBDR3HCC", "brand": "HAUZA", "model": "BLE 2-button touch switch",
-     "specs": {"type": "In-wall on/off, 2 circuits", "radios": "Bluetooth LE", "neutral": "Required", "controls": "Two separate circuits", "remote_access": "Needs Hauza hub"},
-     "features": {"local_bluetooth": true, "alexa_and_google": false, "multi_location": true},
-     "verdict": "The only true Bluetooth wall switch we found. It controls two circuits locally and adds remote and voice features with Hauza's hub.",
-     "pros": ["Local Bluetooth control with no router or hub", "Two independent circuits in one gang", "Multi-location control by associating switches in the app", "Works with LED loads down to 5 W"],
-     "cons": ["Remote access, voice, and schedules need the Hauza hub", "Only 9 reviews", "Glass touch panel"]}
+    {
+      "asin": "B07NWBD7YB",
+      "brand": "GE Cync",
+      "model": "Smart paddle switch",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "type": "In-wall on/off",
+        "radios": "Wi-Fi + Bluetooth",
+        "neutral": "Required (plus ground)",
+        "controls": "The light it's wired to",
+        "remote_access": "Built-in Wi-Fi"
+      },
+      "features": {
+        "local_bluetooth": false,
+        "alexa_and_google": true,
+        "multi_location": false
+      },
+      "verdict": "A normal in-wall smart switch that uses Bluetooth alongside Wi-Fi. Wi-Fi handles remote access and voice control.",
+      "pros": [
+        "Built-in Wi-Fi for control away from home",
+        "Works with Alexa and Google",
+        "Schedules and scenes in the Cync app",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Needs a neutral and a ground wire",
+        "Only 1 left in stock at capture time",
+        "Spec table lists a 2 A rating"
+      ]
+    },
+    {
+      "asin": "B082LJX44F",
+      "brand": "GE Cync",
+      "model": "Wire-free smart dimmer",
+      "systems": [],
+      "specs": {
+        "type": "Battery wall remote",
+        "radios": "Bluetooth (Wi-Fi via Cync app)",
+        "neutral": "Not needed (no wiring)",
+        "controls": "Cync smart bulbs, strips, switches, plugs",
+        "remote_access": "Through other Cync devices"
+      },
+      "features": {
+        "local_bluetooth": true,
+        "alexa_and_google": false,
+        "multi_location": true
+      },
+      "verdict": "A stick-on dimmer for Cync smart bulbs and light strips. It doesn't switch power to a fixture, so it only makes sense if you use Cync lights.",
+      "pros": [
+        "No wiring, sticks to any wall",
+        "Replaceable battery rated for over two years",
+        "Pair with another Cync switch for multi-location control",
+        "4.4 stars from 176 reviews"
+      ],
+      "cons": [
+        "Only controls Cync and C by GE smart devices",
+        "Doesn't cut power to a regular fixture",
+        "Only 10 left in stock at capture time"
+      ]
+    },
+    {
+      "asin": "B0DX7762RF",
+      "brand": "Avatar Controls",
+      "model": "Wi-Fi switch with Bluetooth remote",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "type": "In-wall on/off",
+        "radios": "Wi-Fi + Bluetooth",
+        "neutral": "Required",
+        "controls": "The light it's wired to",
+        "remote_access": "Built-in Wi-Fi"
+      },
+      "features": {
+        "local_bluetooth": true,
+        "alexa_and_google": true,
+        "multi_location": false
+      },
+      "verdict": "A Wi-Fi switch with a Bluetooth fallback, so you can still control it from your phone when Wi-Fi is down.",
+      "pros": [
+        "Bluetooth control when Wi-Fi is unavailable",
+        "Alexa and Google voice control",
+        "Physical push button instead of a touch panel",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Runs on the cloud-based Smart Life app"
+      ]
+    },
+    {
+      "asin": "B0FBDR3HCC",
+      "brand": "HAUZA",
+      "model": "BLE 2-button touch switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "In-wall on/off, 2 circuits",
+        "radios": "Bluetooth LE",
+        "neutral": "Required",
+        "controls": "Two separate circuits",
+        "remote_access": "Needs Hauza hub"
+      },
+      "features": {
+        "local_bluetooth": true,
+        "alexa_and_google": false,
+        "multi_location": true
+      },
+      "verdict": "The only true Bluetooth wall switch we found. It controls two circuits locally and adds remote and voice features with Hauza's hub.",
+      "pros": [
+        "Local Bluetooth control with no router or hub",
+        "Two independent circuits in one gang",
+        "Multi-location control by associating switches in the app",
+        "Works with LED loads down to 5 W"
+      ],
+      "cons": [
+        "Remote access, voice, and schedules need the Hauza hub",
+        "Only 9 reviews",
+        "Glass touch panel"
+      ]
+    }
   ],
   "avoid": []
 }

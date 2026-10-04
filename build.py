@@ -95,6 +95,33 @@ window.addEventListener('scroll',function(){{b.classList.toggle('show',window.sc
 </html>"""
 
 
+# --------------------------------------------------------------------------- system icons
+# Small original glyphs in each system's colors (not the companies' logos). Keys match
+# data/systems.json slugs; every product's "systems" list renders as a row of these.
+SYSTEM_ICONS = {
+    "home-assistant": '<rect width="20" height="20" rx="5" fill="#18BCF2"/><path d="M10 4.2 16 9.4V15.6H4V9.4Z" fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><circle cx="10" cy="11.6" r="1.6" fill="#fff"/>',
+    "apple-home": '<rect width="20" height="20" rx="5" fill="#FF9500"/><path d="M10 4 16.4 9.7H14.6V15.8H5.4V9.7H3.6Z" fill="#fff"/>',
+    "google-home": '<rect width="20" height="20" rx="5" fill="#fff"/><circle cx="7" cy="7" r="2.3" fill="#4285F4"/><circle cx="13" cy="7" r="2.3" fill="#EA4335"/><circle cx="7" cy="13" r="2.3" fill="#FBBC05"/><circle cx="13" cy="13" r="2.3" fill="#34A853"/>',
+    "alexa": '<rect width="20" height="20" rx="5" fill="#0F1B2D"/><circle cx="10" cy="10" r="5.4" fill="none" stroke="#00CAFF" stroke-width="2.3"/>',
+    "smartthings": '<rect width="20" height="20" rx="5" fill="#1F4FD6"/><path d="M10 5.2 14.6 13.4H5.4Z" fill="none" stroke="#fff" stroke-width="1.3"/><circle cx="10" cy="5.2" r="1.9" fill="#fff"/><circle cx="14.6" cy="13.4" r="1.9" fill="#fff"/><circle cx="5.4" cy="13.4" r="1.9" fill="#fff"/>',
+    "hubitat": '<rect width="20" height="20" rx="5" fill="#2E8B3E"/><path d="M6 5V15M14 5V15M6 10H14" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>',
+    "homey": '<rect width="20" height="20" rx="5" fill="#E9316B"/><circle cx="10" cy="10" r="5" fill="none" stroke="#fff" stroke-width="2"/><circle cx="10" cy="10" r="1.8" fill="#fff"/>',
+}
+SYSTEM_NAMES = {s["slug"]: s["name"] for s in json.loads((DATA / "systems.json").read_text(encoding="utf-8"))["systems"]}
+
+
+def sys_icon(slug):
+    name = esc(SYSTEM_NAMES[slug])
+    return (f'<span class="sys-ico" tabindex="0" role="img" aria-label="{name}" title="{name}" data-tip="{name}">'
+            f'<svg viewBox="0 0 20 20" width="17" height="17" aria-hidden="true">{SYSTEM_ICONS[slug]}</svg></span>')
+
+
+def sys_icons(slugs):
+    if not slugs:
+        return '<span class="tiny muted">Standalone</span>'
+    return '<span class="sys-icons">' + "".join(sys_icon(x) for x in SYSTEM_NAMES if x in slugs) + "</span>"
+
+
 FACT_COLUMNS = [
     ("band", "Frequency"),
     ("topology", "Network"),
@@ -130,11 +157,11 @@ def buy_cell(site, s):
 def render_systems(site, data):
     systems = data["systems"]
     rows = "".join(f"""<tr>
-        <td><a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a><div class="tiny muted">{esc(s['maker'])}</div></td>
+        <td>{sys_icon(s['slug'])} <a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a><div class="tiny muted">{esc(s['maker'])}</div></td>
         <td>{esc(s['hub'])}</td><td>{esc(s['radios'])}</td><td>{esc(s['local'])}</td>
         <td>{esc(s['phones'])}</td><td>{esc(s['best_for'])}</td><td class="buy">{buy_cell(site, s)}</td></tr>""" for s in systems)
     pc_rows = "".join(f"""<tr>
-        <td><a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a></td>
+        <td>{sys_icon(s['slug'])} <a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a></td>
         <td><ul class="pc-list pros">{''.join(f'<li>{esc(x)}</li>' for x in s['pros'])}</ul></td>
         <td><ul class="pc-list cons">{''.join(f'<li>{esc(x)}</li>' for x in s['cons'])}</ul></td></tr>""" for s in systems)
     return f"""
@@ -301,15 +328,15 @@ def render_table(ranked, avoid, columns):
         rows.append(f'<tr><td class="c">{p["rank"]}</td>'
                     f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
                     f'<td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
-                    f'<td class="c">{p["reviews_count"]:,}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
+                    f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"])}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
         rows.append(f'<tr class="avoid-row"><td class="c">&#10005;</td>'
                     f'<td><a href="#avoid-{esc(a["asin"])}">{esc(a["brand"])} {esc(a["model"])}</a></td>'
                     f'<td>{money(a["price"])}</td><td class="c">{a["rating"]}</td>'
-                    f'<td class="c">{a["reviews_count"]:,}</td>'
+                    f'<td class="c">{a["reviews_count"]:,}</td><td>{sys_icons(a["systems"])}</td>'
                     f'<td colspan="{len(columns)}">{esc(a["flag"])}</td><td class="c"><b>AVOID</b></td></tr>')
     return (f'<div class="tablewrap"><table class="ptable"><thead><tr><th>#</th><th>Switch</th><th>Price</th>'
-            f'<th>Rating</th><th>Reviews</th>{heads}<th>Score</th></tr></thead>'
+            f'<th>Rating</th><th>Reviews</th><th>Works with</th>{heads}<th>Score</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>')
 
 
@@ -421,6 +448,7 @@ def build_category(site, proto, sub):
     <h2>Side-by-side</h2>
     <p class="swipe-hint">Swipe the table sideways to see every column.</p>
     {render_table(ranked, cat['avoid'], cat['table_columns'])}
+    <p class="tiny muted legend">Works with: hover or tap an icon for the system name. A system is shown when it supports the product directly or through the hub the listing requires.{(' ' + esc(cat['systems_note'])) if cat.get('systems_note') else ''}</p>
   </section>
   <section id="ranked">
     <h2>The full ranking</h2>
@@ -573,6 +601,20 @@ footer .muted{font-size:.85rem}
 footer a{color:var(--gold-ink)}
 .to-top{display:none}
 /* systems */
+.sys-icons{display:inline-flex;gap:3px;flex-wrap:nowrap;vertical-align:middle}
+.sys-ico{position:relative;display:inline-flex;line-height:0;border-radius:5px;cursor:help;vertical-align:middle}
+.sys-ico svg{display:block;border-radius:5px;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
+.sys-ico:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.sys-ico::after{content:attr(data-tip);position:absolute;left:50%;bottom:calc(100% + 7px);transform:translateX(-50%);
+  background:#0b0a17;color:var(--ink);border:1px solid var(--gold);border-radius:6px;padding:4px 8px;
+  font-size:.75rem;font-weight:600;line-height:1.2;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .12s;z-index:5}
+.sys-ico:hover::after,.sys-ico:focus::after{opacity:1}
+.ptable th,.ptable td{padding:10px 7px}
+.ptable th:first-child,.ptable td:first-child{padding-left:12px}
+.ptable td:nth-child(2){white-space:normal;min-width:130px}
+.ptable td:nth-child(n+7){min-width:80px}
+.ptable th{font-size:.7rem;letter-spacing:.02em}
+.legend{margin:8px 0 0}
 .sys-table{min-width:1000px}
 .sys-table td{white-space:normal;font-size:.86rem}
 .sys-table td:first-child{white-space:nowrap}
@@ -615,7 +657,7 @@ footer a{color:var(--gold-ink)}
 .hero-price{font-size:1.4rem;font-weight:800;margin-top:auto}
 .hero-card .btn{text-align:center}
 .ptable{min-width:900px}
-.ptable td{white-space:nowrap} .ptable td:nth-child(n+6){white-space:normal;min-width:110px} .ptable td:first-child{font-weight:400}
+.ptable td{white-space:nowrap} .ptable td:nth-child(n+7){white-space:normal} .ptable td:first-child{font-weight:400}
 .ptable a{color:var(--gold-ink);font-weight:600}
 tr.avoid-row td{background:#2a1420;color:#ff9d94;font-weight:600;white-space:normal}
 tr.avoid-row a{color:#ff9d94;text-decoration:underline}

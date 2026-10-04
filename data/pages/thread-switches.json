@@ -95,6 +95,15 @@
       "asin": "B0DCK65T2Y",
       "brand": "Eve",
       "model": "Light Switch (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "type": "In-wall on/off",
         "neutral": "Not stated in listing",
@@ -130,6 +139,15 @@
       "asin": "B0DN1H69ZP",
       "brand": "Aqara",
       "model": "H2 switch (1 channel)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "type": "In-wall on/off",
         "neutral": "Optional",
@@ -165,6 +183,15 @@
       "asin": "B0F2N68K3C",
       "brand": "Aqara",
       "model": "H2 dimmer",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "type": "In-wall dimmer",
         "neutral": "Optional",
@@ -200,6 +227,15 @@
       "asin": "B0F18PM6JK",
       "brand": "Eve",
       "model": "Dimmer Switch (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "type": "In-wall dimmer",
         "neutral": "Required",
@@ -234,6 +270,13 @@
       "asin": "B0F3JD2SK3",
       "brand": "THIRDREALITY",
       "model": "MT1",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "home-assistant",
+        "homey"
+      ],
       "specs": {
         "type": "Retrofit (mounts over switch)",
         "neutral": "Not needed (no wiring)",
@@ -271,6 +314,9 @@
       "asin": "B0BG6GDSWW",
       "brand": "Wemo",
       "model": "Smart Light Switch with Thread",
+      "systems": [
+        "apple-home"
+      ],
       "flag": "Discontinued brand, Apple Home only, 2.9 stars",
       "verdict": "Belkin has wound down the Wemo brand, so this switch won't get new features. It's Apple Home only and has the lowest rating of any Thread switch we found.",
       "reasons": [

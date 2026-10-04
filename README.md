@@ -43,3 +43,13 @@ hand-edit them. The workflow lives in `research/`:
 3. `python research/merge.py <slug>` fills price, rating, review count, title, and image
    from the scrape into `data/pages/<slug>.json`. Numbers never come from the editorial file.
 4. Set `"ready": true` on the sub-page in `data/site.json`, then `python build.py`.
+
+Every product and avoid pick needs a `"systems"` list naming the smart home systems it
+works with (slugs from `data/systems.json`, or `[]` for standalone gear). `merge.py`
+refuses to run without it. The build turns the list into the "Works with" icon column.
+Rules used so far: Matter-certified = all systems; Z-Wave = Home Assistant, SmartThings,
+Hubitat, Homey (minus any the listing excludes); Zigbee 3.0 = the Zigbee-capable systems;
+brand-hub and app-based devices = what the listing names, plus Home Assistant where it has
+an official integration (TP-Link, Tuya/Smart Life, Lutron Caseta). Icons live in
+`SYSTEM_ICONS` in `build.py`; a new system needs an icon there and an entry in
+`research/editorial/systems.json`.

@@ -98,6 +98,13 @@
       "asin": "B07HM6L48C",
       "brand": "Lutron",
       "model": "Caseta 3-way dimmer kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "Dimmer + Pico",
         "neutral": "Not required",
@@ -133,6 +140,13 @@
       "asin": "B00KLAXFQA",
       "brand": "Lutron",
       "model": "Caseta smart dimmer",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "Dimmer",
         "neutral": "Not required",
@@ -168,6 +182,13 @@
       "asin": "B017LRCG38",
       "brand": "Lutron",
       "model": "Caseta smart switch",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "On/off switch",
         "neutral": "Required",
@@ -203,6 +224,13 @@
       "asin": "B08FRN8FK5",
       "brand": "Lutron",
       "model": "Caseta 3-way switch kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "On/off switch + Pico",
         "neutral": "Required",
@@ -238,6 +266,13 @@
       "asin": "B08FRPJFXQ",
       "brand": "Lutron",
       "model": "Caseta smart switch starter kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "On/off switch + Smart Hub",
         "neutral": "Required",
@@ -273,6 +308,13 @@
       "asin": "B0BSHKS26L",
       "brand": "Lutron",
       "model": "Caseta Diva smart dimmer",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "Dimmer (slider)",
         "neutral": "Not required",
@@ -308,6 +350,13 @@
       "asin": "B0BYPBGBSD",
       "brand": "Lutron",
       "model": "Caseta Claro smart switch",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "On/off switch",
         "neutral": "Required",
@@ -343,6 +392,13 @@
       "asin": "B0CJGL5QKX",
       "brand": "Lutron",
       "model": "Claro 3-way switch kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "On/off switch + Pico",
         "neutral": "Required",
@@ -377,6 +433,13 @@
       "asin": "B07SJJBTYY",
       "brand": "Lutron",
       "model": "Caseta smart dimmer with wallplate",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "Dimmer",
         "neutral": "Not required",
@@ -411,6 +474,13 @@
       "asin": "B0CJ6DFMT7",
       "brand": "Lutron",
       "model": "Caseta 3-way Diva dimmer kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "specs": {
         "type": "Dimmer (slider) + Pico",
         "neutral": "Not required",
@@ -447,6 +517,13 @@
       "asin": "B0G465YJ1P",
       "brand": "Lutron",
       "model": "PD-5WS-DV-WH (reseller listing)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
       "flag": "Commercial-voltage version at about 78% more than the home switch",
       "verdict": "It's a real Lutron part, but it's the 120/277 V commercial version sold by an AV reseller for $115.70. The Caseta smart switch Amazon sells for $64.95 does the same job in a house.",
       "reasons": [
@@ -463,6 +540,7 @@
       "bought": null
     }
   ],
+  "systems_note": "Through a Lutron Smart Bridge.",
   "buyers_guide": [
     {
       "q": "Do Caseta switches need a neutral wire?",

@@ -94,6 +94,13 @@
       "asin": "B000U39QL6",
       "brand": "Leviton",
       "model": "DG15S-1BW",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "neutral": "Required",
         "three_way_text": "With DD0SR remote",
@@ -129,6 +136,12 @@
       "asin": "B081ZQWX1F",
       "brand": "Aqara",
       "model": "Smart Light Switch (no neutral, single rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings"
+      ],
       "specs": {
         "neutral": "Not needed",
         "three_way_text": "Not listed",
@@ -164,6 +177,11 @@
       "asin": "B081ZRBPLC",
       "brand": "Aqara",
       "model": "Smart Light Switch (neutral, double rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
       "specs": {
         "neutral": "Required",
         "three_way_text": "Not listed",
@@ -199,6 +217,11 @@
       "asin": "B081ZRND3K",
       "brand": "Aqara",
       "model": "Smart Light Switch (neutral, single rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
       "specs": {
         "neutral": "Required",
         "three_way_text": "Not listed",
@@ -234,6 +257,15 @@
       "asin": "B0DN1H69ZP",
       "brand": "Aqara",
       "model": "H2 (1 channel)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
       "specs": {
         "neutral": "Optional",
         "three_way_text": "Yes",
@@ -270,6 +302,11 @@
       "asin": "B0D4DGJ32V",
       "brand": "MOES",
       "model": "Zigbee 3-way, 1 gang",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
       "specs": {
         "neutral": "Required",
         "three_way_text": "Yes, replaces one or both",
@@ -306,6 +343,11 @@
       "asin": "B0CTZRTS12",
       "brand": "MOES",
       "model": "Zigbee 1 gang (neutral)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
       "specs": {
         "neutral": "Required",
         "three_way_text": "Not listed",
@@ -340,6 +382,11 @@
       "asin": "B08X3JJD3Z",
       "brand": "MOES",
       "model": "Zigbee touch switch (no neutral)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
       "specs": {
         "neutral": "Optional",
         "three_way_text": "App-linked switches",
@@ -375,6 +422,11 @@
       "asin": "B0DNHLKWYV",
       "brand": "SONOFF",
       "model": "ZBM5-1C-120W",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
       "specs": {
         "neutral": "Optional",
         "three_way_text": "Not listed",
@@ -409,6 +461,14 @@
       "asin": "B0F6T5JCZL",
       "brand": "Martin Jerry",
       "model": "RP-ZB-S01",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "home-assistant",
+        "homey"
+      ],
       "specs": {
         "neutral": "Not needed",
         "three_way_text": "No (single pole only)",
@@ -446,6 +506,10 @@
       "asin": "B0FQC22X6M",
       "brand": "Youngzuth",
       "model": "3way Zigbee switch",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
       "flag": "\"3way\" in the title, no 3-way wiring in the listing, 1.5 A rating",
       "verdict": "The title promises a 3-way no-neutral Zigbee switch. The listing never explains how 3-way works, and its own spec table rates it at 1.5 A.",
       "reasons": [
@@ -462,6 +526,7 @@
       "bought": null
     }
   ],
+  "systems_note": "Brand-hub switches (Aqara, MOES, SONOFF) are shown with the systems their listings name.",
   "buyers_guide": [
     {
       "q": "Will any Zigbee switch work with my hub?",

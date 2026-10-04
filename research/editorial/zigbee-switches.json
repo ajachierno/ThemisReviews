@@ -1,96 +1,450 @@
 {
-  "feature_weights": {"no_neutral": 0.35, "three_way": 0.30, "open_hub": 0.35},
+  "feature_weights": {
+    "no_neutral": 0.35,
+    "three_way": 0.3,
+    "open_hub": 0.35
+  },
   "spec_fields": [
-    {"key": "neutral", "label": "Neutral wire"},
-    {"key": "three_way_text", "label": "3-way"},
-    {"key": "hub", "label": "Hub"},
-    {"key": "style", "label": "Style"},
-    {"key": "open_hub", "label": "Third-party hubs", "type": "bool"},
-    {"key": "extras", "label": "Extras"}
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "open_hub",
+      "label": "Third-party hubs",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
   ],
   "table_columns": [
-    {"key": "neutral", "label": "Neutral"},
-    {"key": "three_way_text", "label": "3-way"},
-    {"key": "hub", "label": "Hub"},
-    {"key": "style", "label": "Style"}
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    }
   ],
   "awards": [
-    {"asin": "B000U39QL6", "label": "Best Overall", "kind": "overall", "why": "Zigbee 3.0 certified, pairs with an Echo's built-in hub or SmartThings, and handles up to 600 W of LED."},
-    {"asin": "B0D4DGJ32V", "label": "Best Budget", "kind": "budget", "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."},
-    {"asin": "B081ZQWX1F", "label": "Best for No-Neutral Boxes", "kind": "special", "why": "The most-reviewed switch here, and it installs without a neutral wire."},
-    {"asin": "B0DN1H69ZP", "label": "Most Flexible", "kind": "premium", "why": "Runs as Zigbee or Matter over Thread, works with or without a neutral, and handles 3-way."}
+    {
+      "asin": "B000U39QL6",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Zigbee 3.0 certified, pairs with an Echo's built-in hub or SmartThings, and handles up to 600 W of LED."
+    },
+    {
+      "asin": "B0D4DGJ32V",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."
+    },
+    {
+      "asin": "B081ZQWX1F",
+      "label": "Best for No-Neutral Boxes",
+      "kind": "special",
+      "why": "The most-reviewed switch here, and it installs without a neutral wire."
+    },
+    {
+      "asin": "B0DN1H69ZP",
+      "label": "Most Flexible",
+      "kind": "premium",
+      "why": "Runs as Zigbee or Matter over Thread, works with or without a neutral, and handles 3-way."
+    }
   ],
   "products": [
-    {"asin": "B000U39QL6", "brand": "Leviton", "model": "DG15S-1BW",
-     "specs": {"neutral": "Required", "three_way_text": "With DD0SR remote", "hub": "Any Zigbee 3.0 hub", "style": "Decora paddle", "extras": "600 W LED, 15 A ballast"},
-     "features": {"no_neutral": false, "three_way": true, "open_hub": true},
-     "verdict": "A standard Zigbee 3.0 switch from a major brand. It pairs with the Zigbee hub built into some Echo devices, so many people won't need to buy a hub at all.",
-     "pros": ["Zigbee 3.0 certified", "Works with Echo devices that have a Zigbee hub, SmartThings, and other Zigbee 3.0 hubs", "Rated for 600 W LED/CFL, 1,800 W incandescent, and 15 A ballast loads", "Decora form factor with optional color change kits"],
-     "cons": ["3-way needs a Leviton DD0SR remote switch", "Needs a neutral wire", "Sold by a third-party seller"]},
-    {"asin": "B081ZQWX1F", "brand": "Aqara", "model": "Smart Light Switch (no neutral, single rocker)",
-     "specs": {"neutral": "Not needed", "three_way_text": "Not listed", "hub": "Aqara hub", "style": "Rocker", "extras": "Over-temperature cutoff"},
-     "features": {"no_neutral": true, "three_way": false, "open_hub": false},
-     "verdict": "The go-to switch for older boxes without a neutral, with the most reviews on this list. It's built around Aqara's hub and app.",
-     "pros": ["Installs without a neutral wire", "528 reviews and 100+ bought in the past month", "Works with Apple Home, Google, Alexa, and SmartThings through the Aqara hub", "Cuts power if it overheats"],
-     "cons": ["Needs an Aqara hub, sold separately", "No 3-way support listed", "No-neutral switches don't route Zigbee traffic for other devices"]},
-    {"asin": "B081ZRBPLC", "brand": "Aqara", "model": "Smart Light Switch (neutral, double rocker)",
-     "specs": {"neutral": "Required", "three_way_text": "Not listed", "hub": "Aqara hub", "style": "Double rocker", "extras": "Two circuits, one gang"},
-     "features": {"no_neutral": false, "three_way": false, "open_hub": false},
-     "verdict": "Two independent switches in one gang, for a box where you want separate control of a light and a fan, or two lights.",
-     "pros": ["Controls two circuits from one gang", "4.4-star rating, the highest here", "Works with Apple Home, Google, and Alexa through the Aqara hub", "Overheat protection"],
-     "cons": ["Needs an Aqara hub", "Needs a neutral wire", "No 3-way support listed"]},
-    {"asin": "B081ZRND3K", "brand": "Aqara", "model": "Smart Light Switch (neutral, single rocker)",
-     "specs": {"neutral": "Required", "three_way_text": "Not listed", "hub": "Aqara hub", "style": "Rocker", "extras": "Over-temperature cutoff"},
-     "features": {"no_neutral": false, "three_way": false, "open_hub": false},
-     "verdict": "The neutral-wire version of Aqara's single switch. Pick it over the no-neutral model when you have a neutral, since it's a little cheaper.",
-     "pros": ["Cheaper than the no-neutral version", "264 reviews", "Apple Home, Google, and Alexa through the Aqara hub", "Overheat protection"],
-     "cons": ["Needs an Aqara hub", "Needs a neutral wire", "No 3-way support listed"]},
-    {"asin": "B0DN1H69ZP", "brand": "Aqara", "model": "H2 (1 channel)",
-     "specs": {"neutral": "Optional", "three_way_text": "Yes", "hub": "Aqara hub (Zigbee) or Thread border router (Matter)", "style": "Two buttons", "extras": "Power monitoring with neutral"},
-     "features": {"no_neutral": true, "three_way": true, "open_hub": true},
-     "verdict": "Aqara's newer switch runs on Zigbee or Matter over Thread, wires with or without a neutral, and handles 3-way. The second button works as a wireless scene switch.",
-     "pros": ["Choose Zigbee or Matter over Thread", "Works with or without a neutral wire", "Single-pole and 3-way", "Decoupled mode turns the buttons into wireless scene switches", "Power monitoring and overload protection when a neutral is connected"],
-     "cons": ["3.8-star rating", "Power monitoring and overload protection need a neutral", "Most expensive Zigbee switch here"]},
-    {"asin": "B0D4DGJ32V", "brand": "MOES", "model": "Zigbee 3-way, 1 gang",
-     "specs": {"neutral": "Required", "three_way_text": "Yes, replaces one or both", "hub": "MOES hub or Zigbee2MQTT", "style": "Push button", "extras": "Screwless wallplate included"},
-     "features": {"no_neutral": false, "three_way": true, "open_hub": true},
-     "verdict": "A cheap switch that handles 3-way properly and works locally with Home Assistant through Zigbee2MQTT.",
-     "pros": ["Under $20", "Replace one or both switches in a 3-way", "Local control with Home Assistant and Zigbee2MQTT", "Screwless wallplate in the box", "Indicator light can show status, location, or stay off"],
-     "cons": ["Needs a neutral wire", "Not for smart bulbs or dimming", "Cloud features need the MOES hub"]},
-    {"asin": "B0CTZRTS12", "brand": "MOES", "model": "Zigbee 1 gang (neutral)",
-     "specs": {"neutral": "Required", "three_way_text": "Not listed", "hub": "MOES hub or Zigbee2MQTT", "style": "Glass touch", "extras": "Acts as a Zigbee router"},
-     "features": {"no_neutral": false, "three_way": false, "open_hub": true},
-     "verdict": "An inexpensive glass touch switch that also extends your Zigbee mesh. Works locally with Home Assistant.",
-     "pros": ["Acts as a Zigbee router and extends the mesh", "Local control through Home Assistant and Zigbee2MQTT", "Tempered glass face"],
-     "cons": ["Not compatible with SmartThings or Apple Home, per the listing", "Needs a neutral wire", "Touch panel won't suit every room"]},
-    {"asin": "B08X3JJD3Z", "brand": "MOES", "model": "Zigbee touch switch (no neutral)",
-     "specs": {"neutral": "Optional", "three_way_text": "App-linked switches", "hub": "Tuya Zigbee hub or Zigbee2MQTT", "style": "Glass touch", "extras": "Backlight on/off"},
-     "features": {"no_neutral": true, "three_way": false, "open_hub": true},
-     "verdict": "A glass touch switch that installs with or without a neutral. Its 3-way is done by linking two smart switches in the app, not by wiring.",
-     "pros": ["Works with or without a neutral wire, with no capacitor needed", "Works with Zigbee2MQTT", "Remembers on/off state after a power cut", "4.2-star rating"],
-     "cons": ["3-way means buying a second smart switch and linking them in the app", "Needs a Tuya Zigbee hub for app and voice control", "Glass touch style"]},
-    {"asin": "B0DNHLKWYV", "brand": "SONOFF", "model": "ZBM5-1C-120W",
-     "specs": {"neutral": "Optional", "three_way_text": "Not listed", "hub": "SONOFF gateway or Zigbee2MQTT", "style": "Push button", "extras": "eWeLink app"},
-     "features": {"no_neutral": true, "three_way": false, "open_hub": true},
-     "verdict": "A neutral-optional wall switch that works with Home Assistant through Zigbee2MQTT. Reviews are mixed.",
-     "pros": ["Works with or without a neutral wire", "Home Assistant support through Zigbee2MQTT", "100+ bought in the past month"],
-     "cons": ["3.5-star rating", "App and voice control need a SONOFF Zigbee gateway", "No 3-way support listed"]},
-    {"asin": "B0F6T5JCZL", "brand": "Martin Jerry", "model": "RP-ZB-S01",
-     "specs": {"neutral": "Not needed", "three_way_text": "No (single pole only)", "hub": "Any Zigbee 3.0 hub", "style": "Rocker paddle", "extras": "Adjustable night light"},
-     "features": {"no_neutral": true, "three_way": false, "open_hub": true},
-     "verdict": "A no-neutral rocker that pairs with standard Zigbee 3.0 hubs such as SmartThings and Hubitat. Single-pole only.",
-     "pros": ["No neutral needed", "Works with SmartThings, Hubitat, and other Zigbee 3.0 hubs", "Supports LED loads down to 5 W", "Matching dimmers and fan controls in the same style"],
-     "cons": ["Single-pole only, not for 3-way", "3.7-star rating", "The power LED is only adjustable through the SmartLife hub"]}
+    {
+      "asin": "B000U39QL6",
+      "brand": "Leviton",
+      "model": "DG15S-1BW",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "With DD0SR remote",
+        "hub": "Any Zigbee 3.0 hub",
+        "style": "Decora paddle",
+        "extras": "600 W LED, 15 A ballast"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": true,
+        "open_hub": true
+      },
+      "verdict": "A standard Zigbee 3.0 switch from a major brand. It pairs with the Zigbee hub built into some Echo devices, so many people won't need to buy a hub at all.",
+      "pros": [
+        "Zigbee 3.0 certified",
+        "Works with Echo devices that have a Zigbee hub, SmartThings, and other Zigbee 3.0 hubs",
+        "Rated for 600 W LED/CFL, 1,800 W incandescent, and 15 A ballast loads",
+        "Decora form factor with optional color change kits"
+      ],
+      "cons": [
+        "3-way needs a Leviton DD0SR remote switch",
+        "Needs a neutral wire",
+        "Sold by a third-party seller"
+      ]
+    },
+    {
+      "asin": "B081ZQWX1F",
+      "brand": "Aqara",
+      "model": "Smart Light Switch (no neutral, single rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings"
+      ],
+      "specs": {
+        "neutral": "Not needed",
+        "three_way_text": "Not listed",
+        "hub": "Aqara hub",
+        "style": "Rocker",
+        "extras": "Over-temperature cutoff"
+      },
+      "features": {
+        "no_neutral": true,
+        "three_way": false,
+        "open_hub": false
+      },
+      "verdict": "The go-to switch for older boxes without a neutral, with the most reviews on this list. It's built around Aqara's hub and app.",
+      "pros": [
+        "Installs without a neutral wire",
+        "528 reviews and 100+ bought in the past month",
+        "Works with Apple Home, Google, Alexa, and SmartThings through the Aqara hub",
+        "Cuts power if it overheats"
+      ],
+      "cons": [
+        "Needs an Aqara hub, sold separately",
+        "No 3-way support listed",
+        "No-neutral switches don't route Zigbee traffic for other devices"
+      ]
+    },
+    {
+      "asin": "B081ZRBPLC",
+      "brand": "Aqara",
+      "model": "Smart Light Switch (neutral, double rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Not listed",
+        "hub": "Aqara hub",
+        "style": "Double rocker",
+        "extras": "Two circuits, one gang"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": false,
+        "open_hub": false
+      },
+      "verdict": "Two independent switches in one gang, for a box where you want separate control of a light and a fan, or two lights.",
+      "pros": [
+        "Controls two circuits from one gang",
+        "4.4-star rating, the highest here",
+        "Works with Apple Home, Google, and Alexa through the Aqara hub",
+        "Overheat protection"
+      ],
+      "cons": [
+        "Needs an Aqara hub",
+        "Needs a neutral wire",
+        "No 3-way support listed"
+      ]
+    },
+    {
+      "asin": "B081ZRND3K",
+      "brand": "Aqara",
+      "model": "Smart Light Switch (neutral, single rocker)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Not listed",
+        "hub": "Aqara hub",
+        "style": "Rocker",
+        "extras": "Over-temperature cutoff"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": false,
+        "open_hub": false
+      },
+      "verdict": "The neutral-wire version of Aqara's single switch. Pick it over the no-neutral model when you have a neutral, since it's a little cheaper.",
+      "pros": [
+        "Cheaper than the no-neutral version",
+        "264 reviews",
+        "Apple Home, Google, and Alexa through the Aqara hub",
+        "Overheat protection"
+      ],
+      "cons": [
+        "Needs an Aqara hub",
+        "Needs a neutral wire",
+        "No 3-way support listed"
+      ]
+    },
+    {
+      "asin": "B0DN1H69ZP",
+      "brand": "Aqara",
+      "model": "H2 (1 channel)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "neutral": "Optional",
+        "three_way_text": "Yes",
+        "hub": "Aqara hub (Zigbee) or Thread border router (Matter)",
+        "style": "Two buttons",
+        "extras": "Power monitoring with neutral"
+      },
+      "features": {
+        "no_neutral": true,
+        "three_way": true,
+        "open_hub": true
+      },
+      "verdict": "Aqara's newer switch runs on Zigbee or Matter over Thread, wires with or without a neutral, and handles 3-way. The second button works as a wireless scene switch.",
+      "pros": [
+        "Choose Zigbee or Matter over Thread",
+        "Works with or without a neutral wire",
+        "Single-pole and 3-way",
+        "Decoupled mode turns the buttons into wireless scene switches",
+        "Power monitoring and overload protection when a neutral is connected"
+      ],
+      "cons": [
+        "3.8-star rating",
+        "Power monitoring and overload protection need a neutral",
+        "Most expensive Zigbee switch here"
+      ]
+    },
+    {
+      "asin": "B0D4DGJ32V",
+      "brand": "MOES",
+      "model": "Zigbee 3-way, 1 gang",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, replaces one or both",
+        "hub": "MOES hub or Zigbee2MQTT",
+        "style": "Push button",
+        "extras": "Screwless wallplate included"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": true,
+        "open_hub": true
+      },
+      "verdict": "A cheap switch that handles 3-way properly and works locally with Home Assistant through Zigbee2MQTT.",
+      "pros": [
+        "Under $20",
+        "Replace one or both switches in a 3-way",
+        "Local control with Home Assistant and Zigbee2MQTT",
+        "Screwless wallplate in the box",
+        "Indicator light can show status, location, or stay off"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "Not for smart bulbs or dimming",
+        "Cloud features need the MOES hub"
+      ]
+    },
+    {
+      "asin": "B0CTZRTS12",
+      "brand": "MOES",
+      "model": "Zigbee 1 gang (neutral)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Not listed",
+        "hub": "MOES hub or Zigbee2MQTT",
+        "style": "Glass touch",
+        "extras": "Acts as a Zigbee router"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": false,
+        "open_hub": true
+      },
+      "verdict": "An inexpensive glass touch switch that also extends your Zigbee mesh. Works locally with Home Assistant.",
+      "pros": [
+        "Acts as a Zigbee router and extends the mesh",
+        "Local control through Home Assistant and Zigbee2MQTT",
+        "Tempered glass face"
+      ],
+      "cons": [
+        "Not compatible with SmartThings or Apple Home, per the listing",
+        "Needs a neutral wire",
+        "Touch panel won't suit every room"
+      ]
+    },
+    {
+      "asin": "B08X3JJD3Z",
+      "brand": "MOES",
+      "model": "Zigbee touch switch (no neutral)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Optional",
+        "three_way_text": "App-linked switches",
+        "hub": "Tuya Zigbee hub or Zigbee2MQTT",
+        "style": "Glass touch",
+        "extras": "Backlight on/off"
+      },
+      "features": {
+        "no_neutral": true,
+        "three_way": false,
+        "open_hub": true
+      },
+      "verdict": "A glass touch switch that installs with or without a neutral. Its 3-way is done by linking two smart switches in the app, not by wiring.",
+      "pros": [
+        "Works with or without a neutral wire, with no capacitor needed",
+        "Works with Zigbee2MQTT",
+        "Remembers on/off state after a power cut",
+        "4.2-star rating"
+      ],
+      "cons": [
+        "3-way means buying a second smart switch and linking them in the app",
+        "Needs a Tuya Zigbee hub for app and voice control",
+        "Glass touch style"
+      ]
+    },
+    {
+      "asin": "B0DNHLKWYV",
+      "brand": "SONOFF",
+      "model": "ZBM5-1C-120W",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Optional",
+        "three_way_text": "Not listed",
+        "hub": "SONOFF gateway or Zigbee2MQTT",
+        "style": "Push button",
+        "extras": "eWeLink app"
+      },
+      "features": {
+        "no_neutral": true,
+        "three_way": false,
+        "open_hub": true
+      },
+      "verdict": "A neutral-optional wall switch that works with Home Assistant through Zigbee2MQTT. Reviews are mixed.",
+      "pros": [
+        "Works with or without a neutral wire",
+        "Home Assistant support through Zigbee2MQTT",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "3.5-star rating",
+        "App and voice control need a SONOFF Zigbee gateway",
+        "No 3-way support listed"
+      ]
+    },
+    {
+      "asin": "B0F6T5JCZL",
+      "brand": "Martin Jerry",
+      "model": "RP-ZB-S01",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "home-assistant",
+        "homey"
+      ],
+      "specs": {
+        "neutral": "Not needed",
+        "three_way_text": "No (single pole only)",
+        "hub": "Any Zigbee 3.0 hub",
+        "style": "Rocker paddle",
+        "extras": "Adjustable night light"
+      },
+      "features": {
+        "no_neutral": true,
+        "three_way": false,
+        "open_hub": true
+      },
+      "verdict": "A no-neutral rocker that pairs with standard Zigbee 3.0 hubs such as SmartThings and Hubitat. Single-pole only.",
+      "pros": [
+        "No neutral needed",
+        "Works with SmartThings, Hubitat, and other Zigbee 3.0 hubs",
+        "Supports LED loads down to 5 W",
+        "Matching dimmers and fan controls in the same style"
+      ],
+      "cons": [
+        "Single-pole only, not for 3-way",
+        "3.7-star rating",
+        "The power LED is only adjustable through the SmartLife hub"
+      ]
+    }
   ],
   "avoid": [
-    {"asin": "B0FQC22X6M", "brand": "Youngzuth", "model": "3way Zigbee switch",
-     "flag": "\"3way\" in the title, no 3-way wiring in the listing, 1.5 A rating",
-     "verdict": "The title promises a 3-way no-neutral Zigbee switch. The listing never explains how 3-way works, and its own spec table rates it at 1.5 A.",
-     "reasons": [
-       "\"3way\" leads the title, but none of the bullets mention 3-way wiring or a companion switch.",
-       "The spec table lists a 1.5 A current rating, about 180 W at 120 V. Every other switch here is rated several times higher.",
-       "The bullets are generic (\"multiple state settings\") and don't name a single compatible hub.",
-       "For about the same price, the Martin Jerry and MOES switches above document their wiring and hub support."
-     ]}
-  ]
+    {
+      "asin": "B0FQC22X6M",
+      "brand": "Youngzuth",
+      "model": "3way Zigbee switch",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "flag": "\"3way\" in the title, no 3-way wiring in the listing, 1.5 A rating",
+      "verdict": "The title promises a 3-way no-neutral Zigbee switch. The listing never explains how 3-way works, and its own spec table rates it at 1.5 A.",
+      "reasons": [
+        "\"3way\" leads the title, but none of the bullets mention 3-way wiring or a companion switch.",
+        "The spec table lists a 1.5 A current rating, about 180 W at 120 V. Every other switch here is rated several times higher.",
+        "The bullets are generic (\"multiple state settings\") and don't name a single compatible hub.",
+        "For about the same price, the Martin Jerry and MOES switches above document their wiring and hub support."
+      ]
+    }
+  ],
+  "systems_note": "Brand-hub switches (Aqara, MOES, SONOFF) are shown with the systems their listings name."
 }
