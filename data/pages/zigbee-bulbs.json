@@ -1,0 +1,481 @@
+{
+  "slug": "zigbee-bulbs",
+  "family": "bulbs",
+  "family_title": "Smart bulbs",
+  "noun": "bulb",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Smart Bulbs",
+  "subtitle": "Zigbee bulbs for Hue bridges, Echo hubs, and open Zigbee hubs, ranked.",
+  "intro": "We pulled the Zigbee smart bulbs selling on Amazon and scored them on rating, review volume, and features: full color, brightness, and open Zigbee pairing. Zigbee bulbs also strengthen your Zigbee mesh.",
+  "reviews_ceiling": 8000,
+  "feature_weights": {
+    "color": 0.35,
+    "bright": 0.3,
+    "open_hub": 0.35
+  },
+  "spec_fields": [
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "lumens",
+      "label": "Brightness"
+    },
+    {
+      "key": "shape",
+      "label": "Shape"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "lumens",
+      "label": "Brightness"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DHCJ67XX",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A $11.99 color bulb that pairs with Echo hubs and every open Zigbee platform, and repeats signal."
+    },
+    {
+      "asin": "B078HHWQWG",
+      "label": "Best Budget White",
+      "kind": "budget",
+      "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,861 reviews."
+    },
+    {
+      "asin": "B0FMGP1P6W",
+      "label": "Best for Hue Homes",
+      "kind": "premium",
+      "why": "Philips Hue color in a 4-pack at about $15 a bulb, 4K+ bought last month."
+    },
+    {
+      "asin": "B0FH59TRX1",
+      "label": "Brightest",
+      "kind": "special",
+      "why": "1,100 lumens of color and white that works with Hue, SmartThings, Home Assistant, and Hubitat."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DHCJ67XX",
+      "brand": "THIRDREALITY",
+      "model": "Smart Color Bulb ZL1",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "The Zigbee bulb to buy: cheap color that works with nearly any Zigbee hub and strengthens your mesh.",
+      "pros": [
+        "$11.99 for full color",
+        "Pairs with Echo (4th gen) and other Zigbee 3.0 hubs",
+        "Acts as a Zigbee repeater",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Brightness isn't listed",
+        "Needs a Zigbee hub",
+        "Sold by the brand"
+      ],
+      "name": "THIRDREALITY Smart Color Bulb ZL1,Zigbee hub Required,Compatible with Home Assistant(ZHA&Z2M),SmartThings,Aeotec,Homey,Hubitat or Echo Devices with Built-in Zigbee hub,A19 RGBCW Bulb,800 Lumens",
+      "image": "https://m.media-amazon.com/images/I/61RYtqaKfeL._AC_SL1500_.jpg",
+      "price": 11.99,
+      "rating": 4.4,
+      "reviews_count": 623,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0DHFSDV46",
+      "brand": "THIRDREALITY",
+      "model": "Smart Color Bulb ZL1 (4-pack)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+        "pack": "4 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "Four ZL1 bulbs for about $7.50 each, selling 1K+ a month.",
+      "pros": [
+        "About $7.50 per color bulb",
+        "1K+ bought in the past month",
+        "Zigbee repeaters"
+      ],
+      "cons": [
+        "Brightness isn't listed",
+        "Shares its review count with the single",
+        "Needs a Zigbee hub"
+      ],
+      "name": "THIRDREALITY Zigbee Smart Color Bulb ZL1 4Pack,Compatible with Home Assistant(ZHA&Z2M), SmartThings,Aeotec,Homey,Hubitat or Echo Devices With Built-in Hub,A19 RGBCW Bulb,2700K-6500K Tunable,800 Lumens",
+      "image": "https://m.media-amazon.com/images/I/61X+ACNuJGL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 623,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B078HHWQWG",
+      "brand": "Sengled",
+      "model": "Zigbee bulb (daylight)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "White (daylight)",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Echo with Zigbee, SmartThings, Hubitat, Sengled hub",
+        "pack": "Not stated"
+      },
+      "features": {
+        "color": false,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "A cheap white Zigbee bulb that pairs straight to Echo hubs.",
+      "pros": [
+        "Works with Echo hubs, SmartThings, and Hubitat",
+        "Google voice control through a hub",
+        "3,861 reviews"
+      ],
+      "cons": [
+        "Sold by a reseller, not Sengled",
+        "White only",
+        "Pack size isn't clear in the listing"
+      ],
+      "name": "Sengled Zigbee Smart Light Bulbs, Smart Hub Required, Works with SmartThings and Echo with built-in Hub, Voice Control with Alexa and Google Home, Daylight 60W Equivalent A19 Alexa Light Bulb, 4 Pack",
+      "image": "https://m.media-amazon.com/images/I/71mHEiD4S4L._AC_SL1500_.jpg",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews_count": 3861,
+      "bought": null
+    },
+    {
+      "asin": "B0791ZWZ2Q",
+      "brand": "Sengled",
+      "model": "Zigbee bulb (multi-pack)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "White (daylight)",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Echo with Zigbee, SmartThings, Hubitat, Sengled hub",
+        "pack": "Not stated"
+      },
+      "features": {
+        "color": false,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "The same Sengled white bulb in a larger pack.",
+      "pros": [
+        "Works with Echo hubs and SmartThings",
+        "4.3 stars",
+        "Google voice through a hub"
+      ],
+      "cons": [
+        "Sold by a reseller, not Sengled",
+        "White only",
+        "Pack size isn't clear in the listing"
+      ],
+      "name": "Sengled Zigbee Smart Light Bulbs, Smart Hub Required, Works with SmartThings and Echo with built-in Hub, Voice Control with Alexa and Google Home, Daylight 60W Equivalent A19 Alexa Light Bulb, 8 Pack",
+      "image": "https://m.media-amazon.com/images/I/712Wfr0k-EL._AC_SL1500_.jpg",
+      "price": 22.99,
+      "rating": 4.3,
+      "reviews_count": 3861,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B074K427TZ",
+      "brand": "Sengled",
+      "model": "Zigbee bulb (soft white)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "White (soft white)",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Echo with Zigbee, SmartThings, Hubitat, Sengled hub",
+        "pack": "Not stated"
+      },
+      "features": {
+        "color": false,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "Sengled's soft-white Zigbee bulb, the most-reviewed bulb on this page.",
+      "pros": [
+        "7,443 reviews",
+        "Works with Echo (4th gen), SmartThings, and Hubitat",
+        "Soft white for living spaces"
+      ],
+      "cons": [
+        "Sold by a reseller, not Sengled",
+        "4.0 stars",
+        "One bullet in the listing just says \"Led\""
+      ],
+      "name": "Sengled Zigbee Smart Light Bulbs, Smart Hub Required, Works with SmartThings and Echo with built-in Hub, Voice Control with Alexa and Google Home, Soft White 60W Eqv. A19 Alexa Light Bulb, 8 Pack",
+      "image": "https://m.media-amazon.com/images/I/71751moHg6L._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.0,
+      "reviews_count": 7443,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0FMGP1P6W",
+      "brand": "Philips Hue",
+      "model": "Essential A19 (4-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "hub": "Hue Bridge or Hue app",
+        "pack": "4 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "open_hub": false
+      },
+      "verdict": "Hue's more affordable color line, four bulbs for about $15 each.",
+      "pros": [
+        "Hue app and scene library",
+        "About $15 per color bulb",
+        "4K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Full features need the Hue Bridge",
+        "Brightness isn't listed",
+        "Works best inside the Hue system"
+      ],
+      "name": "Philips Hue Essential Smart LED A19 Bulb, 4-Pack",
+      "image": "https://m.media-amazon.com/images/I/61EOL9hRBtL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.5,
+      "reviews_count": 1050,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0FH59TRX1",
+      "brand": "innr",
+      "model": "White & Color (2-pack)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "1,100 lm",
+        "shape": "A19",
+        "hub": "Hue, SmartThings, Home Assistant, Hubitat",
+        "pack": "2 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": true,
+        "open_hub": true
+      },
+      "verdict": "A bright 1,100 lm color bulb that works with Hue bridges and open Zigbee hubs.",
+      "pros": [
+        "1,100 lumens",
+        "Works with Hue, SmartThings, Home Assistant, and Hubitat",
+        "Two for $29.99"
+      ],
+      "cons": [
+        "Doesn't work with Apple Home, per the listing",
+        "Only 32 reviews",
+        "4.0 stars"
+      ],
+      "name": "innr Smart Light Bulb, White & Color, for Hue* and Zigbee hubs, 2-Pack",
+      "image": "https://m.media-amazon.com/images/I/71x+b-+JHgL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.0,
+      "reviews_count": 32,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DN63SFWL",
+      "brand": "Aqara",
+      "model": "LED Bulb T2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "Color + wide-range white",
+        "lumens": "1,100 lm",
+        "shape": "A19 (E26)",
+        "hub": "Aqara hub (Zigbee) or Thread border router (Matter)",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": true,
+        "open_hub": true
+      },
+      "verdict": "A bright 1,100 lm bulb that runs on Zigbee or Matter over Thread.",
+      "pros": [
+        "Zigbee or Matter over Thread",
+        "1,100 lumens",
+        "16 million colors",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Zigbee mode features need an Aqara hub",
+        "$23.99 for one"
+      ],
+      "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61BfImmeqrL._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 3.9,
+      "reviews_count": 225,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B07ZDHNN5M",
+      "brand": "ERIA",
+      "model": "BR30 color",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "light": "Color + white (2000-6000 K), CRI 90+",
+        "lumens": "800 lm",
+        "shape": "BR30 (recessed)",
+        "hub": "Hue, SmartThings, Echo with Zigbee",
+        "pack": "Not stated"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "open_hub": true
+      },
+      "verdict": "One of the few Zigbee color bulbs in a BR30 shape for recessed cans.",
+      "pros": [
+        "BR30 for recessed lights",
+        "CRI 90+",
+        "Works with Hue, SmartThings, and Echo hubs"
+      ],
+      "cons": [
+        "3.4 stars",
+        "$49.99",
+        "Sold by a reseller"
+      ],
+      "name": "ERIA Smart Light Bulbs, BR30 ZigBee,Colors and White 800LM 65W Equivalent Dimmable CRI 90+ Smart Bulb Works, Hue*, HA, Smart Things, Alexa, Google Assistant (2-Pack)",
+      "image": "https://m.media-amazon.com/images/I/71XmTFfBEeL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.4,
+      "reviews_count": 59,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Smart bulbs or smart switches?",
+      "a": "Bulbs give you color and tunable white, and they work in lamps. Switches are better for fixtures with several bulbs and keep the wall switch working for guests. Don't put smart bulbs on an ordinary dimmer, and keep the wall switch on, or the bulbs lose power and go offline."
+    },
+    {
+      "q": "What do lumens and color temperature mean?",
+      "a": "Lumens measure brightness: about 800 lm matches an old 60 W bulb and 1,100 lm a 75 W bulb. Color temperature in kelvin runs from warm (2,700 K, cozy) to cool (5,000 K and up, daylight)."
+    },
+    {
+      "q": "Do bulbs need a hub?",
+      "a": "Wi-Fi and Matter-over-Wi-Fi bulbs connect to your router directly. Zigbee bulbs need a Zigbee hub, such as a Hue Bridge or an Echo with Zigbee built in. Matter-over-Thread bulbs need a Thread border router."
+    }
+  ]
+}

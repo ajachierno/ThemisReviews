@@ -1,0 +1,500 @@
+{
+  "slug": "wifi-doorbells",
+  "family": "doorbells",
+  "family_title": "Video doorbells",
+  "noun": "doorbell",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Video Doorbells",
+  "subtitle": "Wi-Fi video doorbells, wired and battery, ranked from live Amazon data.",
+  "intro": "We pulled the best-selling video doorbells on Amazon and scored them on rating, review volume, and features: local storage, wired or battery power, and resolution.",
+  "reviews_ceiling": 56000,
+  "feature_weights": {
+    "local_storage": 0.35,
+    "high_res": 0.35,
+    "chime": 0.3
+  },
+  "systems_note": "Ring, Blink, and Reolink also have official Home Assistant integrations.",
+  "spec_fields": [
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "storage",
+      "label": "Storage"
+    },
+    {
+      "key": "chime",
+      "label": "Chime included",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "storage",
+      "label": "Storage"
+    },
+    {
+      "key": "chime",
+      "label": "Chime",
+      "type": "bool"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D8MKQ5RC",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "2K, wired or battery, a chime in the box, and microSD storage with no subscription needed."
+    },
+    {
+      "asin": "B0G2D1R15Q",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Ring's 2K battery doorbell for $39.99, with 10K+ bought last month."
+    },
+    {
+      "asin": "B0CD7NT4Y9",
+      "label": "Best Package View",
+      "kind": "special",
+      "why": "Two cameras, one aimed down at packages, with 8 GB local storage."
+    },
+    {
+      "asin": "B0B7S1HMPC",
+      "label": "Best Wired (PoE)",
+      "kind": "premium",
+      "why": "Power over Ethernet, local microSD storage, and a chime, with no Wi-Fi to drop."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D8MKQ5RC",
+      "brand": "Tapo",
+      "model": "D225",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "2K+",
+        "power": "Wired or battery",
+        "storage": "microSD or cloud",
+        "extras": "No subscription required"
+      },
+      "features": {
+        "local_storage": true,
+        "high_res": true,
+        "chime": true
+      },
+      "verdict": "The most complete doorbell for the money: wired or battery, local storage, and a chime included.",
+      "pros": [
+        "Wired or battery",
+        "Chime included",
+        "microSD storage, no subscription required",
+        "4.4 stars, sold by Amazon"
+      ],
+      "cons": [
+        "$99.99",
+        "Some smart detection needs Tapo Care",
+        "2.4 GHz Wi-Fi"
+      ],
+      "name": "Tapo 2K+ Wired or Battery Powered Smart Video Doorbell with Chime, D225",
+      "image": "https://m.media-amazon.com/images/I/61xWooax3rL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 2301,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0G2D1R15Q",
+      "brand": "Ring",
+      "model": "Battery Doorbell 2K (newest)",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Battery",
+        "storage": "Cloud (Ring subscription)",
+        "extras": "6x zoom"
+      },
+      "features": {
+        "local_storage": false,
+        "high_res": true,
+        "chime": false
+      },
+      "verdict": "Ring's newest battery doorbell at a low price, for Ring and Alexa homes.",
+      "pros": [
+        "$39.99",
+        "2K with 6x zoom",
+        "10K+ bought in the past month",
+        "Works with Alexa"
+      ],
+      "cons": [
+        "Recordings need a Ring subscription",
+        "Battery needs recharging",
+        "4.2 stars"
+      ],
+      "name": "Ring Battery Doorbell 2K (newest model) Retinal 2K with wide-angle video, up to 6x Enhanced Zoom, Two-Way Talk, and Built-In Battery, Matte Mocha",
+      "image": "https://m.media-amazon.com/images/I/71RqdVcRgDL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 6827,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0FJJ66YZ1",
+      "brand": "Ring",
+      "model": "Wired Doorbell 2K (newest)",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Wired",
+        "storage": "Cloud (Ring subscription)",
+        "extras": "6x zoom"
+      },
+      "features": {
+        "local_storage": false,
+        "high_res": true,
+        "chime": false
+      },
+      "verdict": "The wired version of Ring's 2K doorbell, so no recharging.",
+      "pros": [
+        "Wired, no battery to charge",
+        "2K",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Recordings need a Ring subscription",
+        "Needs doorbell wiring",
+        "4.2 stars"
+      ],
+      "name": "Ring Wired Doorbell 2K (newest model), Retinal 2K with wide-angle video, up to 6x Enhanced Zoom, and Two-Way Talk, Speckled Gray",
+      "image": "https://m.media-amazon.com/images/I/71Q-hpEwnfL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 2605,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0F151GFYR",
+      "brand": "Ring",
+      "model": "Wired Doorbell 4K Pro",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "4K",
+        "power": "Wired",
+        "storage": "Cloud (Ring subscription)",
+        "extras": "10x zoom"
+      },
+      "features": {
+        "local_storage": false,
+        "high_res": true,
+        "chime": false
+      },
+      "verdict": "Ring's top wired doorbell, with 4K and 10x zoom.",
+      "pros": [
+        "4K with 10x zoom",
+        "10K+ bought in the past month",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$149.99",
+        "Recordings need a Ring subscription",
+        "Needs doorbell wiring"
+      ],
+      "name": "Ring Wired Doorbell 4K Pro (Newest Model), Retinal 4K with wide-angle video, 10x Enhanced Zoom, and Night Vision, Deep Silver",
+      "image": "https://m.media-amazon.com/images/I/819MRg02R2L._SL1500_.jpg",
+      "price": 149.99,
+      "rating": 4.3,
+      "reviews_count": 1726,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0G62LKVGT",
+      "brand": "Blink",
+      "model": "Wired Doorbell 2K+",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Wired",
+        "storage": "Cloud subscription (or Sync Module)",
+        "extras": "Works with your existing chime"
+      },
+      "features": {
+        "local_storage": false,
+        "high_res": true,
+        "chime": true
+      },
+      "verdict": "The cheapest wired 2K doorbell, for Alexa homes.",
+      "pros": [
+        "$21.99",
+        "2K head-to-toe video",
+        "Rings your existing chime",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Recording needs a subscription or a Sync Module",
+        "4.1 stars",
+        "Needs doorbell wiring"
+      ],
+      "name": "Blink Wired Doorbell 2K+ (newest model) — Head-to-Toe 2K video doorbell, continuous hardwired power, pair with Alexa or Blink Chime (sold separately) required for in-home alerts",
+      "image": "https://m.media-amazon.com/images/I/616J8F-xXEL._SL1500_.jpg",
+      "price": 21.99,
+      "rating": 4.1,
+      "reviews_count": 1061,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0C683F516",
+      "brand": "Arlo",
+      "model": "Video Doorbell 2K (2nd gen)",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Wired or battery",
+        "storage": "Cloud",
+        "extras": "Apple Home support"
+      },
+      "features": {
+        "local_storage": false,
+        "high_res": true,
+        "chime": false
+      },
+      "verdict": "A wired-or-battery 2K doorbell that works with Apple Home, Alexa, and Google.",
+      "pros": [
+        "Wired or battery",
+        "Apple Home, Alexa, and Google",
+        "$28.50 at capture time"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Advanced features need an Arlo subscription",
+        "No local storage listed"
+      ],
+      "name": "Arlo Video Doorbell 2K (2nd Gen) Wireless or Wired - 1-Cam",
+      "image": "https://m.media-amazon.com/images/I/61uZs-NyAbL._AC_SL1500_.jpg",
+      "price": 28.5,
+      "rating": 4.0,
+      "reviews_count": 1763,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0CD7NT4Y9",
+      "brand": "eufy",
+      "model": "Video Doorbell E340",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Battery or wired",
+        "storage": "8 GB local",
+        "extras": "Dual camera for packages"
+      },
+      "features": {
+        "local_storage": true,
+        "high_res": true,
+        "chime": true
+      },
+      "verdict": "Two cameras, one looking down at packages, with local storage and no subscription.",
+      "pros": [
+        "Second camera watches packages",
+        "8 GB local storage",
+        "Chime included",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "4.0 stars",
+        "$119.99",
+        "Sold by the brand"
+      ],
+      "name": "eufy Security Video Doorbell E340, Dual Cameras, 2K FHD",
+      "image": "https://m.media-amazon.com/images/I/715asYJ3fzL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.0,
+      "reviews_count": 4477,
+      "bought": "5K+ bought in past month"
+    },
+    {
+      "asin": "B0B7S1HMPC",
+      "brand": "Reolink",
+      "model": "Video Doorbell PoE V2",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "PoE (Ethernet)",
+        "storage": "microSD, local",
+        "extras": "Chime included"
+      },
+      "features": {
+        "local_storage": true,
+        "high_res": true,
+        "chime": true
+      },
+      "verdict": "A wired Ethernet doorbell with local storage, for homes that want no Wi-Fi and no cloud.",
+      "pros": [
+        "Power over Ethernet, no Wi-Fi to drop",
+        "Local microSD storage",
+        "Chime included",
+        "Official Home Assistant integration"
+      ],
+      "cons": [
+        "Needs an Ethernet run to the door",
+        "Voice assistants aren't named in the bullets",
+        "$119.99"
+      ],
+      "name": "REOLINK Video Doorbell PoE 2K Wired Outdoor Security Camera with Chime V2",
+      "image": "https://m.media-amazon.com/images/I/51fCOMfOt4L._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.3,
+      "reviews_count": 1535,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0F6CJ93GS",
+      "brand": "Aqara",
+      "model": "Doorbell Camera G410",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "power": "Not stated in bullets",
+        "storage": "microSD, HomeKit Secure Video, cloud",
+        "extras": "Chime included"
+      },
+      "features": {
+        "local_storage": true,
+        "high_res": true,
+        "chime": true
+      },
+      "verdict": "A HomeKit Secure Video doorbell with a chime and local storage.",
+      "pros": [
+        "HomeKit Secure Video",
+        "Works with Alexa, Google, and Home Assistant",
+        "Chime included"
+      ],
+      "cons": [
+        "3.9 stars",
+        "$133.99",
+        "HomeKit Secure Video needs iCloud+"
+      ],
+      "name": "Aqara Smart Doorbell Camera G410 with Chime, HomeKit Secure Video, Black",
+      "image": "https://m.media-amazon.com/images/I/61cioHPOb6L._AC_SL1500_.jpg",
+      "price": 133.99,
+      "rating": 3.9,
+      "reviews_count": 1475,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0CZLFJKYB",
+      "brand": "BOIFUN",
+      "model": "Wireless video doorbell",
+      "systems": [],
+      "systems_label": "BOIFUN app",
+      "specs": {
+        "resolution": "2K",
+        "power": "Battery",
+        "storage": "8 GB local, no subscription",
+        "extras": "Local storage"
+      },
+      "features": {
+        "local_storage": true,
+        "high_res": true,
+        "chime": false
+      },
+      "verdict": "A no-subscription battery doorbell with 8 GB of local storage.",
+      "pros": [
+        "No subscription required",
+        "8 GB local storage",
+        "3K+ bought in the past month"
+      ],
+      "cons": [
+        "Voice assistants aren't named",
+        "Sold by the brand",
+        "4.3 stars"
+      ],
+      "name": "BOIFUN Video Doorbell Camera Wireless – No Subscription Required, 2K HD",
+      "image": "https://m.media-amazon.com/images/I/71lqF4S+o7L._AC_SL1500_.jpg",
+      "price": 45.99,
+      "rating": 4.3,
+      "reviews_count": 3476,
+      "bought": "3K+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FX35FCC7",
+      "brand": "Orbitell",
+      "model": "M52",
+      "systems": [],
+      "systems_label": "Unnamed app",
+      "flag": "Cloud-only storage, power source never stated",
+      "verdict": "It's $9.99, but the listing only describes cloud storage, saves key features for paying cloud subscribers, and never says how the doorbell is powered.",
+      "reasons": [
+        "Storage is described only as encrypted cloud storage; no local option is mentioned.",
+        "Pre-capture recording is for cloud subscribers, per the listing, and the subscription price isn't given.",
+        "\"Wireless\" is in the title, but the listing never says whether it runs on a battery or needs wiring.",
+        "The app isn't named anywhere in the listing."
+      ],
+      "name": "Orbitell 1080p Wireless Wi-Fi Video Doorbell Camera with Two Way Audio, Night Vision, Cloud Storage, Smart AI Motion Detection, Support 2.4GHz Wi-Fi only",
+      "image": "https://m.media-amazon.com/images/I/71R2w3k1c8L._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 3.9,
+      "reviews_count": 3058,
+      "bought": "10K+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Wired or battery doorbell?",
+      "a": "Wired doorbells use your existing doorbell wiring for constant power and faster response, and they ring your existing chime. Battery doorbells install anywhere but need recharging every few months."
+    },
+    {
+      "q": "Do I need a subscription?",
+      "a": "Many cameras store clips in the cloud only with a monthly plan. Others record to a microSD card or a base station for free. Check what the free tier includes before you buy several."
+    }
+  ]
+}

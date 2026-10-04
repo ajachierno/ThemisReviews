@@ -1,0 +1,175 @@
+{
+  "feature_weights": {
+    "cable": 0.4,
+    "multi_protocol": 0.3,
+    "siren": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "also",
+      "label": "Also speaks"
+    },
+    {
+      "key": "power",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "also",
+      "label": "Also speaks"
+    },
+    {
+      "key": "power",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FPG9SGLJ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Wi-Fi, Bluetooth, Zigbee, or Matter, with a sensing cable and a 3-year battery."
+    },
+    {
+      "asin": "B0H3QG45XL",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$27.99 for a slim triple-pad sensor that slides under appliances, rated 4.7 stars."
+    },
+    {
+      "asin": "B0GJCYV2LD",
+      "label": "Best Kit",
+      "kind": "special",
+      "why": "Three sensors and a controller with a 100 dB alarm, all over Matter Wi-Fi."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FPG9SGLJ",
+      "brand": "Shelly",
+      "model": "Flood Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "Bluetooth, Zigbee",
+        "power": "Up to 3 years",
+        "extras": "Leak sensor cable"
+      },
+      "features": {
+        "cable": true,
+        "multi_protocol": true,
+        "siren": false
+      },
+      "verdict": "The most flexible leak sensor here: it speaks Wi-Fi, Bluetooth, Zigbee, and Matter, and comes with a sensing cable.",
+      "pros": [
+        "Works over Wi-Fi, Bluetooth, Zigbee, or Matter",
+        "Sensing cable included",
+        "Up to 3-year battery",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "4.2 stars",
+        "No built-in siren listed",
+        "$39.99"
+      ]
+    },
+    {
+      "asin": "B0H3QG45XL",
+      "brand": "Shelly",
+      "model": "Flood S Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "Bluetooth, Zigbee",
+        "power": "Up to 3 years",
+        "extras": "Slim triple-pad design"
+      },
+      "features": {
+        "cable": false,
+        "multi_protocol": true,
+        "siren": false
+      },
+      "verdict": "A slim, cheaper Shelly sensor that slides under washers and dishwashers.",
+      "pros": [
+        "Low profile, fits under appliances",
+        "Wi-Fi, Bluetooth, Zigbee, or Matter",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 18 reviews",
+        "No cable",
+        "No built-in siren listed"
+      ]
+    },
+    {
+      "asin": "B0GJCYV2LD",
+      "brand": "THIRDREALITY",
+      "model": "KM1 (Matter over Wi-Fi)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "None listed",
+        "power": "Sensors up to 3 years; controller on USB-C",
+        "extras": "Controller with 100 dB alarm, 3 sensors"
+      },
+      "features": {
+        "cable": false,
+        "multi_protocol": false,
+        "siren": true
+      },
+      "verdict": "A Matter kit: a powered controller with a 100 dB alarm and three battery sensors.",
+      "pros": [
+        "Controller sounds a 100 dB alarm",
+        "Three sensors included, up to ten supported",
+        "Matter certified, works with Apple Home, Alexa, and Home Assistant"
+      ],
+      "cons": [
+        "3.2 stars",
+        "The controller needs USB-C power",
+        "Only 34 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

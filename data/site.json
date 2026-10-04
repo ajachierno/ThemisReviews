@@ -66,14 +66,22 @@
           "ready": true
         },
         {
+          "slug": "z-wave-leak-sensors",
+          "title": "Z-Wave leak sensors",
+          "family": "leak-sensors",
+          "ready": true
+        },
+        {
           "slug": "z-wave-door-locks",
           "title": "Z-Wave smart locks",
           "family": "locks",
           "ready": true
         },
         {
-          "slug": "z-wave-leak-sensors",
-          "title": "Z-Wave leak sensors"
+          "slug": "z-wave-thermostats",
+          "title": "Z-Wave thermostats",
+          "family": "thermostats",
+          "ready": true
         },
         {
           "slug": "z-wave-controllers",
@@ -127,6 +135,12 @@
           "ready": true
         },
         {
+          "slug": "zigbee-bulbs",
+          "title": "Zigbee bulbs",
+          "family": "bulbs",
+          "ready": true
+        },
+        {
           "slug": "zigbee-door-sensors",
           "title": "Zigbee door and window sensors",
           "family": "door-sensors",
@@ -139,14 +153,16 @@
           "ready": true
         },
         {
+          "slug": "zigbee-leak-sensors",
+          "title": "Zigbee leak sensors",
+          "family": "leak-sensors",
+          "ready": true
+        },
+        {
           "slug": "zigbee-locks",
           "title": "Zigbee smart locks",
           "family": "locks",
           "ready": true
-        },
-        {
-          "slug": "zigbee-bulbs",
-          "title": "Zigbee bulbs"
         },
         {
           "slug": "zigbee-temperature-sensors",
@@ -207,6 +223,12 @@
           "ready": true
         },
         {
+          "slug": "wifi-bulbs",
+          "title": "Wi-Fi bulbs",
+          "family": "bulbs",
+          "ready": true
+        },
+        {
           "slug": "wifi-door-sensors",
           "title": "Wi-Fi door and window sensors",
           "family": "door-sensors",
@@ -219,26 +241,40 @@
           "ready": true
         },
         {
+          "slug": "wifi-leak-sensors",
+          "title": "Wi-Fi leak sensors",
+          "family": "leak-sensors",
+          "ready": true
+        },
+        {
           "slug": "wifi-locks",
           "title": "Wi-Fi smart locks",
           "family": "locks",
           "ready": true
         },
         {
-          "slug": "wifi-cameras",
-          "title": "Wi-Fi security cameras"
+          "slug": "wifi-thermostats",
+          "title": "Wi-Fi thermostats",
+          "family": "thermostats",
+          "ready": true
+        },
+        {
+          "slug": "wifi-indoor-cameras",
+          "title": "Wi-Fi indoor cameras",
+          "family": "indoor-cameras",
+          "ready": true
+        },
+        {
+          "slug": "wifi-outdoor-cameras",
+          "title": "Wi-Fi outdoor cameras",
+          "family": "outdoor-cameras",
+          "ready": true
         },
         {
           "slug": "wifi-doorbells",
-          "title": "Wi-Fi video doorbells"
-        },
-        {
-          "slug": "wifi-bulbs",
-          "title": "Wi-Fi bulbs"
-        },
-        {
-          "slug": "wifi-thermostats",
-          "title": "Wi-Fi thermostats"
+          "title": "Wi-Fi video doorbells",
+          "family": "doorbells",
+          "ready": true
         },
         {
           "slug": "wifi-garage-openers",
@@ -401,6 +437,12 @@
           "ready": true
         },
         {
+          "slug": "matter-bulbs",
+          "title": "Matter bulbs",
+          "family": "bulbs",
+          "ready": true
+        },
+        {
           "slug": "matter-door-sensors",
           "title": "Matter door and window sensors",
           "family": "door-sensors",
@@ -413,14 +455,22 @@
           "ready": true
         },
         {
+          "slug": "matter-leak-sensors",
+          "title": "Matter leak sensors",
+          "family": "leak-sensors",
+          "ready": true
+        },
+        {
           "slug": "matter-locks",
           "title": "Matter smart locks",
           "family": "locks",
           "ready": true
         },
         {
-          "slug": "matter-bulbs",
-          "title": "Matter bulbs"
+          "slug": "matter-thermostats",
+          "title": "Matter thermostats",
+          "family": "thermostats",
+          "ready": true
         },
         {
           "slug": "matter-controllers",

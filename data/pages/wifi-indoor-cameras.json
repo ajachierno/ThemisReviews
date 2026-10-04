@@ -1,0 +1,500 @@
+{
+  "slug": "wifi-indoor-cameras",
+  "family": "indoor-cameras",
+  "family_title": "Indoor cameras",
+  "noun": "camera",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Indoor Wi-Fi Security Cameras",
+  "subtitle": "Indoor cameras for home security, pets, and babies, ranked from live Amazon data.",
+  "intro": "We pulled the best-selling indoor Wi-Fi cameras on Amazon and scored them on rating, review volume, and features: pan and tilt, local storage, and resolution.",
+  "reviews_ceiling": 45000,
+  "feature_weights": {
+    "pan_tilt": 0.3,
+    "local_storage": 0.35,
+    "high_res": 0.35
+  },
+  "systems_note": "Ring, Blink, and Reolink cameras also have official Home Assistant integrations.",
+  "spec_fields": [
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "pan_tilt",
+      "label": "Pan and tilt",
+      "type": "bool"
+    },
+    {
+      "key": "storage",
+      "label": "Storage"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "pan_tilt",
+      "label": "Pan/tilt",
+      "type": "bool"
+    },
+    {
+      "key": "storage",
+      "label": "Storage"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D7XPXCSL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Two 2K pan-and-tilt cameras with microSD recording for $49.99, 7K+ bought last month."
+    },
+    {
+      "asin": "B0866S3D82",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A 1080p camera with microSD storage for $17.98 and 28,731 reviews."
+    },
+    {
+      "asin": "B0B6GLQJMV",
+      "label": "Best for Alexa and Ring",
+      "kind": "special",
+      "why": "46,261 reviews at 4.7 stars, and it fits straight into a Ring setup."
+    },
+    {
+      "asin": "B0DJVGZQW7",
+      "label": "Best No Subscription",
+      "kind": "premium",
+      "why": "4K with local storage, no subscription, and Apple HomeKit support."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D7XPXCSL",
+      "brand": "Tapo",
+      "model": "C211 (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "storage": "microSD or cloud",
+        "power": "Wired",
+        "pack": "2 cameras"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": true
+      },
+      "verdict": "The best value indoor camera: two 2K pan-and-tilt cameras with free local recording.",
+      "pros": [
+        "2K with pan and tilt",
+        "microSD recording, no subscription needed",
+        "22,942 reviews, 7K+ bought in the past month",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Wired only",
+        "2.4 GHz Wi-Fi",
+        "Smart detection features may need Tapo Care"
+      ],
+      "name": "Tapo 2K Pan Tilt Security Camera for Baby Monitor, Dog Camera,C211(2-Pack)",
+      "image": "https://m.media-amazon.com/images/I/714gDRgCLmL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.5,
+      "reviews_count": 22942,
+      "bought": "7K+ bought in past month"
+    },
+    {
+      "asin": "B0866S3D82",
+      "brand": "Tapo",
+      "model": "C100",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "1080p",
+        "storage": "microSD or cloud",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": false,
+        "local_storage": true,
+        "high_res": false
+      },
+      "verdict": "The cheapest good indoor camera, with local recording.",
+      "pros": [
+        "$17.98",
+        "microSD recording",
+        "28,731 reviews, 10K+ bought in the past month"
+      ],
+      "cons": [
+        "1080p",
+        "Fixed view",
+        "Wired only"
+      ],
+      "name": "Tapo 1080P Indoor Security Camera, Baby Monitor, Dog Camera, Wired, C100",
+      "image": "https://m.media-amazon.com/images/I/719LWqwDgVL._AC_SL1500_.jpg",
+      "price": 17.98,
+      "rating": 4.4,
+      "reviews_count": 28731,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0B6GLQJMV",
+      "brand": "Ring",
+      "model": "Indoor Cam (newest)",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "1080p",
+        "storage": "Cloud (Ring subscription)",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": false,
+        "local_storage": false,
+        "high_res": false
+      },
+      "verdict": "The most-reviewed indoor camera, and the natural pick for Ring and Alexa homes.",
+      "pros": [
+        "4.7 stars from 46,261 reviews",
+        "Works with Alexa and Ring Alarm",
+        "Privacy cover",
+        "10K+ bought in the past month"
+      ],
+      "cons": [
+        "Recording history needs a Ring subscription",
+        "1080p",
+        "No local storage"
+      ],
+      "name": "Ring Indoor Cam (newest model) — Home or business security in 1080p HD video, White",
+      "image": "https://m.media-amazon.com/images/I/61qoVmEzVLL._SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews_count": 46261,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0BWWZXWPL",
+      "brand": "Blink",
+      "model": "Mini 2",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "1080p",
+        "storage": "Cloud subscription or local with Sync Module",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": false,
+        "local_storage": false,
+        "high_res": false
+      },
+      "verdict": "A tiny, cheap Alexa-friendly camera with color night view.",
+      "pros": [
+        "$9.99 at capture time",
+        "Color night view",
+        "11,943 reviews"
+      ],
+      "cons": [
+        "Recording needs a subscription or extra Sync Module storage",
+        "1080p",
+        "Seller not shown at capture time"
+      ],
+      "name": "Blink Mini 2 — Home Security & Pet Camera with HD video, color night view, motion detection, two-way audio, and built-in spotlight — 1 camera (White)",
+      "image": "https://m.media-amazon.com/images/I/611ygjiMZNL._SL1000_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 11943,
+      "bought": null
+    },
+    {
+      "asin": "B0BXMSS8Z7",
+      "brand": "Kasa",
+      "model": "EC71",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "1080p",
+        "storage": "microSD or cloud",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": false
+      },
+      "verdict": "A pan-and-tilt camera with microSD recording, popular as a baby and pet monitor.",
+      "pros": [
+        "Pan and tilt",
+        "microSD recording",
+        "34,197 reviews"
+      ],
+      "cons": [
+        "1080p",
+        "Wired only",
+        "The 2-pack Tapo C211 is better value"
+      ],
+      "name": "Kasa 1080p Indoor Pan/Tilt Wired Security Camera, Baby & Pet Monitor, EC71",
+      "image": "https://m.media-amazon.com/images/I/61GrnhJtS7L._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 34197,
+      "bought": "5K+ bought in past month"
+    },
+    {
+      "asin": "B0DJVGZQW7",
+      "brand": "eufy",
+      "model": "Indoor Cam E30 (4K)",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "resolution": "4K",
+        "storage": "microSD, no subscription",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": true
+      },
+      "verdict": "4K with pan, local storage, no subscription, and Apple HomeKit support.",
+      "pros": [
+        "4K resolution",
+        "No subscription required",
+        "Works with Apple HomeKit, Alexa, and Google",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "$59.99",
+        "Sold by the brand",
+        "4.4 stars"
+      ],
+      "name": "eufy Security 4K Indoor Camera E30, No Subscription, Work as Pet Camera",
+      "image": "https://m.media-amazon.com/images/I/71bfWEAFtnL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews_count": 2486,
+      "bought": "5K+ bought in past month"
+    },
+    {
+      "asin": "B07X81M2D2",
+      "brand": "Reolink",
+      "model": "E1 (4MP)",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "resolution": "2K (4MP)",
+        "storage": "microSD, local",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": true
+      },
+      "verdict": "The camera for local-control fans: ONVIF and RTSP streams, local storage, and Home Assistant support.",
+      "pros": [
+        "ONVIF and RTSP for NVRs and Home Assistant",
+        "Local microSD storage",
+        "Pan with privacy mode",
+        "Wi-Fi 6"
+      ],
+      "cons": [
+        "4.2 stars",
+        "No voice assistants named in the bullets",
+        "Sold by the brand"
+      ],
+      "name": "REOLINK 4MP 2K Indoor Camera E1, Plug-in WiFi 6 Security Camera",
+      "image": "https://m.media-amazon.com/images/I/71unbRC9kXL._AC_SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.2,
+      "reviews_count": 18766,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0F5KGHSHF",
+      "brand": "Tapo",
+      "model": "C260 (4K)",
+      "systems": [],
+      "systems_label": "Tapo app (no assistants listed)",
+      "specs": {
+        "resolution": "4K",
+        "storage": "microSD or cloud",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": true
+      },
+      "verdict": "Tapo's 4K pan-and-tilt camera, rated 4.6 stars.",
+      "pros": [
+        "4K with pan and tilt",
+        "microSD recording",
+        "4.6 stars, sold by Amazon"
+      ],
+      "cons": [
+        "The listing doesn't name voice assistants",
+        "Only 675 reviews",
+        "$59.99"
+      ],
+      "name": "Tapo 4K Indoor Pan/Tilt Wired Security Camera, Baby Monitor, C260",
+      "image": "https://m.media-amazon.com/images/I/61aCVNHsfCL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.6,
+      "reviews_count": 675,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0CCHQ38D2",
+      "brand": "Aqara",
+      "model": "Camera E1",
+      "systems": [
+        "apple-home",
+        "alexa"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "storage": "microSD or HomeKit Secure Video",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": true,
+        "high_res": true
+      },
+      "verdict": "A 2K pan-and-tilt camera built for Apple's HomeKit Secure Video.",
+      "pros": [
+        "HomeKit Secure Video support",
+        "Pan, tilt, and privacy mode",
+        "Local microSD storage"
+      ],
+      "cons": [
+        "Sold by a reseller at capture time",
+        "4.2 stars",
+        "HomeKit Secure Video needs iCloud+"
+      ],
+      "name": "Aqara 2K Indoor Security Camera E1, HomeKit Secure Video Indoor Camera",
+      "image": "https://m.media-amazon.com/images/I/6134T2Cs0hL._AC_SL1500_.jpg",
+      "price": 65.0,
+      "rating": 4.2,
+      "reviews_count": 1814,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0B28H2DFZ",
+      "brand": "aosu",
+      "model": "2K indoor camera",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "resolution": "2K",
+        "storage": "Not listed",
+        "power": "Wired",
+        "pack": "1 camera"
+      },
+      "features": {
+        "pan_tilt": true,
+        "local_storage": false,
+        "high_res": true
+      },
+      "verdict": "A cheap 2K pan-and-tilt baby and pet monitor that works with Alexa.",
+      "pros": [
+        "2K with tilt",
+        "$27.99",
+        "11,652 reviews"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "Storage options aren't in the bullets",
+        "Sold by the brand"
+      ],
+      "name": "aosu 2K Indoor Camera,Baby Monitor for Home Security with 2.4GHz WiFi only",
+      "image": "https://m.media-amazon.com/images/I/61YCSgKYskL._AC_SL1500_.jpg",
+      "price": 27.99,
+      "rating": 4.4,
+      "reviews_count": 11652,
+      "bought": "2K+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CTYB76JF",
+      "brand": "Funstorm",
+      "model": "B11 \"4K\" mini cam",
+      "systems": [],
+      "systems_label": "Unnamed app",
+      "flag": "4K and 100-day battery claims, unnamed app, cloud is a trial",
+      "verdict": "It promises 4K and 100 days on a battery for $29.98, but never names its app and offers only a cloud storage trial.",
+      "reasons": [
+        "The listing never names the app you'd install to view the camera.",
+        "The \"free cloud storage\" is described as a trial.",
+        "It claims 4K and up to 100 days of battery without any sensor or bitrate details to back it up.",
+        "The power adapter isn't included, per the listing."
+      ],
+      "name": "Funstorm 2025 Upgraded Security Camera, 4K HD Mini Nanny Cam for Home with Night Vision, WiFi Indoor Camera, 100 Days Long Battery Life, Motion Detection, Remote Viewing, Wireless Surveillance Cam",
+      "image": "https://m.media-amazon.com/images/I/71kRs+prcvL._AC_SL1500_.jpg",
+      "price": 29.98,
+      "rating": 4.2,
+      "reviews_count": 3217,
+      "bought": "3K+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Do I need a subscription?",
+      "a": "Many cameras store clips in the cloud only with a monthly plan. Others record to a microSD card or a base station for free. Check what the free tier includes before you buy several."
+    },
+    {
+      "q": "Battery or wired?",
+      "a": "Battery cameras go anywhere but sleep between events, so they can miss the first second of motion and need recharging. Wired cameras record continuously and react faster but need an outlet nearby."
+    },
+    {
+      "q": "2.4 GHz or 5 GHz Wi-Fi?",
+      "a": "Most cameras use 2.4 GHz, which reaches farther through walls. Some newer ones support 5 GHz for faster streaming close to the router."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "slug": "z-wave-thermostats",
+  "family": "thermostats",
+  "family_title": "Thermostats",
+  "noun": "thermostat",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Thermostats",
+  "subtitle": "Every Z-Wave thermostat we found on Amazon, ranked.",
+  "intro": "Z-Wave thermostats are rare now; most makers moved to Wi-Fi. We scored the ones on Amazon on rating, review volume, and features. Two are built mainly for security panels.",
+  "reviews_ceiling": 800,
+  "feature_weights": {
+    "humidity": 0.5,
+    "general_hub": 0.5
+  },
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "made_for",
+      "label": "Made for"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "c_wire",
+      "label": "C-wire"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "made_for",
+      "label": "Made for"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "c_wire",
+      "label": "C-wire"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07HFL7R44",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Honeywell's T6 Pro Z-Wave, with 725 reviews and wide support across Z-Wave hubs."
+    },
+    {
+      "asin": "B08VDT7P77",
+      "label": "Best for Security Panels",
+      "kind": "special",
+      "why": "A 700 Series thermostat built for 2GIG GC2, GC3, and GC2e alarm panels."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07HFL7R44",
+      "brand": "Honeywell",
+      "model": "T6 Pro Z-Wave (TH6320ZW2003)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "made_for": "Z-Wave hubs and security systems",
+        "extras": "Programmable",
+        "c_wire": "Not stated in bullets"
+      },
+      "features": {
+        "humidity": false,
+        "general_hub": true
+      },
+      "verdict": "The standard Z-Wave thermostat, widely used with Z-Wave hubs and alarm systems.",
+      "pros": [
+        "725 reviews at 4.2 stars",
+        "Works with most Z-Wave controllers",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "$152.50 from a third-party seller",
+        "Thin listing",
+        "No remote sensors"
+      ],
+      "name": "Honeywell TH6320ZW2003 T6 Pro Series Z-Wave Stat Thermostat &, Smart Home",
+      "image": "https://m.media-amazon.com/images/I/511VWtlGQQL._AC_SL1014_.jpg",
+      "price": 152.5,
+      "rating": 4.2,
+      "reviews_count": 725,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B08VDT7P77",
+      "brand": "2GIG",
+      "model": "STZ1-345",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "made_for": "2GIG GC2, GC3, GC2e security panels",
+        "extras": "None listed",
+        "c_wire": "Listed"
+      },
+      "features": {
+        "humidity": false,
+        "general_hub": false
+      },
+      "verdict": "A 700 Series thermostat designed for 2GIG alarm panels.",
+      "pros": [
+        "700 Series chip",
+        "Built for 2GIG GC2, GC3, and GC2e panels",
+        "$89.99"
+      ],
+      "cons": [
+        "3.8 stars from 30 reviews",
+        "Made mainly for security panels",
+        "Sold by a reseller"
+      ],
+      "name": "2GIG STZ1-345 Z-Wave 700 Thermostat for Security Panels GC2, GC3, GC2e",
+      "image": "https://m.media-amazon.com/images/I/51KOm6DkrjL._AC_SL1000_.jpg",
+      "price": 89.99,
+      "rating": 3.8,
+      "reviews_count": 30,
+      "bought": null
+    },
+    {
+      "asin": "B0BDGP3NFR",
+      "brand": "2GIG",
+      "model": "STZ-1",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "made_for": "Z-Wave hubs and 2GIG panels",
+        "extras": "Humidity sensing and control",
+        "c_wire": "Not stated in bullets"
+      },
+      "features": {
+        "humidity": true,
+        "general_hub": true
+      },
+      "verdict": "A programmable Z-Wave thermostat with humidity sensing. Very few reviews.",
+      "pros": [
+        "Humidity sensing and control",
+        "Programmable",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Sold by a reseller",
+        "Thin listing"
+      ],
+      "name": "2GIG Smart Z-Wave Plus Model 2GIG-STZ-1 Programmable Thermostat, Humidity Sensing and Control, SmartStart Support, S2 Authentication Security, Fixed Format Display, Auto/On Fan Mode",
+      "image": "https://m.media-amazon.com/images/I/51xq5mstX+L._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.7,
+      "reviews_count": 7,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Do I need a C-wire?",
+      "a": "Most smart thermostats need constant power from a C (common) wire. Some include a power adapter for homes without one, and a few run on batteries. Check your current thermostat's wiring before you buy."
+    },
+    {
+      "q": "Will it work with my heating and cooling system?",
+      "a": "Most smart thermostats handle standard 24 V forced-air and heat pump systems. Line-voltage electric baseboard heaters need a different, line-voltage thermostat. Check the maker's compatibility checker before buying."
+    },
+    {
+      "q": "Do remote sensors matter?",
+      "a": "If some rooms run hotter or colder than where the thermostat hangs, yes. Remote room sensors let the thermostat average temperatures or focus on the rooms you're using."
+    }
+  ]
+}

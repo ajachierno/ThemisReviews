@@ -1,0 +1,479 @@
+{
+  "slug": "wifi-thermostats",
+  "family": "thermostats",
+  "family_title": "Thermostats",
+  "noun": "thermostat",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Smart Thermostats",
+  "subtitle": "Smart thermostats that connect to your router, ranked from live Amazon data.",
+  "intro": "We pulled the best-selling Wi-Fi smart thermostats on Amazon and scored them on rating, review volume, and features: remote sensors, Apple Home support, and C-wire flexibility. Thermostats with Matter are on our Matter page.",
+  "reviews_ceiling": 30000,
+  "feature_weights": {
+    "sensors": 0.35,
+    "apple_home": 0.3,
+    "voice_builtin": 0.35
+  },
+  "systems_note": "ecobee and Honeywell Home thermostats also have official Home Assistant integrations.",
+  "spec_fields": [
+    {
+      "key": "screen",
+      "label": "Display"
+    },
+    {
+      "key": "c_wire",
+      "label": "C-wire"
+    },
+    {
+      "key": "sensors",
+      "label": "Remote sensors",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "screen",
+      "label": "Display"
+    },
+    {
+      "key": "c_wire",
+      "label": "C-wire"
+    },
+    {
+      "key": "sensors",
+      "label": "Sensors",
+      "type": "bool"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09XXTQPXC",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "ecobee's mid-range model with room sensor support and Apple Home, Alexa, Google, and SmartThings, 3K+ bought last month."
+    },
+    {
+      "asin": "B08J4C8871",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$56.99 and 25,542 reviews. The easy pick for an Alexa home with a C-wire."
+    },
+    {
+      "asin": "B01NB1OB0I",
+      "label": "Best Without Apps",
+      "kind": "special",
+      "why": "Sensi's simple, well-rated thermostat with 23,081 reviews and no subscription."
+    },
+    {
+      "asin": "B09XXS48P8",
+      "label": "Most Features",
+      "kind": "premium",
+      "why": "Alexa and Siri built in, plus a SmartSensor in the box."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09XXTQPXC",
+      "brand": "ecobee",
+      "model": "Smart Thermostat Enhanced",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "screen": "Touchscreen",
+        "c_wire": "Listed",
+        "extras": "Works with SmartSensors",
+        "app": "ecobee"
+      },
+      "features": {
+        "sensors": true,
+        "apple_home": true,
+        "voice_builtin": false
+      },
+      "verdict": "The thermostat most people should buy: room sensor support and every major platform.",
+      "pros": [
+        "Works with Apple Home, Alexa, Google, and SmartThings",
+        "Add SmartSensors to balance hot and cold rooms",
+        "3K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Sensors sold separately",
+        "$164.99",
+        "Check C-wire needs before buying"
+      ],
+      "name": "ecobee Smart Thermostat Enhanced, Programmable Wifi Thermostat",
+      "image": "https://m.media-amazon.com/images/I/51YWnoWYbkL._AC_SL1500_.jpg",
+      "price": 164.99,
+      "rating": 4.4,
+      "reviews_count": 3718,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0DT9MC2Z9",
+      "brand": "ecobee",
+      "model": "Smart Thermostat Essential",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "screen": "Touchscreen",
+        "c_wire": "Not stated in bullets",
+        "extras": "Energy Star",
+        "app": "ecobee"
+      },
+      "features": {
+        "sensors": true,
+        "apple_home": true,
+        "voice_builtin": false
+      },
+      "verdict": "ecobee's entry model, with Apple Home and sensor support for $109.99.",
+      "pros": [
+        "Apple Home, Alexa, and Google",
+        "4K+ bought in the past month",
+        "Energy Star certified"
+      ],
+      "cons": [
+        "Fewer features than the Enhanced",
+        "4.2 stars",
+        "Sensors sold separately"
+      ],
+      "name": "ecobee Smart Thermostat Essential - WiFi Thermostat, Energy Star Certified",
+      "image": "https://m.media-amazon.com/images/I/51yVvRtBLBL._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.2,
+      "reviews_count": 1897,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B09XXS48P8",
+      "brand": "ecobee",
+      "model": "Smart Thermostat Premium",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "screen": "Touchscreen",
+        "c_wire": "Listed",
+        "extras": "Alexa and Siri built in, SmartSensor included",
+        "app": "ecobee"
+      },
+      "features": {
+        "sensors": true,
+        "apple_home": true,
+        "voice_builtin": true
+      },
+      "verdict": "ecobee's top model doubles as a smart speaker and includes a room sensor.",
+      "pros": [
+        "Alexa and Siri built in",
+        "SmartSensor included",
+        "4,179 reviews"
+      ],
+      "cons": [
+        "$209.99",
+        "Google isn't named in the bullets",
+        "Overkill if you won't use the speaker"
+      ],
+      "name": "ecobee Smart Thermostat Premium - WiFi, Siri & Alexa Built-In, Smart Sensor",
+      "image": "https://m.media-amazon.com/images/I/5135W9STj4L._AC_SL1500_.jpg",
+      "price": 209.99,
+      "rating": 4.3,
+      "reviews_count": 4179,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B08J4C8871",
+      "brand": "Amazon",
+      "model": "Smart Thermostat",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "screen": "Basic display",
+        "c_wire": "Required",
+        "extras": "Works with Ring",
+        "app": "Alexa"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "The cheapest way to a smart thermostat if you use Alexa and have a C-wire.",
+      "pros": [
+        "$56.99 with 25,542 reviews",
+        "Sets up in the Alexa app",
+        "Works with Ring",
+        "6K+ bought in the past month"
+      ],
+      "cons": [
+        "C-wire required",
+        "Alexa only",
+        "No remote sensors"
+      ],
+      "name": "Amazon Smart Thermostat, Save money and energy, Works with Alexa and Ring, C-wire required",
+      "image": "https://m.media-amazon.com/images/I/61zdJLL1EFL._AC_SL1500_.jpg",
+      "price": 56.99,
+      "rating": 4.0,
+      "reviews_count": 25542,
+      "bought": "6K+ bought in past month"
+    },
+    {
+      "asin": "B075BF6V58",
+      "brand": "Honeywell Home",
+      "model": "RTH9585WF",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "screen": "Color touchscreen",
+        "c_wire": "Listed",
+        "extras": "7-day programming",
+        "app": "Honeywell Home"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "A long-selling color touchscreen thermostat from Honeywell, with Alexa and Google.",
+      "pros": [
+        "Color touchscreen",
+        "Alexa and Google",
+        "20,109 reviews"
+      ],
+      "cons": [
+        "No remote sensors",
+        "Not for electric baseboard heat",
+        "Older design"
+      ],
+      "name": "Honeywell Home RTH9585WF1004 Wi-Fi Smart Color Thermostat, 7 Day Programmable, Touch Screen, Energy Star, Alexa Ready, Gray",
+      "image": "https://m.media-amazon.com/images/I/81hUVLEKqvL._AC_SL1500_.jpg",
+      "price": 93.09,
+      "rating": 4.3,
+      "reviews_count": 20109,
+      "bought": null
+    },
+    {
+      "asin": "B09TBGGLQB",
+      "brand": "Honeywell Home",
+      "model": "RTH9600WF",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "screen": "Color touchscreen",
+        "c_wire": "Listed",
+        "extras": "Energy Star",
+        "app": "Honeywell Home"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "The updated Honeywell color touchscreen, Energy Star certified.",
+      "pros": [
+        "Color touchscreen",
+        "Energy Star",
+        "1K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Only Alexa named in the bullets",
+        "No remote sensors",
+        "Not for electric baseboard heat"
+      ],
+      "name": "Honeywell Home RTH9600WF Smart Color Thermostat ENERGY STAR Wi-Fi Programmable Touchscreen Alexa Ready - C-Wire Required",
+      "image": "https://m.media-amazon.com/images/I/41mmDeLKDDL._AC_SL1000_.jpg",
+      "price": 119.99,
+      "rating": 4.3,
+      "reviews_count": 20109,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B09X69FSMB",
+      "brand": "Honeywell Home",
+      "model": "T5",
+      "systems": [],
+      "systems_label": "Honeywell Home app (no assistants listed)",
+      "specs": {
+        "screen": "Touchscreen",
+        "c_wire": "Listed",
+        "extras": "Energy Star",
+        "app": "Honeywell Home"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "A simpler Honeywell smart thermostat for $80.99.",
+      "pros": [
+        "$80.99",
+        "1K+ bought in the past month",
+        "Energy Star"
+      ],
+      "cons": [
+        "The listing doesn't name voice assistants",
+        "Sold by a third-party seller",
+        "No remote sensors"
+      ],
+      "name": "Honeywell Home T5 Smart Wi-Fi Thermostat",
+      "image": "https://m.media-amazon.com/images/I/510FSM-nJqL._AC_SL1000_.jpg",
+      "price": 80.99,
+      "rating": 4.3,
+      "reviews_count": 1521,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B01NB1OB0I",
+      "brand": "Sensi",
+      "model": "ST55",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "screen": "Basic display",
+        "c_wire": "Not stated in bullets",
+        "extras": "DIY install, Energy Star",
+        "app": "Sensi"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "A straightforward, well-rated thermostat that's easy to install yourself.",
+      "pros": [
+        "4.4 stars from 23,081 reviews",
+        "DIY install",
+        "3K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Only Alexa named in the bullets",
+        "Basic display",
+        "No remote sensors"
+      ],
+      "name": "Sensi Smart Thermostat, Wi-Fi, DIY, Alexa, Energy Star Certified, ST55",
+      "image": "https://m.media-amazon.com/images/I/61L1yh4m7VL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 23081,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0BKH83KF9",
+      "brand": "Sensi",
+      "model": "Touch 2 (ST76)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "screen": "Color touchscreen",
+        "c_wire": "Not stated in bullets",
+        "extras": "Sensor support",
+        "app": "Sensi"
+      },
+      "features": {
+        "sensors": true,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "Sensi's touchscreen model with sensor support.",
+      "pros": [
+        "Color touchscreen",
+        "Sensor support",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$166.59",
+        "Only Alexa named in the bullets",
+        "4.3 stars"
+      ],
+      "name": "Sensi Touch 2 Smart Thermostat Wi-Fi, Alexa, Energy Star Certified, ST76",
+      "image": "https://m.media-amazon.com/images/I/41x4ObIO97L._AC_SL1000_.jpg",
+      "price": 166.59,
+      "rating": 4.3,
+      "reviews_count": 1252,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0BXZ6KXGG",
+      "brand": "Sensi",
+      "model": "Lite (ST25)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "screen": "Basic display",
+        "c_wire": "Listed",
+        "extras": "DIY install",
+        "app": "Sensi"
+      },
+      "features": {
+        "sensors": false,
+        "apple_home": false,
+        "voice_builtin": false
+      },
+      "verdict": "Sensi's cheapest model, for simple systems.",
+      "pros": [
+        "$68.48",
+        "2,358 reviews",
+        "DIY install"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Sold by a third-party seller",
+        "Only Alexa named"
+      ],
+      "name": "Sensi Lite Smart Thermostat, WiFi, Alexa, DIY, Energy Star Certified, ST25",
+      "image": "https://m.media-amazon.com/images/I/61baXEIXz8L._AC_SL1500_.jpg",
+      "price": 68.48,
+      "rating": 4.0,
+      "reviews_count": 2358,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Do I need a C-wire?",
+      "a": "Most smart thermostats need constant power from a C (common) wire. Some include a power adapter for homes without one, and a few run on batteries. Check your current thermostat's wiring before you buy."
+    },
+    {
+      "q": "Will it work with my heating and cooling system?",
+      "a": "Most smart thermostats handle standard 24 V forced-air and heat pump systems. Line-voltage electric baseboard heaters need a different, line-voltage thermostat. Check the maker's compatibility checker before buying."
+    },
+    {
+      "q": "Do remote sensors matter?",
+      "a": "If some rooms run hotter or colder than where the thermostat hangs, yes. Remote room sensors let the thermostat average temperatures or focus on the rooms you're using."
+    }
+  ]
+}

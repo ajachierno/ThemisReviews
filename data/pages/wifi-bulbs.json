@@ -1,0 +1,488 @@
+{
+  "slug": "wifi-bulbs",
+  "family": "bulbs",
+  "family_title": "Smart bulbs",
+  "noun": "bulb",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Smart Bulbs",
+  "subtitle": "No-hub smart bulbs that connect straight to your router.",
+  "intro": "We pulled the best-selling Wi-Fi smart bulbs on Amazon and scored them on rating, review volume, and features: full color, brightness, and voice assistant support. Wi-Fi bulbs with Matter are on our Matter page.",
+  "reviews_ceiling": 28000,
+  "feature_weights": {
+    "color": 0.4,
+    "bright": 0.4,
+    "bluetooth": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "lumens",
+      "label": "Brightness"
+    },
+    {
+      "key": "shape",
+      "label": "Shape"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "lumens",
+      "label": "Brightness"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CS8T6VPV",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A full-color, CRI 90+ bulb for under $5, with 7,438 reviews."
+    },
+    {
+      "asin": "B09B7QNYHR",
+      "label": "Most Popular",
+      "kind": "budget",
+      "why": "27,287 reviews at 4.6 stars and 6K+ bought last month."
+    },
+    {
+      "asin": "B07X8QXR9L",
+      "label": "Brightest",
+      "kind": "special",
+      "why": "1,600 lumens of color and tunable white in an A21 bulb."
+    },
+    {
+      "asin": "B0C3TSTG69",
+      "label": "Best Multipack",
+      "kind": "premium",
+      "why": "Four 1,000 lm color bulbs with Bluetooth backup, about $8.50 each."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CS8T6VPV",
+      "brand": "Tapo",
+      "model": "L531E",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "light": "Color + white (2500-6500 K), CRI 90+",
+        "lumens": "800 lm",
+        "shape": "A19",
+        "app": "Tapo",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "Absurdly cheap full color with good color accuracy. Hard to beat.",
+      "pros": [
+        "$4.67 at capture time",
+        "CRI over 90 for accurate colors",
+        "220° beam angle",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "800 lm, a 60 W equivalent",
+        "2.4 GHz Wi-Fi only",
+        "Price may not last"
+      ],
+      "name": "Tapo Multicolor Dimmable Smart Light Bulbs, L531E, A19 E26, 800LM",
+      "image": "https://m.media-amazon.com/images/I/41m5Vryt83L._AC_SL1000_.jpg",
+      "price": 4.67,
+      "rating": 4.3,
+      "reviews_count": 7438,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B09B7QNYHR",
+      "brand": "Govee",
+      "model": "A19 smart bulb",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "800 lm",
+        "shape": "A19",
+        "app": "Govee Home",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "The most-reviewed Wi-Fi bulb here, with 54 preset scenes in the Govee app.",
+      "pros": [
+        "4.6 stars from 27,287 reviews",
+        "54 preset scenes",
+        "6K+ bought in the past month"
+      ],
+      "cons": [
+        "800 lm",
+        "Govee app only, no Home Assistant integration",
+        "No Apple Home"
+      ],
+      "name": "Govee Smart Light Bulbs, A19 LED Light Bulb, 800 Lumen, E26 Base",
+      "image": "https://m.media-amazon.com/images/I/61WKX3mvrKL._AC_SL1500_.jpg",
+      "price": 17.99,
+      "rating": 4.6,
+      "reviews_count": 27287,
+      "bought": "6K+ bought in past month"
+    },
+    {
+      "asin": "B0C3TSTG69",
+      "brand": "Govee",
+      "model": "1000 lm A19 (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "light": "Color + white (2700-6500 K), CRI 90+",
+        "lumens": "1,000 lm",
+        "shape": "A19",
+        "app": "Govee Home",
+        "pack": "4 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": true,
+        "bluetooth": true
+      },
+      "verdict": "Brighter Govee bulbs in a four-pack, with Bluetooth for control when Wi-Fi drops.",
+      "pros": [
+        "1,000 lumens, a 75 W equivalent",
+        "Bluetooth backup",
+        "4.6 stars, 3K+ bought in the past month"
+      ],
+      "cons": [
+        "$33.99 for four",
+        "Govee app only",
+        "No Apple Home"
+      ],
+      "name": "Govee LED Smart Light Bulbs, 1000LM RGBWW A19 75W E26 Base 4 Pack",
+      "image": "https://m.media-amazon.com/images/I/61RNZ4+bO+L._AC_SL1500_.jpg",
+      "price": 33.99,
+      "rating": 4.6,
+      "reviews_count": 5776,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B08TB8Z5HF",
+      "brand": "Kasa",
+      "model": "KL125P4 (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "light": "Color + white (2500-6500 K)",
+        "lumens": "800 lm (60 W eq.)",
+        "shape": "A19",
+        "app": "Kasa",
+        "pack": "4 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "Kasa's color bulbs with auto-white that follows natural daylight, four to a box.",
+      "pros": [
+        "Auto white adjusts through the day",
+        "11,567 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "800 lm",
+        "2.4 GHz Wi-Fi only",
+        "No Apple Home"
+      ],
+      "name": "Kasa Multicolor Dimmable Wi-Fi Smart Bulb, A19, KL125P4",
+      "image": "https://m.media-amazon.com/images/I/6109naeAfLL._AC_SL1469_.jpg",
+      "price": 25.49,
+      "rating": 4.4,
+      "reviews_count": 11567,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B07G1PH3JL",
+      "brand": "Kasa",
+      "model": "KL110",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "light": "Soft white (2700 K)",
+        "lumens": "800 lm",
+        "shape": "A19",
+        "app": "Kasa",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": false,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "A dependable, dimmable white bulb for people who don't need color.",
+      "pros": [
+        "17,632 reviews",
+        "1% to 100% dimming",
+        "$11.99"
+      ],
+      "cons": [
+        "White only",
+        "Costs more than the color Tapo",
+        "No Apple Home"
+      ],
+      "name": "Kasa Smart Light Bulb KL110, LED Wi-Fi smart bulb works with Alexa and Google Home, A19 Dimmable, 2.4Ghz, No Hub Required, 800LM Soft White (2700K), 9W (60W Equivalent)",
+      "image": "https://m.media-amazon.com/images/I/51t0sPuDyYL._AC_SL1000_.jpg",
+      "price": 11.99,
+      "rating": 4.4,
+      "reviews_count": 17632,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0CG5VDC8P",
+      "brand": "Amazon Basics",
+      "model": "Color A19",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "800 lm",
+        "shape": "A19",
+        "app": "Alexa",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "The easiest bulb for Alexa homes: it announces itself in the Alexa app when you screw it in.",
+      "pros": [
+        "Sets up in the Alexa app with no extra app",
+        "10K+ bought in the past month",
+        "$10.39"
+      ],
+      "cons": [
+        "Works with Alexa only",
+        "800 lm",
+        "Useless if you leave Alexa"
+      ],
+      "name": "Amazon Basics Smart A19 LED Light Bulb, Color Changing, 9W (60W Equivalent), 800LM, Works with Alexa Only, WiFi 2.4 GHz, No Hub Required, Mood Lighting, Energy Efficient, 1-Pack",
+      "image": "https://m.media-amazon.com/images/I/71InrzITFhL._AC_SL1500_.jpg",
+      "price": 10.39,
+      "rating": 4.4,
+      "reviews_count": 14518,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B07ZWSZ431",
+      "brand": "Feit Electric",
+      "model": "A19 RGBW (3-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "light": "Color + tunable white, CRI 90+",
+        "lumens": "800 lm",
+        "shape": "A19",
+        "app": "Feit Electric",
+        "pack": "3 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": false
+      },
+      "verdict": "Three color bulbs with high color accuracy for under $20.",
+      "pros": [
+        "About $6.50 per bulb",
+        "CRI 90+",
+        "2K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "800 lm",
+        "Feit app",
+        "No Home Assistant integration"
+      ],
+      "name": "Feit Electric Smart Light Bulbs, A19 RGBW Color Changing - 60W Eq - 3 Pack",
+      "image": "https://m.media-amazon.com/images/I/71YFt45SoQL._AC_SL1500_.jpg",
+      "price": 19.59,
+      "rating": 4.3,
+      "reviews_count": 6324,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B07X8QXR9L",
+      "brand": "Feit Electric",
+      "model": "A21 RGBW 100 W eq.",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "light": "Color + tunable white, CRI 90+",
+        "lumens": "1,600 lm",
+        "shape": "A21",
+        "app": "Feit Electric",
+        "pack": "1 bulb"
+      },
+      "features": {
+        "color": true,
+        "bright": true,
+        "bluetooth": false
+      },
+      "verdict": "The brightest bulb here at 1,600 lm, for rooms lit by a single fixture.",
+      "pros": [
+        "1,600 lumens, a 100 W equivalent",
+        "CRI 90+",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "A21 is longer than standard bulbs",
+        "4.1 stars",
+        "Feit app"
+      ],
+      "name": "Feit Electric Smart Light Bulbs, A21 RGBW Color Changing, 100W Eq - 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/71uIDLnicVL._AC_SL1500_.jpg",
+      "price": 17.77,
+      "rating": 4.1,
+      "reviews_count": 1988,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0CF25ZC4N",
+      "brand": "Lightinginside",
+      "model": "100 W eq. (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "1,350 lm",
+        "shape": "A19",
+        "app": "Smart Life",
+        "pack": "2 bulbs"
+      },
+      "features": {
+        "color": true,
+        "bright": true,
+        "bluetooth": false
+      },
+      "verdict": "Bright 1,350 lm color bulbs on the Smart Life app, two for under $17.",
+      "pros": [
+        "1,350 lumens",
+        "Two for $16.97",
+        "Smart Life works with Home Assistant's Tuya integration"
+      ],
+      "cons": [
+        "Cloud-based Smart Life app",
+        "539 reviews",
+        "Sold by the brand"
+      ],
+      "name": "Lightinginside Smart Bulbs 100W Work with Alexa/Google Home, 2 Pack",
+      "image": "https://m.media-amazon.com/images/I/61-zbmdi4UL._AC_SL1500_.jpg",
+      "price": 16.97,
+      "rating": 4.3,
+      "reviews_count": 539,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0BC8N7QXN",
+      "brand": "Linkind",
+      "model": "Smart bulb (AiDot)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "light": "Color + white",
+        "lumens": "Not listed",
+        "shape": "A19",
+        "app": "AiDot",
+        "pack": "Not stated"
+      },
+      "features": {
+        "color": true,
+        "bright": false,
+        "bluetooth": true
+      },
+      "verdict": "A popular Wi-Fi bulb with Bluetooth for faster local control.",
+      "pros": [
+        "Wi-Fi plus Bluetooth",
+        "4.5 stars from 7,757 reviews",
+        "6K+ bought in the past month"
+      ],
+      "cons": [
+        "Brightness and pack size aren't in the bullets",
+        "AiDot app",
+        "No Home Assistant integration"
+      ],
+      "name": "Linkind Smart Light Bulbs, Work with Alexa, Google Home, AiDot",
+      "image": "https://m.media-amazon.com/images/I/610pDnVRosL._AC_SL1500_.jpg",
+      "price": 22.97,
+      "rating": 4.5,
+      "reviews_count": 7757,
+      "bought": "6K+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Smart bulbs or smart switches?",
+      "a": "Bulbs give you color and tunable white, and they work in lamps. Switches are better for fixtures with several bulbs and keep the wall switch working for guests. Don't put smart bulbs on an ordinary dimmer, and keep the wall switch on, or the bulbs lose power and go offline."
+    },
+    {
+      "q": "What do lumens and color temperature mean?",
+      "a": "Lumens measure brightness: about 800 lm matches an old 60 W bulb and 1,100 lm a 75 W bulb. Color temperature in kelvin runs from warm (2,700 K, cozy) to cool (5,000 K and up, daylight)."
+    },
+    {
+      "q": "Do bulbs need a hub?",
+      "a": "Wi-Fi and Matter-over-Wi-Fi bulbs connect to your router directly. Zigbee bulbs need a Zigbee hub, such as a Hue Bridge or an Echo with Zigbee built in. Matter-over-Thread bulbs need a Thread border router."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "feature_weights": {"humidity": 0.50, "general_hub": 0.50},
+  "spec_fields": [
+    {"key": "series", "label": "Z-Wave chip"},
+    {"key": "made_for", "label": "Made for"},
+    {"key": "extras", "label": "Extras"},
+    {"key": "c_wire", "label": "C-wire"}
+  ],
+  "table_columns": [
+    {"key": "series", "label": "Chip"},
+    {"key": "made_for", "label": "Made for"},
+    {"key": "extras", "label": "Extras"},
+    {"key": "c_wire", "label": "C-wire"}
+  ],
+  "awards": [
+    {"asin": "B07HFL7R44", "label": "Best Overall", "kind": "overall", "why": "Honeywell's T6 Pro Z-Wave, with 725 reviews and wide support across Z-Wave hubs."},
+    {"asin": "B08VDT7P77", "label": "Best for Security Panels", "kind": "special", "why": "A 700 Series thermostat built for 2GIG GC2, GC3, and GC2e alarm panels."}
+  ],
+  "products": [
+    {"asin": "B07HFL7R44", "brand": "Honeywell", "model": "T6 Pro Z-Wave (TH6320ZW2003)", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"series": "Z-Wave Plus", "made_for": "Z-Wave hubs and security systems", "extras": "Programmable", "c_wire": "Not stated in bullets"},
+     "features": {"humidity": false, "general_hub": true},
+     "verdict": "The standard Z-Wave thermostat, widely used with Z-Wave hubs and alarm systems.",
+     "pros": ["725 reviews at 4.2 stars", "Works with most Z-Wave controllers", "100+ bought in the past month"],
+     "cons": ["$152.50 from a third-party seller", "Thin listing", "No remote sensors"]},
+    {"asin": "B08VDT7P77", "brand": "2GIG", "model": "STZ1-345", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"series": "700 Series", "made_for": "2GIG GC2, GC3, GC2e security panels", "extras": "None listed", "c_wire": "Listed"},
+     "features": {"humidity": false, "general_hub": false},
+     "verdict": "A 700 Series thermostat designed for 2GIG alarm panels.",
+     "pros": ["700 Series chip", "Built for 2GIG GC2, GC3, and GC2e panels", "$89.99"],
+     "cons": ["3.8 stars from 30 reviews", "Made mainly for security panels", "Sold by a reseller"]},
+    {"asin": "B0BDGP3NFR", "brand": "2GIG", "model": "STZ-1", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"series": "Z-Wave Plus", "made_for": "Z-Wave hubs and 2GIG panels", "extras": "Humidity sensing and control", "c_wire": "Not stated in bullets"},
+     "features": {"humidity": true, "general_hub": true},
+     "verdict": "A programmable Z-Wave thermostat with humidity sensing. Very few reviews.",
+     "pros": ["Humidity sensing and control", "Programmable", "4.7 stars"],
+     "cons": ["Only 7 reviews", "Sold by a reseller", "Thin listing"]}
+  ],
+  "avoid": []
+}

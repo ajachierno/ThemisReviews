@@ -1,0 +1,225 @@
+{
+  "slug": "matter-leak-sensors",
+  "family": "leak-sensors",
+  "family_title": "Leak sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Water Leak Sensors",
+  "subtitle": "Leak sensors that work with every major smart home platform.",
+  "intro": "Matter leak sensors are new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
+  "reviews_ceiling": 400,
+  "feature_weights": {
+    "cable": 0.4,
+    "multi_protocol": 0.3,
+    "siren": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "also",
+      "label": "Also speaks"
+    },
+    {
+      "key": "power",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "also",
+      "label": "Also speaks"
+    },
+    {
+      "key": "power",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FPG9SGLJ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Wi-Fi, Bluetooth, Zigbee, or Matter, with a sensing cable and a 3-year battery."
+    },
+    {
+      "asin": "B0H3QG45XL",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$27.99 for a slim triple-pad sensor that slides under appliances, rated 4.7 stars."
+    },
+    {
+      "asin": "B0GJCYV2LD",
+      "label": "Best Kit",
+      "kind": "special",
+      "why": "Three sensors and a controller with a 100 dB alarm, all over Matter Wi-Fi."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FPG9SGLJ",
+      "brand": "Shelly",
+      "model": "Flood Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "Bluetooth, Zigbee",
+        "power": "Up to 3 years",
+        "extras": "Leak sensor cable"
+      },
+      "features": {
+        "cable": true,
+        "multi_protocol": true,
+        "siren": false
+      },
+      "verdict": "The most flexible leak sensor here: it speaks Wi-Fi, Bluetooth, Zigbee, and Matter, and comes with a sensing cable.",
+      "pros": [
+        "Works over Wi-Fi, Bluetooth, Zigbee, or Matter",
+        "Sensing cable included",
+        "Up to 3-year battery",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "4.2 stars",
+        "No built-in siren listed",
+        "$39.99"
+      ],
+      "name": "Shelly Flood Gen4, WiFi, Bluetooth, Zigbee, Matter Smart Flood Sensor with Leak Sensor Cable, Alexa, SmartThings, Google Home, Apple HomeKit Compatible, Flood and Rain Detection, Easy to Use, IP44",
+      "image": "https://m.media-amazon.com/images/I/715R3exmYOL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 287,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0H3QG45XL",
+      "brand": "Shelly",
+      "model": "Flood S Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "Bluetooth, Zigbee",
+        "power": "Up to 3 years",
+        "extras": "Slim triple-pad design"
+      },
+      "features": {
+        "cable": false,
+        "multi_protocol": true,
+        "siren": false
+      },
+      "verdict": "A slim, cheaper Shelly sensor that slides under washers and dishwashers.",
+      "pros": [
+        "Low profile, fits under appliances",
+        "Wi-Fi, Bluetooth, Zigbee, or Matter",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 18 reviews",
+        "No cable",
+        "No built-in siren listed"
+      ],
+      "name": "Shelly Flood S Gen4, WiFi, Bluetooth, Zigbee, Matter Smart Flood Sensor",
+      "image": "https://m.media-amazon.com/images/I/71ZHVr5oBoL._AC_SL1500_.jpg",
+      "price": 27.99,
+      "rating": 4.7,
+      "reviews_count": 18,
+      "bought": null
+    },
+    {
+      "asin": "B0GJCYV2LD",
+      "brand": "THIRDREALITY",
+      "model": "KM1 (Matter over Wi-Fi)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "also": "None listed",
+        "power": "Sensors up to 3 years; controller on USB-C",
+        "extras": "Controller with 100 dB alarm, 3 sensors"
+      },
+      "features": {
+        "cable": false,
+        "multi_protocol": false,
+        "siren": true
+      },
+      "verdict": "A Matter kit: a powered controller with a 100 dB alarm and three battery sensors.",
+      "pros": [
+        "Controller sounds a 100 dB alarm",
+        "Three sensors included, up to ten supported",
+        "Matter certified, works with Apple Home, Alexa, and Home Assistant"
+      ],
+      "cons": [
+        "3.2 stars",
+        "The controller needs USB-C power",
+        "Only 34 reviews"
+      ],
+      "name": "THIRDREALITY Smart Water Leak Sensor KM1, Matter Over WiFi, 1 KM1-controller with 100dB Alarm & 3 Water Detectors, 3-Year Battery Life, No Batteries, Work with Apple Home, Alexa, Home Assistant, Homey",
+      "image": "https://m.media-amazon.com/images/I/41ihwxqcfQL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 3.2,
+      "reviews_count": 34,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Where should leak sensors go?",
+      "a": "Anywhere water can appear without you seeing it: under sinks, behind the toilet, next to the water heater, under the dishwasher and washing machine, and near the sump pump. Put them flat on the floor where water would pool first."
+    },
+    {
+      "q": "Do I want a built-in alarm?",
+      "a": "Yes, if the sensor might be your only warning. A loud local siren works even if your internet or hub is down. App and hub alerts are better when you're away."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    },
+    {
+      "q": "Can a leak sensor shut off the water?",
+      "a": "Not on its own. Paired with a smart water shut-off valve through your hub or app, it can close the main valve automatically when it detects a leak."
+    }
+  ]
+}

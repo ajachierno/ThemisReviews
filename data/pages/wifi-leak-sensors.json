@@ -1,0 +1,457 @@
+{
+  "slug": "wifi-leak-sensors",
+  "family": "leak-sensors",
+  "family_title": "Leak sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Water Leak Sensors",
+  "subtitle": "Leak sensors and kits that alert your phone without a smart home hub.",
+  "intro": "We pulled the Wi-Fi water leak sensors selling on Amazon and scored them on rating, review volume, and features. Some connect straight to Wi-Fi; several popular kits use their own long-range radio to a base station that connects to Wi-Fi. The table shows which.",
+  "reviews_ceiling": 7000,
+  "feature_weights": {
+    "siren": 0.35,
+    "direct_wifi": 0.3,
+    "multi": 0.35
+  },
+  "systems_note": "Tuya-based sensors work with Home Assistant through its official Tuya integration; YoLink has an official Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "connection",
+      "label": "Connection"
+    },
+    {
+      "key": "siren",
+      "label": "Siren"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "power",
+      "label": "Battery"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "connection",
+      "label": "Connection"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "siren",
+      "label": "Siren"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CRRMD559",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Direct Wi-Fi with no hub, a 1 m water-level probe, a 100 dB alarm, and Alexa, Google, and SmartThings support."
+    },
+    {
+      "asin": "B0BDF94TMV",
+      "label": "Best Kit",
+      "kind": "budget",
+      "why": "Three sensors and a base for $39.99, with 120 dB alarms on both and 2,259 reviews."
+    },
+    {
+      "asin": "B083Z5Z9HM",
+      "label": "Best Range",
+      "kind": "special",
+      "why": "LoRa radio reaches about 2,000 ft, so sensors work in sheds and detached garages. 6,918 reviews."
+    },
+    {
+      "asin": "B0F947BJVQ",
+      "label": "Best Single Sensor",
+      "kind": "premium",
+      "why": "IP67, six probes, and an adjustable 120 dB alarm with direct Wi-Fi."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CRRMD559",
+      "brand": "SwitchBot",
+      "model": "Wi-Fi water leak detector",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "specs": {
+        "connection": "Direct Wi-Fi",
+        "siren": "100 dB",
+        "pack": "1 sensor",
+        "power": "Up to 2 years",
+        "app": "SwitchBot",
+        "extras": "1 m water-level probe"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": true,
+        "multi": false
+      },
+      "verdict": "The best no-hub leak sensor: direct Wi-Fi, a long probe, and a loud alarm.",
+      "pros": [
+        "No hub needed",
+        "1 m probe also watches water levels in tubs or tanks",
+        "Alexa, Google, SmartThings, and IFTTT",
+        "1,840 reviews"
+      ],
+      "cons": [
+        "Wi-Fi limits battery life to about 2 years",
+        "4.3 stars",
+        "One sensor per purchase"
+      ],
+      "name": "SwitchBot WiFi Water Leak Detector for Home, Water Leak Sensor, 1m Cable",
+      "image": "https://m.media-amazon.com/images/I/51YG+Cl3DzL._AC_SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.3,
+      "reviews_count": 1840,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0F947BJVQ",
+      "brand": "TECKNET",
+      "model": "Wi-Fi water leak detector",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "connection": "Direct Wi-Fi",
+        "siren": "120 dB, adjustable",
+        "pack": "1 sensor",
+        "power": "Not listed",
+        "app": "Tuya Smart",
+        "extras": "IP67, 6 probes"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": true,
+        "multi": false
+      },
+      "verdict": "A rugged IP67 Tuya sensor with an adjustable 120 dB alarm.",
+      "pros": [
+        "IP67 waterproof housing",
+        "Six probes catch drips and pooling",
+        "Adjustable 120 dB alarm"
+      ],
+      "cons": [
+        "Some alert types need a subscription, per the listing",
+        "Voice assistants aren't named",
+        "4.2 stars"
+      ],
+      "name": "TECKNET WiFi Water Leak Detector, Smart Leak Sensor with App Alerts",
+      "image": "https://m.media-amazon.com/images/I/71Yfzv6ReqL._AC_SL1500_.jpg",
+      "price": 25.99,
+      "rating": 4.2,
+      "reviews_count": 403,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0BDF94TMV",
+      "brand": "X-Sense",
+      "model": "SWS54 kit",
+      "systems": [],
+      "systems_label": "X-Sense app",
+      "specs": {
+        "connection": "Sensors to Wi-Fi base",
+        "siren": "120 dB on sensor and base",
+        "pack": "3 sensors + base",
+        "power": "Not listed",
+        "app": "X-Sense",
+        "extras": "Up to 1,804 ft range"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "The best-value kit: three sensors and a base, both sounding 120 dB alarms.",
+      "pros": [
+        "Three sensors plus base for $39.99",
+        "Sensor and base both sound alarms",
+        "Long sensor range",
+        "2,259 reviews, 500+ bought in the past month"
+      ],
+      "cons": [
+        "No voice assistant or smart home integration named",
+        "Sensors need the base station",
+        "Battery life isn't listed"
+      ],
+      "name": "X-Sense Wi-Fi Water Leak Detector Kit, 120 dB, 3 Sensors + Base, SWS54",
+      "image": "https://m.media-amazon.com/images/I/61dZMUIcfRL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 2259,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DFCMJH5L",
+      "brand": "X-Sense",
+      "model": "SWS0A41 ultra-slim kit",
+      "systems": [],
+      "systems_label": "X-Sense app",
+      "specs": {
+        "connection": "Sensors to Wi-Fi base",
+        "siren": "Base up to 100 dB",
+        "pack": "4 sensors + base",
+        "power": "Not listed",
+        "app": "X-Sense",
+        "extras": "Ultra-slim sensors"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "Four slim sensors that fit under low appliances, with a base that sounds the alarm.",
+      "pros": [
+        "Four ultra-slim sensors",
+        "Snooze and alarm history in the app",
+        "4.5 stars"
+      ],
+      "cons": [
+        "The alarm is at the base, not the sensor",
+        "No voice assistant or smart home integration named",
+        "$52.99"
+      ],
+      "name": "X-Sense Ultra-Slim Wi-Fi Water Leak Detector, 4 Sensors + Base, SWS0A41",
+      "image": "https://m.media-amazon.com/images/I/51CHJCFmT2L._AC_SL1500_.jpg",
+      "price": 52.99,
+      "rating": 4.5,
+      "reviews_count": 2259,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B083Z5Z9HM",
+      "brand": "YoLink",
+      "model": "Water Leak Sensor 1 (3-pack)",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "connection": "LoRa to YoLink hub (not included)",
+        "siren": "Through the hub",
+        "pack": "3 sensors",
+        "power": "Not listed",
+        "app": "YoLink",
+        "extras": "About 2,000 ft range"
+      },
+      "features": {
+        "siren": false,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "The longest-range option, for sheds, detached garages, and big basements. You'll need YoLink's hub.",
+      "pros": [
+        "LoRa reaches about 2,000 ft in open air",
+        "Works without your Wi-Fi or internet for local alerts",
+        "4.6 stars from 6,918 reviews"
+      ],
+      "cons": [
+        "YoLink hub not included",
+        "No siren on the sensor",
+        "Proprietary system"
+      ],
+      "name": "YoLink Water Leak Sensor 1, 3-Pack, YS7903",
+      "image": "https://m.media-amazon.com/images/I/519l0Q74TDL._AC_SL1400_.jpg",
+      "price": 49.99,
+      "rating": 4.6,
+      "reviews_count": 6918,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DQLDBXWF",
+      "brand": "GoveeLife",
+      "model": "Water Leak Detector 1s (3-pack)",
+      "systems": [],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "connection": "Sub-1 GHz to Wi-Fi gateway",
+        "siren": "105 dB",
+        "pack": "3 sensors",
+        "power": "Up to 5 years",
+        "app": "Govee Home",
+        "extras": "SMS and email alerts"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "Loud sensors with a 5-year battery and SMS, app, and email alerts, selling 3K+ a month.",
+      "pros": [
+        "105 dB alarm",
+        "Up to 5-year battery",
+        "SMS, app, and email alerts",
+        "3K+ bought in the past month"
+      ],
+      "cons": [
+        "Needs Govee's gateway",
+        "No voice assistant integration named",
+        "4.2 stars"
+      ],
+      "name": "GoveeLife Upgraded Smart Water Leak Detector 1s with High Alarm, 3 Pack",
+      "image": "https://m.media-amazon.com/images/I/611tOn+Is2L._AC_SL1500_.jpg",
+      "price": 43.99,
+      "rating": 4.2,
+      "reviews_count": 2817,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0C3B91TJB",
+      "brand": "GoveeLife",
+      "model": "Water Leak Detector 2 (6-pack)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "connection": "LoRa to Wi-Fi gateway",
+        "siren": "100 dB",
+        "pack": "6 sensors + gateway",
+        "power": "Not listed",
+        "app": "Govee Home",
+        "extras": "1,968 ft range"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "Six long-range sensors with a gateway that can announce leaks through Alexa.",
+      "pros": [
+        "Six sensors with gateway",
+        "1,968 ft range",
+        "Alexa announcements",
+        "SMS, app, and email alerts"
+      ],
+      "cons": [
+        "$89.99",
+        "4.4 stars",
+        "Proprietary system"
+      ],
+      "name": "GoveeLife Smart Water Leak Detector 2 with 1968ft Ultra-Long Range, 6 Pack",
+      "image": "https://m.media-amazon.com/images/I/61xL3sIdVrL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.4,
+      "reviews_count": 1911,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0DPM4PYHJ",
+      "brand": "Stechro",
+      "model": "WD77 kit with W13 gateway",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "connection": "Sensors to Wi-Fi gateway",
+        "siren": "120 dB, adjustable",
+        "pack": "Sensors + gateway",
+        "power": "Up to 3 years",
+        "app": "Tuya",
+        "extras": "Free app alerts"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": true
+      },
+      "verdict": "A Tuya leak kit with a gateway and adjustable 120 dB alarms.",
+      "pros": [
+        "Adjustable 120 dB alarm",
+        "Free app push alerts",
+        "3-year battery"
+      ],
+      "cons": [
+        "SMS, phone, and email alerts need a subscription",
+        "Only the WD77 model pairs with the gateway",
+        "$49.99"
+      ],
+      "name": "Smart Water Leak Detectors for Home WiFi with App Alerts, Stechro Ajustable 120dB Water Sensor Alarm Leak Detector for Basements Sink Kitchen Laundry, 4 Water Sensors & 1 Gateway",
+      "image": "https://m.media-amazon.com/images/I/61bpMBsni0L._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.3,
+      "reviews_count": 125,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CHZ83LQD",
+      "brand": "Tapo",
+      "model": "T300",
+      "systems": [],
+      "systems_label": "Tapo app (needs Tapo hub)",
+      "specs": {
+        "connection": "Tapo hub (sold separately)",
+        "siren": "90 dB",
+        "pack": "1 sensor",
+        "power": "Not listed",
+        "app": "Tapo",
+        "extras": "1-second detection"
+      },
+      "features": {
+        "siren": true,
+        "direct_wifi": false,
+        "multi": false
+      },
+      "verdict": "A cheap, well-rated sensor for homes already running a Tapo hub.",
+      "pros": [
+        "4.6 stars, $19.99",
+        "Siren in about 1 second",
+        "Can sound the hub's alarm too"
+      ],
+      "cons": [
+        "Requires a Tapo hub",
+        "90 dB, quieter than most here",
+        "Only useful in a Tapo setup"
+      ],
+      "name": "Tapo Smart Water Leak Detector, Requires Tapo Hub, T300",
+      "image": "https://m.media-amazon.com/images/I/614yvqQQH9L._AC_SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.6,
+      "reviews_count": 527,
+      "bought": "500+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Where should leak sensors go?",
+      "a": "Anywhere water can appear without you seeing it: under sinks, behind the toilet, next to the water heater, under the dishwasher and washing machine, and near the sump pump. Put them flat on the floor where water would pool first."
+    },
+    {
+      "q": "Do I want a built-in alarm?",
+      "a": "Yes, if the sensor might be your only warning. A loud local siren works even if your internet or hub is down. App and hub alerts are better when you're away."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    },
+    {
+      "q": "Can a leak sensor shut off the water?",
+      "a": "Not on its own. Paired with a smart water shut-off valve through your hub or app, it can close the main valve automatically when it detects a leak."
+    }
+  ]
+}
