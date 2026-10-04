@@ -89,6 +89,21 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 footer .muted{font-size:.85rem}
 footer a{color:var(--gold-ink)}
 .to-top{display:none}
+/* systems */
+.sys-table{min-width:1000px}
+.sys-table td{white-space:normal;font-size:.86rem}
+.sys-table td:first-child{white-space:nowrap}
+.sys-name{color:var(--gold-ink);font-weight:700;text-decoration:underline;text-decoration-color:rgba(216,178,90,.4);text-underline-offset:3px}
+.sys-table .buy{min-width:170px}
+.sys-table .buy a:not(.btn){color:var(--gold-ink)}
+.btn.small{padding:6px 12px;font-size:.82rem;white-space:nowrap}
+.btn.ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)}
+.btn.ghost-btn:hover{border-color:var(--gold);filter:none}
+.sys-sub{margin:26px 0 12px;font-size:1.1rem;color:var(--gold-ink)}
+.sys-pc{min-width:760px}
+.sys-pc td:nth-child(2),.sys-pc td:nth-child(3){width:45%}
+.pc-list{margin:0;padding-left:18px} .pc-list li{margin:3px 0}
+.pc-list.pros li::marker{color:var(--pro)} .pc-list.cons li::marker{color:var(--con)}
 /* category pages */
 .tiny{font-size:.8rem} .c{text-align:center}
 .crumbs{font-size:.85rem;color:var(--muted);margin:4px 0 0} .crumbs a{color:var(--gold-ink)}

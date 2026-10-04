@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ThemisReviews: smart home protocols compared</title>
-<meta name="description" content="Side-by-side reviews of smart home gear, sorted by the radio it talks on. Start with the protocol that fits your house, then pick the switches, sensors, and locks that run on it.">
+<meta name="description" content="Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://themisreviews.com/">
 <meta name="theme-color" content="#0b0a17">
@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ThemisReviews">
 <meta property="og:title" content="ThemisReviews: smart home protocols compared">
-<meta property="og:description" content="Side-by-side reviews of smart home gear, sorted by the radio it talks on. Start with the protocol that fits your house, then pick the switches, sensors, and locks that run on it.">
+<meta property="og:description" content="Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.">
 <meta property="og:image" content="https://themisreviews.com/assets/logo.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "ThemisReviews", "url": "https://themisreviews.com/", "logo": "https://themisreviews.com/assets/logo.jpg"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "ThemisReviews", "url": "https://themisreviews.com/", "description": "Side-by-side reviews of smart home gear, sorted by the radio it talks on. Start with the protocol that fits your house, then pick the switches, sensors, and locks that run on it."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "ThemisReviews", "url": "https://themisreviews.com/", "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it."}</script>
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -31,13 +31,70 @@
 <main>
 
   <section class="lead home">
-    <h1>Pick the right smart home protocol first</h1>
-    <p class="sub">Side-by-side reviews of smart home gear, sorted by the radio it talks on. Start with the protocol that fits your house, then pick the switches, sensors, and locks that run on it.</p>
+    <h1>Pick your system, then your protocol</h1>
+    <p class="sub">Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.</p>
   </section>
   
-  <nav class="jump" aria-label="Jump to a protocol">
-    <a href="#compare" class="jump-all">At a glance</a><a href="#z-wave">Z-Wave</a><a href="#zigbee">Zigbee</a><a href="#wifi">Wi-Fi</a><a href="#bluetooth">Bluetooth</a><a href="#thread">Thread</a><a href="#matter">Matter</a><a href="#lutron-clear-connect">Lutron Clear Connect</a><a href="#433-mhz-rf">433 MHz RF</a>
+  <nav class="jump" aria-label="Jump to a section">
+    <a href="#systems" class="jump-all">Systems</a><a href="#compare" class="jump-all">Protocols at a glance</a><a href="#z-wave">Z-Wave</a><a href="#zigbee">Zigbee</a><a href="#wifi">Wi-Fi</a><a href="#bluetooth">Bluetooth</a><a href="#thread">Thread</a><a href="#matter">Matter</a><a href="#lutron-clear-connect">Lutron Clear Connect</a><a href="#433-mhz-rf">433 MHz RF</a>
   </nav>
+  
+  <section id="systems">
+    <h2>Start with your system</h2>
+    <p class="group-sub">The system is the app and hub that runs everything. It decides which protocols you can use, so pick it before you buy switches and sensors. Names link to each system's site; prices are from Amazon on 2026-10-04.</p>
+    <p class="swipe-hint">Swipe the tables sideways to see every column.</p>
+    <div class="tablewrap"><table class="sys-table">
+      <thead><tr><th>System</th><th>Hub to buy</th><th>Built-in radios</th><th>Runs locally</th><th>Phones</th><th>Best for</th><th>Where to buy</th></tr></thead>
+      <tbody><tr>
+        <td><a class="sys-name" href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a><div class="tiny muted">Open source, backed by Nabu Casa</div></td>
+        <td>Home Assistant Green</td><td>None built in. Add USB adapters for Zigbee, Thread, and Z-Wave</td><td>Yes</td>
+        <td>Any (app or web browser)</td><td>Tinkerers and mixed-brand homes that want everything local</td><td class="buy"><a class="btn small" href="https://www.amazon.com/dp/B0CXVKSG19?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">$219.00 on Amazon</a><div class="tiny muted">4.4 stars, 893 reviews</div><div class="tiny"><a href="https://www.amazon.com/dp/B0FL858V4Q?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Connect ZWA-2 Z-Wave adapter: $79.00</a></div></td></tr><tr>
+        <td><a class="sys-name" href="https://www.apple.com/home-app/" target="_blank" rel="noopener">Apple Home</a><div class="tiny muted">Apple</div></td>
+        <td>HomePod mini, HomePod, or Apple TV 4K</td><td>Thread, Matter, Wi-Fi, Bluetooth</td><td>Mostly, through the home hub</td>
+        <td>iPhone or iPad required</td><td>iPhone households that want a polished, private setup</td><td class="buy"><a class="btn small ghost-btn" href="https://www.apple.com/homepod-mini/" target="_blank" rel="noopener">Buy from Apple</a><div class="tiny muted">Not sold new on Amazon</div></td></tr><tr>
+        <td><a class="sys-name" href="https://home.google.com/" target="_blank" rel="noopener">Google Home</a><div class="tiny muted">Google</div></td>
+        <td>Nest Hub (2nd gen) or Google TV Streamer</td><td>Thread, Matter, Wi-Fi, Bluetooth</td><td>Partly</td>
+        <td>Android or iPhone</td><td>Android households and Google Assistant users</td><td class="buy"><a class="btn small ghost-btn" href="https://store.google.com/us/category/connected_home" target="_blank" rel="noopener">Buy from Google</a><div class="tiny muted">Amazon listings are resellers at inflated prices</div></td></tr><tr>
+        <td><a class="sys-name" href="https://www.amazon.com/smarthome" target="_blank" rel="noopener">Amazon Alexa</a><div class="tiny muted">Amazon</div></td>
+        <td>Echo Hub</td><td>Zigbee, Thread, Matter, Sidewalk, Wi-Fi, Bluetooth</td><td>Mostly cloud</td>
+        <td>Android or iPhone</td><td>The cheapest, easiest start, especially with voice</td><td class="buy"><a class="btn small" href="https://www.amazon.com/dp/B0BCR7M9KX?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">$179.99 on Amazon</a><div class="tiny muted">3.9 stars, 1,819 reviews</div></td></tr><tr>
+        <td><a class="sys-name" href="https://www.smartthings.com/" target="_blank" rel="noopener">SmartThings</a><div class="tiny muted">Samsung</div></td>
+        <td>Aeotec Smart Home Hub</td><td>Zigbee, Matter, Wi-Fi (Z-Wave on V3 units, per the listing)</td><td>Partly (Edge drivers run on the hub)</td>
+        <td>Android or iPhone</td><td>Samsung households and people who want a middle ground</td><td class="buy"><a class="btn small" href="https://www.amazon.com/dp/B08TWDNQ5Q?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">$159.99 on Amazon</a><div class="tiny muted">4.2 stars, 2,139 reviews</div></td></tr><tr>
+        <td><a class="sys-name" href="https://hubitat.com/" target="_blank" rel="noopener">Hubitat Elevation</a><div class="tiny muted">Hubitat</div></td>
+        <td>Hubitat Elevation C-8 Pro</td><td>Z-Wave 800 (Long Range), Zigbee 3.0, Matter, Bluetooth</td><td>Yes</td>
+        <td>Any (app or web browser)</td><td>Z-Wave and Zigbee homes that want local control without building a server</td><td class="buy"><a class="btn small" href="https://www.amazon.com/dp/B0CR4G1G8M?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">$194.95 on Amazon</a><div class="tiny muted">3.8 stars, 376 reviews</div></td></tr><tr>
+        <td><a class="sys-name" href="https://homey.app/en-us/" target="_blank" rel="noopener">Homey Pro</a><div class="tiny muted">Athom (LG)</div></td>
+        <td>Homey Pro (2026)</td><td>Z-Wave Plus, Zigbee, Thread, Matter, Bluetooth LE, Infrared, Wi-Fi</td><td>Yes (local-first)</td>
+        <td>Android or iPhone</td><td>People who want every radio in one box and visual automations</td><td class="buy"><a class="btn small" href="https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">$449.00 on Amazon</a><div class="tiny muted">3.6 stars, 49 reviews</div><div class="tiny"><a href="https://www.amazon.com/dp/B0F2TFKP1K?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Homey Pro mini (Zigbee, Thread, Matter): $249.00</a></div></td></tr></tbody>
+    </table></div>
+    <h3 class="sys-sub">Pros and cons</h3>
+    <div class="tablewrap"><table class="sys-table sys-pc">
+      <thead><tr><th>System</th><th>Pros</th><th>Cons</th></tr></thead>
+      <tbody><tr>
+        <td><a class="sys-name" href="https://www.home-assistant.io/" target="_blank" rel="noopener">Home Assistant</a></td>
+        <td><ul class="pc-list pros"><li>Runs entirely in your home with no cloud required</li><li>Works with Z-Wave, Zigbee, Thread, Matter, and Bluetooth once you add the radios</li><li>The largest integration library of any platform here</li><li>Can share devices out to Apple Home, Google, and Alexa</li></ul></td>
+        <td><ul class="pc-list cons"><li>Steepest learning curve on this list</li><li>You handle updates and backups</li><li>Green has no radios built in, so adapters cost extra</li><li>Easy remote access and voice use a Nabu Casa subscription, or your own setup</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://www.apple.com/home-app/" target="_blank" rel="noopener">Apple Home</a></td>
+        <td><ul class="pc-list pros"><li>The most polished app and Siri control</li><li>Strong privacy, with HomeKit traffic end-to-end encrypted</li><li>Home hubs double as Thread border routers and Matter controllers</li><li>Automations run on the home hub, not in a cloud</li></ul></td>
+        <td><ul class="pc-list cons"><li>Needs an iPhone or iPad; nothing for Android users</li><li>No Zigbee or Z-Wave without a third-party bridge</li><li>Automations are simpler than Home Assistant or Hubitat</li><li>Apple doesn&#x27;t sell new HomePods or Apple TVs on Amazon</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://home.google.com/" target="_blank" rel="noopener">Google Home</a></td>
+        <td><ul class="pc-list pros"><li>Works on Android and iPhone</li><li>Nest Hub (2nd gen) and Google TV Streamer are Thread border routers and Matter hubs</li><li>Script editor for more advanced automations</li><li>Good voice control and camera support</li></ul></td>
+        <td><ul class="pc-list cons"><li>No Zigbee or Z-Wave</li><li>Many integrations still run through the cloud</li><li>Google has shut down smart home products and programs before</li><li>We couldn&#x27;t find a fairly priced new hub on Amazon</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://www.amazon.com/smarthome" target="_blank" rel="noopener">Amazon Alexa</a></td>
+        <td><ul class="pc-list pros"><li>Echo Hub has Zigbee, Thread, and Matter built in</li><li>Works with more devices than any other voice assistant</li><li>Wall-mount dashboard with cameras, routines, and security controls</li><li>Sold and shipped by Amazon</li></ul></td>
+        <td><ul class="pc-list cons"><li>Most processing happens in Amazon&#x27;s cloud</li><li>No Z-Wave</li><li>Routines are less flexible than Home Assistant, Hubitat, or Homey</li><li>Some features in the listing need Alexa+ or Ring subscriptions</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://www.smartthings.com/" target="_blank" rel="noopener">SmartThings</a></td>
+        <td><ul class="pc-list pros"><li>Works on Android and iPhone</li><li>Zigbee and Matter built into the hub, plus Z-Wave on some versions</li><li>Many automations now run locally on the hub</li><li>Samsung TVs and appliances can join the same system</li></ul></td>
+        <td><ul class="pc-list cons"><li>Z-Wave support depends on which hub version you get</li><li>The platform has changed a lot; the 2022 move off Groovy broke custom device handlers</li><li>The app gets cluttered as you add devices</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://hubitat.com/" target="_blank" rel="noopener">Hubitat Elevation</a></td>
+        <td><ul class="pc-list pros"><li>Everything runs on the hub, even with the internet down</li><li>Z-Wave 800 Long Range and Zigbee 3.0 built in</li><li>Rule Machine handles complex automations</li><li>Full functionality with no subscription, per the listing</li></ul></td>
+        <td><ul class="pc-list cons"><li>Interface feels dated next to Apple and Google</li><li>Matter over Thread devices need a separate border router</li><li>3.8-star rating on Amazon</li></ul></td></tr><tr>
+        <td><a class="sys-name" href="https://homey.app/en-us/" target="_blank" rel="noopener">Homey Pro</a></td>
+        <td><ul class="pc-list pros"><li>The most radios in one hub, including infrared</li><li>Homey Flow makes automations visual and approachable</li><li>Local-first processing</li><li>Works with Siri, Alexa, and Google</li></ul></td>
+        <td><ul class="pc-list cons"><li>The most expensive hub here</li><li>3.6-star rating on Amazon</li><li>Quality of brand apps varies</li><li>The cheaper Pro mini needs a Homey Bridge for Z-Wave, Bluetooth, and infrared</li></ul></td></tr></tbody>
+    </table></div>
+  </section>
   
   <section id="compare">
     <h2>At a glance</h2>

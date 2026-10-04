@@ -3,7 +3,7 @@
   python amz.py search out.json "query one" ["query two" ...]     (2 pages each)
   python amz.py products out.json ASIN [ASIN ...]
 """
-import asyncio, json, sys
+import asyncio, json, sys, os
 from playwright.async_api import async_playwright
 
 SEARCH_JS = r"""() => [...document.querySelectorAll('div[data-component-type="s-search-result"]')].map(d => {
@@ -58,7 +58,7 @@ async def run(mode, out, items):
         await warm.goto("https://www.amazon.com/", wait_until="domcontentloaded"); await warm.wait_for_timeout(2500)
         if mode == "search":
             for it in items:
-                for n in (1, 2):
+                for n in ((1,) if os.environ.get("ONEPAGE") else (1, 2)):
                     await warm.goto(f"https://www.amazon.com/s?k={it.replace(' ', '+')}&page={n}", wait_until="domcontentloaded")
                     await warm.wait_for_timeout(2500)
                     rows = await warm.evaluate(SEARCH_JS)

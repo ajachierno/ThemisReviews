@@ -107,9 +107,51 @@ FACT_COLUMNS = [
 def render_jump(protocols):
     links = "".join(f'<a href="#{esc(p["slug"])}">{esc(p["name"])}</a>' for p in protocols)
     return f"""
-  <nav class="jump" aria-label="Jump to a protocol">
-    <a href="#compare" class="jump-all">At a glance</a>{links}
+  <nav class="jump" aria-label="Jump to a section">
+    <a href="#systems" class="jump-all">Systems</a><a href="#compare" class="jump-all">Protocols at a glance</a>{links}
   </nav>"""
+
+
+def buy_cell(site, s):
+    """Amazon link with live price when the hub is sold there at a fair price, else the maker's store."""
+    if s.get("asin"):
+        out = (f'<a class="btn small" href="{amazon_url(site, s["asin"])}" target="_blank" rel="sponsored nofollow noopener">'
+               f'{money(s["price"])} on Amazon</a>'
+               f'<div class="tiny muted">{s["rating"]} stars, {s["reviews_count"]:,} reviews</div>')
+        if s.get("addon"):
+            a = s["addon"]
+            out += (f'<div class="tiny"><a href="{amazon_url(site, a["asin"])}" target="_blank" rel="sponsored nofollow noopener">'
+                    f'{esc(a["label"])}: {money(a["price"])}</a></div>')
+        return out
+    return (f'<a class="btn small ghost-btn" href="{esc(s["store"])}" target="_blank" rel="noopener">Buy from {esc(s["maker"])}</a>'
+            f'<div class="tiny muted">{esc(s["store_note"])}</div>')
+
+
+def render_systems(site, data):
+    systems = data["systems"]
+    rows = "".join(f"""<tr>
+        <td><a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a><div class="tiny muted">{esc(s['maker'])}</div></td>
+        <td>{esc(s['hub'])}</td><td>{esc(s['radios'])}</td><td>{esc(s['local'])}</td>
+        <td>{esc(s['phones'])}</td><td>{esc(s['best_for'])}</td><td class="buy">{buy_cell(site, s)}</td></tr>""" for s in systems)
+    pc_rows = "".join(f"""<tr>
+        <td><a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a></td>
+        <td><ul class="pc-list pros">{''.join(f'<li>{esc(x)}</li>' for x in s['pros'])}</ul></td>
+        <td><ul class="pc-list cons">{''.join(f'<li>{esc(x)}</li>' for x in s['cons'])}</ul></td></tr>""" for s in systems)
+    return f"""
+  <section id="systems">
+    <h2>Start with your system</h2>
+    <p class="group-sub">The system is the app and hub that runs everything. It decides which protocols you can use, so pick it before you buy switches and sensors. Names link to each system's site; prices are from Amazon on {esc(data['data_captured'])}.</p>
+    <p class="swipe-hint">Swipe the tables sideways to see every column.</p>
+    <div class="tablewrap"><table class="sys-table">
+      <thead><tr><th>System</th><th>Hub to buy</th><th>Built-in radios</th><th>Runs locally</th><th>Phones</th><th>Best for</th><th>Where to buy</th></tr></thead>
+      <tbody>{rows}</tbody>
+    </table></div>
+    <h3 class="sys-sub">Pros and cons</h3>
+    <div class="tablewrap"><table class="sys-table sys-pc">
+      <thead><tr><th>System</th><th>Pros</th><th>Cons</th></tr></thead>
+      <tbody>{pc_rows}</tbody>
+    </table></div>
+  </section>"""
 
 
 def render_compare(protocols):
@@ -168,10 +210,11 @@ def build_home(site):
     protos = site["protocols"]
     body = f"""
   <section class="lead home">
-    <h1>Pick the right smart home protocol first</h1>
+    <h1>Pick your system, then your protocol</h1>
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {render_jump(protos)}
+  {render_systems(site, load("systems.json"))}
   {render_compare(protos)}
   <h2 class="section-head">Pros and cons by protocol</h2>
   <p class="group-sub">Open the reviews list under any protocol to see the device types we cover on it.</p>
@@ -529,6 +572,21 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 footer .muted{font-size:.85rem}
 footer a{color:var(--gold-ink)}
 .to-top{display:none}
+/* systems */
+.sys-table{min-width:1000px}
+.sys-table td{white-space:normal;font-size:.86rem}
+.sys-table td:first-child{white-space:nowrap}
+.sys-name{color:var(--gold-ink);font-weight:700;text-decoration:underline;text-decoration-color:rgba(216,178,90,.4);text-underline-offset:3px}
+.sys-table .buy{min-width:170px}
+.sys-table .buy a:not(.btn){color:var(--gold-ink)}
+.btn.small{padding:6px 12px;font-size:.82rem;white-space:nowrap}
+.btn.ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)}
+.btn.ghost-btn:hover{border-color:var(--gold);filter:none}
+.sys-sub{margin:26px 0 12px;font-size:1.1rem;color:var(--gold-ink)}
+.sys-pc{min-width:760px}
+.sys-pc td:nth-child(2),.sys-pc td:nth-child(3){width:45%}
+.pc-list{margin:0;padding-left:18px} .pc-list li{margin:3px 0}
+.pc-list.pros li::marker{color:var(--pro)} .pc-list.cons li::marker{color:var(--con)}
 /* category pages */
 .tiny{font-size:.8rem} .c{text-align:center}
 .crumbs{font-size:.85rem;color:var(--muted);margin:4px 0 0} .crumbs a{color:var(--gold-ink)}

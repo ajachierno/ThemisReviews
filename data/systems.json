@@ -1,0 +1,202 @@
+{
+  "systems": [
+    {
+      "slug": "home-assistant",
+      "name": "Home Assistant",
+      "maker": "Open source, backed by Nabu Casa",
+      "site": "https://www.home-assistant.io/",
+      "hub": "Home Assistant Green",
+      "asin": "B0CXVKSG19",
+      "addon": {
+        "label": "Connect ZWA-2 Z-Wave adapter",
+        "asin": "B0FL858V4Q",
+        "price": 79.0,
+        "rating": 4.6,
+        "reviews_count": 250
+      },
+      "radios": "None built in. Add USB adapters for Zigbee, Thread, and Z-Wave",
+      "local": "Yes",
+      "phones": "Any (app or web browser)",
+      "best_for": "Tinkerers and mixed-brand homes that want everything local",
+      "pros": [
+        "Runs entirely in your home with no cloud required",
+        "Works with Z-Wave, Zigbee, Thread, Matter, and Bluetooth once you add the radios",
+        "The largest integration library of any platform here",
+        "Can share devices out to Apple Home, Google, and Alexa"
+      ],
+      "cons": [
+        "Steepest learning curve on this list",
+        "You handle updates and backups",
+        "Green has no radios built in, so adapters cost extra",
+        "Easy remote access and voice use a Nabu Casa subscription, or your own setup"
+      ],
+      "price": 219.0,
+      "rating": 4.4,
+      "reviews_count": 893
+    },
+    {
+      "slug": "apple-home",
+      "name": "Apple Home",
+      "maker": "Apple",
+      "site": "https://www.apple.com/home-app/",
+      "hub": "HomePod mini, HomePod, or Apple TV 4K",
+      "store": "https://www.apple.com/homepod-mini/",
+      "store_note": "Not sold new on Amazon",
+      "radios": "Thread, Matter, Wi-Fi, Bluetooth",
+      "local": "Mostly, through the home hub",
+      "phones": "iPhone or iPad required",
+      "best_for": "iPhone households that want a polished, private setup",
+      "pros": [
+        "The most polished app and Siri control",
+        "Strong privacy, with HomeKit traffic end-to-end encrypted",
+        "Home hubs double as Thread border routers and Matter controllers",
+        "Automations run on the home hub, not in a cloud"
+      ],
+      "cons": [
+        "Needs an iPhone or iPad; nothing for Android users",
+        "No Zigbee or Z-Wave without a third-party bridge",
+        "Automations are simpler than Home Assistant or Hubitat",
+        "Apple doesn't sell new HomePods or Apple TVs on Amazon"
+      ]
+    },
+    {
+      "slug": "google-home",
+      "name": "Google Home",
+      "maker": "Google",
+      "site": "https://home.google.com/",
+      "hub": "Nest Hub (2nd gen) or Google TV Streamer",
+      "store": "https://store.google.com/us/category/connected_home",
+      "store_note": "Amazon listings are resellers at inflated prices",
+      "radios": "Thread, Matter, Wi-Fi, Bluetooth",
+      "local": "Partly",
+      "phones": "Android or iPhone",
+      "best_for": "Android households and Google Assistant users",
+      "pros": [
+        "Works on Android and iPhone",
+        "Nest Hub (2nd gen) and Google TV Streamer are Thread border routers and Matter hubs",
+        "Script editor for more advanced automations",
+        "Good voice control and camera support"
+      ],
+      "cons": [
+        "No Zigbee or Z-Wave",
+        "Many integrations still run through the cloud",
+        "Google has shut down smart home products and programs before",
+        "We couldn't find a fairly priced new hub on Amazon"
+      ]
+    },
+    {
+      "slug": "alexa",
+      "name": "Amazon Alexa",
+      "maker": "Amazon",
+      "site": "https://www.amazon.com/smarthome",
+      "hub": "Echo Hub",
+      "asin": "B0BCR7M9KX",
+      "radios": "Zigbee, Thread, Matter, Sidewalk, Wi-Fi, Bluetooth",
+      "local": "Mostly cloud",
+      "phones": "Android or iPhone",
+      "best_for": "The cheapest, easiest start, especially with voice",
+      "pros": [
+        "Echo Hub has Zigbee, Thread, and Matter built in",
+        "Works with more devices than any other voice assistant",
+        "Wall-mount dashboard with cameras, routines, and security controls",
+        "Sold and shipped by Amazon"
+      ],
+      "cons": [
+        "Most processing happens in Amazon's cloud",
+        "No Z-Wave",
+        "Routines are less flexible than Home Assistant, Hubitat, or Homey",
+        "Some features in the listing need Alexa+ or Ring subscriptions"
+      ],
+      "price": 179.99,
+      "rating": 3.9,
+      "reviews_count": 1819
+    },
+    {
+      "slug": "smartthings",
+      "name": "SmartThings",
+      "maker": "Samsung",
+      "site": "https://www.smartthings.com/",
+      "hub": "Aeotec Smart Home Hub",
+      "asin": "B08TWDNQ5Q",
+      "radios": "Zigbee, Matter, Wi-Fi (Z-Wave on V3 units, per the listing)",
+      "local": "Partly (Edge drivers run on the hub)",
+      "phones": "Android or iPhone",
+      "best_for": "Samsung households and people who want a middle ground",
+      "pros": [
+        "Works on Android and iPhone",
+        "Zigbee and Matter built into the hub, plus Z-Wave on some versions",
+        "Many automations now run locally on the hub",
+        "Samsung TVs and appliances can join the same system"
+      ],
+      "cons": [
+        "Z-Wave support depends on which hub version you get",
+        "The platform has changed a lot; the 2022 move off Groovy broke custom device handlers",
+        "The app gets cluttered as you add devices"
+      ],
+      "price": 159.99,
+      "rating": 4.2,
+      "reviews_count": 2139
+    },
+    {
+      "slug": "hubitat",
+      "name": "Hubitat Elevation",
+      "maker": "Hubitat",
+      "site": "https://hubitat.com/",
+      "hub": "Hubitat Elevation C-8 Pro",
+      "asin": "B0CR4G1G8M",
+      "radios": "Z-Wave 800 (Long Range), Zigbee 3.0, Matter, Bluetooth",
+      "local": "Yes",
+      "phones": "Any (app or web browser)",
+      "best_for": "Z-Wave and Zigbee homes that want local control without building a server",
+      "pros": [
+        "Everything runs on the hub, even with the internet down",
+        "Z-Wave 800 Long Range and Zigbee 3.0 built in",
+        "Rule Machine handles complex automations",
+        "Full functionality with no subscription, per the listing"
+      ],
+      "cons": [
+        "Interface feels dated next to Apple and Google",
+        "Matter over Thread devices need a separate border router",
+        "3.8-star rating on Amazon"
+      ],
+      "price": 194.95,
+      "rating": 3.8,
+      "reviews_count": 376
+    },
+    {
+      "slug": "homey",
+      "name": "Homey Pro",
+      "maker": "Athom (LG)",
+      "site": "https://homey.app/en-us/",
+      "hub": "Homey Pro (2026)",
+      "asin": "B0G52DX5M3",
+      "addon": {
+        "label": "Homey Pro mini (Zigbee, Thread, Matter)",
+        "asin": "B0F2TFKP1K",
+        "price": 249.0,
+        "rating": 4.2,
+        "reviews_count": 77
+      },
+      "radios": "Z-Wave Plus, Zigbee, Thread, Matter, Bluetooth LE, Infrared, Wi-Fi",
+      "local": "Yes (local-first)",
+      "phones": "Android or iPhone",
+      "best_for": "People who want every radio in one box and visual automations",
+      "pros": [
+        "The most radios in one hub, including infrared",
+        "Homey Flow makes automations visual and approachable",
+        "Local-first processing",
+        "Works with Siri, Alexa, and Google"
+      ],
+      "cons": [
+        "The most expensive hub here",
+        "3.6-star rating on Amazon",
+        "Quality of brand apps varies",
+        "The cheaper Pro mini needs a Homey Bridge for Z-Wave, Bluetooth, and infrared"
+      ],
+      "price": 449.0,
+      "rating": 3.6,
+      "reviews_count": 49
+    }
+  ],
+  "data_captured": "2026-10-04"
+}

@@ -10,7 +10,8 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-SCRAPE = json.loads((HERE / "prod-all.json").read_text(encoding="utf-8"))
+SCRAPE = {**json.loads((HERE / "prod-all.json").read_text(encoding="utf-8")),
+          **json.loads((HERE / "prod-hubs.json").read_text(encoding="utf-8"))}
 OUT = HERE.parent / "data" / "pages"
 
 
@@ -61,5 +62,17 @@ def merge(slug):
     print(f"{slug}: {len(ed['products'])} products, {len(ed['avoid'])} avoid")
 
 
+def merge_systems():
+    ed = json.loads((HERE / "editorial" / "systems.json").read_text(encoding="utf-8"))
+    for s in ed["systems"]:
+        for item in (s, s.get("addon")):
+            if item and item.get("asin"):
+                d = live(item["asin"])
+                item.update(price=d["price"], rating=d["rating"], reviews_count=d["reviews_count"])
+    ed["data_captured"] = "2026-10-04"
+    (OUT.parent / "systems.json").write_text(json.dumps(ed, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"systems: {len(ed['systems'])}")
+
+
 for s in sys.argv[1:]:
-    merge(s)
+    merge_systems() if s == "systems" else merge(s)
