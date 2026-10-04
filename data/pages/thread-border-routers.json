@@ -1,0 +1,469 @@
+{
+  "slug": "thread-border-routers",
+  "family": "hubs",
+  "family_title": "Hubs and controllers",
+  "noun": "border router",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Thread Border Routers",
+  "subtitle": "The speakers, routers, hubs, and USB sticks that put Thread devices on your network.",
+  "intro": "We pulled the Thread border routers selling on Amazon, including mesh routers and hubs that have one built in, and scored them on rating, review volume, and features. You may already own one; the guide below explains how to check.",
+  "reviews_ceiling": 15000,
+  "feature_weights": {
+    "standalone": 0.35,
+    "matter_controller": 0.3,
+    "extra_radios": 0.2,
+    "network": 0.15
+  },
+  "systems_note": "The icons show which platform each border router serves. Sticks need Home Assistant's OpenThread Border Router add-on.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "controller",
+      "label": "Matter controller",
+      "type": "bool"
+    },
+    {
+      "key": "radios",
+      "label": "Other radios"
+    },
+    {
+      "key": "needs",
+      "label": "Needs"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "controller",
+      "label": "Controller",
+      "type": "bool"
+    },
+    {
+      "key": "radios",
+      "label": "Other radios"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08ZK39NSL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,559 reviews."
+    },
+    {
+      "asin": "B0DWK8318H",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $29.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
+    },
+    {
+      "asin": "B0CWLHSKYC",
+      "label": "Best Standalone Hub",
+      "kind": "special",
+      "why": "Thread border router, Matter controller, IR blaster, and PoE in one hub."
+    },
+    {
+      "asin": "B0FMJD288B",
+      "label": "Best for Home Assistant",
+      "kind": "premium",
+      "why": "Flash it as a Thread radio for Home Assistant's border router for $35.90, 1K+ bought last month."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08ZK39NSL",
+      "brand": "eero",
+      "model": "6+",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "type": "Mesh Wi-Fi router",
+        "controller": false,
+        "radios": "Zigbee",
+        "needs": "Alexa for smart home control"
+      },
+      "features": {
+        "standalone": true,
+        "matter_controller": false,
+        "extra_radios": true,
+        "network": true
+      },
+      "verdict": "If you need a new router anyway, this one adds Thread and Zigbee without another box.",
+      "pros": [
+        "Thread and Zigbee hub built in, per the listing",
+        "Gigabit Wi-Fi 6",
+        "4.4 stars from 10,559 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Smart home devices connect through Alexa",
+        "1,500 sq. ft. per unit",
+        "Replacing your router is a big change for a Thread radio"
+      ],
+      "name": "Amazon eero 6+ mesh wifi router - Supports internet plans up to a Gigabit, Coverage up to 1,500 sq. ft., Connect 75+ devices, 1-pack",
+      "image": "https://m.media-amazon.com/images/I/61jZBJ15YFL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 10559,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DWK8318H",
+      "brand": "Aqara",
+      "model": "Hub M100",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "USB-powered hub",
+        "controller": true,
+        "radios": "Aqara Zigbee",
+        "needs": "Aqara app"
+      },
+      "features": {
+        "standalone": true,
+        "matter_controller": true,
+        "extra_radios": true,
+        "network": false
+      },
+      "verdict": "The cheapest standalone Thread border router here, and it plugs into any USB port.",
+      "pros": [
+        "$29.99",
+        "Thread border router and Matter bridge",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Zigbee for Aqara devices only",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "Aqara Smart Hub M100 for Home Automation, Matter Controller, Wi-Fi",
+      "image": "https://m.media-amazon.com/images/I/51iz6liRfQL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 3.9,
+      "reviews_count": 996,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0CWLHSKYC",
+      "brand": "Aqara",
+      "model": "Hub M3",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Hub",
+        "controller": true,
+        "radios": "Aqara Zigbee, IR",
+        "needs": "Aqara app"
+      },
+      "features": {
+        "standalone": true,
+        "matter_controller": true,
+        "extra_radios": true,
+        "network": true
+      },
+      "verdict": "A full Thread and Matter hub with an IR blaster and PoE, for up to 127 Thread devices.",
+      "pros": [
+        "Supports 127 Thread devices, per the listing",
+        "Ethernet with PoE or dual-band Wi-Fi",
+        "IR blaster",
+        "1,682 reviews"
+      ],
+      "cons": [
+        "$139.99",
+        "Zigbee for Aqara devices only",
+        "4.1 stars"
+      ],
+      "name": "Aqara Smart Home Hub M3 for Advanced Automation, Matter Controller, IR",
+      "image": "https://m.media-amazon.com/images/I/61sFQ557qNL._AC_SL1500_.jpg",
+      "price": 139.99,
+      "rating": 4.1,
+      "reviews_count": 1682,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0BCR7M9KX",
+      "brand": "Amazon",
+      "model": "Echo Hub",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "type": "Wall panel",
+        "controller": true,
+        "radios": "Zigbee, Bluetooth, Sidewalk",
+        "needs": "Alexa app"
+      },
+      "features": {
+        "standalone": true,
+        "matter_controller": true,
+        "extra_radios": true,
+        "network": false
+      },
+      "verdict": "An Alexa wall panel that's also a Thread border router and Matter controller.",
+      "pros": [
+        "Thread, Zigbee, Matter, and Sidewalk built in",
+        "8 in. touchscreen dashboard",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Alexa only",
+        "$179.99"
+      ],
+      "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Compatible with thousands of devices",
+      "image": "https://m.media-amazon.com/images/I/71dg-Y67k5L._AC_SL1500_.jpg",
+      "price": 179.99,
+      "rating": 3.9,
+      "reviews_count": 1819,
+      "bought": null
+    },
+    {
+      "asin": "B0H3W7JGP2",
+      "brand": "Google",
+      "model": "Nest Wifi Pro",
+      "systems": [
+        "google-home"
+      ],
+      "specs": {
+        "type": "Mesh Wi-Fi router",
+        "controller": false,
+        "radios": "None listed",
+        "needs": "Google Home app"
+      },
+      "features": {
+        "standalone": true,
+        "matter_controller": false,
+        "extra_radios": false,
+        "network": true
+      },
+      "verdict": "Google's Wi-Fi 6E router, which doubles as a Thread border router for Google Home.",
+      "pros": [
+        "Wi-Fi 6E with a 6 GHz band",
+        "Up to 2,200 sq. ft. per router",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "\"Non-Retail Packaging\" from a reseller",
+        "The listing doesn't mention Thread",
+        "Not compatible with older Google Wifi or Nest Wifi"
+      ],
+      "name": "Google Nest WiFi Pro - Wi-Fi 6E - Reliable Home Wi-Fi System with Fast Speed and Whole Home Coverage - WPS - Mesh Router - Non-Retail Packaging - Fog",
+      "image": "https://m.media-amazon.com/images/I/41V2hbsZTwL._AC_SL1500_.jpg",
+      "price": 105.95,
+      "rating": 4.2,
+      "reviews_count": 295,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0FMJD288B",
+      "brand": "SONOFF",
+      "model": "Dongle Plus MG24",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "controller": false,
+        "radios": "Zigbee (one at a time)",
+        "needs": "Home Assistant OpenThread Border Router"
+      },
+      "features": {
+        "standalone": false,
+        "matter_controller": false,
+        "extra_radios": true,
+        "network": false
+      },
+      "verdict": "A cheap way to add Thread to Home Assistant: flash it as a Thread radio and run the border router add-on.",
+      "pros": [
+        "Switch between Zigbee and Thread firmware",
+        "4.6 stars, 1K+ bought in the past month",
+        "USB extension cable included"
+      ],
+      "cons": [
+        "Thread or Zigbee, not both at once",
+        "Needs Home Assistant",
+        "Flashing firmware is an extra step"
+      ],
+      "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24, Zigbee Gateway with EFR32MG24, Thread & Zigbee USB Stick, Zigbee Controller for Home Assistant or Zigbee2MQTT",
+      "image": "https://m.media-amazon.com/images/I/41cndlAw3bL._AC_SL1500_.jpg",
+      "price": 35.9,
+      "rating": 4.6,
+      "reviews_count": 692,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0H5HYZ3LP",
+      "brand": "SONOFF",
+      "model": "Dongle Plus PP10",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "controller": false,
+        "radios": "Zigbee (one at a time)",
+        "needs": "Home Assistant or OTBR"
+      },
+      "features": {
+        "standalone": false,
+        "matter_controller": false,
+        "extra_radios": true,
+        "network": false
+      },
+      "verdict": "A high-power stick that names the OpenThread Border Router as a supported platform.",
+      "pros": [
+        "Works with OpenThread Border Router, per the listing",
+        "4.5 dBi antenna, 20 dBm output",
+        "2-year warranty"
+      ],
+      "cons": [
+        "Only 99 reviews",
+        "Ships with Zigbee firmware; Thread needs a flash",
+        "Needs a computer"
+      ],
+      "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)",
+      "image": "https://m.media-amazon.com/images/I/61YdfBJjNPL._AC_SL1500_.jpg",
+      "price": 35.9,
+      "rating": 4.6,
+      "reviews_count": 99,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0FMJH4DPN",
+      "brand": "SONOFF",
+      "model": "Dongle Max (Dongle-M)",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Network dongle",
+        "controller": false,
+        "radios": "Zigbee (one at a time)",
+        "needs": "Home Assistant or OTBR"
+      },
+      "features": {
+        "standalone": false,
+        "matter_controller": false,
+        "extra_radios": true,
+        "network": true
+      },
+      "verdict": "A network-connected Thread or Zigbee radio you can place anywhere you have Ethernet.",
+      "pros": [
+        "Ethernet with PoE, Wi-Fi, or USB",
+        "Switch to Thread RCP firmware from the web console",
+        "Two 5 dBi antennas"
+      ],
+      "cons": [
+        "4.3 stars",
+        "$42.90",
+        "Thread or Zigbee, not both at once"
+      ],
+      "name": "SONOFF Zigbee/Thread PoE Dongle Max | Dongle-M",
+      "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
+      "price": 42.9,
+      "rating": 4.3,
+      "reviews_count": 617,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0G2LTBM1M",
+      "brand": "SONOFF",
+      "model": "Dongle Lite (MG21)",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "controller": false,
+        "radios": "Zigbee (one at a time)",
+        "needs": "Home Assistant OpenThread Border Router"
+      },
+      "features": {
+        "standalone": false,
+        "matter_controller": false,
+        "extra_radios": true,
+        "network": false
+      },
+      "verdict": "The cheapest Thread radio for Home Assistant, at $24.90.",
+      "pros": [
+        "$24.90",
+        "Thread RCP firmware available",
+        "Compact, with an extension cable"
+      ],
+      "cons": [
+        "Internal antenna",
+        "Older MG21 chip",
+        "Needs Home Assistant"
+      ],
+      "name": "SONOFF Zigbee 3.0 & Thread Dongle Lite (EFR32MG21) | USB Stick Coordinator for Home Assistant & Zigbee2MQTT | Compact Gateway with Easy Firmware Flashing & Extension Cable",
+      "image": "https://m.media-amazon.com/images/I/51z07OVe5+L._AC_SL1500_.jpg",
+      "price": 24.9,
+      "rating": 4.5,
+      "reviews_count": 454,
+      "bought": "400+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CLBN88HN",
+      "brand": "Google",
+      "model": "Nest Hub (2nd Gen) \"global\" bundle",
+      "systems": [
+        "google-home"
+      ],
+      "flag": "Reseller import bundle at about three times the usual price",
+      "verdict": "The Nest Hub is a solid Thread border router, but this listing is a reseller's \"global\" bundle at $299.99.",
+      "reasons": [
+        "It's sold by a reseller as a \"value bundle\" with a universal power adapter and an international manual.",
+        "$299.99 is about three times what Google charged for the Nest Hub (2nd Gen).",
+        "The listing's specs name Wi-Fi and Bluetooth only and never mention Thread or Matter."
+      ],
+      "name": "Google Nest Hub 7” Smart Display with Google Assistant (2nd Gen) - Chalk",
+      "image": "https://m.media-amazon.com/images/I/51tx4G8JuXL._AC_SL1000_.jpg",
+      "price": 299.99,
+      "rating": 4.2,
+      "reviews_count": 1152,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What does a Thread border router do?",
+      "a": "It connects your Thread devices to your home network so a Matter controller (Apple Home, Google Home, Alexa, SmartThings, or Home Assistant) can reach them. Without one, Thread devices can't connect to anything."
+    },
+    {
+      "q": "Do I already have one?",
+      "a": "Possibly. Many recent HomePod minis, Apple TV 4K models, Nest Hubs, Nest Wifi Pro routers, Echo devices, eero routers, and SmartThings hubs have a Thread border router built in. Check your speaker or router before you buy another box."
+    },
+    {
+      "q": "Can border routers from different brands share one network?",
+      "a": "They're supposed to, and it's getting better, but mixing ecosystems can still create separate Thread networks. Sticking to one brand of border router, or using one that shares credentials with your main platform, avoids most trouble."
+    }
+  ]
+}

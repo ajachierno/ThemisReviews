@@ -1,0 +1,68 @@
+B0BCR7M9KX: Amazon Echo Hub (newest model), 8", Redesigned with customizable contr | $179.99 | 3.9 out of 5 stars | (1,819)
+B0CXJC5ZZT: SwitchBot Universal Remote Control with Hub Mini Matter Enabled, Multi | $85.49 | 4.2 out of 5 stars | (5,304)
+B0FQJKH248: SwitchBot Hub 3 (3rd Gen) Smart Home Command Center: Screen + Physical | $99.99 | 3.9 out of 5 stars | (1,866)
+B0FNXCFN6J: Tapo Smart IR & IoT Hub w/ Chime, Matter-Certified, H110, Universal Re | $29.99 | 4.1 out of 5 stars | (161)
+B0GGXPDWMZ: Tuya Zigbee Smart Home Hub M Gateway,Matter Controller,Thread Router | $109.99 | 2.9 out of 5 stars | (6)
+B0F32P1NPF: Yoolax Zigbee Matter Smart Hub, Compatible with Alexa, Google Home | $79.00 | 4.3 out of 5 stars | (16)
+B0GRFML6M1: Matter Smart Home Hub M1 Pro, Thread Border Router, Zigbee and IR Hub | $89.99 | 4.2 out of 5 stars | (8)
+B0CGYXPC9B: Google Nest Mini 2nd Gen - Wireless Bluetooth Speaker (Aqua) | $129.99 | 4.3 out of 5 stars | (2,155)
+B07YMJ57MB: Google Nest Wifi - Home Wi-Fi System - Wi-Fi Extender - Mesh Router fo | $91.64 | 4.4 out of 5 stars | (12,492)
+B09MV3J83D: SAMSUNG Galaxy 15W Wireless Charger Single, Cordless Super Fast Chargi | $59.00 | 4.3 out of 5 stars | (3,262)
+B0G3YCFLJT: Aeotec Smart Home Hub2 - V4, Works as a SmartThings Hub, Zigbee, Matte | $129.99 | 3.9 out of 5 stars | (42)
+B085VM9ZDD: Amazon eero 6 mesh wifi router - Supports internet plans up to 900 Mbp | $54.99 | 4.4 out of 5 stars | (29,458)
+B08ZK39NSL: Amazon eero 6+ mesh wifi router - Supports internet plans up to a Giga | $99.99 | 4.4 out of 5 stars | (10,559)
+B0D9555PBN: Amazon eero 7 dual-band mesh Wi-Fi 7 router (newest model) - Supports  | $239.99 | 4.4 out of 5 stars | (2,191)
+B0H44RPS63: attempt 1 failed (Amazon.com: YEELIGHT E1 Smart Home Hub, Matter Controller an), backing off
+B0H44RPS63: YEELIGHT E1 Smart Home Hub, Matter Controller and Thread Border Router | $39.99 | 3.0 out of 5 stars | (1)
+B01AVLTHY2: Lutron 1111111221 Caseta Pro Wireless Smart Bridge Home Lighting Kit | $249.00 | 4.7 out of 5 stars | (170)
+B0HLR6PGY1: L-BDGPRO2-WH Caseta Smart Hub PRO Pair Up to 74 Devices (Dimmers/Switc | $249.99 | None | None
+B07C5YZMG6: Lutron Caseta Smart Dimmer Switch (Smart Hub Required), No Neutral Req | $129.90 | 4.7 out of 5 stars | (5,667)
+B01M3XJUAD: Lutron Caseta Deluxe Smart Dimmer Starter Kit; 2 Smart Dimmers, Hub &  | $151.90 | 4.7 out of 5 stars | (2,585)
+B07G5V6M6G: Lutron Caseta Smart Dimmer Starter Kit w/ 1 OG Dimmer, Pico, Bracket & | $91.95 | 4.7 out of 5 stars | (2,704)
+B0C7LS14RR: Lutron Caseta Diva Smart Dimmer Switch (Smart Hub Required), No Neutra | $139.90 | 4.7 out of 5 stars | (686)
+B08GD3D9YJ: CHAMBERLAIN Smart Garage Control - Wireless Garage Hub and Sensor with | $64.98 | 4.3 out of 5 stars | (60,913)
+B0GV57H4YQ: Genie Aladdin Connect Smart Garage Door Controller, Single Door Kit AL | $49.99 | 4.6 out of 5 stars | (114)
+B07TZJYSR7: eKyro Smart Garage Door Opener - Universal WiFi Remote Controller Comp | $34.99 | 4.5 out of 5 stars | (3,897)
+B07TCW1WJ1: AGSHOME Smart Wi-Fi Garage Door Opener Remote, APP Control, Compatible | $22.99 | 4.3 out of 5 stars | (1,363)
+B084Z5QZR2: meross Smart Garage Door Opener Remote Work with HomeKit, Alexa and Go | $42.48 | 4.2 out of 5 stars | (6,697)
+B07L5DPK8P: meross Smart WiFi Garage Door Opener Remote Work with Alexa and Google | $32.43 | 4.4 out of 5 stars | (5,878)
+B0FMXX1W7D: attempt 1 failed (Amazon.com: meross Smart Garage Door Opener Remote, Apple Ho), backing off
+Traceback (most recent call last):
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 94, in <module>
+    asyncio.run(run(sys.argv[1], sys.argv[2], sys.argv[3:]))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 83, in run
+    await pg.goto("https://www.amazon.com/", wait_until="commit"); await pg.wait_for_timeout(4000)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\async_api\_generated.py", line 9869, in goto
+    await self._impl_obj.goto(
+    ...<4 lines>...
+    )
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_page.py", line 560, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.amazon.com/", waiting until "commit"
+

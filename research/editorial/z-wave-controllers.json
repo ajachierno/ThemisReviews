@@ -1,0 +1,415 @@
+{
+  "feature_weights": {
+    "long_range": 0.35,
+    "standalone": 0.3,
+    "multi_radio": 0.2,
+    "antenna": 0.15
+  },
+  "systems_note": "For USB sticks, the icons show the hub software they work with. For full hubs, they show the hub itself plus the voice assistants it connects to.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "radios",
+      "label": "Other radios"
+    },
+    {
+      "key": "needs",
+      "label": "Needs"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "long_range",
+      "label": "LR",
+      "type": "bool"
+    },
+    {
+      "key": "radios",
+      "label": "Other radios"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BW171KP3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "800 Series Long Range for $39.95, 4.6 stars from 619 reviews, and 500+ bought last month."
+    },
+    {
+      "asin": "B0G8JKPMV7",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, for $39.90."
+    },
+    {
+      "asin": "B0FL858V4Q",
+      "label": "Best for Home Assistant",
+      "kind": "special",
+      "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
+    },
+    {
+      "asin": "B08TWDNQ5Q",
+      "label": "Best All-in-One Hub",
+      "kind": "premium",
+      "why": "A SmartThings hub with Z-Wave, Zigbee, and Matter, no computer needed, with 2,139 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BW171KP3",
+      "brand": "Zooz",
+      "model": "ZST39 LR",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Z-Wave only",
+        "needs": "Computer running hub software"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": false
+      },
+      "verdict": "The best Z-Wave stick for most DIY setups: 800 Series Long Range, a low price, and the best ratings here.",
+      "pros": [
+        "800 Series with Long Range",
+        "4.6 stars from 619 reviews",
+        "OTA firmware updates",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Zooz says it's for advanced users only",
+        "Needs a dedicated computer running hub software",
+        "No external antenna"
+      ]
+    },
+    {
+      "asin": "B0G8JKPMV7",
+      "brand": "SONOFF",
+      "model": "Dongle Plus PZG23",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Z-Wave only",
+        "needs": "Computer running hub software"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": true
+      },
+      "verdict": "An 800 Series Long Range stick with an adjustable antenna and an extension cable in the box.",
+      "pros": [
+        "External 2 dBi antenna",
+        "USB extension cable included",
+        "800 Series with Long Range",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 176 reviews",
+        "Names Home Assistant and openHAB only",
+        "Needs a computer running hub software"
+      ]
+    },
+    {
+      "asin": "B0FL858V4Q",
+      "brand": "Home Assistant",
+      "model": "Connect ZWA-2",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB antenna base",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Z-Wave only",
+        "needs": "Home Assistant"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": true
+      },
+      "verdict": "The official Home Assistant Z-Wave adapter, with a tuned antenna and a setup wizard.",
+      "pros": [
+        "Built by the Home Assistant and Z-Wave JS team",
+        "Tuned antenna base for range",
+        "Couple-of-clicks migration from other adapters",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "$79, about double most sticks",
+        "Home Assistant only",
+        "Sold by Nabu Casa, stock wasn't shown at capture time"
+      ]
+    },
+    {
+      "asin": "B0DV9RFSR9",
+      "brand": "Aeotec",
+      "model": "Z-Stick 10 Pro",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Zigbee 3.0",
+        "needs": "Computer running hub software"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": true,
+        "antenna": false
+      },
+      "verdict": "Z-Wave Long Range and Zigbee 3.0 on one slim stick, so you use one USB port instead of two.",
+      "pros": [
+        "Z-Wave 800 and Zigbee 3.0 in one stick",
+        "Slim enough not to block nearby ports",
+        "Works with Z-Wave JS and Zigbee2MQTT",
+        "4.5 stars"
+      ],
+      "cons": [
+        "$59.99",
+        "Two radios in one stick can't be placed separately",
+        "Needs a computer running hub software"
+      ]
+    },
+    {
+      "asin": "B0D29Y1L5H",
+      "brand": "HomeSeer",
+      "model": "SmartStick G8",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Z-Wave only",
+        "needs": "Computer running hub software"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": false
+      },
+      "verdict": "An 800 Series Long Range stick that runs mesh and Long Range devices together and migrates older networks.",
+      "pros": [
+        "Runs mesh and Long Range devices at once",
+        "Migrates from 500, 700, and 800 Series controllers",
+        "Works with HomeSeer or Home Assistant"
+      ],
+      "cons": [
+        "Only 97 reviews",
+        "4.4 stars",
+        "Not a standalone hub"
+      ]
+    },
+    {
+      "asin": "B094NW5B68",
+      "brand": "Aeotec",
+      "model": "Z-Stick 7 Plus",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "USB stick",
+        "series": "700 Series",
+        "long_range": false,
+        "radios": "Z-Wave only",
+        "needs": "Computer running hub software"
+      },
+      "features": {
+        "long_range": false,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": false
+      },
+      "verdict": "A dependable 700 Series stick that works on a Raspberry Pi, Windows, Mac, or Linux.",
+      "pros": [
+        "Works with Raspberry Pi, Windows, Mac, and Linux",
+        "SmartStart and S2",
+        "Sold by Aeotec"
+      ],
+      "cons": [
+        "700 Series, no Long Range",
+        "No software included",
+        "$39.99, same as 800 Series sticks"
+      ]
+    },
+    {
+      "asin": "B0H5QKDKN2",
+      "brand": "SONOFF",
+      "model": "PoE Dongle Max (Dongle-MZG23)",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Network dongle",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Z-Wave only",
+        "needs": "Hub software on your network"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": false,
+        "multi_radio": false,
+        "antenna": true
+      },
+      "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
+      "pros": [
+        "Ethernet with PoE, Wi-Fi, or USB",
+        "Two adjustable antennas",
+        "Built-in web console",
+        "Aluminum case"
+      ],
+      "cons": [
+        "Only 26 reviews",
+        "Names Home Assistant, openHAB, and Z-Wave JS only",
+        "Network setup is more work than a USB stick"
+      ]
+    },
+    {
+      "asin": "B08TWDNQ5Q",
+      "brand": "Aeotec",
+      "model": "Smart Home Hub (SmartThings, V3)",
+      "systems": [
+        "smartthings",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "type": "Hub",
+        "series": "Z-Wave Plus",
+        "long_range": false,
+        "radios": "Zigbee, Matter, Wi-Fi",
+        "needs": "SmartThings app"
+      },
+      "features": {
+        "long_range": false,
+        "standalone": true,
+        "multi_radio": true,
+        "antenna": false
+      },
+      "verdict": "A ready-to-go SmartThings hub that adds Z-Wave and Zigbee without a computer.",
+      "pros": [
+        "No computer needed",
+        "Z-Wave, Zigbee, and Matter",
+        "Ethernet or Wi-Fi",
+        "2,139 reviews, 400+ bought in the past month"
+      ],
+      "cons": [
+        "Z-Wave Plus, no Long Range",
+        "Many automations depend on the SmartThings cloud",
+        "$159.99"
+      ]
+    },
+    {
+      "asin": "B0CR4G1G8M",
+      "brand": "Hubitat",
+      "model": "Elevation C-8 Pro",
+      "systems": [
+        "hubitat",
+        "alexa",
+        "google-home",
+        "apple-home"
+      ],
+      "specs": {
+        "type": "Hub",
+        "series": "800 Series",
+        "long_range": true,
+        "radios": "Zigbee, Matter, Bluetooth",
+        "needs": "Nothing else"
+      },
+      "features": {
+        "long_range": true,
+        "standalone": true,
+        "multi_radio": true,
+        "antenna": false
+      },
+      "verdict": "A local-first hub with 800 Series Long Range, Zigbee, and Matter, and no subscription required.",
+      "pros": [
+        "Automations run locally on the hub",
+        "800 Series Long Range, Zigbee, Matter, and Bluetooth",
+        "No subscription required",
+        "Works with Alexa, Google Home, and Apple Home"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$194.95",
+        "Steeper learning curve than SmartThings"
+      ]
+    },
+    {
+      "asin": "B0G52DX5M3",
+      "brand": "Homey",
+      "model": "Pro (2026)",
+      "systems": [
+        "homey",
+        "apple-home",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "type": "Hub",
+        "series": "Z-Wave Plus",
+        "long_range": false,
+        "radios": "Zigbee, Wi-Fi, BLE, IR, Matter, Thread",
+        "needs": "Nothing else"
+      },
+      "features": {
+        "long_range": false,
+        "standalone": true,
+        "multi_radio": true,
+        "antenna": false
+      },
+      "verdict": "The hub with the most radios: Z-Wave, Zigbee, Thread, Matter, Bluetooth, infrared, and Wi-Fi in one box.",
+      "pros": [
+        "Seven radio technologies in one hub",
+        "Works with Siri, Alexa, and Google",
+        "Local-first automations with Homey Flow"
+      ],
+      "cons": [
+        "$449",
+        "3.6 stars from 49 reviews",
+        "Z-Wave Plus, Long Range isn't listed"
+      ]
+    }
+  ],
+  "avoid": []
+}
