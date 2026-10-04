@@ -1,0 +1,495 @@
+{
+  "slug": "bluetooth-temperature-sensors",
+  "family": "temperature-sensors",
+  "family_title": "Temperature sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Bluetooth Temperature and Humidity Sensors",
+  "subtitle": "Cheap Bluetooth thermometer-hygrometers you can read on your phone, ranked.",
+  "intro": "We pulled the Bluetooth temperature and humidity sensors selling on Amazon and scored them on rating, review volume, and features: displays, range, and how easily Home Assistant can read them with a Bluetooth adapter or proxy.",
+  "reviews_ceiling": 50000,
+  "feature_weights": {
+    "ha_support": 0.3,
+    "display": 0.25,
+    "accuracy": 0.25,
+    "extras": 0.2
+  },
+  "systems_note": "Home Assistant reads Govee, SwitchBot, SensorPush, and Inkbird Bluetooth sensors through official integrations, using a Bluetooth adapter or an ESPHome Bluetooth proxy.",
+  "spec_fields": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "accuracy",
+      "label": "Stated accuracy"
+    },
+    {
+      "key": "range",
+      "label": "Bluetooth range"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07Y36FWTT",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "48,457 reviews at 4.5 stars, a 3 in. display, and ±0.54°F accuracy for $11.69."
+    },
+    {
+      "asin": "B07R586J37",
+      "label": "Best Mini",
+      "kind": "budget",
+      "why": "A tiny $13.99 sensor with 20 days of on-board storage and 13,308 reviews."
+    },
+    {
+      "asin": "B0BVZC9Q31",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "Three IP65 sensors with ±0.36°F accuracy and 394 ft. range."
+    },
+    {
+      "asin": "B08PKVRJJX",
+      "label": "Best Data Logger",
+      "kind": "premium",
+      "why": "Temperature, humidity, and barometric pressure with on-board logging and unlimited app history."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07Y36FWTT",
+      "brand": "Govee",
+      "model": "H5075",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "display": "3 in. LCD",
+        "accuracy": "±0.54°F, ±3% RH",
+        "range": "Not stated",
+        "extras": "Min/max, comfort indicator",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": true,
+        "display": true,
+        "accuracy": true,
+        "extras": true
+      },
+      "verdict": "The best Bluetooth sensor for most rooms: cheap, accurate, readable, and wildly popular.",
+      "pros": [
+        "$11.69",
+        "48,457 reviews, 10K+ bought in the past month",
+        "3 in. LCD with min/max and comfort indicator",
+        "Official Home Assistant support"
+      ],
+      "cons": [
+        "Bluetooth only, unless you add a Govee gateway",
+        "±3% RH humidity",
+        "AAA batteries"
+      ],
+      "name": "Govee Indoor Hygrometer Thermometer H5075 with Bluetooth App Control",
+      "image": "https://m.media-amazon.com/images/I/61Vm0Qx+NEL._SL1500_.jpg",
+      "price": 11.69,
+      "rating": 4.5,
+      "reviews_count": 48457,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B07R586J37",
+      "brand": "Govee",
+      "model": "H5074",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "display": "No display",
+        "accuracy": "±0.54°F, ±3% RH",
+        "range": "262 ft.",
+        "extras": "20 days on-board storage",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": true,
+        "display": false,
+        "accuracy": true,
+        "extras": true
+      },
+      "verdict": "A tiny sensor for drawers, cases, and closets, with 20 days of storage on board.",
+      "pros": [
+        "Very small",
+        "262 ft. range in the open",
+        "20 days of on-board data",
+        "13,308 reviews"
+      ],
+      "cons": [
+        "No display",
+        "4.3 stars",
+        "Bluetooth only"
+      ],
+      "name": "Govee Smart Bluetooth Thermometer Hygrometer H5074, Mini Humidity Sensor",
+      "image": "https://m.media-amazon.com/images/I/61MmGXfcmwL._SL1500_.jpg",
+      "price": 13.99,
+      "rating": 4.3,
+      "reviews_count": 13308,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B09DPCW47P",
+      "brand": "Govee",
+      "model": "H5100 (3-pack)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "display": "Small LCD",
+        "accuracy": "±0.54°F",
+        "range": "Not stated",
+        "extras": "Works with Govee H5151 Wi-Fi gateway",
+        "pack": "3 sensors"
+      },
+      "features": {
+        "ha_support": true,
+        "display": true,
+        "accuracy": true,
+        "extras": true
+      },
+      "verdict": "Three palm-sized sensors that can go online later with Govee's Wi-Fi gateway.",
+      "pros": [
+        "3 sensors for $31.99",
+        "Add the H5151 gateway for Wi-Fi alerts",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Gateway sold separately",
+        "Small screen",
+        "Only 1,052 reviews"
+      ],
+      "name": "Govee Hygrometer Thermometer 3 Pack H5100, Mini Bluetooth Humidity Sensor",
+      "image": "https://m.media-amazon.com/images/I/61ZSDxHARlL._SL1500_.jpg",
+      "price": 31.99,
+      "rating": 4.4,
+      "reviews_count": 1052,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0BVZC9Q31",
+      "brand": "SwitchBot",
+      "model": "Indoor/Outdoor Thermo-Hygrometer (3-pack)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "display": "Not stated",
+        "accuracy": "±0.36°F, ±1.8% RH",
+        "range": "394 ft.",
+        "extras": "IP65, dew point, VPD",
+        "pack": "3 sensors"
+      },
+      "features": {
+        "ha_support": true,
+        "display": false,
+        "accuracy": true,
+        "extras": true
+      },
+      "verdict": "Three weatherproof sensors with the best stated accuracy and range here.",
+      "pros": [
+        "IP65 for outdoors, fridges, and freezers",
+        "±0.36°F and ±1.8% RH",
+        "394 ft. Bluetooth range",
+        "10,109 reviews"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Remote alerts need a SwitchBot hub",
+        "$31.59"
+      ],
+      "name": "SwitchBot IP65 Indoor Outdoor Hygrometer Thermometer Wireless 3Packs, 394ft Bluetooth Range, Refrigerator Thermometer, Dewpoint/VPD/Absolute Humidity Sensor, 2-Year Battery Life, Free Data Storage",
+      "image": "https://m.media-amazon.com/images/I/61qG-0K2N5L._SL1500_.jpg",
+      "price": 31.59,
+      "rating": 4.2,
+      "reviews_count": 10109,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0CQLD3TXR",
+      "brand": "TempPro",
+      "model": "TempAir (backlit)",
+      "systems": [],
+      "systems_label": "TempPro app",
+      "specs": {
+        "display": "Backlit LCD",
+        "accuracy": "±0.9°F, ±2% RH",
+        "range": "260 ft.",
+        "extras": "2 years of data, no account needed",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": false,
+        "display": true,
+        "accuracy": false,
+        "extras": true
+      },
+      "verdict": "A backlit sensor whose app stores two years of data and doesn't need an account.",
+      "pros": [
+        "Backlit display",
+        "2 years of data storage",
+        "No app registration required",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "±0.9°F, less precise than Govee or SwitchBot",
+        "No Home Assistant integration",
+        "Bluetooth only"
+      ],
+      "name": "TempPro TempAir Bluetooth Hygrometer Thermometer for Greenhouse Up to 260ft",
+      "image": "https://m.media-amazon.com/images/I/71Ezj7kw9+L._AC_SL1500_.jpg",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews_count": 1779,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0DFWJSYLM",
+      "brand": "TempPro",
+      "model": "TempAir",
+      "systems": [],
+      "systems_label": "TempPro app",
+      "specs": {
+        "display": "Not stated",
+        "accuracy": "±0.5°F, ±2% RH",
+        "range": "260 ft.",
+        "extras": "2 years of data",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": false,
+        "display": false,
+        "accuracy": true,
+        "extras": true
+      },
+      "verdict": "A cheap, accurate sensor with two years of data logging.",
+      "pros": [
+        "$12.99",
+        "±0.5°F, ±2% RH",
+        "Auto-connects, 600+ bought in the past month"
+      ],
+      "cons": [
+        "Only 917 reviews",
+        "No Home Assistant integration",
+        "Bluetooth only"
+      ],
+      "name": "TempPro TempAir Bluetooth Thermometer Hygrometer, 260 ft Temperature Sensor",
+      "image": "https://m.media-amazon.com/images/I/71YprCa-uPL._AC_SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.3,
+      "reviews_count": 917,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B08PKWPKM2",
+      "brand": "SensorPush",
+      "model": "HT.w",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "SensorPush app",
+      "specs": {
+        "display": "No display",
+        "accuracy": "Not stated in bullets",
+        "range": "Not stated",
+        "extras": "Water resistant, 45 days on-board log",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": true,
+        "display": false,
+        "accuracy": false,
+        "extras": true
+      },
+      "verdict": "A water-resistant logger with 45 days of on-board memory, popular for cigars, instruments, and grow rooms.",
+      "pros": [
+        "4.6 stars",
+        "Water resistant",
+        "45 days of on-board logging",
+        "Heat index, dew point, and VPD"
+      ],
+      "cons": [
+        "$69.99 for one sensor",
+        "No display",
+        "Remote access needs the SensorPush gateway"
+      ],
+      "name": "SensorPush HT.w Temperature & Humidity Sensor, Water Resistant, Bluetooth",
+      "image": "https://m.media-amazon.com/images/I/71T19sN-NJL._SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews_count": 1672,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B08PKVRJJX",
+      "brand": "SensorPush",
+      "model": "HTP.xw",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "SensorPush app",
+      "specs": {
+        "display": "No display",
+        "accuracy": "Not stated in bullets",
+        "range": "Not stated",
+        "extras": "Barometric pressure, water resistant",
+        "pack": "1 sensor"
+      },
+      "features": {
+        "ha_support": true,
+        "display": false,
+        "accuracy": false,
+        "extras": true
+      },
+      "verdict": "SensorPush's top sensor, adding barometric pressure to temperature and humidity.",
+      "pros": [
+        "Adds barometric pressure",
+        "On-board logging plus unlimited app history",
+        "4.5 stars, 700+ bought in the past month"
+      ],
+      "cons": [
+        "$89.99",
+        "No display",
+        "Remote access needs the SensorPush gateway"
+      ],
+      "name": "SensorPush HTP.xw Temperature, Humidity & Barometric Pressure, Bluetooth",
+      "image": "https://m.media-amazon.com/images/I/71YOvgeINaL._SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.5,
+      "reviews_count": 1006,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B07DQNFJVL",
+      "brand": "Inkbird",
+      "model": "IBS-TH1 Plus",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Inkbird app",
+      "specs": {
+        "display": "LCD",
+        "accuracy": "Not stated in bullets",
+        "range": "100 ft.",
+        "extras": "External probe for liquids",
+        "pack": "1 sensor + probe"
+      },
+      "features": {
+        "ha_support": true,
+        "display": true,
+        "accuracy": false,
+        "extras": true
+      },
+      "verdict": "A display sensor with an external probe for fermenters, aquariums, and liquids.",
+      "pros": [
+        "External waterproof probe included",
+        "LCD display",
+        "Add the Inkbird M1 gateway for Wi-Fi alerts"
+      ],
+      "cons": [
+        "3.9 stars",
+        "100 ft. range",
+        "$35.99"
+      ],
+      "name": "Inkbird IBS-TH1 Plus Wireless Bluetooth Temperature and Humidity Monitor Thermometer and Hygrometer Used for Brewing Meat Plant Cigar Storage (Battery not Included)",
+      "image": "https://m.media-amazon.com/images/I/61I2OmUo-0L._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 3.9,
+      "reviews_count": 348,
+      "bought": null
+    },
+    {
+      "asin": "B01H3669T4",
+      "brand": "Elitech",
+      "model": "GSP-6 dual probe",
+      "systems": [],
+      "systems_label": "Elitech app",
+      "specs": {
+        "display": "Not stated",
+        "accuracy": "Not stated in bullets",
+        "range": "Not stated",
+        "extras": "Dual probe, -40°F to 185°F, FDA 21 CFR Part 11",
+        "pack": "1 logger + probes"
+      },
+      "features": {
+        "ha_support": false,
+        "display": false,
+        "accuracy": false,
+        "extras": true
+      },
+      "verdict": "A compliance-grade logger for vaccine fridges and medical storage.",
+      "pros": [
+        "Designed for CDC/VFC and FDA 21 CFR Part 11 requirements",
+        "Separable probe, magnetic mount",
+        "-40°F to 185°F"
+      ],
+      "cons": [
+        "Only 9 left at capture time",
+        "Overkill for a living room",
+        "No Home Assistant integration"
+      ],
+      "name": "Elitech GSP-6 Dual Probe Bluetooth Temperature Humidity Data Logger",
+      "image": "https://m.media-amazon.com/images/I/71JiUh-ctsL._SL1500_.jpg",
+      "price": 38.99,
+      "rating": 4.1,
+      "reviews_count": 388,
+      "bought": "200+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "How accurate are these sensors?",
+      "a": "Most smart sensors are within about 1°F and 3 to 5% relative humidity, which is fine for rooms, nurseries, and basements. For fridges, freezers, or reptile tanks, pick one with a probe or a stated tighter accuracy, and check it against a reference thermometer once."
+    },
+    {
+      "q": "What can I automate with one?",
+      "a": "Turn on a fan or dehumidifier when humidity climbs, get an alert when a freezer warms up or pipes risk freezing, or let a smart thermostat average temperatures across rooms."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}

@@ -72,6 +72,12 @@
           "ready": true
         },
         {
+          "slug": "z-wave-temperature-sensors",
+          "title": "Z-Wave temperature and humidity sensors",
+          "family": "temperature-sensors",
+          "ready": true
+        },
+        {
           "slug": "z-wave-door-locks",
           "title": "Z-Wave smart locks",
           "family": "locks",
@@ -82,6 +88,11 @@
           "title": "Z-Wave thermostats",
           "family": "thermostats",
           "ready": true
+        },
+        {
+          "slug": "z-wave-buttons",
+          "title": "Z-Wave scene controllers and remotes",
+          "family": "buttons"
         },
         {
           "slug": "z-wave-controllers",
@@ -168,11 +179,14 @@
         },
         {
           "slug": "zigbee-temperature-sensors",
-          "title": "Zigbee temperature and humidity sensors"
+          "title": "Zigbee temperature and humidity sensors",
+          "family": "temperature-sensors",
+          "ready": true
         },
         {
           "slug": "zigbee-buttons",
-          "title": "Zigbee buttons and remotes"
+          "title": "Zigbee buttons and remotes",
+          "family": "buttons"
         },
         {
           "slug": "zigbee-coordinators",
@@ -248,6 +262,12 @@
           "slug": "wifi-leak-sensors",
           "title": "Wi-Fi leak sensors",
           "family": "leak-sensors",
+          "ready": true
+        },
+        {
+          "slug": "wifi-temperature-sensors",
+          "title": "Wi-Fi temperature and humidity sensors",
+          "family": "temperature-sensors",
           "ready": true
         },
         {
@@ -327,7 +347,9 @@
         },
         {
           "slug": "bluetooth-temperature-sensors",
-          "title": "Bluetooth temperature and humidity sensors"
+          "title": "Bluetooth temperature and humidity sensors",
+          "family": "temperature-sensors",
+          "ready": true
         },
         {
           "slug": "bluetooth-plant-sensors",
@@ -513,7 +535,8 @@
         },
         {
           "slug": "lutron-pico-remotes",
-          "title": "Pico remotes"
+          "title": "Pico remotes",
+          "family": "buttons"
         },
         {
           "slug": "lutron-shades",
@@ -564,7 +587,9 @@
         },
         {
           "slug": "rf-temperature-sensors",
-          "title": "433 MHz temperature sensors"
+          "title": "433 MHz temperature sensors",
+          "family": "temperature-sensors",
+          "ready": true
         },
         {
           "slug": "rf-bridges",

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Best 433 MHz Wireless Temperature Sensors (2026) | ThemisReviews</title>
+<meta name="description" content="We pulled the 433 MHz wireless temperature sensors selling on Amazon and scored them on rating, review volume, and features. These are standalone sensors and displays; the guide below explains how hobbyists read them in Home Assistant.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://themisreviews.com/rf-temperature-sensors.html">
+<meta name="theme-color" content="#0b0a17">
+<link rel="icon" href="assets/favicon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ThemisReviews">
+<meta property="og:title" content="The Best 433 MHz Wireless Temperature Sensors (2026) | ThemisReviews">
+<meta property="og:description" content="We pulled the 433 MHz wireless temperature sensors selling on Amazon and scored them on rating, review volume, and features. These are standalone sensors and displays; the guide below explains how hobbyists read them in Home Assistant.">
+<meta property="og:image" content="https://themisreviews.com/assets/logo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best 433 MHz Wireless Temperature Sensors", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor", "url": "https://www.amazon.com/dp/B06XKH666P?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range", "url": "https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors", "url": "https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)", "url": "https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor", "url": "https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer", "url": "https://www.amazon.com/dp/B0BMTNC9DR?tag=themisreviews-20&linkCode=ll1"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can a 433 MHz sensor work with a smart home?", "acceptedAnswer": {"@type": "Answer", "text": "Not on its own. These sensors talk to their own display. With a cheap USB SDR receiver and the rtl_433 software, Home Assistant can read many AcuRite, La Crosse, and Ambient Weather sensors, but that's a do-it-yourself project, not a supported feature."}}, {"@type": "Question", "name": "Will a replacement sensor work with my display?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the listing names your display's model. 433 MHz sensors use brand-specific formats, so an AcuRite sensor won't pair with a La Crosse display."}}, {"@type": "Question", "name": "Where should an outdoor sensor go?", "acceptedAnswer": {"@type": "Answer", "text": "In the shade, out of direct sun and rain, and a few feet off the ground. A sensor in the sun can read 10°F or more too high."}}]}</script>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site">
+  <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
+    <span>ThemisReviews</span></a>
+  <span class="slogan">Smart home tech, weighed fairly.</span>
+</header>
+
+<main>
+
+  
+  <nav class="quicknav quicknav-bar" aria-label="Jump straight to reviews">
+    <div class="quicknav-controls">
+      <a class="back-home" href="./">&larr; Home</a>
+      <select id="qn-protocol" aria-label="Protocol">
+        <option value="">Choose a protocol&hellip;</option>
+        <option value="z-wave">Z-Wave</option><option value="zigbee">Zigbee</option><option value="wifi">Wi-Fi</option><option value="bluetooth">Bluetooth</option><option value="thread">Thread</option><option value="matter">Matter</option><option value="lutron-clear-connect">Lutron Clear Connect</option><option value="433-mhz-rf">433 MHz RF</option>
+      </select>
+      <select id="qn-review" aria-label="Review" disabled>
+        <option value="">Choose a review&hellip;</option>
+      </select>
+      <button type="button" id="qn-go" class="btn" disabled>Go</button>
+    </div>
+    <script>(function(){
+  var subs = {"z-wave": [{"slug": "z-wave-switches", "title": "Z-Wave light switches", "ready": true}, {"slug": "z-wave-dimmers", "title": "Z-Wave dimmers", "ready": true}, {"slug": "z-wave-smart-plugs", "title": "Z-Wave smart plugs", "ready": true}, {"slug": "z-wave-door-sensors", "title": "Z-Wave door and window sensors", "ready": true}, {"slug": "z-wave-motion-sensors", "title": "Z-Wave motion sensors", "ready": true}, {"slug": "z-wave-leak-sensors", "title": "Z-Wave leak sensors", "ready": true}, {"slug": "z-wave-temperature-sensors", "title": "Z-Wave temperature and humidity sensors", "ready": true}, {"slug": "z-wave-door-locks", "title": "Z-Wave smart locks", "ready": true}, {"slug": "z-wave-thermostats", "title": "Z-Wave thermostats", "ready": true}, {"slug": "z-wave-buttons", "title": "Z-Wave scene controllers and remotes", "ready": false}, {"slug": "z-wave-controllers", "title": "Z-Wave hubs and controllers", "ready": true}], "zigbee": [{"slug": "zigbee-switches", "title": "Zigbee light switches", "ready": true}, {"slug": "zigbee-dimmers", "title": "Zigbee dimmers", "ready": true}, {"slug": "zigbee-smart-plugs", "title": "Zigbee smart plugs", "ready": true}, {"slug": "zigbee-bulbs", "title": "Zigbee bulbs", "ready": true}, {"slug": "zigbee-door-sensors", "title": "Zigbee door and window sensors", "ready": true}, {"slug": "zigbee-motion-sensors", "title": "Zigbee motion sensors", "ready": true}, {"slug": "zigbee-leak-sensors", "title": "Zigbee leak sensors", "ready": true}, {"slug": "zigbee-locks", "title": "Zigbee smart locks", "ready": true}, {"slug": "zigbee-temperature-sensors", "title": "Zigbee temperature and humidity sensors", "ready": true}, {"slug": "zigbee-buttons", "title": "Zigbee buttons and remotes", "ready": false}, {"slug": "zigbee-coordinators", "title": "Zigbee hubs and coordinators", "ready": true}], "wifi": [{"slug": "wifi-switches", "title": "Wi-Fi light switches", "ready": true}, {"slug": "wifi-dimmers", "title": "Wi-Fi dimmers", "ready": true}, {"slug": "wifi-smart-plugs", "title": "Wi-Fi smart plugs", "ready": true}, {"slug": "wifi-bulbs", "title": "Wi-Fi bulbs", "ready": true}, {"slug": "wifi-door-sensors", "title": "Wi-Fi door and window sensors", "ready": true}, {"slug": "wifi-motion-sensors", "title": "Wi-Fi motion sensors", "ready": true}, {"slug": "wifi-leak-sensors", "title": "Wi-Fi leak sensors", "ready": true}, {"slug": "wifi-temperature-sensors", "title": "Wi-Fi temperature and humidity sensors", "ready": true}, {"slug": "wifi-locks", "title": "Wi-Fi smart locks", "ready": true}, {"slug": "wifi-thermostats", "title": "Wi-Fi thermostats", "ready": true}, {"slug": "wifi-indoor-cameras", "title": "Wi-Fi indoor cameras", "ready": true}, {"slug": "wifi-outdoor-cameras", "title": "Wi-Fi outdoor cameras", "ready": true}, {"slug": "wifi-doorbells", "title": "Wi-Fi video doorbells", "ready": true}, {"slug": "wifi-garage-openers", "title": "Wi-Fi garage door openers", "ready": true}], "bluetooth": [{"slug": "bluetooth-switches", "title": "Bluetooth light switches", "ready": true}, {"slug": "bluetooth-locks", "title": "Bluetooth smart locks", "ready": true}, {"slug": "bluetooth-temperature-sensors", "title": "Bluetooth temperature and humidity sensors", "ready": true}, {"slug": "bluetooth-plant-sensors", "title": "Bluetooth plant sensors", "ready": false}, {"slug": "bluetooth-trackers", "title": "Bluetooth trackers", "ready": false}, {"slug": "bluetooth-proxies", "title": "Bluetooth proxies", "ready": false}], "thread": [{"slug": "thread-switches", "title": "Thread light switches", "ready": true}, {"slug": "thread-smart-plugs", "title": "Thread smart plugs", "ready": true}, {"slug": "thread-blinds", "title": "Thread blinds and shades", "ready": false}, {"slug": "thread-border-routers", "title": "Thread border routers", "ready": true}], "matter": [{"slug": "matter-switches", "title": "Matter light switches", "ready": true}, {"slug": "matter-dimmers", "title": "Matter dimmers", "ready": true}, {"slug": "matter-smart-plugs", "title": "Matter smart plugs", "ready": true}, {"slug": "matter-bulbs", "title": "Matter bulbs", "ready": true}, {"slug": "matter-door-sensors", "title": "Matter door and window sensors", "ready": true}, {"slug": "matter-motion-sensors", "title": "Matter motion sensors", "ready": true}, {"slug": "matter-leak-sensors", "title": "Matter leak sensors", "ready": true}, {"slug": "matter-locks", "title": "Matter smart locks", "ready": true}, {"slug": "matter-thermostats", "title": "Matter thermostats", "ready": true}, {"slug": "matter-controllers", "title": "Matter hubs and controllers", "ready": true}], "lutron-clear-connect": [{"slug": "lutron-caseta-dimmers", "title": "Caseta light switches and dimmers", "ready": true}, {"slug": "lutron-pico-remotes", "title": "Pico remotes", "ready": false}, {"slug": "lutron-shades", "title": "Lutron shades", "ready": false}, {"slug": "lutron-bridges", "title": "Lutron bridges", "ready": true}], "433-mhz-rf": [{"slug": "rf-light-switches", "title": "RF wireless light switch kits", "ready": true}, {"slug": "rf-weather-stations", "title": "433 MHz weather stations", "ready": false}, {"slug": "rf-temperature-sensors", "title": "433 MHz temperature sensors", "ready": true}, {"slug": "rf-bridges", "title": "RF bridges and SDR receivers", "ready": false}]};
+  var proto = document.getElementById('qn-protocol'), sub = document.getElementById('qn-review'), go = document.getElementById('qn-go');
+  function fill(){
+    var list = subs[proto.value] || [];
+    sub.innerHTML = '<option value="">Choose a review…</option>';
+    list.forEach(function(x){
+      var o = document.createElement('option');
+      o.value = x.ready ? x.slug : '';
+      o.textContent = x.ready ? x.title : x.title + ' (coming soon)';
+      o.disabled = !x.ready;
+      sub.appendChild(o);
+    });
+    sub.disabled = !list.length; go.disabled = true;
+  }
+  function open(){ if(sub.value){ window.location.href = sub.value + '.html'; } }
+  proto.addEventListener('change', fill);
+  sub.addEventListener('change', function(){ go.disabled = !sub.value; });
+  var cur = ["433-mhz-rf", "rf-temperature-sensors"];
+  if(cur){ proto.value = cur[0]; fill(); sub.value = cur[1]; go.disabled = true; }
+  sub.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ open(); } });
+  go.addEventListener('click', open);
+})();</script>
+  </nav>
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; <a href="./#433-mhz-rf">433 MHz RF</a> &rsaquo; 433 MHz temperature sensors</nav>
+  <section class="lead">
+    <h1>The Best 433 MHz Wireless Temperature Sensors</h1>
+    <p class="sub">Indoor-outdoor thermometers and replacement sensors on the 433 MHz band.</p>
+    <p class="intro">We pulled the 433 MHz wireless temperature sensors selling on Amazon and scored them on rating, review volume, and features. These are standalone sensors and displays; the guide below explains how hobbyists read them in Home Assistant.</p>
+    <p class="muted tiny">Prices, ratings, and review counts captured from Amazon on 2026-10-04.</p>
+  </section>
+  <nav class="jump" aria-label="On this page"><a href="#picks" class="jump-all">Top picks</a><a href="#compare">Compare</a><a href="#ranked">Full list</a><a href="#guide">Buyer's guide</a></nav>
+  <section id="picks">
+    <h2>Our picks</h2>
+    <div class="heroes">
+    <a class="hero-card overall" href="https://www.amazon.com/dp/B06XKH666P?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">
+      <span class="hero-tag">Best Overall</span>
+      <img src="https://m.media-amazon.com/images/I/71ehHPphM-L._SL1500_.jpg" alt="TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor" loading="lazy">
+      <div class="hero-body">
+        <div class="hero-brand">TempPro</div>
+        <div class="hero-name">TempPro TempAir 500 FT</div>
+        <div class="hero-meta"><span class="stars" style="--pct:84%" aria-label="4.2 out of 5 stars"></span> <b>4.2</b> <span class="muted">(36,041)</span></div>
+        <p class="hero-why">A display and outdoor sensor with 500 ft. range, 36,041 reviews, and 6K+ bought last month, for $19.99.</p>
+        <div class="hero-price">$19.99</div>
+        <span class="btn">View on Amazon &rarr;</span>
+      </div>
+    </a>
+    <a class="hero-card budget" href="https://www.amazon.com/dp/B0BMTNC9DR?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">
+      <span class="hero-tag">Best Budget</span>
+      <img src="https://m.media-amazon.com/images/I/415JO5bu6JL._SL1500_.jpg" alt="Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer" loading="lazy">
+      <div class="hero-body">
+        <div class="hero-brand">Geevon</div>
+        <div class="hero-name">Geevon TX19 sensor</div>
+        <div class="hero-meta"><span class="stars" style="--pct:84%" aria-label="4.2 out of 5 stars"></span> <b>4.2</b> <span class="muted">(118)</span></div>
+        <p class="hero-why">A $9.99 433 MHz replacement sensor for Geevon weather stations.</p>
+        <div class="hero-price">$9.99</div>
+        <span class="btn">View on Amazon &rarr;</span>
+      </div>
+    </a>
+    <a class="hero-card special" href="https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">
+      <span class="hero-tag">Best Replacement Sensor</span>
+      <img src="https://m.media-amazon.com/images/I/515r3f5dgXL._AC_SL1500_.jpg" alt="AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)" loading="lazy">
+      <div class="hero-body">
+        <div class="hero-brand">AcuRite</div>
+        <div class="hero-name">AcuRite 06002M / 592TXR sensor</div>
+        <div class="hero-meta"><span class="stars" style="--pct:92%" aria-label="4.6 out of 5 stars"></span> <b>4.6</b> <span class="muted">(12,084)</span></div>
+        <p class="hero-why">AcuRite&#x27;s 592TXR sensor, 4.6 stars from 12,084 reviews, sold by Amazon.</p>
+        <div class="hero-price">$17.99</div>
+        <span class="btn">View on Amazon &rarr;</span>
+      </div>
+    </a>
+    <a class="hero-card premium" href="https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">
+      <span class="hero-tag">Best Multi-Room Kit</span>
+      <img src="https://m.media-amazon.com/images/I/61YYf3bA7gL._SL1500_.jpg" alt="Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range" loading="lazy">
+      <div class="hero-body">
+        <div class="hero-brand">Geevon</div>
+        <div class="hero-name">Geevon Indoor/outdoor thermometer (3 sensors)</div>
+        <div class="hero-meta"><span class="stars" style="--pct:86%" aria-label="4.3 out of 5 stars"></span> <b>4.3</b> <span class="muted">(2,724)</span></div>
+        <p class="hero-why">A display with three 433 MHz sensors for four locations at once, for $23.99.</p>
+        <div class="hero-price">$23.99</div>
+        <span class="btn">View on Amazon &rarr;</span>
+      </div>
+    </a></div>
+  </section>
+  <section id="compare">
+    <h2>Side-by-side</h2>
+    <p class="swipe-hint">Swipe the table sideways to see every column.</p>
+    <div class="tablewrap"><table class="ptable"><thead><tr><th>#</th><th>Sensor</th><th>Price</th><th>Rating</th><th>Reviews</th><th>Works with</th><th>Type</th><th>Frequency</th><th>Range</th><th>Sensors</th><th>Score</th></tr></thead><tbody><tr><td class="c">1</td><td><a href="#B06XKH666P">TempPro TempAir 500 FT</a></td><td>$19.99</td><td class="c">4.2</td><td class="c">36,041</td><td><span class="tiny muted">Standalone display</span></td><td>Display + 1 sensor</td><td>Not stated in listing</td><td>500 ft.</td><td>1 (up to 3)</td><td class="c"><b>85</b></td></tr><tr><td class="c">2</td><td><a href="#B09R1TP7HF">Geevon Indoor/outdoor thermometer (3 sensors)</a></td><td>$23.99</td><td class="c">4.3</td><td class="c">2,724</td><td><span class="tiny muted">Standalone display</span></td><td>Display + 3 sensors</td><td>433 MHz</td><td>200 ft.</td><td>3</td><td class="c"><b>81</b></td></tr><tr><td class="c">3</td><td><a href="#B0DQPT4BP1">TempPro TempAir 500 FT (3 sensors)</a></td><td>$33.99</td><td class="c">4.3</td><td class="c">296</td><td><span class="tiny muted">Standalone display</span></td><td>Display + 3 sensors</td><td>Not stated in listing</td><td>500 ft.</td><td>3</td><td class="c"><b>80</b></td></tr><tr><td class="c">4</td><td><a href="#B00T0K8NXC">AcuRite 06002M / 592TXR sensor</a></td><td>$17.99</td><td class="c">4.6</td><td class="c">12,084</td><td><span class="tiny muted">AcuRite displays</span></td><td>Replacement sensor</td><td>Not stated in listing</td><td>Not stated</td><td>1</td><td class="c"><b>76</b></td></tr><tr><td class="c">5</td><td><a href="#B0BLX7RQRG">La Crosse TX141TH-BV4</a></td><td>$20.99</td><td class="c">4.3</td><td class="c">2,250</td><td><span class="tiny muted">La Crosse displays</span></td><td>Replacement sensor</td><td>Not stated in listing</td><td>330 ft.</td><td>1</td><td class="c"><b>73</b></td></tr><tr><td class="c">6</td><td><a href="#B0BMTNC9DR">Geevon TX19 sensor</a></td><td>$9.99</td><td class="c">4.2</td><td class="c">118</td><td><span class="tiny muted">Geevon displays</span></td><td>Replacement sensor</td><td>433 MHz</td><td>200 ft.</td><td>1</td><td class="c"><b>59</b></td></tr></tbody></table></div>
+    <p class="tiny muted legend">Works with: hover or tap an icon for the system name. A system is shown when it supports the product directly or through the hub the listing requires. These sensors talk to their own displays and don&#x27;t connect to smart home platforms. Home Assistant users can read many of them with a USB SDR receiver and rtl_433, but that isn&#x27;t supported by the makers.</p>
+  </section>
+  <section id="ranked">
+    <h2>The full ranking</h2>
+    <p class="group-sub">Scored out of 100: 45% customer rating, 30% review volume, 25% features.</p>
+    
+    <article class="card awarded" id="B06XKH666P">
+      <div class="rank">#1</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/71ehHPphM-L._SL1500_.jpg" alt="TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"><span class="badge overall">Best Overall</span></div>
+          <div class="brand">TempPro</div>
+          <h3>TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor</h3>
+          <div class="rate"><span class="stars" style="--pct:84%" aria-label="4.2 out of 5 stars"></span> <b>4.2</b> <span class="muted">36,041 reviews</span></div>
+          <div class="scorebar"><span style="width:85%"></span><em>Score 85/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$19.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B06XKH666P?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">6K+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">The most popular indoor-outdoor thermometer, with a long 500 ft. range.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Display + 1 sensor</dd></div><div class="spec"><dt>Frequency</dt><dd>Not stated in listing</dd></div><div class="spec"><dt>Range</dt><dd>500 ft.</dd></div><div class="spec"><dt>Sensors</dt><dd>1 (up to 3)</dd></div><div class="spec"><dt>Works with</dt><dd>Its own display</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>500 ft. range</li><li>36,041 reviews, 6K+ bought in the past month</li><li>Min/max records and trend arrows</li><li>$19.99</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Frequency isn&#x27;t stated in the listing</li><li>4.2 stars</li><li>Extra sensors sold separately</li></ul></div>
+      </div>
+    </article>
+    <article class="card awarded" id="B09R1TP7HF">
+      <div class="rank">#2</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/61YYf3bA7gL._SL1500_.jpg" alt="Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"><span class="badge premium">Best Multi-Room Kit</span></div>
+          <div class="brand">Geevon</div>
+          <h3>Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range</h3>
+          <div class="rate"><span class="stars" style="--pct:86%" aria-label="4.3 out of 5 stars"></span> <b>4.3</b> <span class="muted">2,724 reviews</span></div>
+          <div class="scorebar"><span style="width:81%"></span><em>Score 81/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$23.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">200+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">A 433 MHz display kit that shows four locations at once, with max/min and alarms.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Display + 3 sensors</dd></div><div class="spec"><dt>Frequency</dt><dd>433 MHz</dd></div><div class="spec"><dt>Range</dt><dd>200 ft.</dd></div><div class="spec"><dt>Sensors</dt><dd>3</dd></div><div class="spec"><dt>Works with</dt><dd>Its own display</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>3 sensors included</li><li>433 MHz stated in the listing</li><li>Max/min and alarm functions</li><li>2,724 reviews</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>200 ft. range</li><li>Indoor reading starts at 50°F</li><li>Sold by the brand</li></ul></div>
+      </div>
+    </article>
+    <article class="card" id="B0DQPT4BP1">
+      <div class="rank">#3</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/71ITv05FpKL._SL1500_.jpg" alt="TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"></div>
+          <div class="brand">TempPro</div>
+          <h3>TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors</h3>
+          <div class="rate"><span class="stars" style="--pct:86%" aria-label="4.3 out of 5 stars"></span> <b>4.3</b> <span class="muted">296 reviews</span></div>
+          <div class="scorebar"><span style="width:80%"></span><em>Score 80/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$33.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">100+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">The three-sensor version, with alerts and ±0.5°F stated accuracy.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Display + 3 sensors</dd></div><div class="spec"><dt>Frequency</dt><dd>Not stated in listing</dd></div><div class="spec"><dt>Range</dt><dd>500 ft.</dd></div><div class="spec"><dt>Sensors</dt><dd>3</dd></div><div class="spec"><dt>Works with</dt><dd>Its own display</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>3 waterproof sensors</li><li>±0.5°F, ±2-3% RH</li><li>Out-of-range alerts on the display</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Only 296 reviews</li><li>$33.99</li><li>Frequency isn&#x27;t stated</li></ul></div>
+      </div>
+    </article>
+    <article class="card awarded" id="B00T0K8NXC">
+      <div class="rank">#4</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/515r3f5dgXL._AC_SL1500_.jpg" alt="AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"><span class="badge special">Best Replacement Sensor</span></div>
+          <div class="brand">AcuRite</div>
+          <h3>AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)</h3>
+          <div class="rate"><span class="stars" style="--pct:92%" aria-label="4.6 out of 5 stars"></span> <b>4.6</b> <span class="muted">12,084 reviews</span></div>
+          <div class="scorebar"><span style="width:76%"></span><em>Score 76/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$17.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">1K+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">The replacement sensor for most AcuRite weather stations, with an A-B-C channel switch.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Replacement sensor</dd></div><div class="spec"><dt>Frequency</dt><dd>Not stated in listing</dd></div><div class="spec"><dt>Range</dt><dd>Not stated</dd></div><div class="spec"><dt>Sensors</dt><dd>1</dd></div><div class="spec"><dt>Works with</dt><dd>Displays that use 00592TX, 06002M, and related sensors</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>4.6 stars from 12,084 reviews</li><li>A-B-C channel switch</li><li>Sold by Amazon</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Check the model number on your old sensor first</li><li>AcuRite warns a similar-looking sensor isn&#x27;t compatible</li><li>No display</li></ul></div>
+      </div>
+    </article>
+    <article class="card" id="B0BLX7RQRG">
+      <div class="rank">#5</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/41MY2VJ3vGL._SL1500_.jpg" alt="TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"></div>
+          <div class="brand">La Crosse</div>
+          <h3>TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor</h3>
+          <div class="rate"><span class="stars" style="--pct:86%" aria-label="4.3 out of 5 stars"></span> <b>4.3</b> <span class="muted">2,250 reviews</span></div>
+          <div class="scorebar"><span style="width:73%"></span><em>Score 73/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$20.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">2K+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">A weather-resistant replacement sensor for a long list of La Crosse stations.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Replacement sensor</dd></div><div class="spec"><dt>Frequency</dt><dd>Not stated in listing</dd></div><div class="spec"><dt>Range</dt><dd>330 ft.</dd></div><div class="spec"><dt>Sensors</dt><dd>1</dd></div><div class="spec"><dt>Works with</dt><dd>Listed La Crosse station models only</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>330 ft. range</li><li>-40°F to 140°F</li><li>2K+ bought in the past month, sold by Amazon</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Only works with the station models it lists</li><li>Batteries not included</li><li>4.3 stars</li></ul></div>
+      </div>
+    </article>
+    <article class="card awarded" id="B0BMTNC9DR">
+      <div class="rank">#6</div>
+      <div class="card-head">
+        <div class="card-img"><img src="https://m.media-amazon.com/images/I/415JO5bu6JL._SL1500_.jpg" alt="Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer" loading="lazy"></div>
+        <div class="card-title">
+          <div class="badges"><span class="badge budget">Best Budget</span></div>
+          <div class="brand">Geevon</div>
+          <h3>Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer</h3>
+          <div class="rate"><span class="stars" style="--pct:84%" aria-label="4.2 out of 5 stars"></span> <b>4.2</b> <span class="muted">118 reviews</span></div>
+          <div class="scorebar"><span style="width:59%"></span><em>Score 59/100</em></div>
+        </div>
+        <div class="card-buy">
+          <div class="price">$9.99</div>
+          <a class="btn" href="https://www.amazon.com/dp/B0BMTNC9DR?tag=themisreviews-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <div class="tiny muted">50+ bought in past month</div>
+        </div>
+      </div>
+      <p class="verdict">A cheap 433 MHz add-on or replacement for Geevon weather stations.</p>
+      <dl class="specs"><div class="spec"><dt>Type</dt><dd>Replacement sensor</dd></div><div class="spec"><dt>Frequency</dt><dd>433 MHz</dd></div><div class="spec"><dt>Range</dt><dd>200 ft.</dd></div><div class="spec"><dt>Sensors</dt><dd>1</dd></div><div class="spec"><dt>Works with</dt><dd>Listed Geevon station models</dd></div></dl>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul><li>$9.99</li><li>433 MHz stated, every 30 seconds</li><li>Channel 1, 2, or 3</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Geevon stations only</li><li>Only 118 reviews</li><li>200 ft. range</li></ul></div>
+      </div>
+    </article>
+  </section>
+  
+  <section id="guide" class="guide">
+    <h2>Buyer's guide</h2>
+    <details><summary>Can a 433 MHz sensor work with a smart home?</summary><p>Not on its own. These sensors talk to their own display. With a cheap USB SDR receiver and the rtl_433 software, Home Assistant can read many AcuRite, La Crosse, and Ambient Weather sensors, but that&#x27;s a do-it-yourself project, not a supported feature.</p></details><details><summary>Will a replacement sensor work with my display?</summary><p>Only if the listing names your display&#x27;s model. 433 MHz sensors use brand-specific formats, so an AcuRite sensor won&#x27;t pair with a La Crosse display.</p></details><details><summary>Where should an outdoor sensor go?</summary><p>In the shade, out of direct sun and rain, and a few feet off the ground. A sensor in the sun can read 10°F or more too high.</p></details>
+  </section>
+  
+  <section id="more">
+    <h2>More 433 MHz RF reviews</h2>
+    <div class="sub-grid flat"><a class="sub-link" href="rf-light-switches.html">RF wireless light switch kits <span class="arrow">&rarr;</span></a></div>
+  </section>
+  
+  <section id="other">
+    <h2>Temperature sensors on other protocols</h2>
+    <div class="sub-grid flat"><a class="sub-link" href="z-wave-temperature-sensors.html">Z-Wave temperature and humidity sensors <span class="arrow">&rarr;</span></a><a class="sub-link" href="zigbee-temperature-sensors.html">Zigbee temperature and humidity sensors <span class="arrow">&rarr;</span></a><a class="sub-link" href="wifi-temperature-sensors.html">Wi-Fi temperature and humidity sensors <span class="arrow">&rarr;</span></a><a class="sub-link" href="bluetooth-temperature-sensors.html">Bluetooth temperature and humidity sensors <span class="arrow">&rarr;</span></a></div>
+  </section>
+</main>
+<footer>
+  <p class="disclosure"><b>Affiliate disclosure.</b> ThemisReviews is reader-supported.
+  When you buy through links on this site we may earn an Amazon Associates commission, at no
+  extra cost to you. Prices and ratings come from Amazon and change over time.</p>
+  <p class="muted"><a href="./">&larr; All protocols</a> &nbsp; Last updated on 2026-10-04. Not affiliated with Amazon,
+  the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
+</footer>
+<a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
+<script>(function(){var b=document.querySelector('.to-top');
+window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
+</body>
+</html>

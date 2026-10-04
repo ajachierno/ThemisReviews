@@ -1,0 +1,519 @@
+{
+  "slug": "wifi-temperature-sensors",
+  "family": "temperature-sensors",
+  "family_title": "Temperature sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Temperature and Humidity Sensors",
+  "subtitle": "Sensors and kits that send alerts to your phone, no smart home hub needed.",
+  "intro": "We pulled the Wi-Fi temperature and humidity monitors selling on Amazon and scored them on rating, review volume, and features: alerts, data history, and probes. Several popular kits use Bluetooth or their own radio to a Wi-Fi gateway; the table shows which.",
+  "reviews_ceiling": 10000,
+  "feature_weights": {
+    "display": 0.25,
+    "accuracy": 0.25,
+    "multi_sensor": 0.25,
+    "no_sub": 0.25
+  },
+  "systems_note": "Govee's Bluetooth sensors, YoLink, SwitchBot, and Tuya/Smart Life devices also have official Home Assistant integrations.",
+  "spec_fields": [
+    {
+      "key": "connection",
+      "label": "How it connects"
+    },
+    {
+      "key": "accuracy",
+      "label": "Stated accuracy"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "connection",
+      "label": "Connects via"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0872ZWV8X",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,874 reviews, and 2K+ bought last month."
+    },
+    {
+      "asin": "B0G7VC5D3F",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Three sensors and a base station for $36.09, with ±0.36°F stated accuracy."
+    },
+    {
+      "asin": "B0F245PNYH",
+      "label": "Best for Freezers and Outbuildings",
+      "kind": "special",
+      "why": "LoRa range, up to 5 years on AA batteries, and text alerts, rated 4.7 stars."
+    },
+    {
+      "asin": "B01HH7YD2Y",
+      "label": "Best for Vacation Homes",
+      "kind": "premium",
+      "why": "Unlimited text, app, and email alerts with no subscription, and it keeps logging when Wi-Fi drops."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0872ZWV8X",
+      "brand": "Govee",
+      "model": "H5179",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "connection": "Wi-Fi + Bluetooth",
+        "accuracy": "±0.54°F, ±3% RH",
+        "display": "No display",
+        "pack": "1 sensor",
+        "extras": "2 years of data export"
+      },
+      "features": {
+        "display": false,
+        "accuracy": true,
+        "multi_sensor": false,
+        "no_sub": true
+      },
+      "verdict": "The best-selling Wi-Fi sensor: no gateway, accurate, and cheap.",
+      "pros": [
+        "Connects straight to Wi-Fi, no gateway",
+        "±0.54°F and ±3% RH",
+        "7,874 reviews, 2K+ bought in the past month",
+        "Export up to 2 years of data"
+      ],
+      "cons": [
+        "No display",
+        "20 days of online history",
+        "Voice assistants aren't named in the bullets"
+      ],
+      "name": "Govee WiFi Thermometer Hygrometer H5179 with App Notification Alert",
+      "image": "https://m.media-amazon.com/images/I/61UNq0X0rwL._SL1500_.jpg",
+      "price": 33.99,
+      "rating": 4.3,
+      "reviews_count": 7874,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0B5KF2J34",
+      "brand": "Govee",
+      "model": "H5103 (E-Ink)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "connection": "Wi-Fi + Bluetooth",
+        "accuracy": "±0.54°F",
+        "display": "E-Ink",
+        "pack": "1 sensor",
+        "extras": "About 6 months battery, per listing"
+      },
+      "features": {
+        "display": true,
+        "accuracy": true,
+        "multi_sensor": false,
+        "no_sub": true
+      },
+      "verdict": "The Wi-Fi Govee with an E-Ink screen you can read at a glance.",
+      "pros": [
+        "E-Ink display",
+        "Direct Wi-Fi",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "$39.99",
+        "4.2 stars",
+        "13 days of online graphs"
+      ],
+      "name": "Govee WiFi Thermometer Hygrometer H5103 with Electronic Ink Display",
+      "image": "https://m.media-amazon.com/images/I/61DOvCvdwvL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 1945,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DQ88P15G",
+      "brand": "GoveeLife",
+      "model": "2.0 Gateway + 3 mini sensors",
+      "systems": [],
+      "systems_label": "GoveeLife app",
+      "specs": {
+        "connection": "Gateway on Wi-Fi",
+        "accuracy": "±0.54°F, ±3% RH",
+        "display": "No display",
+        "pack": "3 sensors + gateway",
+        "extras": "Up to 10 sensors per gateway"
+      },
+      "features": {
+        "display": false,
+        "accuracy": true,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "Three small sensors and a gateway, with app and email alerts.",
+      "pros": [
+        "3 sensors, room for 10 on one gateway",
+        "App and email alerts",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "No displays",
+        "Needs the gateway plugged in",
+        "4.3 stars"
+      ],
+      "name": "GoveeLife 2.0 WiFi Hygrometer Thermometer with Gateway, Mini Sensor 3-Pack",
+      "image": "https://m.media-amazon.com/images/I/614TshOULwL._SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.3,
+      "reviews_count": 748,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GTV1R5JY",
+      "brand": "GoveeLife",
+      "model": "5-in-1 LCD 3-pack + gateway",
+      "systems": [],
+      "systems_label": "GoveeLife app",
+      "specs": {
+        "connection": "Gateway on Wi-Fi",
+        "accuracy": "±0.36°F, ±2% RH",
+        "display": "3.7 in. LCD",
+        "pack": "3 sensors + gateway",
+        "extras": "Weather forecast, 1,640 ft. range"
+      },
+      "features": {
+        "display": true,
+        "accuracy": true,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "Three big-screen sensors with weather and a 1,640 ft. range through the gateway.",
+      "pros": [
+        "3.7 in. color comfort display",
+        "±0.36°F, ±2% RH",
+        "Gateway buzzer plus push and email alerts",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$89.99",
+        "Only 136 reviews",
+        "Weather forecast needs the gateway"
+      ],
+      "name": "GoveeLife WiFi Thermometer Hygrometer 5-in-1, Large LCD 3-Pack with Gateway",
+      "image": "https://m.media-amazon.com/images/I/71bAKsEzxIL._SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.6,
+      "reviews_count": 136,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B01HH7YD2Y",
+      "brand": "Temp Stick",
+      "model": "Remote Wi-Fi sensor",
+      "systems": [],
+      "systems_label": "Temp Stick app",
+      "specs": {
+        "connection": "Direct Wi-Fi",
+        "accuracy": "Not stated in bullets",
+        "display": "No display",
+        "pack": "1 sensor",
+        "extras": "Unlimited text alerts, offline logging"
+      },
+      "features": {
+        "display": false,
+        "accuracy": false,
+        "multi_sensor": false,
+        "no_sub": true
+      },
+      "verdict": "Built for cabins and vacation homes: unlimited text alerts, no subscription, and it stores data while offline.",
+      "pros": [
+        "Unlimited text, app, and email alerts",
+        "No subscription",
+        "Uploads up to a month of data after an outage",
+        "Made in the USA, 3,957 reviews"
+      ],
+      "cons": [
+        "$149",
+        "No display",
+        "Accuracy isn't in the bullets"
+      ],
+      "name": "Temp Stick Remote WiFi Temperature & Humidity Sensor, Data Logger. No Subscription. 24/7 Monitor, Unlimited Text, App & Email Alerts. Made in America. Use with Alexa, IFTTT. Monitor Anywhere, Anytime",
+      "image": "https://m.media-amazon.com/images/I/61+TgNw2s9L._AC_SL1500_.jpg",
+      "price": 149.0,
+      "rating": 4.4,
+      "reviews_count": 3957,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0G7VC5D3F",
+      "brand": "X-Sense",
+      "model": "Temperature and humidity monitor kit",
+      "systems": [],
+      "systems_label": "X-Sense app",
+      "specs": {
+        "connection": "Base station on Wi-Fi",
+        "accuracy": "±0.36°F, ±2% RH",
+        "display": "Not stated in bullets",
+        "pack": "3 sensors + base",
+        "extras": "Dew point and VPD, 1,700 ft. range"
+      },
+      "features": {
+        "display": false,
+        "accuracy": true,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "The best value here: three accurate sensors and a long-range base station for about $36.",
+      "pros": [
+        "$36.09 for 3 sensors",
+        "±0.36°F, ±2% RH",
+        "Base links up to 50 X-Sense devices",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Up to 1 year on AAA batteries",
+        "Voice assistants aren't named",
+        "Only 565 reviews"
+      ],
+      "name": "X-Sense Smart Wi-Fi Temperature and Humidity Monitor, 3 Sensors & Base Station",
+      "image": "https://m.media-amazon.com/images/I/61F0qRwSp8L._SL1500_.jpg",
+      "price": 36.09,
+      "rating": 4.5,
+      "reviews_count": 565,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0CCP6HLN5",
+      "brand": "SwitchBot",
+      "model": "4 outdoor sensors + Hub 2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "connection": "Bluetooth to Hub 2 on Wi-Fi",
+        "accuracy": "Not stated in bullets",
+        "display": "No display",
+        "pack": "4 sensors + Hub 2",
+        "extras": "IP65, Matter through Hub 2"
+      },
+      "features": {
+        "display": false,
+        "accuracy": false,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "Four IP65 indoor-outdoor sensors and a Matter hub that shares them with every major platform.",
+      "pros": [
+        "IP65 for indoors or out",
+        "Hub 2 bridges the sensors to Matter",
+        "10,109 reviews"
+      ],
+      "cons": [
+        "$88.39",
+        "Accuracy isn't in the bullets",
+        "No displays on the sensors"
+      ],
+      "name": "SwitchBot Wi-Fi Humidity Sensor 4 Pack with Hub 2 (Matter Enabled), IP65 Indoor Outdoor Thermometer Wireless, Humidity/Temperature/Dewpoint/VPD Sensor with Smart Alerts, Compatible with Alexa",
+      "image": "https://m.media-amazon.com/images/I/61cw0AH6kYL._SL1500_.jpg",
+      "price": 88.39,
+      "rating": 4.2,
+      "reviews_count": 10109,
+      "bought": null
+    },
+    {
+      "asin": "B0CZ8ZSP67",
+      "brand": "MOCREO",
+      "model": "Freezer alarm kit (H5Lite hub)",
+      "systems": [],
+      "systems_label": "MOCREO app",
+      "specs": {
+        "connection": "Hub on Wi-Fi",
+        "accuracy": "±0.9°F",
+        "display": "LCD on the hub",
+        "pack": "2 probe sensors + hub",
+        "extras": "80 dB hub alarm, offline alert"
+      },
+      "features": {
+        "display": true,
+        "accuracy": false,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "A freezer and fridge alarm with thin probe cables, a loud hub, and power-outage alerts.",
+      "pros": [
+        "Thin probes fit through fridge seals",
+        "80 dB alarm plus app and email alerts",
+        "Alerts if the hub goes offline",
+        "700+ bought in the past month"
+      ],
+      "cons": [
+        "Temperature only",
+        "±0.9°F",
+        "$69.99"
+      ],
+      "name": "MOCREO WiFi Freezer Thermometer Alarm with Digital Monitor Hub, App and Email Alerts, 2-Year Data Export, No Subscription Fee, 2 Remote Temperature Sensors for Home Refrigerator, Fridge, Freezer",
+      "image": "https://m.media-amazon.com/images/I/618Yn5VLKWL._SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.5,
+      "reviews_count": 500,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0F245PNYH",
+      "brand": "YoLink",
+      "model": "Freezer thermometer kit (3 + hub)",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "connection": "LoRa to hub on Wi-Fi/Ethernet",
+        "accuracy": "Not stated in bullets",
+        "display": "Not listed",
+        "pack": "3 sensors + hub",
+        "extras": "Up to 5-year AA battery"
+      },
+      "features": {
+        "display": false,
+        "accuracy": false,
+        "multi_sensor": true,
+        "no_sub": true
+      },
+      "verdict": "Long-range LoRa sensors that reach detached garages and freezers, with years of battery life.",
+      "pros": [
+        "LoRa reaches farther than Wi-Fi",
+        "Up to 5 years on AA batteries",
+        "Text, email, and push alerts",
+        "4.7 stars, 1K+ bought in the past month"
+      ],
+      "cons": [
+        "Alexa reports temperature only",
+        "Needs the YoLink hub",
+        "Accuracy isn't in the bullets"
+      ],
+      "name": "YoLink Freezer Thermometer Hygrometer Kit: 3-Pack + Hub",
+      "image": "https://m.media-amazon.com/images/I/61VUhrQ2TbL._SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.7,
+      "reviews_count": 887,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0B58VSJDG",
+      "brand": "Gaoducash",
+      "model": "Tuya Wi-Fi sensor",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "connection": "Direct Wi-Fi (2.4 GHz)",
+        "accuracy": "Not stated in bullets",
+        "display": "Not listed",
+        "pack": "1 sensor",
+        "extras": "Tuya scenes"
+      },
+      "features": {
+        "display": false,
+        "accuracy": false,
+        "multi_sensor": false,
+        "no_sub": true
+      },
+      "verdict": "The cheapest direct-Wi-Fi sensor, and it can trigger other Smart Life devices.",
+      "pros": [
+        "$12.99",
+        "Works in Smart Life scenes",
+        "Alexa voice queries"
+      ],
+      "cons": [
+        "3.8 stars",
+        "2.4 GHz Wi-Fi only",
+        "Accuracy isn't in the bullets"
+      ],
+      "name": "WiFi Temperature Humidity Sensor: Indoor Thermometer Hygrometer with App Alert, Free Data Storage Export, Smart Temperature Humidity Monitor for Home Pet Greenhouse, Compatible with Alexa (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/51ZePBdWzaL._SL1500_.jpg",
+      "price": 12.99,
+      "rating": 3.8,
+      "reviews_count": 794,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0971SJGW1",
+      "brand": "Thermote",
+      "model": "Wireless remote temperature sensor",
+      "systems": [],
+      "systems_label": "Thermote app",
+      "flag": "Thin listing for $138",
+      "verdict": "At $138 it's one of the priciest sensors we found, and its five bullets are a few words each with no specs.",
+      "reasons": [
+        "The bullets are five short phrases, like \"Quick Setup\" and \"Unlimited Users.\"",
+        "No accuracy, battery life, or power source is given in the bullets.",
+        "Humidity isn't mentioned anywhere in the title or bullets."
+      ],
+      "name": "Thermote Wireless Remote Temperature Sensor. WiFi Thermometer Temperature Monitor. 24/7 Text/email alerts. Monitoring and History. Water/Dust Proof. No Subscription/Monthly Fees. Made in USA.",
+      "image": "https://m.media-amazon.com/images/I/616P41ZDC3S._SL1081_.jpg",
+      "price": 138.0,
+      "rating": 4.0,
+      "reviews_count": 95,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How accurate are these sensors?",
+      "a": "Most smart sensors are within about 1°F and 3 to 5% relative humidity, which is fine for rooms, nurseries, and basements. For fridges, freezers, or reptile tanks, pick one with a probe or a stated tighter accuracy, and check it against a reference thermometer once."
+    },
+    {
+      "q": "What can I automate with one?",
+      "a": "Turn on a fan or dehumidifier when humidity climbs, get an alert when a freezer warms up or pipes risk freezing, or let a smart thermostat average temperatures across rooms."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}

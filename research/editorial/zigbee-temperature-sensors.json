@@ -1,0 +1,466 @@
+{
+  "feature_weights": {
+    "open_zigbee": 0.3,
+    "display": 0.3,
+    "extras": 0.2,
+    "accuracy": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "accuracy",
+      "label": "Stated accuracy"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BYZP8NK2",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A Zigbee 3.0 sensor with an LCD and ±0.4°F stated accuracy for $15.90, with 3,334 reviews."
+    },
+    {
+      "asin": "B0G56QWSSZ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A 3.6 in. display with daily highs and lows for $14.90, rated 4.4 stars."
+    },
+    {
+      "asin": "B0FCG8N5NC",
+      "label": "Best for Fridges and Pools",
+      "kind": "special",
+      "why": "A 1.5 m stainless probe that reads from -40°F to 239°F, with an IP65 body."
+    },
+    {
+      "asin": "B0DWSK5H33",
+      "label": "Best Thread and Matter",
+      "kind": "premium",
+      "why": "Runs on Zigbee or Thread, works over Matter, and adds three programmable buttons."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BYZP8NK2",
+      "brand": "SONOFF",
+      "model": "SNZB-02D",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "LCD",
+        "accuracy": "±0.4°F, ±2% RH",
+        "extras": "Up to 400 ft. range",
+        "power": "Battery",
+        "hub": "Any Zigbee 3.0 hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": false,
+        "accuracy": true
+      },
+      "verdict": "The best all-rounder: cheap, accurate, easy to read, and it pairs with any Zigbee 3.0 hub.",
+      "pros": [
+        "±0.4°F and ±2% RH stated accuracy",
+        "LCD display",
+        "3,334 reviews at 4.2 stars",
+        "$15.90"
+      ],
+      "cons": [
+        "Needs a Zigbee hub",
+        "No probe",
+        "Sold by the brand"
+      ]
+    },
+    {
+      "asin": "B0G56QWSSZ",
+      "brand": "SONOFF",
+      "model": "SNZB-02DR2 AirGuard TH",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "3.6 in. LCD",
+        "accuracy": "±0.4°F, ±2% RH",
+        "extras": "Daily highs and lows, can show another sensor",
+        "power": "Battery",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": true,
+        "accuracy": true
+      },
+      "verdict": "A big, readable display with daily highs and lows, and it can show a second room's sensor too.",
+      "pros": [
+        "3.6 in. display, readable from across a room",
+        "Can display another sensor's readings",
+        "6 months of history in the app",
+        "$14.90, 300+ bought in the past month"
+      ],
+      "cons": [
+        "Bigger than a mini sensor",
+        "Only 639 reviews",
+        "Needs a Zigbee hub"
+      ]
+    },
+    {
+      "asin": "B07D37FKGY",
+      "brand": "Aqara",
+      "model": "Temperature and Humidity Sensor",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "display": "No display",
+        "accuracy": "Not stated in bullets",
+        "extras": "Air pressure",
+        "power": "Coin cell",
+        "hub": "Aqara hub only"
+      },
+      "features": {
+        "open_zigbee": false,
+        "display": false,
+        "extras": true,
+        "accuracy": false
+      },
+      "verdict": "The most-reviewed sensor here: tiny, with air pressure too, for homes that already run an Aqara hub.",
+      "pros": [
+        "5,629 reviews",
+        "Temperature, humidity, and air pressure",
+        "Tiny with 3M adhesive",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "Aqara hubs only, per the listing",
+        "No display",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B0D2NVJTS3",
+      "brand": "THIRDREALITY",
+      "model": "Temperature and Humidity Sensor Lite",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "No display",
+        "accuracy": "Sensirion sensor",
+        "extras": "Matter via THIRDREALITY bridge",
+        "power": "Battery",
+        "hub": "Zigbee hub or Echo with Zigbee"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": false,
+        "extras": false,
+        "accuracy": true
+      },
+      "verdict": "A simple Zigbee 3.0 sensor that pairs straight to an Echo with a Zigbee hub built in.",
+      "pros": [
+        "Works with Echo devices that have a Zigbee hub",
+        "Sensirion sensor",
+        "4.3 stars"
+      ],
+      "cons": [
+        "The Alexa app shows temperature only, not humidity",
+        "No display",
+        "$19.99"
+      ]
+    },
+    {
+      "asin": "B0BF9W3WMK",
+      "brand": "THIRDREALITY",
+      "model": "Temperature and Humidity Sensor (LCD)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "LCD",
+        "accuracy": "Not stated in bullets",
+        "extras": "History in app",
+        "power": "2 AAA, about 1 year",
+        "hub": "Zigbee hub or Echo with Zigbee"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": false,
+        "accuracy": false
+      },
+      "verdict": "The display version of the THIRDREALITY sensor, running on easy-to-find AAA batteries.",
+      "pros": [
+        "LCD display",
+        "AAA batteries",
+        "Works with Echo Zigbee hubs and SmartThings",
+        "4.3 stars"
+      ],
+      "cons": [
+        "About a year per set of batteries",
+        "$24.99",
+        "Accuracy isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0FCG88WW6",
+      "brand": "SONOFF",
+      "model": "SNZB-02WD",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "LCD",
+        "accuracy": "Not stated in bullets",
+        "extras": "IP65 waterproof",
+        "power": "Battery",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": true,
+        "accuracy": false
+      },
+      "verdict": "An IP65 waterproof sensor with a display, for greenhouses, bathrooms, and garages.",
+      "pros": [
+        "IP65 waterproof with a breathable membrane",
+        "Magnetic or hanging mount",
+        "4.4 stars",
+        "$19.90"
+      ],
+      "cons": [
+        "Accuracy isn't in the bullets",
+        "Only 562 reviews",
+        "Needs a Zigbee hub"
+      ]
+    },
+    {
+      "asin": "B0FCG8N5NC",
+      "brand": "SONOFF",
+      "model": "SNZB-02LD (probe)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "LCD",
+        "accuracy": "Not stated in bullets",
+        "extras": "1.5 m probe, -40°F to 239°F",
+        "power": "Battery",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": true,
+        "accuracy": false
+      },
+      "verdict": "A probe sensor for fridges, freezers, pools, and ducts that a room sensor can't reach.",
+      "pros": [
+        "1.5 m stainless steel probe",
+        "Reads -40°F to 239°F",
+        "IP65 main unit",
+        "1,005 reviews, 500+ bought in the past month"
+      ],
+      "cons": [
+        "Temperature only, no humidity",
+        "4.1 stars",
+        "Needs a Zigbee hub"
+      ]
+    },
+    {
+      "asin": "B0H5Q5C76J",
+      "brand": "SONOFF",
+      "model": "SNZB-02M AirGuard TH Pressure",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "Not listed",
+        "accuracy": "±0.4°F, ±2% RH",
+        "extras": "Air pressure, dew point, VPD",
+        "power": "CR2477, 2+ years",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": false,
+        "extras": true,
+        "accuracy": true
+      },
+      "verdict": "Five readings in one: temperature, humidity, air pressure, dew point, and VPD for growers.",
+      "pros": [
+        "Air pressure, dew point, and VPD",
+        "Battery rated 2+ years",
+        "Names SmartThings, Echo, and Home Assistant"
+      ],
+      "cons": [
+        "Only 203 reviews",
+        "4.2 stars",
+        "Display isn't mentioned"
+      ]
+    },
+    {
+      "asin": "B0HGQXF2W1",
+      "brand": "SONOFF",
+      "model": "SNZB-02UL (E-Ink)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "2.9 in. E-Ink",
+        "accuracy": "±0.4°F, ±2% RH",
+        "extras": "Clock, weather, 6-hour trend",
+        "power": "Battery",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "display": true,
+        "extras": true,
+        "accuracy": true
+      },
+      "verdict": "An E-Ink display with time, weather, and a 6-hour trend on screen.",
+      "pros": [
+        "2.9 in. E-Ink, readable in bright light",
+        "Shows clock and weather",
+        "4.9 stars"
+      ],
+      "cons": [
+        "Only 38 reviews",
+        "$24.90",
+        "Weather info needs a hub"
+      ]
+    },
+    {
+      "asin": "B0DWSK5H33",
+      "brand": "Aqara",
+      "model": "Climate Sensor W100",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "display": "3.4 in. LCD",
+        "accuracy": "±0.4°F, ±2% RH",
+        "extras": "3 buttons, Thread or Zigbee",
+        "power": "Battery",
+        "hub": "Aqara hub or Matter controller"
+      },
+      "features": {
+        "open_zigbee": false,
+        "display": true,
+        "extras": true,
+        "accuracy": true
+      },
+      "verdict": "A climate display with three programmable buttons that works over Zigbee or Matter over Thread.",
+      "pros": [
+        "Zigbee or Thread, Matter compatible",
+        "3 buttons with 9 actions",
+        "Large display",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$35.99",
+        "IR air conditioner control needs an Aqara M3 hub"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FSKHSLB8",
+      "brand": "PersianCat",
+      "model": "Zigbee temperature and humidity sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Bullets describe a door sensor",
+      "verdict": "The bullets were copied from a door sensor listing, so you can't tell what this temperature sensor actually does.",
+      "reasons": [
+        "The first bullet says \"This door sensor must work with a Zigbee hub.\"",
+        "The Alexa bullet describes routines triggered \"when door or window is open.\"",
+        "No temperature or humidity accuracy is given anywhere in the bullets.",
+        "\"Built-in batteries\" with a 2-year life, and the listing doesn't say whether they can be replaced."
+      ]
+    }
+  ]
+}

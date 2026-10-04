@@ -1,0 +1,62 @@
+{
+  "feature_weights": {"humidity": 0.30, "multi_sensor": 0.30, "display": 0.20, "long_range": 0.20},
+  "systems_note": "These sensors talk to their own displays and don't connect to smart home platforms. Home Assistant users can read many of them with a USB SDR receiver and rtl_433, but that isn't supported by the makers.",
+  "spec_fields": [
+    {"key": "type", "label": "Type"},
+    {"key": "frequency", "label": "Frequency"},
+    {"key": "range", "label": "Range"},
+    {"key": "sensors", "label": "Sensors"},
+    {"key": "works_with", "label": "Works with"}
+  ],
+  "table_columns": [
+    {"key": "type", "label": "Type"},
+    {"key": "frequency", "label": "Frequency"},
+    {"key": "range", "label": "Range"},
+    {"key": "sensors", "label": "Sensors"}
+  ],
+  "awards": [
+    {"asin": "B06XKH666P", "label": "Best Overall", "kind": "overall", "why": "A display and outdoor sensor with 500 ft. range, 36,041 reviews, and 6K+ bought last month, for $19.99."},
+    {"asin": "B0BMTNC9DR", "label": "Best Budget", "kind": "budget", "why": "A $9.99 433 MHz replacement sensor for Geevon weather stations."},
+    {"asin": "B00T0K8NXC", "label": "Best Replacement Sensor", "kind": "special", "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,084 reviews, sold by Amazon."},
+    {"asin": "B09R1TP7HF", "label": "Best Multi-Room Kit", "kind": "premium", "why": "A display with three 433 MHz sensors for four locations at once, for $23.99."}
+  ],
+  "products": [
+    {"asin": "B06XKH666P", "brand": "TempPro", "model": "TempAir 500 FT", "systems": [], "systems_label": "Standalone display",
+     "specs": {"type": "Display + 1 sensor", "frequency": "Not stated in listing", "range": "500 ft.", "sensors": "1 (up to 3)", "works_with": "Its own display"},
+     "features": {"humidity": true, "multi_sensor": false, "display": true, "long_range": true},
+     "verdict": "The most popular indoor-outdoor thermometer, with a long 500 ft. range.",
+     "pros": ["500 ft. range", "36,041 reviews, 6K+ bought in the past month", "Min/max records and trend arrows", "$19.99"],
+     "cons": ["Frequency isn't stated in the listing", "4.2 stars", "Extra sensors sold separately"]},
+    {"asin": "B0DQPT4BP1", "brand": "TempPro", "model": "TempAir 500 FT (3 sensors)", "systems": [], "systems_label": "Standalone display",
+     "specs": {"type": "Display + 3 sensors", "frequency": "Not stated in listing", "range": "500 ft.", "sensors": "3", "works_with": "Its own display"},
+     "features": {"humidity": true, "multi_sensor": true, "display": true, "long_range": true},
+     "verdict": "The three-sensor version, with alerts and ±0.5°F stated accuracy.",
+     "pros": ["3 waterproof sensors", "±0.5°F, ±2-3% RH", "Out-of-range alerts on the display"],
+     "cons": ["Only 296 reviews", "$33.99", "Frequency isn't stated"]},
+    {"asin": "B09R1TP7HF", "brand": "Geevon", "model": "Indoor/outdoor thermometer (3 sensors)", "systems": [], "systems_label": "Standalone display",
+     "specs": {"type": "Display + 3 sensors", "frequency": "433 MHz", "range": "200 ft.", "sensors": "3", "works_with": "Its own display"},
+     "features": {"humidity": true, "multi_sensor": true, "display": true, "long_range": false},
+     "verdict": "A 433 MHz display kit that shows four locations at once, with max/min and alarms.",
+     "pros": ["3 sensors included", "433 MHz stated in the listing", "Max/min and alarm functions", "2,724 reviews"],
+     "cons": ["200 ft. range", "Indoor reading starts at 50°F", "Sold by the brand"]},
+    {"asin": "B00T0K8NXC", "brand": "AcuRite", "model": "06002M / 592TXR sensor", "systems": [], "systems_label": "AcuRite displays",
+     "specs": {"type": "Replacement sensor", "frequency": "Not stated in listing", "range": "Not stated", "sensors": "1", "works_with": "Displays that use 00592TX, 06002M, and related sensors"},
+     "features": {"humidity": true, "multi_sensor": false, "display": false, "long_range": false},
+     "verdict": "The replacement sensor for most AcuRite weather stations, with an A-B-C channel switch.",
+     "pros": ["4.6 stars from 12,084 reviews", "A-B-C channel switch", "Sold by Amazon"],
+     "cons": ["Check the model number on your old sensor first", "AcuRite warns a similar-looking sensor isn't compatible", "No display"]},
+    {"asin": "B0BLX7RQRG", "brand": "La Crosse", "model": "TX141TH-BV4", "systems": [], "systems_label": "La Crosse displays",
+     "specs": {"type": "Replacement sensor", "frequency": "Not stated in listing", "range": "330 ft.", "sensors": "1", "works_with": "Listed La Crosse station models only"},
+     "features": {"humidity": true, "multi_sensor": false, "display": false, "long_range": true},
+     "verdict": "A weather-resistant replacement sensor for a long list of La Crosse stations.",
+     "pros": ["330 ft. range", "-40°F to 140°F", "2K+ bought in the past month, sold by Amazon"],
+     "cons": ["Only works with the station models it lists", "Batteries not included", "4.3 stars"]},
+    {"asin": "B0BMTNC9DR", "brand": "Geevon", "model": "TX19 sensor", "systems": [], "systems_label": "Geevon displays",
+     "specs": {"type": "Replacement sensor", "frequency": "433 MHz", "range": "200 ft.", "sensors": "1", "works_with": "Listed Geevon station models"},
+     "features": {"humidity": true, "multi_sensor": false, "display": false, "long_range": false},
+     "verdict": "A cheap 433 MHz add-on or replacement for Geevon weather stations.",
+     "pros": ["$9.99", "433 MHz stated, every 30 seconds", "Channel 1, 2, or 3"],
+     "cons": ["Geevon stations only", "Only 118 reviews", "200 ft. range"]}
+  ],
+  "avoid": []
+}
