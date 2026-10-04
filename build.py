@@ -178,6 +178,49 @@ def render_systems(site, data):
   </section>"""
 
 
+def render_quicknav(protocols):
+    """Protocol dropdown -> review dropdown -> Go. Planned pages show as disabled options."""
+    data = {p["slug"]: [{"slug": x["slug"], "title": x["title"], "ready": bool(x.get("ready"))} for x in p["subs"]]
+            for p in protocols}
+    opts = "".join(f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in protocols)
+    js = """(function(){
+  var subs = __DATA__;
+  var proto = document.getElementById('qn-protocol'), sub = document.getElementById('qn-review'), go = document.getElementById('qn-go');
+  function fill(){
+    var list = subs[proto.value] || [];
+    sub.innerHTML = '<option value="">Choose a review\u2026</option>';
+    list.forEach(function(x){
+      var o = document.createElement('option');
+      o.value = x.ready ? x.slug : '';
+      o.textContent = x.ready ? x.title : x.title + ' (coming soon)';
+      o.disabled = !x.ready;
+      sub.appendChild(o);
+    });
+    sub.disabled = !list.length; go.disabled = true;
+  }
+  function open(){ if(sub.value){ window.location.href = sub.value + '.html'; } }
+  proto.addEventListener('change', fill);
+  sub.addEventListener('change', function(){ go.disabled = !sub.value; });
+  sub.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ open(); } });
+  go.addEventListener('click', open);
+})();""".replace("__DATA__", json.dumps(data))
+    return f"""
+  <section class="quicknav" aria-labelledby="qn-h">
+    <h2 id="qn-h">Jump straight to reviews</h2>
+    <div class="quicknav-controls">
+      <select id="qn-protocol" aria-label="Protocol">
+        <option value="">Choose a protocol&hellip;</option>
+        {opts}
+      </select>
+      <select id="qn-review" aria-label="Review" disabled>
+        <option value="">Choose a review&hellip;</option>
+      </select>
+      <button type="button" id="qn-go" class="btn" disabled>Go</button>
+    </div>
+    <script>{js}</script>
+  </section>"""
+
+
 def render_compare(protocols):
     head = "".join(f"<th>{esc(label)}</th>" for _, label in FACT_COLUMNS)
     rows = "".join(
@@ -233,6 +276,7 @@ def render_protocol(p):
 def build_home(site):
     protos = site["protocols"]
     body = f"""
+  {render_quicknav(protos)}
   <section class="lead home">
     <h1>Pick your system, then your protocol</h1>
     <p class="sub">{esc(site['description'])}</p>
@@ -597,6 +641,23 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 footer .muted{font-size:.85rem}
 footer a{color:var(--gold-ink)}
 .to-top{display:none}
+/* quick navigation */
+.quicknav{margin:22px 0 6px;padding:18px 20px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:var(--radius)}
+.quicknav h2{margin:0 0 12px;font-size:1.25rem}
+.quicknav-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.quicknav select{appearance:none;-webkit-appearance:none;background-color:var(--card-2);color:var(--ink);border:1px solid var(--line);
+  border-radius:9px;padding:10px 40px 10px 14px;font:inherit;font-size:.95rem;min-width:240px;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23d8b25a' stroke-width='1.6' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center}
+.quicknav select:disabled,.quicknav .btn:disabled{opacity:.5;cursor:not-allowed}
+.quicknav select:focus-visible,.quicknav .btn:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.quicknav option:disabled{color:#7d7896}
+.quicknav .btn{border:0;cursor:pointer;font:inherit;font-weight:700;padding:10px 22px}
+@media (max-width:720px){
+  .quicknav{padding:14px}
+  .quicknav-controls{display:grid;grid-template-columns:1fr;gap:8px}
+  .quicknav select{min-width:0;width:100%}
+}
 /* systems */
 .sys-icons{display:inline-flex;gap:3px;flex-wrap:nowrap;vertical-align:middle}
 .sys-ico{position:relative;display:inline-flex;line-height:0;border-radius:5px;cursor:help;vertical-align:middle}
