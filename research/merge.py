@@ -41,7 +41,7 @@ def merge(slug):
     import meta
     ed = json.loads((HERE / "editorial" / f"{slug}.json").read_text(encoding="utf-8"))
     m = meta.PAGES[slug]
-    ed = {"slug": slug, **meta.COMMON, **{k: m[k] for k in ("title", "subtitle", "intro", "reviews_ceiling")},
+    ed = {"slug": slug, **meta.COMMON, **{k: m[k] for k in ("title", "subtitle", "intro", "reviews_ceiling", "family", "family_title", "noun") if k in m},
           **ed,
           "buyers_guide": [meta.SHARED[g] if isinstance(g, str) else g for g in m["guide"]]}
     for group in ("products", "avoid"):

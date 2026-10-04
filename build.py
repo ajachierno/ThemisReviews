@@ -463,6 +463,19 @@ def render_avoid(avoid, site, noun):
   </section>"""
 
 
+def render_sibling_links(proto, cat):
+    """Links to the other finished review pages for the same protocol (e.g. Z-Wave switches <-> dimmers)."""
+    links = [f'<a class="sub-link" href="{esc(s["slug"])}.html">{esc(s["title"])} <span class="arrow">&rarr;</span></a>'
+             for s in proto["subs"] if s.get("ready") and s["slug"] != cat["slug"]]
+    if not links:
+        return ""
+    return f"""
+  <section id="more">
+    <h2>More {esc(proto['name'])} reviews</h2>
+    <div class="sub-grid flat">{''.join(links)}</div>
+  </section>"""
+
+
 def render_family_links(site, cat):
     """Links to the same product type on the other protocols (e.g. every light-switch page)."""
     links = []
@@ -522,6 +535,7 @@ def build_category(site, proto, sub):
     <h2>Buyer's guide</h2>
     {guide}
   </section>
+  {render_sibling_links(proto, cat)}
   {render_family_links(site, cat)}"""
     base = base_url(site)
     url = f"{base}/{sub['slug']}.html" if base else ""

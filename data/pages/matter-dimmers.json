@@ -1,0 +1,592 @@
+{
+  "slug": "matter-dimmers",
+  "family": "dimmers",
+  "family_title": "Dimmers",
+  "noun": "dimmer",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Matter Dimmer Switches",
+  "subtitle": "Dimmers that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "intro": "We pulled the Matter dimmers selling on Amazon and scored them on rating, review volume, and features: 3-way support, no-neutral options, and adjustable dimming. The table shows whether each one runs Matter over Wi-Fi or over Thread.",
+  "reviews_ceiling": 1500,
+  "feature_weights": {
+    "three_way": 0.35,
+    "no_neutral": 0.25,
+    "dim_tuning": 0.2,
+    "energy_monitoring": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "dim_tuning",
+      "label": "Adjustable dim range",
+      "type": "bool"
+    },
+    {
+      "key": "energy_monitoring",
+      "label": "Energy monitoring",
+      "type": "bool"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radio",
+      "label": "Matter over"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DKGXY4DL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A complete 3-way Matter dimmer kit with energy monitoring, and 1K+ bought last month."
+    },
+    {
+      "asin": "B0C2B8SP3W",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "$17.74 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
+    },
+    {
+      "asin": "B0BVKYKKRK",
+      "label": "Best Name Brand",
+      "kind": "premium",
+      "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
+    },
+    {
+      "asin": "B0F2N68K3C",
+      "label": "Best No-Neutral",
+      "kind": "special",
+      "why": "The only Matter dimmer here that installs without a neutral wire."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DKGXY4DL",
+      "brand": "Tapo",
+      "model": "S515D kit",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Yes, kit included",
+        "pack": "3-way dimmer kit"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": true
+      },
+      "verdict": "The Matter dimmer to get for a light you control from two places. It tracks energy use too.",
+      "pros": [
+        "Complete 3-way kit",
+        "Energy monitoring",
+        "Works with Alexa, Siri, Google, and Bixby through Matter",
+        "1K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "Needs 2.4 GHz Wi-Fi",
+        "4.3 stars, a bit below the single S505D"
+      ],
+      "name": "Tapo Matter Smart 3-Way Dimmer Switch Kit, S515D KIT",
+      "image": "https://m.media-amazon.com/images/I/511KltQn-WL._SL1000_.jpg",
+      "price": 44.99,
+      "rating": 4.3,
+      "reviews_count": 416,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0C2B8SP3W",
+      "brand": "Tapo",
+      "model": "S505D",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "The cheapest well-reviewed Matter dimmer, with fade on and off.",
+      "pros": [
+        "$17.74 with 4.6 stars from 811 reviews",
+        "Fade on and off",
+        "Away mode and schedules",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Needs 2.4 GHz Wi-Fi"
+      ],
+      "name": "Tapo Matter Smart Dimmer Switch, S505D, Single Pole, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/61fQTGxd-TL._SL1500_.jpg",
+      "price": 17.74,
+      "rating": 4.6,
+      "reviews_count": 811,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0CBNXTBSY",
+      "brand": "Tapo",
+      "model": "S505D (2-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "pack": "2 dimmers"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Two S505D dimmers for about $15.50 each, and it's selling faster than the single.",
+      "pros": [
+        "About $15.50 per dimmer",
+        "1K+ bought in the past month",
+        "Same 4.6-star dimmer as the single"
+      ],
+      "cons": [
+        "Review count is shared with the single pack",
+        "Single-pole only",
+        "Needs a neutral wire"
+      ],
+      "name": "Tapo Matter Smart Dimmer Switch S505D(2-Pack), Single Pole",
+      "image": "https://m.media-amazon.com/images/I/61xQEwiCAUL._SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.6,
+      "reviews_count": 811,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0CC8KRB2N",
+      "brand": "Kasa",
+      "model": "KS225",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Kasa's Matter dimmer, with the most reviews of any Matter dimmer here.",
+      "pros": [
+        "4.6 stars from 1,040 reviews",
+        "Local control over your network when the internet is down",
+        "1% to 100% dimming",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Needs a neutral wire",
+        "Costs more than the Tapo S505D"
+      ],
+      "name": "Kasa Matter Smart Dimmer Switch, KS225, Single Pole, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/51Rt3oms+cL._SL1000_.jpg",
+      "price": 24.99,
+      "rating": 4.6,
+      "reviews_count": 1040,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0BVKYKKRK",
+      "brand": "Leviton",
+      "model": "D26HD-1RW (2nd gen)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required",
+        "three_way_text": "Wired or wireless 3-way",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "dim_tuning": true,
+        "energy_monitoring": false
+      },
+      "verdict": "The most configurable Matter dimmer here, with bulb-type, min-dim, and max-bright settings to stop flicker.",
+      "pros": [
+        "Bulb type, minimum dim, and maximum bright settings",
+        "Wired or wireless 3-way",
+        "Night settings and fade rates",
+        "500+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Matter has to be turned on with a firmware update in the My Leviton app",
+        "Needs a neutral wire",
+        "Costs more than Tapo or Kasa"
+      ],
+      "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi 2nd Gen, Neutral Wire Required, Works with Matter, Alexa, Google Assistant, Apple Home/Siri, Wired or Wireless 3-Way, D26HD-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/51Iuc3SbU-L._SL1000_.jpg",
+      "price": 43.46,
+      "rating": 4.6,
+      "reviews_count": 313,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0F2N68K3C",
+      "brand": "Aqara",
+      "model": "H2 dimmer",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread (or Zigbee)",
+        "neutral": "Optional",
+        "three_way_text": "Not listed",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": true,
+        "dim_tuning": true,
+        "energy_monitoring": true
+      },
+      "verdict": "The only Matter dimmer here that installs without a neutral, with brightness limits to tame LEDs.",
+      "pros": [
+        "Works with or without a neutral wire",
+        "Set minimum and maximum brightness",
+        "Forward and reverse phase dimming",
+        "Matter over Thread, or Zigbee with an Aqara hub"
+      ],
+      "cons": [
+        "Needs a Thread border router for Matter",
+        "3-way isn't covered in the listing",
+        "3.9 stars"
+      ],
+      "name": "Aqara Smart Dimmer Switch H2, 2-in-1 Neutral, Thread/Zigbee Protocol",
+      "image": "https://m.media-amazon.com/images/I/61JIjLOZd8L._SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.9,
+      "reviews_count": 61,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0F18PM6JK",
+      "brand": "Eve",
+      "model": "Dimmer Switch (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Thread",
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Eve's local-only Thread dimmer, with a touch-and-rocker design. Reviews are mixed.",
+      "pros": [
+        "Matter over Thread with no cloud account",
+        "Flicker-free dimming, per the listing",
+        "UL certified, sold by Amazon"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Single-pole only",
+        "Needs a neutral and a Thread border router"
+      ],
+      "name": "Eve Dimmer Switch (Matter) – Smart Dimmer Switch, for Alexa/Apple/Google/SmartThings/Home Assistant; for Single-Pole switches; Requires Thread Border Router and Neutral Wire; UL-Certified",
+      "image": "https://m.media-amazon.com/images/I/61g4aLZi1+L._SL1500_.jpg",
+      "price": 54.95,
+      "rating": 3.4,
+      "reviews_count": 55,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DTZ3QGL7",
+      "brand": "GE Cync",
+      "model": "Paddle dimmer",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Required (plus ground)",
+        "three_way_text": "Not listed",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "A cheap Cync dimmer that also joins Apple Home and SmartThings through Matter.",
+      "pros": [
+        "$19.49",
+        "Alexa and Google built in, Apple Home and SmartThings through Matter",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Needs a neutral and a ground wire",
+        "3-way isn't covered in the listing"
+      ],
+      "name": "GE Cync Paddle Dimmer Smart Switch, Highly Customizable Dimmer Switch, Works with Alexa and Google Home, Matter Compatible, Easy to Install Smart Light Switch (1 Pack)",
+      "image": "https://m.media-amazon.com/images/I/71UM+cuR44L._AC_SL1500_.jpg",
+      "price": 19.49,
+      "rating": 3.8,
+      "reviews_count": 71,
+      "bought": null
+    },
+    {
+      "asin": "B0HFKB8KR7",
+      "brand": "Enbrighten",
+      "model": "Matter smart dimmer",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Not stated in listing",
+        "three_way_text": "Not stated in listing",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "energy_monitoring": false
+      },
+      "verdict": "Enbrighten's new Matter dimmer with flying leads and a shallow body. Very new, with few reviews.",
+      "pros": [
+        "Color-coded flying leads, 20% shallower housing",
+        "Keeps dimming at the wall when the internet is down",
+        "Matter or the Enbrighten app, no hub"
+      ],
+      "cons": [
+        "Only 5 reviews",
+        "Sold by a reseller with 1 left in stock at capture time",
+        "Listing doesn't cover neutral or 3-way"
+      ],
+      "name": "Enbrighten Smart Dimmer Light Switch, Matter, Plastic Yoke, Flying Leads",
+      "image": "https://m.media-amazon.com/images/I/71FGqYIER8L._SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.8,
+      "reviews_count": 5,
+      "bought": null
+    },
+    {
+      "asin": "B0F63SKQXF",
+      "brand": "Leviton",
+      "model": "D2710-1BW (0-10V)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radio": "Wi-Fi",
+        "neutral": "Not stated in listing",
+        "three_way_text": "Not stated in listing",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": true,
+        "energy_monitoring": false
+      },
+      "verdict": "A specialist dimmer for 0-10V LED drivers and fluorescent ballasts, common in basements, shops, and offices. Not for ordinary bulbs.",
+      "pros": [
+        "Controls 0-10V LED fixtures and electronic ballasts",
+        "Runs on 120 V or 277 V",
+        "Linear or logarithmic dimming, with min and max settings",
+        "4.8 stars, Matter ready"
+      ],
+      "cons": [
+        "Only for 0-10V fixtures, not standard dimmable bulbs",
+        "$89.99",
+        "27 reviews"
+      ],
+      "name": "Leviton Decora Smart Dimmer Switch, 0-10V, Wi-Fi, D2710-1BW, White",
+      "image": "https://m.media-amazon.com/images/I/513glnoZQSL._SL1000_.jpg",
+      "price": 89.99,
+      "rating": 4.8,
+      "reviews_count": 27,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CLVSF1T5",
+      "brand": "Legrand",
+      "model": "Radiant Wi-Fi Matter dimmer (listing)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Dimmer title, outlet bullets",
+      "verdict": "The title says smart dimmer light switch, but the bullets describe a smart outlet. With the listing contradicting itself, you can't be sure what will arrive.",
+      "reasons": [
+        "A bullet says it \"Replaces existing outlet\" and that \"one outlet is Wi-Fi controlled while the other remains always on\", which describes a receptacle, not a dimmer.",
+        "Another bullet mentions managing \"downstream outlets\".",
+        "No LED load rating or 3-way information appears anywhere in the listing.",
+        "3.6 stars from 43 reviews."
+      ],
+      "name": "Legrand Radiant Wi-Fi Matter Smart Dimmer Light Switch, White 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/41IBD5UbYKL._AC_SL1500_.jpg",
+      "price": 35.88,
+      "rating": 3.6,
+      "reviews_count": 43,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will a smart dimmer work with my LED bulbs?",
+      "a": "Only with bulbs marked dimmable, and even then some combinations flicker or buzz at low levels. Dimmers with an adjustable minimum brightness (sometimes called low-end trim) let you raise the bottom of the range until the flicker stops."
+    },
+    {
+      "q": "What's the wattage rating about?",
+      "a": "Smart dimmers list a maximum load, often around 150 W of LED and 600 W of incandescent. Add up the bulbs on the circuit. If you're close to the limit, pick a higher-rated model or split the load."
+    },
+    {
+      "q": "Can I use a smart dimmer on a ceiling fan?",
+      "a": "No. Dimmers are for lights. Fans need a fan speed control or an on/off switch rated for motors."
+    },
+    {
+      "q": "Matter over Wi-Fi or Matter over Thread?",
+      "a": "Matter over Wi-Fi dimmers connect to your router and need nothing else. Matter over Thread dimmers need a Thread border router, such as a HomePod mini, Apple TV 4K, Nest Hub (2nd gen), or Echo Hub, but they don't add load to your Wi-Fi."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+    },
+    {
+      "q": "Will a smart switch work on a 3-way circuit?",
+      "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}

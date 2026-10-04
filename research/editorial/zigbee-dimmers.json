@@ -1,0 +1,61 @@
+{
+  "feature_weights": {"no_neutral": 0.35, "three_way": 0.35, "open_hub": 0.30},
+  "systems_note": "Inovelli's Blue Series is its Zigbee line.",
+  "spec_fields": [
+    {"key": "neutral", "label": "Neutral wire"},
+    {"key": "three_way_text", "label": "3-way"},
+    {"key": "led_load", "label": "LED load"},
+    {"key": "hub", "label": "Hub"},
+    {"key": "open_hub", "label": "Third-party hubs", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "neutral", "label": "Neutral"},
+    {"key": "three_way_text", "label": "3-way"},
+    {"key": "led_load", "label": "LED load"},
+    {"key": "hub", "label": "Hub"}
+  ],
+  "awards": [
+    {"asin": "B0BG329SH3", "label": "Best Overall", "kind": "overall", "why": "Works with or without a neutral, handles 3-way with your existing switches, and doubles as an on/off switch."},
+    {"asin": "B08428GDS8", "label": "Best Budget", "kind": "budget", "why": "Pairs straight to Echo devices with a Zigbee hub, and has the most reviews of any Zigbee dimmer we found."},
+    {"asin": "B0F2N68K3C", "label": "Most Flexible", "kind": "premium", "why": "Runs as Zigbee or Matter over Thread, works without a neutral, and lets you set brightness limits."},
+    {"asin": "B000U39QRK", "label": "Best for Big Loads", "kind": "special", "why": "Rated for 300 W of LED, double most smart dimmers."}
+  ],
+  "products": [
+    {"asin": "B0BG329SH3", "brand": "Inovelli", "model": "Blue Series 2-1", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"neutral": "Optional", "three_way_text": "Existing switches or Inovelli Aux", "led_load": "Not listed", "hub": "Any Zigbee 3.0 hub", "extras": "Dimmer or on/off, custom LED bar"},
+     "features": {"no_neutral": true, "three_way": true, "open_hub": true},
+     "verdict": "The enthusiast's pick. One switch that can be a dimmer or an on/off switch, with or without a neutral, and a customizable LED bar.",
+     "pros": ["Works with or without a neutral wire", "Use existing switches in a 3-way, or add Inovelli's Aux switch", "Set up as a dimmer or on/off switch", "Customizable LED notification bar"],
+     "cons": ["Sold by a reseller with 1 left in stock at capture time", "The listing never says Zigbee; Blue Series is Inovelli's Zigbee line", "Neutral installs unlock the most features"]},
+    {"asin": "B08428GDS8", "brand": "Enbrighten", "model": "Zigbee in-wall dimmer", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"neutral": "Required", "three_way_text": "Up to 4 add-ons (46199)", "led_load": "Not listed", "hub": "Echo with Zigbee hub, or any Zigbee 3.0 hub", "extras": "Auto-detecting line and load"},
+     "features": {"no_neutral": false, "three_way": true, "open_hub": true},
+     "verdict": "The most-reviewed Zigbee dimmer we found. It pairs directly with Echo devices that have a Zigbee hub built in.",
+     "pros": ["Pairs with Echo Studio, Echo Show 10, and Echo Plus with no extra hub", "312 reviews, sold by Amazon", "Auto-detecting line and load terminals", "Zigbee 3.0 without well-known network keys"],
+     "cons": ["3-way needs Enbrighten 46199 add-on switches", "Needs a neutral wire", "4.0 stars"]},
+    {"asin": "B0F2N68K3C", "brand": "Aqara", "model": "H2 dimmer", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"neutral": "Optional", "three_way_text": "Not listed", "led_load": "Not listed", "hub": "Aqara hub (Zigbee) or Thread border router (Matter)", "extras": "Forward and reverse phase, brightness limits"},
+     "features": {"no_neutral": true, "three_way": false, "open_hub": true},
+     "verdict": "A Zigbee or Thread dimmer that works without a neutral and lets you cap brightness to stop LED flicker.",
+     "pros": ["Choose Zigbee or Matter over Thread", "Works with or without a neutral", "Forward and reverse phase dimming", "Set minimum and maximum brightness"],
+     "cons": ["3-way isn't covered in the listing", "3.9 stars", "Zigbee mode needs an Aqara hub for full features"]},
+    {"asin": "B000U39QRK", "brand": "Leviton", "model": "DG6HD-1BW", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"neutral": "Required", "three_way_text": "Up to 4 DD00R remotes", "led_load": "300 W", "hub": "Any Zigbee 3.0 hub", "extras": "Decora color change kits"},
+     "features": {"no_neutral": false, "three_way": true, "open_hub": true},
+     "verdict": "A Zigbee 3.0 certified Decora dimmer with a 300 W LED rating, the highest here.",
+     "pros": ["300 W LED and 600 W incandescent rating", "Zigbee 3.0 certified", "Up to four DD00R remotes for 3-way dimming", "Works with Echo hubs and SmartThings"],
+     "cons": ["Usually ships in 7 to 8 days from a third-party seller", "Needs a neutral wire", "Most expensive Zigbee dimmer here"]}
+  ],
+  "avoid": [
+    {"asin": "B091L1912K", "brand": "GLEDOPTO", "model": "Triac touch dimmer", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],
+     "flag": "No bullets, no load rating, no wiring details",
+     "verdict": "The listing has no product bullets at all, so there's no load rating, wiring requirement, or box size to check before you buy.",
+     "reasons": [
+       "There are no feature bullets on the listing, only a long keyword title.",
+       "Nothing says whether it needs a neutral or how many watts of LED it can handle.",
+       "The title misspells the Echo it claims to work with (\"Amazon Ehco Plus\").",
+       "3.4 stars from 16 reviews."
+     ]}
+  ]
+}

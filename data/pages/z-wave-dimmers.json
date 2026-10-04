@@ -1,0 +1,571 @@
+{
+  "slug": "z-wave-dimmers",
+  "family": "dimmers",
+  "family_title": "Dimmers",
+  "noun": "dimmer",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Z-Wave Dimmer Switches",
+  "subtitle": "In-wall dimmers for Z-Wave hubs, ranked from live Amazon data.",
+  "intro": "We pulled the in-wall Z-Wave dimmers selling on Amazon, checked each listing, and scored them on rating, review volume, and features: 800 Series Long Range radios, 3-way support without add-on switches, and adjustable dimming. On/off switches are on our Z-Wave light switches page.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "long_range": 0.3,
+    "direct_3way": 0.3,
+    "led_tuning": 0.2,
+    "custom_led": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "three_way",
+      "label": "3-way setup"
+    },
+    {
+      "key": "led_load",
+      "label": "LED load"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "long_range",
+      "label": "Long Range",
+      "type": "bool"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "three_way",
+      "label": "3-way setup"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0921T7L2V",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "800 Series Long Range, 3-, 4-, or 5-way with your existing switches, and Zooz says it handles LEDs that flicker on other dimmers."
+    },
+    {
+      "asin": "B0FX36Z8VN",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "The cheapest 800 Series Long Range dimmer here, and it works with one standard 3-way switch."
+    },
+    {
+      "asin": "B09VCPYSKH",
+      "label": "Best Toggle",
+      "kind": "special",
+      "why": "A Long Range toggle dimmer with direct 3-way, for rooms with toggle switches."
+    },
+    {
+      "asin": "B0D2DQXBC2",
+      "label": "Best Name Brand",
+      "kind": "premium",
+      "why": "Leviton's 800 Series Decora dimmer with fade rates, preset levels, and LED fine-tuning, sold by Amazon."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0921T7L2V",
+      "brand": "Zooz",
+      "model": "ZEN77 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Paddle",
+        "three_way": "Existing 3-, 4-, 5-way switches",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "direct_3way": true,
+        "led_tuning": true,
+        "custom_led": true
+      },
+      "verdict": "The Z-Wave dimmer to buy. It works with the switches already in a 3-way or 4-way circuit and fits shallow boxes.",
+      "pros": [
+        "Works with existing on/off switches in 3-, 4-, and 5-way circuits",
+        "800 Series with Long Range",
+        "Only 1.16 in. deep",
+        "Double tap to full brightness; programmable levels on hubs with advanced settings",
+        "Multicolor LED indicator with a night light mode"
+      ],
+      "cons": [
+        "The other switches in the circuit must be on/off switches, not dimmers",
+        "Voice control only through a Z-Wave hub",
+        "Sold by a third-party seller"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range S2 Dimmer Switch ZEN77 800LR, White | Simple Direct 3-Way and 4-Way Solution (Works with Regular Switches, No Aux Switch Needed) | Z-Wave Hub Required",
+      "image": "https://m.media-amazon.com/images/I/51UnAw+MX9L._AC_SL1000_.jpg",
+      "price": 46.95,
+      "rating": 4.5,
+      "reviews_count": 163,
+      "bought": null
+    },
+    {
+      "asin": "B09VCPYSKH",
+      "brand": "Zooz",
+      "model": "ZEN74 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Toggle",
+        "three_way": "Existing 3-way switch",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "direct_3way": true,
+        "led_tuning": false,
+        "custom_led": false
+      },
+      "verdict": "The toggle version of Zooz's dimmer, with direct 3-way and Long Range.",
+      "pros": [
+        "One of the few smart toggle dimmers",
+        "Direct 3-way and 4-way with no add-on switch",
+        "800 Series Long Range",
+        "5-year warranty once registered"
+      ],
+      "cons": [
+        "Not compatible with Luminus, Lithonia, or Feit bulbs, per the listing",
+        "Needs a neutral wire",
+        "Wires differently from the older ZEN23 and ZEN24"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range Toggle Dimmer ZEN74, White | Direct 3-Way (No Add-On Switch Needed) | Z-Wave Hub Required",
+      "image": "https://m.media-amazon.com/images/I/512lmg3+C4L._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 43.95,
+      "rating": 4.2,
+      "reviews_count": 55,
+      "bought": null
+    },
+    {
+      "asin": "B0D2DQXBC2",
+      "brand": "Leviton",
+      "model": "ZW6HD-1RW",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Decora paddle",
+        "three_way": "DD00R or DD0SR companion",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": false,
+        "direct_3way": false,
+        "led_tuning": true,
+        "custom_led": false
+      },
+      "verdict": "A dependable name-brand 800 Series dimmer with settings to tame LED flicker. Sold and shipped by Amazon.",
+      "pros": [
+        "800 Series with S2, SmartStart, and over-the-air updates",
+        "Fade rates and preset light levels",
+        "Settings to fine-tune LED dimming",
+        "200+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "3-way needs a Leviton companion dimmer or switch",
+        "Long Range isn't mentioned in the listing",
+        "4.2 stars"
+      ],
+      "name": "Leviton Decora Smart Dimmer, Z-Wave 800 Series, ZW6HD-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/51qZmlMNnML._SL1000_.jpg",
+      "price": 46.52,
+      "rating": 4.2,
+      "reviews_count": 106,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0GTRJT4GK",
+      "brand": "Enbrighten",
+      "model": "800 Series LR dimmer, paddle",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Paddle",
+        "three_way": "Standard 3-way or up to 4 add-ons",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "direct_3way": true,
+        "led_tuning": false,
+        "custom_led": true
+      },
+      "verdict": "Enbrighten's Long Range dimmer, easy to wire and selling well at 200+ a month.",
+      "pros": [
+        "Up to 1,300 ft range as Z-Wave Long Range",
+        "Auto-detecting line and load terminals",
+        "Works with a standard 3-way switch or up to four add-ons",
+        "White and light almond paddles included"
+      ],
+      "cons": [
+        "3.9-star rating",
+        "Full dimming from every location needs Enbrighten add-ons",
+        "Needs a neutral wire"
+      ],
+      "name": "Enbrighten Z-Wave Long Range Dimmer Switch, 800 Series, Paddle",
+      "image": "https://m.media-amazon.com/images/I/81hZ+FOGGaL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 3.9,
+      "reviews_count": 19,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0G1NB8ZFD",
+      "brand": "Enbrighten",
+      "model": "800 Series LR dimmer, toggle",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Toggle",
+        "three_way": "Standard 3-way or up to 4 add-ons",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "direct_3way": true,
+        "led_tuning": false,
+        "custom_led": true
+      },
+      "verdict": "The same Long Range dimmer as a lit toggle.",
+      "pros": [
+        "Lit toggle in eight colors",
+        "Up to 1,300 ft range as Z-Wave Long Range",
+        "Works with a standard 3-way switch or up to four add-ons"
+      ],
+      "cons": [
+        "Sold by a third-party seller with limited stock",
+        "Only 24 reviews",
+        "Needs a neutral wire"
+      ],
+      "name": "Enbrighten Z-Wave Long Range Dimmer Switch, 800 Series, Toggle",
+      "image": "https://m.media-amazon.com/images/I/81xcxX098vL._SL1500_.jpg",
+      "price": 38.99,
+      "rating": 4.2,
+      "reviews_count": 24,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FX36Z8VN",
+      "brand": "UltraPro",
+      "model": "800 Series LR dimmer, paddle",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "800 Series",
+        "style": "Paddle",
+        "three_way": "One standard 3-way switch",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "direct_3way": true,
+        "led_tuning": false,
+        "custom_led": true
+      },
+      "verdict": "The cheapest way into an 800 Series Long Range dimmer, with flying leads for easy wiring.",
+      "pros": [
+        "Lowest price for an 800 Series Long Range dimmer here",
+        "Color-coded flying leads",
+        "Works with one traditional 3-way switch",
+        "ETL certified, sold by Amazon"
+      ],
+      "cons": [
+        "Not compatible with UltraPro add-on switches",
+        "4.0 stars from 40 reviews",
+        "Needs a neutral wire"
+      ],
+      "name": "UltraPro Z-Wave Long Range Dimmer Switch, 800 Series, Paddle, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/71z20vNyArL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.0,
+      "reviews_count": 40,
+      "bought": null
+    },
+    {
+      "asin": "B0FWKJ5JWS",
+      "brand": "Leviton",
+      "model": "DZ6HD-2RW",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "style": "Decora paddle",
+        "three_way": "Up to 4 DD00R remotes",
+        "led_load": "300 W",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": false,
+        "direct_3way": false,
+        "led_tuning": false,
+        "custom_led": false
+      },
+      "verdict": "Leviton's older Z-Wave Plus dimmer with a higher 300 W LED rating. Good for bigger lighting loads.",
+      "pros": [
+        "300 W LED and 600 W incandescent rating",
+        "Up to four DD00R remotes for multi-location dimming",
+        "Ivory and light almond paddles",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Older Z-Wave Plus chip",
+        "Only 9 reviews",
+        "Remotes are sold separately"
+      ],
+      "name": "Leviton Decora Smart 600W Dimmer with Z-Wave Technology, Ivory, 1-Pack, DZ6HD-2RW, White/Light Almond",
+      "image": "https://m.media-amazon.com/images/I/31we+2+l5OL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 9,
+      "bought": null
+    },
+    {
+      "asin": "B0987MJFTL",
+      "brand": "Aeotec",
+      "model": "illumino Wall Dimmer (Gen7)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "style": "Paddle",
+        "three_way": "Uses traveler wire",
+        "led_load": "150 W",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": false,
+        "direct_3way": true,
+        "led_tuning": false,
+        "custom_led": false
+      },
+      "verdict": "A 700 Series dimmer with S2 security that works in multi-pole circuits using the existing traveler wire.",
+      "pros": [
+        "Single-pole or multi-pole using the traveler wire",
+        "S2 security and SmartStart",
+        "Repeats Z-Wave up to 492 ft line of sight"
+      ],
+      "cons": [
+        "3.6-star rating",
+        "150 W LED limit",
+        "No Long Range"
+      ],
+      "name": "Zwave Light dimmer Switch: Aeotec Wall Dimmer Switch, 3 Way, Repeater, On Off Dim, SmartThings Switch, Z-Wave Plus, Gen7, illumino, ZWave hub Required",
+      "image": "https://m.media-amazon.com/images/I/61blHpAREyS._SL1200_.jpg",
+      "price": 36.99,
+      "rating": 3.6,
+      "reviews_count": 25,
+      "bought": null
+    },
+    {
+      "asin": "B07NLX2L3M",
+      "brand": "Eaton",
+      "model": "RF9640 Universal Dimmer",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "style": "Push pad",
+        "three_way": "RF9642 accessory dimmer",
+        "led_load": "Not listed",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": false,
+        "direct_3way": false,
+        "led_tuning": false,
+        "custom_led": false
+      },
+      "verdict": "A universal dimmer that handles LED, CFL, MLV, and ELV loads, with a 7-step LED level display.",
+      "pros": [
+        "Handles LED, CFL, incandescent, MLV, ELV, and halogen",
+        "7-step blue level indicator",
+        "S2 security"
+      ],
+      "cons": [
+        "3-way needs Eaton's RF9642 accessory dimmer",
+        "Sold by a third-party seller",
+        "3.8 stars"
+      ],
+      "name": "Z-Wave Plus Universal Dimmer",
+      "image": "https://m.media-amazon.com/images/I/71PCrinaZDL._SL1500_.jpg",
+      "price": 19.77,
+      "rating": 3.8,
+      "reviews_count": 44,
+      "bought": null
+    },
+    {
+      "asin": "B0CL11Y96R",
+      "brand": "Square D",
+      "model": "X Series SQR22102WHZ",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "Z-Wave Plus",
+        "style": "Rocker",
+        "three_way": "3-way capable",
+        "led_load": "150 W",
+        "neutral": "Not stated in listing"
+      },
+      "features": {
+        "long_range": false,
+        "direct_3way": false,
+        "led_tuning": false,
+        "custom_led": false
+      },
+      "verdict": "Schneider Electric's Z-Wave Plus dimmer with built-in energy monitoring, part of a matching line of switches and outlets.",
+      "pros": [
+        "Built-in energy monitoring",
+        "Matches the Square D X Series line",
+        "S2 SmartStart",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.1 stars from only 7 reviews",
+        "150 W LED limit",
+        "Listing doesn't explain 3-way wiring"
+      ],
+      "name": "Square D by Schneider Electric X-Series Z-Wave Plus 3 Way Rocker Smart Light Dimmer, Single Pole Connected Light Dimmer, 1 Gang, 15 Amp, Matte White (SQR22102WHZ)",
+      "image": "https://m.media-amazon.com/images/I/71F-JvvO-fL._SL1500_.jpg",
+      "price": 21.28,
+      "rating": 3.1,
+      "reviews_count": 7,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B01NB1REZZ",
+      "brand": "GoControl",
+      "model": "ZWAVE SMRT 3WY DIMMR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Filler listing with no load rating, wiring, or model details",
+      "verdict": "The listing tells you almost nothing about what you're buying. Three of its four bullets are filler, and none give a load rating or wiring requirements.",
+      "reasons": [
+        "The bullets read \"A Must Buy Item\", \"Built To Last\", and \"Great Item To Give as A Gift\".",
+        "There's no LED or incandescent load rating, no neutral requirement, and no 3-way wiring information.",
+        "The spec table lists its size as 1 x 1 x 1 inch, which isn't the size of a wall dimmer.",
+        "For a few dollars more, the UltraPro and Eaton dimmers above publish their specs."
+      ],
+      "name": "ZWAVE SMRT 3WY DIMMR",
+      "image": "https://m.media-amazon.com/images/I/410Jklje-NL._AC_SL1000_.jpg",
+      "price": 9.99,
+      "rating": 3.7,
+      "reviews_count": 23,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will a smart dimmer work with my LED bulbs?",
+      "a": "Only with bulbs marked dimmable, and even then some combinations flicker or buzz at low levels. Dimmers with an adjustable minimum brightness (sometimes called low-end trim) let you raise the bottom of the range until the flicker stops."
+    },
+    {
+      "q": "What's the wattage rating about?",
+      "a": "Smart dimmers list a maximum load, often around 150 W of LED and 600 W of incandescent. Add up the bulbs on the circuit. If you're close to the limit, pick a higher-rated model or split the load."
+    },
+    {
+      "q": "Can I use a smart dimmer on a ceiling fan?",
+      "a": "No. Dimmers are for lights. Fans need a fan speed control or an on/off switch rated for motors."
+    },
+    {
+      "q": "Do Z-Wave dimmers need a hub?",
+      "a": "Yes. They pair to a Z-Wave controller such as Home Assistant with a Z-Wave adapter, Hubitat, SmartThings with a Z-Wave hub, or Homey Pro. Smart speakers can't talk to Z-Wave directly."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+    },
+    {
+      "q": "Will a smart switch work on a 3-way circuit?",
+      "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}

@@ -113,3 +113,51 @@ PAGES = {
              "a": "It wires in between the power and the light, in the ceiling box, the fixture canopy, or the existing switch box. Some kits use a plug-in receiver for lamps instead."},
             "SAFETY"]},
 }
+
+DIM_GUIDE = [
+    {"q": "Will a smart dimmer work with my LED bulbs?",
+     "a": "Only with bulbs marked dimmable, and even then some combinations flicker or buzz at low levels. Dimmers with an adjustable minimum brightness (sometimes called low-end trim) let you raise the bottom of the range until the flicker stops."},
+    {"q": "What's the wattage rating about?",
+     "a": "Smart dimmers list a maximum load, often around 150 W of LED and 600 W of incandescent. Add up the bulbs on the circuit. If you're close to the limit, pick a higher-rated model or split the load."},
+    {"q": "Can I use a smart dimmer on a ceiling fan?",
+     "a": "No. Dimmers are for lights. Fans need a fan speed control or an on/off switch rated for motors."},
+]
+PAGES.update({
+    "z-wave-dimmers": {
+        "family": "dimmers", "family_title": "Dimmers", "noun": "dimmer",
+        "title": "The 10 Best Z-Wave Dimmer Switches",
+        "subtitle": "In-wall dimmers for Z-Wave hubs, ranked from live Amazon data.",
+        "intro": "We pulled the in-wall Z-Wave dimmers selling on Amazon, checked each listing, and scored them on rating, review volume, and features: 800 Series Long Range radios, 3-way support without add-on switches, and adjustable dimming. On/off switches are on our Z-Wave light switches page.",
+        "reviews_ceiling": 1000,
+        "guide": DIM_GUIDE + [
+            {"q": "Do Z-Wave dimmers need a hub?",
+             "a": "Yes. They pair to a Z-Wave controller such as Home Assistant with a Z-Wave adapter, Hubitat, SmartThings with a Z-Wave hub, or Homey Pro. Smart speakers can't talk to Z-Wave directly."},
+            "NEUTRAL", "3WAY", "SAFETY"]},
+    "zigbee-dimmers": {
+        "family": "dimmers", "family_title": "Dimmers", "noun": "dimmer",
+        "title": "The Best Zigbee Dimmer Switches",
+        "subtitle": "Every in-wall Zigbee dimmer we could find on Amazon, ranked.",
+        "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. Most of what turns up in a search is a hidden module or a 0-10 V controller, which we left out. We scored the wall dimmers on rating, review volume, and features.",
+        "reviews_ceiling": 500,
+        "guide": DIM_GUIDE + [
+            {"q": "Why are there so few Zigbee dimmers?",
+             "a": "In the US, most wall-switch makers chose Z-Wave, Wi-Fi, or Matter. Zigbee is common for bulbs and sensors, and its dimmers are mostly sold as hidden modules rather than wall switches."},
+            "NEUTRAL", "SAFETY"]},
+    "wifi-dimmers": {
+        "family": "dimmers", "family_title": "Dimmers", "noun": "dimmer",
+        "title": "The 10 Best Wi-Fi Dimmer Switches",
+        "subtitle": "No-hub smart dimmers that connect straight to your router.",
+        "intro": "We pulled the best-selling Wi-Fi dimmers on Amazon and scored them on rating, review volume, and features: 3-way support, no-neutral options, and adjustable dimming. Wi-Fi dimmers with Matter are on our Matter dimmers page, so this list covers the app-based ones.",
+        "reviews_ceiling": 35000,
+        "guide": DIM_GUIDE + ["NEUTRAL", "3WAY", "SAFETY"]},
+    "matter-dimmers": {
+        "family": "dimmers", "family_title": "Dimmers", "noun": "dimmer",
+        "title": "The 10 Best Matter Dimmer Switches",
+        "subtitle": "Dimmers that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+        "intro": "We pulled the Matter dimmers selling on Amazon and scored them on rating, review volume, and features: 3-way support, no-neutral options, and adjustable dimming. The table shows whether each one runs Matter over Wi-Fi or over Thread.",
+        "reviews_ceiling": 1500,
+        "guide": DIM_GUIDE + [
+            {"q": "Matter over Wi-Fi or Matter over Thread?",
+             "a": "Matter over Wi-Fi dimmers connect to your router and need nothing else. Matter over Thread dimmers need a Thread border router, such as a HomePod mini, Apple TV 4K, Nest Hub (2nd gen), or Echo Hub, but they don't add load to your Wi-Fi."},
+            "NEUTRAL", "3WAY", "SAFETY"]},
+})

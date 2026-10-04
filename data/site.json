@@ -43,7 +43,9 @@
         },
         {
           "slug": "z-wave-dimmers",
-          "title": "Z-Wave dimmers"
+          "title": "Z-Wave dimmers",
+          "family": "dimmers",
+          "ready": true
         },
         {
           "slug": "z-wave-door-sensors",
@@ -102,6 +104,12 @@
           "slug": "zigbee-switches",
           "title": "Zigbee light switches",
           "family": "light-switches",
+          "ready": true
+        },
+        {
+          "slug": "zigbee-dimmers",
+          "title": "Zigbee dimmers",
+          "family": "dimmers",
           "ready": true
         },
         {
@@ -164,6 +172,12 @@
           "slug": "wifi-switches",
           "title": "Wi-Fi light switches",
           "family": "light-switches",
+          "ready": true
+        },
+        {
+          "slug": "wifi-dimmers",
+          "title": "Wi-Fi dimmers",
+          "family": "dimmers",
           "ready": true
         },
         {
@@ -328,6 +342,12 @@
           "slug": "matter-switches",
           "title": "Matter light switches",
           "family": "light-switches",
+          "ready": true
+        },
+        {
+          "slug": "matter-dimmers",
+          "title": "Matter dimmers",
+          "family": "dimmers",
           "ready": true
         },
         {

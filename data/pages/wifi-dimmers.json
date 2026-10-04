@@ -1,0 +1,549 @@
+{
+  "slug": "wifi-dimmers",
+  "family": "dimmers",
+  "family_title": "Dimmers",
+  "noun": "dimmer",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Wi-Fi Dimmer Switches",
+  "subtitle": "No-hub smart dimmers that connect straight to your router.",
+  "intro": "We pulled the best-selling Wi-Fi dimmers on Amazon and scored them on rating, review volume, and features: 3-way support, no-neutral options, and adjustable dimming. Wi-Fi dimmers with Matter are on our Matter dimmers page, so this list covers the app-based ones.",
+  "reviews_ceiling": 35000,
+  "feature_weights": {
+    "three_way": 0.35,
+    "no_neutral": 0.25,
+    "dim_tuning": 0.2,
+    "apple_home": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "neutral",
+      "label": "Neutral wire"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "led_load",
+      "label": "LED load"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    },
+    {
+      "key": "dim_tuning",
+      "label": "Adjustable dim range",
+      "type": "bool"
+    },
+    {
+      "key": "pack",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "three_way_text",
+      "label": "3-way"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    },
+    {
+      "key": "led_load",
+      "label": "LED load"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B079775ZZQ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Nearly 35,000 reviews at 4.6 stars for about $15, with fade-on and gentle-off built in."
+    },
+    {
+      "asin": "B095X5H16X",
+      "label": "Best for Alexa Homes",
+      "kind": "budget",
+      "why": "Sets up entirely in the Alexa app, no extra app needed, for $16.99."
+    },
+    {
+      "asin": "B0BC2MWTR9",
+      "label": "Best for 3-Way",
+      "kind": "special",
+      "why": "A complete 3-way dimmer kit with 2,633 reviews and 2K+ bought last month."
+    },
+    {
+      "asin": "B0C9W2G2V9",
+      "label": "Best No-Neutral",
+      "kind": "premium",
+      "why": "Installs without a neutral and works with Apple Home, Alexa, Google, and SmartThings through Leviton's bridge."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B079775ZZQ",
+      "brand": "Kasa",
+      "model": "HS220",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "Not listed",
+        "app": "Kasa or Tapo",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "The best-selling smart dimmer on Amazon. Cheap, reliable, and the Kasa app is easy to use.",
+      "pros": [
+        "34,939 reviews at 4.6 stars, 2K+ bought in the past month",
+        "Fade on with a click, gentle fade off with a double click",
+        "Schedules, timers, and away mode",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Single-pole only; the 3-way version is the KS230 kit",
+        "Needs a neutral wire",
+        "No Apple Home"
+      ],
+      "name": "Kasa Smart Dimmer Switch HS220, Single Pole, Needs Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/61oD38GPMAL._SL1253_.jpg",
+      "price": 14.98,
+      "rating": 4.6,
+      "reviews_count": 34939,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0BC2MWTR9",
+      "brand": "Kasa",
+      "model": "KS230 kit v2",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, kit included",
+        "led_load": "150 W",
+        "app": "Kasa or Tapo",
+        "pack": "3-way dimmer kit"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "Kasa's 3-way dimmer kit for stairs and hallways, with 1% to 100% dimming.",
+      "pros": [
+        "Complete 3-way kit",
+        "1% to 100% dimming",
+        "ETL certified with a 2-year warranty",
+        "2,633 reviews, 2K+ bought in the past month"
+      ],
+      "cons": [
+        "150 W LED limit",
+        "Needs a neutral wire",
+        "No Apple Home"
+      ],
+      "name": "Kasa Smart 3-Way Dimmer Switch Kit, KS230 KIT v2, Need Neutral Wire",
+      "image": "https://m.media-amazon.com/images/I/71S0-zkaFQL._SL1500_.jpg",
+      "price": 41.99,
+      "rating": 4.4,
+      "reviews_count": 2633,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B07YKGMXDM",
+      "brand": "TREATLIFE",
+      "model": "Smart dimmer (single pole)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "150 W",
+        "app": "Smart Life / Treatlife",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "A well-rated budget dimmer with 1,718 reviews at 4.5 stars.",
+      "pros": [
+        "4.5 stars from 1,718 reviews",
+        "150 W LED rating",
+        "Built-in overheat protection"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Only FCC listed; no safety certification named",
+        "Needs a neutral wire"
+      ],
+      "name": "TREATLIFE Smart Dimmer Switch, Neutral Wire Needed, 2.4Ghz Wi-Fi Light Switch, Works with Alexa and Google Assistant, Schedule, Remote Control, FCC Listed, Single Pole (1 Pack)",
+      "image": "https://m.media-amazon.com/images/I/61379ZdAyEL._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.5,
+      "reviews_count": 1718,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B095X5H16X",
+      "brand": "Amazon Basics",
+      "model": "Smart Dimmer (single pole)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "Not listed",
+        "app": "Alexa app",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "The simplest dimmer for an Alexa home. Setup and control happen entirely in the Alexa app.",
+      "pros": [
+        "No extra app, set up in the Alexa app",
+        "1K+ bought in the past month",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Works with Alexa only",
+        "Single-pole only",
+        "Load rating isn't listed"
+      ],
+      "name": "Amazon Basics Smart Dimmer Switch, Single Pole, Works with Alexa Only, Voice Control, 2.4 GHz Wi-Fi, No Hub Required, Neutral Wire Required, White",
+      "image": "https://m.media-amazon.com/images/I/71BxHSSwAyL._AC_SL1500_.jpg",
+      "price": 16.99,
+      "rating": 4.2,
+      "reviews_count": 1479,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B07SXDFH38",
+      "brand": "Feit Electric",
+      "model": "DIM/WiFi",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "Yes, 3-way and 4-way",
+        "led_load": "150 W",
+        "app": "Feit Electric",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "A single dimmer that handles single-pole, 3-way, and 4-way circuits, with a level indicator on the face.",
+      "pros": [
+        "Single-pole, 3-way, and 4-way",
+        "LED level indicator",
+        "1,591 reviews, sold by Amazon"
+      ],
+      "cons": [
+        "A licensed electrician is recommended in the listing",
+        "Feit app only, no Home Assistant integration",
+        "Needs a neutral wire"
+      ],
+      "name": "Feit Electric Smart Dimmer Switch, Neutral Wire Required for Installation, Compatible with Amazon Alexa and Google Assistant, Smart Dimmer Light Switch, White, Model:DIM/WiFi",
+      "image": "https://m.media-amazon.com/images/I/71lvHS7PC9L._SL1500_.jpg",
+      "price": 21.99,
+      "rating": 4.2,
+      "reviews_count": 1591,
+      "bought": null
+    },
+    {
+      "asin": "B0BTMWZH3K",
+      "brand": "Kasa",
+      "model": "KS220P3 (3-pack)",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "Not listed",
+        "app": "Kasa or Apple Home",
+        "pack": "3 dimmers"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": true
+      },
+      "verdict": "Kasa's Apple Home version in a three-pack, so iPhone users get Siri and the Home app without Matter.",
+      "pros": [
+        "Works in Apple Home with Siri",
+        "Also works with Alexa and Google",
+        "Three dimmers for about $20 each",
+        "1,092 reviews"
+      ],
+      "cons": [
+        "Only sold as a 3-pack here",
+        "Single-pole only",
+        "Apple Home remote access needs a home hub"
+      ],
+      "name": "Kasa Apple HomeKit Smart Dimmer Switch, KS220P3, Single Pole",
+      "image": "https://m.media-amazon.com/images/I/61dm2xn-+UL._SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews_count": 1092,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0DHYJKVX9",
+      "brand": "Tapo",
+      "model": "S500D (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "Not listed",
+        "app": "Tapo",
+        "pack": "4 dimmers"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": false,
+        "apple_home": false
+      },
+      "verdict": "Four Tapo dimmers for about $13 each. The cheapest way to do several rooms.",
+      "pros": [
+        "About $13 per dimmer",
+        "4.6 stars from 415 reviews",
+        "1% to 100% dimming by touch, app, or voice"
+      ],
+      "cons": [
+        "Only sold as a 4-pack here",
+        "Single-pole only",
+        "Needs a neutral wire"
+      ],
+      "name": "Tapo Smart Dimmer Switch, Single Pole, Need Neutral Wire, S500D(4-Pack)",
+      "image": "https://m.media-amazon.com/images/I/61joTWW8+bL._SL1500_.jpg",
+      "price": 52.99,
+      "rating": 4.6,
+      "reviews_count": 415,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0DDL35WNV",
+      "brand": "GHome",
+      "model": "SW2",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "neutral": "Required",
+        "three_way_text": "No (single pole)",
+        "led_load": "Not listed",
+        "app": "GHome",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": true,
+        "apple_home": false
+      },
+      "verdict": "A touch-slider dimmer with an adjustable brightness range to stop low-end flicker.",
+      "pros": [
+        "Adjustable minimum brightness to fix flicker",
+        "Touch slider dimming",
+        "Group control in the app"
+      ],
+      "cons": [
+        "Single-pole only",
+        "Sold by a third-party seller",
+        "GHome app only"
+      ],
+      "name": "GHome Smart Dimmer Light Switch, Single Pole,1%-100% Dimming,SW2(1 Pack)",
+      "image": "https://m.media-amazon.com/images/I/61tmo+F-6KL._SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.2,
+      "reviews_count": 590,
+      "bought": null
+    },
+    {
+      "asin": "B0C9W2G2V9",
+      "brand": "Leviton",
+      "model": "DN6HD-1RW",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "specs": {
+        "neutral": "Not needed",
+        "three_way_text": "With Anywhere companion",
+        "led_load": "Not listed",
+        "app": "My Leviton",
+        "pack": "1 dimmer (bridge sold separately)"
+      },
+      "features": {
+        "three_way": true,
+        "no_neutral": true,
+        "dim_tuning": true,
+        "apple_home": true
+      },
+      "verdict": "One of the few Wi-Fi-controlled dimmers that installs without a neutral. It needs Leviton's MLWSB bridge.",
+      "pros": [
+        "No neutral wire needed",
+        "Works with Alexa, Google, Apple Home, SmartThings, and Sonos",
+        "Wire-free 3-way with a Leviton Anywhere companion",
+        "Preset levels, fade rates, and bulb-type settings"
+      ],
+      "cons": [
+        "Requires the MLWSB Wi-Fi bridge, sold separately",
+        "4.1 stars",
+        "Companion for 3-way is extra"
+      ],
+      "name": "Leviton No-Neutral Decora Smart Dimmer Switch, DN6HD-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/51TxcIEMgYL._SL1000_.jpg",
+      "price": 49.98,
+      "rating": 4.1,
+      "reviews_count": 61,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B000U3I4VE",
+      "brand": "Leviton",
+      "model": "D36HD-1RW",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "neutral": "Not stated in listing",
+        "three_way_text": "Not stated in listing",
+        "led_load": "Not listed",
+        "app": "My Leviton",
+        "pack": "1 dimmer"
+      },
+      "features": {
+        "three_way": false,
+        "no_neutral": false,
+        "dim_tuning": true,
+        "apple_home": false
+      },
+      "verdict": "Leviton's Wi-Fi Decora dimmer with min-dim and max-bright settings for flicker-free LEDs.",
+      "pros": [
+        "Adjustable bulb type, minimum dim, and maximum bright",
+        "Night settings for softer light at night",
+        "Fade rates and preset levels",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Listing doesn't cover neutral, 3-way, or voice assistants",
+        "Costs more than Kasa or Tapo",
+        "130 reviews"
+      ],
+      "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi, D36HD-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/71mcjk9nKSL._SL1500_.jpg",
+      "price": 39.0,
+      "rating": 4.4,
+      "reviews_count": 130,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0B971DJDF",
+      "brand": "MOES",
+      "model": "Smart dual dimmer",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "flag": "75 W LED limit per its own listing, 3.5 stars",
+      "verdict": "Two dimmers in one gang sounds handy, but the listing caps LED loads at 75 W, about half what a normal smart dimmer handles.",
+      "reasons": [
+        "The listing's own note gives a maximum of 75 W of LED/CFL, so a few fixtures can overload it.",
+        "It can't run 3-way circuits, smart bulbs, or fans, per the listing.",
+        "3.5 stars from 86 reviews.",
+        "Raw HTML tags (<p>) show up in the product bullets, which doesn't inspire confidence in the listing's care."
+      ],
+      "name": "MOES Smart Dual Dimmer Switch for LED Lights, WiFi, Single Pole, White",
+      "image": "https://m.media-amazon.com/images/I/61ircRZwWIL._SL1500_.jpg",
+      "price": 34.99,
+      "rating": 3.5,
+      "reviews_count": 86,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will a smart dimmer work with my LED bulbs?",
+      "a": "Only with bulbs marked dimmable, and even then some combinations flicker or buzz at low levels. Dimmers with an adjustable minimum brightness (sometimes called low-end trim) let you raise the bottom of the range until the flicker stops."
+    },
+    {
+      "q": "What's the wattage rating about?",
+      "a": "Smart dimmers list a maximum load, often around 150 W of LED and 600 W of incandescent. Add up the bulbs on the circuit. If you're close to the limit, pick a higher-rated model or split the load."
+    },
+    {
+      "q": "Can I use a smart dimmer on a ceiling fan?",
+      "a": "No. Dimmers are for lights. Fans need a fan speed control or an on/off switch rated for motors."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+    },
+    {
+      "q": "Will a smart switch work on a 3-way circuit?",
+      "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+    },
+    {
+      "q": "Can I install it myself?",
+      "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+    }
+  ]
+}
