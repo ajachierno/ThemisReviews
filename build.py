@@ -156,27 +156,24 @@ def buy_cell(site, s):
 
 def render_systems(site, data):
     systems = data["systems"]
+    def facts(s):
+        items = [("Hub", s["hub"]), ("Radios", s["radios"]), ("Runs locally", s["local"]), ("Phones", s["phones"])]
+        return "".join(f'<div class="fact"><span>{esc(k)}</span>{esc(v)}</div>' for k, v in items)
     rows = "".join(f"""<tr>
-        <td>{sys_icon(s['slug'])} <a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a><div class="tiny muted">{esc(s['maker'])}</div></td>
-        <td>{esc(s['hub'])}</td><td>{esc(s['radios'])}</td><td>{esc(s['local'])}</td>
-        <td>{esc(s['phones'])}</td><td>{esc(s['best_for'])}</td><td class="buy">{buy_cell(site, s)}</td></tr>""" for s in systems)
-    pc_rows = "".join(f"""<tr>
-        <td>{sys_icon(s['slug'])} <a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a></td>
+        <td class="sys-cell"><span class="sys-head">{sys_icon(s['slug'])} <a class="sys-name" href="{esc(s['site'])}" target="_blank" rel="noopener">{esc(s['name'])}</a></span>
+          <div class="tiny muted">{esc(s['maker'])}</div><div class="best-for"><span>Best for</span>{esc(s['best_for'])}</div></td>
         <td><ul class="pc-list pros">{''.join(f'<li>{esc(x)}</li>' for x in s['pros'])}</ul></td>
-        <td><ul class="pc-list cons">{''.join(f'<li>{esc(x)}</li>' for x in s['cons'])}</ul></td></tr>""" for s in systems)
+        <td><ul class="pc-list cons">{''.join(f'<li>{esc(x)}</li>' for x in s['cons'])}</ul></td>
+        <td class="facts">{facts(s)}</td>
+        <td class="buy">{buy_cell(site, s)}</td></tr>""" for s in systems)
     return f"""
   <section id="systems">
     <h2>Start with your system</h2>
     <p class="group-sub">The system is the app and hub that runs everything. It decides which protocols you can use, so pick it before you buy switches and sensors. Names link to each system's site; prices are from Amazon on {esc(data['data_captured'])}.</p>
-    <p class="swipe-hint">Swipe the tables sideways to see every column.</p>
+    <p class="swipe-hint">Swipe the table sideways to see every column.</p>
     <div class="tablewrap"><table class="sys-table">
-      <thead><tr><th>System</th><th>Hub to buy</th><th>Built-in radios</th><th>Runs locally</th><th>Phones</th><th>Best for</th><th>Where to buy</th></tr></thead>
+      <thead><tr><th>System</th><th>Pros</th><th>Cons</th><th>Setup</th><th>Where to buy</th></tr></thead>
       <tbody>{rows}</tbody>
-    </table></div>
-    <h3 class="sys-sub">Pros and cons</h3>
-    <div class="tablewrap"><table class="sys-table sys-pc">
-      <thead><tr><th>System</th><th>Pros</th><th>Cons</th></tr></thead>
-      <tbody>{pc_rows}</tbody>
     </table></div>
   </section>"""
 
@@ -615,18 +612,23 @@ footer a{color:var(--gold-ink)}
 .ptable td:nth-child(n+7){min-width:80px}
 .ptable th{font-size:.7rem;letter-spacing:.02em}
 .legend{margin:8px 0 0}
-.sys-table{min-width:1000px}
+.sys-table{min-width:980px}
 .sys-table td{white-space:normal;font-size:.86rem}
-.sys-table td:first-child{white-space:nowrap}
 .sys-name{color:var(--gold-ink);font-weight:700;text-decoration:underline;text-decoration-color:rgba(216,178,90,.4);text-underline-offset:3px}
 .sys-table .buy{min-width:170px}
 .sys-table .buy a:not(.btn){color:var(--gold-ink)}
 .btn.small{padding:6px 12px;font-size:.82rem;white-space:nowrap}
 .btn.ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)}
 .btn.ghost-btn:hover{border-color:var(--gold);filter:none}
-.sys-sub{margin:26px 0 12px;font-size:1.1rem;color:var(--gold-ink)}
-.sys-pc{min-width:760px}
-.sys-pc td:nth-child(2),.sys-pc td:nth-child(3){width:45%}
+.sys-table td:first-child{white-space:normal;width:16%;min-width:170px}
+.sys-table td:nth-child(2),.sys-table td:nth-child(3){width:26%}
+.sys-table td.facts{width:19%;min-width:170px}
+.sys-table td.sys-cell{font-weight:400}
+.sys-head{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.best-for{margin-top:8px;font-size:.8rem;color:var(--muted)}
+.best-for span,.fact span{display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:var(--purple-ink)}
+.fact{margin:0 0 6px;font-size:.8rem}
+.fact:last-child{margin:0}
 .pc-list{margin:0;padding-left:18px} .pc-list li{margin:3px 0}
 .pc-list.pros li::marker{color:var(--pro)} .pc-list.cons li::marker{color:var(--con)}
 /* category pages */
