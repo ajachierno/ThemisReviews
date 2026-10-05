@@ -1,0 +1,80 @@
+{
+  "feature_weights": {"hub": 0.30, "screen": 0.25, "camera_view": 0.20, "sound": 0.25},
+  "systems_note": "Echo displays run Alexa. Google doesn't sell Nest displays on Amazon, so every Nest Hub listing is a reseller or an import; we found none worth recommending.",
+  "spec_fields": [
+    {"key": "screen", "label": "Screen"},
+    {"key": "hub", "label": "Built-in smart home hub", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "screen", "label": "Screen"},
+    {"key": "hub", "label": "Hub", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "awards": [
+    {"asin": "B0DC8ZMR1P", "label": "Best Overall", "kind": "overall", "why": "An 8.7 in. HD screen, spatial audio, and a built-in smart home hub, with 6K+ bought last month."},
+    {"asin": "B09B2SBHQK", "label": "Best Budget", "kind": "budget", "why": "The 72,648-review Echo Show 5 for $59.99, ideal on a nightstand."},
+    {"asin": "B0C5DPSW5Y", "label": "Best for Kitchens", "kind": "special", "why": "A 15.6 in. wall-mountable family hub with calendars, lists, and Fire TV built in."},
+    {"asin": "B0BCR7M9KX", "label": "Best Control Panel", "kind": "premium", "why": "A wall-mounted smart home dashboard with Zigbee, Thread, and Matter built in."}
+  ],
+  "products": [
+    {"asin": "B0DC8ZMR1P", "brand": "Amazon", "model": "Echo Show 8 (newest)", "systems": ["alexa"],
+     "specs": {"screen": "8.7 in. HD", "hub": true, "extras": "Spatial audio, AZ3 Pro chip"},
+     "features": {"hub": true, "screen": true, "camera_view": true, "sound": true},
+     "verdict": "The best all-round smart display: big enough to see, small enough for any counter, with a built-in hub.",
+     "pros": ["Built-in smart home hub", "Spatial audio, up to 2x the bass of the 2023 model", "6K+ bought in the past month", "Sold by Amazon"],
+     "cons": ["4.3 stars", "Alexa only", "Some features need Alexa+"]},
+    {"asin": "B0DC91H3JK", "brand": "Amazon", "model": "Echo Show 11 (newest)", "systems": ["alexa"],
+     "specs": {"screen": "11 in. Full HD", "hub": true, "extras": "Spatial audio, 60% more screen than Show 8"},
+     "features": {"hub": true, "screen": true, "camera_view": true, "sound": true},
+     "verdict": "The bigger Echo Show with a Full HD screen, for watching shows and cameras.",
+     "pros": ["11 in. Full HD", "Built-in smart home hub", "10K+ bought in the past month"],
+     "cons": ["$149.99", "4.3 stars", "Alexa only"]},
+    {"asin": "B09B2SBHQK", "brand": "Amazon", "model": "Echo Show 5 (newest)", "systems": ["alexa"],
+     "specs": {"screen": "5.5 in.", "hub": false, "extras": "2x the bass of the previous model"},
+     "features": {"hub": false, "screen": false, "camera_view": true, "sound": false},
+     "verdict": "A cheap, compact display for nightstands and desks.",
+     "pros": ["$59.99", "72,648 reviews", "Views compatible cameras", "10K+ bought in the past month"],
+     "cons": ["Small screen", "No built-in hub", "4.2 stars"]},
+    {"asin": "B0C5DPSW5Y", "brand": "Amazon", "model": "Echo Show 15 (newest)", "systems": ["alexa"],
+     "specs": {"screen": "15.6 in. Full HD", "hub": false, "extras": "Fire TV built in, family widgets"},
+     "features": {"hub": false, "screen": true, "camera_view": true, "sound": false},
+     "verdict": "A family command center for the kitchen wall, with calendars, lists, and Fire TV.",
+     "pros": ["15.6 in. Full HD", "Fire TV built in", "Family calendars and to-do widgets", "4.4 stars"],
+     "cons": ["$249.99", "Built-in hub isn't mentioned in the bullets", "Streaming apps may need subscriptions"]},
+    {"asin": "B0CDWWS127", "brand": "Amazon", "model": "Echo Show 21 (newest)", "systems": ["alexa"],
+     "specs": {"screen": "21 in. Full HD", "hub": false, "extras": "Fire TV built in"},
+     "features": {"hub": false, "screen": true, "camera_view": true, "sound": false},
+     "verdict": "Amazon's largest display, basically a kitchen TV with Alexa.",
+     "pros": ["21 in. Full HD", "Fire TV built in", "4.4 stars"],
+     "cons": ["$349.99", "Big for most counters", "Built-in hub isn't mentioned in the bullets"]},
+    {"asin": "B0BCR7M9KX", "brand": "Amazon", "model": "Echo Hub", "systems": ["alexa"],
+     "specs": {"screen": "8 in., wall mount", "hub": true, "extras": "Zigbee, Thread, Matter, Sidewalk"},
+     "features": {"hub": true, "screen": false, "camera_view": true, "sound": false},
+     "verdict": "Not a TV, but the best wall-mounted smart home control panel for Alexa homes.",
+     "pros": ["Zigbee, Thread, and Matter hub", "Customizable device dashboard", "Arms compatible security systems"],
+     "cons": ["3.9 stars", "Not for watching shows", "$179.99"]},
+    {"asin": "B09B2SB77Q", "brand": "Amazon", "model": "Echo Show 5 Kids", "systems": ["alexa"],
+     "specs": {"screen": "5.5 in.", "hub": false, "extras": "Parental controls, 1 year of Amazon Kids+"},
+     "features": {"hub": false, "screen": false, "camera_view": false, "sound": false},
+     "verdict": "An Echo Show 5 for a kid's room, with parental controls and a year of Kids+.",
+     "pros": ["Parental controls", "1 year of Amazon Kids+ included", "$59.99"],
+     "cons": ["Kids+ costs extra after a year", "4.1 stars", "Small screen"]},
+    {"asin": "B0GQH6134D", "brand": "eufy", "model": "Smart Display E10", "systems": [], "systems_label": "eufy Security",
+     "specs": {"screen": "8 in.", "hub": false, "extras": "Four camera views, local playback"},
+     "features": {"hub": false, "screen": false, "camera_view": true, "sound": false},
+     "verdict": "A dedicated screen for eufy cameras and doorbells, with four views at once.",
+     "pros": ["Four camera views on one screen", "Instant doorbell alerts", "Local playback, no buffering", "500+ bought in the past month"],
+     "cons": ["eufy devices only", "No voice assistant listed", "$249.99"]}
+  ],
+  "avoid": [
+    {"asin": "B0FP69CPG6", "brand": "Google", "model": "Nest Hub Max (Japan model)", "systems": ["google-home"],
+     "flag": "Japan-market import from a reseller",
+     "verdict": "It's a Japan-model Nest Hub Max sold by a reseller with a universal adapter, for $299.98.",
+     "reasons": [
+       "The title says \"Japan Model\" and the bundle includes a universal power adapter and an international manual.",
+       "Sold by a third-party reseller, not Google.",
+       "3.9 stars from 50 reviews."
+     ]}
+  ]
+}

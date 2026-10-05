@@ -1,0 +1,555 @@
+{
+  "slug": "zigbee-light-strips",
+  "family": "light-strips",
+  "family_title": "Light strips",
+  "noun": "strip",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Light Strips and Controllers",
+  "subtitle": "Philips Hue lightstrips and Zigbee LED strip controllers, ranked.",
+  "intro": "We pulled the Zigbee light strips and LED strip controllers on Amazon, mostly Philips Hue plus controllers that turn any strip into a Zigbee light, and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2500,
+  "feature_weights": {
+    "multicolor": 0.3,
+    "white": 0.3,
+    "bridge_free": 0.15,
+    "long": 0.25
+  },
+  "systems_note": "Hue strips connect through the Hue Bridge (Zigbee), which shares them with every Matter platform; most also pair over Bluetooth without a bridge. The controllers drive any standard LED strip you supply.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "length",
+      "label": "Length"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "length",
+      "label": "Length"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0GNTQR5S1",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "3,000 lumens of real white and multicolor on a cuttable 16 ft strip, sold by Amazon."
+    },
+    {
+      "asin": "B0BPBPGJ5G",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $24.99 5-in-1 Zigbee controller that turns almost any LED strip into a Zigbee light."
+    },
+    {
+      "asin": "B08CK9LQP5",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "A weatherproof Hue strip for railings, stairs, and paths, rated 4.6 stars."
+    },
+    {
+      "asin": "B0FQLNRJCG",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Hue's micro-LED OmniGlow strip for seamless, dot-free light."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0GNTQR5S1",
+      "brand": "Philips Hue",
+      "model": "Flux 16 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Strip",
+        "length": "16 ft, cuttable",
+        "color": "RGBWWIC, 3,000 lm",
+        "hub": "Hue Bridge or Bluetooth"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "bridge_free": true,
+        "long": true
+      },
+      "verdict": "Hue's brightest, most flexible strip: true whites, multicolor effects, and you can cut or extend it.",
+      "pros": [
+        "3,000 lumens",
+        "Dedicated white and warm-white LEDs",
+        "Cut or extend to fit",
+        "Sold by Amazon, 300+ bought in the past month"
+      ],
+      "cons": [
+        "$109.99",
+        "Only 80 reviews",
+        "Full features need a Hue Bridge"
+      ],
+      "name": "Hue Flux 16-Foot LED Strip Light, 3000 lm, Vibrant Color and Ambiance, Flexible Indoor Lighting, Chromasync™ Color Blending, RGBWWIC, Cuttable, Extendable, Reusable, App and Voice Control",
+      "image": "https://m.media-amazon.com/images/I/814R5EopN1L._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.2,
+      "reviews_count": 80,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0GNTM6WK1",
+      "brand": "Philips Hue",
+      "model": "Flux 10 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Strip",
+        "length": "10 ft, cuttable",
+        "color": "RGBWWIC",
+        "hub": "Hue Bridge or Bluetooth"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "bridge_free": true,
+        "long": false
+      },
+      "verdict": "The shorter Flux for shelves, desks, and TV walls.",
+      "pros": [
+        "True white plus multicolor",
+        "Cuttable and extendable",
+        "$79.99, 500+ bought in the past month"
+      ],
+      "cons": [
+        "Only 80 reviews",
+        "10 ft",
+        "Hue Bridge for automations"
+      ],
+      "name": "Hue Flux 10-Feet LED Strip Light, 1-Pack",
+      "image": "https://m.media-amazon.com/images/I/71gwBO6NteL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.2,
+      "reviews_count": 80,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0FQLNRJCG",
+      "brand": "Philips Hue",
+      "model": "OmniGlow 9.8 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Micro-LED strip",
+        "length": "9.8 ft, cuttable",
+        "color": "Color + true white, uniform",
+        "hub": "Hue Bridge or Bluetooth"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "bridge_free": true,
+        "long": false
+      },
+      "verdict": "Hue's premium micro-LED strip, which shows an even line of light with no visible dots.",
+      "pros": [
+        "Uniform, dot-free light",
+        "Ultra-bright true white",
+        "4.4 stars, 400+ bought in the past month"
+      ],
+      "cons": [
+        "$139.99",
+        "9.8 ft",
+        "Only 155 reviews"
+      ],
+      "name": "Philips Hue OmniGlow Micro LED Strip Light, 9.8ft, 1-Pack",
+      "image": "https://m.media-amazon.com/images/I/71ln-iPdiRL._AC_SL1500_.jpg",
+      "price": 139.99,
+      "rating": 4.4,
+      "reviews_count": 155,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0D326FYQ4",
+      "brand": "Philips Hue",
+      "model": "Solo Lightstrip 16 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Strip",
+        "length": "16 ft",
+        "color": "RGBWW, 1,700 lm",
+        "hub": "Hue Bridge"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "bridge_free": false,
+        "long": true
+      },
+      "verdict": "A 16 ft Hue strip with real white LEDs at a lower price than Flux.",
+      "pros": [
+        "1,700 lumens",
+        "RGBWW for true whites",
+        "1,219 reviews"
+      ],
+      "cons": [
+        "Sold by a reseller, 9 left at capture time",
+        "One color at a time",
+        "$72"
+      ],
+      "name": "Philips Hue Indoor 16 Ft Smart LED Solo lightstrip Base Kit - 1 Pack - Control with Hue App - Compatible with Alexa, Google Assistant and Apple HomeKit",
+      "image": "https://m.media-amazon.com/images/I/61byZcAoCCL._AC_SL1500_.jpg",
+      "price": 72.0,
+      "rating": 4.4,
+      "reviews_count": 1219,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B09BDK76R2",
+      "brand": "Philips Hue",
+      "model": "Gradient Lightstrip 6 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Strip",
+        "length": "6 ft",
+        "color": "Multicolor gradient",
+        "hub": "Hue Bridge"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "bridge_free": false,
+        "long": false
+      },
+      "verdict": "Hue's gradient strip that blends several colors at once behind a milky diffuser.",
+      "pros": [
+        "Several colors at once",
+        "Diffused, no harsh hotspots",
+        "Matter through the Hue Bridge"
+      ],
+      "cons": [
+        "$89.99 for 6 ft",
+        "Sold by a reseller",
+        "4.2 stars"
+      ],
+      "name": "Philips Hue Indoor 6-Foot Smart LED Light Strip Base Kit with Plug - Flowing Multicolor Effect - 1 Pack - Control with Hue App - Works with Alexa, Google Assistant and Apple HomeKit",
+      "image": "https://m.media-amazon.com/images/I/610F1of3PrL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.2,
+      "reviews_count": 622,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GLT1W392",
+      "brand": "Philips Hue",
+      "model": "Essential Flex 16 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Bendable neon-style strip",
+        "length": "16 ft",
+        "color": "Multicolor",
+        "hub": "Hue Bridge"
+      },
+      "features": {
+        "multicolor": true,
+        "white": false,
+        "bridge_free": false,
+        "long": true
+      },
+      "verdict": "A bendable Hue strip for outlining mirrors and making neon-style shapes.",
+      "pros": [
+        "Bends into shapes",
+        "Neon light effects",
+        "4.4 stars, sold by Amazon"
+      ],
+      "cons": [
+        "Only 41 reviews",
+        "$99.99",
+        "Hue Bridge for full control"
+      ],
+      "name": "Philips Hue Essential 16 ft LED Flex Strip Light, 1-Pack",
+      "image": "https://m.media-amazon.com/images/I/713xITZEY3L._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 41,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B08CK9LQP5",
+      "brand": "Philips Hue",
+      "model": "Outdoor Lightstrip 7 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Hue app",
+      "specs": {
+        "type": "Outdoor strip",
+        "length": "7 ft",
+        "color": "White and color ambiance",
+        "hub": "Hue Bridge (required)"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "bridge_free": false,
+        "long": false
+      },
+      "verdict": "The weatherproof Hue strip for outdoor railings, steps, and landscaping.",
+      "pros": [
+        "Weatherproof",
+        "40 W power supply included",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Requires a Hue Bridge",
+        "Sold by a reseller",
+        "7 ft"
+      ],
+      "name": "Philips Hue Outdoor 7-Foot Smart LED Light Strip - White and Color Ambiance - 1 Pack - Requires Hue Bridge - Weatherproof - Control with Hue App - Works with Alexa, Google Assistant and Apple HomeKit",
+      "image": "https://m.media-amazon.com/images/I/71PkjM4FPrL._AC_SL1500_.jpg",
+      "price": 89.41,
+      "rating": 4.6,
+      "reviews_count": 412,
+      "bought": null
+    },
+    {
+      "asin": "B0BPBPGJ5G",
+      "brand": "BTF-LIGHTING",
+      "model": "LM052 5-in-1 controller",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Controller (strip not included)",
+        "length": "Your strip",
+        "color": "Single, CCT, RGB, RGBW, RGBCCT",
+        "hub": "Any Zigbee 3.0 hub, Echo with Zigbee"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "bridge_free": false,
+        "long": false
+      },
+      "verdict": "A cheap controller that makes almost any 12-24 V LED strip a Zigbee light.",
+      "pros": [
+        "$24.99",
+        "Works with 5 strip types",
+        "Echo and standard Zigbee hubs",
+        "Relays remote signals to other controllers"
+      ],
+      "cons": [
+        "Strip and power supply not included",
+        "Only 46 reviews",
+        "Wiring the strip is on you"
+      ],
+      "name": "BTF-LIGHTING LM052 Zigbee3.0 LED Controller for Dim/CCT/RGB/RGBW/RGBCCT LED",
+      "image": "https://m.media-amazon.com/images/I/51sNxfIGZPL._AC_SL1100_.jpg",
+      "price": 24.99,
+      "rating": 4.1,
+      "reviews_count": 46,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F83MNQMS",
+      "brand": "GLEDOPTO",
+      "model": "Zigbee 3.0 RGBCCT controller Pro",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Controller (strip not included)",
+        "length": "Your strip",
+        "color": "RGB + 2700-6500K white",
+        "hub": "Hue Bridge, Homey, Alexa, SmartThings"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "bridge_free": false,
+        "long": false
+      },
+      "verdict": "A Zigbee controller for RGB+CCT strips that even pairs with a Hue Bridge.",
+      "pros": [
+        "Names Hue Bridge, Homey, Alexa, and SmartThings",
+        "RGB plus tunable white",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 43 reviews",
+        "Strip not included",
+        "No reseller stock shown"
+      ],
+      "name": "GLEDOPTO ZigBee 3.0 RGBCCT LED Strip Controller Pro RGB Color and Warm White Cold White Light Mix PWM Dimming Smart Phone App Voice Control Work with Hub Bridge (ZigBee Hub Required)",
+      "image": "https://m.media-amazon.com/images/I/51t1Z7TFjFL._AC_SL1500_.jpg",
+      "price": 21.99,
+      "rating": 4.5,
+      "reviews_count": 43,
+      "bought": null
+    },
+    {
+      "asin": "B0FQJBRXYP",
+      "brand": "GLEDOPTO",
+      "model": "Pro Max 5-in-1 controller",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Controller (strip not included)",
+        "length": "Your strip",
+        "color": "RGBCCT, RGBW, RGB, CCT, single",
+        "hub": "Zigbee 3.0 hub"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "bridge_free": false,
+        "long": false
+      },
+      "verdict": "Gledopto's 5-in-1 controller with a replaceable 20 A fuse and an optional RF remote.",
+      "pros": [
+        "5 strip types",
+        "Replaceable 20 A fuse",
+        "Works with an optional RF remote"
+      ],
+      "cons": [
+        "Only 46 reviews",
+        "Remote not included",
+        "$27.99"
+      ],
+      "name": "GLEDOPTO ZigBee 3.0 LED Strip Light Controller Pro Max 5 in 1 RGBCCT RGBW RGB CCT Dimmer Monochrome Color White Light Mix PWM Dimming 20A Pluggable Fuse App Voice Control (ZigBee Hub Require)",
+      "image": "https://m.media-amazon.com/images/I/61vDBUFZQUL._SL1500_.jpg",
+      "price": 27.99,
+      "rating": 4.2,
+      "reviews_count": 46,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09PDZN5S7",
+      "brand": "XXK",
+      "model": "\"LM052\" Zigbee controller",
+      "systems": [
+        "home-assistant",
+        "alexa"
+      ],
+      "flag": "Title and bullets disagree on the model",
+      "verdict": "It's sold as an LM052 controller, but the bullets describe \"our LM053 controller,\" so you can't be sure what ships.",
+      "reasons": [
+        "Title: \"LM052 ZigBee 3.0 LED Controller.\" Bullet: \"Our LM053 controller supports...\"",
+        "3.6 stars from 14 reviews.",
+        "The genuine BTF-LIGHTING LM052 is listed above for the same $24.99."
+      ],
+      "name": "LM052 ZigBee 3.0 LED Controller RGB RGBW 5in1 Lights Control 12-24V",
+      "image": "https://m.media-amazon.com/images/I/71cCDwIaIjL._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 3.6,
+      "reviews_count": 14,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "RGB, RGBIC, or RGBWW: what's the difference?",
+      "a": "RGB strips show one color at a time along the whole strip. RGBIC strips can show several colors at once, for rainbow and chase effects. RGBWW strips add real white LEDs, which look much better for everyday lighting than white mixed from red, green, and blue."
+    },
+    {
+      "q": "Can I cut a light strip?",
+      "a": "Most strips can be cut at the marked lines, but the cut-off piece usually can't be reconnected without connectors. Measure first and buy close to the length you need."
+    },
+    {
+      "q": "Do light strips need a hub?",
+      "a": "Wi-Fi strips connect to your router. Hue and other Zigbee strips need a Zigbee hub or bridge. Matter strips work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant."
+    }
+  ]
+}

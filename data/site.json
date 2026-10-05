@@ -96,6 +96,22 @@
           "ready": true
         },
         {
+          "slug": "z-wave-relays",
+          "title": "Z-Wave relays and modules",
+          "family": "relays",
+          "ready": true
+        },
+        {
+          "slug": "z-wave-fan-controls",
+          "title": "Z-Wave fan controls",
+          "family": "fan-controls"
+        },
+        {
+          "slug": "z-wave-outlets",
+          "title": "Z-Wave in-wall outlets",
+          "family": "outlets"
+        },
+        {
           "slug": "z-wave-controllers",
           "title": "Z-Wave hubs and controllers",
           "family": "hubs",
@@ -195,6 +211,27 @@
           "title": "Zigbee sprinkler and hose timers",
           "family": "sprinklers",
           "ready": true
+        },
+        {
+          "slug": "zigbee-light-strips",
+          "title": "Zigbee light strips",
+          "family": "light-strips",
+          "ready": true
+        },
+        {
+          "slug": "zigbee-relays",
+          "title": "Zigbee relays and modules",
+          "family": "relays"
+        },
+        {
+          "slug": "zigbee-presence-sensors",
+          "title": "Zigbee presence sensors",
+          "family": "presence-sensors"
+        },
+        {
+          "slug": "zigbee-blinds",
+          "title": "Zigbee blinds and shades",
+          "family": "blinds"
         },
         {
           "slug": "zigbee-coordinators",
@@ -355,6 +392,98 @@
           "title": "Smart speakers",
           "family": "smart-speakers",
           "ready": true
+        },
+        {
+          "slug": "wifi-light-strips",
+          "title": "Wi-Fi LED light strips",
+          "family": "light-strips",
+          "ready": true
+        },
+        {
+          "slug": "wifi-smart-displays",
+          "title": "Smart displays",
+          "family": "smart-displays",
+          "ready": true
+        },
+        {
+          "slug": "wifi-relays",
+          "title": "Wi-Fi relays and modules",
+          "family": "relays"
+        },
+        {
+          "slug": "wifi-fan-controls",
+          "title": "Wi-Fi ceiling fan controls",
+          "family": "fan-controls"
+        },
+        {
+          "slug": "wifi-presence-sensors",
+          "title": "Wi-Fi presence sensors",
+          "family": "presence-sensors"
+        },
+        {
+          "slug": "wifi-blinds",
+          "title": "Wi-Fi blinds and curtains",
+          "family": "blinds"
+        },
+        {
+          "slug": "wifi-outlets",
+          "title": "Wi-Fi in-wall outlets",
+          "family": "outlets"
+        },
+        {
+          "slug": "wifi-ir-remotes",
+          "title": "IR blasters and universal remotes",
+          "family": "ir-remotes"
+        },
+        {
+          "slug": "wifi-air-purifiers",
+          "title": "Smart air purifiers",
+          "family": "air-purifiers"
+        },
+        {
+          "slug": "wifi-ac-controllers",
+          "title": "Smart AC controllers",
+          "family": "ac-controllers"
+        },
+        {
+          "slug": "wifi-energy-monitors",
+          "title": "Home energy monitors",
+          "family": "energy-monitors"
+        },
+        {
+          "slug": "wifi-security-systems",
+          "title": "Home security systems",
+          "family": "security-systems"
+        },
+        {
+          "slug": "wifi-mesh-routers",
+          "title": "Mesh Wi-Fi routers",
+          "family": "mesh-routers"
+        },
+        {
+          "slug": "wifi-ev-chargers",
+          "title": "Smart EV chargers",
+          "family": "ev-chargers"
+        },
+        {
+          "slug": "wifi-pet-feeders",
+          "title": "Smart pet feeders",
+          "family": "pet-feeders"
+        },
+        {
+          "slug": "wifi-pet-cameras",
+          "title": "Pet cameras",
+          "family": "pet-cameras"
+        },
+        {
+          "slug": "wifi-baby-monitors",
+          "title": "Smart baby monitors",
+          "family": "baby-monitors"
+        },
+        {
+          "slug": "wifi-robot-mowers",
+          "title": "Robot lawn mowers",
+          "family": "robot-mowers"
         }
       ]
     },
@@ -410,6 +539,11 @@
           "title": "Bluetooth trackers",
           "family": "trackers",
           "ready": true
+        },
+        {
+          "slug": "bluetooth-blinds",
+          "title": "Bluetooth curtain and blind robots",
+          "family": "blinds"
         },
         {
           "slug": "bluetooth-proxies",
@@ -557,6 +691,32 @@
           "ready": true
         },
         {
+          "slug": "matter-light-strips",
+          "title": "Matter light strips",
+          "family": "light-strips",
+          "ready": true
+        },
+        {
+          "slug": "matter-relays",
+          "title": "Matter relays and modules",
+          "family": "relays"
+        },
+        {
+          "slug": "matter-presence-sensors",
+          "title": "Matter presence sensors",
+          "family": "presence-sensors"
+        },
+        {
+          "slug": "matter-air-purifiers",
+          "title": "Matter air purifiers",
+          "family": "air-purifiers"
+        },
+        {
+          "slug": "matter-outlets",
+          "title": "Matter in-wall outlets",
+          "family": "outlets"
+        },
+        {
           "slug": "matter-controllers",
           "title": "Matter hubs and controllers",
           "family": "hubs",
@@ -604,6 +764,11 @@
         {
           "slug": "lutron-shades",
           "title": "Lutron shades"
+        },
+        {
+          "slug": "lutron-fan-controls",
+          "title": "Caseta fan controls",
+          "family": "fan-controls"
         },
         {
           "slug": "lutron-bridges",

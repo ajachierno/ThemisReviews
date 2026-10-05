@@ -1,0 +1,305 @@
+{
+  "slug": "matter-light-strips",
+  "family": "light-strips",
+  "family_title": "Light strips",
+  "noun": "strip",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Light Strips",
+  "subtitle": "LED strips that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "intro": "We pulled the LED light strips on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "multicolor": 0.3,
+    "white": 0.3,
+    "long": 0.2,
+    "diffused": 0.2
+  },
+  "systems_note": "Matter strips work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey. Several popular strips (Tapo L930, PAUTIX, Tatazone) aren't here because their listings don't mention Matter.",
+  "spec_fields": [
+    {
+      "key": "length",
+      "label": "Length"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "length",
+      "label": "Length"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DL9G5F5R",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,292 buyers."
+    },
+    {
+      "asin": "B0DB69D1YJ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Matter and tunable white for $13.79."
+    },
+    {
+      "asin": "B0H6MDZC4R",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Govee's 840 LED/m COB strip for glare-free light, with 1000K to 10000K white."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DL9G5F5R",
+      "brand": "Govee",
+      "model": "RGBIC Neon 32.8 ft (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "length": "32.8 ft",
+        "color": "RGBIC",
+        "extras": "Neon rope, shape mapping"
+      },
+      "features": {
+        "multicolor": true,
+        "white": false,
+        "long": true,
+        "diffused": true
+      },
+      "verdict": "The best Matter strip for most people: long, smooth neon light with plenty of effects.",
+      "pros": [
+        "Matter, Alexa, and Google",
+        "32.8 ft of soft neon",
+        "64 preset effects",
+        "4.6 stars from 1,292 reviews"
+      ],
+      "cons": [
+        "$106.99",
+        "Mixed-RGB white",
+        "Neon rope is bulkier than tape"
+      ],
+      "name": "Govee RGBIC Neon Lights 32.8ft Works with Matter, Alexa, Google Assistant",
+      "image": "https://m.media-amazon.com/images/I/71LL4Sk9TFL._AC_SL1500_.jpg",
+      "price": 106.99,
+      "rating": 4.6,
+      "reviews_count": 1292,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0H6MDZC4R",
+      "brand": "Govee",
+      "model": "COB Strip Lights 2 32.8 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "length": "32.8 ft",
+        "color": "RGBIC, 1000-10000K",
+        "extras": "840 LEDs/m COB, slim 12.6 mm"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "long": true,
+        "diffused": true
+      },
+      "verdict": "Dense COB LEDs give a smooth, glare-free line of light that fits narrow cabinet gaps.",
+      "pros": [
+        "840 LEDs per meter, no hotspots",
+        "Wide white range",
+        "Slim enough for under cabinets",
+        "4.6 stars, 500+ bought in the past month"
+      ],
+      "cons": [
+        "$169.99",
+        "Only 29 reviews",
+        "New model"
+      ],
+      "name": "Govee COB LED Strip Lights 2, RGBIC, 840 LEDs/m, 1000K-10000K, 32.8ft",
+      "image": "https://m.media-amazon.com/images/I/713OPYfHj9L._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.6,
+      "reviews_count": 29,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0D7MHL8YB",
+      "brand": "Govee",
+      "model": "Strip Light 2 Pro 6.56 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "length": "6.56 ft",
+        "color": "RGBWWIC, 1000-10000K",
+        "extras": "LuminBlend color mixing"
+      },
+      "features": {
+        "multicolor": true,
+        "white": true,
+        "long": false,
+        "diffused": false
+      },
+      "verdict": "The short version of Govee's best strip, for desks and TV backlights.",
+      "pros": [
+        "Real white LEDs",
+        "Multicolor effects",
+        "$49.99"
+      ],
+      "cons": [
+        "6.56 ft",
+        "Only 591 reviews",
+        "Exposed LEDs, no diffuser"
+      ],
+      "name": "Govee RGBWWIC LED Strip Light 2 Pro 6.56ft, Smart Control, APP, WiFi",
+      "image": "https://m.media-amazon.com/images/I/71mjgNMPPQL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 591,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GFH6QWCT",
+      "brand": "LIFX",
+      "model": "Lightstrip 20 ft",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "LIFX app",
+      "specs": {
+        "length": "20 ft, cuttable, extendable",
+        "color": "RGB + tunable white, 1,000 lm",
+        "extras": "No hub needed"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "long": true,
+        "diffused": false
+      },
+      "verdict": "A bright, cuttable LIFX strip on Matter with no hub required.",
+      "pros": [
+        "1,000 lumens",
+        "Cuttable and extendable",
+        "Sold by LIFX"
+      ],
+      "cons": [
+        "Only 42 reviews",
+        "4.2 stars",
+        "One color at a time"
+      ],
+      "name": "LIFX Smart LED Light Strip - RGB + Tunable White, Matter, Alexa - 20ft",
+      "image": "https://m.media-amazon.com/images/I/71ifirI10ML._AC_SL1500_.jpg",
+      "price": 43.99,
+      "rating": 4.2,
+      "reviews_count": 42,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0DB69D1YJ",
+      "brand": "Cync",
+      "model": "GE Cync strip (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Cync app",
+      "specs": {
+        "length": "Not stated in bullets",
+        "color": "RGB + 2000-7000K white",
+        "extras": "Sleep/wake cycle"
+      },
+      "features": {
+        "multicolor": false,
+        "white": true,
+        "long": false,
+        "diffused": false
+      },
+      "verdict": "The cheapest way into a Matter light strip.",
+      "pros": [
+        "$13.79",
+        "Tunable white",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Length isn't in the bullets",
+        "One color at a time",
+        "Only 667 reviews"
+      ],
+      "name": "Cync GE Smart LED Strip Light, Color Changing Room Decor LED Light Strip, Works with Alexa and Google Home, Matter Compatible, LED Lights for Bedroom, Millions of Colors and White Tones, 16 Feet",
+      "image": "https://m.media-amazon.com/images/I/61BasyDUFDL._AC_SL1500_.jpg",
+      "price": 13.79,
+      "rating": 4.4,
+      "reviews_count": 667,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "RGB, RGBIC, or RGBWW: what's the difference?",
+      "a": "RGB strips show one color at a time along the whole strip. RGBIC strips can show several colors at once, for rainbow and chase effects. RGBWW strips add real white LEDs, which look much better for everyday lighting than white mixed from red, green, and blue."
+    },
+    {
+      "q": "Can I cut a light strip?",
+      "a": "Most strips can be cut at the marked lines, but the cut-off piece usually can't be reconnected without connectors. Measure first and buy close to the length you need."
+    },
+    {
+      "q": "Do light strips need a hub?",
+      "a": "Wi-Fi strips connect to your router. Hue and other Zigbee strips need a Zigbee hub or bridge. Matter strips work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant."
+    }
+  ]
+}

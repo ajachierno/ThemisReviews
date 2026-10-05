@@ -1,0 +1,52 @@
+{
+  "feature_weights": {"multicolor": 0.30, "white": 0.30, "long": 0.20, "diffused": 0.20},
+  "systems_note": "Matter strips work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey. Several popular strips (Tapo L930, PAUTIX, Tatazone) aren't here because their listings don't mention Matter.",
+  "spec_fields": [
+    {"key": "length", "label": "Length"},
+    {"key": "color", "label": "Color"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "length", "label": "Length"},
+    {"key": "color", "label": "Color"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "awards": [
+    {"asin": "B0DL9G5F5R", "label": "Best Overall", "kind": "overall", "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,292 buyers."},
+    {"asin": "B0DB69D1YJ", "label": "Best Budget", "kind": "budget", "why": "Matter and tunable white for $13.79."},
+    {"asin": "B0H6MDZC4R", "label": "Best Premium", "kind": "premium", "why": "Govee's 840 LED/m COB strip for glare-free light, with 1000K to 10000K white."}
+  ],
+  "products": [
+    {"asin": "B0DL9G5F5R", "brand": "Govee", "model": "RGBIC Neon 32.8 ft (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"], "systems_label": "Govee Home app",
+     "specs": {"length": "32.8 ft", "color": "RGBIC", "extras": "Neon rope, shape mapping"},
+     "features": {"multicolor": true, "white": false, "long": true, "diffused": true},
+     "verdict": "The best Matter strip for most people: long, smooth neon light with plenty of effects.",
+     "pros": ["Matter, Alexa, and Google", "32.8 ft of soft neon", "64 preset effects", "4.6 stars from 1,292 reviews"],
+     "cons": ["$106.99", "Mixed-RGB white", "Neon rope is bulkier than tape"]},
+    {"asin": "B0H6MDZC4R", "brand": "Govee", "model": "COB Strip Lights 2 32.8 ft", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"], "systems_label": "Govee Home app",
+     "specs": {"length": "32.8 ft", "color": "RGBIC, 1000-10000K", "extras": "840 LEDs/m COB, slim 12.6 mm"},
+     "features": {"multicolor": true, "white": true, "long": true, "diffused": true},
+     "verdict": "Dense COB LEDs give a smooth, glare-free line of light that fits narrow cabinet gaps.",
+     "pros": ["840 LEDs per meter, no hotspots", "Wide white range", "Slim enough for under cabinets", "4.6 stars, 500+ bought in the past month"],
+     "cons": ["$169.99", "Only 29 reviews", "New model"]},
+    {"asin": "B0D7MHL8YB", "brand": "Govee", "model": "Strip Light 2 Pro 6.56 ft", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"], "systems_label": "Govee Home app",
+     "specs": {"length": "6.56 ft", "color": "RGBWWIC, 1000-10000K", "extras": "LuminBlend color mixing"},
+     "features": {"multicolor": true, "white": true, "long": false, "diffused": false},
+     "verdict": "The short version of Govee's best strip, for desks and TV backlights.",
+     "pros": ["Real white LEDs", "Multicolor effects", "$49.99"],
+     "cons": ["6.56 ft", "Only 591 reviews", "Exposed LEDs, no diffuser"]},
+    {"asin": "B0GFH6QWCT", "brand": "LIFX", "model": "Lightstrip 20 ft", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"], "systems_label": "LIFX app",
+     "specs": {"length": "20 ft, cuttable, extendable", "color": "RGB + tunable white, 1,000 lm", "extras": "No hub needed"},
+     "features": {"multicolor": false, "white": true, "long": true, "diffused": false},
+     "verdict": "A bright, cuttable LIFX strip on Matter with no hub required.",
+     "pros": ["1,000 lumens", "Cuttable and extendable", "Sold by LIFX"],
+     "cons": ["Only 42 reviews", "4.2 stars", "One color at a time"]},
+    {"asin": "B0DB69D1YJ", "brand": "Cync", "model": "GE Cync strip (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"], "systems_label": "Cync app",
+     "specs": {"length": "Not stated in bullets", "color": "RGB + 2000-7000K white", "extras": "Sleep/wake cycle"},
+     "features": {"multicolor": false, "white": true, "long": false, "diffused": false},
+     "verdict": "The cheapest way into a Matter light strip.",
+     "pros": ["$13.79", "Tunable white", "1K+ bought in the past month"],
+     "cons": ["Length isn't in the bullets", "One color at a time", "Only 667 reviews"]}
+  ],
+  "avoid": []
+}

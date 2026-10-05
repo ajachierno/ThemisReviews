@@ -1,0 +1,512 @@
+{
+  "slug": "z-wave-relays",
+  "family": "relays",
+  "family_title": "Relays and modules",
+  "noun": "relay",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Relays and In-Wall Modules",
+  "subtitle": "Hidden Z-Wave relays for lights, fans, garage doors, and fireplaces, ranked.",
+  "intro": "We pulled the Z-Wave relays and in-wall modules on Amazon and scored them on rating, review volume, and features: 800 Series Long Range, dry contacts, and power metering.",
+  "reviews_ceiling": 600,
+  "feature_weights": {
+    "long_range": 0.3,
+    "dry_contact": 0.25,
+    "power_meter": 0.2,
+    "multi_channel": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "channels",
+      "label": "Channels"
+    },
+    {
+      "key": "rating",
+      "label": "Load rating"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave chip"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "channels",
+      "label": "Channels"
+    },
+    {
+      "key": "rating",
+      "label": "Load"
+    },
+    {
+      "key": "series",
+      "label": "Chip"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0846DZJD8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Three dry-contact relays for garage doors, sprinklers, or a gas fireplace, rated 4.6 stars by 507 buyers."
+    },
+    {
+      "asin": "B0B5VR87JX",
+      "label": "Best for Light Switches",
+      "kind": "budget",
+      "why": "Hides behind your existing switch, works in 3-way setups, and has a no-neutral option."
+    },
+    {
+      "asin": "B0F5RTPLG2",
+      "label": "Best With Power Metering",
+      "kind": "special",
+      "why": "Two UL-certified 16 A channels with power metering and Long Range."
+    },
+    {
+      "asin": "B0G2MN4TNF",
+      "label": "Best for Gates and Garages",
+      "kind": "premium",
+      "why": "An extra-small low-voltage dry-contact relay rated 4.8 stars."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0846DZJD8",
+      "brand": "Zooz",
+      "model": "ZEN16 MultiRelay 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "channels": "3",
+        "rating": "15 A, 15 A, 20 A dry contact",
+        "series": "800 Series LR",
+        "extras": "Optional wall switch inputs",
+        "neutral": "Not needed (12-24 V or USB-C)"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": true
+      },
+      "verdict": "The Swiss Army knife of Z-Wave relays: three dry contacts for garage doors, sprinklers, and fireplaces.",
+      "pros": [
+        "3 independent dry-contact relays",
+        "Controls up to 3 garage doors",
+        "4.6 stars from 507 reviews",
+        "Long Range"
+      ],
+      "cons": [
+        "Low-voltage power supply sold separately",
+        "Not for switching lights in a wall box",
+        "$42.95"
+      ],
+      "name": "Zooz Z-Wave Long Range MultiRelay ZEN16 800LR for Garage Doors, Sprinklers, Gas Fireplace; 3 Dry Contact Relays (15A, 15A, 20A); 12-24 V AC/DC or USB C Power; Signal Repeater; Hub Required",
+      "image": "https://m.media-amazon.com/images/I/41816p6CC9L._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 42.95,
+      "rating": 4.6,
+      "reviews_count": 507,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0B5VR87JX",
+      "brand": "Zooz",
+      "model": "ZEN51 relay",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "Dry contact",
+        "series": "700 Series LR",
+        "extras": "3-way compatible",
+        "neutral": "Required at the relay location"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": false
+      },
+      "verdict": "Keeps your favorite switch and adds Z-Wave behind it, even in 3-way setups.",
+      "pros": [
+        "Works with your existing switch style",
+        "3-way compatible",
+        "Can go at the light if the switch box has no neutral"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Mechanical or momentary switches only",
+        "Only 136 reviews"
+      ],
+      "name": "Zooz 700 Series Z-Wave Long Range Smart Relay ZEN51 | Installs Behind Wall Switch Or At the Light | Compatible with SmartThings, Hubitat, and Home Assistant | Z-Wave Hub Required (Sold Separately)",
+      "image": "https://m.media-amazon.com/images/I/51KeUTH42rL._SL1353_.jpg",
+      "price": 37.95,
+      "rating": 4.2,
+      "reviews_count": 136,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0B5VRGF3T",
+      "brand": "Zooz",
+      "model": "ZEN52 double relay",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "channels": "2",
+        "rating": "Not stated in bullets",
+        "series": "700 Series LR",
+        "extras": "Signal repeater, 3-way compatible",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": false,
+        "power_meter": false,
+        "multi_channel": true
+      },
+      "verdict": "Two independently controlled lights from one tiny relay in a double-gang box.",
+      "pros": [
+        "Controls 2 loads",
+        "1.5 x 1.4 x 0.7 in.",
+        "3-way compatible"
+      ],
+      "cons": [
+        "Neutral required",
+        "Only 108 reviews",
+        "$39.95"
+      ],
+      "name": "Zooz 700 Series Z-Wave Long Range Double Relay ZEN52 | Control 2 Lights Individually, Signal Repeater | Works with SmartThings, Hubitat, and Home Assistant (JS) | Z-Wave Hub Required (Sold Separately)",
+      "image": "https://m.media-amazon.com/images/I/41nIanKMTxL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 39.95,
+      "rating": 4.3,
+      "reviews_count": 108,
+      "bought": null
+    },
+    {
+      "asin": "B096LLL1C6",
+      "brand": "Zooz",
+      "model": "ZEN17 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "channels": "2 outputs + 2 inputs",
+        "rating": "20 A NO, 10 A NC",
+        "series": "800 Series LR",
+        "extras": "Sensor inputs",
+        "neutral": "Not needed (12-24 V or USB-C)"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": true
+      },
+      "verdict": "Two relays plus two sensor inputs, ideal for a garage door with its own position sensor.",
+      "pros": [
+        "2 relays and 2 inputs",
+        "NO and NC contacts",
+        "4.5 stars, 100+ bought in the past month"
+      ],
+      "cons": [
+        "Power supply sold separately",
+        "$45.75",
+        "Needs some wiring know-how"
+      ],
+      "name": "Zooz Z-Wave Long Range Relay ZEN17 800LR for Awnings, Garage Doors, Sprinklers, and More | 2 x NO-C-NC Relays (20A, 10A) | Hub Required (Compatible with Z-Box, Home Assistant, and Hubitat)",
+      "image": "https://m.media-amazon.com/images/I/41+O9-xgOAL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 45.75,
+      "rating": 4.5,
+      "reviews_count": 185,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0G2MN4TNF",
+      "brand": "Zooz",
+      "model": "ZEN58 XS low-voltage relay",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "3 A, 0-240 V dry contact",
+        "series": "800 Series LR",
+        "extras": "Extra small",
+        "neutral": "Not needed"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": false
+      },
+      "verdict": "An extra-small dry-contact relay for gates, garage doors, and low-voltage loads.",
+      "pros": [
+        "Fits shallow, crowded boxes",
+        "Switch input for manual control",
+        "4.8 stars"
+      ],
+      "cons": [
+        "3 A limit",
+        "Only 16 reviews",
+        "You need to understand dry contacts"
+      ],
+      "name": "Zooz Z-Wave Long Range Low Voltage XS Relay ZEN58 800LR | Z-Wave Hub Required (Sold Separately)",
+      "image": "https://m.media-amazon.com/images/I/41Lb5lvOruL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 32.95,
+      "rating": 4.8,
+      "reviews_count": 16,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F5RTPLG2",
+      "brand": "Shelly",
+      "model": "Wave 2PM US LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "2",
+        "rating": "Up to 14-16 A",
+        "series": "Z-Wave Long Range",
+        "extras": "Power metering, UL certified",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": false,
+        "power_meter": true,
+        "multi_channel": true
+      },
+      "verdict": "Two channels with power metering and UL certification, for appliances and lights.",
+      "pros": [
+        "Power metering per channel",
+        "UL certified",
+        "Works with any Z-Wave gateway"
+      ],
+      "cons": [
+        "Only 17 reviews",
+        "$45.99",
+        "Neutral requirement isn't stated"
+      ],
+      "name": "Shelly Wave 2PM US LR UL Smart Switch Relay, 2-Channel 16 A",
+      "image": "https://m.media-amazon.com/images/I/711Z5dK62+L._SL1500_.jpg",
+      "price": 45.99,
+      "rating": 4.5,
+      "reviews_count": 17,
+      "bought": null
+    },
+    {
+      "asin": "B0F5BLCXYN",
+      "brand": "Shelly",
+      "model": "Wave 1 US LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "15 A dry contact",
+        "series": "Z-Wave Long Range",
+        "extras": "UL certified",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": false
+      },
+      "verdict": "A UL-certified 15 A dry-contact relay with Long Range.",
+      "pros": [
+        "15 A",
+        "Dry contacts",
+        "UL certified",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 20 reviews",
+        "$39.99",
+        "Neutral requirement isn't stated"
+      ],
+      "name": "Shelly Wave 1 US LR UL Z-Wave Smart Switch Relay, 1-Channel 15A",
+      "image": "https://m.media-amazon.com/images/I/71NPlAwtquL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 20,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0FSLD56D9",
+      "brand": "Shelly",
+      "model": "Wave 1 Mini US LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "8 A dry contact",
+        "series": "Z-Wave Long Range",
+        "extras": "Smallest Z-Wave LR relay, per Shelly",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": true,
+        "power_meter": false,
+        "multi_channel": false
+      },
+      "verdict": "A very small relay for crowded switch boxes and light fixtures.",
+      "pros": [
+        "Very small",
+        "Dry contacts",
+        "Sunset-based schedules"
+      ],
+      "cons": [
+        "8 A",
+        "Only 11 reviews",
+        "4.1 stars"
+      ],
+      "name": "Shelly Wave 1 Mini US LR Smart Switch Relay, 1-Channel 8 A",
+      "image": "https://m.media-amazon.com/images/I/71bYYumnl1L._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.1,
+      "reviews_count": 11,
+      "bought": null
+    },
+    {
+      "asin": "B0FSLL24GH",
+      "brand": "Shelly",
+      "model": "Wave 1PM Mini US LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "Not stated in bullets",
+        "series": "Z-Wave Long Range",
+        "extras": "Power metering",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "long_range": true,
+        "dry_contact": false,
+        "power_meter": true,
+        "multi_channel": false
+      },
+      "verdict": "The tiny Shelly with power metering, to see what a light or appliance uses.",
+      "pros": [
+        "Power metering",
+        "Very small",
+        "Long Range"
+      ],
+      "cons": [
+        "3.8 stars from 12 reviews",
+        "Load rating isn't in the bullets",
+        "$35.99"
+      ],
+      "name": "Shelly Wave 1PM Mini US LR Z-Wave Smart Switch Relay",
+      "image": "https://m.media-amazon.com/images/I/71i92DD5BxL._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 3.8,
+      "reviews_count": 12,
+      "bought": null
+    },
+    {
+      "asin": "B01G7OD1F8",
+      "brand": "Enerwave",
+      "model": "Z-Wave Plus relay",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "10 A, 120-277 VAC",
+        "series": "Z-Wave Plus",
+        "extras": "Lights and fans",
+        "neutral": "Required"
+      },
+      "features": {
+        "long_range": false,
+        "dry_contact": false,
+        "power_meter": false,
+        "multi_channel": false
+      },
+      "verdict": "An older Z-Wave Plus relay with the most reviews here.",
+      "pros": [
+        "267 reviews",
+        "Up to 277 VAC",
+        "Lights and fans"
+      ],
+      "cons": [
+        "Older Z-Wave Plus, no Long Range",
+        "4.1 stars",
+        "Neutral required"
+      ],
+      "name": "ENERWAVE Z-Wave Plus Relay, Hidden Smart Switch Wireless Remote Control to Lights and Ceiling Fans, 120-277VAC, 10A, Neutral Wire Required, ZWN-RSM1-PLUS, Black",
+      "image": "https://m.media-amazon.com/images/I/61v2MUIEdJL._AC_SL1500_.jpg",
+      "price": 42.8,
+      "rating": 4.1,
+      "reviews_count": 267,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What does a smart relay do?",
+      "a": "It hides behind a wall switch, inside a fan canopy, or in an appliance and switches the power, so you keep your existing switch and add smart control. Dry-contact relays can also trigger garage doors, gas fireplaces, and boilers."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most relays do. Check your switch box for a bundle of white wires before buying. A few models work without a neutral, and the table notes which."
+    },
+    {
+      "q": "Is it safe to install myself?",
+      "a": "Only if you're comfortable with household wiring and turn the breaker off first. If you're not sure, have an electrician install it. Never exceed the relay's amp rating."
+    }
+  ]
+}
