@@ -1,0 +1,353 @@
+{
+  "feature_weights": {
+    "smart_hub": 0.35,
+    "wifi7": 0.3,
+    "fast_port": 0.35
+  },
+  "systems_note": "Mesh routers don't join a smart home platform the way sensors do. eero 6 and 6+ double as Zigbee (and on the 6+, Thread) hubs for Alexa.",
+  "spec_fields": [
+    {
+      "key": "wifi",
+      "label": "Wi-Fi"
+    },
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "hub",
+      "label": "Smart home hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "wifi",
+      "label": "Wi-Fi"
+    },
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08ZK2BHP2",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A built-in Thread and Zigbee hub for Alexa, 4,500 sq. ft. of coverage, and 10,560 reviews."
+    },
+    {
+      "asin": "B09PRB1MZM",
+      "label": "Best Value",
+      "kind": "budget",
+      "why": "A Wi-Fi 6 3-pack for $149.97, rated 4.4 stars by 13,265 buyers."
+    },
+    {
+      "asin": "B0DKVDZXSN",
+      "label": "Best Wi-Fi 7",
+      "kind": "special",
+      "why": "Wi-Fi 7 with 2.5G Ethernet covering 6,600 sq. ft. for $249.99."
+    },
+    {
+      "asin": "B0CN8QLS4K",
+      "label": "Best High-End",
+      "kind": "premium",
+      "why": "Tri-band Wi-Fi 7 with a 10G WAN port and 7,600 sq. ft. of coverage."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08ZK2BHP2",
+      "brand": "eero",
+      "model": "6+ (3-pack)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "eero app",
+      "specs": {
+        "wifi": "Wi-Fi 6, gigabit",
+        "coverage": "4,500 sq. ft.",
+        "hub": "Thread and Zigbee (for Alexa)"
+      },
+      "features": {
+        "smart_hub": true,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "Whole-home Wi-Fi 6 that also replaces a Zigbee and Thread hub for Alexa.",
+      "pros": [
+        "Built-in Thread and Zigbee hub",
+        "4.4 stars from 10,560 reviews",
+        "Automatic updates"
+      ],
+      "cons": [
+        "Security extras need an eero Plus subscription",
+        "Hub works with Alexa only",
+        "$214.99"
+      ]
+    },
+    {
+      "asin": "B085VM9ZDD",
+      "brand": "eero",
+      "model": "6 (1-pack)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "eero app",
+      "specs": {
+        "wifi": "Wi-Fi 6, up to 900 Mbps",
+        "coverage": "1,500 sq. ft.",
+        "hub": "Zigbee (for Alexa)"
+      },
+      "features": {
+        "smart_hub": true,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "A $54.99 starting point for an eero mesh, with a Zigbee hub inside.",
+      "pros": [
+        "$54.99",
+        "Zigbee hub",
+        "29,458 reviews"
+      ],
+      "cons": [
+        "1,500 sq. ft. on its own",
+        "No Thread",
+        "Plans up to 900 Mbps"
+      ]
+    },
+    {
+      "asin": "B0D9555PBN",
+      "brand": "eero",
+      "model": "7 (2-pack)",
+      "systems": [],
+      "systems_label": "eero app",
+      "specs": {
+        "wifi": "Wi-Fi 7 dual-band, up to 2.5 Gbps plans",
+        "coverage": "4,000 sq. ft.",
+        "hub": "Not stated in bullets"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": true,
+        "fast_port": true
+      },
+      "verdict": "Wi-Fi 7 from eero for multi-gig internet plans.",
+      "pros": [
+        "Wi-Fi 7",
+        "Handles 2.5 Gbps plans",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "Smart home hub isn't mentioned in the bullets",
+        "eero Plus is a subscription",
+        "$239.99"
+      ]
+    },
+    {
+      "asin": "B0C6RDKBTG",
+      "brand": "eero",
+      "model": "Pro 7 (2-pack)",
+      "systems": [],
+      "systems_label": "eero app",
+      "specs": {
+        "wifi": "Wi-Fi 7 tri-band, up to 5 Gbps plans",
+        "coverage": "4,000 sq. ft.",
+        "hub": "Not stated in bullets"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": true,
+        "fast_port": true
+      },
+      "verdict": "eero's tri-band Wi-Fi 7 for 5 Gbps internet.",
+      "pros": [
+        "Tri-band Wi-Fi 7",
+        "Handles 5 Gbps plans",
+        "1,506 reviews"
+      ],
+      "cons": [
+        "$399.99",
+        "4.3 stars",
+        "eero Plus is a subscription"
+      ]
+    },
+    {
+      "asin": "B09PRB1MZM",
+      "brand": "TP-Link",
+      "model": "Deco X55 (3-pack)",
+      "systems": [],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 6 AX3000",
+        "coverage": "Not stated in bullets",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "The best-selling mesh here: 7K+ bought last month, and it handles 150 devices.",
+      "pros": [
+        "$149.97 for 3 units",
+        "Up to 150 devices",
+        "4.4 stars from 13,265 reviews"
+      ],
+      "cons": [
+        "No smart home hub",
+        "Wi-Fi 6, not 6E or 7",
+        "Coverage isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B09VJ5CSD6",
+      "brand": "TP-Link",
+      "model": "Deco X55 (1-pack)",
+      "systems": [],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 6 AX3000",
+        "coverage": "Not stated in bullets",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "One Deco X55 to add to an existing Deco mesh or cover a small home.",
+      "pros": [
+        "$65.94",
+        "Adds to any Deco mesh",
+        "4.4 stars"
+      ],
+      "cons": [
+        "One unit",
+        "No smart home hub",
+        "Coverage isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B08B3QNN9P",
+      "brand": "TP-Link",
+      "model": "Deco S4 (2-pack)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 5 AC1900",
+        "coverage": "3,800 sq. ft.",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "Cheap, proven mesh for smaller homes on slower plans.",
+      "pros": [
+        "$79.97",
+        "4.5 stars from 29,540 reviews",
+        "Up to 75 devices"
+      ],
+      "cons": [
+        "Wi-Fi 5",
+        "No smart home hub",
+        "Older model"
+      ]
+    },
+    {
+      "asin": "B0B88T5RDY",
+      "brand": "TP-Link",
+      "model": "Deco XE75 (3-pack)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 6E tri-band AXE5400",
+        "coverage": "7,200 sq. ft.",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": false,
+        "fast_port": false
+      },
+      "verdict": "Wi-Fi 6E with a 6 GHz backhaul for big homes.",
+      "pros": [
+        "6 GHz band",
+        "7,200 sq. ft.",
+        "Up to 200 devices"
+      ],
+      "cons": [
+        "$229.99",
+        "4.3 stars",
+        "No smart home hub"
+      ]
+    },
+    {
+      "asin": "B0DKVDZXSN",
+      "brand": "TP-Link",
+      "model": "Deco 7 BE5000",
+      "systems": [],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 7 dual-band BE5000",
+        "coverage": "6,600 sq. ft.",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": true,
+        "fast_port": true
+      },
+      "verdict": "Affordable Wi-Fi 7 with 2.5G Ethernet backhaul.",
+      "pros": [
+        "Wi-Fi 7",
+        "2.5G Ethernet",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Dual-band only",
+        "No smart home hub"
+      ]
+    },
+    {
+      "asin": "B0CN8QLS4K",
+      "brand": "TP-Link",
+      "model": "Deco 7 Pro BE10000 (3-pack)",
+      "systems": [],
+      "systems_label": "Deco app",
+      "specs": {
+        "wifi": "Wi-Fi 7 tri-band BE10000",
+        "coverage": "7,600 sq. ft.",
+        "hub": "No"
+      },
+      "features": {
+        "smart_hub": false,
+        "wifi7": true,
+        "fast_port": true
+      },
+      "verdict": "The most capable mesh here, with a 10G WAN and four 2.5G ports.",
+      "pros": [
+        "10G WAN",
+        "Four 2.5G ports and USB 3.0",
+        "Up to 200 devices"
+      ],
+      "cons": [
+        "$396.50",
+        "4.3 stars",
+        "No smart home hub"
+      ]
+    }
+  ],
+  "avoid": []
+}

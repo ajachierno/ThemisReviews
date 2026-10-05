@@ -1,0 +1,389 @@
+{
+  "feature_weights": {
+    "no_fee": 0.3,
+    "pro_option": 0.25,
+    "big_platforms": 0.25,
+    "cellular": 0.2
+  },
+  "systems_note": "Ring, SimpliSafe, and Abode all have official Home Assistant integrations. Smart Life alarms work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "kit",
+      "label": "In the box"
+    },
+    {
+      "key": "monitoring",
+      "label": "Monitoring"
+    },
+    {
+      "key": "backup",
+      "label": "Backup connection"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "kit",
+      "label": "Pieces"
+    },
+    {
+      "key": "monitoring",
+      "label": "Monitoring"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07ZPMCW64",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Rated 4.7 stars by 18,073 buyers, with optional pro monitoring and a range extender in the box."
+    },
+    {
+      "asin": "B08LKXCL65",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "An 8-piece door alarm kit with free app alerts for $59.99."
+    },
+    {
+      "asin": "B0793N1V54",
+      "label": "Best for Apple Home",
+      "kind": "special",
+      "why": "HomeKit certified, and the hub controls Z-Wave and Zigbee devices too."
+    },
+    {
+      "asin": "B0CLBTCC78",
+      "label": "Best With 4G Backup",
+      "kind": "premium",
+      "why": "Built-in 4G with free self-monitoring, and no SIM card needed for alerts."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07ZPMCW64",
+      "brand": "Ring",
+      "model": "Alarm 8-Piece Kit",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "kit": "Base station, keypad, 4 contact sensors, motion detector, range extender",
+        "monitoring": "App alerts; optional 24/7 pro monitoring",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": false,
+        "cellular": false
+      },
+      "verdict": "The best-reviewed DIY alarm, sized for 1-2 bedroom homes.",
+      "pros": [
+        "4.7 stars from 18,073 reviews",
+        "Optional pro monitoring",
+        "Range extender included",
+        "Lots of add-on sensors"
+      ],
+      "cons": [
+        "Alexa only for voice",
+        "No Apple Home or Google",
+        "$249.99"
+      ]
+    },
+    {
+      "asin": "B08YMBQJ49",
+      "brand": "Ring",
+      "model": "Alarm 14-Piece Kit",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "kit": "Base station, 2 keypads, 8 contact sensors, 2 motion detectors, range extender",
+        "monitoring": "App alerts; optional 24/7 pro monitoring",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": false,
+        "cellular": false
+      },
+      "verdict": "The same system with double the sensors, for 2-4 bedroom homes.",
+      "pros": [
+        "Two keypads",
+        "8 contact sensors",
+        "4.6 stars from 6,437 reviews"
+      ],
+      "cons": [
+        "$329.99",
+        "Alexa only for voice",
+        "No Apple Home or Google"
+      ]
+    },
+    {
+      "asin": "B07ZDTXJ93",
+      "brand": "Ring",
+      "model": "Alarm 5-Piece Kit",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "kit": "Base station, keypad, contact sensor, motion detector, range extender",
+        "monitoring": "App alerts; optional 24/7 pro monitoring",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": false,
+        "cellular": false
+      },
+      "verdict": "The starter Ring kit for condos and apartments.",
+      "pros": [
+        "$199.99",
+        "4.7 stars from 5,418 reviews",
+        "Expandable later"
+      ],
+      "cons": [
+        "Only one contact sensor",
+        "Alexa only for voice",
+        "Base kit is thin for houses"
+      ]
+    },
+    {
+      "asin": "B07C38HT49",
+      "brand": "SimpliSafe",
+      "model": "8-Piece System",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "kit": "8 pieces incl. base station and entry sensors",
+        "monitoring": "App; optional 24/7 pro monitoring, 1 month free",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": true,
+        "cellular": false
+      },
+      "verdict": "A cheaper whole-home kit that works with Alexa and Google, with no contract.",
+      "pros": [
+        "$131.99 for 8 pieces",
+        "Alexa and Google",
+        "No contract",
+        "Secret Alerts on entry sensors"
+      ],
+      "cons": [
+        "4.5 stars",
+        "Best features need monitoring",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0793N1V54",
+      "brand": "Abode",
+      "model": "4-Piece Smart Security System",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "kit": "4 pieces",
+        "monitoring": "App; optional pro monitoring",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": true,
+        "cellular": false
+      },
+      "verdict": "The only alarm here certified for Apple Home, and its hub runs Z-Wave and Zigbee devices.",
+      "pros": [
+        "Works with Apple HomeKit",
+        "Built-in Z-Wave and Zigbee hub",
+        "$99"
+      ],
+      "cons": [
+        "Only 205 reviews",
+        "4.2 stars",
+        "Stock status wasn't shown at capture time"
+      ]
+    },
+    {
+      "asin": "B083KC44TG",
+      "brand": "eufy",
+      "model": "5-Piece Home Alarm Kit",
+      "systems": [],
+      "systems_label": "eufy app",
+      "specs": {
+        "kit": "5 pieces incl. keypad, entry and motion sensors",
+        "monitoring": "App alerts, no monthly fees",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": false,
+        "big_platforms": false,
+        "cellular": false
+      },
+      "verdict": "A no-fee alarm that fits best if you already have eufy cameras.",
+      "pros": [
+        "No monthly fees",
+        "Installs in minutes",
+        "1,207 reviews"
+      ],
+      "cons": [
+        "No voice assistant listed",
+        "4.3 stars",
+        "No pro monitoring option"
+      ]
+    },
+    {
+      "asin": "B0CLBTCC78",
+      "brand": "OSI",
+      "model": "Alarm System Gen 2 (4G), 11-piece",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "kit": "11 pieces: entry and motion sensors, wireless siren, remotes",
+        "monitoring": "Free self-monitoring; optional 24/7 pro",
+        "backup": "Built-in 4G"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": true,
+        "big_platforms": false,
+        "cellular": true
+      },
+      "verdict": "Built-in 4G keeps alerts flowing when your Wi-Fi is down, with no fee required.",
+      "pros": [
+        "4G built in",
+        "Free self-monitoring",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 11 left at capture time",
+        "Only 203 reviews",
+        "Smart Life app"
+      ]
+    },
+    {
+      "asin": "B0D3LC2HNV",
+      "brand": "LWOHSI",
+      "model": "A108F",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "kit": "Panel, door and motion sensors",
+        "monitoring": "App push, SMS, and phone calls",
+        "backup": "4G GSM (your SIM)"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": false,
+        "big_platforms": true,
+        "cellular": true
+      },
+      "verdict": "A Wi-Fi plus 4G panel that can text and call up to five numbers.",
+      "pros": [
+        "Calls 5 numbers, texts 2",
+        "Wi-Fi and 4G",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.0 stars",
+        "4G needs your own SIM",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0CZLL7BPT",
+      "brand": "tolviviov",
+      "model": "15-Piece Wi-Fi Alarm Kit",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "kit": "15 pieces with 120 dB siren",
+        "monitoring": "App alerts, no monthly fees",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": false,
+        "big_platforms": false,
+        "cellular": false
+      },
+      "verdict": "Fifteen pieces and a loud siren for $114.99, with no monthly fees.",
+      "pros": [
+        "15 pieces",
+        "120 dB siren",
+        "No monthly fees"
+      ],
+      "cons": [
+        "4.2 stars",
+        "2.4 GHz Wi-Fi",
+        "No pro monitoring"
+      ]
+    },
+    {
+      "asin": "B08LKXCL65",
+      "brand": "tolviviov",
+      "model": "8-Piece Door Alarm Kit",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "kit": "8 pieces with door sensors",
+        "monitoring": "App alerts, no monthly fees",
+        "backup": "Not stated in bullets"
+      },
+      "features": {
+        "no_fee": true,
+        "pro_option": false,
+        "big_platforms": true,
+        "cellular": false
+      },
+      "verdict": "A cheap starter alarm for apartments, with 4,170 reviews.",
+      "pros": [
+        "$59.99",
+        "4,170 reviews",
+        "Add water, motion, and doorbell sensors later"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "4.2 stars",
+        "No pro monitoring"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GQNT6SD7",
+      "brand": "ADT",
+      "model": "Blu Starter Kit",
+      "systems": [],
+      "flag": "Paid plan required",
+      "verdict": "Unlike every other kit here, this one needs a monitoring plan to work, and it's the lowest-rated alarm we found.",
+      "reasons": [
+        "Title: \"DIY Wireless Alarm, Plan Required.\"",
+        "Bullet: \"30 Days Free Monitoring with paid subscription.\"",
+        "3.7 stars from 39 reviews."
+      ]
+    }
+  ]
+}
