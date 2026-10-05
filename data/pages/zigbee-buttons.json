@@ -1,0 +1,503 @@
+{
+  "slug": "zigbee-buttons",
+  "family": "buttons",
+  "family_title": "Buttons and remotes",
+  "noun": "button",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Zigbee Smart Buttons and Remotes",
+  "subtitle": "Zigbee buttons, remotes, and dimmer switches for scenes and shortcuts.",
+  "intro": "We pulled the Zigbee smart buttons and remotes selling on Amazon and scored them on rating, review volume, and features: multiple press types, extra buttons, and open Zigbee 3.0 pairing.",
+  "reviews_ceiling": 15000,
+  "feature_weights": {
+    "open_zigbee": 0.3,
+    "multi_button": 0.25,
+    "multi_press": 0.25,
+    "dimming": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "buttons",
+      "label": "Buttons"
+    },
+    {
+      "key": "actions",
+      "label": "Actions"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "buttons",
+      "label": "Buttons"
+    },
+    {
+      "key": "actions",
+      "label": "Actions"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08W8GLPD5",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "4.7 stars from 4,016 reviews, a magnetic wall plate, and 3K+ bought last month."
+    },
+    {
+      "asin": "B07D19YXND",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $15.90 button with single, double, and long press, 3,068 reviews."
+    },
+    {
+      "asin": "B0G2LNPCP7",
+      "label": "Best for Home Assistant",
+      "kind": "special",
+      "why": "Four buttons, 16 actions, and direct Zigbee binding in ZHA and Zigbee2MQTT."
+    },
+    {
+      "asin": "B0B6LDPZ5M",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Four scene buttons plus a rotary dial for dimming, rated 4.7 stars."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08W8GLPD5",
+      "brand": "Philips Hue",
+      "model": "Dimmer Switch V2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "4",
+        "actions": "On, off, dim, scenes",
+        "hub": "Hue Bridge (or Zigbee hub)",
+        "extras": "Magnetic, removable remote"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": true
+      },
+      "verdict": "The best all-around Zigbee remote: dimming, scenes, and a wall plate it pops out of.",
+      "pros": [
+        "4.7 stars from 4,016 reviews",
+        "Magnetic remote doubles as a wall switch",
+        "Cycles through four scenes",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Hue Bridge needed for the full feature set",
+        "$26.99",
+        "Buttons are fixed to lighting by default"
+      ],
+      "name": "Philips Hue Smart Dimmer Switch Remote, 1-Pack, White",
+      "image": "https://m.media-amazon.com/images/I/5134Diycx6L._AC_SL1023_.jpg",
+      "price": 26.99,
+      "rating": 4.7,
+      "reviews_count": 4016,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B07D19YXND",
+      "brand": "Aqara",
+      "model": "Wireless Mini Switch",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "buttons": "1",
+        "actions": "Single, double, long press",
+        "hub": "Aqara hub only",
+        "extras": "Emergency alert"
+      },
+      "features": {
+        "open_zigbee": false,
+        "multi_button": false,
+        "multi_press": true,
+        "dimming": false
+      },
+      "verdict": "A tiny, cheap button with three actions for Aqara hub owners.",
+      "pros": [
+        "$15.90",
+        "Single, double, and long press",
+        "3,068 reviews, 500+ bought in the past month"
+      ],
+      "cons": [
+        "Aqara hubs only, per the listing",
+        "One button",
+        "4.3 stars"
+      ],
+      "name": "Aqara Zigbee Wireless Mini Switch, Works with HomeKit Google Home Alexa",
+      "image": "https://m.media-amazon.com/images/I/615mty61jkL._SL1500_.jpg",
+      "price": 15.9,
+      "rating": 4.3,
+      "reviews_count": 3068,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0G2LNPCP7",
+      "brand": "SONOFF",
+      "model": "Fusion SNZB-01M",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "4",
+        "actions": "Single, double, triple, long (16 total)",
+        "hub": "Any Zigbee 3.0 hub",
+        "extras": "Zigbee binding, TouchLink dimming"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": true
+      },
+      "verdict": "Four buttons and 16 actions, with direct Zigbee binding for Home Assistant users.",
+      "pros": [
+        "16 scene triggers",
+        "Zigbee binding works without the hub",
+        "Names SmartThings and Home Assistant",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 365 reviews",
+        "$19.90"
+      ],
+      "name": "SONOFF Fusion Zigbee Smart Scene Button SNZB-01M, Wireless Switch",
+      "image": "https://m.media-amazon.com/images/I/51dnqLO5q+L._SL1500_.jpg",
+      "price": 19.9,
+      "rating": 4.0,
+      "reviews_count": 365,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0CL9JTMWF",
+      "brand": "SONOFF",
+      "model": "SNZB-01P",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "1",
+        "actions": "Single, double, long press",
+        "hub": "Any Zigbee 3.0 hub",
+        "extras": "Triggers Alexa routines via SONOFF hub"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": false,
+        "multi_press": true,
+        "dimming": false
+      },
+      "verdict": "A cheap single button that pairs with any Zigbee 3.0 hub.",
+      "pros": [
+        "$16.90",
+        "Open Zigbee 3.0",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "One button",
+        "Alexa routines need a SONOFF hub",
+        "4.2 stars"
+      ],
+      "name": "SONOFF Zigbee Switch, SNZB-01P Wireless Push Button, Supports to Create Smart Scenes, Trigger the Connected Devices on eWelink APP with Three Control Options, SONOFF ZigBee Bridge Required, 1Pack",
+      "image": "https://m.media-amazon.com/images/I/51VIw+zNITL._SL1500_.jpg",
+      "price": 16.9,
+      "rating": 4.2,
+      "reviews_count": 941,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B09ZQGZX3G",
+      "brand": "THIRDREALITY",
+      "model": "Smart Button",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "1",
+        "actions": "Press, double press, hold",
+        "hub": "Zigbee hub",
+        "extras": "Tape or magnet mount"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": false,
+        "multi_press": true,
+        "dimming": false
+      },
+      "verdict": "A simple Zigbee 3.0 button that names SmartThings, Hubitat, and Home Assistant.",
+      "pros": [
+        "Names SmartThings, Hubitat, and Home Assistant",
+        "Magnet or tape mount",
+        "4.3 stars from 739 reviews"
+      ],
+      "cons": [
+        "One button",
+        "$19.99",
+        "Sold by the brand"
+      ],
+      "name": "THIRDREALITY ZigBee Smart Button, 3-Way Remote Control, Require Zigbee hub, Work with SmartThings, Aeotec, Hubitat, Home Assistant, Third Reality Hub, Battery Included.",
+      "image": "https://m.media-amazon.com/images/I/41Gw838l8LL._AC_SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.3,
+      "reviews_count": 739,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FCZRXH8Z",
+      "brand": "Philips Hue",
+      "model": "Smart Button",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "1",
+        "actions": "Press, hold to dim, scenes",
+        "hub": "Hue Bridge",
+        "extras": "Time-based light"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": false,
+        "multi_press": true,
+        "dimming": true
+      },
+      "verdict": "A one-button Hue remote that sets the right light for the time of day.",
+      "pros": [
+        "4.6 stars",
+        "Hold to dim",
+        "1K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "Requires a Hue Bridge",
+        "Only 179 reviews",
+        "$32.99"
+      ],
+      "name": "PHILIPS Hue Wireless Smart Light Switch Button, White, 1 Pack, Portable and Battery Powered, Smart Home Control, Requires Hue Bridge, Easy, No-Wire Installation",
+      "image": "https://m.media-amazon.com/images/I/71qQoDjbCdL._AC_SL1500_.jpg",
+      "price": 32.99,
+      "rating": 4.6,
+      "reviews_count": 179,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0B6LDPZ5M",
+      "brand": "Philips Hue",
+      "model": "Tap Dial Switch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "4 + dial",
+        "actions": "Scenes, rotary dimming",
+        "hub": "Hue Bridge",
+        "extras": "Removable remote, battery included"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": true
+      },
+      "verdict": "Four scene buttons and a dial for smooth dimming, for Hue homes.",
+      "pros": [
+        "Rotary dial for dimming",
+        "Four scene buttons",
+        "4.7 stars from 942 reviews"
+      ],
+      "cons": [
+        "$54.99",
+        "Requires a Hue Bridge",
+        "Black only in this listing"
+      ],
+      "name": "Philips Hue Wall Tap Dial Light Switch, Portable, Black - 1 Pack - Requires Lights and Bridge - Smart Home - Easy, No-Wire Installation",
+      "image": "https://m.media-amazon.com/images/I/612hCYtlZwL._SL1500_.jpg",
+      "price": 54.99,
+      "rating": 4.7,
+      "reviews_count": 942,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0BHWS3VTZ",
+      "brand": "Aqara",
+      "model": "Cube T1 Pro",
+      "systems": [
+        "apple-home"
+      ],
+      "specs": {
+        "buttons": "6-sided cube",
+        "actions": "Push, shake, rotate, flip, tap",
+        "hub": "Aqara Zigbee 3.0 hub",
+        "extras": "Scene mode for Apple Home"
+      },
+      "features": {
+        "open_zigbee": false,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": true
+      },
+      "verdict": "A gesture cube: flip, rotate, or shake it to trigger different scenes.",
+      "pros": [
+        "Six scene faces",
+        "Rotate to dim",
+        "Apple Home support through an Aqara hub"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Needs an Aqara Zigbee 3.0 hub",
+        "Gestures take some learning"
+      ],
+      "name": "Aqara Cube T1 Pro, Requires AQARA ZIGBEE 3.0 HUB",
+      "image": "https://m.media-amazon.com/images/I/61fXaF32VaL._SL1500_.jpg",
+      "price": 21.59,
+      "rating": 3.8,
+      "reviews_count": 708,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F1CJ6DHT",
+      "brand": "Blindsmart",
+      "model": "4-way Zigbee scene controller",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "4",
+        "actions": "Single, double, long press",
+        "hub": "Zigbee hub",
+        "extras": "Battery included"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": false
+      },
+      "verdict": "Four buttons with three actions each, for blinds and scenes.",
+      "pros": [
+        "12 actions from 4 buttons",
+        "Names Hubitat",
+        "Battery included"
+      ],
+      "cons": [
+        "Only 135 reviews",
+        "$24.99",
+        "Sold by a reseller"
+      ],
+      "name": "Wireless Zigbee Smart Button, 4-Way Remote Switch and Scene Controller",
+      "image": "https://m.media-amazon.com/images/I/51TzIYpzRpL._AC_SL1000_.jpg",
+      "price": 24.99,
+      "rating": 4.3,
+      "reviews_count": 135,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0G83YMKGG",
+      "brand": "Shelly",
+      "model": "BLU RC Button 4 ZB",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "buttons": "4",
+        "actions": "Multi-click",
+        "hub": "Zigbee hub or Shelly Bluetooth gateway",
+        "extras": "Bluetooth + Zigbee, magnetic holder"
+      },
+      "features": {
+        "open_zigbee": true,
+        "multi_button": true,
+        "multi_press": true,
+        "dimming": false
+      },
+      "verdict": "A four-button remote that speaks both Zigbee and Bluetooth, with a magnetic holder.",
+      "pros": [
+        "Zigbee or Bluetooth",
+        "Magnetic holder",
+        "Encrypted, suits garage door control"
+      ],
+      "cons": [
+        "Only 23 reviews",
+        "4.0 stars",
+        "$23.99"
+      ],
+      "name": "Shelly BLU RC Button 4 ZB, Smart Bluetooth & Zigbee-operated 4 Button Remote Controller, Home Automation, Multi-Click, Magnetic Holder, Wire-Free, Garage Door Opener, Lights Control, Scene Control",
+      "image": "https://m.media-amazon.com/images/I/71YQyFH6DNL._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.0,
+      "reviews_count": 23,
+      "bought": "300+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What can a smart button do?",
+      "a": "Anything your hub can run: turn on a scene, toggle a lamp, start a routine, or arm an alarm. Many buttons recognize single, double, and long presses, so one button can run three actions."
+    },
+    {
+      "q": "Do buttons need a hub?",
+      "a": "Yes, for Zigbee and Z-Wave. The button sends a press to the hub, and the hub runs the automation. Some Zigbee buttons can bind directly to a bulb or plug, but most setups go through the hub."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}

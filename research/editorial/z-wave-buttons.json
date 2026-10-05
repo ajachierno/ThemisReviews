@@ -1,0 +1,49 @@
+{
+  "feature_weights": {"long_range": 0.30, "buttons": 0.30, "battery_free": 0.20, "mount": 0.20},
+  "systems_note": "Scene control needs a hub that supports multi-tap Central Scene events; the icons show the platforms each listing names.",
+  "spec_fields": [
+    {"key": "type", "label": "Type"},
+    {"key": "buttons", "label": "Buttons"},
+    {"key": "series", "label": "Z-Wave chip"},
+    {"key": "power", "label": "Power"},
+    {"key": "notes", "label": "Notes"}
+  ],
+  "table_columns": [
+    {"key": "type", "label": "Type"},
+    {"key": "buttons", "label": "Buttons"},
+    {"key": "series", "label": "Chip"},
+    {"key": "power", "label": "Power"}
+  ],
+  "awards": [
+    {"asin": "B09B6S4TSL", "label": "Best Overall", "kind": "overall", "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars."},
+    {"asin": "B08TMWLY74", "label": "Best Budget", "kind": "budget", "why": "A battery paddle remote with Long Range for $37.95, 411 reviews."},
+    {"asin": "B0CV8RXT5W", "label": "Best Battery Remote", "kind": "special", "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."}
+  ],
+  "products": [
+    {"asin": "B09B6S4TSL", "brand": "Zooz", "model": "ZEN32 800LR", "systems": ["home-assistant", "smartthings", "hubitat"],
+     "specs": {"type": "Wired scene controller", "buttons": "1 main + 4", "series": "800 Series LR", "power": "Wired (neutral required)", "notes": "Controls a 120 V light up to 150 W LED"},
+     "features": {"long_range": true, "buttons": true, "battery_free": true, "mount": true},
+     "verdict": "A wall switch that runs a light and four scene buttons, and it never needs a battery.",
+     "pros": ["Main button switches a light directly", "Four extra scene buttons", "Direct 3-way with regular switches", "4.6 stars, 200+ bought in the past month"],
+     "cons": ["Needs a neutral wire", "SmartThings needs a custom driver", "$47.95"]},
+    {"asin": "B08TMWLY74", "brand": "Zooz", "model": "ZEN34 800LR", "systems": ["home-assistant", "hubitat"],
+     "specs": {"type": "Battery paddle remote", "buttons": "2 paddles", "series": "800 Series LR", "power": "Battery", "notes": "Magnetic base, fits a switch box"},
+     "features": {"long_range": true, "buttons": false, "battery_free": false, "mount": true},
+     "verdict": "A battery remote shaped like a paddle switch, for adding a switch anywhere without wiring.",
+     "pros": ["Looks like a regular paddle switch", "Magnetic base or switch box mount", "Long Range", "4.4 stars from 411 reviews"],
+     "cons": ["Basic hubs can't program scene control, per Zooz", "Only 20 left at capture time", "Two paddles only"]},
+    {"asin": "B0CV8RXT5W", "brand": "Zooz", "model": "ZEN37 800LR", "systems": ["home-assistant", "smartthings", "hubitat"],
+     "specs": {"type": "Battery wall remote", "buttons": "4", "series": "800 Series LR", "power": "Rechargeable battery", "notes": "Up to 24 scenes"},
+     "features": {"long_range": true, "buttons": true, "battery_free": false, "mount": true},
+     "verdict": "Four buttons and up to 24 scenes on a rechargeable remote you can mount or carry.",
+     "pros": ["Up to 24 scenes", "Rechargeable battery", "Magnetic base or decora box", "5-year warranty when registered"],
+     "cons": ["Only 75 reviews", "SmartThings and Hubitat need custom drivers", "$46.95"]},
+    {"asin": "B0987K9VS3", "brand": "Aeotec", "model": "WallMote 7", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"type": "Battery remote", "buttons": "Multi-tap", "series": "700 Series", "power": "Battery", "notes": "144 ft. indoor range"},
+     "features": {"long_range": false, "buttons": false, "battery_free": false, "mount": true},
+     "verdict": "A small Aeotec remote with six multi-tap commands for on, off, dimming, and scenes.",
+     "pros": ["$31.99", "Six multi-tap commands", "Tape, junction box, or handheld"],
+     "cons": ["3.9 stars from 31 reviews", "700 Series, no Long Range", "Stock wasn't shown at capture time"]}
+  ],
+  "avoid": []
+}
