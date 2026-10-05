@@ -1,0 +1,107 @@
+"""Page copy for batch 8: smoke/CO detectors, robot vacuums, smart speakers, air quality monitors,
+water shutoff valves, sprinkler controllers and hose timers. Imported at the bottom of meta.py."""
+from meta_batch3 import _p
+
+SMOKE_GUIDE = [
+    {"q": "Smoke only, or smoke and CO?",
+     "a": "Put a combination smoke and carbon monoxide alarm on every level and outside sleeping areas if your home has gas appliances, a fireplace, or an attached garage. Smoke-only alarms are fine inside bedrooms."},
+    {"q": "Does a smart alarm replace a regular one?",
+     "a": "Only if it's UL listed as a smoke alarm. A smart alarm adds phone alerts and interconnection, but the local siren is what wakes you up. Check the listing for UL 217 (smoke) and UL 2034 (CO)."},
+    {"q": "Hardwired or battery?",
+     "a": "If your home has hardwired alarms, replace them with hardwired smart alarms so they stay interconnected and code compliant. Battery models suit homes without wiring, and 10-year sealed batteries mean no yearly battery swaps."},
+]
+VACUUM_GUIDE = [
+    {"q": "Do I need a self-emptying dock?",
+     "a": "If you have pets or long hair in the house, yes. A dock that empties the bin means you deal with dirt every month or two instead of every run."},
+    {"q": "Is a mopping robot worth it?",
+     "a": "For hard floors, a robot that mops and washes its own mop pads saves real work. Pick one that lifts the mop on carpet, or keep it off rugs."},
+    {"q": "Does it work with my smart home?",
+     "a": "Most robot vacuums use their maker's Wi-Fi app with Alexa and Google voice commands. Newer models add Matter, which lets Apple Home, SmartThings, and Home Assistant start and stop cleaning."},
+]
+SPEAKER_GUIDE = [
+    {"q": "Alexa, Google, or Siri?",
+     "a": "Pick the assistant that matches your phone and smart home. Echo speakers run Alexa, Nest speakers run Google Assistant, and Sonos speakers can use Alexa or Sonos Voice Control."},
+    {"q": "Can a smart speaker be my hub?",
+     "a": "Some can. Several Echo models have a Zigbee hub or Thread border router built in, and Nest speakers and displays can be Matter controllers. Check the listing if you want it to run your devices too."},
+    {"q": "How much should I spend for sound?",
+     "a": "Small speakers like the Echo Dot are fine for voice and casual music. If music matters, a larger speaker like a Sonos Era is a big step up."},
+]
+AIR_GUIDE = [
+    {"q": "What should an air quality monitor measure?",
+     "a": "PM2.5 (fine particles from cooking, smoke, and wildfires), CO2 (a sign of stale air in closed rooms), VOCs (fumes from cleaners and new furniture), plus temperature and humidity. Radon matters in basements in many regions."},
+    {"q": "Is a CO2 reading reliable?",
+     "a": "Only from an NDIR CO2 sensor. Cheaper monitors estimate CO2 from VOC readings, which isn't the same thing. Look for NDIR in the listing if CO2 is the main reason you're buying."},
+    {"q": "Is an air quality monitor a carbon monoxide alarm?",
+     "a": "Usually not. Unless it's UL 2034 listed with a loud alarm, keep a real CO alarm too."},
+]
+VALVE_GUIDE = [
+    {"q": "Do I need a plumber?",
+     "a": "Not for valve robots and actuators, which clamp onto your existing quarter-turn main valve. Inline valves and whole-home flow monitors like Moen Flo are installed into the pipe and usually need a plumber."},
+    {"q": "How does it know to shut off?",
+     "a": "Pair it with leak sensors, or pick a flow monitor that spots unusual water use. When a sensor gets wet, the valve closes the main line in seconds."},
+    {"q": "Will it work with my valve?",
+     "a": "Robots fit most quarter-turn ball valves, but not gate valves with round handles. Check your main valve and pipe size before ordering."},
+]
+SPRINKLER_GUIDE = [
+    {"q": "Does a smart controller save water?",
+     "a": "Usually. Weather-based skipping and seasonal adjustment cut watering when it rains or cools down, and many water utilities offer rebates for EPA WaterSense controllers."},
+    {"q": "How many zones do I need?",
+     "a": "Count the zones on your current controller and buy at least that many. Extra zones give room to add drip lines or new beds later."},
+    {"q": "Indoor or outdoor model?",
+     "a": "Indoor models mount in a garage. If your current controller is outside, buy an outdoor-rated model or one with a weatherproof enclosure."},
+]
+HOSE_GUIDE = [
+    {"q": "Hose timer or in-ground controller?",
+     "a": "A hose timer screws onto an outdoor faucet to water gardens, drip lines, and hose sprinklers. An in-ground controller replaces the box that runs a buried sprinkler system."},
+    {"q": "Why do some need a gateway?",
+     "a": "The timer at the faucet runs on batteries and uses Bluetooth or a low-power radio. A plug-in gateway inside connects it to Wi-Fi so you can control it away from home."},
+    {"q": "What about freezing weather?",
+     "a": "Bring timers inside before the first hard freeze. Water left inside can crack the valve."},
+]
+
+PAGES = {
+    "wifi-smoke-detectors": _p("smoke-detectors", "Smoke and CO detectors", "alarm", "The 10 Best Smart Smoke and CO Detectors",
+        "Wi-Fi smoke and carbon monoxide alarms that alert your phone, ranked from live Amazon data.",
+        "We pulled the smart smoke and CO alarms selling on Amazon and scored them on rating, review volume, and features: CO detection, interconnection, and hardwired or 10-year battery power. Some kits use their own radio to a Wi-Fi base station; the table shows which.",
+        5000, SMOKE_GUIDE),
+    "matter-smoke-detectors": _p("smoke-detectors", "Smoke and CO detectors", "alarm", "The Best Matter Smoke and CO Alarms",
+        "Matter-over-Thread smoke and CO alarms for any smart home platform.",
+        "Matter smoke alarms are brand new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
+        200, SMOKE_GUIDE),
+    "z-wave-smoke-detectors": _p("smoke-detectors", "Smoke and CO detectors", "alarm", "The Best Z-Wave Smoke and CO Detectors",
+        "Z-Wave smoke and CO alarms and listeners, ranked.",
+        "Few Z-Wave smoke alarms are still sold. We scored the ones on Amazon, plus a Z-Wave listener that makes ordinary alarms smart, on rating, review volume, and features.",
+        1000, SMOKE_GUIDE),
+    "wifi-robot-vacuums": _p("robot-vacuums", "Robot vacuums", "vacuum", "The 10 Best Robot Vacuums",
+        "Robot vacuums and mops, from budget to self-emptying, ranked from live Amazon data.",
+        "We pulled the best-selling robot vacuums on Amazon and scored them on rating, review volume, and features: self-emptying docks, mopping, and mapping. Models with Matter are also on our Matter page.",
+        40000, VACUUM_GUIDE),
+    "matter-robot-vacuums": _p("robot-vacuums", "Robot vacuums", "vacuum", "The Best Matter Robot Vacuums",
+        "Robot vacuums you can run from Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+        "We pulled the robot vacuums on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+        20000, VACUUM_GUIDE),
+    "wifi-smart-speakers": _p("smart-speakers", "Smart speakers", "speaker", "The Best Smart Speakers",
+        "Alexa, Google, and Sonos speakers, ranked from live Amazon data.",
+        "We pulled the best-selling smart speakers on Amazon and scored them on rating, review volume, and features: a built-in smart home hub, sound quality, and which voice assistant it runs.",
+        100000, SPEAKER_GUIDE),
+    "wifi-air-quality-monitors": _p("air-quality-monitors", "Air quality monitors", "monitor", "The 10 Best Smart Air Quality Monitors",
+        "Wi-Fi monitors for PM2.5, CO2, VOCs, and radon, ranked from live Amazon data.",
+        "We pulled the smart indoor air quality monitors selling on Amazon and scored them on rating, review volume, and features: real NDIR CO2 sensors, PM2.5, radon, and smart home support.",
+        5000, AIR_GUIDE),
+    "wifi-water-valves": _p("water-valves", "Water shutoff valves", "valve", "The 10 Best Smart Water Shutoff Valves",
+        "Automatic main water shutoffs and valve robots, ranked from live Amazon data.",
+        "We pulled the smart water shutoff valves selling on Amazon and scored them on rating, review volume, and features: leak sensors in the box, flow monitoring, and DIY installation. Some kits use their own long-range radio to a Wi-Fi hub; the table shows which.",
+        2500, VALVE_GUIDE),
+    "wifi-sprinkler-controllers": _p("sprinklers", "Sprinklers and timers", "controller", "The Best Smart Sprinkler Controllers",
+        "Wi-Fi in-ground irrigation controllers, ranked from live Amazon data.",
+        "We pulled the smart sprinkler controllers selling on Amazon and scored them on rating, review volume, and features: weather-based scheduling, zone count, and outdoor rating.",
+        9000, SPRINKLER_GUIDE),
+    "wifi-hose-timers": _p("sprinklers", "Sprinklers and timers", "timer", "The 10 Best Smart Hose Timers",
+        "Wi-Fi and app-controlled garden hose timers, ranked from live Amazon data.",
+        "We pulled the smart hose and faucet timers selling on Amazon and scored them on rating, review volume, and features: Wi-Fi gateways, multiple zones, and brass fittings.",
+        12000, HOSE_GUIDE),
+    "zigbee-sprinkler-timers": _p("sprinklers", "Sprinklers and timers", "timer", "The Best Zigbee Sprinkler and Hose Timers",
+        "Zigbee water timers for Home Assistant and other Zigbee hubs, ranked.",
+        "Zigbee hose timers are a small category. We scored the ones on Amazon on rating, review volume, and features: zones, flow metering, and brass inlets.",
+        300, HOSE_GUIDE),
+}

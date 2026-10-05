@@ -5,7 +5,7 @@
   "affiliate_tag": "themisreviews-20",
   "amazon_domain": "www.amazon.com",
   "custom_domain": "themisreviews.com",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "protocols": [
     {
       "slug": "z-wave",
@@ -191,6 +191,11 @@
           "ready": true
         },
         {
+          "slug": "zigbee-sprinkler-timers",
+          "title": "Zigbee sprinkler and hose timers",
+          "family": "sprinklers"
+        },
+        {
           "slug": "zigbee-coordinators",
           "title": "Zigbee hubs and coordinators",
           "family": "hubs",
@@ -307,6 +312,42 @@
           "title": "Wi-Fi garage door openers",
           "family": "garage-openers",
           "ready": true
+        },
+        {
+          "slug": "wifi-smoke-detectors",
+          "title": "Wi-Fi smoke and CO detectors",
+          "family": "smoke-detectors",
+          "ready": true
+        },
+        {
+          "slug": "wifi-air-quality-monitors",
+          "title": "Wi-Fi air quality monitors",
+          "family": "air-quality-monitors"
+        },
+        {
+          "slug": "wifi-water-valves",
+          "title": "Wi-Fi water shutoff valves",
+          "family": "water-valves"
+        },
+        {
+          "slug": "wifi-sprinkler-controllers",
+          "title": "Wi-Fi sprinkler controllers",
+          "family": "sprinklers"
+        },
+        {
+          "slug": "wifi-hose-timers",
+          "title": "Wi-Fi hose timers",
+          "family": "sprinklers"
+        },
+        {
+          "slug": "wifi-robot-vacuums",
+          "title": "Robot vacuums",
+          "family": "robot-vacuums"
+        },
+        {
+          "slug": "wifi-smart-speakers",
+          "title": "Smart speakers",
+          "family": "smart-speakers"
         }
       ]
     },
@@ -503,6 +544,17 @@
           "ready": true
         },
         {
+          "slug": "matter-smoke-detectors",
+          "title": "Matter smoke and CO alarms",
+          "family": "smoke-detectors",
+          "ready": true
+        },
+        {
+          "slug": "matter-robot-vacuums",
+          "title": "Matter robot vacuums",
+          "family": "robot-vacuums"
+        },
+        {
           "slug": "matter-controllers",
           "title": "Matter hubs and controllers",
           "family": "hubs",
@@ -610,5 +662,6 @@
         }
       ]
     }
-  ]
+  ],
+  "pinterest_verify": ""
 }

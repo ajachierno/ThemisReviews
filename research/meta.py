@@ -177,3 +177,6 @@ PAGES.update(_B6)
 
 from meta_batch7 import PAGES as _B7  # noqa: E402
 PAGES.update(_B7)
+
+from meta_batch8 import PAGES as _B8  # noqa: E402
+PAGES.update(_B8)

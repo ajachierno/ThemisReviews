@@ -1,0 +1,41 @@
+{
+  "feature_weights": {"climate": 0.35, "long_battery": 0.35, "co": 0.30},
+  "systems_note": "All three need a Thread border router; the listings name Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "spec_fields": [
+    {"key": "detects", "label": "Detects"},
+    {"key": "power", "label": "Power"},
+    {"key": "cert", "label": "Certification"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "detects", "label": "Detects"},
+    {"key": "power", "label": "Power"},
+    {"key": "cert", "label": "Certification"}
+  ],
+  "awards": [
+    {"asin": "B0GV4CWB6D", "label": "Best Overall", "kind": "overall", "why": "A UL 217 smoke alarm on Matter over Thread that also reports temperature and humidity."},
+    {"asin": "B0FVSVNJBY", "label": "Best Budget", "kind": "budget", "why": "The plain Matter smoke alarm for $39.99."},
+    {"asin": "B0G135MZJY", "label": "Best CO Alarm", "kind": "special", "why": "A UL 2034 CO alarm with a Figaro sensor and a battery rated up to 10 years."}
+  ],
+  "products": [
+    {"asin": "B0GV4CWB6D", "brand": "Heiman", "model": "S1-TM", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "homey"],
+     "specs": {"detects": "Smoke, temperature, humidity", "power": "Battery (included)", "cert": "UL 217 10th Ed.", "extras": "85 dB, magnetic or screw mount"},
+     "features": {"climate": true, "long_battery": false, "co": false},
+     "verdict": "A Matter smoke alarm that doubles as a temperature and humidity sensor.",
+     "pros": ["UL 217 10th edition, CSFM listed", "Temperature and humidity built in", "Names Apple, Google, Alexa, SmartThings, Homey, and Home Assistant"],
+     "cons": ["Only 15 reviews", "Needs a Thread border router", "Smoke only, no CO"]},
+    {"asin": "B0FVSVNJBY", "brand": "Heiman", "model": "Matter smoke detector", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings"],
+     "specs": {"detects": "Smoke", "power": "CR123A (included)", "cert": "UL 217 10th Ed.", "extras": "85 dB, local automations"},
+     "features": {"climate": false, "long_battery": false, "co": false},
+     "verdict": "The basic Heiman Matter smoke alarm, which can also trigger lights or cut power in a fire.",
+     "pros": ["$39.99", "UL 217 10th edition", "Triggers local automations without Wi-Fi"],
+     "cons": ["3.6 stars", "Needs a Thread border router", "Battery life isn't stated"]},
+    {"asin": "B0G135MZJY", "brand": "Heiman", "model": "C1-M CO alarm", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings"],
+     "specs": {"detects": "Carbon monoxide", "power": "CR123A, up to 10 years", "cert": "UL 2034 5th Ed.", "extras": "Figaro TGS5141 sensor"},
+     "features": {"climate": false, "long_battery": true, "co": true},
+     "verdict": "A dedicated Matter CO alarm for near furnaces, water heaters, and garages.",
+     "pros": ["UL 2034 5th edition", "Figaro electrochemical sensor", "Battery rated up to 10 years"],
+     "cons": ["CO only", "3.7 stars from 22 reviews", "Needs a Thread border router"]}
+  ],
+  "avoid": []
+}

@@ -1,0 +1,493 @@
+{
+  "slug": "wifi-smoke-detectors",
+  "family": "smoke-detectors",
+  "family_title": "Smoke and CO detectors",
+  "noun": "alarm",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Smoke and CO Detectors",
+  "subtitle": "Wi-Fi smoke and carbon monoxide alarms that alert your phone, ranked from live Amazon data.",
+  "intro": "We pulled the smart smoke and CO alarms selling on Amazon and scored them on rating, review volume, and features: CO detection, interconnection, and hardwired or 10-year battery power. Some kits use their own radio to a Wi-Fi base station; the table shows which.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "co": 0.3,
+    "interconnect": 0.25,
+    "no_hub": 0.25,
+    "long_battery": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "connection",
+      "label": "How it connects"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "connection",
+      "label": "Connects via"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FP3MM8W4",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Smoke and CO with Ring app alerts and no subscription required, 3K+ bought last month."
+    },
+    {
+      "asin": "B0FP3F4GJS",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $49.98 smart smoke alarm with wire-free interconnection and Ring alerts."
+    },
+    {
+      "asin": "B0F7N7WGWY",
+      "label": "Best Hardwired",
+      "kind": "special",
+      "why": "Replaces a hardwired alarm and sends phone alerts for every hardwired alarm in the house."
+    },
+    {
+      "asin": "B0GS4R6CG2",
+      "label": "Best Whole-Home Kit",
+      "kind": "premium",
+      "why": "Six interconnected 10-year alarms and a gateway for app alerts."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FP3MM8W4",
+      "brand": "Kidde",
+      "model": "Smart Smoke + CO with Ring (RGCUDR)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Ring app",
+      "specs": {
+        "detects": "Smoke and CO",
+        "power": "2 AA batteries",
+        "connection": "Wi-Fi (Ring app)",
+        "extras": "Wire-free interconnect, optional $5/mo monitoring"
+      },
+      "features": {
+        "co": true,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "The best smart alarm for most homes: smoke and CO, phone alerts without a subscription, and wire-free interconnection.",
+      "pros": [
+        "Smoke and CO",
+        "Ring app alerts with no subscription",
+        "Wire-free interconnection with other Kidde alarms",
+        "3K+ bought in the past month, sold by Amazon"
+      ],
+      "cons": [
+        "AA batteries need replacing",
+        "24/7 monitoring is $5 a month",
+        "4.3 stars"
+      ],
+      "name": "Kidde Smart Smoke & CO Detector with Ring, AA Battery, RGCUDR-RW",
+      "image": "https://m.media-amazon.com/images/I/61Pfegyw9LL._AC_SL1500_.jpg",
+      "price": 69.97,
+      "rating": 4.3,
+      "reviews_count": 465,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0FP3F4GJS",
+      "brand": "Kidde",
+      "model": "Smart Smoke with Ring (RGSDR)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Ring app",
+      "specs": {
+        "detects": "Smoke",
+        "power": "2 AA batteries",
+        "connection": "Wi-Fi (Ring app)",
+        "extras": "Fewer cooking false alarms"
+      },
+      "features": {
+        "co": false,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "The smoke-only version, for bedrooms and rooms without gas appliances.",
+      "pros": [
+        "$49.98",
+        "Ring app alerts, no subscription",
+        "Wire-free interconnection"
+      ],
+      "cons": [
+        "No CO",
+        "AA batteries",
+        "Only 232 reviews"
+      ],
+      "name": "Kidde Smart Smoke Detector with Ring, AA Battery, RGSDR-RW",
+      "image": "https://m.media-amazon.com/images/I/61IXXfWDMmL._AC_SL1500_.jpg",
+      "price": 49.98,
+      "rating": 4.3,
+      "reviews_count": 232,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0F7N7WGWY",
+      "brand": "Kidde",
+      "model": "Smart Smoke + CO with Ring, hardwired (RGCUAR)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Ring app",
+      "specs": {
+        "detects": "Smoke and CO",
+        "power": "Hardwired + AA backup",
+        "connection": "Wi-Fi (Ring app)",
+        "extras": "Smart alerts for all hardwired alarms"
+      },
+      "features": {
+        "co": true,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "Swap one hardwired alarm for this and you get phone alerts from every hardwired alarm in the house.",
+      "pros": [
+        "Smoke and CO",
+        "One unit makes the whole hardwired system alert your phone",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "Needs existing alarm wiring",
+        "4.1 stars",
+        "Monitoring is extra"
+      ],
+      "name": "Kidde Smart Smoke & CO Detector with Ring, Hardwire & AA Battery, RGCUAR-RW",
+      "image": "https://m.media-amazon.com/images/I/61ot21QFMfL._AC_SL1500_.jpg",
+      "price": 59.8,
+      "rating": 4.1,
+      "reviews_count": 423,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0F7N5YS7T",
+      "brand": "Kidde",
+      "model": "Smart Smoke with Ring, hardwired (RGSAR)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Ring app",
+      "specs": {
+        "detects": "Smoke",
+        "power": "Hardwired + AA backup",
+        "connection": "Wi-Fi (Ring app)",
+        "extras": "Alexa notifications"
+      },
+      "features": {
+        "co": false,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "The smoke-only hardwired Ring model, with Alexa notifications.",
+      "pros": [
+        "Alerts for every hardwired alarm",
+        "Alexa notifications",
+        "$54.98"
+      ],
+      "cons": [
+        "No CO",
+        "Needs alarm wiring",
+        "Only 228 reviews"
+      ],
+      "name": "Kidde Smart Smoke Detector with Ring, Hardwire & AA Battery, RGSAR-RW",
+      "image": "https://m.media-amazon.com/images/I/61Ue0Xcin-L._AC_SL1500_.jpg",
+      "price": 54.98,
+      "rating": 4.2,
+      "reviews_count": 228,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0F7JVW1TZ",
+      "brand": "Kidde",
+      "model": "Hardwired smart smoke + CO (Kidde app)",
+      "systems": [],
+      "systems_label": "Kidde app",
+      "specs": {
+        "detects": "Smoke and CO",
+        "power": "Hardwired + AA backup",
+        "connection": "Wi-Fi (Kidde app)",
+        "extras": "Voice alerts, hush from phone"
+      },
+      "features": {
+        "co": true,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "Kidde's own-app hardwired combo alarm, with voice alerts and hushing from your phone.",
+      "pros": [
+        "UL 217 and UL 2034",
+        "Hush false alarms from your phone",
+        "Voice alerts"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$74.97",
+        "Voice assistants aren't named"
+      ],
+      "name": "Kidde Hardwired Kidde App Enabled Smart Smoke and Carbon Monoxide Detector, AA Battery Backup, Voice Alerts, Interconnected Alarm",
+      "image": "https://m.media-amazon.com/images/I/61HePBOTytL._AC_SL1500_.jpg",
+      "price": 74.97,
+      "rating": 3.7,
+      "reviews_count": 211,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0F7JNJ2CL",
+      "brand": "Kidde",
+      "model": "Hardwired smart smoke (Kidde app)",
+      "systems": [],
+      "systems_label": "Kidde app",
+      "specs": {
+        "detects": "Smoke",
+        "power": "Hardwired + AA backup",
+        "connection": "Wi-Fi (Kidde app)",
+        "extras": "Hush button"
+      },
+      "features": {
+        "co": false,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "The smoke-only Kidde-app hardwired alarm.",
+      "pros": [
+        "Alerts for every hardwired alarm",
+        "Everything in the box",
+        "$54.97"
+      ],
+      "cons": [
+        "3.8 stars",
+        "No CO",
+        "Only 113 reviews"
+      ],
+      "name": "Kidde Hardwired Kidde App Enabled Smart Smoke Detector with AA Backup Battery, Interconnected Alarm",
+      "image": "https://m.media-amazon.com/images/I/6103fcpKKgL._AC_SL1500_.jpg",
+      "price": 54.97,
+      "rating": 3.8,
+      "reviews_count": 113,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0GS4R6CG2",
+      "brand": "Heiman",
+      "model": "S1-R 6-pack + gateway",
+      "systems": [],
+      "systems_label": "Heiman app",
+      "specs": {
+        "detects": "Smoke",
+        "power": "10-year CR123A",
+        "connection": "Wireless interconnect + Wi-Fi gateway",
+        "extras": "UL 217 10th edition, 85 dB"
+      },
+      "features": {
+        "co": false,
+        "interconnect": true,
+        "no_hub": false,
+        "long_battery": true
+      },
+      "verdict": "Six small interconnected alarms with 10-year batteries and a gateway for phone alerts.",
+      "pros": [
+        "6 alarms and a gateway",
+        "10-year battery",
+        "Interconnects even without Wi-Fi",
+        "UL 217 10th edition"
+      ],
+      "cons": [
+        "Smoke only",
+        "Only 36 reviews",
+        "$175.99"
+      ],
+      "name": "Heiman Smart Wireless Interconnected Smoke Detector, 6-Pack + Gateway, S1-R",
+      "image": "https://m.media-amazon.com/images/I/81tyZgRw8YL._AC_SL1500_.jpg",
+      "price": 175.99,
+      "rating": 4.1,
+      "reviews_count": 36,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FB8NYT9S",
+      "brand": "eufy",
+      "model": "Smoke Alarm E10",
+      "systems": [],
+      "systems_label": "eufy Security (HomeBase)",
+      "specs": {
+        "detects": "Smoke",
+        "power": "5-year sealed battery",
+        "connection": "eufy HomeBase",
+        "extras": "70 mm compact design"
+      },
+      "features": {
+        "co": false,
+        "interconnect": false,
+        "no_hub": false,
+        "long_battery": true
+      },
+      "verdict": "A tiny smoke alarm for homes that already run eufy cameras and a HomeBase.",
+      "pros": [
+        "Very compact",
+        "5-year sealed battery",
+        "UL 217 10th edition",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Requires a eufy HomeBase",
+        "Smoke only",
+        "Only 234 reviews"
+      ],
+      "name": "eufy Security Smoke Alarm E10, Smoke Detector, Ultra-Compact 70 mm Design",
+      "image": "https://m.media-amazon.com/images/I/414DtUXNmAL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 234,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0G1CRBH9K",
+      "brand": "Kidde",
+      "model": "Smart CO + indoor air quality (COPDLQW)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Kidde app",
+      "specs": {
+        "detects": "CO, plus humidity and TVOC",
+        "power": "Plug-in + AA backup",
+        "connection": "Wi-Fi (Kidde app)",
+        "extras": "Low-level CO alerts from 30 ppm"
+      },
+      "features": {
+        "co": true,
+        "interconnect": false,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "A plug-in CO alarm that also tracks air quality and warns about low CO levels.",
+      "pros": [
+        "Alerts at low CO levels",
+        "Air quality, humidity, and TVOC",
+        "Alexa and Google Home",
+        "UL 2034"
+      ],
+      "cons": [
+        "No smoke detection",
+        "Only 67 reviews",
+        "Some insights need a subscription"
+      ],
+      "name": "Kidde Smart CO Detector + Indoor Air Quality, Plug-in & AA Battery, COPDLQW",
+      "image": "https://m.media-amazon.com/images/I/61AfKcy1XNL._AC_SL1500_.jpg",
+      "price": 79.97,
+      "rating": 4.4,
+      "reviews_count": 67,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DS2W3794",
+      "brand": "First Alert",
+      "model": "SC5 (battery)",
+      "systems": [],
+      "systems_label": "First Alert app",
+      "specs": {
+        "detects": "Smoke and CO",
+        "power": "Battery",
+        "connection": "Wi-Fi (First Alert app)",
+        "extras": "Voice location alerts, works with Nest Protect"
+      },
+      "features": {
+        "co": true,
+        "interconnect": true,
+        "no_hub": true,
+        "long_battery": false
+      },
+      "verdict": "The Nest Protect's successor, with voice location alerts, but reviews have been rough.",
+      "pros": [
+        "Smoke and CO",
+        "Interconnects with Nest Protect",
+        "Voice tells you the danger and location"
+      ],
+      "cons": [
+        "3.1 stars",
+        "$125.14",
+        "Battery type isn't in the bullets"
+      ],
+      "name": "First Alert SC5 Battery Smart Smoke & Carbon Monoxide Alarm",
+      "image": "https://m.media-amazon.com/images/I/41nlZGW22cL._AC_SL1500_.jpg",
+      "price": 125.14,
+      "rating": 3.1,
+      "reviews_count": 624,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B00XV1RD0K",
+      "brand": "Google",
+      "model": "Nest Protect (reseller, $499.99)",
+      "systems": [],
+      "systems_label": "Google Home / Nest app",
+      "flag": "Discontinued alarm at about four times its old price",
+      "verdict": "The Nest Protect was a great alarm, but Google stopped making it in 2025, and this reseller wants $499.99 for one.",
+      "reasons": [
+        "Sold by a third-party reseller at $499.99, about four times Google's last retail price.",
+        "Google discontinued the Nest Protect in 2025 and points buyers to First Alert's SC5 instead.",
+        "Smoke alarms expire after about 10 years, and the listing doesn't give a manufacture date."
+      ],
+      "name": "Google Nest Protect - Smoke Alarm - Smoke Detector and Carbon Monoxide Detector - Wired, White",
+      "image": "https://m.media-amazon.com/images/I/81fGAWZFW+L._AC_SL1500_.jpg",
+      "price": 499.99,
+      "rating": 4.6,
+      "reviews_count": 4630,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Smoke only, or smoke and CO?",
+      "a": "Put a combination smoke and carbon monoxide alarm on every level and outside sleeping areas if your home has gas appliances, a fireplace, or an attached garage. Smoke-only alarms are fine inside bedrooms."
+    },
+    {
+      "q": "Does a smart alarm replace a regular one?",
+      "a": "Only if it's UL listed as a smoke alarm. A smart alarm adds phone alerts and interconnection, but the local siren is what wakes you up. Check the listing for UL 217 (smoke) and UL 2034 (CO)."
+    },
+    {
+      "q": "Hardwired or battery?",
+      "a": "If your home has hardwired alarms, replace them with hardwired smart alarms so they stay interconnected and code compliant. Battery models suit homes without wiring, and 10-year sealed batteries mean no yearly battery swaps."
+    }
+  ]
+}
