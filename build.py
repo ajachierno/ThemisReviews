@@ -302,7 +302,7 @@ def build_home(site):
     protos = site["protocols"]
     body = f"""
   {render_quicknav(protos)}
-  <div class="or-divider" role="separator"><span>or</span></div>
+  <div class="or-divider" role="separator">- OR -</div>
   <p class="or-note">Not sure where to start? Explore the pros and cons of each smart home system and protocol below, then dive into the reviews that fit your setup.</p>
   <section class="lead home">
     <h1>Pick your system, then your protocol</h1>
@@ -950,8 +950,8 @@ footer a{color:var(--gold-ink)}
 .quicknav option:disabled{color:#7d7896}
 .quicknav .btn{border:0;cursor:pointer;font:inherit;font-weight:700;padding:10px 22px}
 [hidden]{display:none!important}
-.or-divider{display:flex;align-items:center;gap:14px;margin:18px 0 6px;color:var(--gold-ink);font-family:Cinzel,Georgia,serif;font-size:1.05rem;text-transform:uppercase;letter-spacing:.12em}
-.or-divider::before,.or-divider::after{content:"";flex:1;height:1px;background:var(--line)}
+.or-divider{text-align:center;margin:20px 0 6px;font-family:Cinzel,Georgia,serif;font-size:2.1rem;font-weight:700;line-height:1.15;letter-spacing:.01em}
+@media (max-width:720px){.or-divider{font-size:1.6rem}}
 .or-note{text-align:center;color:var(--muted);margin:0 auto 4px;max-width:640px}
 .quicknav-bar{margin:4px 0 14px;padding:10px 12px;border-left-width:1px}
 .quicknav-bar select{min-width:210px;padding:8px 36px 8px 12px;font-size:.9rem}
