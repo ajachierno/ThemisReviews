@@ -427,12 +427,12 @@ def render_table(ranked, avoid, columns, noun="product"):
     rows = []
     for p in ranked:
         cells = "".join(f"<td>{spec_value(p, c)}</td>" for c in columns)
-        rows.append(f'<tr><td class="c">{p["rank"]}</td>'
+        rows.append(f'<tr data-systems="{esc(" ".join(p["systems"]))}"><td class="c">{p["rank"]}</td>'
                     f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
                     f'<td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
                     f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"], p.get("systems_label", "Standalone"))}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
-        rows.append(f'<tr class="avoid-row"><td class="c">&#10005;</td>'
+        rows.append(f'<tr class="avoid-row" data-systems="{esc(" ".join(a["systems"]))}"><td class="c">&#10005;</td>'
                     f'<td><a href="#avoid-{esc(a["asin"])}">{esc(a["brand"])} {esc(a["model"])}</a></td>'
                     f'<td>{money(a["price"])}</td><td class="c">{a["rating"]}</td>'
                     f'<td class="c">{a["reviews_count"]:,}</td><td>{sys_icons(a["systems"], a.get("systems_label", "Standalone"))}</td>'
@@ -537,6 +537,39 @@ def render_family_links(site, cat):
   </section>"""
 
 
+TABLE_FILTER_JS = """document.addEventListener('DOMContentLoaded',function(){
+  var sel=document.getElementById('t-sys'), count=document.getElementById('t-count');
+  var rows=[].slice.call(document.querySelectorAll('#compare .ptable tbody tr'));
+  var total=rows.filter(function(r){return !r.classList.contains('avoid-row');}).length, noun=count.dataset.noun;
+  function apply(){
+    var s=sel.value, shown=0;
+    rows.forEach(function(r){
+      var ok=!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0;
+      r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
+    });
+    count.textContent = s ? shown+' of '+total+' '+noun+' work with '+sel.options[sel.selectedIndex].text : '';
+  }
+  sel.addEventListener('change',apply);
+  var q=new URLSearchParams(location.search); if(q.get('system')){ sel.value=q.get('system'); }
+  apply();
+});"""
+
+
+def render_system_filter(ranked, avoid, noun):
+    """'Works with' dropdown for the side-by-side table; lists only systems this page's products support."""
+    present = {s for p in list(ranked) + list(avoid) for s in p.get("systems", [])}
+    systems = [s for s in SYSTEM_NAMES if s in present]
+    if not systems:
+        return ""
+    opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in systems)
+    plural = noun if noun.endswith("s") else noun + "s"
+    return f"""<div class="fam-filters table-filter">
+      <label>Works with <select id="t-sys"><option value="">Any system</option>{opts}</select></label>
+      <span class="muted tiny" id="t-count" data-noun="{esc(plural)}"></span>
+    </div>
+    <script>{TABLE_FILTER_JS}</script>"""
+
+
 def build_category(site, proto, sub):
     cat = load(f"pages/{sub['slug']}.json")
     ranked = rank_products(cat)
@@ -566,6 +599,7 @@ def build_category(site, proto, sub):
   </section>
   <section id="compare">
     <h2>Side-by-side</h2>
+    {render_system_filter(ranked, cat['avoid'], cat.get('noun', 'product'))}
     <p class="swipe-hint">Swipe the table sideways to see every column.</p>
     {render_table(ranked, cat['avoid'], cat['table_columns'], cat.get('noun', 'product'))}
     <p class="tiny muted legend">Works with: hover or tap an icon for the system name. A system is shown when it supports the product directly or through the hub the listing requires.{(' ' + esc(cat['systems_note'])) if cat.get('systems_note') else ''}</p>
@@ -1229,6 +1263,7 @@ footer a{color:var(--gold-ink)}
 .diff-card:first-of-type{border-top:0}
 .diff-head{margin-bottom:6px}
 .fam-all{border-color:var(--gold)}
+.table-filter{margin:0 0 6px}
 .or-divider{text-align:center;margin:20px 0 6px;font-family:Cinzel,Georgia,serif;font-size:2.1rem;font-weight:700;line-height:1.15;letter-spacing:.01em}
 @media (max-width:720px){.or-divider{font-size:1.6rem}}
 .or-note{text-align:center;color:var(--muted);margin:0 auto 4px;max-width:640px}
