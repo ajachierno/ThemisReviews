@@ -1,0 +1,223 @@
+{
+  "feature_weights": {
+    "energy": 0.3,
+    "thread": 0.3,
+    "independent": 0.4
+  },
+  "spec_fields": [
+    {
+      "key": "controlled",
+      "label": "Controlled sockets"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "controlled",
+      "label": "Controlled"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DLLQR3K7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Two controlled sockets and energy monitoring for $25.99, 500+ bought last month."
+    },
+    {
+      "asin": "B0CT62FC6W",
+      "label": "Best on Thread",
+      "kind": "special",
+      "why": "Eve's outlet runs on Thread, so it strengthens your Thread mesh and needs no Wi-Fi."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DLLQR3K7",
+      "brand": "Tapo",
+      "model": "P210M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Energy monitoring",
+        "radio": "Wi-Fi (Matter)"
+      },
+      "features": {
+        "energy": true,
+        "thread": false,
+        "independent": true
+      },
+      "verdict": "The best value Matter outlet, with energy monitoring.",
+      "pros": [
+        "$25.99",
+        "Energy monitoring",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Neutral required",
+        "Wi-Fi, not Thread",
+        "Only 403 reviews"
+      ]
+    },
+    {
+      "asin": "B0CT62FC6W",
+      "brand": "Eve",
+      "model": "Energy Outlet",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Power meter, UL certified",
+        "radio": "Thread (Matter)"
+      },
+      "features": {
+        "energy": true,
+        "thread": true,
+        "independent": true
+      },
+      "verdict": "A Thread outlet with a power meter that extends your Thread network.",
+      "pros": [
+        "Thread",
+        "Power meter",
+        "UL certified"
+      ],
+      "cons": [
+        "4.1 stars",
+        "$39.95",
+        "Needs a Thread border router"
+      ]
+    },
+    {
+      "asin": "B0G63TQFV7",
+      "brand": "InvisOutlet",
+      "model": "Aura",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "2",
+        "extras": "RGB night light for alerts",
+        "radio": "Wi-Fi (Matter)"
+      },
+      "features": {
+        "energy": false,
+        "thread": false,
+        "independent": true
+      },
+      "verdict": "A Matter outlet with an RGB glow you can use as a night light or an alert.",
+      "pros": [
+        "RGB light for notifications",
+        "Names Home Assistant and MQTT",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 24 reviews",
+        "Neutral required",
+        "$35.99"
+      ]
+    },
+    {
+      "asin": "B0CLVR6GSH",
+      "brand": "Legrand",
+      "model": "Radiant Wi-Fi Matter outlet",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "1 (the other is always on)",
+        "extras": "15 A",
+        "radio": "Wi-Fi (Matter)"
+      },
+      "features": {
+        "energy": false,
+        "thread": false,
+        "independent": false
+      },
+      "verdict": "A Legrand outlet with one smart socket, for Radiant-trim homes.",
+      "pros": [
+        "Legrand Radiant styling",
+        "Sold by Amazon",
+        "$28.35"
+      ],
+      "cons": [
+        "Only one socket is smart",
+        "3.8 stars",
+        "Matter controller required"
+      ]
+    },
+    {
+      "asin": "B0CPLKGMQ3",
+      "brand": "JUNLIT",
+      "model": "Matter in-wall outlet (4-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "Not stated in bullets",
+        "extras": "4-pack, 15 A",
+        "radio": "2.4 GHz Wi-Fi (Matter)"
+      },
+      "features": {
+        "energy": false,
+        "thread": false,
+        "independent": false
+      },
+      "verdict": "Four Matter outlets for $49.99, about $12.50 each.",
+      "pros": [
+        "4-pack",
+        "Cheapest per outlet",
+        "Matter"
+      ],
+      "cons": [
+        "Only 17 reviews",
+        "4.1 stars",
+        "Unknown brand"
+      ]
+    }
+  ],
+  "avoid": []
+}

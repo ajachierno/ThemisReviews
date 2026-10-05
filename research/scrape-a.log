@@ -82,3 +82,21 @@ B0BMLFZ4CP: SwitchBot Blind Tilt Motorized Blinds - Smart Electric Blinds, Autom
 B0FSL2PLK6: SwitchBot Smart Automatic Curtain Opener with Solar Panel - Bluetooth  | $99.99 | 4.5 out of 5 stars | (29)
 B0FKH3PQT1: SwitchBot Smart Automatic Curtain Opener 2 Pack with Hub Mini - WiFi R | $199.99 | 4.3 out of 5 stars | (50)
 B0BFWH2WD8: SwitchBot Hub Mini Smart Remote - IR Universal Remote, WiFi IR Blaster | $36.10 | 4.2 out of 5 stars | (55,762)
+B07ZSF46BX: BroadLink RM4 Mini IR Universal Remote Control (2.4 GHz Wi-Fi Only), S | $25.99 | 4.2 out of 5 stars | (3,260)
+Traceback (most recent call last):
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 106, in <module>
+    asyncio.run(run(sys.argv[1], sys.argv[2], sys.argv[3:]))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 98, in run
+    json.dump(res, open(out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'prod-all.json'

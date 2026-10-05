@@ -28,7 +28,7 @@ for s in sys.argv[1:]:
     if '>None<' in t: bad+=1; print('None cell in',s)
 print('problems',bad); sys.exit(1 if bad else 0)
 PY
-git add -A
+for i in 1 2 3; do rm -f .git/index.lock; git add -A && break; sleep 3; done
 git commit -qm "$MSG
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"

@@ -1,0 +1,439 @@
+{
+  "slug": "wifi-outlets",
+  "family": "outlets",
+  "family_title": "In-wall outlets",
+  "noun": "outlet",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Wi-Fi In-Wall Smart Outlets",
+  "subtitle": "Smart receptacles that replace a standard outlet, no plug-in adapter, ranked.",
+  "intro": "We pulled the Wi-Fi in-wall smart outlets on Amazon and scored them on rating, review volume, and features: individually controlled sockets, USB ports, and tamper resistance.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "independent": 0.25,
+    "energy": 0.25,
+    "big_platforms": 0.3,
+    "usb": 0.2
+  },
+  "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "controlled",
+      "label": "Controlled sockets"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "controlled",
+      "label": "Controlled"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07N3CK3MM",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Two independently controlled sockets, rated 4.6 stars by 7,785 buyers."
+    },
+    {
+      "asin": "B0C741MSY2",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Two controlled sockets for $14.99."
+    },
+    {
+      "asin": "B0DLLQR3K7",
+      "label": "Best With Energy Monitoring",
+      "kind": "special",
+      "why": "Energy monitoring plus Matter, so it also works with Apple Home."
+    },
+    {
+      "asin": "B0DR3BNNLM",
+      "label": "Best for Apple Home",
+      "kind": "premium",
+      "why": "Leviton's Decora outlet names HomeKit, Alexa, Google, and SmartThings."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07N3CK3MM",
+      "brand": "Kasa",
+      "model": "KP200",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Away mode, 1875 W max total",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": false
+      },
+      "verdict": "The proven in-wall outlet: two sockets you can name and control separately.",
+      "pros": [
+        "Each socket controlled separately",
+        "4.6 stars from 7,785 reviews",
+        "Away mode",
+        "Home Assistant integration"
+      ],
+      "cons": [
+        "No Apple Home",
+        "No energy monitoring",
+        "$24.99"
+      ],
+      "name": "Kasa Smart Plug KP200, In-Wall Smart Home Wi-Fi Outlet",
+      "image": "https://m.media-amazon.com/images/I/61Cz57Vl0yL._SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.6,
+      "reviews_count": 7785,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DLLQR3K7",
+      "brand": "Tapo",
+      "model": "P210M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Energy monitoring",
+        "radio": "2.4 GHz Wi-Fi, Matter"
+      },
+      "features": {
+        "independent": true,
+        "energy": true,
+        "big_platforms": true,
+        "usb": false
+      },
+      "verdict": "Energy monitoring and Matter in an in-wall outlet for $25.99.",
+      "pros": [
+        "Matter certified",
+        "Energy monitoring",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Neutral required",
+        "Only 403 reviews",
+        "4.4 stars"
+      ],
+      "name": "Tapo Smart Plug, Wi-Fi in-Wall Outlet, P210M, Matter Compatible",
+      "image": "https://m.media-amazon.com/images/I/61PHxUzYs9L._SL1500_.jpg",
+      "price": 25.99,
+      "rating": 4.4,
+      "reviews_count": 403,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DR3BNNLM",
+      "brand": "Leviton",
+      "model": "Decora D215R (2nd Gen)",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "controlled": "1 switched",
+        "extras": "Sunrise/sunset schedules, vacation mode, Anywhere companion",
+        "radio": "Wi-Fi"
+      },
+      "features": {
+        "independent": false,
+        "energy": false,
+        "big_platforms": true,
+        "usb": false
+      },
+      "verdict": "A Decora-style outlet that works with Apple Home, Alexa, Google, and SmartThings.",
+      "pros": [
+        "HomeKit, Alexa, Google, and SmartThings",
+        "Handles motor loads to 3/4 HP",
+        "Pairs with Leviton's Anywhere companion"
+      ],
+      "cons": [
+        "One switched socket",
+        "Only 109 reviews",
+        "Sold by a reseller"
+      ],
+      "name": "Leviton Decora Smart Outlet, 15A, Wi-Fi 2nd Gen, D215R-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/51KGVAiqt8L._SL1000_.jpg",
+      "price": 29.86,
+      "rating": 4.4,
+      "reviews_count": 109,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B094YN5VZH",
+      "brand": "Amazon Basics",
+      "model": "Smart In-Wall Outlet",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "15 A",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": false
+      },
+      "verdict": "The cheapest way to get an outlet into Alexa, and only Alexa.",
+      "pros": [
+        "$18.53",
+        "Guided install video",
+        "4.4 stars from 1,426 reviews"
+      ],
+      "cons": [
+        "Alexa only",
+        "Needs a 2-inch-deep box and neutral",
+        "No app outside Alexa"
+      ],
+      "name": "Amazon Basics Smart In-Wall Outlet, Works with Alexa Only, Individually Controlled Outlets, Voice Control, WiFi, 15 Amps, 2.4 GHz, No Hub Required, White",
+      "image": "https://m.media-amazon.com/images/I/71E8kyucaAL._SL1500_.jpg",
+      "price": 18.53,
+      "rating": 4.4,
+      "reviews_count": 1426,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B07R3R5PWS",
+      "brand": "MOES",
+      "model": "In-wall outlet with USB-A and USB-C",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "MOES / Tuya app",
+      "specs": {
+        "controlled": "Sockets plus USB ports, individually",
+        "extras": "USB-A and USB-C",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": true
+      },
+      "verdict": "Smart sockets plus USB-A and USB-C ports you can switch from the app.",
+      "pros": [
+        "USB-A and USB-C",
+        "Each output controlled separately",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Some units ship with ports switched off in the app",
+        "Tuya app",
+        "No Apple Home"
+      ],
+      "name": "MOES Smart in-Wall Outlet, USB-A, 15A, 2.4GHz WiFi, No Hub Required",
+      "image": "https://m.media-amazon.com/images/I/51kSUhv4ugL._SL1001_.jpg",
+      "price": 20.99,
+      "rating": 4.5,
+      "reviews_count": 336,
+      "bought": null
+    },
+    {
+      "asin": "B07KZSG2CT",
+      "brand": "BN-LINK",
+      "model": "In-wall outlet with USB-C",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "USB-C (5 V, 2.4 A)",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": true
+      },
+      "verdict": "Two controlled sockets plus a USB-C charging port for $16.99.",
+      "pros": [
+        "$16.99",
+        "USB-C port",
+        "Physical buttons on the faceplate"
+      ],
+      "cons": [
+        "Smart Life app",
+        "4.4 stars",
+        "USB-C is only 2.4 A"
+      ],
+      "name": "BN-LINK Smart Electrical Outlet with 2 Controlled Plugs and Type-C Charging, in-Wall Smart Wi-Fi Outlet with Voice and APP Remote Control, Compatible with Alexa and Google Assistant, 2.4GHz Wi-Fi Only",
+      "image": "https://m.media-amazon.com/images/I/51CyHCYo5GL._SL1500_.jpg",
+      "price": 16.99,
+      "rating": 4.4,
+      "reviews_count": 469,
+      "bought": null
+    },
+    {
+      "asin": "B0C741MSY2",
+      "brand": "TOPELER",
+      "model": "Smart wall outlet",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Tamper resistant, 15 A",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": false
+      },
+      "verdict": "The cheapest two-socket smart outlet here, and tamper resistant.",
+      "pros": [
+        "$14.99",
+        "Tamper-resistant receptacle",
+        "4.3 stars from 274 reviews"
+      ],
+      "cons": [
+        "2.4 GHz only",
+        "Smart Life app",
+        "Lesser-known brand"
+      ],
+      "name": "TOPELER Smart Wall Outlet with 2 Individually Controlled Ports, 15Amp TR Receptacle Control Appliances from Anywhere, 2.4 GHz WiFi Outlet Work with Alexa & Google Home, White, ETL & FCC Approval",
+      "image": "https://m.media-amazon.com/images/I/61NA8ThmydL._SL1500_.jpg",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews_count": 274,
+      "bought": null
+    },
+    {
+      "asin": "B0FCZJ48JV",
+      "brand": "Geeni",
+      "model": "In-wall outlet (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Geeni app",
+      "specs": {
+        "controlled": "2 per outlet, individually",
+        "extras": "Tamper and fire resistant, 4-pack",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": false,
+        "big_platforms": false,
+        "usb": false
+      },
+      "verdict": "Four tamper-resistant smart outlets for $59.99, about $15 each.",
+      "pros": [
+        "4-pack",
+        "Tamper and fire resistant",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 28 reviews",
+        "Neutral required",
+        "Geeni app"
+      ],
+      "name": "Geeni Smart Wi-Fi in-Wall Outlet, Tamper & Fire Resistant, White, 4-Pack",
+      "image": "https://m.media-amazon.com/images/I/71gyvyFUsVL._SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.7,
+      "reviews_count": 28,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CBBN4K7Y",
+      "brand": "ELEGRP",
+      "model": "Smart in-wall outlet",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "controlled": "2, individually",
+        "extras": "Energy monitoring, UL and cUL",
+        "radio": "2.4 GHz Wi-Fi"
+      },
+      "features": {
+        "independent": true,
+        "energy": true,
+        "big_platforms": false,
+        "usb": false
+      },
+      "verdict": "Energy monitoring on both sockets, without Matter.",
+      "pros": [
+        "Energy monitoring",
+        "UL and cUL certified",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$79.99",
+        "Only 35 reviews",
+        "Alexa and Google only"
+      ],
+      "name": "ELEGRP Smart Plug, Smart in-Wall Outlet Compatible with Alexa and Google Assistant, 2.4GHz Wi-Fi Smart Receptacle with Energy Monitoring, No Hub Required, UL Listed, White, 6 Pack",
+      "image": "https://m.media-amazon.com/images/I/61LcV1SftwL._SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.6,
+      "reviews_count": 35,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "In-wall outlet or plug-in smart plug?",
+      "a": "An in-wall outlet replaces your receptacle, so nothing sticks out and both sockets stay usable. It needs wiring work. A plug-in smart plug needs no tools."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Yes, nearly all smart outlets need line, neutral, and ground. Most outlet boxes have them."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}
