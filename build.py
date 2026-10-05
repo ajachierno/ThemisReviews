@@ -906,13 +906,15 @@ def render_proto_diff(protocols):
 
 
 FAMILY_JS = """(function(){
-  var proto=document.getElementById('f-proto'), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
+  var boxes=[].slice.call(document.querySelectorAll('input[name=f-proto]')), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
-    var p=proto.value, s=sys.value, shown=0;
+    var picked=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), s=sys.value, shown=0;
     rows.forEach(function(r){
-      var ok=(!p||(' '+r.dataset.protos+' ').indexOf(' '+p+' ')>=0)&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
+      var rp=' '+r.dataset.protos+' ';
+      var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
+      var ok=okP&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
       r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
     });
     count.textContent=shown+' of '+rows.filter(function(r){return !r.classList.contains('avoid-row');}).length+' products';
@@ -926,10 +928,12 @@ FAMILY_JS = """(function(){
     });
     sorted.forEach(function(r){body.appendChild(r);});
   }
-  proto.addEventListener('change',apply); sys.addEventListener('change',apply);
+  boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
+  var clr=document.getElementById('f-proto-clear');
+  if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
   sort.addEventListener('change',function(){order();apply();});
   var q=new URLSearchParams(location.search);
-  if(q.get('protocol')) proto.value=q.get('protocol');
+  if(q.get('protocol')){ var want=q.get('protocol').split(','); boxes.forEach(function(b){b.checked=want.indexOf(b.value)>=0;}); }
   if(q.get('system')) sys.value=q.get('system');
   apply();
 })();"""
@@ -978,7 +982,8 @@ def build_family_page(site, fam, title, slug, members):
                         f'<div class="tiny avoid-note">{esc(a.get("flag", ""))}</div>'))
     proto_links = "".join(f'<a class="sub-link" href="{esc(sub["slug"])}.html">{esc(sub["title"])} <span class="arrow">&rarr;</span></a>'
                           for _proto, sub in members)
-    proto_opts = "".join(f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in protos_here)
+    proto_opts = "".join(f'<label class="proto-box"><input type="checkbox" name="f-proto" value="{esc(p["slug"])}"> {esc(p["name"])}</label>'
+                         for p in protos_here)
     sys_opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in sys_order)
     multi = len(protos_here) > 1
     h1 = f"{title} Compared Across Every Protocol" if multi else f"{title}: Every Pick We Rank"
@@ -1004,7 +1009,8 @@ def build_family_page(site, fam, title, slug, members):
   <section id="all">
     <h2>All {esc(noun)}</h2>
     <div class="fam-filters">
-      <label>Protocol <select id="f-proto"{'' if multi else ' disabled'}><option value="">All protocols</option>{proto_opts}</select></label>
+      <fieldset class="proto-boxes"{'' if multi else ' hidden'}><legend>Protocol <span class="tiny">(pick any; none = all)</span></legend>{proto_opts}
+        <button type="button" class="linkish" id="f-proto-clear">Clear</button></fieldset>
       <label>Works with <select id="f-sys"><option value="">Any system</option>{sys_opts}</select></label>
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
       <span class="muted tiny" id="f-count"></span>
@@ -1185,7 +1191,13 @@ footer a{color:var(--gold-ink)}
 .btn.btn-sm{padding:6px 12px;font-size:.85rem;margin:0}
 .ptable a.btn,.ptable a.btn:visited{color:#1d1405;text-decoration:none}
 .fam-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:8px 0 12px}
-.fam-filters label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+.fam-filters>label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+.proto-boxes{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center;flex-basis:100%}
+.proto-boxes legend{font-size:.85rem;color:var(--muted);padding:0;margin-bottom:6px;width:100%}
+.proto-box{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card-2);cursor:pointer;font-size:.9rem}
+.proto-box:has(input:checked){border-color:var(--gold);color:var(--gold-ink)}
+.proto-box input{accent-color:var(--gold)}
+.linkish{background:none;border:0;color:var(--purple-ink);cursor:pointer;font:inherit;font-size:.85rem;text-decoration:underline}
 .fam-filters select{background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:inherit;min-width:170px}
 .proto-diff{margin:16px 0 4px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--purple);border-radius:var(--radius);padding:12px 16px}
 .proto-diff summary{cursor:pointer;font-weight:700;color:var(--gold-ink)}

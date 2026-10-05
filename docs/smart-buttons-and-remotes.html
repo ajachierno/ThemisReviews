@@ -107,7 +107,8 @@
   <section id="all">
     <h2>All buttons and remotes</h2>
     <div class="fam-filters">
-      <label>Protocol <select id="f-proto"><option value="">All protocols</option><option value="z-wave">Z-Wave</option><option value="zigbee">Zigbee</option><option value="lutron-clear-connect">Lutron Clear Connect</option></select></label>
+      <fieldset class="proto-boxes"><legend>Protocol <span class="tiny">(pick any; none = all)</span></legend><label class="proto-box"><input type="checkbox" name="f-proto" value="z-wave"> Z-Wave</label><label class="proto-box"><input type="checkbox" name="f-proto" value="zigbee"> Zigbee</label><label class="proto-box"><input type="checkbox" name="f-proto" value="lutron-clear-connect"> Lutron Clear Connect</label>
+        <button type="button" class="linkish" id="f-proto-clear">Clear</button></fieldset>
       <label>Works with <select id="f-sys"><option value="">Any system</option><option value="home-assistant">Home Assistant</option><option value="apple-home">Apple Home</option><option value="google-home">Google Home</option><option value="alexa">Amazon Alexa</option><option value="smartthings">SmartThings</option><option value="hubitat">Hubitat Elevation</option><option value="homey">Homey Pro</option></select></label>
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
       <span class="muted tiny" id="f-count"></span>
@@ -119,13 +120,15 @@
     <p class="tiny muted legend">Scores come from each product's protocol page, where it was ranked against devices on the same protocol. Red rows are the picks we tell you to avoid. Prices captured from Amazon between 2026-10-04 and 2026-10-04.</p>
   </section>
   <script>(function(){
-  var proto=document.getElementById('f-proto'), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
+  var boxes=[].slice.call(document.querySelectorAll('input[name=f-proto]')), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
-    var p=proto.value, s=sys.value, shown=0;
+    var picked=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), s=sys.value, shown=0;
     rows.forEach(function(r){
-      var ok=(!p||(' '+r.dataset.protos+' ').indexOf(' '+p+' ')>=0)&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
+      var rp=' '+r.dataset.protos+' ';
+      var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
+      var ok=okP&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
       r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
     });
     count.textContent=shown+' of '+rows.filter(function(r){return !r.classList.contains('avoid-row');}).length+' products';
@@ -139,10 +142,12 @@
     });
     sorted.forEach(function(r){body.appendChild(r);});
   }
-  proto.addEventListener('change',apply); sys.addEventListener('change',apply);
+  boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
+  var clr=document.getElementById('f-proto-clear');
+  if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
   sort.addEventListener('change',function(){order();apply();});
   var q=new URLSearchParams(location.search);
-  if(q.get('protocol')) proto.value=q.get('protocol');
+  if(q.get('protocol')){ var want=q.get('protocol').split(','); boxes.forEach(function(b){b.checked=want.indexOf(b.value)>=0;}); }
   if(q.get('system')) sys.value=q.get('system');
   apply();
 })();</script>
