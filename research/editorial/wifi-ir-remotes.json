@@ -1,0 +1,390 @@
+{
+  "feature_weights": {
+    "matter": 0.3,
+    "rf": 0.2,
+    "local_ha": 0.25,
+    "sensor": 0.25
+  },
+  "systems_note": "BroadLink blasters have an official Home Assistant integration that runs locally. Smart Life (Tuya) blasters work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "signals",
+      "label": "Controls"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "signals",
+      "label": "Controls"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BFWH2WD8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Learns any remote in 5 seconds and doubles as the hub for SwitchBot gear, with 55,762 reviews."
+    },
+    {
+      "asin": "B0FNXCFN6J",
+      "label": "Best for Apple Home",
+      "kind": "special",
+      "why": "A Matter-certified IR hub, so your TV and AC show up in Apple Home, Alexa, and Google."
+    },
+    {
+      "asin": "B07ZSF46BX",
+      "label": "Best for Home Assistant",
+      "kind": "budget",
+      "why": "BroadLink's RM4 mini runs locally in Home Assistant, for $25.99."
+    },
+    {
+      "asin": "B0872P4HX7",
+      "label": "Best IR + RF",
+      "kind": "premium",
+      "why": "Controls 433 MHz RF devices like fans and shades as well as IR."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BFWH2WD8",
+      "brand": "SwitchBot",
+      "model": "Hub Mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "signals": "IR",
+        "extras": "Hub for SwitchBot Bluetooth devices",
+        "app": "SwitchBot"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": false,
+        "sensor": false
+      },
+      "verdict": "The most-reviewed IR blaster, and it brings SwitchBot curtains and bots online too.",
+      "pros": [
+        "55,762 reviews",
+        "Learns a remote in 5 seconds",
+        "Bridges SwitchBot Bluetooth devices"
+      ],
+      "cons": [
+        "4.2 stars",
+        "$36.10",
+        "IR only"
+      ]
+    },
+    {
+      "asin": "B0FNXCFN6J",
+      "brand": "Tapo",
+      "model": "H110 IR & IoT Hub",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "signals": "IR, 8,000+ brands",
+        "extras": "Chime and alarm, Tapo sensor hub",
+        "app": "Tapo"
+      },
+      "features": {
+        "matter": true,
+        "rf": false,
+        "local_ha": false,
+        "sensor": true
+      },
+      "verdict": "A Matter IR hub with a built-in chime that also runs Tapo sensors.",
+      "pros": [
+        "Matter certified",
+        "Built-in chime and alarm",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Only 161 reviews",
+        "2.4 GHz Wi-Fi"
+      ]
+    },
+    {
+      "asin": "B07ZSF46BX",
+      "brand": "BroadLink",
+      "model": "RM4 mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "signals": "IR, 50,000+ devices",
+        "extras": "Preloaded library plus learning",
+        "app": "BroadLink"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": true,
+        "sensor": false
+      },
+      "verdict": "The Home Assistant favorite: cheap, local, and learns any IR remote.",
+      "pros": [
+        "Local Home Assistant integration",
+        "3,260 reviews",
+        "$25.99 from BroadLink"
+      ],
+      "cons": [
+        "IR only",
+        "2.4 GHz Wi-Fi only",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B0872PPSGM",
+      "brand": "BroadLink",
+      "model": "RM4 mini with sensor cable",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "signals": "IR, 50,000+ devices",
+        "extras": "Temperature and humidity sensor cable",
+        "app": "BroadLink"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": true,
+        "sensor": true
+      },
+      "verdict": "The RM4 mini plus a sensor cable, handy for running an AC by room temperature.",
+      "pros": [
+        "Temperature and humidity cable",
+        "3,579 reviews",
+        "Local Home Assistant integration"
+      ],
+      "cons": [
+        "$29.99",
+        "IR only",
+        "Needs line of sight"
+      ]
+    },
+    {
+      "asin": "B0872P4HX7",
+      "brand": "BroadLink",
+      "model": "RM4 Pro",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "signals": "IR + 433 MHz RF (fixed code)",
+        "extras": "Sensor cable",
+        "app": "BroadLink"
+      },
+      "features": {
+        "matter": false,
+        "rf": true,
+        "local_ha": true,
+        "sensor": true
+      },
+      "verdict": "Adds RF, so it can also run RF ceiling fans, shades, and outlets.",
+      "pros": [
+        "IR and 433 MHz RF",
+        "Sensor cable included",
+        "3,365 reviews"
+      ],
+      "cons": [
+        "No rolling-code RF (garage doors)",
+        "4.0 stars",
+        "$49.99"
+      ]
+    },
+    {
+      "asin": "B07K2DHXB6",
+      "brand": "BroadLink",
+      "model": "RM mini 3",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "signals": "IR, 50,000+ devices",
+        "extras": "Timers and scenes",
+        "app": "BroadLink"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": true,
+        "sensor": false
+      },
+      "verdict": "The older BroadLink, still fine for basic TV and AC control.",
+      "pros": [
+        "$19.99",
+        "Local Home Assistant integration",
+        "1,501 reviews"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Older model",
+        "IR only"
+      ]
+    },
+    {
+      "asin": "B07QH1X7PX",
+      "brand": "MOES",
+      "model": "Wi-Fi Smart IR remote",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "MOES / Smart Life",
+      "specs": {
+        "signals": "IR",
+        "extras": "UL adapter included",
+        "app": "MOES / Tuya"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": false,
+        "sensor": false
+      },
+      "verdict": "A $19.99 Tuya blaster for one room's TV and AC.",
+      "pros": [
+        "$19.99",
+        "4.2 stars from 1,238 reviews",
+        "Adapter included"
+      ],
+      "cons": [
+        "One per room",
+        "Tuya app",
+        "IR only"
+      ]
+    },
+    {
+      "asin": "B07ZP5NQWF",
+      "brand": "Frankever",
+      "model": "Wi-Fi IR blaster",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "signals": "IR, 50,000+ devices",
+        "extras": "Siri Shortcuts",
+        "app": "Smart Life"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": false,
+        "sensor": false
+      },
+      "verdict": "The cheapest blaster here, running on Smart Life.",
+      "pros": [
+        "$13.99",
+        "Siri Shortcuts",
+        "686 reviews"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Lesser-known brand",
+        "IR only"
+      ]
+    },
+    {
+      "asin": "B08N1HJYKJ",
+      "brand": "Xinji",
+      "model": "Wi-Fi Smart IR remote",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "signals": "IR",
+        "extras": "None listed",
+        "app": "Tuya / Smart Life"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": false,
+        "sensor": false
+      },
+      "verdict": "Another basic Smart Life blaster.",
+      "pros": [
+        "$15.99",
+        "Works in the Smart Life app",
+        "4.1 stars"
+      ],
+      "cons": [
+        "Only 225 reviews",
+        "Unknown brand",
+        "IR only"
+      ]
+    },
+    {
+      "asin": "B0CNCKFZK9",
+      "brand": "BroadLink",
+      "model": "RM4C mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "signals": "IR, 50,000+ devices",
+        "extras": "IFTTT",
+        "app": "BroadLink"
+      },
+      "features": {
+        "matter": false,
+        "rf": false,
+        "local_ha": true,
+        "sensor": false
+      },
+      "verdict": "BroadLink's RM4C mini, sold by a reseller for $18.99.",
+      "pros": [
+        "$18.99",
+        "BroadLink app and IFTTT",
+        "4.1 stars"
+      ],
+      "cons": [
+        "Sold by a reseller",
+        "Only 271 reviews",
+        "IR only"
+      ]
+    }
+  ],
+  "avoid": []
+}

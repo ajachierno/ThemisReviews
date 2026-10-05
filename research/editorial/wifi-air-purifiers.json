@@ -1,0 +1,335 @@
+{
+  "feature_weights": {
+    "voice": 0.3,
+    "auto": 0.35,
+    "matter": 0.35
+  },
+  "systems_note": "Levoit (VeSync) purifiers have an official Home Assistant integration. Blueair's listings don't name a voice assistant in the bullets.",
+  "spec_fields": [
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "filter",
+      "label": "Filter"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BNDM2RNG",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "AHAM verified, light-sensing sleep mode, and 4.7 stars from 11,421 reviews."
+    },
+    {
+      "asin": "B0C3QQMMRJ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $34.99 bedroom purifier with app and Alexa control."
+    },
+    {
+      "asin": "B0DG5QLWP6",
+      "label": "Best for Apple Home",
+      "kind": "special",
+      "why": "One of the few purifiers with Matter, for Apple Home, Alexa, and Google."
+    },
+    {
+      "asin": "B0BN2LZ9JH",
+      "label": "Best for Big Rooms",
+      "kind": "premium",
+      "why": "Cleans 439 sq. ft. in 12.5 minutes, with auto mode from built-in sensors."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BNDM2RNG",
+      "brand": "Levoit",
+      "model": "Vital 100S-P",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "VeSync",
+      "specs": {
+        "coverage": "AHAM verified, 4.8 air changes per hour",
+        "filter": "HEPA, washable pre-filter",
+        "app": "VeSync"
+      },
+      "features": {
+        "voice": true,
+        "auto": true,
+        "matter": false
+      },
+      "verdict": "The best all-round smart purifier, with schedules and a pet mode.",
+      "pros": [
+        "4.7 stars from 11,421 reviews",
+        "Sleep mode down to 25 dB",
+        "Pet, auto, and sleep modes"
+      ],
+      "cons": [
+        "$113.99",
+        "No Apple Home",
+        "Use genuine Levoit filters"
+      ]
+    },
+    {
+      "asin": "B08FJ678YK",
+      "brand": "Levoit",
+      "model": "Core 200S-P",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "VeSync",
+      "specs": {
+        "coverage": "Bedroom-size",
+        "filter": "HEPA",
+        "app": "VeSync"
+      },
+      "features": {
+        "voice": true,
+        "auto": false,
+        "matter": false
+      },
+      "verdict": "A small, quiet bedroom purifier with app and voice control.",
+      "pros": [
+        "128,029 reviews, 4.6 stars",
+        "27 dB",
+        "$69.98"
+      ],
+      "cons": [
+        "Small rooms",
+        "No air-quality sensor",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0C3QQMMRJ",
+      "brand": "GoveeLife",
+      "model": "Smart Mini Air Purifier",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "coverage": "376 sq. ft. once per hour",
+        "filter": "360° intake",
+        "app": "Govee Home"
+      },
+      "features": {
+        "voice": true,
+        "auto": false,
+        "matter": false
+      },
+      "verdict": "A $35 bedroom purifier with app control, Alexa, and filter reminders.",
+      "pros": [
+        "$34.99",
+        "4.6 stars from 3,879 reviews",
+        "Energy Star"
+      ],
+      "cons": [
+        "Small rooms only",
+        "Alexa only",
+        "No air-quality sensor"
+      ]
+    },
+    {
+      "asin": "B0CYHBHRHW",
+      "brand": "GoveeLife",
+      "model": "Smart Air Purifier (1046 sq. ft.)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "coverage": "1,046 sq. ft. once per hour, 135 CFM",
+        "filter": "Not stated in bullets",
+        "app": "Govee Home"
+      },
+      "features": {
+        "voice": true,
+        "auto": true,
+        "matter": false
+      },
+      "verdict": "A large-room Govee with real-time air-quality readings in the app.",
+      "pros": [
+        "4.7 stars",
+        "Real-time air quality in the app",
+        "$74.99"
+      ],
+      "cons": [
+        "Alexa only",
+        "Only 1,156 reviews",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0D1QNCRFH",
+      "brand": "GoveeLife",
+      "model": "Air Purifier (1162 sq. ft.)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "coverage": "1,162 sq. ft., 150 CFM",
+        "filter": "Not stated in bullets",
+        "app": "Govee Home"
+      },
+      "features": {
+        "voice": true,
+        "auto": true,
+        "matter": false
+      },
+      "verdict": "Govee's bigger purifier adds Google and a 24 dB sleep mode.",
+      "pros": [
+        "Alexa and Google",
+        "24 dB sleep mode",
+        "800+ bought in the past month"
+      ],
+      "cons": [
+        "$94.99",
+        "Only 597 reviews",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0DG5QLWP6",
+      "brand": "SwitchBot",
+      "model": "Air Purifier",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "coverage": "Up to 3,620 sq. ft.",
+        "filter": "HEPA, washable pre-filter",
+        "app": "SwitchBot"
+      },
+      "features": {
+        "voice": true,
+        "auto": true,
+        "matter": true
+      },
+      "verdict": "A Matter purifier that works natively with Apple Home, Alexa, and Google.",
+      "pros": [
+        "Matter",
+        "20 dB",
+        "$89.99"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Only 705 reviews",
+        "2.4 GHz Wi-Fi"
+      ]
+    },
+    {
+      "asin": "B0BN2LZ9JH",
+      "brand": "Blueair",
+      "model": "Blue Pure 311i Max",
+      "systems": [],
+      "systems_label": "Blueair app",
+      "specs": {
+        "coverage": "439 sq. ft. in 12.5 min, 2,107 sq. ft. per hour",
+        "filter": "HEPASilent",
+        "app": "Blueair"
+      },
+      "features": {
+        "voice": false,
+        "auto": true,
+        "matter": false
+      },
+      "verdict": "Fast, quiet cleaning for medium rooms, with auto mode.",
+      "pros": [
+        "Auto mode from built-in sensors",
+        "4.5 stars from 2,551 reviews",
+        "Captures 99.97% down to 0.1 microns"
+      ],
+      "cons": [
+        "$159.99",
+        "Voice assistants aren't named in the bullets",
+        "No Matter"
+      ]
+    },
+    {
+      "asin": "B0GSX69MTH",
+      "brand": "Blueair",
+      "model": "Signature SP1i",
+      "systems": [],
+      "systems_label": "Blueair app",
+      "specs": {
+        "coverage": "248 sq. ft. in 12.5 min, 1,190 sq. ft. per hour",
+        "filter": "7-stage HEPASilent, OdorFence",
+        "app": "Blueair"
+      },
+      "features": {
+        "voice": false,
+        "auto": true,
+        "matter": false
+      },
+      "verdict": "Blueair's newer small-room purifier with odor filtering.",
+      "pros": [
+        "Odor filtering",
+        "Auto mode",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "$125.99",
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B0DW9P73CF",
+      "brand": "SereneLife",
+      "model": "Smart HEPA purifier",
+      "systems": [],
+      "systems_label": "Eco-Butler app",
+      "specs": {
+        "coverage": "Up to 1,076 sq. ft.",
+        "filter": "HEPA",
+        "app": "Eco-Butler"
+      },
+      "features": {
+        "voice": false,
+        "auto": false,
+        "matter": false
+      },
+      "verdict": "The cheapest large-room purifier with app control.",
+      "pros": [
+        "$49.90",
+        "4.6 stars",
+        "Sleep mode"
+      ],
+      "cons": [
+        "App only",
+        "Only 231 reviews",
+        "No voice control listed"
+      ]
+    }
+  ],
+  "avoid": []
+}

@@ -1,0 +1,153 @@
+{
+  "feature_weights": {
+    "large": 0.4,
+    "extras": 0.3,
+    "rating": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "filter",
+      "label": "Filter"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "coverage",
+      "label": "Coverage"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DG5QLWP6",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A $89.99 Matter purifier for rooms up to 3,620 sq. ft., 300+ bought last month."
+    },
+    {
+      "asin": "B0DG5S291H",
+      "label": "Best Multi-Purpose",
+      "kind": "special",
+      "why": "A purifier that's also a side table, RGB lamp, and wireless charger."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DG5QLWP6",
+      "brand": "SwitchBot",
+      "model": "Air Purifier",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "coverage": "Up to 3,620 sq. ft.",
+        "filter": "HEPA, washable pre-filter",
+        "app": "SwitchBot"
+      },
+      "features": {
+        "large": true,
+        "extras": false,
+        "rating": true
+      },
+      "verdict": "The Matter purifier to get: native in Apple Home, Alexa, and Google.",
+      "pros": [
+        "Matter over Wi-Fi",
+        "20 dB",
+        "705 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "2.4 GHz Wi-Fi",
+        "Plain design"
+      ]
+    },
+    {
+      "asin": "B0DG5S291H",
+      "brand": "SwitchBot",
+      "model": "Air Purifier Table",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "coverage": "Up to 3,620 sq. ft.",
+        "filter": "HEPA, washable pre-filter",
+        "app": "SwitchBot"
+      },
+      "features": {
+        "large": true,
+        "extras": true,
+        "rating": true
+      },
+      "verdict": "Same purifier, built into a side table with a lamp and wireless charger.",
+      "pros": [
+        "Wireless charger (15 W Android, 7.5 W iPhone)",
+        "RGB light",
+        "Matter"
+      ],
+      "cons": [
+        "$179.99",
+        "Only 353 reviews",
+        "Big footprint"
+      ]
+    },
+    {
+      "asin": "B0FNR95V9T",
+      "brand": "xCREAS",
+      "model": "Matter air purifier (H13)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "coverage": "1,937 sq. ft.",
+        "filter": "H13",
+        "app": "Not stated in bullets"
+      },
+      "features": {
+        "large": true,
+        "extras": false,
+        "rating": false
+      },
+      "verdict": "A cheaper Matter purifier with an H13 filter, but almost no reviews yet.",
+      "pros": [
+        "Matter certified",
+        "H13 filter",
+        "$89.99"
+      ],
+      "cons": [
+        "Only 6 reviews",
+        "4.0 stars",
+        "Unknown brand"
+      ]
+    }
+  ],
+  "avoid": []
+}
