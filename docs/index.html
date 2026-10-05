@@ -39,7 +39,12 @@
   
   <section class="quicknav" aria-labelledby="qn-h">
     <h2 id="qn-h">Jump straight to reviews</h2>
-    <div class="quicknav-controls">
+    <div class="qn-modes" role="radiogroup" aria-label="Search by">
+      <span class="qn-modes-label">Search by</span>
+      <label><input type="radio" name="qn-mode" value="protocol" checked> Protocol</label>
+      <label><input type="radio" name="qn-mode" value="type"> Product type</label>
+    </div>
+    <div class="quicknav-controls" id="qn-by-protocol">
       <select id="qn-protocol" aria-label="Protocol">
         <option value="">Choose a protocol&hellip;</option>
         <option value="z-wave">Z-Wave</option><option value="zigbee">Zigbee</option><option value="wifi">Wi-Fi</option><option value="bluetooth">Bluetooth</option><option value="thread">Thread</option><option value="matter">Matter</option><option value="lutron-clear-connect">Lutron Clear Connect</option><option value="433-mhz-rf">433 MHz RF</option>
@@ -71,6 +76,28 @@
   if(cur){ proto.value = cur[0]; fill(); sub.value = cur[1]; go.disabled = true; }
   sub.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ open(); } });
   go.addEventListener('click', open);
+})();</script>
+    <div class="quicknav-controls" id="qn-by-type" hidden>
+      <select id="qn-type" aria-label="Product type">
+        <option value="">Choose a product type&hellip;</option>
+        <option value="smart-light-switches">Smart Light Switches</option><option value="smart-dimmers">Smart Dimmers</option><option value="smart-plugs">Smart Plugs</option><option value="smart-door-and-window-sensors">Smart Door and Window Sensors</option><option value="smart-motion-sensors">Smart Motion Sensors</option><option value="smart-leak-sensors">Smart Leak Sensors</option><option value="smart-temperature-sensors">Smart Temperature Sensors</option><option value="smart-locks">Smart Locks</option><option value="smart-thermostats">Smart Thermostats</option><option value="smart-buttons-and-remotes">Smart Buttons and Remotes</option><option value="smart-hubs-and-controllers">Smart Hubs and Controllers</option><option value="smart-bulbs">Smart Bulbs</option><option value="smart-sprinklers-and-timers">Smart Sprinklers and Timers</option><option value="smart-indoor-cameras">Smart Indoor Cameras</option><option value="smart-outdoor-cameras">Smart Outdoor Cameras</option><option value="smart-video-doorbells">Smart Video Doorbells</option><option value="smart-garage-door-openers">Smart Garage Door Openers</option><option value="smart-smoke-and-co-detectors">Smart Smoke and CO Detectors</option><option value="smart-air-quality-monitors">Smart Air Quality Monitors</option><option value="smart-water-shutoff-valves">Smart Water Shutoff Valves</option><option value="smart-robot-vacuums">Smart Robot Vacuums</option><option value="smart-speakers">Smart Speakers</option><option value="smart-trackers">Smart Trackers</option><option value="smart-blinds-and-shades">Smart Blinds and Shades</option><option value="smart-weather-stations">Smart Weather Stations</option>
+      </select>
+      <button type="button" id="qn-type-go" class="btn" disabled>Go</button>
+    </div>
+    <script>(function(){
+  var t=document.getElementById('qn-type'), g=document.getElementById('qn-type-go');
+  var modes=document.querySelectorAll('input[name=qn-mode]');
+  function setMode(){
+    var m=document.querySelector('input[name=qn-mode]:checked').value;
+    document.getElementById('qn-by-protocol').hidden = m!=='protocol';
+    document.getElementById('qn-by-type').hidden = m!=='type';
+  }
+  modes.forEach(function(r){ r.addEventListener('change', setMode); });
+  t.addEventListener('change', function(){ g.disabled=!t.value; });
+  function open(){ if(t.value){ window.location.href=t.value+'.html'; } }
+  g.addEventListener('click', open);
+  t.addEventListener('keydown', function(e){ if(e.key==='Enter'){ open(); } });
+  setMode();
 })();</script>
   </section>
   <div class="or-divider" role="separator">- OR -</div>

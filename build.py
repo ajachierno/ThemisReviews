@@ -7,6 +7,7 @@ import datetime
 import html
 import json
 import math
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -183,7 +184,7 @@ def render_systems(site, data):
   </section>"""
 
 
-def render_quicknav(protocols, compact=False, current=None):
+def render_quicknav(protocols, compact=False, current=None, families=None):
     """Protocol dropdown -> review dropdown -> Go. Planned pages show as disabled options.
     compact: slim toolbar for category pages (no heading, adds a Home button).
     current: (protocol_slug, page_slug) to preselect on a category page."""
@@ -229,10 +230,41 @@ def render_quicknav(protocols, compact=False, current=None):
     </div>
     <script>{js}</script>
   </nav>"""
+    type_opts = "".join(f'<option value="{esc(slug)}">{esc(title)}</option>' for _f, title, slug, _m in (families or []))
+    type_js = """(function(){
+  var t=document.getElementById('qn-type'), g=document.getElementById('qn-type-go');
+  var modes=document.querySelectorAll('input[name=qn-mode]');
+  function setMode(){
+    var m=document.querySelector('input[name=qn-mode]:checked').value;
+    document.getElementById('qn-by-protocol').hidden = m!=='protocol';
+    document.getElementById('qn-by-type').hidden = m!=='type';
+  }
+  modes.forEach(function(r){ r.addEventListener('change', setMode); });
+  t.addEventListener('change', function(){ g.disabled=!t.value; });
+  function open(){ if(t.value){ window.location.href=t.value+'.html'; } }
+  g.addEventListener('click', open);
+  t.addEventListener('keydown', function(e){ if(e.key==='Enter'){ open(); } });
+  setMode();
+})();"""
+    type_ui = f"""
+    <div class="qn-modes" role="radiogroup" aria-label="Search by">
+      <span class="qn-modes-label">Search by</span>
+      <label><input type="radio" name="qn-mode" value="protocol" checked> Protocol</label>
+      <label><input type="radio" name="qn-mode" value="type"> Product type</label>
+    </div>""" if families else ""
+    type_controls = f"""
+    <div class="quicknav-controls" id="qn-by-type" hidden>
+      <select id="qn-type" aria-label="Product type">
+        <option value="">Choose a product type&hellip;</option>
+        {type_opts}
+      </select>
+      <button type="button" id="qn-type-go" class="btn" disabled>Go</button>
+    </div>
+    <script>{type_js}</script>""" if families else ""
     return f"""
   <section class="quicknav" aria-labelledby="qn-h">
-    <h2 id="qn-h">Jump straight to reviews</h2>
-    <div class="quicknav-controls">
+    <h2 id="qn-h">Jump straight to reviews</h2>{type_ui}
+    <div class="quicknav-controls" id="qn-by-protocol">
       <select id="qn-protocol" aria-label="Protocol">
         <option value="">Choose a protocol&hellip;</option>
         {opts}
@@ -242,7 +274,7 @@ def render_quicknav(protocols, compact=False, current=None):
       </select>
       <button type="button" id="qn-go" class="btn" disabled>Go</button>
     </div>
-    <script>{js}</script>
+    <script>{js}</script>{type_controls}
   </section>"""
 
 
@@ -302,7 +334,7 @@ def build_home(site):
     protos = site["protocols"]
     body = f"""
   {render_seasonal_strip()}
-  {render_quicknav(protos)}
+  {render_quicknav(protos, families=family_index(site))}
   <div class="or-divider" role="separator">- OR -</div>
   <p class="or-note">Not sure where to start? Explore the pros and cons of each smart home system and protocol below, then dive into the reviews that fit your setup.</p>
   <section class="lead home">
@@ -485,8 +517,12 @@ def render_sibling_links(proto, cat):
 
 
 def render_family_links(site, cat):
-    """Links to the same product type on the other protocols (e.g. every light-switch page)."""
+    """Links to the same product type on the other protocols (e.g. every light-switch page),
+    plus the all-protocols product-type page."""
     links = []
+    if cat.get("family_title"):
+        links.append(f'<a class="sub-link fam-all" href="{esc(family_slug(cat["family_title"]))}.html">Compare every '
+                     f'{esc(family_display(cat["family_title"]).lower().replace("smart ", "", 1))} on one page <span class="arrow">&rarr;</span></a>')
     for proto in site["protocols"]:
         for s in proto["subs"]:
             if s.get("ready") and s.get("family") == cat.get("family") and s["slug"] != cat["slug"]:
@@ -814,6 +850,194 @@ def build_seasonal(site):
     return urls
 
 
+# --------------------------------------------------------------------------- product-type pages
+# One page per device family (light switches, locks, ...) that puts every product from every
+# protocol page into a single table, filterable by protocol and smart home system.
+
+def family_display(title):
+    """'Light switches' -> 'Smart Light Switches'; 'Smart plugs' -> 'Smart Plugs'."""
+    words = title.split()
+    small = {"and", "or", "of"}
+    keep = {"CO"}
+    out = [w if w in keep else (w.lower() if w.lower() in small and i else w[0].upper() + w[1:]) for i, w in enumerate(words)]
+    t = " ".join(out)
+    return t if t.lower().startswith("smart") else f"Smart {t}"
+
+
+def family_slug(title):
+    return re.sub(r"[^a-z0-9]+", "-", family_display(title).lower()).strip("-")
+
+
+def family_index(site):
+    """[(family, display_title, slug, [(proto, sub)])] in site order, ready pages only."""
+    fams = {}
+    order = []
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if sub.get("ready") and sub.get("family"):
+                if sub["family"] not in fams:
+                    fams[sub["family"]] = []
+                    order.append(sub["family"])
+                fams[sub["family"]].append((proto, sub))
+    out = []
+    for fam in order:
+        title = load(f"pages/{fams[fam][0][1]['slug']}.json").get("family_title", fam)
+        out.append((fam, family_display(title), family_slug(title), fams[fam]))
+    return out
+
+
+def render_proto_diff(protocols):
+    cards = "".join(
+        f'''<div class="diff-card">
+      <div class="diff-head"><b>{esc(p["name"])}</b> <span class="tiny muted">{esc(p["facts"].get("band", ""))}</span></div>
+      <div class="pc">
+        <div class="pros"><h4>Pros</h4><ul>{"".join(f"<li>{esc(x)}</li>" for x in p["pros"])}</ul></div>
+        <div class="cons"><h4>Cons</h4><ul>{"".join(f"<li>{esc(x)}</li>" for x in p["cons"])}</ul></div>
+      </div>
+      <p class="verdict"><b>Our take:</b> {esc(p["verdict"])}</p>
+    </div>'''
+        for p in protocols)
+    return f"""
+  <details class="proto-diff">
+    <summary>How do these protocols differ? <span class="muted">Show the pros and cons</span></summary>
+    {cards}
+    <p class="tiny"><a href="./#compare">See the full protocol comparison on the home page &rarr;</a></p>
+  </details>"""
+
+
+FAMILY_JS = """(function(){
+  var proto=document.getElementById('f-proto'), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
+  var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
+  var rows=[].slice.call(body.querySelectorAll('tr'));
+  function apply(){
+    var p=proto.value, s=sys.value, shown=0;
+    rows.forEach(function(r){
+      var ok=(!p||(' '+r.dataset.protos+' ').indexOf(' '+p+' ')>=0)&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
+      r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
+    });
+    count.textContent=shown+' of '+rows.filter(function(r){return !r.classList.contains('avoid-row');}).length+' products';
+  }
+  function order(){
+    var k=sort.value;
+    var sorted=rows.slice().sort(function(a,b){
+      if(a.classList.contains('avoid-row')!==b.classList.contains('avoid-row')) return a.classList.contains('avoid-row')?1:-1;
+      var x=+a.dataset[k], y=+b.dataset[k];
+      return k==='price'? x-y : y-x;
+    });
+    sorted.forEach(function(r){body.appendChild(r);});
+  }
+  proto.addEventListener('change',apply); sys.addEventListener('change',apply);
+  sort.addEventListener('change',function(){order();apply();});
+  var q=new URLSearchParams(location.search);
+  if(q.get('protocol')) proto.value=q.get('protocol');
+  if(q.get('system')) sys.value=q.get('system');
+  apply();
+})();"""
+
+
+def build_family_page(site, fam, title, slug, members):
+    protos_here = []
+    for proto, _sub in members:
+        if proto not in protos_here:
+            protos_here.append(proto)
+    items = {}
+    avoids = []
+    dates = []
+    for proto, sub in members:
+        cat = load(f"pages/{sub['slug']}.json")
+        rank_products(cat)
+        dates.append(cat["data_captured"])
+        for p in cat["products"]:
+            it = items.setdefault(p["asin"], {"p": p, "protos": [], "pages": []})
+            if proto["slug"] not in [x["slug"] for x in it["protos"]]:
+                it["protos"].append(proto)
+            it["pages"].append((sub, p["rank"], len(cat["products"])))
+        for a in cat.get("avoid", []):
+            avoids.append((a, proto, sub))
+    ranked = sorted(items.values(), key=lambda it: (-it["p"]["score"], -it["p"]["reviews_count"]))
+    sys_order = [s for s in SYSTEM_NAMES]
+
+    def row(p, protos, link, extra_cls="", note=""):
+        proto_chips = " ".join(f'<span class="chip">{esc(x["name"])}</span>' for x in protos)
+        return (f'<tr class="{extra_cls}" data-protos="{esc(" ".join(x["slug"] for x in protos))}" '
+                f'data-systems="{esc(" ".join(p.get("systems", [])))}" data-score="{p.get("score", 0)}" '
+                f'data-price="{p["price"]}" data-rating="{p["rating"]}" data-reviews="{p["reviews_count"]}">'
+                f'<td><a href="{esc(link)}">{esc(p["brand"])} {esc(p["model"])}</a>{note}</td>'
+                f'<td>{proto_chips}</td><td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
+                f'<td class="c">{p["reviews_count"]:,}</td>'
+                f'<td>{sys_icons(p.get("systems", []), p.get("systems_label", "Standalone"))}</td>'
+                f'<td class="c"><b>{p.get("score", "&mdash;") if not extra_cls else "AVOID"}</b></td>'
+                f'<td><a class="btn btn-sm" href="{amazon_url(site, p["asin"])}" target="_blank" rel="sponsored nofollow noopener">Amazon</a></td></tr>')
+
+    rows = []
+    for it in ranked:
+        sub, rank, n = it["pages"][0]
+        rows.append(row(it["p"], it["protos"], f'{sub["slug"]}.html#{it["p"]["asin"]}'))
+    for a, proto, sub in avoids:
+        rows.append(row(a, [proto], f'{sub["slug"]}.html#avoid-{a["asin"]}', "avoid-row",
+                        f'<div class="tiny avoid-note">{esc(a.get("flag", ""))}</div>'))
+    proto_links = "".join(f'<a class="sub-link" href="{esc(sub["slug"])}.html">{esc(sub["title"])} <span class="arrow">&rarr;</span></a>'
+                          for _proto, sub in members)
+    proto_opts = "".join(f'<option value="{esc(p["slug"])}">{esc(p["name"])}</option>' for p in protos_here)
+    sys_opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in sys_order)
+    multi = len(protos_here) > 1
+    h1 = f"{title} Compared Across Every Protocol" if multi else f"{title}: Every Pick We Rank"
+    noun = title.lower().replace("smart ", "", 1)
+    n_items = len(ranked)
+    intro = (f"All {n_items} {noun} we rank, from {len(members)} review pages, in one table. "
+             f"Filter by the smart home system you use or by protocol, then open a product to see its full review."
+             if multi else
+             f"All {n_items} {noun} we rank, in one table you can filter by smart home system. "
+             f"Open a product to see its full review.")
+    body = f"""
+  {render_quicknav(site["protocols"], compact=True)}
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; {esc(title)}</nav>
+  <section class="lead">
+    <h1>{esc(h1)}</h1>
+    <p class="intro">{esc(intro)}</p>
+  </section>
+  <section class="fam-protos">
+    <h2 class="h-small">{esc(title)} by protocol</h2>
+    <div class="sub-grid flat">{proto_links}</div>
+    {render_proto_diff(protos_here)}
+  </section>
+  <section id="all">
+    <h2>All {esc(noun)}</h2>
+    <div class="fam-filters">
+      <label>Protocol <select id="f-proto"{'' if multi else ' disabled'}><option value="">All protocols</option>{proto_opts}</select></label>
+      <label>Works with <select id="f-sys"><option value="">Any system</option>{sys_opts}</select></label>
+      <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
+      <span class="muted tiny" id="f-count"></span>
+    </div>
+    <p class="swipe-hint">Swipe the table sideways to see every column.</p>
+    <div class="tablewrap"><table class="ptable fam-table"><thead><tr><th>Product</th><th>Protocol</th><th>Price</th><th>Rating</th>
+      <th>Reviews</th><th>Works with</th><th>Score</th><th></th></tr></thead>
+      <tbody id="fam-body">{"".join(rows)}</tbody></table></div>
+    <p class="tiny muted legend">Scores come from each product's protocol page, where it was ranked against devices on the same protocol. Red rows are the picks we tell you to avoid. Prices captured from Amazon between {esc(min(dates))} and {esc(max(dates))}.</p>
+  </section>
+  <script>{FAMILY_JS}</script>"""
+    base = base_url(site)
+    url = f"{base}/{slug}.html" if base else ""
+    il = {"@context": "https://schema.org", "@type": "ItemList", "name": h1, "numberOfItems": len(ranked),
+          "itemListElement": [{"@type": "ListItem", "position": i, "name": f'{it["p"]["brand"]} {it["p"]["model"]}',
+                               "url": f'{base}/{it["pages"][0][0]["slug"]}.html#{it["p"]["asin"]}'} for i, it in enumerate(ranked, 1)]}
+    crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
+        {"@type": "ListItem", "position": 2, "name": title, "item": url}]}
+    (OUT / f"{slug}.html").write_text(
+        page(site, f"{h1} | {site['brand']}", body, description=intro, canonical=url,
+             structured_data=jsonld(crumbs, il), updated=max(dates)), encoding="utf-8")
+    return url, max(dates)
+
+
+def build_family_pages(site):
+    urls = []
+    for fam, title, slug, members in family_index(site):
+        urls.append(build_family_page(site, fam, title, slug, members))
+    print(f"  {len(urls)} product-type pages")
+    return urls
+
+
 def build_sitemap(site, urls):
     base = base_url(site)
     if not base:
@@ -840,9 +1064,11 @@ def main():
             if sub.get("ready"):
                 urls.append(build_category(site, proto, sub))
     n_cat = len(urls) - 1
-    urls += build_seasonal(site)
+    fam = build_family_pages(site)
+    seas = build_seasonal(site)
+    urls += fam + seas
     build_sitemap(site, urls)
-    print(f"{n_cat} category pages + {len(urls) - 1 - n_cat} seasonal pages -> {OUT}")
+    print(f"{n_cat} category pages + {len(fam)} product-type pages + {len(seas)} seasonal pages -> {OUT}")
 
 
 CSS = r"""
@@ -950,6 +1176,25 @@ footer a{color:var(--gold-ink)}
 .quicknav option:disabled{color:#7d7896}
 .quicknav .btn{border:0;cursor:pointer;font:inherit;font-weight:700;padding:10px 22px}
 [hidden]{display:none!important}
+.qn-modes{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:0 0 12px;font-size:.95rem}
+.qn-modes-label{color:var(--muted)}
+.qn-modes label{display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.qn-modes input{accent-color:var(--gold)}
+.h-small{font-size:1.15rem;margin:22px 0 10px}
+.chip{display:inline-block;padding:2px 9px;margin:2px 4px 2px 0;border:1px solid var(--line);border-radius:999px;font-size:.8rem;white-space:nowrap;background:var(--card-2)}
+.btn.btn-sm{padding:6px 12px;font-size:.85rem;margin:0}
+.ptable a.btn,.ptable a.btn:visited{color:#1d1405;text-decoration:none}
+.fam-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:8px 0 12px}
+.fam-filters label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+.fam-filters select{background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:inherit;min-width:170px}
+.proto-diff{margin:16px 0 4px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--purple);border-radius:var(--radius);padding:12px 16px}
+.proto-diff summary{cursor:pointer;font-weight:700;color:var(--gold-ink)}
+.proto-diff[open] summary{margin-bottom:8px}
+.avoid-note{color:#f08a80;margin-top:2px}
+.diff-card{border-top:1px solid var(--line);padding:12px 0}
+.diff-card:first-of-type{border-top:0}
+.diff-head{margin-bottom:6px}
+.fam-all{border-color:var(--gold)}
 .or-divider{text-align:center;margin:20px 0 6px;font-family:Cinzel,Georgia,serif;font-size:2.1rem;font-weight:700;line-height:1.15;letter-spacing:.01em}
 @media (max-width:720px){.or-divider{font-size:1.6rem}}
 .or-note{text-align:center;color:var(--muted);margin:0 auto 4px;max-width:640px}
