@@ -5,6 +5,9 @@ import sys
 
 pages = json.load(open("batch9-pages.json", encoding="utf-8"))
 d = json.load(open("prod-all.json", encoding="utf-8"))
+import os
+if os.path.exists("prod-b9b.json"):
+    d.update({k: v for k, v in json.load(open("prod-b9b.json", encoding="utf-8")).items() if v.get("title")})
 slug = sys.argv[1]
 nb = int(sys.argv[2]) if len(sys.argv) > 2 else 4
 FLAGS = ["alexa", "google", "homekit|apple home|siri", "matter", "home assistant", "smartthings", "hubitat", "zigbee",
