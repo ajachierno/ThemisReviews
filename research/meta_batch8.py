@@ -74,7 +74,7 @@ PAGES = {
         1000, SMOKE_GUIDE),
     "wifi-robot-vacuums": _p("robot-vacuums", "Robot vacuums", "vacuum", "The 10 Best Robot Vacuums",
         "Robot vacuums and mops, from budget to self-emptying, ranked from live Amazon data.",
-        "We pulled the best-selling robot vacuums on Amazon and scored them on rating, review volume, and features: self-emptying docks, mopping, and mapping. Models with Matter are also on our Matter page.",
+        "We pulled the best-selling robot vacuums on Amazon and scored them on rating, review volume, and features: self-emptying docks, mopping, and mapping. The table shows which ones work with Matter.",
         40000, VACUUM_GUIDE),
     "matter-robot-vacuums": _p("robot-vacuums", "Robot vacuums", "vacuum", "The Best Matter Robot Vacuums",
         "Robot vacuums you can run from Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",

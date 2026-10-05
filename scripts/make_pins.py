@@ -369,9 +369,14 @@ def main():
     ap.add_argument("--per-day", type=int, default=5)
     ap.add_argument("--bf-date", default="2026-11-01", help="publish date for the Black Friday pin")
     ap.add_argument("--only", choices=["sample"], help="write one pin of each format, no CSV")
+    ap.add_argument("--pages", nargs="+", help="only top-3/avoid pins for these page slugs (a follow-up batch)")
     args = ap.parse_args()
     site, seasonal, bf_pin, evergreen = all_pins()
     ordered = seasonal + evergreen
+    if args.pages:
+        want = set(args.pages)
+        ordered = [p for p in evergreen if p[0].split("-", 1)[1] in want and not p[0].startswith("protocol-")]
+        bf_pin = None
     if args.only == "sample":
         keep = {seasonal[0][0] if seasonal else "", "black-friday-cheat-sheet", "top3-wifi-smart-plugs",
                 "avoid-wifi-indoor-cameras", "protocol-zigbee"}

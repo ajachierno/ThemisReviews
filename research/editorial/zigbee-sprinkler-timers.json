@@ -1,0 +1,59 @@
+{
+  "feature_weights": {"flow_meter": 0.30, "weather": 0.25, "brass": 0.20, "multi_zone": 0.25},
+  "systems_note": "These timers need a Zigbee hub: SONOFF's own gateways for the eWeLink app, a Tuya Zigbee gateway for Smart Life, or Home Assistant (ZHA or Zigbee2MQTT).",
+  "spec_fields": [
+    {"key": "zones", "label": "Outlets"},
+    {"key": "hub", "label": "Hub"},
+    {"key": "inlet", "label": "Inlet"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "zones", "label": "Outlets"},
+    {"key": "hub", "label": "Hub"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "awards": [
+    {"asin": "B0H3L2JVZP", "label": "Best Overall", "kind": "overall", "why": "A brass-inlet Zigbee timer with a flow meter, weather adjustment, and leak and frost alerts."},
+    {"asin": "B0H3LB7234", "label": "Best Budget", "kind": "budget", "why": "The $24.90 Lite version, with weather adjustment and the best rating here."},
+    {"asin": "B0H4VC5XRQ", "label": "Best Two-Zone", "kind": "special", "why": "Two outlets with separate schedules and a flow meter."}
+  ],
+  "products": [
+    {"asin": "B0H3L2JVZP", "brand": "SONOFF", "model": "Hydro ONE (SWV-ZFU)", "systems": ["home-assistant"], "systems_label": "eWeLink app",
+     "specs": {"zones": "1", "hub": "Zigbee hub", "inlet": "Brass", "extras": "Flow meter, leak and frost alerts, weather adjustment"},
+     "features": {"flow_meter": true, "weather": true, "brass": true, "multi_zone": false},
+     "verdict": "The most complete Zigbee hose timer: flow meter, weather adjustments, and leak and frost alerts.",
+     "pros": ["Built-in flow meter with 6 months of history", "Leak, water shortage, and frost alerts", "Brass inlet", "100+ bought in the past month"],
+     "cons": ["3.9 stars from 43 reviews", "Needs a Zigbee hub", "4 AA batteries"]},
+    {"asin": "B0H3LB7234", "brand": "SONOFF", "model": "Hydro ONE Lite (SWV-ZNU)", "systems": ["home-assistant"], "systems_label": "eWeLink app",
+     "specs": {"zones": "1", "hub": "Zigbee hub", "inlet": "Brass", "extras": "Weather adjustment, frost alerts"},
+     "features": {"flow_meter": false, "weather": true, "brass": true, "multi_zone": false},
+     "verdict": "The Hydro ONE without the flow meter, for $24.90.",
+     "pros": ["$24.90", "Weather and seasonal adjustment", "4.1 stars, the best rating here"],
+     "cons": ["No flow meter", "Only 29 reviews", "Needs a Zigbee hub"]},
+    {"asin": "B0H4VC5XRQ", "brand": "SONOFF", "model": "Hydro DUO (SWV-ZF2U)", "systems": ["home-assistant"], "systems_label": "eWeLink app",
+     "specs": {"zones": "2", "hub": "Zigbee hub", "inlet": "Brass", "extras": "Flow meter, IP65, USB-C or AA power"},
+     "features": {"flow_meter": true, "weather": true, "brass": true, "multi_zone": true},
+     "verdict": "Two zones with six schedules each and a flow meter.",
+     "pros": ["Two outlets, 12 schedules total", "Flow meter", "USB-C or AA power"],
+     "cons": ["3.5 stars from 19 reviews", "$46.50", "Needs a Zigbee hub"]},
+    {"asin": "B0D5B8S8N8", "brand": "SONOFF", "model": "Zigbee sprinkler timer (original)", "systems": ["home-assistant", "alexa", "google-home"], "systems_label": "eWeLink app",
+     "specs": {"zones": "1", "hub": "SONOFF Zigbee gateway", "inlet": "Not stated in bullets", "extras": "Timed or fixed-volume watering"},
+     "features": {"flow_meter": false, "weather": false, "brass": false, "multi_zone": false},
+     "verdict": "SONOFF's older Zigbee timer, with Alexa and Google through the eWeLink app.",
+     "pros": ["Alexa and Google through eWeLink", "Timed or fixed-volume watering", "213 reviews, the most here"],
+     "cons": ["3.3 stars", "No weather adjustment listed", "Plastic inlet"]},
+    {"asin": "B0GWXCG5YT", "brand": "GIEX", "model": "Zigbee water timer with flow meter", "systems": ["home-assistant"], "systems_label": "Tuya Smart Life",
+     "specs": {"zones": "1", "hub": "Tuya Zigbee gateway or ZHA/Zigbee2MQTT", "inlet": "Brass", "extras": "Flow meter, 20 schedules"},
+     "features": {"flow_meter": true, "weather": false, "brass": true, "multi_zone": false},
+     "verdict": "A Tuya Zigbee timer with a flow meter that names Home Assistant support.",
+     "pros": ["Names ZHA and Zigbee2MQTT", "Flow meter", "Watering cycles from 1 second for drip lines"],
+     "cons": ["3.3 stars from 22 reviews", "Needs a Zigbee hub", "Weather adjustment isn't listed"]},
+    {"asin": "B0DYV1CFYN", "brand": "GIEX", "model": "GX-03 2-zone", "systems": ["home-assistant"], "systems_label": "Tuya Smart Life",
+     "specs": {"zones": "2", "hub": "Tuya Zigbee gateway or ZHA/Zigbee2MQTT", "inlet": "Brass", "extras": "10 schedules per zone"},
+     "features": {"flow_meter": false, "weather": false, "brass": true, "multi_zone": true},
+     "verdict": "A two-zone Tuya Zigbee timer with flexible day-based schedules.",
+     "pros": ["Two zones", "10 schedules per zone", "Brass inlet"],
+     "cons": ["Only 8 reviews", "3.9 stars", "Needs a Zigbee hub"]}
+  ],
+  "avoid": []
+}

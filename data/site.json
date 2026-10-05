@@ -193,7 +193,8 @@
         {
           "slug": "zigbee-sprinkler-timers",
           "title": "Zigbee sprinkler and hose timers",
-          "family": "sprinklers"
+          "family": "sprinklers",
+          "ready": true
         },
         {
           "slug": "zigbee-coordinators",
@@ -322,32 +323,38 @@
         {
           "slug": "wifi-air-quality-monitors",
           "title": "Wi-Fi air quality monitors",
-          "family": "air-quality-monitors"
+          "family": "air-quality-monitors",
+          "ready": true
         },
         {
           "slug": "wifi-water-valves",
           "title": "Wi-Fi water shutoff valves",
-          "family": "water-valves"
+          "family": "water-valves",
+          "ready": true
         },
         {
           "slug": "wifi-sprinkler-controllers",
           "title": "Wi-Fi sprinkler controllers",
-          "family": "sprinklers"
+          "family": "sprinklers",
+          "ready": true
         },
         {
           "slug": "wifi-hose-timers",
           "title": "Wi-Fi hose timers",
-          "family": "sprinklers"
+          "family": "sprinklers",
+          "ready": true
         },
         {
           "slug": "wifi-robot-vacuums",
           "title": "Robot vacuums",
-          "family": "robot-vacuums"
+          "family": "robot-vacuums",
+          "ready": true
         },
         {
           "slug": "wifi-smart-speakers",
           "title": "Smart speakers",
-          "family": "smart-speakers"
+          "family": "smart-speakers",
+          "ready": true
         }
       ]
     },
@@ -548,11 +555,6 @@
           "title": "Matter smoke and CO alarms",
           "family": "smoke-detectors",
           "ready": true
-        },
-        {
-          "slug": "matter-robot-vacuums",
-          "title": "Matter robot vacuums",
-          "family": "robot-vacuums"
         },
         {
           "slug": "matter-controllers",

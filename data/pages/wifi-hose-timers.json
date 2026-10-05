@@ -1,0 +1,498 @@
+{
+  "slug": "wifi-hose-timers",
+  "family": "sprinklers",
+  "family_title": "Sprinklers and timers",
+  "noun": "timer",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Hose Timers",
+  "subtitle": "Wi-Fi and app-controlled garden hose timers, ranked from live Amazon data.",
+  "intro": "We pulled the smart hose and faucet timers selling on Amazon and scored them on rating, review volume, and features: Wi-Fi gateways, multiple zones, and brass fittings.",
+  "reviews_ceiling": 12000,
+  "feature_weights": {
+    "weather": 0.3,
+    "multi_zone": 0.25,
+    "brass": 0.2,
+    "flow_meter": 0.25
+  },
+  "systems_note": "Smart Life / Tuya timers also have an official Home Assistant integration. Most timers here talk to a plug-in gateway over Bluetooth or their own radio; the gateway connects to Wi-Fi.",
+  "spec_fields": [
+    {
+      "key": "zones",
+      "label": "Outlets"
+    },
+    {
+      "key": "connection",
+      "label": "Connects via"
+    },
+    {
+      "key": "inlet",
+      "label": "Inlet"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "zones",
+      "label": "Outlets"
+    },
+    {
+      "key": "connection",
+      "label": "Connects via"
+    },
+    {
+      "key": "inlet",
+      "label": "Inlet"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0H11D2TS9",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 900+ bought last month, for $59.99."
+    },
+    {
+      "asin": "B0FKBG81PQ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $28.99 Smart Life timer with Alexa, Google, and Bluetooth fallback."
+    },
+    {
+      "asin": "B0HDS4CTKS",
+      "label": "Best Water Tracking",
+      "kind": "special",
+      "why": "Two zones with a built-in flow meter and 12 months of water-use history, rated 4.9 stars."
+    },
+    {
+      "asin": "B0B1QWVQPY",
+      "label": "Best Multi-Zone",
+      "kind": "premium",
+      "why": "Four outlets on one faucet with weather-based adjustments, sold by Amazon."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0H11D2TS9",
+      "brand": "GoveeLife",
+      "model": "H5901 with gateway",
+      "systems": [],
+      "systems_label": "GoveeLife app",
+      "specs": {
+        "zones": "1",
+        "connection": "Gateway (up to 1,640 ft.) on Wi-Fi",
+        "inlet": "Brass",
+        "extras": "Weather adaptive, IP67, 10 schedules"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": false,
+        "brass": true,
+        "flow_meter": false
+      },
+      "verdict": "The best hose timer for most gardens: weather-smart, brass fittings, and long gateway range.",
+      "pros": [
+        "Adjusts to rain, light, temperature, and humidity",
+        "Brass inlets, IP67",
+        "Gateway reaches 1,640 ft.",
+        "900+ bought in the past month"
+      ],
+      "cons": [
+        "One outlet",
+        "Only 115 reviews",
+        "Voice assistants aren't named"
+      ],
+      "name": "GoveeLife H5901 Smart WiFi Sprinkler Timer with Gateway, 1 Water Outlet",
+      "image": "https://m.media-amazon.com/images/I/716umfubrAL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.2,
+      "reviews_count": 115,
+      "bought": "900+ bought in past month"
+    },
+    {
+      "asin": "B0HDS4CTKS",
+      "brand": "RAINPOINT",
+      "model": "2-zone with flow meter (HWG023 gateway)",
+      "systems": [],
+      "systems_label": "RainPoint app",
+      "specs": {
+        "zones": "2",
+        "connection": "Gateway (820 ft.) on Wi-Fi",
+        "inlet": "Brass",
+        "extras": "Flow meter, 12-month history"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": true,
+        "brass": true,
+        "flow_meter": true
+      },
+      "verdict": "Two zones with a built-in flow meter, so you see exactly how much water each zone uses.",
+      "pros": [
+        "Built-in flow meter",
+        "Rain delay and seasonal adjustment",
+        "Brass, rated to 116 PSI",
+        "4.9 stars"
+      ],
+      "cons": [
+        "Only 63 reviews",
+        "Only 11 left at capture time",
+        "$95.99"
+      ],
+      "name": "RAINPOINT 2 Zone WiFi Water Timer for Garden Hose, Sprinkler Hose Timer",
+      "image": "https://m.media-amazon.com/images/I/61AOfv2CJfL._AC_SL1500_.jpg",
+      "price": 95.99,
+      "rating": 4.9,
+      "reviews_count": 63,
+      "bought": null
+    },
+    {
+      "asin": "B0GDQFJ9DB",
+      "brand": "RAINPOINT",
+      "model": "2-zone brass with gateway",
+      "systems": [],
+      "systems_label": "RainPoint app",
+      "specs": {
+        "zones": "2",
+        "connection": "Gateway on Wi-Fi",
+        "inlet": "Brass",
+        "extras": "Misting and cycle-and-soak modes"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": true,
+        "brass": true,
+        "flow_meter": false
+      },
+      "verdict": "A two-zone brass timer with plant-specific watering plans.",
+      "pros": [
+        "Two independent zones",
+        "Three watering modes",
+        "Plant-based schedule suggestions"
+      ],
+      "cons": [
+        "Only 2 left at capture time",
+        "$109.99",
+        "4.1 stars"
+      ],
+      "name": "RainPoint WiFi Water Timer for Garden Hose with Brass Inlet & Outlet, 2-Zone Smart Hose Timer, WiFi Irrigation Controller via APP/Voice Control, Automatic Sprinkler Watering System for Lawns and Yard",
+      "image": "https://m.media-amazon.com/images/I/61XI3hikgcL._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.1,
+      "reviews_count": 222,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GDDYVG57",
+      "brand": "RAINPOINT",
+      "model": "3-zone with gateway",
+      "systems": [],
+      "systems_label": "RainPoint app",
+      "specs": {
+        "zones": "3",
+        "connection": "Gateway on Wi-Fi",
+        "inlet": "Brass",
+        "extras": "Water by time, weather, moisture, or quantity"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": true,
+        "brass": true,
+        "flow_meter": false
+      },
+      "verdict": "Three zones on one faucet for lawn, beds, and vegetables.",
+      "pros": [
+        "Three outlets",
+        "Brass inlet and outlet",
+        "Several watering modes"
+      ],
+      "cons": [
+        "$119.99",
+        "4.0 stars",
+        "Only 80 reviews"
+      ],
+      "name": "RAINPOINT 3 Zone WiFi Water Timer with Smart Gateway, Brass Inlet/Outlet WiFi Sprinkler Timer, Voice Control, Smart Watering System by Time/Weather/Quantity/Soil Moisture, (Green, 3 Zone)",
+      "image": "https://m.media-amazon.com/images/I/61yiWhMsNdL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.0,
+      "reviews_count": 80,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0D3PVJMX8",
+      "brand": "RAINPOINT",
+      "model": "Wi-Fi hose timer (1 zone)",
+      "systems": [],
+      "systems_label": "RainPoint app",
+      "specs": {
+        "zones": "1",
+        "connection": "2.4 GHz Wi-Fi",
+        "inlet": "Not stated in bullets",
+        "extras": "Rain delay, soil sensor support"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": false,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "A single-zone timer that can water by soil moisture with an add-on sensor.",
+      "pros": [
+        "Rain delay of 24, 48, or 72 hours",
+        "Works with RainPoint soil sensors",
+        "$69.99"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "4.1 stars",
+        "Soil sensor sold separately"
+      ],
+      "name": "RAINPOINT WiFi Water Timer, Smart Hose Timer for Garden Hose, WiFi Irrigation Controller, Smart Sprinkler System Valve, APP & Voice Control, Weather-Based Automatic Rain Delay, Brass Inlet & Outlet",
+      "image": "https://m.media-amazon.com/images/I/61JczoCHltL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.1,
+      "reviews_count": 220,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0B1QWVQPY",
+      "brand": "Orbit",
+      "model": "B-hyve XD 4-port",
+      "systems": [],
+      "systems_label": "B-hyve app",
+      "specs": {
+        "zones": "4",
+        "connection": "Bluetooth (Wi-Fi with B-hyve hub)",
+        "inlet": "Not stated in bullets",
+        "extras": "WeatherSense, drought adjustment"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": true,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "Four outlets from one faucet, with weather-based watering from Orbit.",
+      "pros": [
+        "Four outlets",
+        "Weather and drought adjustments",
+        "2,025 reviews, sold by Amazon"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Remote control needs a B-hyve Wi-Fi hub",
+        "$79.98"
+      ],
+      "name": "Orbit B-hyve XD 4-Port Smart Hose Watering Timer - 24634",
+      "image": "https://m.media-amazon.com/images/I/716XruIrPyL._AC_SL1500_.jpg",
+      "price": 79.98,
+      "rating": 3.9,
+      "reviews_count": 2025,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B09YFWNH9Y",
+      "brand": "Orbit",
+      "model": "B-hyve XD 1-port",
+      "systems": [],
+      "systems_label": "B-hyve app",
+      "specs": {
+        "zones": "1",
+        "connection": "Wi-Fi or Bluetooth",
+        "inlet": "Not stated in bullets",
+        "extras": "IPX5, local watering restrictions"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": false,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "The single-outlet B-hyve, at a low reseller price.",
+      "pros": [
+        "$24.60",
+        "Weather and drought adjustments",
+        "IPX5"
+      ],
+      "cons": [
+        "Sold by a reseller",
+        "3.9 stars",
+        "One outlet"
+      ],
+      "name": "Orbit B-hyve XD 1-Port Smart Hose Watering Timer - 24511",
+      "image": "https://m.media-amazon.com/images/I/71IA9Z4GymL._AC_SL1500_.jpg",
+      "price": 24.6,
+      "rating": 3.9,
+      "reviews_count": 2025,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0FKBG81PQ",
+      "brand": "Insoma",
+      "model": "Wi-Fi hose timer with hub",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "zones": "1",
+        "connection": "Hub on 2.4 GHz Wi-Fi, Bluetooth fallback",
+        "inlet": "Not stated in bullets",
+        "extras": "Rain delay"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": false,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "The cheapest Smart Life timer, with Alexa, Google, and Bluetooth control if Wi-Fi drops.",
+      "pros": [
+        "$28.99",
+        "Alexa and Google",
+        "Bluetooth control without Wi-Fi",
+        "4.3 stars"
+      ],
+      "cons": [
+        "Only 53 reviews",
+        "One outlet",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "Insoma WiFi Sprinkler Timer, Water Timer for Garden, Smart Hose Timers with Hub Support 2.4GHz WiFi & Bluetooth, Rain Delay & Manual Watering, App/Voice Control Work with Alexa & Google Assistant",
+      "image": "https://m.media-amazon.com/images/I/61dZXxAT6WL._AC_SL1500_.jpg",
+      "price": 28.99,
+      "rating": 4.3,
+      "reviews_count": 53,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0DFWHHN53",
+      "brand": "Yard Secret",
+      "model": "Brass-inlet Wi-Fi timer with hub",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "zones": "1",
+        "connection": "Hub on 2.4 GHz Wi-Fi, Bluetooth fallback",
+        "inlet": "Brass swivel",
+        "extras": "Rated to 116 PSI"
+      },
+      "features": {
+        "weather": false,
+        "multi_zone": false,
+        "brass": true,
+        "flow_meter": false
+      },
+      "verdict": "The Smart Life timer with a brass inlet that won't crack like plastic threads.",
+      "pros": [
+        "Brass swivel inlet",
+        "Alexa and Google",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 1 left at capture time",
+        "Only 69 reviews",
+        "One outlet"
+      ],
+      "name": "WiFi Water Timer Brass Inlet, 2.4GHz Smart Sprinkler Timers, 1 Zone Hose Timer with WiFi Hub, Voice/App Control with Alexa & Google Assistant, Auto/Manual Watering, Rain Delay, for Garden, Yard, Lawn",
+      "image": "https://m.media-amazon.com/images/I/611NCxXPIPL._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 4.5,
+      "reviews_count": 69,
+      "bought": null
+    },
+    {
+      "asin": "B0DZ295PWK",
+      "brand": "OlsenXF",
+      "model": "3-zone Wi-Fi timer",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "zones": "3",
+        "connection": "RF gateway (984 ft.) on Wi-Fi",
+        "inlet": "Not stated in bullets",
+        "extras": "Recirculating schedules"
+      },
+      "features": {
+        "weather": false,
+        "multi_zone": true,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "A three-zone Smart Life timer with a long-range gateway.",
+      "pros": [
+        "Three zones",
+        "984 ft. gateway range",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "The bullets call it dual-zone in one place",
+        "4.2 stars",
+        "$66.99"
+      ],
+      "name": "Smart WiFi Sprinkler Timer 3 Zone, Water Timer for Garden Hose Irrigation",
+      "image": "https://m.media-amazon.com/images/I/710neiVEZIL._AC_SL1500_.jpg",
+      "price": 66.99,
+      "rating": 4.2,
+      "reviews_count": 185,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DWSGD1XZ",
+      "brand": "OlsenXF",
+      "model": "\"2 Zone\" Wi-Fi timer",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "flag": "Can't decide whether it's 2 or 3 zones",
+      "verdict": "The title says 2 zones, but the listing also calls it \"this 3 zone sprinkler timer,\" so you can't be sure what arrives.",
+      "reasons": [
+        "Title: \"WiFi Sprinkler Timer 2 Zone.\" Bullet: \"this 3 zone sprinkler timer featuring independent zone control.\"",
+        "No bullet lists what's in the box to settle it.",
+        "The same seller sells a 3-zone model, so mix-ups are likely."
+      ],
+      "name": "WiFi Sprinkler Timer 2 Zone, Smart Water Timer for Garden Hose Irrigation",
+      "image": "https://m.media-amazon.com/images/I/71JqzbRzFyL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 117,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Hose timer or in-ground controller?",
+      "a": "A hose timer screws onto an outdoor faucet to water gardens, drip lines, and hose sprinklers. An in-ground controller replaces the box that runs a buried sprinkler system."
+    },
+    {
+      "q": "Why do some need a gateway?",
+      "a": "The timer at the faucet runs on batteries and uses Bluetooth or a low-power radio. A plug-in gateway inside connects it to Wi-Fi so you can control it away from home."
+    },
+    {
+      "q": "What about freezing weather?",
+      "a": "Bring timers inside before the first hard freeze. Water left inside can crack the valve."
+    }
+  ]
+}

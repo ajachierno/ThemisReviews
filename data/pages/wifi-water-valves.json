@@ -1,0 +1,510 @@
+{
+  "slug": "wifi-water-valves",
+  "family": "water-valves",
+  "family_title": "Water shutoff valves",
+  "noun": "valve",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Water Shutoff Valves",
+  "subtitle": "Automatic main water shutoffs and valve robots, ranked from live Amazon data.",
+  "intro": "We pulled the smart water shutoff valves selling on Amazon and scored them on rating, review volume, and features: leak sensors in the box, flow monitoring, and DIY installation. Some kits use their own long-range radio to a Wi-Fi hub; the table shows which.",
+  "reviews_ceiling": 2500,
+  "feature_weights": {
+    "auto_shutoff": 0.3,
+    "sensors_included": 0.25,
+    "flow_monitor": 0.25,
+    "diy": 0.2
+  },
+  "systems_note": "YoLink, Moen Flo, and Tuya/Smart Life devices also have official Home Assistant integrations. YoLink kits use their own LoRa radio to a hub that connects to Wi-Fi.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "detects",
+      "label": "How it detects leaks"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "connection",
+      "label": "Connects via"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DTP7J9Z7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Valve robot, four leak sensors, and hub in one kit; sensors close the valve even with the internet down, rated 4.7 stars."
+    },
+    {
+      "asin": "B0851DYWBH",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $36.99 Wi-Fi valve robot that clamps onto an existing quarter-turn valve and works with Alexa and Google."
+    },
+    {
+      "asin": "B0DSKG73XB",
+      "label": "Best Flow Monitor",
+      "kind": "special",
+      "why": "Ultrasonic flow monitoring that spots leaks as small as 0.01 GPM and shuts the water off, rated 4.5 stars."
+    },
+    {
+      "asin": "B0GYGCDL8H",
+      "label": "Best for Matter",
+      "kind": "premium",
+      "why": "A Bulldog valve robot on Matter over Wi-Fi with a wired leak sensor and no hub."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DTP7J9Z7",
+      "brand": "YoLink",
+      "model": "X3 + EVO valve kit (4 sensors + hub)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "YoLink app",
+      "specs": {
+        "type": "Valve robot kit",
+        "detects": "4 leak sensors",
+        "install": "DIY, on existing valve",
+        "connection": "LoRa to hub"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": true,
+        "flow_monitor": false,
+        "diy": true
+      },
+      "verdict": "The most complete DIY kit: leak sensors that shut the water off by themselves, even without internet or power.",
+      "pros": [
+        "4 leak sensors, valve robot, and hub included",
+        "Sensors close the valve with no internet or power",
+        "LoRa range up to 2,034 ft.",
+        "4.7 stars from 519 reviews"
+      ],
+      "cons": [
+        "$296.99",
+        "Needs the YoLink hub for app alerts",
+        "Valve robot fits quarter-turn valves"
+      ],
+      "name": "YoLink Water Shutoff Kit: X3 Controller + EVO + 4-Pack Sensors + Hub",
+      "image": "https://m.media-amazon.com/images/I/61GFHFyljlL._AC_SL1500_.jpg",
+      "price": 296.99,
+      "rating": 4.7,
+      "reviews_count": 519,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0F2MYNQS2",
+      "brand": "YoLink",
+      "model": "X3 1 in. stainless valve kit",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "YoLink app",
+      "specs": {
+        "type": "Motorized valve kit",
+        "detects": "3 leak sensors",
+        "install": "Plumbed into the line",
+        "connection": "LoRa to hub"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": true,
+        "flow_monitor": false,
+        "diy": false
+      },
+      "verdict": "A replacement 1 in. stainless valve with sensors, for when a valve robot won't fit your old valve.",
+      "pros": [
+        "NSF certified for drinking water",
+        "3 sensors and hub included",
+        "Works without internet or AC power",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Has to be plumbed in",
+        "Only 96 reviews",
+        "Only 11 left at capture time"
+      ],
+      "name": "YoLink X3 Water Shutoff Kit: 1\" Stainless Ball Valve + 3-Pack Sensors + Hub",
+      "image": "https://m.media-amazon.com/images/I/61mqQexMEvL._AC_SL1500_.jpg",
+      "price": 259.99,
+      "rating": 4.8,
+      "reviews_count": 96,
+      "bought": null
+    },
+    {
+      "asin": "B0BRXL12FH",
+      "brand": "YoLink",
+      "model": "Controller + Bulldog kit (3 sensors + hub)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "YoLink app",
+      "specs": {
+        "type": "Valve robot kit",
+        "detects": "3 leak sensors",
+        "install": "DIY, on existing valve",
+        "connection": "LoRa to hub"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": true,
+        "flow_monitor": false,
+        "diy": true
+      },
+      "verdict": "YoLink's kit with the heavy-duty Bulldog valve robot, for stiff or large main valves.",
+      "pros": [
+        "Bulldog robot for stubborn valves",
+        "SMS, app, and email alerts",
+        "Works without internet once paired",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$319",
+        "Only 3 sensors",
+        "Needs the YoLink hub"
+      ],
+      "name": "YoLink Water Shutoff Kit: Controller + Bulldog + 3-Pack Sensors + Hub",
+      "image": "https://m.media-amazon.com/images/I/613pJG-0E5L._AC_SL1500_.jpg",
+      "price": 319.0,
+      "rating": 4.6,
+      "reviews_count": 259,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CNGM4WD9",
+      "brand": "YoLink",
+      "model": "0.75 in. brass valve + controller",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "YoLink app",
+      "specs": {
+        "type": "Motorized valve",
+        "detects": "Pairs with YoLink sensors (sold separately)",
+        "install": "Plumbed into the line",
+        "connection": "LoRa to hub"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": false,
+        "flow_monitor": false,
+        "diy": false
+      },
+      "verdict": "A brass motorized valve with battery backup, for adding to an existing YoLink system.",
+      "pros": [
+        "12 V adapter plus AA battery backup",
+        "Sizes from 1/2 in. to 1-1/4 in.",
+        "$129.99"
+      ],
+      "cons": [
+        "No sensors or hub included",
+        "Has to be plumbed in",
+        "Only 109 reviews"
+      ],
+      "name": "YoLink Water Shutoff Kit: 0.75\" Brass Ball Valve + Valve Controller",
+      "image": "https://m.media-amazon.com/images/I/61Cd+FazHLL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviews_count": 109,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DSKG73XB",
+      "brand": "Frizzlife",
+      "model": "LP365",
+      "systems": [],
+      "systems_label": "Frizzlife app",
+      "specs": {
+        "type": "Flow monitor + shutoff valve",
+        "detects": "Ultrasonic flow (0.01 GPM)",
+        "install": "Plumbed into the main line",
+        "connection": "Wi-Fi"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": false,
+        "flow_monitor": true,
+        "diy": false
+      },
+      "verdict": "A whole-home flow monitor that catches tiny leaks anywhere in the house and shuts the water off.",
+      "pros": [
+        "Detects flow changes down to 0.01 GPM",
+        "NSF/ANSI 61 and 372 certified",
+        "Shows flow and temperature or pressure",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Plumber install",
+        "$279.99",
+        "Voice assistants aren't named"
+      ],
+      "name": "Frizzlife LP365 Smart Water Monitor and Automatic Shutoff Valve - 0.01GPM Ultrasonic Micro Leak Detection, APP Wi-Fi Remote Control, Real-Time Flow/Temp Alarm, 24/7 Water Usage Reports, 3/4\" and 1\"",
+      "image": "https://m.media-amazon.com/images/I/71OrU8sWVTL._AC_SL1500_.jpg",
+      "price": 279.99,
+      "rating": 4.5,
+      "reviews_count": 360,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0GJRQMPGM",
+      "brand": "Frizzlife",
+      "model": "LPG365 with 3 leak sensors",
+      "systems": [],
+      "systems_label": "Frizzlife app",
+      "specs": {
+        "type": "Flow monitor + shutoff valve",
+        "detects": "Ultrasonic flow + 3 LoRa leak sensors",
+        "install": "Plumbed into the main line",
+        "connection": "Wi-Fi (2.4/5 GHz)"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": true,
+        "flow_monitor": true,
+        "diy": false
+      },
+      "verdict": "Flow monitoring plus leak sensors, so it catches both slow leaks and sudden floods.",
+      "pros": [
+        "Flow monitoring and leak sensors together",
+        "App, SMS, and phone call alerts",
+        "5.0 stars"
+      ],
+      "cons": [
+        "Only 36 reviews",
+        "$399.99",
+        "Plumber install"
+      ],
+      "name": "Frizzlife LPG365 Smart Water Auto Shutoff Valve W/ 3 Leak Sensors, 100% Dual Detection- 0.01GPM Ultrasonic Micro Leak Detector & Sensor-Triggered Shutoff, App Control, Flow & Temp Monitor,Fits 3/4\"&1\"",
+      "image": "https://m.media-amazon.com/images/I/71ALh2lF19L._AC_SL1500_.jpg",
+      "price": 399.99,
+      "rating": 5.0,
+      "reviews_count": 36,
+      "bought": null
+    },
+    {
+      "asin": "B00C03D01Q",
+      "brand": "Moen",
+      "model": "Flo Smart Shutoff (900-001)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Moen Flo app",
+      "specs": {
+        "type": "Flow monitor + shutoff valve",
+        "detects": "Flow, pressure, and temperature; daily MicroLeak test",
+        "install": "Plumbed into the main line",
+        "connection": "Wi-Fi"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": false,
+        "flow_monitor": true,
+        "diy": false
+      },
+      "verdict": "The best-known whole-home shutoff, with a daily leak test, but this listing is a reseller at $550.",
+      "pros": [
+        "Daily MicroLeak test",
+        "Learns your household water use",
+        "2,312 reviews"
+      ],
+      "cons": [
+        "Sold by a reseller, only 12 left at capture time",
+        "$550",
+        "Plumber install"
+      ],
+      "name": "Moen Flo Shutoff, 3/4\" Automatic Water Leak Detector & Shutoff, 900-001",
+      "image": "https://m.media-amazon.com/images/I/71HYxYwnHsL._AC_SL1500_.jpg",
+      "price": 550.0,
+      "rating": 4.0,
+      "reviews_count": 2312,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0GYGCDL8H",
+      "brand": "EcoNet",
+      "model": "Bulldog Matter Wi-Fi (EVC400)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Valve robot",
+        "detects": "Wired leak sensor (up to 20 sensors)",
+        "install": "DIY, fits valves up to 1.5 in.",
+        "connection": "Matter over Wi-Fi"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": true,
+        "flow_monitor": false,
+        "diy": true
+      },
+      "verdict": "The Bulldog valve robot with Matter, so it works in any major smart home app with no hub.",
+      "pros": [
+        "Matter over Wi-Fi, no hub",
+        "Wired leak sensor included",
+        "Fits valves up to 1.5 in."
+      ],
+      "cons": [
+        "Only 2 reviews",
+        "$215",
+        "One sensor in the box"
+      ],
+      "name": "EVC400-MW-WLS1M Bulldog Matter WiFi Valve Robot with Wired Leak Sensor, Smart Water Shutoff Valve, No Hub Required, Easy DIY Install, Fits up to 1.5\" Valves",
+      "image": "https://m.media-amazon.com/images/I/61JRe0jU1kL._AC_SL1200_.jpg",
+      "price": 215.0,
+      "rating": 4.0,
+      "reviews_count": 2,
+      "bought": null
+    },
+    {
+      "asin": "B0851DYWBH",
+      "brand": "Tokatuker",
+      "model": "Wi-Fi valve actuator",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "type": "Valve robot",
+        "detects": "Pairs with Smart Life sensors (sold separately)",
+        "install": "DIY, on existing valve",
+        "connection": "Wi-Fi + Bluetooth"
+      },
+      "features": {
+        "auto_shutoff": false,
+        "sensors_included": false,
+        "flow_monitor": false,
+        "diy": true
+      },
+      "verdict": "A cheap Smart Life valve robot for remote shutoff from your phone or voice assistant.",
+      "pros": [
+        "$36.99",
+        "Alexa and Google",
+        "Timers and schedules"
+      ],
+      "cons": [
+        "Alignment over the valve is critical, per the listing",
+        "No leak sensor included",
+        "4.0 stars"
+      ],
+      "name": "Motorized Smart Valve Actuator (Valve Sold Separately) WiFi & Bluetooth Electric Water Shutoff Controller Robot Automatically, Tuya Smart & Smart Life App Control, Work with Alexa, No Hub Required",
+      "image": "https://m.media-amazon.com/images/I/516H0Tth1dL._AC_SL1000_.jpg",
+      "price": 36.99,
+      "rating": 4.0,
+      "reviews_count": 287,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0H1ZQVFS2",
+      "brand": "GreenVation",
+      "model": "Ai Smart Water Valve (3/4 in.)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "type": "Flow monitor + shutoff valve",
+        "detects": "Learns usage; flow, pressure, temperature",
+        "install": "Plumbed into the line",
+        "connection": "Wi-Fi (2.4/5 GHz)"
+      },
+      "features": {
+        "auto_shutoff": true,
+        "sensors_included": false,
+        "flow_monitor": true,
+        "diy": false
+      },
+      "verdict": "A Smart Life flow monitor that learns your water use and also warns about frozen and burst pipes.",
+      "pros": [
+        "Learns household use, then auto-shuts off",
+        "Freeze and burst-pipe alerts",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 10 reviews",
+        "$329.99",
+        "Plumber install"
+      ],
+      "name": "Ai Smart Water Valve, Automatic Water Leak Detector & Shutoff, 3/4\"",
+      "image": "https://m.media-amazon.com/images/I/61s4JpdQSZL._AC_SL1200_.jpg",
+      "price": 329.99,
+      "rating": 4.7,
+      "reviews_count": 10,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09L5PB6B7",
+      "brand": "UseeLink",
+      "model": "Wi-Fi valve robot",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life app",
+      "flag": "Marketed for gas valves with no gas certification listed",
+      "verdict": "The title sells it as a \"Kitchen Gas Shutoff Valve,\" but the listing names no gas safety certification.",
+      "reasons": [
+        "\"Kitchen Gas Shutoff Valve\" is in the title, and no UL, CSA, or other gas-appliance certification appears in the listing.",
+        "The bullets tell you to confirm your valve type and size yourself before buying.",
+        "3.9 stars, the lowest of the valve robots here."
+      ],
+      "name": "Smart WiFi Water Valve, APP Remote Control, Compatible with Alexa and Google Assistant, iOS/Android Apps, for Kitchen Gas Shutoff Valve, Farm Irrigation",
+      "image": "https://m.media-amazon.com/images/I/51ue68NadxL._AC_SL1500_.jpg",
+      "price": 33.99,
+      "rating": 3.9,
+      "reviews_count": 173,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Do I need a plumber?",
+      "a": "Not for valve robots and actuators, which clamp onto your existing quarter-turn main valve. Inline valves and whole-home flow monitors like Moen Flo are installed into the pipe and usually need a plumber."
+    },
+    {
+      "q": "How does it know to shut off?",
+      "a": "Pair it with leak sensors, or pick a flow monitor that spots unusual water use. When a sensor gets wet, the valve closes the main line in seconds."
+    },
+    {
+      "q": "Will it work with my valve?",
+      "a": "Robots fit most quarter-turn ball valves, but not gate valves with round handles. Check your main valve and pipe size before ordering."
+    }
+  ]
+}

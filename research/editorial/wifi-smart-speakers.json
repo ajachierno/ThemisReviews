@@ -1,0 +1,68 @@
+{
+  "feature_weights": {"hub": 0.35, "sound": 0.35, "display": 0.30},
+  "systems_note": "Echo speakers run Alexa; the Echo Dot Max has a smart home hub built in. Nest speakers run Google Assistant. Sonos Era 100 has Alexa built in.",
+  "spec_fields": [
+    {"key": "assistant", "label": "Voice assistant"},
+    {"key": "hub", "label": "Built-in smart home hub", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "table_columns": [
+    {"key": "assistant", "label": "Assistant"},
+    {"key": "hub", "label": "Hub", "type": "bool"},
+    {"key": "extras", "label": "Extras"}
+  ],
+  "awards": [
+    {"asin": "B09B8V1LZ3", "label": "Best Overall", "kind": "overall", "why": "200,442 reviews at 4.7 stars and 10K+ bought last month, for $39.99."},
+    {"asin": "B0D6SX8VLQ", "label": "Best Smart Home Hub", "kind": "budget", "why": "A built-in smart home hub and nearly 3x the bass of the Echo Dot, for $79.99."},
+    {"asin": "B0BFCBKXWL", "label": "Best for Bedrooms", "kind": "special", "why": "A smart alarm clock with a screen, Alexa, and good sound, rated 4.5 stars."},
+    {"asin": "B0BW34LCB8", "label": "Best Sound", "kind": "premium", "why": "Stereo sound from a compact Sonos speaker, with Alexa built in."}
+  ],
+  "products": [
+    {"asin": "B09B8V1LZ3", "brand": "Amazon", "model": "Echo Dot (newest)", "systems": ["alexa"],
+     "specs": {"assistant": "Alexa", "extras": "Motion and temperature sensors for routines"},
+     "features": {"hub": false, "sound": false, "display": false},
+     "verdict": "The best smart speaker for most rooms: cheap, small, and the most-reviewed speaker on Amazon.",
+     "pros": ["$39.99", "200,442 reviews at 4.7 stars", "Built-in motion and temperature sensors trigger routines", "Sold by Amazon"],
+     "cons": ["Small speaker, light bass", "Alexa only", "No built-in hub"]},
+    {"asin": "B0D6SX8VLQ", "brand": "Amazon", "model": "Echo Dot Max", "systems": ["alexa"],
+     "specs": {"assistant": "Alexa", "extras": "Built-in smart home hub, eero Wi-Fi extender, Omnisense"},
+     "features": {"hub": true, "sound": true, "display": false},
+     "verdict": "The Echo for smart homes: a built-in hub, much better bass, and it extends an eero network.",
+     "pros": ["Built-in smart home hub, no separate hub needed", "Nearly 3x the bass of the Echo Dot", "Extends eero Wi-Fi", "8K+ bought in the past month"],
+     "cons": ["4.3 stars", "$79.99", "Alexa only"]},
+    {"asin": "B0BFCBKXWL", "brand": "Amazon", "model": "Echo Spot (newest)", "systems": ["alexa"],
+     "specs": {"assistant": "Alexa", "extras": "Smart alarm clock screen"},
+     "features": {"hub": false, "sound": false, "display": true},
+     "verdict": "An Alexa alarm clock with a small screen for nightstands and desks.",
+     "pros": ["Clock, weather, and song titles on screen", "Wake-up routines with gradual light", "46,099 reviews at 4.5 stars"],
+     "cons": ["Small screen, no video", "Alexa only", "$54.99"]},
+    {"asin": "B0BW34LCB8", "brand": "Sonos", "model": "Era 100", "systems": ["alexa", "home-assistant"],
+     "specs": {"assistant": "Alexa (built in)", "extras": "Stereo, Bluetooth, line-in"},
+     "features": {"hub": false, "sound": true, "display": false},
+     "verdict": "The music-first pick: real stereo sound in a compact speaker, with Alexa built in.",
+     "pros": ["Stereo with dual tweeters", "Wi-Fi, Bluetooth, and line-in", "Official Home Assistant integration", "Sold by Amazon"],
+     "cons": ["$219", "Line-in needs a Sonos adapter", "Not a smart home hub"]},
+    {"asin": "B0GLH11HYK", "brand": "Bose", "model": "Lifestyle Ultra Speaker", "systems": [], "systems_label": "Bose app, AirPlay, Google Cast",
+     "specs": {"assistant": "Voice commands (assistant not named)", "extras": "AirPlay, Google Cast, AUX, adjustable EQ"},
+     "features": {"hub": false, "sound": true, "display": false},
+     "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
+     "pros": ["AirPlay and Google Cast", "Adjustable EQ", "AUX input"],
+     "cons": ["$299", "4.1 stars", "The listing doesn't name which voice assistant"]},
+    {"asin": "B0CL7P33RH", "brand": "Google", "model": "Nest Audio (reseller)", "systems": ["google-home"],
+     "specs": {"assistant": "Google Assistant", "extras": "Multi-room with Nest and Chromecast"},
+     "features": {"hub": false, "sound": true, "display": false},
+     "verdict": "The Google pick, but Google doesn't sell on Amazon, so you're paying a reseller premium.",
+     "pros": ["Google Assistant", "30 W woofer for its size", "Broadcast to every Nest speaker"],
+     "cons": ["Sold by a reseller at $129.99", "Only 337 reviews on this listing", "Buying from the Google Store is usually cheaper"]}
+  ],
+  "avoid": [
+    {"asin": "B0FBCSKRB6", "brand": "Google", "model": "Home speaker (South Korea model)", "systems": ["google-home"],
+     "flag": "Korean model with no US plug",
+     "verdict": "It's a South Korea model with no US wall plug, sold by a reseller for $139.99.",
+     "reasons": [
+       "\"This version is made for Korea and does not include a US wall plug,\" per the listing.",
+       "A power adapter or converter may be needed to use it in the US.",
+       "$139.99 from a reseller for an older Google speaker."
+     ]}
+  ]
+}

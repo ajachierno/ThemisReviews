@@ -1,0 +1,324 @@
+{
+  "slug": "wifi-smart-speakers",
+  "family": "smart-speakers",
+  "family_title": "Smart speakers",
+  "noun": "speaker",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Speakers",
+  "subtitle": "Alexa, Google, and Sonos speakers, ranked from live Amazon data.",
+  "intro": "We pulled the best-selling smart speakers on Amazon and scored them on rating, review volume, and features: a built-in smart home hub, sound quality, and which voice assistant it runs.",
+  "reviews_ceiling": 100000,
+  "feature_weights": {
+    "hub": 0.35,
+    "sound": 0.35,
+    "display": 0.3
+  },
+  "systems_note": "Echo speakers run Alexa; the Echo Dot Max has a smart home hub built in. Nest speakers run Google Assistant. Sonos Era 100 has Alexa built in.",
+  "spec_fields": [
+    {
+      "key": "assistant",
+      "label": "Voice assistant"
+    },
+    {
+      "key": "hub",
+      "label": "Built-in smart home hub",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "assistant",
+      "label": "Assistant"
+    },
+    {
+      "key": "hub",
+      "label": "Hub",
+      "type": "bool"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09B8V1LZ3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "200,442 reviews at 4.7 stars and 10K+ bought last month, for $39.99."
+    },
+    {
+      "asin": "B0D6SX8VLQ",
+      "label": "Best Smart Home Hub",
+      "kind": "budget",
+      "why": "A built-in smart home hub and nearly 3x the bass of the Echo Dot, for $79.99."
+    },
+    {
+      "asin": "B0BFCBKXWL",
+      "label": "Best for Bedrooms",
+      "kind": "special",
+      "why": "A smart alarm clock with a screen, Alexa, and good sound, rated 4.5 stars."
+    },
+    {
+      "asin": "B0BW34LCB8",
+      "label": "Best Sound",
+      "kind": "premium",
+      "why": "Stereo sound from a compact Sonos speaker, with Alexa built in."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09B8V1LZ3",
+      "brand": "Amazon",
+      "model": "Echo Dot (newest)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "assistant": "Alexa",
+        "extras": "Motion and temperature sensors for routines"
+      },
+      "features": {
+        "hub": false,
+        "sound": false,
+        "display": false
+      },
+      "verdict": "The best smart speaker for most rooms: cheap, small, and the most-reviewed speaker on Amazon.",
+      "pros": [
+        "$39.99",
+        "200,442 reviews at 4.7 stars",
+        "Built-in motion and temperature sensors trigger routines",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Small speaker, light bass",
+        "Alexa only",
+        "No built-in hub"
+      ],
+      "name": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
+      "image": "https://m.media-amazon.com/images/I/61J2sQtBYDL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.7,
+      "reviews_count": 200442,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0D6SX8VLQ",
+      "brand": "Amazon",
+      "model": "Echo Dot Max",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "assistant": "Alexa",
+        "extras": "Built-in smart home hub, eero Wi-Fi extender, Omnisense"
+      },
+      "features": {
+        "hub": true,
+        "sound": true,
+        "display": false
+      },
+      "verdict": "The Echo for smart homes: a built-in hub, much better bass, and it extends an eero network.",
+      "pros": [
+        "Built-in smart home hub, no separate hub needed",
+        "Nearly 3x the bass of the Echo Dot",
+        "Extends eero Wi-Fi",
+        "8K+ bought in the past month"
+      ],
+      "cons": [
+        "4.3 stars",
+        "$79.99",
+        "Alexa only"
+      ],
+      "name": "Amazon Echo Dot Max (newest model), Alexa speaker with room-filling sound and nearly 3x bass, Great for living rooms and medium-sized spaces, Designed for Alexa+, Graphite",
+      "image": "https://m.media-amazon.com/images/I/71qkYHCOQpL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.3,
+      "reviews_count": 5316,
+      "bought": "8K+ bought in past month"
+    },
+    {
+      "asin": "B0BFCBKXWL",
+      "brand": "Amazon",
+      "model": "Echo Spot (newest)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "assistant": "Alexa",
+        "extras": "Smart alarm clock screen"
+      },
+      "features": {
+        "hub": false,
+        "sound": false,
+        "display": true
+      },
+      "verdict": "An Alexa alarm clock with a small screen for nightstands and desks.",
+      "pros": [
+        "Clock, weather, and song titles on screen",
+        "Wake-up routines with gradual light",
+        "46,099 reviews at 4.5 stars"
+      ],
+      "cons": [
+        "Small screen, no video",
+        "Alexa only",
+        "$54.99"
+      ],
+      "name": "Amazon Echo Spot (newest model), Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Glacier White",
+      "image": "https://m.media-amazon.com/images/I/71xDWzzTO5L._AC_SL1500_.jpg",
+      "price": 54.99,
+      "rating": 4.5,
+      "reviews_count": 46099,
+      "bought": "9K+ bought in past month"
+    },
+    {
+      "asin": "B0BW34LCB8",
+      "brand": "Sonos",
+      "model": "Era 100",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "assistant": "Alexa (built in)",
+        "extras": "Stereo, Bluetooth, line-in"
+      },
+      "features": {
+        "hub": false,
+        "sound": true,
+        "display": false
+      },
+      "verdict": "The music-first pick: real stereo sound in a compact speaker, with Alexa built in.",
+      "pros": [
+        "Stereo with dual tweeters",
+        "Wi-Fi, Bluetooth, and line-in",
+        "Official Home Assistant integration",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$219",
+        "Line-in needs a Sonos adapter",
+        "Not a smart home hub"
+      ],
+      "name": "Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker",
+      "image": "https://m.media-amazon.com/images/I/71fAeaUTNvL._AC_SL1500_.jpg",
+      "price": 219.0,
+      "rating": 4.4,
+      "reviews_count": 2804,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GLH11HYK",
+      "brand": "Bose",
+      "model": "Lifestyle Ultra Speaker",
+      "systems": [],
+      "systems_label": "Bose app, AirPlay, Google Cast",
+      "specs": {
+        "assistant": "Voice commands (assistant not named)",
+        "extras": "AirPlay, Google Cast, AUX, adjustable EQ"
+      },
+      "features": {
+        "hub": false,
+        "sound": true,
+        "display": false
+      },
+      "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
+      "pros": [
+        "AirPlay and Google Cast",
+        "Adjustable EQ",
+        "AUX input"
+      ],
+      "cons": [
+        "$299",
+        "4.1 stars",
+        "The listing doesn't name which voice assistant"
+      ],
+      "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke",
+      "image": "https://m.media-amazon.com/images/I/81DYUJWBUoL._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.1,
+      "reviews_count": 323,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0CL7P33RH",
+      "brand": "Google",
+      "model": "Nest Audio (reseller)",
+      "systems": [
+        "google-home"
+      ],
+      "specs": {
+        "assistant": "Google Assistant",
+        "extras": "Multi-room with Nest and Chromecast"
+      },
+      "features": {
+        "hub": false,
+        "sound": true,
+        "display": false
+      },
+      "verdict": "The Google pick, but Google doesn't sell on Amazon, so you're paying a reseller premium.",
+      "pros": [
+        "Google Assistant",
+        "30 W woofer for its size",
+        "Broadcast to every Nest speaker"
+      ],
+      "cons": [
+        "Sold by a reseller at $129.99",
+        "Only 337 reviews on this listing",
+        "Buying from the Google Store is usually cheaper"
+      ],
+      "name": "Google Audio Bluetooth Speaker with Keychain LED - Wireless Music Streaming - Chalk",
+      "image": "https://m.media-amazon.com/images/I/81-qmWPiqTL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviews_count": 337,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FBCSKRB6",
+      "brand": "Google",
+      "model": "Home speaker (South Korea model)",
+      "systems": [
+        "google-home"
+      ],
+      "flag": "Korean model with no US plug",
+      "verdict": "It's a South Korea model with no US wall plug, sold by a reseller for $139.99.",
+      "reasons": [
+        "\"This version is made for Korea and does not include a US wall plug,\" per the listing.",
+        "A power adapter or converter may be needed to use it in the US.",
+        "$139.99 from a reseller for an older Google speaker."
+      ],
+      "name": "Google Home Smart Speaker (South Korea Model) – Voice-Controlled Wi-Fi Speaker Assistant, White/Slate, No US Plug, Adapter Needed, Works with Nest, Chromecast, Smart Home Audio Hub",
+      "image": "https://m.media-amazon.com/images/I/71t3ThqZSEL._AC_SL1500_.jpg",
+      "price": 139.99,
+      "rating": 3.9,
+      "reviews_count": 24,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Alexa, Google, or Siri?",
+      "a": "Pick the assistant that matches your phone and smart home. Echo speakers run Alexa, Nest speakers run Google Assistant, and Sonos speakers can use Alexa or Sonos Voice Control."
+    },
+    {
+      "q": "Can a smart speaker be my hub?",
+      "a": "Some can. Several Echo models have a Zigbee hub or Thread border router built in, and Nest speakers and displays can be Matter controllers. Check the listing if you want it to run your devices too."
+    },
+    {
+      "q": "How much should I spend for sound?",
+      "a": "Small speakers like the Echo Dot are fine for voice and casual music. If music matters, a larger speaker like a Sonos Era is a big step up."
+    }
+  ]
+}
