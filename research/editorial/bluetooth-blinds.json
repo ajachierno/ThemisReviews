@@ -1,0 +1,359 @@
+{
+  "feature_weights": {
+    "hub_included": 0.3,
+    "solar": 0.3,
+    "multi": 0.4
+  },
+  "systems_note": "SwitchBot curtains and blinds run on Bluetooth. Add a SwitchBot hub (Hub Mini, Hub 2, or Hub 3) for Alexa, Google, SmartThings, and remote control, and a Matter-capable hub for Apple Home. Home Assistant controls them locally over Bluetooth.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C6XZYFS7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "SwitchBot Curtain 3 for U-rails, rated 4.5 stars by 510 buyers."
+    },
+    {
+      "asin": "B0BMLFZ4CP",
+      "label": "Best for Blinds",
+      "kind": "special",
+      "why": "Solar tilt motor for existing horizontal blinds, 1,449 reviews."
+    },
+    {
+      "asin": "B0FKH3PQT1",
+      "label": "Best Starter Kit",
+      "kind": "budget",
+      "why": "Two curtain openers with a Hub Mini, so voice control works out of the box."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C6XZYFS7",
+      "brand": "SwitchBot",
+      "model": "Curtain 3 (U Rail)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Curtain opener for U-rails",
+        "power": "Battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": false
+      },
+      "verdict": "SwitchBot's best-rated curtain opener, with a sub-25 dB silent mode.",
+      "pros": [
+        "4.5 stars",
+        "Silent mode below 25 dB",
+        "No tools to install"
+      ],
+      "cons": [
+        "Hub needed for voice and remote use",
+        "U-rails only",
+        "$89.99"
+      ]
+    },
+    {
+      "asin": "B0C6XVXPCC",
+      "brand": "SwitchBot",
+      "model": "Curtain 3 (Rod)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Curtain opener for rods",
+        "power": "Battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": false
+      },
+      "verdict": "The most-reviewed curtain opener, for standard curtain rods.",
+      "pros": [
+        "1,621 reviews",
+        "$79.99",
+        "Over twice the previous model's thrust"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Hub needed for voice",
+        "Older than the 2025 Rod model"
+      ]
+    },
+    {
+      "asin": "B0F8BR5Q66",
+      "brand": "SwitchBot",
+      "model": "Curtain 3 Rod (2025)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Curtain opener for rods",
+        "power": "Battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": false
+      },
+      "verdict": "The 2025 rod model clears telescoping-rod bumps up to 4 mm.",
+      "pros": [
+        "Clears 4 mm rod bumps",
+        "Moves curtains up to 33 lb",
+        "4.4 stars"
+      ],
+      "cons": [
+        "$89.99",
+        "Hub needed for voice",
+        "Only 174 reviews"
+      ]
+    },
+    {
+      "asin": "B0F9W85LWF",
+      "brand": "SwitchBot",
+      "model": "Curtain 3 Rod (2025) 2-pack",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "2 curtain openers for rods",
+        "power": "Battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": true
+      },
+      "verdict": "Two 2025 rod openers for a pair of curtains.",
+      "pros": [
+        "2-pack",
+        "200+ bought in the past month",
+        "No calibration"
+      ],
+      "cons": [
+        "$148.99",
+        "4.2 stars",
+        "No hub included"
+      ]
+    },
+    {
+      "asin": "B0FB38TSRV",
+      "brand": "SwitchBot",
+      "model": "Curtain 3 Rod (2025) 2-pack with remote",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "2 curtain openers + remote",
+        "power": "Battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": true
+      },
+      "verdict": "Two openers plus a Bluetooth remote, for $4 more than the plain 2-pack.",
+      "pros": [
+        "Remote included",
+        "2-pack",
+        "224 reviews"
+      ],
+      "cons": [
+        "4.0 stars",
+        "No hub included",
+        "$152.99"
+      ]
+    },
+    {
+      "asin": "B0FKH3PQT1",
+      "brand": "SwitchBot",
+      "model": "Curtain opener 2-pack + Hub Mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "2 curtain openers + Hub Mini",
+        "power": "Battery",
+        "hub": "Hub Mini included"
+      },
+      "features": {
+        "hub_included": true,
+        "solar": false,
+        "multi": true
+      },
+      "verdict": "Everything you need for voice-controlled curtains in one box.",
+      "pros": [
+        "Hub Mini included",
+        "Alexa, Google, and HomeKit",
+        "4.3 stars"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 50 reviews",
+        "Hub Mini needs a Matter-capable hub for Apple Home"
+      ]
+    },
+    {
+      "asin": "B0FSL2PLK6",
+      "brand": "SwitchBot",
+      "model": "Curtain opener with solar panel",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Curtain opener for rods",
+        "power": "Battery + solar panel",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": true,
+        "multi": false
+      },
+      "verdict": "Add the solar panel and you'll rarely, if ever, need to charge it.",
+      "pros": [
+        "Solar panel included",
+        "4.5 stars",
+        "$99.99"
+      ],
+      "cons": [
+        "Only 29 reviews",
+        "Hub needed for voice",
+        "Rods only"
+      ]
+    },
+    {
+      "asin": "B0BMLFZ4CP",
+      "brand": "SwitchBot",
+      "model": "Blind Tilt",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Tilt motor for horizontal blinds",
+        "power": "Solar + 2000 mAh battery",
+        "hub": "Optional SwitchBot hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": true,
+        "multi": false
+      },
+      "verdict": "Tilts existing horizontal blinds to within 2 degrees, and closes them when the sun hits.",
+      "pros": [
+        "Solar charging",
+        "Built-in light sensor",
+        "1,449 reviews"
+      ],
+      "cons": [
+        "Tilt only",
+        "Only some blind types fit",
+        "Hub needed for voice"
+      ]
+    },
+    {
+      "asin": "B0GGQQ7SP2",
+      "brand": "HeyBlinds",
+      "model": "Blackout motorized blinds 32\" x 72\"",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (optional hub)",
+      "specs": {
+        "type": "Blackout roller shade",
+        "power": "Not stated in bullets",
+        "hub": "Optional Tuya hub"
+      },
+      "features": {
+        "hub_included": false,
+        "solar": false,
+        "multi": false
+      },
+      "verdict": "Complete blackout shades with a Bluetooth motor that runs in the Smart Life app.",
+      "pros": [
+        "100% blackout",
+        "Bluetooth app control, no hub",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 2 left at capture time",
+        "Only 38 reviews",
+        "Hub needed for voice"
+      ]
+    }
+  ],
+  "avoid": []
+}

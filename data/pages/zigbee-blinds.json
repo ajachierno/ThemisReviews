@@ -1,0 +1,474 @@
+{
+  "slug": "zigbee-blinds",
+  "family": "blinds",
+  "family_title": "Blinds and shades",
+  "noun": "shade",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Smart Blinds and Shade Motors",
+  "subtitle": "Zigbee shade motors and motorized blinds, ranked.",
+  "intro": "We pulled the Zigbee blinds and roller shade motors on Amazon and scored them on rating, review volume, and features: retrofit fit, battery life, and remotes.",
+  "reviews_ceiling": 200,
+  "feature_weights": {
+    "complete": 0.35,
+    "echo_direct": 0.35,
+    "rechargeable": 0.3
+  },
+  "systems_note": "Tuya Zigbee motors need a Tuya / Smart Life Zigbee gateway and work with Home Assistant through the Tuya integration or Zigbee2MQTT. Graywind and Yoolax sell several motor types on one listing; pick the Zigbee option.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09STSWQCB",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Complete honeycomb blinds that pair straight to an Echo, SmartThings, Hubitat, or Home Assistant."
+    },
+    {
+      "asin": "B07F817HJT",
+      "label": "Best Custom Shades",
+      "kind": "special",
+      "why": "Custom-size blackout shades with a Zigbee motor option, 1,217 reviews."
+    },
+    {
+      "asin": "B0C6KP9SDR",
+      "label": "Best Retrofit Motor",
+      "kind": "budget",
+      "why": "Motorize the roller shades you already own, rated 4.4 stars."
+    },
+    {
+      "asin": "B0DCNTCKTK",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "SmartWings shades with a Zigbee or Z-Wave motor, rated 4.9 stars."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09STSWQCB",
+      "brand": "THIRDREALITY",
+      "model": "ZigBee Smart Blind (honeycomb)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Cordless blackout honeycomb blind",
+        "power": "AA batteries",
+        "hub": "Echo with Zigbee or any Zigbee 3.0 hub"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "A complete blind, not a kit, that names more Zigbee hubs than anything else here.",
+      "pros": [
+        "Pairs straight to an Echo with Zigbee",
+        "Names SmartThings, Hubitat, and Home Assistant",
+        "Up to 100% blackout"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 8 left at capture time",
+        "$158.99"
+      ],
+      "name": "THIRDREALITY ZigBee Smart Blind, Motorized Blackout Window Shades with Remote, Cordless Honeycomb Blinds, Automatic Height Setting, AA Batteries Powered, 29\" W x 72\" H Beige/White",
+      "image": "https://m.media-amazon.com/images/I/71TMhEJc6LL._AC_SL1500_.jpg",
+      "price": 158.99,
+      "rating": 4.0,
+      "reviews_count": 108,
+      "bought": null
+    },
+    {
+      "asin": "B07F817HJT",
+      "brand": "Yoolax",
+      "model": "Motorized blackout shades (custom size)",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Custom-size blackout roller shade",
+        "power": "Not stated in bullets",
+        "hub": "Echo with Zigbee (Zigbee motor option)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "The most-reviewed custom shades here; choose the Zigbee motor at checkout.",
+      "pros": [
+        "1,217 reviews, 4.4 stars",
+        "Custom sizes",
+        "Thermal blackout backing"
+      ],
+      "cons": [
+        "One listing covers Zigbee, Matter, and Bluetooth motors",
+        "$119 and up",
+        "Power source isn't in the bullets"
+      ],
+      "name": "Yoolax Motorized Blinds with Remote, Smart Blinds for Windows, Custom Size",
+      "image": "https://m.media-amazon.com/images/I/81t+l9H3pvL._AC_SL1500_.jpg",
+      "price": 119.0,
+      "rating": 4.4,
+      "reviews_count": 1217,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07TDHMCLB",
+      "brand": "Graywind",
+      "model": "Motorized blackout roller shades",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Blackout roller shade with valance",
+        "power": "Battery",
+        "hub": "Echo with Zigbee (Zigbee motor option)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "Blackout roller shades with a 15-channel remote and a Zigbee motor option.",
+      "pros": [
+        "15-channel remote included",
+        "Pairs to an Echo with Zigbee",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Pick the Zigbee motor; the listing also sells Bluetooth",
+        "Only 68 reviews",
+        "$148.99"
+      ],
+      "name": "Graywind Motorized Roller Shades 100% Blackout Free Stop Window Shades Cordless Wireless Remote Control Window Roller Blinds with Valance for Smart Home and Office, Customized Size, Linen Beige",
+      "image": "https://m.media-amazon.com/images/I/71p-aGTF6wL._AC_SL1500_.jpg",
+      "price": 148.99,
+      "rating": 4.4,
+      "reviews_count": 68,
+      "bought": null
+    },
+    {
+      "asin": "B0FF4YL1MW",
+      "brand": "JaeJaes",
+      "model": "Smart roller shades 23\" x 72\"",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Roller shade",
+        "power": "2200 mAh battery",
+        "hub": "Echo with Zigbee"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": true
+      },
+      "verdict": "A ready-made roller shade that pairs to an Echo with no extra gateway.",
+      "pros": [
+        "No gateway with a Zigbee Echo",
+        "2200 mAh battery",
+        "$119.99"
+      ],
+      "cons": [
+        "4.1 stars",
+        "One fixed size",
+        "Only 7 left at capture time"
+      ],
+      "name": "Smart Roller Shades for Windows, Works with Alexa, 23\" W x 72\" H, Black",
+      "image": "https://m.media-amazon.com/images/I/61sO+68oFvL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.1,
+      "reviews_count": 91,
+      "bought": null
+    },
+    {
+      "asin": "B0DCNTCKTK",
+      "brand": "SmartWings",
+      "model": "Z-Wave/Zigbee roller shades",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Roller shade",
+        "power": "Not stated in bullets",
+        "hub": "Echo with Zigbee or a Zigbee hub (Z-Wave option too)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "Premium shades with a choice of Zigbee or Z-Wave motor.",
+      "pros": [
+        "Zigbee or Z-Wave motor",
+        "4.9 stars",
+        "Works with five Echo models directly"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 11 reviews",
+        "Ships in 8+ days"
+      ],
+      "name": "SmartWings Z-Wave/Zigbee Smart Roller Window Shades, Eclipse Umber",
+      "image": "https://m.media-amazon.com/images/I/81DlBI1ykuL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.9,
+      "reviews_count": 11,
+      "bought": null
+    },
+    {
+      "asin": "B0C6KP9SDR",
+      "brand": "Sortfle",
+      "model": "1.5\" Zigbee blinds motor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.5\" tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "Turns an existing 1.5-inch roller shade into a smart one with no wiring.",
+      "pros": [
+        "No wiring",
+        "Rechargeable",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Tuya Zigbee gateway needed",
+        "Only 41 reviews",
+        "Measure your tube first"
+      ],
+      "name": "1.5\" Zigbee Blinds Motor Rechargeable, Automatic Blinds Opener-No Wiring, Wireless App or Timer Control, Add Shade Motor Compatible with Alexa, Google Home",
+      "image": "https://m.media-amazon.com/images/I/51eNQnVrXrL._AC_SL1500_.jpg",
+      "price": 99.89,
+      "rating": 4.4,
+      "reviews_count": 41,
+      "bought": null
+    },
+    {
+      "asin": "B0FKBBWQPC",
+      "brand": "TeFei",
+      "model": "AM25 Zigbee motor kit (1.5\")",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.5\" tubes",
+        "power": "USB-C rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A USB-C rechargeable AM25 motor for 1.5-inch roller, zebra, and Roman shades.",
+      "pros": [
+        "USB-C charging",
+        "10 lb load",
+        "Works with Smart Life schedules"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Tuya gateway needed",
+        "1.5\" tubes only"
+      ],
+      "name": "AM25 Zigbee Smart Blinds Motor for 1.5\" Shade Tube, Type-C Rechargeable Window Shade Motor, 10 lbs Load Capacity, DIY Motorized Zebra/Roman/Roller Blinds, Compatible with Alexa & Google Home",
+      "image": "https://m.media-amazon.com/images/I/61EhK7fc3IL._AC_SL1500_.jpg",
+      "price": 98.88,
+      "rating": 4.3,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0FRS2HHRV",
+      "brand": "Rollerhouse",
+      "model": "AM22 Zigbee motor (32 mm)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 32 mm tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A rechargeable motor for 32 mm (1.25-inch) roller shade tubes.",
+      "pros": [
+        "Rechargeable",
+        "5.0 stars",
+        "Clear sizing guidance"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Not standalone Wi-Fi; gateway needed",
+        "32 mm tubes only"
+      ],
+      "name": "AM22 Zigbee Smart Roller Shade Motor for 32mm Tubes - Rechargeable Battery, Compatible with Alexa & Google Home via Tuya Zigbee Gateway, Voice & App Control",
+      "image": "https://m.media-amazon.com/images/I/519KWCHRiML._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 5.0,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0DDCCVG3F",
+      "brand": "Sortfle",
+      "model": "AM22 Zigbee motor kit (1.25\")",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.25\" tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "Sortfle's motor for 1.25-inch round aluminum tubes.",
+      "pros": [
+        "Rechargeable",
+        "Kit includes fittings",
+        "4.3 stars"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Not for octagonal tubes",
+        "Tuya gateway needed"
+      ],
+      "name": "AM22 Smart Tuya Zigbee Blinds Motor Kit, Rechargeable Roller Shade Motor for 1.25\"(32mm) Tubes, App/Voice Control, Works with Alexa & Google Home, DIY Manual to Motorized Blind Conversion Kit",
+      "image": "https://m.media-amazon.com/images/I/51HMWZGR4HL._AC_SL1500_.jpg",
+      "price": 97.89,
+      "rating": 4.3,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0GSR8294G",
+      "brand": "TeFei",
+      "model": "AM25 Zigbee motor only",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Replacement AM25 motor",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A drop-in replacement for a failed AM25 shade motor.",
+      "pros": [
+        "Reuse your existing fittings",
+        "$89.88",
+        "Fits AM25 series"
+      ],
+      "cons": [
+        "Motor only, no brackets",
+        "Only 7 reviews",
+        "Tuya gateway needed"
+      ],
+      "name": "AM25 Zigbee Smart Blinds Motor Only-for 1.5\" Roller Tube-Rechargeable DIY Tubular Motor for Roller Shades, Zebra Blinds&Roman Shades Compatible with Alexa, Google Home (Brackets/Remote Not Included)",
+      "image": "https://m.media-amazon.com/images/I/51sdc27yF5L._AC_SL1500_.jpg",
+      "price": 89.88,
+      "rating": 4.3,
+      "reviews_count": 7,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Retrofit robot or new motorized shade?",
+      "a": "Curtain robots and blind tilters attach to what you already have and install in minutes. Motorized shades replace your blinds and look cleaner, but you have to measure and order to size."
+    },
+    {
+      "q": "How are they powered?",
+      "a": "Most use a rechargeable battery charged over USB-C or a small solar panel. Expect weeks to months per charge depending on use."
+    },
+    {
+      "q": "Do I need a hub?",
+      "a": "Bluetooth robots need a hub for remote control and automations. Zigbee motors need a Zigbee hub. Wi-Fi models connect directly."
+    }
+  ]
+}

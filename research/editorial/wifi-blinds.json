@@ -1,0 +1,223 @@
+{
+  "feature_weights": {
+    "no_hub": 0.4,
+    "apple": 0.3,
+    "retrofit": 0.3
+  },
+  "systems_note": "SwitchBot Blind Tilt is Bluetooth; the included Hub Mini puts it on Wi-Fi. Smart Life (Tuya) devices work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BNHQJ95L",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Three solar Blind Tilts plus a Hub Mini, rated 4.4 stars by 816 buyers."
+    },
+    {
+      "asin": "B0FX9BVZNW",
+      "label": "Best for Curtains",
+      "kind": "special",
+      "why": "An Apple Home certified Matter-over-Wi-Fi curtain track with no hub."
+    },
+    {
+      "asin": "B0CSFCCQC6",
+      "label": "Best Budget Motor",
+      "kind": "budget",
+      "why": "A $79.88 Wi-Fi tube motor that needs no bridge."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BNHQJ95L",
+      "brand": "SwitchBot",
+      "model": "Blind Tilt 3-pack + Hub Mini",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Retrofit tilt motor for horizontal blinds",
+        "power": "Solar + battery",
+        "hub": "Hub Mini included"
+      },
+      "features": {
+        "no_hub": false,
+        "apple": true,
+        "retrofit": true
+      },
+      "verdict": "The easiest way to automate the horizontal blinds you already own.",
+      "pros": [
+        "Hub included",
+        "Solar charging",
+        "816 reviews"
+      ],
+      "cons": [
+        "Tilt only, doesn't raise blinds",
+        "Bluetooth with a Wi-Fi hub",
+        "$164.99"
+      ]
+    },
+    {
+      "asin": "B0FX9BVZNW",
+      "brand": "Remac",
+      "model": "M1 curtain track (66-114\")",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Motorized curtain track",
+        "power": "Wired",
+        "hub": "None (Matter over Wi-Fi)"
+      },
+      "features": {
+        "no_hub": true,
+        "apple": true,
+        "retrofit": false
+      },
+      "verdict": "A Matter curtain track that adds straight to Apple Home, Alexa, or Google.",
+      "pros": [
+        "Apple Home certified",
+        "No hub",
+        "Pull-to-start",
+        "Remote included"
+      ],
+      "cons": [
+        "$245.99",
+        "Only 59 reviews",
+        "Replaces your curtain rod"
+      ]
+    },
+    {
+      "asin": "B0H49FSJR5",
+      "brand": "Remac",
+      "model": "M1 Pro curtain track",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Ceiling or wall curtain track",
+        "power": "Wired",
+        "hub": "None (Matter over Wi-Fi)"
+      },
+      "features": {
+        "no_hub": true,
+        "apple": true,
+        "retrofit": false
+      },
+      "verdict": "The Pro version mounts on the ceiling or wall for patio doors and wide windows.",
+      "pros": [
+        "Ceiling or wall mount",
+        "4.9 stars",
+        "No cutting needed"
+      ],
+      "cons": [
+        "Only 27 reviews",
+        "$258.99",
+        "2.4 GHz Wi-Fi"
+      ]
+    },
+    {
+      "asin": "B0H6ZQ6WVN",
+      "brand": "Aura",
+      "model": "SmartShade beaded-chain motor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "type": "Retrofit motor for beaded-chain shades",
+        "power": "Not stated in bullets",
+        "hub": "None (Wi-Fi dongle included)"
+      },
+      "features": {
+        "no_hub": true,
+        "apple": false,
+        "retrofit": true
+      },
+      "verdict": "Motorizes beaded-chain roller and zebra shades without replacing them.",
+      "pros": [
+        "Keeps your existing shades",
+        "No hub or subscription",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "3.4 stars from 22 reviews",
+        "Shades up to 6.6 lb",
+        "Dongle must stay plugged in"
+      ]
+    },
+    {
+      "asin": "B0CSFCCQC6",
+      "brand": "Sortfle",
+      "model": "Wi-Fi tubular motor (1.5\")",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "type": "Retrofit motor for 1.5\" tubes",
+        "power": "Not stated in bullets",
+        "hub": "None (built-in Wi-Fi)"
+      },
+      "features": {
+        "no_hub": true,
+        "apple": false,
+        "retrofit": true
+      },
+      "verdict": "A Wi-Fi roller motor that also takes a 433 MHz remote.",
+      "pros": [
+        "No bridge needed",
+        "433 MHz remote support",
+        "$79.88"
+      ],
+      "cons": [
+        "Only 9 reviews",
+        "1.5\" tubes only",
+        "Power source isn't in the bullets"
+      ]
+    }
+  ],
+  "avoid": []
+}

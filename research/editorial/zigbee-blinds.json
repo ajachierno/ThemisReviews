@@ -1,0 +1,386 @@
+{
+  "feature_weights": {
+    "complete": 0.35,
+    "echo_direct": 0.35,
+    "rechargeable": 0.3
+  },
+  "systems_note": "Tuya Zigbee motors need a Tuya / Smart Life Zigbee gateway and work with Home Assistant through the Tuya integration or Zigbee2MQTT. Graywind and Yoolax sell several motor types on one listing; pick the Zigbee option.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09STSWQCB",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Complete honeycomb blinds that pair straight to an Echo, SmartThings, Hubitat, or Home Assistant."
+    },
+    {
+      "asin": "B07F817HJT",
+      "label": "Best Custom Shades",
+      "kind": "special",
+      "why": "Custom-size blackout shades with a Zigbee motor option, 1,217 reviews."
+    },
+    {
+      "asin": "B0C6KP9SDR",
+      "label": "Best Retrofit Motor",
+      "kind": "budget",
+      "why": "Motorize the roller shades you already own, rated 4.4 stars."
+    },
+    {
+      "asin": "B0DCNTCKTK",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "SmartWings shades with a Zigbee or Z-Wave motor, rated 4.9 stars."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09STSWQCB",
+      "brand": "THIRDREALITY",
+      "model": "ZigBee Smart Blind (honeycomb)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Cordless blackout honeycomb blind",
+        "power": "AA batteries",
+        "hub": "Echo with Zigbee or any Zigbee 3.0 hub"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "A complete blind, not a kit, that names more Zigbee hubs than anything else here.",
+      "pros": [
+        "Pairs straight to an Echo with Zigbee",
+        "Names SmartThings, Hubitat, and Home Assistant",
+        "Up to 100% blackout"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 8 left at capture time",
+        "$158.99"
+      ]
+    },
+    {
+      "asin": "B07F817HJT",
+      "brand": "Yoolax",
+      "model": "Motorized blackout shades (custom size)",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Custom-size blackout roller shade",
+        "power": "Not stated in bullets",
+        "hub": "Echo with Zigbee (Zigbee motor option)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "The most-reviewed custom shades here; choose the Zigbee motor at checkout.",
+      "pros": [
+        "1,217 reviews, 4.4 stars",
+        "Custom sizes",
+        "Thermal blackout backing"
+      ],
+      "cons": [
+        "One listing covers Zigbee, Matter, and Bluetooth motors",
+        "$119 and up",
+        "Power source isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B07TDHMCLB",
+      "brand": "Graywind",
+      "model": "Motorized blackout roller shades",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Blackout roller shade with valance",
+        "power": "Battery",
+        "hub": "Echo with Zigbee (Zigbee motor option)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "Blackout roller shades with a 15-channel remote and a Zigbee motor option.",
+      "pros": [
+        "15-channel remote included",
+        "Pairs to an Echo with Zigbee",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Pick the Zigbee motor; the listing also sells Bluetooth",
+        "Only 68 reviews",
+        "$148.99"
+      ]
+    },
+    {
+      "asin": "B0FF4YL1MW",
+      "brand": "JaeJaes",
+      "model": "Smart roller shades 23\" x 72\"",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Roller shade",
+        "power": "2200 mAh battery",
+        "hub": "Echo with Zigbee"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": true
+      },
+      "verdict": "A ready-made roller shade that pairs to an Echo with no extra gateway.",
+      "pros": [
+        "No gateway with a Zigbee Echo",
+        "2200 mAh battery",
+        "$119.99"
+      ],
+      "cons": [
+        "4.1 stars",
+        "One fixed size",
+        "Only 7 left at capture time"
+      ]
+    },
+    {
+      "asin": "B0DCNTCKTK",
+      "brand": "SmartWings",
+      "model": "Z-Wave/Zigbee roller shades",
+      "systems": [
+        "alexa",
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Roller shade",
+        "power": "Not stated in bullets",
+        "hub": "Echo with Zigbee or a Zigbee hub (Z-Wave option too)"
+      },
+      "features": {
+        "complete": true,
+        "echo_direct": true,
+        "rechargeable": false
+      },
+      "verdict": "Premium shades with a choice of Zigbee or Z-Wave motor.",
+      "pros": [
+        "Zigbee or Z-Wave motor",
+        "4.9 stars",
+        "Works with five Echo models directly"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 11 reviews",
+        "Ships in 8+ days"
+      ]
+    },
+    {
+      "asin": "B0C6KP9SDR",
+      "brand": "Sortfle",
+      "model": "1.5\" Zigbee blinds motor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.5\" tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "Turns an existing 1.5-inch roller shade into a smart one with no wiring.",
+      "pros": [
+        "No wiring",
+        "Rechargeable",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Tuya Zigbee gateway needed",
+        "Only 41 reviews",
+        "Measure your tube first"
+      ]
+    },
+    {
+      "asin": "B0FKBBWQPC",
+      "brand": "TeFei",
+      "model": "AM25 Zigbee motor kit (1.5\")",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.5\" tubes",
+        "power": "USB-C rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A USB-C rechargeable AM25 motor for 1.5-inch roller, zebra, and Roman shades.",
+      "pros": [
+        "USB-C charging",
+        "10 lb load",
+        "Works with Smart Life schedules"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Tuya gateway needed",
+        "1.5\" tubes only"
+      ]
+    },
+    {
+      "asin": "B0FRS2HHRV",
+      "brand": "Rollerhouse",
+      "model": "AM22 Zigbee motor (32 mm)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 32 mm tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A rechargeable motor for 32 mm (1.25-inch) roller shade tubes.",
+      "pros": [
+        "Rechargeable",
+        "5.0 stars",
+        "Clear sizing guidance"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Not standalone Wi-Fi; gateway needed",
+        "32 mm tubes only"
+      ]
+    },
+    {
+      "asin": "B0DDCCVG3F",
+      "brand": "Sortfle",
+      "model": "AM22 Zigbee motor kit (1.25\")",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Retrofit motor for 1.25\" tubes",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "Sortfle's motor for 1.25-inch round aluminum tubes.",
+      "pros": [
+        "Rechargeable",
+        "Kit includes fittings",
+        "4.3 stars"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Not for octagonal tubes",
+        "Tuya gateway needed"
+      ]
+    },
+    {
+      "asin": "B0GSR8294G",
+      "brand": "TeFei",
+      "model": "AM25 Zigbee motor only",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life (Tuya Zigbee gateway)",
+      "specs": {
+        "type": "Replacement AM25 motor",
+        "power": "Rechargeable",
+        "hub": "Tuya Zigbee gateway"
+      },
+      "features": {
+        "complete": false,
+        "echo_direct": false,
+        "rechargeable": true
+      },
+      "verdict": "A drop-in replacement for a failed AM25 shade motor.",
+      "pros": [
+        "Reuse your existing fittings",
+        "$89.88",
+        "Fits AM25 series"
+      ],
+      "cons": [
+        "Motor only, no brackets",
+        "Only 7 reviews",
+        "Tuya gateway needed"
+      ]
+    }
+  ],
+  "avoid": []
+}
