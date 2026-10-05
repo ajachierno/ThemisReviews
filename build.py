@@ -521,8 +521,8 @@ def render_family_links(site, cat):
     plus the all-protocols product-type page."""
     links = []
     if cat.get("family_title"):
-        links.append(f'<a class="sub-link fam-all" href="{esc(family_slug(cat["family_title"]))}.html">Compare every '
-                     f'{esc(family_display(cat["family_title"]).lower().replace("smart ", "", 1))} on one page <span class="arrow">&rarr;</span></a>')
+        links.append(f'<a class="sub-link fam-all" href="{esc(family_slug(cat["family_title"]))}.html">Compare all '
+                     f'{esc(family_display(cat["family_title"]).lower())} on one page <span class="arrow">&rarr;</span></a>')
     for proto in site["protocols"]:
         for s in proto["subs"]:
             if s.get("ready") and s.get("family") == cat.get("family") and s["slug"] != cat["slug"]:
