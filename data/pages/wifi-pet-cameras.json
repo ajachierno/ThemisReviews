@@ -1,0 +1,407 @@
+{
+  "slug": "wifi-pet-cameras",
+  "family": "pet-cameras",
+  "family_title": "Pet cameras",
+  "noun": "camera",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Pet Cameras",
+  "subtitle": "Treat-tossing and pan-tilt cameras for checking on pets, ranked.",
+  "intro": "We pulled the pet cameras on Amazon and scored them on rating, review volume, and features: treat tossing, 360-degree view, and whether core features need a subscription.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "treats": 0.3,
+    "no_fee": 0.3,
+    "voice": 0.2,
+    "tracking": 0.2
+  },
+  "systems_note": "Tapo cameras have an official TP-Link integration in Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "treats",
+      "label": "Treat toss"
+    },
+    {
+      "key": "fees",
+      "label": "Fees"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "treats",
+      "label": "Treats"
+    },
+    {
+      "key": "fees",
+      "label": "Fees"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09GDQZLD1",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "See, talk, and toss treats with no subscription, rated 4.3 stars by 9,059 buyers."
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $29.99 pan-tilt camera with Alexa and Google, 22,956 reviews."
+    },
+    {
+      "asin": "B0CF5B94X2",
+      "label": "Best Value Treat Cam",
+      "kind": "special",
+      "why": "2K, 360° view, and treat tossing for $69.99."
+    },
+    {
+      "asin": "B0DZHDF7MD",
+      "label": "Most Fun",
+      "kind": "premium",
+      "why": "A camera on wheels that drives around to find your pet."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09GDQZLD1",
+      "brand": "Furbo",
+      "model": "360° Dog Camera (no-fee version)",
+      "systems": [],
+      "systems_label": "Furbo app",
+      "specs": {
+        "video": "1080p, 360°, color night vision",
+        "treats": "Yes",
+        "fees": "Core features free"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": true,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "The original treat-tossing camera, sold here without a required plan.",
+      "pros": [
+        "No subscription needed for core features",
+        "Barking alerts",
+        "9,059 reviews"
+      ],
+      "cons": [
+        "$184",
+        "Advanced alerts need Furbo Nanny",
+        "2.4 GHz only"
+      ],
+      "name": "Furbo 360° Dog Camera [Core Features, No Ongoing Cost]",
+      "image": "https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL1500_.jpg",
+      "price": 184.0,
+      "rating": 4.3,
+      "reviews_count": 9059,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0F8LNT9H7",
+      "brand": "Furbo",
+      "model": "Mini 360° (no-fee version)",
+      "systems": [],
+      "systems_label": "Furbo app",
+      "specs": {
+        "video": "2K QHD, 360°",
+        "treats": "Yes",
+        "fees": "Core features free"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": true,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "A smaller Furbo with 2K video and no required plan.",
+      "pros": [
+        "2K video",
+        "Barking and meowing alerts",
+        "$99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Advanced features need a plan",
+        "Smaller treat hopper"
+      ],
+      "name": "Furbo Mini 360° Camera [Core Features, No Ongoing Cost]",
+      "image": "https://m.media-amazon.com/images/I/710+kgESndL._AC_SL1500_.jpg",
+      "price": 99.0,
+      "rating": 4.0,
+      "reviews_count": 942,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0CF5B94X2",
+      "brand": "TKENPRO",
+      "model": "2K treat camera",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "2K, 360°",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": false
+      },
+      "verdict": "Most of a Furbo for well under half the price, with Alexa and Google.",
+      "pros": [
+        "$69.99",
+        "5 GHz and 2.4 GHz",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Lesser-known brand",
+        "Cloud plan details aren't in the bullets"
+      ],
+      "name": "TKENPRO 2K Pet Camera Treat Dispenser, 360°View Dog Camera with Phone App, 5G&2.4G WiFi 2-Way Talk Pet Cam Indoor for Cats Remote Treat Tossing, Motion Alerts, Auto Tracking",
+      "image": "https://m.media-amazon.com/images/I/61OIHu1cxiL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.3,
+      "reviews_count": 1001,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DZ6NMTY9",
+      "brand": "TKENPRO",
+      "model": "2K treat camera with auto tracking",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "2K, 360° auto tracking",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "Adds auto tracking and an AI photo album for $6 more.",
+      "pros": [
+        "Auto tracking",
+        "AI photo album",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$75.99",
+        "4.3 stars",
+        "Cloud plan details aren't in the bullets"
+      ],
+      "name": "TKENPRO 2K Pet Camera Treat Dispenser, AI Photo Album, Dog Camera with 360° Auto Tracking & 5G/2.4G WiFi, 2-Way Talk, Remote Treat Tossing, Motion Alerts for Cats Indoor",
+      "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
+      "price": 75.99,
+      "rating": 4.3,
+      "reviews_count": 1001,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GGGPRRSF",
+      "brand": "TKENPRO",
+      "model": "5MP treat camera",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "5MP, 360° auto tracking",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "TKENPRO's sharpest camera, with motion alerts.",
+      "pros": [
+        "5MP",
+        "Auto tracking",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$79.99",
+        "4.3 stars",
+        "Cloud plan details aren't in the bullets"
+      ],
+      "name": "TKENPRO 5MP Ultra HD Pet Camera - Dog Camera with Treat Dispenser, Remote Treat Tossing via Phone App, 360° Auto Tracking & Motion Alerts, 5G&2.4G WiFi for Cats Indoor",
+      "image": "https://m.media-amazon.com/images/I/61VZaNRygcL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.3,
+      "reviews_count": 1001,
+      "bought": null
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "brand": "Tapo",
+      "model": "C210",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "video": "2K, pan and tilt",
+        "treats": "No",
+        "fees": "Free alerts"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": true,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "Skip the treats and get a great pan-tilt camera for $29.99.",
+      "pros": [
+        "$29.99",
+        "22,956 reviews, 4.5 stars",
+        "Person, motion, and crying alerts at no fee"
+      ],
+      "cons": [
+        "No treat tossing",
+        "No pet-specific alerts listed",
+        "Indoor only"
+      ],
+      "name": "Tapo 2K Pan Tilt Security Camera for Baby Monitor, Dog Camera, C210",
+      "image": "https://m.media-amazon.com/images/I/61diChCuq+L._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews_count": 22956,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0FDX4YGKG",
+      "brand": "Anona",
+      "model": "4K indoor camera",
+      "systems": [],
+      "systems_label": "Anona app",
+      "specs": {
+        "video": "4K, 8x zoom, 360° pan-tilt",
+        "treats": "No",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": false,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "4K with auto tracking and pet detection on Wi-Fi 6.",
+      "pros": [
+        "4K",
+        "Wi-Fi 6, dual-band",
+        "4K+ bought in the past month"
+      ],
+      "cons": [
+        "No treat tossing",
+        "No voice assistant listed",
+        "$75.99"
+      ],
+      "name": "Anona 4K UHD Indoor Camera, Pet/Dog/Baby Security Camera with Phone App, 360°Pan-Tilt, 5G/2.4G Dual-Band Wi-Fi 6, Auto-Tracking, Person/Pet/Baby Crying Detection, Privacy Mode, Two-Way Audio, 2 Pack",
+      "image": "https://m.media-amazon.com/images/I/71bU2XlALeL._AC_SL1500_.jpg",
+      "price": 75.99,
+      "rating": 4.5,
+      "reviews_count": 2183,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0DZHDF7MD",
+      "brand": "Enabot",
+      "model": "EBO Air 2",
+      "systems": [],
+      "systems_label": "Enabot app",
+      "specs": {
+        "video": "2K, mobile robot",
+        "treats": "No",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": false,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "A rolling camera that can follow your pet from room to room.",
+      "pros": [
+        "Drives around the house",
+        "2-way talk",
+        "2K"
+      ],
+      "cons": [
+        "$149.99",
+        "Only 12 left at capture time",
+        "4.2 stars"
+      ],
+      "name": "Enabot EBO Air 2 Mobile Pet Camera Robot: 2K FamilyBot with Two-Way Talk",
+      "image": "https://m.media-amazon.com/images/I/7195Fno3MjL._AC_SL1500_.jpg",
+      "price": 149.99,
+      "rating": 4.2,
+      "reviews_count": 364,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0F8LGB7VR",
+      "brand": "Furbo",
+      "model": "Mini 360° (plan-required version)",
+      "systems": [],
+      "flag": "Does nothing until you pay for a plan",
+      "verdict": "This $49 listing looks like a bargain, but it's locked until you start a Furbo Nanny subscription. The no-fee version above costs more up front and works out of the box.",
+      "reasons": [
+        "Bullet: \"A paid plan is required to activate your camera.\"",
+        "Bullet: \"No features are available before activation.\"",
+        "Monthly plans add a $29.97 activation fee."
+      ],
+      "name": "Furbo Mini 360° Pet Camera [Paid Plan Required to Activate]",
+      "image": "https://m.media-amazon.com/images/I/71wCIlkWErL._AC_SL1500_.jpg",
+      "price": 49.0,
+      "rating": 4.0,
+      "reviews_count": 942,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Do I need a subscription?",
+      "a": "Many pet cameras lock barking alerts, cloud video, and AI features behind a monthly plan. Check what the free tier includes; some Furbo listings require a plan just to activate."
+    },
+    {
+      "q": "Treat tossing or just a camera?",
+      "a": "Treat cameras let you reward your pet remotely. A regular pan-and-tilt indoor camera is much cheaper if you only want to watch and talk."
+    },
+    {
+      "q": "Will it work on my Wi-Fi?",
+      "a": "Most need 2.4 GHz Wi-Fi; some also support 5 GHz. Put the camera within good range of your router."
+    }
+  ]
+}

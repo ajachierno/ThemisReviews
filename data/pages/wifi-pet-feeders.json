@@ -1,0 +1,370 @@
+{
+  "slug": "wifi-pet-feeders",
+  "family": "pet-feeders",
+  "family_title": "Pet feeders",
+  "noun": "feeder",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Pet Feeders",
+  "subtitle": "Wi-Fi automatic feeders for cats and dogs, ranked from live Amazon data.",
+  "intro": "We pulled the Wi-Fi automatic pet feeders on Amazon and scored them on rating, review volume, and features: cameras, battery backup, and capacity.",
+  "reviews_ceiling": 10000,
+  "feature_weights": {
+    "camera": 0.35,
+    "dual_band": 0.25,
+    "backup_power": 0.2,
+    "multi_pet": 0.2
+  },
+  "systems_note": "Pet feeders run in their makers' apps. None of these listings name Alexa, Google, Apple Home, or Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    },
+    {
+      "key": "wifi",
+      "label": "Wi-Fi"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DCNNN5FC",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A 2K camera feeder with dual-band Wi-Fi for $69.99, rated 4.4 stars by 1,784 buyers."
+    },
+    {
+      "asin": "B09TKH9Q31",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $39.99 app feeder with dual power and 4,333 reviews."
+    },
+    {
+      "asin": "B0CFFKBW58",
+      "label": "Best for Two Pets",
+      "kind": "special",
+      "why": "Two hoppers with separate schedules, plus a 1080p camera with AI motion capture."
+    },
+    {
+      "asin": "B0B5ZJY9MT",
+      "label": "Most Popular",
+      "kind": "premium",
+      "why": "PETLIBRO's camera feeder has 10,872 reviews and an anti-clog outlet."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DCNNN5FC",
+      "brand": "Frienhund",
+      "model": "Feeder with 2K camera (7 L)",
+      "systems": [],
+      "systems_label": "Frienhund app",
+      "specs": {
+        "capacity": "7 L",
+        "camera": "2K, night vision",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": true,
+        "dual_band": true,
+        "backup_power": false,
+        "multi_pet": false
+      },
+      "verdict": "The best value camera feeder: 2K video and dual-band Wi-Fi for $69.99.",
+      "pros": [
+        "2K camera with night vision",
+        "Works on 5 GHz Wi-Fi",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Single bowl",
+        "Backup power isn't in the bullets"
+      ],
+      "name": "Frienhund Automatic Cat Feeder with 2K Camera: 5G WiFi Automatic Dog Feeder with Night Vision,Cat Food Dispenser with 7L Large Food Storage Container for Multiple Pet,Detachable for Easy Clean -29 Cup",
+      "image": "https://m.media-amazon.com/images/I/71tQlxRny+L._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.4,
+      "reviews_count": 1784,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0B5ZJY9MT",
+      "brand": "PETLIBRO",
+      "model": "Feeder with 1080p camera",
+      "systems": [],
+      "systems_label": "PETLIBRO app",
+      "specs": {
+        "capacity": "Not stated in bullets",
+        "camera": "1080p, night vision",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": true,
+        "dual_band": true,
+        "backup_power": false,
+        "multi_pet": false
+      },
+      "verdict": "The most-reviewed camera feeder, with an anti-clog outlet and infrared food detection.",
+      "pros": [
+        "10,872 reviews",
+        "Anti-clog outlet",
+        "Dual-band Wi-Fi"
+      ],
+      "cons": [
+        "4.1 stars",
+        "$125.99",
+        "1080p, not 2K"
+      ],
+      "name": "PETLIBRO Automatic Cat Feeder with Camera, 1080P HD Video & Night Vision",
+      "image": "https://m.media-amazon.com/images/I/61-1iWVpesL._AC_SL1500_.jpg",
+      "price": 125.99,
+      "rating": 4.1,
+      "reviews_count": 10872,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0CFFKBW58",
+      "brand": "PETKIT",
+      "model": "YumShare Dual-Hopper with camera",
+      "systems": [],
+      "systems_label": "PETKIT app",
+      "specs": {
+        "capacity": "2 hoppers",
+        "camera": "1080p, 140°, AI motion capture",
+        "wifi": "2.4 GHz"
+      },
+      "features": {
+        "camera": true,
+        "dual_band": false,
+        "backup_power": false,
+        "multi_pet": true
+      },
+      "verdict": "Two hoppers on separate schedules, for two pets or two foods.",
+      "pros": [
+        "Dual hoppers",
+        "AI motion capture",
+        "4.5 stars"
+      ],
+      "cons": [
+        "$109.99",
+        "2.4 GHz only",
+        "Only 414 reviews"
+      ],
+      "name": "PETKIT Automatic Cat Dog Feeder with Camera, AI-Powered Motion Capturing, 1080P HD Video with Night Vision, 2.4G WiFi Pet Feeder with 2-Way Audio, Dual Hopper Pet Food Dispenser with Desiccant",
+      "image": "https://m.media-amazon.com/images/I/61ytVRUXVQL._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.5,
+      "reviews_count": 414,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0GSR1GTHW",
+      "brand": "MUBBI",
+      "model": "Feeder with camera (7 L)",
+      "systems": [],
+      "systems_label": "MUBBI app",
+      "specs": {
+        "capacity": "7 L / 29 cups",
+        "camera": "1080p, night vision, 2-way audio",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": true,
+        "dual_band": true,
+        "backup_power": false,
+        "multi_pet": false
+      },
+      "verdict": "A big camera feeder with an elevated bowl and removable legs.",
+      "pros": [
+        "Elevated bowl",
+        "2-way audio",
+        "800+ bought in the past month"
+      ],
+      "cons": [
+        "Only 76 reviews",
+        "New brand",
+        "$59.99"
+      ],
+      "name": "Automatic Cat Feeder with Camera - 7L/29 Cups Auto Dog Feeder with Large Food Tray & 1080P Night Vision, Elevated Bowl, 2-Way Audio, 10s Voice Recording, 5G WiFi Timed Cat Food Dispenser, 1-15 Meals",
+      "image": "https://m.media-amazon.com/images/I/61w5HBxj3wL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.6,
+      "reviews_count": 76,
+      "bought": "800+ bought in past month"
+    },
+    {
+      "asin": "B0GJS115H7",
+      "brand": "iPettie",
+      "model": "Camera feeder and water dispenser",
+      "systems": [],
+      "systems_label": "iPettie app",
+      "specs": {
+        "capacity": "Food and water in one unit",
+        "camera": "Yes",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": true,
+        "dual_band": true,
+        "backup_power": false,
+        "multi_pet": false
+      },
+      "verdict": "Food and water in one footprint, with a camera on top.",
+      "pros": [
+        "Feeder and fountain combined",
+        "Dual-band Wi-Fi",
+        "Clear level windows"
+      ],
+      "cons": [
+        "4.0 stars",
+        "$109.99",
+        "Only 344 reviews"
+      ],
+      "name": "iPettie Camera Automatic Cat Feeder and Water Dispenser, 5G/2.4GHz WiFi",
+      "image": "https://m.media-amazon.com/images/I/71yQKYwJjSL._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.0,
+      "reviews_count": 344,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0C5X4N132",
+      "brand": "oneisall",
+      "model": "Feeder for 2 cats (5 L)",
+      "systems": [],
+      "systems_label": "oneisall app",
+      "specs": {
+        "capacity": "5 L / 20 cups",
+        "camera": "No",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": false,
+        "dual_band": true,
+        "backup_power": false,
+        "multi_pet": true
+      },
+      "verdict": "A no-camera feeder that splits each meal between two bowls.",
+      "pros": [
+        "Feeds two cats",
+        "5 GHz Wi-Fi",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "No camera",
+        "4.4 stars",
+        "$69.99"
+      ],
+      "name": "oneisall 5G WiFi Automatic Cat Feeder for 2 Cats, App Control, 20 Cups/5L",
+      "image": "https://m.media-amazon.com/images/I/71m-vL8WL-L._AC_SL1300_.jpg",
+      "price": 69.99,
+      "rating": 4.4,
+      "reviews_count": 1837,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B09TKH9Q31",
+      "brand": "PAPIFEED",
+      "model": "6 L Wi-Fi feeder",
+      "systems": [],
+      "systems_label": "PAPIFEED app",
+      "specs": {
+        "capacity": "6 L / 25 cups",
+        "camera": "No",
+        "wifi": "Wi-Fi"
+      },
+      "features": {
+        "camera": false,
+        "dual_band": false,
+        "backup_power": true,
+        "multi_pet": false
+      },
+      "verdict": "A cheap app feeder with slow-feed portions and dual power.",
+      "pros": [
+        "$39.99",
+        "Dual power supply",
+        "4,333 reviews"
+      ],
+      "cons": [
+        "No camera",
+        "4.3 stars",
+        "Wi-Fi band isn't stated"
+      ],
+      "name": "PAPIFEED Automatic Cat Feeder with App, WiFi Auto Cat Feeder, 6L Slow-Feed Cat Food Dispenser for Dry Food, Dual Power Supply Timed Pet Feeder for Small Dog, 10 Meals/Day, 12 Portions/Meal, White",
+      "image": "https://m.media-amazon.com/images/I/61Bpg0jIL2L._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.3,
+      "reviews_count": 4333,
+      "bought": null
+    },
+    {
+      "asin": "B0F1Y6NLT2",
+      "brand": "IMIPAW",
+      "model": "5G Wi-Fi feeder",
+      "systems": [],
+      "systems_label": "PetTech app",
+      "specs": {
+        "capacity": "Not stated in bullets",
+        "camera": "No",
+        "wifi": "2.4 + 5 GHz"
+      },
+      "features": {
+        "camera": false,
+        "dual_band": true,
+        "backup_power": true,
+        "multi_pet": false
+      },
+      "verdict": "A $39.99 dual-band feeder with app schedules.",
+      "pros": [
+        "5 GHz Wi-Fi",
+        "Dual power",
+        "$39.99"
+      ],
+      "cons": [
+        "No camera",
+        "4.2 stars",
+        "PetTech app"
+      ],
+      "name": "IMIPAW Automatic Cat Feeder, 5G WiFi Cat Food Dispenser with APP Remote Control, Pet Dry Food Smart Feeder, Programmable Timed Feeding, Dual Power Supply, 1-10 Meals Per Day, Desiccant Bag, Small pets",
+      "image": "https://m.media-amazon.com/images/I/61STq-hRBJL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviews_count": 754,
+      "bought": "200+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Dry food only?",
+      "a": "Almost all automatic feeders handle dry kibble only. Check the kibble size limits in the listing."
+    },
+    {
+      "q": "What if the power or Wi-Fi goes out?",
+      "a": "Look for battery backup. Most feeders keep their schedule locally and keep feeding without Wi-Fi; you just lose app control and alerts."
+    },
+    {
+      "q": "Do I need the camera version?",
+      "a": "A camera lets you watch your pet eat and confirms the food actually dropped. If you just want reliable meals, the non-camera version is cheaper."
+    }
+  ]
+}

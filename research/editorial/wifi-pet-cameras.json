@@ -1,0 +1,325 @@
+{
+  "feature_weights": {
+    "treats": 0.3,
+    "no_fee": 0.3,
+    "voice": 0.2,
+    "tracking": 0.2
+  },
+  "systems_note": "Tapo cameras have an official TP-Link integration in Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "treats",
+      "label": "Treat toss"
+    },
+    {
+      "key": "fees",
+      "label": "Fees"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "treats",
+      "label": "Treats"
+    },
+    {
+      "key": "fees",
+      "label": "Fees"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09GDQZLD1",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "See, talk, and toss treats with no subscription, rated 4.3 stars by 9,059 buyers."
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $29.99 pan-tilt camera with Alexa and Google, 22,956 reviews."
+    },
+    {
+      "asin": "B0CF5B94X2",
+      "label": "Best Value Treat Cam",
+      "kind": "special",
+      "why": "2K, 360° view, and treat tossing for $69.99."
+    },
+    {
+      "asin": "B0DZHDF7MD",
+      "label": "Most Fun",
+      "kind": "premium",
+      "why": "A camera on wheels that drives around to find your pet."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09GDQZLD1",
+      "brand": "Furbo",
+      "model": "360° Dog Camera (no-fee version)",
+      "systems": [],
+      "systems_label": "Furbo app",
+      "specs": {
+        "video": "1080p, 360°, color night vision",
+        "treats": "Yes",
+        "fees": "Core features free"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": true,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "The original treat-tossing camera, sold here without a required plan.",
+      "pros": [
+        "No subscription needed for core features",
+        "Barking alerts",
+        "9,059 reviews"
+      ],
+      "cons": [
+        "$184",
+        "Advanced alerts need Furbo Nanny",
+        "2.4 GHz only"
+      ]
+    },
+    {
+      "asin": "B0F8LNT9H7",
+      "brand": "Furbo",
+      "model": "Mini 360° (no-fee version)",
+      "systems": [],
+      "systems_label": "Furbo app",
+      "specs": {
+        "video": "2K QHD, 360°",
+        "treats": "Yes",
+        "fees": "Core features free"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": true,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "A smaller Furbo with 2K video and no required plan.",
+      "pros": [
+        "2K video",
+        "Barking and meowing alerts",
+        "$99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Advanced features need a plan",
+        "Smaller treat hopper"
+      ]
+    },
+    {
+      "asin": "B0CF5B94X2",
+      "brand": "TKENPRO",
+      "model": "2K treat camera",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "2K, 360°",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": false
+      },
+      "verdict": "Most of a Furbo for well under half the price, with Alexa and Google.",
+      "pros": [
+        "$69.99",
+        "5 GHz and 2.4 GHz",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Lesser-known brand",
+        "Cloud plan details aren't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DZ6NMTY9",
+      "brand": "TKENPRO",
+      "model": "2K treat camera with auto tracking",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "2K, 360° auto tracking",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "Adds auto tracking and an AI photo album for $6 more.",
+      "pros": [
+        "Auto tracking",
+        "AI photo album",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$75.99",
+        "4.3 stars",
+        "Cloud plan details aren't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0GGGPRRSF",
+      "brand": "TKENPRO",
+      "model": "5MP treat camera",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TKENPRO app",
+      "specs": {
+        "video": "5MP, 360° auto tracking",
+        "treats": "Yes, 0.5 L",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": true,
+        "no_fee": false,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "TKENPRO's sharpest camera, with motion alerts.",
+      "pros": [
+        "5MP",
+        "Auto tracking",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$79.99",
+        "4.3 stars",
+        "Cloud plan details aren't in the bullets"
+      ]
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "brand": "Tapo",
+      "model": "C210",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "video": "2K, pan and tilt",
+        "treats": "No",
+        "fees": "Free alerts"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": true,
+        "voice": true,
+        "tracking": true
+      },
+      "verdict": "Skip the treats and get a great pan-tilt camera for $29.99.",
+      "pros": [
+        "$29.99",
+        "22,956 reviews, 4.5 stars",
+        "Person, motion, and crying alerts at no fee"
+      ],
+      "cons": [
+        "No treat tossing",
+        "No pet-specific alerts listed",
+        "Indoor only"
+      ]
+    },
+    {
+      "asin": "B0FDX4YGKG",
+      "brand": "Anona",
+      "model": "4K indoor camera",
+      "systems": [],
+      "systems_label": "Anona app",
+      "specs": {
+        "video": "4K, 8x zoom, 360° pan-tilt",
+        "treats": "No",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": false,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "4K with auto tracking and pet detection on Wi-Fi 6.",
+      "pros": [
+        "4K",
+        "Wi-Fi 6, dual-band",
+        "4K+ bought in the past month"
+      ],
+      "cons": [
+        "No treat tossing",
+        "No voice assistant listed",
+        "$75.99"
+      ]
+    },
+    {
+      "asin": "B0DZHDF7MD",
+      "brand": "Enabot",
+      "model": "EBO Air 2",
+      "systems": [],
+      "systems_label": "Enabot app",
+      "specs": {
+        "video": "2K, mobile robot",
+        "treats": "No",
+        "fees": "Not stated in bullets"
+      },
+      "features": {
+        "treats": false,
+        "no_fee": false,
+        "voice": false,
+        "tracking": true
+      },
+      "verdict": "A rolling camera that can follow your pet from room to room.",
+      "pros": [
+        "Drives around the house",
+        "2-way talk",
+        "2K"
+      ],
+      "cons": [
+        "$149.99",
+        "Only 12 left at capture time",
+        "4.2 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0F8LGB7VR",
+      "brand": "Furbo",
+      "model": "Mini 360° (plan-required version)",
+      "systems": [],
+      "flag": "Does nothing until you pay for a plan",
+      "verdict": "This $49 listing looks like a bargain, but it's locked until you start a Furbo Nanny subscription. The no-fee version above costs more up front and works out of the box.",
+      "reasons": [
+        "Bullet: \"A paid plan is required to activate your camera.\"",
+        "Bullet: \"No features are available before activation.\"",
+        "Monthly plans add a $29.97 activation fee."
+      ]
+    }
+  ]
+}
