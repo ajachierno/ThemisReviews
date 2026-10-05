@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ThemisReviews", "item": "https://themisreviews.com/"}, {"@type": "ListItem", "position": 2, "name": "Smart Buttons and Remotes", "item": "https://themisreviews.com/smart-buttons-and-remotes.html"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Smart Buttons and Remotes Compared Across Every Protocol", "numberOfItems": 24, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Lutron Caseta 3-way dimmer kit", "url": "https://themisreviews.com/lutron-pico-remotes.html#B07HM6L48C"}, {"@type": "ListItem", "position": 2, "name": "Lutron Caseta lamp dimmer kit", "url": "https://themisreviews.com/lutron-pico-remotes.html#B00JJY1QG0"}, {"@type": "ListItem", "position": 3, "name": "Zooz ZEN32 800LR", "url": "https://themisreviews.com/z-wave-buttons.html#B09B6S4TSL"}, {"@type": "ListItem", "position": 4, "name": "Philips Hue Dimmer Switch V2", "url": "https://themisreviews.com/zigbee-buttons.html#B08W8GLPD5"}, {"@type": "ListItem", "position": 5, "name": "Lutron Pico wall-mounting kit", "url": "https://themisreviews.com/lutron-pico-remotes.html#B00JR202JQ"}, {"@type": "ListItem", "position": 6, "name": "Philips Hue Tap Dial Switch", "url": "https://themisreviews.com/zigbee-buttons.html#B0B6LDPZ5M"}, {"@type": "ListItem", "position": 7, "name": "Lutron Pico 2-button remote (2-pack)", "url": "https://themisreviews.com/lutron-pico-remotes.html#B085D7LKDZ"}, {"@type": "ListItem", "position": 8, "name": "Lutron Paddle Pico wall-mount kit", "url": "https://themisreviews.com/lutron-pico-remotes.html#B0CJ6FCGWB"}, {"@type": "ListItem", "position": 9, "name": "Lutron Pico 3-button dimmer remote", "url": "https://themisreviews.com/lutron-pico-remotes.html#B00KLAXFQ0"}, {"@type": "ListItem", "position": 10, "name": "Zooz ZEN34 800LR", "url": "https://themisreviews.com/z-wave-buttons.html#B08TMWLY74"}, {"@type": "ListItem", "position": 11, "name": "Zooz ZEN37 800LR", "url": "https://themisreviews.com/z-wave-buttons.html#B0CV8RXT5W"}, {"@type": "ListItem", "position": 12, "name": "Lutron Pico 2-button switch remote", "url": "https://themisreviews.com/lutron-pico-remotes.html#B00KLAXOE8"}, {"@type": "ListItem", "position": 13, "name": "SONOFF Fusion SNZB-01M", "url": "https://themisreviews.com/zigbee-buttons.html#B0G2LNPCP7"}, {"@type": "ListItem", "position": 14, "name": "Lutron Pico fan speed remote", "url": "https://themisreviews.com/lutron-pico-remotes.html#B07NQDT39V"}, {"@type": "ListItem", "position": 15, "name": "Philips Hue Smart Button", "url": "https://themisreviews.com/zigbee-buttons.html#B0FCZRXH8Z"}, {"@type": "ListItem", "position": 16, "name": "Blindsmart 4-way Zigbee scene controller", "url": "https://themisreviews.com/zigbee-buttons.html#B0F1CJ6DHT"}, {"@type": "ListItem", "position": 17, "name": "SONOFF SNZB-01P", "url": "https://themisreviews.com/zigbee-buttons.html#B0CL9JTMWF"}, {"@type": "ListItem", "position": 18, "name": "THIRDREALITY Smart Button", "url": "https://themisreviews.com/zigbee-buttons.html#B09ZQGZX3G"}, {"@type": "ListItem", "position": 19, "name": "Aqara Cube T1 Pro", "url": "https://themisreviews.com/zigbee-buttons.html#B0BHWS3VTZ"}, {"@type": "ListItem", "position": 20, "name": "Lutron Paddle Pico", "url": "https://themisreviews.com/lutron-pico-remotes.html#B0CJ6FDN63"}, {"@type": "ListItem", "position": 21, "name": "Aqara Wireless Mini Switch", "url": "https://themisreviews.com/zigbee-buttons.html#B07D19YXND"}, {"@type": "ListItem", "position": 22, "name": "Shelly BLU RC Button 4 ZB", "url": "https://themisreviews.com/zigbee-buttons.html#B0G83YMKGG"}, {"@type": "ListItem", "position": 23, "name": "Lutron Pico audio remote for Sonos", "url": "https://themisreviews.com/lutron-pico-remotes.html#B01LC7O9MY"}, {"@type": "ListItem", "position": 24, "name": "Aeotec WallMote 7", "url": "https://themisreviews.com/z-wave-buttons.html#B0987K9VS3"}]}</script>
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v=0a0bd770">
 </head>
 <body>
 <header class="site">
@@ -107,8 +107,15 @@
   <section id="all">
     <h2>All buttons and remotes</h2>
     <div class="fam-filters">
-      <fieldset class="proto-boxes"><legend>Protocol <span class="tiny">(pick any; none = all)</span></legend><label class="proto-box"><input type="checkbox" name="f-proto" value="z-wave"> Z-Wave</label><label class="proto-box"><input type="checkbox" name="f-proto" value="zigbee"> Zigbee</label><label class="proto-box"><input type="checkbox" name="f-proto" value="lutron-clear-connect"> Lutron Clear Connect</label>
-        <button type="button" class="linkish" id="f-proto-clear">Clear</button></fieldset>
+      <div class="ms-field">
+        <span class="ms-label">Protocol</span>
+        <details class="ms" id="f-proto-dd">
+          <summary id="f-proto-sum">All protocols</summary>
+          <div class="ms-panel"><label class="ms-opt"><input type="checkbox" name="f-proto" value="z-wave" data-name="Z-Wave"> Z-Wave</label><label class="ms-opt"><input type="checkbox" name="f-proto" value="zigbee" data-name="Zigbee"> Zigbee</label><label class="ms-opt"><input type="checkbox" name="f-proto" value="lutron-clear-connect" data-name="Lutron Clear Connect"> Lutron Clear Connect</label>
+            <button type="button" class="linkish" id="f-proto-clear">Clear all</button>
+          </div>
+        </details>
+      </div>
       <label>Works with <select id="f-sys"><option value="">Any system</option><option value="home-assistant">Home Assistant</option><option value="apple-home">Apple Home</option><option value="google-home">Google Home</option><option value="alexa">Amazon Alexa</option><option value="smartthings">SmartThings</option><option value="hubitat">Hubitat Elevation</option><option value="homey">Homey Pro</option></select></label>
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
       <span class="muted tiny" id="f-count"></span>
@@ -124,7 +131,10 @@
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
-    var picked=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), s=sys.value, shown=0;
+    var on=boxes.filter(function(b){return b.checked;});
+    var picked=on.map(function(b){return b.value;}), s=sys.value, shown=0;
+    var sum=document.getElementById('f-proto-sum');
+    if(sum) sum.textContent = !on.length ? 'All protocols' : on.length===1 ? on[0].dataset.name : on.length+' protocols';
     rows.forEach(function(r){
       var rp=' '+r.dataset.protos+' ';
       var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
@@ -145,6 +155,8 @@
   boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
   var clr=document.getElementById('f-proto-clear');
   if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
+  var dd=document.getElementById('f-proto-dd');
+  if(dd) document.addEventListener('click',function(e){ if(dd.open && !dd.contains(e.target)) dd.open=false; });
   sort.addEventListener('change',function(){order();apply();});
   var q=new URLSearchParams(location.search);
   if(q.get('protocol')){ var want=q.get('protocol').split(','); boxes.forEach(function(b){b.checked=want.indexOf(b.value)>=0;}); }

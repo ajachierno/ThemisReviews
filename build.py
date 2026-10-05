@@ -6,6 +6,7 @@ Zero dependencies. Run:  python build.py
 import datetime
 import html
 import json
+import hashlib
 import math
 import re
 from pathlib import Path
@@ -78,7 +79,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 {structured_data}
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v={CSS_VERSION}">
 </head>
 <body>
 {header}
@@ -910,7 +911,10 @@ FAMILY_JS = """(function(){
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
-    var picked=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), s=sys.value, shown=0;
+    var on=boxes.filter(function(b){return b.checked;});
+    var picked=on.map(function(b){return b.value;}), s=sys.value, shown=0;
+    var sum=document.getElementById('f-proto-sum');
+    if(sum) sum.textContent = !on.length ? 'All protocols' : on.length===1 ? on[0].dataset.name : on.length+' protocols';
     rows.forEach(function(r){
       var rp=' '+r.dataset.protos+' ';
       var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
@@ -931,6 +935,8 @@ FAMILY_JS = """(function(){
   boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
   var clr=document.getElementById('f-proto-clear');
   if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
+  var dd=document.getElementById('f-proto-dd');
+  if(dd) document.addEventListener('click',function(e){ if(dd.open && !dd.contains(e.target)) dd.open=false; });
   sort.addEventListener('change',function(){order();apply();});
   var q=new URLSearchParams(location.search);
   if(q.get('protocol')){ var want=q.get('protocol').split(','); boxes.forEach(function(b){b.checked=want.indexOf(b.value)>=0;}); }
@@ -982,7 +988,7 @@ def build_family_page(site, fam, title, slug, members):
                         f'<div class="tiny avoid-note">{esc(a.get("flag", ""))}</div>'))
     proto_links = "".join(f'<a class="sub-link" href="{esc(sub["slug"])}.html">{esc(sub["title"])} <span class="arrow">&rarr;</span></a>'
                           for _proto, sub in members)
-    proto_opts = "".join(f'<label class="proto-box"><input type="checkbox" name="f-proto" value="{esc(p["slug"])}"> {esc(p["name"])}</label>'
+    proto_opts = "".join(f'<label class="ms-opt"><input type="checkbox" name="f-proto" value="{esc(p["slug"])}" data-name="{esc(p["name"])}"> {esc(p["name"])}</label>'
                          for p in protos_here)
     sys_opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in sys_order)
     multi = len(protos_here) > 1
@@ -1009,8 +1015,15 @@ def build_family_page(site, fam, title, slug, members):
   <section id="all">
     <h2>All {esc(noun)}</h2>
     <div class="fam-filters">
-      <fieldset class="proto-boxes"{'' if multi else ' hidden'}><legend>Protocol <span class="tiny">(pick any; none = all)</span></legend>{proto_opts}
-        <button type="button" class="linkish" id="f-proto-clear">Clear</button></fieldset>
+      <div class="ms-field"{'' if multi else ' hidden'}>
+        <span class="ms-label">Protocol</span>
+        <details class="ms" id="f-proto-dd">
+          <summary id="f-proto-sum">All protocols</summary>
+          <div class="ms-panel">{proto_opts}
+            <button type="button" class="linkish" id="f-proto-clear">Clear all</button>
+          </div>
+        </details>
+      </div>
       <label>Works with <select id="f-sys"><option value="">Any system</option>{sys_opts}</select></label>
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
       <span class="muted tiny" id="f-count"></span>
@@ -1192,11 +1205,20 @@ footer a{color:var(--gold-ink)}
 .ptable a.btn,.ptable a.btn:visited{color:#1d1405;text-decoration:none}
 .fam-filters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:8px 0 12px}
 .fam-filters>label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
-.proto-boxes{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center;flex-basis:100%}
-.proto-boxes legend{font-size:.85rem;color:var(--muted);padding:0;margin-bottom:6px;width:100%}
-.proto-box{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card-2);cursor:pointer;font-size:.9rem}
-.proto-box:has(input:checked){border-color:var(--gold);color:var(--gold-ink)}
-.proto-box input{accent-color:var(--gold)}
+.ms-field{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted);position:relative}
+.ms{position:relative}
+.ms summary{list-style:none;cursor:pointer;background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;
+  padding:8px 36px 8px 12px;min-width:170px;font:inherit;position:relative}
+.ms summary::-webkit-details-marker{display:none}
+.ms summary::after{content:"";position:absolute;right:14px;top:50%;width:7px;height:7px;border-right:2px solid var(--muted);
+  border-bottom:2px solid var(--muted);transform:translateY(-70%) rotate(45deg)}
+.ms[open] summary{border-color:var(--gold)}
+.ms-panel{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:220px;background:var(--card);border:1px solid var(--line);
+  border-radius:10px;padding:8px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.ms-opt{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;color:var(--ink);font-size:.95rem;cursor:pointer}
+.ms-opt:hover{background:var(--card-2)}
+.ms-opt input{accent-color:var(--gold);width:16px;height:16px;margin:0}
+.ms-panel .linkish{display:block;margin:4px 10px 2px}
 .linkish{background:none;border:0;color:var(--purple-ink);cursor:pointer;font:inherit;font-size:.85rem;text-decoration:underline}
 .fam-filters select{background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:inherit;min-width:170px}
 .proto-diff{margin:16px 0 4px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--purple);border-radius:var(--radius);padding:12px 16px}
@@ -1371,6 +1393,8 @@ tr.avoid-row a{color:#ff9d94;text-decoration:underline}
   .to-top.show{opacity:1;pointer-events:auto}
 }
 """
+
+CSS_VERSION = hashlib.md5(CSS.encode('utf-8')).hexdigest()[:8]
 
 if __name__ == "__main__":
     main()

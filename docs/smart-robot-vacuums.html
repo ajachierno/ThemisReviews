@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ThemisReviews", "item": "https://themisreviews.com/"}, {"@type": "ListItem", "position": 2, "name": "Smart Robot Vacuums", "item": "https://themisreviews.com/smart-robot-vacuums.html"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Smart Robot Vacuums: Every Pick We Rank", "numberOfItems": 10, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "eufy E25", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0FK2HPNCB"}, {"@type": "ListItem", "position": 2, "name": "iRobot Roomba Max 705X", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GSH62CFF"}, {"@type": "ListItem", "position": 3, "name": "eufy Omni C20", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GCDZBK9Q"}, {"@type": "ListItem", "position": 4, "name": "roborock Q10 S5+", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0DWXF15GF"}, {"@type": "ListItem", "position": 5, "name": "iRobot Roomba 415X", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GT6BYB85"}, {"@type": "ListItem", "position": 6, "name": "dreame L40 Ultra Gen 2", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0FSJPFDPV"}, {"@type": "ListItem", "position": 7, "name": "roborock Qrevo S Pro", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GGRSMXKN"}, {"@type": "ListItem", "position": 8, "name": "roborock Q7 M5+", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0DWX69JVG"}, {"@type": "ListItem", "position": 9, "name": "Shark AI Ultra (AV2511AE)", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B09T4YZGQR"}, {"@type": "ListItem", "position": 10, "name": "SwitchBot K11+ (Matter)", "url": "https://themisreviews.com/wifi-robot-vacuums.html#B0FBRK76L8"}]}</script>
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v=0a0bd770">
 </head>
 <body>
 <header class="site">
@@ -93,8 +93,15 @@
   <section id="all">
     <h2>All robot vacuums</h2>
     <div class="fam-filters">
-      <fieldset class="proto-boxes" hidden><legend>Protocol <span class="tiny">(pick any; none = all)</span></legend><label class="proto-box"><input type="checkbox" name="f-proto" value="wifi"> Wi-Fi</label>
-        <button type="button" class="linkish" id="f-proto-clear">Clear</button></fieldset>
+      <div class="ms-field" hidden>
+        <span class="ms-label">Protocol</span>
+        <details class="ms" id="f-proto-dd">
+          <summary id="f-proto-sum">All protocols</summary>
+          <div class="ms-panel"><label class="ms-opt"><input type="checkbox" name="f-proto" value="wifi" data-name="Wi-Fi"> Wi-Fi</label>
+            <button type="button" class="linkish" id="f-proto-clear">Clear all</button>
+          </div>
+        </details>
+      </div>
       <label>Works with <select id="f-sys"><option value="">Any system</option><option value="home-assistant">Home Assistant</option><option value="apple-home">Apple Home</option><option value="google-home">Google Home</option><option value="alexa">Amazon Alexa</option><option value="smartthings">SmartThings</option><option value="hubitat">Hubitat Elevation</option><option value="homey">Homey Pro</option></select></label>
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
       <span class="muted tiny" id="f-count"></span>
@@ -110,7 +117,10 @@
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
-    var picked=boxes.filter(function(b){return b.checked;}).map(function(b){return b.value;}), s=sys.value, shown=0;
+    var on=boxes.filter(function(b){return b.checked;});
+    var picked=on.map(function(b){return b.value;}), s=sys.value, shown=0;
+    var sum=document.getElementById('f-proto-sum');
+    if(sum) sum.textContent = !on.length ? 'All protocols' : on.length===1 ? on[0].dataset.name : on.length+' protocols';
     rows.forEach(function(r){
       var rp=' '+r.dataset.protos+' ';
       var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
@@ -131,6 +141,8 @@
   boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
   var clr=document.getElementById('f-proto-clear');
   if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
+  var dd=document.getElementById('f-proto-dd');
+  if(dd) document.addEventListener('click',function(e){ if(dd.open && !dd.contains(e.target)) dd.open=false; });
   sort.addEventListener('change',function(){order();apply();});
   var q=new URLSearchParams(location.search);
   if(q.get('protocol')){ var want=q.get('protocol').split(','); boxes.forEach(function(b){b.checked=want.indexOf(b.value)>=0;}); }
