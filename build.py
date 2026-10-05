@@ -301,6 +301,7 @@ def render_protocol(p):
 def build_home(site):
     protos = site["protocols"]
     body = f"""
+  {render_seasonal_strip()}
   {render_quicknav(protos)}
   <div class="or-divider" role="separator">- OR -</div>
   <p class="or-note">Not sure where to start? Explore the pros and cons of each smart home system and protocol below, then dive into the reviews that fit your setup.</p>
@@ -309,7 +310,6 @@ def build_home(site):
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {render_jump(protos)}
-  {render_seasonal_strip()}
   {render_systems(site, load("systems.json"))}
   {render_compare(protos)}
   <h2 class="section-head">Pros and cons by protocol</h2>
