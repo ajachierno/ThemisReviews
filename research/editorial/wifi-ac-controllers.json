@@ -1,0 +1,306 @@
+{
+  "feature_weights": {
+    "big_platforms": 0.35,
+    "ha": 0.3,
+    "sensors": 0.35
+  },
+  "systems_note": "Sensibo has an official Home Assistant integration. Cielo names Home Assistant on the Breez Max listing. Smart Life (Tuya) controllers work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "sensors",
+      "label": "Sensors"
+    },
+    {
+      "key": "works_with",
+      "label": "AC types"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "sensors",
+      "label": "Sensors"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C7VMZ9FG",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,029 buyers."
+    },
+    {
+      "asin": "B0BMTRCNG3",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $68 IR controller with temperature and humidity sensing and no subscription."
+    },
+    {
+      "asin": "B07MTGD3D9",
+      "label": "Best for Apple Home",
+      "kind": "special",
+      "why": "Sensibo Sky names HomeKit, with 6,037 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C7VMZ9FG",
+      "brand": "Cielo",
+      "model": "Breez Max",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "Cielo app",
+      "specs": {
+        "sensors": "Temperature, humidity",
+        "works_with": "Mini-split, window, portable (IR)",
+        "app": "Cielo"
+      },
+      "features": {
+        "big_platforms": true,
+        "ha": true,
+        "sensors": true
+      },
+      "verdict": "The most connected AC controller, and it can group units into zones.",
+      "pros": [
+        "Names Home Assistant and SmartThings",
+        "HVAC zones",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$114.25",
+        "2.4 GHz Wi-Fi",
+        "IR line of sight needed"
+      ]
+    },
+    {
+      "asin": "B07MTGD3D9",
+      "brand": "Sensibo",
+      "model": "Sky",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "home-assistant"
+      ],
+      "systems_label": "Sensibo app",
+      "specs": {
+        "sensors": "Temperature, humidity",
+        "works_with": "Mini-split, window, portable (IR)",
+        "app": "Sensibo"
+      },
+      "features": {
+        "big_platforms": true,
+        "ha": true,
+        "sensors": true
+      },
+      "verdict": "The most-reviewed AC controller, with HomeKit support.",
+      "pros": [
+        "HomeKit, Alexa, and Google",
+        "6,037 reviews",
+        "Official Home Assistant integration"
+      ],
+      "cons": [
+        "4.2 stars",
+        "$99",
+        "Older design"
+      ]
+    },
+    {
+      "asin": "B08T9XXFRW",
+      "brand": "Sensibo",
+      "model": "Air",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Sensibo app",
+      "specs": {
+        "sensors": "Temperature, humidity, outdoor weather",
+        "works_with": "Mini-split, window, portable (IR)",
+        "app": "Sensibo"
+      },
+      "features": {
+        "big_platforms": false,
+        "ha": true,
+        "sensors": true
+      },
+      "verdict": "Sensibo's newer model balances real-feel temperature with indoor and outdoor data.",
+      "pros": [
+        "Climate zone tech",
+        "1,341 reviews",
+        "Home Assistant integration"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "$124",
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B0BMTRCNG3",
+      "brand": "Cielo",
+      "model": "Breez Lite",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "systems_label": "Cielo app",
+      "specs": {
+        "sensors": "Temperature, humidity",
+        "works_with": "Ductless, window, portable (IR)",
+        "app": "Cielo"
+      },
+      "features": {
+        "big_platforms": true,
+        "ha": false,
+        "sensors": true
+      },
+      "verdict": "Cielo's cheapest controller still gets SmartThings and both voice assistants.",
+      "pros": [
+        "$68",
+        "No monthly subscription",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 720 reviews",
+        "No display",
+        "Sold by a reseller"
+      ]
+    },
+    {
+      "asin": "B08RB2Q88Y",
+      "brand": "Cielo",
+      "model": "Breez Eco",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Cielo app",
+      "specs": {
+        "sensors": "Not stated in bullets",
+        "works_with": "Mini-split, window, portable (IR)",
+        "app": "Cielo"
+      },
+      "features": {
+        "big_platforms": false,
+        "ha": false,
+        "sensors": false
+      },
+      "verdict": "A simple Cielo for Alexa and Google homes.",
+      "pros": [
+        "$79",
+        "4.4 stars from 1,855 reviews",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "No SmartThings listed",
+        "Sensors aren't in the bullets",
+        "Costs more than the Lite"
+      ]
+    },
+    {
+      "asin": "B0D26BNT1Y",
+      "brand": "Mysa",
+      "model": "Smart Thermostat for Mini-Splits",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Mysa app",
+      "specs": {
+        "sensors": "Not stated in bullets",
+        "works_with": "Mini-split heat pumps and AC",
+        "app": "Mysa (free)"
+      },
+      "features": {
+        "big_platforms": true,
+        "ha": false,
+        "sensors": false
+      },
+      "verdict": "A wall-mounted thermostat that replaces your mini-split's remote.",
+      "pros": [
+        "HomeKit, Alexa, and Google",
+        "Free app, no subscription",
+        "Thermostat-style wall unit"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Ships in 9+ days from a reseller",
+        "$166.78"
+      ]
+    },
+    {
+      "asin": "B07QD28C5S",
+      "brand": "MrCool",
+      "model": "SmartHVAC Wi-Fi kit",
+      "systems": [],
+      "systems_label": "MrCool SmartHVAC app",
+      "specs": {
+        "sensors": "Not stated in bullets",
+        "works_with": "MrCool ductless splits",
+        "app": "MrCool"
+      },
+      "features": {
+        "big_platforms": false,
+        "ha": false,
+        "sensors": false
+      },
+      "verdict": "The official Wi-Fi add-on for MrCool mini-splits.",
+      "pros": [
+        "Made for MrCool units",
+        "4.5 stars",
+        "$73.99"
+      ],
+      "cons": [
+        "MrCool systems only",
+        "Only 65 reviews",
+        "Sold by a third party"
+      ]
+    },
+    {
+      "asin": "B0CZ6F1BV9",
+      "brand": "WOOX",
+      "model": "Smart AC controller",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "sensors": "Temperature, humidity (Swiss sensor)",
+        "works_with": "Mini-split, window, portable (IR)",
+        "app": "Smart Life"
+      },
+      "features": {
+        "big_platforms": false,
+        "ha": true,
+        "sensors": true
+      },
+      "verdict": "A cheap Smart Life IR controller with a temperature and humidity display.",
+      "pros": [
+        "$49.99",
+        "±0.3°C sensor",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "3.7 stars",
+        "Only 78 reviews",
+        "Tuya app"
+      ]
+    }
+  ],
+  "avoid": []
+}

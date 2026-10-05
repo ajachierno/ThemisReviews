@@ -1,0 +1,405 @@
+{
+  "slug": "wifi-robot-mowers",
+  "family": "robot-mowers",
+  "family_title": "Robot lawn mowers",
+  "noun": "mower",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Robot Lawn Mowers",
+  "subtitle": "Wire-free and boundary-wire robot mowers with app control, ranked.",
+  "intro": "We pulled the robot lawn mowers on Amazon and scored them on rating, review volume, and features: wire-free navigation, lawn size, and all-wheel drive.",
+  "reviews_ceiling": 500,
+  "feature_weights": {
+    "big_yard": 0.3,
+    "lidar": 0.25,
+    "awd": 0.25,
+    "rating": 0.2
+  },
+  "systems_note": "Robot mowers run in their makers' apps. None of these listings name Alexa, Google, Apple Home, or Home Assistant. All are wire-free.",
+  "spec_fields": [
+    {
+      "key": "area",
+      "label": "Lawn size"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    },
+    {
+      "key": "drive",
+      "label": "Drive"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "area",
+      "label": "Lawn"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CX8LL2PC",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "The most-reviewed wire-free mower, with RTK plus vision for small yards."
+    },
+    {
+      "asin": "B0H87VVJLY",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $399.99 vision mower for lawns up to 1,600 sq. ft."
+    },
+    {
+      "asin": "B0GKM8JZDF",
+      "label": "Best for Hills",
+      "kind": "premium",
+      "why": "AWD that climbs slopes up to 80%, with LiDAR and NetRTK."
+    },
+    {
+      "asin": "B0G1SCJ18P",
+      "label": "Best for Big Yards",
+      "kind": "special",
+      "why": "3D LiDAR for up to 0.75 acre at $899."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CX8LL2PC",
+      "brand": "Segway",
+      "model": "Navimow i105N",
+      "systems": [],
+      "systems_label": "Navimow app",
+      "specs": {
+        "area": "1/8 acre",
+        "nav": "RTK + vision",
+        "drive": "2WD"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": false,
+        "awd": false,
+        "rating": true
+      },
+      "verdict": "The proven wire-free mower for small yards.",
+      "pros": [
+        "395 reviews",
+        "AI-assisted mapping",
+        "Virtual boundaries"
+      ],
+      "cons": [
+        "1/8 acre",
+        "4.1 stars",
+        "$669"
+      ],
+      "name": "Segway Navimow i105N Robot Lawn Mower Perimeter Wire Free 1/8 Acre RTK+Vision Robotic Lawnmower, AI-Assisted Mapping, Virtual Boundary, APP Control, 58dB(A) Quiet, Multi-Zone Management",
+      "image": "https://m.media-amazon.com/images/I/61EDud-50eL._AC_SL1500_.jpg",
+      "price": 669.0,
+      "rating": 4.1,
+      "reviews_count": 395,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0GRVYN12B",
+      "brand": "Roborock",
+      "model": "RockNeo Q110H",
+      "systems": [],
+      "systems_label": "Roborock app",
+      "specs": {
+        "area": "1/4 acre",
+        "nav": "Full-band RTK + VSLAM",
+        "drive": "2WD, 45% slopes"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": false,
+        "awd": false,
+        "rating": true
+      },
+      "verdict": "Roborock's entry mower handles 45% slopes and quarter-acre lawns.",
+      "pros": [
+        "45% slopes",
+        "AI vision obstacle avoidance",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Only 52 reviews",
+        "$679.99",
+        "1/4 acre"
+      ],
+      "name": "Roborock RockNeo Q110H Robot Lawn Mower, Wire-Free Robotic Lawn Mower with Full-Band RTK + VSLAM Navigation, Auto Mapping, AI Vision Obstacle Avoidance, App Control, 45% Slope, Covers Up to 1/4 Acre",
+      "image": "https://m.media-amazon.com/images/I/61DtWryUdiL._AC_SL1500_.jpg",
+      "price": 679.99,
+      "rating": 4.2,
+      "reviews_count": 52,
+      "bought": null
+    },
+    {
+      "asin": "B0GQMG6ZJ3",
+      "brand": "ECOVACS",
+      "model": "Goat O1000 RTK",
+      "systems": [],
+      "systems_label": "ECOVACS app",
+      "specs": {
+        "area": "1/4 acre",
+        "nav": "RTK",
+        "drive": "2WD"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": false,
+        "awd": false,
+        "rating": false
+      },
+      "verdict": "A quarter-acre RTK mower from ECOVACS.",
+      "pros": [
+        "$630.80",
+        "Sold by Amazon",
+        "RTK navigation"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Ships in 2+ days",
+        "1/4 acre"
+      ],
+      "name": "ECOVACS Goat O1000 RTK Care Robot Lawn Mower, RTK Navigation, 1/4 Acre",
+      "image": "https://m.media-amazon.com/images/I/612myC1EKLL._AC_SL1500_.jpg",
+      "price": 630.8,
+      "rating": 4.0,
+      "reviews_count": 172,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0H87VVJLY",
+      "brand": "YARDCARE",
+      "model": "V100",
+      "systems": [],
+      "systems_label": "YARDCARE app",
+      "specs": {
+        "area": "1,600 sq. ft.",
+        "nav": "HD vision",
+        "drive": "2WD"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": false,
+        "awd": false,
+        "rating": true
+      },
+      "verdict": "The cheapest wire-free mower here, for very small lawns.",
+      "pros": [
+        "$399.99",
+        "4.7 stars",
+        "No wires or RTK station"
+      ],
+      "cons": [
+        "1,600 sq. ft. max",
+        "Only 59 reviews",
+        "Vision only"
+      ],
+      "name": "YARDCARE V100 Automatic Robot Lawn Mower HD Vision for Lawn Max 1600 sq ft",
+      "image": "https://m.media-amazon.com/images/I/71llD7AXGXL._AC_SL1500_.jpg",
+      "price": 399.99,
+      "rating": 4.7,
+      "reviews_count": 59,
+      "bought": null
+    },
+    {
+      "asin": "B0G1SCJ18P",
+      "brand": "HOOKII",
+      "model": "Neomow X SE",
+      "systems": [],
+      "systems_label": "Neomow app",
+      "specs": {
+        "area": "Up to 0.75 acre",
+        "nav": "360° 3D LiDAR",
+        "drive": "2WD"
+      },
+      "features": {
+        "big_yard": true,
+        "lidar": true,
+        "awd": false,
+        "rating": true
+      },
+      "verdict": "LiDAR and three-quarter-acre coverage for under $900.",
+      "pros": [
+        "0.75 acre",
+        "3D LiDAR, no RTK station",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 11 reviews",
+        "Only 10 left at capture time",
+        "New brand"
+      ],
+      "name": "Neomow X SE 360° 3D LiDAR Navigation Robot Lawn Mower for 0.75 Acre",
+      "image": "https://m.media-amazon.com/images/I/71F26CLu1kL._AC_SL1500_.jpg",
+      "price": 899.0,
+      "rating": 4.7,
+      "reviews_count": 11,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GS1933S1",
+      "brand": "Roborock",
+      "model": "RockMow X115H",
+      "systems": [],
+      "systems_label": "Roborock app",
+      "specs": {
+        "area": "0.37 acre",
+        "nav": "Full-band RTK + quad vision",
+        "drive": "4WD"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": false,
+        "awd": true,
+        "rating": true
+      },
+      "verdict": "Roborock's 4WD mower for bumpy, sloped lawns.",
+      "pros": [
+        "4WD",
+        "Four cameras",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$1,399.99",
+        "Only 13 reviews",
+        "0.37 acre"
+      ],
+      "name": "roborock RockMow X115H Robot Lawn Mower, Wire-Free 4WD Robot Lawn Mower with Full-Band RTK + Quad-Vision Navigation, Auto Mapping, Multi-Sensor AI Obstacle Avoidance, 80% Slope, Covers Up to 0.37 Acre",
+      "image": "https://m.media-amazon.com/images/I/51babMMeURL._AC_SL1500_.jpg",
+      "price": 1399.99,
+      "rating": 4.6,
+      "reviews_count": 13,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0H761SNFG",
+      "brand": "Dreame",
+      "model": "A3 AWD 1000",
+      "systems": [],
+      "systems_label": "Dreame app",
+      "specs": {
+        "area": "0.25 acre",
+        "nav": "360° 3D LiDAR + AI vision",
+        "drive": "AWD"
+      },
+      "features": {
+        "big_yard": false,
+        "lidar": true,
+        "awd": true,
+        "rating": true
+      },
+      "verdict": "AWD and LiDAR with a cleaning set and spare blades in the box.",
+      "pros": [
+        "AWD",
+        "LiDAR plus dual vision",
+        "Cleaning and blade sets included"
+      ],
+      "cons": [
+        "$1,399.99",
+        "Only 31 reviews",
+        "0.25 acre for the price"
+      ],
+      "name": "[All-Terrain Wire-Free] DREAME LiDAR Robot Lawn Mower A3 AWD 1000 + Cleaning Set+Blade Set, 360° 3D LiDAR & AI Dual Vision Smart Robotic Mowers for 0.25 Acre",
+      "image": "https://m.media-amazon.com/images/I/71aP4xq7L+L._AC_SL1500_.jpg",
+      "price": 1399.99,
+      "rating": 4.7,
+      "reviews_count": 31,
+      "bought": null
+    },
+    {
+      "asin": "B0GGZQTY2N",
+      "brand": "ECOVACS",
+      "model": "Goat A2000 LiDAR PRO",
+      "systems": [],
+      "systems_label": "ECOVACS app",
+      "specs": {
+        "area": "Not stated in bullets",
+        "nav": "Dual LiDAR",
+        "drive": "2WD"
+      },
+      "features": {
+        "big_yard": true,
+        "lidar": true,
+        "awd": false,
+        "rating": false
+      },
+      "verdict": "Dual LiDAR from ECOVACS for larger lawns.",
+      "pros": [
+        "Dual LiDAR",
+        "Sold by Amazon",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "$1,329.05",
+        "4.0 stars",
+        "Lawn size isn't in the bullets"
+      ],
+      "name": "ECOVACS Goat A2000 LiDAR PRO Robot Lawn Mower, Dual LiDAR Navigation",
+      "image": "https://m.media-amazon.com/images/I/618p7cw-BKL._AC_SL1500_.jpg",
+      "price": 1329.05,
+      "rating": 4.0,
+      "reviews_count": 172,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0GKM8JZDF",
+      "brand": "Mammotion",
+      "model": "LUBA 3 AWD 3000",
+      "systems": [],
+      "systems_label": "Mammotion app",
+      "specs": {
+        "area": "AWD 3000 model",
+        "nav": "360° LiDAR + NetRTK + AI vision",
+        "drive": "AWD, 80% slopes"
+      },
+      "features": {
+        "big_yard": true,
+        "lidar": true,
+        "awd": true,
+        "rating": true
+      },
+      "verdict": "The mower for steep, large yards: AWD that climbs 80% slopes.",
+      "pros": [
+        "80% slopes",
+        "LiDAR, NetRTK, and vision",
+        "Cleaning stand included"
+      ],
+      "cons": [
+        "$2,109",
+        "4.2 stars",
+        "Cleaning stand ships separately"
+      ],
+      "name": "Mammotion LUBA 3 AWD 3000 Robot Lawn Mower with Cleaning Stand (Ship Separately), 360° LiDAR+NetRTK+AI Vision, AWD for 80% Slopes, 5400 sq.ft/h, Cutting Height 1.0\"-2.7\"",
+      "image": "https://m.media-amazon.com/images/I/61YAsbjrZ2L._AC_SL1500_.jpg",
+      "price": 2109.0,
+      "rating": 4.2,
+      "reviews_count": 179,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Boundary wire or wire-free?",
+      "a": "Older robots need a wire buried around the lawn edge. Newer wire-free models use RTK GPS, LiDAR, or cameras to map the lawn, which saves hours of setup."
+    },
+    {
+      "q": "How big a lawn can it handle?",
+      "a": "Check the rated area and the slope it can climb. Buy for your lawn size with some headroom."
+    },
+    {
+      "q": "Is it safe around kids and pets?",
+      "a": "Robot mowers have lift and obstacle sensors and stop the blades, but keep kids and pets off the lawn while it runs, and schedule it for times the yard is empty."
+    }
+  ]
+}

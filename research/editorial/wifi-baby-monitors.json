@@ -1,0 +1,359 @@
+{
+  "feature_weights": {
+    "screen": 0.3,
+    "no_fee": 0.25,
+    "smart_alerts": 0.25,
+    "voice": 0.2
+  },
+  "systems_note": "Baby monitors mostly live in their own apps. Tapo cameras have an official TP-Link integration in Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "camera",
+      "label": "Camera"
+    },
+    {
+      "key": "display",
+      "label": "Parent unit"
+    },
+    {
+      "key": "alerts",
+      "label": "Alerts"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "camera",
+      "label": "Camera"
+    },
+    {
+      "key": "display",
+      "label": "Parent unit"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07WCV632L",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A 5-inch parent screen plus a free app, with pan-tilt-zoom and 7,606 reviews."
+    },
+    {
+      "asin": "B0GWL492J9",
+      "label": "Best Smart Features",
+      "kind": "premium",
+      "why": "4K with covered-face, sleep, and danger-zone alerts, and no monthly fee."
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "label": "Best Budget (App Only)",
+      "kind": "budget",
+      "why": "A $29.99 2K camera with free crying alerts, if you'll use your phone as the monitor."
+    },
+    {
+      "asin": "B0DJS7WRJS",
+      "label": "Best for Two Rooms",
+      "kind": "special",
+      "why": "Two 3MP Wi-Fi 6 cameras and one 5-inch display for $129.25."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07WCV632L",
+      "brand": "VTech",
+      "model": "Smart Wi-Fi Baby Monitor",
+      "systems": [],
+      "systems_label": "VTech app",
+      "specs": {
+        "camera": "1080p, pan-tilt-zoom, night vision",
+        "display": "5\" HD screen",
+        "alerts": "Not stated in bullets"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": false,
+        "voice": false
+      },
+      "verdict": "The safe pick: a dedicated screen at home and a free app when you're out.",
+      "pros": [
+        "7,606 reviews",
+        "Free app",
+        "Pan-tilt-zoom"
+      ],
+      "cons": [
+        "4.1 stars",
+        "1080p",
+        "$116.32"
+      ]
+    },
+    {
+      "asin": "B0GWL492J9",
+      "brand": "Monai",
+      "model": "Pro 4K",
+      "systems": [],
+      "systems_label": "Monai app",
+      "specs": {
+        "camera": "4K 8MP, 6x zoom",
+        "display": "Phone app",
+        "alerts": "Cry, covered face, danger zone, sleep tracking"
+      },
+      "features": {
+        "screen": false,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": false
+      },
+      "verdict": "The most advanced alerts here, with no subscription and 32 GB of local storage.",
+      "pros": [
+        "7 AI features with no monthly fee",
+        "Covered-face alert",
+        "Dual-band Wi-Fi"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 49 reviews",
+        "No parent screen"
+      ]
+    },
+    {
+      "asin": "B0DJS7WRJS",
+      "brand": "ARENTI",
+      "model": "D3 set, 2 cameras",
+      "systems": [],
+      "systems_label": "ARENTI app",
+      "specs": {
+        "camera": "2x 3MP, Wi-Fi 6",
+        "display": "5\" display",
+        "alerts": "Sound and motion zones"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": false
+      },
+      "verdict": "Two cameras, one screen, and free 7-day cloud clips.",
+      "pros": [
+        "2 cameras",
+        "Free 7-day looping cloud clips",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "4.0 stars",
+        "$129.25",
+        "Monitoring zones need setup"
+      ]
+    },
+    {
+      "asin": "B0DJS63Y2Q",
+      "brand": "ARENTI",
+      "model": "D3 kit",
+      "systems": [],
+      "systems_label": "ARENTI app",
+      "specs": {
+        "camera": "3MP, Wi-Fi 6",
+        "display": "5\" display",
+        "alerts": "Sound and motion zones"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": false
+      },
+      "verdict": "The single-camera D3 with lullabies and a night light.",
+      "pros": [
+        "$99.99",
+        "Lullabies and white noise",
+        "Free 7-day cloud clips"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Only 240 reviews",
+        "Fixed camera"
+      ]
+    },
+    {
+      "asin": "B0H5BVB9CY",
+      "brand": "ARENTI",
+      "model": "C3 kit (PTZ)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "ARENTI app",
+      "specs": {
+        "camera": "3MP pan-tilt",
+        "display": "5\" display",
+        "alerts": "Cry and movement"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": true
+      },
+      "verdict": "A pan-tilt kit that adds Alexa and Google plus feeding reminders.",
+      "pros": [
+        "Alexa and Google",
+        "Feeding reminders",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 32 reviews",
+        "New model",
+        "$84.99"
+      ]
+    },
+    {
+      "asin": "B0H5BR6R7Z",
+      "brand": "Blemil",
+      "model": "5.5\" smart monitor",
+      "systems": [],
+      "systems_label": "Blemil app",
+      "specs": {
+        "camera": "Auto-tracking",
+        "display": "5.5\" screen, 5000 mAh",
+        "alerts": "Cry, sound, motion"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": false
+      },
+      "verdict": "The biggest parent screen here, with up to 22 hours of battery.",
+      "pros": [
+        "5.5\" display",
+        "Up to 22 hours in eco mode",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 124 reviews",
+        "Cloud storage pricing isn't in the bullets",
+        "$99.99"
+      ]
+    },
+    {
+      "asin": "B0DQXPWHSK",
+      "brand": "Momcozy",
+      "model": "Smart Wi-Fi monitor (BM04)",
+      "systems": [],
+      "systems_label": "Momcozy app",
+      "specs": {
+        "camera": "1080p, wall mount",
+        "display": "5\" parent unit",
+        "alerts": "Not stated in bullets"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": false,
+        "voice": false
+      },
+      "verdict": "Works on Wi-Fi or straight to the parent unit when Wi-Fi drops.",
+      "pros": [
+        "Wi-Fi or direct connection",
+        "Wall mount included",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "$189.99",
+        "4.1 stars",
+        "1080p"
+      ]
+    },
+    {
+      "asin": "B0FM6T276Q",
+      "brand": "Jeeber",
+      "model": "1080p PTZ monitor",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "camera": "1080p, 360° pan-tilt",
+        "display": "4\" screen",
+        "alerts": "Cry (VOX)"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": false,
+        "voice": false
+      },
+      "verdict": "A cheap screen-and-app monitor with cry alerts.",
+      "pros": [
+        "$59.99",
+        "4.3 stars",
+        "800+ bought in the past month"
+      ],
+      "cons": [
+        "2.4 GHz only",
+        "4\" screen",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0CJN8C2KK",
+      "brand": "Simyke",
+      "model": "Video baby monitor",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "camera": "Up to 4 cameras",
+        "display": "2.8\" screen",
+        "alerts": "Sound"
+      },
+      "features": {
+        "screen": true,
+        "no_fee": true,
+        "smart_alerts": false,
+        "voice": false
+      },
+      "verdict": "The cheapest option, with 1,200 ft range and room for four cameras.",
+      "pros": [
+        "$37.98",
+        "1,200 ft range",
+        "Expands to 4 cameras"
+      ],
+      "cons": [
+        "2.8\" screen",
+        "4.1 stars",
+        "Basic alerts"
+      ]
+    },
+    {
+      "asin": "B09Y8TLP25",
+      "brand": "Tapo",
+      "model": "C210",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "camera": "2K, pan and tilt",
+        "display": "Phone app (or Echo Show)",
+        "alerts": "Crying, person, motion"
+      },
+      "features": {
+        "screen": false,
+        "no_fee": true,
+        "smart_alerts": true,
+        "voice": true
+      },
+      "verdict": "A $30 security camera that works fine as an app-only baby monitor.",
+      "pros": [
+        "$29.99",
+        "Free crying alerts",
+        "22,956 reviews"
+      ],
+      "cons": [
+        "No parent screen",
+        "Not built for nurseries",
+        "Relies on your Wi-Fi"
+      ]
+    }
+  ],
+  "avoid": []
+}
