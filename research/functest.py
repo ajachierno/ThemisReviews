@@ -96,7 +96,7 @@ async def run(view, opts, b):
     if "price" in " ".join(sorts):
         s = [x for x in sorts if "price" in x][0]
         await pg.select_option("#f-sort", s)
-        prices = await pg.eval_on_selector_all("table.ptable tbody tr", "rs => rs.filter(r => r.offsetParent && r.dataset.price && !r.classList.contains("avoid-row")).map(r => +r.dataset.price)")
+        prices = await pg.eval_on_selector_all("table.ptable tbody tr", "rs => rs.filter(r => r.offsetParent && r.dataset.price && !r.classList.contains('avoid-row')).map(r => +r.dataset.price)")
         ok(prices == sorted(prices) or prices == sorted(prices, reverse=True), f"{v} smart-light-switches: price sort ordered ({prices[:4]}...)")
     await pg.goto(BASE + "smart-light-switches.html?protocol=matter,thread")
     chk = await pg.eval_on_selector_all("input[name=f-proto]:checked", "is => is.map(i => i.value)")
