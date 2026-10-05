@@ -1,0 +1,123 @@
+{
+  "feature_weights": {
+    "speeds": 0.5,
+    "remote": 0.5
+  },
+  "systems_note": "Caseta fan controls work with Alexa, Apple Home, Google Home, SmartThings, and Home Assistant through the Caseta Smart Hub.",
+  "spec_fields": [
+    {
+      "key": "speeds",
+      "label": "Fan speeds"
+    },
+    {
+      "key": "light",
+      "label": "Controls the light"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "speeds",
+      "label": "Speeds"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07N1GXM38",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Four fan speeds from a Caseta switch, rated 4.7 stars by 1,959 buyers."
+    },
+    {
+      "asin": "B07NQDT39V",
+      "label": "Best Add-On",
+      "kind": "budget",
+      "why": "A Pico remote with four speeds and a favorite button for the Caseta fan control."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07N1GXM38",
+      "brand": "Lutron",
+      "model": "Caseta Smart Fan Control (PD-FSQN)",
+      "systems": [
+        "alexa",
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "speeds": "4 + off",
+        "light": "No",
+        "install": "Wall switch, Smart Hub for app/voice",
+        "neutral": "Required"
+      },
+      "features": {
+        "speeds": true,
+        "remote": false
+      },
+      "verdict": "The Caseta fan speed control, with the best ratings of any smart fan switch we found.",
+      "pros": [
+        "4 speeds plus off",
+        "4.7 stars from 1,959 reviews",
+        "Works with Alexa, Apple Home, and Google through the Smart Hub",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Smart features need the Caseta Smart Hub",
+        "Fan only, not the light",
+        "$69.95"
+      ]
+    },
+    {
+      "asin": "B07NQDT39V",
+      "brand": "Lutron",
+      "model": "Pico remote for fan control",
+      "systems": [
+        "alexa",
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "speeds": "4 + off, favorite button",
+        "light": "No",
+        "install": "Battery remote, wall-mountable",
+        "neutral": "Not needed"
+      },
+      "features": {
+        "speeds": true,
+        "remote": true
+      },
+      "verdict": "Adds a second fan control anywhere, with a battery rated for about 10 years.",
+      "pros": [
+        "Favorite-speed button",
+        "About 10-year battery",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Requires the Caseta fan control",
+        "Bracket sold separately",
+        "$39.95"
+      ]
+    }
+  ],
+  "avoid": []
+}

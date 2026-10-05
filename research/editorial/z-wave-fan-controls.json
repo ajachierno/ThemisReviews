@@ -1,0 +1,195 @@
+{
+  "feature_weights": {
+    "speeds": 0.35,
+    "light": 0.25,
+    "long_range": 0.2,
+    "rating": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "speeds",
+      "label": "Fan speeds"
+    },
+    {
+      "key": "light",
+      "label": "Controls the light"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "speeds",
+      "label": "Speeds"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0846CJTRN",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Dims the light and switches the fan from one double switch, with Long Range and 4.4 stars."
+    },
+    {
+      "asin": "B07WSG4FN4",
+      "label": "Best Speed Control",
+      "kind": "budget",
+      "why": "Three fan speeds from the wall, sold by Amazon, for $44.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0846CJTRN",
+      "brand": "Zooz",
+      "model": "ZEN30 800LR double switch",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "speeds": "On/off only (no speed control)",
+        "light": "Yes, dimmer",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "speeds": false,
+        "light": true,
+        "long_range": true,
+        "rating": true
+      },
+      "verdict": "The best pick for a fan-and-light combo when you only need the fan on or off.",
+      "pros": [
+        "Dimmer for the light plus a 15 A relay for the fan",
+        "800 Series Long Range",
+        "Scene control from the buttons",
+        "4.4 stars from 330 reviews"
+      ],
+      "cons": [
+        "No fan speed control",
+        "Needs separate fan and light wires",
+        "Neutral required"
+      ]
+    },
+    {
+      "asin": "B07WSG4FN4",
+      "brand": "Enbrighten",
+      "model": "Z-Wave fan control (3-speed)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "speeds": "3 (low, medium, high)",
+        "light": "No",
+        "install": "Wall switch",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "speeds": true,
+        "light": false,
+        "long_range": false,
+        "rating": true
+      },
+      "verdict": "A dedicated fan speed switch that can run two fans from one wall box.",
+      "pros": [
+        "3 speeds",
+        "Controls up to two fans",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Fan only, not for lights",
+        "4.2 stars",
+        "Only 115 reviews"
+      ]
+    },
+    {
+      "asin": "B0CNDCW9D9",
+      "brand": "Enbrighten",
+      "model": "Z-Wave fan control (4-speed, QuickFit)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "No",
+        "install": "Wall switch, 20% shallower",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "speeds": true,
+        "light": false,
+        "long_range": false,
+        "rating": false
+      },
+      "verdict": "The newer Enbrighten with four speeds and a shallower body.",
+      "pros": [
+        "4 speeds",
+        "Auto-detecting line/load terminals",
+        "Alexa and Google through a Z-Wave hub"
+      ],
+      "cons": [
+        "3.4 stars from 34 reviews",
+        "$59.23",
+        "Fan only"
+      ]
+    },
+    {
+      "asin": "B08GQJWSRG",
+      "brand": "Leviton",
+      "model": "Decora Smart ZW4SF",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "speeds": "4 (low to max)",
+        "light": "No",
+        "install": "Wall switch",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "speeds": true,
+        "light": false,
+        "long_range": false,
+        "rating": false
+      },
+      "verdict": "Leviton's 700 Series fan speed controller with S2 security.",
+      "pros": [
+        "700 Series with S2 and SmartStart",
+        "4 speeds",
+        "Over-the-air updates"
+      ],
+      "cons": [
+        "3.1 stars",
+        "$57.22",
+        "Fan only"
+      ]
+    }
+  ],
+  "avoid": []
+}

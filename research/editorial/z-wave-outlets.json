@@ -1,0 +1,176 @@
+{
+  "feature_weights": {
+    "tamper": 0.35,
+    "repeater": 0.35,
+    "rating": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "controlled",
+      "label": "Controlled sockets"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "controlled",
+      "label": "Controlled"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CQKPYZM9",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A tamper-resistant Z-Wave outlet that also repeats your signal, rated 4.4 stars, sold by Amazon."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CQKPYZM9",
+      "brand": "Enbrighten",
+      "model": "Z-Wave duplex outlet",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "Not stated in bullets",
+        "extras": "Tamper resistant, repeater up to 150 ft.",
+        "series": "Not stated in bullets"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": true,
+        "rating": true
+      },
+      "verdict": "The best-rated Z-Wave outlet, and it strengthens your mesh.",
+      "pros": [
+        "Tamper resistant",
+        "Repeats Z-Wave up to 150 ft.",
+        "4.4 stars, sold by Amazon"
+      ],
+      "cons": [
+        "Only 100 reviews",
+        "Z-Wave hub required",
+        "Wiring required"
+      ]
+    },
+    {
+      "asin": "B0CNDCMN5T",
+      "brand": "Enbrighten",
+      "model": "Z-Wave duplex outlet (newer listing)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "controlled": "1 (other always on)",
+        "extras": "Tamper resistant",
+        "series": "Not stated in bullets"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "One switched socket and one always-on, with Alexa and Google through a hub.",
+      "pros": [
+        "One controlled, one always-on socket",
+        "Tamper resistant",
+        "Alexa and Google via a Z-Wave hub"
+      ],
+      "cons": [
+        "3.6 stars from 33 reviews",
+        "$44.99",
+        "Neutral required"
+      ]
+    },
+    {
+      "asin": "B08GQLBXTX",
+      "brand": "Leviton",
+      "model": "Decora Smart ZW15R",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "Not stated in bullets",
+        "extras": "Tamper resistant, color change kits",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "Leviton's Decora-style Z-Wave outlet with optional color kits.",
+      "pros": [
+        "Decora style with color kits",
+        "Tamper resistant",
+        "15 A"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$49.99",
+        "Z-Wave hub required"
+      ]
+    },
+    {
+      "asin": "B07NLYX72X",
+      "brand": "J Cross",
+      "model": "Z-Wave Plus duplex receptacle",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "1 (other always on)",
+        "extras": "3-way capable with an accessory switch",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tamper": false,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "A cheap Z-Wave receptacle that controls one socket.",
+      "pros": [
+        "$21.99",
+        "3-way capable",
+        "One always-on socket"
+      ],
+      "cons": [
+        "Only 14 reviews",
+        "3.9 stars",
+        "Neutral required"
+      ]
+    }
+  ],
+  "avoid": []
+}

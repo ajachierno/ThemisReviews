@@ -1,0 +1,433 @@
+{
+  "slug": "wifi-energy-monitors",
+  "family": "energy-monitors",
+  "family_title": "Energy monitors",
+  "noun": "monitor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Home Energy Monitors",
+  "subtitle": "Panel-mounted monitors that show what your home and each circuit use, ranked.",
+  "intro": "We pulled the whole-home energy monitors on Amazon and scored them on rating, review volume, and features: circuit-level sensors, local control, and Home Assistant support.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "circuits": 0.35,
+    "local": 0.3,
+    "solar": 0.2,
+    "ul": 0.15
+  },
+  "systems_note": "Refoss monitors have a native Home Assistant integration with local control. Emporia works through its own app; Home Assistant support for it is community-made.",
+  "spec_fields": [
+    {
+      "key": "sensors",
+      "label": "Circuit sensors included"
+    },
+    {
+      "key": "local",
+      "label": "Local control / API"
+    },
+    {
+      "key": "solar",
+      "label": "Solar / net metering"
+    },
+    {
+      "key": "cert",
+      "label": "Certification"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "sensors",
+      "label": "Circuit sensors"
+    },
+    {
+      "key": "local",
+      "label": "Local"
+    },
+    {
+      "key": "cert",
+      "label": "Cert."
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C79PNK84",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "UL-listed whole-home monitoring with 16 circuit sensors, 4.6 stars from 867 reviews."
+    },
+    {
+      "asin": "B0C7B1LKDW",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "The same Emporia Vue 3 without circuit sensors, for $99.99; add sensors later."
+    },
+    {
+      "asin": "B0DJNV3GPR",
+      "label": "Best for Home Assistant",
+      "kind": "special",
+      "why": "Local web UI, open API, MQTT, and native Home Assistant support, no cloud required."
+    },
+    {
+      "asin": "B0D6VZQBPF",
+      "label": "Best Value With Sensors",
+      "kind": "premium",
+      "why": "16 circuit sensors and Home Assistant support for $149.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C79PNK84",
+      "brand": "Emporia",
+      "model": "Vue 3 with 16 circuit sensors",
+      "systems": [],
+      "systems_label": "Emporia app",
+      "specs": {
+        "sensors": "16 x 50 A",
+        "local": "Cloud app (2.4 GHz Wi-Fi + internet required)",
+        "solar": "Yes",
+        "cert": "UL listed"
+      },
+      "features": {
+        "circuits": true,
+        "local": false,
+        "solar": true,
+        "ul": true
+      },
+      "verdict": "The most popular whole-home monitor, with 16 circuit sensors to see what each appliance costs.",
+      "pros": [
+        "16 circuit sensors included",
+        "UL listed",
+        "Solar and net metering",
+        "4.6 stars, 1K+ bought in the past month"
+      ],
+      "cons": [
+        "Needs internet; data goes through Emporia's cloud",
+        "Panel install",
+        "$199.99"
+      ],
+      "name": "Emporia Vue 3 Home Energy Monitor - Smart Home Automation Module and Real Time Electricity Usage Monitor, Power Consumption Meter, Solar and Net Metering for UL Certified Safe Energy Monitoring",
+      "image": "https://m.media-amazon.com/images/I/51fQkSzB+ML._AC_SL1000_.jpg",
+      "price": 199.99,
+      "rating": 4.6,
+      "reviews_count": 867,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0C79TVH4Y",
+      "brand": "Emporia",
+      "model": "Vue 3 with 8 circuit sensors",
+      "systems": [],
+      "systems_label": "Emporia app",
+      "specs": {
+        "sensors": "8 x 50 A",
+        "local": "Cloud app",
+        "solar": "Yes",
+        "cert": "UL listed"
+      },
+      "features": {
+        "circuits": true,
+        "local": false,
+        "solar": true,
+        "ul": true
+      },
+      "verdict": "The middle option: eight circuit sensors for the biggest loads.",
+      "pros": [
+        "8 circuit sensors",
+        "UL listed",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Cloud only",
+        "Panel install",
+        "$149.99"
+      ],
+      "name": "Emporia Vue 3 Home Energy Monitor - Smart Home Automation Module and Real Time Electricity Usage Monitor, Power Consumption Meter, Solar and Net Metering for UL Certified Safe Energy Monitoring",
+      "image": "https://m.media-amazon.com/images/I/51OVs2naFOL._AC_SL1000_.jpg",
+      "price": 149.99,
+      "rating": 4.6,
+      "reviews_count": 316,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0C7B1LKDW",
+      "brand": "Emporia",
+      "model": "Vue 3 (whole-home only)",
+      "systems": [],
+      "systems_label": "Emporia app",
+      "specs": {
+        "sensors": "None (mains only; add up to 16)",
+        "local": "Cloud app",
+        "solar": "Yes",
+        "cert": "UL listed"
+      },
+      "features": {
+        "circuits": false,
+        "local": false,
+        "solar": true,
+        "ul": true
+      },
+      "verdict": "Whole-home totals for $99.99, with room to add circuit sensors later.",
+      "pros": [
+        "$99.99",
+        "UL listed",
+        "Add up to 16 circuit sensors later"
+      ],
+      "cons": [
+        "No circuit sensors in the box",
+        "Cloud only",
+        "Panel install"
+      ],
+      "name": "Emporia Vue 3 Home Energy Monitor - Smart Home Automation Module and Real Time Electricity Usage Monitor, Power Consumption Meter, Solar and Net Metering for UL Certified Safe Energy Monitoring",
+      "image": "https://m.media-amazon.com/images/I/51LNYRjDfUL._AC_SL1000_.jpg",
+      "price": 99.99,
+      "rating": 4.5,
+      "reviews_count": 228,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0DJNV3GPR",
+      "brand": "Refoss",
+      "model": "EM16P",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Refoss app",
+      "specs": {
+        "sensors": "Not stated in bullets",
+        "local": "Web UI, open API, MQTT, no cloud",
+        "solar": "Yes, zero feed-in automation",
+        "cert": "Not stated in bullets"
+      },
+      "features": {
+        "circuits": true,
+        "local": true,
+        "solar": true,
+        "ul": false
+      },
+      "verdict": "The privacy pick: everything runs locally, with native Home Assistant support.",
+      "pros": [
+        "Local web UI, open API, and MQTT",
+        "Native Home Assistant integration",
+        "Solar surplus automation"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Sensor count isn't in the bullets",
+        "$199.99"
+      ],
+      "name": "Refoss Smart Home Energy Monitor with Open API, Home Assistant, No Cloud",
+      "image": "https://m.media-amazon.com/images/I/71BkferqpzL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.2,
+      "reviews_count": 178,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FQ9ZNKBL",
+      "brand": "Refoss",
+      "model": "Monitor with 16 x 60 A sensors",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Refoss app",
+      "specs": {
+        "sensors": "16 x 60 A (18 circuits total)",
+        "local": "Web UI, open API, MQTT, WebSocket",
+        "solar": "Yes",
+        "cert": "Not stated in bullets"
+      },
+      "features": {
+        "circuits": true,
+        "local": true,
+        "solar": true,
+        "ul": false
+      },
+      "verdict": "Local monitoring of 18 circuits at ±1% precision, per the listing.",
+      "pros": [
+        "18 circuits",
+        "±1% precision, per the listing",
+        "Local API and MQTT"
+      ],
+      "cons": [
+        "Only 67 reviews",
+        "4.2 stars",
+        "$199.99"
+      ],
+      "name": "Refoss Smart Home Energy Monitor with 16 60A Circuit Sensor, Local Control",
+      "image": "https://m.media-amazon.com/images/I/71q-KusQCzL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.2,
+      "reviews_count": 67,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FSZYR7V4",
+      "brand": "Meross",
+      "model": "Smart Home Energy Monitor",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Meross app",
+      "specs": {
+        "sensors": "Not stated in bullets",
+        "local": "Home Assistant support",
+        "solar": "Yes",
+        "cert": "ETL, UL 61010 standard"
+      },
+      "features": {
+        "circuits": false,
+        "local": true,
+        "solar": true,
+        "ul": true
+      },
+      "verdict": "An ETL-certified monitor with cost charts, alerts, and Home Assistant support.",
+      "pros": [
+        "ETL certified",
+        "±1% accuracy, per the listing",
+        "Usage-spike alerts"
+      ],
+      "cons": [
+        "Only 46 reviews",
+        "Circuit sensors aren't detailed",
+        "$179.99"
+      ],
+      "name": "Meross Smart Home Energy Monitor, Real-Time Power & Cost Tracking",
+      "image": "https://m.media-amazon.com/images/I/71K3rwKlrqL._AC_SL1500_.jpg",
+      "price": 179.99,
+      "rating": 4.3,
+      "reviews_count": 46,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0D6VZQBPF",
+      "brand": "Fusion Energy",
+      "model": "Monitor with 16 x 50 A sensors",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Fusion Energy app",
+      "specs": {
+        "sensors": "16 x 50 A",
+        "local": "Home Assistant compatible",
+        "solar": "Yes",
+        "cert": "Not stated in bullets"
+      },
+      "features": {
+        "circuits": true,
+        "local": true,
+        "solar": true,
+        "ul": false
+      },
+      "verdict": "Sixteen circuit sensors and Home Assistant support for less than the Emporia 16-sensor kit.",
+      "pros": [
+        "16 circuit sensors",
+        "Names Home Assistant",
+        "$149.99, 4.4 stars"
+      ],
+      "cons": [
+        "Lesser-known brand",
+        "Certification isn't in the bullets",
+        "Panel install"
+      ],
+      "name": "Smart Home Energy Monitor with 16 50A Circuit Level Sensors, Real-Time Power Usage & Electricity Cost Tracking, Ideal for Rental Homes & Shared Apartments, App History, Compatible with Home Assistant",
+      "image": "https://m.media-amazon.com/images/I/71xlIJjC+pL._SL1500_.jpg",
+      "price": 149.99,
+      "rating": 4.4,
+      "reviews_count": 218,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0CD2SZX35",
+      "brand": "Eyedro",
+      "model": "200 A Wi-Fi/Ethernet monitor",
+      "systems": [],
+      "systems_label": "MyEyedro cloud",
+      "specs": {
+        "sensors": "2 x 200 A mains",
+        "local": "Cloud (no subscription)",
+        "solar": "Yes, net metering",
+        "cert": "Not stated in bullets"
+      },
+      "features": {
+        "circuits": false,
+        "local": false,
+        "solar": true,
+        "ul": false
+      },
+      "verdict": "A mains-only monitor with Wi-Fi or wired Ethernet.",
+      "pros": [
+        "Wi-Fi or Ethernet",
+        "No subscription",
+        "Net metering"
+      ],
+      "cons": [
+        "3.6 stars",
+        "No circuit sensors",
+        "Cloud dashboard"
+      ],
+      "name": "Eyedro Smart Home Energy Monitor 200A 2.4GHz WiFi/Ethernet Net Metering",
+      "image": "https://m.media-amazon.com/images/I/71U0Mbd6iML._AC_SL1500_.jpg",
+      "price": 149.99,
+      "rating": 3.6,
+      "reviews_count": 123,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0FGYLV8QC",
+      "brand": "Emporia",
+      "model": "Vue with 16 sensors + 4 smart plugs",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Emporia app",
+      "specs": {
+        "sensors": "16",
+        "local": "Cloud app",
+        "solar": "Yes",
+        "cert": "Not stated in bullets"
+      },
+      "features": {
+        "circuits": true,
+        "local": false,
+        "solar": true,
+        "ul": false
+      },
+      "verdict": "The 16-sensor Emporia plus four energy-monitoring smart plugs.",
+      "pros": [
+        "16 sensors and 4 smart plugs",
+        "Per-outlet energy data",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "$225.58",
+        "Cloud only"
+      ],
+      "name": "Emporia Energy Monitor with 16 Sensors + 4 Smart Plugs Super Bundle - Whole Home Electricity Usage Tracking & Real-Time Control - Supports Solar Net Metering - Works with iOS, Android, Alexa",
+      "image": "https://m.media-amazon.com/images/I/41WoccIgVKL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 225.58,
+      "rating": 4.6,
+      "reviews_count": 7,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Do I need an electrician?",
+      "a": "Whole-home monitors clip current sensors around wires inside your electrical panel. Many people install them, but it means working inside a live panel. Hire an electrician if you're not comfortable."
+    },
+    {
+      "q": "Whole-home or circuit-level?",
+      "a": "Two main sensors show your total use. Adding circuit sensors shows which appliances use what, like the dryer, AC, or EV charger."
+    },
+    {
+      "q": "Does it work with solar?",
+      "a": "Many monitors can track solar production and net metering with extra sensors. Check the listing if you have panels."
+    }
+  ]
+}

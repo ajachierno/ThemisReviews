@@ -191,7 +191,7 @@ PAGES = {
         5000, FAN_GUIDE),
     "lutron-fan-controls": _p("fan-controls", "Fan controls", "control", "The Best Lutron Caseta Fan Controls",
         "Every Caseta fan speed control and fan Pico we found on Amazon, ranked.",
-        "Lutron sells one Caseta fan control in a few colors, plus a matching Pico remote. We scored the listings on Amazon on rating and review volume.",
+        "Lutron sells one Caseta fan control (in a few colors) and a matching Pico remote, so this page is short. We scored both on rating and review volume.",
         3000, FAN_GUIDE),
     "zigbee-presence-sensors": _p("presence-sensors", "Presence sensors", "sensor", "The Best Zigbee Presence Sensors",
         "mmWave presence sensors that know when you're sitting still, ranked.",

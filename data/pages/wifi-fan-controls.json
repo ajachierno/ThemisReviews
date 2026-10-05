@@ -1,0 +1,487 @@
+{
+  "slug": "wifi-fan-controls",
+  "family": "fan-controls",
+  "family_title": "Fan controls",
+  "noun": "control",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Ceiling Fan Controls",
+  "subtitle": "Wi-Fi fan speed switches, combos, and canopy controllers, ranked from live Amazon data.",
+  "intro": "We pulled the Wi-Fi ceiling fan controls on Amazon and scored them on rating, review volume, and features: separate fan and light control, speeds, and voice assistants.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "light": 0.3,
+    "speeds": 0.25,
+    "apple": 0.2,
+    "pack": 0.25
+  },
+  "systems_note": "TP-Link Kasa and Tuya/Smart Life fan controls also have official Home Assistant integrations. Ring's Smart Fan Control isn't here because it connects over Amazon Sidewalk, not Wi-Fi.",
+  "spec_fields": [
+    {
+      "key": "speeds",
+      "label": "Fan speeds"
+    },
+    {
+      "key": "light",
+      "label": "Controls the light"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "speeds",
+      "label": "Speeds"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CTDCQJVZ",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Four fan speeds plus a light dimmer, with Apple HomeKit, Alexa, and Google, sold by Amazon."
+    },
+    {
+      "asin": "B086PPRWL7",
+      "label": "Best Value",
+      "kind": "budget",
+      "why": "A fan-and-light combo with 4,747 reviews for $39.99."
+    },
+    {
+      "asin": "B09C21LX9R",
+      "label": "Best No-Rewire",
+      "kind": "special",
+      "why": "Goes in the fan canopy instead of the wall, with a remote, for $19.90."
+    },
+    {
+      "asin": "B0C6BPTQ36",
+      "label": "Best Name Brand",
+      "kind": "premium",
+      "why": "Leviton's quiet 4-speed Wi-Fi fan control with LED speed indicators."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CTDCQJVZ",
+      "brand": "Kasa",
+      "model": "KS240 fan + dimmer",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "Yes, dimmer",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": true,
+        "speeds": true,
+        "apple": true,
+        "pack": false
+      },
+      "verdict": "The best smart fan control for most homes: fan and light in one switch, and it works with Apple Home.",
+      "pros": [
+        "Fan speeds and light dimming in one switch",
+        "Apple HomeKit, Alexa, and Google",
+        "1K+ bought in the past month, sold by Amazon",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Needs separate fan and light wires",
+        "Neutral required",
+        "Single pole only"
+      ],
+      "name": "Kasa Smart Ceiling Fan Control & Dimmer Switch, KS240, Single Pole",
+      "image": "https://m.media-amazon.com/images/I/51sMlIG6nyL._SL1000_.jpg",
+      "price": 36.98,
+      "rating": 4.5,
+      "reviews_count": 853,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B086PPRWL7",
+      "brand": "Treatlife",
+      "model": "Fan + dimmer combo",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "Yes, dimmer (non-smart dimmable bulbs)",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": true,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "The most-reviewed fan-and-light combo, for Alexa and Google homes.",
+      "pros": [
+        "4,747 reviews",
+        "Fan speeds and light dimming",
+        "$39.99"
+      ],
+      "cons": [
+        "Not HomeKit, per the listing",
+        "Single pole only",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "Smart Ceiling Fan Control and Dimmer Light Switch, Neutral Wire Needed, TREATLIFE 2.4Ghz Single Pole Wi-Fi Fan and Light Switch Combo, Works with Alexa, Google Home and SmartThings, Remote Control",
+      "image": "https://m.media-amazon.com/images/I/61Tgz9bGjGL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.3,
+      "reviews_count": 4747,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B086PSPP4X",
+      "brand": "Treatlife",
+      "model": "Fan + dimmer combo (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "Yes, dimmer",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": true,
+        "speeds": true,
+        "apple": false,
+        "pack": true
+      },
+      "verdict": "Two Treatlife combos for two fans.",
+      "pros": [
+        "2 switches",
+        "1,427 reviews",
+        "Fan and light in one"
+      ],
+      "cons": [
+        "Not for 3-way circuits",
+        "$72.99",
+        "2.4 GHz only"
+      ],
+      "name": "TREATLIFE Smart Ceiling Fan Control and Dimmer Light Switch 2Pack, Neutral Wire Needed, 2.4GHz Single Pole Wi-Fi Fan Light Switch Combo Works with Alexa, Google Home and SmartThings, Remote Control",
+      "image": "https://m.media-amazon.com/images/I/6166cGJz+wL._AC_SL1500_.jpg",
+      "price": 72.99,
+      "rating": 4.4,
+      "reviews_count": 1427,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B08P5D3ZKW",
+      "brand": "Treatlife",
+      "model": "4-speed fan switch",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "No",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": false,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "A fan-only speed switch for fans without a light kit.",
+      "pros": [
+        "4 speeds",
+        "1,401 reviews",
+        "$36.99"
+      ],
+      "cons": [
+        "Fan only",
+        "Not for DC motor or remote fans",
+        "Single pole only"
+      ],
+      "name": "TREATLIFE Smart Fan Switch, 4 Speed Fan Switch for Ceiling Fan, Neutral Wire Required, 2.4GHz WiFi Smart Ceiling Fan Control Works with Alexa, Google Home, Remote Control, Schedule, No Hub Required",
+      "image": "https://m.media-amazon.com/images/I/61+6OPjyg8L._SL1500_.jpg",
+      "price": 36.99,
+      "rating": 4.3,
+      "reviews_count": 1401,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0C6BPTQ36",
+      "brand": "Leviton",
+      "model": "Decora Smart D24SF (Wi-Fi 2nd Gen)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "speeds": "4 (low to max)",
+        "light": "No",
+        "install": "Wall switch",
+        "neutral": "Not stated in bullets"
+      },
+      "features": {
+        "light": false,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "Leviton's quiet Wi-Fi fan control, with LEDs that show the speed.",
+      "pros": [
+        "Quiet 4-speed control",
+        "Speed LEDs",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Fan only",
+        "4.3 stars",
+        "$42.99"
+      ],
+      "name": "Leviton Decora Smart Fan Speed Controller, Wi-Fi 2nd Gen, D24SF-1RW, White",
+      "image": "https://m.media-amazon.com/images/I/512JCqmXjOL._SL1000_.jpg",
+      "price": 42.99,
+      "rating": 4.3,
+      "reviews_count": 157,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0CPY3ZJNH",
+      "brand": "Amazon Basics",
+      "model": "Smart fan control",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "No",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": false,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "A cheap fan speed switch for Alexa-only homes.",
+      "pros": [
+        "$32.34",
+        "4 speeds with LED indicators",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Alexa only",
+        "Only 134 reviews",
+        "Fan only"
+      ],
+      "name": "Amazon Basics Smart Ceiling Fan Control Switch, 4-Speed, Single Pole, Voice Control, Works with Alexa Only, Control from Anywhere, 2.4 GHz Wi-Fi, No Hub Required, White",
+      "image": "https://m.media-amazon.com/images/I/71fLNHyg-eL._SL1500_.jpg",
+      "price": 32.34,
+      "rating": 4.2,
+      "reviews_count": 134,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F5PX38GH",
+      "brand": "GHome",
+      "model": "Fan + dimmer combo",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "speeds": "4",
+        "light": "Yes, dimmer",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": true,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "Another 2-in-1 fan and light switch for Alexa and Google.",
+      "pros": [
+        "Fan and light in one",
+        "4 speeds",
+        "$36.99"
+      ],
+      "cons": [
+        "Only 62 reviews",
+        "4 A max",
+        "2.4 GHz only"
+      ],
+      "name": "GHome Smart Dimmer Switch with 4-Speed Ceiling Fan Control, Ceiling Fan and Light Switch Combo with Dimmer Compatible with Alexa and Google Assistant, 2.4Ghz Only, Single-Pole, UL Certified",
+      "image": "https://m.media-amazon.com/images/I/61gWAAetPuL._AC_SL1500_.jpg",
+      "price": 36.99,
+      "rating": 4.3,
+      "reviews_count": 62,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07YXJS276",
+      "brand": "MOES",
+      "model": "Fan + light switch",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "speeds": "3",
+        "light": "Yes, on/off",
+        "install": "Wall switch",
+        "neutral": "Required"
+      },
+      "features": {
+        "light": true,
+        "speeds": false,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "A Smart Life fan and light switch for Tuya homes.",
+      "pros": [
+        "Smart Life / Tuya app",
+        "Fan and light control",
+        "$27.99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "3 speeds",
+        "No dimming"
+      ],
+      "name": "MOES WiFi Smart Ceiling Fan Light Wall Switch, Smart Life/Tuya APP Remote Timer and Counterdown, Compatible with Alexa and Google Home, No Hub Required, Neutral Wire Required,White",
+      "image": "https://m.media-amazon.com/images/I/31F+EPZbdKS._SL1001_.jpg",
+      "price": 27.99,
+      "rating": 4.0,
+      "reviews_count": 283,
+      "bought": null
+    },
+    {
+      "asin": "B09C21LX9R",
+      "brand": "SONOFF",
+      "model": "iFAN04 canopy controller",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "eWeLink app",
+      "specs": {
+        "speeds": "Multi-speed",
+        "light": "Yes",
+        "install": "Inside the fan canopy",
+        "neutral": "In the canopy"
+      },
+      "features": {
+        "light": true,
+        "speeds": true,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "Goes inside the fan canopy and adds a 433 MHz remote, so the wall switch stays as it is.",
+      "pros": [
+        "$19.90",
+        "Remote included",
+        "No wall switch change"
+      ],
+      "cons": [
+        "Installs in the ceiling",
+        "4.0 stars",
+        "eWeLink app"
+      ],
+      "name": "SONOFF iFAN04 WiFi Ceiling Fan Light Controller, APP Control&Remote Control, Compatible with Alexa & Google Home Assistant, No Hub Required(2.4G WiFi)",
+      "image": "https://m.media-amazon.com/images/I/41WS1F4wNLL._SL1000_.jpg",
+      "price": 19.9,
+      "rating": 4.0,
+      "reviews_count": 181,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0F6QDGR46",
+      "brand": "Nexete",
+      "model": "Wi-Fi fan remote kit",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "speeds": "3 + light dimmer",
+        "light": "Yes, dimmer",
+        "install": "Receiver in the canopy + remote",
+        "neutral": "In the canopy"
+      },
+      "features": {
+        "light": true,
+        "speeds": false,
+        "apple": false,
+        "pack": false
+      },
+      "verdict": "A canopy receiver and remote that fits most standard ceiling fans.",
+      "pros": [
+        "Fits most regular ceiling fans, per the listing",
+        "Remote, app, and voice",
+        "$24.97"
+      ],
+      "cons": [
+        "Only 145 reviews",
+        "Ceiling install",
+        "3 speeds"
+      ],
+      "name": "Smart Wi-Fi Ceiling Fan Remote Control Kit, 3 Fan Speed & Light Dimmer,Compatible with Alexa & Google Home Smart Life APP",
+      "image": "https://m.media-amazon.com/images/I/71cSAYPgyPL._AC_SL1500_.jpg",
+      "price": 24.97,
+      "rating": 4.4,
+      "reviews_count": 145,
+      "bought": "200+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Will a smart fan control work with my ceiling fan?",
+      "a": "Wall fan controls work with fans that are switched from the wall and have a pull chain left on high. If your fan uses a handheld remote and a receiver in the canopy, you need a receiver-based controller instead."
+    },
+    {
+      "q": "Can it also control the fan's light?",
+      "a": "Some combo switches control both the fan and the light separately, which needs separate wires for the fan and light. Single-function controls only do the fan."
+    },
+    {
+      "q": "Why not use a regular dimmer on a fan?",
+      "a": "Dimmers aren't designed for fan motors and can make them hum or overheat. Use a control rated for fans."
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "slug": "z-wave-outlets",
+  "family": "outlets",
+  "family_title": "In-wall outlets",
+  "noun": "outlet",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave In-Wall Smart Outlets",
+  "subtitle": "Z-Wave receptacles that replace a standard outlet, ranked.",
+  "intro": "Z-Wave in-wall outlets are a small category. We scored the ones on Amazon on rating, review volume, and features.",
+  "reviews_ceiling": 300,
+  "feature_weights": {
+    "tamper": 0.35,
+    "repeater": 0.35,
+    "rating": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "controlled",
+      "label": "Controlled sockets"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "controlled",
+      "label": "Controlled"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CQKPYZM9",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A tamper-resistant Z-Wave outlet that also repeats your signal, rated 4.4 stars, sold by Amazon."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CQKPYZM9",
+      "brand": "Enbrighten",
+      "model": "Z-Wave duplex outlet",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "Not stated in bullets",
+        "extras": "Tamper resistant, repeater up to 150 ft.",
+        "series": "Not stated in bullets"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": true,
+        "rating": true
+      },
+      "verdict": "The best-rated Z-Wave outlet, and it strengthens your mesh.",
+      "pros": [
+        "Tamper resistant",
+        "Repeats Z-Wave up to 150 ft.",
+        "4.4 stars, sold by Amazon"
+      ],
+      "cons": [
+        "Only 100 reviews",
+        "Z-Wave hub required",
+        "Wiring required"
+      ],
+      "name": "Enbrighten Z-Wave Duplex Outlet, Tamper Resistant, White & Light Almond",
+      "image": "https://m.media-amazon.com/images/I/71bpadEBm5L._AC_SL1500_.jpg",
+      "price": 30.45,
+      "rating": 4.4,
+      "reviews_count": 100,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0CNDCMN5T",
+      "brand": "Enbrighten",
+      "model": "Z-Wave duplex outlet (newer listing)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "controlled": "1 (other always on)",
+        "extras": "Tamper resistant",
+        "series": "Not stated in bullets"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "One switched socket and one always-on, with Alexa and Google through a hub.",
+      "pros": [
+        "One controlled, one always-on socket",
+        "Tamper resistant",
+        "Alexa and Google via a Z-Wave hub"
+      ],
+      "cons": [
+        "3.6 stars from 33 reviews",
+        "$44.99",
+        "Neutral required"
+      ],
+      "name": "Enbrighten Z-Wave Duplex Outlet, Tamper Resistant, White & Light Almond",
+      "image": "https://m.media-amazon.com/images/I/71bpadEBm5L._AC_SL1500_.jpg",
+      "price": 44.99,
+      "rating": 3.6,
+      "reviews_count": 33,
+      "bought": null
+    },
+    {
+      "asin": "B08GQLBXTX",
+      "brand": "Leviton",
+      "model": "Decora Smart ZW15R",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "Not stated in bullets",
+        "extras": "Tamper resistant, color change kits",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tamper": true,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "Leviton's Decora-style Z-Wave outlet with optional color kits.",
+      "pros": [
+        "Decora style with color kits",
+        "Tamper resistant",
+        "15 A"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$49.99",
+        "Z-Wave hub required"
+      ],
+      "name": "Leviton Decora Smart Tamper-Resistant Outlet, 15A, Z-Wave, ZW15R-1BW, White",
+      "image": "https://m.media-amazon.com/images/I/51jpxJxAhBL._SL1000_.jpg",
+      "price": 49.99,
+      "rating": 3.6,
+      "reviews_count": 117,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07NLYX72X",
+      "brand": "J Cross",
+      "model": "Z-Wave Plus duplex receptacle",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "controlled": "1 (other always on)",
+        "extras": "3-way capable with an accessory switch",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tamper": false,
+        "repeater": false,
+        "rating": false
+      },
+      "verdict": "A cheap Z-Wave receptacle that controls one socket.",
+      "pros": [
+        "$21.99",
+        "3-way capable",
+        "One always-on socket"
+      ],
+      "cons": [
+        "Only 14 reviews",
+        "3.9 stars",
+        "Neutral required"
+      ],
+      "name": "Z-Wave Plus Wireless Duplex Receptacle",
+      "image": "https://m.media-amazon.com/images/I/71pgsKACRhL._AC_SL1500_.jpg",
+      "price": 21.99,
+      "rating": 3.9,
+      "reviews_count": 14,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "In-wall outlet or plug-in smart plug?",
+      "a": "An in-wall outlet replaces your receptacle, so nothing sticks out and both sockets stay usable. It needs wiring work. A plug-in smart plug needs no tools."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Yes, nearly all smart outlets need line, neutral, and ground. Most outlet boxes have them."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}

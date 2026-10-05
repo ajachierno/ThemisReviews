@@ -1,0 +1,163 @@
+{
+  "slug": "lutron-fan-controls",
+  "family": "fan-controls",
+  "family_title": "Fan controls",
+  "noun": "control",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Lutron Caseta Fan Controls",
+  "subtitle": "Every Caseta fan speed control and fan Pico we found on Amazon, ranked.",
+  "intro": "Lutron sells one Caseta fan control (in a few colors) and a matching Pico remote, so this page is short. We scored both on rating and review volume.",
+  "reviews_ceiling": 3000,
+  "feature_weights": {
+    "speeds": 0.5,
+    "remote": 0.5
+  },
+  "systems_note": "Caseta fan controls work with Alexa, Apple Home, Google Home, SmartThings, and Home Assistant through the Caseta Smart Hub.",
+  "spec_fields": [
+    {
+      "key": "speeds",
+      "label": "Fan speeds"
+    },
+    {
+      "key": "light",
+      "label": "Controls the light"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "speeds",
+      "label": "Speeds"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "neutral",
+      "label": "Neutral"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07N1GXM38",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Four fan speeds from a Caseta switch, rated 4.7 stars by 1,959 buyers."
+    },
+    {
+      "asin": "B07NQDT39V",
+      "label": "Best Add-On",
+      "kind": "budget",
+      "why": "A Pico remote with four speeds and a favorite button for the Caseta fan control."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07N1GXM38",
+      "brand": "Lutron",
+      "model": "Caseta Smart Fan Control (PD-FSQN)",
+      "systems": [
+        "alexa",
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "speeds": "4 + off",
+        "light": "No",
+        "install": "Wall switch, Smart Hub for app/voice",
+        "neutral": "Required"
+      },
+      "features": {
+        "speeds": true,
+        "remote": false
+      },
+      "verdict": "The Caseta fan speed control, with the best ratings of any smart fan switch we found.",
+      "pros": [
+        "4 speeds plus off",
+        "4.7 stars from 1,959 reviews",
+        "Works with Alexa, Apple Home, and Google through the Smart Hub",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Smart features need the Caseta Smart Hub",
+        "Fan only, not the light",
+        "$69.95"
+      ],
+      "name": "Lutron Caseta Smart Fan Control (Smart Hub Required) 4-Speed for Paddle Fan",
+      "image": "https://m.media-amazon.com/images/I/61CWpTcQ1QL._SL1000_.jpg",
+      "price": 69.95,
+      "rating": 4.7,
+      "reviews_count": 1959,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B07NQDT39V",
+      "brand": "Lutron",
+      "model": "Pico remote for fan control",
+      "systems": [
+        "alexa",
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "speeds": "4 + off, favorite button",
+        "light": "No",
+        "install": "Battery remote, wall-mountable",
+        "neutral": "Not needed"
+      },
+      "features": {
+        "speeds": true,
+        "remote": true
+      },
+      "verdict": "Adds a second fan control anywhere, with a battery rated for about 10 years.",
+      "pros": [
+        "Favorite-speed button",
+        "About 10-year battery",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Requires the Caseta fan control",
+        "Bracket sold separately",
+        "$39.95"
+      ],
+      "name": "Lutron Pico Remote for Caseta Smart Fan Speed Control, 3 Button Control",
+      "image": "https://m.media-amazon.com/images/I/61t5NkZ3dqL._AC_SL1500_.jpg",
+      "price": 39.95,
+      "rating": 4.8,
+      "reviews_count": 634,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Will a smart fan control work with my ceiling fan?",
+      "a": "Wall fan controls work with fans that are switched from the wall and have a pull chain left on high. If your fan uses a handheld remote and a receiver in the canopy, you need a receiver-based controller instead."
+    },
+    {
+      "q": "Can it also control the fan's light?",
+      "a": "Some combo switches control both the fan and the light separately, which needs separate wires for the fan and light. Single-function controls only do the fan."
+    },
+    {
+      "q": "Why not use a regular dimmer on a fan?",
+      "a": "Dimmers aren't designed for fan motors and can make them hum or overheat. Use a control rated for fans."
+    }
+  ]
+}
