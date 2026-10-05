@@ -35,9 +35,22 @@ def base_url(site):
     return f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
 
 
+def short_desc(text, limit=160):
+    """Search results cut descriptions off around 160 characters, so end on a full sentence
+    (or a word, with an ellipsis) instead of mid-word."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    end = max(cut.rfind(". "), cut.rfind("? "), cut.rfind("! "))
+    if end >= 80:
+        return cut[:end + 1]
+    return cut[:cut.rfind(" ")].rstrip(",;:") + "…"
+
+
 def page(site, title, body, is_home=False, description=None, canonical="",
          structured_data="", updated=None, noindex=False, image=None):
-    desc = description or site["description"]
+    desc = short_desc(description or site["description"])
     base = base_url(site)
     image = image or (f"{base}/assets/logo.jpg" if base else "assets/logo.jpg")
     robots = "noindex, follow" if noindex else "index, follow, max-image-preview:large"
@@ -573,6 +586,8 @@ def render_system_filter(ranked, avoid, noun):
 def build_category(site, proto, sub):
     cat = load(f"pages/{sub['slug']}.json")
     ranked = rank_products(cat)
+    # Titles are written as "The 10 Best ..."; keep the number honest on shorter lists.
+    cat["title"] = re.sub(r"\b\d+ Best\b", f"{len(ranked)} Best", cat["title"])
     by_asin = {p["asin"]: p for p in ranked}
     awards = "".join(render_award(a, by_asin[a["asin"]], site) for a in cat["awards"])
     cards = "".join(render_card(p, site, cat["spec_fields"]) for p in ranked)
@@ -1241,11 +1256,13 @@ footer a{color:var(--gold-ink)}
 .fam-filters>label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
 .ms-field{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted);position:relative}
 .ms{position:relative}
-.ms summary{list-style:none;cursor:pointer;background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;
-  padding:8px 36px 8px 12px;min-width:170px;font:inherit;position:relative}
+/* The protocol multi-select (details) and the native selects beside it share one box and chevron. */
+.ms summary,.fam-filters select{box-sizing:border-box;height:40px;display:flex;align-items:center;list-style:none;cursor:pointer;
+  appearance:none;-webkit-appearance:none;background-color:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;
+  padding:0 36px 0 12px;min-width:170px;font:inherit;font-size:.95rem;line-height:1.2;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23d8b25a' stroke-width='1.6' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+.fam-filters select{display:block}
 .ms summary::-webkit-details-marker{display:none}
-.ms summary::after{content:"";position:absolute;right:14px;top:50%;width:7px;height:7px;border-right:2px solid var(--muted);
-  border-bottom:2px solid var(--muted);transform:translateY(-70%) rotate(45deg)}
 .ms[open] summary{border-color:var(--gold)}
 .ms-panel{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:220px;background:var(--card);border:1px solid var(--line);
   border-radius:10px;padding:8px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
@@ -1254,7 +1271,7 @@ footer a{color:var(--gold-ink)}
 .ms-opt input{accent-color:var(--gold);width:16px;height:16px;margin:0}
 .ms-panel .linkish{display:block;margin:4px 10px 2px}
 .linkish{background:none;border:0;color:var(--purple-ink);cursor:pointer;font:inherit;font-size:.85rem;text-decoration:underline}
-.fam-filters select{background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:inherit;min-width:170px}
+
 .proto-diff{margin:16px 0 4px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--purple);border-radius:var(--radius);padding:12px 16px}
 .proto-diff summary{cursor:pointer;font-weight:700;color:var(--gold-ink)}
 .proto-diff[open] summary{margin-bottom:8px}
