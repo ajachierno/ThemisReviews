@@ -1,0 +1,165 @@
+{
+  "feature_weights": {
+    "battery": 0.35,
+    "multi": 0.35,
+    "rating": 0.3
+  },
+  "spec_fields": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FG2MD3YP",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "mmWave plus PIR with temperature, humidity, and light on batteries, 1K+ bought last month."
+    },
+    {
+      "asin": "B0H6JFC9RQ",
+      "label": "Best Rated",
+      "kind": "budget",
+      "why": "A 5-in-1 radar-and-PIR Matter sensor rated 4.4 stars, with a 2-year AAA battery."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FG2MD3YP",
+      "brand": "Aqara",
+      "model": "FP300",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "60 GHz mmWave + PIR",
+        "power": "Battery",
+        "extras": "Light, temperature, humidity",
+        "hub": "Thread border router (or Zigbee hub)"
+      },
+      "features": {
+        "battery": true,
+        "multi": true,
+        "rating": false
+      },
+      "verdict": "The most popular Matter presence sensor, and it can run on Zigbee instead if you prefer.",
+      "pros": [
+        "Matter over Thread or Zigbee",
+        "5 sensors in one",
+        "Battery powered",
+        "902 reviews"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$49.99",
+        "Needs a Thread border router for Matter"
+      ]
+    },
+    {
+      "asin": "B0H6JFC9RQ",
+      "brand": "GL Technologies",
+      "model": "LWR02",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "24 GHz mmWave + PIR",
+        "power": "2 AAA, up to 2 years",
+        "extras": "Light, temperature, humidity",
+        "hub": "Thread border router"
+      },
+      "features": {
+        "battery": true,
+        "multi": true,
+        "rating": true
+      },
+      "verdict": "A well-rated 5-in-1 Thread sensor that takes rechargeable AAAs.",
+      "pros": [
+        "4.4 stars",
+        "Up to 2 years on AAA",
+        "Rechargeable cells supported"
+      ],
+      "cons": [
+        "Only 48 reviews",
+        "Lesser-known brand",
+        "$49.99"
+      ]
+    },
+    {
+      "asin": "B0G8HN5THR",
+      "brand": "meross",
+      "model": "MS605",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "mmWave",
+        "power": "Battery",
+        "extras": "IP67, foldable stand",
+        "hub": "Thread border router"
+      },
+      "features": {
+        "battery": true,
+        "multi": false,
+        "rating": false
+      },
+      "verdict": "An IP67 battery presence sensor on Matter over Thread, usable outdoors.",
+      "pros": [
+        "IP67",
+        "Flexible stand",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "3.1 stars",
+        "$56.99",
+        "Only 88 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

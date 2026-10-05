@@ -1,0 +1,501 @@
+{
+  "slug": "zigbee-presence-sensors",
+  "family": "presence-sensors",
+  "family_title": "Presence sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Presence Sensors",
+  "subtitle": "mmWave presence sensors that know when you're sitting still, ranked.",
+  "intro": "We pulled the Zigbee mmWave presence sensors on Amazon and scored them on rating, review volume, and features: radar band, light sensing, and open Zigbee 3.0 pairing.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "zones": 0.25,
+    "light": 0.25,
+    "open_zigbee": 0.3,
+    "battery": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CNGKFG9Y",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A $17.90 presence sensor with light sensing that pairs with any Zigbee 3.0 hub, 454 reviews."
+    },
+    {
+      "asin": "B0GZVPQQRX",
+      "label": "Best With Zones",
+      "kind": "budget",
+      "why": "24 GHz mmWave with up to 7 detection zones for $24.90."
+    },
+    {
+      "asin": "B0FG2MD3YP",
+      "label": "Best Battery-Powered",
+      "kind": "special",
+      "why": "mmWave plus PIR, temperature, humidity, and light, on batteries, over Zigbee or Thread."
+    },
+    {
+      "asin": "B0D5QPH3T6",
+      "label": "Best for Aqara Homes",
+      "kind": "premium",
+      "why": "AI filtering for pets and fans, and Matter through an Aqara hub."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CNGKFG9Y",
+      "brand": "SONOFF",
+      "model": "SNZB-06P",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "google-home"
+      ],
+      "specs": {
+        "radar": "5.8 GHz",
+        "power": "USB",
+        "extras": "Light",
+        "hub": "Any Zigbee 3.0 hub"
+      },
+      "features": {
+        "zones": false,
+        "light": true,
+        "open_zigbee": true,
+        "battery": false
+      },
+      "verdict": "The best cheap presence sensor: detects people sitting still and only turns lights on when it's dark.",
+      "pros": [
+        "$17.90",
+        "Detects stationary people",
+        "Built-in light sensor",
+        "Names Home Assistant and SmartThings"
+      ],
+      "cons": [
+        "4.0 stars",
+        "USB powered",
+        "No zones"
+      ],
+      "name": "SONOFF Zigbee Human Presence Sensor, SNZB-06P Zigbee Smart Motion Detector with 5.8GHZ cmWave Radar, Requires ZigBee Bridge (1-Pack)",
+      "image": "https://m.media-amazon.com/images/I/51f3jD8nNiL._AC_SL1500_.jpg",
+      "price": 17.9,
+      "rating": 4.0,
+      "reviews_count": 454,
+      "bought": null
+    },
+    {
+      "asin": "B0GZVPQQRX",
+      "brand": "SONOFF",
+      "model": "SNZB-06P24",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "24 GHz mmWave",
+        "power": "USB-C",
+        "extras": "Light, 7 zones",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "zones": true,
+        "light": true,
+        "open_zigbee": true,
+        "battery": false
+      },
+      "verdict": "Detects breathing-level movement and lets you set up to seven zones.",
+      "pros": [
+        "24 GHz mmWave",
+        "7 configurable zones",
+        "Self-learning calibration",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "3.8 stars",
+        "USB-C powered",
+        "4 m range"
+      ],
+      "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24GHz mmWave & Light Sensor, Zone Positioning, Self-Learning Calibration, USB-C Powered, Works with Home Assistant, Alexa, SmartThings, Hub Required",
+      "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
+      "price": 24.9,
+      "rating": 3.8,
+      "reviews_count": 181,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FG2MD3YP",
+      "brand": "Aqara",
+      "model": "FP300",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "60 GHz mmWave + PIR",
+        "power": "Battery",
+        "extras": "Light, temperature, humidity",
+        "hub": "Zigbee hub or Thread border router"
+      },
+      "features": {
+        "zones": false,
+        "light": true,
+        "open_zigbee": true,
+        "battery": true
+      },
+      "verdict": "A 5-in-1 battery sensor that works over Zigbee or Matter over Thread.",
+      "pros": [
+        "Battery powered",
+        "mmWave and PIR together",
+        "Temperature, humidity, and light",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$49.99",
+        "AI learning period after setup"
+      ],
+      "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
+      "image": "https://m.media-amazon.com/images/I/61rVKe4shTL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.7,
+      "reviews_count": 902,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0D5QPH3T6",
+      "brand": "Aqara",
+      "model": "FP1E",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "radar": "mmWave",
+        "power": "Wired (USB)",
+        "extras": "AI pet and fan filtering",
+        "hub": "Aqara Zigbee 3.0 hub"
+      },
+      "features": {
+        "zones": false,
+        "light": false,
+        "open_zigbee": false,
+        "battery": false
+      },
+      "verdict": "Aqara's wired presence sensor that ignores small pets, for Aqara hub owners.",
+      "pros": [
+        "AI filtering for pets and fans",
+        "Matter through an Aqara hub",
+        "492 reviews"
+      ],
+      "cons": [
+        "Aqara hub required",
+        "4.0 stars",
+        "No light sensor"
+      ],
+      "name": "Aqara Zigbee Presence Sensor FP1E, mmWave Radar Wired Motion Sensor",
+      "image": "https://m.media-amazon.com/images/I/61gblrXx8SL._SL1500_.jpg",
+      "price": 42.99,
+      "rating": 4.0,
+      "reviews_count": 492,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GJZ3B7WY",
+      "brand": "THIRDREALITY",
+      "model": "Presence Sensor R3",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "60 GHz mmWave",
+        "power": "USB-C",
+        "extras": "Light, RGB status light",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "zones": false,
+        "light": true,
+        "open_zigbee": true,
+        "battery": false
+      },
+      "verdict": "A 60 GHz sensor with an RGB light that can show status or act as a night light.",
+      "pros": [
+        "60 GHz mmWave",
+        "RGB indicator light",
+        "Zigbee repeater"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Only 61 reviews",
+        "$39.99"
+      ],
+      "name": "THIRDREALITY Smart Presence Sensor R3,60GHz mmWave Radar,USB-C Powered,RGB Light with Status Indication,Illumination Sensor, Zigbee Repeater,Compatible with Home Assistant(ZHA&Z2M),SmartThings,Homey",
+      "image": "https://m.media-amazon.com/images/I/51gB3oWEQZL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 3.4,
+      "reviews_count": 61,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0GWM6YVQL",
+      "brand": "THIRDREALITY",
+      "model": "Presence Sensor R2",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "24 GHz mmWave",
+        "power": "3 AA batteries",
+        "extras": "Adjustable sensitivity",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "zones": false,
+        "light": false,
+        "open_zigbee": true,
+        "battery": true
+      },
+      "verdict": "A battery-powered mmWave sensor that names ZHA, Zigbee2MQTT, SmartThings, and Homey.",
+      "pros": [
+        "AA battery powered",
+        "Names Home Assistant, SmartThings, and Homey",
+        "Detects through wood and glass"
+      ],
+      "cons": [
+        "3.2 stars from 12 reviews",
+        "No light sensor",
+        "$29.99"
+      ],
+      "name": "THIRDREALITY Presence Sensor R2,24GHz mmWave Radar,Adjustable Sensitivity,Zigbee Hub Required,Battery Powered,Support Home Assistant,SmartThings,Homey or Echo Devices with Built-in Zigbee hub",
+      "image": "https://m.media-amazon.com/images/I/41mrCZAvV7L._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 3.2,
+      "reviews_count": 12,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0GY3ZBWFL",
+      "brand": "Haozee",
+      "model": "Zigbee presence sensor",
+      "systems": [
+        "home-assistant"
+      ],
+      "specs": {
+        "radar": "24 GHz mmWave",
+        "power": "Not stated in bullets",
+        "extras": "Temperature, humidity, light",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "zones": false,
+        "light": true,
+        "open_zigbee": true,
+        "battery": false
+      },
+      "verdict": "A 3-in-1 presence sensor built with Home Assistant users in mind.",
+      "pros": [
+        "Temperature, humidity, and light",
+        "Designed for Home Assistant",
+        "$29.99"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Only 49 reviews",
+        "Power source isn't in the bullets"
+      ],
+      "name": "Zigbee Presence Sensor, Built-in Temperature, Humidity and Light Sensor",
+      "image": "https://m.media-amazon.com/images/I/61ZcZeUE+OL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 3.9,
+      "reviews_count": 49,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0H5CLBGWV",
+      "brand": "Blindsmart",
+      "model": "Battery Zigbee presence sensor",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "radar": "24 GHz",
+        "power": "1 replaceable battery",
+        "extras": "None listed",
+        "hub": "Tuya / Smart Life Zigbee hub"
+      },
+      "features": {
+        "zones": false,
+        "light": false,
+        "open_zigbee": false,
+        "battery": true
+      },
+      "verdict": "A battery presence sensor for Tuya Smart Life setups.",
+      "pros": [
+        "Battery powered",
+        "4.3 stars",
+        "Detects sitting and typing"
+      ],
+      "cons": [
+        "Tuya Zigbee hub required",
+        "Only 19 reviews",
+        "Only 10 left at capture time"
+      ],
+      "name": "Zigbee Human Presence Sensor, Battery-Powered, Zigbee Hub Required",
+      "image": "https://m.media-amazon.com/images/I/51UiaLWNYeL._AC_SL1254_.jpg",
+      "price": 29.99,
+      "rating": 4.3,
+      "reviews_count": 19,
+      "bought": null
+    },
+    {
+      "asin": "B0D8Y63LGN",
+      "brand": "WenzhiIoT",
+      "model": "5.8 GHz Zigbee presence sensor",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Tuya Smart",
+      "specs": {
+        "radar": "5.8 GHz",
+        "power": "Not stated in bullets",
+        "extras": "Light, distance",
+        "hub": "Tuya Zigbee hub"
+      },
+      "features": {
+        "zones": false,
+        "light": true,
+        "open_zigbee": false,
+        "battery": false
+      },
+      "verdict": "A cheap Tuya presence sensor with adjustable range up to 9.5 m.",
+      "pros": [
+        "$15.99",
+        "Range up to 9.5 m",
+        "Sensitivity 1-9"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 46 reviews",
+        "Tuya app"
+      ],
+      "name": "Presence Sensor, WenzhiIoT Smart Motion Sensor Zigbee 5.8 GHz Radar MmWave Presence Sensor Movement Body Motion Detection with Luminance/Distance Tuya Smart Life Home Assistant",
+      "image": "https://m.media-amazon.com/images/I/31kF6s2uaeL._AC_SL1000_.jpg",
+      "price": 15.99,
+      "rating": 3.8,
+      "reviews_count": 46,
+      "bought": null
+    },
+    {
+      "asin": "B0GYJ3LQ5W",
+      "brand": "PersianCat",
+      "model": "Zigbee mmWave presence sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "24 GHz mmWave",
+        "power": "Not stated in bullets",
+        "extras": "None listed",
+        "hub": "Zigbee hub incl. Echo with Zigbee"
+      },
+      "features": {
+        "zones": false,
+        "light": false,
+        "open_zigbee": true,
+        "battery": false
+      },
+      "verdict": "A generic Zigbee presence sensor that names Echo, SmartThings, Home Assistant, and Hubitat.",
+      "pros": [
+        "Works with Echo Zigbee hubs",
+        "Names Hubitat and SmartThings",
+        "$18.99"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "3.5 stars",
+        "Unknown brand"
+      ],
+      "name": "Zigbee Human Presence Sensor, Millimeter Wave Radar Motion Detector, Can Detect Stationary Person, with Home Assistant, SmartThings, Hubitat or Echo Devices with Built-in Zigbee Hub",
+      "image": "https://m.media-amazon.com/images/I/610DgXca1xL._AC_SL1500_.jpg",
+      "price": 18.99,
+      "rating": 3.5,
+      "reviews_count": 7,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Presence sensor or motion sensor?",
+      "a": "A motion sensor (PIR) sees movement, so lights turn off if you sit still. An mmWave presence sensor detects breathing-level motion, so it knows you're still in the room while you read or work."
+    },
+    {
+      "q": "Do presence sensors need power?",
+      "a": "Most mmWave sensors need USB or wall power because the radar runs constantly. A few newer battery models combine PIR and mmWave to save power."
+    },
+    {
+      "q": "Can it tell where I am in the room?",
+      "a": "Some models, like the Aqara FP2, support zones, so a desk, couch, and bed can trigger different automations."
+    }
+  ]
+}

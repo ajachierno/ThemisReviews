@@ -1,0 +1,218 @@
+{
+  "feature_weights": {
+    "zones": 0.3,
+    "local": 0.3,
+    "consumer": 0.4
+  },
+  "systems_note": "The Akamatis sensors and LD2410C modules run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+  "spec_fields": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BXWZMQJ3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Up to 5 people, multiple zones, and fall detection, with 2,512 reviews."
+    },
+    {
+      "asin": "B0FX7FXQGB",
+      "label": "Best for Home Assistant",
+      "kind": "budget",
+      "why": "A plug-and-play ESPHome presence sensor for $20.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BXWZMQJ3",
+      "brand": "Aqara",
+      "model": "FP2",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "radar": "mmWave",
+        "power": "Wired (USB-C)",
+        "extras": "Multi-zone, multi-person, fall detection, light",
+        "hub": "None (2.4 GHz Wi-Fi)"
+      },
+      "features": {
+        "zones": true,
+        "local": false,
+        "consumer": true
+      },
+      "verdict": "The most capable presence sensor: zones, up to five people, and fall detection.",
+      "pros": [
+        "Multiple detection zones",
+        "Tracks up to 5 people",
+        "Fall detection",
+        "2,512 reviews"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$67.99",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0FX7FXQGB",
+      "brand": "AKAMATIS",
+      "model": "Presence Sensor v2.2",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "ESPHome",
+      "specs": {
+        "radar": "24 GHz (HLK-LD2410B)",
+        "power": "USB-C",
+        "extras": "External Wi-Fi antenna",
+        "hub": "Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": true
+      },
+      "verdict": "A ready-made ESPHome presence sensor for Home Assistant, with an external antenna.",
+      "pros": [
+        "Plug and play with Home Assistant",
+        "Fully local",
+        "$20.99, 4.4 stars"
+      ],
+      "cons": [
+        "Home Assistant only",
+        "Only 52 reviews",
+        "No zones"
+      ]
+    },
+    {
+      "asin": "B0H2QYVWZ7",
+      "brand": "Akamatis",
+      "model": "Litos v3",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "ESPHome",
+      "specs": {
+        "radar": "24 GHz (HLK-LD2401)",
+        "power": "USB",
+        "extras": "Light (VEML7700)",
+        "hub": "Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": true
+      },
+      "verdict": "Akamatis's newer sensor adds a proper ambient light sensor.",
+      "pros": [
+        "Light sensor for dark-only automations",
+        "Fully local",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Home Assistant only",
+        "Only 36 reviews",
+        "$24.99"
+      ]
+    },
+    {
+      "asin": "B0FSRJT4KW",
+      "brand": "SwitchBot",
+      "model": "mmWave Radar Motion Sensor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "radar": "mmWave + PIR",
+        "power": "Battery, up to 2 years",
+        "extras": "Light, zones",
+        "hub": "SwitchBot hub for Wi-Fi/Matter"
+      },
+      "features": {
+        "zones": true,
+        "local": false,
+        "consumer": true
+      },
+      "verdict": "A battery presence sensor with zones, for SwitchBot homes.",
+      "pros": [
+        "Battery up to 2 years",
+        "Zone positioning",
+        "Magnetic mount"
+      ],
+      "cons": [
+        "3.6 stars",
+        "Bluetooth; needs a SwitchBot hub for remote use",
+        "Duplicate bullets in the listing"
+      ]
+    },
+    {
+      "asin": "B0CH8CRDS6",
+      "brand": "XIITIA",
+      "model": "LD2410C radar modules (3-pack)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "DIY (ESPHome)",
+      "specs": {
+        "radar": "24 GHz",
+        "power": "From your board",
+        "extras": "Up to 5 m, Bluetooth config",
+        "hub": "Your ESP32 + Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": false
+      },
+      "verdict": "Bare radar modules for building your own ESPHome sensors.",
+      "pros": [
+        "3 modules for $18.99",
+        "4.6 stars",
+        "Configurable over Bluetooth"
+      ],
+      "cons": [
+        "Bare modules; you need an ESP32 and wiring",
+        "No case",
+        "For tinkerers only"
+      ]
+    }
+  ],
+  "avoid": []
+}

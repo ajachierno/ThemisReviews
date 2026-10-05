@@ -1,0 +1,276 @@
+{
+  "slug": "wifi-presence-sensors",
+  "family": "presence-sensors",
+  "family_title": "Presence sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Wi-Fi Presence Sensors",
+  "subtitle": "Wi-Fi and Bluetooth mmWave presence sensors, including Home Assistant favorites, ranked.",
+  "intro": "We pulled the Wi-Fi presence sensors on Amazon and scored them on rating, review volume, and features: zones, local Home Assistant support, and extra sensors.",
+  "reviews_ceiling": 2500,
+  "feature_weights": {
+    "zones": 0.3,
+    "local": 0.3,
+    "consumer": 0.4
+  },
+  "systems_note": "The Akamatis sensors and LD2410C modules run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+  "spec_fields": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "radar",
+      "label": "Radar"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Also senses"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BXWZMQJ3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Up to 5 people, multiple zones, and fall detection, with 2,512 reviews."
+    },
+    {
+      "asin": "B0FX7FXQGB",
+      "label": "Best for Home Assistant",
+      "kind": "budget",
+      "why": "A plug-and-play ESPHome presence sensor for $20.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BXWZMQJ3",
+      "brand": "Aqara",
+      "model": "FP2",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "home-assistant"
+      ],
+      "specs": {
+        "radar": "mmWave",
+        "power": "Wired (USB-C)",
+        "extras": "Multi-zone, multi-person, fall detection, light",
+        "hub": "None (2.4 GHz Wi-Fi)"
+      },
+      "features": {
+        "zones": true,
+        "local": false,
+        "consumer": true
+      },
+      "verdict": "The most capable presence sensor: zones, up to five people, and fall detection.",
+      "pros": [
+        "Multiple detection zones",
+        "Tracks up to 5 people",
+        "Fall detection",
+        "2,512 reviews"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$67.99",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "Aqara Presence Sensor FP2, mmWave Radar Wired Smart Motion Sensor",
+      "image": "https://m.media-amazon.com/images/I/61PfRiC4NcL._AC_SL1500_.jpg",
+      "price": 67.99,
+      "rating": 3.6,
+      "reviews_count": 2512,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FX7FXQGB",
+      "brand": "AKAMATIS",
+      "model": "Presence Sensor v2.2",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "ESPHome",
+      "specs": {
+        "radar": "24 GHz (HLK-LD2410B)",
+        "power": "USB-C",
+        "extras": "External Wi-Fi antenna",
+        "hub": "Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": true
+      },
+      "verdict": "A ready-made ESPHome presence sensor for Home Assistant, with an external antenna.",
+      "pros": [
+        "Plug and play with Home Assistant",
+        "Fully local",
+        "$20.99, 4.4 stars"
+      ],
+      "cons": [
+        "Home Assistant only",
+        "Only 52 reviews",
+        "No zones"
+      ],
+      "name": "AKAMATIS Human Presence Sensor v2.2 for Home Assistant, mmWave Radar Smart Motion Sensor, Adjustable Sensitivity, WiFi (Seeed C3, External Antenna + LD2410B) (White, 1 Pack (Sensor Only))",
+      "image": "https://m.media-amazon.com/images/I/51S9FE1+csL._AC_SL1500_.jpg",
+      "price": 20.99,
+      "rating": 4.4,
+      "reviews_count": 52,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0H2QYVWZ7",
+      "brand": "Akamatis",
+      "model": "Litos v3",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "ESPHome",
+      "specs": {
+        "radar": "24 GHz (HLK-LD2401)",
+        "power": "USB",
+        "extras": "Light (VEML7700)",
+        "hub": "Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": true
+      },
+      "verdict": "Akamatis's newer sensor adds a proper ambient light sensor.",
+      "pros": [
+        "Light sensor for dark-only automations",
+        "Fully local",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Home Assistant only",
+        "Only 36 reviews",
+        "$24.99"
+      ],
+      "name": "Akamatis Human Presence & Light Sensor Litos v3, mmWave Smart Motion Sensor, 2.4 GHz Wi-Fi, Adjustable Sensitivity, Requires Home Assistant (White, 1 Pack)",
+      "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
+      "price": 24.99,
+      "rating": 4.4,
+      "reviews_count": 36,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FSRJT4KW",
+      "brand": "SwitchBot",
+      "model": "mmWave Radar Motion Sensor",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "home-assistant"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "radar": "mmWave + PIR",
+        "power": "Battery, up to 2 years",
+        "extras": "Light, zones",
+        "hub": "SwitchBot hub for Wi-Fi/Matter"
+      },
+      "features": {
+        "zones": true,
+        "local": false,
+        "consumer": true
+      },
+      "verdict": "A battery presence sensor with zones, for SwitchBot homes.",
+      "pros": [
+        "Battery up to 2 years",
+        "Zone positioning",
+        "Magnetic mount"
+      ],
+      "cons": [
+        "3.6 stars",
+        "Bluetooth; needs a SwitchBot hub for remote use",
+        "Duplicate bullets in the listing"
+      ],
+      "name": "SwitchBot Smart mmWave Radar Motion Sensor, Bluetooth Presence Sensor with Dynamic Detection & Zone Positioning, Compatible with Alexa, HomeKit & Apple Home (Presence Sensor*1)",
+      "image": "https://m.media-amazon.com/images/I/61+wVy-zA6L._AC_SL1500_.jpg",
+      "price": 25.49,
+      "rating": 3.6,
+      "reviews_count": 427,
+      "bought": null
+    },
+    {
+      "asin": "B0CH8CRDS6",
+      "brand": "XIITIA",
+      "model": "LD2410C radar modules (3-pack)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "DIY (ESPHome)",
+      "specs": {
+        "radar": "24 GHz",
+        "power": "From your board",
+        "extras": "Up to 5 m, Bluetooth config",
+        "hub": "Your ESP32 + Home Assistant"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": false
+      },
+      "verdict": "Bare radar modules for building your own ESPHome sensors.",
+      "pros": [
+        "3 modules for $18.99",
+        "4.6 stars",
+        "Configurable over Bluetooth"
+      ],
+      "cons": [
+        "Bare modules; you need an ESP32 and wiring",
+        "No case",
+        "For tinkerers only"
+      ],
+      "name": "3pcs LD2410C Human Presence Radar Sensor Module HLK-LD2410 LD2410 Millimeter Wave Non-Contact 24GHz ISM Band Serial Port IO Level Output",
+      "image": "https://m.media-amazon.com/images/I/71bVSLBxneL._AC_SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.6,
+      "reviews_count": 51,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Presence sensor or motion sensor?",
+      "a": "A motion sensor (PIR) sees movement, so lights turn off if you sit still. An mmWave presence sensor detects breathing-level motion, so it knows you're still in the room while you read or work."
+    },
+    {
+      "q": "Do presence sensors need power?",
+      "a": "Most mmWave sensors need USB or wall power because the radar runs constantly. A few newer battery models combine PIR and mmWave to save power."
+    },
+    {
+      "q": "Can it tell where I am in the room?",
+      "a": "Some models, like the Aqara FP2, support zones, so a desk, couch, and bed can trigger different automations."
+    }
+  ]
+}
