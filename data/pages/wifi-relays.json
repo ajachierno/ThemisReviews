@@ -1,0 +1,519 @@
+{
+  "slug": "wifi-relays",
+  "family": "relays",
+  "family_title": "Relays and modules",
+  "noun": "relay",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Wi-Fi Relays and In-Wall Modules",
+  "subtitle": "Shelly and other Wi-Fi relays for hidden smart switching, ranked.",
+  "intro": "We pulled the Wi-Fi relays and in-wall modules on Amazon and scored them on rating, review volume, and features: power metering, local control, and dry contacts.",
+  "reviews_ceiling": 1500,
+  "feature_weights": {
+    "power_meter": 0.25,
+    "dry_contact": 0.25,
+    "matter": 0.25,
+    "multi_channel": 0.25
+  },
+  "systems_note": "Shelly relays also have an official Home Assistant integration that runs locally. Tuya/Smart Life relays work with Home Assistant's Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "channels",
+      "label": "Channels"
+    },
+    {
+      "key": "rating",
+      "label": "Load rating"
+    },
+    {
+      "key": "radios",
+      "label": "Radios"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "channels",
+      "label": "Channels"
+    },
+    {
+      "key": "rating",
+      "label": "Load"
+    },
+    {
+      "key": "radios",
+      "label": "Radios"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D8YPW46Y",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A 16 A dry-contact Shelly with Matter for $22.99, rated 4.6 stars by 1,187 buyers."
+    },
+    {
+      "asin": "B0C7QQHMCX",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $12.99 low-voltage Wi-Fi relay for gates, PCs, and access control."
+    },
+    {
+      "asin": "B0DZJ1W814",
+      "label": "Best With Power Metering",
+      "kind": "special",
+      "why": "Two metered 16 A channels on Wi-Fi, Zigbee, or Matter."
+    },
+    {
+      "asin": "B0CQD1Z2K8",
+      "label": "Best for Low-Voltage DIY",
+      "kind": "premium",
+      "why": "Shelly's tiny Uni module for low-voltage buttons, sensors, and old appliances."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D8YPW46Y",
+      "brand": "Shelly",
+      "model": "1 Gen3",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "16 A dry contact",
+        "radios": "Wi-Fi, Matter",
+        "extras": "12 V DC and 24-48 V DC for garage doors"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "The best all-round Wi-Fi relay: 16 A dry contacts and Matter for under $25.",
+      "pros": [
+        "16 A dry contacts",
+        "Matter plus Alexa, Google, SmartThings, and Home Assistant",
+        "Runs on low-voltage DC for garage doors",
+        "4.6 stars from 1,187 reviews"
+      ],
+      "cons": [
+        "Sold by a reseller",
+        "No power metering",
+        "Gen4 adds Zigbee for a dollar or two more"
+      ],
+      "name": "Shelly 1 Gen3 Relay Switch, WiFi Matter, Dry Contacts, No hub Required",
+      "image": "https://m.media-amazon.com/images/I/81tVH2RktPL._SL1500_.jpg",
+      "price": 22.99,
+      "rating": 4.6,
+      "reviews_count": 1187,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0DZHZCL6Z",
+      "brand": "Shelly",
+      "model": "1 Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "16 A dry contact",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "Sunset schedules"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "The Gen4 version adds Zigbee, so it can join either your Wi-Fi or your Zigbee mesh.",
+      "pros": [
+        "Wi-Fi, Zigbee, or Matter",
+        "16 A dry contacts",
+        "1,211 reviews, sold by Shelly"
+      ],
+      "cons": [
+        "No power metering",
+        "4.4 stars",
+        "$24.99"
+      ],
+      "name": "Shelly 1 Gen4, Smart Wi-Fi, Zigbee & Matter Relay Switch with Dry Contacts",
+      "image": "https://m.media-amazon.com/images/I/71loFQnS9lL._SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.4,
+      "reviews_count": 1211,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0H8YW595V",
+      "brand": "Shelly",
+      "model": "1 Gen4 UL",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "15 A dry contact",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "UL certified"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "The UL-certified Shelly 1 Gen4, for installs where certification matters.",
+      "pros": [
+        "UL certified",
+        "Wi-Fi, Zigbee, or Matter",
+        "700+ bought in the past month"
+      ],
+      "cons": [
+        "Only 10 reviews on this listing",
+        "15 A rather than 16 A",
+        "$27.99"
+      ],
+      "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
+      "image": "https://m.media-amazon.com/images/I/71F3GYN4yyL._SL1500_.jpg",
+      "price": 27.99,
+      "rating": 4.5,
+      "reviews_count": 10,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0DZJ1W814",
+      "brand": "Shelly",
+      "model": "2PM Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "2",
+        "rating": "16 A per channel",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "Power metering"
+      },
+      "features": {
+        "power_meter": true,
+        "dry_contact": false,
+        "matter": true,
+        "multi_channel": true
+      },
+      "verdict": "Two metered channels for two lights, shades, or appliances.",
+      "pros": [
+        "Power metering on both channels",
+        "Three radios",
+        "4.6 stars from 808 reviews"
+      ],
+      "cons": [
+        "$38.99",
+        "Bigger than the Mini",
+        "Neutral requirement isn't stated"
+      ],
+      "name": "Shelly 2PM Gen4, Smart Relay Switch, WiFi, Matter & Zigbee, 2-Channel",
+      "image": "https://m.media-amazon.com/images/I/81zHxzmkBdL._SL1500_.jpg",
+      "price": 38.99,
+      "rating": 4.6,
+      "reviews_count": 808,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DZHZDJXT",
+      "brand": "Shelly",
+      "model": "1 Mini Gen4",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "8 A dry contact",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "Fits in garage openers"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "The compact Shelly for crowded boxes and garage openers.",
+      "pros": [
+        "Very compact",
+        "Three radios",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "8 A",
+        "No power metering",
+        "$24.98"
+      ],
+      "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
+      "image": "https://m.media-amazon.com/images/I/71DMapRQUwL._SL1500_.jpg",
+      "price": 24.98,
+      "rating": 4.5,
+      "reviews_count": 811,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0F9LJYSQS",
+      "brand": "Shelly",
+      "model": "1PM Mini Gen4 (2-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1 each, 2 relays",
+        "rating": "8 A",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "Power metering, 8 MB memory"
+      },
+      "features": {
+        "power_meter": true,
+        "dry_contact": false,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "Two small metered relays to track what lights and gadgets use.",
+      "pros": [
+        "Power metering",
+        "2-pack",
+        "4.6 stars"
+      ],
+      "cons": [
+        "8 A",
+        "$54.86",
+        "Not dry contact"
+      ],
+      "name": "Shelly 1PM Mini Gen4 Smart Switch Wi-Fi Matter Zigbee 1-Channel 8A, 2 Pack",
+      "image": "https://m.media-amazon.com/images/I/816YHVCt63L._SL1500_.jpg",
+      "price": 54.86,
+      "rating": 4.6,
+      "reviews_count": 439,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0CQD1Z2K8",
+      "brand": "Shelly",
+      "model": "Plus Uni",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home",
+        "smartthings"
+      ],
+      "specs": {
+        "channels": "2 outputs",
+        "rating": "Low voltage only",
+        "radios": "Wi-Fi, Bluetooth",
+        "extras": "Sensor and button inputs"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": false,
+        "multi_channel": true
+      },
+      "verdict": "A tiny low-voltage module that turns buttons and old gadgets smart.",
+      "pros": [
+        "$19.99",
+        "Names Alexa, Google, SmartThings, and Home Assistant",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "Low-voltage systems only",
+        "No Matter",
+        "Needs DIY wiring"
+      ],
+      "name": "Shelly Plus Uni Smart Wi-Fi and Bluetooth Operated Module, Dry Contact",
+      "image": "https://m.media-amazon.com/images/I/91aXpGiLLLL._SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.4,
+      "reviews_count": 656,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B09M6HTDVS",
+      "brand": "MHCOZY",
+      "model": "4-channel Wi-Fi/RF/Bluetooth relay",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Tuya Smart Life",
+      "specs": {
+        "channels": "4",
+        "rating": "Dry contact",
+        "radios": "Wi-Fi, Bluetooth, 433 MHz RF",
+        "extras": "Latching, momentary, interlock modes"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": false,
+        "multi_channel": true
+      },
+      "verdict": "Four dry-contact channels with three modes, for gates, blinds, and garage doors.",
+      "pros": [
+        "4 channels",
+        "Momentary time adjustable from 2 seconds to 1 minute",
+        "4.5 stars"
+      ],
+      "cons": [
+        "DC power only",
+        "Smart Life app",
+        "Only 349 reviews"
+      ],
+      "name": "4 Channel Smart WiFi RF Bluetooth Wireless Dry Contact Relay Switch Module,Phone app Remote Control,Compatible with Alexa Google Home (Tuya 4CH 5V AC/DC7-32V)",
+      "image": "https://m.media-amazon.com/images/I/51hQmIX0Y6L._SL1000_.jpg",
+      "price": 21.9,
+      "rating": 4.5,
+      "reviews_count": 349,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0C7QQHMCX",
+      "brand": "eWeLink",
+      "model": "USB/DC Wi-Fi relay",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "eWeLink app",
+      "specs": {
+        "channels": "1",
+        "rating": "Low-voltage dry contact",
+        "radios": "Wi-Fi",
+        "extras": "Inching and self-lock modes"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": false,
+        "multi_channel": false
+      },
+      "verdict": "A cheap low-voltage relay to push a PC power button or open a door strike.",
+      "pros": [
+        "$12.99",
+        "USB 5 V or 7-48 V DC",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "Low voltage only",
+        "Unknown brand",
+        "Only 196 reviews"
+      ],
+      "name": "Ewelink WiFi Wireless Smart Relay Module USB 5v/12v/24v/48v Inching Selflock Remote ON Off Power Switch for Access Control,Turn on PC, Compatible with Alexa Google Home",
+      "image": "https://m.media-amazon.com/images/I/71hrOXVe9JL._SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.4,
+      "reviews_count": 196,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F9LJF6BV",
+      "brand": "Shelly",
+      "model": "1 Gen4 (4-pack)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1 each, 4 relays",
+        "rating": "16 A dry contact",
+        "radios": "Wi-Fi, Zigbee, Matter",
+        "extras": "4-pack"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "Four Shelly 1 Gen4 relays, if you're doing a whole house.",
+      "pros": [
+        "4 relays",
+        "Three radios each",
+        "1,211 reviews"
+      ],
+      "cons": [
+        "$94.99, no discount over singles",
+        "Sold by a reseller",
+        "4.4 stars"
+      ],
+      "name": "Shelly 1 Gen4, Smart Wi-Fi & Matter Relay Switch with Dry Contacts, 4 Pack",
+      "image": "https://m.media-amazon.com/images/I/81oLf5u-sqL._SL1500_.jpg",
+      "price": 94.99,
+      "rating": 4.4,
+      "reviews_count": 1211,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What does a smart relay do?",
+      "a": "It hides behind a wall switch, inside a fan canopy, or in an appliance and switches the power, so you keep your existing switch and add smart control. Dry-contact relays can also trigger garage doors, gas fireplaces, and boilers."
+    },
+    {
+      "q": "Do I need a neutral wire?",
+      "a": "Most relays do. Check your switch box for a bundle of white wires before buying. A few models work without a neutral, and the table notes which."
+    },
+    {
+      "q": "Is it safe to install myself?",
+      "a": "Only if you're comfortable with household wiring and turn the breaker off first. If you're not sure, have an electrician install it. Never exceed the relay's amp rating."
+    }
+  ]
+}
