@@ -12,6 +12,7 @@ for p in s['protocols']:
     if x['slug'] in S: x['ready']=True
 open(f,'w',encoding='utf-8').write(json.dumps(s,indent=2,ensure_ascii=False)+'\n')
 PY
+python -X utf8 research/changelog.py
 python -X utf8 build.py | tail -1
 python -X utf8 - "$@" <<'PY'
 import re,os,sys

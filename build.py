@@ -18,7 +18,34 @@ ASSETS = OUT / "assets"
 
 
 def load(name):
-    return json.loads((DATA / name).read_text(encoding="utf-8"))
+    data = json.loads((DATA / name).read_text(encoding="utf-8"))
+    if name.startswith("pages/"):
+        log = CHANGES.get(Path(name).stem)
+        if log:
+            data["data_captured"] = log["captured"]
+            data["updated"] = log["updated"]
+            data["changes"] = log["entries"]
+    return data
+
+
+# Built by research/changelog.py from git history (+ hand-written notes).
+CHANGES = (json.loads((DATA / "changelog.json").read_text(encoding="utf-8"))
+           if (DATA / "changelog.json").exists() else {})
+
+
+def nice_date(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.strftime('%b')} {d.day}, {d.year}"
+
+
+def render_updated(updated, captured=None, changes=None):
+    cap = (f' &middot; Amazon prices checked <time datetime="{esc(captured)}">{nice_date(captured)}</time>'
+           if captured else "")
+    line = f'<p class="updated">Updated <time datetime="{esc(updated)}">{nice_date(updated)}</time>{cap}</p>'
+    if not changes or len(changes) < 2:
+        return line
+    items = "".join(f'<li><b>{nice_date(c["date"])}:</b> {esc(" ".join(c["notes"]))}</li>' for c in changes)
+    return line + f'<details class="changes"><summary>What changed</summary><ul>{items}</ul></details>'
 
 
 def esc(s):
@@ -104,6 +131,8 @@ def page(site, title, body, is_home=False, description=None, canonical="",
   <p class="disclosure"><b>Affiliate disclosure.</b> {esc(site['brand'])} is reader-supported.
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings come from Amazon and change over time.</p>
+  <p class="foot-links"><a href="how-we-rank.html">How we rank</a> &middot; <a href="about.html">About</a> &middot;
+  <a href="{esc(site['repo_url'])}/issues/new" target="_blank" rel="noopener">Report a mistake</a></p>
   <p class="muted">{home_link}Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon,
   the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
 </footer>
@@ -385,6 +414,29 @@ def money(v):
     return f"${v:,.2f}"
 
 
+# "4-Pack", "3PCS", "Pack of 2", "(2-pack)" in the Amazon title or our model name. Kits are
+# skipped: in "3-Pack Sensors + Hub" the count covers only part of what's in the box.
+PACK_RE = re.compile(r"\b(\d{1,2})\s*-?\s*(?:pack|pk|pcs|count|ct)s?\b|\bpack\s+of\s+(\d{1,2})\b", re.I)
+KIT_RE = re.compile(r"\bkit\b|gateway|\+\s*hub|with hub|hub mini|hub 2|\bvalve\b", re.I)
+
+
+def pack_size(p):
+    text = f"{p.get('name', '')} {p.get('model', '')}"
+    if KIT_RE.search(text):
+        return 1
+    sizes = {int(n) for m in PACK_RE.findall(text) for n in m if n}
+    return sizes.pop() if len(sizes) == 1 and next(iter(sizes)) >= 2 else 1
+
+
+def unit_price(p):
+    return p["price"] / pack_size(p)
+
+
+def unit_note(p, cls="unit"):
+    n = pack_size(p)
+    return f'<div class="{cls}">{money(p["price"] / n)} each &middot; {n}-pack</div>' if n > 1 else ""
+
+
 def stars(rating):
     pct = round(rating / 5 * 100)
     return f'<span class="stars" style="--pct:{pct}%" aria-label="{rating} out of 5 stars"></span>'
@@ -429,7 +481,7 @@ def render_award(a, p, site):
         <div class="hero-name">{esc(p['brand'])} {esc(p['model'])}</div>
         <div class="hero-meta">{stars(p['rating'])} <b>{p['rating']}</b> <span class="muted">({p['reviews_count']:,})</span></div>
         <p class="hero-why">{esc(a['why'])}</p>
-        <div class="hero-price">{money(p['price'])}</div>
+        <div class="hero-price">{money(p['price'])}</div>{unit_note(p)}
         <span class="btn">View on Amazon &rarr;</span>
       </div>
     </a>"""
@@ -442,7 +494,7 @@ def render_table(ranked, avoid, columns, noun="product"):
         cells = "".join(f"<td>{spec_value(p, c)}</td>" for c in columns)
         rows.append(f'<tr data-systems="{esc(" ".join(p["systems"]))}"><td class="c">{p["rank"]}</td>'
                     f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
-                    f'<td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
+                    f'<td>{money(p["price"])}{unit_note(p)}</td><td class="c">{p["rating"]}</td>'
                     f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"], p.get("systems_label", "Standalone"))}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
         rows.append(f'<tr class="avoid-row" data-systems="{esc(" ".join(a["systems"]))}"><td class="c">&#10005;</td>'
@@ -476,7 +528,7 @@ def render_card(p, site, spec_fields):
           <div class="scorebar"><span style="width:{p['score']}%"></span><em>Score {p['score']}/100</em></div>
         </div>
         <div class="card-buy">
-          <div class="price">{money(p['price'])}</div>
+          <div class="price">{money(p['price'])}</div>{unit_note(p)}
           <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
           {bought}
         </div>
@@ -605,7 +657,7 @@ def build_category(site, proto, sub):
     <h1>{esc(cat['title'])}</h1>
     <p class="sub">{esc(cat['subtitle'])}</p>
     <p class="intro">{esc(cat['intro'])}</p>
-    <p class="muted tiny">Prices, ratings, and review counts captured from Amazon on {esc(cat['data_captured'])}.</p>
+    {render_updated(cat.get('updated', cat['data_captured']), cat['data_captured'], cat.get('changes'))}
   </section>
   {jump}
   <section id="picks">
@@ -621,7 +673,7 @@ def build_category(site, proto, sub):
   </section>
   <section id="ranked">
     <h2>The full ranking</h2>
-    <p class="group-sub">Scored out of 100: {round(cat['weights']['rating']*100)}% customer rating, {round(cat['weights']['reviews']*100)}% review volume, {round(cat['weights']['features']*100)}% features.</p>
+    <p class="group-sub">Scored out of 100: {round(cat['weights']['rating']*100)}% customer rating, {round(cat['weights']['reviews']*100)}% review volume, {round(cat['weights']['features']*100)}% features. <a href="how-we-rank.html">How we rank</a></p>
     {cards}
   </section>
   {render_avoid(cat['avoid'], site, cat.get('noun', 'product')) if cat['avoid'] else ''}
@@ -642,7 +694,7 @@ def build_category(site, proto, sub):
     (OUT / f"{sub['slug']}.html").write_text(
         page(site, f"{cat['title']} ({cat['data_captured'][:4]}) | {site['brand']}", body,
              description=cat["intro"], canonical=url, structured_data=jsonld(items, faq),
-             updated=cat["data_captured"]),
+             updated=nice_date(cat.get("updated", cat["data_captured"]))),
         encoding="utf-8")
     picks = ", ".join(f"{a['label']} = {by_asin[a['asin']]['brand']} {by_asin[a['asin']]['model']}" for a in cat["awards"])
     print(f"  {sub['slug']}: {n} products + {len(cat['avoid'])} avoid; {picks}")
@@ -727,7 +779,7 @@ def render_pick_card(p, cat, sub, site, label=None, note=""):
           <div class="works">Works with: {sys_icons(p['systems'], p.get('systems_label', 'Standalone'))}</div>
         </div>
         <div class="card-buy">
-          <div class="price">{money(p['price'])}</div>
+          <div class="price">{money(p['price'])}</div>{unit_note(p)}
           <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
           <div class="tiny muted">{note}</div>
         </div>
@@ -977,7 +1029,7 @@ FAMILY_JS = """(function(){
     var sorted=rows.slice().sort(function(a,b){
       if(a.classList.contains('avoid-row')!==b.classList.contains('avoid-row')) return a.classList.contains('avoid-row')?1:-1;
       var x=+a.dataset[k], y=+b.dataset[k];
-      return k==='price'? x-y : y-x;
+      return (k==='price'||k==='unit')? x-y : y-x;
     });
     sorted.forEach(function(r){body.appendChild(r);});
   }
@@ -1020,9 +1072,9 @@ def build_family_page(site, fam, title, slug, members):
         proto_chips = " ".join(f'<span class="chip">{esc(x["name"])}</span>' for x in protos)
         return (f'<tr class="{extra_cls}" data-protos="{esc(" ".join(x["slug"] for x in protos))}" '
                 f'data-systems="{esc(" ".join(p.get("systems", [])))}" data-score="{p.get("score", 0)}" '
-                f'data-price="{p["price"]}" data-rating="{p["rating"]}" data-reviews="{p["reviews_count"]}">'
+                f'data-price="{p["price"]}" data-unit="{unit_price(p):.2f}" data-rating="{p["rating"]}" data-reviews="{p["reviews_count"]}">'
                 f'<td><a href="{esc(link)}">{esc(p["brand"])} {esc(p["model"])}</a>{note}</td>'
-                f'<td>{proto_chips}</td><td>{money(p["price"])}</td><td class="c">{p["rating"]}</td>'
+                f'<td>{proto_chips}</td><td>{money(p["price"])}{unit_note(p)}</td><td class="c">{p["rating"]}</td>'
                 f'<td class="c">{p["reviews_count"]:,}</td>'
                 f'<td>{sys_icons(p.get("systems", []), p.get("systems_label", "Standalone"))}</td>'
                 f'<td class="c"><b>{p.get("score", "&mdash;") if not extra_cls else "AVOID"}</b></td>'
@@ -1041,6 +1093,7 @@ def build_family_page(site, fam, title, slug, members):
                          for p in protos_here)
     sys_opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in sys_order)
     multi = len(protos_here) > 1
+    fam_updated = max(load(f"pages/{s['slug']}.json").get("updated", "2026-10-04") for _p, s in members)
     h1 = f"{title} Compared Across Every Protocol" if multi else f"{title}: Every Pick We Rank"
     noun = title.lower().replace("smart ", "", 1)
     n_items = len(ranked)
@@ -1054,6 +1107,7 @@ def build_family_page(site, fam, title, slug, members):
   <nav class="crumbs"><a href="./">Home</a> &rsaquo; {esc(title)}</nav>
   <section class="lead">
     <h1>{esc(h1)}</h1>
+    {render_updated(fam_updated)}
     <p class="intro">{esc(intro)}</p>
   </section>
   <section class="fam-protos">
@@ -1074,7 +1128,7 @@ def build_family_page(site, fam, title, slug, members):
         </details>
       </div>
       <label>Works with <select id="f-sys"><option value="">Any system</option>{sys_opts}</select></label>
-      <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option></select></label>
+      <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option><option value="unit">Price per item</option></select></label>
       <span class="muted tiny" id="f-count"></span>
     </div>
     <p class="swipe-hint">Swipe the table sideways to see every column.</p>
@@ -1094,7 +1148,7 @@ def build_family_page(site, fam, title, slug, members):
         {"@type": "ListItem", "position": 2, "name": title, "item": url}]}
     (OUT / f"{slug}.html").write_text(
         page(site, f"{h1} | {site['brand']}", body, description=intro, canonical=url,
-             structured_data=jsonld(crumbs, il), updated=max(dates)), encoding="utf-8")
+             structured_data=jsonld(crumbs, il), updated=nice_date(fam_updated)), encoding="utf-8")
     return url, max(dates)
 
 
@@ -1103,6 +1157,108 @@ def build_family_pages(site):
     for fam, title, slug, members in family_index(site):
         urls.append(build_family_page(site, fam, title, slug, members))
     print(f"  {len(urls)} product-type pages")
+    return urls
+
+
+def site_stats(site):
+    """Counts for the trust pages, from the pages that are live."""
+    asins, cats, captured = set(), 0, set()
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if sub.get("ready"):
+                cat = load(f"pages/{sub['slug']}.json")
+                cats += 1
+                captured.add(cat["data_captured"])
+                asins.update(p["asin"] for p in cat["products"] + cat["avoid"])
+    lo, hi = min(captured), max(captured)
+    span = nice_date(lo) if lo == hi else f"{nice_date(lo)} to {nice_date(hi)}"
+    return {"products": len(asins), "pages": cats, "systems": len(SYSTEM_NAMES),
+            "protocols": len(site["protocols"]), "span": span}
+
+
+def stat_box(s):
+    return f"""<div class="stat-box">
+      <div><b>{s['products']:,}</b><span>products ranked</span></div>
+      <div><b>{s['pages']}</b><span>review pages</span></div>
+      <div><b>{s['protocols']}</b><span>protocols</span></div>
+      <div><b>{s['systems']}</b><span>smart home systems mapped</span></div>
+    </div>"""
+
+
+def build_trust_pages(site):
+    s = site_stats(site)
+    base = base_url(site)
+    today = datetime.date.today().isoformat()
+    w = {"rating": 45, "reviews": 30, "features": 25}
+    method = f"""
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; How we rank</nav>
+  <section class="lead prose">
+    <h1>How we rank smart home gear</h1>
+    <p class="intro">Every ranking on {esc(site['brand'])} comes from the same process: pull the listings, read them, score them with one formula, and show the formula. Nobody pays to be listed, and no manufacturer sees a page before it goes up.</p>
+    {stat_box(s)}
+    <p class="muted tiny">Amazon data on the live pages was captured {esc(s['span'])}. Each page shows its own date under the headline.</p>
+  </section>
+  <section class="prose">
+    <h2>Where the data comes from</h2>
+    <p>For each page we search Amazon for that device type and protocol, then open every candidate listing and record its title, price, star rating, review count, the "bought in past month" line when Amazon shows one, the seller, and the full feature bullets. Those numbers come straight from the listing on the capture date. We don't edit them, and they drift as Amazon updates prices and reviews.</p>
+    <p>A listing only makes the page if its own bullets back up the protocol. A plug that says "Matter" in an ad image but not in the listing text doesn't go on the Matter page.</p>
+    <h2>We don't test products by hand</h2>
+    <p>We don't install each device in a lab. Our rankings combine what thousands of buyers report (the rating and how many people left one) with a check of each listing's specs against what matters for that protocol. This page explains exactly what we do instead.</p>
+    <h2>The score</h2>
+    <p>Every product gets a score out of 100:</p>
+    <ul>
+      <li><b>{w['rating']}%</b> customer rating: the Amazon star rating out of 5.</li>
+      <li><b>{w['reviews']}%</b> review volume: the number of ratings on a log scale, capped at a ceiling set per page. A switch with 1,500 reviews is well proven; a smart plug needs far more to stand out. The log scale means going from 10 to 100 reviews counts as much as going from 1,000 to 10,000.</li>
+      <li><b>{w['features']}%</b> features: a short checklist for that page (for example 800 Series chip, Long Range, and 3-way support on Z-Wave switches). Each item has a weight, and the weights are the same for every product on the page.</li>
+    </ul>
+    <p>Scores only compare products on the same page. An 80 on the Zigbee switch page and an 80 on the Wi-Fi bulb page don't mean the same thing. On the product-type pages, which mix protocols, each product keeps the score it earned on its own protocol page.</p>
+    <h2>Awards are our call</h2>
+    <p>Labels such as Best Overall, Best Budget, and Best for Apple Home are editorial. The top-scoring product usually earns Best Overall, but not always: a slightly lower score can still be the better buy if it works with more systems or costs half as much. Every award card says why it won.</p>
+    <h2>Avoid picks</h2>
+    <p>A product lands in "the one to avoid" only for a concrete problem we can point to in the listing, and we quote it. Past examples: a title naming one model while the bullets describe another, an import model that won't work on US power or apps, a reseller charging far more than retail, and a camera that does nothing until you pay for a plan. Being new or having few reviews isn't enough on its own.</p>
+    <h2>Works with</h2>
+    <p>The Works with column shows which smart home systems can control a product, either directly or through a hub the listing says you need. We follow the listing first, then these rules for the protocol:</p>
+    <ul>
+      <li>Matter devices work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey, given a Matter controller (and a Thread border router for Matter over Thread).</li>
+      <li>Z-Wave devices work with Home Assistant, SmartThings, Hubitat, and Homey. Alexa, Google, and Apple can't talk to Z-Wave.</li>
+      <li>Zigbee 3.0 devices work with Home Assistant, SmartThings, Hubitat, Homey, and Echo speakers that have a built-in Zigbee hub.</li>
+      <li>Brand-app devices (Wi-Fi and Bluetooth) get the systems their listing names, plus Home Assistant when it has an official integration for that brand.</li>
+    </ul>
+    <h2>Gift guides and deal pages</h2>
+    <p>Gift picks come from the same rankings: the best-scoring product in each device type within the price limit, with at least 100 reviews and 4.2 stars. Accessories like replacement sensors and USB sticks are left out.</p>
+    <h2>Updates and corrections</h2>
+    <p>Each page shows when it was last updated and when its Amazon prices were checked. When we refresh a page, a "What changed" note lists products added or dropped, award changes, and corrections. If you spot a mistake, <a href="{esc(site['repo_url'])}/issues/new" target="_blank" rel="noopener">tell us on GitHub</a> and we'll fix it and note the change.</p>
+    <h2>How we make money</h2>
+    <p>Links to Amazon carry our Associates tag. If you buy through one, Amazon pays us a commission at no extra cost to you. That's the only money involved. No brand pays for placement, sends us free products, or reviews a page before it's published.</p>
+  </section>"""
+    about = f"""
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; About</nav>
+  <section class="lead prose">
+    <h1>About {esc(site['brand'])}</h1>
+    <p class="intro">{esc(site['brand'])} compares smart home gear by the protocol it speaks and the system you run, because "works with Alexa" tells you nothing about whether a switch will join your Z-Wave network or show up in Home Assistant.</p>
+    {stat_box(s)}
+  </section>
+  <section class="prose">
+    <h2>Who runs it</h2>
+    <p>The site is run by a smart home developer who writes Home Assistant integrations. Most "best smart switch" lists mix protocols together and never say which hub you need, so this one is built the other way around.</p>
+    <h2>What makes it different</h2>
+    <p>Every review page sticks to one protocol, so the products on it can share a network. The Works with column and filter show which systems each product supports. Every page explains its score, and when a listing has a real problem we name it in an avoid pick instead of quietly leaving it out. The full method is on <a href="how-we-rank.html">How we rank</a>.</p>
+    <h2>Independence</h2>
+    <p>We earn a commission when you buy through our Amazon links. No manufacturer pays for placement, sends free products, or sees a page before it's published. We're not affiliated with Amazon, the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
+    <h2>Contact</h2>
+    <p>Found an error, or a product we should look at? <a href="{esc(site['repo_url'])}/issues/new" target="_blank" rel="noopener">Open an issue on GitHub</a>.</p>
+  </section>"""
+    urls = []
+    for slug, title, body, desc in [
+            ("how-we-rank", "How We Rank Smart Home Gear", method,
+             "Where our Amazon data comes from, the score formula, how awards and avoid picks are chosen, and how Works with is decided."),
+            ("about", f"About {site['brand']}", about,
+             f"{site['brand']} compares smart home gear by protocol and smart home system, with a published scoring method.")]:
+        url = f"{base}/{slug}.html" if base else ""
+        (OUT / f"{slug}.html").write_text(
+            page(site, f"{title} | {site['brand']}", body, description=desc, canonical=url,
+                 updated=nice_date(today)), encoding="utf-8")
+        urls.append((url, today))
     return urls
 
 
@@ -1134,7 +1290,7 @@ def main():
     n_cat = len(urls) - 1
     fam = build_family_pages(site)
     seas = build_seasonal(site)
-    urls += fam + seas
+    urls += fam + seas + build_trust_pages(site)
     build_sitemap(site, urls)
     print(f"{n_cat} category pages + {len(fam)} product-type pages + {len(seas)} seasonal pages -> {OUT}")
 
@@ -1263,6 +1419,24 @@ footer a{color:var(--gold-ink)}
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23d8b25a' stroke-width='1.6' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
 .fam-filters select{display:block}
 .ms summary::-webkit-details-marker{display:none}
+.updated{font-size:.85rem;color:var(--muted);margin:2px 0 10px}
+.updated time{color:var(--ink)}
+.changes{font-size:.85rem;color:var(--muted);margin:-4px 0 12px}
+.changes summary{cursor:pointer;color:var(--gold);width:max-content}
+.changes ul{margin:6px 0 0;padding-left:18px}
+.changes li{margin:3px 0}
+.foot-links{margin:6px 0}
+.foot-links a{color:var(--gold-ink)}
+.prose{max-width:760px}
+.prose h2{margin-top:28px}
+.prose li{margin:6px 0}
+.stat-box{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0 8px}
+.stat-box div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+.stat-box b{display:block;font-size:1.5rem;color:var(--gold-ink)}
+.stat-box span{font-size:.8rem;color:var(--muted)}
+@media (max-width:600px){.stat-box{grid-template-columns:repeat(2,1fr)}}
+.unit{font-size:.8rem;color:var(--muted);margin-top:2px;white-space:nowrap}
+.hero-card .unit{margin:-4px 0 8px}
 .ms[open] summary{border-color:var(--gold)}
 .ms-panel{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:220px;background:var(--card);border:1px solid var(--line);
   border-radius:10px;padding:8px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
