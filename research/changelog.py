@@ -23,6 +23,10 @@ OUT = ROOT / "data" / "changelog.json"
 # {"<slug>": [{"date": "YYYY-MM-DD", "note": "..."}]}
 NOTES = Path(__file__).parent / "editorial" / "changelog-notes.json"
 MANUAL = json.loads(NOTES.read_text(encoding="utf-8")) if NOTES.exists() else {}
+# {"<slug>": "YYYY-MM-DD"}: the last full refresh (themisreviews-refresh skill). Every listing was
+# re-read that day, so the page's "prices checked" date moves even if no number changed.
+AUDITS_FILE = Path(__file__).parent / "editorial" / "audit-log.json"
+AUDITS = json.loads(AUDITS_FILE.read_text(encoding="utf-8")) if AUDITS_FILE.exists() else {}
 
 
 def git(*args):
@@ -101,7 +105,10 @@ def build():
         for m in MANUAL.get(slug, []):
             entries.setdefault(m["date"], []).append(m["note"])
         merged = [{"date": d, "notes": list(dict.fromkeys(ns))} for d, ns in sorted(entries.items(), reverse=True)]
-        log[slug] = {"captured": captured, "updated": merged[0]["date"], "entries": merged}
+        if AUDITS.get(slug, "") > captured:
+            captured = AUDITS[slug]
+        log[slug] = {"captured": captured, "updated": merged[0]["date"], "entries": merged,
+                     "audited": AUDITS.get(slug)}
     OUT.write_text(json.dumps(log, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"changelog: {len(log)} pages")
 

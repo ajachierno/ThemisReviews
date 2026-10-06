@@ -93,7 +93,7 @@ async def run(mode, out, items):
                             await pg.goto("https://www.amazon.com/", wait_until="commit"); await pg.wait_for_timeout(4000)
                         except Exception as e2:
                             print(f"{it}: homepage reload failed ({str(e2)[:60]}), continuing", file=sys.stderr, flush=True)
-                d["asin"] = it; res[it] = d
+                d["asin"] = it; d["captured"] = __import__("datetime").date.today().isoformat(); res[it] = d
                 fails = fails + 1 if not d.get("title") else 0
                 json.dump(res, open(out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
                 print(f"{it}: {(d.get('title') or 'NO TITLE')[:70]} | {d.get('price')} | {d.get('rating')} | {d.get('reviews')}", file=sys.stderr, flush=True)

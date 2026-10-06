@@ -10,10 +10,10 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-SCRAPE = {**json.loads((HERE / "prod-all.json").read_text(encoding="utf-8")),
-          **json.loads((HERE / "prod-hubs.json").read_text(encoding="utf-8")),
-          **{k: v for k, v in (json.loads((HERE / "prod-b9b.json").read_text(encoding="utf-8"))
-                               if (HERE / "prod-b9b.json").exists() else {}).items() if v.get("title")}}
+sys.path.insert(0, str(HERE))
+from scrape_data import load_scrape  # noqa: E402  base captures, then research/refresh/*.json (newest wins)
+
+SCRAPE = load_scrape()
 OUT = HERE.parent / "data" / "pages"
 
 

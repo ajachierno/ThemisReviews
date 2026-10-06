@@ -19,10 +19,10 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 ROOT = HERE.parent
-SCRAPE = {}
-for f in ("prod-all.json", "prod-hubs.json", "prod-b9b.json"):
-    if (HERE / f).exists():
-        SCRAPE.update({k: v for k, v in json.loads((HERE / f).read_text(encoding="utf-8")).items() if v.get("title")})
+sys.path.insert(0, str(HERE))
+from scrape_data import load_scrape  # noqa: E402
+
+SCRAPE = load_scrape()
 OVR = HERE / "editorial" / "requirements-overrides.json"
 OVERRIDES = json.loads(OVR.read_text(encoding="utf-8")) if OVR.exists() else {}
 
