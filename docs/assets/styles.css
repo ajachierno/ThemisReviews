@@ -159,7 +159,30 @@ footer a{color:var(--gold-ink)}
 .sr-list{display:grid;gap:6px;max-width:760px}
 .ss-item.full{background:var(--card);border:1px solid var(--line)}
 @media (max-width:720px){.site-search{flex:1 1 100%;margin-left:0}.ss-panel{min-width:0}}
+.wo-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 12px;font-size:.88rem;color:var(--muted);flex-basis:100%}
+.wo-opt{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card-2);color:var(--ink);cursor:pointer}
+.wo-opt:has(input:checked){border-color:var(--gold);background:#2a2440}
+.wo-opt input{accent-color:var(--gold);margin:0}
+.picker h2{margin-top:0}
+.pk-q{margin:12px 0}
+.pk-q label,.pk-lbl{display:block;margin-bottom:6px;color:var(--ink);font-weight:600}
+.pk-n{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--gold);color:#1d1405;font-size:.8rem;margin-right:6px}
+.picker select{max-width:420px;width:100%}
+.picker .wo-row{margin:0}
+.wo-opt.off{opacity:.45;cursor:not-allowed}
+.pk-out{margin-top:14px}
+.pk-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:10px 0 14px}
+.pk-card{display:flex;flex-direction:column;background:var(--card-2);border:1px solid var(--line);border-radius:12px;overflow:hidden;color:var(--ink);text-decoration:none}
+.pk-card:hover{border-color:var(--gold)}
+.pk-card img{width:100%;height:140px;object-fit:contain;background:#fff}
+.pk-body{display:flex;flex-direction:column;gap:3px;padding:10px 12px}
+.pk-body .ss-badge{align-self:flex-start;margin:0 0 4px}
+.pk-meta{font-size:.82rem;color:var(--muted)}
+.pk-link{margin-top:4px;font-size:.85rem;color:var(--gold-ink)}
+.pk-tip{margin-top:10px}
+@media (max-width:720px){.pk-cards{grid-template-columns:1fr}.pk-card{flex-direction:row}.pk-card img{width:96px;height:auto;min-height:96px}}
 .unit{font-size:.8rem;color:var(--muted);margin-top:2px;white-space:nowrap}
+.ptable .unit{white-space:normal;font-size:.75rem;line-height:1.25}
 .hero-card .unit{margin:-4px 0 8px}
 .ms[open] summary{border-color:var(--gold)}
 .ms-panel{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:220px;background:var(--card);border:1px solid var(--line);

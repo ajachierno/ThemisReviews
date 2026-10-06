@@ -384,11 +384,37 @@ def render_protocol(p):
   </section>"""
 
 
+def render_picker(site):
+    fams = family_index(site)
+    fam_opts = "".join(f'<option value="{esc(slug)}" data-wired="{1 if fam in WIRED_FAMILIES else 0}">{esc(title)}</option>'
+                       for fam, title, slug, _m in sorted(fams, key=lambda f: f[1]))
+    sys_opts = "".join(f'<option value="{esc(s)}">{esc(n)}</option>' for s, n in SYSTEM_NAMES.items())
+    wo = "".join(f'<label class="wo-opt" title="{esc(tip)}"><input type="checkbox" name="pk-wo" value="{k}"> {esc(lbl)}</label>'
+                 for k, lbl, tip in WITHOUT)
+    return f"""
+  <section class="quicknav picker" id="picker" aria-labelledby="pk-h">
+    <h2 id="pk-h">Not sure what to buy? Answer three questions</h2>
+    <div class="pk-q"><label for="pk-sys"><span class="pk-n">1</span> What runs your smart home?</label>
+      <select id="pk-sys"><option value="">Nothing yet, or not sure</option>{sys_opts}</select></div>
+    <div class="pk-q"><label for="pk-fam"><span class="pk-n">2</span> What do you want to add?</label>
+      <select id="pk-fam"><option value="">Choose a device type...</option>{fam_opts}</select></div>
+    <div class="pk-q"><span class="pk-lbl"><span class="pk-n">3</span> Anything it has to work without?</span>
+      <div class="wo-row">{wo}</div></div>
+    <button type="button" class="btn" id="pk-go" disabled>Show my picks</button>
+    <div id="pk-out" class="pk-out" aria-live="polite"></div>
+  </section>
+  <script src="assets/picker.js?v={PICKER_VERSION}" defer></script>"""
+
+
+WIRED_FAMILIES = {"light-switches", "dimmers", "fan-controls", "outlets", "relays"}
+
+
 def build_home(site):
     protos = site["protocols"]
     body = f"""
   {render_seasonal_strip()}
   {render_quicknav(protos, families=family_index(site))}
+  {render_picker(site)}
   <div class="or-divider" role="separator">- OR -</div>
   <p class="or-note">Not sure where to start? Explore the pros and cons of each smart home system and protocol below, then dive into the reviews that fit your setup.</p>
   <section class="lead home">
@@ -506,12 +532,12 @@ def render_table(ranked, avoid, columns, noun="product"):
     rows = []
     for p in ranked:
         cells = "".join(f"<td>{spec_value(p, c)}</td>" for c in columns)
-        rows.append(f'<tr data-systems="{esc(" ".join(p["systems"]))}"><td class="c">{p["rank"]}</td>'
+        rows.append(f'<tr data-systems="{esc(" ".join(p["systems"]))}" data-ok="{esc(p.get("_ok", ""))}"><td class="c">{p["rank"]}</td>'
                     f'<td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
                     f'<td>{money(p["price"])}{unit_note(p)}</td><td class="c">{p["rating"]}</td>'
                     f'<td class="c">{p["reviews_count"]:,}</td><td>{sys_icons(p["systems"], p.get("systems_label", "Standalone"))}</td>{cells}<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
-        rows.append(f'<tr class="avoid-row" data-systems="{esc(" ".join(a["systems"]))}"><td class="c">&#10005;</td>'
+        rows.append(f'<tr class="avoid-row" data-systems="{esc(" ".join(a["systems"]))}" data-ok="{esc(a.get("_ok", ""))}"><td class="c">&#10005;</td>'
                     f'<td><a href="#avoid-{esc(a["asin"])}">{esc(a["brand"])} {esc(a["model"])}</a></td>'
                     f'<td>{money(a["price"])}</td><td class="c">{a["rating"]}</td>'
                     f'<td class="c">{a["reviews_count"]:,}</td><td>{sys_icons(a["systems"], a.get("systems_label", "Standalone"))}</td>'
@@ -618,35 +644,82 @@ def render_family_links(site, cat):
 
 TABLE_FILTER_JS = """document.addEventListener('DOMContentLoaded',function(){
   var sel=document.getElementById('t-sys'), count=document.getElementById('t-count');
+  var boxes=[].slice.call(document.querySelectorAll('input[name=t-wo]'));
   var rows=[].slice.call(document.querySelectorAll('#compare .ptable tbody tr'));
   var total=rows.filter(function(r){return !r.classList.contains('avoid-row');}).length, noun=count.dataset.noun;
   function apply(){
-    var s=sel.value, shown=0;
+    var s=sel?sel.value:'', shown=0, wo=boxes.filter(function(b){return b.checked;});
     rows.forEach(function(r){
-      var ok=!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0;
+      var ok=(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0)&&woOK(r,boxes);
       r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
     });
-    count.textContent = s ? shown+' of '+total+' '+noun+' work with '+sel.options[sel.selectedIndex].text : '';
+    var parts=[]; if(s) parts.push('work with '+sel.options[sel.selectedIndex].text);
+    if(wo.length) parts.push('work without '+wo.map(function(b){return 'a '+b.parentNode.textContent.trim().toLowerCase();}).join(' or '));
+    count.textContent = parts.length ? shown+' of '+total+' '+noun+' '+parts.join(' and ') : '';
   }
-  sel.addEventListener('change',apply);
-  var q=new URLSearchParams(location.search); if(q.get('system')){ sel.value=q.get('system'); }
+  if(sel) sel.addEventListener('change',apply);
+  boxes.forEach(function(b){b.addEventListener('change',apply);});
+  var q=new URLSearchParams(location.search); if(sel&&q.get('system')){ sel.value=q.get('system'); }
+  woInit(boxes);
   apply();
 });"""
+
+
+# Built by research/requirements.py: what each product needs (neutral wire, hub, subscription).
+REQ = json.loads((DATA / "requirements.json").read_text(encoding="utf-8")) if (DATA / "requirements.json").exists() else {}
+WITHOUT = [("neutral", "Neutral wire", "Only products whose listing says no neutral wire is needed."),
+           ("hub", "Hub", "Hides products that need a separate hub, bridge, gateway, or Thread border router."),
+           ("sub", "Subscription", "Hides products whose main job (recording, for cameras and doorbells) needs a paid plan.")]
+
+
+def req_ok(slug, asin):
+    """Space-separated list of the things this product works WITHOUT, for the data-ok attribute."""
+    r = REQ.get(slug, {}).get(asin)
+    if not r:
+        return ""
+    ok = []
+    if r.get("neutral") == "no":
+        ok.append("neutral")
+    if r.get("hub") is False:
+        ok.append("hub")
+    if not r.get("sub"):
+        ok.append("sub")
+    return " ".join(ok)
+
+
+def render_without(prefix, oks):
+    """Checkboxes for the requirements that actually split this set of products."""
+    n = len(oks)
+    opts = []
+    for key, label, tip in WITHOUT:
+        have = sum(1 for o in oks if key in o.split())
+        if 0 < have < n:
+            opts.append(f'<label class="wo-opt" title="{esc(tip)}"><input type="checkbox" name="{prefix}-wo" value="{key}"> {esc(label)}</label>')
+    if not opts:
+        return ""
+    return f'<div class="wo-row"><span class="wo-label">Must work without:</span>{"".join(opts)}</div>'
+
+
+WO_JS = """function woOK(r,boxes){var ok=' '+(r.dataset.ok||'')+' ';return boxes.every(function(b){return !b.checked||ok.indexOf(' '+b.value+' ')>=0;});}
+function woInit(boxes){var w=new URLSearchParams(location.search).get('without');if(w){w=w.split(',');boxes.forEach(function(b){b.checked=w.indexOf(b.value)>=0;});}}"""
 
 
 def render_system_filter(ranked, avoid, noun):
     """'Works with' dropdown for the side-by-side table; lists only systems this page's products support."""
     present = {s for p in list(ranked) + list(avoid) for s in p.get("systems", [])}
     systems = [s for s in SYSTEM_NAMES if s in present]
-    if not systems:
+    without = render_without("t", [p.get("_ok", "") for p in ranked])
+    if not systems and not without:
         return ""
     opts = "".join(f'<option value="{esc(s)}">{esc(SYSTEM_NAMES[s])}</option>' for s in systems)
     plural = noun if noun.endswith("s") else noun + "s"
+    sys_sel = f'<label>Works with <select id="t-sys"><option value="">Any system</option>{opts}</select></label>' if systems else ""
     return f"""<div class="fam-filters table-filter">
-      <label>Works with <select id="t-sys"><option value="">Any system</option>{opts}</select></label>
+      {sys_sel}
       <span class="muted tiny" id="t-count" data-noun="{esc(plural)}"></span>
     </div>
-    <script>{TABLE_FILTER_JS}</script>"""
+    {without}
+    <script>{WO_JS}{TABLE_FILTER_JS}</script>"""
 
 
 def build_category(site, proto, sub):
@@ -654,6 +727,8 @@ def build_category(site, proto, sub):
     ranked = rank_products(cat)
     # Titles are written as "The 10 Best ..."; keep the number honest on shorter lists.
     cat["title"] = re.sub(r"\b\d+ Best\b", f"{len(ranked)} Best", cat["title"])
+    for p in list(ranked) + cat["avoid"]:
+        p["_ok"] = req_ok(sub["slug"], p["asin"])
     by_asin = {p["asin"]: p for p in ranked}
     awards = "".join(render_award(a, by_asin[a["asin"]], site) for a in cat["awards"])
     cards = "".join(render_card(p, site, cat["spec_fields"]) for p in ranked)
@@ -1023,6 +1098,7 @@ def render_proto_diff(protocols):
 
 FAMILY_JS = """(function(){
   var boxes=[].slice.call(document.querySelectorAll('input[name=f-proto]')), sys=document.getElementById('f-sys'), sort=document.getElementById('f-sort');
+  var wob=[].slice.call(document.querySelectorAll('input[name=f-wo]'));
   var body=document.getElementById('fam-body'), count=document.getElementById('f-count');
   var rows=[].slice.call(body.querySelectorAll('tr'));
   function apply(){
@@ -1033,7 +1109,7 @@ FAMILY_JS = """(function(){
     rows.forEach(function(r){
       var rp=' '+r.dataset.protos+' ';
       var okP=!picked.length||picked.some(function(v){return rp.indexOf(' '+v+' ')>=0;});
-      var ok=okP&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0);
+      var ok=okP&&(!s||(' '+r.dataset.systems+' ').indexOf(' '+s+' ')>=0)&&woOK(r,wob);
       r.hidden=!ok; if(ok&&!r.classList.contains('avoid-row')) shown++;
     });
     count.textContent=shown+' of '+rows.filter(function(r){return !r.classList.contains('avoid-row');}).length+' products';
@@ -1048,6 +1124,7 @@ FAMILY_JS = """(function(){
     sorted.forEach(function(r){body.appendChild(r);});
   }
   boxes.forEach(function(b){b.addEventListener('change',apply);}); sys.addEventListener('change',apply);
+  wob.forEach(function(b){b.addEventListener('change',apply);}); woInit(wob);
   var clr=document.getElementById('f-proto-clear');
   if(clr) clr.addEventListener('click',function(){boxes.forEach(function(b){b.checked=false;});apply();});
   var dd=document.getElementById('f-proto-dd');
@@ -1077,15 +1154,20 @@ def build_family_page(site, fam, title, slug, members):
             if proto["slug"] not in [x["slug"] for x in it["protos"]]:
                 it["protos"].append(proto)
             it["pages"].append((sub, p["rank"], len(cat["products"])))
+            # a product on several protocol pages works without X if any of its pages says so
+            it.setdefault("ok", set()).update(req_ok(sub["slug"], p["asin"]).split())
         for a in cat.get("avoid", []):
+            a["_ok"] = req_ok(sub["slug"], a["asin"])
             avoids.append((a, proto, sub))
+    for it in items.values():
+        it["p"]["_ok"] = " ".join(sorted(it["ok"]))
     ranked = sorted(items.values(), key=lambda it: (-it["p"]["score"], -it["p"]["reviews_count"]))
     sys_order = [s for s in SYSTEM_NAMES]
 
     def row(p, protos, link, extra_cls="", note=""):
         proto_chips = " ".join(f'<span class="chip">{esc(x["name"])}</span>' for x in protos)
         return (f'<tr class="{extra_cls}" data-protos="{esc(" ".join(x["slug"] for x in protos))}" '
-                f'data-systems="{esc(" ".join(p.get("systems", [])))}" data-score="{p.get("score", 0)}" '
+                f'data-systems="{esc(" ".join(p.get("systems", [])))}" data-ok="{esc(p.get("_ok", ""))}" data-score="{p.get("score", 0)}" '
                 f'data-price="{p["price"]}" data-unit="{unit_price(p):.2f}" data-rating="{p["rating"]}" data-reviews="{p["reviews_count"]}">'
                 f'<td><a href="{esc(link)}">{esc(p["brand"])} {esc(p["model"])}</a>{note}</td>'
                 f'<td>{proto_chips}</td><td>{money(p["price"])}{unit_note(p)}</td><td class="c">{p["rating"]}</td>'
@@ -1145,13 +1227,14 @@ def build_family_page(site, fam, title, slug, members):
       <label>Sort by <select id="f-sort"><option value="score">Score</option><option value="rating">Rating</option><option value="reviews">Reviews</option><option value="price">Price (low to high)</option><option value="unit">Price per item</option></select></label>
       <span class="muted tiny" id="f-count"></span>
     </div>
+    {render_without("f", [it["p"].get("_ok", "") for it in ranked])}
     <p class="swipe-hint">Swipe the table sideways to see every column.</p>
     <div class="tablewrap"><table class="ptable fam-table"><thead><tr><th>Product</th><th>Protocol</th><th>Price</th><th>Rating</th>
       <th>Reviews</th><th>Works with</th><th>Score</th><th></th></tr></thead>
       <tbody id="fam-body">{"".join(rows)}</tbody></table></div>
     <p class="tiny muted legend">Scores come from each product's protocol page, where it was ranked against devices on the same protocol. Red rows are the picks we tell you to avoid. Prices captured from Amazon between {esc(min(dates))} and {esc(max(dates))}.</p>
   </section>
-  <script>{FAMILY_JS}</script>"""
+  <script>{WO_JS}{FAMILY_JS}</script>"""
     base = base_url(site)
     url = f"{base}/{slug}.html" if base else ""
     il = {"@context": "https://schema.org", "@type": "ItemList", "name": h1, "numberOfItems": len(ranked),
@@ -1238,6 +1321,13 @@ def build_trust_pages(site):
       <li>Zigbee 3.0 devices work with Home Assistant, SmartThings, Hubitat, Homey, and Echo speakers that have a built-in Zigbee hub.</li>
       <li>Brand-app devices (Wi-Fi and Bluetooth) get the systems their listing names, plus Home Assistant when it has an official integration for that brand.</li>
     </ul>
+    <h2>The "Must work without" filters</h2>
+    <p>Tables and the picker on the home page can hide products that need something you don't have:</p>
+    <ul>
+      <li><b>Neutral wire:</b> only switches, dimmers, outlets, relays, and fan controls whose listing says no neutral is needed. When a listing contradicts itself, we go with the title.</li>
+      <li><b>Hub:</b> hides anything that needs a separate hub, bridge, gateway, or Thread border router to work. Z-Wave, Zigbee, Thread, and Lutron devices always do. Kits that include their hub count as hub-free, and so do Bluetooth devices you control from your phone.</li>
+      <li><b>Subscription:</b> hides products whose main job needs a paid plan. For cameras and doorbells that includes saving recordings. Optional extras, like a router's security add-on, don't count.</li>
+    </ul>
     <h2>Gift guides and deal pages</h2>
     <p>Gift picks come from the same rankings: the best-scoring product in each device type within the price limit, with at least 100 reviews and 4.2 stars. Accessories like replacement sensors and USB sticks are left out.</p>
     <h2>Updates and corrections</h2>
@@ -1277,6 +1367,7 @@ def build_trust_pages(site):
 
 
 def build_search(site):
+    fam_slug = {fam: slug for fam, _t, slug, _m in family_index(site)}
     """Write assets/search.json (every ranked product, avoid pick, and page) and search.html.
     The header search box loads the index on first focus and filters it in the browser."""
     sys_words = {"apple-home": "Apple Home HomeKit Siri", "google-home": "Google Home Nest",
@@ -1299,7 +1390,9 @@ def build_search(site):
                                 "k": " ".join([p["name"][:160], proto["name"], cat.get("family_title", ""),
                                                *(sys_words.get(s, "") for s in p["systems"])]),
                                 "u": f"{sub['slug']}.html#{p['asin']}", "i": p["image"],
-                                "pr": round(p["price"], 2), "r": p["rating"], "s": p["score"], "a": award})
+                                "pr": round(p["price"], 2), "r": p["rating"], "s": p["score"], "a": award,
+                                "f": fam_slug.get(cat.get("family"), ""), "y": " ".join(p["systems"]),
+                                "o": req_ok(sub["slug"], p["asin"]), "c": p["reviews_count"]})
             for a in cat["avoid"]:
                 entries.append({"t": "a", "n": f"{a['brand']} {a['model']}", "g": where,
                                 "k": f"{a['name'][:160]} {proto['name']} avoid",
@@ -1327,6 +1420,7 @@ def build_search(site):
             e["i"] = e["i"][len(img_prefix):]
     (ASSETS / "search.json").write_text(json.dumps(entries, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (ASSETS / "search.js").write_text(SEARCH_JS.strip() + "\n", encoding="utf-8")
+    (ASSETS / "picker.js").write_text(PICKER_JS.strip() + "\n", encoding="utf-8")
     body = """
   <nav class="crumbs"><a href="./">Home</a> &rsaquo; Search</nav>
   <section class="lead">
@@ -1466,6 +1560,83 @@ SEARCH_JS = r"""
 })();
 """
 SEARCH_VERSION = hashlib.md5(SEARCH_JS.encode("utf-8")).hexdigest()[:8]
+
+PICKER_JS = r"""
+(function(){
+  var sys = document.getElementById('pk-sys'), fam = document.getElementById('pk-fam'), go = document.getElementById('pk-go');
+  var out = document.getElementById('pk-out'), boxes = [].slice.call(document.querySelectorAll('input[name=pk-wo]'));
+  if (!go) return;
+  var data = null;
+  function load(){ return data ? Promise.resolve(data) : fetch('assets/search.json').then(function(r){ return r.json(); }).then(function(d){ data = d; return d; }); }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function thumb(u){ if (u && u.indexOf('http') !== 0) u = 'https://m.media-amazon.com/images/I/' + u; return u ? u.replace(/\._[^/]*_\.(jpg|png)$/i, '._AC_US160_.$1') : ''; }
+  function wired(){ var o = fam.options[fam.selectedIndex]; return o && o.dataset.wired === '1'; }
+  function sync(){
+    go.disabled = !fam.value;
+    var nb = boxes.filter(function(b){ return b.value === 'neutral'; })[0];
+    if (nb){ nb.disabled = !wired(); if (nb.disabled) nb.checked = false; nb.parentNode.classList.toggle('off', nb.disabled); }
+  }
+  [sys, fam].forEach(function(el){ el.addEventListener('change', function(){ sync(); load(); }); });
+  sync();
+  function matches(d, s, f, wo){
+    var seen = {}, list = [];
+    d.forEach(function(e){
+      if (e.t !== 'p' || e.f !== f) return;
+      if (s && (' ' + e.y + ' ').indexOf(' ' + s + ' ') < 0) return;
+      var ok = ' ' + e.o + ' ';
+      for (var i = 0; i < wo.length; i++) if (ok.indexOf(' ' + wo[i] + ' ') < 0) return;
+      var id = e.u.split('#')[1] || e.n;
+      if (seen[id] && seen[id].s >= e.s) return;
+      seen[id] = e;
+    });
+    for (var k in seen) list.push(seen[k]);
+    list.sort(function(a, b){ return (b.s - a.s) || (b.c - a.c); });
+    return list;
+  }
+  // top picks: best scores, but one per brand when there's a choice
+  function top(list, n){
+    var picks = [], brands = {};
+    list.forEach(function(e){ var br = e.n.split(' ')[0]; if (picks.length < n && !brands[br]){ brands[br] = 1; picks.push(e); } });
+    list.forEach(function(e){ if (picks.length < n && picks.indexOf(e) < 0) picks.push(e); });
+    return picks;
+  }
+  function card(e){
+    return '<a class="pk-card" href="' + esc(e.u) + '"><img src="' + esc(thumb(e.i)) + '" alt="">' +
+      '<span class="pk-body">' + (e.a ? '<span class="ss-badge">' + esc(e.a) + '</span>' : '') +
+      '<b>' + esc(e.n) + '</b><span class="pk-meta">' + esc(e.g) + '</span>' +
+      '<span class="pk-meta">$' + e.pr.toFixed(2) + ' &middot; ' + e.r + '&#9733; &middot; score ' + e.s + '</span>' +
+      '<span class="pk-link">Read the review &rarr;</span></span></a>';
+  }
+  go.addEventListener('click', function(){
+    var s = sys.value, f = fam.value, wo = boxes.filter(function(b){ return b.checked && !b.disabled; }).map(function(b){ return b.value; });
+    var famName = fam.options[fam.selectedIndex].text, sysName = s ? sys.options[sys.selectedIndex].text : '';
+    out.innerHTML = '<p class="muted">Finding your picks...</p>';
+    load().then(function(d){
+      var all = matches(d, '', f, []), hit = matches(d, s, f, wo);
+      var params = []; if (s) params.push('system=' + encodeURIComponent(s)); if (wo.length) params.push('without=' + wo.join(','));
+      var link = f + '.html' + (params.length ? '?' + params.join('&') : '');
+      var what = famName.toLowerCase() + (sysName ? ' that work with ' + sysName : '') +
+        (wo.length ? (sysName ? ' and' : ' that') + ' work without ' + wo.map(function(w){ return {neutral: 'a neutral wire', hub: 'a hub', sub: 'a subscription'}[w]; }).join(' or ') : '');
+      var html;
+      if (!hit.length){
+        html = '<p><b>None of the ' + all.length + ' ' + esc(famName.toLowerCase()) + ' we rank match all of that.</b> ' +
+          'Try dropping one of the "work without" options' + (s ? ', or pick a different system' : '') + '. Here are the top picks overall:</p>' +
+          '<div class="pk-cards">' + top(all, 3).map(card).join('') + '</div>' +
+          '<a class="btn ghost" href="' + esc(f) + '.html">Compare all ' + all.length + ' ' + esc(famName.toLowerCase()) + '</a>';
+      } else {
+        html = '<p><b>' + hit.length + ' of ' + all.length + '</b> ' + esc(what) + (hit.length === 1 ? '. Our pick:</p>' : '. Our top ' + Math.min(3, hit.length) + ':</p>') +
+          '<div class="pk-cards">' + top(hit, 3).map(card).join('') + '</div>' +
+          '<a class="btn ghost" href="' + esc(link) + '">See all ' + hit.length + ' in one table &rarr;</a>';
+        if (!s) html += '<p class="tiny muted pk-tip">Starting fresh? Matter devices work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, so you aren\'t locked in.</p>';
+      }
+      html += '<p class="tiny muted">Ranked by each product\'s score on its own protocol page. <a href="how-we-rank.html">How we rank</a></p>';
+      out.innerHTML = html;
+      out.scrollIntoView({behavior: 'smooth', block: 'nearest'});
+    });
+  });
+})();
+"""
+PICKER_VERSION = hashlib.md5(PICKER_JS.encode("utf-8")).hexdigest()[:8]
 
 
 CSS = r"""
@@ -1630,7 +1801,30 @@ footer a{color:var(--gold-ink)}
 .sr-list{display:grid;gap:6px;max-width:760px}
 .ss-item.full{background:var(--card);border:1px solid var(--line)}
 @media (max-width:720px){.site-search{flex:1 1 100%;margin-left:0}.ss-panel{min-width:0}}
+.wo-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 12px;font-size:.88rem;color:var(--muted);flex-basis:100%}
+.wo-opt{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card-2);color:var(--ink);cursor:pointer}
+.wo-opt:has(input:checked){border-color:var(--gold);background:#2a2440}
+.wo-opt input{accent-color:var(--gold);margin:0}
+.picker h2{margin-top:0}
+.pk-q{margin:12px 0}
+.pk-q label,.pk-lbl{display:block;margin-bottom:6px;color:var(--ink);font-weight:600}
+.pk-n{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--gold);color:#1d1405;font-size:.8rem;margin-right:6px}
+.picker select{max-width:420px;width:100%}
+.picker .wo-row{margin:0}
+.wo-opt.off{opacity:.45;cursor:not-allowed}
+.pk-out{margin-top:14px}
+.pk-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:10px 0 14px}
+.pk-card{display:flex;flex-direction:column;background:var(--card-2);border:1px solid var(--line);border-radius:12px;overflow:hidden;color:var(--ink);text-decoration:none}
+.pk-card:hover{border-color:var(--gold)}
+.pk-card img{width:100%;height:140px;object-fit:contain;background:#fff}
+.pk-body{display:flex;flex-direction:column;gap:3px;padding:10px 12px}
+.pk-body .ss-badge{align-self:flex-start;margin:0 0 4px}
+.pk-meta{font-size:.82rem;color:var(--muted)}
+.pk-link{margin-top:4px;font-size:.85rem;color:var(--gold-ink)}
+.pk-tip{margin-top:10px}
+@media (max-width:720px){.pk-cards{grid-template-columns:1fr}.pk-card{flex-direction:row}.pk-card img{width:96px;height:auto;min-height:96px}}
 .unit{font-size:.8rem;color:var(--muted);margin-top:2px;white-space:nowrap}
+.ptable .unit{white-space:normal;font-size:.75rem;line-height:1.25}
 .hero-card .unit{margin:-4px 0 8px}
 .ms[open] summary{border-color:var(--gold)}
 .ms-panel{position:absolute;z-index:30;top:calc(100% + 6px);left:0;min-width:220px;background:var(--card);border:1px solid var(--line);

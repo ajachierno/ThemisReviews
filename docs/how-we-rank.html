@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 
-<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
+<link rel="stylesheet" href="assets/styles.css?v=45d41c24">
 </head>
 <body>
 <header class="site">
@@ -72,6 +72,13 @@
       <li>Z-Wave devices work with Home Assistant, SmartThings, Hubitat, and Homey. Alexa, Google, and Apple can't talk to Z-Wave.</li>
       <li>Zigbee 3.0 devices work with Home Assistant, SmartThings, Hubitat, Homey, and Echo speakers that have a built-in Zigbee hub.</li>
       <li>Brand-app devices (Wi-Fi and Bluetooth) get the systems their listing names, plus Home Assistant when it has an official integration for that brand.</li>
+    </ul>
+    <h2>The "Must work without" filters</h2>
+    <p>Tables and the picker on the home page can hide products that need something you don't have:</p>
+    <ul>
+      <li><b>Neutral wire:</b> only switches, dimmers, outlets, relays, and fan controls whose listing says no neutral is needed. When a listing contradicts itself, we go with the title.</li>
+      <li><b>Hub:</b> hides anything that needs a separate hub, bridge, gateway, or Thread border router to work. Z-Wave, Zigbee, Thread, and Lutron devices always do. Kits that include their hub count as hub-free, and so do Bluetooth devices you control from your phone.</li>
+      <li><b>Subscription:</b> hides products whose main job needs a paid plan. For cameras and doorbells that includes saving recordings. Optional extras, like a router's security add-on, don't count.</li>
     </ul>
     <h2>Gift guides and deal pages</h2>
     <p>Gift picks come from the same rankings: the best-scoring product in each device type within the price limit, with at least 100 reviews and 4.2 stars. Accessories like replacement sensors and USB sticks are left out.</p>

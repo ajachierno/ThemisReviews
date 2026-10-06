@@ -16,5 +16,11 @@
    "date": "2026-10-06",
    "note": "Renamed the table's product column from System to Mesh system so it doesn't clash with the Works with column."
   }
+ ],
+ "zigbee-relays": [
+  {
+   "date": "2026-10-06",
+   "note": "Corrected the SONOFF ZBMINIR2: it needs a neutral wire. Its title says so; one bullet says otherwise, and we had followed the bullet."
+  }
  ]
 }
