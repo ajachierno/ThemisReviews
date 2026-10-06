@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best Smart Displays", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Amazon Echo Show 11 (newest model), Vibrant Full-HD 11\" display with more viewing area and spatial audio, Designed for Alexa+, Graphite", "url": "https://www.amazon.com/dp/B0DC91H3JK?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Amazon Echo Show 8 (newest model), Vibrant HD 8.7\" display with spatial audio, Designed for Alexa+, Graphite", "url": "https://www.amazon.com/dp/B0DC8ZMR1P?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "Amazon Echo Show 21 (newest model), Full HD 21\" kitchen hub for home organization, with built-in Fire TV, Designed for Alexa+", "url": "https://www.amazon.com/dp/B0CDWWS127?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "Amazon Echo Show 15 (newest model), Full HD 15.6\" kitchen hub for home organization, with built-in Fire TV, Designed for Alexa+", "url": "https://www.amazon.com/dp/B0C5DPSW5Y?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "Amazon Echo Show 5 (newest model), Smart display, Designed for Alexa+, 2x the bass and clearer sound, Charcoal", "url": "https://www.amazon.com/dp/B09B2SBHQK?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Compatible with thousands of devices", "url": "https://www.amazon.com/dp/B0BCR7M9KX?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 7, "name": "Amazon Echo Show 5 Kids (newest model), Designed for kids, Designed for Alexa+, parental controls, Includes 1 year of Amazon Kids+, Galaxy", "url": "https://www.amazon.com/dp/B09B2SB77Q?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 8, "name": "eufy Security eufy Smart Display E10, Smart Home Hub, 8\" Control Panel", "url": "https://www.amazon.com/dp/B0GQH6134D?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Smart display or smart speaker?", "acceptedAnswer": {"@type": "Answer", "text": "A display adds a screen for cameras, recipes, calendars, and smart home controls. If you want to see your doorbell camera or control lights by touch, get a display. For music and voice only, a speaker is cheaper."}}, {"@type": "Question", "name": "Can a smart display be my hub?", "acceptedAnswer": {"@type": "Answer", "text": "Some can. Several Echo Show models have a built-in Zigbee hub or Thread border router, and Google's Nest Hub (2nd gen) is a Thread border router and Matter controller. Check the listing if you want it to run your devices."}}, {"@type": "Question", "name": "What about privacy?", "acceptedAnswer": {"@type": "Answer", "text": "Most displays have a camera shutter and a microphone off switch. Put one with a camera in a kitchen or office rather than a bedroom if that bothers you."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -397,6 +402,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

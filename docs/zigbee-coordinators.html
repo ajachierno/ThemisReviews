@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The 10 Best Zigbee Hubs and Coordinators", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Philips Hue Bridge, Unlock the Full Potential of Hue Bridge System, Multi-Room and Out-of-Home Control, Create Automations and Zones, Smart Lighting Hub, Works with Voice and Matter-Compatible", "url": "https://www.amazon.com/dp/B016H0QZ7I?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "SONOFF Zigbee/Thread PoE Dongle Max | Dongle-M", "url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "SONOFF Zigbee 3.0 USB Dongle Plus Gateway, Universal Zigbee USB Gateway with Antenna for Home Assistant, IoBroker, Wireless Zigbee 3.0 USB Adapter(1 Pack)", "url": "https://www.amazon.com/dp/B09KXTCMSC?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "Sonoff Zigbee USB Dongle Plus-ZBDongle-E 3.0 External Antenna Interface SMA Gateway Universal, Pre-Installed with Zigbee Firmware Based on EZNet 6.10.3 Coordinated Home Assistant or Zigbee2MQTT", "url": "https://www.amazon.com/dp/B0B6P22YJC?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24, Zigbee Gateway with EFR32MG24, Thread & Zigbee USB Stick, Zigbee Controller for Home Assistant or Zigbee2MQTT", "url": "https://www.amazon.com/dp/B0FMJD288B?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)", "url": "https://www.amazon.com/dp/B0H5HYZ3LP?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 7, "name": "SONOFF Zigbee Bridge Pro Hub, ZigBee 3.0 Smart Gateway, APP Control and Multi-Device Management, Compatible with SONOFF Zigbee Devices", "url": "https://www.amazon.com/dp/B09ZQQZSQZ?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 8, "name": "SMLIGHT SLZB-07 Zigbee 3.0 Coordinator Thread/Matter Mini USB Adapter Works with Zigbee2MQTT, Home Assistant, ZHA", "url": "https://www.amazon.com/dp/B0D737SJ5G?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 9, "name": "SONOFF Zigbee 3.0 & Thread Dongle Lite (EFR32MG21) | USB Stick Coordinator for Home Assistant & Zigbee2MQTT | Compact Gateway with Easy Firmware Flashing & Extension Cable", "url": "https://www.amazon.com/dp/B0G2LTBM1M?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 10, "name": "SONOFF Bridge Max Smart Home Hub (Bridge-M)", "url": "https://www.amazon.com/dp/B0H7BQVT8F?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "USB stick or full hub?", "acceptedAnswer": {"@type": "Answer", "text": "A USB stick (or network coordinator) is just a radio. It needs software running on something else, usually Home Assistant on a mini PC or a Home Assistant Green. A full hub has the radio and the automation software in one box, so it works out of the box but you're tied to its app."}}, {"@type": "Question", "name": "Can I move my devices to a new hub later?", "acceptedAnswer": {"@type": "Answer", "text": "Usually not without re-pairing each device. Z-Wave controllers can sometimes back up and restore their network, and some Zigbee coordinators can be migrated in Home Assistant, but plan on re-pairing if you switch brands."}}, {"@type": "Question", "name": "Where should the hub go?", "acceptedAnswer": {"@type": "Answer", "text": "Somewhere central and out in the open, not in a metal cabinet or right next to the router. For USB sticks, use a short USB extension cable to move the stick away from the computer, since USB 3 ports put out interference that hurts 2.4 GHz radios."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -445,6 +450,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

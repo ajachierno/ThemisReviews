@@ -91,12 +91,22 @@ def page(site, title, body, is_home=False, description=None, canonical="",
         header = f"""<header class="site home-head">
   <a class="banner" href="./"><img src="assets/logo.webp" width="1280" height="720"
     alt="{esc(site['brand'])}: Themis holding the scales of justice"></a>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>"""
     else:
         header = f"""<header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>{esc(site['brand'])}</span></a>
   <span class="slogan">{esc(site['tagline'])}</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>"""
     home_link = "" if is_home else '<a href="./">&larr; All protocols</a> &nbsp; '
     return f"""<!doctype html>
@@ -138,6 +148,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 {REVEAL_JS}
+<script src="assets/search.js?v={SEARCH_VERSION}" defer></script>
 <script>(function(){{var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){{b.classList.toggle('show',window.scrollY>600);}},{{passive:true}});}})();</script>
 </body>
@@ -394,7 +405,10 @@ def build_home(site):
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.jpg" if base else ""}
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"],
-               "url": f"{base}/" if base else "", "description": site["description"]}
+               "url": f"{base}/" if base else "", "description": site["description"],
+               "potentialAction": {"@type": "SearchAction",
+                                   "target": f"{base}/search.html?q={{search_term_string}}",
+                                   "query-input": "required name=search_term_string"}}
     (OUT / "index.html").write_text(
         page(site, f"{site['brand']}: smart home protocols compared", body, is_home=True,
              canonical=f"{base}/" if base else "", structured_data=jsonld(org, website)),
@@ -1262,6 +1276,70 @@ def build_trust_pages(site):
     return urls
 
 
+def build_search(site):
+    """Write assets/search.json (every ranked product, avoid pick, and page) and search.html.
+    The header search box loads the index on first focus and filters it in the browser."""
+    sys_words = {"apple-home": "Apple Home HomeKit Siri", "google-home": "Google Home Nest",
+                 "alexa": "Alexa Echo Amazon", "home-assistant": "Home Assistant HA",
+                 "smartthings": "SmartThings Samsung", "hubitat": "Hubitat", "homey": "Homey"}
+    entries = []
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if not sub.get("ready"):
+                continue
+            cat = load(f"pages/{sub['slug']}.json")
+            ranked = rank_products(cat)
+            where = sub["title"]
+            entries.append({"t": "r", "n": sub["title"], "g": f"{proto['name']} reviews",
+                            "k": f"{proto['name']} {cat.get('family_title', '')} {cat['title']}",
+                            "u": f"{sub['slug']}.html"})
+            for p in ranked:
+                award = p["awards"][0]["label"] if p["awards"] else ""
+                entries.append({"t": "p", "n": f"{p['brand']} {p['model']}", "g": where,
+                                "k": " ".join([p["name"][:160], proto["name"], cat.get("family_title", ""),
+                                               *(sys_words.get(s, "") for s in p["systems"])]),
+                                "u": f"{sub['slug']}.html#{p['asin']}", "i": p["image"],
+                                "pr": round(p["price"], 2), "r": p["rating"], "s": p["score"], "a": award})
+            for a in cat["avoid"]:
+                entries.append({"t": "a", "n": f"{a['brand']} {a['model']}", "g": where,
+                                "k": f"{a['name'][:160]} {proto['name']} avoid",
+                                "u": f"{sub['slug']}.html#avoid-{a['asin']}", "i": a["image"],
+                                "pr": round(a["price"], 2), "r": a["rating"], "a": "Avoid"})
+    for fam, title, slug, members in family_index(site):
+        entries.append({"t": "f", "n": title, "g": "Every protocol compared in one table", "k": f"{title} compare", "u": f"{slug}.html"})
+    for slug, title in [("how-we-rank", "How we rank"), ("about", "About ThemisReviews")]:
+        entries.append({"t": "s", "n": title, "g": "Site info", "k": "method score methodology trust", "u": f"{slug}.html"})
+    for g in SEASONAL.get("gifts", []):
+        if g.get("enabled", True):
+            entries.append({"t": "s", "n": g.get("label") or g["title"], "g": "Gift guide", "k": "gift gifts christmas holiday present",
+                            "u": f"{g['slug']}.html"})
+    img_prefix = "https://m.media-amazon.com/images/I/"
+    for e in entries:
+        # keep only search words the name and page label don't already cover, once each
+        seen = set(re.findall(r"[a-z0-9]+", f"{e['n']} {e['g']}".lower()))
+        words = []
+        for w in re.findall(r"[a-z0-9]+", e.get("k", "").lower()):
+            if w not in seen:
+                seen.add(w)
+                words.append(w)
+        e["k"] = " ".join(words)
+        if e.get("i", "").startswith(img_prefix):
+            e["i"] = e["i"][len(img_prefix):]
+    (ASSETS / "search.json").write_text(json.dumps(entries, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    (ASSETS / "search.js").write_text(SEARCH_JS.strip() + "\n", encoding="utf-8")
+    body = """
+  <nav class="crumbs"><a href="./">Home</a> &rsaquo; Search</nav>
+  <section class="lead">
+    <h1 id="sr-h">Search</h1>
+    <p class="intro" id="sr-sum">Type a product, brand, model number, or device type in the search box above.</p>
+  </section>
+  <section><div id="sr-list" class="sr-list"></div></section>"""
+    (OUT / "search.html").write_text(
+        page(site, f"Search | {site['brand']}", body, description="Search every product and review on the site.",
+             noindex=True), encoding="utf-8")
+    return len(entries)
+
+
 def build_sitemap(site, urls):
     base = base_url(site)
     if not base:
@@ -1291,8 +1369,103 @@ def main():
     fam = build_family_pages(site)
     seas = build_seasonal(site)
     urls += fam + seas + build_trust_pages(site)
+    n_search = build_search(site)
     build_sitemap(site, urls)
+    print(f"search index: {n_search} entries")
     print(f"{n_cat} category pages + {len(fam)} product-type pages + {len(seas)} seasonal pages -> {OUT}")
+
+
+SEARCH_JS = r"""
+(function(){
+  var forms = document.querySelectorAll('.site-search');
+  var idx = null, loading = null;
+  function load(){
+    if (idx) return Promise.resolve(idx);
+    if (!loading) loading = fetch('assets/search.json').then(function(r){ return r.json(); })
+      .then(function(d){
+        d.forEach(function(e){
+          var raw = (e.n + ' ' + e.g + ' ' + (e.k || '')).toLowerCase();
+          e._h = ' ' + raw.replace(/[^a-z0-9]+/g, ' ') + ' ' + raw.replace(/[^a-z0-9]/g, '');
+          e._n = ' ' + e.n.toLowerCase().replace(/[^a-z0-9]+/g, ' ');
+        });
+        idx = d; return d;
+      });
+    return loading;
+  }
+  function tokens(q){ return q.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean); }
+  var TYPE = {r: 3, f: 2.5, s: 1, p: 0, a: -0.5};
+  function search(q){
+    var ts = tokens(q); if (!ts.length) return [];
+    var out = [];
+    idx.forEach(function(e){
+      var sc = 0;
+      for (var i = 0; i < ts.length; i++){
+        var tk = ts[i];
+        if (e._h.indexOf(tk) < 0) return;
+        sc += e._n.indexOf(' ' + tk) >= 0 ? 4 : (e._n.indexOf(tk) >= 0 ? 3 : (e._h.indexOf(' ' + tk) >= 0 ? 1.5 : 1));
+      }
+      sc += TYPE[e.t] || 0;
+      if (e.t !== 'p' && e.t !== 'a') { var all = ts.every(function(tk){ return e._n.indexOf(tk) >= 0; }); if (all) sc += 4; }
+      out.push([sc + (e.s || 0) / 1000, e]);
+    });
+    out.sort(function(a, b){ return b[0] - a[0]; });
+    return out.map(function(x){ return x[1]; });
+  }
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function thumb(u){ if (u && u.indexOf('http') !== 0) u = 'https://m.media-amazon.com/images/I/' + u; return u ? u.replace(/\._[^/]*_\.(jpg|png)$/i, '._AC_US80_.$1') : ''; }
+  function item(e, full){
+    var img = e.i ? '<img src="' + esc(thumb(e.i)) + '" alt=""' + (full ? ' loading="lazy"' : '') + '>' : '<span class="ss-ico">' + (e.t === 'f' ? '&#9638;' : e.t === 'r' ? '&#9733;' : '&#8250;') + '</span>';
+    var meta = e.pr != null ? ('$' + e.pr.toFixed(2) + (e.r ? ' &middot; ' + e.r + '&#9733;' : '')) : '';
+    var badge = e.a ? '<span class="ss-badge' + (e.t === 'a' ? ' bad' : '') + '">' + esc(e.a) + '</span>' : '';
+    return '<a class="ss-item' + (full ? ' full' : '') + '" role="option" href="' + esc(e.u) + '">' + img +
+      '<span class="ss-txt"><span class="ss-n">' + esc(e.n) + badge + '</span><span class="ss-g">' + esc(e.g) +
+      (meta ? ' &middot; ' + meta : '') + '</span></span></a>';
+  }
+  forms.forEach(function(form){
+    var inp = form.querySelector('input'), panel = form.querySelector('.ss-panel'), sel = -1, timer;
+    function close(){ panel.hidden = true; inp.setAttribute('aria-expanded', 'false'); sel = -1; }
+    function render(){
+      var q = inp.value.trim();
+      if (q.length < 2){ close(); return; }
+      load().then(function(){
+        var res = search(q), pages = res.filter(function(e){ return e.t !== 'p' && e.t !== 'a'; }).slice(0, 3),
+            prods = res.filter(function(e){ return e.t === 'p' || e.t === 'a'; }).slice(0, 7);
+        var html = pages.concat(prods).map(function(e){ return item(e); }).join('');
+        html += res.length ? '<a class="ss-all" href="search.html?q=' + encodeURIComponent(q) + '">' + (res.length === 1 ? 'See 1 result' : 'See all ' + res.length + ' results') + '</a>'
+                           : '<div class="ss-none">No matches for "' + esc(q) + '"</div>';
+        panel.innerHTML = html; panel.hidden = false; inp.setAttribute('aria-expanded', 'true'); sel = -1;
+      });
+    }
+    inp.addEventListener('focus', load);
+    inp.addEventListener('input', function(){ clearTimeout(timer); timer = setTimeout(render, 80); });
+    inp.addEventListener('keydown', function(ev){
+      var its = panel.querySelectorAll('a');
+      if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp'){
+        if (panel.hidden || !its.length) return;
+        ev.preventDefault();
+        sel = (sel + (ev.key === 'ArrowDown' ? 1 : -1) + its.length) % its.length;
+        its.forEach(function(a, i){ a.classList.toggle('on', i === sel); });
+        its[sel].scrollIntoView({block: 'nearest'});
+      } else if (ev.key === 'Enter' && sel >= 0 && its[sel]){ ev.preventDefault(); location.href = its[sel].href; }
+      else if (ev.key === 'Escape'){ close(); }
+    });
+    document.addEventListener('click', function(ev){ if (!form.contains(ev.target)) close(); });
+  });
+  // full results page
+  var list = document.getElementById('sr-list');
+  if (list){
+    var q = new URLSearchParams(location.search).get('q') || '';
+    document.querySelectorAll('.site-search input').forEach(function(i){ i.value = q; });
+    if (q.trim()) load().then(function(){
+      var res = search(q);
+      document.getElementById('sr-h').textContent = 'Results for "' + q + '"';
+      document.getElementById('sr-sum').textContent = res.length ? res.length + (res.length === 1 ? ' match.' : ' matches across products and review pages.') : 'No matches. Try a brand, a model number, or a device type like "smart plug".';
+      list.innerHTML = res.slice(0, 200).map(function(e){ return item(e, true); }).join('');
+    });
+  }
+})();
+"""
+SEARCH_VERSION = hashlib.md5(SEARCH_JS.encode("utf-8")).hexdigest()[:8]
 
 
 CSS = r"""
@@ -1435,6 +1608,28 @@ footer a{color:var(--gold-ink)}
 .stat-box b{display:block;font-size:1.5rem;color:var(--gold-ink)}
 .stat-box span{font-size:.8rem;color:var(--muted)}
 @media (max-width:600px){.stat-box{grid-template-columns:repeat(2,1fr)}}
+.site-search{position:relative;margin-left:auto;flex:0 1 320px}
+.home-head .site-search{flex:1 1 100%;max-width:640px;margin:14px auto 0}
+.site-search input{width:100%;box-sizing:border-box;height:40px;padding:0 12px 0 36px;border-radius:10px;border:1px solid var(--line);
+  background:var(--card-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Ccircle cx='7' cy='7' r='5' fill='none' stroke='%23a7a1bd' stroke-width='1.6'/%3E%3Cpath d='M11 11l3.5 3.5' stroke='%23a7a1bd' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 12px center;
+  color:var(--ink);font:inherit;font-size:.95rem}
+.site-search input:focus{outline:none;border-color:var(--gold)}
+.ss-panel{position:absolute;z-index:50;top:calc(100% + 6px);left:0;right:0;min-width:300px;max-height:70vh;overflow:auto;
+  background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:6px}
+.ss-item{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;color:var(--ink);text-decoration:none}
+.ss-item:hover,.ss-item.on{background:var(--card-2)}
+.ss-item img,.ss-ico{width:40px;height:40px;flex:none;border-radius:6px;background:#fff;object-fit:contain}
+.ss-ico{display:flex;align-items:center;justify-content:center;background:var(--card-2);color:var(--gold);font-size:1.1rem}
+.ss-txt{display:flex;flex-direction:column;min-width:0}
+.ss-n{font-weight:600;font-size:.92rem;overflow:hidden;text-overflow:ellipsis}
+.ss-g{font-size:.78rem;color:var(--muted)}
+.ss-badge{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:6px;font-size:.68rem;font-weight:700;background:var(--gold);color:#1d1405;vertical-align:1px}
+.ss-badge.bad{background:var(--con)}
+.ss-all,.ss-none{display:block;padding:10px 8px 6px;font-size:.88rem;color:var(--gold-ink)}
+.ss-none{color:var(--muted)}
+.sr-list{display:grid;gap:6px;max-width:760px}
+.ss-item.full{background:var(--card);border:1px solid var(--line)}
+@media (max-width:720px){.site-search{flex:1 1 100%;margin-left:0}.ss-panel{min-width:0}}
 .unit{font-size:.8rem;color:var(--muted);margin-top:2px;white-space:nowrap}
 .hero-card .unit{margin:-4px 0 8px}
 .ms[open] summary{border-color:var(--gold)}

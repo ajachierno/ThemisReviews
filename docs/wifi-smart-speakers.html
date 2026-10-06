@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best Smart Speakers", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Amazon Echo Dot Max (newest model), Alexa speaker with room-filling sound and nearly 3x bass, Great for living rooms and medium-sized spaces, Designed for Alexa+, Graphite", "url": "https://www.amazon.com/dp/B0D6SX8VLQ?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Amazon Echo Spot (newest model), Great for nightstands, offices and kitchens, Smart alarm clock, Designed for Alexa+, Glacier White", "url": "https://www.amazon.com/dp/B0BFCBKXWL?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal", "url": "https://www.amazon.com/dp/B09B8V1LZ3?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker", "url": "https://www.amazon.com/dp/B0BW34LCB8?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "Google Audio Bluetooth Speaker with Keychain LED - Wireless Music Streaming - Chalk", "url": "https://www.amazon.com/dp/B0CL7P33RH?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke", "url": "https://www.amazon.com/dp/B0GLH11HYK?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Alexa, Google, or Siri?", "acceptedAnswer": {"@type": "Answer", "text": "Pick the assistant that matches your phone and smart home. Echo speakers run Alexa, Nest speakers run Google Assistant, and Sonos speakers can use Alexa or Sonos Voice Control."}}, {"@type": "Question", "name": "Can a smart speaker be my hub?", "acceptedAnswer": {"@type": "Answer", "text": "Some can. Several Echo models have a Zigbee hub or Thread border router built in, and Nest speakers and displays can be Matter controllers. Check the listing if you want it to run your devices too."}}, {"@type": "Question", "name": "How much should I spend for sound?", "acceptedAnswer": {"@type": "Answer", "text": "Small speakers like the Echo Dot are fine for voice and casual music. If music matters, a larger speaker like a Sonos Era is a big step up."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -349,6 +354,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

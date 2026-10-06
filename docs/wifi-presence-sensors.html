@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best Wi-Fi Presence Sensors", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Aqara Presence Sensor FP2, mmWave Radar Wired Smart Motion Sensor", "url": "https://www.amazon.com/dp/B0BXWZMQJ3?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "SwitchBot Smart mmWave Radar Motion Sensor, Bluetooth Presence Sensor with Dynamic Detection & Zone Positioning, Compatible with Alexa, HomeKit & Apple Home (Presence Sensor*1)", "url": "https://www.amazon.com/dp/B0FSRJT4KW?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "AKAMATIS Human Presence Sensor v2.2 for Home Assistant, mmWave Radar Smart Motion Sensor, Adjustable Sensitivity, WiFi (Seeed C3, External Antenna + LD2410B) (White, 1 Pack (Sensor Only))", "url": "https://www.amazon.com/dp/B0FX7FXQGB?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "Akamatis Human Presence & Light Sensor Litos v3, mmWave Smart Motion Sensor, 2.4 GHz Wi-Fi, Adjustable Sensitivity, Requires Home Assistant (White, 1 Pack)", "url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "3pcs LD2410C Human Presence Radar Sensor Module HLK-LD2410 LD2410 Millimeter Wave Non-Contact 24GHz ISM Band Serial Port IO Level Output", "url": "https://www.amazon.com/dp/B0CH8CRDS6?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Presence sensor or motion sensor?", "acceptedAnswer": {"@type": "Answer", "text": "A motion sensor (PIR) sees movement, so lights turn off if you sit still. An mmWave presence sensor detects breathing-level motion, so it knows you're still in the room while you read or work."}}, {"@type": "Question", "name": "Do presence sensors need power?", "acceptedAnswer": {"@type": "Answer", "text": "Most mmWave sensors need USB or wall power because the radar runs constantly. A few newer battery models combine PIR and mmWave to save power."}}, {"@type": "Question", "name": "Can it tell where I am in the room?", "acceptedAnswer": {"@type": "Answer", "text": "Some models, like the Aqara FP2, support zones, so a desk, couch, and bed can trigger different automations."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -282,6 +287,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

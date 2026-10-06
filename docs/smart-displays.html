@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ThemisReviews", "item": "https://themisreviews.com/"}, {"@type": "ListItem", "position": 2, "name": "Smart Displays", "item": "https://themisreviews.com/smart-displays.html"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "Smart Displays: Every Pick We Rank", "numberOfItems": 8, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Amazon Echo Show 11 (newest)", "url": "https://themisreviews.com/wifi-smart-displays.html#B0DC91H3JK"}, {"@type": "ListItem", "position": 2, "name": "Amazon Echo Show 8 (newest)", "url": "https://themisreviews.com/wifi-smart-displays.html#B0DC8ZMR1P"}, {"@type": "ListItem", "position": 3, "name": "Amazon Echo Show 21 (newest)", "url": "https://themisreviews.com/wifi-smart-displays.html#B0CDWWS127"}, {"@type": "ListItem", "position": 4, "name": "Amazon Echo Show 15 (newest)", "url": "https://themisreviews.com/wifi-smart-displays.html#B0C5DPSW5Y"}, {"@type": "ListItem", "position": 5, "name": "Amazon Echo Show 5 (newest)", "url": "https://themisreviews.com/wifi-smart-displays.html#B09B2SBHQK"}, {"@type": "ListItem", "position": 6, "name": "Amazon Echo Hub", "url": "https://themisreviews.com/wifi-smart-displays.html#B0BCR7M9KX"}, {"@type": "ListItem", "position": 7, "name": "Amazon Echo Show 5 Kids", "url": "https://themisreviews.com/wifi-smart-displays.html#B09B2SB77Q"}, {"@type": "ListItem", "position": 8, "name": "eufy Smart Display E10", "url": "https://themisreviews.com/wifi-smart-displays.html#B0GQH6134D"}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -162,6 +167,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

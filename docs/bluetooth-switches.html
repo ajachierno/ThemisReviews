@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best Bluetooth Light Switches", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GE CYNC Smart Dimmer Light Switch, Wire-Free, Battery-Powered, Bluetooth and Wi-Fi Enabled (1 Pack)", "url": "https://www.amazon.com/dp/B082LJX44F?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Smart Light Switch with Bluetooth Remote, Single Pole One-Way WiFi Wall Switch, Smart Life App & Voice Control, Compatible with Alexa & Google Assistant, Neutral Wire Required, No Hub Needed", "url": "https://www.amazon.com/dp/B0DX7762RF?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "GE CYNC Smart Paddle Light Switch, Wi-Fi & Bluetooth, 1 Pack", "url": "https://www.amazon.com/dp/B07NWBD7YB?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "HAUZA Smart Light Switch Bluetooth (BLE), 2 Touch Buttons Panel", "url": "https://www.amazon.com/dp/B0FBDR3HCC?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I control a Bluetooth switch when I'm away from home?", "acceptedAnswer": {"@type": "Answer", "text": "Only if something in the house bridges it to the internet. GE Cync switches use built-in Wi-Fi for that. Pure Bluetooth switches need a phone, hub, or gateway in range."}}, {"@type": "Question", "name": "What is GE Cync's Bluetooth used for?", "acceptedAnswer": {"@type": "Answer", "text": "Cync switches use Bluetooth for setup and to talk to nearby Cync devices, and Wi-Fi for app and voice control. They behave like Wi-Fi switches with a Bluetooth helper."}}, {"@type": "Question", "name": "Do I need a neutral wire?", "acceptedAnswer": {"@type": "Answer", "text": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."}}, {"@type": "Question", "name": "Can I install it myself?", "acceptedAnswer": {"@type": "Answer", "text": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -270,6 +275,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

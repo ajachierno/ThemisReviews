@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ThemisReviews", "item": "https://themisreviews.com/"}, {"@type": "ListItem", "position": 2, "name": "Black Friday Smart Home Deals 2026: The Price to Beat", "item": "https://themisreviews.com/black-friday-smart-home-deals.html"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When is Black Friday 2026?", "acceptedAnswer": {"@type": "Answer", "text": "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon usually starts early Black Friday pricing on smart home devices the week before."}}, {"@type": "Question", "name": "Which smart home devices get the biggest Black Friday discounts?", "acceptedAnswer": {"@type": "Answer", "text": "Amazon's own devices (Echo speakers, Echo Show, Ring doorbells and cameras, Blink) usually see the deepest cuts, along with Google Nest and multi-pack smart plugs and bulbs. Niche Z-Wave and Zigbee gear rarely goes on sale, so buy it when you need it."}}, {"@type": "Question", "name": "Is it better to buy on Black Friday or Cyber Monday?", "acceptedAnswer": {"@type": "Answer", "text": "Black Friday week usually has the widest selection. Cyber Monday often repeats the same prices and adds a few. If your pick hits a price you're happy with, buy it, because popular bundles can sell out."}}, {"@type": "Question", "name": "Should I buy a bundle or a single device?", "acceptedAnswer": {"@type": "Answer", "text": "Bundles like a doorbell plus chime, or a camera plus an Echo Show, are often where the real savings are. Check that you'll use every piece; a bundle is only a deal if you wanted the extras."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -2065,6 +2070,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

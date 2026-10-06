@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best Wi-Fi Motion Sensors", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor", "url": "https://www.amazon.com/dp/B0CNRRT45G?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "WiFi Motion Sensor, Smart PIR Motion Detector with Instant App Alerts", "url": "https://www.amazon.com/dp/B0GD6ND4C7?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "WiFi Motion Sensor, Smart Motion Detector for Home Security, Wireless Motion Sensor App Remote Monitor, Voice Command Compatible with Alexa. 1 Pack", "url": "https://www.amazon.com/dp/B0CLY75LMK?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "WiFi Motion Sensor, Smart Motion Detector for Home Security, Wireless Motion Sensor App Remote Monitor, Voice Command Compatible with Alexa. 4 Pack", "url": "https://www.amazon.com/dp/B0CQR8TDZV?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "Akamatis Human Presence & Light Sensor Litos v3, mmWave Smart Motion Sensor, 2.4 GHz Wi-Fi, Adjustable Sensitivity, Requires Home Assistant (White, 1 Pack)", "url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "GoveeLife Wireless Smart Motion Sensor, Group Control Multiple Devices", "url": "https://www.amazon.com/dp/B0BZ4215GC?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 7, "name": "WiFi Smart Motion Sensor: Wireless PIR Motion Detector for Home Security, Infrared Motion Sensor with App Notification Alert, Support Voice Command Via Alexa (1-Pack)", "url": "https://www.amazon.com/dp/B0DDBR4Z9V?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 8, "name": "Smart PIR Motion Sensor: WiFi Motion Detector with App Notification Alerts, Wireless Contact Sensor for Home Security and Smart Home Automation, No Hub Required, Compatible with Alexa(2-Pack)", "url": "https://www.amazon.com/dp/B0CPXYJK2F?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "PIR motion or mmWave presence?", "acceptedAnswer": {"@type": "Answer", "text": "PIR sensors detect movement and are cheap with long battery life, but they think a room is empty when you sit still. mmWave presence sensors detect a person sitting still, so lights stay on while you read, but many need wired power."}}, {"@type": "Question", "name": "How long do the batteries last?", "acceptedAnswer": {"@type": "Answer", "text": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."}}, {"@type": "Question", "name": "Where should I put a motion sensor?", "acceptedAnswer": {"@type": "Answer", "text": "In a corner about 6 to 8 feet up, facing across the room rather than straight at the doorway. Keep PIR sensors away from heat vents and direct sun, which cause false triggers."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -378,6 +383,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

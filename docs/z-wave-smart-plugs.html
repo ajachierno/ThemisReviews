@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The 10 Best Z-Wave Smart Plugs", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Zooz 800 Series Z-Wave Long Range Smart Plug ZEN04 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat", "url": "https://www.amazon.com/dp/B0BHL9MBRZ?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Zooz 800 Series Z-Wave Long Range Outdoor Double Plug ZEN14 | Hub Required | Works with The Z-Box Hub, Home Assistant, and Hubitat", "url": "https://www.amazon.com/dp/B0BHC73DLB?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "Leviton Decora Smart Plug, Z-Wave, DZPA1-2BW, White", "url": "https://www.amazon.com/dp/B01NAO4B9Z?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "Minoston Zwave Outlet Mini, Compact Size, 800 Series Z-Wave Long Range, ETL", "url": "https://www.amazon.com/dp/B0CGHR5NV1?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "Minoston 800 Series Zwave Dual Outlet Plug, On/Off Z-Wave Repeater Switch with 2 Individual Control Sockets, Hub Required, Z Wave LR Smart Plugs Compatible with SmartThings, Hubitat, Fibaro (MP26Z)", "url": "https://www.amazon.com/dp/B0CRL5F1QY?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "Zooz 800 Series Z-Wave Long Range Outdoor Single Plug ZEN05 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat", "url": "https://www.amazon.com/dp/B0BHF6MPNK?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 7, "name": "Ezlo Z-Wave Smart Plug with Energy Monitoring, Outlet, Long Range | Z-Wave Hub Required", "url": "https://www.amazon.com/dp/B0GXW9HZRK?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 8, "name": "Minoston Smart Plug, 15A Mini Z-Wave 800 Series Plug-in Socket with Built-in Repeater and Range Extender, Z-Wave Hub Required, Compatible with SmartThings, Wink, FCC and ETL Listed, MP21Z", "url": "https://www.amazon.com/dp/B0CQX4JFV2?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 9, "name": "NEO Z-Wave Plus Smart Mini Plug, Compact Z-Wave Outlet for Home Automation, Works with Smartthings, Basic On/Off Function, 500 S2", "url": "https://www.amazon.com/dp/B0BWY63YVX?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 10, "name": "Minoston Zwave Plug Energy Monitor, 800 Series Zwave Outlet, Built-in Repeater Range Extender, Z-Wave Hub Required, Alexa and Google Assistant Compatible (MP21ZP)", "url": "https://www.amazon.com/dp/B0CKWX2S5B?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What can I plug into a smart plug?", "acceptedAnswer": {"@type": "Answer", "text": "Lamps, fans, coffee makers, holiday lights, and anything else that turns on with a physical switch left in the on position. Check the plug's amp rating (most are 15 A) before plugging in anything that draws a lot of power."}}, {"@type": "Question", "name": "Is energy monitoring worth paying for?", "acceptedAnswer": {"@type": "Answer", "text": "If you want to know what a fridge, dehumidifier, or entertainment center costs to run, yes. Energy-monitoring plugs also let you trigger automations, like an alert when the washer finishes."}}, {"@type": "Question", "name": "Will a smart plug block the second outlet?", "acceptedAnswer": {"@type": "Answer", "text": "Bulky plugs often cover the other socket. Mini designs leave it free, so check the shape before you buy several."}}, {"@type": "Question", "name": "Are smart plugs safe for heaters and air conditioners?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the plug's rating covers the appliance's draw and the maker allows it. Many plugs are rated 15 A, but heaters run near that limit for hours. Check the appliance's manual; some say not to use any timer or smart plug."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -426,6 +431,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>

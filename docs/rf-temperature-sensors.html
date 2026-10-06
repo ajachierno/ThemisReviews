@@ -20,13 +20,18 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "The Best 433 MHz Wireless Temperature Sensors", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor", "url": "https://www.amazon.com/dp/B06XKH666P?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 2, "name": "Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range", "url": "https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 3, "name": "TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors", "url": "https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 4, "name": "AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)", "url": "https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 5, "name": "TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor", "url": "https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1"}, {"@type": "ListItem", "position": 6, "name": "Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer", "url": "https://www.amazon.com/dp/B0BMTNC9DR?tag=themisreviews-20&linkCode=ll1"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can a 433 MHz sensor work with a smart home?", "acceptedAnswer": {"@type": "Answer", "text": "Not on its own. These sensors talk to their own display. With a cheap USB SDR receiver and the rtl_433 software, Home Assistant can read many AcuRite, La Crosse, and Ambient Weather sensors, but that's a do-it-yourself project, not a supported feature."}}, {"@type": "Question", "name": "Will a replacement sensor work with my display?", "acceptedAnswer": {"@type": "Answer", "text": "Only if the listing names your display's model. 433 MHz sensors use brand-specific formats, so an AcuRite sensor won't pair with a La Crosse display."}}, {"@type": "Question", "name": "Where should an outdoor sensor go?", "acceptedAnswer": {"@type": "Answer", "text": "In the shade, out of direct sun and rain, and a few feet off the ground. A sensor in the sun can read 10°F or more too high."}}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=479af8b1">
+<link rel="stylesheet" href="assets/styles.css?v=94f75dec">
 </head>
 <body>
 <header class="site">
   <a class="logo" href="./"><img src="assets/favicon.png" width="48" height="48" alt="">
     <span>ThemisReviews</span></a>
   <span class="slogan">Smart home tech, weighed fairly.</span>
+  <form class="site-search" action="search.html" role="search" autocomplete="off">
+    <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
+      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+    <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
+  </form>
 </header>
 
 <main>
@@ -311,6 +316,7 @@
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>
 </body>
