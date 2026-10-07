@@ -43,7 +43,7 @@ BOARDS = {
     "lighting": "Smart Lighting: Switches, Dimmers & Bulbs",
     "security": "Smart Home Security: Locks, Cameras & Sensors",
     "climate": "Smart Home Climate & Safety",
-    "hubs": "Smart Home Hubs & DIY (Home Assistant, Zigbee, Z-Wave)",
+    "hubs": "Smart Home Hubs: Home Assistant, Zigbee, Z-Wave",  # Pinterest caps names at 50
     "general": "Smart Home Ideas & Gadgets",
     "guides": "Smart Home Tips: Zigbee vs Z-Wave vs Matter",
 }
