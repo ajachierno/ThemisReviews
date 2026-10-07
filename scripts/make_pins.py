@@ -390,7 +390,10 @@ def main():
     def save(pid, board, payload, when):
         img, title, desc, path, kw = payload
         img.quantize(256, dither=Image.Dither.NONE).save(OUT / f"{pid}.png", optimize=True)
-        link = f"{base}/{path}" if not path.startswith("#") else f"{base}/{path}"
+        # Pinterest rejects two pins with the same link, so every pin gets its own utm_content
+        # (gift guide parts all point at one page). The query goes before any #fragment.
+        page_path, _, frag = path.partition("#")
+        link = f"{base}/{page_path}?utm_source=pinterest&utm_medium=social&utm_content={pid}" + (f"#{frag}" if frag else "")
         rows.append({"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
                      "Thumbnail": "", "Description": desc[:499], "Link": link,
                      "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)})
