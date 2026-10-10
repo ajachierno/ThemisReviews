@@ -1,0 +1,185 @@
+{
+  "feature_weights": {
+    "readings": 0.35,
+    "usb": 0.25,
+    "lr": 0.2,
+    "repeater": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "senses",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "senses",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08XHZP7NV",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Six readings in one 1.8-inch sensor, on batteries or USB."
+    },
+    {
+      "asin": "B09GDL6BGY",
+      "label": "Best for Home Assistant",
+      "kind": "special",
+      "why": "An 800 Series Long Range 4-in-1 that names Home Assistant and Hubitat."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08XHZP7NV",
+      "brand": "Aeotec",
+      "model": "MultiSensor 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "senses": "Motion, temperature, humidity, light, UV, vibration",
+        "power": "Batteries (included) or USB",
+        "series": "700 Series"
+      },
+      "features": {
+        "readings": true,
+        "usb": true,
+        "lr": false,
+        "repeater": false
+      },
+      "verdict": "The most readings in one Z-Wave sensor, and small enough for a ceiling light fitting.",
+      "pros": [
+        "6 sensors in one",
+        "Battery or USB power",
+        "1.8 inches"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$69.99",
+        "700 Series, no Long Range"
+      ]
+    },
+    {
+      "asin": "B09GDL6BGY",
+      "brand": "Zooz",
+      "model": "ZSE11 Q Sensor 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "senses": "Motion, temperature, humidity, light",
+        "power": "Batteries (included) or micro USB",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "readings": true,
+        "usb": true,
+        "lr": true,
+        "repeater": false
+      },
+      "verdict": "A Long Range 4-in-1 with an adjustable bracket.",
+      "pros": [
+        "800 Series Long Range",
+        "Battery or USB",
+        "Adjustable mount"
+      ],
+      "cons": [
+        "3.6 stars",
+        "Some basic hubs don't show all readings",
+        "$46.95"
+      ]
+    },
+    {
+      "asin": "B0D47WR1S2",
+      "brand": "Aeotec",
+      "model": "TriSensor 8",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "senses": "Motion, temperature, light",
+        "power": "CR123A battery, about 1 year",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "readings": false,
+        "usb": false,
+        "lr": true,
+        "repeater": false
+      },
+      "verdict": "A cheaper 3-in-1 with Long Range for far corners of the house.",
+      "pros": [
+        "800 Series Long Range",
+        "$39.99",
+        "Adjustable sensitivity"
+      ],
+      "cons": [
+        "No humidity",
+        "3.6 stars from 38 reviews",
+        "Only 15 left at capture time"
+      ]
+    },
+    {
+      "asin": "B00Q59PBZE",
+      "brand": "HomeSeer",
+      "model": "HSM200",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "senses": "Motion, temperature, light, RGB LED indicator",
+        "power": "Plugs into an outlet",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "readings": false,
+        "usb": true,
+        "lr": false,
+        "repeater": true
+      },
+      "verdict": "A plug-in sensor that never needs batteries and repeats your mesh.",
+      "pros": [
+        "No batteries",
+        "Acts as a repeater",
+        "Programmable color LED"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Takes up an outlet",
+        "No humidity"
+      ]
+    }
+  ],
+  "avoid": []
+}

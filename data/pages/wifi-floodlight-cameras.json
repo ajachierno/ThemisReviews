@@ -1,0 +1,472 @@
+{
+  "slug": "wifi-floodlight-cameras",
+  "family": "floodlight-cameras",
+  "family_title": "Floodlight cameras",
+  "noun": "camera",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Floodlight Cameras",
+  "subtitle": "Wi-Fi security cameras with built-in floodlights for driveways and backyards, ranked.",
+  "intro": "We pulled the floodlight cameras on Amazon and scored them on rating, review volume, and features: video resolution, light brightness, local storage, and whether recordings need a subscription.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "free_recording": 0.35,
+    "bright": 0.25,
+    "high_res": 0.25,
+    "wide": 0.15
+  },
+  "systems_note": "Ring, Blink, Reolink, and Tapo cameras have official Home Assistant integrations.",
+  "spec_fields": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "light",
+      "label": "Floodlight"
+    },
+    {
+      "key": "storage",
+      "label": "Recording"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "storage",
+      "label": "Recording"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B08F6GPQQ7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Rated 4.7 stars by 44,289 buyers, with 2,000-lumen lights; recordings need Ring Protect."
+    },
+    {
+      "asin": "B0C9W1K5Y8",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "2K video, 2,800 lumens, and free 24/7 microSD recording for $79.99."
+    },
+    {
+      "asin": "B0GHR3WVT1",
+      "label": "Best 4K",
+      "kind": "premium",
+      "why": "4K panoramic 180° view, 3,000 lumens, and local recording with no monthly fees."
+    },
+    {
+      "asin": "B0FQ1ZGF98",
+      "label": "Best Wire-Free",
+      "kind": "special",
+      "why": "A solar pan-tilt floodlight camera with subscription-free AI detection."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08F6GPQQ7",
+      "brand": "Ring",
+      "model": "Floodlight Cam Wired Plus",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "systems_label": "Ring app",
+      "specs": {
+        "video": "1080p HD",
+        "light": "2,000 lumens",
+        "storage": "Cloud (Ring subscription)",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": false,
+        "bright": false,
+        "high_res": false,
+        "wide": false
+      },
+      "verdict": "The most-reviewed floodlight camera, deeply tied into Alexa.",
+      "pros": [
+        "4.7 stars from 44,289 reviews",
+        "10K+ bought in the past month",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Recordings need a Ring subscription",
+        "1080p",
+        "Alexa only for voice"
+      ],
+      "name": "Ring Floodlight Cam Wired Plus, Outdoor Home or Business Security with Motion-Activated 1080p HD Video and Floodlights, White",
+      "image": "https://m.media-amazon.com/images/I/71LwFGZsH5L._SL1500_.jpg",
+      "price": 179.99,
+      "rating": 4.7,
+      "reviews_count": 44289,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0B5VLCL1N",
+      "brand": "Blink",
+      "model": "Wired Floodlight Camera",
+      "systems": [
+        "alexa",
+        "home-assistant"
+      ],
+      "systems_label": "Blink app",
+      "specs": {
+        "video": "HD",
+        "light": "2,600 lumens",
+        "storage": "Cloud subscription or Sync Module + USB/microSD (sold separately)",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": false,
+        "bright": true,
+        "high_res": false,
+        "wide": false
+      },
+      "verdict": "A $99.99 floodlight camera with a siren, best for Blink and Alexa homes.",
+      "pros": [
+        "2,600 lumens",
+        "Built-in siren",
+        "13,868 reviews"
+      ],
+      "cons": [
+        "Recording needs a subscription or a Sync Module",
+        "HD, not 2K",
+        "4.2 stars"
+      ],
+      "name": "Blink Wired Floodlight Camera, Smart security camera, 2600 lumens, HD live view, enhanced motion detection, built-in siren, Works with Alexa, 1 camera (White)",
+      "image": "https://m.media-amazon.com/images/I/61ouC9Uf57L._SL1000_.jpg",
+      "price": 99.99,
+      "rating": 4.2,
+      "reviews_count": 13868,
+      "bought": "10K+ bought in past month"
+    },
+    {
+      "asin": "B0C9W1K5Y8",
+      "brand": "Wyze",
+      "model": "Floodlight Camera v2",
+      "systems": [],
+      "systems_label": "Wyze app",
+      "specs": {
+        "video": "2K",
+        "light": "2,800 lumens",
+        "storage": "24/7 microSD, up to 30 days",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": true,
+        "bright": true,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "Bright, sharp, and records around the clock to a microSD card for free.",
+      "pros": [
+        "$79.99",
+        "2,800 lumens",
+        "Continuous local recording"
+      ],
+      "cons": [
+        "Sold by a reseller",
+        "Stock status wasn't shown",
+        "4.2 stars"
+      ],
+      "name": "WYZE Floodlight Camera v2, 2K HD Outdoor Security Camera with 2800 Lumens",
+      "image": "https://m.media-amazon.com/images/I/61R6KX2zN9L._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.2,
+      "reviews_count": 3010,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0B9TTCVS8",
+      "brand": "Wyze",
+      "model": "Floodlight Camera Pro",
+      "systems": [],
+      "systems_label": "Wyze app",
+      "specs": {
+        "video": "2.5K",
+        "light": "3,000 lumens, 3 adjustable panels",
+        "storage": "24/7 microSD, up to 30 days",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": true,
+        "bright": true,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "Wyze's Pro adds 2.5K video and three aimable light panels.",
+      "pros": [
+        "2.5K",
+        "3,000 lumens",
+        "Free local recording"
+      ],
+      "cons": [
+        "$112.88",
+        "4.2 stars",
+        "Wyze app only"
+      ],
+      "name": "WYZE Floodlight Camera Pro, 2.5K HD Outdoor Security Camera 3000-Lumen LEDs",
+      "image": "https://m.media-amazon.com/images/I/618j5lK4MJL._AC_SL1500_.jpg",
+      "price": 112.88,
+      "rating": 4.2,
+      "reviews_count": 1936,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DDTRM7DJ",
+      "brand": "eufy",
+      "model": "Floodlight Camera E30",
+      "systems": [],
+      "systems_label": "eufy app",
+      "specs": {
+        "video": "2K, AI tracking",
+        "light": "2,000 lumens",
+        "storage": "Not stated in bullets",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": false,
+        "bright": false,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "2K with AI detection and tracking from eufy.",
+      "pros": [
+        "4.4 stars",
+        "1K+ bought in the past month",
+        "AI tracking"
+      ],
+      "cons": [
+        "Storage terms aren't in the bullets",
+        "$119.99",
+        "2,000 lumens"
+      ],
+      "name": "eufy Security Floodlight Camera E30, 2K, AI Detection & Tracking, Outdoor",
+      "image": "https://m.media-amazon.com/images/I/41+mUA8GoAL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.4,
+      "reviews_count": 1006,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GHR3WVT1",
+      "brand": "Reolink",
+      "model": "Elite Floodlight Wi-Fi 4K",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Reolink app",
+      "specs": {
+        "video": "4K 8MP, 180° panoramic",
+        "light": "3,000 lumens, dimmable",
+        "storage": "microSD up to 512 GB, NVR, or Home Hub; no fees",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": true,
+        "bright": true,
+        "high_res": true,
+        "wide": true
+      },
+      "verdict": "The most capable here: 4K across 180 degrees and no monthly fees.",
+      "pros": [
+        "4K panoramic",
+        "No subscription for AI or recording",
+        "Wi-Fi 6"
+      ],
+      "cons": [
+        "$289.99",
+        "4.0 stars",
+        "microSD sold separately"
+      ],
+      "name": "REOLINK Elite Floodlight WiFi 4K 8MP 180° Panoramic Wired Floodlight Camera",
+      "image": "https://m.media-amazon.com/images/I/51hbltTOf8L._AC_SL1500_.jpg",
+      "price": 289.99,
+      "rating": 4.0,
+      "reviews_count": 504,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0D2KGVQGP",
+      "brand": "Tapo",
+      "model": "C720 2K+ Wired Floodlight Camera",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "video": "2K+",
+        "light": "2,800 lumens",
+        "storage": "Not stated in bullets",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": false,
+        "bright": true,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "A bright 2K+ floodlight camera from Tapo, sold by Amazon.",
+      "pros": [
+        "2,800 lumens",
+        "4.4 stars",
+        "Home Assistant integration"
+      ],
+      "cons": [
+        "Only 441 reviews",
+        "Storage terms aren't in the bullets",
+        "$119.99"
+      ],
+      "name": "Tapo 2K+ Outdoor Wired Floodlight Security Camera, C720, 2800LM",
+      "image": "https://m.media-amazon.com/images/I/61TIOD8jRCL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.4,
+      "reviews_count": 441,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FQ1ZGF98",
+      "brand": "Tapo",
+      "model": "C615F Kit (solar pan-tilt floodlight)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "video": "2K, 360° pan-tilt",
+        "light": "800 lumens",
+        "storage": "microSD, or HDD via H500 hub",
+        "power": "Solar battery"
+      },
+      "features": {
+        "free_recording": true,
+        "bright": false,
+        "high_res": true,
+        "wide": true
+      },
+      "verdict": "No wiring at all: a solar pan-tilt camera with a modest floodlight.",
+      "pros": [
+        "Solar powered",
+        "360° pan-tilt",
+        "Subscription-free AI detection"
+      ],
+      "cons": [
+        "800 lumens",
+        "$99.99",
+        "Only 606 reviews"
+      ],
+      "name": "Tapo 2K Outdoor Pan/Tilt Wireless Floodlight Security Camera, C615F KIT",
+      "image": "https://m.media-amazon.com/images/I/610kzLYAr4L._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 606,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DB6LX5SW",
+      "brand": "Arlo",
+      "model": "Wired Floodlight 2K HDR",
+      "systems": [],
+      "systems_label": "Arlo app",
+      "specs": {
+        "video": "2K HDR, auto zoom",
+        "light": "2,000 lumens, articulating",
+        "storage": "Cloud (paid after trial)",
+        "power": "Hardwired"
+      },
+      "features": {
+        "free_recording": false,
+        "bright": false,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "2K HDR with aimable lights; live view is free but recordings need an Arlo plan.",
+      "pros": [
+        "2K HDR",
+        "Articulating lights",
+        "$75.99"
+      ],
+      "cons": [
+        "Recordings need a subscription after the trial",
+        "4.3 stars",
+        "Only 417 reviews"
+      ],
+      "name": "Arlo Wired Floodlight Security Camera 2K HDR - 1-Cam",
+      "image": "https://m.media-amazon.com/images/I/51292OsJT-L._AC_SL1500_.jpg",
+      "price": 75.99,
+      "rating": 4.3,
+      "reviews_count": 417,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GVSSP9JC",
+      "brand": "Reolink",
+      "model": "Solar Floodlight Camera",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Reolink app",
+      "specs": {
+        "video": "2K 4MP",
+        "light": "Up to 1,000 lumens",
+        "storage": "microSD up to 512 GB or Home Hub; no fees",
+        "power": "Solar battery"
+      },
+      "features": {
+        "free_recording": true,
+        "bright": false,
+        "high_res": true,
+        "wide": false
+      },
+      "verdict": "A wire-free solar floodlight camera with a 110 dB siren and free local storage.",
+      "pros": [
+        "Solar powered",
+        "110 dB siren",
+        "No monthly fees"
+      ],
+      "cons": [
+        "1,000 lumens",
+        "$229.99",
+        "4.1 stars"
+      ],
+      "name": "REOLINK Solar Floodlight Security Cameras Wireless Outdoor, Up to 1000lm",
+      "image": "https://m.media-amazon.com/images/I/51p5SYgEsAL._AC_SL1500_.jpg",
+      "price": 229.99,
+      "rating": 4.1,
+      "reviews_count": 408,
+      "bought": "500+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Floodlight camera or regular outdoor camera?",
+      "a": "A floodlight camera adds bright motion-activated lights, which light up a driveway or backyard and give color night video. It usually replaces an existing outdoor light fixture, so it's hardwired."
+    },
+    {
+      "q": "Do floodlight cameras need wiring?",
+      "a": "Most mount on a junction box in place of an existing light. Some plug into an outdoor outlet, and a few run on batteries and solar panels, with dimmer lights."
+    },
+    {
+      "q": "Do I need a subscription?",
+      "a": "It depends on the brand. Ring and Arlo keep recorded video behind a plan; eufy, Reolink, and some others record to local storage for free. Each listing's fee notes are in its pros and cons."
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "feature_weights": {
+    "free_id": 0.35,
+    "uhd": 0.25,
+    "solar": 0.2,
+    "local": 0.2
+  },
+  "systems_note": "Bird feeder cameras run in their makers' apps; none of these listings name Alexa, Google, or Apple Home.",
+  "spec_fields": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "id",
+      "label": "Bird ID"
+    },
+    {
+      "key": "storage",
+      "label": "Storage"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "video",
+      "label": "Video"
+    },
+    {
+      "key": "id",
+      "label": "Bird ID"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FHWJF8Q7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Lifetime free AI bird ID, free 30-day cloud clips, and a built-in solar panel."
+    },
+    {
+      "asin": "B0CYH237TV",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A solar camera feeder for $46.99 with 1,362 reviews."
+    },
+    {
+      "asin": "B0G1S7CZG7",
+      "label": "Best 4K",
+      "kind": "premium",
+      "why": "4K video and lifetime AI identification with no subscription."
+    },
+    {
+      "asin": "B0DHY6B9GY",
+      "label": "Best Known Brand",
+      "kind": "special",
+      "why": "The Bird Buddy Pro, with a larger sensor and HDR; AI features need its Premium plan."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FHWJF8Q7",
+      "brand": "Birdfy",
+      "model": "Smart Bird Feeder (60 fps slow motion)",
+      "systems": [],
+      "systems_label": "Birdfy app",
+      "specs": {
+        "video": "60 fps slow motion, color night vision",
+        "power": "5200 mAh + built-in solar",
+        "id": "Lifetime free AI ID",
+        "storage": "Free cloud, 30-day retention"
+      },
+      "features": {
+        "free_id": true,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "The best all-rounder: free bird identification for life and free cloud clips.",
+      "pros": [
+        "Lifetime free AI identification",
+        "Free 30-day cloud video",
+        "Solar panel built into the roof"
+      ],
+      "cons": [
+        "Only 130 reviews",
+        "$132.57",
+        "2.4 GHz Wi-Fi"
+      ]
+    },
+    {
+      "asin": "B0GYRNKYRT",
+      "brand": "Birdfy",
+      "model": "Hanging Smart Bird Feeder",
+      "systems": [],
+      "systems_label": "Birdfy app",
+      "specs": {
+        "video": "Not stated in bullets",
+        "power": "5200 mAh + 3 W solar",
+        "id": "AI species ID",
+        "storage": "Not stated in bullets"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "Birdfy's hanging model with a high-efficiency solar panel.",
+      "pros": [
+        "Hangs from a branch or hook",
+        "3 W solar panel",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 61 reviews",
+        "ID plan terms aren't in the bullets",
+        "$142.49"
+      ]
+    },
+    {
+      "asin": "B0B56BVWBM",
+      "brand": "NETVUE Birdfy",
+      "model": "Smart Bird Feeder 2K (beginner)",
+      "systems": [],
+      "systems_label": "Birdfy app",
+      "specs": {
+        "video": "2K, 155° view",
+        "power": "Battery",
+        "id": "NETVUE AI",
+        "storage": "Clips in the app"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": false,
+        "local": false
+      },
+      "verdict": "The original Birdfy, with a wide 155-degree view and a 50 oz seed hopper.",
+      "pros": [
+        "1,458 reviews",
+        "155° wide view",
+        "Holds 50 oz of seed"
+      ],
+      "cons": [
+        "No solar panel listed",
+        "$109.99",
+        "2K"
+      ]
+    },
+    {
+      "asin": "B0G1S7CZG7",
+      "brand": "Kiwibit",
+      "model": "Solar Smart Bird Feeder 4K (no subscription)",
+      "systems": [],
+      "systems_label": "Kiwibit app",
+      "specs": {
+        "video": "4K, 8MP photos, HDR",
+        "power": "5200 mAh + dual solar",
+        "id": "Lifetime AI, no subscription",
+        "storage": "Not stated in bullets"
+      },
+      "features": {
+        "free_id": true,
+        "uhd": true,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "4K video and lifetime bird ID with one purchase.",
+      "pros": [
+        "4K and 8MP photos",
+        "Lifetime AI included",
+        "Dual solar panels"
+      ],
+      "cons": [
+        "$239.99",
+        "Only 349 reviews",
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B0DZHNDJQM",
+      "brand": "Kiwibit",
+      "model": "Bird Feeder Camera 4K (external solar)",
+      "systems": [],
+      "systems_label": "Kiwibit app",
+      "specs": {
+        "video": "4K HDR, 132° view",
+        "power": "5200 mAh + 3 W external solar",
+        "id": "30-day free trial, then paid",
+        "storage": "microSD up to 512 GB or 1-day cloud"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": true,
+        "solar": true,
+        "local": true
+      },
+      "verdict": "4K with a separate solar panel you can aim at the sun; AI ID is a trial.",
+      "pros": [
+        "4K HDR",
+        "microSD up to 512 GB",
+        "IP65"
+      ],
+      "cons": [
+        "AI ID is a 30-day trial",
+        "$189.99",
+        "Only 521 reviews"
+      ]
+    },
+    {
+      "asin": "B0DHY6B9GY",
+      "brand": "Birdbuddy",
+      "model": "Pro Solar",
+      "systems": [],
+      "systems_label": "Birdbuddy app",
+      "specs": {
+        "video": "2K, 5MP photos, HDR",
+        "power": "Battery + solar",
+        "id": "Premium subscription required",
+        "storage": "Not stated in bullets"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "The best-known smart feeder, with a bigger sensor; its AI app features need Premium.",
+      "pros": [
+        "2x larger sensor with HDR",
+        "Detects signs of illness",
+        "1,203 reviews"
+      ],
+      "cons": [
+        "AI features need a Premium subscription",
+        "$239.99",
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B0C4Y6D5BD",
+      "brand": "HARYMOR",
+      "model": "Smart Bird Feeder (2 L, dual solar)",
+      "systems": [],
+      "systems_label": "HARYMOR app",
+      "specs": {
+        "video": "2K, 120°",
+        "power": "Battery + built-in and external solar",
+        "id": "Subscription for details",
+        "storage": "Not stated in bullets"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "A big 2-liter hopper with two solar panels.",
+      "pros": [
+        "2 L seed capacity",
+        "Two solar panels",
+        "1,940 reviews"
+      ],
+      "cons": [
+        "Detailed AI needs a subscription",
+        "$99.99",
+        "2K"
+      ]
+    },
+    {
+      "asin": "B0DYDGBGQT",
+      "brand": "HARYMOR",
+      "model": "Bird Feeder Camera (2K, 3x zoom)",
+      "systems": [],
+      "systems_label": "HARYMOR app",
+      "specs": {
+        "video": "2K, 3x zoom",
+        "power": "Built-in solar",
+        "id": "AI species ID",
+        "storage": "Flexible (cloud or card)"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": true
+      },
+      "verdict": "A 2K feeder with zoom and a high-gain Wi-Fi antenna.",
+      "pros": [
+        "3x zoom",
+        "High-gain antenna",
+        "$69.98"
+      ],
+      "cons": [
+        "Only 552 reviews",
+        "ID plan terms aren't in the bullets",
+        "2K"
+      ]
+    },
+    {
+      "asin": "B0CYH237TV",
+      "brand": "Fazoxo",
+      "model": "Bird Feeder with Camera (solar)",
+      "systems": [],
+      "systems_label": "Fazoxo app",
+      "specs": {
+        "video": "Not stated in bullets",
+        "power": "5200 mAh + solar",
+        "id": "1-month trial, then paid",
+        "storage": "Cloud, 1-month trial"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "The cheapest well-reviewed camera feeder; AI ID and cloud become paid after a month.",
+      "pros": [
+        "$46.99",
+        "1,362 reviews",
+        "Solar charging"
+      ],
+      "cons": [
+        "AI and cloud need a plan after the trial",
+        "2.4 GHz only",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0D7BKBKFH",
+      "brand": "Onlyfly",
+      "model": "Smart Bird Feeder 2K (with nectar feeders)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "video": "2K",
+        "power": "Dual 4 W solar",
+        "id": "30-day trial for advanced AI",
+        "storage": "Not stated in bullets"
+      },
+      "features": {
+        "free_id": false,
+        "uhd": false,
+        "solar": true,
+        "local": false
+      },
+      "verdict": "Comes with nectar, fruit, and jelly add-ons to attract hummingbirds too.",
+      "pros": [
+        "Nectar and fruit feeders included",
+        "Up to 180 days per charge with solar",
+        "Live view works without a plan"
+      ],
+      "cons": [
+        "Advanced AI needs a subscription",
+        "$159.99",
+        "4.3 stars"
+      ]
+    }
+  ],
+  "avoid": []
+}

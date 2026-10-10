@@ -1,0 +1,62 @@
+Traceback (most recent call last):
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 106, in <module>
+    asyncio.run(run(sys.argv[1], sys.argv[2], sys.argv[3:]))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\ajach\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\ajach\OneDrive\Desktop\CC\outputs\themis-reviews\research\amz.py", line 68, in run
+    await warm.wait_for_timeout(2500)
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\async_api\_generated.py", line 12621, in wait_for_timeout
+    await self._impl_obj.wait_for_timeout(timeout=to_milliseconds(timeout))
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_page.py", line 1142, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_frame.py", line 924, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ajach\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+search 'smart permanent outdoor lights\r' page 1: 60 results
+search 'smart outdoor string lights wifi\r' page 1: 60 results
+search 'floodlight camera wifi\r' page 1: 22 results
+search 'outdoor smart plug wifi\r' page 1: 60 results
+search 'matter outdoor smart plug\r' page 1: 60 results
+search 'smart power strip wifi\r' page 1: 22 results
+search 'smart humidifier wifi app\r' page 1: 60 results
+search 'smart dehumidifier wifi app\r' page 1: 60 results
+search 'smart space heater wifi\r' page 1: 60 results
+search 'smart ceiling fan wifi alexa\r' page 1: 60 results
+search 'wifi weather station\r' page 1: 60 results
+search 'smart bird feeder camera\r' page 1: 60 results
+search 'wifi video intercom system\r' page 1: 22 results
+search 'z-wave siren\r' page 1: 20 results
+search 'z-wave multisensor\r' page 1: 22 results
+search 'z-wave range extender\r' page 1: 22 results
+search 'z-wave garage door opener\r' page 1: 60 results
+search 'z-wave water shut off valve\r' page 1: 60 results
+search 'zigbee siren\r' page 1: 22 results
+search 'zigbee vibration sensor\r' page 1: 20 results
+search 'zigbee repeater\r' page 1: 60 results
+search 'zigbee thermostat\r' page 1: 60 results
+search 'matter smart blinds\r' page 1: 60 results
+search 'matter temperature humidity sensor\r' page 1: 60 results
+search 'matter smart button\r' page 1: 60 results
+search 'matter garage door opener\r' page 1: 60 results
+search 'matter sprinkler timer\r' page 1: 60 results
+search 'matter water timer\r' page 1: 60 results
+search 'lutron caseta plug-in lamp dimmer\r' page 1: 60 results
+search 'lutron caseta occupancy sensor\r' page 1: 48 results
+search 'remote control outlet wireless\r' page 1: 60 results
+search 'bluetooth smart padlock' page 1: 60 results

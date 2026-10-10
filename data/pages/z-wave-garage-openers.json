@@ -1,0 +1,231 @@
+{
+  "slug": "z-wave-garage-openers",
+  "family": "garage-openers",
+  "family_title": "Garage door openers",
+  "noun": "opener",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Garage Door Controllers",
+  "subtitle": "Z-Wave controllers that make an existing garage door opener smart, ranked.",
+  "intro": "We pulled the Z-Wave garage door controllers on Amazon and scored them on rating, review volume, and features: a tilt sensor, warning lights and sound, and opener compatibility.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "tilt": 0.3,
+    "warning": 0.25,
+    "lr": 0.2,
+    "multi_door": 0.25
+  },
+  "systems_note": "Zooz relays need a separate tilt or contact sensor to report whether the door is open.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "doors",
+      "label": "Doors"
+    },
+    {
+      "key": "sensor",
+      "label": "Door sensor"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "doors",
+      "label": "Doors"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0846DZJD8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Three dry-contact relays run up to three garage doors from one Long Range module, 4.6 stars."
+    },
+    {
+      "asin": "B0FXYWJ47K",
+      "label": "Best All-in-One",
+      "kind": "special",
+      "why": "A dedicated garage controller with the tilt sensor in the box."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0846DZJD8",
+      "brand": "Zooz",
+      "model": "ZEN16 MultiRelay 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "3-relay module",
+        "doors": "Up to 3",
+        "sensor": "Add a tilt or contact sensor",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "tilt": false,
+        "warning": false,
+        "lr": true,
+        "multi_door": true
+      },
+      "verdict": "The favorite DIY garage controller: one module for up to three doors.",
+      "pros": [
+        "Up to 3 doors",
+        "4.6 stars from 507 reviews",
+        "Long Range"
+      ],
+      "cons": [
+        "Needs a separate door sensor",
+        "Power supply not included",
+        "No built-in warning light or beeper"
+      ],
+      "name": "Zooz Z-Wave Long Range MultiRelay ZEN16 800LR for Garage Doors, Sprinklers, Gas Fireplace; 3 Dry Contact Relays (15A, 15A, 20A); 12-24 V AC/DC or USB C Power; Signal Repeater; Hub Required",
+      "image": "https://m.media-amazon.com/images/I/41816p6CC9L._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 42.95,
+      "rating": 4.6,
+      "reviews_count": 507,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B096LLL1C6",
+      "brand": "Zooz",
+      "model": "ZEN17 Relay 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "2-relay module with 2 inputs",
+        "doors": "Up to 2",
+        "sensor": "Wire a sensor to its inputs",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "tilt": false,
+        "warning": false,
+        "lr": true,
+        "multi_door": true
+      },
+      "verdict": "Two relays plus two sensor inputs, so it can report the door state too.",
+      "pros": [
+        "Built-in sensor inputs",
+        "Up to 2 doors",
+        "USB-C cable included"
+      ],
+      "cons": [
+        "Needs a wired sensor",
+        "No warning beeper",
+        "$45.75"
+      ],
+      "name": "Zooz Z-Wave Long Range Relay ZEN17 800LR for Awnings, Garage Doors, Sprinklers, and More | 2 x NO-C-NC Relays (20A, 10A) | Hub Required (Compatible with Z-Box, Home Assistant, and Hubitat)",
+      "image": "https://m.media-amazon.com/images/I/41+O9-xgOAL._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 45.75,
+      "rating": 4.5,
+      "reviews_count": 186,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0FXYWJ47K",
+      "brand": "GoControl",
+      "model": "GD00Z-7 Smart Garage Door Controller",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Dedicated garage controller",
+        "doors": "1",
+        "sensor": "Tilt sensor included",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tilt": true,
+        "warning": true,
+        "lr": false,
+        "multi_door": false
+      },
+      "verdict": "Everything for one door in the box, including the tilt sensor.",
+      "pros": [
+        "Tilt sensor included",
+        "Purpose-built for garage doors",
+        "Installation hardware included"
+      ],
+      "cons": [
+        "Only 1 review on this listing",
+        "Z-Wave Plus, not 800 Series",
+        "$74.99"
+      ],
+      "name": "GoController Smart Garage Door GD00Z-7 | Z-Wave Plus, Black",
+      "image": "https://m.media-amazon.com/images/I/81KSVOprU9L._AC_SL1500_.jpg",
+      "price": 74.99,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B085LKPHK6",
+      "brand": "GoControl",
+      "model": "GD00Z-8-GC (reseller listing)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Listing copy is for a door lock",
+      "verdict": "The title names a Z-Wave garage controller, but the only product detail tells you to measure your door's backset and cross bore, which is how you size a door lock. Buy the GD00Z-7 listing above instead.",
+      "reasons": [
+        "Title: \"GD00Z-8-GC: Z-Wave Plus S2 Security, Black, Small.\"",
+        "Bullet: \"Measure your door's backset, cross bore and thickness to ensure you find the right fit.\"",
+        "Sold by a reseller, with 16 left at capture time."
+      ],
+      "name": "GD00Z-8-GC: Z-Wave Plus S2 Security, Black, Small",
+      "image": "https://m.media-amazon.com/images/I/41-+GTyX4nL._AC_SL1152_.jpg",
+      "price": 84.99,
+      "rating": 4.0,
+      "reviews_count": 266,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will it work with my garage door opener?",
+      "a": "Most controllers wire to the opener's wall-button terminals, which works with almost any opener with a standard push button. Newer openers with encrypted wall buttons may need an adapter; check the listing."
+    },
+    {
+      "q": "Is it safe to close the door remotely?",
+      "a": "Good controllers flash and beep before closing, as UL 325 requires, and use a tilt sensor to confirm the door's position. Never close a door you can't see without that warning."
+    },
+    {
+      "q": "Does it need a hub?",
+      "a": "Z-Wave controllers need a Z-Wave hub. Matter controllers work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "feature_weights": {
+    "tilt": 0.3,
+    "warning": 0.25,
+    "lr": 0.2,
+    "multi_door": 0.25
+  },
+  "systems_note": "Zooz relays need a separate tilt or contact sensor to report whether the door is open.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "doors",
+      "label": "Doors"
+    },
+    {
+      "key": "sensor",
+      "label": "Door sensor"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "doors",
+      "label": "Doors"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0846DZJD8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Three dry-contact relays run up to three garage doors from one Long Range module, 4.6 stars."
+    },
+    {
+      "asin": "B0FXYWJ47K",
+      "label": "Best All-in-One",
+      "kind": "special",
+      "why": "A dedicated garage controller with the tilt sensor in the box."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0846DZJD8",
+      "brand": "Zooz",
+      "model": "ZEN16 MultiRelay 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "3-relay module",
+        "doors": "Up to 3",
+        "sensor": "Add a tilt or contact sensor",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "tilt": false,
+        "warning": false,
+        "lr": true,
+        "multi_door": true
+      },
+      "verdict": "The favorite DIY garage controller: one module for up to three doors.",
+      "pros": [
+        "Up to 3 doors",
+        "4.6 stars from 507 reviews",
+        "Long Range"
+      ],
+      "cons": [
+        "Needs a separate door sensor",
+        "Power supply not included",
+        "No built-in warning light or beeper"
+      ]
+    },
+    {
+      "asin": "B096LLL1C6",
+      "brand": "Zooz",
+      "model": "ZEN17 Relay 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "2-relay module with 2 inputs",
+        "doors": "Up to 2",
+        "sensor": "Wire a sensor to its inputs",
+        "series": "800 Series, Long Range"
+      },
+      "features": {
+        "tilt": false,
+        "warning": false,
+        "lr": true,
+        "multi_door": true
+      },
+      "verdict": "Two relays plus two sensor inputs, so it can report the door state too.",
+      "pros": [
+        "Built-in sensor inputs",
+        "Up to 2 doors",
+        "USB-C cable included"
+      ],
+      "cons": [
+        "Needs a wired sensor",
+        "No warning beeper",
+        "$45.75"
+      ]
+    },
+    {
+      "asin": "B0FXYWJ47K",
+      "brand": "GoControl",
+      "model": "GD00Z-7 Smart Garage Door Controller",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Dedicated garage controller",
+        "doors": "1",
+        "sensor": "Tilt sensor included",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "tilt": true,
+        "warning": true,
+        "lr": false,
+        "multi_door": false
+      },
+      "verdict": "Everything for one door in the box, including the tilt sensor.",
+      "pros": [
+        "Tilt sensor included",
+        "Purpose-built for garage doors",
+        "Installation hardware included"
+      ],
+      "cons": [
+        "Only 1 review on this listing",
+        "Z-Wave Plus, not 800 Series",
+        "$74.99"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B085LKPHK6",
+      "brand": "GoControl",
+      "model": "GD00Z-8-GC (reseller listing)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Listing copy is for a door lock",
+      "verdict": "The title names a Z-Wave garage controller, but the only product detail tells you to measure your door's backset and cross bore, which is how you size a door lock. Buy the GD00Z-7 listing above instead.",
+      "reasons": [
+        "Title: \"GD00Z-8-GC: Z-Wave Plus S2 Security, Black, Small.\"",
+        "Bullet: \"Measure your door's backset, cross bore and thickness to ensure you find the right fit.\"",
+        "Sold by a reseller, with 16 left at capture time."
+      ]
+    }
+  ]
+}

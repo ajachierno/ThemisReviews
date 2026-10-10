@@ -1,0 +1,166 @@
+{
+  "slug": "z-wave-water-valves",
+  "family": "water-valves",
+  "family_title": "Water shutoff valves",
+  "noun": "valve",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Water Shutoff Valves",
+  "subtitle": "Z-Wave valve actuators that shut off your water from your phone or when a leak is found, ranked.",
+  "intro": "We pulled the Z-Wave water shutoff valves on Amazon and scored them on rating, review volume, and features: install without a plumber, pipe sizes, and leak sensors in the box.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "no_plumber": 0.35,
+    "leak_sensor": 0.3,
+    "strong": 0.2,
+    "outdoor": 0.15
+  },
+  "spec_fields": [
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "pipes",
+      "label": "Valve sizes"
+    },
+    {
+      "key": "sensor",
+      "label": "Leak sensor"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "pipes",
+      "label": "Valves"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09G82YM3B",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A strong valve actuator with a leak sensor in the box and no tools needed."
+    },
+    {
+      "asin": "B07DJZCFBH",
+      "label": "Best Rated",
+      "kind": "special",
+      "why": "The Bulldog Valve Robot, rated 4.7 stars by 280 buyers."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09G82YM3B",
+      "brand": "Zooz",
+      "model": "ZAC36 Titan Water Valve Actuator",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "install": "Clamps over your ball valve, no tools",
+        "pipes": "0.5 to 1.25 in. ball valves",
+        "sensor": "Plug-in leak sensor included",
+        "series": "700 Series"
+      },
+      "features": {
+        "no_plumber": true,
+        "leak_sensor": true,
+        "strong": true,
+        "outdoor": true
+      },
+      "verdict": "Shuts your main water off automatically when a leak is found, and installs in minutes.",
+      "pros": [
+        "Leak sensor included",
+        "Powerful motor for stiff valves",
+        "Usable outdoors",
+        "Works with Ring Alarm"
+      ],
+      "cons": [
+        "Needs 3 in. of clearance on each side",
+        "$199.95",
+        "Only 19 left at capture time"
+      ],
+      "name": "Zooz Z-Wave Long Range 700 Series Titan Water Valve Actuator ZAC36 | Compatible with Z-Box, SmartThings, Works with Ring Alarm",
+      "image": "https://m.media-amazon.com/images/I/41A0nD5MRuL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 199.95,
+      "rating": 4.3,
+      "reviews_count": 124,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B07DJZCFBH",
+      "brand": "EcoNet Controls",
+      "model": "Bulldog Valve Robot (EVC200-HCSML)",
+      "systems": [
+        "smartthings",
+        "hubitat",
+        "home-assistant",
+        "homey"
+      ],
+      "specs": {
+        "install": "Mounts over existing valve, no plumbing",
+        "pipes": "Quarter-turn ball valves",
+        "sensor": "Not included",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "no_plumber": true,
+        "leak_sensor": false,
+        "strong": true,
+        "outdoor": false
+      },
+      "verdict": "A well-rated, long-running valve robot for Z-Wave hubs.",
+      "pros": [
+        "4.7 stars",
+        "No plumbing",
+        "Wide hub compatibility"
+      ],
+      "cons": [
+        "No leak sensor in the box",
+        "$215",
+        "Z-Wave Plus, not 800 Series"
+      ],
+      "name": "EVC200-HCSML The Bulldog Valve Robot, Z-Wave Water Valve, Smart Home Controller Required, Easy to Install and No Plumbing Required, Valves up to 1.5\"",
+      "image": "https://m.media-amazon.com/images/I/71Lt3cxOWOL._AC_SL1500_.jpg",
+      "price": 215.0,
+      "rating": 4.7,
+      "reviews_count": 280,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "How does a smart water valve work?",
+      "a": "A motorized actuator turns your main water valve (or replaces it), so you can shut water off from your phone or automatically when a leak sensor gets wet."
+    },
+    {
+      "q": "Do I need a plumber?",
+      "a": "Actuators that clamp onto an existing quarter-turn ball valve install without cutting a pipe. In-line valves need a plumber."
+    },
+    {
+      "q": "Does it need a hub?",
+      "a": "Z-Wave valves need a Z-Wave hub. Pair them with leak sensors on the same hub so a leak closes the valve automatically."
+    }
+  ]
+}

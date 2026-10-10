@@ -1,13 +1,15 @@
-"""Compact review sheet for one batch-9 page: python pagebrief.py <slug> [bullets]"""
+"""Compact review sheet for one batch page: python pagebrief.py <slug> [bullets]"""
 import json
 import re
 import sys
 
-pages = json.load(open("batch9-pages.json", encoding="utf-8"))
-d = json.load(open("prod-all.json", encoding="utf-8"))
 import os
-if os.path.exists("prod-b9b.json"):
-    d.update({k: v for k, v in json.load(open("prod-b9b.json", encoding="utf-8")).items() if v.get("title")})
+from scrape_data import load_scrape
+pages = {}
+for f in ("batch9-pages.json", "batch10-pages.json"):
+    if os.path.exists(f):
+        pages.update(json.load(open(f, encoding="utf-8")))
+d = load_scrape()
 slug = sys.argv[1]
 nb = int(sys.argv[2]) if len(sys.argv) > 2 else 4
 FLAGS = ["alexa", "google", "homekit|apple home|siri", "matter", "home assistant", "smartthings", "hubitat", "zigbee",

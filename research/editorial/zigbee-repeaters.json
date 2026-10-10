@@ -1,0 +1,221 @@
+{
+  "feature_weights": {
+    "dedicated": 0.3,
+    "open_hub": 0.35,
+    "bonus": 0.2,
+    "free_outlet": 0.15
+  },
+  "systems_note": "Any mains-powered Zigbee device repeats the mesh; these are sold partly for that. The LinkTap extender only works with LinkTap's own gateway.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "extra",
+      "label": "Also does"
+    },
+    {
+      "key": "hub",
+      "label": "Works with"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "extra",
+      "label": "Also does"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0BXFBH6JR",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.5 stars."
+    },
+    {
+      "asin": "B0BPY2KRHH",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $12.99 power-monitoring plug that doubles as a repeater."
+    },
+    {
+      "asin": "B0C9LNXYLL",
+      "label": "Best Multi-Use",
+      "kind": "special",
+      "why": "A repeater that's also a motion sensor, light sensor, and color night light."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BXFBH6JR",
+      "brand": "Aeotec",
+      "model": "Range Extender Zi",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Dedicated repeater",
+        "extra": "Leaves the other outlet free",
+        "hub": "SmartThings, Home Assistant, other Zigbee hubs"
+      },
+      "features": {
+        "dedicated": true,
+        "open_hub": true,
+        "bonus": false,
+        "free_outlet": true
+      },
+      "verdict": "The simplest fix for Zigbee dead spots.",
+      "pros": [
+        "Purpose-built repeater",
+        "4.5 stars",
+        "300+ bought in the past month"
+      ],
+      "cons": [
+        "Does nothing else",
+        "$29.49",
+        "Only 178 reviews"
+      ]
+    },
+    {
+      "asin": "B0BPY2KRHH",
+      "brand": "THIRDREALITY",
+      "model": "Zigbee Smart Plug (power monitoring)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Smart plug that repeats",
+        "extra": "Power monitoring, 15 A",
+        "hub": "Any Zigbee 3.0 hub, incl. Echo"
+      },
+      "features": {
+        "dedicated": false,
+        "open_hub": true,
+        "bonus": true,
+        "free_outlet": true
+      },
+      "verdict": "Repeat the mesh and switch a lamp, with energy tracking, for $12.99.",
+      "pros": [
+        "$12.99",
+        "Power monitoring",
+        "Doesn't block the second outlet"
+      ],
+      "cons": [
+        "Only 271 reviews",
+        "4.4 stars",
+        "Not a dedicated repeater"
+      ]
+    },
+    {
+      "asin": "B0G4VZB6NC",
+      "brand": "THIRDREALITY",
+      "model": "Smart Plug Gen3",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Smart plug that repeats",
+        "extra": "±1% power monitoring",
+        "hub": "Any Zigbee 3.0 hub, incl. Echo"
+      },
+      "features": {
+        "dedicated": false,
+        "open_hub": true,
+        "bonus": true,
+        "free_outlet": true
+      },
+      "verdict": "The newer plug, with an enhanced radio for repeating.",
+      "pros": [
+        "Enhanced repeater radio",
+        "±1% power monitoring",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Only 63 reviews",
+        "4.3 stars",
+        "$14.99"
+      ]
+    },
+    {
+      "asin": "B0C9LNXYLL",
+      "brand": "THIRDREALITY",
+      "model": "Multi-Function Night Light",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Night light that repeats",
+        "extra": "Motion sensor, light sensor, RGB light",
+        "hub": "Zigbee hub"
+      },
+      "features": {
+        "dedicated": false,
+        "open_hub": true,
+        "bonus": true,
+        "free_outlet": false
+      },
+      "verdict": "Three devices in one plug: night light, motion sensor, and repeater.",
+      "pros": [
+        "Motion and light sensors",
+        "Adjustable color light",
+        "4.3 stars"
+      ],
+      "cons": [
+        "$29.99",
+        "Only 249 reviews",
+        "Hub required"
+      ]
+    },
+    {
+      "asin": "B0DSC6QCDB",
+      "brand": "LinkTap",
+      "model": "Zigbee Extender",
+      "systems": [],
+      "systems_label": "LinkTap only",
+      "specs": {
+        "type": "Dedicated repeater",
+        "extra": "For LinkTap irrigation",
+        "hub": "LinkTap gateway only"
+      },
+      "features": {
+        "dedicated": true,
+        "open_hub": false,
+        "bonus": false,
+        "free_outlet": false
+      },
+      "verdict": "Only for LinkTap watering systems: it won't work with other Zigbee hubs.",
+      "pros": [
+        "Extends LinkTap range across large gardens",
+        "4.4 stars",
+        "Self-healing mesh"
+      ],
+      "cons": [
+        "Not compatible with third-party Zigbee devices",
+        "$39.99",
+        "Only 62 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

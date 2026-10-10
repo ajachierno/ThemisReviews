@@ -1,0 +1,219 @@
+{
+  "feature_weights": {
+    "dedicated": 0.3,
+    "s800": 0.3,
+    "any_hub": 0.25,
+    "bonus": 0.15
+  },
+  "systems_note": "Every plug-in Z-Wave device repeats the mesh; the plugs here are sold partly as range extenders. The Ring extender only works inside a Ring Alarm system.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    },
+    {
+      "key": "extra",
+      "label": "Also does"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B081G97TLB",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 845 buyers."
+    },
+    {
+      "asin": "B0BHL9MBRZ",
+      "label": "Best Long Range Plug",
+      "kind": "special",
+      "why": "An 800 Series Long Range plug with power monitoring that also repeats your mesh."
+    },
+    {
+      "asin": "B07ZB2VP4K",
+      "label": "Best for Ring Alarm",
+      "kind": "budget",
+      "why": "A $14.99 extender for Ring Alarm systems, 4,194 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B081G97TLB",
+      "brand": "Aeotec",
+      "model": "Range Extender 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Dedicated repeater",
+        "series": "700 Series (Gen7), S2",
+        "extra": "Repeats secure S2 devices such as locks"
+      },
+      "features": {
+        "dedicated": true,
+        "s800": false,
+        "any_hub": true,
+        "bonus": false
+      },
+      "verdict": "The standard fix for a weak spot in a Z-Wave mesh.",
+      "pros": [
+        "Works with any Z-Wave hub",
+        "Repeats S2 security devices",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "700 Series",
+        "Does nothing else",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B0BHL9MBRZ",
+      "brand": "Zooz",
+      "model": "ZEN04 800LR Smart Plug",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Smart plug that repeats",
+        "series": "800 Series, Long Range",
+        "extra": "Power monitoring, 15 A"
+      },
+      "features": {
+        "dedicated": false,
+        "s800": true,
+        "any_hub": true,
+        "bonus": true
+      },
+      "verdict": "A Long Range smart plug that strengthens the mesh while it switches a lamp.",
+      "pros": [
+        "4.8 stars",
+        "Power monitoring",
+        "800 Series Long Range"
+      ],
+      "cons": [
+        "Only 70 reviews",
+        "$35.95",
+        "Not a dimmer"
+      ]
+    },
+    {
+      "asin": "B0CQX4JFV2",
+      "brand": "Minoston",
+      "model": "Mini Z-Wave 800 plug (repeater)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Smart plug that repeats",
+        "series": "800 Series",
+        "extra": "15 A, schedules"
+      },
+      "features": {
+        "dedicated": false,
+        "s800": true,
+        "any_hub": true,
+        "bonus": true
+      },
+      "verdict": "A cheap 800 Series plug sold as a repeater and range extender.",
+      "pros": [
+        "$26.09",
+        "4.5 stars from 507 reviews",
+        "Compact"
+      ],
+      "cons": [
+        "No power monitoring",
+        "Sold by a third party",
+        "Voice control needs your hub's integration"
+      ]
+    },
+    {
+      "asin": "B0CQS4SS9F",
+      "brand": "New One",
+      "model": "Z-Wave 800 smart plug (repeater)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Smart plug that repeats",
+        "series": "800 Series",
+        "extra": "Up to 1,300 ft open-air range"
+      },
+      "features": {
+        "dedicated": false,
+        "s800": true,
+        "any_hub": true,
+        "bonus": true
+      },
+      "verdict": "An 800 Series plug that relays signals up to four hops deep.",
+      "pros": [
+        "4.7 stars",
+        "800 Series",
+        "$26.99"
+      ],
+      "cons": [
+        "Only 32 reviews",
+        "Doesn't work with Echo hubs",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B07ZB2VP4K",
+      "brand": "Ring",
+      "model": "Alarm Range Extender (2nd Gen)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Ring Alarm only",
+      "specs": {
+        "type": "Dedicated repeater",
+        "series": "Z-Wave (Ring Alarm network)",
+        "extra": "Up to 250 ft"
+      },
+      "features": {
+        "dedicated": true,
+        "s800": false,
+        "any_hub": false,
+        "bonus": false
+      },
+      "verdict": "Only for Ring Alarm: it boosts the Ring Base Station's network and nothing else.",
+      "pros": [
+        "$14.99",
+        "4,194 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Requires a Ring Alarm Base Station",
+        "Won't help other Z-Wave hubs",
+        "Stock status wasn't shown"
+      ]
+    }
+  ],
+  "avoid": []
+}

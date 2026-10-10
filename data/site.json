@@ -118,6 +118,36 @@
           "title": "Z-Wave hubs and controllers",
           "family": "hubs",
           "ready": true
+        },
+        {
+          "slug": "z-wave-sirens",
+          "title": "Z-Wave sirens",
+          "family": "sirens",
+          "ready": true
+        },
+        {
+          "slug": "z-wave-multisensors",
+          "title": "Z-Wave multisensors",
+          "family": "multisensors",
+          "ready": true
+        },
+        {
+          "slug": "z-wave-range-extenders",
+          "title": "Z-Wave range extenders",
+          "family": "range-extenders",
+          "ready": true
+        },
+        {
+          "slug": "z-wave-garage-openers",
+          "title": "Z-Wave garage door controllers",
+          "family": "garage-openers",
+          "ready": true
+        },
+        {
+          "slug": "z-wave-water-valves",
+          "title": "Z-Wave water shutoff valves",
+          "family": "water-valves",
+          "ready": true
         }
       ]
     },
@@ -242,6 +272,18 @@
           "slug": "zigbee-coordinators",
           "title": "Zigbee hubs and coordinators",
           "family": "hubs",
+          "ready": true
+        },
+        {
+          "slug": "zigbee-vibration-sensors",
+          "title": "Zigbee vibration sensors",
+          "family": "vibration-sensors",
+          "ready": true
+        },
+        {
+          "slug": "zigbee-repeaters",
+          "title": "Zigbee repeaters",
+          "family": "range-extenders",
           "ready": true
         }
       ]
@@ -505,6 +547,30 @@
           "title": "Robot lawn mowers",
           "family": "robot-mowers",
           "ready": true
+        },
+        {
+          "slug": "wifi-outdoor-lights",
+          "title": "Outdoor smart lights",
+          "family": "outdoor-lights",
+          "ready": true
+        },
+        {
+          "slug": "wifi-bird-feeders",
+          "title": "Smart bird feeders",
+          "family": "bird-feeders",
+          "ready": true
+        },
+        {
+          "slug": "wifi-floodlight-cameras",
+          "title": "Floodlight cameras",
+          "family": "floodlight-cameras",
+          "ready": true
+        },
+        {
+          "slug": "wifi-outdoor-plugs",
+          "title": "Outdoor smart plugs",
+          "family": "outdoor-plugs",
+          "ready": true
         }
       ]
     },
@@ -742,6 +808,12 @@
           "slug": "matter-controllers",
           "title": "Matter hubs and controllers",
           "family": "hubs",
+          "ready": true
+        },
+        {
+          "slug": "matter-outdoor-plugs",
+          "title": "Outdoor smart plugs",
+          "family": "outdoor-plugs",
           "ready": true
         }
       ]

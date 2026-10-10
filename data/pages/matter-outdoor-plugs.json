@@ -1,0 +1,526 @@
+{
+  "slug": "matter-outdoor-plugs",
+  "family": "outdoor-plugs",
+  "family_title": "Outdoor smart plugs",
+  "noun": "plug",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Outdoor Smart Plugs",
+  "subtitle": "Weatherproof plugs that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+  "intro": "We pulled the outdoor smart plugs on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "multi": 0.35,
+    "rated": 0.25,
+    "extra": 0.2,
+    "thread": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "weather",
+      "label": "Weather rating"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "weather",
+      "label": "Weather"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CVN3CNCD",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Two independent outlets, IP65, and Matter for $25.99, 3K+ bought last month."
+    },
+    {
+      "asin": "B07X52W1J8",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "An IP65 Matter outdoor plug for $18.99 with 3,842 reviews."
+    },
+    {
+      "asin": "B0F5M2S8VJ",
+      "label": "Best Dimmer",
+      "kind": "special",
+      "why": "Dims outdoor LED string lights over Matter, IP65 down to -4°F."
+    },
+    {
+      "asin": "B0GV124HC3",
+      "label": "Best for Holiday Lights",
+      "kind": "premium",
+      "why": "A six-outlet Matter yard stake with self-closing covers."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CVN3CNCD",
+      "brand": "Tapo",
+      "model": "P400M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "2, independent",
+        "weather": "IP65",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Long-range Wi-Fi"
+      },
+      "features": {
+        "multi": true,
+        "rated": true,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "The Matter outdoor plug to buy: two outlets, IP65, and low price.",
+      "pros": [
+        "Matter: Apple Home, Google, Alexa, SmartThings",
+        "IP65",
+        "3K+ bought in the past month"
+      ],
+      "cons": [
+        "No energy monitoring",
+        "2.4 GHz Wi-Fi",
+        "4.5 stars"
+      ],
+      "name": "Tapo Matter Outdoor Smart Plug, 2 Individual Outlets, P400M",
+      "image": "https://m.media-amazon.com/images/I/71mwqb5uzXL._AC_SL1500_.jpg",
+      "price": 25.99,
+      "rating": 4.5,
+      "reviews_count": 1091,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0CVMXZMDM",
+      "brand": "Kasa",
+      "model": "EP40M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "2, independent",
+        "weather": "Not stated in bullets",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Per-outlet schedules"
+      },
+      "features": {
+        "multi": true,
+        "rated": false,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "The Matter version of Kasa's best-selling outdoor plug.",
+      "pros": [
+        "4.6 stars",
+        "Matter",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Weather rating isn't in the bullets",
+        "Only 384 reviews",
+        "$29.99"
+      ],
+      "name": "Kasa Matter Smart Outdoor Plug, Dual Outlet, EP40M, No Hub Required",
+      "image": "https://m.media-amazon.com/images/I/71pmNIs-NGL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviews_count": 384,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B07X52W1J8",
+      "brand": "Minoston",
+      "model": "Matter outdoor plug (heavy duty)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "1",
+        "weather": "IP65",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Smart Life or Minoston app too"
+      },
+      "features": {
+        "multi": false,
+        "rated": true,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "A cheap single-outlet Matter plug with thousands of reviews.",
+      "pros": [
+        "$18.99",
+        "3,842 reviews",
+        "IP65"
+      ],
+      "cons": [
+        "One outlet",
+        "Stock status wasn't shown",
+        "4.3 stars"
+      ],
+      "name": "Minoston Matter Outdoor Smart Plug WiFi Heavy Duty Plug-in Outlet IP65 Waterproof, Compatible with Alexa Apple Home SmartThings Google Home, Smart Life, Remote Control, 15Amp Black (MP22M)",
+      "image": "https://m.media-amazon.com/images/I/61T7a5NwSUL._SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.3,
+      "reviews_count": 3842,
+      "bought": null
+    },
+    {
+      "asin": "B0814RVFJC",
+      "brand": "Minoston",
+      "model": "Matter outdoor plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "Not stated in bullets",
+        "weather": "IP65",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Works without a Matter hub in Smart Life"
+      },
+      "features": {
+        "multi": false,
+        "rated": true,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "Minoston's other Matter plug, usable from its own app without any hub.",
+      "pros": [
+        "IP65",
+        "App works without a hub",
+        "4.3 stars"
+      ],
+      "cons": [
+        "$31.48",
+        "Outlet count isn't in the bullets",
+        "Only 762 reviews"
+      ],
+      "name": "Minoston Outdoor Smart Plug, Matter Smart Plug, Smart Home Wi-Fi Outlet IP65 Waterproof, Compatible with Alexa, Apple Home, SmartThings, Google Home, Smart Life, IP65 Waterproof, 2.4Ghz, 2 Pack",
+      "image": "https://m.media-amazon.com/images/I/61tOA6cvrJL._SL1500_.jpg",
+      "price": 31.48,
+      "rating": 4.3,
+      "reviews_count": 762,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0F5M2S8VJ",
+      "brand": "Tapo",
+      "model": "P430M Outdoor Dimmer Plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "1, dimming",
+        "weather": "IP65, -4°F to 122°F",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Dims LED and CFL lights"
+      },
+      "features": {
+        "multi": false,
+        "rated": true,
+        "extra": true,
+        "thread": false
+      },
+      "verdict": "Dims dimmable outdoor lights, and works in every Matter system.",
+      "pros": [
+        "Dimming",
+        "IP65",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "Dimmable lights only",
+        "Only 110 reviews",
+        "4.3 stars"
+      ],
+      "name": "Tapo Outdoor Smart Dimmer Plug for Outdoor Lights, Matter, P430M",
+      "image": "https://m.media-amazon.com/images/I/71lU4MiGsdL._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.3,
+      "reviews_count": 110,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0GTZWZTMK",
+      "brand": "Enbrighten",
+      "model": "Matter Outdoor Smart Plug (2 outlets)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "2, independent",
+        "weather": "Not stated in bullets",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Grouping in the app"
+      },
+      "features": {
+        "multi": true,
+        "rated": false,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "A well-rated two-outlet Matter plug, sold by Amazon.",
+      "pros": [
+        "4.7 stars",
+        "Independent outlets",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "Only 46 reviews",
+        "Weather rating isn't in the bullets",
+        "$25.99"
+      ],
+      "name": "Enbrighten Matter Outdoor Smart Plug, 2 Individual Grounded Outlets, Black",
+      "image": "https://m.media-amazon.com/images/I/81LcddZarIL._SL1500_.jpg",
+      "price": 25.99,
+      "rating": 4.7,
+      "reviews_count": 46,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GV124HC3",
+      "brand": "Enbrighten",
+      "model": "Matter Outdoor Yard Stake (6 outlets)",
+      "systems": [
+        "home-assistant",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "6, switched together",
+        "weather": "Self-closing covers",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Yard stake"
+      },
+      "features": {
+        "multi": true,
+        "rated": false,
+        "extra": true,
+        "thread": false
+      },
+      "verdict": "Six outlets on a stake for a holiday display, over Matter.",
+      "pros": [
+        "6 outlets",
+        "Self-closing covers",
+        "Matter"
+      ],
+      "cons": [
+        "Only 22 reviews",
+        "Apple Home isn't named in the bullets",
+        "Outlets switch together"
+      ],
+      "name": "Enbrighten Matter Outdoor Smart Plug Yard Stake, 6 Grounded Outlets, Green",
+      "image": "https://m.media-amazon.com/images/I/817R7oX3AuL._SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.3,
+      "reviews_count": 22,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0H2VW2J1P",
+      "brand": "Linkind",
+      "model": "Matter Outdoor Smart Plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "1",
+        "weather": "IP65, ETL",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "AiDot app works without a hub"
+      },
+      "features": {
+        "multi": false,
+        "rated": true,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "A cheap IP65 Matter plug that also works from its own app.",
+      "pros": [
+        "$22.98",
+        "IP65",
+        "4.9 stars"
+      ],
+      "cons": [
+        "Only 21 reviews",
+        "One outlet",
+        "Stock status wasn't shown"
+      ],
+      "name": "Linkind Matter Outdoor Smart Plug, Works with Alexa, Apple Home,Google Home",
+      "image": "https://m.media-amazon.com/images/I/71U02cKxzeL._SL1500_.jpg",
+      "price": 22.98,
+      "rating": 4.9,
+      "reviews_count": 21,
+      "bought": null
+    },
+    {
+      "asin": "B0HC79KN8J",
+      "brand": "Onvis",
+      "model": "Outdoor Smart Plug (Thread)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "1",
+        "weather": "IP65",
+        "radio": "Thread (Matter)",
+        "extras": "Energy monitoring"
+      },
+      "features": {
+        "multi": false,
+        "rated": true,
+        "extra": true,
+        "thread": true
+      },
+      "verdict": "The only Thread outdoor plug here, with energy monitoring.",
+      "pros": [
+        "Thread, so it strengthens your Thread mesh",
+        "Energy monitoring",
+        "IP65"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Needs a Thread border router",
+        "$35.99"
+      ],
+      "name": "Onvis Outdoor Smart Plug, Matter Over Thread, Energy Monitoring, IP65",
+      "image": "https://m.media-amazon.com/images/I/71-5ME57jzL._SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.1,
+      "reviews_count": 7,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0CP83JY1M",
+      "brand": "Legrand",
+      "model": "Radiant Wi-Fi Matter Dual Outdoor Plug",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "2",
+        "weather": "Not stated in bullets",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Matter controller required"
+      },
+      "features": {
+        "multi": true,
+        "rated": false,
+        "extra": false,
+        "thread": false
+      },
+      "verdict": "Legrand's two-outlet Matter plug, set up through a Matter controller.",
+      "pros": [
+        "Two outlets",
+        "Sold by Amazon",
+        "$26.25"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Needs a Matter controller to set up",
+        "Only 69 reviews"
+      ],
+      "name": "Legrand Radiant Wi-Fi Matter 15 Amp Smart Dual Outdoor Plug, Black, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/51ad6J3TV+L._AC_SL1500_.jpg",
+      "price": 26.25,
+      "rating": 3.8,
+      "reviews_count": 69,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What makes an outdoor smart plug different?",
+      "a": "It's weatherproof (look for IP44 or better), usually has two or more outlets, and often a longer cord. Use it for holiday lights, pond pumps, and patio lights."
+    },
+    {
+      "q": "Can I leave it out in the rain?",
+      "a": "Rated plugs handle rain, but point the outlets down and keep them off the ground. Plug them into a GFCI-protected outdoor outlet with an in-use cover."
+    },
+    {
+      "q": "Will it reach my Wi-Fi?",
+      "a": "Outdoor outlets are often far from the router. If your phone has a weak signal where the plug goes, the plug will too. A mesh router or extender fixes that."
+    }
+  ]
+}

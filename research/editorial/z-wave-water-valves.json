@@ -1,0 +1,126 @@
+{
+  "feature_weights": {
+    "no_plumber": 0.35,
+    "leak_sensor": 0.3,
+    "strong": 0.2,
+    "outdoor": 0.15
+  },
+  "spec_fields": [
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "pipes",
+      "label": "Valve sizes"
+    },
+    {
+      "key": "sensor",
+      "label": "Leak sensor"
+    },
+    {
+      "key": "series",
+      "label": "Z-Wave"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "install",
+      "label": "Install"
+    },
+    {
+      "key": "pipes",
+      "label": "Valves"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09G82YM3B",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A strong valve actuator with a leak sensor in the box and no tools needed."
+    },
+    {
+      "asin": "B07DJZCFBH",
+      "label": "Best Rated",
+      "kind": "special",
+      "why": "The Bulldog Valve Robot, rated 4.7 stars by 280 buyers."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09G82YM3B",
+      "brand": "Zooz",
+      "model": "ZAC36 Titan Water Valve Actuator",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "install": "Clamps over your ball valve, no tools",
+        "pipes": "0.5 to 1.25 in. ball valves",
+        "sensor": "Plug-in leak sensor included",
+        "series": "700 Series"
+      },
+      "features": {
+        "no_plumber": true,
+        "leak_sensor": true,
+        "strong": true,
+        "outdoor": true
+      },
+      "verdict": "Shuts your main water off automatically when a leak is found, and installs in minutes.",
+      "pros": [
+        "Leak sensor included",
+        "Powerful motor for stiff valves",
+        "Usable outdoors",
+        "Works with Ring Alarm"
+      ],
+      "cons": [
+        "Needs 3 in. of clearance on each side",
+        "$199.95",
+        "Only 19 left at capture time"
+      ]
+    },
+    {
+      "asin": "B07DJZCFBH",
+      "brand": "EcoNet Controls",
+      "model": "Bulldog Valve Robot (EVC200-HCSML)",
+      "systems": [
+        "smartthings",
+        "hubitat",
+        "home-assistant",
+        "homey"
+      ],
+      "specs": {
+        "install": "Mounts over existing valve, no plumbing",
+        "pipes": "Quarter-turn ball valves",
+        "sensor": "Not included",
+        "series": "Z-Wave Plus"
+      },
+      "features": {
+        "no_plumber": true,
+        "leak_sensor": false,
+        "strong": true,
+        "outdoor": false
+      },
+      "verdict": "A well-rated, long-running valve robot for Z-Wave hubs.",
+      "pros": [
+        "4.7 stars",
+        "No plumbing",
+        "Wide hub compatibility"
+      ],
+      "cons": [
+        "No leak sensor in the box",
+        "$215",
+        "Z-Wave Plus, not 800 Series"
+      ]
+    }
+  ],
+  "avoid": []
+}

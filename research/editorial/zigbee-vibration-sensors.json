@@ -1,0 +1,261 @@
+{
+  "feature_weights": {
+    "open_hub": 0.35,
+    "tilt": 0.25,
+    "alarm": 0.2,
+    "adjust": 0.2
+  },
+  "systems_note": "Aqara sensors need an Aqara hub, which adds Apple Home, Google, and Alexa.",
+  "spec_fields": [
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "sensitivity",
+      "label": "Sensitivity"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C9DP249C",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Works with open Zigbee hubs, has a built-in 110 dB alarm, and costs $19.99."
+    },
+    {
+      "asin": "B07PJT939B",
+      "label": "Best for Aqara Homes",
+      "kind": "special",
+      "why": "Detects vibration, tilt, and drops, with 1,906 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C9DP249C",
+      "brand": "THIRDREALITY",
+      "model": "Smart Vibration Sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "detects": "Vibration",
+        "sensitivity": "4 levels, physical switches",
+        "hub": "Any Zigbee 3.0 hub, incl. Echo",
+        "extras": "110 dB alarm with mute switch"
+      },
+      "features": {
+        "open_hub": true,
+        "tilt": false,
+        "alarm": true,
+        "adjust": true
+      },
+      "verdict": "The best all-round vibration sensor: works with open hubs and sounds its own alarm.",
+      "pros": [
+        "Built-in 110 dB alarm",
+        "Works with Echo, Home Assistant, SmartThings",
+        "500+ bought in the past month"
+      ],
+      "cons": [
+        "4.1 stars",
+        "No tilt detection listed",
+        "Sensitivity set by switches"
+      ]
+    },
+    {
+      "asin": "B0DG4KD97V",
+      "brand": "THIRDREALITY",
+      "model": "Smart Vibration Sensor (3-pack)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "detects": "Vibration",
+        "sensitivity": "4 levels",
+        "hub": "Any Zigbee 3.0 hub",
+        "extras": "110 dB alarm"
+      },
+      "features": {
+        "open_hub": true,
+        "tilt": false,
+        "alarm": true,
+        "adjust": true
+      },
+      "verdict": "Three of the same sensor for washer, dryer, and mailbox.",
+      "pros": [
+        "3-pack",
+        "Built-in alarm",
+        "Same 605-review sensor"
+      ],
+      "cons": [
+        "$56.99",
+        "4.1 stars",
+        "No tilt detection listed"
+      ]
+    },
+    {
+      "asin": "B07PJT939B",
+      "brand": "Aqara",
+      "model": "Vibration Sensor",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "detects": "Vibration, tilt, drop",
+        "sensitivity": "Not stated in bullets",
+        "hub": "Aqara hub",
+        "extras": "Glass-break detection"
+      },
+      "features": {
+        "open_hub": false,
+        "tilt": true,
+        "alarm": false,
+        "adjust": false
+      },
+      "verdict": "The most capable sensor here, for homes with an Aqara hub.",
+      "pros": [
+        "Vibration, tilt, and drop",
+        "1,906 reviews",
+        "Apple Home through the Aqara hub"
+      ],
+      "cons": [
+        "Aqara hub required",
+        "3.8 stars",
+        "No built-in alarm"
+      ]
+    },
+    {
+      "asin": "B0G6ZH853W",
+      "brand": "Aqara",
+      "model": "Multi-State Sensor P100",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "detects": "Open/close, or vibration and tilt",
+        "sensitivity": "Not stated in bullets",
+        "hub": "Thread (Matter) or Aqara Zigbee hub",
+        "extras": "2-in-1"
+      },
+      "features": {
+        "open_hub": false,
+        "tilt": true,
+        "alarm": false,
+        "adjust": false
+      },
+      "verdict": "A door sensor that switches to object monitoring on an Aqara hub.",
+      "pros": [
+        "Door sensor and vibration sensor in one",
+        "Zigbee or Thread",
+        "100+ bought in the past month"
+      ],
+      "cons": [
+        "3.2 stars",
+        "Vibration mode needs an Aqara hub",
+        "$27.99"
+      ]
+    },
+    {
+      "asin": "B0DPQL94K8",
+      "brand": "Haozee",
+      "model": "Smart Vibration Sensor",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "Tuya / Zigbee2MQTT",
+      "specs": {
+        "detects": "Vibration, tilt",
+        "sensitivity": "Not stated in bullets",
+        "hub": "Zigbee gateway (Tuya or Zigbee2MQTT)",
+        "extras": "G-sensor"
+      },
+      "features": {
+        "open_hub": true,
+        "tilt": true,
+        "alarm": false,
+        "adjust": false
+      },
+      "verdict": "A cheap vibration and tilt sensor that names Zigbee2MQTT support.",
+      "pros": [
+        "$14.99",
+        "Tilt detection",
+        "Zigbee2MQTT support"
+      ],
+      "cons": [
+        "Only 36 reviews",
+        "4.0 stars",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0FNF8VNNK",
+      "brand": "frient",
+      "model": "Vibration Sensor",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "detects": "Vibration, tilt, temperature",
+        "sensitivity": "15 levels",
+        "hub": "Zigbee hub",
+        "extras": "3-axis accelerometer"
+      },
+      "features": {
+        "open_hub": true,
+        "tilt": true,
+        "alarm": false,
+        "adjust": true
+      },
+      "verdict": "The most adjustable sensor, from Danish maker frient.",
+      "pros": [
+        "15 sensitivity levels",
+        "Temperature too",
+        "5.0 stars"
+      ],
+      "cons": [
+        "Only 4 reviews",
+        "$43.95",
+        "Only 16 left at capture time"
+      ]
+    }
+  ],
+  "avoid": []
+}
