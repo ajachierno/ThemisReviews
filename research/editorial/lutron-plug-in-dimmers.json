@@ -1,0 +1,226 @@
+{
+  "feature_weights": {
+    "pico": 0.3,
+    "bridge": 0.3,
+    "outdoor": 0.15,
+    "multi": 0.25
+  },
+  "systems_note": "Through a Lutron Smart Bridge. Without the bridge, a plug-in dimmer pairs straight to a Pico remote.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    },
+    {
+      "key": "load",
+      "label": "Use"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B00JJY1QG0",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,815 buyers."
+    },
+    {
+      "asin": "B0777TC8QZ",
+      "label": "Best Starter Kit",
+      "kind": "special",
+      "why": "Lamp dimmer, Smart Hub, and remote: everything for app and voice control, rated 4.8 stars."
+    },
+    {
+      "asin": "B08Z4HK39S",
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "why": "Caseta's weather-resistant plug for outdoor lights, with a Pico remote."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00JJY1QG0",
+      "brand": "Lutron",
+      "model": "Caseta Lamp Dimmer Kit (dimmer + Pico)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Plug-in lamp dimmer",
+        "in_box": "Dimmer and Pico remote",
+        "load": "Dimmable LED and incandescent lamps"
+      },
+      "features": {
+        "pico": true,
+        "bridge": false,
+        "outdoor": false,
+        "multi": false
+      },
+      "verdict": "A lamp dimmer and a remote that work together right out of the box.",
+      "pros": [
+        "Pico remote included",
+        "4.7 stars from 1,815 reviews",
+        "Works without the bridge"
+      ],
+      "cons": [
+        "App and voice need the Smart Bridge",
+        "$54.95",
+        "Lamps only"
+      ]
+    },
+    {
+      "asin": "B00KHSXB60",
+      "brand": "Lutron",
+      "model": "Caseta Plug-in Lamp Dimmer",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Plug-in lamp dimmer",
+        "in_box": "Dimmer only",
+        "load": "Dimmable LED lamps"
+      },
+      "features": {
+        "pico": false,
+        "bridge": false,
+        "outdoor": false,
+        "multi": false
+      },
+      "verdict": "The dimmer on its own, for homes that already have the Smart Bridge.",
+      "pros": [
+        "4.7 stars",
+        "$49.95",
+        "Reliable Clear Connect radio"
+      ],
+      "cons": [
+        "Smart Bridge required",
+        "No remote",
+        "Lamps only"
+      ]
+    },
+    {
+      "asin": "B0777TC8QZ",
+      "brand": "Lutron",
+      "model": "Caseta Lamp Dimmer Starter Kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Plug-in lamp dimmer kit",
+        "in_box": "Dimmer, Smart Hub, Pico remote",
+        "load": "Dimmable lamps"
+      },
+      "features": {
+        "pico": true,
+        "bridge": true,
+        "outdoor": false,
+        "multi": false
+      },
+      "verdict": "Everything to start a Caseta system with a lamp, no wiring at all.",
+      "pros": [
+        "Smart Hub included",
+        "4.8 stars",
+        "No electrician needed"
+      ],
+      "cons": [
+        "$114.95",
+        "Only 143 reviews",
+        "One dimmer"
+      ]
+    },
+    {
+      "asin": "B011PHGURS",
+      "brand": "Lutron",
+      "model": "Caseta Deluxe Lamp Dimmer Starter Kit",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Plug-in lamp dimmer kit",
+        "in_box": "2 lamp dimmers, Smart Hub, remotes",
+        "load": "Dimmable lamps"
+      },
+      "features": {
+        "pico": true,
+        "bridge": true,
+        "outdoor": false,
+        "multi": true
+      },
+      "verdict": "Two lamp dimmers plus the hub, for a living room and bedroom.",
+      "pros": [
+        "2 dimmers and the hub",
+        "Remotes included",
+        "No wiring"
+      ],
+      "cons": [
+        "$214.95",
+        "4.3 stars",
+        "Only 78 reviews"
+      ]
+    },
+    {
+      "asin": "B08Z4HK39S",
+      "brand": "Lutron",
+      "model": "Caseta Smart Outdoor Plug & Remote",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "type": "Outdoor plug-in switch",
+        "in_box": "Outdoor plug and Pico remote",
+        "load": "Outdoor lights and motors"
+      },
+      "features": {
+        "pico": true,
+        "bridge": false,
+        "outdoor": true,
+        "multi": false
+      },
+      "verdict": "Caseta's reliability for patio lights and fountains.",
+      "pros": [
+        "Weather resistant",
+        "Pico remote included",
+        "Handles motors"
+      ],
+      "cons": [
+        "Switch only, no dimming",
+        "Smart Bridge required for the app",
+        "$94.95"
+      ]
+    }
+  ],
+  "avoid": []
+}

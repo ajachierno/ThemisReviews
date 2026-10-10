@@ -1,0 +1,390 @@
+{
+  "slug": "matter-blinds",
+  "family": "blinds",
+  "family_title": "Blinds and shades",
+  "noun": "shade",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Blinds and Shades",
+  "subtitle": "Matter shades and blind motors for Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, ranked.",
+  "intro": "We pulled the smart blinds, shades, and motors on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "complete": 0.25,
+    "thread": 0.25,
+    "rechargeable": 0.25,
+    "no_extra": 0.25
+  },
+  "systems_note": "Thread shades need a Thread border router (HomePod mini, Apple TV, recent Nest Hub, or some Echo models).",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D54KR9W7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Eve's Thread motor upgrades the roller blinds you already have, sold by Amazon."
+    },
+    {
+      "asin": "B0FKGZTR9S",
+      "label": "Best for Horizontal Blinds",
+      "kind": "special",
+      "why": "Three solar Blind Tilts plus a Matter Hub Mini, rated 4.6 stars."
+    },
+    {
+      "asin": "B0CQ1V35ZD",
+      "label": "Best Complete Shades",
+      "kind": "premium",
+      "why": "Made-to-measure Yoolax shades with a Matter motor."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D54KR9W7",
+      "brand": "Eve",
+      "model": "MotionBlinds Upgrade Kit (roller blinds)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor for roller blinds",
+        "radio": "Thread (Matter)",
+        "power": "Not stated in bullets",
+        "extras": "Scenes with other Matter devices"
+      },
+      "features": {
+        "complete": false,
+        "thread": true,
+        "rechargeable": false,
+        "no_extra": true
+      },
+      "verdict": "The most polished way to make existing roller blinds smart.",
+      "pros": [
+        "Thread",
+        "Eve's app and support",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$219.95",
+        "Only 47 reviews",
+        "Power source isn't in the bullets"
+      ],
+      "name": "Eve Motionblinds Upgrade Kit for Roller Blinds (Matter)",
+      "image": "https://m.media-amazon.com/images/I/71SpuixWljL._AC_SL1500_.jpg",
+      "price": 219.95,
+      "rating": 4.4,
+      "reviews_count": 47,
+      "bought": null
+    },
+    {
+      "asin": "B0FKGZTR9S",
+      "brand": "SwitchBot",
+      "model": "Blind Tilt 3-pack + Hub Mini Matter",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "type": "Tilt motors for horizontal blinds",
+        "radio": "Bluetooth, Matter through the included Hub Mini",
+        "power": "Solar + battery",
+        "extras": "Hub Mini also an IR remote"
+      },
+      "features": {
+        "complete": false,
+        "thread": false,
+        "rechargeable": true,
+        "no_extra": true
+      },
+      "verdict": "Three tilt motors and the Matter hub they need, in one box.",
+      "pros": [
+        "Matter hub included",
+        "Solar charging",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Tilt only, doesn't raise blinds",
+        "$179.99",
+        "Only 66 reviews"
+      ],
+      "name": "SwitchBot Smart Electric Motorized Blinds Kit with Hub Mini Matter-2.4G WiFi Remote Control, Solar Powered, Compatible with Alexa, Google Home and Siri, Light Sensing Control, Unlimited Group Control",
+      "image": "https://m.media-amazon.com/images/I/61o3X+52WUL._AC_SL1500_.jpg",
+      "price": 179.99,
+      "rating": 4.6,
+      "reviews_count": 66,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0CQ1V35ZD",
+      "brand": "Yoolax",
+      "model": "Smart Blinds (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete roller shade",
+        "radio": "Matter",
+        "power": "Not stated in bullets",
+        "extras": "Remote included"
+      },
+      "features": {
+        "complete": true,
+        "thread": false,
+        "rechargeable": false,
+        "no_extra": true
+      },
+      "verdict": "Complete made-to-measure shades with a Matter motor.",
+      "pros": [
+        "Custom sizes",
+        "Names Home Assistant",
+        "Remote included"
+      ],
+      "cons": [
+        "$239",
+        "Only 24 reviews",
+        "Power source isn't in the bullets"
+      ],
+      "name": "Yoolax Smart Blinds, Works with Matter, Alexa, Apple Home, Google Assistant",
+      "image": "https://m.media-amazon.com/images/I/71yD41ixfmL._AC_SL1500_.jpg",
+      "price": 239.0,
+      "rating": 4.3,
+      "reviews_count": 24,
+      "bought": null
+    },
+    {
+      "asin": "B0FG2C8W67",
+      "brand": "TeFei",
+      "model": "Matter over Thread blinds motor (1.5 in.)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit motor for 1.5 in. tubes",
+        "radio": "Thread (Matter)",
+        "power": "USB-C rechargeable",
+        "extras": "Fits roller, zebra, and Roman shades"
+      },
+      "features": {
+        "complete": false,
+        "thread": true,
+        "rechargeable": true,
+        "no_extra": true
+      },
+      "verdict": "A rechargeable Thread motor for shades with 1.5-inch tubes.",
+      "pros": [
+        "Thread",
+        "USB-C charging",
+        "$112.88"
+      ],
+      "cons": [
+        "Only 13 reviews",
+        "1.5 in. tubes only",
+        "Lesser-known brand"
+      ],
+      "name": "Smart Blinds Motor for 1.5\"(38mm) Shade Tube Work with Homekit, Build with Matter Over Thread, Type-C Rechargeable Roller Shade Motor, Work with HomeKit, Home Assistant, Alexa, Motorized Blinds",
+      "image": "https://m.media-amazon.com/images/I/618gCKxjoWL._AC_SL1500_.jpg",
+      "price": 112.88,
+      "rating": 4.4,
+      "reviews_count": 13,
+      "bought": null
+    },
+    {
+      "asin": "B0GSR94QV1",
+      "brand": "TeFei",
+      "model": "Matter Roller Shade Motor (motor only)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Add-on motor",
+        "radio": "Thread (Matter)",
+        "power": "USB-C rechargeable",
+        "extras": "Needs an AC123 remote for setup"
+      },
+      "features": {
+        "complete": false,
+        "thread": true,
+        "rechargeable": true,
+        "no_extra": false
+      },
+      "verdict": "An add-on motor for people who already own TeFei's AC123 remote and brackets.",
+      "pros": [
+        "$99.88",
+        "Thread",
+        "Solar-panel compatible"
+      ],
+      "cons": [
+        "Setup needs an AC123 remote",
+        "Only 13 reviews",
+        "Only 14 left at capture time"
+      ],
+      "name": "Matter Roller Shade Motor - Expand Your Smart Home - Single Pack for 1.5\" Shade Tube - Work with HomeKit, Alexa, Google Home - Type-C Rechargeable, High Torque (No Brackets/Remote)",
+      "image": "https://m.media-amazon.com/images/I/519mzVnMRjL._AC_SL1500_.jpg",
+      "price": 99.88,
+      "rating": 4.4,
+      "reviews_count": 13,
+      "bought": null
+    },
+    {
+      "asin": "B0DJNKYKJG",
+      "brand": "MUSCLEAREA",
+      "model": "Blackout shades with Matter motor",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete roller shade",
+        "radio": "Matter, hub-free",
+        "power": "Rechargeable + solar panel",
+        "extras": "100% blackout"
+      },
+      "features": {
+        "complete": true,
+        "thread": false,
+        "rechargeable": true,
+        "no_extra": true
+      },
+      "verdict": "Blackout shades with a hub-free Matter motor and solar charging.",
+      "pros": [
+        "Solar panel",
+        "100% blackout",
+        "No hub needed"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 6 left at capture time",
+        "Lesser-known brand"
+      ],
+      "name": "Motorized Blinds,Smart Blackout Shades with Matter Motor",
+      "image": "https://m.media-amazon.com/images/I/81jK5a+Nu0L._AC_SL1500_.jpg",
+      "price": 107.99,
+      "rating": 3.8,
+      "reviews_count": 40,
+      "bought": null
+    },
+    {
+      "asin": "B0G2B2WZ7L",
+      "brand": "SmartWings",
+      "model": "Motorized Roller Shades (Matter motor option)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Complete roller shade",
+        "radio": "Thread (Matter), with the SW301 motor",
+        "power": "Not stated in bullets",
+        "extras": "Zigbee and Z-Wave motors also sold"
+      },
+      "features": {
+        "complete": true,
+        "thread": true,
+        "rechargeable": false,
+        "no_extra": true
+      },
+      "verdict": "Premium blackout shades; pick the SW301 Matter motor at checkout.",
+      "pros": [
+        "100% blackout",
+        "Choice of motor",
+        "Thread"
+      ],
+      "cons": [
+        "Only 1 review on this listing",
+        "One listing covers several motors",
+        "$169.99"
+      ],
+      "name": "SmartWings Motorized Roller Shades 100% Blackout Work with Matter Homekit Over Thread, Alexa, Z-Wave, Smart Blinds for Windows, Cordless Remote Control Optional, Customized Size, Essential White",
+      "image": "https://m.media-amazon.com/images/I/715zcHiVIwL._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Matter blinds: Wi-Fi or Thread?",
+      "a": "Most Matter shades use Thread, which runs for months on a battery but needs a Thread border router (a HomePod mini, Apple TV, recent Nest Hub, or some Echo models). Wi-Fi shades need no border router but drain batteries faster."
+    },
+    {
+      "q": "Retrofit motor or complete shade?",
+      "a": "Complete shades come made to measure. Retrofit motors and tilt kits automate shades or blinds you already own."
+    },
+    {
+      "q": "Will they work with my system?",
+      "a": "Matter shades work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant."
+    }
+  ]
+}

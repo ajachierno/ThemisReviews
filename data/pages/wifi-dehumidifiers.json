@@ -1,0 +1,477 @@
+{
+  "slug": "wifi-dehumidifiers",
+  "family": "dehumidifiers",
+  "family_title": "Dehumidifiers",
+  "noun": "dehumidifier",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Dehumidifiers",
+  "subtitle": "Wi-Fi dehumidifiers for basements and damp rooms, ranked.",
+  "intro": "We pulled the dehumidifiers on Amazon with Wi-Fi app control and scored them on rating, review volume, and features: capacity, continuous drainage, a built-in pump, and full-bucket alerts.",
+  "reviews_ceiling": 10000,
+  "feature_weights": {
+    "big": 0.25,
+    "pump": 0.25,
+    "voice": 0.25,
+    "energy_star": 0.25
+  },
+  "systems_note": "LG ThinQ appliances have an official Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "coverage",
+      "label": "Room size"
+    },
+    {
+      "key": "drain",
+      "label": "Drainage"
+    },
+    {
+      "key": "app",
+      "label": "App"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "coverage",
+      "label": "Room"
+    },
+    {
+      "key": "drain",
+      "label": "Drainage"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07NRDBBH5",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Rated 4.4 stars by 7,197 buyers, with Wi-Fi, Alexa, Google, and Energy Star."
+    },
+    {
+      "asin": "B073VBWKJZ",
+      "label": "Best for Large Basements",
+      "kind": "premium",
+      "why": "50 pints for spaces up to 7,000 sq. ft., with 25,680 reviews."
+    },
+    {
+      "asin": "B0GL7R3RJV",
+      "label": "Best With a Pump",
+      "kind": "special",
+      "why": "A built-in pump pushes water up into a sink, so you never empty a bucket."
+    },
+    {
+      "asin": "B08ZMY8BC8",
+      "label": "Best Compact",
+      "kind": "budget",
+      "why": "Midea's Cube stacks its bucket underneath to save floor space."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07NRDBBH5",
+      "brand": "Midea",
+      "model": "22 Pint Dehumidifier",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "capacity": "22 pints/day",
+        "coverage": "Up to 1,500 sq. ft.",
+        "drain": "Bucket or hose",
+        "app": "Midea SmartHome"
+      },
+      "features": {
+        "big": false,
+        "pump": false,
+        "voice": true,
+        "energy_star": true
+      },
+      "verdict": "The best all-round smart dehumidifier for a bedroom or small basement.",
+      "pros": [
+        "7,197 reviews",
+        "Alexa and Google",
+        "Energy Star"
+      ],
+      "cons": [
+        "22 pints",
+        "No pump",
+        "$194.99"
+      ],
+      "name": "Midea 22 Pint Dehumidifier for Basement, 1,500 Sq. Ft, Energy star",
+      "image": "https://m.media-amazon.com/images/I/61xyRWKTTYL._AC_SL1500_.jpg",
+      "price": 194.99,
+      "rating": 4.4,
+      "reviews_count": 7197,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B073VBWKJZ",
+      "brand": "hOmeLabs",
+      "model": "50 Pint Dehumidifier (7,000 sq. ft.)",
+      "systems": [],
+      "systems_label": "hOmeLabs app",
+      "specs": {
+        "capacity": "50 pints (120 max at 95°F)",
+        "coverage": "Up to 7,000 sq. ft.",
+        "drain": "Bucket or hose",
+        "app": "Wi-Fi app"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": false,
+        "energy_star": false
+      },
+      "verdict": "The most-reviewed large dehumidifier, now with Wi-Fi.",
+      "pros": [
+        "25,680 reviews",
+        "Up to 7,000 sq. ft.",
+        "Remote control by app"
+      ],
+      "cons": [
+        "$269.99",
+        "Voice assistants aren't named in the bullets",
+        "Heavy"
+      ],
+      "name": "hOmeLabs Dehumidifier 7,000 Sq Ft 50 Pint (MAX 120 Pint at 95°F, 90% RH)",
+      "image": "https://m.media-amazon.com/images/I/51ZO2SB0SvL._AC_SL1500_.jpg",
+      "price": 269.99,
+      "rating": 4.4,
+      "reviews_count": 25680,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0GL7QFBJ9",
+      "brand": "Midea",
+      "model": "50 Pint Dehumidifier",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "capacity": "50 pints/day",
+        "coverage": "Up to 4,500 sq. ft.",
+        "drain": "Bucket or hose",
+        "app": "Midea SmartHome"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": true,
+        "energy_star": true
+      },
+      "verdict": "Midea's large-basement model with voice control.",
+      "pros": [
+        "50 pints",
+        "Alexa and Google",
+        "Energy Star"
+      ],
+      "cons": [
+        "Only 224 reviews",
+        "No pump",
+        "$219.99"
+      ],
+      "name": "Midea 50 Pint Dehumidifier for Basement, 4,500 Sq. Ft, Energy star",
+      "image": "https://m.media-amazon.com/images/I/61QqHtPe1OL._AC_SL1500_.jpg",
+      "price": 219.99,
+      "rating": 4.4,
+      "reviews_count": 224,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GL7R3RJV",
+      "brand": "Midea",
+      "model": "50 Pint Dehumidifier with Pump",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "capacity": "50 pints/day",
+        "coverage": "Up to 4,500 sq. ft.",
+        "drain": "Built-in pump",
+        "app": "Midea SmartHome"
+      },
+      "features": {
+        "big": true,
+        "pump": true,
+        "voice": true,
+        "energy_star": true
+      },
+      "verdict": "The same Midea with a pump, for basements without a floor drain.",
+      "pros": [
+        "Built-in pump",
+        "Alexa and Google",
+        "Energy Star"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Only 151 reviews",
+        "$220.45"
+      ],
+      "name": "Midea 50 Pint Dehumidifier with Pump, 4,500 Sq. Ft, Energy star",
+      "image": "https://m.media-amazon.com/images/I/61QqHtPe1OL._AC_SL1500_.jpg",
+      "price": 220.45,
+      "rating": 4.1,
+      "reviews_count": 151,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0BR7RHQB9",
+      "brand": "GoveeLife",
+      "model": "Dehumidifier (50-137 pints)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "capacity": "Up to 137 pints (test conditions)",
+        "coverage": "Up to 4,500 sq. ft.",
+        "drain": "2-gallon bucket or hose",
+        "app": "Govee Home"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": true,
+        "energy_star": false
+      },
+      "verdict": "A big-capacity unit with app, voice, and touch control.",
+      "pros": [
+        "Alexa and Google",
+        "2-gallon bucket",
+        "1,588 reviews"
+      ],
+      "cons": [
+        "4.0 stars",
+        "$229.99",
+        "Max pints measured at extreme conditions"
+      ],
+      "name": "GoveeLife Dehumidifier for Home 4,500ft², 50 to 137 Pints, 2.0Gal Bucket",
+      "image": "https://m.media-amazon.com/images/I/61jHS7IfbkL._AC_SL1500_.jpg",
+      "price": 229.99,
+      "rating": 4.0,
+      "reviews_count": 1588,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0GXYD5JBY",
+      "brand": "Dreo",
+      "model": "Smart Dehumidifier (Energy Star 2025)",
+      "systems": [],
+      "systems_label": "Dreo app",
+      "specs": {
+        "capacity": "Not stated in bullets",
+        "coverage": "Basement",
+        "drain": "1.85-gallon tank or hose",
+        "app": "Dreo, with energy tracking"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": false,
+        "energy_star": true
+      },
+      "verdict": "Tracks its own energy use in the app.",
+      "pros": [
+        "Energy tracking",
+        "Energy Star",
+        "4.3 stars"
+      ],
+      "cons": [
+        "Only 249 reviews",
+        "Voice control isn't in the bullets",
+        "$199.96"
+      ],
+      "name": "DREO Energy Star 2025 Smart Dehumidifier for Basement, 1.85 Gal Water Tank",
+      "image": "https://m.media-amazon.com/images/I/61vCkTaixSL._AC_SL1500_.jpg",
+      "price": 199.96,
+      "rating": 4.3,
+      "reviews_count": 249,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0H42G5D34",
+      "brand": "LG",
+      "model": "PuriCare 50-Pint WiFi Dehumidifier",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "LG ThinQ",
+      "specs": {
+        "capacity": "50 pints/day",
+        "coverage": "Not stated in bullets",
+        "drain": "Bucket or hose",
+        "app": "LG ThinQ"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": false,
+        "energy_star": false
+      },
+      "verdict": "LG's 50-pint unit, controlled in the ThinQ app with your other LG appliances.",
+      "pros": [
+        "LG ThinQ app",
+        "Home Assistant integration",
+        "50 pints"
+      ],
+      "cons": [
+        "Only 47 reviews",
+        "$260.99",
+        "Voice assistants aren't named in the bullets"
+      ],
+      "name": "LG PuriCare 50-Pint WiFi Dehumidifier, Wi-Fi, LG ThinQ App",
+      "image": "https://m.media-amazon.com/images/I/61g5Mm3s6tL._AC_SL1500_.jpg",
+      "price": 260.99,
+      "rating": 4.3,
+      "reviews_count": 47,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B08ZMY8BC8",
+      "brand": "Midea",
+      "model": "Cube 20 Pint",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "capacity": "20 pints/day",
+        "coverage": "Up to 1,500 sq. ft.",
+        "drain": "Stacked bucket or hose",
+        "app": "Midea SmartHome"
+      },
+      "features": {
+        "big": false,
+        "pump": false,
+        "voice": true,
+        "energy_star": true
+      },
+      "verdict": "A compact cube that tucks its bucket underneath.",
+      "pros": [
+        "Compact",
+        "Alexa and Google",
+        "2,536 reviews"
+      ],
+      "cons": [
+        "4.0 stars",
+        "20 pints",
+        "$179.99"
+      ],
+      "name": "Midea Cube 20 Pint Dehumidifier for Basement, 1,500 Sq. Ft, Energy star",
+      "image": "https://m.media-amazon.com/images/I/61pkRwPkWkL._AC_SL1500_.jpg",
+      "price": 179.99,
+      "rating": 4.0,
+      "reviews_count": 2536,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0DFZHBSZX",
+      "brand": "Frigidaire",
+      "model": "22-Pint Wi-Fi Dehumidifier",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Frigidaire app",
+      "specs": {
+        "capacity": "22 pints/day",
+        "coverage": "Small to medium rooms",
+        "drain": "Not stated in bullets",
+        "app": "Frigidaire"
+      },
+      "features": {
+        "big": false,
+        "pump": false,
+        "voice": true,
+        "energy_star": true
+      },
+      "verdict": "A small Wi-Fi dehumidifier from a big appliance brand.",
+      "pros": [
+        "Energy Star",
+        "Wi-Fi",
+        "Alexa"
+      ],
+      "cons": [
+        "Only 159 reviews",
+        "$199",
+        "22 pints"
+      ],
+      "name": "Frigidaire 22-Pint Portable Dehumidifier with Wi-Fi and Energy Star Certification for Small/Medium Rooms, Bedrooms & Bathrooms, Custom Humidity Control, Auto Shut Off, White",
+      "image": "https://m.media-amazon.com/images/I/61m5CBNmO+L._AC_SL1500_.jpg",
+      "price": 199.0,
+      "rating": 4.1,
+      "reviews_count": 159,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GWQDR1PK",
+      "brand": "ALORAIR",
+      "model": "Smart Wi-Fi 70 Pint Crawlspace",
+      "systems": [],
+      "systems_label": "ALORAIR app",
+      "specs": {
+        "capacity": "70 pints/day",
+        "coverage": "Crawlspace or basement",
+        "drain": "Built-in pump",
+        "app": "Wi-Fi app"
+      },
+      "features": {
+        "big": true,
+        "pump": true,
+        "voice": false,
+        "energy_star": false
+      },
+      "verdict": "A low-profile crawlspace dehumidifier with a pump and remote monitoring.",
+      "pros": [
+        "Built for crawlspaces",
+        "Built-in pump",
+        "70 pints"
+      ],
+      "cons": [
+        "$422.93",
+        "Only 158 reviews",
+        "4.1 stars"
+      ],
+      "name": "ALORAIR Smart Wi-Fi 70 Pints Crawlspace Dehumidifier with Pump Compact Unit",
+      "image": "https://m.media-amazon.com/images/I/713QRGEcygL._AC_SL1500_.jpg",
+      "price": 422.93,
+      "rating": 4.1,
+      "reviews_count": 158,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What size dehumidifier do I need?",
+      "a": "Capacity is measured in pints of water removed per day. Around 20-35 pints suits a bedroom or small basement; 50 pints suits a large damp basement. Bigger units also cover more square feet."
+    },
+    {
+      "q": "Can it drain on its own?",
+      "a": "Most have a hose port for continuous drainage into a floor drain, and some have a built-in pump to push water up into a sink. Otherwise you empty the bucket."
+    },
+    {
+      "q": "What does the smart part add?",
+      "a": "A full-bucket alert on your phone, a humidity target, schedules, and remote control, which matters most for a basement you don't visit every day."
+    }
+  ]
+}

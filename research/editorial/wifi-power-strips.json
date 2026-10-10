@@ -1,0 +1,404 @@
+{
+  "feature_weights": {
+    "many": 0.25,
+    "surge": 0.25,
+    "big_platforms": 0.3,
+    "energy": 0.2
+  },
+  "systems_note": "Kasa and Tapo strips have an official TP-Link integration in Home Assistant; Smart Life (Tuya) strips work with its Tuya integration.",
+  "spec_fields": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "surge",
+      "label": "Surge protection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "surge",
+      "label": "Surge"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07G95FFN3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,448 buyers."
+    },
+    {
+      "asin": "B083JKSSR5",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Three smart outlets and two USB ports with surge protection for $24.98."
+    },
+    {
+      "asin": "B0F5LNYTR7",
+      "label": "Best for Apple Home",
+      "kind": "premium",
+      "why": "Matter, per-outlet energy monitoring, and surge protection for $39.99."
+    },
+    {
+      "asin": "B0CYGSFFFW",
+      "label": "Best Outlet Extender",
+      "kind": "special",
+      "why": "Plugs straight into the wall with 3 smart outlets and 3 smart USB ports, and works with HomeKit."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07G95FFN3",
+      "brand": "Kasa",
+      "model": "HS300 Smart Power Strip",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "outlets": "6 smart, each controlled separately",
+        "usb": "3 ports",
+        "surge": "ETL-certified",
+        "extras": "Not stated in bullets"
+      },
+      "features": {
+        "many": true,
+        "surge": true,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "The best-known smart power strip: six outlets you control one at a time.",
+      "pros": [
+        "6 independent outlets",
+        "4.6 stars from 9,448 reviews",
+        "Home Assistant integration"
+      ],
+      "cons": [
+        "No Apple Home",
+        "$49.99",
+        "Joule rating isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0F5LNYTR7",
+      "brand": "Tapo",
+      "model": "P316M Smart Power Strip",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "outlets": "6 smart",
+        "usb": "3 always-on (5 V 2.4 A)",
+        "surge": "Yes",
+        "extras": "Per-outlet energy monitoring, overcharge cutoff"
+      },
+      "features": {
+        "many": true,
+        "surge": true,
+        "big_platforms": true,
+        "energy": true
+      },
+      "verdict": "Matter and energy monitoring on every outlet, for less than the Kasa.",
+      "pros": [
+        "Matter: Apple Home, Google, Alexa, SmartThings",
+        "Energy monitoring per outlet",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "USB ports aren't switchable",
+        "Only 345 reviews",
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B083JKSSR5",
+      "brand": "Kasa",
+      "model": "KP303 Smart Power Strip",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "outlets": "3 smart",
+        "usb": "2 ports",
+        "surge": "ETL-certified",
+        "extras": "Not stated in bullets"
+      },
+      "features": {
+        "many": false,
+        "surge": true,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "A compact three-outlet strip for a nightstand or TV stand.",
+      "pros": [
+        "$24.98",
+        "16,497 reviews",
+        "Surge protection"
+      ],
+      "cons": [
+        "3 outlets",
+        "No Apple Home",
+        "No energy monitoring"
+      ]
+    },
+    {
+      "asin": "B0CYGSFFFW",
+      "brand": "Tapo",
+      "model": "P306 Outlet Extender",
+      "systems": [
+        "alexa",
+        "google-home",
+        "apple-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "outlets": "3 smart + 3 always on",
+        "usb": "3 smart ports",
+        "surge": "Not stated in bullets",
+        "extras": "Plugs into the wall, wide spacing"
+      },
+      "features": {
+        "many": true,
+        "surge": false,
+        "big_platforms": true,
+        "energy": false
+      },
+      "verdict": "A wall-plug extender with smart outlets and smart USB ports, and HomeKit.",
+      "pros": [
+        "Apple HomeKit",
+        "Smart USB ports",
+        "Wide outlet spacing"
+      ],
+      "cons": [
+        "Surge protection isn't in the bullets",
+        "$39.99",
+        "Only 643 reviews"
+      ]
+    },
+    {
+      "asin": "B0C453CLSY",
+      "brand": "Amazon Basics",
+      "model": "Smart Power Strip (6 outlets)",
+      "systems": [
+        "alexa"
+      ],
+      "specs": {
+        "outlets": "6 smart",
+        "usb": "3 (2 USB-A, 1 USB-C)",
+        "surge": "Not stated in bullets",
+        "extras": "Set up in the Alexa app"
+      },
+      "features": {
+        "many": true,
+        "surge": false,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "Six outlets and USB-C for Alexa homes, and only Alexa homes.",
+      "pros": [
+        "6 independent outlets",
+        "USB-C",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Alexa only",
+        "4.3 stars",
+        "Surge protection isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0CP4D62RX",
+      "brand": "Geeni",
+      "model": "Surge Ultra Smart 8-Outlet",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Geeni app",
+      "specs": {
+        "outlets": "6 smart + 2 always on",
+        "usb": "Not stated in bullets",
+        "surge": "1,200 joules",
+        "extras": "6 ft cord"
+      },
+      "features": {
+        "many": true,
+        "surge": true,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "Eight outlets with a stated 1,200-joule surge rating.",
+      "pros": [
+        "1,200 joules",
+        "8 outlets",
+        "6 ft cord"
+      ],
+      "cons": [
+        "Geeni app",
+        "Only 533 reviews",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0B5G6MDQ6",
+      "brand": "POWSAV",
+      "model": "WiFi Surge Protector (8 outlets)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "outlets": "4 smart + 4 always on",
+        "usb": "4 ports",
+        "surge": "1,680 joules",
+        "extras": "6 ft cord"
+      },
+      "features": {
+        "many": true,
+        "surge": true,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "The highest surge rating here, with four smart outlets.",
+      "pros": [
+        "1,680 joules",
+        "4 USB ports",
+        "$26.97"
+      ],
+      "cons": [
+        "Only 4 outlets are smart",
+        "Stock status wasn't shown",
+        "Smart Life app"
+      ]
+    },
+    {
+      "asin": "B0DZWLRKGW",
+      "brand": "Yozisital",
+      "model": "Smart Power Strip (6 smart + 2)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Smart Life",
+      "specs": {
+        "outlets": "6 smart + 2 always on",
+        "usb": "4 (2 USB-A, 2 USB-C)",
+        "surge": "Not stated in bullets",
+        "extras": "Flat plug, 5 ft cord"
+      },
+      "features": {
+        "many": true,
+        "surge": false,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "A desk charging station with six smart outlets and two USB-C ports.",
+      "pros": [
+        "2 USB-C ports",
+        "Flat plug",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Surge protection isn't in the bullets",
+        "Smart Life app",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B097NJ8Y4N",
+      "brand": "BN-LINK",
+      "model": "Smart Power Strip (6 outlets)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "specs": {
+        "outlets": "6 smart",
+        "usb": "4 (incl. 20 W USB-C)",
+        "surge": "Yes",
+        "extras": "Not stated in bullets"
+      },
+      "features": {
+        "many": true,
+        "surge": true,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "Six smart outlets with 20 W USB-C fast charging.",
+      "pros": [
+        "20 W USB-C",
+        "Surge protection",
+        "6 independent outlets"
+      ],
+      "cons": [
+        "4.0 stars",
+        "$42.99",
+        "No Apple Home"
+      ]
+    },
+    {
+      "asin": "B0B9WQL3FD",
+      "brand": "GHome",
+      "model": "Smart Outlet Extender",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "GHome app",
+      "specs": {
+        "outlets": "3 smart + 3 always on",
+        "usb": "3 smart (grouped)",
+        "surge": "Not stated in bullets",
+        "extras": "Plugs into the wall"
+      },
+      "features": {
+        "many": true,
+        "surge": false,
+        "big_platforms": false,
+        "energy": false
+      },
+      "verdict": "A cheaper wall-plug extender with smart USB ports.",
+      "pros": [
+        "$34.99",
+        "1,713 reviews",
+        "Smart USB ports"
+      ],
+      "cons": [
+        "USB ports switch as a group",
+        "No Apple Home",
+        "Surge protection isn't in the bullets"
+      ]
+    }
+  ],
+  "avoid": []
+}

@@ -1,0 +1,346 @@
+{
+  "feature_weights": {
+    "thermostat": 0.3,
+    "voice": 0.25,
+    "tip": 0.2,
+    "certified": 0.25
+  },
+  "systems_note": "Plug a heater straight into a wall outlet, never a power strip or a regular smart plug.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "safety",
+      "label": "Safety"
+    },
+    {
+      "key": "control",
+      "label": "Control"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "control",
+      "label": "Control"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CBBR4TLX",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A smart wall heater with Alexa and Google, rated 4.4 stars by 5,264 buyers."
+    },
+    {
+      "asin": "B0H93JB64R",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $58.99 heater with a thermostat, ETL listing, and Alexa and Google."
+    },
+    {
+      "asin": "B07JXRWJ8D",
+      "label": "Best Infrared",
+      "kind": "premium",
+      "why": "A Wi-Fi infrared wall heater with a thermostat and 13,954 reviews."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CBBR4TLX",
+      "brand": "Dreo",
+      "model": "Smart Wall Heater 1500W",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "type": "Wall-style heater",
+        "safety": "Not stated in bullets",
+        "control": "App, Alexa, Google",
+        "extras": "Bedroom size"
+      },
+      "features": {
+        "thermostat": false,
+        "voice": true,
+        "tip": false,
+        "certified": false
+      },
+      "verdict": "The most popular smart heater with both voice assistants.",
+      "pros": [
+        "Alexa and Google",
+        "5,264 reviews",
+        "4.4 stars"
+      ],
+      "cons": [
+        "$116.97",
+        "Safety listings aren't in the bullets",
+        "Thermostat isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0D819MVKF",
+      "brand": "Dreo",
+      "model": "Smart Electric Wall Heater (large room)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "type": "Wall-style heater",
+        "safety": "ETL",
+        "control": "App, Alexa",
+        "extras": "Large room"
+      },
+      "features": {
+        "thermostat": false,
+        "voice": true,
+        "tip": false,
+        "certified": true
+      },
+      "verdict": "Dreo's large-room wall heater, ETL listed.",
+      "pros": [
+        "4.5 stars",
+        "ETL listed",
+        "3,176 reviews"
+      ],
+      "cons": [
+        "Google isn't named in the bullets",
+        "$99.98",
+        "Thermostat isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B07JXRWJ8D",
+      "brand": "Heat Storm",
+      "model": "HS-1500-PHX-WIFI Infrared",
+      "systems": [],
+      "systems_label": "Heat Storm app",
+      "specs": {
+        "type": "Wall-mounted infrared",
+        "safety": "Tip-over protection",
+        "control": "Wi-Fi app",
+        "extras": "Thermostat"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": false,
+        "tip": true,
+        "certified": false
+      },
+      "verdict": "A long-running Wi-Fi infrared heater that mounts on the wall.",
+      "pros": [
+        "13,954 reviews",
+        "Thermostat",
+        "Wall mounted"
+      ],
+      "cons": [
+        "$149.99",
+        "Voice assistants aren't named in the bullets",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0CDQ1Y78W",
+      "brand": "GiveBest",
+      "model": "Smart Wall Heater 1500W",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Wall-style heater",
+        "safety": "Tip-over, ETL",
+        "control": "Wi-Fi app",
+        "extras": "Thermostat"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": false,
+        "tip": true,
+        "certified": true
+      },
+      "verdict": "A thermostat-controlled smart heater with tip-over protection.",
+      "pros": [
+        "Thermostat",
+        "Tip-over protection",
+        "ETL"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "$84.98",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0H93JB64R",
+      "brand": "FLANUR",
+      "model": "Smart Space Heater 1500W",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Portable heater",
+        "safety": "ETL",
+        "control": "App, Alexa, Google",
+        "extras": "Thermostat"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": true,
+        "tip": false,
+        "certified": true
+      },
+      "verdict": "The best value: thermostat, ETL, and both voice assistants for $58.99.",
+      "pros": [
+        "$58.99",
+        "Alexa and Google",
+        "Thermostat"
+      ],
+      "cons": [
+        "Only 786 reviews",
+        "Tip-over protection isn't in the bullets",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0G3PTSM57",
+      "brand": "FLANUR",
+      "model": "Large Room Smart Heater (5 modes)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Portable heater",
+        "safety": "ETL",
+        "control": "App, Alexa, Google",
+        "extras": "Thermostat, 5 modes"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": true,
+        "tip": false,
+        "certified": true
+      },
+      "verdict": "FLANUR's large-room model with five heat modes.",
+      "pros": [
+        "Alexa and Google",
+        "Thermostat",
+        "5 modes"
+      ],
+      "cons": [
+        "4.1 stars",
+        "$99.99",
+        "Only 339 reviews"
+      ]
+    },
+    {
+      "asin": "B0DHZ7HYQC",
+      "brand": "MORENTO",
+      "model": "Smart Space Heater",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Portable heater",
+        "safety": "Not stated in bullets",
+        "control": "App, Alexa, Google",
+        "extras": "Thermostat"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": true,
+        "tip": false,
+        "certified": false
+      },
+      "verdict": "A cheap thermostat heater with voice control.",
+      "pros": [
+        "$52.99",
+        "Alexa and Google",
+        "Thermostat"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Safety listings aren't in the bullets",
+        "Only 236 reviews"
+      ]
+    },
+    {
+      "asin": "B0FJF36X7D",
+      "brand": "Ballu",
+      "model": "Mica Infrared Panel Heater",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Mica panel, wall or floor",
+        "safety": "ETL",
+        "control": "App, Alexa",
+        "extras": "Programmable thermostat"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": true,
+        "tip": false,
+        "certified": true
+      },
+      "verdict": "A slim mica panel heater for large rooms, with a programmable thermostat.",
+      "pros": [
+        "Programmable thermostat",
+        "Wall or floor",
+        "ETL"
+      ],
+      "cons": [
+        "$189.99",
+        "Only 367 reviews",
+        "Google isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0FQ5WKDXK",
+      "brand": "SereneLife",
+      "model": "Smart Space Heater 1500W",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "type": "Portable heater",
+        "safety": "Tip-over",
+        "control": "App, remote",
+        "extras": "Thermostat, 12-hour timer"
+      },
+      "features": {
+        "thermostat": true,
+        "voice": false,
+        "tip": true,
+        "certified": false
+      },
+      "verdict": "The cheapest smart heater here, with tip-over protection.",
+      "pros": [
+        "$39.90",
+        "Tip-over protection",
+        "Remote included"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Voice assistants aren't named in the bullets",
+        "Only 288 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

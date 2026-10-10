@@ -1,0 +1,157 @@
+{
+  "feature_weights": {
+    "remote": 0.3,
+    "no_wiring": 0.35,
+    "rating": 0.35
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FF4VHCJV",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A Matter-certified garage controller with no hub or monthly fee, for $24.99."
+    },
+    {
+      "asin": "B0FX4G3ML2",
+      "label": "Best No-Wiring Install",
+      "kind": "special",
+      "why": "Retrofits with your existing remote instead of wiring to the opener."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FF4VHCJV",
+      "brand": "SwitchBot",
+      "model": "Smart Garage Door Opener (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Wired controller",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "No hub, no monthly fee"
+      },
+      "features": {
+        "remote": false,
+        "no_wiring": false,
+        "rating": true
+      },
+      "verdict": "The cheapest way to put a garage door into Apple Home, Google, or Alexa.",
+      "pros": [
+        "$24.99",
+        "No hub or monthly fee",
+        "Matter certified"
+      ],
+      "cons": [
+        "Only 78 reviews",
+        "4.1 stars",
+        "Wires to the opener"
+      ]
+    },
+    {
+      "asin": "B0F38C31H2",
+      "brand": "SwitchBot",
+      "model": "Smart Garage Door Opener with Remote (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Wired controller + remote",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Remote included, auto-close schedules"
+      },
+      "features": {
+        "remote": true,
+        "no_wiring": false,
+        "rating": true
+      },
+      "verdict": "The same controller plus a handheld remote for family members.",
+      "pros": [
+        "Remote included",
+        "Auto-close schedules",
+        "Names Home Assistant"
+      ],
+      "cons": [
+        "$44.99",
+        "4.1 stars",
+        "Wires to the opener"
+      ]
+    },
+    {
+      "asin": "B0FX4G3ML2",
+      "brand": "THIRDREALITY",
+      "model": "Smart Garage Door Opener (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit using your existing remote",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Sectional doors only"
+      },
+      "features": {
+        "remote": false,
+        "no_wiring": true,
+        "rating": false
+      },
+      "verdict": "Installs with your existing remote, so there's nothing to wire to the opener.",
+      "pros": [
+        "No opener wiring",
+        "Matter certified",
+        "Names Home Assistant and Homey"
+      ],
+      "cons": [
+        "Needs a Matter controller",
+        "Sectional (flip-up) doors only",
+        "4.0 stars"
+      ]
+    }
+  ],
+  "avoid": []
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "lutron-occupancy-sensors",
+  "family": "motion-sensors",
+  "family_title": "Motion sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Lutron Caseta Occupancy Sensors",
+  "subtitle": "Caseta motion sensors that turn your Lutron lights on and off, ranked.",
+  "intro": "We pulled Lutron's Caseta occupancy and vacancy sensors on Amazon and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 3000,
+  "feature_weights": {
+    "auto_on": 0.5,
+    "rating": 0.5
+  },
+  "systems_note": "Through a Lutron Smart Bridge. The sensors also pair straight to Caseta dimmers and switches without the bridge.",
+  "spec_fields": [
+    {
+      "key": "mode",
+      "label": "Mode"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "range",
+      "label": "Coverage"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "mode",
+      "label": "Mode"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B084CMPWST",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Turns Caseta lights on and off automatically, with a 10-year battery and 959 reviews."
+    },
+    {
+      "asin": "B084CMP3Q6",
+      "label": "Best for Bedrooms",
+      "kind": "special",
+      "why": "Vacancy mode: you switch lights on, it turns them off when you leave."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B084CMPWST",
+      "brand": "Lutron",
+      "model": "Caseta Occupancy Sensor (auto on/off)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "mode": "Occupancy: auto on, auto off",
+        "battery": "About 10 years",
+        "range": "180° view, controls devices within 60 ft"
+      },
+      "features": {
+        "auto_on": true,
+        "rating": true
+      },
+      "verdict": "Walk in and the lights come on; leave and they go off.",
+      "pros": [
+        "10-year battery",
+        "Controls any number of Caseta devices",
+        "Active hours in the app"
+      ],
+      "cons": [
+        "Caseta devices only",
+        "$54.95",
+        "App features need the Smart Bridge"
+      ],
+      "name": "Lutron Caseta Smart Lighting Auto On/Off Wireless Occupancy Motion Sensor",
+      "image": "https://m.media-amazon.com/images/I/51DNKb7rG5L._AC_SL1000_.jpg",
+      "price": 54.95,
+      "rating": 4.5,
+      "reviews_count": 959,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B084CMP3Q6",
+      "brand": "Lutron",
+      "model": "Caseta Vacancy Sensor (manual on, auto off)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "home-assistant"
+      ],
+      "specs": {
+        "mode": "Vacancy: manual on, auto off",
+        "battery": "About 10 years",
+        "range": "180° view, controls devices within 60 ft"
+      },
+      "features": {
+        "auto_on": false,
+        "rating": false
+      },
+      "verdict": "Only turns lights off, so nobody gets blinded at night.",
+      "pros": [
+        "Never turns lights on unexpectedly",
+        "10-year battery",
+        "Same sensing as the occupancy model"
+      ],
+      "cons": [
+        "4.1 stars from 25 reviews",
+        "Caseta devices only",
+        "$54.95"
+      ],
+      "name": "Lutron Caseta Smart Lighting Manual On, Auto Off Wireless Vacancy Sensor",
+      "image": "https://m.media-amazon.com/images/I/51q86gE14bL._AC_SL1000_.jpg",
+      "price": 54.95,
+      "rating": 4.1,
+      "reviews_count": 25,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Occupancy or vacancy?",
+      "a": "Occupancy mode turns lights on when you walk in and off when you leave. Vacancy mode only turns them off, so you switch them on yourself, which suits bedrooms."
+    },
+    {
+      "q": "Does it work without the bridge?",
+      "a": "It pairs straight to Caseta dimmers and switches without a bridge. With the bridge you can use it in the Lutron app and other automations."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}

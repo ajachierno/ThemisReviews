@@ -1,0 +1,478 @@
+{
+  "slug": "wifi-humidifiers",
+  "family": "humidifiers",
+  "family_title": "Humidifiers",
+  "noun": "humidifier",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Humidifiers",
+  "subtitle": "Wi-Fi humidifiers that hold a humidity target and alert you when they need water, ranked.",
+  "intro": "We pulled the smart humidifiers on Amazon and scored them on rating, review volume, and features: tank size, auto humidity mode, warm mist, and voice control.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "auto": 0.25,
+    "voice": 0.25,
+    "warm": 0.25,
+    "big": 0.25
+  },
+  "systems_note": "Levoit (VeSync) humidifiers work with Home Assistant's official VeSync integration; their listings here don't name Alexa or Google.",
+  "spec_fields": [
+    {
+      "key": "tank",
+      "label": "Tank"
+    },
+    {
+      "key": "coverage",
+      "label": "Room size"
+    },
+    {
+      "key": "mist",
+      "label": "Mist"
+    },
+    {
+      "key": "auto",
+      "label": "Auto humidity"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "tank",
+      "label": "Tank"
+    },
+    {
+      "key": "coverage",
+      "label": "Room"
+    },
+    {
+      "key": "mist",
+      "label": "Mist"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CCVX6FSD",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A quiet 4 L smart humidifier with Alexa and Google, rated 4.4 stars by 12,139 buyers."
+    },
+    {
+      "asin": "B0BT93MJ4G",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A top-fill 3 L smart humidifier with auto mode for $31.99, 6K+ bought last month."
+    },
+    {
+      "asin": "B0DT48R3BR",
+      "label": "Best for Large Rooms",
+      "kind": "premium",
+      "why": "8 L, warm or cool mist, 80-hour runtime, and voice control."
+    },
+    {
+      "asin": "B0GR9DHR8W",
+      "label": "Best Evaporative",
+      "kind": "special",
+      "why": "An evaporative model that can't over-humidify or leave white dust, at 19 dB."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CCVX6FSD",
+      "brand": "Dreo",
+      "model": "Smart Humidifier 4L",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "tank": "4 L",
+        "coverage": "Bedroom",
+        "mist": "Cool",
+        "auto": "Not stated in bullets"
+      },
+      "features": {
+        "auto": false,
+        "voice": true,
+        "warm": false,
+        "big": false
+      },
+      "verdict": "The bedroom humidifier to get: quiet, simple, and works with Alexa and Google.",
+      "pros": [
+        "12,139 reviews",
+        "Alexa and Google",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "Cool mist only",
+        "Auto mode isn't in the bullets",
+        "4 L"
+      ],
+      "name": "DREO Smart Humidifiers for Bedroom, 4L Cool Mist Humidifier",
+      "image": "https://m.media-amazon.com/images/I/71jt63GyBzL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 12139,
+      "bought": "5K+ bought in past month"
+    },
+    {
+      "asin": "B0BT93MJ4G",
+      "brand": "GoveeLife",
+      "model": "Smart Humidifier 3L",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "tank": "3 L, top fill",
+        "coverage": "Bedroom",
+        "mist": "Cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": true,
+        "warm": false,
+        "big": false
+      },
+      "verdict": "A cheap top-fill humidifier with auto humidity and voice control.",
+      "pros": [
+        "$31.99",
+        "Auto humidity",
+        "6K+ bought in the past month"
+      ],
+      "cons": [
+        "4.2 stars",
+        "3 L",
+        "Cool mist only"
+      ],
+      "name": "GoveeLife Smart Humidifiers for Bedroom, 3L Top Fill Cool Mist Humidifier",
+      "image": "https://m.media-amazon.com/images/I/610fMtFmX3L._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 4.2,
+      "reviews_count": 3580,
+      "bought": "6K+ bought in past month"
+    },
+    {
+      "asin": "B0C2GKJ9RT",
+      "brand": "Levoit",
+      "model": "Dual 200S (3L)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "tank": "3 L, top fill",
+        "coverage": "Bedroom",
+        "mist": "Cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": false,
+        "big": false
+      },
+      "verdict": "The most-reviewed smart humidifier, with an auto mode.",
+      "pros": [
+        "63,981 reviews",
+        "Auto mode",
+        "Quiet"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "3 L",
+        "$49.99"
+      ],
+      "name": "Levoit 3L Dual 200S Smart Humidifiers for Bedroom, Top Fill, Quiet, Blue",
+      "image": "https://m.media-amazon.com/images/I/71Qes8fKj+L._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 63981,
+      "bought": "800+ bought in past month"
+    },
+    {
+      "asin": "B0GR99R7XD",
+      "brand": "Levoit",
+      "model": "Smart Humidifier 6.2L",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "tank": "6.2 L",
+        "coverage": "Up to 536 sq. ft.",
+        "mist": "Cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": false,
+        "big": true
+      },
+      "verdict": "A big-tank Levoit for living rooms, at 26 dB.",
+      "pros": [
+        "6.2 L tank",
+        "26 dB",
+        "5K+ bought in the past month"
+      ],
+      "cons": [
+        "Cool mist only",
+        "Voice assistants aren't named in the bullets",
+        "$79.99"
+      ],
+      "name": "Levoit Humidifiers for Bedroom Large Room, 6.2L Tank, Smart App, Quiet 26dB",
+      "image": "https://m.media-amazon.com/images/I/615knBZlRKL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.4,
+      "reviews_count": 33360,
+      "bought": "5K+ bought in past month"
+    },
+    {
+      "asin": "B0CB4CK3ZS",
+      "brand": "Dreo",
+      "model": "Smart Humidifier 6L (warm and cool)",
+      "systems": [],
+      "systems_label": "Dreo app",
+      "specs": {
+        "tank": "6 L",
+        "coverage": "Up to 550 sq. ft.",
+        "mist": "Warm and cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": true,
+        "big": true
+      },
+      "verdict": "Warm or cool mist for a large room, with auto humidity.",
+      "pros": [
+        "Warm and cool mist",
+        "Auto humidity",
+        "5,679 reviews"
+      ],
+      "cons": [
+        "Voice control isn't in the bullets",
+        "4.3 stars",
+        "$79.93"
+      ],
+      "name": "DREO 6L Smart Humidifiers for Bedroom, Warm & Cool Mist for Large Room",
+      "image": "https://m.media-amazon.com/images/I/71fgjE1ag1L._AC_SL1500_.jpg",
+      "price": 79.93,
+      "rating": 4.3,
+      "reviews_count": 5679,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DHRD584W",
+      "brand": "GoveeLife",
+      "model": "Smart Humidifier 6L",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "tank": "6 L, top fill",
+        "coverage": "Up to 500 sq. ft.",
+        "mist": "Warm and cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": true,
+        "warm": true,
+        "big": true
+      },
+      "verdict": "Warm or cool mist, auto humidity, and voice control in one.",
+      "pros": [
+        "4.5 stars",
+        "Warm and cool mist",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "Only 570 reviews",
+        "$79.99",
+        "Govee Home app"
+      ],
+      "name": "GoveeLife Smart Humidifiers for Bedroom Large Room, 6L Top Fill Humidifier",
+      "image": "https://m.media-amazon.com/images/I/619sZqecEpL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviews_count": 570,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B095KGXPW5",
+      "brand": "Levoit",
+      "model": "LV600S (warm and cool)",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "tank": "Not stated in bullets",
+        "coverage": "Large room",
+        "mist": "Warm and cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": true,
+        "big": true
+      },
+      "verdict": "Levoit's warm-and-cool large-room model.",
+      "pros": [
+        "Warm and cool mist",
+        "Auto humidity",
+        "6,814 reviews"
+      ],
+      "cons": [
+        "$109",
+        "4.3 stars",
+        "Voice assistants aren't named in the bullets"
+      ],
+      "name": "Levoit LV600S Smart Warm&Cool Mist Humidifiers for Home Bedroom Large Room",
+      "image": "https://m.media-amazon.com/images/I/61KYLX9sJdL._AC_SL1500_.jpg",
+      "price": 109.0,
+      "rating": 4.3,
+      "reviews_count": 6814,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0DT48R3BR",
+      "brand": "Dreo",
+      "model": "HM717S Smart Humidifier 8L",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "tank": "8 L, 80-hour runtime",
+        "coverage": "Up to 600 sq. ft.",
+        "mist": "Warm and cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": true,
+        "warm": true,
+        "big": true
+      },
+      "verdict": "The large-room pick: 8 liters, warm or cool, and voice control.",
+      "pros": [
+        "80-hour runtime",
+        "Warm and cool mist",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$99.94",
+        "Only 950 reviews",
+        "Large footprint"
+      ],
+      "name": "DREO 8L Smart Humidifier Large Room, 80H Runtime, Warm & Cool Mist, HM717S",
+      "image": "https://m.media-amazon.com/images/I/71kEDiXRnRL._AC_SL1500_.jpg",
+      "price": 99.94,
+      "rating": 4.4,
+      "reviews_count": 950,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0GR9DHR8W",
+      "brand": "Levoit",
+      "model": "Superior Studio Evaporative",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "tank": "Not stated in bullets",
+        "coverage": "Up to 600 sq. ft.",
+        "mist": "Evaporative",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": false,
+        "big": true
+      },
+      "verdict": "Evaporative humidifying with no white dust, at a whisper-quiet 19 dB.",
+      "pros": [
+        "Evaporative, no white dust",
+        "19 dB",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "$139.99",
+        "Wick filters to replace",
+        "Only 294 reviews"
+      ],
+      "name": "Levoit Evaporative Humidifiers for Bedroom, 19dB, Superior Studio Smart",
+      "image": "https://m.media-amazon.com/images/I/81nt83Sft4L._AC_SL1500_.jpg",
+      "price": 139.99,
+      "rating": 4.3,
+      "reviews_count": 294,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GZWKMDLF",
+      "brand": "Dreo",
+      "model": "747S Smart Humidifier 11L",
+      "systems": [],
+      "systems_label": "Dreo app",
+      "specs": {
+        "tank": "11 L, 100-hour runtime",
+        "coverage": "Up to 700 sq. ft.",
+        "mist": "Cool",
+        "auto": "Yes"
+      },
+      "features": {
+        "auto": true,
+        "voice": false,
+        "warm": false,
+        "big": true
+      },
+      "verdict": "The biggest tank here, for open-plan spaces.",
+      "pros": [
+        "11 L, 100-hour runtime",
+        "21 dB",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Only 92 reviews",
+        "Voice control isn't in the bullets",
+        "$99.98"
+      ],
+      "name": "DREO 11L Smart Humidifier Large Room 700 ft², 100H Runtime, 21dB Quiet 747S",
+      "image": "https://m.media-amazon.com/images/I/61Y3tHPpGJL._AC_SL1500_.jpg",
+      "price": 99.98,
+      "rating": 4.4,
+      "reviews_count": 92,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What humidity should my home be?",
+      "a": "Aim for 40 to 50 percent. Below 30 percent, skin, sinuses, and wood floors dry out; above 60 percent, mold and dust mites thrive. A smart humidifier holds a target level automatically."
+    },
+    {
+      "q": "Warm mist or cool mist?",
+      "a": "Cool mist uses less power and is safer around kids. Warm mist feels nicer in winter and boils the water, but uses more electricity. Some models do both."
+    },
+    {
+      "q": "What does the smart part add?",
+      "a": "Remote control, schedules, a humidity target, refill and filter alerts, and voice control through Alexa or Google."
+    }
+  ]
+}

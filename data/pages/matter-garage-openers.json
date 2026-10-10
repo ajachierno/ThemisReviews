@@ -1,0 +1,203 @@
+{
+  "slug": "matter-garage-openers",
+  "family": "garage-openers",
+  "family_title": "Garage door openers",
+  "noun": "opener",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Garage Door Openers",
+  "subtitle": "Garage door controllers that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, ranked.",
+  "intro": "We pulled the smart garage door controllers on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "remote": 0.3,
+    "no_wiring": 0.35,
+    "rating": 0.35
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FF4VHCJV",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A Matter-certified garage controller with no hub or monthly fee, for $24.99."
+    },
+    {
+      "asin": "B0FX4G3ML2",
+      "label": "Best No-Wiring Install",
+      "kind": "special",
+      "why": "Retrofits with your existing remote instead of wiring to the opener."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FF4VHCJV",
+      "brand": "SwitchBot",
+      "model": "Smart Garage Door Opener (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Wired controller",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "No hub, no monthly fee"
+      },
+      "features": {
+        "remote": false,
+        "no_wiring": false,
+        "rating": true
+      },
+      "verdict": "The cheapest way to put a garage door into Apple Home, Google, or Alexa.",
+      "pros": [
+        "$24.99",
+        "No hub or monthly fee",
+        "Matter certified"
+      ],
+      "cons": [
+        "Only 78 reviews",
+        "4.1 stars",
+        "Wires to the opener"
+      ],
+      "name": "Switchbot WiFi Smart Garage Door Opener, Matter Certified, Alexa/Google/Siri/IFTTT/Smartthings Supported, Most Garage Door Supported, App Control, Multiple Notification Modes, No Hub Needed",
+      "image": "https://m.media-amazon.com/images/I/71Xbw1zzSqL._SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.1,
+      "reviews_count": 78,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0F38C31H2",
+      "brand": "SwitchBot",
+      "model": "Smart Garage Door Opener with Remote (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Wired controller + remote",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Remote included, auto-close schedules"
+      },
+      "features": {
+        "remote": true,
+        "no_wiring": false,
+        "rating": true
+      },
+      "verdict": "The same controller plus a handheld remote for family members.",
+      "pros": [
+        "Remote included",
+        "Auto-close schedules",
+        "Names Home Assistant"
+      ],
+      "cons": [
+        "$44.99",
+        "4.1 stars",
+        "Wires to the opener"
+      ],
+      "name": "Switchbot Smart Garage Door Opener w/Remote, Matter Certified, Alexa/Google/Siri/IFTTT/Smartthings Supported, Most Garage Door Supported, App&Remote Control, Multiple Notification Modes, No Hub Needed",
+      "image": "https://m.media-amazon.com/images/I/71rfWl4uMmL._SL1500_.jpg",
+      "price": 44.99,
+      "rating": 4.1,
+      "reviews_count": 78,
+      "bought": null
+    },
+    {
+      "asin": "B0FX4G3ML2",
+      "brand": "THIRDREALITY",
+      "model": "Smart Garage Door Opener (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Retrofit using your existing remote",
+        "radio": "Wi-Fi (Matter)",
+        "extras": "Sectional doors only"
+      },
+      "features": {
+        "remote": false,
+        "no_wiring": true,
+        "rating": false
+      },
+      "verdict": "Installs with your existing remote, so there's nothing to wire to the opener.",
+      "pros": [
+        "No opener wiring",
+        "Matter certified",
+        "Names Home Assistant and Homey"
+      ],
+      "cons": [
+        "Needs a Matter controller",
+        "Sectional (flip-up) doors only",
+        "4.0 stars"
+      ],
+      "name": "THIRDREALITY Smart Garage Door Opener, Matter Certified, Retrofit with Existing Remote, Compatible with Alexa, Apple Home, Google Home, SmartThings, Home Assistant & Homey",
+      "image": "https://m.media-amazon.com/images/I/51I+i5ZJ-lL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.0,
+      "reviews_count": 89,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Will it work with my garage door opener?",
+      "a": "Most controllers wire to the opener's wall-button terminals, which works with almost any opener with a standard push button. Newer openers with encrypted wall buttons may need an adapter; check the listing."
+    },
+    {
+      "q": "Is it safe to close the door remotely?",
+      "a": "Good controllers flash and beep before closing, as UL 325 requires, and use a tilt sensor to confirm the door's position. Never close a door you can't see without that warning."
+    },
+    {
+      "q": "Does it need a hub?",
+      "a": "Z-Wave controllers need a Z-Wave hub. Matter controllers work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant."
+    }
+  ]
+}

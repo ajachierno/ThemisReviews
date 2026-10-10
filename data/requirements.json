@@ -382,6 +382,18 @@
    "sub": false
   }
  },
+ "lutron-occupancy-sensors": {
+  "B084CMPWST": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B084CMP3Q6": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  }
+ },
  "lutron-pico-remotes": {
   "B00KLAXFQ0": {
    "neutral": "na",
@@ -439,6 +451,33 @@
    "sub": false
   }
  },
+ "lutron-plug-in-dimmers": {
+  "B00JJY1QG0": {
+   "neutral": "?",
+   "hub": true,
+   "sub": false
+  },
+  "B00KHSXB60": {
+   "neutral": "?",
+   "hub": true,
+   "sub": false
+  },
+  "B0777TC8QZ": {
+   "neutral": "?",
+   "hub": true,
+   "sub": false
+  },
+  "B011PHGURS": {
+   "neutral": "?",
+   "hub": true,
+   "sub": false
+  },
+  "B08Z4HK39S": {
+   "neutral": "?",
+   "hub": true,
+   "sub": false
+  }
+ },
  "matter-air-purifiers": {
   "B0DG5QLWP6": {
    "neutral": "na",
@@ -453,6 +492,43 @@
   "B0FNR95V9T": {
    "neutral": "na",
    "hub": false,
+   "sub": false
+  }
+ },
+ "matter-blinds": {
+  "B0D54KR9W7": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0FKGZTR9S": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0CQ1V35ZD": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0FG2C8W67": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0GSR94QV1": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0DJNKYKJG": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0G2B2WZ7L": {
+   "neutral": "na",
+   "hub": true,
    "sub": false
   }
  },
@@ -641,6 +717,23 @@
   "B0DR3C9D17": {
    "neutral": "na",
    "hub": true,
+   "sub": false
+  }
+ },
+ "matter-garage-openers": {
+  "B0FF4VHCJV": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0F38C31H2": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0FX4G3ML2": {
+   "neutral": "na",
+   "hub": false,
    "sub": false
   }
  },
@@ -1032,6 +1125,38 @@
   },
   "B0DNSBH62L": {
    "neutral": "yes",
+   "hub": false,
+   "sub": false
+  }
+ },
+ "matter-temperature-sensors": {
+  "B0DWSK5H33": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0CCP6HLN5": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0D81BVH6P": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0HB4LXMWL": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0DB8TJ2HH": {
+   "neutral": "na",
+   "hub": true,
+   "sub": false
+  },
+  "B0D817K9TL": {
+   "neutral": "na",
    "hub": false,
    "sub": false
   }
@@ -1758,6 +1883,58 @@
    "sub": false
   }
  },
+ "wifi-dehumidifiers": {
+  "B07NRDBBH5": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B073VBWKJZ": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GL7QFBJ9": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GL7R3RJV": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0BR7RHQB9": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GXYD5JBY": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0H42G5D34": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B08ZMY8BC8": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0DFZHBSZX": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GWQDR1PK": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  }
+ },
  "wifi-dimmers": {
   "B079775ZZQ": {
    "neutral": "yes",
@@ -2226,6 +2403,58 @@
    "sub": false
   },
   "B0DWSGD1XZ": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  }
+ },
+ "wifi-humidifiers": {
+  "B0CCVX6FSD": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0BT93MJ4G": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0C2GKJ9RT": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GR99R7XD": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0CB4CK3ZS": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0DHRD584W": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B095KGXPW5": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0DT48R3BR": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GR9DHR8W": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0GZWKMDLF": {
    "neutral": "na",
    "hub": false,
    "sub": false
@@ -2877,6 +3106,58 @@
    "sub": false
   }
  },
+ "wifi-power-strips": {
+  "B07G95FFN3": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0F5LNYTR7": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B083JKSSR5": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0CYGSFFFW": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0C453CLSY": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0CP4D62RX": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0B5G6MDQ6": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0DZWLRKGW": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B097NJ8Y4N": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0B9WQL3FD": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  }
+ },
  "wifi-presence-sensors": {
   "B0BXWZMQJ3": {
    "neutral": "na",
@@ -3305,6 +3586,53 @@
    "sub": false
   },
   "B00XV1RD0K": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  }
+ },
+ "wifi-space-heaters": {
+  "B0CBBR4TLX": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0D819MVKF": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B07JXRWJ8D": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0CDQ1Y78W": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0H93JB64R": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0G3PTSM57": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0DHZ7HYQC": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0FJF36X7D": {
+   "neutral": "na",
+   "hub": false,
+   "sub": false
+  },
+  "B0FQ5WKDXK": {
    "neutral": "na",
    "hub": false,
    "sub": false

@@ -1,0 +1,334 @@
+{
+  "slug": "matter-temperature-sensors",
+  "family": "temperature-sensors",
+  "family_title": "Temperature sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Temperature Sensors",
+  "subtitle": "Temperature and humidity sensors that work across every major smart home system, ranked.",
+  "intro": "We pulled the temperature and humidity sensors on Amazon whose listings name Matter support and scored them on rating, review volume, and features: display, accuracy, and battery life.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "display": 0.25,
+    "thread": 0.25,
+    "outdoor": 0.25,
+    "extra": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "measures",
+      "label": "Measures"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "measures",
+      "label": "Measures"
+    },
+    {
+      "key": "radio",
+      "label": "Connection"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DWSK5H33",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 400+ bought last month."
+    },
+    {
+      "asin": "B0CCP6HLN5",
+      "label": "Best Multi-Room Kit",
+      "kind": "special",
+      "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,123 reviews."
+    },
+    {
+      "asin": "B0D81BVH6P",
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "why": "Eve Weather adds barometric pressure and a weather trend for outside your door."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DWSK5H33",
+      "brand": "Aqara",
+      "model": "Climate Sensor W100",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "measures": "Temperature, humidity",
+        "radio": "Thread (Matter) or Zigbee",
+        "display": "Yes",
+        "extras": "3 buttons, 9 actions; remote for Aqara thermostats"
+      },
+      "features": {
+        "display": true,
+        "thread": true,
+        "outdoor": false,
+        "extra": true
+      },
+      "verdict": "A sensor and scene remote in one, on Thread or Zigbee.",
+      "pros": [
+        "Thread or Zigbee",
+        "Programmable buttons",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Some features need an Aqara hub",
+        "$39.99"
+      ],
+      "name": "Aqara Thread/Zigbee Smart Climate Sensor W100, Wireless Remote HVAC Control",
+      "image": "https://m.media-amazon.com/images/I/61VK0FifIdL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 3.8,
+      "reviews_count": 143,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0CCP6HLN5",
+      "brand": "SwitchBot",
+      "model": "4 outdoor sensors + Hub 2 (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "measures": "Temperature, humidity, dew point",
+        "radio": "Bluetooth sensors, Matter through Hub 2",
+        "display": "Hub 2 screen",
+        "extras": "IP65 sensors"
+      },
+      "features": {
+        "display": true,
+        "thread": false,
+        "outdoor": true,
+        "extra": true
+      },
+      "verdict": "Four weatherproof sensors and the hub that brings them into Matter.",
+      "pros": [
+        "4 IP65 sensors",
+        "Hub 2 included",
+        "10,123 reviews"
+      ],
+      "cons": [
+        "Sensors reach Matter only through the hub",
+        "$88.39",
+        "4.2 stars"
+      ],
+      "name": "SwitchBot Wi-Fi Humidity Sensor 4 Pack with Hub 2 (Matter Enabled), IP65 Indoor Outdoor Thermometer Wireless, Humidity/Temperature/Dewpoint/VPD Sensor with Smart Alerts, Compatible with Alexa",
+      "image": "https://m.media-amazon.com/images/I/61cw0AH6kYL._SL1500_.jpg",
+      "price": 88.39,
+      "rating": 4.2,
+      "reviews_count": 10123,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0D81BVH6P",
+      "brand": "Eve",
+      "model": "Weather (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "measures": "Temperature, humidity, pressure trend",
+        "radio": "Thread (Matter)",
+        "display": "Yes",
+        "extras": "Outdoor use"
+      },
+      "features": {
+        "display": true,
+        "thread": true,
+        "outdoor": true,
+        "extra": true
+      },
+      "verdict": "An outdoor Thread weather sensor you can ask Siri, Alexa, or Google about.",
+      "pros": [
+        "Outdoor rated",
+        "Barometric trend",
+        "Thread"
+      ],
+      "cons": [
+        "3.6 stars",
+        "Sold by a reseller, 6 left at capture time",
+        "$85"
+      ],
+      "name": "Eve Weather (Matter) – Smart Weather Station",
+      "image": "https://m.media-amazon.com/images/I/71ZnDrgPRvL._SL1500_.jpg",
+      "price": 85.0,
+      "rating": 3.6,
+      "reviews_count": 70,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0HB4LXMWL",
+      "brand": "mirsz",
+      "model": "Matter Temperature Humidity Sensor (LCD)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "measures": "Temperature (±0.2°C), humidity",
+        "radio": "Thread (Matter)",
+        "display": "LCD",
+        "extras": "Not stated in bullets"
+      },
+      "features": {
+        "display": true,
+        "thread": true,
+        "outdoor": false,
+        "extra": false
+      },
+      "verdict": "A cheap Thread sensor with a display and good stated accuracy.",
+      "pros": [
+        "$29.99",
+        "±0.2°C stated accuracy",
+        "LCD display"
+      ],
+      "cons": [
+        "Only 12 reviews",
+        "Unknown brand",
+        "Indoor only"
+      ],
+      "name": "Matter Temperature Humidity Sensor with LCD Display",
+      "image": "https://m.media-amazon.com/images/I/61YFSci3R1L._SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.2,
+      "reviews_count": 12,
+      "bought": null
+    },
+    {
+      "asin": "B0DB8TJ2HH",
+      "brand": "arre",
+      "model": "Temperature Humidity Air Pressure Sensor",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "measures": "Temperature, humidity, air pressure",
+        "radio": "Thread (Matter)",
+        "display": "Not stated in bullets",
+        "extras": "Matter certified"
+      },
+      "features": {
+        "display": false,
+        "thread": true,
+        "outdoor": false,
+        "extra": true
+      },
+      "verdict": "Adds air pressure, but buyers rate it poorly.",
+      "pros": [
+        "Air pressure too",
+        "Matter certified",
+        "Thread"
+      ],
+      "cons": [
+        "2.7 stars",
+        "$39.99",
+        "Alexa isn't named in the bullets"
+      ],
+      "name": "arre Temperature Humidity Air Pressure Sensor with Matter & Thread Support | Works with Apple Home HomeKit, Google Home & Samsung SmartThings",
+      "image": "https://m.media-amazon.com/images/I/61N6lmHAZjL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 2.7,
+      "reviews_count": 52,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0D817K9TL",
+      "brand": "Eve",
+      "model": "Weather (Matter), reseller listing",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "flag": "Same sensor, about $19 more",
+      "verdict": "This is the same Eve Weather (Matter) sold above, from a different reseller at $103.82 instead of $85.",
+      "reasons": [
+        "Listed at $103.82; the other Eve Weather (Matter) listing was $85 on the same day.",
+        "Sold by a third-party reseller.",
+        "3.5 stars from 135 reviews."
+      ],
+      "name": "Eve Weather (Matter) - weather station connected with temperature, humidity, weather trend, IPX4 water resistance, voice command access with Google/Alexa/Siri, requires hub",
+      "image": "https://m.media-amazon.com/images/I/71IPHw5UH2L._SL1500_.jpg",
+      "price": 103.82,
+      "rating": 3.5,
+      "reviews_count": 135,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Why a Matter temperature sensor?",
+      "a": "It reports to Apple Home, Google Home, Alexa, SmartThings, and Home Assistant at once, so you can trigger a fan, heater, or thermostat from any of them."
+    },
+    {
+      "q": "Thread or Wi-Fi?",
+      "a": "Thread sensors run for a year or more on a coin cell but need a Thread border router. Wi-Fi sensors use more power."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    }
+  ]
+}
