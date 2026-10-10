@@ -49,6 +49,10 @@ async def run(mode, out, items):
     if mode == "products" and os.path.exists(out):
         res = json.load(open(out, encoding="utf-8"))
         items = [i for i in items if i not in res or not res[i].get("title")]
+    if mode == "search" and os.path.exists(out):
+        res = json.load(open(out, encoding="utf-8"))          # resume: skip queries already captured
+        done = {r.get("query") for r in res}
+        items = [i for i in items if i not in done]
     async with async_playwright() as p:
         b = await p.chromium.launch(headless=False, channel="chrome",
                                     args=["--disable-blink-features=AutomationControlled", "--disable-background-timer-throttling", "--disable-renderer-backgrounding", "--disable-backgrounding-occluded-windows"])
@@ -64,11 +68,18 @@ async def run(mode, out, items):
         if mode == "search":
             for it in items:
                 for n in ((1,) if os.environ.get("ONEPAGE") else (1, 2)):
-                    await warm.goto(f"https://www.amazon.com/s?k={it.replace(' ', '+')}&page={n}", wait_until="domcontentloaded")
-                    await warm.wait_for_timeout(2500)
-                    rows = await warm.evaluate(SEARCH_JS)
+                    try:
+                        await warm.goto(f"https://www.amazon.com/s?k={it.replace(' ', '+')}&page={n}", wait_until="domcontentloaded")
+                        await warm.wait_for_timeout(2500)
+                        rows = await warm.evaluate(SEARCH_JS)
+                    except Exception as e:
+                        print(f"search {it!r} page {n} failed: {str(e)[:80]}", file=sys.stderr, flush=True)
+                        rows = []
                     for i, r in enumerate(rows): r.update(query=it, page=n, pos=i)
                     res += rows
+                    print(f"search {it!r} page {n}: {len(rows)} results", file=sys.stderr, flush=True)
+                json.dump(res, open(out, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+                await warm.wait_for_timeout(1500)
         else:
             import random
             pg = await ctx.new_page()

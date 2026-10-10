@@ -917,7 +917,37 @@ def gift_pick(pages, family, lo, hi, min_reviews, min_rating=0, used=(), skip_pa
     return pool[0][2:]
 
 
+def splurge_pick(pages, family, min_reviews, min_rating, window, used=(), skip_pages=(), skip_asins=()):
+    """Money-no-object pick: among the family's top scorers (within `window` points of the best
+    score, rating and review minimums met), the most premium product (highest price per item)."""
+    pool = []
+    for proto, sub, cat in pages:
+        if cat.get("family") != family or sub["slug"] in skip_pages:
+            continue
+        for p in cat["products"]:
+            if (p["reviews_count"] >= min_reviews and p["rating"] >= min_rating and p["asin"] not in used
+                    and p["asin"] not in skip_asins and p["brand"].lower() not in ("generic", "unbranded")):
+                pool.append((p, cat, sub))
+    if not pool:
+        return None
+    best = max(p["score"] for p, _c, _s in pool)
+    top = [x for x in pool if x[0]["score"] >= best - window]
+    # per item, so a 6-pack of sensors doesn't win on size; whole-kit families (a mesh system, an alarm kit) by kit price
+    whole = family in SEASONAL.get("splurge_kit_families", [])
+    top.sort(key=lambda x: (x[0]["price"] if whole else unit_price(x[0]), x[0]["score"]), reverse=True)
+    return top[0]
+
+
 def gift_picks(pages, cfg):
+    if cfg.get("pick") == "splurge":
+        out, used = [], set()
+        for fam in family_order(pages):
+            pick = splurge_pick(pages, fam, cfg.get("min_reviews", 0), cfg.get("min_rating", 0), cfg.get("score_window", 10),
+                                used, set(SEASONAL.get("gift_skip_pages", [])), set(SEASONAL.get("gift_skip_asins", [])))
+            if pick:
+                used.add(pick[0]["asin"])
+                out.append(pick)
+        return out
     lo, hi = cfg.get("min_price", 0), cfg["max_price"]
     out, used = [], set()
     for fam in family_order(pages):
@@ -945,7 +975,7 @@ def build_gift_page(site, cfg, pages):
     <h1>{esc(cfg['title'])}</h1>
     <p class="sub">{esc(cfg['subtitle'])}</p>
     <p class="intro">{esc(cfg['intro'])}</p>
-    <p class="muted tiny">{len(picks)} gifts, one per device type. Prices were captured from Amazon {span} and change often, so check the live price before you buy.</p>
+    <p class="muted tiny">{len(picks)} gifts, one per device type{', priciest first' if cfg.get('pick') == 'splurge' and cfg.get('sort_by_price') else ''}. Prices were captured from Amazon {span} and change often, so check the live price before you buy.</p>
   </section>
   <section id="gifts">{cards}</section>
   <section class="guide" id="guide"><h2>Gift-buying questions</h2>{render_faq(cfg.get('faq', []))}</section>

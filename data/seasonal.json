@@ -1,103 +1,133 @@
 {
-  "_readme": "Seasonal hub pages built by build.py from the ranked category pages, so picks update whenever a page does. Gift pages pick the best-scoring product per device family inside the price band (at least min_reviews reviews and min_rating stars, no unbranded listings). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap. gift_skip_pages / gift_skip_asins keep hobbyist gear (SDR sticks, ESP32 boards) and parts-only items (replacement sensors) off the gift pages.",
-  "gift_skip_pages": [
-    "rf-bridges",
-    "bluetooth-proxies",
-    "z-wave-controllers",
-    "zigbee-coordinators"
-  ],
-  "gift_skip_asins": [
-    "B00T0K8MNI",
-    "B00T0K8NXC",
-    "B0BLX7RQRG",
-    "B0BMTNC9DR",
-    "B0FMJD288B",
-    "B0G2LTBM1M",
-    "B0H5HYZ3LP",
-    "B0FMJH4DPN"
-  ],
-  "gifts": [
+ "_readme": "Seasonal hub pages built by build.py from the ranked category pages, so picks update whenever a page does. Gift pages pick the best-scoring product per device family inside the price band (at least min_reviews reviews and min_rating stars, no unbranded listings). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap. gift_skip_pages / gift_skip_asins keep hobbyist gear (SDR sticks, ESP32 boards) and parts-only items (replacement sensors) off the gift pages.",
+ "gift_skip_pages": [
+  "rf-bridges",
+  "bluetooth-proxies",
+  "z-wave-controllers",
+  "zigbee-coordinators"
+ ],
+ "gift_skip_asins": [
+  "B00T0K8MNI",
+  "B00T0K8NXC",
+  "B0BLX7RQRG",
+  "B0BMTNC9DR",
+  "B0FMJD288B",
+  "B0G2LTBM1M",
+  "B0H5HYZ3LP",
+  "B0FMJH4DPN"
+ ],
+ "gifts": [
+  {
+   "enabled": true,
+   "slug": "smart-home-gifts-under-50",
+   "label": "Smart Home Gifts Under $50",
+   "min_price": 0,
+   "max_price": 50,
+   "min_reviews": 100,
+   "title": "Best Smart Home Gifts Under $50 (2026)",
+   "subtitle": "The highest-rated smart home device in each category that costs $50 or less.",
+   "intro": "Every gift here is the top-scoring product under $50 in one of our ranked device categories, from smart plugs and bulbs to sensors, buttons, and trackers. We score each one on star rating, number of reviews, and the features that matter, and we only picked products rated 4.2 stars or higher with at least 100 reviews. The Works with icons show which smart home systems each gift fits, so check them against what the person already uses.",
+   "faq": [
     {
-      "enabled": true,
-      "slug": "smart-home-gifts-under-50",
-      "label": "Smart Home Gifts Under $50",
-      "min_price": 0,
-      "max_price": 50,
-      "min_reviews": 100,
-      "title": "Best Smart Home Gifts Under $50 (2026)",
-      "subtitle": "The highest-rated smart home device in each category that costs $50 or less.",
-      "intro": "Every gift here is the top-scoring product under $50 in one of our ranked device categories, from smart plugs and bulbs to sensors, buttons, and trackers. We score each one on star rating, number of reviews, and the features that matter, and we only picked products rated 4.2 stars or higher rated 4.2 stars or higher with at least 100 reviews. The Works with icons show which smart home systems each gift fits, so check them against what the person already uses.",
-      "faq": [
-        {
-          "q": "What is a good smart home gift under $50?",
-          "a": "For someone new to smart homes, a smart plug or a pack of smart bulbs is the easiest win: they work over Wi-Fi with Alexa or Google and need no hub. For someone who already has a system, a sensor, button, or tracker that matches their hub is a better fit."
-        },
-        {
-          "q": "How do I know it will work with their system?",
-          "a": "Look at the Works with icons on each pick. If you don't know what they use, Wi-Fi and Matter devices are the safest choices, because they work with the most platforms. Zigbee and Z-Wave devices need a compatible hub."
-        },
-        {
-          "q": "What if they already have it?",
-          "a": "Every gift links to Amazon, where you can add a gift receipt at checkout. Smart plugs, bulbs, and sensors are hard to own too many of, so they make safe picks."
-        }
-      ],
-      "min_rating": 4.2
+     "q": "What is a good smart home gift under $50?",
+     "a": "For someone new to smart homes, a smart plug or a pack of smart bulbs is the easiest win: they work over Wi-Fi with Alexa or Google and need no hub. For someone who already has a system, a sensor, button, or tracker that matches their hub is a better fit."
     },
     {
-      "enabled": true,
-      "slug": "smart-home-gifts-under-100",
-      "label": "Smart Home Gifts Under $100",
-      "min_price": 50.01,
-      "max_price": 100,
-      "min_reviews": 100,
-      "title": "Best Smart Home Gifts Under $100 (2026)",
-      "subtitle": "The highest-rated smart home device between $50 and $100 in each category.",
-      "intro": "Between $50 and $100 is where smart home gifts get serious: video doorbells, smart thermostats, starter kits, hubs, and smart locks. Every pick is the top-scoring product in that price range in one of our ranked categories, rated 4.2 stars or higher with at least 100 reviews. The Works with icons show which systems each one fits.",
-      "faq": [
-        {
-          "q": "What is the best smart home gift under $100?",
-          "a": "For most people, a video doorbell or a smart thermostat, because they get used every day. If they're just starting out, a hub-free starter kit, like a Lutron Caseta dimmer kit or a set of Matter plugs, is an easy first step."
-        },
-        {
-          "q": "Should I match the brand they already own?",
-          "a": "If you know their system, yes: pick a device with their system's icon. Matter devices work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, so they're the safe choice when you're not sure."
-        },
-        {
-          "q": "Where are the gifts under $50?",
-          "a": "They're on our Smart Home Gifts Under $50 page. This page only lists picks between $50 and $100, so the two pages don't repeat each other."
-        }
-      ],
-      "min_rating": 4.2
+     "q": "How do I know it will work with their system?",
+     "a": "Look at the Works with icons on each pick. If you don't know what they use, Wi-Fi and Matter devices are the safest choices, because they work with the most platforms. Zigbee and Z-Wave devices need a compatible hub."
+    },
+    {
+     "q": "What if they already have it?",
+     "a": "Every gift links to Amazon, where you can add a gift receipt at checkout. Smart plugs, bulbs, and sensors are hard to own too many of, so they make safe picks."
     }
-  ],
-  "black_friday": {
-    "enabled": true,
-    "link_from": "2026-11-15",
-    "slug": "black-friday-smart-home-deals",
-    "label": "Black Friday Smart Home Deals 2026",
-    "year": 2026,
-    "black_friday": "2026-11-27",
-    "cyber_monday": "2026-11-30",
-    "title": "Black Friday Smart Home Deals 2026: The Price to Beat",
-    "subtitle": "Our Best Overall and Best Budget pick on every page, with the regular price we last saw, so you can tell a real Black Friday deal from a fake one.",
-    "intro": "Black Friday falls on November 27, 2026, and Cyber Monday on November 30. Smart home prices on Amazon usually start dropping the week before, especially Amazon's own Echo and Ring devices, Google Nest, and big brands like TP-Link and eufy. The trick is knowing what a device normally costs, so below is every one of our top picks with the regular price we captured. If the Black Friday price is lower, it's a real deal. If it isn't, wait or buy something else.",
-    "faq": [
-      {
-        "q": "When is Black Friday 2026?",
-        "a": "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon usually starts early Black Friday pricing on smart home devices the week before."
-      },
-      {
-        "q": "Which smart home devices get the biggest Black Friday discounts?",
-        "a": "Amazon's own devices (Echo speakers, Echo Show, Ring doorbells and cameras, Blink) usually see the deepest cuts, along with Google Nest and multi-pack smart plugs and bulbs. Niche Z-Wave and Zigbee gear rarely goes on sale, so buy it when you need it."
-      },
-      {
-        "q": "Is it better to buy on Black Friday or Cyber Monday?",
-        "a": "Black Friday week usually has the widest selection. Cyber Monday often repeats the same prices and adds a few. If your pick hits a price you're happy with, buy it, because popular bundles can sell out."
-      },
-      {
-        "q": "Should I buy a bundle or a single device?",
-        "a": "Bundles like a doorbell plus chime, or a camera plus an Echo Show, are often where the real savings are. Check that you'll use every piece; a bundle is only a deal if you wanted the extras."
-      }
-    ]
+   ],
+   "min_rating": 4.2
+  },
+  {
+   "enabled": true,
+   "slug": "smart-home-gifts-under-100",
+   "label": "Smart Home Gifts Under $100",
+   "min_price": 50.01,
+   "max_price": 100,
+   "min_reviews": 100,
+   "title": "Best Smart Home Gifts Under $100 (2026)",
+   "subtitle": "The highest-rated smart home device between $50 and $100 in each category.",
+   "intro": "Between $50 and $100 is where smart home gifts get serious: video doorbells, smart thermostats, starter kits, hubs, and smart locks. Every pick is the top-scoring product in that price range in one of our ranked categories, rated 4.2 stars or higher with at least 100 reviews. The Works with icons show which systems each one fits.",
+   "faq": [
+    {
+     "q": "What is the best smart home gift under $100?",
+     "a": "For most people, a video doorbell or a smart thermostat, because they get used every day. If they're just starting out, a hub-free starter kit, like a Lutron Caseta dimmer kit or a set of Matter plugs, is an easy first step."
+    },
+    {
+     "q": "Should I match the brand they already own?",
+     "a": "If you know their system, yes: pick a device with their system's icon. Matter devices work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, so they're the safe choice when you're not sure."
+    },
+    {
+     "q": "Where are the gifts under $50?",
+     "a": "They're on our Smart Home Gifts Under $50 page. This page only lists picks between $50 and $100, so the two pages don't repeat each other."
+    }
+   ],
+   "min_rating": 4.2
+  },
+  {
+   "enabled": true,
+   "slug": "smart-home-gifts-money-no-object",
+   "label": "Smart Home Gifts: Money No Object",
+   "pick": "splurge",
+   "min_reviews": 50,
+   "min_rating": 4.2,
+   "score_window": 15,
+   "title": "Best Smart Home Gifts, Money No Object (2026)",
+   "subtitle": "The most premium top-rated pick in every smart home category we rank, with no price limit.",
+   "intro": "For the person who has everything, or the gift you'd buy yourself. In each device category we rank, we took the products that score within 15 points of the category's best, rated 4.2 stars or higher with at least 50 reviews, and picked the most premium one. Price was never a limit, but every pick still has to rank near the top on our scores. Check the Works with icons against the system they already use.",
+   "faq": [
+    {
+     "q": "Are the most expensive smart home devices worth it?",
+     "a": "Sometimes. Premium models usually add better build quality, more sensors, longer range, or support for more systems. But we only picked products that also score near the top of their category on ratings and features, so nothing here is expensive for the sake of it."
+    },
+    {
+     "q": "What's the best high-end smart home gift for someone who has everything?",
+     "a": "Pick something that upgrades a system they already use: a premium smart lock, a floodlight camera, a mesh router, or a top-end thermostat. The Works with icons tell you whether it fits their Alexa, Google, Apple Home, or Home Assistant setup."
+    },
+    {
+     "q": "Will a premium device work with their existing system?",
+     "a": "Check the Works with icons. Matter devices work with the widest range of systems. Zigbee and Z-Wave devices need a compatible hub, and some premium brands work best inside their own app."
+    }
+   ]
   }
+ ],
+ "black_friday": {
+  "enabled": true,
+  "link_from": "2026-11-15",
+  "slug": "black-friday-smart-home-deals",
+  "label": "Black Friday Smart Home Deals 2026",
+  "year": 2026,
+  "black_friday": "2026-11-27",
+  "cyber_monday": "2026-11-30",
+  "title": "Black Friday Smart Home Deals 2026: The Price to Beat",
+  "subtitle": "Our Best Overall and Best Budget pick on every page, with the regular price we last saw, so you can tell a real Black Friday deal from a fake one.",
+  "intro": "Black Friday falls on November 27, 2026, and Cyber Monday on November 30. Smart home prices on Amazon usually start dropping the week before, especially Amazon's own Echo and Ring devices, Google Nest, and big brands like TP-Link and eufy. The trick is knowing what a device normally costs, so below is every one of our top picks with the regular price we captured. If the Black Friday price is lower, it's a real deal. If it isn't, wait or buy something else.",
+  "faq": [
+   {
+    "q": "When is Black Friday 2026?",
+    "a": "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon usually starts early Black Friday pricing on smart home devices the week before."
+   },
+   {
+    "q": "Which smart home devices get the biggest Black Friday discounts?",
+    "a": "Amazon's own devices (Echo speakers, Echo Show, Ring doorbells and cameras, Blink) usually see the deepest cuts, along with Google Nest and multi-pack smart plugs and bulbs. Niche Z-Wave and Zigbee gear rarely goes on sale, so buy it when you need it."
+   },
+   {
+    "q": "Is it better to buy on Black Friday or Cyber Monday?",
+    "a": "Black Friday week usually has the widest selection. Cyber Monday often repeats the same prices and adds a few. If your pick hits a price you're happy with, buy it, because popular bundles can sell out."
+   },
+   {
+    "q": "Should I buy a bundle or a single device?",
+    "a": "Bundles like a doorbell plus chime, or a camera plus an Echo Show, are often where the real savings are. Check that you'll use every piece; a bundle is only a deal if you wanted the extras."
+   }
+  ]
+ },
+ "splurge_kit_families": [
+  "mesh-routers",
+  "security-systems"
+ ]
 }
