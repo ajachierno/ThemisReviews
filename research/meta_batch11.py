@@ -123,7 +123,7 @@ PAGES = {
         "Multi-camera NVR systems that record 24/7 without a subscription, ranked.",
         "We pulled the security camera systems on Amazon and scored them on rating, review volume, and features: resolution, number of cameras, storage, and PoE or Wi-Fi.",
         10000, CAMSYS_GUIDE),
-    "wifi-garage-door-openers": _p("garage-openers", "Garage door openers", "opener", "The Best Smart Garage Door Openers",
+    "wifi-garage-door-openers": _p("garage-opener-units", "Garage door opener units", "opener", "The Best Garage Door Openers with Built-In Wi-Fi",
         "Full garage door openers with Wi-Fi built in, ranked.",
         "We pulled the complete garage door openers on Amazon with built-in Wi-Fi and scored them on rating, review volume, and features: belt drive, battery backup, built-in camera, and smart home support.",
         5000, GDO_GUIDE),
