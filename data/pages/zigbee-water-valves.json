@@ -1,0 +1,277 @@
+{
+  "slug": "zigbee-water-valves",
+  "family": "water-valves",
+  "family_title": "Water shutoff valves",
+  "noun": "valve",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Zigbee Water Shutoff Valves",
+  "subtitle": "Zigbee valve controllers that shut off your water automatically when a leak is found, ranked.",
+  "intro": "We pulled the Zigbee water shutoff valves and valve controllers on Amazon and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "retrofit": 0.3,
+    "manual": 0.2,
+    "matter": 0.25,
+    "wide": 0.25
+  },
+  "systems_note": "Every valve here needs a Zigbee hub. Aqara's T1 needs an Aqara hub; the rest pair with any Zigbee 3.0 or Tuya hub.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pipes",
+      "label": "Pipe sizes"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pipes",
+      "label": "Pipes"
+    },
+    {
+      "key": "hub",
+      "label": "Hub"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DB8KS8Q3",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Aqara's T1 clamps onto your existing valve and reaches Apple Home, Google, and Alexa through Matter."
+    },
+    {
+      "asin": "B0DK5VQ29S",
+      "label": "Best Inline Valve",
+      "kind": "special",
+      "why": "A solid brass 3/4-inch motorized valve with a manual override."
+    },
+    {
+      "asin": "B0F1F9QBJJ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A Zigbee 3.0 valve controller for $36.99 that fits pipes up to 1-1/4 inch."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DB8KS8Q3",
+      "brand": "Aqara",
+      "model": "Valve Controller T1",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "homey",
+        "home-assistant"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "type": "Clamps onto existing valve",
+        "pipes": "1/2, 3/4, 1 in",
+        "hub": "Aqara Zigbee 3.0 hub",
+        "extras": "Matter over bridge, works with Aqara leak sensors"
+      },
+      "features": {
+        "retrofit": true,
+        "manual": true,
+        "matter": true,
+        "wide": false
+      },
+      "verdict": "The only valve here that reaches every major system, through Matter from the Aqara hub.",
+      "pros": [
+        "No plumbing work",
+        "Matter through the hub",
+        "401 reviews"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Aqara hub sold separately",
+        "$69.99"
+      ],
+      "name": "Aqara Smart Valve Controller T1,Matter Over Bridge, Zigbee 3.0 Hub Required",
+      "image": "https://m.media-amazon.com/images/I/61BakT-Hj7L._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 3.8,
+      "reviews_count": 401,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0DK5VQ29S",
+      "brand": "Reutov",
+      "model": "Zigbee Smart Water Shutoff Valve 3/4-inch",
+      "systems": [],
+      "systems_label": "Tuya hub",
+      "specs": {
+        "type": "Inline motorized brass valve",
+        "pipes": "3/4 in",
+        "hub": "Tuya Zigbee hub",
+        "extras": "IP55, manual override, power-off memory"
+      },
+      "features": {
+        "retrofit": false,
+        "manual": true,
+        "matter": false,
+        "wide": false
+      },
+      "verdict": "A real valve body, not a clamp-on, for a permanent main-line install.",
+      "pros": [
+        "Solid brass",
+        "Manual override knob",
+        "Closes within 17 seconds of a leak alert"
+      ],
+      "cons": [
+        "$147",
+        "Only 10 reviews",
+        "Needs a plumber"
+      ],
+      "name": "Zigbee Smart Water Shutoff Valve 3/4\"",
+      "image": "https://m.media-amazon.com/images/I/71dae-qE33L._AC_SL1500_.jpg",
+      "price": 147.0,
+      "rating": 4.2,
+      "reviews_count": 10,
+      "bought": null
+    },
+    {
+      "asin": "B0F1F9QBJJ",
+      "brand": "iSolartech",
+      "model": "Zigbee 3.0 Smart Water Valve (reinforced arm)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "google-home"
+      ],
+      "systems_label": "Tuya / Smart Life / SmartThings",
+      "specs": {
+        "type": "Clamps onto ball valve",
+        "pipes": "1/2 to 1-1/4 in",
+        "hub": "Zigbee 3.0 hub",
+        "extras": "Metal gear, reinforced mounting arm"
+      },
+      "features": {
+        "retrofit": true,
+        "manual": false,
+        "matter": false,
+        "wide": true
+      },
+      "verdict": "A cheap clamp-on controller for standard ball valves.",
+      "pros": [
+        "$36.99",
+        "Fits up to 1-1/4 in",
+        "Works offline over Zigbee"
+      ],
+      "cons": [
+        "Only 6 reviews",
+        "3.7 stars",
+        "Low stock"
+      ],
+      "name": "Upgrade Zigbee 3.0 Smart Water Valve Shutoff Reinforced Mounting Arm Durable Metal Gear (TUYA/SmartThings Hub), Alexa/Google Compatible, 2.4 GHz, Motorized Ball Valve Actuator",
+      "image": "https://m.media-amazon.com/images/I/617TLAQ8kyL._AC_SL1500_.jpg",
+      "price": 36.99,
+      "rating": 3.7,
+      "reviews_count": 6,
+      "bought": null
+    },
+    {
+      "asin": "B0G3WJGBZN",
+      "brand": "iSolartech",
+      "model": "Smart Valve PRO (Zigbee 3.0)",
+      "systems": [
+        "home-assistant",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey",
+        "google-home"
+      ],
+      "systems_label": "Tuya / Smart Life / SmartThings",
+      "specs": {
+        "type": "Clamps onto ball valve",
+        "pipes": "1/2 to 1-1/2 in",
+        "hub": "Zigbee 3.0 hub",
+        "extras": "Metal gear rated 5,000 cycles"
+      },
+      "features": {
+        "retrofit": true,
+        "manual": false,
+        "matter": false,
+        "wide": true
+      },
+      "verdict": "The PRO version fits larger pipes up to 1-1/2 inch.",
+      "pros": [
+        "Fits up to 1-1/2 in",
+        "5,000-cycle metal gear",
+        "$46.99"
+      ],
+      "cons": [
+        "1 review",
+        "Quarter-turn ball valves only",
+        "Lesser-known brand"
+      ],
+      "name": "Smart Valve PRO Zigbee 3.0 Motorized Ball Valve Metal Gear Tuya Smart Alexa Google Home iOS Android 2.4GHz Only",
+      "image": "https://m.media-amazon.com/images/I/71FsK6htITL._AC_SL1500_.jpg",
+      "price": 46.99,
+      "rating": 4.0,
+      "reviews_count": 1,
+      "bought": null
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DNM4YS2R",
+      "brand": "iSolartech",
+      "model": "Zigbee Ball Valve Manipulator (Tuya/SmartThings)",
+      "systems": [],
+      "flag": "Listing mixes versions",
+      "verdict": "Buy the reinforced-arm Zigbee 3.0 model instead; this listing can't decide which product it is.",
+      "reasons": [
+        "The title says a Zigbee hub is needed, but the bullets say \"For the Wi-Fi version, get connected within 1 second\"",
+        "3.2 stars",
+        "Only 6 reviews"
+      ],
+      "name": "Zigbee(TUYA/SmartThings HUB NEEDED) Ball Valve Smart Water Shutoff Manipulator with Durable Metal Gear Domotique Controller Compatible Alexa Google Works 2.4 GHz (TUYA ZIGBEE)",
+      "image": "https://m.media-amazon.com/images/I/71WrG1RvihL._AC_SL1500_.jpg",
+      "price": 36.99,
+      "rating": 3.2,
+      "reviews_count": 6,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How does a smart water valve work?",
+      "a": "A motorized actuator turns your main water valve (or replaces it), so you can shut water off from your phone or automatically when a leak sensor gets wet."
+    },
+    {
+      "q": "Do I need a plumber?",
+      "a": "Actuators that clamp onto an existing quarter-turn ball valve install without cutting a pipe. In-line valves need a plumber."
+    },
+    {
+      "q": "Does it need a hub?",
+      "a": "Z-Wave valves need a Z-Wave hub. Pair them with leak sensors on the same hub so a leak closes the valve automatically."
+    }
+  ]
+}

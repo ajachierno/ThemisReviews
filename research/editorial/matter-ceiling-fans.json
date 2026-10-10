@@ -1,0 +1,178 @@
+{
+  "feature_weights": {
+    "dc": 0.25,
+    "quiet": 0.25,
+    "bright": 0.25,
+    "big": 0.25
+  },
+  "systems_note": "Only listings that name Matter are included. Several other smart fans use the phrase \"no matter where you are\", which is not Matter support.",
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "airflow",
+      "label": "Airflow"
+    },
+    {
+      "key": "noise",
+      "label": "Noise"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "airflow",
+      "label": "Airflow"
+    },
+    {
+      "key": "noise",
+      "label": "Noise"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0GQGY896M",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's 52-inch flush-mount fan moves 5,000 CFM at 30 dB with a 2,800 lm light and Matter."
+    },
+    {
+      "asin": "B0GR3WJL89",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Matter certified, 52 inches, and 5,000 CFM for $129.99."
+    },
+    {
+      "asin": "B0GSXQFW4C",
+      "label": "Best for Small Rooms",
+      "kind": "special",
+      "why": "A 20-inch bladeless fandelier with an oscillating fan and 3,100 lm light."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0GQGY896M",
+      "brand": "Govee",
+      "model": "52-inch RGBIC Flush Mount Fan",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "52 in flush mount",
+        "airflow": "Up to 5,000 CFM",
+        "noise": "As low as 30 dB",
+        "light": "2,800 lm RGBWW + RGBICWW backlight"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "bright": true,
+        "big": true
+      },
+      "verdict": "A bright, quiet fan light with ambient color around the edge.",
+      "pros": [
+        "30 dB",
+        "2,800 lm main light",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "$159.99",
+        "Only 237 reviews",
+        "Flush mount only"
+      ]
+    },
+    {
+      "asin": "B0GR3WJL89",
+      "brand": "Linkind",
+      "model": "Matter 52-inch Smart Ceiling Fan",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "AiDot app",
+      "specs": {
+        "size": "52 in, downrod or flush",
+        "airflow": "Up to 5,000 CFM",
+        "noise": "45 dB or less",
+        "light": "32-zone RGB"
+      },
+      "features": {
+        "dc": true,
+        "quiet": false,
+        "bright": false,
+        "big": true
+      },
+      "verdict": "The cheapest Matter-certified fan, with a DC motor and a reverse mode.",
+      "pros": [
+        "Matter certified",
+        "$129.99",
+        "Angled ceilings up to 15°"
+      ],
+      "cons": [
+        "Doesn't work with wall dimmers or fan controllers",
+        "Only 24 reviews",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0GSXQFW4C",
+      "brand": "Govee",
+      "model": "20-inch RGBIC Fandelier",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "20 in bladeless",
+        "airflow": "Up to 1,000 CFM, 30° oscillation",
+        "noise": "As low as 30 dB",
+        "light": "3,100 lm + RGBIC"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "bright": true,
+        "big": false
+      },
+      "verdict": "A compact fan light that oscillates, for bedrooms and offices.",
+      "pros": [
+        "3,100 lm",
+        "Reversible DC motor",
+        "12 speeds"
+      ],
+      "cons": [
+        "1,000 CFM",
+        "Dual-layer lighting is app-only, not Matter",
+        "4.2 stars"
+      ]
+    }
+  ],
+  "avoid": []
+}

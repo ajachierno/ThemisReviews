@@ -1,0 +1,166 @@
+{
+  "slug": "z-wave-smoke-detectors",
+  "family": "smoke-detectors",
+  "family_title": "Smoke and CO detectors",
+  "noun": "alarm",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Z-Wave Smoke and CO Detectors",
+  "subtitle": "Smoke and CO alarms that report to your Z-Wave hub, ranked.",
+  "intro": "We pulled the Z-Wave smoke and carbon monoxide alarms on Amazon and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "co": 0.35,
+    "sealed": 0.25,
+    "lr": 0.2,
+    "relay": 0.2
+  },
+  "systems_note": "Both work with any Z-Wave hub. The First Alert alarm also works with Ring Alarm.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "detects",
+      "label": "Detects"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DY21V8MG",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A Z-Wave Plus smoke and CO alarm with a 10-year sealed battery, sold by Amazon."
+    },
+    {
+      "asin": "B0C7HVF4SJ",
+      "label": "Best for Wired Alarms",
+      "kind": "special",
+      "why": "Adds Z-Wave Long Range alerts to the hardwired, interconnected alarms you already have."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DY21V8MG",
+      "brand": "First Alert",
+      "model": "10-Year Battery Smoke & CO Alarm (Z-Wave Plus)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Standalone alarm",
+        "power": "10-year sealed battery",
+        "detects": "Smoke and CO",
+        "extras": "Works with Ring Alarm"
+      },
+      "features": {
+        "co": true,
+        "sealed": true,
+        "lr": false,
+        "relay": false
+      },
+      "verdict": "Replaces a ceiling alarm and reports smoke and CO to your hub.",
+      "pros": [
+        "Smoke and CO in one",
+        "No battery changes for 10 years",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "3.5 stars",
+        "Not interconnected with wired alarms",
+        "$64.98"
+      ],
+      "name": "First Alert 10-Year Battery Combination Smoke & Carbon Monoxide Alarm",
+      "image": "https://m.media-amazon.com/images/I/61v+PNYTKXL._AC_SL1500_.jpg",
+      "price": 64.98,
+      "rating": 3.5,
+      "reviews_count": 270,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0C7HVF4SJ",
+      "brand": "Zooz",
+      "model": "ZEN55 DC Signal Sensor (800 Series LR)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Add-on for wired alarms",
+        "power": "Wired",
+        "detects": "Whatever your alarms detect",
+        "extras": "120 V relay, Z-Wave Long Range"
+      },
+      "features": {
+        "co": true,
+        "sealed": false,
+        "lr": true,
+        "relay": true
+      },
+      "verdict": "Wires into one interconnected alarm so the whole system reports to your hub.",
+      "pros": [
+        "4.9 stars",
+        "Z-Wave Long Range",
+        "5-year warranty when registered"
+      ],
+      "cons": [
+        "Analog interconnected alarms only",
+        "Needs wiring",
+        "Only 60 reviews"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range DC Signal Sensor ZEN55 | for Use with Analog Smoke & CO Detectors Only | Z-Wave Hub Required (Sold Separately)",
+      "image": "https://m.media-amazon.com/images/I/418aWeQjh6L._SX342_SY445_QL70_FMwebp_.jpg",
+      "price": 44.95,
+      "rating": 4.9,
+      "reviews_count": 60,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Why a smart smoke detector on a hub?",
+      "a": "Your hub can alert your phone, flash lights, unlock doors, or shut off HVAC when the alarm sounds, even when nobody is home."
+    },
+    {
+      "q": "Do they replace hardwired interconnected alarms?",
+      "a": "Battery smart alarms add alerts, but if your home has hardwired interconnected alarms, code may require keeping them. Some smart models are hardwired replacements."
+    },
+    {
+      "q": "Smoke and CO in one?",
+      "a": "Combination alarms detect both, which saves ceiling space. Install CO alarms near bedrooms and on every level."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "matter-robot-vacuums",
+  "family": "robot-vacuums",
+  "family_title": "Robot vacuums",
+  "noun": "vacuum",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Robot Vacuums",
+  "subtitle": "Robot vacuums that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, ranked.",
+  "intro": "We pulled the robot vacuums on Amazon whose listings name Matter support and scored them on rating, review volume, and features: mopping, self-emptying bases, LiDAR navigation, and suction.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "mop": 0.3,
+    "self_empty": 0.3,
+    "lidar": 0.2,
+    "power": 0.2
+  },
+  "systems_note": "Only listings that name Matter are included. Other robot vacuums say they work with Siri, which means Siri Shortcuts, not Matter.",
+  "spec_fields": [
+    {
+      "key": "suction",
+      "label": "Suction"
+    },
+    {
+      "key": "dock",
+      "label": "Dock"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "suction",
+      "label": "Suction"
+    },
+    {
+      "key": "dock",
+      "label": "Dock"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FBRK76L8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "SwitchBot's K11+ joins Matter directly, empties itself for 90 days, and is the most-reviewed Matter vacuum."
+    },
+    {
+      "asin": "B0H7XCFZP8",
+      "label": "Most Powerful",
+      "kind": "premium",
+      "why": "Double the K11+'s suction at 12,000 Pa in the same compact body."
+    },
+    {
+      "asin": "B0F6CJ6G2Z",
+      "label": "Best Mopping",
+      "kind": "special",
+      "why": "A self-washing roller mop with hot-air drying."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FBRK76L8",
+      "brand": "SwitchBot",
+      "model": "K11+",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "6,000 Pa",
+        "dock": "Self-emptying, 4 L bag, about 90 days",
+        "nav": "LiDAR",
+        "extras": "3.6 in tall, anti-tangle brushes"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": true,
+        "power": false
+      },
+      "verdict": "A small, slim robot that shows up natively in Apple Home, Google, and Alexa.",
+      "pros": [
+        "Matter, no extra hub",
+        "90 days between emptying",
+        "$239.99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "6,000 Pa is modest",
+        "Only 314 reviews"
+      ],
+      "name": "SwitchBot K11+ Robot Vacuum & Mop with Matter, 6000Pa Suction, 90-Day Hands-Free Self-Emptying, LDS Navigation, 3.6″ Ultra-Slim, Anti-Tangle for Pet Hair, Works with Alexa, Google Home, Apple Home",
+      "image": "https://m.media-amazon.com/images/I/61ANDqWsOiL._AC_SL1500_.jpg",
+      "price": 239.99,
+      "rating": 4.0,
+      "reviews_count": 314,
+      "bought": null
+    },
+    {
+      "asin": "B0H7XCFZP8",
+      "brand": "SwitchBot",
+      "model": "K11+ Pro",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "12,000 Pa",
+        "dock": "Self-emptying, 4 L bag, about 90 days",
+        "nav": "LiDAR",
+        "extras": "9.8 in compact body"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": true,
+        "power": true
+      },
+      "verdict": "The K11+ with twice the suction, for pet hair in small apartments.",
+      "pros": [
+        "12,000 Pa",
+        "Compact 9.8 in body",
+        "Matter"
+      ],
+      "cons": [
+        "Only 6 reviews",
+        "$269.99",
+        "Small bin for big homes"
+      ],
+      "name": "SwitchBot K11+ Pro Compact Robot Vacuum and Mop, 12,000Pa, LiDAR Navigation, Dual Anti-Tangle for Pet Hair, 90-Day Self-Emptying, 4L Dust Bag, Matter-Compatible with Alexa, Google Home & Apple Home",
+      "image": "https://m.media-amazon.com/images/I/71UGWeTrxEL._AC_SL1500_.jpg",
+      "price": 269.99,
+      "rating": 4.5,
+      "reviews_count": 6,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0F6CJ6G2Z",
+      "brand": "SwitchBot",
+      "model": "S20",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "10,000 Pa",
+        "dock": "Washes and hot-air dries the roller mop",
+        "nav": "AI navigation",
+        "extras": "Optional auto water refill station"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": false,
+        "power": true
+      },
+      "verdict": "Built around mopping: a roller mop that rinses itself as it goes.",
+      "pros": [
+        "Self-cleaning roller mop",
+        "50°C hot-air drying",
+        "Optional water hookup"
+      ],
+      "cons": [
+        "3.3 stars",
+        "$309.99",
+        "Only 74 reviews"
+      ],
+      "name": "SwitchBot S20 Robot Vacuum and Mop with Matter, 10000Pa Powerful Suction, Roller Mop, AI Navigation, Auto Mop Washing & Drying, 90 Days Hands-Free, Self-Emptying, Works with AppleHome Alexa GoogleHome",
+      "image": "https://m.media-amazon.com/images/I/61kp6u+RfCL._AC_SL1500_.jpg",
+      "price": 309.99,
+      "rating": 3.3,
+      "reviews_count": 74,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What does Matter add to a robot vacuum?",
+      "a": "You can start, stop, and send it home from Apple Home, Google Home, Alexa, SmartThings, or Home Assistant, and use it in automations across systems. Mapping and room selection still live in the maker's app."
+    },
+    {
+      "q": "Do Matter vacuums need a hub?",
+      "a": "Wi-Fi Matter vacuums need a Matter controller such as an Apple TV, HomePod, Nest Hub, or Echo."
+    },
+    {
+      "q": "Self-emptying base: worth it?",
+      "a": "Yes, if you don't want to empty the bin every run. A base holds weeks of dust in a bag."
+    }
+  ]
+}

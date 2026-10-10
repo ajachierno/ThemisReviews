@@ -1,0 +1,178 @@
+{
+  "feature_weights": {
+    "mop": 0.3,
+    "self_empty": 0.3,
+    "lidar": 0.2,
+    "power": 0.2
+  },
+  "systems_note": "Only listings that name Matter are included. Other robot vacuums say they work with Siri, which means Siri Shortcuts, not Matter.",
+  "spec_fields": [
+    {
+      "key": "suction",
+      "label": "Suction"
+    },
+    {
+      "key": "dock",
+      "label": "Dock"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "suction",
+      "label": "Suction"
+    },
+    {
+      "key": "dock",
+      "label": "Dock"
+    },
+    {
+      "key": "nav",
+      "label": "Navigation"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FBRK76L8",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "SwitchBot's K11+ joins Matter directly, empties itself for 90 days, and is the most-reviewed Matter vacuum."
+    },
+    {
+      "asin": "B0H7XCFZP8",
+      "label": "Most Powerful",
+      "kind": "premium",
+      "why": "Double the K11+'s suction at 12,000 Pa in the same compact body."
+    },
+    {
+      "asin": "B0F6CJ6G2Z",
+      "label": "Best Mopping",
+      "kind": "special",
+      "why": "A self-washing roller mop with hot-air drying."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FBRK76L8",
+      "brand": "SwitchBot",
+      "model": "K11+",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "6,000 Pa",
+        "dock": "Self-emptying, 4 L bag, about 90 days",
+        "nav": "LiDAR",
+        "extras": "3.6 in tall, anti-tangle brushes"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": true,
+        "power": false
+      },
+      "verdict": "A small, slim robot that shows up natively in Apple Home, Google, and Alexa.",
+      "pros": [
+        "Matter, no extra hub",
+        "90 days between emptying",
+        "$239.99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "6,000 Pa is modest",
+        "Only 314 reviews"
+      ]
+    },
+    {
+      "asin": "B0H7XCFZP8",
+      "brand": "SwitchBot",
+      "model": "K11+ Pro",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "12,000 Pa",
+        "dock": "Self-emptying, 4 L bag, about 90 days",
+        "nav": "LiDAR",
+        "extras": "9.8 in compact body"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": true,
+        "power": true
+      },
+      "verdict": "The K11+ with twice the suction, for pet hair in small apartments.",
+      "pros": [
+        "12,000 Pa",
+        "Compact 9.8 in body",
+        "Matter"
+      ],
+      "cons": [
+        "Only 6 reviews",
+        "$269.99",
+        "Small bin for big homes"
+      ]
+    },
+    {
+      "asin": "B0F6CJ6G2Z",
+      "brand": "SwitchBot",
+      "model": "S20",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "suction": "10,000 Pa",
+        "dock": "Washes and hot-air dries the roller mop",
+        "nav": "AI navigation",
+        "extras": "Optional auto water refill station"
+      },
+      "features": {
+        "mop": true,
+        "self_empty": true,
+        "lidar": false,
+        "power": true
+      },
+      "verdict": "Built around mopping: a roller mop that rinses itself as it goes.",
+      "pros": [
+        "Self-cleaning roller mop",
+        "50°C hot-air drying",
+        "Optional water hookup"
+      ],
+      "cons": [
+        "3.3 stars",
+        "$309.99",
+        "Only 74 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

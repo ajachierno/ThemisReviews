@@ -1,0 +1,485 @@
+{
+  "slug": "wifi-fans",
+  "family": "fans",
+  "family_title": "Fans",
+  "noun": "fan",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Fans",
+  "subtitle": "Wi-Fi tower fans with app and voice control, ranked.",
+  "intro": "We pulled the smart tower fans on Amazon and scored them on rating, review volume, and features: quiet operation, DC motors, wide oscillation, and voice control.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "dc": 0.25,
+    "quiet": 0.3,
+    "wide": 0.2,
+    "voice": 0.25
+  },
+  "systems_note": "All of these fans run in their makers' apps; voice assistant support is listed per model.",
+  "spec_fields": [
+    {
+      "key": "height",
+      "label": "Height"
+    },
+    {
+      "key": "oscillation",
+      "label": "Oscillation"
+    },
+    {
+      "key": "noise",
+      "label": "Lowest noise"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "height",
+      "label": "Height"
+    },
+    {
+      "key": "oscillation",
+      "label": "Oscillation"
+    },
+    {
+      "key": "noise",
+      "label": "Noise"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09N3HKY79",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "DREO's 42-inch tower fan runs as quiet as 20 dB, works with Alexa and Google, and is rated 4.5 stars."
+    },
+    {
+      "asin": "B0BRKPCJ7P",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A smart DREO tower fan with Alexa and Google for $79.94, sold by Amazon."
+    },
+    {
+      "asin": "B0CS5YG5YV",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "GoveeLife's 42-inch fan oscillates 150°, has a built-in thermostat, and works with Siri too."
+    },
+    {
+      "asin": "B09M8PMW26",
+      "label": "Widest Coverage",
+      "kind": "special",
+      "why": "120° oscillation with 12 speeds and a brushless DC motor."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09N3HKY79",
+      "brand": "DREO",
+      "model": "42-inch Smart Tower Fan",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "DREO app",
+      "specs": {
+        "height": "42 in",
+        "oscillation": "90°",
+        "noise": "20 dB",
+        "extras": "12 speeds, 40 ft reach, tool-free washing"
+      },
+      "features": {
+        "dc": false,
+        "quiet": true,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "Tall, quiet enough for a bedroom, and it comes apart for washing without tools.",
+      "pros": [
+        "20 dB at its lowest",
+        "Washable without tools",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$119.99",
+        "90° oscillation",
+        "Motor type isn't in the bullets"
+      ],
+      "name": "DREO Smart 42'' Tower Fan for Bedroom, 12 Speeds, 20dB Quiet Standing Fan",
+      "image": "https://m.media-amazon.com/images/I/71dOQTuap6L._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.5,
+      "reviews_count": 29834,
+      "bought": "900+ bought in past month"
+    },
+    {
+      "asin": "B0BRKPCJ7P",
+      "brand": "DREO",
+      "model": "Smart Tower Fan (90°)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "DREO app",
+      "specs": {
+        "height": "Not stated in bullets",
+        "oscillation": "90°",
+        "noise": "28 dB",
+        "extras": "Auto mode adjusts to room temperature"
+      },
+      "features": {
+        "dc": false,
+        "quiet": true,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "The cheap way into a smart fan that changes speed with the room temperature.",
+      "pros": [
+        "$79.94",
+        "Auto temperature mode",
+        "Share with up to 8 people"
+      ],
+      "cons": [
+        "28 dB is louder than the premium models",
+        "90° oscillation",
+        "Height isn't in the bullets"
+      ],
+      "name": "DREO Smart Tower Fan for Bedroom, 90° Oscillating Fan, 26ft/s Wind, 28dB",
+      "image": "https://m.media-amazon.com/images/I/71KilhRg6yL._AC_SL1500_.jpg",
+      "price": 79.94,
+      "rating": 4.5,
+      "reviews_count": 29834,
+      "bought": "700+ bought in past month"
+    },
+    {
+      "asin": "B0BTY58CS4",
+      "brand": "DREO",
+      "model": "Smart Tower Fan (8 speeds)",
+      "systems": [],
+      "systems_label": "DREO app",
+      "specs": {
+        "height": "Not stated in bullets",
+        "oscillation": "Not stated in bullets",
+        "noise": "Not stated in bullets",
+        "extras": "Brushless DC motor, auto mode"
+      },
+      "features": {
+        "dc": true,
+        "quiet": false,
+        "wide": false,
+        "voice": false
+      },
+      "verdict": "DREO's most-reviewed fan, with a DC motor and app control.",
+      "pros": [
+        "95,114 reviews",
+        "Brushless DC motor",
+        "$79.93"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "8 speeds",
+        "Oscillation angle isn't in the bullets"
+      ],
+      "name": "DREO Smart Tower Fan for Bedroom, 28ft/s Velocity, 8 Speeds Ultra Quiet Fan",
+      "image": "https://m.media-amazon.com/images/I/71Nr3rT+LML._AC_SL1500_.jpg",
+      "price": 79.93,
+      "rating": 4.5,
+      "reviews_count": 95114,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B09M8PMW26",
+      "brand": "DREO",
+      "model": "Pilot Max Tower Fan (120°)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "DREO app",
+      "specs": {
+        "height": "Not stated in bullets",
+        "oscillation": "Up to 120°",
+        "noise": "Not stated in bullets",
+        "extras": "12 speeds, brushless DC motor"
+      },
+      "features": {
+        "dc": true,
+        "quiet": false,
+        "wide": true,
+        "voice": true
+      },
+      "verdict": "Sweeps 120°, so one fan covers a wide living room.",
+      "pros": [
+        "120° oscillation, adjustable",
+        "DC motor",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "$116.95",
+        "Noise level isn't in the bullets",
+        "Bladeless designs push less air than pedestal fans"
+      ],
+      "name": "DREO Smart Tower Fan for Bedroom, 120° Oscillating Fan, 12 Speeds",
+      "image": "https://m.media-amazon.com/images/I/71lLJhwij2L._AC_SL1500_.jpg",
+      "price": 116.95,
+      "rating": 4.5,
+      "reviews_count": 6828,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0DG8PNJDD",
+      "brand": "DREO",
+      "model": "Tower Fan 519S",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "DREO app",
+      "specs": {
+        "height": "Not stated in bullets",
+        "oscillation": "90°",
+        "noise": "Not stated in bullets",
+        "extras": "28 ft/s, brushless DC motor"
+      },
+      "features": {
+        "dc": true,
+        "quiet": false,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "42-inch-class airflow in a shorter body.",
+      "pros": [
+        "4.6 stars from 22,250 reviews",
+        "28 ft/s airflow",
+        "DC motor"
+      ],
+      "cons": [
+        "$109.99",
+        "90° oscillation",
+        "Noise level isn't in the bullets"
+      ],
+      "name": "DREO Smart Tower Fan for Bedroom, 90° Oscillating Bladeless Fan",
+      "image": "https://m.media-amazon.com/images/I/71vgZjQLQVL._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.6,
+      "reviews_count": 22250,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0CKQNHK1H",
+      "brand": "Levoit",
+      "model": "Smart Tower Fan (26 ft/s)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "height": "Not stated in bullets",
+        "oscillation": "Plus up-down wind",
+        "noise": "25 dB",
+        "extras": "12 speeds, brushless DC motor"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "The only fan here that also aims air up and down.",
+      "pros": [
+        "Up-down airflow",
+        "25 dB",
+        "VeSync app with other Levoit gear"
+      ],
+      "cons": [
+        "$129.99",
+        "4.4 stars",
+        "Oscillation angle isn't in the bullets"
+      ],
+      "name": "Levoit Tower Fan for Bedroom, 26ft/s Smart Standing Fans that Blow Cold Air",
+      "image": "https://m.media-amazon.com/images/I/515jsjCTVXL._AC_SL1200_.jpg",
+      "price": 129.99,
+      "rating": 4.4,
+      "reviews_count": 15023,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0CS5YG5YV",
+      "brand": "GoveeLife",
+      "model": "42-inch Tower Fan (150°)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "GoveeLife app",
+      "specs": {
+        "height": "42 in",
+        "oscillation": "30° to 150°",
+        "noise": "27 dB",
+        "extras": "Thermostat sensor, aroma pad, ambient light"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "wide": true,
+        "voice": true
+      },
+      "verdict": "The most features in one fan: thermostat mode, aroma pad, and a 150° sweep.",
+      "pros": [
+        "150° oscillation",
+        "Built-in temperature sensor",
+        "Works with Siri as well"
+      ],
+      "cons": [
+        "$179.99",
+        "2.4 GHz Wi-Fi only",
+        "Only 949 reviews"
+      ],
+      "name": "GoveeLife 42 in. Tower Fan, 150 Deg Oscillation, 5 Modes 12 Speeds, Silver",
+      "image": "https://m.media-amazon.com/images/I/61dWsEA5l-L._AC_SL1500_.jpg",
+      "price": 179.99,
+      "rating": 4.6,
+      "reviews_count": 949,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0DQQ1PX69",
+      "brand": "GoveeLife",
+      "model": "36-inch Tower Fan",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "GoveeLife app",
+      "specs": {
+        "height": "36 in",
+        "oscillation": "75°",
+        "noise": "29 dB",
+        "extras": "AC motor, 8 speeds"
+      },
+      "features": {
+        "dc": false,
+        "quiet": false,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "A shorter GoveeLife fan for a desk or nightstand corner.",
+      "pros": [
+        "$99.99",
+        "Alexa, Google, and Siri",
+        "600+ bought in the past month"
+      ],
+      "cons": [
+        "AC motor",
+        "75° oscillation",
+        "29 dB"
+      ],
+      "name": "GoveeLife 36 in. Black Tower Fan for Bedroom, 5 Modes 8 Speeds up to 25ft/s",
+      "image": "https://m.media-amazon.com/images/I/61M0yziaVlL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 722,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0DTP2M139",
+      "brand": "PELONIS",
+      "model": "40-inch Smart Bladeless Fan",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart Home app",
+      "specs": {
+        "height": "40 in",
+        "oscillation": "90°",
+        "noise": "22 dB",
+        "extras": "1,200 CFM, DC motor, 7-hour timer"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "A quiet bladeless fan with no exposed blades for homes with kids or pets.",
+      "pros": [
+        "22 dB",
+        "Bladeless",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "6 speeds",
+        "$144.94",
+        "Only 438 reviews"
+      ],
+      "name": "PELONIS 40\" Smart Bladeless Fan for Bedrrom - Tower Fan, Alexa/Google/WiFi, DC Motor, 6 Speeds, 4 Modes, Remote, 7H Timer, 90° Oscillation, Safe for Home and Office",
+      "image": "https://m.media-amazon.com/images/I/61zJG6rArtL._AC_SL1500_.jpg",
+      "price": 144.94,
+      "rating": 4.3,
+      "reviews_count": 438,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0F8Q1GY69",
+      "brand": "Della",
+      "model": "42-inch Smart Tower Fan",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "DELLA app",
+      "specs": {
+        "height": "42 in",
+        "oscillation": "90°",
+        "noise": "23 dB",
+        "extras": "1,950 CFM, 28 ft/s, DC motor, 18-month warranty"
+      },
+      "features": {
+        "dc": true,
+        "quiet": true,
+        "wide": false,
+        "voice": true
+      },
+      "verdict": "The most airflow listed here at a budget price.",
+      "pros": [
+        "1,950 CFM",
+        "4.6 stars",
+        "$79.96"
+      ],
+      "cons": [
+        "Only 252 reviews",
+        "Sold by a third party",
+        "90° oscillation"
+      ],
+      "name": "Della 42\" Smart Tower Fan, Ultra Quiet 23dB Cooling Fan with 12 Speeds, 90° Oscillating, 28ft/s Airflow, DC Motor, 24H Timer, Voice/App/Remote Control for Bedroom Office Living Room",
+      "image": "https://m.media-amazon.com/images/I/61IJZEdIKcL._AC_SL1500_.jpg",
+      "price": 79.96,
+      "rating": 4.6,
+      "reviews_count": 252,
+      "bought": "600+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Tower fan or pedestal fan?",
+      "a": "Tower fans are slim and quiet and suit bedrooms and offices. Pedestal fans move more air over a longer distance and suit larger rooms."
+    },
+    {
+      "q": "What does a smart fan add?",
+      "a": "App and voice control, schedules, and sometimes a temperature sensor that speeds up or slows down automatically."
+    },
+    {
+      "q": "DC motor or AC?",
+      "a": "DC motors are quieter, use less power, and offer more speed steps."
+    }
+  ]
+}

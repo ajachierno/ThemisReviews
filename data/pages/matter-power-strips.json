@@ -1,0 +1,217 @@
+{
+  "slug": "matter-power-strips",
+  "family": "power-strips",
+  "family_title": "Smart power strips",
+  "noun": "strip",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Power Strips",
+  "subtitle": "Smart power strips that work with Apple Home, Google Home, Alexa, and SmartThings, ranked.",
+  "intro": "We pulled the smart power strips on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "energy": 0.35,
+    "many": 0.25,
+    "usbc": 0.2,
+    "surge": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "outlets",
+      "label": "Smart outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "energy",
+      "label": "Energy monitoring"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "energy",
+      "label": "Energy"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0F5LNYTR7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Six individually controlled outlets with per-outlet energy monitoring and Matter for $39.99."
+    },
+    {
+      "asin": "B0H8Q1KJ13",
+      "label": "Best for Charging",
+      "kind": "special",
+      "why": "Two USB-C ports with 20 W PD, plus ETL and UL certification."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0F5LNYTR7",
+      "brand": "Tapo",
+      "model": "P316M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "outlets": "6, individually controlled",
+        "usb": "3 USB, always on",
+        "energy": "Per outlet",
+        "extras": "Surge protection, flat plug, 3 ft cord"
+      },
+      "features": {
+        "energy": true,
+        "many": true,
+        "usbc": false,
+        "surge": true
+      },
+      "verdict": "The clear pick: six smart outlets that each report their own energy use.",
+      "pros": [
+        "Per-outlet energy monitoring",
+        "Sold by Amazon",
+        "4.5 stars"
+      ],
+      "cons": [
+        "USB ports aren't switchable",
+        "3 ft cord",
+        "No USB-C"
+      ],
+      "name": "Tapo Smart Wi-Fi Power Strip, Matter, P316M, Energy Monitoring",
+      "image": "https://m.media-amazon.com/images/I/611LrgoYkvL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 345,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0H8Q1KJ13",
+      "brand": "Jinvoo",
+      "model": "Matter Smart Power Strip",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "outlets": "4, individually controlled",
+        "usb": "2 USB-C (20 W PD) + 2 USB-A",
+        "energy": "Not stated in bullets",
+        "extras": "Surge protection, ETL and UL, 5 ft cord"
+      },
+      "features": {
+        "energy": false,
+        "many": false,
+        "usbc": true,
+        "surge": true
+      },
+      "verdict": "A smaller strip with fast USB-C charging.",
+      "pros": [
+        "20 W USB-C PD",
+        "ETL and UL certified",
+        "5 ft cord"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "3.6 stars",
+        "Energy monitoring isn't in the bullets"
+      ],
+      "name": "Matter Smart Power Strip Surge Protector with USB-C Fast Charging 20W 5FT",
+      "image": "https://m.media-amazon.com/images/I/61Ak59flYCL._AC_SL1200_.jpg",
+      "price": 35.99,
+      "rating": 3.6,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0DYD7FKKB",
+      "brand": "UseeLink",
+      "model": "Matter Smart Power Strip",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "outlets": "4, individually controlled",
+        "usb": "2 USB + 2 USB-C",
+        "energy": "Not stated in bullets",
+        "extras": "Flat extension cord"
+      },
+      "features": {
+        "energy": false,
+        "many": false,
+        "usbc": true,
+        "surge": false
+      },
+      "verdict": "A basic four-outlet Matter strip with USB-C.",
+      "pros": [
+        "USB-C ports",
+        "Matter",
+        "$35.99"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 62 reviews",
+        "Surge protection isn't in the bullets"
+      ],
+      "name": "Matter Smart Power Strip,Works with Apple HomeKit, Siri, Alexa, Google Assistant, with 4 Individually Controlled AC Outlets, Multi-Plug Extender for Home Office (Matter Upgrade -White)",
+      "image": "https://m.media-amazon.com/images/I/61HAWVCZ4nL._AC_SL1200_.jpg",
+      "price": 35.99,
+      "rating": 3.8,
+      "reviews_count": 62,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Smart power strip or several smart plugs?",
+      "a": "A strip puts three to six individually controlled outlets, and usually USB ports, in one place, which suits a desk or entertainment center. Smart plugs suit single lamps spread around the house."
+    },
+    {
+      "q": "Does a smart power strip protect against surges?",
+      "a": "Only if the listing gives a joule rating. Many smart strips have surge protection, but some don't; check before plugging in a computer or TV."
+    },
+    {
+      "q": "Can each outlet be controlled separately?",
+      "a": "On most smart strips, yes: each outlet appears as its own switch in the app and in Alexa or Google. USB ports are usually switched together."
+    }
+  ]
+}

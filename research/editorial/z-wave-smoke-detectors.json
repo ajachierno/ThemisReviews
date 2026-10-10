@@ -1,0 +1,126 @@
+{
+  "feature_weights": {
+    "co": 0.35,
+    "sealed": 0.25,
+    "lr": 0.2,
+    "relay": 0.2
+  },
+  "systems_note": "Both work with any Z-Wave hub. The First Alert alarm also works with Ring Alarm.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "detects",
+      "label": "Detects"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "detects",
+      "label": "Detects"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DY21V8MG",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A Z-Wave Plus smoke and CO alarm with a 10-year sealed battery, sold by Amazon."
+    },
+    {
+      "asin": "B0C7HVF4SJ",
+      "label": "Best for Wired Alarms",
+      "kind": "special",
+      "why": "Adds Z-Wave Long Range alerts to the hardwired, interconnected alarms you already have."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DY21V8MG",
+      "brand": "First Alert",
+      "model": "10-Year Battery Smoke & CO Alarm (Z-Wave Plus)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Standalone alarm",
+        "power": "10-year sealed battery",
+        "detects": "Smoke and CO",
+        "extras": "Works with Ring Alarm"
+      },
+      "features": {
+        "co": true,
+        "sealed": true,
+        "lr": false,
+        "relay": false
+      },
+      "verdict": "Replaces a ceiling alarm and reports smoke and CO to your hub.",
+      "pros": [
+        "Smoke and CO in one",
+        "No battery changes for 10 years",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "3.5 stars",
+        "Not interconnected with wired alarms",
+        "$64.98"
+      ]
+    },
+    {
+      "asin": "B0C7HVF4SJ",
+      "brand": "Zooz",
+      "model": "ZEN55 DC Signal Sensor (800 Series LR)",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "type": "Add-on for wired alarms",
+        "power": "Wired",
+        "detects": "Whatever your alarms detect",
+        "extras": "120 V relay, Z-Wave Long Range"
+      },
+      "features": {
+        "co": true,
+        "sealed": false,
+        "lr": true,
+        "relay": true
+      },
+      "verdict": "Wires into one interconnected alarm so the whole system reports to your hub.",
+      "pros": [
+        "4.9 stars",
+        "Z-Wave Long Range",
+        "5-year warranty when registered"
+      ],
+      "cons": [
+        "Analog interconnected alarms only",
+        "Needs wiring",
+        "Only 60 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}

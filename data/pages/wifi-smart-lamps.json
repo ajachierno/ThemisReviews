@@ -1,0 +1,507 @@
+{
+  "slug": "wifi-smart-lamps",
+  "family": "lamps",
+  "family_title": "Lamps",
+  "noun": "lamp",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Floor Lamps",
+  "subtitle": "Wi-Fi floor lamps with color effects and voice control, ranked.",
+  "intro": "We pulled the smart floor lamps on Amazon and scored them on rating, review volume, and features: brightness, RGBIC effects, and Alexa, Google, and Matter support.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "matter": 0.3,
+    "bright": 0.25,
+    "white": 0.25,
+    "ic": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0F3NZ12GL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's uplighter combines a ripple projector, RGBIC color, and a 1,000 lm task light, with Matter, rated 4.6 stars."
+    },
+    {
+      "asin": "B0DNMV22L2",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A 1,500 lm color corner lamp with Alexa and Google for $34.82."
+    },
+    {
+      "asin": "B0BLSGHRXB",
+      "label": "Most Popular",
+      "kind": "special",
+      "why": "Govee's RGBIC corner lamp has 11,937 reviews and 3K+ bought last month."
+    },
+    {
+      "asin": "B0F43M9KWW",
+      "label": "Best for Reading",
+      "kind": "premium",
+      "why": "Three aimable heads with tunable white up to 1,500 lm, plus Matter."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0F3NZ12GL",
+      "brand": "Govee",
+      "model": "Uplighter Floor Lamp (ripple projector)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Uplighter",
+        "brightness": "1,000 lm task light",
+        "color": "RGBIC + 2,700K–6,500K",
+        "extras": "Ceiling ripple effect, 330° head"
+      },
+      "features": {
+        "matter": true,
+        "bright": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "Three lights in one: a ceiling ripple projector, a color column, and a reading light.",
+      "pros": [
+        "Matter and SmartThings",
+        "Tunable white for daily use",
+        "4K+ bought in the past month"
+      ],
+      "cons": [
+        "$125.99",
+        "Needs a tall ceiling for the ripples",
+        "App version 7.0.1 or later needed"
+      ],
+      "name": "Govee Uplighter Floor Lamp for Living Room, RGBIC Ripple Projector",
+      "image": "https://m.media-amazon.com/images/I/81bgKHOSSWL._AC_SL1500_.jpg",
+      "price": 125.99,
+      "rating": 4.6,
+      "reviews_count": 1421,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0F43M9KWW",
+      "brand": "Govee",
+      "model": "Tree Floor Lamp (3 heads)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Tree, 3 rotating heads",
+        "brightness": "1,500 lm (500 per head)",
+        "color": "16M colors + 2,700K–6,500K",
+        "extras": "Heads rotate 350°"
+      },
+      "features": {
+        "matter": true,
+        "bright": true,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "Aim one head at the chair and the others at the wall.",
+      "pros": [
+        "1,500 lm",
+        "Three aimable heads",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$118.99",
+        "Only 695 reviews",
+        "Takes more floor space"
+      ],
+      "name": "Govee Tree Floor Lamp with 3 Rotatable Lights, Compatible with Matter",
+      "image": "https://m.media-amazon.com/images/I/712q-hM2JbL._AC_SL1500_.jpg",
+      "price": 118.99,
+      "rating": 4.6,
+      "reviews_count": 695,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0GQTF4X6H",
+      "brand": "Govee",
+      "model": "Lantern Floor Lamp",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Lantern, silicone shade",
+        "brightness": "1,400 lm",
+        "color": "RGBIC + 1,000K–10,000K",
+        "extras": "Touch control on the shade"
+      },
+      "features": {
+        "matter": true,
+        "bright": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A soft glowing lantern that looks good switched off.",
+      "pros": [
+        "4.8 stars",
+        "Touch-sensitive shade",
+        "Matter"
+      ],
+      "cons": [
+        "Only 324 reviews",
+        "$99.99",
+        "Decor light more than reading light"
+      ],
+      "name": "Govee Lantern Floor Lamp, Halo Gradient RGBIC Smart Corner Lamp for Bedroom",
+      "image": "https://m.media-amazon.com/images/I/81+PY+wR8TL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.8,
+      "reviews_count": 324,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0GQXN36K5",
+      "brand": "Govee",
+      "model": "Floor Lamp 3 Lite",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "1,400 lm",
+        "color": "RGBICWW + 2,700K–6,500K",
+        "extras": "AI lighting effects"
+      },
+      "features": {
+        "matter": true,
+        "bright": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A corner lamp with real white LEDs, so it works as a room light too.",
+      "pros": [
+        "Warm and cool white LEDs",
+        "Matter and SmartThings",
+        "$79.99"
+      ],
+      "cons": [
+        "Only 175 reviews",
+        "4.5 stars",
+        "Corner use only"
+      ],
+      "name": "Govee Floor Lamp 3 Lite, Smart RGBIC LED Corner Lamp for Living Room",
+      "image": "https://m.media-amazon.com/images/I/714FRgmzB2L._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviews_count": 175,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0BLSGHRXB",
+      "brand": "Govee",
+      "model": "RGBIC Floor Lamp",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "1,000 lm",
+        "color": "RGBIC",
+        "extras": "Music sync, 85 scenes"
+      },
+      "features": {
+        "matter": false,
+        "bright": true,
+        "white": false,
+        "ic": true
+      },
+      "verdict": "The best-selling color corner lamp, for mood lighting behind a TV or desk.",
+      "pros": [
+        "11,937 reviews",
+        "$59.99",
+        "Music sync"
+      ],
+      "cons": [
+        "No Matter",
+        "No dedicated white LEDs",
+        "Corner use only"
+      ],
+      "name": "Govee RGBIC Floor Lamp, 1000lm LED Corner Lamp",
+      "image": "https://m.media-amazon.com/images/I/61CWTaNyTDL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews_count": 11937,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0DNMV22L2",
+      "brand": "Ailofy",
+      "model": "Corner Floor Lamp (1,500 lm)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Ailofy app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "1,500 lm",
+        "color": "RGBW",
+        "extras": "Music sync, 30+ scenes"
+      },
+      "features": {
+        "matter": false,
+        "bright": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A bright color corner lamp for about $35.",
+      "pros": [
+        "$34.82",
+        "1,500 lm",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "Only 268 reviews",
+        "Lesser-known brand",
+        "No Matter"
+      ],
+      "name": "Ailofy Corner Floor Lamp, 1500lm RGBW Corner Lamp Work with Alexa & Google Assistant, 16 Million DIY Colors, Sync with Music, App Control, Modern LED Floor Lamp for Living Room & Bedroom, Silver Grey",
+      "image": "https://m.media-amazon.com/images/I/71OnyqtQZkL._AC_SL1500_.jpg",
+      "price": 34.82,
+      "rating": 4.3,
+      "reviews_count": 268,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DB1739S4",
+      "brand": "Lanmonlily",
+      "model": "Corner Floor Lamp (RGBICW)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "Not stated in bullets",
+        "color": "RGBICW",
+        "extras": "Music sync, anti-tip base"
+      },
+      "features": {
+        "matter": false,
+        "bright": false,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A budget RGBIC corner lamp with a heavy anti-tip base.",
+      "pros": [
+        "$34.99",
+        "Anti-tip base",
+        "1,194 reviews"
+      ],
+      "cons": [
+        "Brightness isn't in the bullets",
+        "2.4 GHz Wi-Fi only",
+        "No Matter"
+      ],
+      "name": "Lanmonlily Corner Floor Lamp, Alexa Compatible, RGBICW, Music Sync",
+      "image": "https://m.media-amazon.com/images/I/71sc-ReXroL._AC_SL1500_.jpg",
+      "price": 34.99,
+      "rating": 4.3,
+      "reviews_count": 1194,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B09W8WLQ19",
+      "brand": "YHW",
+      "model": "Smart RGB Floor Lamp (2,000 lm)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Surplife app",
+      "specs": {
+        "style": "Standing pole",
+        "brightness": "2,000 lm",
+        "color": "RGB + 2,700K–6,500K",
+        "extras": "6.3 lb weighted base"
+      },
+      "features": {
+        "matter": false,
+        "bright": true,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "The brightest lamp here, bright enough to light a whole room.",
+      "pros": [
+        "2,000 lm",
+        "Weighted base",
+        "2,307 reviews"
+      ],
+      "cons": [
+        "Sold by a third party",
+        "Surplife app",
+        "4.2 stars"
+      ],
+      "name": "YHW Smart RGB LED Floor Lamp Works with Alexa Google Home, WiFi Remote Modern Tall Standing Light, Super Bright 2000LM Color Changing & Dimmable Sky Torchiere for Living Room, Bedroom (Black)",
+      "image": "https://m.media-amazon.com/images/I/61Xs0DVzPBL._AC_SL1496_.jpg",
+      "price": 49.99,
+      "rating": 4.2,
+      "reviews_count": 2307,
+      "bought": null
+    },
+    {
+      "asin": "B0C7784CT8",
+      "brand": "YHW",
+      "model": "Linen Shade Smart Floor Lamp",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "style": "Classic shade",
+        "brightness": "Not stated in bullets",
+        "color": "Color + 2,700K–6,500K",
+        "extras": "Remote, music sync"
+      },
+      "features": {
+        "matter": false,
+        "bright": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "A normal-looking linen-shade lamp with smart color inside.",
+      "pros": [
+        "Looks like a regular lamp",
+        "Remote included",
+        "Siri Shortcuts too"
+      ],
+      "cons": [
+        "Brightness isn't in the bullets",
+        "Only 429 reviews",
+        "Sold by a third party"
+      ],
+      "name": "YHW Floor lamp for Living Room Works with Alexa & Google, White Linen Lamp Shade LED Bright Tall Standing Smart Floor Lamp with Remote for Bedroom Office, Modern Color Changing Dimmable WiFi Light.",
+      "image": "https://m.media-amazon.com/images/I/61Ospgcy3sL._AC_SL1500_.jpg",
+      "price": 58.99,
+      "rating": 4.3,
+      "reviews_count": 429,
+      "bought": null
+    },
+    {
+      "asin": "B0BVPR7X3G",
+      "brand": "Tintlight",
+      "model": "Smart Floor Lamp with E26 Bulb",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Surplife app",
+      "specs": {
+        "style": "Classic shade",
+        "brightness": "800 lm bulb",
+        "color": "Color + 2,700K–6,500K",
+        "extras": "Remote and foot pedal"
+      },
+      "features": {
+        "matter": false,
+        "bright": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "A shade lamp with a replaceable E26 smart bulb, so you can upgrade the bulb later.",
+      "pros": [
+        "Standard E26 bulb",
+        "Foot pedal and remote",
+        "$49.99"
+      ],
+      "cons": [
+        "800 lm",
+        "4.1 stars",
+        "Surplife app"
+      ],
+      "name": "Smart Floor Lamp Works with Alexa & Google Home, Color Changing Stepless Dimmable for Living Room, Modern Standing WiFi Lamps with Remote, Minimalist Pole Lamp Tall Lights for Bedroom, Office-Black",
+      "image": "https://m.media-amazon.com/images/I/71PuxscTayL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.1,
+      "reviews_count": 330,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Smart lamp or a smart bulb in a regular lamp?",
+      "a": "A smart lamp builds the color effects into the fixture, often with segmented RGBIC light a single bulb can't do. A smart bulb is cheaper if you like the lamp you have."
+    },
+    {
+      "q": "Do smart lamps need a hub?",
+      "a": "Most Wi-Fi lamps connect straight to your router. Philips Hue lamps need the Hue Bridge for full features."
+    },
+    {
+      "q": "Can they light a whole room?",
+      "a": "Floor lamps with 1,000+ lumens can. Many color lamps are accent lights, so check the brightness if you need reading light."
+    }
+  ]
+}

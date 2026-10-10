@@ -1,0 +1,171 @@
+{
+  "feature_weights": {
+    "energy": 0.35,
+    "many": 0.25,
+    "usbc": 0.2,
+    "surge": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "outlets",
+      "label": "Smart outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "energy",
+      "label": "Energy monitoring"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "outlets",
+      "label": "Outlets"
+    },
+    {
+      "key": "usb",
+      "label": "USB"
+    },
+    {
+      "key": "energy",
+      "label": "Energy"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0F5LNYTR7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Six individually controlled outlets with per-outlet energy monitoring and Matter for $39.99."
+    },
+    {
+      "asin": "B0H8Q1KJ13",
+      "label": "Best for Charging",
+      "kind": "special",
+      "why": "Two USB-C ports with 20 W PD, plus ETL and UL certification."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0F5LNYTR7",
+      "brand": "Tapo",
+      "model": "P316M",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Tapo app",
+      "specs": {
+        "outlets": "6, individually controlled",
+        "usb": "3 USB, always on",
+        "energy": "Per outlet",
+        "extras": "Surge protection, flat plug, 3 ft cord"
+      },
+      "features": {
+        "energy": true,
+        "many": true,
+        "usbc": false,
+        "surge": true
+      },
+      "verdict": "The clear pick: six smart outlets that each report their own energy use.",
+      "pros": [
+        "Per-outlet energy monitoring",
+        "Sold by Amazon",
+        "4.5 stars"
+      ],
+      "cons": [
+        "USB ports aren't switchable",
+        "3 ft cord",
+        "No USB-C"
+      ]
+    },
+    {
+      "asin": "B0H8Q1KJ13",
+      "brand": "Jinvoo",
+      "model": "Matter Smart Power Strip",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "outlets": "4, individually controlled",
+        "usb": "2 USB-C (20 W PD) + 2 USB-A",
+        "energy": "Not stated in bullets",
+        "extras": "Surge protection, ETL and UL, 5 ft cord"
+      },
+      "features": {
+        "energy": false,
+        "many": false,
+        "usbc": true,
+        "surge": true
+      },
+      "verdict": "A smaller strip with fast USB-C charging.",
+      "pros": [
+        "20 W USB-C PD",
+        "ETL and UL certified",
+        "5 ft cord"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "3.6 stars",
+        "Energy monitoring isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DYD7FKKB",
+      "brand": "UseeLink",
+      "model": "Matter Smart Power Strip",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "outlets": "4, individually controlled",
+        "usb": "2 USB + 2 USB-C",
+        "energy": "Not stated in bullets",
+        "extras": "Flat extension cord"
+      },
+      "features": {
+        "energy": false,
+        "many": false,
+        "usbc": true,
+        "surge": false
+      },
+      "verdict": "A basic four-outlet Matter strip with USB-C.",
+      "pros": [
+        "USB-C ports",
+        "Matter",
+        "$35.99"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 62 reviews",
+        "Surge protection isn't in the bullets"
+      ]
+    }
+  ],
+  "avoid": []
+}
