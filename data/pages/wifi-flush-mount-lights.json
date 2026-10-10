@@ -1,0 +1,516 @@
+{
+  "slug": "wifi-flush-mount-lights",
+  "family": "ceiling-lights",
+  "family_title": "Ceiling lights",
+  "noun": "light",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Flush Mount Ceiling Lights",
+  "subtitle": "Wi-Fi flush mount ceiling lights with tunable white and color, ranked.",
+  "intro": "We pulled the smart flush mount ceiling lights on Amazon and scored them on rating, review volume, and features: brightness, color and tunable white, and voice control.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "bright": 0.3,
+    "matter": 0.25,
+    "white": 0.25,
+    "ic": 0.2
+  },
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CRV5F1VB",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's 12-inch ceiling light puts out 2,400 lm with Matter, rated 4.6 stars by 2,003 buyers."
+    },
+    {
+      "asin": "B0C7VPW49D",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Two 12-inch color ceiling lights with Alexa and Google for $49.99."
+    },
+    {
+      "asin": "B0GSYPZ4L5",
+      "label": "Best for Living Rooms",
+      "kind": "special",
+      "why": "An 18-inch, 4,800 lm Govee light for spaces up to about 320 sq ft."
+    },
+    {
+      "asin": "B0GR9VMV71",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "5,000 lm, 616 RGBIC LEDs, and CRI 95 warm white."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CRV5F1VB",
+      "brand": "Govee",
+      "model": "Smart Ceiling Light 12-inch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "12 in",
+        "brightness": "2,400 lm",
+        "color": "RGBWW main, RGBIC backlight",
+        "extras": "Circadian lighting schedule"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A bright, cheap ceiling light with a color halo and Matter.",
+      "pros": [
+        "4.6 stars from 2,003 reviews",
+        "Matter and SmartThings",
+        "$44.99"
+      ],
+      "cons": [
+        "Not compatible with wall dimmers or smart switches",
+        "12 in suits smaller rooms",
+        "Govee app for effects"
+      ],
+      "name": "Govee Smart Ceiling Light, RGBIC 2400LM 2700K-6500K 12 Inch 1 Pack White",
+      "image": "https://m.media-amazon.com/images/I/61c0mddIcSL._AC_SL1500_.jpg",
+      "price": 44.99,
+      "rating": 4.6,
+      "reviews_count": 2003,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0F1N5HPVH",
+      "brand": "Govee",
+      "model": "Smart Ceiling Light 15-inch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "15 in",
+        "brightness": "4,300 lm",
+        "color": "RGBIC, 121 segments",
+        "extras": "Twist-on mounting plate"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "Nearly twice the light of the 12-inch, with segmented color across the whole face.",
+      "pros": [
+        "4,300 lm",
+        "121 color segments",
+        "Matter"
+      ],
+      "cons": [
+        "$89.99",
+        "Not compatible with wall dimmers",
+        "Only 555 reviews"
+      ],
+      "name": "Govee Smart Ceiling Light 4300LM 15 Inch, RGBIC 2700K-6500K 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/71R9BRI2yBL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.6,
+      "reviews_count": 555,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0GSYPZ4L5",
+      "brand": "Govee",
+      "model": "Smart Ceiling Light Pro 18-inch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "18 in",
+        "brightness": "4,800 lm",
+        "color": "RGBIC, 200 LEDs",
+        "extras": "Main and backlight work separately"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A big living room light with a separate task light and ambient glow.",
+      "pros": [
+        "4,800 lm",
+        "Matter and SmartThings",
+        "100+ lighting effects"
+      ],
+      "cons": [
+        "$129.99",
+        "Not compatible with wall dimmers",
+        "Large fixture"
+      ],
+      "name": "Govee Smart Ceiling Light Pro, RGBIC 4800LM 2700K-6500K 18 Inch 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61q8RyXPRSL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.6,
+      "reviews_count": 555,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0GR9VMV71",
+      "brand": "Govee",
+      "model": "Ceiling Light Ultra 21-inch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "size": "21 in",
+        "brightness": "5,000 lm",
+        "color": "RGBIC, 616 LEDs, CRI 95",
+        "extras": "Daysync adaptive lighting, AI effects"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "The brightest and most accurate light here, with pixel-level effects.",
+      "pros": [
+        "5,000 lm",
+        "CRI 95 warm white",
+        "Adaptive lighting through the day"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 86 reviews",
+        "Effects need the Govee app"
+      ],
+      "name": "Govee Ceiling Light Ultra 21 Inch, 5000LM Smart Flush Mount Ceiling Light",
+      "image": "https://m.media-amazon.com/images/I/71rLxNZ587L._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.6,
+      "reviews_count": 86,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0H1J192F3",
+      "brand": "SwitchBot",
+      "model": "RGBICWW Ceiling Light 12-inch",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "size": "12 in",
+        "brightness": "2,000 lm",
+        "color": "RGBICWW, 2,700K–6,500K",
+        "extras": "Matter certified, no hub"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "A Matter-certified light that joins Apple Home or Home Assistant without a SwitchBot hub.",
+      "pros": [
+        "Matter certified",
+        "Works with Home Assistant",
+        "$49.99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 74 reviews",
+        "2,000 lm"
+      ],
+      "name": "SwitchBot RGBICWW Ceiling Light 12 Inch, Matter Certified LED Flush Mount Light Fixture, 2000LM, No Hub Required, 2700K-6500K Dimmable, Works with Apple Home and Alexa, CRI 90+, for Bedroom Kitchen",
+      "image": "https://m.media-amazon.com/images/I/51eAd9zeFIL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.0,
+      "reviews_count": 74,
+      "bought": null
+    },
+    {
+      "asin": "B0H6N18HKY",
+      "brand": "LIFX",
+      "model": "13-inch Smart Ceiling Light",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "LIFX app",
+      "specs": {
+        "size": "13 in",
+        "brightness": "2,000 lm",
+        "color": "RGBW, 1,500K–9,000K, 56 zones",
+        "extras": "90 CRI, HomeKit certified"
+      },
+      "features": {
+        "bright": true,
+        "matter": true,
+        "white": true,
+        "ic": true
+      },
+      "verdict": "LIFX quality in a ceiling fixture: 56 color zones and the widest white range here.",
+      "pros": [
+        "56 color zones",
+        "1,500K–9,000K white",
+        "HomeKit certified and Matter"
+      ],
+      "cons": [
+        "Only 12 reviews",
+        "$89.99",
+        "2,000 lm"
+      ],
+      "name": "LIFX 13in Smart Ceiling Light, RGB, 2000lm, Matter, Apple Home, Black Trim",
+      "image": "https://m.media-amazon.com/images/I/61cmNc39a1L._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 5.0,
+      "reviews_count": 12,
+      "bought": null
+    },
+    {
+      "asin": "B0C7VPW49D",
+      "brand": "MELEGAN",
+      "model": "12-inch Smart RGB Flush Mount (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart app",
+      "specs": {
+        "size": "12 in",
+        "brightness": "Not stated in bullets",
+        "color": "RGB backlight, 2,700K–6,500K main",
+        "extras": "24 W, music sync"
+      },
+      "features": {
+        "bright": false,
+        "matter": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "Two smart ceiling lights for the price of one Govee.",
+      "pros": [
+        "2-pack for $49.99",
+        "Alexa and Google",
+        "Music sync"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "Brightness isn't in the bullets",
+        "Only 379 reviews"
+      ],
+      "name": "MELEGAN 12 Inch Smart RGB LED Flush Mount Ceiling Light (2 Pcs)",
+      "image": "https://m.media-amazon.com/images/I/61KfDxyFbPL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.3,
+      "reviews_count": 379,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0DD7KV38V",
+      "brand": "BLNAN",
+      "model": "13-inch Smart RGB Flush Mount",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "size": "13 in, 0.62 in thick",
+        "brightness": "2,400 lm",
+        "color": "RGB, 3,000K–6,500K",
+        "extras": "Remote, night light mode"
+      },
+      "features": {
+        "bright": true,
+        "matter": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "An ultra-slim fixture for low or popcorn ceilings.",
+      "pros": [
+        "0.62 in thick",
+        "2,400 lm",
+        "Remote included"
+      ],
+      "cons": [
+        "Needs Bluetooth and Wi-Fi for setup",
+        "Smart Life app",
+        "Only 248 reviews"
+      ],
+      "name": "BLNAN Smart RGB LED Flush Mount Ceiling Light with Remote, 13 Inch 24W Dimmable Color Changing Low Profile Wired White Fixture, Works with Alexa Google Home App for Bedroom Living Kids Room Party",
+      "image": "https://m.media-amazon.com/images/I/71+BGLly1SL._AC_SL1500_.jpg",
+      "price": 42.99,
+      "rating": 4.5,
+      "reviews_count": 248,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B07WY3VM1M",
+      "brand": "TALOYA",
+      "model": "Smart Ceiling Light 12-inch",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "size": "12 in",
+        "brightness": "20 W white",
+        "color": "RGB night light",
+        "extras": "Front and back light, one at a time"
+      },
+      "features": {
+        "bright": false,
+        "matter": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "A popular budget fixture with a separate color night light.",
+      "pros": [
+        "3,814 reviews",
+        "$39.98",
+        "Color night light"
+      ],
+      "cons": [
+        "White and color can't be on together",
+        "Alexa only",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "TALOYA Smart Ceiling Light,Main Light and RGB Night Light Dimmable,12 Inch",
+      "image": "https://m.media-amazon.com/images/I/61G42XduTlL._AC_SL1500_.jpg",
+      "price": 39.98,
+      "rating": 4.2,
+      "reviews_count": 3814,
+      "bought": null
+    },
+    {
+      "asin": "B082VXG9RG",
+      "brand": "Globe Electric",
+      "model": "60839 Wi-Fi Flush Mount 11-inch",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Globe Suite app",
+      "specs": {
+        "size": "11 in",
+        "brightness": "16 W",
+        "color": "Multicolor + tunable white",
+        "extras": "Energy Star, vacation mode"
+      },
+      "features": {
+        "bright": false,
+        "matter": false,
+        "white": true,
+        "ic": false
+      },
+      "verdict": "A traditional brushed-nickel look with smart color inside.",
+      "pros": [
+        "Classic brushed-nickel design",
+        "Energy Star",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Globe Suite app",
+        "16 W"
+      ],
+      "name": "Globe Electric 60839 Wi-Fi Smart 11\" Flush Mount Ceiling Light, Brushed Nickel, No Hub Required, Voice Activated, Energy Star, 16 W, Multicolor Changing RGB, White 2000K - 5000K, 1120 Lumens, 80 CRI",
+      "image": "https://m.media-amazon.com/images/I/616PkjjIvtL._AC_SL1500_.jpg",
+      "price": 56.99,
+      "rating": 3.9,
+      "reviews_count": 317,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Smart recessed lights or smart bulbs?",
+      "a": "Wafer-style smart recessed lights replace the whole can and sit almost flush with the ceiling, so they suit new installs and remodels. Smart bulbs or retrofit downlights suit existing cans."
+    },
+    {
+      "q": "Do they need a neutral wire or special switch?",
+      "a": "The lights hold the smarts, so keep the wall switch on or replace it with a smart switch that supports smart bulbs. Wiring a dimmer in front of smart lights can cause flicker."
+    },
+    {
+      "q": "Do they need a hub?",
+      "a": "Wi-Fi lights connect straight to your router. Hue fixtures need the Hue Bridge."
+    }
+  ]
+}

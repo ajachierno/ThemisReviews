@@ -1,0 +1,386 @@
+{
+  "slug": "wifi-power-stations",
+  "family": "power-stations",
+  "family_title": "Power stations",
+  "noun": "power station",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Portable Power Stations",
+  "subtitle": "Battery power stations with app control for outages, camping, and backup, ranked.",
+  "intro": "We pulled the portable power stations on Amazon with Wi-Fi app control and scored them on rating, review volume, and features: capacity, output, fast charging, and UPS switchover.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "big": 0.3,
+    "ups": 0.25,
+    "fast": 0.25,
+    "lfp": 0.2
+  },
+  "systems_note": "All of these connect to their maker's app for monitoring and settings. None of the listings name Alexa, Google, or Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "output",
+      "label": "AC output"
+    },
+    {
+      "key": "ups",
+      "label": "UPS switchover"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "output",
+      "label": "Output"
+    },
+    {
+      "key": "ups",
+      "label": "UPS"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D7PPG25F",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Jackery's Explorer 1000 v2 is rated 4.7 stars by 3,676 buyers and charges in about an hour from the app's emergency mode."
+    },
+    {
+      "asin": "B0HD6GN86Q",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "1 kWh with a 10 ms UPS for $429.99, in the smallest footprint here."
+    },
+    {
+      "asin": "B0FQV6LMVX",
+      "label": "Best for Home Backup",
+      "kind": "premium",
+      "why": "2,048 Wh and 2,400 W with a 10 ms transfer and app power scheduling."
+    },
+    {
+      "asin": "B0GWGSKN54",
+      "label": "Best Solar Kit",
+      "kind": "special",
+      "why": "Anker's C1000 Gen 2 with a 200 W panel, 2,000 W output, and time-of-use scheduling."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D7PPG25F",
+      "brand": "Jackery",
+      "model": "Explorer 1000 v2",
+      "systems": [],
+      "systems_label": "Jackery app",
+      "specs": {
+        "capacity": "1,070 Wh",
+        "output": "1,500 W",
+        "ups": "Not stated in bullets",
+        "extras": "1-hour emergency charge in the app"
+      },
+      "features": {
+        "big": true,
+        "ups": false,
+        "fast": true,
+        "lfp": false
+      },
+      "verdict": "The most-reviewed 1 kWh station, with charging modes you pick in the app.",
+      "pros": [
+        "4.7 stars from 3,676 reviews",
+        "Full charge in about an hour",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "1,500 W is the lowest output among the 1 kWh units",
+        "UPS isn't in the bullets",
+        "$499"
+      ],
+      "name": "Jackery Explorer 1000 v2 Portable Power Station,1070Wh,1500W",
+      "image": "https://m.media-amazon.com/images/I/61JVKysP1nL._AC_SL1500_.jpg",
+      "price": 499.0,
+      "rating": 4.7,
+      "reviews_count": 3676,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0F42CSQWG",
+      "brand": "BLUETTI",
+      "model": "Elite 100 V2",
+      "systems": [],
+      "systems_label": "BLUETTI app",
+      "specs": {
+        "capacity": "1,024 Wh",
+        "output": "1,800 W",
+        "ups": "10 ms",
+        "extras": "80% in about 45 minutes, silent mode"
+      },
+      "features": {
+        "big": true,
+        "ups": true,
+        "fast": true,
+        "lfp": true
+      },
+      "verdict": "A quiet 1 kWh unit that doubles as a UPS for your router and PC.",
+      "pros": [
+        "10 ms UPS",
+        "4.6 stars from 1,811 reviews",
+        "Remote control from the app"
+      ],
+      "cons": [
+        "$499",
+        "Heavier than the mini",
+        "App needed for some settings"
+      ],
+      "name": "BLUETTI Elite 100 V2 Portable Power Station for Camping 1024Wh 1800W",
+      "image": "https://m.media-amazon.com/images/I/71t2GNcQZ1L._AC_SL1500_.jpg",
+      "price": 499.0,
+      "rating": 4.6,
+      "reviews_count": 1811,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0HD6GN86Q",
+      "brand": "BLUETTI",
+      "model": "Elite 100 mini",
+      "systems": [],
+      "systems_label": "BLUETTI app",
+      "specs": {
+        "capacity": "1,004.8 Wh",
+        "output": "700 W",
+        "ups": "10 ms",
+        "extras": "LFP, 6,000+ cycles"
+      },
+      "features": {
+        "big": true,
+        "ups": true,
+        "fast": false,
+        "lfp": true
+      },
+      "verdict": "1 kWh in a small vertical box, ideal for keeping a CPAP or network running.",
+      "pros": [
+        "$429.99",
+        "10 ms UPS",
+        "6,000+ cycles"
+      ],
+      "cons": [
+        "700 W output",
+        "Won't run big appliances",
+        "Only 300+ bought last month"
+      ],
+      "name": "BLUETTI Elite 100 mini Portable Power Station for Camping 1004.8Wh 700W LFP",
+      "image": "https://m.media-amazon.com/images/I/71GLt3VSqTL._AC_SL1500_.jpg",
+      "price": 429.99,
+      "rating": 4.6,
+      "reviews_count": 1811,
+      "bought": "300+ bought in past month"
+    },
+    {
+      "asin": "B0C1SMJTDT",
+      "brand": "BLUETTI",
+      "model": "AC180",
+      "systems": [],
+      "systems_label": "BLUETTI app",
+      "specs": {
+        "capacity": "1,152 Wh",
+        "output": "1,800 W (2,700 W boost from the app)",
+        "ups": "Not stated in bullets",
+        "extras": "LiFePO4, 0–80% in 45 minutes"
+      },
+      "features": {
+        "big": true,
+        "ups": false,
+        "fast": true,
+        "lfp": true
+      },
+      "verdict": "A proven LiFePO4 station; the app unlocks a 2,700 W boost for heavy loads.",
+      "pros": [
+        "2,640 reviews",
+        "Sold by Amazon",
+        "2,700 W boost mode"
+      ],
+      "cons": [
+        "Older model",
+        "UPS isn't in the bullets",
+        "$499"
+      ],
+      "name": "BLUETTI Portable Power Station AC180, 1152Wh LiFePO4 Battery Backup w/ 2 1800W (2700W peak) AC Outlets, 0-80% in 45Min, Solar Generator for Camping, Off-grid, Power Outage",
+      "image": "https://m.media-amazon.com/images/I/71Lg8i251IL._AC_SL1500_.jpg",
+      "price": 499.0,
+      "rating": 4.5,
+      "reviews_count": 2640,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0FQVC4RF5",
+      "brand": "EcoFlow",
+      "model": "DELTA 3 Classic",
+      "systems": [],
+      "systems_label": "EcoFlow app",
+      "specs": {
+        "capacity": "1,024 Wh",
+        "output": "1,800 W",
+        "ups": "Under 10 ms",
+        "extras": "Charging schedules in the app"
+      },
+      "features": {
+        "big": true,
+        "ups": true,
+        "fast": true,
+        "lfp": true
+      },
+      "verdict": "EcoFlow's 1 kWh unit with scheduled charging and a fast UPS.",
+      "pros": [
+        "Under 10 ms UPS",
+        "4.7 stars",
+        "Charging schedules"
+      ],
+      "cons": [
+        "$499",
+        "EcoFlow app",
+        "1,326 reviews"
+      ],
+      "name": "EF ECOFLOW Portable Power Station Delta 3 Classic, 1024Wh 1800W AC",
+      "image": "https://m.media-amazon.com/images/I/61sxGB5iUqL._AC_SL1500_.jpg",
+      "price": 499.0,
+      "rating": 4.7,
+      "reviews_count": 1326,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0FQV6LMVX",
+      "brand": "EcoFlow",
+      "model": "DELTA 3 Max",
+      "systems": [],
+      "systems_label": "EcoFlow app",
+      "specs": {
+        "capacity": "2,048 Wh",
+        "output": "2,400 W",
+        "ups": "10 ms",
+        "extras": "0–80% in 1.13 hours, 5-year service"
+      },
+      "features": {
+        "big": true,
+        "ups": true,
+        "fast": true,
+        "lfp": true
+      },
+      "verdict": "Twice the capacity of the 1 kWh units, enough for a fridge through a long outage.",
+      "pros": [
+        "2 kWh",
+        "2,400 W output",
+        "Real-time energy monitoring in the app"
+      ],
+      "cons": [
+        "$879",
+        "Heavy",
+        "Only 631 reviews"
+      ],
+      "name": "EF ECOFLOW DELTA 3 Max Portable Power Station, 2048Wh LFP Battery, 2400W",
+      "image": "https://m.media-amazon.com/images/I/61XcQS5XuML._AC_SL1500_.jpg",
+      "price": 879.0,
+      "rating": 4.7,
+      "reviews_count": 631,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0GWGSKN54",
+      "brand": "Anker SOLIX",
+      "model": "C1000 Gen 2 with 200 W Solar Panel",
+      "systems": [],
+      "systems_label": "Anker app",
+      "specs": {
+        "capacity": "1,024 Wh",
+        "output": "2,000 W (3,000 W peak)",
+        "ups": "Under 10 ms",
+        "extras": "200 W panel, time-of-use mode, 4,000 cycles"
+      },
+      "features": {
+        "big": true,
+        "ups": true,
+        "fast": true,
+        "lfp": true
+      },
+      "verdict": "A complete solar kit that can charge off-peak to save on your power bill.",
+      "pros": [
+        "200 W solar panel included",
+        "2,000 W output",
+        "Time-of-use scheduling"
+      ],
+      "cons": [
+        "$849.99 with the panel",
+        "Ships in two packages",
+        "Anker app"
+      ],
+      "name": "Anker SOLIX C1000 Gen 2 Portable Power Station with 200W Solar Panel",
+      "image": "https://m.media-amazon.com/images/I/71qPbFHwvIL._AC_SL1500_.jpg",
+      "price": 849.99,
+      "rating": 4.7,
+      "reviews_count": 1677,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0GTQ7BHVL",
+      "brand": "OUPES",
+      "model": "Mega 1 Lite",
+      "systems": [],
+      "systems_label": "OUPES app",
+      "specs": {
+        "capacity": "1,024 Wh",
+        "output": "2,000 W (4,500 W surge)",
+        "ups": "Under 20 ms",
+        "extras": "App power monitoring"
+      },
+      "features": {
+        "big": true,
+        "ups": false,
+        "fast": true,
+        "lfp": false
+      },
+      "verdict": "The most output per dollar here.",
+      "pros": [
+        "2,000 W for $459.99",
+        "4.7 stars",
+        "App monitoring"
+      ],
+      "cons": [
+        "Only 69 reviews",
+        "20 ms UPS is slower than rivals",
+        "Lesser-known brand"
+      ],
+      "name": "OUPES Mega 1 Lite Portable Power Station 1024Wh 2000W (4500W Surge)",
+      "image": "https://m.media-amazon.com/images/I/71yrch2repL._AC_SL1500_.jpg",
+      "price": 459.99,
+      "rating": 4.7,
+      "reviews_count": 69,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What size power station do I need?",
+      "a": "Add up what you want to run. A fridge needs roughly 1 to 2 kWh a day, a CPAP about 0.5 kWh a night, and a router and phone chargers well under that. Output in watts limits what can run at once; capacity in watt-hours limits how long."
+    },
+    {
+      "q": "What does the app add?",
+      "a": "Live input and output, remaining runtime, charge limits, and scheduled charging during cheap off-peak hours. Some models also report to Home Assistant."
+    },
+    {
+      "q": "Can it back up my whole house?",
+      "a": "Only larger systems with a transfer switch or smart panel, sold separately. Most portable units power devices plugged into them, and some offer a UPS-style switchover in a few milliseconds."
+    }
+  ]
+}

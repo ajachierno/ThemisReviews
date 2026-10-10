@@ -1,0 +1,432 @@
+{
+  "feature_weights": {
+    "hands_free": 0.25,
+    "fingerprint": 0.25,
+    "keypad": 0.25,
+    "retrofit": 0.25
+  },
+  "systems_note": "Only listings that name Thread are included; Aqara's U100 and U50 reach Matter through an Aqara hub instead. All of these need a Thread border router for Matter.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "unlock",
+      "label": "Unlock with"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "unlock",
+      "label": "Unlock with"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FQC6VCDW",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "ULTRALOQ's Bolt SE has fingerprint, keypad, Wi-Fi, and Matter over Thread, rated 4.3 stars by 10,340 buyers."
+    },
+    {
+      "asin": "B0FXM1QCVT",
+      "label": "Best Budget Fingerprint",
+      "kind": "budget",
+      "why": "A touchscreen fingerprint deadbolt on Matter over Thread for $119.99."
+    },
+    {
+      "asin": "B0FRS6T6HL",
+      "label": "Best Hands-Free",
+      "kind": "premium",
+      "why": "Aqara's U400 unlocks as you approach with UWB and supports Apple Home Key."
+    },
+    {
+      "asin": "B0F8RC3YRF",
+      "label": "Best Retrofit",
+      "kind": "special",
+      "why": "Level Bolt goes inside your door, so you keep your keys and hardware."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FQC6VCDW",
+      "brand": "ULTRALOQ",
+      "model": "Bolt SE",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "U home app",
+      "specs": {
+        "type": "Keypad deadbolt",
+        "unlock": "Fingerprint, code, app, key and more (7-in-1)",
+        "extras": "Built-in Wi-Fi plus Matter over Thread"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": true,
+        "keypad": true,
+        "retrofit": false
+      },
+      "verdict": "The best-selling Thread lock, with every unlock method and no separate bridge.",
+      "pros": [
+        "10,340 reviews",
+        "Fingerprint and keypad",
+        "$89.99"
+      ],
+      "cons": [
+        "Bulky exterior",
+        "Thread border router for Matter",
+        "Wi-Fi drains batteries faster"
+      ]
+    },
+    {
+      "asin": "B0FXM1QCVT",
+      "brand": "Philips",
+      "model": "Smart Lock (Matter over Thread)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Philips Home Access app",
+      "specs": {
+        "type": "Touchscreen deadbolt",
+        "unlock": "Fingerprint, touchscreen code, app",
+        "extras": "Remote control in the app"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": true,
+        "keypad": true,
+        "retrofit": false
+      },
+      "verdict": "A sleek touchscreen fingerprint lock at a budget price.",
+      "pros": [
+        "Fingerprint",
+        "Touchscreen keypad",
+        "$119.99"
+      ],
+      "cons": [
+        "Only 49 reviews",
+        "4.2 stars",
+        "Newer brand in locks"
+      ]
+    },
+    {
+      "asin": "B0FRS6T6HL",
+      "brand": "Aqara",
+      "model": "UWB Smart Lock U400",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "type": "Fingerprint deadbolt",
+        "unlock": "UWB hands-free, Apple Home Key, fingerprint",
+        "extras": "Matter over Thread"
+      },
+      "features": {
+        "hands_free": true,
+        "fingerprint": true,
+        "keypad": false,
+        "retrofit": false
+      },
+      "verdict": "Walk up with your iPhone or Apple Watch and it unlocks.",
+      "pros": [
+        "UWB hands-free unlock",
+        "Apple Home Key",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "$269.99",
+        "UWB needs a Thread Apple Home hub",
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B0FXWGYDQW",
+      "brand": "Aqara",
+      "model": "Smart Lock with Handle U300",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "type": "Lever lock",
+        "unlock": "Apple Home Key, fingerprint (25 stored)",
+        "extras": "Matter over Thread"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": true,
+        "keypad": false,
+        "retrofit": false
+      },
+      "verdict": "A lever-handle smart lock for side doors and offices.",
+      "pros": [
+        "Lever handle",
+        "Apple Home Key",
+        "25 fingerprints"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Only 73 reviews",
+        "Apple features need a Thread Apple hub"
+      ]
+    },
+    {
+      "asin": "B0BCGH7D8H",
+      "brand": "Yale",
+      "model": "Smart Lock Deadbolt with Matter",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Yale app",
+      "specs": {
+        "type": "Keypad deadbolt",
+        "unlock": "Code, phone tap, Google Assistant, key",
+        "extras": "Matter over Thread, designed for Google Home"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": false,
+        "keypad": true,
+        "retrofit": false
+      },
+      "verdict": "Yale's Matter lock, built to slot into Google Home.",
+      "pros": [
+        "Sold by Amazon",
+        "Backup key",
+        "400+ bought in the past month"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Remote access needs a Matter hub",
+        "$169.99"
+      ]
+    },
+    {
+      "asin": "B0F8RC3YRF",
+      "brand": "Level",
+      "model": "Bolt",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Level Home app",
+      "specs": {
+        "type": "Retrofit, inside the door",
+        "unlock": "App, phone, existing keys",
+        "extras": "Invisible from outside"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": false,
+        "keypad": false,
+        "retrofit": true
+      },
+      "verdict": "Replaces only the bolt, so nothing changes on the outside of your door.",
+      "pros": [
+        "Keeps your keys and hardware",
+        "Invisible install",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "3.5 stars",
+        "No keypad",
+        "$199"
+      ]
+    },
+    {
+      "asin": "B0FKLBYHD2",
+      "brand": "Level",
+      "model": "Lock Pro",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Level Home app",
+      "specs": {
+        "type": "Compact deadbolt",
+        "unlock": "Apple Home Key, app, key",
+        "extras": "Door status sensor"
+      },
+      "features": {
+        "hands_free": false,
+        "fingerprint": false,
+        "keypad": false,
+        "retrofit": false
+      },
+      "verdict": "The smallest smart lock here, and it knows if the door is open.",
+      "pros": [
+        "Door status detection",
+        "Apple Home Key",
+        "Looks like a normal lock"
+      ],
+      "cons": [
+        "$349",
+        "Remote access needs a hub or Level Connect bridge",
+        "3.9 stars"
+      ]
+    },
+    {
+      "asin": "B0G3CPVSZW",
+      "brand": "Kwikset",
+      "model": "Aura Reach",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Kwikset app",
+      "specs": {
+        "type": "Keypad deadbolt",
+        "unlock": "Code, app, geofence auto-unlock",
+        "extras": "Thread and Bluetooth, BHMA certified"
+      },
+      "features": {
+        "hands_free": true,
+        "fingerprint": false,
+        "keypad": true,
+        "retrofit": false
+      },
+      "verdict": "A BHMA-certified Kwikset that wakes as you approach and can unlock by geofence.",
+      "pros": [
+        "BHMA certified",
+        "Geofence auto-unlock",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.3 stars",
+        "Only 75 reviews",
+        "$158.61"
+      ]
+    },
+    {
+      "asin": "B0GZWVC674",
+      "brand": "Schlage",
+      "model": "Sense Pro (UWB)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Schlage app",
+      "specs": {
+        "type": "Keypad deadbolt",
+        "unlock": "UWB hands-free, code, app",
+        "extras": "Matter, needs a Thread home hub"
+      },
+      "features": {
+        "hands_free": true,
+        "fingerprint": false,
+        "keypad": true,
+        "retrofit": false
+      },
+      "verdict": "Schlage's hands-free lock for a sturdy front door.",
+      "pros": [
+        "UWB hands-free unlock",
+        "Schlage build quality",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$338.74",
+        "3.5 stars",
+        "Needs a Thread hub"
+      ]
+    },
+    {
+      "asin": "B0H1LG78QW",
+      "brand": "ULTRALOQ",
+      "model": "Bolt Mission (UWB)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "U home app",
+      "specs": {
+        "type": "Deadbolt",
+        "unlock": "UWB approach-to-unlock",
+        "extras": "Matter over Thread"
+      },
+      "features": {
+        "hands_free": true,
+        "fingerprint": false,
+        "keypad": false,
+        "retrofit": false
+      },
+      "verdict": "ULTRALOQ's hands-free UWB lock.",
+      "pros": [
+        "Approach to unlock",
+        "Matter over Thread",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$299.99",
+        "Only 44 reviews",
+        "3.8 stars"
+      ]
+    }
+  ],
+  "avoid": []
+}

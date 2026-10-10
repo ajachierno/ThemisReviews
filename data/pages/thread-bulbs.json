@@ -1,0 +1,172 @@
+{
+  "slug": "thread-bulbs",
+  "family": "bulbs",
+  "family_title": "Smart bulbs",
+  "noun": "bulb",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Thread Smart Bulbs",
+  "subtitle": "Smart bulbs that run on Thread and work with every Matter system, ranked.",
+  "intro": "We pulled the smart bulbs on Amazon whose listings name Thread and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "color": 0.5,
+    "bright": 0.5
+  },
+  "systems_note": "Thread bulbs are rare: most Matter bulbs on Amazon, including Nanoleaf's current Essentials listings, don't name Thread. These Aqara bulbs join Matter directly over Thread.",
+  "spec_fields": [
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "base",
+      "label": "Base"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "base",
+      "label": "Base"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DN63SFWL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Aqara's T2 color bulb runs on Thread or Zigbee, 500+ bought last month."
+    },
+    {
+      "asin": "B0DN1542G5",
+      "label": "Best White Bulb",
+      "kind": "special",
+      "why": "The tunable white T2 at 1,100 lm for $21.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DN63SFWL",
+      "brand": "Aqara",
+      "model": "LED Light Bulb T2 (Color)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "color": "16M colors + tunable white",
+        "brightness": "Not stated in bullets",
+        "base": "E26",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "color": true,
+        "bright": false
+      },
+      "verdict": "One of the few Thread bulbs on Amazon, and it can switch to Zigbee if you change systems.",
+      "pros": [
+        "Thread or Zigbee",
+        "Matter over Thread",
+        "$23.99"
+      ],
+      "cons": [
+        "Thread border router needed",
+        "4.0 stars",
+        "Brightness isn't in the bullets"
+      ],
+      "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61BfImmeqrL._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.0,
+      "reviews_count": 227,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0DN1542G5",
+      "brand": "Aqara",
+      "model": "LED Light Bulb T2 (Tunable White)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "color": "2,700K–6,500K white",
+        "brightness": "1,100 lm",
+        "base": "E26",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "color": false,
+        "bright": true
+      },
+      "verdict": "A bright white Thread bulb for lamps and fixtures that don't need color.",
+      "pros": [
+        "1,100 lm",
+        "Thread or Zigbee",
+        "$21.99"
+      ],
+      "cons": [
+        "White only",
+        "3.8 stars",
+        "Thread border router needed"
+      ],
+      "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
+      "image": "https://m.media-amazon.com/images/I/61q6MiMIIvL._AC_SL1500_.jpg",
+      "price": 21.99,
+      "rating": 3.8,
+      "reviews_count": 114,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What do Thread devices need?",
+      "a": "A Thread border router, which is built into recent Apple TVs and HomePods, Nest Hubs, some Echo models, and SmartThings and Aqara hubs. With Matter, the device then shows up in Apple Home, Google Home, Alexa, SmartThings, or Home Assistant."
+    },
+    {
+      "q": "Smart bulbs or smart switches?",
+      "a": "Bulbs give you color and tunable white, and they work in lamps. Switches are better for fixtures with several bulbs and keep the wall switch working for guests. Don't put smart bulbs on an ordinary dimmer, and keep the wall switch on, or the bulbs lose power and go offline."
+    },
+    {
+      "q": "What do lumens and color temperature mean?",
+      "a": "Lumens measure brightness: about 800 lm matches an old 60 W bulb and 1,100 lm a 75 W bulb. Color temperature in kelvin runs from warm (2,700 K, cozy) to cool (5,000 K and up, daylight)."
+    },
+    {
+      "q": "Do bulbs need a hub?",
+      "a": "Wi-Fi and Matter-over-Wi-Fi bulbs connect to your router directly. Zigbee bulbs need a Zigbee hub, such as a Hue Bridge or an Echo with Zigbee built in. Matter-over-Thread bulbs need a Thread border router."
+    }
+  ]
+}

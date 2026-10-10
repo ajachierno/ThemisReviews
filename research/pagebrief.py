@@ -6,7 +6,7 @@ import sys
 import os
 from scrape_data import load_scrape
 pages = {}
-for f in ("batch9-pages.json", "batch10-pages.json", "batch11-pages.json"):
+for f in ("batch9-pages.json", "batch10-pages.json", "batch11-pages.json", "batch12-pages.json"):
     if os.path.exists(f):
         pages.update(json.load(open(f, encoding="utf-8")))
 d = load_scrape()

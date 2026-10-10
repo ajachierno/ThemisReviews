@@ -1,0 +1,254 @@
+{
+  "feature_weights": {
+    "matter": 0.3,
+    "dual": 0.2,
+    "extra": 0.25,
+    "pack": 0.25
+  },
+  "systems_note": "Every sensor here runs on Thread and, except Onvis, joins your system through Matter. You need a Thread border router such as a recent Apple TV, HomePod, Nest Hub, or Echo.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "sensing",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "sensing",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0C3SL4K28",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Eve's Matter-over-Thread contact sensor in a 3-pack, rated 4.1 stars by 785 buyers."
+    },
+    {
+      "asin": "B0BTL8B72D",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Aqara's P2 joins Matter over Thread directly, no Aqara hub needed, for $27.99."
+    },
+    {
+      "asin": "B0G6ZH853W",
+      "label": "Best 2-in-1",
+      "kind": "special",
+      "why": "Detects doors opening and vibration, on Thread or Zigbee."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C3SL4K28",
+      "brand": "Eve",
+      "model": "Door & Window (Matter) 3-pack",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Eve app",
+      "specs": {
+        "type": "Contact sensor",
+        "sensing": "Open and closed",
+        "power": "Not stated in bullets",
+        "extras": "Works with all major platforms"
+      },
+      "features": {
+        "matter": true,
+        "dual": false,
+        "extra": false,
+        "pack": true
+      },
+      "verdict": "The most trusted Thread contact sensor, three to a box.",
+      "pros": [
+        "3-pack",
+        "4.1 stars from 785 reviews",
+        "No cloud account needed"
+      ],
+      "cons": [
+        "$79.99",
+        "Sold by a third party, low stock",
+        "Contact only"
+      ]
+    },
+    {
+      "asin": "B0BZSY26WP",
+      "brand": "Eve",
+      "model": "Door & Window (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Eve app",
+      "specs": {
+        "type": "Contact sensor",
+        "sensing": "Open and closed",
+        "power": "Not stated in bullets",
+        "extras": "Works with all major platforms"
+      },
+      "features": {
+        "matter": true,
+        "dual": false,
+        "extra": false,
+        "pack": false
+      },
+      "verdict": "The same Eve sensor, sold singly.",
+      "pros": [
+        "Matter over Thread",
+        "4.1 stars",
+        "Works with all major platforms"
+      ],
+      "cons": [
+        "Sold by a third party",
+        "Contact only",
+        "$33.60 each"
+      ]
+    },
+    {
+      "asin": "B0BTL8B72D",
+      "brand": "Aqara",
+      "model": "Door and Window Sensor P2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Contact sensor",
+        "sensing": "Open and closed",
+        "power": "Not stated in bullets",
+        "extras": "Remote alarm through your platform"
+      },
+      "features": {
+        "matter": true,
+        "dual": false,
+        "extra": false,
+        "pack": false
+      },
+      "verdict": "Aqara's Thread sensor, which needs no Aqara hub.",
+      "pros": [
+        "$27.99",
+        "1,122 reviews",
+        "No Aqara hub needed"
+      ],
+      "cons": [
+        "3.6 stars",
+        "Contact only",
+        "Aqara app features limited without a hub"
+      ]
+    },
+    {
+      "asin": "B0G6ZH853W",
+      "brand": "Aqara",
+      "model": "Multi-State Sensor P100",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "type": "Contact and vibration sensor",
+        "sensing": "Open and closed, vibration",
+        "power": "Not stated in bullets",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "matter": true,
+        "dual": true,
+        "extra": true,
+        "pack": false
+      },
+      "verdict": "One sensor for doors, windows, and knocks or tilts on objects like a mailbox or safe.",
+      "pros": [
+        "Door and vibration in one",
+        "Thread or Zigbee",
+        "$27.99"
+      ],
+      "cons": [
+        "3.2 stars",
+        "Only 105 reviews",
+        "Vibration tuning takes trial and error"
+      ]
+    },
+    {
+      "asin": "B0DR3C9D17",
+      "brand": "arre",
+      "model": "Contact Sensor (Matter over Thread)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Contact sensor",
+        "sensing": "Open and closed",
+        "power": "Not stated in bullets",
+        "extras": "Matter certified"
+      },
+      "features": {
+        "matter": true,
+        "dual": false,
+        "extra": false,
+        "pack": false
+      },
+      "verdict": "A Matter-certified contact sensor from a smaller brand.",
+      "pros": [
+        "Matter certified",
+        "Works with SmartThings",
+        "Thread"
+      ],
+      "cons": [
+        "2.7 stars",
+        "Only 16 reviews",
+        "$29.99"
+      ]
+    }
+  ],
+  "avoid": []
+}

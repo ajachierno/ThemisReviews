@@ -1,0 +1,128 @@
+{
+  "feature_weights": {
+    "color": 0.5,
+    "bright": 0.5
+  },
+  "systems_note": "Thread bulbs are rare: most Matter bulbs on Amazon, including Nanoleaf's current Essentials listings, don't name Thread. These Aqara bulbs join Matter directly over Thread.",
+  "spec_fields": [
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "base",
+      "label": "Base"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "base",
+      "label": "Base"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DN63SFWL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Aqara's T2 color bulb runs on Thread or Zigbee, 500+ bought last month."
+    },
+    {
+      "asin": "B0DN1542G5",
+      "label": "Best White Bulb",
+      "kind": "special",
+      "why": "The tunable white T2 at 1,100 lm for $21.99."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DN63SFWL",
+      "brand": "Aqara",
+      "model": "LED Light Bulb T2 (Color)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "color": "16M colors + tunable white",
+        "brightness": "Not stated in bullets",
+        "base": "E26",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "color": true,
+        "bright": false
+      },
+      "verdict": "One of the few Thread bulbs on Amazon, and it can switch to Zigbee if you change systems.",
+      "pros": [
+        "Thread or Zigbee",
+        "Matter over Thread",
+        "$23.99"
+      ],
+      "cons": [
+        "Thread border router needed",
+        "4.0 stars",
+        "Brightness isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DN1542G5",
+      "brand": "Aqara",
+      "model": "LED Light Bulb T2 (Tunable White)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "color": "2,700K–6,500K white",
+        "brightness": "1,100 lm",
+        "base": "E26",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "color": false,
+        "bright": true
+      },
+      "verdict": "A bright white Thread bulb for lamps and fixtures that don't need color.",
+      "pros": [
+        "1,100 lm",
+        "Thread or Zigbee",
+        "$21.99"
+      ],
+      "cons": [
+        "White only",
+        "3.8 stars",
+        "Thread border router needed"
+      ]
+    }
+  ],
+  "avoid": []
+}

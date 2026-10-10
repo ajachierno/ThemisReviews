@@ -1,0 +1,384 @@
+{
+  "feature_weights": {
+    "white": 0.3,
+    "matter": 0.25,
+    "cordless": 0.2,
+    "bright": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0D41XL87F",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's Table Lamp 2 has tunable white, Matter, and 4.7 stars from 2,544 buyers."
+    },
+    {
+      "asin": "B099MV5XMX",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A touch-and-voice bedside lamp with Alexa and Google for $29.99."
+    },
+    {
+      "asin": "B0GLM9BBQT",
+      "label": "Best Cordless",
+      "kind": "special",
+      "why": "Up to 30 hours per charge with Matter support."
+    },
+    {
+      "asin": "B0DDXD8BMQ",
+      "label": "Best for Effects",
+      "kind": "premium",
+      "why": "196 addressable LEDs and AI-generated lighting scenes."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D41XL87F",
+      "brand": "Govee",
+      "model": "RGBIC Smart Table Lamp 2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Bedside table lamp, corded",
+        "brightness": "500 lm",
+        "color": "RGBICWW, 2,700K–6,500K",
+        "extras": "Pat-to-wake, music sync"
+      },
+      "features": {
+        "matter": true,
+        "white": true,
+        "cordless": false,
+        "bright": false,
+        "effects": true
+      },
+      "verdict": "The best-selling smart table lamp, with real white light and Matter.",
+      "pros": [
+        "4.7 stars from 2,544 reviews",
+        "7K+ bought in the past month",
+        "Matter, so it works in Apple Home"
+      ],
+      "cons": [
+        "500 lm is a bedside light, not a reading lamp",
+        "Corded",
+        "Govee app for effects"
+      ]
+    },
+    {
+      "asin": "B0GLM9BBQT",
+      "brand": "Govee",
+      "model": "Cordless Table Lamp Classic",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Cordless table lamp",
+        "brightness": "500 lm",
+        "color": "RGBIC+WW, 2,700K–6,500K",
+        "extras": "4,800 mAh battery, 5–30 hours"
+      },
+      "features": {
+        "matter": true,
+        "white": true,
+        "cordless": true,
+        "bright": false,
+        "effects": true
+      },
+      "verdict": "Carry it to the patio or dinner table; it charges over USB-C.",
+      "pros": [
+        "Cordless, 5 to 30 hours per charge",
+        "Matter and SmartThings",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Power adapter not included",
+        "Dims itself on battery",
+        "Only 188 reviews"
+      ]
+    },
+    {
+      "asin": "B08CKGXVL3",
+      "brand": "meross",
+      "model": "Smart Table Lamp",
+      "systems": [
+        "apple-home",
+        "alexa",
+        "smartthings"
+      ],
+      "systems_label": "meross app",
+      "specs": {
+        "style": "Bedside table lamp",
+        "brightness": "Not stated in bullets",
+        "color": "16M colors, 2,700K–6,500K",
+        "extras": "Local control and schedules if Wi-Fi drops"
+      },
+      "features": {
+        "matter": false,
+        "white": true,
+        "cordless": false,
+        "bright": false
+      },
+      "verdict": "The cheapest way to get a lamp into Apple Home, and it keeps schedules even offline.",
+      "pros": [
+        "Apple HomeKit and Alexa",
+        "Local control when Wi-Fi is down",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "No Google Assistant",
+        "4.2 stars",
+        "Brightness isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B099MV5XMX",
+      "brand": "Hifree",
+      "model": "Smart Table Lamp",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "style": "Small touch lamp",
+        "brightness": "Not stated in bullets",
+        "color": "RGB + 2,700K–6,500K",
+        "extras": "Anti-blue-light LEDs"
+      },
+      "features": {
+        "matter": false,
+        "white": true,
+        "cordless": false,
+        "bright": false
+      },
+      "verdict": "A simple night lamp for a kid's room, controlled by touch, voice, or app.",
+      "pros": [
+        "$29.99",
+        "1,500 reviews",
+        "Touch, voice, and app control"
+      ],
+      "cons": [
+        "Smart Life app",
+        "Small, accent light only",
+        "Sold by a third party"
+      ]
+    },
+    {
+      "asin": "B0DDXD8BMQ",
+      "brand": "Lepro",
+      "model": "TB1 AI Smart Table Lamp",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Lepro app",
+      "specs": {
+        "style": "Sculptural desk lamp",
+        "brightness": "Not stated in bullets",
+        "color": "RGB+IC, 196 LEDs",
+        "extras": "AI scene designer, photo-to-lighting"
+      },
+      "features": {
+        "matter": false,
+        "white": false,
+        "cordless": false,
+        "bright": false
+      },
+      "verdict": "A display piece with flowing color effects you can describe in plain words.",
+      "pros": [
+        "4.6 stars",
+        "196 addressable LEDs",
+        "AI lighting scenes"
+      ],
+      "cons": [
+        "Decor light, not task light",
+        "No remote",
+        "$63.99"
+      ]
+    },
+    {
+      "asin": "B0DDX2CY1Q",
+      "brand": "Lepro",
+      "model": "TB2 AI Smart Table Lamp",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Lepro app",
+      "specs": {
+        "style": "Spiral desk lamp",
+        "brightness": "Not stated in bullets",
+        "color": "RGB+IC, 152 LEDs",
+        "extras": "AI scene designer"
+      },
+      "features": {
+        "matter": false,
+        "white": false,
+        "cordless": false,
+        "bright": false
+      },
+      "verdict": "The spiral version of the TB1.",
+      "pros": [
+        "Addressable LEDs",
+        "Alexa and Google",
+        "AI lighting scenes"
+      ],
+      "cons": [
+        "Only 91 reviews",
+        "4.2 stars",
+        "Decor light only"
+      ]
+    },
+    {
+      "asin": "B09G6S3QX1",
+      "brand": "WiZ",
+      "model": "Hero v2 Portable Table Lamp",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "WiZ app",
+      "specs": {
+        "style": "Portable table lamp",
+        "brightness": "Not stated in bullets",
+        "color": "16M colors",
+        "extras": "SpaceSense motion with two WiZ lights"
+      },
+      "features": {
+        "matter": false,
+        "white": true,
+        "cordless": true,
+        "bright": false
+      },
+      "verdict": "A small WiZ lamp that can sense motion when paired with another WiZ light.",
+      "pros": [
+        "Works with Home Assistant via WiZ",
+        "SpaceSense motion detection",
+        "No hub needed"
+      ],
+      "cons": [
+        "Only 74 reviews",
+        "Siri through Shortcuts only",
+        "$44.99"
+      ]
+    },
+    {
+      "asin": "B0936C6SBW",
+      "brand": "Peteme",
+      "model": "Bedroom Lamp with Smart RGB Bulb",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "style": "Shade lamp with smart bulb",
+        "brightness": "Not stated in bullets",
+        "color": "RGB + 2,700K–6,500K",
+        "extras": "2 USB charging ports"
+      },
+      "features": {
+        "matter": false,
+        "white": true,
+        "cordless": false,
+        "bright": false
+      },
+      "verdict": "A regular-looking bedside lamp with a smart bulb and USB charging in the base.",
+      "pros": [
+        "2 USB ports",
+        "$33.99",
+        "642 reviews"
+      ],
+      "cons": [
+        "Alexa only",
+        "2.4 GHz Wi-Fi only",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0F3D8RB4H",
+      "brand": "Govee",
+      "model": "Table Lamp 2 Pro x Sound by JBL",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Cordless table lamp with speaker",
+        "brightness": "Not stated in bullets",
+        "color": "RGBIC, 210 LEDs",
+        "extras": "JBL-tuned speaker, 5,200 mAh battery"
+      },
+      "features": {
+        "matter": true,
+        "white": false,
+        "cordless": true,
+        "bright": false
+      },
+      "verdict": "A party lamp with a built-in speaker and fast music sync.",
+      "pros": [
+        "Built-in JBL-tuned speaker",
+        "Pair two for stereo",
+        "Cordless"
+      ],
+      "cons": [
+        "3.9 stars",
+        "$124.99",
+        "Needs a firmware update before touch controls work properly"
+      ]
+    }
+  ],
+  "avoid": []
+}

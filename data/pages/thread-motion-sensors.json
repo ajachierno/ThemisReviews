@@ -1,0 +1,448 @@
+{
+  "slug": "thread-motion-sensors",
+  "family": "motion-sensors",
+  "family_title": "Motion sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Thread Motion Sensors",
+  "subtitle": "Thread motion sensors that work through Matter with every major smart home system, ranked.",
+  "intro": "We pulled the motion sensors on Amazon whose listings name Thread and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "presence": 0.3,
+    "matter": 0.25,
+    "extra": 0.25,
+    "outdoor": 0.2
+  },
+  "systems_note": "Every sensor here runs on Thread and, except Onvis, joins your system through Matter. You need a Thread border router such as a recent Apple TV, HomePod, Nest Hub, or Echo.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "sensing",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "sensing",
+      "label": "Senses"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FG2MD3YP",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Aqara's FP300 combines mmWave presence and PIR motion with Thread or Zigbee, 2K+ bought last month."
+    },
+    {
+      "asin": "B0CT8W9NRB",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A Matter-over-Thread motion and light sensor for $31.99."
+    },
+    {
+      "asin": "B0G8HLQ633",
+      "label": "Best Outdoor",
+      "kind": "special",
+      "why": "An IP67 battery-powered presence sensor on Matter over Thread."
+    },
+    {
+      "asin": "B0H6JFC9RQ",
+      "label": "Most Sensors",
+      "kind": "premium",
+      "why": "Presence, motion, temperature, humidity, and light in one battery sensor."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FG2MD3YP",
+      "brand": "Aqara",
+      "model": "Presence Sensor FP300",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Aqara Home app",
+      "specs": {
+        "type": "Presence sensor, battery",
+        "sensing": "mmWave presence, PIR motion, and more (5-in-1)",
+        "power": "Battery",
+        "extras": "Thread or Zigbee"
+      },
+      "features": {
+        "presence": true,
+        "matter": true,
+        "extra": true,
+        "outdoor": false
+      },
+      "verdict": "Knows you're still in the room, not just that you walked in, without a power cord.",
+      "pros": [
+        "mmWave presence plus PIR",
+        "Battery powered",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$49.99",
+        "Some features need an Aqara hub"
+      ],
+      "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
+      "image": "https://m.media-amazon.com/images/I/61rVKe4shTL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 3.7,
+      "reviews_count": 912,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0CT8W9NRB",
+      "brand": "Aqara",
+      "model": "Motion and Light Sensor P2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Motion sensor",
+        "sensing": "PIR motion, light level",
+        "power": "Battery",
+        "extras": "Matter over Thread"
+      },
+      "features": {
+        "presence": false,
+        "matter": true,
+        "extra": true,
+        "outdoor": false
+      },
+      "verdict": "A basic Thread motion sensor that also reports light level.",
+      "pros": [
+        "$31.99",
+        "669 reviews",
+        "No Aqara hub needed"
+      ],
+      "cons": [
+        "3.5 stars",
+        "PIR misses people sitting still",
+        "Battery type isn't in the bullets"
+      ],
+      "name": "Aqara Motion and Light Sensor P2, Motion Detector with Light Sensor",
+      "image": "https://m.media-amazon.com/images/I/6100lIjKBlL._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 3.5,
+      "reviews_count": 669,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0BZT5W3V5",
+      "brand": "Eve",
+      "model": "Motion (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Eve app",
+      "specs": {
+        "type": "Motion sensor",
+        "sensing": "PIR motion, light level",
+        "power": "Battery",
+        "extras": "IPX3, 120° view, 9 m range"
+      },
+      "features": {
+        "presence": false,
+        "matter": true,
+        "extra": true,
+        "outdoor": true
+      },
+      "verdict": "Eve's water-resistant sensor for porches and covered outdoor spots.",
+      "pros": [
+        "IPX3 water resistance",
+        "9 m range",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "Sold by a third party, low stock",
+        "3.7 stars",
+        "$31.99"
+      ],
+      "name": "Eve Motion (Matter) - Smart Motion Sensor with Light Sensor, IPX3 Water Resistance, Automatic Activation of Lights and Devices, Thread",
+      "image": "https://m.media-amazon.com/images/I/41YoKtzkbSL._AC_SL1000_.jpg",
+      "price": 31.99,
+      "rating": 3.7,
+      "reviews_count": 360,
+      "bought": null
+    },
+    {
+      "asin": "B0G8HLQ633",
+      "brand": "meross",
+      "model": "Presence Sensor MS605",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "meross app",
+      "specs": {
+        "type": "Presence sensor, battery",
+        "sensing": "AI-driven presence",
+        "power": "Battery",
+        "extras": "IP67"
+      },
+      "features": {
+        "presence": true,
+        "matter": true,
+        "extra": false,
+        "outdoor": true
+      },
+      "verdict": "A weatherproof presence sensor that runs on batteries.",
+      "pros": [
+        "IP67",
+        "Battery powered",
+        "$24.99"
+      ],
+      "cons": [
+        "3.1 stars",
+        "Only 88 reviews",
+        "Sold by a meross reseller"
+      ],
+      "name": "meross Presence Sensor MS605, IP67 Battery-Powered, Matter Over Thread",
+      "image": "https://m.media-amazon.com/images/I/61Rf2V+n0vL._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 3.1,
+      "reviews_count": 88,
+      "bought": null
+    },
+    {
+      "asin": "B0H6JFC9RQ",
+      "brand": "GL Technologies",
+      "model": "5-in-1 Presence Sensor LWR02",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Presence sensor, battery",
+        "sensing": "mmWave presence, PIR motion, temperature, humidity, light",
+        "power": "2 AAA, about 2 years",
+        "extras": "Ignores fans and curtains"
+      },
+      "features": {
+        "presence": true,
+        "matter": true,
+        "extra": true,
+        "outdoor": false
+      },
+      "verdict": "Five sensors in one small box for a room you want fully automated.",
+      "pros": [
+        "5 sensors in one",
+        "About 2 years on AAA batteries",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Only 70 reviews",
+        "$49.99",
+        "Lesser-known brand"
+      ],
+      "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
+      "image": "https://m.media-amazon.com/images/I/51U1Fzg+OPL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 70,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0GS5F4V6R",
+      "brand": "THIRDREALITY",
+      "model": "Smart Night Light-T",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Plug-in night light",
+        "sensing": "Motion, light level",
+        "power": "Plug-in",
+        "extras": "RGB night light, local control"
+      },
+      "features": {
+        "presence": false,
+        "matter": true,
+        "extra": true,
+        "outdoor": false
+      },
+      "verdict": "A night light that also works as a motion sensor and Thread repeater.",
+      "pros": [
+        "Night light plus motion sensor",
+        "Plug-in, no batteries",
+        "$23.99"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 48 reviews",
+        "Placement limited to outlets"
+      ],
+      "name": "THIRDREALITY Smart Night Light-T,Support Matter Over Thread,3-in-1 RGB Color Night Light with Motion & Illumination Sensor,Local Control,Work with Home Assistant,Apple Home,Alexa,Google Home&Homey",
+      "image": "https://m.media-amazon.com/images/I/51rqUyxsP9L._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 3.8,
+      "reviews_count": 48,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0H9RV4BL4",
+      "brand": "mirsz",
+      "model": "Matter Motion Sensor (PIR)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Matter",
+      "specs": {
+        "type": "Motion sensor",
+        "sensing": "PIR motion",
+        "power": "Battery",
+        "extras": "Matter over Thread"
+      },
+      "features": {
+        "presence": false,
+        "matter": true,
+        "extra": false,
+        "outdoor": false
+      },
+      "verdict": "A plain, cheap Thread motion sensor.",
+      "pros": [
+        "4.5 stars",
+        "$29.99",
+        "Matter over Thread"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "Motion only",
+        "Lesser-known brand"
+      ],
+      "name": "Matter Motion Sensor, PIR Movement Sensor, Thread Indoor Sensor",
+      "image": "https://m.media-amazon.com/images/I/61rpJMSSzLL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews_count": 7,
+      "bought": null
+    },
+    {
+      "asin": "B0CT8Q9X39",
+      "brand": "Onvis",
+      "model": "Smart Motion Sensor",
+      "systems": [
+        "apple-home"
+      ],
+      "systems_label": "Apple Home",
+      "specs": {
+        "type": "Motion sensor",
+        "sensing": "PIR motion, temperature, humidity, light",
+        "power": "Battery",
+        "extras": "HomeKit over Thread"
+      },
+      "features": {
+        "presence": false,
+        "matter": false,
+        "extra": true,
+        "outdoor": false
+      },
+      "verdict": "A HomeKit Thread sensor that also logs temperature and humidity.",
+      "pros": [
+        "Temperature and humidity too",
+        "Thread",
+        "$31.99"
+      ],
+      "cons": [
+        "Apple Home only, no Matter claim",
+        "3.5 stars",
+        "Only 24 reviews"
+      ],
+      "name": "Onvis Smart Motion Sensor, Wireless Home Security System, PIR Motion Detector, Hygrometer, Thermometer,Works with Apple HomeKit-Thread",
+      "image": "https://m.media-amazon.com/images/I/417xXz2NgmL._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 3.5,
+      "reviews_count": 24,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "What do Thread devices need?",
+      "a": "A Thread border router, which is built into recent Apple TVs and HomePods, Nest Hubs, some Echo models, and SmartThings and Aqara hubs. With Matter, the device then shows up in Apple Home, Google Home, Alexa, SmartThings, or Home Assistant."
+    },
+    {
+      "q": "PIR motion or mmWave presence?",
+      "a": "PIR sensors detect movement and are cheap with long battery life, but they think a room is empty when you sit still. mmWave presence sensors detect a person sitting still, so lights stay on while you read, but many need wired power."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+    },
+    {
+      "q": "Where should I put a motion sensor?",
+      "a": "In a corner about 6 to 8 feet up, facing across the room rather than straight at the doorway. Keep PIR sensors away from heat vents and direct sun, which cause false triggers."
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "feature_weights": {
+    "white": 0.3,
+    "bright": 0.3,
+    "cordless": 0.15,
+    "effects": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "color",
+      "label": "Color"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0F3NZ12GL",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's uplighter combines a ripple projector, color, and a 1,000 lm task light, rated 4.6 stars."
+    },
+    {
+      "asin": "B0D41XL87F",
+      "label": "Best Table Lamp",
+      "kind": "special",
+      "why": "A Matter bedside lamp rated 4.7 stars by 2,544 buyers."
+    },
+    {
+      "asin": "B0DZNVXQ94",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A Matter corner lamp with warm and cool white for $50.99."
+    },
+    {
+      "asin": "B0GQT4YJ5F",
+      "label": "Brightest",
+      "kind": "premium",
+      "why": "Govee's Floor Lamp 3 reaches 2,100 lm with a 1,000K–10,000K white range."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0F3NZ12GL",
+      "brand": "Govee",
+      "model": "Uplighter Floor Lamp (ripple projector)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Uplighter",
+        "brightness": "1,000 lm task light",
+        "color": "RGBIC + 2,700K–6,500K",
+        "extras": "Ceiling ripple effect"
+      },
+      "features": {
+        "white": true,
+        "bright": false,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "A ripple projector, color column, and reading light in one Matter lamp.",
+      "pros": [
+        "4.6 stars from 1,421 reviews",
+        "Matter and SmartThings",
+        "4K+ bought in the past month"
+      ],
+      "cons": [
+        "$125.99",
+        "Needs a tall ceiling for the ripples",
+        "Corded"
+      ]
+    },
+    {
+      "asin": "B0CTH2QF23",
+      "brand": "Govee",
+      "model": "Floor Lamp 2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "1,725 lm",
+        "color": "RGBICWW",
+        "extras": "Matter (needs an IPv6 network)"
+      },
+      "features": {
+        "white": true,
+        "bright": true,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "Govee's most-reviewed Matter floor lamp, bright enough to light a room.",
+      "pros": [
+        "2,578 reviews",
+        "1,725 lm",
+        "Warm and cool white"
+      ],
+      "cons": [
+        "Matter needs IPv6 on your network",
+        "$129.99",
+        "Corner use only"
+      ]
+    },
+    {
+      "asin": "B0GQT4YJ5F",
+      "brand": "Govee",
+      "model": "Floor Lamp 3",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "2,100 lm at 6,500K",
+        "color": "LuminBlend+, 1,000K–10,000K",
+        "extras": "Wider wall-wash"
+      },
+      "features": {
+        "white": true,
+        "bright": true,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "The brightest Matter lamp here, with the widest white range.",
+      "pros": [
+        "2,100 lm",
+        "1,000K–10,000K white",
+        "3K+ bought in the past month"
+      ],
+      "cons": [
+        "2,100 lm only at cool white",
+        "$118.99",
+        "Only 215 reviews"
+      ]
+    },
+    {
+      "asin": "B0F43M9KWW",
+      "brand": "Govee",
+      "model": "Tree Floor Lamp (3 heads)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Tree, 3 rotating heads",
+        "brightness": "1,500 lm",
+        "color": "16M colors + 2,700K–6,500K",
+        "extras": "Heads rotate 350°"
+      },
+      "features": {
+        "white": true,
+        "bright": true,
+        "cordless": false,
+        "effects": false
+      },
+      "verdict": "Three aimable heads for reading and accent light at once.",
+      "pros": [
+        "1,500 lm",
+        "Aimable heads",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$118.99",
+        "Only 695 reviews",
+        "Takes floor space"
+      ]
+    },
+    {
+      "asin": "B0GQTF4X6H",
+      "brand": "Govee",
+      "model": "Lantern Floor Lamp",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Lantern, silicone shade",
+        "brightness": "1,400 lm",
+        "color": "RGBIC + 1,000K–10,000K",
+        "extras": "Touch shade"
+      },
+      "features": {
+        "white": true,
+        "bright": true,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "A soft lantern that looks good switched off.",
+      "pros": [
+        "4.8 stars",
+        "Touch-sensitive shade",
+        "1,400 lm"
+      ],
+      "cons": [
+        "Only 324 reviews",
+        "$99.99",
+        "Decor more than reading"
+      ]
+    },
+    {
+      "asin": "B0F4JZGBRZ",
+      "brand": "Govee",
+      "model": "Torchiere Floor Lamp",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Torchiere",
+        "brightness": "Not stated in bullets",
+        "color": "RGBIC",
+        "extras": "3 independent light zones"
+      },
+      "features": {
+        "white": false,
+        "bright": false,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "A classic torchiere shape with three separately controlled light zones.",
+      "pros": [
+        "3 light zones",
+        "Matter certified",
+        "$79.99"
+      ],
+      "cons": [
+        "Brightness isn't in the bullets",
+        "4.3 stars",
+        "Only 263 reviews"
+      ]
+    },
+    {
+      "asin": "B0DQSB2B5H",
+      "brand": "Nanoleaf",
+      "model": "Matter Smart Floor Lamp",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Nanoleaf app",
+      "specs": {
+        "style": "Slim pole",
+        "brightness": "1,700 lm",
+        "color": "RGBTW",
+        "extras": "Matter enabled"
+      },
+      "features": {
+        "white": true,
+        "bright": true,
+        "cordless": false,
+        "effects": false
+      },
+      "verdict": "A slim, bright lamp from a brand known for Matter lighting.",
+      "pros": [
+        "1,700 lm",
+        "Tunable white",
+        "$77.99"
+      ],
+      "cons": [
+        "Only 125 reviews",
+        "4.3 stars",
+        "Fewer effects than Govee"
+      ]
+    },
+    {
+      "asin": "B0DZNVXQ94",
+      "brand": "SwitchBot",
+      "model": "Floor Lamp with Matter",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "style": "Corner pole",
+        "brightness": "1,200 lm",
+        "color": "RGB + warm and cool white",
+        "extras": "Music sync"
+      },
+      "features": {
+        "white": true,
+        "bright": false,
+        "cordless": false,
+        "effects": true
+      },
+      "verdict": "The cheapest Matter floor lamp here.",
+      "pros": [
+        "$50.99",
+        "Warm and cool white",
+        "Matter"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Only 55 reviews",
+        "1,200 lm"
+      ]
+    },
+    {
+      "asin": "B0D41XL87F",
+      "brand": "Govee",
+      "model": "RGBIC Smart Table Lamp 2",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Bedside table lamp, corded",
+        "brightness": "500 lm",
+        "color": "RGBICWW, 2,700K–6,500K",
+        "extras": "Pat-to-wake, music sync"
+      },
+      "features": {
+        "matter": true,
+        "white": true,
+        "cordless": false,
+        "bright": false,
+        "effects": true
+      },
+      "verdict": "The best-selling smart table lamp, with real white light and Matter.",
+      "pros": [
+        "4.7 stars from 2,544 reviews",
+        "7K+ bought in the past month",
+        "Matter, so it works in Apple Home"
+      ],
+      "cons": [
+        "500 lm is a bedside light, not a reading lamp",
+        "Corded",
+        "Govee app for effects"
+      ]
+    },
+    {
+      "asin": "B0GLM9BBQT",
+      "brand": "Govee",
+      "model": "Cordless Table Lamp Classic",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "style": "Cordless table lamp",
+        "brightness": "500 lm",
+        "color": "RGBIC+WW, 2,700K–6,500K",
+        "extras": "4,800 mAh battery, 5–30 hours"
+      },
+      "features": {
+        "matter": true,
+        "white": true,
+        "cordless": true,
+        "bright": false,
+        "effects": true
+      },
+      "verdict": "Carry it to the patio or dinner table; it charges over USB-C.",
+      "pros": [
+        "Cordless, 5 to 30 hours per charge",
+        "Matter and SmartThings",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Power adapter not included",
+        "Dims itself on battery",
+        "Only 188 reviews"
+      ]
+    }
+  ],
+  "avoid": []
+}
