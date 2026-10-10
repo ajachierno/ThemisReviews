@@ -1,0 +1,359 @@
+{
+  "feature_weights": {
+    "fingerprint": 0.25,
+    "backup": 0.25,
+    "weather": 0.25,
+    "remote": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "unlock",
+      "label": "Unlock"
+    },
+    {
+      "key": "backup",
+      "label": "Backup"
+    },
+    {
+      "key": "weather",
+      "label": "Weather"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "unlock",
+      "label": "Unlock"
+    },
+    {
+      "key": "backup",
+      "label": "Backup"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CCXR9ZVN",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Fingerprint, app, and key backup in a weatherproof heavy-duty body."
+    },
+    {
+      "asin": "B0CNCN7RKY",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A $26.99 fingerprint lock for gym lockers and luggage, 668 reviews."
+    },
+    {
+      "asin": "B0BYYR57GQ",
+      "label": "Best for Sharing Access",
+      "kind": "premium",
+      "why": "igloohome's tough padlock shares time-limited access from anywhere."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CCXR9ZVN",
+      "brand": "eLinkSmart",
+      "model": "Fingerprint Padlock with Key Backup",
+      "systems": [],
+      "systems_label": "eLinkSmart app",
+      "specs": {
+        "unlock": "Fingerprint, app",
+        "backup": "Key",
+        "weather": "Weatherproof",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "The best all-round smart padlock: three ways in and built for outdoors.",
+      "pros": [
+        "Fingerprint, app, and key",
+        "Weatherproof",
+        "Rechargeable"
+      ],
+      "cons": [
+        "$69.99",
+        "4.2 stars",
+        "No remote access listed"
+      ]
+    },
+    {
+      "asin": "B0D228BZJM",
+      "brand": "eLinkSmart",
+      "model": "Fingerprint Gym Locker Lock",
+      "systems": [],
+      "systems_label": "eLinkSmart app",
+      "specs": {
+        "unlock": "Fingerprint, app",
+        "backup": "Key",
+        "weather": "Weatherproof",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "A small fingerprint padlock for lockers and bags.",
+      "pros": [
+        "$38.99",
+        "544 reviews",
+        "Fingerprint"
+      ],
+      "cons": [
+        "Small shackle",
+        "4.3 stars",
+        "Not for gates"
+      ]
+    },
+    {
+      "asin": "B0CXSH6LHD",
+      "brand": "eLinkSmart",
+      "model": "Heavy Duty Smart Padlock (keypad)",
+      "systems": [],
+      "systems_label": "eLinkSmart app",
+      "specs": {
+        "unlock": "Code keypad, RFID, app",
+        "backup": "Key",
+        "weather": "Weatherproof",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": false,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "A heavy-duty keypad padlock for gates and sheds.",
+      "pros": [
+        "Keypad and RFID",
+        "Key backup",
+        "405 reviews"
+      ],
+      "cons": [
+        "No fingerprint",
+        "4.1 stars",
+        "$69.99"
+      ]
+    },
+    {
+      "asin": "B0G1YLTMSR",
+      "brand": "Anweller",
+      "model": "Heavy Duty Fingerprint Padlock",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "unlock": "Fingerprint, code, app",
+        "backup": "Key",
+        "weather": "Weatherproof",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "Fingerprint and a code keypad on a heavy-duty body.",
+      "pros": [
+        "Fingerprint and keypad",
+        "4.4 stars",
+        "Key backup"
+      ],
+      "cons": [
+        "Only 53 reviews",
+        "$79.99",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0BYYR57GQ",
+      "brand": "igloohome",
+      "model": "Smart Padlock 2 (SP2)",
+      "systems": [],
+      "systems_label": "igloohome app",
+      "specs": {
+        "unlock": "App, PIN codes",
+        "backup": "Not stated in bullets",
+        "weather": "Weatherproof",
+        "power": "Rechargeable"
+      },
+      "features": {
+        "fingerprint": false,
+        "backup": false,
+        "weather": true,
+        "remote": true
+      },
+      "verdict": "Share time-limited codes with contractors or guests from anywhere.",
+      "pros": [
+        "Remote access sharing",
+        "Toughened build",
+        "311 reviews"
+      ],
+      "cons": [
+        "$184.99",
+        "4.0 stars",
+        "Some remote features need an igloohome bridge"
+      ]
+    },
+    {
+      "asin": "B0D8L7B3L3",
+      "brand": "ABUS",
+      "model": "Everox One 61/45 Bluetooth Padlock",
+      "systems": [],
+      "systems_label": "ABUS app",
+      "specs": {
+        "unlock": "App",
+        "backup": "Not stated in bullets",
+        "weather": "Weatherproof",
+        "power": "Not stated in bullets"
+      },
+      "features": {
+        "fingerprint": false,
+        "backup": false,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "A Bluetooth padlock from a long-established German lock maker.",
+      "pros": [
+        "ABUS build quality",
+        "Weatherproof",
+        "4.2 stars"
+      ],
+      "cons": [
+        "$134",
+        "Only 57 reviews",
+        "App only"
+      ]
+    },
+    {
+      "asin": "B0CB9DXDKB",
+      "brand": "Master Lock",
+      "model": "Bluetooth Smart Padlock 4401LHEC",
+      "systems": [],
+      "systems_label": "Master Lock Vault",
+      "specs": {
+        "unlock": "App",
+        "backup": "Not stated in bullets",
+        "weather": "Outdoor",
+        "power": "Not stated in bullets"
+      },
+      "features": {
+        "fingerprint": false,
+        "backup": false,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "Master Lock's outdoor Bluetooth padlock, sold by Amazon.",
+      "pros": [
+        "Outdoor rated",
+        "Known brand",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$125.34",
+        "Only 84 reviews"
+      ]
+    },
+    {
+      "asin": "B0D8DNHRM8",
+      "brand": "Pothunder",
+      "model": "Heavy Duty Smart Padlock",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "unlock": "Fingerprint, code, RFID, app",
+        "backup": "Key",
+        "weather": "Weatherproof",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "Every unlock method in one gate lock.",
+      "pros": [
+        "Fingerprint, code, RFID, and key",
+        "Weatherproof",
+        "$52.49"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Only 268 reviews",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B09D7F2GBQ",
+      "brand": "Pothunder",
+      "model": "Fingerprint Padlock (locker)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "unlock": "Fingerprint, app",
+        "backup": "Key",
+        "weather": "Not stated in bullets",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": false,
+        "remote": false
+      },
+      "verdict": "The most-reviewed fingerprint padlock here, for indoor lockers.",
+      "pros": [
+        "1,317 reviews",
+        "$26.99",
+        "Fingerprint"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Weather rating isn't in the bullets",
+        "Small shackle"
+      ]
+    },
+    {
+      "asin": "B0CNCN7RKY",
+      "brand": "Dhiedas",
+      "model": "Fingerprint Gym Locker Lock",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "unlock": "Fingerprint, app",
+        "backup": "Key",
+        "weather": "Water resistant",
+        "power": "USB rechargeable"
+      },
+      "features": {
+        "fingerprint": true,
+        "backup": true,
+        "weather": true,
+        "remote": false
+      },
+      "verdict": "A cheap fingerprint lock for gym lockers and luggage.",
+      "pros": [
+        "$26.99",
+        "668 reviews",
+        "Fingerprint"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Small shackle",
+        "Lesser-known brand"
+      ]
+    }
+  ],
+  "avoid": []
+}

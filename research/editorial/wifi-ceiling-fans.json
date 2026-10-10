@@ -1,0 +1,406 @@
+{
+  "feature_weights": {
+    "dc": 0.25,
+    "voice": 0.25,
+    "matter": 0.25,
+    "reverse": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "mount",
+      "label": "Mount"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "mount",
+      "label": "Mount"
+    },
+    {
+      "key": "light",
+      "label": "Light"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CW9PK1K4",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "A quiet DC fan with 12 speeds, a dimmable light, Alexa and Google, rated 4.5 stars by 1,120 buyers."
+    },
+    {
+      "asin": "B0FK9P8FKZ",
+      "label": "Best Low Profile",
+      "kind": "budget",
+      "why": "A flush-mount DC fan with reverse, rated 4.5 stars by 1,938 buyers, for $129.99."
+    },
+    {
+      "asin": "B0GQGY896M",
+      "label": "Best for Apple Home",
+      "kind": "premium",
+      "why": "Govee's flush-mount fan with an RGBIC light and Matter."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CW9PK1K4",
+      "brand": "Dreo",
+      "model": "Smart Ceiling Fan 52 in. (12 speeds)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Not stated in bullets",
+        "light": "Dimmable LED, RGBIC accent",
+        "motor": "DC, 12 speeds, 3 modes"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": false
+      },
+      "verdict": "The best all-round smart fan: quiet DC motor, lots of speeds, and voice control.",
+      "pros": [
+        "12 speeds and 3 fan modes",
+        "Alexa and Google",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "No Matter",
+        "$170.98",
+        "Reverse isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0FK9P8FKZ",
+      "brand": "Sofucor",
+      "model": "Smart Ceiling Fan 52 in. (low profile)",
+      "systems": [
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Flush mount",
+        "light": "LED",
+        "motor": "DC, reversible"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": true
+      },
+      "verdict": "A popular flush-mount fan for low ceilings.",
+      "pros": [
+        "1,938 reviews",
+        "Reversible DC motor",
+        "$129.99"
+      ],
+      "cons": [
+        "Alexa isn't named in the bullets",
+        "Lesser-known brand",
+        "No Matter"
+      ]
+    },
+    {
+      "asin": "B0CN38CD5J",
+      "brand": "Sofucor",
+      "model": "Smart Ceiling Fan 52 in. (5 blades)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Downrod",
+        "light": "LED",
+        "motor": "DC, reversible"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": true
+      },
+      "verdict": "A downrod version with Alexa and Google.",
+      "pros": [
+        "Alexa and Google",
+        "Reversible",
+        "1,548 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "$134.99",
+        "No Matter"
+      ]
+    },
+    {
+      "asin": "B0GQGY896M",
+      "brand": "Govee",
+      "model": "Ceiling Fan with RGBIC Light 52 in.",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Flush mount",
+        "light": "RGBIC, dimmable",
+        "motor": "DC"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": true,
+        "reverse": false
+      },
+      "verdict": "A color-light fan that works in every major system through Matter.",
+      "pros": [
+        "Matter",
+        "RGBIC light",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 237 reviews",
+        "$159.99",
+        "Reverse isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0F1MVQ4HT",
+      "brand": "Lumary",
+      "model": "Smart Wi-Fi Ceiling Fan (low profile)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Lumary app",
+      "specs": {
+        "size": "Not stated in bullets",
+        "mount": "Flush mount",
+        "light": "LED",
+        "motor": "DC, reversible"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": true,
+        "reverse": true
+      },
+      "verdict": "A flush-mount Matter fan with a reversible DC motor.",
+      "pros": [
+        "Matter",
+        "Reversible",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Only 187 reviews",
+        "$151.99"
+      ]
+    },
+    {
+      "asin": "B0GR3WJL89",
+      "brand": "Linkind",
+      "model": "Matter Smart Ceiling Fan 52 in.",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "AiDot app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Not stated in bullets",
+        "light": "LED",
+        "motor": "DC, reversible"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": true,
+        "reverse": true
+      },
+      "verdict": "A highly rated Matter fan, though new to the market.",
+      "pros": [
+        "Matter",
+        "4.7 stars",
+        "Remote included"
+      ],
+      "cons": [
+        "Only 24 reviews",
+        "$129.99",
+        "Mount style isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0D65VQMZR",
+      "brand": "Dreo",
+      "model": "Smart RGBIC Ceiling Fan (low profile)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Low profile",
+        "light": "Dimmable, RGBIC",
+        "motor": "DC, reversible"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": true
+      },
+      "verdict": "Dreo's low-profile model with a color light ring.",
+      "pros": [
+        "RGBIC light",
+        "Reversible",
+        "4.5 stars"
+      ],
+      "cons": [
+        "$219.99",
+        "Google isn't named in the bullets",
+        "No Matter"
+      ]
+    },
+    {
+      "asin": "B0D7ZL3Z5T",
+      "brand": "Dreo",
+      "model": "Ceiling Fan 44 in. (flush mount)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "size": "44 in.",
+        "mount": "Flush mount",
+        "light": "RGBIC",
+        "motor": "DC"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": false
+      },
+      "verdict": "A smaller flush-mount Dreo for bedrooms and offices.",
+      "pros": [
+        "44 in. for smaller rooms",
+        "4.6 stars",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$152.99",
+        "No Matter",
+        "Reverse isn't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DRJYL93N",
+      "brand": "Dreo",
+      "model": "Bedroom Ceiling Fan 42 in.",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Dreo app",
+      "specs": {
+        "size": "42 in.",
+        "mount": "Not stated in bullets",
+        "light": "LED",
+        "motor": "Not stated in bullets"
+      },
+      "features": {
+        "dc": false,
+        "voice": true,
+        "matter": false,
+        "reverse": false
+      },
+      "verdict": "The cheapest Dreo fan, sized for bedrooms.",
+      "pros": [
+        "$109.99",
+        "4.6 stars",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "42 in.",
+        "Motor type isn't in the bullets",
+        "Only 420 reviews"
+      ]
+    },
+    {
+      "asin": "B0CLGRLM3C",
+      "brand": "Qutaotao",
+      "model": "52 in. Smart Low Profile Fan (wood)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Companion app",
+      "specs": {
+        "size": "52 in.",
+        "mount": "Flush mount",
+        "light": "Dimmable LED",
+        "motor": "DC"
+      },
+      "features": {
+        "dc": true,
+        "voice": true,
+        "matter": false,
+        "reverse": false
+      },
+      "verdict": "A wood-blade flush mount with Alexa and Google.",
+      "pros": [
+        "Wood finish",
+        "1,072 reviews",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.2 stars",
+        "$149.99",
+        "Lesser-known brand"
+      ]
+    }
+  ],
+  "avoid": []
+}
