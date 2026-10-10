@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 HERE = Path(__file__).parent
-BASE = ("prod-all.json", "prod-hubs.json", "prod-b9b.json", "prod-b10a.json", "prod-b10b.json")
+BASE = ("prod-all.json", "prod-hubs.json", "prod-b9b.json", "prod-b10a.json", "prod-b10b.json", "prod-b11a.json", "prod-b11b.json")
 REFRESH_DIR = HERE / "refresh"
 
 

@@ -1,6 +1,11 @@
 import json, sys
-d = json.load(open('search-batch10.json', encoding='utf-8'))
-b = json.load(open('batch10.json'))
+import os
+d, b = [], {}
+for n in ('10', '10b', '11'):
+    if os.path.exists(f'search-batch{n}.json'): d += json.load(open(f'search-batch{n}.json', encoding='utf-8'))
+for n in ('10', '11'):
+    b.update(json.load(open(f'batch{n}.json')))
+for r in d: r['query'] = r['query'].strip()
 for slug in sys.argv[1:]:
     print(f"\n##### {slug}")
     seen = set()

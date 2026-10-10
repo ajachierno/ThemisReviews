@@ -1,0 +1,397 @@
+{
+  "feature_weights": {
+    "battery": 0.3,
+    "camera": 0.2,
+    "quiet": 0.25,
+    "voice": 0.25
+  },
+  "systems_note": "Chamberlain, LiftMaster, and Craftsman openers use the myQ app. Genie openers use Aladdin Connect, which also has an official Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07SKCGMY7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,084 reviews."
+    },
+    {
+      "asin": "B0CWM6PFP2",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Built-in Wi-Fi with Alexa and Google for $215.99."
+    },
+    {
+      "asin": "B0FQYSF58M",
+      "label": "Best with Camera",
+      "kind": "special",
+      "why": "A quiet belt-drive myQ opener with a 130° camera and battery backup."
+    },
+    {
+      "asin": "B0C7K97GX2",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Chamberlain's wall-mount opener frees the ceiling and handles tall or heavy doors."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07SKCGMY7",
+      "brand": "Genie",
+      "model": "StealthDrive Connect 7155-TKV",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1.25 HPc DC",
+        "camera": "No",
+        "extras": "Battery backup"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": true
+      },
+      "verdict": "The best-connected opener here, with Alexa, Google, and SmartThings named on the listing.",
+      "pros": [
+        "5,084 reviews",
+        "Battery backup",
+        "Works with SmartThings"
+      ],
+      "cons": [
+        "$334.21",
+        "8 ft doors need an extension kit",
+        "No camera"
+      ]
+    },
+    {
+      "asin": "B07MV2WHF4",
+      "brand": "Genie",
+      "model": "QuietLift Connect (with keypad)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HPc DC",
+        "camera": "No",
+        "extras": "Wireless keypad, two remotes"
+      },
+      "features": {
+        "battery": false,
+        "camera": false,
+        "quiet": true,
+        "voice": true
+      },
+      "verdict": "A quiet belt drive that comes with a wireless keypad.",
+      "pros": [
+        "Keypad included",
+        "2,015 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Battery backup isn't in the bullets",
+        "Doors up to 7 ft without a kit",
+        "$259"
+      ]
+    },
+    {
+      "asin": "B0CWM6PFP2",
+      "brand": "Genie",
+      "model": "Chain Drive 500 (1135-VM)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Chain",
+        "power": "1/2 HPc DC",
+        "camera": "No",
+        "extras": "Works with HomeLink and Car2U"
+      },
+      "features": {
+        "battery": false,
+        "camera": false,
+        "quiet": false,
+        "voice": true
+      },
+      "verdict": "The cheapest smart opener here, with car-remote support built in.",
+      "pros": [
+        "$215.99",
+        "Car remotes work without a bridge",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Chain drive is louder",
+        "Doors up to 350 lbs",
+        "Only 65 reviews"
+      ]
+    },
+    {
+      "asin": "B0FQYSF58M",
+      "brand": "Chamberlain",
+      "model": "Belt Drive myQ Opener 3/4 HP with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HP DC",
+        "camera": "130° built-in",
+        "extras": "Battery backup, 2 LED bulb sockets"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A camera in the opener lets you check the garage from the myQ app.",
+      "pros": [
+        "Built-in 130° camera",
+        "Battery backup",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Bulbs sold separately",
+        "$272.77",
+        "Voice assistants aren't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0FQXRQ561",
+      "brand": "Chamberlain",
+      "model": "Chain Drive myQ Opener 3/4 HP with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Chain",
+        "power": "3/4 HP DC",
+        "camera": "Built-in, wide angle",
+        "extras": "Battery backup"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": false,
+        "voice": false
+      },
+      "verdict": "The camera model with a chain drive for detached garages where noise matters less.",
+      "pros": [
+        "Built-in camera",
+        "Battery backup",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Chain drive",
+        "Bulbs sold separately",
+        "$266.47"
+      ]
+    },
+    {
+      "asin": "B0FQYM9DQS",
+      "brand": "Chamberlain",
+      "model": "Belt Drive myQ Opener 1/2 HP",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1/2 HP DC",
+        "camera": "No",
+        "extras": "Battery backup, 5-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A quiet myQ opener with battery backup for standard doors.",
+      "pros": [
+        "Battery backup",
+        "5-year motor and belt warranty",
+        "4.3 stars"
+      ],
+      "cons": [
+        "One bulb socket, bulb sold separately",
+        "1/2 HP",
+        "Only 151 reviews"
+      ]
+    },
+    {
+      "asin": "B0G95ZTYDG",
+      "brand": "Chamberlain",
+      "model": "1 HP Belt Drive myQ Opener with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1 HP DC",
+        "camera": "Built-in",
+        "extras": "Battery backup, 10-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A 1 HP motor for heavy doors, with a camera and a 10-year warranty.",
+      "pros": [
+        "10-year motor and belt warranty",
+        "Built-in camera",
+        "1 HP"
+      ],
+      "cons": [
+        "Only 30 reviews",
+        "$349",
+        "Single light"
+      ]
+    },
+    {
+      "asin": "B0C7K97GX2",
+      "brand": "Chamberlain",
+      "model": "Wall Mount myQ Opener",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Direct drive, wall mount",
+        "power": "Not stated in bullets",
+        "camera": "No",
+        "extras": "Battery backup, remote LED light"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "Mounts beside the door, so there's no rail on the ceiling and room for high-lift setups.",
+      "pros": [
+        "No ceiling rail",
+        "Handles tall and heavy doors",
+        "4.5 stars from 617 reviews"
+      ],
+      "cons": [
+        "$519",
+        "Motor rating isn't in the bullets",
+        "No camera"
+      ]
+    },
+    {
+      "asin": "B09B2VHJDL",
+      "brand": "Chamberlain",
+      "model": "C2212T",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Chain",
+        "power": "1/2 HP",
+        "camera": "No",
+        "extras": "Battery backup, Bluetooth setup"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": false,
+        "voice": false
+      },
+      "verdict": "A basic chain-drive myQ opener with battery backup.",
+      "pros": [
+        "Battery backup",
+        "Bluetooth setup",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Sold by a third party at $309.99",
+        "Chain drive",
+        "Low stock"
+      ]
+    },
+    {
+      "asin": "B0FQYW1Y69",
+      "brand": "Craftsman",
+      "model": "Belt Drive Opener 3/4 HP",
+      "systems": [],
+      "systems_label": "Craftsman myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HP DC",
+        "camera": "No",
+        "extras": "Battery included, 5-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "Craftsman's myQ opener, with the battery included.",
+      "pros": [
+        "Battery included",
+        "5-year warranty",
+        "$247"
+      ],
+      "cons": [
+        "Only 53 reviews",
+        "Bulbs not included",
+        "Low stock"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G1FWWCPT",
+      "brand": "LiftMaster",
+      "model": "6690L",
+      "systems": [],
+      "flag": "Rails sold separately",
+      "verdict": "A $542.50 opener that can't be installed out of the box.",
+      "reasons": [
+        "The listing says \"Rails are sold separately\"",
+        "Sold by a third-party dealer",
+        "Only 16 reviews"
+      ]
+    }
+  ]
+}

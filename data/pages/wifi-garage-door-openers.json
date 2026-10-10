@@ -1,0 +1,491 @@
+{
+  "slug": "wifi-garage-door-openers",
+  "family": "garage-openers",
+  "family_title": "Garage door openers",
+  "noun": "opener",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Garage Door Openers",
+  "subtitle": "Full garage door openers with Wi-Fi built in, ranked.",
+  "intro": "We pulled the complete garage door openers on Amazon with built-in Wi-Fi and scored them on rating, review volume, and features: belt drive, battery backup, built-in camera, and smart home support.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "battery": 0.3,
+    "camera": 0.2,
+    "quiet": 0.25,
+    "voice": 0.25
+  },
+  "systems_note": "Chamberlain, LiftMaster, and Craftsman openers use the myQ app. Genie openers use Aladdin Connect, which also has an official Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "camera",
+      "label": "Camera"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B07SKCGMY7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,084 reviews."
+    },
+    {
+      "asin": "B0CWM6PFP2",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Built-in Wi-Fi with Alexa and Google for $215.99."
+    },
+    {
+      "asin": "B0FQYSF58M",
+      "label": "Best with Camera",
+      "kind": "special",
+      "why": "A quiet belt-drive myQ opener with a 130° camera and battery backup."
+    },
+    {
+      "asin": "B0C7K97GX2",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Chamberlain's wall-mount opener frees the ceiling and handles tall or heavy doors."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07SKCGMY7",
+      "brand": "Genie",
+      "model": "StealthDrive Connect 7155-TKV",
+      "systems": [
+        "alexa",
+        "google-home",
+        "smartthings",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1.25 HPc DC",
+        "camera": "No",
+        "extras": "Battery backup"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": true
+      },
+      "verdict": "The best-connected opener here, with Alexa, Google, and SmartThings named on the listing.",
+      "pros": [
+        "5,084 reviews",
+        "Battery backup",
+        "Works with SmartThings"
+      ],
+      "cons": [
+        "$334.21",
+        "8 ft doors need an extension kit",
+        "No camera"
+      ],
+      "name": "Genie StealthDrive Connect Smart Belt Drive Garage Door Opener, 7155-TKV",
+      "image": "https://m.media-amazon.com/images/I/71stzKGphuL._AC_SL1500_.jpg",
+      "price": 334.21,
+      "rating": 4.4,
+      "reviews_count": 5084,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B07MV2WHF4",
+      "brand": "Genie",
+      "model": "QuietLift Connect (with keypad)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HPc DC",
+        "camera": "No",
+        "extras": "Wireless keypad, two remotes"
+      },
+      "features": {
+        "battery": false,
+        "camera": false,
+        "quiet": true,
+        "voice": true
+      },
+      "verdict": "A quiet belt drive that comes with a wireless keypad.",
+      "pros": [
+        "Keypad included",
+        "2,015 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Battery backup isn't in the bullets",
+        "Doors up to 7 ft without a kit",
+        "$259"
+      ],
+      "name": "Genie QuietLift Connect – WiFi Smart Garage Door Opener with Added Wireless Keypad, ¾ HPC Smart Belt Drive – Compatible with Alexa and Google Assistant, Model 3053-TKV",
+      "image": "https://m.media-amazon.com/images/I/71+bt-BKskL._AC_SL1500_.jpg",
+      "price": 259.0,
+      "rating": 4.4,
+      "reviews_count": 2015,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0CWM6PFP2",
+      "brand": "Genie",
+      "model": "Chain Drive 500 (1135-VM)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "Aladdin Connect app",
+      "specs": {
+        "drive": "Chain",
+        "power": "1/2 HPc DC",
+        "camera": "No",
+        "extras": "Works with HomeLink and Car2U"
+      },
+      "features": {
+        "battery": false,
+        "camera": false,
+        "quiet": false,
+        "voice": true
+      },
+      "verdict": "The cheapest smart opener here, with car-remote support built in.",
+      "pros": [
+        "$215.99",
+        "Car remotes work without a bridge",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Chain drive is louder",
+        "Doors up to 350 lbs",
+        "Only 65 reviews"
+      ],
+      "name": "Genie Chain Drive 500 1/2 HPC Smart Garage Door Opener, Model 1135-VM",
+      "image": "https://m.media-amazon.com/images/I/719F97UCeBL._AC_SL1500_.jpg",
+      "price": 215.99,
+      "rating": 4.4,
+      "reviews_count": 65,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0FQYSF58M",
+      "brand": "Chamberlain",
+      "model": "Belt Drive myQ Opener 3/4 HP with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HP DC",
+        "camera": "130° built-in",
+        "extras": "Battery backup, 2 LED bulb sockets"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A camera in the opener lets you check the garage from the myQ app.",
+      "pros": [
+        "Built-in 130° camera",
+        "Battery backup",
+        "1K+ bought in the past month"
+      ],
+      "cons": [
+        "Bulbs sold separately",
+        "$272.77",
+        "Voice assistants aren't named in the bullets"
+      ],
+      "name": "Chamberlain Belt Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
+      "image": "https://m.media-amazon.com/images/I/51a6rIzODyL._AC_SL1022_.jpg",
+      "price": 272.77,
+      "rating": 4.2,
+      "reviews_count": 208,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0FQXRQ561",
+      "brand": "Chamberlain",
+      "model": "Chain Drive myQ Opener 3/4 HP with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Chain",
+        "power": "3/4 HP DC",
+        "camera": "Built-in, wide angle",
+        "extras": "Battery backup"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": false,
+        "voice": false
+      },
+      "verdict": "The camera model with a chain drive for detached garages where noise matters less.",
+      "pros": [
+        "Built-in camera",
+        "Battery backup",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Chain drive",
+        "Bulbs sold separately",
+        "$266.47"
+      ],
+      "name": "Chamberlain Chain Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
+      "image": "https://m.media-amazon.com/images/I/51F8YkidvpL._AC_SL1000_.jpg",
+      "price": 266.47,
+      "rating": 4.2,
+      "reviews_count": 132,
+      "bought": "500+ bought in past month"
+    },
+    {
+      "asin": "B0FQYM9DQS",
+      "brand": "Chamberlain",
+      "model": "Belt Drive myQ Opener 1/2 HP",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1/2 HP DC",
+        "camera": "No",
+        "extras": "Battery backup, 5-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A quiet myQ opener with battery backup for standard doors.",
+      "pros": [
+        "Battery backup",
+        "5-year motor and belt warranty",
+        "4.3 stars"
+      ],
+      "cons": [
+        "One bulb socket, bulb sold separately",
+        "1/2 HP",
+        "Only 151 reviews"
+      ],
+      "name": "Chamberlain Belt Drive myQ Garage Door Opener, 1/2 HP w/Battery Backup",
+      "image": "https://m.media-amazon.com/images/I/51OmrJKNSTL._AC_SL1001_.jpg",
+      "price": 239.0,
+      "rating": 4.3,
+      "reviews_count": 151,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0G95ZTYDG",
+      "brand": "Chamberlain",
+      "model": "1 HP Belt Drive myQ Opener with camera",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "1 HP DC",
+        "camera": "Built-in",
+        "extras": "Battery backup, 10-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": true,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "A 1 HP motor for heavy doors, with a camera and a 10-year warranty.",
+      "pros": [
+        "10-year motor and belt warranty",
+        "Built-in camera",
+        "1 HP"
+      ],
+      "cons": [
+        "Only 30 reviews",
+        "$349",
+        "Single light"
+      ],
+      "name": "Chamberlain 1 HP Belt Drive Smart Garage Door Opener with Built-in Camera, Single LED Lighting, Battery Backup, and myQ Connectivity",
+      "image": "https://m.media-amazon.com/images/I/51DuiHvm2KL._AC_SL1000_.jpg",
+      "price": 349.0,
+      "rating": 4.4,
+      "reviews_count": 30,
+      "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0C7K97GX2",
+      "brand": "Chamberlain",
+      "model": "Wall Mount myQ Opener",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Direct drive, wall mount",
+        "power": "Not stated in bullets",
+        "camera": "No",
+        "extras": "Battery backup, remote LED light"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "Mounts beside the door, so there's no rail on the ceiling and room for high-lift setups.",
+      "pros": [
+        "No ceiling rail",
+        "Handles tall and heavy doors",
+        "4.5 stars from 617 reviews"
+      ],
+      "cons": [
+        "$519",
+        "Motor rating isn't in the bullets",
+        "No camera"
+      ],
+      "name": "Chamberlain Wall Mount myQ Garage Door Opener, Battery Backup",
+      "image": "https://m.media-amazon.com/images/I/61a7AR3ufJL._AC_SL1500_.jpg",
+      "price": 519.0,
+      "rating": 4.5,
+      "reviews_count": 617,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B09B2VHJDL",
+      "brand": "Chamberlain",
+      "model": "C2212T",
+      "systems": [],
+      "systems_label": "myQ app",
+      "specs": {
+        "drive": "Chain",
+        "power": "1/2 HP",
+        "camera": "No",
+        "extras": "Battery backup, Bluetooth setup"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": false,
+        "voice": false
+      },
+      "verdict": "A basic chain-drive myQ opener with battery backup.",
+      "pros": [
+        "Battery backup",
+        "Bluetooth setup",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Sold by a third party at $309.99",
+        "Chain drive",
+        "Low stock"
+      ],
+      "name": "Chamberlain C2212T Smart Wi-Fi Garage Door Opener, 1/2-HP Chain Drive Motor - Quantity 1 , Blue",
+      "image": "https://m.media-amazon.com/images/I/51QqWXzkZrL._AC_SL1001_.jpg",
+      "price": 309.99,
+      "rating": 4.4,
+      "reviews_count": 510,
+      "bought": null
+    },
+    {
+      "asin": "B0FQYW1Y69",
+      "brand": "Craftsman",
+      "model": "Belt Drive Opener 3/4 HP",
+      "systems": [],
+      "systems_label": "Craftsman myQ app",
+      "specs": {
+        "drive": "Belt",
+        "power": "3/4 HP DC",
+        "camera": "No",
+        "extras": "Battery included, 5-year motor and belt warranty"
+      },
+      "features": {
+        "battery": true,
+        "camera": false,
+        "quiet": true,
+        "voice": false
+      },
+      "verdict": "Craftsman's myQ opener, with the battery included.",
+      "pros": [
+        "Battery included",
+        "5-year warranty",
+        "$247"
+      ],
+      "cons": [
+        "Only 53 reviews",
+        "Bulbs not included",
+        "Low stock"
+      ],
+      "name": "Craftsman Belt Drive Garage Door Opener, 3/4 HP, Wi-Fi, Battery Backup",
+      "image": "https://m.media-amazon.com/images/I/61RUn1L6KgL._AC_SL1500_.jpg",
+      "price": 247.0,
+      "rating": 4.4,
+      "reviews_count": 53,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G1FWWCPT",
+      "brand": "LiftMaster",
+      "model": "6690L",
+      "systems": [],
+      "flag": "Rails sold separately",
+      "verdict": "A $542.50 opener that can't be installed out of the box.",
+      "reasons": [
+        "The listing says \"Rails are sold separately\"",
+        "Sold by a third-party dealer",
+        "Only 16 reviews"
+      ],
+      "name": "LiftMaster 6690L Smart Garage Door Opener, 1-1/4 HP Belt Drive, Built-in Security Camera, Battery Backup, LED Lighting, myQ Connected, Ultra-Quiet Performance (Replaced 87504) Plus 2 Ace Stickers",
+      "image": "https://m.media-amazon.com/images/I/5133zDAoDKL._AC_SL1345_.jpg",
+      "price": 542.5,
+      "rating": 4.2,
+      "reviews_count": 16,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Belt drive or chain drive?",
+      "a": "Belt drives are much quieter, which matters if there's a bedroom over the garage. Chain drives cost less and handle heavy doors well."
+    },
+    {
+      "q": "Do I need a smart opener or just a smart controller?",
+      "a": "If your opener works, a smart controller like myQ or meross adds app control for far less. Replace the whole opener if it's old, noisy, or lacks safety sensors."
+    },
+    {
+      "q": "Does myQ work with Home Assistant or Google?",
+      "a": "Chamberlain's myQ works with its own app, Amazon Key, and some car brands, but no longer supports Home Assistant or Google Home directly. Genie's Aladdin Connect works with Alexa and Google."
+    }
+  ]
+}

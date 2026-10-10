@@ -1,0 +1,158 @@
+"""Page copy for batch 11: litter boxes, pet fountains, window air conditioners, fans, lamps,
+ceiling and recessed lights, security camera systems, full garage door openers, universal remotes,
+Matter robot vacuums / ceiling fans / power strips, Zigbee water valves, Zigbee and Z-Wave smoke
+detectors. Imported at the bottom of meta.py."""
+from meta_batch3 import _p
+from meta_batch10 import FAN_GUIDE, STRIP_GUIDE, VALVE_GUIDE
+
+LITTER_GUIDE = [
+    {"q": "Are self-cleaning litter boxes worth it?",
+     "a": "For one or two cats, most owners say yes: the box rakes or rotates waste into a sealed drawer after each visit, so you empty it every few days instead of scooping daily. The app also tracks visits and weight, which can flag health problems early."},
+    {"q": "Are they safe for cats?",
+     "a": "Look for weight sensors and an infrared or radar sensor that stops the cycle if a cat steps in. Most have a minimum cat weight or age, often around 3 lb or 6 months, so check before buying for a kitten."},
+    {"q": "Do they need special litter?",
+     "a": "Most work with clumping clay litter; some also take tofu or mixed litters. Avoid non-clumping crystals unless the listing says they're supported."},
+]
+FOUNTAIN_GUIDE = [
+    {"q": "Why a smart pet fountain?",
+     "a": "Running water encourages cats to drink more. The smart part adds low-water and filter alerts, and some track how often your pet drinks."},
+    {"q": "Wireless pump or wired?",
+     "a": "Wireless pumps are powered through the base, so there's no cord in the water, which is safer and easier to clean."},
+    {"q": "How often do filters need changing?",
+     "a": "Usually every two to four weeks, depending on how many pets drink from it. The app reminds you."},
+]
+AC_GUIDE = [
+    {"q": "What size air conditioner do I need?",
+     "a": "Roughly 6,000-8,000 BTU for a bedroom up to 350 sq. ft., 10,000-12,000 BTU for 450-550 sq. ft., and 14,000+ BTU for larger rooms. Sunny or kitchen rooms need a bit more."},
+    {"q": "Why a U-shaped window unit?",
+     "a": "U-shaped units straddle the sill so the noisy compressor sits outside, and you can still open the window. They're much quieter than standard window units."},
+    {"q": "What does Wi-Fi add?",
+     "a": "Cool the room before you get home, schedules, Alexa and Google voice control, and energy tracking on some models."},
+]
+TOWER_FAN_GUIDE = [
+    {"q": "Tower fan or pedestal fan?",
+     "a": "Tower fans are slim and quiet and suit bedrooms and offices. Pedestal fans move more air over a longer distance and suit larger rooms."},
+    {"q": "What does a smart fan add?",
+     "a": "App and voice control, schedules, and sometimes a temperature sensor that speeds up or slows down automatically."},
+    {"q": "DC motor or AC?",
+     "a": "DC motors are quieter, use less power, and offer more speed steps."},
+]
+LAMP_GUIDE = [
+    {"q": "Smart lamp or a smart bulb in a regular lamp?",
+     "a": "A smart lamp builds the color effects into the fixture, often with segmented RGBIC light a single bulb can't do. A smart bulb is cheaper if you like the lamp you have."},
+    {"q": "Do smart lamps need a hub?",
+     "a": "Most Wi-Fi lamps connect straight to your router. Philips Hue lamps need the Hue Bridge for full features."},
+    {"q": "Can they light a whole room?",
+     "a": "Floor lamps with 1,000+ lumens can. Many color lamps are accent lights, so check the brightness if you need reading light."},
+]
+CEILING_GUIDE = [
+    {"q": "Smart recessed lights or smart bulbs?",
+     "a": "Wafer-style smart recessed lights replace the whole can and sit almost flush with the ceiling, so they suit new installs and remodels. Smart bulbs or retrofit downlights suit existing cans."},
+    {"q": "Do they need a neutral wire or special switch?",
+     "a": "The lights hold the smarts, so keep the wall switch on or replace it with a smart switch that supports smart bulbs. Wiring a dimmer in front of smart lights can cause flicker."},
+    {"q": "Do they need a hub?",
+     "a": "Wi-Fi lights connect straight to your router. Hue fixtures need the Hue Bridge."},
+]
+CAMSYS_GUIDE = [
+    {"q": "Camera system or individual cameras?",
+     "a": "A system records every camera to one recorder (NVR) in your home, usually continuously and with no monthly fee. Individual cameras are easier to install but usually record motion clips to the cloud or an SD card."},
+    {"q": "PoE or Wi-Fi cameras?",
+     "a": "PoE cameras get power and data over one Ethernet cable, which is more reliable and needs no outlet near the camera. Wi-Fi systems are easier to install but depend on signal strength."},
+    {"q": "Do they work with Home Assistant?",
+     "a": "Many NVR systems support RTSP streams, and Reolink has an official Home Assistant integration. Check each pick's notes."},
+]
+GDO_GUIDE = [
+    {"q": "Belt drive or chain drive?",
+     "a": "Belt drives are much quieter, which matters if there's a bedroom over the garage. Chain drives cost less and handle heavy doors well."},
+    {"q": "Do I need a smart opener or just a smart controller?",
+     "a": "If your opener works, a smart controller like myQ or meross adds app control for far less. Replace the whole opener if it's old, noisy, or lacks safety sensors."},
+    {"q": "Does myQ work with Home Assistant or Google?",
+     "a": "Chamberlain's myQ works with its own app, Amazon Key, and some car brands, but no longer supports Home Assistant or Google Home directly. Genie's Aladdin Connect works with Alexa and Google."},
+]
+REMOTE_GUIDE = [
+    {"q": "Why a universal remote with a hub?",
+     "a": "The hub controls devices hidden in a cabinet over IR, Bluetooth, and Wi-Fi, and a single button can switch on the TV, soundbar, and streamer together."},
+    {"q": "Will it control my streaming stick?",
+     "a": "Bluetooth remotes and hubs can control Fire TV, Roku, and Apple TV. Check the device list in the listing."},
+    {"q": "Is Logitech Harmony still sold?",
+     "a": "Logitech discontinued Harmony remotes, so the picks here are from brands still making and updating them."},
+]
+VAC_GUIDE = [
+    {"q": "What does Matter add to a robot vacuum?",
+     "a": "You can start, stop, and send it home from Apple Home, Google Home, Alexa, SmartThings, or Home Assistant, and use it in automations across systems. Mapping and room selection still live in the maker's app."},
+    {"q": "Do Matter vacuums need a hub?",
+     "a": "Wi-Fi Matter vacuums need a Matter controller such as an Apple TV, HomePod, Nest Hub, or Echo."},
+    {"q": "Self-emptying base: worth it?",
+     "a": "Yes, if you don't want to empty the bin every run. A base holds weeks of dust in a bag."},
+]
+SMOKE_GUIDE = [
+    {"q": "Why a smart smoke detector on a hub?",
+     "a": "Your hub can alert your phone, flash lights, unlock doors, or shut off HVAC when the alarm sounds, even when nobody is home."},
+    {"q": "Do they replace hardwired interconnected alarms?",
+     "a": "Battery smart alarms add alerts, but if your home has hardwired interconnected alarms, code may require keeping them. Some smart models are hardwired replacements."},
+    {"q": "Smoke and CO in one?",
+     "a": "Combination alarms detect both, which saves ceiling space. Install CO alarms near bedrooms and on every level."},
+]
+
+PAGES = {
+    "wifi-litter-boxes": _p("litter-boxes", "Litter boxes", "litter box", "The 10 Best Smart Self-Cleaning Litter Boxes",
+        "App-connected self-cleaning litter boxes that track every visit, ranked from live Amazon data.",
+        "We pulled the self-cleaning litter boxes on Amazon with Wi-Fi apps and scored them on rating, review volume, and features: cat safety sensors, waste drawer size, health tracking, and odor control.",
+        10000, LITTER_GUIDE),
+    "wifi-pet-fountains": _p("pet-fountains", "Pet fountains", "fountain", "The 10 Best Smart Pet Water Fountains",
+        "Wi-Fi pet fountains with low-water and filter alerts, ranked.",
+        "We pulled the smart pet water fountains on Amazon and scored them on rating, review volume, and features: wireless pumps, capacity, drinking tracking, and app alerts.",
+        10000, FOUNTAIN_GUIDE),
+    "wifi-air-conditioners": _p("air-conditioners", "Air conditioners", "air conditioner", "The Best Smart Window Air Conditioners",
+        "Window air conditioners with Wi-Fi, app control, and voice control, ranked.",
+        "We pulled the window air conditioners on Amazon with Wi-Fi control and scored them on rating, review volume, and features: quiet U-shaped designs, Energy Star, and Alexa and Google support.",
+        10000, AC_GUIDE),
+    "wifi-fans": _p("fans", "Fans", "fan", "The 10 Best Smart Fans",
+        "Wi-Fi tower and pedestal fans with app and voice control, ranked.",
+        "We pulled the smart tower and pedestal fans on Amazon and scored them on rating, review volume, and features: quiet DC motors, voice control, and temperature sensing.",
+        20000, TOWER_FAN_GUIDE),
+    "wifi-smart-lamps": _p("lamps", "Lamps", "lamp", "The 10 Best Smart Lamps",
+        "Wi-Fi floor and table lamps with color effects and voice control, ranked.",
+        "We pulled the smart floor and table lamps on Amazon and scored them on rating, review volume, and features: brightness, RGBIC effects, and Alexa, Google, and Matter support.",
+        20000, LAMP_GUIDE),
+    "wifi-ceiling-lights": _p("ceiling-lights", "Ceiling lights", "light", "The 10 Best Smart Ceiling and Recessed Lights",
+        "Wi-Fi recessed downlights and flush-mount ceiling lights, ranked.",
+        "We pulled the smart recessed and ceiling lights on Amazon and scored them on rating, review volume, and features: color and tunable white, pack size, and voice control.",
+        10000, CEILING_GUIDE),
+    "wifi-camera-systems": _p("camera-systems", "Camera systems", "system", "The Best Security Camera Systems",
+        "Multi-camera NVR systems that record 24/7 without a subscription, ranked.",
+        "We pulled the security camera systems on Amazon and scored them on rating, review volume, and features: resolution, number of cameras, storage, and PoE or Wi-Fi.",
+        10000, CAMSYS_GUIDE),
+    "wifi-garage-door-openers": _p("garage-openers", "Garage door openers", "opener", "The Best Smart Garage Door Openers",
+        "Full garage door openers with Wi-Fi built in, ranked.",
+        "We pulled the complete garage door openers on Amazon with built-in Wi-Fi and scored them on rating, review volume, and features: belt drive, battery backup, built-in camera, and smart home support.",
+        5000, GDO_GUIDE),
+    "wifi-universal-remotes": _p("ir-remotes", "IR blasters and remotes", "remote", "The Best Universal Remotes",
+        "Universal remotes and hubs that control your TV, streamer, and smart home, ranked.",
+        "We pulled the universal remotes on Amazon and scored them on rating, review volume, and features: a hub for hidden devices, Bluetooth and Wi-Fi control, and smart home support.",
+        5000, REMOTE_GUIDE),
+    "matter-robot-vacuums": _p("robot-vacuums", "Robot vacuums", "vacuum", "The Best Matter Robot Vacuums",
+        "Robot vacuums that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant, ranked.",
+        "We pulled the robot vacuums on Amazon whose listings name Matter support and scored them on rating, review volume, and features: mopping, self-emptying bases, and obstacle avoidance.",
+        5000, VAC_GUIDE),
+    "matter-ceiling-fans": _p("ceiling-fans", "Ceiling fans", "fan", "The Best Matter Ceiling Fans",
+        "Smart ceiling fans that work across every major smart home system, ranked.",
+        "We pulled the ceiling fans on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+        2000, FAN_GUIDE),
+    "matter-power-strips": _p("power-strips", "Smart power strips", "strip", "The Best Matter Power Strips",
+        "Smart power strips and outlet extenders that work with Apple Home, Google Home, Alexa, and SmartThings, ranked.",
+        "We pulled the smart power strips on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+        2000, STRIP_GUIDE),
+    "zigbee-water-valves": _p("water-valves", "Water shutoff valves", "valve", "The Best Zigbee Water Shutoff Valves",
+        "Zigbee valve controllers that shut off your water automatically when a leak is found, ranked.",
+        "We pulled the Zigbee water shutoff valves and valve controllers on Amazon and scored them on rating, review volume, and features.",
+        1000, VALVE_GUIDE),
+    "zigbee-smoke-detectors": _p("smoke-detectors", "Smoke and CO detectors", "alarm", "The Best Zigbee Smoke Detectors",
+        "Smoke and CO alarms that report to your Zigbee hub, ranked.",
+        "We pulled the Zigbee smoke and carbon monoxide alarms on Amazon and scored them on rating, review volume, and features.",
+        1000, SMOKE_GUIDE),
+    "z-wave-smoke-detectors": _p("smoke-detectors", "Smoke and CO detectors", "alarm", "The Best Z-Wave Smoke and CO Detectors",
+        "Smoke and CO alarms that report to your Z-Wave hub, ranked.",
+        "We pulled the Z-Wave smoke and carbon monoxide alarms on Amazon and scored them on rating, review volume, and features.",
+        1000, SMOKE_GUIDE),
+}

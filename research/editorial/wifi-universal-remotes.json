@@ -1,0 +1,205 @@
+{
+  "feature_weights": {
+    "matter": 0.3,
+    "ha": 0.2,
+    "voice": 0.25,
+    "screen": 0.25
+  },
+  "systems_note": "SwitchBot remotes join Matter through the included hub. SofaBaton's X2 has a Home Assistant integration.",
+  "spec_fields": [
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "devices",
+      "label": "Devices"
+    },
+    {
+      "key": "screen",
+      "label": "Screen"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "hub",
+      "label": "Hub"
+    },
+    {
+      "key": "devices",
+      "label": "Devices"
+    },
+    {
+      "key": "screen",
+      "label": "Screen"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CXJC5ZZT",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,308 buyers."
+    },
+    {
+      "asin": "B0FYPR3KLW",
+      "label": "Best for Home Assistant",
+      "kind": "special",
+      "why": "A touchscreen remote that can also control Home Assistant over MQTT."
+    },
+    {
+      "asin": "B0CTH5HGGT",
+      "label": "Best for Home Theater",
+      "kind": "premium",
+      "why": "One-touch activities across a 500,000-device code library, with Alexa and Google."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CXJC5ZZT",
+      "brand": "SwitchBot",
+      "model": "Universal Remote with Hub Mini (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "hub": "Hub Mini (Matter)",
+        "devices": "25 (10 IR + 15 Bluetooth)",
+        "screen": "No",
+        "extras": "10 scenes, 2,000 mAh battery"
+      },
+      "features": {
+        "matter": true,
+        "ha": true,
+        "voice": true,
+        "screen": false
+      },
+      "verdict": "A remote for TVs, ACs, and SwitchBot gear, bridged to Matter by the included hub.",
+      "pros": [
+        "5,308 reviews",
+        "Matter through the hub",
+        "$85.49"
+      ],
+      "cons": [
+        "Check IR and Bluetooth compatibility first",
+        "No screen",
+        "10 IR devices max"
+      ]
+    },
+    {
+      "asin": "B0FT3F7ZGZ",
+      "brand": "SwitchBot",
+      "model": "Universal Remote with Hub 3",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "SwitchBot app",
+      "specs": {
+        "hub": "Hub 3",
+        "devices": "25 (10 IR + 15 Bluetooth)",
+        "screen": "No",
+        "extras": "10 scenes, IR learning"
+      },
+      "features": {
+        "matter": true,
+        "ha": true,
+        "voice": true,
+        "screen": false
+      },
+      "verdict": "The same remote bundled with the bigger Hub 3.",
+      "pros": [
+        "Hub 3 included",
+        "Matter and Apple Home",
+        "1,868 reviews"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$142.49",
+        "Check compatibility first"
+      ]
+    },
+    {
+      "asin": "B0FYPR3KLW",
+      "brand": "SofaBaton",
+      "model": "X2",
+      "systems": [
+        "home-assistant"
+      ],
+      "systems_label": "SofaBaton app",
+      "specs": {
+        "hub": "X2 hub with charging dock",
+        "devices": "500,000+ devices, 6,000+ brands",
+        "screen": "2.4 in touchscreen",
+        "extras": "Home Assistant control over MQTT"
+      },
+      "features": {
+        "matter": false,
+        "ha": true,
+        "voice": false,
+        "screen": true
+      },
+      "verdict": "A touchscreen home theater remote that doubles as a Home Assistant controller.",
+      "pros": [
+        "Home Assistant integration",
+        "Touchscreen",
+        "Charging dock"
+      ],
+      "cons": [
+        "$359.99",
+        "Only 87 reviews",
+        "Voice assistants aren't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B0CTH5HGGT",
+      "brand": "SofaBaton",
+      "model": "X1S",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SofaBaton app",
+      "specs": {
+        "hub": "X1S hub with 2 wired IR transmitters",
+        "devices": "500,000+ devices",
+        "screen": "No",
+        "extras": "One-touch activities, raise to wake"
+      },
+      "features": {
+        "matter": false,
+        "ha": false,
+        "voice": true,
+        "screen": false
+      },
+      "verdict": "Starts the TV, soundbar, and streamer together with one button or one voice command.",
+      "pros": [
+        "Activities across devices",
+        "Alexa and Google",
+        "IR, Bluetooth, and Wi-Fi devices"
+      ],
+      "cons": [
+        "3.6 stars",
+        "$179.99",
+        "No touchscreen"
+      ]
+    }
+  ],
+  "avoid": []
+}

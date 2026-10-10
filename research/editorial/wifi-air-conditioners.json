@@ -1,0 +1,365 @@
+{
+  "feature_weights": {
+    "inverter": 0.3,
+    "google": 0.2,
+    "quiet": 0.25,
+    "heat": 0.25
+  },
+  "systems_note": "These ACs connect to their makers' apps; Alexa and Google support is listed per model.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "btu",
+      "label": "Cooling"
+    },
+    {
+      "key": "room",
+      "label": "Room size"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "btu",
+      "label": "Cooling"
+    },
+    {
+      "key": "room",
+      "label": "Room size"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0G34M7C1M",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Midea's U-shaped inverter AC is quiet, efficient, and leaves the window usable, rated 4.4 stars."
+    },
+    {
+      "asin": "B0HKH91VNM",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A 5,000 BTU smart window AC with Alexa for $195.96."
+    },
+    {
+      "asin": "B0CVVQWGH2",
+      "label": "Best with Heat",
+      "kind": "special",
+      "why": "An Energy Star inverter AC that also heats, with 2K+ bought last month."
+    },
+    {
+      "asin": "B0CRJXS26V",
+      "label": "Best for Big Rooms",
+      "kind": "premium",
+      "why": "10,000 BTU for rooms up to 450 sq ft with Alexa and Google, sold by Amazon."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0G34M7C1M",
+      "brand": "Midea",
+      "model": "U Smart Inverter 6,000 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "type": "U-shaped window, inverter",
+        "btu": "6,000 BTU",
+        "room": "Up to 250 sq ft",
+        "extras": "Window stays usable"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": false
+      },
+      "verdict": "The U shape keeps the noisy part outside and lets you still open the window.",
+      "pros": [
+        "Inverter, 37%+ energy savings",
+        "Window opens with it installed",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$314.99 for 6,000 BTU",
+        "Small rooms only",
+        "Bracket install"
+      ]
+    },
+    {
+      "asin": "B0FDQGPCG7",
+      "brand": "Midea",
+      "model": "U Smart Inverter 8,000 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "type": "U-shaped window, inverter",
+        "btu": "8,000 BTU",
+        "room": "Up to 350 sq ft",
+        "extras": "Window stays usable"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": false
+      },
+      "verdict": "The U design sized for a bedroom or home office.",
+      "pros": [
+        "Inverter",
+        "906 reviews",
+        "Quiet"
+      ],
+      "cons": [
+        "Sold by a third party",
+        "4.1 stars",
+        "$357.19"
+      ]
+    },
+    {
+      "asin": "B0FDQLNGHZ",
+      "brand": "Midea",
+      "model": "U Smart Inverter 10,000 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHome app",
+      "specs": {
+        "type": "U-shaped window, inverter",
+        "btu": "10,000 BTU",
+        "room": "Up to 450 sq ft",
+        "extras": "Window stays usable"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": false
+      },
+      "verdict": "The U design for living rooms.",
+      "pros": [
+        "450 sq ft",
+        "Inverter",
+        "800+ bought in the past month"
+      ],
+      "cons": [
+        "Sold by a third party",
+        "$396.62",
+        "Heavy to install"
+      ]
+    },
+    {
+      "asin": "B0CVVQWGH2",
+      "brand": "Midea",
+      "model": "8,000 BTU Smart Inverter with Heat",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Midea app",
+      "specs": {
+        "type": "Window, inverter",
+        "btu": "8,000 BTU",
+        "room": "Up to 350 sq ft",
+        "extras": "Heat, dehumidify, 45 dBA"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": true
+      },
+      "verdict": "Cools in summer and heats in winter, so one unit covers a room year-round.",
+      "pros": [
+        "Heat mode",
+        "Energy Star",
+        "2K+ bought in the past month"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Fits windows 24 to 38.5 in",
+        "$339.99"
+      ]
+    },
+    {
+      "asin": "B0CRJXS26V",
+      "brand": "TCL",
+      "model": "10,000 BTU Smart Window AC",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TCL Home app",
+      "specs": {
+        "type": "Window",
+        "btu": "10,000 BTU",
+        "room": "Up to 450 sq ft",
+        "extras": "Fan and dehumidifier modes"
+      },
+      "features": {
+        "inverter": false,
+        "google": true,
+        "quiet": false,
+        "heat": false
+      },
+      "verdict": "A big-room window AC with Alexa and Google, sold by Amazon.",
+      "pros": [
+        "450 sq ft",
+        "Alexa and Google",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Not inverter",
+        "Only 102 reviews",
+        "Noise level isn't in the bullets"
+      ]
+    },
+    {
+      "asin": "B0CFYFCNBW",
+      "brand": "Frigidaire",
+      "model": "8,000 BTU Smart Inverter",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Frigidaire app",
+      "specs": {
+        "type": "Window, inverter",
+        "btu": "8,000 BTU",
+        "room": "Up to 350 sq ft",
+        "extras": "Clean-filter alerts, 6-way airflow"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": false
+      },
+      "verdict": "An Energy Star inverter AC with filter reminders in the app.",
+      "pros": [
+        "Energy Star inverter",
+        "Clean-filter alerts",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Only 36 reviews",
+        "$380.57",
+        "Low stock"
+      ]
+    },
+    {
+      "asin": "B0BVGF5RBB",
+      "brand": "GE Profile",
+      "model": "ClearView 10,300 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "SmartHQ app",
+      "specs": {
+        "type": "Saddle window, inverter",
+        "btu": "10,300 BTU",
+        "room": "Up to 450 sq ft",
+        "extras": "Full window view, 40 dB"
+      },
+      "features": {
+        "inverter": true,
+        "google": true,
+        "quiet": true,
+        "heat": false
+      },
+      "verdict": "Sits over the sill so the window keeps its full view, and runs as low as 40 dB.",
+      "pros": [
+        "As low as 40 dB",
+        "Full window view",
+        "Energy Star"
+      ],
+      "cons": [
+        "3.5 stars",
+        "Sold by a third party",
+        "$319.95"
+      ]
+    },
+    {
+      "asin": "B0HDNK1QND",
+      "brand": "DELLA",
+      "model": "6,000 BTU Smart Window AC",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Della+ app",
+      "specs": {
+        "type": "Window",
+        "btu": "6,000 BTU",
+        "room": "Up to 250 sq ft",
+        "extras": "Geo-location, 51 dB"
+      },
+      "features": {
+        "inverter": false,
+        "google": false,
+        "quiet": false,
+        "heat": false
+      },
+      "verdict": "A cheap smart window unit that can turn on as you head home.",
+      "pros": [
+        "$209.96",
+        "Geo-location control",
+        "Small and light, 38.6 lbs"
+      ],
+      "cons": [
+        "Alexa only",
+        "4.0 stars",
+        "Not inverter"
+      ]
+    },
+    {
+      "asin": "B0HKH91VNM",
+      "brand": "DELLA",
+      "model": "5,000 BTU Smart Window AC",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "Della+ app",
+      "specs": {
+        "type": "Window",
+        "btu": "5,000 BTU",
+        "room": "Up to 150 sq ft",
+        "extras": "Geo-location, dehumidify"
+      },
+      "features": {
+        "inverter": false,
+        "google": false,
+        "quiet": false,
+        "heat": false
+      },
+      "verdict": "The cheapest smart AC here, for a small bedroom.",
+      "pros": [
+        "$195.96",
+        "Geo-location control",
+        "36.4 lbs"
+      ],
+      "cons": [
+        "150 sq ft",
+        "Alexa only",
+        "4.0 stars"
+      ]
+    }
+  ],
+  "avoid": []
+}

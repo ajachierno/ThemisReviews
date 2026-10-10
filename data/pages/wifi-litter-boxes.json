@@ -1,0 +1,458 @@
+{
+  "slug": "wifi-litter-boxes",
+  "family": "litter-boxes",
+  "family_title": "Litter boxes",
+  "noun": "litter box",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The 10 Best Smart Self-Cleaning Litter Boxes",
+  "subtitle": "App-connected self-cleaning litter boxes that track every visit, ranked from live Amazon data.",
+  "intro": "We pulled the self-cleaning litter boxes on Amazon with Wi-Fi apps and scored them on rating, review volume, and features: cat safety sensors, waste drawer size, health tracking, and odor control.",
+  "reviews_ceiling": 10000,
+  "feature_weights": {
+    "weight": 0.3,
+    "safety": 0.3,
+    "big": 0.2,
+    "dual_band": 0.2
+  },
+  "systems_note": "Litter boxes run in their makers' apps. None of these listings name Alexa, Google, Apple Home, or Home Assistant.",
+  "spec_fields": [
+    {
+      "key": "design",
+      "label": "Design"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "safety",
+      "label": "Cat safety"
+    },
+    {
+      "key": "tracking",
+      "label": "Health tracking"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "design",
+      "label": "Design"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "tracking",
+      "label": "Tracking"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0DFYF2D7D",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "PETKIT's odor-free box with weight tracking, safety sensors, and a 2-year warranty, 2,625 reviews."
+    },
+    {
+      "asin": "B0H2XZJ1FR",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "An open-design self-cleaning box with app control and safety sensors for $119.99, rated 4.4 stars."
+    },
+    {
+      "asin": "B0DFM4Z71X",
+      "label": "Best for Big Cats",
+      "kind": "special",
+      "why": "A 95 L drum with safety sensors and app control, with 3,588 reviews."
+    },
+    {
+      "asin": "B0GD73F98D",
+      "label": "Best Connectivity",
+      "kind": "premium",
+      "why": "CATLINK's open box works on 5 GHz or 2.4 GHz Wi-Fi, with weight tracking."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DFYF2D7D",
+      "brand": "PETKIT",
+      "model": "PuraMax 2",
+      "systems": [],
+      "systems_label": "PETKIT app",
+      "specs": {
+        "design": "Enclosed drum",
+        "capacity": "76 L drum, 7 L waste bin",
+        "safety": "Safety sensors",
+        "tracking": "Weight and visit tracking"
+      },
+      "features": {
+        "weight": true,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "The best-known smart litter box, with odor control and health tracking.",
+      "pros": [
+        "2,625 reviews",
+        "Weight and visit tracking",
+        "2-year coverage"
+      ],
+      "cons": [
+        "$299.99",
+        "4.2 stars",
+        "2.4 GHz Wi-Fi"
+      ],
+      "name": "PETKIT PuraMax 2 Odor Free Automatic Cat Litter Box,with 2-Year Coverage",
+      "image": "https://m.media-amazon.com/images/I/61xbnejgZZL._AC_SL1500_.jpg",
+      "price": 299.99,
+      "rating": 4.2,
+      "reviews_count": 2625,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0DFM4Z71X",
+      "brand": "Cumrige",
+      "model": "Automatic Litter Box (95 L)",
+      "systems": [],
+      "systems_label": "Tuya Smart app",
+      "specs": {
+        "design": "Enclosed drum",
+        "capacity": "95 L",
+        "safety": "Safety sensors",
+        "tracking": "Health tracking"
+      },
+      "features": {
+        "weight": false,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "A roomy drum for large cats, with the most reviews of the budget brands.",
+      "pros": [
+        "95 L capacity",
+        "3,588 reviews",
+        "Safety sensor"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "4.2 stars",
+        "Lesser-known brand"
+      ],
+      "name": "Cumrige Automatic Litter Box,Safety Sensor,App Control,95L Large Capacity",
+      "image": "https://m.media-amazon.com/images/I/61Yg6sJAjnL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.2,
+      "reviews_count": 3588,
+      "bought": "3K+ bought in past month"
+    },
+    {
+      "asin": "B0D1QWZDKT",
+      "brand": "Meowant",
+      "model": "Self-Cleaning Litter Box (75 L open top)",
+      "systems": [],
+      "systems_label": "Meowant app",
+      "specs": {
+        "design": "Open top",
+        "capacity": "75 L",
+        "safety": "Safety sensors",
+        "tracking": "Weight"
+      },
+      "features": {
+        "weight": true,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "An extra-large open-top box for cats that won't use a covered one.",
+      "pros": [
+        "Open top",
+        "Weight tracking",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$239.99",
+        "4.0 stars",
+        "Large footprint"
+      ],
+      "name": "Meowant Self-Cleaning Cat Litter Box, 75L Extra Large Open-Top, APP Control",
+      "image": "https://m.media-amazon.com/images/I/81Dl1q+hrJL._AC_SL1500_.jpg",
+      "price": 239.99,
+      "rating": 4.0,
+      "reviews_count": 1377,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GD73F98D",
+      "brand": "CATLINK",
+      "model": "Open-X",
+      "systems": [],
+      "systems_label": "CATLINK app",
+      "specs": {
+        "design": "Open top",
+        "capacity": "Not stated in bullets",
+        "safety": "Safety sensors",
+        "tracking": "Weight"
+      },
+      "features": {
+        "weight": true,
+        "safety": true,
+        "big": false,
+        "dual_band": true
+      },
+      "verdict": "An open design on 5 GHz or 2.4 GHz Wi-Fi, so it connects on any router.",
+      "pros": [
+        "5 GHz and 2.4 GHz Wi-Fi",
+        "Weight tracking",
+        "Open design"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Only 561 reviews",
+        "$169"
+      ],
+      "name": "CATLINK Self Cleaning Cat Litter Box Open-X, 5G & 2.4G WiFi, Safe",
+      "image": "https://m.media-amazon.com/images/I/71E9yjTkv9L._AC_SL1500_.jpg",
+      "price": 169.0,
+      "rating": 4.1,
+      "reviews_count": 561,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0H2XZJ1FR",
+      "brand": "WANSHAN",
+      "model": "Automatic Litter Box (open design)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "design": "Open design",
+        "capacity": "Not stated in bullets",
+        "safety": "Anti-pinch auto stop",
+        "tracking": "Health monitor"
+      },
+      "features": {
+        "weight": false,
+        "safety": true,
+        "big": false,
+        "dual_band": false
+      },
+      "verdict": "The best-rated cheap smart box, with an open design and a health monitor.",
+      "pros": [
+        "$119.99",
+        "4.4 stars",
+        "Health monitoring"
+      ],
+      "cons": [
+        "Only 645 reviews",
+        "Lesser-known brand",
+        "Capacity isn't in the bullets"
+      ],
+      "name": "Automatic Cat Litter Box Self Cleaning - App Control, Open-Design, Smart Health Monitor, Suitable for Medium Cats and Kittens, Anti-Pinch Safety, Quiet Operation - White",
+      "image": "https://m.media-amazon.com/images/I/61Gd1jlLxWL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.4,
+      "reviews_count": 645,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0FH21L9CF",
+      "brand": "Mintakawa",
+      "model": "Automatic Cat Litter Box",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "design": "Enclosed",
+        "capacity": "Not stated in bullets",
+        "safety": "Not stated in bullets",
+        "tracking": "Weight monitoring"
+      },
+      "features": {
+        "weight": true,
+        "safety": false,
+        "big": false,
+        "dual_band": false
+      },
+      "verdict": "A quiet budget box with weight monitoring in the app.",
+      "pros": [
+        "$119.99",
+        "Weight monitoring",
+        "1,208 reviews"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Safety sensors aren't detailed in the bullets",
+        "Lesser-known brand"
+      ],
+      "name": "Mintakawa Automatic Cat Litter Box Self Cleaning - APP Control and Weight Monitoring - Ultra-Quiet, Suitable for Medium Cats and Kittens, Safe Anti-Pinch Litter Box (Assembly Required) - White",
+      "image": "https://m.media-amazon.com/images/I/61teP46ev1L._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.0,
+      "reviews_count": 1208,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0HGWT16KH",
+      "brand": "Fumoi",
+      "model": "Automatic Litter Box (washable tray)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "design": "Enclosed",
+        "capacity": "86 L drum, 15 L waste bin",
+        "safety": "Safety sensors",
+        "tracking": "Not stated in bullets"
+      },
+      "features": {
+        "weight": false,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "A highly rated box with a washable tray.",
+      "pros": [
+        "4.6 stars",
+        "Washable tray",
+        "Safety sensor"
+      ],
+      "cons": [
+        "Only 254 reviews",
+        "$189.99",
+        "Health tracking isn't in the bullets"
+      ],
+      "name": "Fumoi Automatic Litter Box,Safety Sensor,App Control,Washable Litter Tray",
+      "image": "https://m.media-amazon.com/images/I/612mJf17soL._AC_SL1500_.jpg",
+      "price": 189.99,
+      "rating": 4.6,
+      "reviews_count": 254,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0HF45KGTK",
+      "brand": "Ellenpent",
+      "model": "Automatic Litter Box (90 L)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "design": "Enclosed drum",
+        "capacity": "90 L",
+        "safety": "Safety sensors",
+        "tracking": "Weight"
+      },
+      "features": {
+        "weight": true,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "A large 90 L box with weight tracking and odor control.",
+      "pros": [
+        "90 L",
+        "Weight tracking",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 313 reviews",
+        "$219.99",
+        "Lesser-known brand"
+      ],
+      "name": "Automatic Litter Box, Self Cleaning Litter Box, Odor Control, 90L Capacity",
+      "image": "https://m.media-amazon.com/images/I/71JpCmmXu7L._AC_SL1500_.jpg",
+      "price": 219.99,
+      "rating": 4.5,
+      "reviews_count": 313,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0F8N6MQ34",
+      "brand": "WARCAT",
+      "model": "Self-Cleaning Litter Box (90 L)",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "design": "Enclosed drum",
+        "capacity": "90 L",
+        "safety": "Sensors",
+        "tracking": "Visit frequency and time"
+      },
+      "features": {
+        "weight": false,
+        "safety": true,
+        "big": true,
+        "dual_band": false
+      },
+      "verdict": "Another 90 L drum, slightly cheaper.",
+      "pros": [
+        "90 L",
+        "$169.99",
+        "Sensors"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Only 394 reviews",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "WARCAT Self-Cleaning Litter Box – 90L, APP, Sensors, Brown",
+      "image": "https://m.media-amazon.com/images/I/71gmoKxe-iL._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.1,
+      "reviews_count": 394,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B087C7K4CP",
+      "brand": "PetSafe",
+      "model": "ScoopFree Crystal Smart (front entry)",
+      "systems": [],
+      "systems_label": "PetSafe app",
+      "specs": {
+        "design": "Covered, front entry",
+        "capacity": "Disposable crystal tray",
+        "safety": "Not stated in bullets",
+        "tracking": "Activity alerts"
+      },
+      "features": {
+        "weight": false,
+        "safety": false,
+        "big": false,
+        "dual_band": false
+      },
+      "verdict": "Rakes waste into a disposable crystal-litter tray: no scooping or dumping.",
+      "pros": [
+        "Disposable trays, no litter to dump",
+        "Sold by Amazon",
+        "Front entry"
+      ],
+      "cons": [
+        "Ongoing cost of crystal trays",
+        "3.8 stars",
+        "$205.99"
+      ],
+      "name": "PetSafe ScoopFree Crystal Smart Self-Cleaning Litter Box, Front-Entry",
+      "image": "https://m.media-amazon.com/images/I/81Hk-ssXHzL._AC_SL1500_.jpg",
+      "price": 205.99,
+      "rating": 3.8,
+      "reviews_count": 716,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Are self-cleaning litter boxes worth it?",
+      "a": "For one or two cats, most owners say yes: the box rakes or rotates waste into a sealed drawer after each visit, so you empty it every few days instead of scooping daily. The app also tracks visits and weight, which can flag health problems early."
+    },
+    {
+      "q": "Are they safe for cats?",
+      "a": "Look for weight sensors and an infrared or radar sensor that stops the cycle if a cat steps in. Most have a minimum cat weight or age, often around 3 lb or 6 months, so check before buying for a kitten."
+    },
+    {
+      "q": "Do they need special litter?",
+      "a": "Most work with clumping clay litter; some also take tofu or mixed litters. Avoid non-clumping crystals unless the listing says they're supported."
+    }
+  ]
+}
