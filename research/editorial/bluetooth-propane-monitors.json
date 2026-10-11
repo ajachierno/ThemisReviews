@@ -1,0 +1,250 @@
+{
+  "feature_weights": {
+    "range": 0.3,
+    "big": 0.25,
+    "battery": 0.25,
+    "accuracy": 0.2
+  },
+  "systems_note": "These sensors connect to your phone over Bluetooth. Mopeka's Wi-Fi bridge, sold separately, sends their readings to the app from anywhere.",
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "tanks",
+      "label": "Tanks"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "tanks",
+      "label": "Tanks"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09J6MXJKT",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,812 reviews."
+    },
+    {
+      "asin": "B07NRC2W4C",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A Bluetooth tank scale for $19.99."
+    },
+    {
+      "asin": "B0BKLFQ3CL",
+      "label": "Best for Home Tanks",
+      "kind": "premium",
+      "why": "Mopeka's PRO+ reaches up to 1,000 ft and covers tanks up to 2,000 gallons."
+    },
+    {
+      "asin": "B0FCPN9JLW",
+      "label": "Best Anywhere Alerts",
+      "kind": "special",
+      "why": "Adds a cellular connection, so alerts reach you away from home."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09J6MXJKT",
+      "brand": "Mopeka",
+      "model": "Pro Check",
+      "systems": [],
+      "systems_label": "Mopeka Tank Check app",
+      "specs": {
+        "type": "Magnetic ultrasonic sensor",
+        "tanks": "Up to 250 gal",
+        "range": "Bluetooth; Wi-Fi bridge extends it",
+        "extras": "Mounts under the tank"
+      },
+      "features": {
+        "range": false,
+        "big": false,
+        "battery": true,
+        "accuracy": true
+      },
+      "verdict": "The standard for grill and RV tanks: it reads the level through the steel.",
+      "pros": [
+        "2,812 reviews",
+        "No tools to install",
+        "Works with Mopeka's Wi-Fi bridge"
+      ],
+      "cons": [
+        "Bluetooth range only without the bridge",
+        "Steel tanks",
+        "$65.99"
+      ]
+    },
+    {
+      "asin": "B0C7HJ9J14",
+      "brand": "Mopeka",
+      "model": "Pro Check Universal",
+      "systems": [],
+      "systems_label": "Mopeka Tank Check app",
+      "specs": {
+        "type": "Magnetic ultrasonic sensor",
+        "tanks": "Up to 250 gal, steel",
+        "range": "Bluetooth",
+        "extras": "99.5% accuracy, up to 5-year battery"
+      },
+      "features": {
+        "range": false,
+        "big": false,
+        "battery": true,
+        "accuracy": true
+      },
+      "verdict": "Mopeka's universal sensor with up to five years of battery.",
+      "pros": [
+        "99.5% accuracy",
+        "Up to 5-year battery",
+        "4.3 stars"
+      ],
+      "cons": [
+        "North America only",
+        "Steel tanks only",
+        "$72.99"
+      ]
+    },
+    {
+      "asin": "B0BKLFQ3CL",
+      "brand": "Mopeka",
+      "model": "PRO+ Long-Range",
+      "systems": [],
+      "systems_label": "Mopeka Tank Check app",
+      "specs": {
+        "type": "Ultrasonic sensor",
+        "tanks": "Up to 2,000 gal above ground",
+        "range": "Up to 1,000 ft; Wi-Fi bridge extends it",
+        "extras": "Up to 5-year replaceable battery"
+      },
+      "features": {
+        "range": true,
+        "big": true,
+        "battery": true,
+        "accuracy": true
+      },
+      "verdict": "For big home tanks out in the yard.",
+      "pros": [
+        "1,000 ft range",
+        "2,000-gallon tanks",
+        "Replaceable battery"
+      ],
+      "cons": [
+        "$159.99",
+        "Wi-Fi bridge sold separately",
+        "North America only"
+      ]
+    },
+    {
+      "asin": "B0FCPN9JLW",
+      "brand": "Mopeka",
+      "model": "PRO+ Cellular and Bluetooth",
+      "systems": [],
+      "systems_label": "Mopeka Tank Check app",
+      "specs": {
+        "type": "Ultrasonic sensor",
+        "tanks": "Up to 2,000 gal",
+        "range": "Bluetooth plus cellular",
+        "extras": "Up to 5-year battery"
+      },
+      "features": {
+        "range": true,
+        "big": true,
+        "battery": true,
+        "accuracy": true
+      },
+      "verdict": "Checks your home tank from anywhere, with no Wi-Fi needed.",
+      "pros": [
+        "Cellular alerts",
+        "99.5% accuracy",
+        "2,000-gallon tanks"
+      ],
+      "cons": [
+        "$199.99",
+        "Only 13 reviews",
+        "3.8 stars"
+      ]
+    },
+    {
+      "asin": "B0FBSQV5HR",
+      "brand": "Senso4s",
+      "model": "Wireless Propane Tank Gauge",
+      "systems": [],
+      "systems_label": "Senso4s app",
+      "specs": {
+        "type": "Scale under the tank",
+        "tanks": "Steel, aluminum, composite cylinders",
+        "range": "Bluetooth",
+        "extras": "±1% accuracy, IP44"
+      },
+      "features": {
+        "range": false,
+        "big": false,
+        "battery": false,
+        "accuracy": true
+      },
+      "verdict": "Weighs the tank instead of reading through it, so it works on any material.",
+      "pros": [
+        "Any tank material",
+        "±1% accuracy",
+        "Low-gas alerts"
+      ],
+      "cons": [
+        "3.7 stars",
+        "Only 30 reviews",
+        "$69"
+      ]
+    },
+    {
+      "asin": "B07NRC2W4C",
+      "brand": "Flame King",
+      "model": "Smart Wireless Propane Tank Scale",
+      "systems": [],
+      "systems_label": "Smart Scale app",
+      "specs": {
+        "type": "Scale under the tank",
+        "tanks": "Most grill tanks",
+        "range": "Bluetooth",
+        "extras": "Battery lasts 3 months to a year"
+      },
+      "features": {
+        "range": false,
+        "big": false,
+        "battery": false,
+        "accuracy": false
+      },
+      "verdict": "The cheapest way to see your grill tank level on your phone.",
+      "pros": [
+        "$19.99",
+        "Sold by Amazon",
+        "Simple setup"
+      ],
+      "cons": [
+        "3.4 stars",
+        "Short battery life",
+        "Bluetooth range only"
+      ]
+    }
+  ],
+  "avoid": []
+}

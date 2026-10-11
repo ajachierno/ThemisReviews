@@ -1,0 +1,175 @@
+{
+  "slug": "matter-air-quality-monitors",
+  "family": "air-quality-monitors",
+  "family_title": "Air quality monitors",
+  "noun": "monitor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Matter Air Quality Monitors",
+  "subtitle": "Air quality monitors that report to Apple Home, Google Home, and other Matter systems, ranked.",
+  "intro": "We pulled the air quality monitors on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+  "reviews_ceiling": 2000,
+  "feature_weights": {
+    "co2": 0.4,
+    "pm": 0.3,
+    "display": 0.3
+  },
+  "systems_note": "Only listings that name Matter support are included. Many monitors mention \"particulate matter,\" which isn't the same thing.",
+  "spec_fields": [
+    {
+      "key": "measures",
+      "label": "Measures"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "measures",
+      "label": "Measures"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "sensor",
+      "label": "Sensor"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0G2WDPB29",
+      "label": "Best for CO2",
+      "kind": "overall",
+      "why": "SONOFF's AirGuard uses a real NDIR CO2 sensor and reports to every Matter system, rated 4.4 stars."
+    },
+    {
+      "asin": "B0G2W4FVQF",
+      "label": "Best for Particles",
+      "kind": "special",
+      "why": "PM2.5 and PM10 on a 3.73-inch screen with Matter for $39.90."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0G2WDPB29",
+      "brand": "SONOFF",
+      "model": "AirGuard CO2 SAWF-08P",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "eWeLink app",
+      "specs": {
+        "measures": "CO2, temperature, humidity",
+        "display": "Combined display",
+        "sensor": "NDIR CO2, ±(50 ppm + 5%)",
+        "extras": "12 months of history, export"
+      },
+      "features": {
+        "co2": true,
+        "pm": false,
+        "display": true
+      },
+      "verdict": "A real NDIR CO2 meter that shows up in Apple Home, Google Home, and Home Assistant.",
+      "pros": [
+        "NDIR CO2 sensor",
+        "Matter over Wi-Fi",
+        "12 months of data"
+      ],
+      "cons": [
+        "No particle sensor",
+        "2.4 GHz Wi-Fi only",
+        "eWeLink app for history"
+      ],
+      "name": "SONOFF AirGuard CO2 SAWF-08P, Smart Indoor Air Quality Monitor, Matter Compatible, 2.4GHz WiFi, CO2 Monitor for CO2/Temp/Humidity, Real-Time Display & Notification, for Bedroom, Nusery Room",
+      "image": "https://m.media-amazon.com/images/I/61qPR1dWs9L._SL1500_.jpg",
+      "price": 49.9,
+      "rating": 4.4,
+      "reviews_count": 173,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B0G2W4FVQF",
+      "brand": "SONOFF",
+      "model": "SAWF-07P",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "eWeLink app",
+      "specs": {
+        "measures": "PM2.5, PM10, temperature, humidity",
+        "display": "3.73 in screen",
+        "sensor": "PM2.5 ±10 μg/m³",
+        "extras": "Sound, LED, and app alerts"
+      },
+      "features": {
+        "co2": false,
+        "pm": true,
+        "display": true
+      },
+      "verdict": "A particle monitor for smoke and cooking, with Matter.",
+      "pros": [
+        "PM2.5 and PM10",
+        "Three alert types",
+        "$39.90"
+      ],
+      "cons": [
+        "No CO2 sensor",
+        "3.8 stars",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "SONOFF SAWF-07P Smart Indoor Air Quality Monitor with PM2.5, PM10, Temperature & Humidity Sensor, Real-Time Display, Notification, Matter-Compatible, 2.4GHz WiFi, 3.73-inch Screen, for Bedroom, Nusery",
+      "image": "https://m.media-amazon.com/images/I/61IfpvfgoOL._SL1500_.jpg",
+      "price": 39.9,
+      "rating": 3.8,
+      "reviews_count": 194,
+      "bought": "50+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "Does Matter over Wi-Fi need a hub?",
+      "a": "Not a separate one, but you need a Matter controller such as an Apple TV, HomePod, Nest Hub, Echo, or SmartThings hub to add it to your system."
+    },
+    {
+      "q": "What should an air quality monitor measure?",
+      "a": "PM2.5 (fine particles from cooking, smoke, and wildfires), CO2 (a sign of stale air in closed rooms), VOCs (fumes from cleaners and new furniture), plus temperature and humidity. Radon matters in basements in many regions."
+    },
+    {
+      "q": "Is a CO2 reading reliable?",
+      "a": "Only from an NDIR CO2 sensor. Cheaper monitors estimate CO2 from VOC readings, which isn't the same thing. Look for NDIR in the listing if CO2 is the main reason you're buying."
+    },
+    {
+      "q": "Is an air quality monitor a carbon monoxide alarm?",
+      "a": "Usually not. Unless it's UL 2034 listed with a loud alarm, keep a real CO alarm too."
+    }
+  ]
+}

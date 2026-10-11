@@ -138,7 +138,7 @@ PAGES = {
         5000, OUTDOOR_LIGHT_GUIDE),
     "wifi-portable-air-conditioners": _p("air-conditioners", "Air conditioners", "air conditioner", "The Best Smart Portable Air Conditioners",
         "Portable air conditioners with Wi-Fi app and voice control, ranked.",
-        "We pulled the portable air conditioners on Amazon with Wi-Fi control and scored them on rating, review volume, and features: dual-hose or inverter designs, heat mode, and voice control.",
+        "We pulled the portable air conditioners on Amazon with Wi-Fi control and scored them on rating, review volume, and features: quiet modes, self-evaporation, heat mode, and voice control.",
         5000, PORTABLE_AC_GUIDE),
     "bluetooth-propane-monitors": _p("tank-monitors", "Tank monitors", "monitor", "The Best Bluetooth Propane Tank Monitors",
         "Propane tank level sensors that show the level on your phone, ranked.",

@@ -1,0 +1,396 @@
+{
+  "feature_weights": {
+    "white": 0.25,
+    "ip67": 0.25,
+    "voice": 0.25,
+    "bright": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pack",
+      "label": "Pack"
+    },
+    {
+      "key": "brightness",
+      "label": "Brightness"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0GQ3JNL38",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Govee's cylinder lights put out 425 lm each with IP67 fixtures and Wi-Fi plus Bluetooth control."
+    },
+    {
+      "asin": "B0FQ3KX7FL",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "Four RGBCW path lights with Alexa and Google for $66.49, rated 4.6 stars."
+    },
+    {
+      "asin": "B0GKP32WT3",
+      "label": "Best Spotlights",
+      "kind": "special",
+      "why": "Six tunable-white landscape spotlights with Alexa and Google for $80.99."
+    },
+    {
+      "asin": "B0FWKP22YT",
+      "label": "Best with Matter",
+      "kind": "premium",
+      "why": "Govee's curved pathway lights with flowing color and Matter."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0GQ3JNL38",
+      "brand": "Govee",
+      "model": "Outdoor Cylinder Pathway Lights",
+      "systems": [],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "type": "360° path lights",
+        "pack": "8-pack",
+        "brightness": "Up to 425 lm each",
+        "extras": "IP67 lights and box, RGBWIC"
+      },
+      "features": {
+        "white": true,
+        "ip67": true,
+        "voice": false,
+        "bright": true
+      },
+      "verdict": "Bright, all-around light for long walkways.",
+      "pros": [
+        "425 lm per light",
+        "IP67 throughout",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Voice assistants aren't named in the bullets",
+        "$114.99",
+        "Only 81 reviews"
+      ]
+    },
+    {
+      "asin": "B0FWKP22YT",
+      "brand": "Govee",
+      "model": "Outdoor Pathway Lights 2 Lite",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "type": "Curved path lights",
+        "pack": "8-pack",
+        "brightness": "190 lm",
+        "extras": "IP67, 60+ scenes, music sync"
+      },
+      "features": {
+        "white": true,
+        "ip67": true,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Path lights that cast a flowing S-shaped band of color along the edge.",
+      "pros": [
+        "Matter",
+        "IP67 lights and box",
+        "Music sync"
+      ],
+      "cons": [
+        "$169.99",
+        "190 lm",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0GFVZWSGW",
+      "brand": "Govee",
+      "model": "Outdoor Spotlights Lite",
+      "systems": [],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "type": "Spotlights",
+        "pack": "4-pack",
+        "brightness": "Not stated in bullets",
+        "extras": "IP67-class, RGBWIC + white"
+      },
+      "features": {
+        "white": true,
+        "ip67": true,
+        "voice": false,
+        "bright": false
+      },
+      "verdict": "A cheap way to light up trees and walls in color.",
+      "pros": [
+        "$69.99",
+        "Color and white",
+        "Weatherproof"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Brightness isn't in the bullets",
+        "4-pack"
+      ]
+    },
+    {
+      "asin": "B0GKP32WT3",
+      "brand": "Lumary",
+      "model": "Smart Landscape Lights (56 ft)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Lumary app",
+      "specs": {
+        "type": "Spotlights",
+        "pack": "6-pack",
+        "brightness": "Not stated in bullets",
+        "extras": "RGBAIWW, remote included"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Color spotlights that also do warm and cool white for everyday use.",
+      "pros": [
+        "Alexa and Google",
+        "Tunable white",
+        "$80.99"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Weather rating isn't in the bullets",
+        "Only 172 reviews"
+      ]
+    },
+    {
+      "asin": "B0F4251M74",
+      "brand": "Lumary",
+      "model": "Smart Low Voltage Pathway Lights",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Lumary app",
+      "specs": {
+        "type": "Low-voltage path lights",
+        "pack": "6-pack",
+        "brightness": "Not stated in bullets",
+        "extras": "IP65 aluminum, ETL adapter"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Die-cast path lights with individual or group control.",
+      "pros": [
+        "Aluminum build",
+        "Alexa and Google",
+        "Tunable white"
+      ],
+      "cons": [
+        "Power plug isn't waterproof",
+        "3.8 stars",
+        "$219.99"
+      ]
+    },
+    {
+      "asin": "B0F9B2B3Z4",
+      "brand": "Enbrighten",
+      "model": "Eternity Landscape Lighting (50 ft)",
+      "systems": [],
+      "systems_label": "Enbrighten app",
+      "specs": {
+        "type": "Puck lights on stakes",
+        "pack": "12 lights",
+        "brightness": "Not stated in bullets",
+        "extras": "RGBWIC with dedicated white"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": false,
+        "bright": false
+      },
+      "verdict": "A complete kit with three strands, stakes, and power supply, sold by Amazon.",
+      "pros": [
+        "Everything included",
+        "Dedicated white LEDs",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Only 25 reviews",
+        "Voice assistants aren't named in the bullets",
+        "$129.99"
+      ]
+    },
+    {
+      "asin": "B0FQ3KX7FL",
+      "brand": "APPECK",
+      "model": "RGBCW Pathway Lights",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "type": "Path lights",
+        "pack": "4-pack",
+        "brightness": "Not stated in bullets",
+        "extras": "IP65, 111 scenes, remote"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Budget color path lights with a remote and Smart Life app.",
+      "pros": [
+        "$66.49",
+        "4.6 stars",
+        "Remote included"
+      ],
+      "cons": [
+        "4-pack",
+        "Only 56 reviews",
+        "IP65"
+      ]
+    },
+    {
+      "asin": "B0FPM22JFC",
+      "brand": "APPECK",
+      "model": "RGBW Landscape Spotlights",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "type": "Spotlights",
+        "pack": "8-pack",
+        "brightness": "Not stated in bullets",
+        "extras": "Individual color per light"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Eight spotlights where each one can be its own color.",
+      "pros": [
+        "8-pack",
+        "Per-light color",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Don't submerge",
+        "$119.99"
+      ]
+    },
+    {
+      "asin": "B0DSQKD597",
+      "brand": "Feit Electric",
+      "model": "Smart Outdoor Cone Path Lights",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Feit Electric app",
+      "specs": {
+        "type": "Cone path lights",
+        "pack": "Not stated in bullets",
+        "brightness": "100 lm",
+        "extras": "Music sync, remote"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "Classic cone-shaped path lights with color and tunable white.",
+      "pros": [
+        "Tunable white",
+        "Music sync",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 7 reviews",
+        "100 lm",
+        "Sold by a third party"
+      ]
+    },
+    {
+      "asin": "B0CC3RW3YM",
+      "brand": "WiZ",
+      "model": "Elpas Bollard Path Light Starter Kit",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "WiZ app",
+      "specs": {
+        "type": "Bollard",
+        "pack": "Starter kit",
+        "brightness": "Not stated in bullets",
+        "extras": "16M colors, no hub"
+      },
+      "features": {
+        "white": true,
+        "ip67": false,
+        "voice": true,
+        "bright": false
+      },
+      "verdict": "A modern bollard that works with Home Assistant through WiZ.",
+      "pros": [
+        "Home Assistant via WiZ",
+        "No hub needed",
+        "$24.99"
+      ],
+      "cons": [
+        "Only 11 reviews",
+        "Sold by a third party",
+        "Single light"
+      ]
+    }
+  ],
+  "avoid": []
+}

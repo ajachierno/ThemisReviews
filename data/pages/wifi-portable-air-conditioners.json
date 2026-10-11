@@ -1,0 +1,381 @@
+{
+  "slug": "wifi-portable-air-conditioners",
+  "family": "air-conditioners",
+  "family_title": "Air conditioners",
+  "noun": "air conditioner",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Portable Air Conditioners",
+  "subtitle": "Portable air conditioners with Wi-Fi app and voice control, ranked.",
+  "intro": "We pulled the portable air conditioners on Amazon with Wi-Fi control and scored them on rating, review volume, and features: quiet modes, self-evaporation, heat mode, and voice control.",
+  "reviews_ceiling": 5000,
+  "feature_weights": {
+    "big": 0.25,
+    "quiet": 0.25,
+    "evap": 0.25,
+    "voice": 0.25
+  },
+  "spec_fields": [
+    {
+      "key": "btu",
+      "label": "Cooling"
+    },
+    {
+      "key": "room",
+      "label": "Room size"
+    },
+    {
+      "key": "modes",
+      "label": "Modes"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "btu",
+      "label": "Cooling"
+    },
+    {
+      "key": "room",
+      "label": "Room size"
+    },
+    {
+      "key": "modes",
+      "label": "Modes"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0GMGR4BJV",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Temprium's 14,000 BTU unit runs at 41 dB in silent mode, with Alexa and Google."
+    },
+    {
+      "asin": "B0H1YF1LCT",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "An 8,000 BTU Wi-Fi portable AC with 13,303 reviews for $299.90, sold by Amazon."
+    },
+    {
+      "asin": "B01DLPUWJ4",
+      "label": "Best with Heat",
+      "kind": "special",
+      "why": "BLACK+DECKER's 14,000 BTU unit adds 10,000 BTU of heat."
+    },
+    {
+      "asin": "B0HCYKKLLG",
+      "label": "Best for Big Rooms",
+      "kind": "premium",
+      "why": "14,000 BTU for up to 700 sq ft with 72-hour self-evaporation."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0GMGR4BJV",
+      "brand": "Temprium",
+      "model": "14,000 BTU Smart Portable AC",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "TEMPRIUM app",
+      "specs": {
+        "btu": "14,000 BTU",
+        "room": "Not stated in bullets",
+        "modes": "Cool, dry, fan, dehumidify",
+        "extras": "41 dB silent mode, dual-motor compressor"
+      },
+      "features": {
+        "big": true,
+        "quiet": true,
+        "evap": false,
+        "voice": true
+      },
+      "verdict": "The quietest big portable AC here.",
+      "pros": [
+        "41 dB silent mode",
+        "Alexa and Google",
+        "4.2 stars"
+      ],
+      "cons": [
+        "$439.99",
+        "Room size isn't in the bullets",
+        "Only 359 reviews"
+      ],
+      "name": "14,000 BTU Portable Air Conditioner, 4-in-1 Smart AC with WiFi",
+      "image": "https://m.media-amazon.com/images/I/61fRvloBvhL._AC_SL1500_.jpg",
+      "price": 439.99,
+      "rating": 4.2,
+      "reviews_count": 359,
+      "bought": "100+ bought in past month"
+    },
+    {
+      "asin": "B0HCYKKLLG",
+      "brand": "GrowthWing",
+      "model": "14,000 BTU Smart WiFi Portable AC",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "btu": "14,000 BTU ASHRAE",
+        "room": "Up to 700 sq ft",
+        "modes": "Cool, dry, fan",
+        "extras": "72-hour auto-evaporation, 42 dB sleep mode"
+      },
+      "features": {
+        "big": true,
+        "quiet": true,
+        "evap": true,
+        "voice": false
+      },
+      "verdict": "Self-evaporating, so you rarely drain it.",
+      "pros": [
+        "72 hours without draining",
+        "700 sq ft",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Voice assistants aren't named",
+        "Only 81 reviews",
+        "$499.99"
+      ],
+      "name": "14,000 BTU Smart WiFi Portable Air Conditioner, Cools up to 700 Sq.Ft, Auto-Evaporation, 3-in-1 Modes, Voice & Remote Control, Quiet Operation, White",
+      "image": "https://m.media-amazon.com/images/I/61CJ5NAZgQL._AC_SL1500_.jpg",
+      "price": 499.99,
+      "rating": 4.6,
+      "reviews_count": 81,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B0HCYPPX93",
+      "brand": "GrowthWing",
+      "model": "12,000 BTU Smart WiFi Portable AC",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "btu": "12,000 BTU ASHRAE",
+        "room": "Up to 550 sq ft",
+        "modes": "Cool, dry, fan",
+        "extras": "72-hour auto-evaporation, 42 dB sleep mode"
+      },
+      "features": {
+        "big": true,
+        "quiet": true,
+        "evap": true,
+        "voice": false
+      },
+      "verdict": "The same self-evaporating design in a smaller size.",
+      "pros": [
+        "72 hours without draining",
+        "42 dB sleep mode",
+        "$419.99"
+      ],
+      "cons": [
+        "Only 11 reviews",
+        "Voice assistants aren't named",
+        "Lesser-known brand"
+      ],
+      "name": "12,000 BTU Smart WiFi Portable Air Conditioner, Cools up to 550 Sq.Ft, Auto-Evaporation, 3-in-1 Modes, Voice & Remote Control, Quiet Operation, White",
+      "image": "https://m.media-amazon.com/images/I/61CJ5NAZgQL._AC_SL1500_.jpg",
+      "price": 419.99,
+      "rating": 4.6,
+      "reviews_count": 11,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B01DLPUWHQ",
+      "brand": "BLACK+DECKER",
+      "model": "BPACT14WT 14,000 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "BLACK+DECKER app",
+      "specs": {
+        "btu": "14,000 BTU ASHRAE (10,200 SACC)",
+        "room": "Up to 700 sq ft",
+        "modes": "Cool, dehumidify, fan",
+        "extras": "Follow Me remote"
+      },
+      "features": {
+        "big": true,
+        "quiet": false,
+        "evap": false,
+        "voice": true
+      },
+      "verdict": "A popular big portable AC whose remote acts as the thermostat.",
+      "pros": [
+        "9,176 reviews",
+        "Sold by Amazon",
+        "Follow Me remote"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Single hose",
+        "$470.35"
+      ],
+      "name": "BLACK+DECKER Smart Portable Air Conditioner, 14,000 BTU, BPACT14WT, White",
+      "image": "https://m.media-amazon.com/images/I/61LcIL7oROL._AC_SL1500_.jpg",
+      "price": 470.35,
+      "rating": 3.9,
+      "reviews_count": 9176,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B01DLPUWJ4",
+      "brand": "BLACK+DECKER",
+      "model": "14,000 BTU with Heat",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "BLACK+DECKER app",
+      "specs": {
+        "btu": "14,000 BTU ASHRAE, 10,000 BTU heat",
+        "room": "Up to 700 sq ft",
+        "modes": "Cool, heat, dehumidify, fan",
+        "extras": "Follow Me remote"
+      },
+      "features": {
+        "big": true,
+        "quiet": false,
+        "evap": false,
+        "voice": true
+      },
+      "verdict": "Cools in summer and heats in winter.",
+      "pros": [
+        "Heat mode",
+        "6,081 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "3.9 stars",
+        "$556.77",
+        "Heavy"
+      ],
+      "name": "BLACK+DECKER Smart Portable Air Conditioner with Heat, 14,000 BTU, White",
+      "image": "https://m.media-amazon.com/images/I/619Fna59kFL._AC_SL1500_.jpg",
+      "price": 556.77,
+      "rating": 3.9,
+      "reviews_count": 6081,
+      "bought": "600+ bought in past month"
+    },
+    {
+      "asin": "B01DLPUWGW",
+      "brand": "BLACK+DECKER",
+      "model": "BPACT12WT 12,000 BTU",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "BLACK+DECKER app",
+      "specs": {
+        "btu": "12,000 BTU (8,350 SACC)",
+        "room": "Up to 550 sq ft",
+        "modes": "Cool, dehumidify, fan",
+        "extras": "Follow Me remote"
+      },
+      "features": {
+        "big": true,
+        "quiet": false,
+        "evap": false,
+        "voice": true
+      },
+      "verdict": "The mid-size BLACK+DECKER for bedrooms and offices.",
+      "pros": [
+        "7,496 reviews",
+        "Sold by Amazon",
+        "Alexa and Google"
+      ],
+      "cons": [
+        "$584.99 costs more than the 14,000 BTU model",
+        "4.1 stars",
+        "Single hose"
+      ],
+      "name": "BLACK+DECKER Smart Portable Air Conditioner, 12,000 BTU, BPACT12WT, White",
+      "image": "https://m.media-amazon.com/images/I/61LcIL7oROL._AC_SL1500_.jpg",
+      "price": 584.99,
+      "rating": 4.1,
+      "reviews_count": 7496,
+      "bought": "900+ bought in past month"
+    },
+    {
+      "asin": "B0H1YF1LCT",
+      "brand": "SereneLife",
+      "model": "8,000 BTU Portable AC with WiFi",
+      "systems": [],
+      "systems_label": "SereneLife app",
+      "specs": {
+        "btu": "8,000 BTU",
+        "room": "Up to 350 sq ft",
+        "modes": "Cool, fan, dehumidify",
+        "extras": "Window kit included, casters"
+      },
+      "features": {
+        "big": false,
+        "quiet": false,
+        "evap": false,
+        "voice": false
+      },
+      "verdict": "The cheapest Wi-Fi portable AC here, for a small bedroom.",
+      "pros": [
+        "$299.90",
+        "13,303 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "8,000 BTU",
+        "Voice assistants aren't named",
+        "4.1 stars"
+      ],
+      "name": "SereneLife Portable Air Conditioner 8000 BTU With WIFI | 3-in-1 Cooling, Fan and Dehumidifier | 24-H Timer up to 350 sq ft Coverage | AC Unit for Bedroom, Home & Office | Window Kit & Remote",
+      "image": "https://m.media-amazon.com/images/I/71uNesyq4ZL._AC_SL1500_.jpg",
+      "price": 299.9,
+      "rating": 4.1,
+      "reviews_count": 13303,
+      "bought": "100+ bought in past month"
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GGLDGZY2",
+      "brand": "BLACK+DECKER",
+      "model": "8,000 BTU Smart Portable AC (third-party listing)",
+      "systems": [],
+      "flag": "Overpriced reseller listing",
+      "verdict": "Buy the 14,000 BTU BLACK+DECKER from Amazon instead.",
+      "reasons": [
+        "$548.19 for 8,000 BTU from a third-party seller",
+        "BLACK+DECKER's own 14,000 BTU model is $470.35 and sold by Amazon",
+        "3.8 stars"
+      ],
+      "name": "BLACK+DECKER Smart Portable Air Conditioner with WiFi & Remote, 8,000 BTU",
+      "image": "https://m.media-amazon.com/images/I/51GuqPfJzyL._AC_SL1500_.jpg",
+      "price": 548.19,
+      "rating": 3.8,
+      "reviews_count": 103,
+      "bought": null
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Portable or window AC?",
+      "a": "Window units cool better for the money. Portable units suit windows that can't take a window unit, like casement or sliding windows, or rentals that don't allow them."
+    },
+    {
+      "q": "Single hose or dual hose?",
+      "a": "Dual-hose units pull outside air to cool the condenser, so they don't create negative pressure that draws warm air in through gaps. They cool large rooms faster."
+    },
+    {
+      "q": "What does Wi-Fi add?",
+      "a": "Cool the room before you get home, schedules, and Alexa or Google voice control."
+    }
+  ]
+}

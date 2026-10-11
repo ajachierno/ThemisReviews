@@ -1,0 +1,352 @@
+{
+  "slug": "wifi-smart-scales",
+  "family": "scales",
+  "family_title": "Smart scales",
+  "noun": "scale",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Wi-Fi Smart Scales",
+  "subtitle": "Wi-Fi bathroom scales that sync your weight automatically, ranked.",
+  "intro": "We pulled the Wi-Fi smart scales on Amazon and scored them on rating, review volume, and features: automatic Wi-Fi sync, body composition, multiple users, and health app support.",
+  "reviews_ceiling": 20000,
+  "feature_weights": {
+    "handle": 0.25,
+    "display": 0.25,
+    "apps": 0.25,
+    "users": 0.25
+  },
+  "systems_note": "Only Wi-Fi scales are included, so readings sync without your phone nearby. Many popular scales are Bluetooth only.",
+  "spec_fields": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "metrics",
+      "label": "Metrics"
+    },
+    {
+      "key": "sync",
+      "label": "Syncs with"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "metrics",
+      "label": "Metrics"
+    },
+    {
+      "key": "sync",
+      "label": "Syncs with"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B09HCJD6H1",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "Etekcity's Wi-Fi scale has 349,711 reviews, a color display, and Alexa."
+    },
+    {
+      "asin": "B0DHTYQ4KJ",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "A Wi-Fi and Bluetooth scale with a 4.3-inch display for $49.98."
+    },
+    {
+      "asin": "B0FS764RQ4",
+      "label": "Best Body Composition",
+      "kind": "premium",
+      "why": "Wyze's handle scale measures 44 metrics with 8 electrodes and syncs over Wi-Fi."
+    },
+    {
+      "asin": "B0C3JNJPZ7",
+      "label": "Best for Heart Health",
+      "kind": "special",
+      "why": "Withings Body Smart is clinically validated and checks your heart rate at every weigh-in."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09HCJD6H1",
+      "brand": "Etekcity",
+      "model": "Smart Scale (Wi-Fi, color display)",
+      "systems": [
+        "alexa"
+      ],
+      "systems_label": "VeSync app",
+      "specs": {
+        "display": "Color TFT",
+        "metrics": "Up to 9 on the display",
+        "sync": "Apple Health, Google Fit, Fitbit, MyFitnessPal, Samsung Health",
+        "extras": "Ask Alexa for your progress"
+      },
+      "features": {
+        "handle": false,
+        "display": true,
+        "apps": true,
+        "users": true
+      },
+      "verdict": "The most-reviewed scale on Amazon, with automatic Wi-Fi sync.",
+      "pros": [
+        "349,711 reviews",
+        "Wi-Fi auto sync",
+        "Syncs with every major health app"
+      ],
+      "cons": [
+        "Foot electrodes only",
+        "$79.99",
+        "VeSync app"
+      ],
+      "name": "Etekcity Smart Scale for Body Weight and Fat, BMI, FSA Eligible, Black",
+      "image": "https://m.media-amazon.com/images/I/61NlvZl1lpL._SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.7,
+      "reviews_count": 349711,
+      "bought": "4K+ bought in past month"
+    },
+    {
+      "asin": "B0H6FPSYXM",
+      "brand": "Etekcity",
+      "model": "WiFi 8-Electrode Smart Scale",
+      "systems": [],
+      "systems_label": "VeSync app",
+      "specs": {
+        "display": "Interactive color display",
+        "metrics": "50+ metrics, 5-segment analysis",
+        "sync": "Apple Health, Samsung Health, MyFitnessPal, Apple Watch",
+        "extras": "DEXA-validated algorithm"
+      },
+      "features": {
+        "handle": true,
+        "display": true,
+        "apps": true,
+        "users": true
+      },
+      "verdict": "Etekcity's top scale, with hand electrodes for arm and leg readings.",
+      "pros": [
+        "8 electrodes",
+        "DEXA-validated",
+        "4.7 stars"
+      ],
+      "cons": [
+        "$169.99",
+        "Handle takes space",
+        "VeSync app"
+      ],
+      "name": "Etekcity WiFi 8-Electrode Smart Scale for Body Weight and Fat",
+      "image": "https://m.media-amazon.com/images/I/61ox++uhVOL._SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.7,
+      "reviews_count": 152540,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0FS764RQ4",
+      "brand": "Wyze",
+      "model": "Scale Ultra BodyScan",
+      "systems": [],
+      "systems_label": "Wyze app",
+      "specs": {
+        "display": "4.3 in color TFT",
+        "metrics": "44 metrics with segmental fat and muscle",
+        "sync": "Wyze app",
+        "extras": "Recognizes up to 8 users"
+      },
+      "features": {
+        "handle": true,
+        "display": true,
+        "apps": false,
+        "users": true
+      },
+      "verdict": "A full body scan at a Wyze price.",
+      "pros": [
+        "8-electrode BIA",
+        "24,901 reviews",
+        "FSA/HSA eligible"
+      ],
+      "cons": [
+        "$119.98",
+        "Health app sync isn't in the bullets",
+        "Handle storage"
+      ],
+      "name": "WYZE Scale Ultra BodyScan 8-Electrode Smart Scale, Wi-Fi Auto-Sync",
+      "image": "https://m.media-amazon.com/images/I/61OAhFRK35L._SL1500_.jpg",
+      "price": 119.98,
+      "rating": 4.6,
+      "reviews_count": 24901,
+      "bought": "900+ bought in past month"
+    },
+    {
+      "asin": "B0DHTYQ4KJ",
+      "brand": "Wyze",
+      "model": "Scale Ultra",
+      "systems": [],
+      "systems_label": "Wyze app",
+      "specs": {
+        "display": "4.3 in display",
+        "metrics": "13 metrics incl. heart rate",
+        "sync": "Wyze app",
+        "extras": "Syncs without your phone nearby"
+      },
+      "features": {
+        "handle": false,
+        "display": true,
+        "apps": false,
+        "users": true
+      },
+      "verdict": "The cheapest Wi-Fi scale here, with a big display.",
+      "pros": [
+        "$49.98",
+        "Wi-Fi and Bluetooth",
+        "FSA/HSA eligible"
+      ],
+      "cons": [
+        "13 metrics",
+        "Health app sync isn't in the bullets",
+        "4.4 stars"
+      ],
+      "name": "Wyze Scale Ultra Smart Scale for Body Weight, BMI & Muscle Mass",
+      "image": "https://m.media-amazon.com/images/I/511uVvu0qBL._SL1000_.jpg",
+      "price": 49.98,
+      "rating": 4.4,
+      "reviews_count": 1557,
+      "bought": "1K+ bought in past month"
+    },
+    {
+      "asin": "B0C3JNJPZ7",
+      "brand": "Withings",
+      "model": "Body Smart",
+      "systems": [],
+      "systems_label": "Withings app",
+      "specs": {
+        "display": "High-resolution color",
+        "metrics": "Weight to 50 g, body composition, heart rate",
+        "sync": "Withings app",
+        "extras": "Clinically validated"
+      },
+      "features": {
+        "handle": false,
+        "display": true,
+        "apps": false,
+        "users": true
+      },
+      "verdict": "A clinically validated scale that also checks your heart rate.",
+      "pros": [
+        "Clinically validated",
+        "Heart rate at weigh-in",
+        "39,748 reviews"
+      ],
+      "cons": [
+        "$129.95",
+        "4.3 stars",
+        "Withings app only"
+      ],
+      "name": "WITHINGS Body Smart - Accurate Scale for Body Weight and Fat Percentage, Body Composition Wi-Fi and Bluetooth Weight Scale, Baby Weight Scale, Smart Scale Apple Health Compatible, Bathroom Scale",
+      "image": "https://m.media-amazon.com/images/I/61jzbR6GHaL._SL1500_.jpg",
+      "price": 129.95,
+      "rating": 4.3,
+      "reviews_count": 39748,
+      "bought": "2K+ bought in past month"
+    },
+    {
+      "asin": "B0FCXWLCD2",
+      "brand": "RENPHO",
+      "model": "Elis Evo",
+      "systems": [],
+      "systems_label": "RENPHO Health app",
+      "specs": {
+        "display": "TFT, 7 metrics",
+        "metrics": "18 metrics",
+        "sync": "RENPHO Health",
+        "extras": "Rechargeable; pregnancy, baby, and athlete modes"
+      },
+      "features": {
+        "handle": false,
+        "display": true,
+        "apps": false,
+        "users": true
+      },
+      "verdict": "A rechargeable scale with special modes for pregnancy and weighing babies.",
+      "pros": [
+        "Rechargeable",
+        "Pregnancy and baby modes",
+        "$59.99"
+      ],
+      "cons": [
+        "Only 272 reviews",
+        "Foot electrodes only",
+        "RENPHO app"
+      ],
+      "name": "RENPHO Elis Evo Smart Scale, Wi-Fi & Bluetooth, Rechargeable, Body Fat",
+      "image": "https://m.media-amazon.com/images/I/71DV-KMC2tL._SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.6,
+      "reviews_count": 272,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GYP37RZW",
+      "brand": "RENPHO",
+      "model": "Smart Scale with Handle Display",
+      "systems": [],
+      "systems_label": "RENPHO Health app",
+      "specs": {
+        "display": "4.3 in on handle",
+        "metrics": "50+ metrics",
+        "sync": "Apple Health, Google Fit, MyFitnessPal",
+        "extras": "8 electrodes, dual frequency"
+      },
+      "features": {
+        "handle": true,
+        "display": true,
+        "apps": true,
+        "users": true
+      },
+      "verdict": "The handle display puts your results at eye level.",
+      "pros": [
+        "Display on the handle",
+        "8 electrodes",
+        "Google Fit and Apple Health"
+      ],
+      "cons": [
+        "$159.99",
+        "4.4 stars",
+        "Bulky"
+      ],
+      "name": "RENPHO Smart Scale with Large Handle Display, Wi-Fi & Wireless Connection",
+      "image": "https://m.media-amazon.com/images/I/71mA0E9HheL._SL1500_.jpg",
+      "price": 159.99,
+      "rating": 4.4,
+      "reviews_count": 1729,
+      "bought": "1K+ bought in past month"
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "How accurate are body composition scales?",
+      "a": "Weight is accurate to a few tenths of a pound. Body fat and muscle numbers from foot sensors are estimates; use them to see trends, not exact values."
+    },
+    {
+      "q": "Wi-Fi or Bluetooth?",
+      "a": "Wi-Fi scales sync on their own every time you step on. Bluetooth scales need your phone nearby with the app open."
+    },
+    {
+      "q": "Does it work with Apple Health and Google Fit?",
+      "a": "Most do, along with apps like Fitbit or MyFitnessPal. Check the listing for the ones you use."
+    }
+  ]
+}

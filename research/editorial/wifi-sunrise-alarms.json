@@ -1,0 +1,223 @@
+{
+  "feature_weights": {
+    "voice": 0.25,
+    "sounds": 0.25,
+    "color": 0.25,
+    "nosub": 0.25
+  },
+  "systems_note": "Only clocks whose listings name Wi-Fi are included. Hatch's Restore 3 doesn't say how it connects and charges $5.99/month for Hatch+ after a trial; several popular clocks are Bluetooth only.",
+  "spec_fields": [
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "sounds",
+      "label": "Sounds"
+    },
+    {
+      "key": "control",
+      "label": "Control"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "light",
+      "label": "Light"
+    },
+    {
+      "key": "sounds",
+      "label": "Sounds"
+    },
+    {
+      "key": "control",
+      "label": "Control"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0FNMM6X65",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "REACHER's R7 brightens over 5 to 60 minutes, has a full wind-down routine, and charges no monthly fees."
+    },
+    {
+      "asin": "B0FRRXBZ3W",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "15 alarms, 5 sunrise modes, and 25 sleep sounds over Wi-Fi for $39.99."
+    },
+    {
+      "asin": "B0H3NSFQ5K",
+      "label": "Best Voice Control",
+      "kind": "special",
+      "why": "The only clock here that works with Alexa and Google, with RGB-IC lighting."
+    },
+    {
+      "asin": "B0HKVSB8K1",
+      "label": "Best Premium",
+      "kind": "premium",
+      "why": "Dekala's Arches adds a wireless charger and Bluetooth speaker."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FNMM6X65",
+      "brand": "REACHER",
+      "model": "Smart Sunrise Alarm Clock (R7)",
+      "systems": [],
+      "systems_label": "REACHER app",
+      "specs": {
+        "light": "Sunrise 1–100% over 5–60 min",
+        "sounds": "White noise, fan, and nature sounds",
+        "control": "App over 2.4 GHz Wi-Fi",
+        "extras": "Wind-down routine, no monthly fees"
+      },
+      "features": {
+        "voice": false,
+        "sounds": true,
+        "color": false,
+        "nosub": true
+      },
+      "verdict": "A full sleep routine in the app with every feature free.",
+      "pros": [
+        "No monthly fees",
+        "Adjustable sunrise length",
+        "Wind-down routine"
+      ],
+      "cons": [
+        "$79.99",
+        "4.0 stars",
+        "Only 73 reviews"
+      ]
+    },
+    {
+      "asin": "B0FRRXBZ3W",
+      "brand": "ANJANK",
+      "model": "App Smart Sunrise Alarm Clock",
+      "systems": [],
+      "systems_label": "ANJANK app",
+      "specs": {
+        "light": "5 sunrise modes",
+        "sounds": "25 sleep sounds",
+        "control": "App over Wi-Fi",
+        "extras": "15 alarms, 256-color night light"
+      },
+      "features": {
+        "voice": false,
+        "sounds": true,
+        "color": true,
+        "nosub": true
+      },
+      "verdict": "Separate weekday and weekend alarms, set from anywhere.",
+      "pros": [
+        "15 alarms",
+        "25 sleep sounds",
+        "$39.99"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 27 reviews",
+        "Lesser-known brand"
+      ]
+    },
+    {
+      "asin": "B0H1QWLZTD",
+      "brand": "ecozy",
+      "model": "Lumo Nova 3-in-1 Sunrise Alarm Clock",
+      "systems": [],
+      "systems_label": "ecozy app",
+      "specs": {
+        "light": "Simulated sunrise, 360° RGB",
+        "sounds": "26 sounds",
+        "control": "App over 2.4 GHz Wi-Fi",
+        "extras": "Bluetooth audio, sleep plans"
+      },
+      "features": {
+        "voice": false,
+        "sounds": true,
+        "color": true,
+        "nosub": true
+      },
+      "verdict": "A sleep trainer with personalized plans and surround color lighting.",
+      "pros": [
+        "Sleep plans in the app",
+        "360° ambient light",
+        "$39.99"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 28 reviews",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0H3NSFQ5K",
+      "brand": "NEEWER",
+      "model": "NF03 Sunrise Alarm Clock",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "NEEWER Home app",
+      "specs": {
+        "light": "Sunrise, RGB-IC, 2,700K–6,500K",
+        "sounds": "24 built-in + 54 downloadable tracks",
+        "control": "App, buttons, Alexa, Google",
+        "extras": "AI lighting from text or images"
+      },
+      "features": {
+        "voice": true,
+        "sounds": true,
+        "color": true,
+        "nosub": true
+      },
+      "verdict": "A wake-up light that doubles as a creative RGB lamp.",
+      "pros": [
+        "Alexa and Google",
+        "Downloads with no subscription",
+        "41 special scenes"
+      ],
+      "cons": [
+        "3.9 stars",
+        "Only 54 reviews",
+        "$59.99"
+      ]
+    },
+    {
+      "asin": "B0HKVSB8K1",
+      "brand": "Dekala",
+      "model": "Arches Gradual Sunrise Alarm Clock",
+      "systems": [],
+      "systems_label": "Dekala app",
+      "specs": {
+        "light": "Sunrise and sunset, 16M colors",
+        "sounds": "White, brown, fan, waves, lullabies",
+        "control": "App over 2.4 GHz Wi-Fi, voice prompts",
+        "extras": "Wireless charger, Bluetooth speaker"
+      },
+      "features": {
+        "voice": false,
+        "sounds": true,
+        "color": true,
+        "nosub": true
+      },
+      "verdict": "A bedside hub that charges your phone and plays music too.",
+      "pros": [
+        "Wireless charger",
+        "Bluetooth speaker",
+        "4.5 stars"
+      ],
+      "cons": [
+        "$129.99",
+        "Only 26 reviews",
+        "Bulky"
+      ]
+    }
+  ],
+  "avoid": []
+}

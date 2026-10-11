@@ -1,0 +1,308 @@
+{
+  "slug": "wifi-mailbox-sensors",
+  "family": "mailbox-sensors",
+  "family_title": "Mailbox sensors",
+  "noun": "sensor",
+  "data_captured": "2026-10-04",
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.3,
+    "features": 0.25
+  },
+  "title": "The Best Smart Mailbox Sensors",
+  "subtitle": "Sensors that alert your phone when the mail arrives, ranked.",
+  "intro": "We pulled the mailbox sensors on Amazon with app alerts and scored them on rating, review volume, and features: range, battery life, and smart home support.",
+  "reviews_ceiling": 1000,
+  "feature_weights": {
+    "range": 0.3,
+    "chime": 0.25,
+    "battery": 0.25,
+    "weather": 0.2
+  },
+  "systems_note": "Each sensor talks to an indoor receiver that connects to your Wi-Fi and sends alerts to the app.",
+  "spec_fields": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "alerts",
+      "label": "Alerts"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "alerts",
+      "label": "Alerts"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    }
+  ],
+  "awards": [
+    {
+      "asin": "B0CPLQ16K7",
+      "label": "Best Overall",
+      "kind": "overall",
+      "why": "X-Sense's mailbox alarm has 1,561 reviews and app alerts through its base station."
+    },
+    {
+      "asin": "B0GYW9F4F7",
+      "label": "Best Battery Life",
+      "kind": "special",
+      "why": "Up to 5 years on one battery with app alerts and an indoor chime."
+    },
+    {
+      "asin": "B0G529M45T",
+      "label": "Longest Range",
+      "kind": "premium",
+      "why": "LoRa radio reaches up to 1,200 ft."
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CPLQ16K7",
+      "brand": "X-Sense",
+      "model": "Smart Mailbox Alarm",
+      "systems": [],
+      "systems_label": "X-Sense app",
+      "specs": {
+        "range": "Long range to base station",
+        "alerts": "App push, multi-user sharing",
+        "power": "Battery",
+        "extras": "Base station included, fits many mailbox types"
+      },
+      "features": {
+        "range": true,
+        "chime": false,
+        "battery": false,
+        "weather": false
+      },
+      "verdict": "The most-reviewed mailbox sensor, with a base station that connects to Wi-Fi.",
+      "pros": [
+        "1,561 reviews",
+        "Base station included",
+        "$29.98"
+      ],
+      "cons": [
+        "2.4 GHz Wi-Fi only",
+        "Range isn't stated in feet",
+        "X-Sense app"
+      ],
+      "name": "X-Sense Smart Mailbox Alarm for Delivered Mail, APP Alerts",
+      "image": "https://m.media-amazon.com/images/I/61JsrJVrxqL._AC_SL1500_.jpg",
+      "price": 29.98,
+      "rating": 4.3,
+      "reviews_count": 1561,
+      "bought": "400+ bought in past month"
+    },
+    {
+      "asin": "B0GYW9F4F7",
+      "brand": "Irrespek",
+      "model": "WiFi Mailbox Alarm Sensor",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "range": "Long range",
+        "alerts": "App push and chime",
+        "power": "Replaceable battery, up to 5 years",
+        "extras": "IP65, 14°F to 140°F"
+      },
+      "features": {
+        "range": true,
+        "chime": true,
+        "battery": true,
+        "weather": true
+      },
+      "verdict": "Set it and forget it for years.",
+      "pros": [
+        "Up to 5-year battery",
+        "IP65",
+        "Indoor chime"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 54 reviews",
+        "Lesser-known brand"
+      ],
+      "name": "Mailbox Chime with Wireless, WiFi Mailbox Alarm Sensor for Delivered",
+      "image": "https://m.media-amazon.com/images/I/613SOakUtIL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 3.8,
+      "reviews_count": 54,
+      "bought": null
+    },
+    {
+      "asin": "B0H25CFN1Y",
+      "brand": "Bistee",
+      "model": "WiFi Mail Chime",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "range": "Long range",
+        "alerts": "App push, LED, and chime",
+        "power": "Battery",
+        "extras": "IP65"
+      },
+      "features": {
+        "range": true,
+        "chime": true,
+        "battery": false,
+        "weather": true
+      },
+      "verdict": "Three kinds of alerts so nobody misses the mail.",
+      "pros": [
+        "App, light, and sound alerts",
+        "IP65",
+        "165 reviews"
+      ],
+      "cons": [
+        "3.8 stars",
+        "$38.99",
+        "Range isn't stated in feet"
+      ],
+      "name": "WiFi Mail Chime, Smart Wireless Mailbox Chime Sensor Long Range",
+      "image": "https://m.media-amazon.com/images/I/71Or5aAEPpL._AC_SL1500_.jpg",
+      "price": 38.99,
+      "rating": 3.8,
+      "reviews_count": 165,
+      "bought": null
+    },
+    {
+      "asin": "B0CL6431MV",
+      "brand": "Evernary",
+      "model": "Tuya Smart Mailbox Chime",
+      "systems": [],
+      "systems_label": "Smart Life app",
+      "specs": {
+        "range": "Up to 800 ft open air, 30–200 ft indoors",
+        "alerts": "App and hub chime",
+        "power": "Battery",
+        "extras": "IP55, Smart Life sharing"
+      },
+      "features": {
+        "range": true,
+        "chime": true,
+        "battery": false,
+        "weather": false
+      },
+      "verdict": "A Tuya sensor that shares alerts with the whole family.",
+      "pros": [
+        "800 ft open-air range",
+        "Works in Smart Life",
+        "Alert sharing"
+      ],
+      "cons": [
+        "3.8 stars",
+        "IP55",
+        "Indoor range much shorter"
+      ],
+      "name": "WiFi Mailbox Alert, Tuya Smart Mailbox Chime, 800ft Wireless Mailbox Alarm Outside Weatherproof with LED Light Flashing, Sound and Phone Reminders (only Supports 2.4GHz Wi-Fi)",
+      "image": "https://m.media-amazon.com/images/I/61IcVqnBKiL._AC_SL1450_.jpg",
+      "price": 36.99,
+      "rating": 3.8,
+      "reviews_count": 54,
+      "bought": null
+    },
+    {
+      "asin": "B0GGZXF4Y5",
+      "brand": "linkshow",
+      "model": "Smart Mailbox Sensor with WiFi",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "range": "Up to 500 ft",
+        "alerts": "App push",
+        "power": "Battery",
+        "extras": "Waterproof sensor"
+      },
+      "features": {
+        "range": false,
+        "chime": false,
+        "battery": false,
+        "weather": true
+      },
+      "verdict": "A cheap app-alert mailbox sensor.",
+      "pros": [
+        "$26.99",
+        "500 ft range",
+        "Easy buckle mount"
+      ],
+      "cons": [
+        "3.3 stars",
+        "2.4 GHz Wi-Fi only",
+        "Only 53 reviews"
+      ],
+      "name": "Smart Mailbox Sensor with WiFi,Mailbox Alert for Delivered Mail,500 ft Long Range Wireless Mailbox Alarm with LED Light and Sound Reminders,Mailbox Security System 2.4G WiFi Compatible",
+      "image": "https://m.media-amazon.com/images/I/61jCT3J-50L._AC_SL1500_.jpg",
+      "price": 26.99,
+      "rating": 3.3,
+      "reviews_count": 53,
+      "bought": null
+    },
+    {
+      "asin": "B0G529M45T",
+      "brand": "Briidea",
+      "model": "WiFi Mailbox Alert with LoRa",
+      "systems": [],
+      "systems_label": "Companion app",
+      "specs": {
+        "range": "Up to 1,200 ft (LoRa)",
+        "alerts": "App, chime, LED",
+        "power": "Battery",
+        "extras": "Works with metal mailboxes"
+      },
+      "features": {
+        "range": true,
+        "chime": true,
+        "battery": false,
+        "weather": false
+      },
+      "verdict": "The longest range here, for long driveways.",
+      "pros": [
+        "1,200 ft range",
+        "Works in metal mailboxes",
+        "Adjustable chime volume"
+      ],
+      "cons": [
+        "2.9 stars",
+        "Only 26 reviews",
+        "$38.99"
+      ],
+      "name": "Briidea WiFi Mailbox Alert with LoRa Technology Up to 1200ft Long Range, Updated Sensing Technology Fits for Any Mailbox Type, 2.4 & 5GHz Dual-Band WiFi Compatible, Low Power with Battery Indicator",
+      "image": "https://m.media-amazon.com/images/I/61MfNAmqGfL._AC_SL1500_.jpg",
+      "price": 38.99,
+      "rating": 2.9,
+      "reviews_count": 26,
+      "bought": null
+    }
+  ],
+  "avoid": [],
+  "buyers_guide": [
+    {
+      "q": "How do mailbox sensors work?",
+      "a": "A small sensor inside the mailbox detects the door opening or motion and sends an alert to your phone. Metal mailboxes block radio signals, so most use long-range radio with an indoor hub or receiver."
+    },
+    {
+      "q": "Will it reach my house?",
+      "a": "Check the stated range. Long-range models reach a quarter mile or more; Wi-Fi models need Wi-Fi coverage at the curb."
+    },
+    {
+      "q": "Do they need a hub?",
+      "a": "Most do. The hub plugs in indoors and passes alerts to the app."
+    }
+  ]
+}
