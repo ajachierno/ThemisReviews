@@ -27,6 +27,10 @@ MANUAL = json.loads(NOTES.read_text(encoding="utf-8")) if NOTES.exists() else {}
 # re-read that day, so the page's "prices checked" date moves even if no number changed.
 AUDITS_FILE = Path(__file__).parent / "editorial" / "audit-log.json"
 AUDITS = json.loads(AUDITS_FILE.read_text(encoding="utf-8")) if AUDITS_FILE.exists() else {}
+# {"<slug>": "YYYY-MM-DD"}: the last numbers-only pass (refresh.py pricestamp). Every listing's
+# price, rating, and reviews were re-read that day, but picks weren't re-audited.
+PRICECHECKS_FILE = Path(__file__).parent / "editorial" / "price-check-log.json"
+PRICECHECKS = json.loads(PRICECHECKS_FILE.read_text(encoding="utf-8")) if PRICECHECKS_FILE.exists() else {}
 
 
 def git(*args):
@@ -107,6 +111,8 @@ def build():
         merged = [{"date": d, "notes": list(dict.fromkeys(ns))} for d, ns in sorted(entries.items(), reverse=True)]
         if AUDITS.get(slug, "") > captured:
             captured = AUDITS[slug]
+        if PRICECHECKS.get(slug, "") > captured:
+            captured = PRICECHECKS[slug]
         log[slug] = {"captured": captured, "updated": merged[0]["date"], "entries": merged,
                      "audited": AUDITS.get(slug)}
     OUT.write_text(json.dumps(log, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")

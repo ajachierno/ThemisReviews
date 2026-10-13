@@ -7,6 +7,9 @@
                                                    # where today's search results rank our picks, and
                                                    # the best-ranked listings we don't carry
   python research/refresh.py stamp <slug> ["note"] # record the audit (audit-log.json) and a What changed note
+  python research/refresh.py pricestamp <slug> [...]
+                                                   # record a numbers-only re-check (price-check-log.json):
+                                                   # moves "prices checked" but not the audit rotation
 
 Scrapes go to research/refresh/<date>-<slug>.json (picked up by merge.py through scrape_data.py,
 newest wins). Searches go to research/refresh-search/.
@@ -181,7 +184,17 @@ def stamp(slug, note=None):
     print(f"Stamped {slug} audited {TODAY}" + (" with a note" if note else ""))
 
 
+def pricestamp(slugs):
+    f = ED / "price-check-log.json"
+    a = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    for slug in slugs:
+        a[slug] = TODAY
+    f.write_text(json.dumps(a, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    print(f"Price-checked {len(slugs)} page(s) on {TODAY}")
+
+
 if __name__ == "__main__":
     cmd, args = sys.argv[1], sys.argv[2:]
     {"order": lambda: order(), "scrape": lambda: scrape(args[0]), "diff": lambda: diff(args[0]),
-     "search": lambda: search(args[0], args[1:]), "stamp": lambda: stamp(args[0], args[1] if len(args) > 1 else None)}[cmd]()
+     "search": lambda: search(args[0], args[1:]), "stamp": lambda: stamp(args[0], args[1] if len(args) > 1 else None),
+     "pricestamp": lambda: pricestamp(args)}[cmd]()
