@@ -30,7 +30,7 @@ from google.oauth2 import service_account
 DOMAIN = "themisreviews.com"
 PROPERTY = f"sc-domain:{DOMAIN}"
 SITEMAP = f"https://{DOMAIN}/sitemap.xml"
-OWNERS = ["ajachierno@gmail.com"]
+OWNERS = [e.strip() for e in os.environ.get("GSC_OWNERS", "").split(",") if e.strip()]  # extra verified owners
 KEY = pathlib.Path(os.environ.get("GSC_KEY", pathlib.Path.home() / ".config/gsc/toolboxtop10-sa.json"))
 SCOPES = ["https://www.googleapis.com/auth/siteverification", "https://www.googleapis.com/auth/webmasters"]
 SV = "https://www.googleapis.com/siteVerification/v1"
