@@ -171,7 +171,7 @@ function woInit(boxes){var w=new URLSearchParams(location.search).get('without')
   the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
-<script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
+<script>(function(){function d(s){var p=s.split('-');return new Date(+p[0],p[1]-1,+p[2]);}var n=new Date();document.querySelectorAll('[data-show-from]').forEach(function(e){if(n>=d(e.getAttribute('data-show-from')))e.hidden=false;});document.querySelectorAll('[data-hide-from]').forEach(function(e){if(n>=d(e.getAttribute('data-hide-from')))e.hidden=true;});})();</script>
 <script src="assets/search.js?v=02802bdf" defer></script>
 <script>(function(){var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){b.classList.toggle('show',window.scrollY>600);},{passive:true});})();</script>

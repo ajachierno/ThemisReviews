@@ -795,27 +795,54 @@ def build_category(site, proto, sub):
 # pages so every pick stays in step with its page. Copy lives in data/seasonal.json.
 SEASONAL = json.loads((DATA / "seasonal.json").read_text(encoding="utf-8")) if (DATA / "seasonal.json").exists() else {}
 
-REVEAL_JS = ("<script>document.querySelectorAll('[data-show-from]').forEach(function(e){"
-             "var p=e.getAttribute('data-show-from').split('-');"
-             "if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>")
+REVEAL_JS = ("<script>(function(){function d(s){var p=s.split('-');return new Date(+p[0],p[1]-1,+p[2]);}"
+             "var n=new Date();"
+             "document.querySelectorAll('[data-show-from]').forEach(function(e){"
+             "if(n>=d(e.getAttribute('data-show-from')))e.hidden=false;});"
+             "document.querySelectorAll('[data-hide-from]').forEach(function(e){"
+             "if(n>=d(e.getAttribute('data-hide-from')))e.hidden=true;});})();</script>")
 
 
 def seasonal_pages():
-    """[(slug, label, link_from)] of enabled seasonal pages."""
-    out = [(g["slug"], g.get("label") or g["title"], g.get("link_from"))
+    """[(slug, label, (link_from, link_until))] of enabled seasonal pages. On-site links show
+    only from link_from up to (not including) link_until; the page stays live and indexed."""
+    out = [(g["slug"], g.get("label") or g["title"], (g.get("link_from"), g.get("link_until")))
            for g in SEASONAL.get("gifts", []) if g.get("enabled")]
-    bf = SEASONAL.get("black_friday")
-    if bf and bf.get("enabled"):
-        out.append((bf["slug"], bf.get("label") or bf["title"], bf.get("link_from")))
+    out += [(h["slug"], h.get("label") or h["title"], (h.get("link_from"), h.get("link_until")))
+            for h in holiday_configs()]
     return out
 
 
-def reveal_attr(link_from):
-    """Hide a link until link_from (YYYY-MM-DD). The page stays live and in the sitemap;
-    REVEAL_JS un-hides the link on the day, and builds after that date render it plainly."""
-    if not link_from or datetime.date.today() >= datetime.date.fromisoformat(link_from):
-        return ""
-    return f' hidden data-show-from="{esc(link_from)}"'
+def holiday_configs():
+    """Every enabled holiday deal page, normalized: the black_friday block (kept under its own
+    key because scripts/make_pins.py reads it) plus each entry of the holidays list. Each config
+    has slug, label, key_dates [{label, date}], dates_note, deal_name and faq_heading."""
+    out = []
+    bf = SEASONAL.get("black_friday")
+    if bf and bf.get("enabled"):
+        out.append({"key_dates": [{"label": "Black Friday", "date": bf["black_friday"]},
+                                  {"label": "Cyber Monday", "date": bf["cyber_monday"]}],
+                    "dates_note": "Early deals usually start the week before.",
+                    "deal_name": "Black Friday", "faq_heading": "Black Friday smart home questions",
+                    **bf})
+    out += [h for h in SEASONAL.get("holidays", []) if h.get("enabled")]
+    return sorted(out, key=lambda h: h["key_dates"][0]["date"])
+
+
+def reveal_attr(window):
+    """Show a link only inside its (link_from, link_until) window (YYYY-MM-DD, either may be
+    None). The page stays live and in the sitemap; REVEAL_JS shows/hides the link on the day,
+    and any build after that renders it plainly."""
+    link_from, link_until = window if isinstance(window, tuple) else (window, None)
+    today = datetime.date.today()
+    if link_until and today >= datetime.date.fromisoformat(link_until):
+        return " hidden"
+    out = ""
+    if link_from and today < datetime.date.fromisoformat(link_from):
+        out += f' hidden data-show-from="{esc(link_from)}"'
+    if link_until:
+        out += f' data-hide-from="{esc(link_until)}"'
+    return out
 
 
 def render_seasonal_strip(current=None):
@@ -1002,7 +1029,7 @@ def page_overall_budget(cat):
     return ov or (ranked[0] if ranked else None), bu
 
 
-def build_black_friday(site, cfg, pages):
+def build_holiday(site, cfg, pages):
     rows, dates, sections = [], [], []
     for fam in family_order(pages):
         cards, fam_title = [], ""
@@ -1025,6 +1052,7 @@ def build_black_friday(site, cfg, pages):
         f'<td>{(esc(bu["brand"]) + " " + esc(bu["model"])) if bu and bu is not ov else "&mdash;"}</td>'
         f'<td>{money(bu["price"]) if bu and bu is not ov else "&mdash;"}</td></tr>'
         for sub, ov, bu in rows)
+    key_dates = " ".join(f"<b>{esc(k['label'])}:</b> {long_date(k['date'])}." for k in cfg["key_dates"])
     body = f"""
   {render_quicknav(site["protocols"], compact=True)}
   <nav class="crumbs"><a href="./">Home</a> &rsaquo; {esc(cfg['label'])}</nav>
@@ -1035,8 +1063,8 @@ def build_black_friday(site, cfg, pages):
   </section>
   <section class="guide">
     <h2>Key dates</h2>
-    <p><b>Black Friday:</b> {long_date(cfg['black_friday'])}. <b>Cyber Monday:</b> {long_date(cfg['cyber_monday'])}.
-    Early deals usually start the week before. Every button below opens the live Amazon listing,
+    <p>{key_dates} {esc(cfg.get('dates_note', ''))}
+    Every button below opens the live Amazon listing,
     so you see today's price next to the regular price we recorded.</p>
   </section>
   <section id="price-to-beat">
@@ -1045,12 +1073,12 @@ def build_black_friday(site, cfg, pages):
     <div class="tablewrap"><table class="ptable"><thead><tr><th>Page</th><th>Best Overall</th><th>Regular</th>
       <th>Best Budget</th><th>Regular</th></tr></thead><tbody>{table}</tbody></table></div>
     <p class="tiny muted">"Regular" is the Amazon price when we last checked each page
-    ({esc(min(dates))} to {esc(max(dates))}). If the Black Friday price is at or above it, it isn't a deal.</p>
+    ({esc(min(dates))} to {esc(max(dates))}). If the {esc(cfg['deal_name'])} price is at or above it, it isn't a deal.</p>
   </section>
   <section id="picks">{"".join(sections)}</section>
-  <section class="guide" id="guide"><h2>Black Friday smart home questions</h2>{render_faq(cfg.get('faq', []))}</section>
+  <section class="guide" id="guide"><h2>{esc(cfg['faq_heading'])}</h2>{render_faq(cfg.get('faq', []))}</section>
   {render_seasonal_strip(cfg['slug'])}"""
-    print(f"  {cfg['slug']}: {len(rows)} pages (on-site links hidden until {cfg.get('link_from')})")
+    print(f"  {cfg['slug']}: {len(rows)} pages (on-site links {cfg.get('link_from')} to {cfg.get('link_until')})")
     return write_hub(site, cfg, body, dates)
 
 
@@ -1063,10 +1091,9 @@ def build_seasonal(site):
             u = build_gift_page(site, g, pages)
             if not g.get("noindex"):
                 urls.append(u)
-    bf = SEASONAL.get("black_friday")
-    if bf and bf.get("enabled"):
-        u = build_black_friday(site, bf, pages)
-        if not bf.get("noindex"):
+    for h in holiday_configs():
+        u = build_holiday(site, h, pages)
+        if not h.get("noindex"):
             urls.append(u)
     return urls
 

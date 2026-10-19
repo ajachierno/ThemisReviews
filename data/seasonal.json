@@ -1,5 +1,5 @@
 {
- "_readme": "Seasonal hub pages built by build.py from the ranked category pages, so picks update whenever a page does. Gift pages pick the best-scoring product per device family inside the price band (at least min_reviews reviews and min_rating stars, no unbranded listings). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap. gift_skip_pages / gift_skip_asins keep hobbyist gear (SDR sticks, ESP32 boards) and parts-only items (replacement sensors) off the gift pages.",
+ "_readme": "Seasonal hub pages built by build.py from the ranked category pages, so picks update whenever a page does. Gift pages pick the best-scoring product per device family inside the price band (at least min_reviews reviews and min_rating stars, no unbranded listings). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. \"link_until\" hides the links again from that date on (the page stays live, indexed and in the sitemap). Holiday deal pages: the black_friday block plus each entry of \"holidays\" (slug, label, year, link_from, link_until, key_dates [{label, date}], dates_note, deal_name, faq_heading, title, subtitle, intro, faq). Rule: link_from = holiday minus 7 days, link_until = the Monday after the weekend that follows the holiday. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap. gift_skip_pages / gift_skip_asins keep hobbyist gear (SDR sticks, ESP32 boards) and parts-only items (replacement sensors) off the gift pages.",
  "gift_skip_pages": [
   "rf-bridges",
   "bluetooth-proxies",
@@ -98,7 +98,7 @@
  ],
  "black_friday": {
   "enabled": true,
-  "link_from": "2026-11-15",
+  "link_from": "2026-11-20",
   "slug": "black-friday-smart-home-deals",
   "label": "Black Friday Smart Home Deals 2026",
   "year": 2026,
@@ -124,10 +124,127 @@
     "q": "Should I buy a bundle or a single device?",
     "a": "Bundles like a doorbell plus chime, or a camera plus an Echo Show, are often where the real savings are. Check that you'll use every piece; a bundle is only a deal if you wanted the extras."
    }
-  ]
+  ],
+  "link_until": "2026-12-01"
  },
  "splurge_kit_families": [
   "mesh-routers",
   "security-systems"
+ ],
+ "holidays": [
+  {
+   "enabled": true,
+   "slug": "veterans-day-smart-home-deals",
+   "label": "Veterans Day Smart Home Deals 2026",
+   "year": 2026,
+   "link_from": "2026-11-04",
+   "link_until": "2026-11-16",
+   "key_dates": [
+    {
+     "label": "Veterans Day",
+     "date": "2026-11-11"
+    }
+   ],
+   "dates_note": "Veterans Day sales usually run through the weekend that follows, and Amazon often starts early Black Friday pricing the same month.",
+   "deal_name": "Veterans Day",
+   "faq_heading": "Veterans Day smart home deal questions",
+   "title": "Veterans Day Smart Home Deals 2026: The Price to Beat",
+   "subtitle": "Our Best Overall and Best Budget pick on every page, with the regular Amazon price we recorded, so you can tell whether a Veterans Day sale price is a real discount.",
+   "intro": "Veterans Day is Wednesday, November 11, 2026. Plenty of retailers run sales around it, and it lands about two weeks before Black Friday, so it's an early look at holiday smart home pricing. Below is every one of our top picks with the regular price we last captured. If the sale price is lower, it's a real discount. If it isn't, Black Friday (November 27) is close.",
+   "faq": [
+    {
+     "q": "When is Veterans Day 2026?",
+     "a": "Wednesday, November 11, 2026. Sales tied to it often run from the weekend before through the weekend after."
+    },
+    {
+     "q": "Should I buy smart home gear on Veterans Day or wait for Black Friday?",
+     "a": "If a device you want is already below the regular price we list, buying now is reasonable. Black Friday (November 27, 2026) usually brings the widest run of smart home discounts, especially on Amazon, Ring, Blink and Google Nest devices, so if the price hasn't moved, waiting two weeks costs you little."
+    },
+    {
+     "q": "Do Z-Wave and Zigbee devices go on sale for Veterans Day?",
+     "a": "Rarely. Niche protocol gear from brands like Zooz, Inovelli and Aqara tends to hold its price through most sales. Buy it when you need it, and save sale-watching for the big-brand Wi-Fi devices."
+    },
+    {
+     "q": "How do I know if a Veterans Day deal is real?",
+     "a": "Compare the sale price with the regular price in our cheat sheet. A crossed-out list price on a listing isn't proof of a discount; the price the device actually sold for in recent weeks is."
+    }
+   ]
+  },
+  {
+   "enabled": true,
+   "slug": "christmas-smart-home-deals",
+   "label": "Christmas Smart Home Deals 2026",
+   "year": 2026,
+   "link_from": "2026-12-18",
+   "link_until": "2026-12-28",
+   "key_dates": [
+    {
+     "label": "Christmas Day",
+     "date": "2026-12-25"
+    }
+   ],
+   "dates_note": "Amazon posts its holiday shipping cutoffs in December, so check the delivery date on each listing before you count on it arriving in time.",
+   "deal_name": "Christmas",
+   "faq_heading": "Christmas smart home deal questions",
+   "title": "Christmas Smart Home Deals 2026: Last-Minute Picks and the Price to Beat",
+   "subtitle": "Our Best Overall and Best Budget pick on every page, with the regular Amazon price we recorded, so you can tell whether a Christmas sale price is a real discount.",
+   "intro": "Christmas Day is Friday, December 25, 2026. Most Black Friday prices are gone by mid-December, but some smart home devices stay discounted right up to the holiday, and last-minute shoppers mostly care about what still arrives in time. Below is every one of our top picks with the regular price we captured. If today's price is lower, it's a real deal. Each button opens the live listing, where Amazon shows the current delivery date.",
+   "faq": [
+    {
+     "q": "When is Christmas 2026?",
+     "a": "Friday, December 25, 2026. Shipping cutoffs land in the days before, so order early in the week of December 21 if you need it under the tree."
+    },
+    {
+     "q": "What's a good last-minute smart home gift?",
+     "a": "Something that works without a hub: a Wi-Fi smart plug, a smart bulb, a video doorbell or an indoor camera. Check our gift pages for the best pick under $50 and under $100 in each device type."
+    },
+    {
+     "q": "Are Christmas prices lower than Black Friday?",
+     "a": "Usually not. Black Friday and Cyber Monday tend to have the lowest prices of the season. Some devices drop again in mid-December, so compare today's price with the regular price in our cheat sheet."
+    },
+    {
+     "q": "What if the gift needs a hub?",
+     "a": "Z-Wave and Zigbee devices need a hub or controller to work. If you're not sure what the recipient uses, pick a Wi-Fi or Matter device; Matter works with Apple Home, Google Home, Alexa and SmartThings."
+    }
+   ]
+  },
+  {
+   "enabled": true,
+   "slug": "new-year-smart-home-deals",
+   "label": "New Year Smart Home Deals 2027",
+   "year": 2027,
+   "link_from": "2026-12-25",
+   "link_until": "2027-01-04",
+   "key_dates": [
+    {
+     "label": "New Year's Day",
+     "date": "2027-01-01"
+    }
+   ],
+   "dates_note": "After-Christmas and New Year sales usually run from December 26 into the first week of January.",
+   "deal_name": "New Year",
+   "faq_heading": "New Year smart home deal questions",
+   "title": "New Year Smart Home Deals 2027: The Price to Beat",
+   "subtitle": "Our Best Overall and Best Budget pick on every page, with the regular Amazon price we recorded, so you can tell whether a New Year sale price is a real discount.",
+   "intro": "New Year's Day is Friday, January 1, 2027. The week after Christmas brings after-holiday sales, plus a lot of people spending gift cards and setting up the devices they were given. Below is every one of our top picks with the regular price we captured. If today's price is lower, it's a real deal. If it isn't, the regular price is still fair, and our full rankings show the alternatives.",
+   "faq": [
+    {
+     "q": "Are there smart home deals after Christmas?",
+     "a": "Some. After-Christmas and New Year sales usually run from December 26 into early January. They're generally smaller than Black Friday, so compare each price with the regular price in our cheat sheet."
+    },
+    {
+     "q": "I got a smart speaker for Christmas. What should I add first?",
+     "a": "Smart plugs and smart bulbs are the easiest add-ons and work with Alexa and Google Assistant without a hub. If you want to grow into a bigger setup, look at Matter devices, which work across Apple Home, Google Home, Alexa and SmartThings."
+    },
+    {
+     "q": "Is January a good time to start a Home Assistant setup?",
+     "a": "It's as good as any. Start with a Zigbee or Z-Wave coordinator from our hubs and controllers pages, then add sensors and switches over time. Protocol gear rarely goes on sale, so there's no reason to wait for a deal."
+    },
+    {
+     "q": "How do I know if a New Year deal is real?",
+     "a": "Compare the sale price with the regular price in our cheat sheet. A crossed-out list price on a listing isn't proof of a discount; the price the device actually sold for in recent weeks is."
+    }
+   ]
+  }
  ]
 }

@@ -143,6 +143,11 @@ def queue(n=10):
     asked = json.loads(REQUESTED.read_text(encoding="utf-8")) if REQUESTED.exists() else {}
     week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
     mods = dict(sitemap_urls())
+    # research/priority-urls.txt: URLs that jump the queue (holiday pages, soonest holiday first,
+    # and pages whose request failed). One URL per line, # comments allowed.
+    pf = HERE / "priority-urls.txt"
+    first = [l.strip() for l in pf.read_text(encoding="utf-8").splitlines()
+             if l.strip() and not l.startswith("#")] if pf.exists() else []
     todo = []
     for u, mod in mods.items():
         st = data.get(u, {}).get("state", "unknown")
@@ -156,11 +161,12 @@ def queue(n=10):
             reason = st
         if asked.get(u, "") >= week_ago:
             continue
-        todo.append((reason.startswith("changed"), priority(u), u, reason))
+        rank = first.index(u) if u in first else len(first)
+        todo.append((rank, reason.startswith("changed"), priority(u), u, reason))
     todo.sort()
     pick = todo[:n]
     print(f"{len(todo)} URLs could use a request; today's {len(pick)}:")
-    for _c, _p, u, why in pick:
+    for *_x, u, why in pick:
         print(f"  {u}   ({why})")
     (HERE / "gsc-queue.txt").write_text("\n".join(u for *_x, u, _w in pick) + "\n", encoding="utf-8")
 
