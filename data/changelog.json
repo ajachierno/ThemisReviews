@@ -1812,9 +1812,19 @@
   "audited": null
  },
  "z-wave-switches": {
-  "captured": "2026-10-04",
-  "updated": "2026-10-04",
+  "captured": "2026-10-19",
+  "updated": "2026-10-19",
   "entries": [
+   {
+    "date": "2026-10-19",
+    "notes": [
+     "Added Zooz ZEN30 800LR Double Switch.",
+     "Dropped Zooz ZEN71 800LR.",
+     "New Best Overall: Zooz ZEN76 800LR.",
+     "Prices, ratings, and review counts refreshed from Amazon.",
+     "Removed the Zooz ZEN71, whose Amazon listing now sells the ZEN76 instead. Added the Zooz ZEN30 Double Switch for rooms where a light and fan share one box. Best Overall moved to the Zooz ZEN76, and the ZEN30 is now Best for Fan and Light. The Enbrighten Long Range paddle dropped from $39.99 to $35.68."
+    ]
+   },
    {
     "date": "2026-10-04",
     "notes": [
@@ -1822,7 +1832,7 @@
     ]
    }
   ],
-  "audited": null
+  "audited": "2026-10-19"
  },
  "z-wave-temperature-sensors": {
   "captured": "2026-10-04",
