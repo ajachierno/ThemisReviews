@@ -17,6 +17,9 @@ OUT = ROOT / "docs"
 ASSETS = OUT / "assets"
 
 
+HOLIDAY_PRICES = json.loads((DATA / "holiday-prices.json").read_text(encoding="utf-8")) if (DATA / "holiday-prices.json").exists() else {}
+
+
 def load(name):
     data = json.loads((DATA / name).read_text(encoding="utf-8"))
     if name.startswith("pages/"):
@@ -1029,6 +1032,15 @@ def page_overall_budget(cat):
     return ov or (ranked[0] if ranked else None), bu
 
 
+def holiday_price(p, cat):
+    """(pick, date): the pick with data/holiday-prices.json numbers when that check is newer than
+    the page's own capture (research/holiday_picks.py re-reads just the award listings)."""
+    hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
+    if not hp or hp["checked"] <= cat["data_captured"]:
+        return p, cat["data_captured"]
+    return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
+
+
 def build_holiday(site, cfg, pages):
     rows, dates, sections = [], [], []
     for fam in family_order(pages):
@@ -1040,10 +1052,13 @@ def build_holiday(site, cfg, pages):
             ov, bu = page_overall_budget(cat)
             if not ov:
                 continue
-            dates.append(cat["data_captured"])
+            ov, day = holiday_price(ov, cat)
+            if bu:
+                bu = ov if bu["asin"] == ov["asin"] else holiday_price(bu, cat)[0]
+            dates.append(day)
             rows.append((sub, ov, bu))
             cards.append(render_pick_card(ov, cat, sub, site, ("Best Overall", "overall"),
-                                          f"regular price on {esc(cat['data_captured'])}"))
+                                          f"regular price on {esc(day)}"))
         if cards:
             sections.append(f'<h2 class="pick-family">{esc(fam_title)}</h2>{"".join(cards)}')
     table = "".join(
@@ -1509,6 +1524,9 @@ def main():
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"] + "\n", encoding="utf-8")
+    # IndexNow ownership key (Bing, Yandex, Seznam, Naver); pinged by .github/workflows/indexnow.yml
+    if site.get("indexnow_key"):
+        (OUT / f"{site['indexnow_key']}.txt").write_text(site["indexnow_key"], encoding="utf-8")
     build_home(site)
     print(f"Built home page with {len(site['protocols'])} protocols")
     urls = [(f"{base_url(site)}/", site["updated"])]
