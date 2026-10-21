@@ -257,16 +257,21 @@ def pin_avoid(sub, cat, year):
 
 
 def pin_gifts(cfg, chunk, part, parts):
-    band = f"Under ${cfg['max_price']}" if not cfg.get("min_price") else f"${int(cfg['min_price'])}–${cfg['max_price']}"
+    splurge = cfg.get("pick") == "splurge"
+    if splurge:
+        band = "Money No Object"
+    else:
+        band = f"Under ${cfg['max_price']}" if not cfg.get("min_price") else f"${int(cfg['min_price'])}–${cfg['max_price']}"
     img, d = canvas()
     kicker = "HOLIDAY GIFT GUIDE 2026" + (f" · {part}/{parts}" if parts > 1 else "")
-    y = header(d, kicker, f"Smart Home Gifts {band}")
+    y = header(d, kicker, f"Smart Home Gifts: {band}" if splurge else f"Smart Home Gifts {band}")
     items = [(cat.get("family_title", ""), GOLD, p) for p, cat, _sub in chunk]
     product_rows(d, y, items, H - 230)
     footer(d, "See every gift pick")
-    title = f"Smart Home Gifts {band} (2026)" + (f", Part {part}" if parts > 1 else "")
-    desc = (f"Smart home gift ideas {band.lower()}, each the top-rated pick in its category from real "
-            f"Amazon reviews, for techies, new homeowners, and anyone who likes gadgets. "
+    title = (f"Smart Home Gifts: {band} (2026)" if splurge else f"Smart Home Gifts {band} (2026)") + (f", Part {part}" if parts > 1 else "")
+    lead = ("Splurge-worthy smart home gifts, the premium model in each category, rated 4.2 stars or better on "
+            "Amazon, " if splurge else f"Smart home gift ideas {band.lower()}, each the top-rated pick in its category from real Amazon reviews, ")
+    desc = (lead + "for techies, new homeowners, and anyone who likes gadgets. "
             + "; ".join(f"{cat.get('family_title', '')}: {name(p)}" for p, cat, _s in chunk) + ".")
     kw = [f"smart home gifts {band.lower()}", "gifts for him", "tech gifts", "gadget gifts",
           "christmas gift ideas", "gifts for dad", "smart home ideas"]
@@ -339,8 +344,10 @@ def all_pins():
         picks.sort(key=lambda x: -x[0]["score"])
         chunks = [picks[i:i + 5] for i in range(0, len(picks), 5)]
         chunks = [c for c in chunks if len(c) >= 3]
+        if cfg.get("pick") == "splurge":
+            chunks = chunks[:4]  # 50+ splurge picks; the four best-scoring cards are plenty
         for i, c in enumerate(chunks, 1):
-            pins.append((f"gifts-{cfg['max_price']}-{i}", BOARDS["gifts"], pin_gifts(cfg, c, i, len(chunks))))
+            pins.append((f"gifts-{cfg.get('max_price', 'splurge')}-{i}", BOARDS["gifts"], pin_gifts(cfg, c, i, len(chunks))))
     bf = build.SEASONAL.get("black_friday")
     bf_pin = None
     if bf and bf.get("enabled"):
@@ -369,13 +376,13 @@ def main():
     ap.add_argument("--per-day", type=int, default=5)
     ap.add_argument("--bf-date", default="2026-11-01", help="publish date for the Black Friday pin")
     ap.add_argument("--only", choices=["sample"], help="write one pin of each format, no CSV")
-    ap.add_argument("--pages", nargs="+", help="only top-3/avoid pins for these page slugs (a follow-up batch)")
+    ap.add_argument("--pages", nargs="+", help="only top-3/avoid pins for these page slugs (a follow-up batch); a gifts- prefix such as gifts-splurge picks gift pins")
     args = ap.parse_args()
     site, seasonal, bf_pin, evergreen = all_pins()
     ordered = seasonal + evergreen
     if args.pages:
         want = set(args.pages)
-        ordered = [p for p in evergreen if p[0].split("-", 1)[1] in want and not p[0].startswith("protocol-")]
+        ordered = [p for p in seasonal + evergreen if (p[0].split("-", 1)[1] in want or any(p[0].startswith(w) for w in want if w.startswith("gifts-"))) and not p[0].startswith("protocol-")]
         bf_pin = None
     if args.only == "sample":
         keep = {seasonal[0][0] if seasonal else "", "black-friday-cheat-sheet", "top3-wifi-smart-plugs",
