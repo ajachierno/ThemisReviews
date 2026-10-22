@@ -11,6 +11,7 @@ upload requires. Needs Pillow (the site build does not):
 
     python scripts/make_pins.py --start 2026-10-06 --per-day 5
     python scripts/make_pins.py --only sample      # one of each format, no CSV
+    python scripts/make_pins.py --holidays         # holiday deal pins -> marketing/pinterest/queue.csv
 """
 import argparse
 import csv
@@ -304,6 +305,141 @@ def pin_black_friday(cfg, rows):
     return img, title, desc, f"{cfg['slug']}.html", kw
 
 
+def holiday_rows(pages, popular):
+    """[(sub, pick, checked)] for the popular pages: each page's Best Overall, with the newer
+    holiday-pass price when research/holiday_picks.py has one."""
+    rows = []
+    for _p, sub, cat in pages:
+        if sub["slug"] in popular:
+            ov = build.page_overall_budget(cat)[0]
+            if ov:
+                pick, day = build.holiday_price(ov, cat)
+                rows.append((popular.index(sub["slug"]), sub, pick, day))
+    return [(s, o, d) for _i, s, o, d in sorted(rows, key=lambda r: r[0])]
+
+
+def nice_date(iso):
+    d = datetime.date.fromisoformat(str(iso)[:10])
+    return f"{d:%b} {d.day}, {d.year}"
+
+
+def holiday_when(cfg):
+    """'Black Friday is Nov 27, 2026; Cyber Monday is Nov 30, 2026.'"""
+    return "; ".join(f"{k['label']} is {nice_date(k['date'])}" for k in cfg["key_dates"]) + "."
+
+
+def pin_holiday_prices(cfg, rows):
+    """Dated price cheat sheet for a holiday deal page (with pin_black_friday, the only format
+    that shows prices, so it always carries the date the prices were checked)."""
+    deal, first = cfg["deal_name"], cfg["key_dates"][0]
+    img, d = canvas()
+    y = header(d, f"{deal} · {nice_date(first['date'])}".upper(), "Smart Home Price Cheat Sheet")
+    d.text((PAD, y), "Our #1 pick and its regular price. Beat it or skip it.", font=font(400, 30), fill=MUTED)
+    y += 64
+    rf, pf, cf = font(700, 30), font(900, 32), font(400, 22)
+    row_h = 80
+    for sub, ov, _day in rows[:8]:
+        d.rounded_rectangle((PAD, y, W - PAD, y + row_h - 10), radius=14, fill=CARD)
+        d.text((PAD + 28, y + 6), sub["title"].upper(), font=cf, fill=MUTED)
+        nm = wrap(d, name(ov), rf, W - PAD * 2 - 240, 1)[0]
+        d.text((PAD + 28, y + 32), nm, font=rf, fill=INK)
+        pr = build.money(ov["price"])
+        d.text((W - PAD - 28 - d.textlength(pr, font=pf), y + 20), pr, font=pf, fill=GOLD)
+        y += row_h
+    checked = max(day for _s, _o, day in rows[:8])
+    d.text((PAD, y + 6), f"Regular Amazon prices checked {nice_date(checked)}. Prices change.",
+           font=font(400, 24), fill=MUTED)
+    footer(d, "Full price-to-beat list")
+    title = f"{deal} {cfg['year']} Smart Home Deals: Price Cheat Sheet"
+    desc = (f"Is that {deal} smart home deal real? Our top-ranked video doorbells, cameras, smart plugs, "
+            "thermostats, locks and more, with the regular Amazon price we recorded. Beat it or skip it. "
+            + holiday_when(cfg))
+    kw = [f"{deal.lower()} smart home deals", f"{deal.lower()} {cfg['year']}", f"{deal.lower()} sales",
+          "smart home deals", "tech deals"]
+    return img, title, desc, f"{cfg['slug']}.html", kw
+
+
+def pin_holiday_picks(cfg, rows):
+    """No-price companion pin: the top picks worth watching during the sale."""
+    deal = cfg["deal_name"]
+    img, d = canvas()
+    y = header(d, f"{deal} {cfg['year']}".upper(), "Smart Home Picks to Watch")
+    items = [(sub["title"], GOLD, ov) for sub, ov, _day in rows[:5]]
+    product_rows(d, y, items, H - 230)
+    footer(d, "See the price to beat")
+    title = f"{deal} {cfg['year']}: Smart Home Picks Worth Watching"
+    desc = (f"Shopping {deal} sales for smart home gear? These are the top-ranked picks from real Amazon "
+            "reviews: " + "; ".join(f"{sub['title']}: {name(ov)}" for sub, ov, _d in rows[:5])
+            + ". Our deal page lists the regular price for every pick, so you can spot a real discount. "
+            + holiday_when(cfg))
+    kw = [f"{deal.lower()} deals", f"{deal.lower()} smart home", "smart home deals", "smart home gadgets",
+          "home automation"]
+    return img, title, desc, f"{cfg['slug']}.html", kw
+
+
+HOLIDAY_POPULAR = ["wifi-doorbells", "wifi-outdoor-cameras", "wifi-indoor-cameras", "wifi-smart-plugs",
+                   "wifi-bulbs", "wifi-thermostats", "wifi-locks", "bluetooth-trackers",
+                   "wifi-robot-vacuums", "wifi-smart-speakers", "wifi-garage-openers", "matter-smart-plugs"]
+
+
+def holiday_pins(pages):
+    """[(id, board, payload, publish datetime)] for every enabled holiday page: the price cheat
+    sheet on the day its site links go live (link_from, 14:00 UTC) and the picks pin two days
+    later, kept inside the link window."""
+    rows = holiday_rows(pages, HOLIDAY_POPULAR)
+    out = []
+    for cfg in build.holiday_configs():
+        if not cfg.get("link_from"):
+            continue
+        key = cfg["slug"].replace("-smart-home-deals", "")
+        start = datetime.date.fromisoformat(cfg["link_from"])
+        until = datetime.date.fromisoformat(cfg["link_until"]) if cfg.get("link_until") else None
+        second = start + datetime.timedelta(days=2)
+        if until and second >= until:
+            second = start
+        out.append((f"holiday-{key}-prices", BOARDS["gifts"], pin_holiday_prices(cfg, rows),
+                    datetime.datetime.combine(start, datetime.time(14))))
+        out.append((f"holiday-{key}-picks", BOARDS["gifts"], pin_holiday_picks(cfg, rows),
+                    datetime.datetime.combine(second, datetime.time(18))))
+    return out
+
+
+def queue_holidays():
+    """Write the holiday PNGs and put their rows (with fixed dates) at the front of
+    marketing/pinterest/queue.csv. Rerun any day: PNGs and unsent rows are refreshed with the
+    latest prices, rows already in sent.csv are left alone."""
+    site = build.load("site.json")
+    base = f"https://{site['custom_domain']}"
+    pins = holiday_pins(build.ranked_pages(site))
+    OUT.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for pid, board, (img, title, desc, path, kw), when in pins:
+        img.quantize(256, dither=Image.Dither.NONE).save(OUT / f"{pid}.png", optimize=True)
+        rows.append({"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
+                     "Thumbnail": "", "Description": desc[:499],
+                     "Link": f"{base}/{path}?utm_source=pinterest&utm_medium=social&utm_content={pid}",
+                     "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)})
+    print(f"wrote {len(rows)} holiday pin(s) to {OUT}")
+    qdir = ROOT / "marketing" / "pinterest"
+
+    def read(p):
+        return list(csv.DictReader(open(p, encoding="utf-8"))) if p.exists() else []
+
+    def pid_of(r):
+        return r["Link"].split("utm_content=")[-1].split("#")[0]
+
+    sent, queue = read(qdir / "sent.csv"), read(qdir / "queue.csv")
+    done, mine = {pid_of(r) for r in sent}, {pid_of(r) for r in rows}
+    queue = [r for r in rows if pid_of(r) not in done] + [r for r in queue if pid_of(r) not in mine]
+    with open(qdir / "queue.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(queue)
+    for r in rows:
+        print(f"  {r['Publish date']}  {pid_of(r):34} {'already sent' if pid_of(r) in done else 'queued'}")
+    print(f"queue.csv now {len(queue)} rows; topup.py uploads each holiday pin in the week before its date")
+
+
 def pin_protocol(p):
     img, d = canvas()
     y = header(d, "SMART HOME PROTOCOLS, EXPLAINED", f"{p['name']}: Pros and Cons")
@@ -376,8 +512,13 @@ def main():
     ap.add_argument("--per-day", type=int, default=5)
     ap.add_argument("--bf-date", default="2026-11-01", help="publish date for the Black Friday pin")
     ap.add_argument("--only", choices=["sample"], help="write one pin of each format, no CSV")
+    ap.add_argument("--holidays", action="store_true",
+                    help="only the holiday deal pins, dated to each page's link_from, written into "
+                         "marketing/pinterest/queue.csv (rows already in sent.csv are left alone)")
     ap.add_argument("--pages", nargs="+", help="only top-3/avoid pins for these page slugs (a follow-up batch); a gifts- prefix such as gifts-splurge picks gift pins")
     args = ap.parse_args()
+    if args.holidays:
+        return queue_holidays()
     site, seasonal, bf_pin, evergreen = all_pins()
     ordered = seasonal + evergreen
     if args.pages:
