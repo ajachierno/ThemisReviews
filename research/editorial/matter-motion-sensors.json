@@ -60,13 +60,7 @@
       "asin": "B0CT8W9NRB",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A native Matter motion and light sensor for $31.99 with a 170° view."
-    },
-    {
-      "asin": "B0BZT5W3V5",
-      "label": "Best Indoor/Outdoor",
-      "kind": "special",
-      "why": "IPX3 water resistance and a 9 m range, so it works on a covered porch too."
+      "why": "A native Matter motion and light sensor for $29.99 with a 170° view."
     },
     {
       "asin": "B0DYC9235W",
@@ -109,7 +103,7 @@
         "4.4 stars"
       ],
       "cons": [
-        "Only 48 reviews",
+        "Only 103 reviews",
         "$49.99",
         "Needs a Thread border router"
       ]
@@ -143,49 +137,12 @@
       "pros": [
         "170° horizontal view, up to 23 ft",
         "Separate light sensor",
-        "666 reviews"
+        "676 reviews"
       ],
       "cons": [
         "3.5 stars",
         "PIR only, no presence detection",
         "Needs a Thread border router"
-      ]
-    },
-    {
-      "asin": "B0BZT5W3V5",
-      "brand": "Eve",
-      "model": "Motion (Matter)",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "type": "PIR motion",
-        "radio": "Thread",
-        "power": "Battery",
-        "range": "Up to 9 m, 120°",
-        "extras": "IPX3, light sensor"
-      },
-      "features": {
-        "presence": false,
-        "light_sensor": true,
-        "battery": true
-      },
-      "verdict": "A local-only motion sensor that can go outdoors under cover, thanks to IPX3 water resistance.",
-      "pros": [
-        "IPX3 water resistant, indoor or outdoor",
-        "Up to 9 m range",
-        "Light-based automations in the Eve app"
-      ],
-      "cons": [
-        "3.7 stars",
-        "$43.95",
-        "Brightness refinements need the Eve app for iOS"
       ]
     },
     {
@@ -221,45 +178,8 @@
       ],
       "cons": [
         "Needs continuous power",
-        "3.7 stars",
+        "3.8 stars",
         "1.5 m cord limits placement"
-      ]
-    },
-    {
-      "asin": "B0G8HLQ633",
-      "brand": "meross",
-      "model": "MS605",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "type": "Presence (static detection)",
-        "radio": "Thread",
-        "power": "Battery",
-        "range": "Not listed",
-        "extras": "IP67, foldable stand"
-      },
-      "features": {
-        "presence": true,
-        "light_sensor": false,
-        "battery": true
-      },
-      "verdict": "A battery presence sensor with an IP67 rating and a flexible stand. Reviews are poor so far.",
-      "pros": [
-        "Battery-powered presence detection",
-        "IP67 rating",
-        "Foldable, rotatable stand"
-      ],
-      "cons": [
-        "3.1 stars from 88 reviews",
-        "16 left in stock at capture time",
-        "Needs a Thread border router"
       ]
     },
     {

@@ -16,7 +16,7 @@
   ],
   "awards": [
     {"asin": "B0GD6ND4C7", "label": "Best Overall", "kind": "overall", "why": "Battery or USB power, Bluetooth-assisted pairing, and Alexa, Google, and SmartThings triggers."},
-    {"asin": "B0DDBR4Z9V", "label": "Best Budget", "kind": "budget", "why": "$12.99 with Alexa routine support and Tuya automations."},
+    {"asin": "B0DDBR4Z9V", "label": "Best Budget", "kind": "budget", "why": "$13.26 with Alexa routine support and Tuya automations."},
     {"asin": "B0CNRRT45G", "label": "Best Presence Sensor", "kind": "special", "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 100+ bought last month."},
     {"asin": "B0H2QYVWZ7", "label": "Best for Home Assistant", "kind": "premium", "why": "A local ESP32 mmWave presence and light sensor built for Home Assistant, rated 4.4 stars."}
   ],
@@ -31,7 +31,7 @@
      "specs": {"type": "PIR motion", "power": "Battery", "range": "About 23 ft (7 m), 128°", "app": "Smart Life / Tuya", "pack": "1 sensor"},
      "features": {"presence": false, "usb_option": false, "voice": true},
      "verdict": "The cheapest Tuya motion sensor with Alexa support.",
-     "pros": ["$12.99", "Controls other Tuya devices directly", "Alexa routines"],
+     "pros": ["$13.26", "Controls other Tuya devices directly", "Alexa routines"],
      "cons": ["3.7 stars", "Battery only", "Cloud-based app"]},
     {"asin": "B0CPXYJK2F", "brand": "Gaoducash", "model": "Smart PIR motion sensor", "systems": ["alexa", "home-assistant"],
      "specs": {"type": "PIR motion", "power": "2 AAA (included)", "range": "6-40 ft, 128°", "app": "Smart Life / Tuya", "pack": "1 sensor"},
@@ -43,7 +43,7 @@
      "specs": {"type": "PIR motion", "power": "Battery", "range": "About 20 ft (6 m), 128°", "app": "Smart Life / Tuya", "pack": "1 sensor"},
      "features": {"presence": false, "usb_option": false, "voice": true},
      "verdict": "A mini Tuya sensor with a rotating bracket and Alexa routines.",
-     "pros": ["Mini size with rotating bracket", "Alexa routines", "972 reviews"],
+     "pros": ["Mini size with rotating bracket", "Alexa routines", "980 reviews"],
      "cons": ["3.5 stars", "Only 16 left in stock at capture time", "Cloud-based app"]},
     {"asin": "B0CQR8TDZV", "brand": "Jiestar", "model": "Wi-Fi motion sensor (4-pack)", "systems": ["alexa", "home-assistant"],
      "specs": {"type": "PIR motion", "power": "Battery", "range": "About 20 ft, 128° x 55°", "app": "Smart Life / Tuya", "pack": "4 sensors"},
@@ -62,12 +62,12 @@
      "features": {"presence": true, "usb_option": false, "voice": false},
      "verdict": "A small ESP32 presence and light sensor made only for Home Assistant, fully local.",
      "pros": ["24 GHz mmWave presence and a light sensor", "Local control in Home Assistant", "4.4 stars, 100+ bought in the past month"],
-     "cons": ["Works only with Home Assistant", "Only 36 reviews", "Needs an existing Home Assistant setup"]},
+     "cons": ["Works only with Home Assistant", "Only 37 reviews", "Needs an existing Home Assistant setup"]},
     {"asin": "B0BZ4215GC", "brand": "GoveeLife", "model": "Wireless motion sensor", "systems": [], "systems_label": "Govee Home app only",
      "specs": {"type": "PIR motion", "power": "Battery", "range": "16-19 ft, ±60°", "app": "Govee Home", "pack": "1 sensor"},
      "features": {"presence": false, "usb_option": false, "voice": false},
      "verdict": "A cheap motion trigger for Govee lights. It needs another Govee Wi-Fi product as a gateway and doesn't work with voice assistants.",
-     "pros": ["$14.99, 4.1 stars from 443 reviews", "Controls Govee lights directly", "Adjustable trigger interval"],
+     "pros": ["$14.99, 4.1 stars from 450 reviews", "Controls Govee lights directly", "Adjustable trigger interval"],
      "cons": ["Can't connect to Alexa or Google, per the listing", "Needs at least one Govee Wi-Fi device as a gateway", "Only useful in a Govee setup"]}
   ],
   "avoid": []

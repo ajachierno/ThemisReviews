@@ -49,13 +49,7 @@
       "asin": "B0CT8W9NRB",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A Matter-over-Thread motion and light sensor for $31.99."
-    },
-    {
-      "asin": "B0G8HLQ633",
-      "label": "Best Outdoor",
-      "kind": "special",
-      "why": "An IP67 battery-powered presence sensor on Matter over Thread."
+      "why": "A Matter-over-Thread motion and light sensor for $29.99."
     },
     {
       "asin": "B0H6JFC9RQ",
@@ -98,7 +92,7 @@
         "2K+ bought in the past month"
       ],
       "cons": [
-        "3.7 stars",
+        "3.6 stars",
         "$49.99",
         "Some features need an Aqara hub"
       ]
@@ -131,90 +125,14 @@
       },
       "verdict": "A basic Thread motion sensor that also reports light level.",
       "pros": [
-        "$31.99",
-        "669 reviews",
+        "$29.99",
+        "676 reviews",
         "No Aqara hub needed"
       ],
       "cons": [
         "3.5 stars",
         "PIR misses people sitting still",
         "Battery type isn't in the bullets"
-      ]
-    },
-    {
-      "asin": "B0BZT5W3V5",
-      "brand": "Eve",
-      "model": "Motion (Matter)",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "systems_label": "Eve app",
-      "specs": {
-        "type": "Motion sensor",
-        "sensing": "PIR motion, light level",
-        "power": "Battery",
-        "extras": "IPX3, 120° view, 9 m range"
-      },
-      "features": {
-        "presence": false,
-        "matter": true,
-        "extra": true,
-        "outdoor": true
-      },
-      "verdict": "Eve's water-resistant sensor for porches and covered outdoor spots.",
-      "pros": [
-        "IPX3 water resistance",
-        "9 m range",
-        "Matter over Thread"
-      ],
-      "cons": [
-        "Sold by a third party, low stock",
-        "3.7 stars",
-        "$31.99"
-      ]
-    },
-    {
-      "asin": "B0G8HLQ633",
-      "brand": "meross",
-      "model": "Presence Sensor MS605",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "systems_label": "meross app",
-      "specs": {
-        "type": "Presence sensor, battery",
-        "sensing": "AI-driven presence",
-        "power": "Battery",
-        "extras": "IP67"
-      },
-      "features": {
-        "presence": true,
-        "matter": true,
-        "extra": false,
-        "outdoor": true
-      },
-      "verdict": "A weatherproof presence sensor that runs on batteries.",
-      "pros": [
-        "IP67",
-        "Battery powered",
-        "$24.99"
-      ],
-      "cons": [
-        "3.1 stars",
-        "Only 88 reviews",
-        "Sold by a meross reseller"
       ]
     },
     {
@@ -250,7 +168,7 @@
         "4.4 stars"
       ],
       "cons": [
-        "Only 70 reviews",
+        "Only 103 reviews",
         "$49.99",
         "Lesser-known brand"
       ]
@@ -285,11 +203,11 @@
       "pros": [
         "Night light plus motion sensor",
         "Plug-in, no batteries",
-        "$23.99"
+        "$29.99"
       ],
       "cons": [
-        "3.8 stars",
-        "Only 48 reviews",
+        "3.6 stars",
+        "Only 51 reviews",
         "Placement limited to outlets"
       ]
     },
@@ -321,12 +239,12 @@
       },
       "verdict": "A plain, cheap Thread motion sensor.",
       "pros": [
-        "4.5 stars",
+        "4.6 stars",
         "$29.99",
         "Matter over Thread"
       ],
       "cons": [
-        "Only 7 reviews",
+        "Only 18 reviews",
         "Motion only",
         "Lesser-known brand"
       ]
