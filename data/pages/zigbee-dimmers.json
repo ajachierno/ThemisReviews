@@ -18,7 +18,6 @@
     "three_way": 0.35,
     "open_hub": 0.3
   },
-  "systems_note": "Inovelli's Blue Series is its Zigbee line.",
   "spec_fields": [
     {
       "key": "neutral",
@@ -66,73 +65,19 @@
   ],
   "awards": [
     {
-      "asin": "B0BG329SH3",
+      "asin": "B08428GDS8",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Works with or without a neutral, handles 3-way with your existing switches, and doubles as an on/off switch."
-    },
-    {
-      "asin": "B08428GDS8",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Pairs straight to Echo devices with a Zigbee hub, and has the most reviews of any Zigbee dimmer we found."
+      "why": "The most-reviewed Zigbee dimmer we found, sold by Amazon, and it pairs straight to Echo devices with a built-in Zigbee hub."
     },
     {
       "asin": "B0F2N68K3C",
       "label": "Most Flexible",
       "kind": "premium",
       "why": "Runs as Zigbee or Matter over Thread, works without a neutral, and lets you set brightness limits."
-    },
-    {
-      "asin": "B000U39QRK",
-      "label": "Best for Big Loads",
-      "kind": "special",
-      "why": "Rated for 300 W of LED, double most smart dimmers."
     }
   ],
   "products": [
-    {
-      "asin": "B0BG329SH3",
-      "brand": "Inovelli",
-      "model": "Blue Series 2-1",
-      "systems": [
-        "home-assistant",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "neutral": "Optional",
-        "three_way_text": "Existing switches or Inovelli Aux",
-        "led_load": "Not listed",
-        "hub": "Any Zigbee 3.0 hub",
-        "extras": "Dimmer or on/off, custom LED bar"
-      },
-      "features": {
-        "no_neutral": true,
-        "three_way": true,
-        "open_hub": true
-      },
-      "verdict": "The enthusiast's pick. One switch that can be a dimmer or an on/off switch, with or without a neutral, and a customizable LED bar.",
-      "pros": [
-        "Works with or without a neutral wire",
-        "Use existing switches in a 3-way, or add Inovelli's Aux switch",
-        "Set up as a dimmer or on/off switch",
-        "Customizable LED notification bar"
-      ],
-      "cons": [
-        "Sold by a reseller with 1 left in stock at capture time",
-        "The listing never says Zigbee; Blue Series is Inovelli's Zigbee line",
-        "Neutral installs unlock the most features"
-      ],
-      "name": "Inovelli 2-1 Smart Switch (On/Off or Dimmer) - Blue Series",
-      "image": "https://m.media-amazon.com/images/I/51pBFXZnZ6L._SL1500_.jpg",
-      "price": 30.99,
-      "rating": 4.4,
-      "reviews_count": 58,
-      "bought": null
-    },
     {
       "asin": "B08428GDS8",
       "brand": "Enbrighten",
@@ -170,10 +115,10 @@
       ],
       "name": "Enbrighten Zigbee In-Wall Smart Dimmer, Paddle, White or Light Almond",
       "image": "https://m.media-amazon.com/images/I/81VZfzh+W4L._AC_SL1500_.jpg",
-      "price": 37.99,
+      "price": 34.72,
       "rating": 4.0,
       "reviews_count": 312,
-      "bought": null
+      "bought": "100+ bought in past month"
     },
     {
       "asin": "B0F2N68K3C",
@@ -217,49 +162,7 @@
       "price": 49.99,
       "rating": 3.9,
       "reviews_count": 61,
-      "bought": "100+ bought in past month"
-    },
-    {
-      "asin": "B000U39QRK",
-      "brand": "Leviton",
-      "model": "DG6HD-1BW",
-      "systems": [
-        "home-assistant",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "neutral": "Required",
-        "three_way_text": "Up to 4 DD00R remotes",
-        "led_load": "300 W",
-        "hub": "Any Zigbee 3.0 hub",
-        "extras": "Decora color change kits"
-      },
-      "features": {
-        "no_neutral": false,
-        "three_way": true,
-        "open_hub": true
-      },
-      "verdict": "A Zigbee 3.0 certified Decora dimmer with a 300 W LED rating, the highest here.",
-      "pros": [
-        "300 W LED and 600 W incandescent rating",
-        "Zigbee 3.0 certified",
-        "Up to four DD00R remotes for 3-way dimming",
-        "Works with Echo hubs and SmartThings"
-      ],
-      "cons": [
-        "Usually ships in 7 to 8 days from a third-party seller",
-        "Needs a neutral wire",
-        "Most expensive Zigbee dimmer here"
-      ],
-      "name": "Leviton Decora Smart Dimmer, Zigbee Certified, DG6HD-1BW, White",
-      "image": "https://m.media-amazon.com/images/I/41MYWoZoqVL._SL1000_.jpg",
-      "price": 51.95,
-      "rating": 4.2,
-      "reviews_count": 79,
-      "bought": null
+      "bought": "200+ bought in past month"
     }
   ],
   "avoid": [

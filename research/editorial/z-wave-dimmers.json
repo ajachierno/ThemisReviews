@@ -50,13 +50,13 @@
      "features": {"long_range": true, "direct_3way": true, "led_tuning": false, "custom_led": true},
      "verdict": "The same Long Range dimmer as a lit toggle.",
      "pros": ["Lit toggle in eight colors", "Up to 1,300 ft range as Z-Wave Long Range", "Works with a standard 3-way switch or up to four add-ons"],
-     "cons": ["Sold by a third-party seller with limited stock", "Only 24 reviews", "Needs a neutral wire"]},
+     "cons": ["Sold by a third-party seller with limited stock", "Only 26 reviews", "Needs a neutral wire"]},
     {"asin": "B0FX36Z8VN", "brand": "UltraPro", "model": "800 Series LR dimmer, paddle", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"series": "800 Series", "style": "Paddle", "three_way": "One standard 3-way switch", "led_load": "Not listed", "neutral": "Required"},
      "features": {"long_range": true, "direct_3way": true, "led_tuning": false, "custom_led": true},
      "verdict": "The cheapest way into an 800 Series Long Range dimmer, with flying leads for easy wiring.",
      "pros": ["Lowest price for an 800 Series Long Range dimmer here", "Color-coded flying leads", "Works with one traditional 3-way switch", "ETL certified, sold by Amazon"],
-     "cons": ["Not compatible with UltraPro add-on switches", "4.0 stars from 40 reviews", "Needs a neutral wire"]},
+     "cons": ["Not compatible with UltraPro add-on switches", "3.9 stars from 43 reviews", "Needs a neutral wire"]},
     {"asin": "B0FWKJ5JWS", "brand": "Leviton", "model": "DZ6HD-2RW", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"series": "Z-Wave Plus", "style": "Decora paddle", "three_way": "Up to 4 DD00R remotes", "led_load": "300 W", "neutral": "Required"},
      "features": {"long_range": false, "direct_3way": false, "led_tuning": false, "custom_led": false},
@@ -80,7 +80,7 @@
      "features": {"long_range": false, "direct_3way": false, "led_tuning": false, "custom_led": false},
      "verdict": "Schneider Electric's Z-Wave Plus dimmer with built-in energy monitoring, part of a matching line of switches and outlets.",
      "pros": ["Built-in energy monitoring", "Matches the Square D X Series line", "S2 SmartStart", "Sold by Amazon"],
-     "cons": ["3.1 stars from only 7 reviews", "150 W LED limit", "Listing doesn't explain 3-way wiring"]}
+     "cons": ["2.8 stars from only 8 reviews", "150 W LED limit", "Listing doesn't explain 3-way wiring"]}
   ],
   "avoid": [
     {"asin": "B01NB1REZZ", "brand": "GoControl", "model": "ZWAVE SMRT 3WY DIMMR", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
