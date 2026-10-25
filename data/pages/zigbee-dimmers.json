@@ -11,7 +11,7 @@
   },
   "title": "The Best Zigbee Dimmer Switches",
   "subtitle": "Every in-wall Zigbee dimmer we could find on Amazon, ranked.",
-  "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. Most of what turns up in a search is a hidden module or a 0-10 V controller, which we left out. We scored the wall dimmers on rating, review volume, and features.",
+  "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. It covers wall dimmers and dimmer modules that wire in behind an existing switch; we left out 0-10 V controllers. We scored them on rating, review volume, and features.",
   "reviews_ceiling": 500,
   "feature_weights": {
     "no_neutral": 0.35,
@@ -163,6 +163,50 @@
       "rating": 3.9,
       "reviews_count": 61,
       "bought": "200+ bought in past month"
+    },
+    {
+      "asin": "B0GKG5NXL6",
+      "brand": "Shelly",
+      "model": "Dimmer Gen4 US",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "neutral": "Not listed",
+        "three_way_text": "Not listed",
+        "led_load": "Not listed",
+        "hub": "Zigbee hub or Matter controller; Shelly app over Wi-Fi",
+        "extras": "Min/max brightness, fade rate, night mode"
+      },
+      "features": {
+        "no_neutral": false,
+        "three_way": false,
+        "open_hub": true
+      },
+      "verdict": "A compact dimmer module that wires in behind your wall switch and runs Zigbee, Matter, or Wi-Fi. A good fit if you want to keep the switches you have.",
+      "pros": [
+        "Zigbee, Matter, Wi-Fi, and Bluetooth in one module",
+        "Set minimum and maximum brightness, fade rate, and transition time",
+        "Schedules that can follow sunrise and sunset",
+        "UL certified, with a 3-year warranty"
+      ],
+      "cons": [
+        "A hidden module, not a wall switch",
+        "The listing doesn't state neutral, 3-way, or LED load details",
+        "Only 30 reviews"
+      ],
+      "name": "Shelly Dimmer Gen4 US UL Smart Dimming, WiFi, Matter, Zigbee",
+      "image": "https://m.media-amazon.com/images/I/81T-a+lNRVL._SL1500_.jpg",
+      "price": 49.98,
+      "rating": 4.3,
+      "reviews_count": 30,
+      "bought": "300+ bought in past month"
     }
   ],
   "avoid": [

@@ -30,7 +30,13 @@
      "features": {"no_neutral": true, "three_way": false, "open_hub": true},
      "verdict": "A Zigbee or Thread dimmer that works without a neutral and lets you cap brightness to stop LED flicker.",
      "pros": ["Choose Zigbee or Matter over Thread", "Works with or without a neutral", "Forward and reverse phase dimming", "Set minimum and maximum brightness"],
-     "cons": ["3-way isn't covered in the listing", "3.9 stars", "Zigbee mode needs an Aqara hub for full features"]}
+     "cons": ["3-way isn't covered in the listing", "3.9 stars", "Zigbee mode needs an Aqara hub for full features"]},
+    {"asin": "B0GKG5NXL6", "brand": "Shelly", "model": "Dimmer Gen4 US", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+     "specs": {"neutral": "Not listed", "three_way_text": "Not listed", "led_load": "Not listed", "hub": "Zigbee hub or Matter controller; Shelly app over Wi-Fi", "extras": "Min/max brightness, fade rate, night mode"},
+     "features": {"no_neutral": false, "three_way": false, "open_hub": true},
+     "verdict": "A compact dimmer module that wires in behind your wall switch and runs Zigbee, Matter, or Wi-Fi. A good fit if you want to keep the switches you have.",
+     "pros": ["Zigbee, Matter, Wi-Fi, and Bluetooth in one module", "Set minimum and maximum brightness, fade rate, and transition time", "Schedules that can follow sunrise and sunset", "UL certified, with a 3-year warranty"],
+     "cons": ["A hidden module, not a wall switch", "The listing doesn't state neutral, 3-way, or LED load details", "Only 30 reviews"]}
   ],
   "avoid": [
     {"asin": "B091L1912K", "brand": "GLEDOPTO", "model": "Triac touch dimmer", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],

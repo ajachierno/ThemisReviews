@@ -137,7 +137,7 @@ PAGES.update({
         "family": "dimmers", "family_title": "Dimmers", "noun": "dimmer",
         "title": "The Best Zigbee Dimmer Switches",
         "subtitle": "Every in-wall Zigbee dimmer we could find on Amazon, ranked.",
-        "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. Most of what turns up in a search is a hidden module or a 0-10 V controller, which we left out. We scored the wall dimmers on rating, review volume, and features.",
+        "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. It covers wall dimmers and dimmer modules that wire in behind an existing switch; we left out 0-10 V controllers. We scored them on rating, review volume, and features.",
         "reviews_ceiling": 500,
         "guide": DIM_GUIDE + [
             {"q": "Why are there so few Zigbee dimmers?",
