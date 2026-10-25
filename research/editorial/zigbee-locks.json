@@ -14,7 +14,7 @@
     {"key": "rating", "label": "BHMA"}
   ],
   "awards": [
-    {"asin": "B0BZSD2L1W", "label": "Best Overall", "kind": "overall", "why": "Fingerprint and Apple Home Key with 2,570 reviews, on Zigbee through Aqara's hub."},
+    {"asin": "B0BZSD2L1W", "label": "Best Overall", "kind": "overall", "why": "Fingerprint and Apple Home Key with 2,600 reviews, on Zigbee through Aqara's hub."},
     {"asin": "B09HYYZH6R", "label": "Best Retrofit", "kind": "budget", "why": "Converts your existing deadbolt by replacing only the interior, and pairs with Echo and SmartThings hubs."},
     {"asin": "B08XXVND8V", "label": "Best Touchscreen", "kind": "special", "why": "BHMA Grade 2 with a touchscreen, SmartKey re-keying, and a long list of supported hubs."}
   ],
@@ -23,7 +23,7 @@
      "specs": {"type": "Deadbolt", "entry": "Fingerprint, Home Key, code, app", "hub": "Aqara Zigbee 3.0 hub for remote features", "rating": "Not listed", "extras": "Auto lock"},
      "features": {"auto_lock": true, "retrofit": false, "home_key": true},
      "verdict": "The most popular lock on Zigbee: fingerprint, Apple Home Key, and auto lock.",
-     "pros": ["Fingerprint reader, up to 50 prints", "Apple Home Key tap to unlock", "2,570 reviews, 500+ bought in the past month"],
+     "pros": ["Fingerprint reader, up to 50 prints", "Apple Home Key tap to unlock", "2,600 reviews, 500+ bought in the past month"],
      "cons": ["Remote and voice features need an Aqara Zigbee hub", "4.1 stars", "Sold by the brand"]},
     {"asin": "B09HYYZH6R", "brand": "Kwikset", "model": "Convert (Zigbee 3.0)", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],
      "specs": {"type": "Retrofit (interior only)", "entry": "Your existing key, hub control", "hub": "Echo (4th gen), Echo Show 10, SmartThings, Xfinity", "rating": "Not listed", "extras": "Keeps your exterior hardware"},
@@ -42,7 +42,7 @@
      "features": {"auto_lock": false, "retrofit": false, "home_key": false},
      "verdict": "Kwikset's touchscreen deadbolt on Zigbee 3.0, BHMA Grade 2, with the broadest hub list here.",
      "pros": ["BHMA Grade 2", "Works with Echo, SmartThings, Tuya, and Abode Zigbee hubs", "SmartKey re-keying"],
-     "cons": ["3.6 stars", "$219.00", "Up to 30 user codes"]}
+     "cons": ["3.7 stars", "$219.00", "Up to 30 user codes"]}
   ],
   "avoid": []
 }
