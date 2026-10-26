@@ -12,7 +12,7 @@
         "asin": "B0FL858V4Q",
         "price": 79.0,
         "rating": 4.6,
-        "reviews_count": 250
+        "reviews_count": 261
       },
       "radios": "None built in. Add USB adapters for Zigbee, Thread, and Z-Wave",
       "local": "Yes",
@@ -109,33 +109,33 @@
       ],
       "price": 179.99,
       "rating": 3.9,
-      "reviews_count": 1819
+      "reviews_count": 1839
     },
     {
       "slug": "smartthings",
       "name": "SmartThings",
       "maker": "Samsung",
       "site": "https://www.smartthings.com/",
-      "hub": "Aeotec Smart Home Hub",
-      "asin": "B08TWDNQ5Q",
-      "radios": "Zigbee, Matter, Wi-Fi (Z-Wave on V3 units, per the listing)",
+      "hub": "Aeotec Smart Home Hub 2 (V4)",
+      "asin": "B0G3YCFLJT",
+      "radios": "Zigbee, Matter, Wi-Fi (no Z-Wave on the current V4 hub)",
       "local": "Partly (Edge drivers run on the hub)",
       "phones": "Android or iPhone",
       "best_for": "Samsung households and people who want a middle ground",
       "pros": [
         "Works on Android and iPhone",
-        "Zigbee and Matter built into the hub, plus Z-Wave on some versions",
+        "Zigbee and Matter built into the hub",
         "Many automations now run locally on the hub",
         "Samsung TVs and appliances can join the same system"
       ],
       "cons": [
-        "Z-Wave support depends on which hub version you get",
+        "The current V4 hub dropped Z-Wave; only older V3 units have it",
         "The platform has changed a lot; the 2022 move off Groovy broke custom device handlers",
         "The app gets cluttered as you add devices"
       ],
-      "price": 159.99,
-      "rating": 4.2,
-      "reviews_count": 2139
+      "price": 129.99,
+      "rating": 3.9,
+      "reviews_count": 46
     },
     {
       "slug": "hubitat",
@@ -159,9 +159,9 @@
         "Matter over Thread devices need a separate border router",
         "3.8-star rating on Amazon"
       ],
-      "price": 194.95,
-      "rating": 3.8,
-      "reviews_count": 376
+      "price": 210.0,
+      "rating": 3.9,
+      "reviews_count": 393
     },
     {
       "slug": "homey",
@@ -194,8 +194,8 @@
         "The cheaper Pro mini needs a Homey Bridge for Z-Wave, Bluetooth, and infrared"
       ],
       "price": 449.0,
-      "rating": 3.6,
-      "reviews_count": 49
+      "rating": 3.9,
+      "reviews_count": 71
     }
   ],
   "data_captured": "2026-10-04"

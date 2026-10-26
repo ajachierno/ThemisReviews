@@ -50,16 +50,10 @@
   ],
   "awards": [
     {
-      "asin": "B0BW171KP3",
+      "asin": "B0G8JKPMV7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "800 Series Long Range for $39.95, 4.6 stars from 619 reviews, and 500+ bought last month."
-    },
-    {
-      "asin": "B0G8JKPMV7",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, for $39.90."
+      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, 4.6 stars, for $39.90, the lowest price here."
     },
     {
       "asin": "B0FL858V4Q",
@@ -68,46 +62,13 @@
       "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
     },
     {
-      "asin": "B08TWDNQ5Q",
+      "asin": "B0CR4G1G8M",
       "label": "Best All-in-One Hub",
       "kind": "premium",
-      "why": "A SmartThings hub with Z-Wave, Zigbee, and Matter, no computer needed, with 2,139 reviews."
+      "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
     }
   ],
   "products": [
-    {
-      "asin": "B0BW171KP3",
-      "brand": "Zooz",
-      "model": "ZST39 LR",
-      "systems": [
-        "home-assistant"
-      ],
-      "specs": {
-        "type": "USB stick",
-        "series": "800 Series",
-        "long_range": true,
-        "radios": "Z-Wave only",
-        "needs": "Computer running hub software"
-      },
-      "features": {
-        "long_range": true,
-        "standalone": false,
-        "multi_radio": false,
-        "antenna": false
-      },
-      "verdict": "The best Z-Wave stick for most DIY setups: 800 Series Long Range, a low price, and the best ratings here.",
-      "pros": [
-        "800 Series with Long Range",
-        "4.6 stars from 619 reviews",
-        "OTA firmware updates",
-        "500+ bought in the past month"
-      ],
-      "cons": [
-        "Zooz says it's for advanced users only",
-        "Needs a dedicated computer running hub software",
-        "No external antenna"
-      ]
-    },
     {
       "asin": "B0G8JKPMV7",
       "brand": "SONOFF",
@@ -136,7 +97,7 @@
         "4.6 stars"
       ],
       "cons": [
-        "Only 176 reviews",
+        "Only 184 reviews",
         "Names Home Assistant and openHAB only",
         "Needs a computer running hub software"
       ]
@@ -234,8 +195,8 @@
         "Works with HomeSeer or Home Assistant"
       ],
       "cons": [
-        "Only 97 reviews",
-        "4.4 stars",
+        "Only 98 reviews",
+        "4.5 stars",
         "Not a standalone hub"
       ]
     },
@@ -299,44 +260,9 @@
         "Aluminum case"
       ],
       "cons": [
-        "Only 26 reviews",
+        "Only 34 reviews",
         "Names Home Assistant, openHAB, and Z-Wave JS only",
         "Network setup is more work than a USB stick"
-      ]
-    },
-    {
-      "asin": "B08TWDNQ5Q",
-      "brand": "Aeotec",
-      "model": "Smart Home Hub (SmartThings, V3)",
-      "systems": [
-        "smartthings",
-        "alexa",
-        "google-home"
-      ],
-      "specs": {
-        "type": "Hub",
-        "series": "Z-Wave Plus",
-        "long_range": false,
-        "radios": "Zigbee, Matter, Wi-Fi",
-        "needs": "SmartThings app"
-      },
-      "features": {
-        "long_range": false,
-        "standalone": true,
-        "multi_radio": true,
-        "antenna": false
-      },
-      "verdict": "A ready-to-go SmartThings hub that adds Z-Wave and Zigbee without a computer.",
-      "pros": [
-        "No computer needed",
-        "Z-Wave, Zigbee, and Matter",
-        "Ethernet or Wi-Fi",
-        "2,139 reviews, 400+ bought in the past month"
-      ],
-      "cons": [
-        "Z-Wave Plus, no Long Range",
-        "Many automations depend on the SmartThings cloud",
-        "$159.99"
       ]
     },
     {
@@ -370,8 +296,8 @@
         "Works with Alexa, Google Home, and Apple Home"
       ],
       "cons": [
-        "3.8 stars",
-        "$194.95",
+        "3.9 stars",
+        "$210.00",
         "Steeper learning curve than SmartThings"
       ]
     },
@@ -405,8 +331,8 @@
         "Local-first automations with Homey Flow"
       ],
       "cons": [
-        "$449",
-        "3.6 stars from 49 reviews",
+        "$471",
+        "3.9 stars from 71 reviews",
         "Z-Wave Plus, Long Range isn't listed"
       ]
     }

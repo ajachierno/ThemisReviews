@@ -24,7 +24,7 @@ LUTRON_GUIDE = [
     {"q": "Does it work with Home Assistant?",
      "a": "Yes. Home Assistant has an official Lutron Caseta integration that works with both the standard and Pro bridges, and it controls devices locally."},
     {"q": "Is buying a kit cheaper?",
-     "a": "Usually. Kits that bundle a Smart Hub with a dimmer and a Pico remote often cost little more than the hub alone."},
+     "a": "Often. Starter kits bundle the Smart Hub with a dimmer and a Pico remote, so compare the kit price with the hub-only price in the table above before buying the pieces one at a time."},
 ]
 GARAGE_GUIDE = [
     {"q": "Will it work with my garage door opener?",

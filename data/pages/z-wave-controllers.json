@@ -64,16 +64,10 @@
   ],
   "awards": [
     {
-      "asin": "B0BW171KP3",
+      "asin": "B0G8JKPMV7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "800 Series Long Range for $39.95, 4.6 stars from 619 reviews, and 500+ bought last month."
-    },
-    {
-      "asin": "B0G8JKPMV7",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, for $39.90."
+      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, 4.6 stars, for $39.90, the lowest price here."
     },
     {
       "asin": "B0FL858V4Q",
@@ -82,52 +76,13 @@
       "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
     },
     {
-      "asin": "B08TWDNQ5Q",
+      "asin": "B0CR4G1G8M",
       "label": "Best All-in-One Hub",
       "kind": "premium",
-      "why": "A SmartThings hub with Z-Wave, Zigbee, and Matter, no computer needed, with 2,139 reviews."
+      "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
     }
   ],
   "products": [
-    {
-      "asin": "B0BW171KP3",
-      "brand": "Zooz",
-      "model": "ZST39 LR",
-      "systems": [
-        "home-assistant"
-      ],
-      "specs": {
-        "type": "USB stick",
-        "series": "800 Series",
-        "long_range": true,
-        "radios": "Z-Wave only",
-        "needs": "Computer running hub software"
-      },
-      "features": {
-        "long_range": true,
-        "standalone": false,
-        "multi_radio": false,
-        "antenna": false
-      },
-      "verdict": "The best Z-Wave stick for most DIY setups: 800 Series Long Range, a low price, and the best ratings here.",
-      "pros": [
-        "800 Series with Long Range",
-        "4.6 stars from 619 reviews",
-        "OTA firmware updates",
-        "500+ bought in the past month"
-      ],
-      "cons": [
-        "Zooz says it's for advanced users only",
-        "Needs a dedicated computer running hub software",
-        "No external antenna"
-      ],
-      "name": "Zooz 800 Series Z-Wave Long Range S2 USB Stick ZST39 LR, Great for DIY Smart Home (Use with Home Assistant or HomeSeer Software)",
-      "image": "https://m.media-amazon.com/images/I/41X3y90lKBL._AC_SL1246_.jpg",
-      "price": 39.95,
-      "rating": 4.6,
-      "reviews_count": 619,
-      "bought": "500+ bought in past month"
-    },
     {
       "asin": "B0G8JKPMV7",
       "brand": "SONOFF",
@@ -156,7 +111,7 @@
         "4.6 stars"
       ],
       "cons": [
-        "Only 176 reviews",
+        "Only 184 reviews",
         "Names Home Assistant and openHAB only",
         "Needs a computer running hub software"
       ],
@@ -164,7 +119,7 @@
       "image": "https://m.media-amazon.com/images/I/61oquCTd1oL._AC_SL1500_.jpg",
       "price": 39.9,
       "rating": 4.6,
-      "reviews_count": 176,
+      "reviews_count": 184,
       "bought": "300+ bought in past month"
     },
     {
@@ -203,8 +158,8 @@
       "image": "https://m.media-amazon.com/images/I/41XQziRKfyL._AC_SL1500_.jpg",
       "price": 79.0,
       "rating": 4.6,
-      "reviews_count": 250,
-      "bought": "500+ bought in past month"
+      "reviews_count": 261,
+      "bought": "1K+ bought in past month"
     },
     {
       "asin": "B0DV9RFSR9",
@@ -272,16 +227,16 @@
         "Works with HomeSeer or Home Assistant"
       ],
       "cons": [
-        "Only 97 reviews",
-        "4.4 stars",
+        "Only 98 reviews",
+        "4.5 stars",
         "Not a standalone hub"
       ],
-      "name": "HomeSeer Z-Wave USB Interface/Radio/Dongle (SmartStick G8), 800 Series Mesh & Long Range Z-Wave Technology, Compatible with HomeSeer, Home Assistant, OpenHAB",
+      "name": "Z-Wave USB Interface/Radio/Dongle (SmartStick G8), 800 Series Mesh & Long Range Z-Wave Technology, Compatible with HomeSeer, Home Assistant, OpenHAB",
       "image": "https://m.media-amazon.com/images/I/5122wJPMzxL._AC_SL1000_.jpg",
       "price": 39.95,
-      "rating": 4.4,
-      "reviews_count": 97,
-      "bought": null
+      "rating": 4.5,
+      "reviews_count": 98,
+      "bought": "50+ bought in past month"
     },
     {
       "asin": "B094NW5B68",
@@ -349,57 +304,16 @@
         "Aluminum case"
       ],
       "cons": [
-        "Only 26 reviews",
+        "Only 34 reviews",
         "Names Home Assistant, openHAB, and Z-Wave JS only",
         "Network setup is more work than a USB stick"
       ],
       "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
       "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
       "price": 44.9,
-      "rating": 4.5,
-      "reviews_count": 26,
-      "bought": "100+ bought in past month"
-    },
-    {
-      "asin": "B08TWDNQ5Q",
-      "brand": "Aeotec",
-      "model": "Smart Home Hub (SmartThings, V3)",
-      "systems": [
-        "smartthings",
-        "alexa",
-        "google-home"
-      ],
-      "specs": {
-        "type": "Hub",
-        "series": "Z-Wave Plus",
-        "long_range": false,
-        "radios": "Zigbee, Matter, Wi-Fi",
-        "needs": "SmartThings app"
-      },
-      "features": {
-        "long_range": false,
-        "standalone": true,
-        "multi_radio": true,
-        "antenna": false
-      },
-      "verdict": "A ready-to-go SmartThings hub that adds Z-Wave and Zigbee without a computer.",
-      "pros": [
-        "No computer needed",
-        "Z-Wave, Zigbee, and Matter",
-        "Ethernet or Wi-Fi",
-        "2,139 reviews, 400+ bought in the past month"
-      ],
-      "cons": [
-        "Z-Wave Plus, no Long Range",
-        "Many automations depend on the SmartThings cloud",
-        "$159.99"
-      ],
-      "name": "Aeotec Smart Home Hub, Works as a SmartThings Hub, Z-Wave, Zigbee, Matter Gateway, Compatible with Alexa, Google Assistant, WiFi",
-      "image": "https://m.media-amazon.com/images/I/61tMoVGYglL._AC_SL1500_.jpg",
-      "price": 159.99,
       "rating": 4.2,
-      "reviews_count": 2139,
-      "bought": "400+ bought in past month"
+      "reviews_count": 34,
+      "bought": "100+ bought in past month"
     },
     {
       "asin": "B0CR4G1G8M",
@@ -432,16 +346,16 @@
         "Works with Alexa, Google Home, and Apple Home"
       ],
       "cons": [
-        "3.8 stars",
-        "$194.95",
+        "3.9 stars",
+        "$210.00",
         "Steeper learning curve than SmartThings"
       ],
       "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
       "image": "https://m.media-amazon.com/images/I/71NJAozHjnL._SL1500_.jpg",
-      "price": 194.95,
-      "rating": 3.8,
-      "reviews_count": 376,
-      "bought": "300+ bought in past month"
+      "price": 210.0,
+      "rating": 3.9,
+      "reviews_count": 393,
+      "bought": "500+ bought in past month"
     },
     {
       "asin": "B0G52DX5M3",
@@ -473,15 +387,15 @@
         "Local-first automations with Homey Flow"
       ],
       "cons": [
-        "$449",
-        "3.6 stars from 49 reviews",
+        "$471",
+        "3.9 stars from 71 reviews",
         "Z-Wave Plus, Long Range isn't listed"
       ],
       "name": "Homey Pro (2026) | Smart Hub for Home Automation – Features Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter & Thread. Compatible with Siri, Alexa & Google Home.",
       "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
       "price": 449.0,
-      "rating": 3.6,
-      "reviews_count": 49,
+      "rating": 3.9,
+      "reviews_count": 71,
       "bought": "50+ bought in past month"
     }
   ],
