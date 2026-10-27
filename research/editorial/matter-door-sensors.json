@@ -15,7 +15,7 @@
   "awards": [
     {"asin": "B0C3SL4K28", "label": "Best Overall", "kind": "overall", "why": "Three local-only Eve sensors with 784 reviews at 4.2 stars."},
     {"asin": "B0BTL8B72D", "label": "Best Budget", "kind": "budget", "why": "$27.99, the most reviews of any Matter contact sensor, and remote alarm support."},
-    {"asin": "B0BZSY26WP", "label": "Best Single", "kind": "special", "why": "One Eve sensor for $29.95 if you only need to watch one door."}
+    {"asin": "B0BZSY26WP", "label": "Best Single", "kind": "special", "why": "One Eve sensor for $31.80 if you only need to watch one door."}
   ],
   "products": [
     {"asin": "B0C3SL4K28", "brand": "Eve", "model": "Door & Window (Matter) 3-pack", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
@@ -28,14 +28,14 @@
      "specs": {"radio": "Thread", "pack": "1 sensor", "extras": "Remote alarm, voice alerts"},
      "features": {"no_cloud": false, "alarm": true},
      "verdict": "Aqara's native Matter sensor, the cheapest and most-reviewed one here, with mixed ratings.",
-     "pros": ["$27.99 with 1,120 reviews", "Native Matter over Thread", "Voice alerts through Siri, Alexa, and Google"],
+     "pros": ["$27.99 with 1,134 reviews", "Native Matter over Thread", "Voice alerts through Siri, Alexa, and Google"],
      "cons": ["3.6 stars", "Needs a Thread border router", "Some features need the Aqara app"]},
     {"asin": "B0BZSY26WP", "brand": "Eve", "model": "Door & Window (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
      "specs": {"radio": "Thread", "pack": "1 sensor", "extras": "Open time and duration stats"},
      "features": {"no_cloud": true, "alarm": false},
      "verdict": "A single Eve sensor for one door or window.",
      "pros": ["Local only, no account", "Works on every major platform", "Sold by Amazon"],
-     "cons": ["Costs more per sensor than the 3-pack", "Needs a Thread border router", "147 reviews"]}
+     "cons": ["Costs more per sensor than the 3-pack", "Needs a Thread border router", "149 reviews"]}
   ],
   "avoid": [
     {"asin": "B0DR3C9D17", "brand": "arre", "model": "Contact sensor (Matter)", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
@@ -44,7 +44,7 @@
      "reasons": [
        "Each bullet is a single phrase like \"Works with Apple Home\" with no specifications.",
        "Battery type, battery life, and size aren't listed anywhere.",
-       "2.6 stars from 13 reviews.",
+       "2.9 stars from 19 reviews.",
        "The Aqara P2 costs less and has a real listing and over a thousand reviews."
      ]}
   ]

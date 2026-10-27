@@ -51,8 +51,12 @@ for line in out.splitlines():
     for a, b in sorted(spans(asin), reverse=True) if asin else []:
         seg = raw[a:b]
         if lit in seg:
-            idx = seg.index(lit)
-            fixed_lit = lit.replace(old, newv, 1)
+            # Only replace the figure as a whole token: "9" must not touch the "9" in "$14.99",
+            # and "23" must not rewrite "$23.99" (both happened on the 10-27 price pass).
+            pat = r"(?<![\d$.,])" + re.escape(old) + r"(?![\d]|[.,]\d)"
+            fixed_lit, cnt = re.subn(pat, lambda _m: newv, lit, count=1)
+            if not cnt:
+                continue
             raw = raw[:a] + seg.replace(lit, fixed_lit) + raw[b:]
             hit = True
     if hit:
