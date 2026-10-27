@@ -143,7 +143,7 @@
         "Tamper alert"
       ],
       "cons": [
-        "Only 15 reviews",
+        "Only 16 reviews",
         "Larger than single-purpose sensors",
         "$39.99"
       ]
@@ -174,11 +174,79 @@
       "pros": [
         "Invisible once installed",
         "S2 security and SmartStart",
-        "353 reviews"
+        "354 reviews"
       ],
       "cons": [
         "You have to drill the frame and the door",
         "3.8 stars",
+        "No Long Range"
+      ]
+    },
+    {
+      "asin": "B08HCGPWZX",
+      "brand": "Aeotec",
+      "model": "Door Window Sensor 7",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "mount": "Surface, mini",
+        "extras": "Open/close only",
+        "hub": "Any Z-Wave hub",
+        "battery": "About 4 years (per the listing)"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": false,
+        "recessed": false
+      },
+      "verdict": "A compact 700 Series contact sensor with SmartStart pairing, for homes that don't need Long Range.",
+      "pros": [
+        "700 Series chip with S2 security and SmartStart",
+        "40% smaller than the previous generation",
+        "Battery rated for about 4 years"
+      ],
+      "cons": [
+        "No Long Range",
+        "Only 47 reviews",
+        "Only 1 in stock when we checked"
+      ]
+    },
+    {
+      "asin": "B08LDJJWSY",
+      "brand": "Aeotec",
+      "model": "Door/Window Sensor 7 Pro",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "series": "700 Series",
+        "mount": "Surface, mini",
+        "extras": "Tilt, dry-contact input",
+        "hub": "Any Z-Wave hub",
+        "battery": "About 3 years (1/2 AA)"
+      },
+      "features": {
+        "long_range": false,
+        "extra_sensors": true,
+        "recessed": false
+      },
+      "verdict": "A 3-in-1 sensor that adds tilt detection and a dry-contact input to the standard contact sensor, for garage doors and wired sensors.",
+      "pros": [
+        "Magnetic contact, tilt sensor, and dry-contact input in one",
+        "S2 security and SmartStart",
+        "111 reviews"
+      ],
+      "cons": [
+        "3.7 stars",
+        "$47.99",
         "No Long Range"
       ]
     },
@@ -237,7 +305,7 @@
       },
       "verdict": "The most-reviewed contact sensor by far. Ring Alarm sensors run on Z-Wave, but this one is built for Ring Alarm, not general Z-Wave hubs.",
       "pros": [
-        "4.7 stars from 29,544 reviews",
+        "4.7 stars from 29,621 reviews",
         "$14.99, about 3-year battery",
         "Tool-free installation",
         "Sold by Amazon"

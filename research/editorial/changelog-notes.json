@@ -21,12 +21,22 @@
   {
    "date": "2026-10-06",
    "note": "Corrected the SONOFF ZBMINIR2: it needs a neutral wire. Its title says so; one bullet says otherwise, and we had followed the bullet."
+  },
+  {
+   "date": "2026-10-27",
+   "note": "The Shelly 1 Gen4 listing we linked turned into a third-party 2-pack at $48.99, so the pick now points at Shelly USA's UL-certified single ($27.99). Replaced the Ururtm relay (16 reviews) with the SONOFF ZBMINIL2 2-pack ($29.90, 976 reviews), the only pick here that works without a neutral wire. Shelly 2PM Gen4 rating 4.6 -> 4.7; ZBMINIR2 reviews 1,313 -> 1,514."
   }
  ],
  "z-wave-switches": [
   {
    "date": "2026-10-19",
    "note": "Removed the Zooz ZEN71, whose Amazon listing now sells the ZEN76 instead. Added the Zooz ZEN30 Double Switch for rooms where a light and fan share one box. Best Overall moved to the Zooz ZEN76, and the ZEN30 is now Best for Fan and Light. The Enbrighten Long Range paddle dropped from $39.99 to $35.68."
+  }
+ ],
+ "z-wave-door-sensors": [
+  {
+   "date": "2026-10-27",
+   "note": "Added the Aeotec Door Window Sensor 7 (700 Series, $37.99) and the Door/Window Sensor 7 Pro, which adds a tilt sensor and a dry-contact input ($47.99). All five existing picks kept; prices unchanged since the last check. Ring's newest Window & Door Sensor was considered but runs on Amazon Sidewalk, not Z-Wave."
   }
  ]
 }

@@ -43,7 +43,7 @@
       "asin": "B0DFLR468J",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,313 buyers."
+      "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,514 buyers."
     },
     {
       "asin": "B0GXZWRZXX",
@@ -94,7 +94,7 @@
         "4 relays in the pack",
         "Works with rocker or push-button switches",
         "Tiny enough for crowded boxes",
-        "4.6 stars from 1,313 reviews"
+        "4.6 stars from 1,514 reviews"
       ],
       "cons": [
         "Needs a neutral wire (one bullet says otherwise, but the title says required)",
@@ -136,7 +136,7 @@
       "cons": [
         "Motor loads limited to 8 W",
         "4.2 stars",
-        "Only 187 reviews"
+        "Only 216 reviews"
       ]
     },
     {
@@ -169,7 +169,7 @@
         "4.8 stars"
       ],
       "cons": [
-        "Only 51 reviews",
+        "Only 80 reviews",
         "Neutral requirement isn't stated",
         "Needs a Zigbee hub"
       ]
@@ -203,7 +203,7 @@
       "pros": [
         "Power metering per channel",
         "Zigbee, Wi-Fi, or Matter",
-        "4.6 stars from 808 reviews"
+        "4.7 stars from 864 reviews"
       ],
       "cons": [
         "$38.99",
@@ -212,7 +212,7 @@
       ]
     },
     {
-      "asin": "B0DZHZCL6Z",
+      "asin": "B0H8YW595V",
       "brand": "Shelly",
       "model": "1 Gen4",
       "systems": [
@@ -226,7 +226,7 @@
       ],
       "specs": {
         "channels": "1",
-        "rating": "16 A dry contact",
+        "rating": "15 A dry contact",
         "extras": "Wi-Fi + Zigbee + Matter",
         "neutral": "Not stated in bullets"
       },
@@ -236,15 +236,15 @@
         "power_meter": false,
         "multi_channel": false
       },
-      "verdict": "A 16 A dry-contact relay that works on Zigbee, Wi-Fi, or Matter.",
+      "verdict": "A 15 A dry-contact relay that works on Zigbee, Wi-Fi, or Matter, on Shelly's UL-certified listing.",
       "pros": [
         "Dry contacts",
         "Names Alexa, Google, SmartThings, and Home Assistant",
-        "1,211 reviews"
+        "Sold by Shelly USA, 1K+ bought last month"
       ],
       "cons": [
         "No power metering",
-        "4.4 stars",
+        "Only 18 reviews on this UL listing",
         "Neutral requirement isn't stated"
       ]
     },
@@ -315,7 +315,7 @@
       "cons": [
         "Aqara Zigbee hub required",
         "Neutral required",
-        "Only 115 reviews"
+        "Only 117 reviews"
       ]
     },
     {
@@ -378,7 +378,7 @@
       "pros": [
         "$16.90",
         "Names Zigbee2MQTT and Home Assistant",
-        "481 reviews"
+        "483 reviews"
       ],
       "cons": [
         "Low-voltage only",
@@ -387,37 +387,39 @@
       ]
     },
     {
-      "asin": "B0DBHLSZK1",
-      "brand": "Ururtm",
-      "model": "1-channel AC/DC dry contact relay",
+      "asin": "B0BYNRF8GV",
+      "brand": "SONOFF",
+      "model": "ZBMINIL2 no-neutral (2-pack)",
       "systems": [
         "home-assistant",
         "alexa",
-        "google-home"
+        "google-home",
+        "smartthings",
+        "hubitat",
+        "homey"
       ],
-      "systems_label": "Tuya Smart Life",
       "specs": {
-        "channels": "1",
-        "rating": "Dry contact, 0-250 V output",
-        "extras": "AC 110-240 V or DC 12-24 V input",
-        "neutral": "Needed on AC"
+        "channels": "1 each, 2 relays",
+        "rating": "Not stated in bullets",
+        "extras": "Works with rocker or push-button switches; Zigbee end device",
+        "neutral": "Not required"
       },
       "features": {
-        "no_neutral": false,
-        "dry_contact": true,
+        "no_neutral": true,
+        "dry_contact": false,
         "power_meter": false,
         "multi_channel": false
       },
-      "verdict": "A dry-contact relay that runs on mains or low voltage.",
+      "verdict": "The no-neutral option: two Zigbee relays that fit behind old switches with no neutral wire in the box.",
       "pros": [
-        "AC or DC input",
-        "Names Home Assistant (Zigbee2MQTT)",
-        "$15.10"
+        "No neutral wire needed",
+        "Two relays for $29.90",
+        "976 reviews, 200+ bought last month"
       ],
       "cons": [
-        "Only 16 reviews",
-        "Unknown brand",
-        "Tuya hub for the app"
+        "Zigbee end device, so it doesn't repeat signal",
+        "Load rating isn't in the bullets",
+        "Zigbee hub required"
       ]
     }
   ],
