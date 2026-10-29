@@ -75,7 +75,7 @@
       "asin": "B0GKFB3XCL",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$13.90 with a tamper alert and 200+ bought last month."
+      "why": "$13.90 with a tamper alert and 300+ bought last month."
     },
     {
       "asin": "B07D37VDM3",
@@ -118,7 +118,7 @@
         "Works with Echo (4th gen) and other Echo Zigbee hubs",
         "Lists Home Assistant, SmartThings, Hubitat, and Homey",
         "AAA batteries, rated up to 2 years",
-        "200+ bought in the past month"
+        "300+ bought in the past month"
       ],
       "cons": [
         "Bigger than coin-cell sensors",
@@ -198,7 +198,7 @@
       "pros": [
         "$13.90",
         "Tamper alert",
-        "200+ bought in the past month"
+        "300+ bought in the past month"
       ],
       "cons": [
         "4.1 stars",
@@ -209,7 +209,7 @@
       "image": "https://m.media-amazon.com/images/I/51rBgU89tUL._AC_SL1500_.jpg",
       "price": 13.9,
       "rating": 4.1,
-      "reviews_count": 310,
+      "reviews_count": 313,
       "bought": "300+ bought in past month"
     },
     {
@@ -241,15 +241,15 @@
         "50+ bought in the past month"
       ],
       "cons": [
-        "3.8 stars from 41 reviews",
+        "3.9 stars from 44 reviews",
         "Costs more than the PR2",
         "Battery type isn't listed"
       ],
       "name": "SONOFF SNZB-04PR1 Zigbee Door and Window Sensor",
       "image": "https://m.media-amazon.com/images/I/61W67d0nSLL._AC_SL1500_.jpg",
       "price": 15.9,
-      "rating": 3.8,
-      "reviews_count": 41,
+      "rating": 3.9,
+      "reviews_count": 44,
       "bought": null
     },
     {
@@ -274,7 +274,7 @@
       },
       "verdict": "The most-reviewed Zigbee contact sensor. Tiny, cheap, and built around Aqara's hub.",
       "pros": [
-        "4.4 stars from 6,125 reviews",
+        "4.4 stars from 6,097 reviews",
         "Very small",
         "400+ bought in the past month"
       ],
@@ -287,7 +287,7 @@
       "image": "https://m.media-amazon.com/images/I/61DUCYw4XQL._AC_SL1500_.jpg",
       "price": 16.99,
       "rating": 4.4,
-      "reviews_count": 6125,
+      "reviews_count": 6097,
       "bought": "400+ bought in past month"
     },
     {
@@ -360,14 +360,14 @@
       ],
       "cons": [
         "Only 3 left in stock at capture time",
-        "48 reviews",
+        "50 reviews",
         "$22.99"
       ],
       "name": "Shelly BLU Door/Window ZB Black, Zigbee & Bluetooth Operated Sensor",
       "image": "https://m.media-amazon.com/images/I/71P8DYMFeVL._AC_SL1500_.jpg",
       "price": 22.99,
       "rating": 4.5,
-      "reviews_count": 48,
+      "reviews_count": 50,
       "bought": "100+ bought in past month"
     },
     {
@@ -408,9 +408,9 @@
       "bought": null
     },
     {
-      "asin": "B0GTGNTD4H",
-      "brand": "PersianCat",
-      "model": "Zigbee door and window sensor",
+      "asin": "B095TPSQ3S",
+      "brand": "Aeotec",
+      "model": "SmartThings Multipurpose Sensor",
       "systems": [
         "home-assistant",
         "alexa",
@@ -419,33 +419,75 @@
         "homey"
       ],
       "specs": {
-        "hub": "Any Zigbee gateway",
-        "battery": "AAA",
-        "extras": "Open/close only",
-        "pack": "1 sensor"
+        "hub": "SmartThings or Aeotec hub; other Zigbee hubs per the listing",
+        "open_hub": true,
+        "battery": "Not stated in bullets",
+        "extras": "Vibration, tilt angle, temperature",
+        "pack": "1 sensor",
+        "tamper": false
       },
       "features": {
         "open_hub": true,
         "tamper": false,
-        "extra_sensors": false
+        "extra_sensors": true
       },
-      "verdict": "A basic AAA-powered Zigbee sensor. Very new, with almost no reviews.",
+      "verdict": "The SmartThings-era multipurpose sensor: open/close plus vibration, tilt, and temperature in one Zigbee unit.",
       "pros": [
-        "$11.99",
-        "AAA battery",
-        "Works with Zigbee gateways"
+        "Vibration, tilt angle, and temperature on top of open/close",
+        "4.5 stars from 366 reviews",
+        "Listing names Google, Alexa, and SmartThings; works with other Zigbee hubs"
       ],
       "cons": [
-        "Only 4 reviews",
-        "Thin listing with no compatibility details",
-        "Unknown brand"
+        "$38.99 for one sensor",
+        "Built for SmartThings first; other hubs may not expose every reading",
+        "Sold by the brand, not Amazon"
       ],
-      "name": "Zigbee Door and Window Sensor, Real-Time Open/Close Detection, White, Wireless Smart Home Security, Powered by AAA Battery",
-      "image": "https://m.media-amazon.com/images/I/41dfSuVm91L._AC_SL1500_.jpg",
-      "price": 11.99,
-      "rating": 5.0,
-      "reviews_count": 4,
-      "bought": null
+      "name": "Aeotec SmartThings Multipurpose Sensor - Zigbee - Door/Window & Temperature Sensor, Perfect with Aeotec Smart Home Hub",
+      "image": "https://m.media-amazon.com/images/I/51LxVWdZMnL._AC_SL1500_.jpg",
+      "price": 38.99,
+      "rating": 4.5,
+      "reviews_count": 366,
+      "bought": "50+ bought in past month"
+    },
+    {
+      "asin": "B09TP7VMKB",
+      "brand": "Aqara",
+      "model": "Door and Window Sensor (3-pack)",
+      "systems": [
+        "apple-home",
+        "google-home",
+        "alexa"
+      ],
+      "specs": {
+        "hub": "Aqara hub",
+        "open_hub": false,
+        "battery": "Not listed",
+        "extras": "Open/close only",
+        "pack": "3 sensors",
+        "tamper": false
+      },
+      "features": {
+        "open_hub": false,
+        "tamper": false,
+        "extra_sensors": false
+      },
+      "verdict": "Three of the Aqara sensors for $42.74, about $14 each, if you already run an Aqara hub.",
+      "pros": [
+        "About $14 per sensor",
+        "4.3 stars from 1,660 reviews, 1K+ bought in the past month",
+        "Apple Home and Alexa through the Aqara hub"
+      ],
+      "cons": [
+        "Aqara hub only; no SmartThings",
+        "Sold by the brand, not Amazon",
+        "Each sensor needs a flat surface for the adhesive"
+      ],
+      "name": "Aqara Zigbee Door and Window Sensor 3 Pack, Wireless Mini Contact Sensor",
+      "image": "https://m.media-amazon.com/images/I/61UA89xOXjL._AC_SL1500_.jpg",
+      "price": 42.74,
+      "rating": 4.3,
+      "reviews_count": 1660,
+      "bought": "1K+ bought in past month"
     }
   ],
   "avoid": [
