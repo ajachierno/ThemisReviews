@@ -57,7 +57,7 @@
       "asin": "B0H11D2TS9",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 900+ bought last month, for $49.99."
+      "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 800+ bought last month, for $49.99."
     },
     {
       "asin": "B0FKBG81PQ",
@@ -102,18 +102,18 @@
         "Adjusts to rain, light, temperature, and humidity",
         "Brass inlets, IP67",
         "Gateway reaches 1,640 ft.",
-        "900+ bought in the past month"
+        "800+ bought in the past month"
       ],
       "cons": [
         "One outlet",
-        "Only 129 reviews",
+        "Only 130 reviews",
         "Voice assistants aren't named"
       ],
       "name": "GoveeLife H5901 Smart WiFi Sprinkler Timer with Gateway, 1 Water Outlet",
       "image": "https://m.media-amazon.com/images/I/716umfubrAL._AC_SL1500_.jpg",
       "price": 49.99,
       "rating": 4.2,
-      "reviews_count": 129,
+      "reviews_count": 130,
       "bought": "800+ bought in past month"
     },
     {
@@ -143,51 +143,93 @@
       ],
       "cons": [
         "Only 63 reviews",
-        "Only 11 left at capture time",
-        "$119.99"
+        "$95.99"
       ],
       "name": "RAINPOINT 2 Zone WiFi Water Timer for Garden Hose, Sprinkler Hose Timer",
       "image": "https://m.media-amazon.com/images/I/61AOfv2CJfL._AC_SL1500_.jpg",
-      "price": 119.99,
+      "price": 95.99,
       "rating": 4.9,
       "reviews_count": 63,
       "bought": "100+ bought in past month"
     },
     {
-      "asin": "B0GDQFJ9DB",
+      "asin": "B09PNND4ZQ",
       "brand": "RAINPOINT",
-      "model": "2-zone brass (gateway not included)",
-      "systems": [],
+      "model": "2-zone Wi-Fi timer with hub",
+      "systems": [
+        "alexa"
+      ],
       "systems_label": "RainPoint app",
       "specs": {
         "zones": "2",
-        "connection": "Bluetooth; Wi-Fi through a RainPoint gateway sold separately",
-        "inlet": "Brass",
-        "extras": "Misting and cycle-and-soak modes"
+        "connection": "Wi-Fi hub included (runs up to 4 timers)",
+        "inlet": "Not stated in bullets",
+        "extras": "Flow meter, rain delay, hub doubles as a smart plug"
       },
       "features": {
         "weather": true,
         "multi_zone": true,
-        "brass": true,
-        "flow_meter": false
+        "brass": false,
+        "flow_meter": true
       },
-      "verdict": "A two-zone brass timer with plant-specific watering plans. It pairs over Bluetooth; Wi-Fi needs a separate RainPoint gateway.",
+      "verdict": "A two-zone RainPoint timer with the Wi-Fi hub in the box and a flow meter for water-use reports.",
       "pros": [
-        "Two independent zones",
-        "Three watering modes",
-        "Plant-based schedule suggestions"
+        "Hub included, runs up to 4 timers",
+        "Built-in flow meter",
+        "Alexa voice control",
+        "952 reviews"
       ],
       "cons": [
-        "Gateway not included, so Wi-Fi control costs extra",
-        "Only 18 reviews on this listing",
-        "4.0 stars"
+        "$89.99",
+        "Inlet material isn't in the bullets",
+        "Sold by a third party"
       ],
-      "name": "RAINPOINT Smart Water Timer, Smart Hose Timer 2 Outlet with Brass Inlet & Outlet (Not Gateway), Wireless Sprinkler Controller with Rain Delay, Automatic Irrigation System for Lawns and Yard",
-      "image": "https://m.media-amazon.com/images/I/61Hvty4TUrL._AC_SL1500_.jpg",
-      "price": 79.99,
-      "rating": 4.0,
-      "reviews_count": 18,
+      "name": "RAINPOINT WiFi Hose Timer, Smart Water Timer for Garden, Drip Irrigation Controller System with Wi-Fi Hub Automatic Manual Watering, Alexa APP Voice Control",
+      "image": "https://m.media-amazon.com/images/I/719V+K77g3L._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.3,
+      "reviews_count": 952,
       "bought": null
+    },
+    {
+      "asin": "B0BWXZWJ1C",
+      "brand": "Rachio",
+      "model": "Smart Hose Timer (1 valve + hub)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Rachio app, IFTTT",
+      "specs": {
+        "zones": "1 valve (hub runs up to 8)",
+        "connection": "Wi-Fi hub included (2.4 GHz)",
+        "inlet": "Not stated in bullets",
+        "extras": "Rain skips, flow alerts, quick-run button"
+      },
+      "features": {
+        "weather": true,
+        "multi_zone": false,
+        "brass": false,
+        "flow_meter": false
+      },
+      "verdict": "Rachio's hose timer, with the hub included and room for eight valves on it.",
+      "pros": [
+        "Hub included, up to 8 valves",
+        "Rain skips from the forecast",
+        "Alexa, Google Home, and IFTTT",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "$99.99 for one valve",
+        "4.0 stars",
+        "2.4 GHz Wi-Fi only"
+      ],
+      "name": "Rachio Smart Hose Timer: App-Controlled Faucet Timer. 1 Valve + 1 WiFi Hub",
+      "image": "https://m.media-amazon.com/images/I/71Lr-XOaZhL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.0,
+      "reviews_count": 1712,
+      "bought": "200+ bought in past month"
     },
     {
       "asin": "B0D3PVJMX8",
@@ -198,13 +240,13 @@
       "specs": {
         "zones": "1",
         "connection": "2.4 GHz Wi-Fi",
-        "inlet": "Not stated in bullets",
+        "inlet": "Brass",
         "extras": "Rain delay, soil sensor support"
       },
       "features": {
         "weather": true,
         "multi_zone": false,
-        "brass": false,
+        "brass": true,
         "flow_meter": false
       },
       "verdict": "A single-zone timer that can water by soil moisture with an add-on sensor.",
@@ -247,7 +289,7 @@
       "pros": [
         "Four outlets",
         "Weather and drought adjustments",
-        "2,081 reviews, sold by Amazon"
+        "2,089 reviews, sold by Amazon"
       ],
       "cons": [
         "4.0 stars",
@@ -258,8 +300,8 @@
       "image": "https://m.media-amazon.com/images/I/716XruIrPyL._AC_SL1500_.jpg",
       "price": 79.99,
       "rating": 4.0,
-      "reviews_count": 2081,
-      "bought": "800+ bought in past month"
+      "reviews_count": 2089,
+      "bought": "700+ bought in past month"
     },
     {
       "asin": "B09YFWNH9Y",
@@ -294,8 +336,8 @@
       "image": "https://m.media-amazon.com/images/I/71IA9Z4GymL._AC_SL1500_.jpg",
       "price": 36.1,
       "rating": 4.0,
-      "reviews_count": 2081,
-      "bought": "400+ bought in past month"
+      "reviews_count": 2089,
+      "bought": "300+ bought in past month"
     },
     {
       "asin": "B0FKBG81PQ",
@@ -336,7 +378,7 @@
       "price": 28.99,
       "rating": 4.4,
       "reviews_count": 62,
-      "bought": "100+ bought in past month"
+      "bought": "50+ bought in past month"
     },
     {
       "asin": "B0DFWHHN53",
