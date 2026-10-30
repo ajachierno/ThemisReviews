@@ -1,0 +1,350 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-blinds.html",
+ "json_url": "https://themisreviews.com/wifi-blinds.json",
+ "slug": "wifi-blinds",
+ "title": "The Best Wi-Fi Smart Blinds and Curtains",
+ "subtitle": "Motorized shades, blind kits, and curtain tracks with app and voice control, ranked.",
+ "intro": "We pulled the Wi-Fi smart blinds and curtain systems on Amazon and scored them on rating, review volume, and features. Several popular shades use a radio remote plus a Wi-Fi hub; the table shows which.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Blinds and shades",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "no_hub": 0.4,
+   "apple": 0.3,
+   "retrofit": 0.3
+  },
+  "reviews_ceiling": 1500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0BNHQJ95L",
+   "name": "SwitchBot Blind Tilt 3-pack + Hub Mini",
+   "price": 164.99,
+   "why": "Three solar Blind Tilts plus a Hub Mini, rated 4.4 stars by 823 buyers."
+  },
+  {
+   "label": "Best for Curtains",
+   "asin": "B0FX9BVZNW",
+   "name": "Remac M1 curtain track (66-114\")",
+   "price": 260.99,
+   "why": "An Apple Home certified Matter-over-Wi-Fi curtain track with no hub."
+  },
+  {
+   "label": "Best Budget Motor",
+   "asin": "B0CSFCCQC6",
+   "name": "Sortfle Wi-Fi tubular motor (1.5\")",
+   "price": 79.88,
+   "why": "A $79.88 Wi-Fi tube motor that needs no bridge."
+  }
+ ],
+ "systems_note": "SwitchBot Blind Tilt is Bluetooth; the included Hub Mini puts it on Wi-Fi. Smart Life (Tuya) devices work with Home Assistant's Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0BNHQJ95L",
+   "name": "SwitchBot Smart Electric Motorized Blinds Kit - 3Pack with 2.4G WiFi Remote Control, Solar Powered, Compatible with Alexa, Google Home and Siri, Light Sensing Control, Unlimited Group Control",
+   "brand": "SwitchBot",
+   "model": "Blind Tilt 3-pack + Hub Mini",
+   "price": 164.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 823,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The easiest way to automate the horizontal blinds you already own.",
+   "pros": [
+    "Hub included",
+    "Solar charging",
+    "823 reviews"
+   ],
+   "cons": [
+    "Tilt only, doesn't raise blinds",
+    "Bluetooth with a Wi-Fi hub",
+    "$164.99"
+   ],
+   "specs": {
+    "type": "Retrofit tilt motor for horizontal blinds",
+    "power": "Solar + battery",
+    "hub": "Hub Mini included"
+   },
+   "features": {
+    "no_hub": false,
+    "apple": true,
+    "retrofit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61AVUlEqhKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BNHQJ95L?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0BNHQJ95L"
+  },
+  {
+   "rank": 2,
+   "asin": "B0H49FSJR5",
+   "name": "M1 Pro Matter Smart Motorized Curtain Track Ceiling & Wall Mounted 66\"-114\"",
+   "brand": "Remac",
+   "model": "M1 Pro curtain track",
+   "price": 286.99,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 34,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The Pro version mounts on the ceiling or wall for patio doors and wide windows.",
+   "pros": [
+    "Ceiling or wall mount",
+    "4.9 stars",
+    "No cutting needed"
+   ],
+   "cons": [
+    "Only 34 reviews",
+    "$286.99",
+    "2.4 GHz Wi-Fi"
+   ],
+   "specs": {
+    "type": "Ceiling or wall curtain track",
+    "power": "Wired",
+    "hub": "None (Matter over Wi-Fi)"
+   },
+   "features": {
+    "no_hub": true,
+    "apple": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/91e45w5bLZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H49FSJR5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0H49FSJR5"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FX9BVZNW",
+   "name": "Remac M1 Motorized Smart Electric Curtain Track with Remote 66\"-114\"",
+   "brand": "Remac",
+   "model": "M1 curtain track (66-114\")",
+   "price": 260.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 44,
+   "score": 73,
+   "awards": [
+    "Best for Curtains"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A Matter curtain track that adds straight to Apple Home, Alexa, or Google.",
+   "pros": [
+    "Apple Home certified",
+    "No hub",
+    "Pull-to-start",
+    "Remote included"
+   ],
+   "cons": [
+    "$260.99",
+    "Only 44 reviews",
+    "Replaces your curtain rod"
+   ],
+   "specs": {
+    "type": "Motorized curtain track",
+    "power": "Wired",
+    "hub": "None (Matter over Wi-Fi)"
+   },
+   "features": {
+    "no_hub": true,
+    "apple": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71MaIsOOGHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FX9BVZNW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0FX9BVZNW"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CSFCCQC6",
+   "name": "Smart Blinds Motor | WiFi Tubular Motor for Motorized Roller Shade，Windows Shade，Roller Blinds, Suitable for 1-1/2\" (38mm) Diameter Tube - Only Motor",
+   "brand": "Sortfle",
+   "model": "Wi-Fi tubular motor (1.5\")",
+   "price": 79.88,
+   "currency": "USD",
+   "rating": 5.0,
+   "reviews_count": 9,
+   "score": 72,
+   "awards": [
+    "Best Budget Motor"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Wi-Fi roller motor that also takes a 433 MHz remote.",
+   "pros": [
+    "No bridge needed",
+    "433 MHz remote support",
+    "$79.88"
+   ],
+   "cons": [
+    "Only 9 reviews",
+    "1.5\" tubes only",
+    "Power source isn't in the bullets"
+   ],
+   "specs": {
+    "type": "Retrofit motor for 1.5\" tubes",
+    "power": "Not stated in bullets",
+    "hub": "None (built-in Wi-Fi)"
+   },
+   "features": {
+    "no_hub": true,
+    "apple": false,
+    "retrofit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51dKRacpbfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CSFCCQC6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0CSFCCQC6"
+  },
+  {
+   "rank": 5,
+   "asin": "B0H6ZQ6WVN",
+   "name": "Aura SmartShade Motor for Beaded-Chain Roller Shades, WiFi Dongle Included",
+   "brand": "Aura",
+   "model": "SmartShade beaded-chain motor",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 29,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Motorizes beaded-chain roller and zebra shades without replacing them.",
+   "pros": [
+    "Keeps your existing shades",
+    "No hub or subscription",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "3.6 stars from 29 reviews",
+    "Shades up to 6.6 lb",
+    "Dongle must stay plugged in"
+   ],
+   "specs": {
+    "type": "Retrofit motor for beaded-chain shades",
+    "power": "Not stated in bullets",
+    "hub": "None (Wi-Fi dongle included)"
+   },
+   "features": {
+    "no_hub": true,
+    "apple": false,
+    "retrofit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71euYNisPwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H6ZQ6WVN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0H6ZQ6WVN"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Retrofit robot or new motorized shade?",
+   "a": "Curtain robots and blind tilters attach to what you already have and install in minutes. Motorized shades replace your blinds and look cleaner, but you have to measure and order to size."
+  },
+  {
+   "q": "How are they powered?",
+   "a": "Most use a rechargeable battery charged over USB-C or a small solar panel. Expect weeks to months per charge depending on use."
+  },
+  {
+   "q": "Do I need a hub?",
+   "a": "Bluetooth robots need a hub for remote control and automations. Zigbee motors need a Zigbee hub. Wi-Fi models connect directly."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 5 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

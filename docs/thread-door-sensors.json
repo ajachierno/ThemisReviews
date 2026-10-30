@@ -1,0 +1,322 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/thread-door-sensors.html",
+ "json_url": "https://themisreviews.com/thread-door-sensors.json",
+ "slug": "thread-door-sensors",
+ "title": "The Best Thread Door and Window Sensors",
+ "subtitle": "Thread contact sensors that work through Matter with every major smart home system, ranked.",
+ "intro": "We pulled the door and window sensors on Amazon whose listings name Thread and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "thread",
+  "name": "Thread",
+  "url": "https://themisreviews.com/#thread"
+ },
+ "product_type": "Door and window sensors",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "matter": 0.3,
+   "dual": 0.2,
+   "extra": 0.25,
+   "pack": 0.25
+  },
+  "reviews_ceiling": 2000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0BZSY26WP",
+   "name": "Eve Door & Window (Matter)",
+   "price": 31.8,
+   "why": "Eve's Matter-over-Thread contact sensor, local-only, rated 4.1 stars by 149 buyers, for $31.80."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0BTL8B72D",
+   "name": "Aqara Door and Window Sensor P2",
+   "price": 27.99,
+   "why": "Aqara's P2 joins Matter over Thread directly, no Aqara hub needed, for $27.99."
+  },
+  {
+   "label": "Best 2-in-1",
+   "asin": "B0G6ZH853W",
+   "name": "Aqara Multi-State Sensor P100",
+   "price": 26.99,
+   "why": "Detects doors opening and vibration, on Thread or Zigbee."
+  }
+ ],
+ "systems_note": "Every sensor here runs on Thread and, except Onvis, joins your system through Matter. You need a Thread border router such as a recent Apple TV, HomePod, Nest Hub, or Echo.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0BTL8B72D",
+   "name": "Aqara Door and Window Sensor P2, Contact Sensor with Remote Alarm",
+   "brand": "Aqara",
+   "model": "Door and Window Sensor P2",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 1137,
+   "score": 68,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Matter",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Aqara's Thread sensor, which needs no Aqara hub.",
+   "pros": [
+    "$27.99",
+    "1,137 reviews",
+    "No Aqara hub needed"
+   ],
+   "cons": [
+    "3.6 stars",
+    "Contact only",
+    "Aqara app features limited without a hub"
+   ],
+   "specs": {
+    "type": "Contact sensor",
+    "sensing": "Open and closed",
+    "power": "Not stated in bullets",
+    "extras": "Remote alarm through your platform"
+   },
+   "features": {
+    "matter": true,
+    "dual": false,
+    "extra": false,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/612VSU7yrgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BTL8B72D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-door-sensors.html#B0BTL8B72D"
+  },
+  {
+   "rank": 2,
+   "asin": "B0G6ZH853W",
+   "name": "Aqara Multi-State Sensor P100, Door and Window & Vibration Sensor, White",
+   "brand": "Aqara",
+   "model": "Multi-State Sensor P100",
+   "price": 26.99,
+   "currency": "USD",
+   "rating": 3.0,
+   "reviews_count": 124,
+   "score": 65,
+   "awards": [
+    "Best 2-in-1"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Aqara Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "One sensor for doors, windows, and knocks or tilts on objects like a mailbox or safe.",
+   "pros": [
+    "Door and vibration in one",
+    "Thread or Zigbee",
+    "$26.99"
+   ],
+   "cons": [
+    "3.0 stars",
+    "Only 124 reviews",
+    "Vibration tuning takes trial and error"
+   ],
+   "specs": {
+    "type": "Contact and vibration sensor",
+    "sensing": "Open and closed, vibration",
+    "power": "Not stated in bullets",
+    "extras": "Thread or Zigbee"
+   },
+   "features": {
+    "matter": true,
+    "dual": true,
+    "extra": true,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61thJJpG-wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G6ZH853W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-door-sensors.html#B0G6ZH853W"
+  },
+  {
+   "rank": 3,
+   "asin": "B0BZSY26WP",
+   "name": "Eve Door & Window (Matter) – Smart Contact Sensor for Doors & Windows, Open/Closed State, Automatic Control of Accessories, Matter Over Thread, Apple Home, Alexa, Google Home, SmartThings",
+   "brand": "Eve",
+   "model": "Door & Window (Matter)",
+   "price": 31.8,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 149,
+   "score": 64,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Eve app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Eve's local-only Matter-over-Thread contact sensor, with no cloud account needed.",
+   "pros": [
+    "Matter over Thread",
+    "4.1 stars",
+    "Works with all major platforms"
+   ],
+   "cons": [
+    "Sold by a third party",
+    "Contact only",
+    "$31.80"
+   ],
+   "specs": {
+    "type": "Contact sensor",
+    "sensing": "Open and closed",
+    "power": "Not stated in bullets",
+    "extras": "Works with all major platforms"
+   },
+   "features": {
+    "matter": true,
+    "dual": false,
+    "extra": false,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/31ki+DeJ6gL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BZSY26WP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-door-sensors.html#B0BZSY26WP"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DR3C9D17",
+   "name": "arre Contact Sensor with Matter & Thread Support, Control Smart Home Accessories, Works with Apple Home / Google Home / Samsung SmartThings, Door / Garage Sensor",
+   "brand": "arre",
+   "model": "Contact Sensor (Matter over Thread)",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 3.0,
+   "reviews_count": 20,
+   "score": 47,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Matter",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Matter-certified contact sensor from a smaller brand.",
+   "pros": [
+    "Matter certified",
+    "Works with SmartThings",
+    "Thread"
+   ],
+   "cons": [
+    "3.0 stars",
+    "Only 20 reviews",
+    "$29.99"
+   ],
+   "specs": {
+    "type": "Contact sensor",
+    "sensing": "Open and closed",
+    "power": "Not stated in bullets",
+    "extras": "Matter certified"
+   },
+   "features": {
+    "matter": true,
+    "dual": false,
+    "extra": false,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61znKwDtfdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DR3C9D17?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-door-sensors.html#B0DR3C9D17"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What do Thread devices need?",
+   "a": "A Thread border router, which is built into recent Apple TVs and HomePods, Nest Hubs, some Echo models, and SmartThings and Aqara hubs. With Matter, the device then shows up in Apple Home, Google Home, Alexa, SmartThings, or Home Assistant."
+  },
+  {
+   "q": "How do door and window sensors work?",
+   "a": "A magnet goes on the door or window and the sensor goes on the frame. When the two separate, the sensor reports open. Mount them within the gap the listing specifies, usually under an inch."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  },
+  {
+   "q": "Can I use these as a security system?",
+   "a": "They can trigger alerts and sirens through your smart home system, but they aren't a monitored alarm. For insurance discounts or police dispatch you need a professionally monitored system."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Dropped Eve Door & Window (Matter) 3-pack.",
+    "New Best Overall: Eve Door & Window (Matter).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 5 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

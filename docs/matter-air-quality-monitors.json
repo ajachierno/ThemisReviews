@@ -1,0 +1,192 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-air-quality-monitors.html",
+ "json_url": "https://themisreviews.com/matter-air-quality-monitors.json",
+ "slug": "matter-air-quality-monitors",
+ "title": "The Best Matter Air Quality Monitors",
+ "subtitle": "Air quality monitors that report to Apple Home, Google Home, and other Matter systems, ranked.",
+ "intro": "We pulled the air quality monitors on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Air quality monitors",
+ "data_captured": "2026-10-11",
+ "updated": "2026-10-11",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "co2": 0.4,
+   "pm": 0.3,
+   "display": 0.3
+  },
+  "reviews_ceiling": 2000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best for CO2",
+   "asin": "B0G2WDPB29",
+   "name": "SONOFF AirGuard CO2 SAWF-08P",
+   "price": 49.9,
+   "why": "SONOFF's AirGuard uses a real NDIR CO2 sensor and reports to every Matter system, rated 4.4 stars."
+  },
+  {
+   "label": "Best for Particles",
+   "asin": "B0G2W4FVQF",
+   "name": "SONOFF SAWF-07P",
+   "price": 39.9,
+   "why": "PM2.5 and PM10 on a 3.73-inch screen with Matter for $39.90."
+  }
+ ],
+ "systems_note": "Only listings that name Matter support are included. Many monitors mention \"particulate matter,\" which isn't the same thing.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0G2WDPB29",
+   "name": "SONOFF AirGuard CO2 SAWF-08P, Smart Indoor Air Quality Monitor, Matter Compatible, 2.4GHz WiFi, CO2 Monitor for CO2/Temp/Humidity, Real-Time Display & Notification, for Bedroom, Nusery Room",
+   "brand": "SONOFF",
+   "model": "AirGuard CO2 SAWF-08P",
+   "price": 49.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 173,
+   "score": 77,
+   "awards": [
+    "Best for CO2"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "eWeLink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A real NDIR CO2 meter that shows up in Apple Home, Google Home, and Home Assistant.",
+   "pros": [
+    "NDIR CO2 sensor",
+    "Matter over Wi-Fi",
+    "12 months of data"
+   ],
+   "cons": [
+    "No particle sensor",
+    "2.4 GHz Wi-Fi only",
+    "eWeLink app for history"
+   ],
+   "specs": {
+    "measures": "CO2, temperature, humidity",
+    "display": "Combined display",
+    "sensor": "NDIR CO2, ±(50 ppm + 5%)",
+    "extras": "12 months of history, export"
+   },
+   "features": {
+    "co2": true,
+    "pm": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61qPR1dWs9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2WDPB29?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-air-quality-monitors.html#B0G2WDPB29"
+  },
+  {
+   "rank": 2,
+   "asin": "B0G2W4FVQF",
+   "name": "SONOFF SAWF-07P Smart Indoor Air Quality Monitor with PM2.5, PM10, Temperature & Humidity Sensor, Real-Time Display, Notification, Matter-Compatible, 2.4GHz WiFi, 3.73-inch Screen, for Bedroom, Nusery",
+   "brand": "SONOFF",
+   "model": "SAWF-07P",
+   "price": 39.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 194,
+   "score": 70,
+   "awards": [
+    "Best for Particles"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "eWeLink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A particle monitor for smoke and cooking, with Matter.",
+   "pros": [
+    "PM2.5 and PM10",
+    "Three alert types",
+    "$39.90"
+   ],
+   "cons": [
+    "No CO2 sensor",
+    "3.8 stars",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "measures": "PM2.5, PM10, temperature, humidity",
+    "display": "3.73 in screen",
+    "sensor": "PM2.5 ±10 μg/m³",
+    "extras": "Sound, LED, and app alerts"
+   },
+   "features": {
+    "co2": false,
+    "pm": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61IfpvfgoOL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2W4FVQF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-air-quality-monitors.html#B0G2W4FVQF"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Does Matter over Wi-Fi need a hub?",
+   "a": "Not a separate one, but you need a Matter controller such as an Apple TV, HomePod, Nest Hub, Echo, or SmartThings hub to add it to your system."
+  },
+  {
+   "q": "What should an air quality monitor measure?",
+   "a": "PM2.5 (fine particles from cooking, smoke, and wildfires), CO2 (a sign of stale air in closed rooms), VOCs (fumes from cleaners and new furniture), plus temperature and humidity. Radon matters in basements in many regions."
+  },
+  {
+   "q": "Is a CO2 reading reliable?",
+   "a": "Only from an NDIR CO2 sensor. Cheaper monitors estimate CO2 from VOC readings, which isn't the same thing. Look for NDIR in the listing if CO2 is the main reason you're buying."
+  },
+  {
+   "q": "Is an air quality monitor a carbon monoxide alarm?",
+   "a": "Usually not. Unless it's UL 2034 listed with a loud alarm, keep a real CO alarm too."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-11",
+   "notes": [
+    "Published with 2 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

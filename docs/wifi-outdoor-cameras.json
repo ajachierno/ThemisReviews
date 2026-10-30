@@ -1,0 +1,596 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html",
+ "json_url": "https://themisreviews.com/wifi-outdoor-cameras.json",
+ "slug": "wifi-outdoor-cameras",
+ "title": "The 10 Best Outdoor Wi-Fi Security Cameras",
+ "subtitle": "Weatherproof Wi-Fi cameras, battery and wired, ranked from live Amazon data.",
+ "intro": "We pulled the best-selling outdoor Wi-Fi cameras on Amazon and scored them on rating, review volume, and features: local storage, solar or battery power, and resolution.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Outdoor cameras",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "local_storage": 0.35,
+   "high_res": 0.35,
+   "wire_free": 0.3
+  },
+  "reviews_ceiling": 65000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0BW2CYQZJ",
+   "name": "Tapo C500",
+   "price": 39.99,
+   "why": "A wired pan-and-tilt outdoor camera with microSD recording, Alexa and Google, and 4.5 stars, for $39.99."
+  },
+  {
+   "label": "Most Popular",
+   "asin": "B0C5QRZ47P",
+   "name": "Ring Outdoor Cam (Stick Up Cam)",
+   "price": 79.99,
+   "why": "65,898 reviews and 10K+ bought last month, battery or wired, and it fits a Ring setup."
+  },
+  {
+   "label": "Best Solar",
+   "asin": "B0CCYP6KFM",
+   "name": "eufy SoloCam S340",
+   "price": 159.99,
+   "why": "3K dual-lens with a built-in solar panel and free local storage, 6K+ bought last month."
+  },
+  {
+   "label": "Best Image",
+   "asin": "B0DCZGNQXB",
+   "name": "Reolink Lumus Pro 4K",
+   "price": 99.99,
+   "why": "4K with local microSD recording and no subscription needed."
+  }
+ ],
+ "systems_note": "Ring and Reolink cameras also have official Home Assistant integrations.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0CCYP6KFM",
+   "name": "eufy Security SoloCam S340, 3K Dual-Lens Solar Security Camera",
+   "brand": "eufy",
+   "model": "SoloCam S340",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 7137,
+   "score": 86,
+   "awards": [
+    "Best Solar"
+   ],
+   "works_with": [],
+   "works_with_note": "eufy app (no assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "8K+ bought in past month",
+   "verdict": "A solar dual-lens camera that pans and zooms, with free local storage.",
+   "pros": [
+    "Built-in solar panel",
+    "3K dual lens with telephoto",
+    "Free local storage",
+    "6K+ bought in the past month"
+   ],
+   "cons": [
+    "$159.99",
+    "The listing doesn't name voice assistants",
+    "4.1 stars"
+   ],
+   "specs": {
+    "resolution": "3K dual-lens",
+    "power": "Solar + battery",
+    "storage": "Local, free",
+    "extras": "Pan, telephoto lens",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Y48+M0NOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CCYP6KFM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0CCYP6KFM"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CHSK6M21",
+   "name": "Tapo MagCam 2K+ Security Camera Wireless Outdoor, Battery Powered, C425",
+   "brand": "Tapo",
+   "model": "MagCam C425",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3869,
+   "score": 85,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A magnetic, battery-powered 2K camera that sticks anywhere.",
+   "pros": [
+    "Magnetic mount, battery powered",
+    "2K, IP66",
+    "Alexa and Google",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$59.99",
+    "4.2 stars",
+    "Battery needs recharging without the solar panel"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Battery (solar optional)",
+    "storage": "Local or cloud",
+    "extras": "IP66, magnetic mount",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51NidkzbQqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CHSK6M21?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0CHSK6M21"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FP2FKZ5Z",
+   "name": "eufy Security SoloCam E42, 4K Solar Security Camera, AI Facial Recognition",
+   "brand": "eufy",
+   "model": "SoloCam E42",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1370,
+   "score": 82,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "eufy app (no assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "4K solar camera with on-device facial recognition and local storage.",
+   "pros": [
+    "4K with solar",
+    "AI facial recognition",
+    "Local storage, 1K+ bought in the past month"
+   ],
+   "cons": [
+    "$129.99",
+    "The listing doesn't name voice assistants",
+    "4.2 stars"
+   ],
+   "specs": {
+    "resolution": "4K",
+    "power": "Solar + battery",
+    "storage": "Local (microSD or HomeBase)",
+    "extras": "AI facial recognition",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61lwK6sNA+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FP2FKZ5Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0FP2FKZ5Z"
+  },
+  {
+   "rank": 4,
+   "asin": "B09QPJDF78",
+   "name": "DEKCO 2K Outdoor WiFi Security Camera, Plug-in Pan-Tilt Dome, 2-Cam-Kit",
+   "brand": "DEKCO",
+   "model": "2K pan-tilt dome (2-pack)",
+   "price": 75.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 6618,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Brand app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Two plug-in 2K pan-and-tilt domes for under $80.",
+   "pros": [
+    "Two cameras",
+    "2K pan and tilt",
+    "IP66, SD card recording"
+   ],
+   "cons": [
+    "Needs outlets",
+    "4.3 stars",
+    "Voice assistants aren't named"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Plug-in",
+    "storage": "SD card or cloud",
+    "extras": "Pan and tilt, IP66",
+    "pack": "2 cameras"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dpndIuDHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09QPJDF78?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B09QPJDF78"
+  },
+  {
+   "rank": 5,
+   "asin": "B0C5QRZ47P",
+   "name": "Ring Outdoor Cam (Stick Up Cam), Weather-Resistant Home or Business HD Security Camera, Live View, Color Night Vision, Two-Way Talk, Motion Alerts, Works with Alexa, White",
+   "brand": "Ring",
+   "model": "Outdoor Cam (Stick Up Cam)",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 65898,
+   "score": 78,
+   "awards": [
+    "Most Popular"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": false
+   },
+   "bought_last_month": "10K+ bought in past month",
+   "verdict": "The most popular outdoor camera, and the natural fit for Ring and Alexa homes.",
+   "pros": [
+    "65,898 reviews at 4.5 stars",
+    "Battery or wired",
+    "Works with Alexa and Ring Alarm",
+    "10K+ bought in the past month"
+   ],
+   "cons": [
+    "Recordings need a Ring subscription",
+    "No local storage",
+    "HD, not 2K"
+   ],
+   "specs": {
+    "resolution": "HD",
+    "power": "Battery or wired",
+    "storage": "Cloud (Ring subscription)",
+    "extras": "Weather resistant",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": false,
+    "high_res": false,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Cd-BeF68L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C5QRZ47P?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0C5QRZ47P"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BY8KN5CG",
+   "name": "SEHMUA Solar Security Cameras Wireless Outdoor, 2K 360° View Battery Powered Outdoor Camera, WiFi Home Security with Spotlight Color Night Vision, PIR Sensor",
+   "brand": "SEHMUA",
+   "model": "Solar 2K 360°",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 6910,
+   "score": 78,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Brand app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A cheap solar pan camera for driveways and yards.",
+   "pros": [
+    "Solar powered",
+    "360° view",
+    "$35.99"
+   ],
+   "cons": [
+    "Storage options aren't in the bullets",
+    "4.2 stars",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Solar + battery",
+    "storage": "Not listed",
+    "extras": "360° view, IP65",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": false,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71lOmkJ39RL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BY8KN5CG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BY8KN5CG"
+  },
+  {
+   "rank": 7,
+   "asin": "B0BWSPP9HH",
+   "name": "WYZE Cam Pan v3, Indoor/Outdoor Security Camera with 360° Pan/Tilt/Zoom",
+   "brand": "Wyze",
+   "model": "Cam Pan v3",
+   "price": 87.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 33543,
+   "score": 76,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Wyze app (no assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "An IP65 pan-tilt-zoom camera that works indoors or out, with microSD recording.",
+   "pros": [
+    "360° pan, tilt, and zoom",
+    "IP65 for indoor or outdoor use",
+    "33,543 reviews"
+   ],
+   "cons": [
+    "Some features need a Wyze subscription",
+    "1080p",
+    "$87.98 at capture time"
+   ],
+   "specs": {
+    "resolution": "1080p",
+    "power": "Wired",
+    "storage": "microSD or cloud",
+    "extras": "360° pan/tilt/zoom, IP65",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": false,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51twbQ6sXgL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BWSPP9HH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BWSPP9HH"
+  },
+  {
+   "rank": 8,
+   "asin": "B0F6CKH9BB",
+   "name": "Aqara 2K Indoor/Outdoor Security Camera G100, HomeKit Secure Video, White",
+   "brand": "Aqara",
+   "model": "Camera G100",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1812,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A cheap 2K indoor/outdoor camera with HomeKit Secure Video and RTSP.",
+   "pros": [
+    "HomeKit Secure Video",
+    "RTSP stream and Home Assistant support",
+    "IP65",
+    "$39.99"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Wired only",
+    "HomeKit Secure Video needs iCloud+"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Wired",
+    "storage": "microSD or HomeKit Secure Video",
+    "extras": "IP65, RTSP",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61vxhvTfpSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F6CKH9BB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0F6CKH9BB"
+  },
+  {
+   "rank": 9,
+   "asin": "B0BW2CYQZJ",
+   "name": "TP-Link Tapo 1080P Outdoor Wired Pan/Tilt Security Camera, C500",
+   "brand": "Tapo",
+   "model": "C500",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 7180,
+   "score": 73,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "The best value outdoor camera: wired, pan and tilt, local recording, and Alexa and Google.",
+   "pros": [
+    "360° pan and tilt",
+    "microSD recording",
+    "4.5 stars, 3K+ bought in the past month",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "1080p",
+    "Needs an outdoor outlet",
+    "Smart features may need Tapo Care"
+   ],
+   "specs": {
+    "resolution": "1080p",
+    "power": "Wired",
+    "storage": "microSD or cloud",
+    "extras": "Pan and tilt",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": false,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/619huP8pU6L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BW2CYQZJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BW2CYQZJ"
+  },
+  {
+   "rank": 10,
+   "asin": "B0DCZGNQXB",
+   "name": "REOLINK Lumus Pro 4K Outdoor Security Camera, Plug-in Power WiFi Camera",
+   "brand": "Reolink",
+   "model": "Lumus Pro 4K",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 299,
+   "score": 73,
+   "awards": [
+    "Best Image"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Sharp 4K with local recording and no subscription, from a brand Home Assistant users like.",
+   "pros": [
+    "4K",
+    "Free local microSD recording",
+    "Official Home Assistant integration",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Needs an outlet",
+    "$99.99",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "resolution": "4K",
+    "power": "Plug-in",
+    "storage": "microSD, free",
+    "extras": "Spotlight",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51oQsODZPiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DCZGNQXB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0DCZGNQXB"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Do I need a subscription?",
+   "a": "Many cameras store clips in the cloud only with a monthly plan. Others record to a microSD card or a base station for free. Check what the free tier includes before you buy several."
+  },
+  {
+   "q": "Battery or wired?",
+   "a": "Battery cameras go anywhere but sleep between events, so they can miss the first second of motion and need recharging. Wired cameras record continuously and react faster but need an outlet nearby."
+  },
+  {
+   "q": "2.4 GHz or 5 GHz Wi-Fi?",
+   "a": "Most cameras use 2.4 GHz, which reaches farther through walls. Some newer ones support 5 GHz for faster streaming close to the router."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

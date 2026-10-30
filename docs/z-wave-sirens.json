@@ -1,0 +1,237 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-sirens.html",
+ "json_url": "https://themisreviews.com/z-wave-sirens.json",
+ "slug": "z-wave-sirens",
+ "title": "The Best Z-Wave Sirens",
+ "subtitle": "Z-Wave sirens and chimes for DIY alarms and alerts, ranked.",
+ "intro": "We pulled the Z-Wave sirens on Amazon and scored them on rating, review volume, and features: volume, selectable tones, and plug-in power that repeats the mesh.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Sirens",
+ "data_captured": "2026-10-10",
+ "updated": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "loud": 0.3,
+   "strobe": 0.25,
+   "custom": 0.25,
+   "lr": 0.2
+  },
+  "reviews_ceiling": 1000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0G21S2TF9",
+   "name": "Zooz ZSE50 800LR Siren & Chime",
+   "price": 47.95,
+   "why": "An 800 Series Long Range siren and chime that plays your own MP3s, rated 4.3 stars."
+  },
+  {
+   "label": "Loudest",
+   "asin": "B07P8ZRWQM",
+   "name": "Aeotec Siren 6",
+   "price": 79.99,
+   "why": "110 dB with a 1,000-lumen strobe, for a real alarm."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B07P8ZRWQM",
+   "name": "Aeotec Siren 6, Z-Wave Plus S2 Enabled Zwave Siren Safety Speaker, Wall-Mounted Sound & Light Security Intruder Zwave Alarm with Backup Battery, 110dB",
+   "brand": "Aeotec",
+   "model": "Siren 6",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 380,
+   "score": 70,
+   "awards": [
+    "Loudest"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The alarm-grade option: 110 dB plus a bright strobe.",
+   "pros": [
+    "110 dB",
+    "1,000-lumen strobe",
+    "Works as a doorbell with Aeotec buttons"
+   ],
+   "cons": [
+    "3.4 stars",
+    "$79.99",
+    "Older Z-Wave Plus chip"
+   ],
+   "specs": {
+    "volume": "80-110 dB",
+    "sounds": "30 tones",
+    "power": "Wall-mounted, 4-hour backup battery",
+    "series": "Z-Wave Plus S2"
+   },
+   "features": {
+    "loud": true,
+    "strobe": true,
+    "custom": false,
+    "lr": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71gZyFTL-mL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07P8ZRWQM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-sirens.html#B07P8ZRWQM"
+  },
+  {
+   "rank": 2,
+   "asin": "B0G21S2TF9",
+   "name": "Zooz Z-Wave Long Range Smart Siren & Chime ZSE50 800LR (Z-Wave Hub Required) | Works with Z-Box, Home Assistant, Hubitat, and HomeSeer",
+   "brand": "Zooz",
+   "model": "ZSE50 800LR Siren & Chime",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 42,
+   "score": 66,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best Z-Wave chime: upload any sound, and it keeps working through power cuts.",
+   "pros": [
+    "Upload your own sounds",
+    "Backup battery",
+    "800 Series Long Range",
+    "Doesn't cover the second outlet"
+   ],
+   "cons": [
+    "90 dB, quieter than the others",
+    "Not supported by SmartThings, per the listing",
+    "Only 42 reviews"
+   ],
+   "specs": {
+    "volume": "Up to 90 dB",
+    "sounds": "Preloaded plus your own MP3/WAV",
+    "power": "Plug-in with backup battery",
+    "series": "800 Series, Long Range"
+   },
+   "features": {
+    "loud": false,
+    "strobe": false,
+    "custom": true,
+    "lr": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41beVuBk9nL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G21S2TF9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-sirens.html#B0G21S2TF9"
+  },
+  {
+   "rank": 3,
+   "asin": "B099CS76K3",
+   "name": "Ecolink Z-Wave 700 Chime + Siren, Z-Wave Plus S2 Enabled, with Battery Backup, Security Intruder (ISZW7-ECO)",
+   "brand": "Ecolink",
+   "model": "Z-Wave 700 Chime + Siren (ISZW7-ECO)",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 3.3,
+   "reviews_count": 68,
+   "score": 62,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A loud siren that also plays custom chimes from an SD card.",
+   "pros": [
+    "105 dB",
+    "Custom sounds via SD card",
+    "Battery backup"
+   ],
+   "cons": [
+    "3.3 stars",
+    "Only 68 reviews",
+    "SmartThings needs a device handler"
+   ],
+   "specs": {
+    "volume": "105 dB",
+    "sounds": "10 sirens, 20 chimes, custom via SD card",
+    "power": "Plug-in with battery backup",
+    "series": "700 Series"
+   },
+   "features": {
+    "loud": true,
+    "strobe": false,
+    "custom": true,
+    "lr": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61s0-usRA8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B099CS76K3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-sirens.html#B099CS76K3"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Why add a smart siren?",
+   "a": "A siren turns your sensors into an alarm: a door opening at night, a leak, or smoke can sound it, without a monitored alarm system. Many also chime softly for doors or announce events."
+  },
+  {
+   "q": "How loud is loud enough?",
+   "a": "Around 100-110 dB indoors is plenty to wake a house and scare off an intruder. Several models let you pick quieter chimes for everyday alerts."
+  },
+  {
+   "q": "Battery or plug-in?",
+   "a": "Plug-in sirens also act as mesh repeaters, which strengthens the network. Battery models can go anywhere but don't repeat."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 3 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

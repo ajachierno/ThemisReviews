@@ -1,0 +1,609 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-ir-remotes.html",
+ "json_url": "https://themisreviews.com/wifi-ir-remotes.json",
+ "slug": "wifi-ir-remotes",
+ "title": "The 10 Best Smart IR Blasters and Universal Remotes",
+ "subtitle": "Wi-Fi IR blasters that bring TVs, ACs, and fans into your smart home, ranked.",
+ "intro": "We pulled the Wi-Fi IR blasters and universal remote hubs on Amazon and scored them on rating, review volume, and features: RF support, temperature sensors, and Matter.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "IR blasters and remotes",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "matter": 0.3,
+   "rf": 0.2,
+   "local_ha": 0.25,
+   "sensor": 0.25
+  },
+  "reviews_ceiling": 20000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0BFWH2WD8",
+   "name": "SwitchBot Hub Mini",
+   "price": 36.1,
+   "why": "Learns any remote in 5 seconds and doubles as the hub for SwitchBot gear, with 55,812 reviews."
+  },
+  {
+   "label": "Best for Apple Home",
+   "asin": "B0FNXCFN6J",
+   "name": "Tapo H110 IR & IoT Hub",
+   "price": 29.99,
+   "why": "A Matter-certified IR hub, so your TV and AC show up in Apple Home, Alexa, and Google."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B07ZSF46BX",
+   "name": "BroadLink RM4 mini",
+   "price": 25.99,
+   "why": "BroadLink's RM4 mini runs locally in Home Assistant, for $25.99."
+  },
+  {
+   "label": "Best IR + RF",
+   "asin": "B0872P4HX7",
+   "name": "BroadLink RM4 Pro",
+   "price": 49.99,
+   "why": "Controls 433 MHz RF devices like fans and shades as well as IR."
+  }
+ ],
+ "systems_note": "BroadLink blasters have an official Home Assistant integration that runs locally. Smart Life (Tuya) blasters work with Home Assistant's Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0872P4HX7",
+   "name": "Broadlink Rm4 Pro Universal Remote with Sensor Cable,RF/IR Smart Remote",
+   "brand": "BroadLink",
+   "model": "RM4 Pro",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 3375,
+   "score": 78,
+   "awards": [
+    "Best IR + RF"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Adds RF, so it can also run RF ceiling fans, shades, and outlets.",
+   "pros": [
+    "IR and 433 MHz RF",
+    "Sensor cable included",
+    "3,375 reviews"
+   ],
+   "cons": [
+    "No rolling-code RF (garage doors)",
+    "4.0 stars",
+    "$49.99"
+   ],
+   "specs": {
+    "signals": "IR + 433 MHz RF (fixed code)",
+    "extras": "Sensor cable",
+    "app": "BroadLink"
+   },
+   "features": {
+    "matter": false,
+    "rf": true,
+    "local_ha": true,
+    "sensor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610kpY5U+VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0872P4HX7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B0872P4HX7"
+  },
+  {
+   "rank": 2,
+   "asin": "B0872PPSGM",
+   "name": "BroadLink RM4mini IR Smart Home Hub AC Univeral Remote with Sensor Cable",
+   "brand": "BroadLink",
+   "model": "RM4 mini with sensor cable",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3589,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The RM4 mini plus a sensor cable, handy for running an AC by room temperature.",
+   "pros": [
+    "Temperature and humidity cable",
+    "3,589 reviews",
+    "Local Home Assistant integration"
+   ],
+   "cons": [
+    "$29.99",
+    "IR only",
+    "Needs line of sight"
+   ],
+   "specs": {
+    "signals": "IR, 50,000+ devices",
+    "extras": "Temperature and humidity sensor cable",
+    "app": "BroadLink"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": true,
+    "sensor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61BbWXPaHGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0872PPSGM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B0872PPSGM"
+  },
+  {
+   "rank": 3,
+   "asin": "B07ZSF46BX",
+   "name": "BroadLink RM4 Mini IR Universal Remote Control (2.4 GHz Wi-Fi Only), Smart Home Automation Wi-Fi Infrared Blaster for TV, AC, STB Audio, Works with Alexa, Google Home, IFTTT",
+   "brand": "BroadLink",
+   "model": "RM4 mini",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3268,
+   "score": 69,
+   "awards": [
+    "Best for Home Assistant"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The Home Assistant favorite: cheap, local, and learns any IR remote.",
+   "pros": [
+    "Local Home Assistant integration",
+    "3,268 reviews",
+    "$25.99 from BroadLink"
+   ],
+   "cons": [
+    "IR only",
+    "2.4 GHz Wi-Fi only",
+    "4.2 stars"
+   ],
+   "specs": {
+    "signals": "IR, 50,000+ devices",
+    "extras": "Preloaded library plus learning",
+    "app": "BroadLink"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": true,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/413YBA12TNL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07ZSF46BX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B07ZSF46BX"
+  },
+  {
+   "rank": 4,
+   "asin": "B0BFWH2WD8",
+   "name": "SwitchBot Hub Mini Smart Remote - IR Universal Remote, WiFi IR Blaster for TV, Air Conditioner, Compatible with Alexa, Google Home, Link SwitchBot to Wi-Fi (Support 2.4GHz)",
+   "brand": "SwitchBot",
+   "model": "Hub Mini",
+   "price": 36.1,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 55812,
+   "score": 68,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The most-reviewed IR blaster, and it brings SwitchBot curtains and bots online too.",
+   "pros": [
+    "55,812 reviews",
+    "Learns a remote in 5 seconds",
+    "Bridges SwitchBot Bluetooth devices"
+   ],
+   "cons": [
+    "4.2 stars",
+    "$36.10",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR",
+    "extras": "Hub for SwitchBot Bluetooth devices",
+    "app": "SwitchBot"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": false,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71czIpvBx6L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BFWH2WD8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B0BFWH2WD8"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FNXCFN6J",
+   "name": "Tapo Smart IR & IoT Hub w/ Chime, Matter-Certified, H110, Universal Remote",
+   "brand": "Tapo",
+   "model": "H110 IR & IoT Hub",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 181,
+   "score": 67,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A Matter IR hub with a built-in chime that also runs Tapo sensors.",
+   "pros": [
+    "Matter certified",
+    "Built-in chime and alarm",
+    "400+ bought in the past month"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Only 181 reviews",
+    "2.4 GHz Wi-Fi"
+   ],
+   "specs": {
+    "signals": "IR, 8,000+ brands",
+    "extras": "Chime and alarm, Tapo sensor hub",
+    "app": "Tapo"
+   },
+   "features": {
+    "matter": true,
+    "rf": false,
+    "local_ha": false,
+    "sensor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41dKTQnq2nL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FNXCFN6J?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B0FNXCFN6J"
+  },
+  {
+   "rank": 6,
+   "asin": "B07K2DHXB6",
+   "name": "Broadlink RM Mini 3 2.4G Wi-Fi IR Smart Hub Learning Remote for TV",
+   "brand": "BroadLink",
+   "model": "RM mini 3",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1505,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The older BroadLink, still fine for basic TV and AC control.",
+   "pros": [
+    "$19.99",
+    "Local Home Assistant integration",
+    "1,505 reviews"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Older model",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR, 50,000+ devices",
+    "extras": "Timers and scenes",
+    "app": "BroadLink"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": true,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51+b+3TzFqL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07K2DHXB6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B07K2DHXB6"
+  },
+  {
+   "rank": 7,
+   "asin": "B0CNCKFZK9",
+   "name": "RM4C Mini Wi-Fi IR Blaster Universal Intelligent Remote Control Voice Control with Google Home and Alexa Smart Home HUB App Broadlink. (Only 2.4 GHz Wi-Fi).",
+   "brand": "BroadLink",
+   "model": "RM4C mini",
+   "price": 18.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 288,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "BroadLink's RM4C mini, sold by a reseller for $18.99.",
+   "pros": [
+    "$18.99",
+    "BroadLink app and IFTTT",
+    "4.2 stars"
+   ],
+   "cons": [
+    "Sold by a reseller",
+    "Only 288 reviews",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR, 50,000+ devices",
+    "extras": "IFTTT",
+    "app": "BroadLink"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": true,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51NH2T34taL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNCKFZK9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B0CNCKFZK9"
+  },
+  {
+   "rank": 8,
+   "asin": "B07QH1X7PX",
+   "name": "MOES WiFi Smart IR Remote Controller Smart Home Infrared Universal Remote Blaster,One for All Control AC TV DVD CD AUD SAT etc,Compatible with Alexa and Google Assistant,No Hub Required",
+   "brand": "MOES",
+   "model": "Wi-Fi Smart IR remote",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1243,
+   "score": 60,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "MOES / Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A $19.99 Tuya blaster for one room's TV and AC.",
+   "pros": [
+    "$19.99",
+    "4.3 stars from 1,243 reviews",
+    "Adapter included"
+   ],
+   "cons": [
+    "One per room",
+    "Tuya app",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR",
+    "extras": "UL adapter included",
+    "app": "MOES / Tuya"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": false,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61pp4mQ25hL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07QH1X7PX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B07QH1X7PX"
+  },
+  {
+   "rank": 9,
+   "asin": "B07ZP5NQWF",
+   "name": "Smart Home Hub-WiFi Remote Control IR Blaster for All in One IR Blaster Remote, TV DVD AC STB etc IR Remote, Compatible with Alexa, Google Home, IFTTT",
+   "brand": "Frankever",
+   "model": "Wi-Fi IR blaster",
+   "price": 13.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 689,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The cheapest blaster here, running on Smart Life.",
+   "pros": [
+    "$13.99",
+    "Siri Shortcuts",
+    "689 reviews"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Lesser-known brand",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR, 50,000+ devices",
+    "extras": "Siri Shortcuts",
+    "app": "Smart Life"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": false,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61mNKLuqrqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07ZP5NQWF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B07ZP5NQWF"
+  },
+  {
+   "rank": 10,
+   "asin": "B08N1HJYKJ",
+   "name": "WiFi Smart Remote Controller Smart Home Infrared Universal Remote Blaster,One for All Control AC TV DVD CD AUD Air Conditioner SAT etc,No Hub Required Compatible with Alexa and Google Home(IR)",
+   "brand": "Xinji",
+   "model": "Wi-Fi Smart IR remote",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 230,
+   "score": 53,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Another basic Smart Life blaster.",
+   "pros": [
+    "$15.99",
+    "Works in the Smart Life app",
+    "4.1 stars"
+   ],
+   "cons": [
+    "Only 230 reviews",
+    "Unknown brand",
+    "IR only"
+   ],
+   "specs": {
+    "signals": "IR",
+    "extras": "None listed",
+    "app": "Tuya / Smart Life"
+   },
+   "features": {
+    "matter": false,
+    "rf": false,
+    "local_ha": false,
+    "sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61AMMMKS01L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08N1HJYKJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ir-remotes.html#B08N1HJYKJ"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What can an IR blaster control?",
+   "a": "Anything that uses an infrared remote: TVs, air conditioners, fans, fireplaces, soundbars, and older electronics. It needs a clear line of sight to the device."
+  },
+  {
+   "q": "Will it know if my TV is on?",
+   "a": "Usually not. IR is one-way, so the blaster sends a command but can't confirm the device received it. Some models add a sensor cable or power monitoring to guess the state."
+  },
+  {
+   "q": "IR or RF?",
+   "a": "IR covers most TVs and AC units. Some ceiling fans, shades, and outlets use radio (RF) remotes, which need a model with RF support."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

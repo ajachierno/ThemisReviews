@@ -1,0 +1,607 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html",
+ "json_url": "https://themisreviews.com/wifi-outdoor-plugs.json",
+ "slug": "wifi-outdoor-plugs",
+ "title": "The 10 Best Outdoor Smart Plugs",
+ "subtitle": "Weatherproof Wi-Fi plugs for holiday lights, pumps, and patio lights, ranked.",
+ "intro": "We pulled the outdoor smart plugs on Amazon and scored them on rating, review volume, and features: weather rating, number of outlets, independent control, and range.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Outdoor smart plugs",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "multi": 0.25,
+   "rated": 0.25,
+   "big_platforms": 0.3,
+   "extra": 0.2
+  },
+  "reviews_ceiling": 20000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B091FXH2FR",
+   "name": "Kasa EP40 Outdoor Smart Plug",
+   "price": 22.99,
+   "why": "Two independent outlets, rated 4.6 stars by 17,547 buyers, with 10K+ bought last month."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B099KLNM24",
+   "name": "Kasa KP401 Outdoor Smart Plug",
+   "price": 12.99,
+   "why": "A single IP64 outdoor plug with 300 ft Wi-Fi range for $12.99."
+  },
+  {
+   "label": "Best for Apple Home",
+   "asin": "B0CDYPNS5K",
+   "name": "Leviton Decora Smart Outdoor Plug D215O",
+   "price": 59.99,
+   "why": "IP65, -20°F to 122°F, and Matter, so it works in every major system."
+  },
+  {
+   "label": "Best for Holiday Lights",
+   "asin": "B08D4RQR1T",
+   "name": "HBN Smart Outdoor Power Stake (6 outlets)",
+   "price": 25.99,
+   "why": "A six-outlet yard stake with a 6 ft cord for big light displays."
+  }
+ ],
+ "systems_note": "Kasa plugs have an official TP-Link integration in Home Assistant; Smart Life (Tuya) plugs work with its Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B08HQ2N235",
+   "name": "meross Outdoor Smart Plug Work with HomeKit, Alexa, Google and SmartThings",
+   "brand": "meross",
+   "model": "Outdoor Smart Plug (2 sockets)",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3962,
+   "score": 85,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Two outlets with HomeKit, Alexa, Google, and SmartThings.",
+   "pros": [
+    "Apple HomeKit",
+    "SmartThings",
+    "4.4 stars from 3,962 reviews"
+   ],
+   "cons": [
+    "IP44 only",
+    "HomeKit remote access needs a home hub",
+    "$25.99"
+   ],
+   "specs": {
+    "outlets": "2, independent",
+    "weather": "IP44",
+    "extras": "HomeKit"
+   },
+   "features": {
+    "multi": true,
+    "rated": true,
+    "big_platforms": true,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/6114R5JAkTL._AC_SL1386_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08HQ2N235?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B08HQ2N235"
+  },
+  {
+   "rank": 2,
+   "asin": "B08NXY7WWX",
+   "name": "Wyze Plug Outdoor, Dual Outlets Energy Monitoring, IP64, 2.4GHz WiFi Smart Plug, Works with Alexa, Google Assistant, IFTTT, No Hub Required, Black",
+   "brand": "Wyze",
+   "model": "Plug Outdoor",
+   "price": 36.97,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 3693,
+   "score": 83,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Wyze app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The only outdoor plug here that tracks energy use.",
+   "pros": [
+    "Energy monitoring",
+    "IP64",
+    "4.5 stars"
+   ],
+   "cons": [
+    "$36.97",
+    "No Apple Home",
+    "Wyze app"
+   ],
+   "specs": {
+    "outlets": "2, independent",
+    "weather": "IP64",
+    "extras": "Energy monitoring"
+   },
+   "features": {
+    "multi": true,
+    "rated": true,
+    "big_platforms": false,
+    "extra": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61hKwCKolRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08NXY7WWX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B08NXY7WWX"
+  },
+  {
+   "rank": 3,
+   "asin": "B07JQSX11M",
+   "name": "BN-LINK Outdoor Smart Wi-Fi Plug,Heavy Duty 3 Grounded Outlet Timer,2.4GHz",
+   "brand": "BN-LINK",
+   "model": "Outdoor Smart Plug (3 outlets)",
+   "price": 20.89,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 13773,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Three heavy-duty outlets on a short cord, with 13,773 reviews.",
+   "pros": [
+    "3 grounded outlets",
+    "13,773 reviews",
+    "$20.89"
+   ],
+   "cons": [
+    "Outlets switch together",
+    "IP44",
+    "Smart Life app"
+   ],
+   "specs": {
+    "outlets": "3, switched together",
+    "weather": "IP44",
+    "extras": "6.8 in. cord"
+   },
+   "features": {
+    "multi": true,
+    "rated": true,
+    "big_platforms": false,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61bI0-X5bDL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07JQSX11M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B07JQSX11M"
+  },
+  {
+   "rank": 4,
+   "asin": "B094YHJJVG",
+   "name": "Amazon Basics Outdoor Smart Plug with 2 Individually Controlled Outlets, Works with Alexa Only, Voice Control, Weather Resistant, 2.4 GHz Wi-Fi, No Hub Required, Black",
+   "brand": "Amazon Basics",
+   "model": "Outdoor Smart Plug",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 3791,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "An IP65 two-outlet plug for Alexa homes, and only Alexa homes.",
+   "pros": [
+    "IP65",
+    "Independent outlets",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "Alexa only",
+    "No app outside Alexa",
+    "$23.99"
+   ],
+   "specs": {
+    "outlets": "2, independent",
+    "weather": "IP65",
+    "extras": "Alexa groups"
+   },
+   "features": {
+    "multi": true,
+    "rated": true,
+    "big_platforms": false,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61XLOcCypdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B094YHJJVG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B094YHJJVG"
+  },
+  {
+   "rank": 5,
+   "asin": "B091FXH2FR",
+   "name": "Kasa Outdoor Smart Plug, Smart Home Wi-Fi Outlet with 2 Sockets, EP40",
+   "brand": "Kasa",
+   "model": "EP40 Outdoor Smart Plug",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 17547,
+   "score": 77,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "10K+ bought in past month",
+   "verdict": "The most popular outdoor plug, with two outlets you can name and schedule separately.",
+   "pros": [
+    "4.6 stars from 17,547 reviews",
+    "Independent outlets",
+    "10K+ bought in the past month",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "No Apple Home",
+    "Weather rating isn't in the bullets",
+    "No energy monitoring"
+   ],
+   "specs": {
+    "outlets": "2, independent, 15 A each",
+    "weather": "Cover attached",
+    "extras": "Long Wi-Fi range"
+   },
+   "features": {
+    "multi": true,
+    "rated": false,
+    "big_platforms": false,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61soGaMHzrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091FXH2FR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B091FXH2FR"
+  },
+  {
+   "rank": 6,
+   "asin": "B09DT173R1",
+   "name": "Kasa Outdoor Smart Dimmer Plug, IP64 Plug- in Dimmer for Outdoor String Lights, Compatible with Alexa, Google Assistant & SmartThings, Long Wi-Fi Range 2.4Ghz, No Hub Required, ETL Certified(KP405)",
+   "brand": "Kasa",
+   "model": "Outdoor Smart Dimmer Plug",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 5868,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "Dims dimmable patio string lights from your phone or voice.",
+   "pros": [
+    "Dimming",
+    "IP64",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "Dimmable lights only",
+    "150 W LED limit",
+    "4.3 stars"
+   ],
+   "specs": {
+    "outlets": "1, dimming",
+    "weather": "IP64",
+    "extras": "Dims string lights (150 W LED max)"
+   },
+   "features": {
+    "multi": false,
+    "rated": true,
+    "big_platforms": false,
+    "extra": true
+   },
+   "image": "https://m.media-amazon.com/images/I/617tMjhIOfL._AC_SL1422_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09DT173R1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B09DT173R1"
+  },
+  {
+   "rank": 7,
+   "asin": "B0CDYPNS5K",
+   "name": "Leviton Decora Smart Wi-Fi Weather-Resistant Outdoor Plug, D215O-1RE, Black",
+   "brand": "Leviton",
+   "model": "Decora Smart Outdoor Plug D215O",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 179,
+   "score": 75,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The most rugged and most connected plug here, thanks to Matter.",
+   "pros": [
+    "Matter: Apple Home, Google, Alexa, SmartThings",
+    "IP65",
+    "Works down to -20°F"
+   ],
+   "cons": [
+    "$59.99",
+    "One outlet",
+    "Only 179 reviews"
+   ],
+   "specs": {
+    "outlets": "1",
+    "weather": "IP65, -20°F to 122°F",
+    "extras": "Matter, Sonos"
+   },
+   "features": {
+    "multi": false,
+    "rated": true,
+    "big_platforms": true,
+    "extra": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610e7IK4N0L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CDYPNS5K?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B0CDYPNS5K"
+  },
+  {
+   "rank": 8,
+   "asin": "B099KLNM24",
+   "name": "Kasa Outdoor Smart Plug KP401, Smart Home Wi-Fi Outlet Timer",
+   "brand": "Kasa",
+   "model": "KP401 Outdoor Smart Plug",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 6923,
+   "score": 74,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "7K+ bought in past month",
+   "verdict": "A cheap single outdoor plug with long Wi-Fi range.",
+   "pros": [
+    "$12.99",
+    "IP64",
+    "7K+ bought in the past month"
+   ],
+   "cons": [
+    "One outlet",
+    "No Apple Home",
+    "No energy monitoring"
+   ],
+   "specs": {
+    "outlets": "1",
+    "weather": "IP64",
+    "extras": "Wi-Fi range up to 300 ft"
+   },
+   "features": {
+    "multi": false,
+    "rated": true,
+    "big_platforms": false,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/613VWkNY3ZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B099KLNM24?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B099KLNM24"
+  },
+  {
+   "rank": 9,
+   "asin": "B0BFWMQTZ7",
+   "name": "ELEGRP PQR20 Outdoor Smart Plug Waterproof IP66, WiFi Plug with 2 Individually Sockets, Compatible with Alexa & Google Assistant, Smart Outdoor Outlet for String Lights, UL Certified, 1 Pack, Black",
+   "brand": "ELEGRP",
+   "model": "PQR20 Outdoor Smart Plug",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 837,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The best weather rating here at IP66.",
+   "pros": [
+    "IP66",
+    "Independent outlets",
+    "$25.99"
+   ],
+   "cons": [
+    "Pumps limited to 1/2 HP",
+    "Only 837 reviews",
+    "2.4 GHz only"
+   ],
+   "specs": {
+    "outlets": "2, independent",
+    "weather": "IP66",
+    "extras": "Long-range Wi-Fi"
+   },
+   "features": {
+    "multi": true,
+    "rated": true,
+    "big_platforms": false,
+    "extra": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71TYpkYzmrL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BFWMQTZ7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B0BFWMQTZ7"
+  },
+  {
+   "rank": 10,
+   "asin": "B08D4RQR1T",
+   "name": "HBN Outdoor Power Stake Timer, Waterproof Wifi Smart Plug, 6 Outlets",
+   "brand": "HBN",
+   "model": "Smart Outdoor Power Stake (6 outlets)",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1615,
+   "score": 71,
+   "awards": [
+    "Best for Holiday Lights"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Push it into the lawn and power a whole holiday display from one outlet.",
+   "pros": [
+    "6 outlets",
+    "6 ft cord",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Weather rating isn't in the bullets",
+    "Outlets switch together"
+   ],
+   "specs": {
+    "outlets": "6, on a yard stake",
+    "weather": "Not stated in bullets",
+    "extras": "6 ft cord"
+   },
+   "features": {
+    "multi": true,
+    "rated": false,
+    "big_platforms": false,
+    "extra": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71lcw2RDAKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08D4RQR1T?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-plugs.html#B08D4RQR1T"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What makes an outdoor smart plug different?",
+   "a": "It's weatherproof (look for IP44 or better), usually has two or more outlets, and often a longer cord. Use it for holiday lights, pond pumps, and patio lights."
+  },
+  {
+   "q": "Can I leave it out in the rain?",
+   "a": "Rated plugs handle rain, but point the outlets down and keep them off the ground. Plug them into a GFCI-protected outdoor outlet with an in-use cover."
+  },
+  {
+   "q": "Will it reach my Wi-Fi?",
+   "a": "Outdoor outlets are often far from the router. If your phone has a weak signal where the plug goes, the plug will too. A mesh router or extender fixes that."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

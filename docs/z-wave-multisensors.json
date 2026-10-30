@@ -1,0 +1,285 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-multisensors.html",
+ "json_url": "https://themisreviews.com/z-wave-multisensors.json",
+ "slug": "z-wave-multisensors",
+ "title": "The Best Z-Wave Multisensors",
+ "subtitle": "Z-Wave sensors that combine motion, temperature, humidity, and light, ranked.",
+ "intro": "We pulled the Z-Wave multisensors on Amazon and scored them on rating, review volume, and features: how many readings they take, USB power, and 800 Series chips.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Multisensors",
+ "data_captured": "2026-10-10",
+ "updated": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "readings": 0.35,
+   "usb": 0.25,
+   "lr": 0.2,
+   "repeater": 0.2
+  },
+  "reviews_ceiling": 1000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B08XHZP7NV",
+   "name": "Aeotec MultiSensor 7",
+   "price": 69.99,
+   "why": "Six readings in one 1.8-inch sensor, on batteries or USB."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B09GDL6BGY",
+   "name": "Zooz ZSE11 Q Sensor 800LR",
+   "price": 46.95,
+   "why": "An 800 Series Long Range 4-in-1 that names Home Assistant and Hubitat."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09GDL6BGY",
+   "name": "Zooz Z-Wave Long Range Q Sensor ZSE11 800LR | Motion, Temperature, Humidity, Light (Hub Required)",
+   "brand": "Zooz",
+   "model": "ZSE11 Q Sensor 800LR",
+   "price": 46.95,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 126,
+   "score": 73,
+   "awards": [
+    "Best for Home Assistant"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A Long Range 4-in-1 with an adjustable bracket.",
+   "pros": [
+    "800 Series Long Range",
+    "Battery or USB",
+    "Adjustable mount"
+   ],
+   "cons": [
+    "3.6 stars",
+    "Some basic hubs don't show all readings",
+    "$46.95"
+   ],
+   "specs": {
+    "senses": "Motion, temperature, humidity, light",
+    "power": "Batteries (included) or micro USB",
+    "series": "800 Series, Long Range"
+   },
+   "features": {
+    "readings": true,
+    "usb": true,
+    "lr": true,
+    "repeater": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41xURZEyPGL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09GDL6BGY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-multisensors.html#B09GDL6BGY"
+  },
+  {
+   "rank": 2,
+   "asin": "B08XHZP7NV",
+   "name": "Aeotec MultiSensor 7, 6-in-1 Zwave Sensors Contains Monitor Motion, Temperature, Light, Humidity, UV, and Vibration, Z-Wave Plus, Gen7, S2, SmartStart Enabled, Compatible with Zwave Hub Smartthings",
+   "brand": "Aeotec",
+   "model": "MultiSensor 7",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 112,
+   "score": 70,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The most readings in one Z-Wave sensor, and small enough for a ceiling light fitting.",
+   "pros": [
+    "6 sensors in one",
+    "Battery or USB power",
+    "1.8 inches"
+   ],
+   "cons": [
+    "3.8 stars",
+    "$69.99",
+    "700 Series, no Long Range"
+   ],
+   "specs": {
+    "senses": "Motion, temperature, humidity, light, UV, vibration",
+    "power": "Batteries (included) or USB",
+    "series": "700 Series"
+   },
+   "features": {
+    "readings": true,
+    "usb": true,
+    "lr": false,
+    "repeater": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61CHj5F2NzS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08XHZP7NV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-multisensors.html#B08XHZP7NV"
+  },
+  {
+   "rank": 3,
+   "asin": "B00Q59PBZE",
+   "name": "HomeSeer Smart Motion, Temperature & Light Sensor (HSM200), AC Powered, Z-Wave Plus Technology, Includes Programmable RGB LED Indicator, Compatible with HomeSeer, Home Assistant & Hubitat (1-Pack)",
+   "brand": "HomeSeer",
+   "model": "HSM200",
+   "price": 49.95,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 114,
+   "score": 62,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A plug-in sensor that never needs batteries and repeats your mesh.",
+   "pros": [
+    "No batteries",
+    "Acts as a repeater",
+    "Programmable color LED"
+   ],
+   "cons": [
+    "3.4 stars",
+    "Takes up an outlet",
+    "No humidity"
+   ],
+   "specs": {
+    "senses": "Motion, temperature, light, RGB LED indicator",
+    "power": "Plugs into an outlet",
+    "series": "Z-Wave Plus"
+   },
+   "features": {
+    "readings": false,
+    "usb": true,
+    "lr": false,
+    "repeater": true
+   },
+   "image": "https://m.media-amazon.com/images/I/31Aqucx0vyL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00Q59PBZE?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-multisensors.html#B00Q59PBZE"
+  },
+  {
+   "rank": 4,
+   "asin": "B0D47WR1S2",
+   "name": "Aeotec TriSensor 8, 800 Series Zwave Motion Sensor, Temperature, Light Sensor, Work with Zwave Hub Smartthings 3-in 1 Security System, Long Range Capable",
+   "brand": "Aeotec",
+   "model": "TriSensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 38,
+   "score": 53,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A cheaper 3-in-1 with Long Range for far corners of the house.",
+   "pros": [
+    "800 Series Long Range",
+    "$39.99",
+    "Adjustable sensitivity"
+   ],
+   "cons": [
+    "No humidity",
+    "3.6 stars from 38 reviews",
+    "Only 15 left at capture time"
+   ],
+   "specs": {
+    "senses": "Motion, temperature, light",
+    "power": "CR123A battery, about 1 year",
+    "series": "800 Series, Long Range"
+   },
+   "features": {
+    "readings": false,
+    "usb": false,
+    "lr": true,
+    "repeater": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615t9T6S3UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D47WR1S2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-multisensors.html#B0D47WR1S2"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What does a multisensor measure?",
+   "a": "Usually motion plus temperature, humidity, and light, and sometimes vibration or UV. One device covers a room's automations: lights on motion, fans on humidity, blinds on light."
+  },
+  {
+   "q": "Battery or USB power?",
+   "a": "USB-powered multisensors report more often and act as repeaters. Battery ones go anywhere but check in less often."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 4 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

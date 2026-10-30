@@ -1,0 +1,549 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-relays.html",
+ "json_url": "https://themisreviews.com/matter-relays.json",
+ "slug": "matter-relays",
+ "title": "The Best Matter Relays and In-Wall Modules",
+ "subtitle": "Matter relays that work with every major smart home platform, ranked.",
+ "intro": "We pulled the relays and in-wall modules on Amazon whose listings name Matter and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Relays and modules",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "power_meter": 0.3,
+   "no_hub": 0.3,
+   "dry_contact": 0.2,
+   "multi_channel": 0.2
+  },
+  "reviews_ceiling": 1000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DF1T9V3G",
+   "name": "SONOFF MINIR4M",
+   "price": 12.9,
+   "why": "A Matter-certified mini relay with detached-switch mode for $12.90, rated 4.5 stars."
+  },
+  {
+   "label": "Best With Power Metering",
+   "asin": "B0DNQ9DKBV",
+   "name": "SwitchBot Relay Switch 1PM",
+   "price": 14.99,
+   "why": "Power measuring and a Bluetooth repeater on Matter, for $14.99."
+  },
+  {
+   "label": "Best Two-Channel",
+   "asin": "B0DZJ1W814",
+   "name": "Shelly 2PM Gen4",
+   "price": 38.99,
+   "why": "Two metered 16 A channels on Matter, Wi-Fi, or Zigbee."
+  },
+  {
+   "label": "Best Dry Contact",
+   "asin": "B0H8YW595V",
+   "name": "Shelly 1 Gen4",
+   "price": 27.99,
+   "why": "A 15 A dry-contact Shelly for garage doors and boilers, on Matter, from Shelly USA's UL listing for $27.99."
+  }
+ ],
+ "systems_note": "Matter relays work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0DZJ1W814",
+   "name": "Shelly 2PM Gen4, Smart Relay Switch, WiFi, Matter & Zigbee, 2-Channel",
+   "brand": "Shelly",
+   "model": "2PM Gen4",
+   "price": 38.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 872,
+   "score": 92,
+   "awards": [
+    "Best Two-Channel"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Two metered channels on Matter, with the most reviews of any multi-channel relay here.",
+   "pros": [
+    "Two 16 A channels",
+    "Power metering",
+    "4.7 stars from 872 reviews"
+   ],
+   "cons": [
+    "$38.99",
+    "Larger than single relays",
+    "Neutral requirement isn't stated"
+   ],
+   "specs": {
+    "channels": "2",
+    "rating": "16 A per channel",
+    "radios": "Matter, Wi-Fi, Zigbee",
+    "extras": "Power metering"
+   },
+   "features": {
+    "power_meter": true,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81zHxzmkBdL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZJ1W814?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DZJ1W814"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DZHZDJXT",
+   "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
+   "brand": "Shelly",
+   "model": "1 Mini Gen4",
+   "price": 24.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 869,
+   "score": 82,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The compact Matter Shelly for tight spaces.",
+   "pros": [
+    "Compact",
+    "Dry contacts",
+    "4.5 stars, 200+ bought in the past month"
+   ],
+   "cons": [
+    "8 A",
+    "No power metering",
+    "$24.98"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "8 A dry contact",
+    "radios": "Matter, Wi-Fi, Zigbee",
+    "extras": "Compact"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": true,
+    "no_hub": true,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DMapRQUwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZHZDJXT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DZHZDJXT"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DNQ9DKBV",
+   "name": "SwitchBot Matte Relay Switch 1PM, WiFi Switch Compatible with Alexa/Apple Home/Google Home, Power-Measuring Relay Switch Module with Integrated Bluetooth Repeater, Bluetooth & Wi-Fi 2.4 GHz, 16 A",
+   "brand": "SwitchBot",
+   "model": "Relay Switch 1PM",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 273,
+   "score": 80,
+   "awards": [
+    "Best With Power Metering"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A metered Matter relay that also extends SwitchBot's Bluetooth range.",
+   "pros": [
+    "Power measuring",
+    "Bluetooth repeater for SwitchBot devices",
+    "$14.99, 4.5 stars"
+   ],
+   "cons": [
+    "Only 273 reviews",
+    "Load rating isn't in the bullets",
+    "Sold by SwitchBot"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi, Bluetooth, Matter",
+    "extras": "Power measuring, Bluetooth repeater"
+   },
+   "features": {
+    "power_meter": true,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61XZ8GmgJ6L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DNQ9DKBV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DNQ9DKBV"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DF1T9V3G",
+   "name": "SONOFF MINIR4M Matter Smart Switch,WiFi Mini DIY Module,Smart Light Control,Flush-Mounted Compatible with Apple Home,Alexa & Google Home,IFTTT,eWeLink Web,Neutral Required, 1-Pack",
+   "brand": "SONOFF",
+   "model": "MINIR4M",
+   "price": 12.9,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 506,
+   "score": 75,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The cheapest good Matter relay, with a detached mode for smart bulbs behind a wall switch.",
+   "pros": [
+    "Matter certified",
+    "Detach mode keeps smart bulbs powered",
+    "Works with momentary, latching, and SPDT switches",
+    "$12.90"
+   ],
+   "cons": [
+    "Load rating isn't in the bullets",
+    "Neutral required",
+    "Only 506 reviews"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi (Matter certified)",
+    "extras": "Detach relay mode, many switch types"
+   },
+   "features": {
+    "power_meter": false,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51RJlZY8umL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DF1T9V3G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DF1T9V3G"
+  },
+  {
+   "rank": 5,
+   "asin": "B0DNQ7QB16",
+   "name": "SwitchBot WiFi Switch Compatible with Alexa/Apple Home/Google Home/Matter (Hub Required), Power-Measuring Relay Switch Module with Integrated Bluetooth Repeater and Dry Contact, 2.4 GHz, 16 A",
+   "brand": "SwitchBot",
+   "model": "Relay Switch (Matter via hub)",
+   "price": 11.74,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 100,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheaper SwitchBot relay; Wi-Fi works alone, but Matter needs a SwitchBot hub.",
+   "pros": [
+    "$11.74",
+    "Power measuring",
+    "Local Bluetooth control if the internet drops"
+   ],
+   "cons": [
+    "Matter needs a SwitchBot hub, per the title",
+    "Only 100 reviews",
+    "4.4 stars"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi, Bluetooth; Matter through a SwitchBot hub",
+    "extras": "Power measuring"
+   },
+   "features": {
+    "power_meter": true,
+    "no_hub": false,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61HkM8ziKCL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DNQ7QB16?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DNQ7QB16"
+  },
+  {
+   "rank": 6,
+   "asin": "B0H8YW595V",
+   "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
+   "brand": "Shelly",
+   "model": "1 Gen4",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 18,
+   "score": 67,
+   "awards": [
+    "Best Dry Contact"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A 15 A dry-contact relay for garage doors, boilers, and lights, on Shelly USA's UL-certified Matter listing.",
+   "pros": [
+    "Dry contacts",
+    "Names Alexa, Google, SmartThings, and Home Assistant",
+    "Sold by Shelly USA, UL certified"
+   ],
+   "cons": [
+    "No power metering",
+    "Only 18 reviews on this UL listing",
+    "$27.99"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "15 A dry contact",
+    "radios": "Matter, Wi-Fi, Zigbee",
+    "extras": "UL certified, garage door and sunset schedules"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": true,
+    "no_hub": true,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71F3GYN4yyL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H8YW595V?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0H8YW595V"
+  },
+  {
+   "rank": 7,
+   "asin": "B0CLZGLY8Q",
+   "name": "Matter Smart Switch Module DIY Light Relay Switch, Works with Apple Home, Siri, Alexa, Google, SmartThings, Matter Switch Relay Smart Home Automation with Remote Control (2 Gang, 1 Pack)",
+   "brand": "TALTBREX",
+   "model": "Matter relay module",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 14,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A basic Matter relay that keeps working on your LAN if the internet drops.",
+   "pros": [
+    "Local control over Matter",
+    "$15.99",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Only 14 reviews",
+    "Neutral required",
+    "Load rating isn't in the bullets"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi (Matter)",
+    "extras": "Local LAN control"
+   },
+   "features": {
+    "power_meter": false,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vNj2HDlLL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLZGLY8Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0CLZGLY8Q"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CNCHW258",
+   "name": "2-Pack Matter Smart Switch 16A Mini WiFi Relay Module,DIY Wireless Light Switch Voice Control with Timer&Schedule for Home Automation,Work with Apple Homekit,Alexa,Google Home,CSA Certified",
+   "brand": "RODOT",
+   "model": "Matter mini relay (2-pack)",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 29,
+   "score": 58,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Two cheap Matter relays that skip the maker's app entirely.",
+   "pros": [
+    "2 relays for $22.99",
+    "No extra app account",
+    "16 A"
+   ],
+   "cons": [
+    "4.0 stars from 29 reviews",
+    "Unknown brand",
+    "Only 15 left at capture time"
+   ],
+   "specs": {
+    "channels": "1 each, 2 relays",
+    "rating": "16 A",
+    "radios": "Wi-Fi (Matter)",
+    "extras": "No third-party account needed"
+   },
+   "features": {
+    "power_meter": false,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61kwVqrpBJL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNCHW258?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0CNCHW258"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What does a smart relay do?",
+   "a": "It hides behind a wall switch, inside a fan canopy, or in an appliance and switches the power, so you keep your existing switch and add smart control. Dry-contact relays can also trigger garage doors, gas fireplaces, and boilers."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Most relays do. Check your switch box for a bundle of white wires before buying. A few models work without a neutral, and the table notes which."
+  },
+  {
+   "q": "Is it safe to install myself?",
+   "a": "Only if you're comfortable with household wiring and turn the breaker off first. If you're not sure, have an electrician install it. Never exceed the relay's amp rating."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Added Shelly 1 Gen4.",
+    "Dropped Shelly 1 Gen4.",
+    "New Best Dry Contact: Shelly 1 Gen4.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 8 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

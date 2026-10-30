@@ -1,0 +1,297 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/zigbee-dimmers.html",
+ "json_url": "https://themisreviews.com/zigbee-dimmers.json",
+ "slug": "zigbee-dimmers",
+ "title": "The Best Zigbee Dimmer Switches",
+ "subtitle": "Every in-wall Zigbee dimmer we could find on Amazon, ranked.",
+ "intro": "In-wall Zigbee dimmers are uncommon in the US, so this list is short. It covers wall dimmers and dimmer modules that wire in behind an existing switch; we left out 0-10 V controllers. We scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "zigbee",
+  "name": "Zigbee",
+  "url": "https://themisreviews.com/#zigbee"
+ },
+ "product_type": "Dimmers",
+ "data_captured": "2026-10-24",
+ "updated": "2026-10-24",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "no_neutral": 0.35,
+   "three_way": 0.35,
+   "open_hub": 0.3
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B08428GDS8",
+   "name": "Enbrighten Zigbee in-wall dimmer",
+   "price": 34.72,
+   "why": "The most-reviewed Zigbee dimmer we found, sold by Amazon, and it pairs straight to Echo devices with a built-in Zigbee hub."
+  },
+  {
+   "label": "Most Flexible",
+   "asin": "B0F2N68K3C",
+   "name": "Aqara H2 dimmer",
+   "price": 49.99,
+   "why": "Runs as Zigbee or Matter over Thread, works without a neutral, and lets you set brightness limits."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B08428GDS8",
+   "name": "Enbrighten Zigbee In-Wall Smart Dimmer, Paddle, White or Light Almond",
+   "brand": "Enbrighten",
+   "model": "Zigbee in-wall dimmer",
+   "price": 34.72,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 312,
+   "score": 80,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The most-reviewed Zigbee dimmer we found. It pairs directly with Echo devices that have a Zigbee hub built in.",
+   "pros": [
+    "Pairs with Echo Studio, Echo Show 10, and Echo Plus with no extra hub",
+    "312 reviews, sold by Amazon",
+    "Auto-detecting line and load terminals",
+    "Zigbee 3.0 without well-known network keys"
+   ],
+   "cons": [
+    "3-way needs Enbrighten 46199 add-on switches",
+    "Needs a neutral wire",
+    "4.0 stars"
+   ],
+   "specs": {
+    "neutral": "Required",
+    "three_way_text": "Up to 4 add-ons (46199)",
+    "led_load": "Not listed",
+    "hub": "Echo with Zigbee hub, or any Zigbee 3.0 hub",
+    "extras": "Auto-detecting line and load"
+   },
+   "features": {
+    "no_neutral": false,
+    "three_way": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81VZfzh+W4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08428GDS8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-dimmers.html#B08428GDS8"
+  },
+  {
+   "rank": 2,
+   "asin": "B0F2N68K3C",
+   "name": "Aqara Smart Dimmer Switch H2, 2-in-1 Neutral, Thread/Zigbee Protocol",
+   "brand": "Aqara",
+   "model": "H2 dimmer",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 61,
+   "score": 71,
+   "awards": [
+    "Most Flexible"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A Zigbee or Thread dimmer that works without a neutral and lets you cap brightness to stop LED flicker.",
+   "pros": [
+    "Choose Zigbee or Matter over Thread",
+    "Works with or without a neutral",
+    "Forward and reverse phase dimming",
+    "Set minimum and maximum brightness"
+   ],
+   "cons": [
+    "3-way isn't covered in the listing",
+    "3.9 stars",
+    "Zigbee mode needs an Aqara hub for full features"
+   ],
+   "specs": {
+    "neutral": "Optional",
+    "three_way_text": "Not listed",
+    "led_load": "Not listed",
+    "hub": "Aqara hub (Zigbee) or Thread border router (Matter)",
+    "extras": "Forward and reverse phase, brightness limits"
+   },
+   "features": {
+    "no_neutral": true,
+    "three_way": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61JIjLOZd8L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F2N68K3C?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-dimmers.html#B0F2N68K3C"
+  },
+  {
+   "rank": 3,
+   "asin": "B0GKG5NXL6",
+   "name": "Shelly Dimmer Gen4 US UL Smart Dimming, WiFi, Matter, Zigbee",
+   "brand": "Shelly",
+   "model": "Dimmer Gen4 US",
+   "price": 49.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 30,
+   "score": 63,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A compact dimmer module that wires in behind your wall switch and runs Zigbee, Matter, or Wi-Fi. A good fit if you want to keep the switches you have.",
+   "pros": [
+    "Zigbee, Matter, Wi-Fi, and Bluetooth in one module",
+    "Set minimum and maximum brightness, fade rate, and transition time",
+    "Schedules that can follow sunrise and sunset",
+    "UL certified, with a 3-year warranty"
+   ],
+   "cons": [
+    "A hidden module, not a wall switch",
+    "The listing doesn't state neutral, 3-way, or LED load details",
+    "Only 30 reviews"
+   ],
+   "specs": {
+    "neutral": "Not listed",
+    "three_way_text": "Not listed",
+    "led_load": "Not listed",
+    "hub": "Zigbee hub or Matter controller; Shelly app over Wi-Fi",
+    "extras": "Min/max brightness, fade rate, night mode"
+   },
+   "features": {
+    "no_neutral": false,
+    "three_way": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81T-a+lNRVL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GKG5NXL6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-dimmers.html#B0GKG5NXL6"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B091L1912K",
+   "name": "GLEDOPTO Triac AC Dimmer Light Switch Touch Control Brightness Zigbee 3.0 Home Smart LED Light Dimmer Hub APP/Voice/2.4G RF Remote Control Compatible with Amazon Ehco Plus",
+   "brand": "GLEDOPTO",
+   "model": "Triac touch dimmer",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 16,
+   "flag": "No bullets, no load rating, no wiring details",
+   "verdict": "The listing has no product bullets at all, so there's no load rating, wiring requirement, or box size to check before you buy.",
+   "reasons": [
+    "There are no feature bullets on the listing, only a long keyword title.",
+    "Nothing says whether it needs a neutral or how many watts of LED it can handle.",
+    "The title misspells the Echo it claims to work with (\"Amazon Ehco Plus\").",
+    "3.4 stars from 16 reviews."
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/51fzfgWBzuL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091L1912K?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-dimmers.html#avoid-B091L1912K"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "Will a smart dimmer work with my LED bulbs?",
+   "a": "Only with bulbs marked dimmable, and even then some combinations flicker or buzz at low levels. Dimmers with an adjustable minimum brightness (sometimes called low-end trim) let you raise the bottom of the range until the flicker stops."
+  },
+  {
+   "q": "What's the wattage rating about?",
+   "a": "Smart dimmers list a maximum load, often around 150 W of LED and 600 W of incandescent. Add up the bulbs on the circuit. If you're close to the limit, pick a higher-rated model or split the load."
+  },
+  {
+   "q": "Can I use a smart dimmer on a ceiling fan?",
+   "a": "No. Dimmers are for lights. Fans need a fan speed control or an on/off switch rated for motors."
+  },
+  {
+   "q": "Why are there so few Zigbee dimmers?",
+   "a": "In the US, most wall-switch makers chose Z-Wave, Wi-Fi, or Matter. Zigbee is common for bulbs and sensors, and its dimmers are mostly sold as hidden modules rather than wall switches."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+  },
+  {
+   "q": "Can I install it myself?",
+   "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-24",
+   "notes": [
+    "Dropped Inovelli Blue Series 2-1, Leviton DG6HD-1BW.",
+    "New Best Overall: Enbrighten Zigbee in-wall dimmer.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Added Shelly Dimmer Gen4 US."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 4 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

@@ -1,0 +1,607 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html",
+ "json_url": "https://themisreviews.com/wifi-air-quality-monitors.json",
+ "slug": "wifi-air-quality-monitors",
+ "title": "The 10 Best Smart Air Quality Monitors",
+ "subtitle": "Wi-Fi monitors for PM2.5, CO2, VOCs, and radon, ranked from live Amazon data.",
+ "intro": "We pulled the smart indoor air quality monitors selling on Amazon and scored them on rating, review volume, and features: real NDIR CO2 sensors, PM2.5, radon, and smart home support.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Air quality monitors",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "ndir_co2": 0.3,
+   "pm25": 0.25,
+   "smart_home": 0.25,
+   "radon": 0.2
+  },
+  "reviews_ceiling": 5000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0FFMZL15X",
+   "name": "GoveeLife H5140 CO2 monitor",
+   "price": 69.99,
+   "why": "A real NDIR CO2 sensor, a display with an alarm, and Alexa and Google, rated 4.4 stars."
+  },
+  {
+   "label": "Best for Alexa",
+   "asin": "B08W8KS8D3",
+   "name": "Amazon Smart Air Quality Monitor",
+   "price": 69.99,
+   "why": "PM2.5, VOCs, and CO in the Alexa app with routine triggers, for $69.99."
+  },
+  {
+   "label": "Best for Matter",
+   "asin": "B0G2WDPB29",
+   "name": "SONOFF AirGuard CO2 SAWF-08P",
+   "price": 49.9,
+   "why": "An NDIR CO2 monitor that works with Apple Home, Google, Alexa, SmartThings, and Home Assistant."
+  },
+  {
+   "label": "Best With Radon",
+   "asin": "B097YW5Q72",
+   "name": "Airthings View Plus (2960)",
+   "price": 329.99,
+   "why": "Radon plus PM2.5, CO2, and VOCs on batteries, from the best-known radon brand."
+  }
+ ],
+ "systems_note": "Airthings and SwitchBot also have official Home Assistant integrations.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B097YW5Q72",
+   "name": "Airthings 2960 View Plus - Battery Powered Radon & Air Quality Monitor (PM, CO2, VOC, Humidity, Temp, Pressure)",
+   "brand": "Airthings",
+   "model": "View Plus (2960)",
+   "price": 329.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1986,
+   "score": 88,
+   "awards": [
+    "Best With Radon"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": "Airthings app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The monitor to get if radon is a concern, with nearly every other reading too.",
+   "pros": [
+    "Digital radon detector",
+    "Seven readings in one",
+    "Battery powered",
+    "Free 5-year warranty with registration"
+   ],
+   "cons": [
+    "$329.99",
+    "4.0 stars",
+    "Radon readings take days to settle"
+   ],
+   "specs": {
+    "measures": "Radon, PM2.5, CO2, VOCs, humidity, temp, pressure",
+    "co2": "Yes",
+    "power": "Battery",
+    "app": "Airthings app"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": true,
+    "smart_home": true,
+    "radon": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61cGOt0cE3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B097YW5Q72?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B097YW5Q72"
+  },
+  {
+   "rank": 2,
+   "asin": "B08W8KS8D3",
+   "name": "Amazon Smart Air Quality Monitor – Know your air, Works with Alexa",
+   "brand": "Amazon",
+   "model": "Smart Air Quality Monitor",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 5579,
+   "score": 80,
+   "awards": [
+    "Best for Alexa"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "The easiest pick for Alexa homes, with alerts on Echo speakers and routines that run purifiers and fans.",
+   "pros": [
+    "Alexa routines can run purifiers, fans, and dehumidifiers",
+    "Announcements on Echo devices",
+    "5,579 reviews, sold by Amazon",
+    "$69.99"
+   ],
+   "cons": [
+    "No CO2 sensor",
+    "Alexa only",
+    "Not a UL-listed CO alarm"
+   ],
+   "specs": {
+    "measures": "PM2.5, VOCs, CO, temperature, humidity",
+    "co2": "No CO2 sensor",
+    "power": "Plug-in",
+    "app": "Alexa app, Echo announcements"
+   },
+   "features": {
+    "ndir_co2": false,
+    "pm25": true,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61JysiUA-jL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08W8KS8D3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B08W8KS8D3"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DLN46519",
+   "name": "SwitchBot CO2 Detector, Air Quality Monitor Indoor, CO2 Monitor for CO2/TEMP/Humidity, Portable Carbon Dioxide Detector for Home/Car/Office/Greenhouse",
+   "brand": "SwitchBot",
+   "model": "CO2 Detector (Meter Pro)",
+   "price": 59.48,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 331,
+   "score": 73,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A portable NDIR CO2 meter with a screen, for bedrooms and offices.",
+   "pros": [
+    "NDIR CO2 sensor",
+    "Portable, battery powered",
+    "Official Home Assistant integration",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Remote alerts need a SwitchBot Hub",
+    "No PM2.5",
+    "Bluetooth only on its own"
+   ],
+   "specs": {
+    "measures": "CO2, temperature, humidity",
+    "co2": "NDIR",
+    "power": "Battery",
+    "app": "SwitchBot app; remote alerts need a SwitchBot Hub"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": false,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71aclmecNOL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DLN46519?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0DLN46519"
+  },
+  {
+   "rank": 4,
+   "asin": "B0FFMZL15X",
+   "name": "GoveeLife Smart Air Quality Monitor CO2 Detector H5140, Display & Alarm",
+   "brand": "GoveeLife",
+   "model": "H5140 CO2 monitor",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 251,
+   "score": 73,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "GoveeLife app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "700+ bought in past month",
+   "verdict": "The best CO2 monitor for most homes: an accurate NDIR sensor, a display, and voice assistant support.",
+   "pros": [
+    "NDIR CO2 sensor",
+    "Display with alarm",
+    "Alexa and Google",
+    "4.4 stars, 500+ bought in the past month"
+   ],
+   "cons": [
+    "No PM2.5 or VOCs",
+    "Only 251 reviews",
+    "$69.99"
+   ],
+   "specs": {
+    "measures": "CO2, temperature, humidity",
+    "co2": "NDIR",
+    "power": "Not stated in bullets",
+    "app": "App alerts, display alarm"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": false,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61U3nJdW8BL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FFMZL15X?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0FFMZL15X"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CLYRBRSB",
+   "name": "BREATHE Airmonitor Plus Gen 2 Indoor Air Quality Monitor, CO2, PM2.5, TVOC",
+   "brand": "BREATHE",
+   "model": "Airmonitor Plus Gen 2",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 511,
+   "score": 72,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Breathe Tech app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "An 8-in-1 monitor with NDIR CO2, laser particle sensing, and formaldehyde.",
+   "pros": [
+    "NDIR CO2 and laser PM sensors",
+    "Formaldehyde",
+    "90-day history with export",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "4.0 stars",
+    "$129.99",
+    "Voice assistants aren't named"
+   ],
+   "specs": {
+    "measures": "CO2, PM1/2.5/10, TVOC, formaldehyde, temp, humidity",
+    "co2": "NDIR",
+    "power": "Plug-in, 6-hour battery",
+    "app": "App alerts, 90-day history"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": true,
+    "smart_home": false,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71d2tJpWTjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLYRBRSB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0CLYRBRSB"
+  },
+  {
+   "rank": 6,
+   "asin": "B0G2WDPB29",
+   "name": "SONOFF AirGuard CO2 SAWF-08P, Smart Indoor Air Quality Monitor, Matter Compatible, 2.4GHz WiFi, CO2 Monitor for CO2/Temp/Humidity, Real-Time Display & Notification, for Bedroom, Nusery Room",
+   "brand": "SONOFF",
+   "model": "AirGuard CO2 SAWF-08P",
+   "price": 49.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 181,
+   "score": 71,
+   "awards": [
+    "Best for Matter"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Matter CO2 monitor that plugs into every major smart home platform.",
+   "pros": [
+    "Matter over Wi-Fi",
+    "NDIR CO2 sensor",
+    "4.3 stars",
+    "$49.90"
+   ],
+   "cons": [
+    "Only 181 reviews",
+    "No PM2.5",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "measures": "CO2, temperature, humidity",
+    "co2": "NDIR",
+    "power": "Plug-in",
+    "app": "Matter, eWeLink"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": false,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61qPR1dWs9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2WDPB29?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0G2WDPB29"
+  },
+  {
+   "rank": 7,
+   "asin": "B0BZV1XG6Y",
+   "name": "GoveeLife Smart Air Quality Monitor with PM2.5 H5106, LED Display Wired",
+   "brand": "GoveeLife",
+   "model": "H5106 PM2.5 monitor",
+   "price": 39.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1051,
+   "score": 69,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "GoveeLife app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "900+ bought in past month",
+   "verdict": "A cheap PM2.5 monitor that can switch on a Govee air purifier.",
+   "pros": [
+    "$39.98",
+    "Controls Govee purifiers",
+    "4.3 stars, 700+ bought in the past month"
+   ],
+   "cons": [
+    "No CO2",
+    "Wired power",
+    "Voice assistants aren't named"
+   ],
+   "specs": {
+    "measures": "PM2.5, temperature, humidity",
+    "co2": "No CO2 sensor",
+    "power": "Wired",
+    "app": "Can control Govee purifiers"
+   },
+   "features": {
+    "ndir_co2": false,
+    "pm25": true,
+    "smart_home": false,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61gcKLBfGZL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BZV1XG6Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0BZV1XG6Y"
+  },
+  {
+   "rank": 8,
+   "asin": "B0G2W4FVQF",
+   "name": "SONOFF SAWF-07P Smart Indoor Air Quality Monitor with PM2.5, PM10, Temperature & Humidity Sensor, Real-Time Display, Notification, Matter-Compatible, 2.4GHz WiFi, 3.73-inch Screen, for Bedroom, Nusery",
+   "brand": "SONOFF",
+   "model": "SAWF-07P",
+   "price": 39.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 201,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The particle version of SONOFF's Matter monitor, for wildfire smoke and cooking.",
+   "pros": [
+    "Matter over Wi-Fi",
+    "PM2.5 and PM10",
+    "$39.90"
+   ],
+   "cons": [
+    "3.8 stars",
+    "No CO2",
+    "Only 201 reviews"
+   ],
+   "specs": {
+    "measures": "PM2.5, PM10, temperature, humidity",
+    "co2": "No CO2 sensor",
+    "power": "Plug-in",
+    "app": "Matter, eWeLink"
+   },
+   "features": {
+    "ndir_co2": false,
+    "pm25": true,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61IfpvfgoOL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2W4FVQF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0G2W4FVQF"
+  },
+  {
+   "rank": 9,
+   "asin": "B0D1K7GNPM",
+   "name": "Temtop M10+ 6-in-1 CO2 Meter & Indoor Air Quality Monitor",
+   "brand": "Temtop",
+   "model": "M10+",
+   "price": 95.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 159,
+   "score": 63,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Temtop app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A battery-powered 6-in-1 monitor with an E-Ink display and an alarm you can mute.",
+   "pros": [
+    "Up to 60 days on battery",
+    "E-Ink display",
+    "Mutable alarm for bedrooms"
+   ],
+   "cons": [
+    "Check you're getting the Wi-Fi model; a Bluetooth model exists",
+    "4.3 stars",
+    "$95"
+   ],
+   "specs": {
+    "measures": "CO2, PM2.5, TVOC, temperature, humidity",
+    "co2": "Yes",
+    "power": "Battery, up to 60 days",
+    "app": "Temtop app"
+   },
+   "features": {
+    "ndir_co2": false,
+    "pm25": true,
+    "smart_home": false,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61R1Ja7d5qL._AC_SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D1K7GNPM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0D1K7GNPM"
+  },
+  {
+   "rank": 10,
+   "asin": "B0GRWHXJZT",
+   "name": "AprilAire ZAWTHCPV Smart Indoor 5-in-1 Wi-Fi Air Quality Monitor (CO2, VOC, PM 2.5, Particulate Matter, Humidity and Temperature), App Controlled IAQ Monitor for Home Air Quality Sensor",
+   "brand": "AprilAire",
+   "model": "ZAWTHCPV",
+   "price": 164.39,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 37,
+   "score": 57,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "AprilAire Healthy Air app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "AprilAire's 5-in-1 monitor, with tips that explain each alert.",
+   "pros": [
+    "CO2, VOCs, and PM2.5",
+    "Explains what each alert means",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Only 37 reviews",
+    "$164.39",
+    "Voice assistants aren't named"
+   ],
+   "specs": {
+    "measures": "CO2, VOCs, PM2.5, temperature, humidity",
+    "co2": "Yes",
+    "power": "Not stated in bullets",
+    "app": "Healthy Air app"
+   },
+   "features": {
+    "ndir_co2": false,
+    "pm25": true,
+    "smart_home": false,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71jXhRh3YOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GRWHXJZT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0GRWHXJZT"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What should an air quality monitor measure?",
+   "a": "PM2.5 (fine particles from cooking, smoke, and wildfires), CO2 (a sign of stale air in closed rooms), VOCs (fumes from cleaners and new furniture), plus temperature and humidity. Radon matters in basements in many regions."
+  },
+  {
+   "q": "Is a CO2 reading reliable?",
+   "a": "Only from an NDIR CO2 sensor. Cheaper monitors estimate CO2 from VOC readings, which isn't the same thing. Look for NDIR in the listing if CO2 is the main reason you're buying."
+  },
+  {
+   "q": "Is an air quality monitor a carbon monoxide alarm?",
+   "a": "Usually not. Unless it's UL 2034 listed with a loud alarm, keep a real CO alarm too."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

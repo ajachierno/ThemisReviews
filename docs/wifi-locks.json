@@ -1,0 +1,594 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-locks.html",
+ "json_url": "https://themisreviews.com/wifi-locks.json",
+ "slug": "wifi-locks",
+ "title": "The 10 Best Wi-Fi Smart Locks",
+ "subtitle": "Smart deadbolts with built-in Wi-Fi, no hub needed.",
+ "intro": "We pulled the best-selling Wi-Fi smart locks on Amazon and scored them on rating, review volume, and features: fingerprint readers, auto-lock, and Apple Home Key. Locks with Matter are on our Matter page.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Smart locks",
+ "data_captured": "2026-10-25",
+ "updated": "2026-10-25",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "fingerprint": 0.35,
+   "auto_lock": 0.3,
+   "apple_home": 0.35
+  },
+  "reviews_ceiling": 17000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B07HXMLCBT",
+   "name": "Schlage Encode (Century trim)",
+   "price": 229.0,
+   "why": "16,705 reviews, 3K+ bought last month, and the highest residential BHMA rating, per the listing."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0F5BH3HDV",
+   "name": "Tapo DL100",
+   "price": 59.98,
+   "why": "$59.98 for a 4.5-star Wi-Fi deadbolt that works with Alexa, Google, and SmartThings."
+  },
+  {
+   "label": "Best Fingerprint",
+   "asin": "B0DKQQ6Z7Q",
+   "name": "Tapo DL110",
+   "price": 106.99,
+   "why": "A 0.42-second fingerprint reader, 100 stored prints, a rechargeable battery rated for a year, and 4.6 stars."
+  },
+  {
+   "label": "Best for iPhone",
+   "asin": "B09RS1Z1ZN",
+   "name": "Schlage Encode Plus",
+   "price": 284.99,
+   "why": "Tap to unlock with Apple Home Key on an iPhone or Apple Watch, plus Alexa and Google."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0FD3WMV2T",
+   "name": "Wyze Auto-Lock Bolt v2, Fingerprint Keyless Entry Smart Lock, AI Learning Scanner with Wi-Fi Front Door Lock Deadbolt, Auto-Lock, 8 Months Battery, BHMA2, IP53, Anti-Peep Keypad, Backup Keys",
+   "brand": "Wyze",
+   "model": "Lock Bolt v2",
+   "price": 79.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 698,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Wyze app (no voice assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "A fast fingerprint lock with auto-lock and a USB-C emergency port, for $79.",
+   "pros": [
+    "0.5-second fingerprint unlock",
+    "Auto-lock",
+    "USB-C emergency power from a power bank",
+    "3K+ bought in the past month"
+   ],
+   "cons": [
+    "The listing doesn't mention Alexa or Google",
+    "8 AA batteries last about 8 months",
+    "Only 698 reviews"
+   ],
+   "specs": {
+    "entry": "Fingerprint, app, code",
+    "rating": "Listed in title",
+    "power": "8 AA, up to 8 months",
+    "key": "Not stated in bullets"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": true,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71NUWb+S75L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FD3WMV2T?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0FD3WMV2T"
+  },
+  {
+   "rank": 2,
+   "asin": "B0F6N86ZTM",
+   "name": "Veise VE012W WiFi Fingerprint Smart Lock for Front Door, Matte Black",
+   "brand": "Veise",
+   "model": "VE012W",
+   "price": 48.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 856,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The cheapest fingerprint Wi-Fi lock here, with auto-lock and unlimited one-time codes.",
+   "pros": [
+    "$48.00",
+    "Fingerprint, 100 PINs, unlimited one-time codes",
+    "Auto-lock",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "BHMA Grade 3",
+    "Stores only 20 fingerprints",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "entry": "Fingerprint, code, app, key, voice",
+    "rating": "Grade 3 (per listing)",
+    "power": "Not listed",
+    "key": "Yes (2)"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": true,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71uaxh9elnL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F6N86ZTM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0F6N86ZTM"
+  },
+  {
+   "rank": 3,
+   "asin": "B0C7C69FPS",
+   "name": "eufy Security Smart Lock C220, Fingerprint Keyless Entry Door Lock",
+   "brand": "eufy",
+   "model": "Smart Lock C220",
+   "price": 99.97,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 4338,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A fingerprint lock with six ways in, for $99.97.",
+   "pros": [
+    "Fingerprint unlock in under a second",
+    "Six unlock methods including Apple Watch",
+    "4,338 reviews, 2K+ bought in the past month"
+   ],
+   "cons": [
+    "8 AA batteries last about 8 months",
+    "BHMA Grade 3",
+    "Apple Watch support isn't the same as Apple Home"
+   ],
+   "specs": {
+    "entry": "Fingerprint, keypad, app, key, Apple Watch, voice",
+    "rating": "Grade 3",
+    "power": "8 AA, about 8 months",
+    "key": "Yes"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71RKFbFf0UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C7C69FPS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0C7C69FPS"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DKQQ6Z7Q",
+   "name": "Tapo Smart Wi-Fi Door Lock, Deadbolt, Fingerprint Recognition, DL110",
+   "brand": "Tapo",
+   "model": "DL110",
+   "price": 106.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 846,
+   "score": 71,
+   "awards": [
+    "Best Fingerprint"
+   ],
+   "works_with": [],
+   "works_with_note": "Tapo app (no voice assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best-rated lock here, with a fast fingerprint reader and a rechargeable battery.",
+   "pros": [
+    "4.6 stars from 846 reviews",
+    "0.42-second fingerprint unlock, 100 prints",
+    "Rechargeable battery rated for about a year"
+   ],
+   "cons": [
+    "The listing doesn't mention Alexa or Google",
+    "BHMA rating isn't listed",
+    "$106.99"
+   ],
+   "specs": {
+    "entry": "Fingerprint, keypad, app, Bluetooth",
+    "rating": "Not listed",
+    "power": "Rechargeable, about 1 year",
+    "key": "Not stated in bullets"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51itxbsT-WL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DKQQ6Z7Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0DKQQ6Z7Q"
+  },
+  {
+   "rank": 5,
+   "asin": "B07HXMLCBT",
+   "name": "Schlage Encode Smart WiFi Deadbolt Lock with Century Trim, Matte Black",
+   "brand": "Schlage",
+   "model": "Encode (Century trim)",
+   "price": 229.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 16705,
+   "score": 69,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "The best-selling Wi-Fi lock for good reason: tough, well rated, and no hub needed.",
+   "pros": [
+    "16,705 reviews, 3K+ bought in the past month",
+    "Highest residential BHMA rating for security, durability, and finish, per the listing",
+    "Up to 100 access codes and a built-in alarm",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$229.00",
+    "No fingerprint reader",
+    "No Apple Home on this model"
+   ],
+   "specs": {
+    "entry": "Touchscreen, app",
+    "rating": "Highest residential (per listing)",
+    "power": "Not listed",
+    "key": "Yes"
+   },
+   "features": {
+    "fingerprint": false,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/614CFdY31DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07HXMLCBT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B07HXMLCBT"
+  },
+  {
+   "rank": 6,
+   "asin": "B0F5QKCD3S",
+   "name": "Philips Wi-Fi Smart Deadbolt Lock, Keyless Entry Door Locks for Front Door",
+   "brand": "Philips",
+   "model": "Wi-Fi smart deadbolt",
+   "price": 79.97,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1225,
+   "score": 69,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A fingerprint Wi-Fi deadbolt for $79.97 with Alexa and Google voice control.",
+   "pros": [
+    "Fingerprint, passcode, app, key, or voice",
+    "No hub needed",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "4.3 stars",
+    "BHMA rating isn't listed",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "entry": "Fingerprint, passcode, app, key, voice",
+    "rating": "Not listed",
+    "power": "Not listed",
+    "key": "Yes"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/617vzMlNYGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5QKCD3S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0F5QKCD3S"
+  },
+  {
+   "rank": 7,
+   "asin": "B09RS1Z1ZN",
+   "name": "Schlage Encode Plus Smart WiFi Deadbolt Lock, Tap to Unlock, Satin Nickel",
+   "brand": "Schlage",
+   "model": "Encode Plus",
+   "price": 284.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1417,
+   "score": 67,
+   "awards": [
+    "Best for iPhone"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The Encode with Apple Home Key, so you tap an iPhone or Apple Watch to unlock.",
+   "pros": [
+    "Tap to unlock with Apple Home Key",
+    "Works with Apple Home, Alexa, and Google",
+    "Same BHMA rating claim as the Encode"
+   ],
+   "cons": [
+    "$284.99, the most expensive lock here",
+    "Only 11 left in stock at capture time",
+    "4.0 stars"
+   ],
+   "specs": {
+    "entry": "Touchscreen, app, Apple Home Key",
+    "rating": "Highest residential (per listing)",
+    "power": "Not listed",
+    "key": "Yes"
+   },
+   "features": {
+    "fingerprint": false,
+    "auto_lock": false,
+    "apple_home": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Dmww5oHAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09RS1Z1ZN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B09RS1Z1ZN"
+  },
+  {
+   "rank": 8,
+   "asin": "B081FYNZ7N",
+   "name": "Kwikset Halo Wi-Fi Smart Lock, Keypad Keyless Entry Door Deadbolt",
+   "brand": "Kwikset",
+   "model": "Halo (keypad)",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 5335,
+   "score": 62,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A widely sold Wi-Fi keypad lock with geofence unlocking and up to 250 codes.",
+   "pros": [
+    "Up to 250 access codes",
+    "Geofence auto-unlock as you arrive",
+    "5,335 reviews, sold by Amazon"
+   ],
+   "cons": [
+    "3.9 stars",
+    "No fingerprint reader",
+    "No Apple Home"
+   ],
+   "specs": {
+    "entry": "Keypad, app, geofencing",
+    "rating": "Not listed",
+    "power": "Not listed",
+    "key": "Not stated in bullets"
+   },
+   "features": {
+    "fingerprint": false,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71b029T-nuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B081FYNZ7N?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B081FYNZ7N"
+  },
+  {
+   "rank": 9,
+   "asin": "B0B9HWYMV5",
+   "name": "Yale WiFi Smart Lock Deadbolt with Keypad, Keyless Entry, Black Suede",
+   "brand": "Yale",
+   "model": "Wi-Fi smart deadbolt (keypad)",
+   "price": 195.22,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 1448,
+   "score": 62,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Yale app (no voice assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A Grade 2 Wi-Fi deadbolt that connects on 2.4 or 5 GHz and unlocks automatically when you arrive.",
+   "pros": [
+    "BHMA Grade 2",
+    "Works on 2.4 or 5 GHz Wi-Fi",
+    "Auto-unlock and auto-lock",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "3.6 stars",
+    "$195.22",
+    "The listing doesn't name voice assistants"
+   ],
+   "specs": {
+    "entry": "Keypad, app, auto-unlock",
+    "rating": "Grade 2",
+    "power": "Not listed",
+    "key": "Not stated in bullets"
+   },
+   "features": {
+    "fingerprint": false,
+    "auto_lock": true,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71SicsKR5kL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B9HWYMV5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0B9HWYMV5"
+  },
+  {
+   "rank": 10,
+   "asin": "B0F5BH3HDV",
+   "name": "Tapo Smart Wi-Fi Deadbolt Door Lock, Keyless Tactile Buttons, DL100",
+   "brand": "Tapo",
+   "model": "DL100",
+   "price": 59.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 633,
+   "score": 60,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "One of the cheapest Wi-Fi deadbolts here, with tactile buttons and SmartThings support.",
+   "pros": [
+    "$59.98 with 4.5 stars",
+    "Works with Alexa, Google, and SmartThings",
+    "Voice unlock requires a PIN",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "BHMA Grade 3",
+    "No fingerprint reader",
+    "Battery life isn't listed"
+   ],
+   "specs": {
+    "entry": "Keypad, Bluetooth, app, voice with PIN",
+    "rating": "Grade 3",
+    "power": "Not listed",
+    "key": "Yes (2 backup keys)"
+   },
+   "features": {
+    "fingerprint": false,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61WAE5P1fEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5BH3HDV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0F5BH3HDV"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Will a smart lock fit my door?",
+   "a": "Most smart deadbolts fit a standard US door with a 2-1/8 in. bore hole and a 2-3/8 or 2-3/4 in. backset. Retrofit locks like Level Bolt replace only the inside parts and keep your existing key and hardware."
+  },
+  {
+   "q": "What happens if the batteries die?",
+   "a": "Locks warn you in their app before the batteries run out. Most also have a backup key, an emergency power point, or both. Check the listing for which one yours has."
+  },
+  {
+   "q": "Is a smart lock secure?",
+   "a": "Look for encrypted radios (Z-Wave S2, Matter, Thread, or the maker's encrypted Bluetooth), auto-lock, and an activity log. ANSI/BHMA grade ratings describe physical strength; Grade 2 or better is typical for a front door."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

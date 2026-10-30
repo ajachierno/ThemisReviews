@@ -1,0 +1,632 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-smart-plugs.html",
+ "json_url": "https://themisreviews.com/wifi-smart-plugs.json",
+ "slug": "wifi-smart-plugs",
+ "title": "The 10 Best Wi-Fi Smart Plugs",
+ "subtitle": "No-hub smart plugs that connect straight to your router.",
+ "intro": "We pulled the best-selling Wi-Fi smart plugs on Amazon and scored them on rating, review volume, and features: energy monitoring, outdoor ratings, and Apple Home support. Wi-Fi plugs with Matter are on our Matter page.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Smart plugs",
+ "data_captured": "2026-10-21",
+ "updated": "2026-10-21",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "energy": 0.4,
+   "apple_home": 0.3,
+   "outdoor": 0.3
+  },
+  "reviews_ceiling": 100000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B091699Z3W",
+   "name": "Kasa EP10 Ultra Mini",
+   "price": 10.0,
+   "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,823 reviews and Alexa and Google support."
+  },
+  {
+   "label": "Best for Alexa Homes",
+   "asin": "B089DR29T6",
+   "name": "Amazon Smart Plug",
+   "price": 24.99,
+   "why": "Over 571,000 reviews at 4.7 stars, and it sets up in the Alexa app in minutes."
+  },
+  {
+   "label": "Best Energy Monitoring",
+   "asin": "B08LN3C7WK",
+   "name": "Kasa KP115",
+   "price": 15.99,
+   "why": "Real-time and historical energy use for $15.99."
+  },
+  {
+   "label": "Best Outdoor",
+   "asin": "B091FXH2FR",
+   "name": "Kasa EP40 outdoor",
+   "price": 22.99,
+   "why": "Two independently controlled outdoor outlets, 15 A each, with 17,527 reviews."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0B14C719T",
+   "name": "Kasa Smart Plug Mini 15A, EP25P4, Apple HomeKit Supported",
+   "brand": "Kasa",
+   "model": "EP25P4 (4-pack)",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 5111,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Kasa's Apple Home plug with energy monitoring, in a four-pack. The pick for iPhone homes that don't want Matter.",
+   "pros": [
+    "Works in Apple Home with Siri",
+    "Energy monitoring",
+    "15 A, about $11 per plug"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Only sold as a 4-pack here",
+    "Apple Home remote access needs a home hub"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Kasa or Apple Home",
+    "load": "15 A",
+    "pack": "4 plugs"
+   },
+   "features": {
+    "energy": true,
+    "apple_home": true,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dy0MWaMhL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B14C719T?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B0B14C719T"
+  },
+  {
+   "rank": 2,
+   "asin": "B08LN3C7WK",
+   "name": "Kasa Smart Plug Mini with Energy Monitoring, KP115",
+   "brand": "Kasa",
+   "model": "KP115",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 17804,
+   "score": 76,
+   "awards": [
+    "Best Energy Monitoring"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A mini plug with real-time and historical energy monitoring, for barely more than the plain version.",
+   "pros": [
+    "Energy monitoring",
+    "$15.99 with 17,804 reviews",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "No Apple Home",
+    "2.4 GHz Wi-Fi only",
+    "Load rating isn't in the listing bullets"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Kasa",
+    "load": "Not listed",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": true,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/611+I08uiFL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08LN3C7WK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08LN3C7WK"
+  },
+  {
+   "rank": 3,
+   "asin": "B091FXH2FR",
+   "name": "Kasa Outdoor Smart Plug, Smart Home Wi-Fi Outlet with 2 Sockets, EP40",
+   "brand": "Kasa",
+   "model": "EP40 outdoor",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 17527,
+   "score": 74,
+   "awards": [
+    "Best Outdoor"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "10K+ bought in past month",
+   "verdict": "The outdoor plug to buy: two outlets controlled separately, 15 A each, with a weather cover.",
+   "pros": [
+    "Two independently controlled outlets",
+    "15 A per outlet",
+    "4.6 stars from 17,527 reviews"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "Needs Wi-Fi coverage outside",
+    "No Apple Home"
+   ],
+   "specs": {
+    "location": "Outdoor",
+    "app": "Kasa",
+    "load": "15 A per outlet",
+    "pack": "1 plug, 2 outlets"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61soGaMHzrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091FXH2FR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B091FXH2FR"
+  },
+  {
+   "rank": 4,
+   "asin": "B089DR29T6",
+   "name": "Amazon Smart Plug, Works with Alexa, Simple Setup, Endless Possibilities",
+   "brand": "Amazon",
+   "model": "Smart Plug",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 571294,
+   "score": 72,
+   "awards": [
+    "Best for Alexa Homes"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "10K+ bought in past month",
+   "verdict": "The most-reviewed smart plug on Amazon. Perfect if Alexa runs your house; useless if it doesn't.",
+   "pros": [
+    "4.7 stars from over 571,000 reviews",
+    "Sets up entirely in the Alexa app",
+    "10K+ bought in the past month"
+   ],
+   "cons": [
+    "Works with Alexa only",
+    "No energy monitoring",
+    "Load rating isn't listed"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Alexa",
+    "load": "Not listed",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61t5zBS57gL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B089DR29T6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B089DR29T6"
+  },
+  {
+   "rank": 5,
+   "asin": "B07B8W2KHZ",
+   "name": "Kasa Smart Plug HS103P2, Wi-Fi Outlet Works with Alexa, 2-Pack",
+   "brand": "Kasa",
+   "model": "HS103P2 (2-pack)",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 150744,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Kasa's classic plug in a two-pack, with 150,744 reviews behind it.",
+   "pros": [
+    "Two plugs for $17.99",
+    "4.6 stars from 150,744 reviews",
+    "5K+ bought in the past month"
+   ],
+   "cons": [
+    "Bulkier than the EP10",
+    "No energy monitoring",
+    "No Apple Home"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Kasa",
+    "load": "Not listed",
+    "pack": "2 plugs"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61mNHFdgj3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07B8W2KHZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B07B8W2KHZ"
+  },
+  {
+   "rank": 6,
+   "asin": "B091699Z3W",
+   "name": "Kasa Smart Plug Ultra Mini 15A, EP10, Smart Home Wi-Fi Outlet",
+   "brand": "Kasa",
+   "model": "EP10 Ultra Mini",
+   "price": 10.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 40823,
+   "score": 68,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "The best general-purpose smart plug: tiny, cheap, reliable, and it works with Alexa and Google.",
+   "pros": [
+    "$10 with 4.5 stars from 40,823 reviews",
+    "Mini size leaves the second outlet free",
+    "15 A rating",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "No Apple Home",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Kasa",
+    "load": "15 A",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51BFrPaLzZL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091699Z3W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B091699Z3W"
+  },
+  {
+   "rank": 7,
+   "asin": "B08X448XHR",
+   "name": "Govee Smart Plug, WiFi Outlet Compatible with Alexa & Google Assts, 1 pcs",
+   "brand": "Govee",
+   "model": "Smart plug",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 13995,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A Wi-Fi plug with Bluetooth backup, popular with people already using Govee lights.",
+   "pros": [
+    "Wi-Fi plus Bluetooth for control when Wi-Fi drops",
+    "4.5 stars from 13,995 reviews",
+    "Works with Alexa and Google"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "Govee app only",
+    "Load rating isn't listed"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Govee Home",
+    "load": "Not listed",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51wdsa8jwnL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08X448XHR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08X448XHR"
+  },
+  {
+   "rank": 8,
+   "asin": "B0B62LPR5Z",
+   "name": "EIGHTREE Smart Plug WiFi Outlet Works with Alexa & Google Home, 15A, 4-Pack",
+   "brand": "EIGHTREE",
+   "model": "Smart plug (4-pack)",
+   "price": 22.49,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 9942,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "Four Smart Life plugs for about $6 each, with Bluetooth-assisted setup.",
+   "pros": [
+    "About $6.25 per plug",
+    "Bluetooth-assisted pairing",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "Smart Life is a cloud-based app",
+    "No energy monitoring",
+    "Voice control needs account linking"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "Smart Life",
+    "load": "15 A",
+    "pack": "4 plugs"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61N63ZDrGML._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B62LPR5Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B0B62LPR5Z"
+  },
+  {
+   "rank": 9,
+   "asin": "B08TNF4835",
+   "name": "SONOFF S31 WiFi Smart Plug with Energy Monitoring, 15A Smart Outlet Timer Switch ETL Certified, Compatible with Alexa & Google Home, IFTTT Supporting, 2.4 Ghz Wi-Fi Only",
+   "brand": "SONOFF",
+   "model": "S31",
+   "price": 10.9,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 517,
+   "score": 63,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheap ETL-certified plug with energy monitoring and IFTTT support.",
+   "pros": [
+    "Energy monitoring for $10.90",
+    "ETL certified",
+    "IFTTT support"
+   ],
+   "cons": [
+    "4.1 stars",
+    "eWeLink app",
+    "No Apple Home"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "eWeLink",
+    "load": "15 A",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": true,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51HPDgFpi4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08TNF4835?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08TNF4835"
+  },
+  {
+   "rank": 10,
+   "asin": "B0D7ZXYPRL",
+   "name": "GHome Smart Plug, WiFi Smart Plugs that Work with Alexa and Google Home",
+   "brand": "GHome",
+   "model": "Smart plug",
+   "price": 10.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4788,
+   "score": 62,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "5K+ bought in past month",
+   "verdict": "About $11 for a single plug, with Bluetooth-assisted setup and 5K+ sales a month.",
+   "pros": [
+    "$10.99",
+    "Wi-Fi plus Bluetooth setup",
+    "5K+ bought in the past month"
+   ],
+   "cons": [
+    "Sold by a third-party seller",
+    "No energy monitoring",
+    "Load rating isn't listed"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "GHome",
+    "load": "Not listed",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": false,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61bxEW13xHL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D7ZXYPRL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B0D7ZXYPRL"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0GR59XKYJ",
+   "name": "Smart Plug, 10A WiFi Smart Plugs Compatible with Alexa & Google Home",
+   "brand": "MOOEGG",
+   "model": "10A Wi-Fi smart plug",
+   "price": 7.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 77,
+   "flag": "10 A rating, two-thirds of a standard plug",
+   "verdict": "It's cheap, but it's rated for 10 A. The Kasa EP10 costs $2 more and handles 15 A.",
+   "reasons": [
+    "10 A is about 1,200 W at 120 V, so kettles, toasters, and coffee makers can exceed it.",
+    "The Kasa EP10 above costs $10.00 and is rated 15 A.",
+    "The listing says testing was \"conducted to UL standards\", which isn't the same as being UL or ETL listed.",
+    "The listing refers to the \"APP\" without ever naming which app it uses."
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/61UHhYrYtmL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR59XKYJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#avoid-B0GR59XKYJ"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What can I plug into a smart plug?",
+   "a": "Lamps, fans, coffee makers, holiday lights, and anything else that turns on with a physical switch left in the on position. Check the plug's amp rating (most are 15 A) before plugging in anything that draws a lot of power."
+  },
+  {
+   "q": "Is energy monitoring worth paying for?",
+   "a": "If you want to know what a fridge, dehumidifier, or entertainment center costs to run, yes. Energy-monitoring plugs also let you trigger automations, like an alert when the washer finishes."
+  },
+  {
+   "q": "Will a smart plug block the second outlet?",
+   "a": "Bulky plugs often cover the other socket. Mini designs leave it free, so check the shape before you buy several."
+  },
+  {
+   "q": "Are smart plugs safe for heaters and air conditioners?",
+   "a": "Only if the plug's rating covers the appliance's draw and the maker allows it. Many plugs are rated 15 A, but heaters run near that limit for hours. Check the appliance's manual; some say not to use any timer or smart plug."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-21",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

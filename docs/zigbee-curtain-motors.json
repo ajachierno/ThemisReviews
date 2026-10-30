@@ -1,0 +1,228 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/zigbee-curtain-motors.html",
+ "json_url": "https://themisreviews.com/zigbee-curtain-motors.json",
+ "slug": "zigbee-curtain-motors",
+ "title": "The Best Zigbee Curtain Motors",
+ "subtitle": "Zigbee curtain robots and motorized tracks, ranked.",
+ "intro": "We pulled the Zigbee curtain motors on Amazon and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "zigbee",
+  "name": "Zigbee",
+  "url": "https://themisreviews.com/#zigbee"
+ },
+ "product_type": "Curtain motors",
+ "data_captured": "2026-10-11",
+ "updated": "2026-10-11",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "track": 0.3,
+   "battery": 0.4,
+   "ha": 0.3
+  },
+  "reviews_ceiling": 1000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B09ZY917TZ",
+   "name": "Aqara Curtain Motor E1 (Track)",
+   "price": 89.99,
+   "why": "Aqara's E1 track motor moves curtains up to 26.4 lbs and runs about a year per charge."
+  },
+  {
+   "label": "Best for Zigbee2MQTT",
+   "asin": "B0DS6XY9H4",
+   "name": "DILANG Zigbee Curtain Robot",
+   "price": 55.99,
+   "why": "A curtain robot that works with Zigbee2MQTT, for $55.99."
+  }
+ ],
+ "systems_note": "Aqara's E1 motors need an Aqara hub, which brings them to Apple Home, Google Home, and Alexa.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09ZY917TZ",
+   "name": "Aqara Smart Curtain Motor E1 Track Version, 1 Pack",
+   "brand": "Aqara",
+   "model": "Curtain Motor E1 (Track)",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 205,
+   "score": 77,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Aqara Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Mounts on your existing track in minutes and runs a year per charge.",
+   "pros": [
+    "About a year per charge",
+    "26.4 lb load",
+    "205 reviews"
+   ],
+   "cons": [
+    "Aqara hub sold separately",
+    "4.0 stars",
+    "$89.99"
+   ],
+   "specs": {
+    "type": "Track robot",
+    "hub": "Aqara Zigbee 3.0 hub",
+    "power": "6,400 mAh rechargeable, about a year",
+    "extras": "Up to 26.4 lb load, Siri, Alexa, Google"
+   },
+   "features": {
+    "track": true,
+    "battery": true,
+    "ha": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61JRPIZBfTL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09ZY917TZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-curtain-motors.html#B09ZY917TZ"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CYP7KNR6",
+   "name": "Aqara Smart Curtain Motor E1 Rod Version 1Pack, Support HomeKit Alexa IFTTT",
+   "brand": "Aqara",
+   "model": "Curtain Motor E1 (Rod)",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 33,
+   "score": 63,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Aqara Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The rod version of the E1.",
+   "pros": [
+    "About a year per charge",
+    "HomeKit through the Aqara hub",
+    "4.2 stars"
+   ],
+   "cons": [
+    "No telescopic rods",
+    "Aqara hub required, other brands won't work",
+    "Only 33 reviews"
+   ],
+   "specs": {
+    "type": "Rod robot",
+    "hub": "Aqara hub only",
+    "power": "6,000 mAh rechargeable, about a year",
+    "extras": "Uniform-thickness rods only"
+   },
+   "features": {
+    "track": false,
+    "battery": true,
+    "ha": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61th9SE1X-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYP7KNR6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-curtain-motors.html#B0CYP7KNR6"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DS6XY9H4",
+   "name": "Smart Automatic Curtain Opener and Closer, Zigbee Curtain Robot with App, Voice, Remote Control for U/T Rails Compatible with Alexa, Google Home, Tuya, Smart Life APP",
+   "brand": "DILANG",
+   "model": "Zigbee Curtain Robot",
+   "price": 55.99,
+   "currency": "USD",
+   "rating": 3.0,
+   "reviews_count": 11,
+   "score": 53,
+   "awards": [
+    "Best for Zigbee2MQTT"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Tuya app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheap Zigbee robot that Home Assistant users can run through Zigbee2MQTT.",
+   "pros": [
+    "Zigbee2MQTT support",
+    "$55.99",
+    "Pull-to-start"
+   ],
+   "cons": [
+    "3.0 stars",
+    "Doesn't work with Hubitat",
+    "Runs on AA batteries"
+   ],
+   "specs": {
+    "type": "Track robot",
+    "hub": "Zigbee hub, Zigbee2MQTT supported",
+    "power": "3 AA batteries",
+    "extras": "Pull to start, one- or two-way setups"
+   },
+   "features": {
+    "track": true,
+    "battery": false,
+    "ha": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61WoybFWq0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DS6XY9H4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-curtain-motors.html#B0DS6XY9H4"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Curtain robot or curtain motor?",
+   "a": "Curtain robots clip onto your existing rod or track and push the curtain along, no tools needed. Motorized tracks replace the rod and are quieter and stronger, but take more work to install."
+  },
+  {
+   "q": "Will it work with my rod?",
+   "a": "Check the rod type and diameter. Most robots list compatible U-rails, I-rails, and round rods by size."
+  },
+  {
+   "q": "Do they need a hub?",
+   "a": "Bluetooth robots need the maker's hub for voice control and away-from-home control. Wi-Fi motors connect straight to your router; Zigbee motors need a Zigbee hub."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-11",
+   "notes": [
+    "Published with 3 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

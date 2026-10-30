@@ -1,0 +1,565 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-power-strips.html",
+ "json_url": "https://themisreviews.com/wifi-power-strips.json",
+ "slug": "wifi-power-strips",
+ "title": "The 9 Best Smart Power Strips",
+ "subtitle": "Wi-Fi power strips with individually controlled outlets, ranked.",
+ "intro": "We pulled the smart power strips on Amazon and scored them on rating, review volume, and features: outlet count, independent control, USB ports, surge protection, and energy monitoring.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Smart power strips",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "many": 0.25,
+   "surge": 0.25,
+   "big_platforms": 0.3,
+   "energy": 0.2
+  },
+  "reviews_ceiling": 20000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B07G95FFN3",
+   "name": "Kasa HS300 Smart Power Strip",
+   "price": 42.99,
+   "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,475 buyers."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B083JKSSR5",
+   "name": "Kasa KP303 Smart Power Strip",
+   "price": 24.98,
+   "why": "Three smart outlets and two USB ports with surge protection for $24.98."
+  },
+  {
+   "label": "Best for Apple Home",
+   "asin": "B0F5LNYTR7",
+   "name": "Tapo P316M Smart Power Strip",
+   "price": 49.99,
+   "why": "Matter, per-outlet energy monitoring, and surge protection for $49.99."
+  },
+  {
+   "label": "Best Outlet Extender",
+   "asin": "B0CYGSFFFW",
+   "name": "Tapo P306 Outlet Extender",
+   "price": 39.99,
+   "why": "Plugs straight into the wall with 3 smart outlets and 3 smart USB ports, and works with HomeKit."
+  }
+ ],
+ "systems_note": "Kasa and Tapo strips have an official TP-Link integration in Home Assistant; Smart Life (Tuya) strips work with its Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0F5LNYTR7",
+   "name": "Tapo Smart Wi-Fi Power Strip, Matter, P316M, Energy Monitoring",
+   "brand": "Tapo",
+   "model": "P316M Smart Power Strip",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 362,
+   "score": 83,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Matter and energy monitoring on every outlet, for less than the Kasa.",
+   "pros": [
+    "Matter: Apple Home, Google, Alexa, SmartThings",
+    "Energy monitoring per outlet",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "USB ports aren't switchable",
+    "Only 362 reviews",
+    "4.5 stars"
+   ],
+   "specs": {
+    "outlets": "6 smart",
+    "usb": "3 always-on (5 V 2.4 A)",
+    "surge": "Yes",
+    "extras": "Per-outlet energy monitoring, overcharge cutoff"
+   },
+   "features": {
+    "many": true,
+    "surge": true,
+    "big_platforms": true,
+    "energy": true
+   },
+   "image": "https://m.media-amazon.com/images/I/611LrgoYkvL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5LNYTR7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0F5LNYTR7"
+  },
+  {
+   "rank": 2,
+   "asin": "B07G95FFN3",
+   "name": "Kasa Smart Plug Power Strip HS300, Smart Outlet, No Hub Required",
+   "brand": "Kasa",
+   "model": "HS300 Smart Power Strip",
+   "price": 42.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 9475,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The best-known smart power strip: six outlets you control one at a time.",
+   "pros": [
+    "6 independent outlets",
+    "4.6 stars from 9,475 reviews",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "No Apple Home",
+    "$42.99",
+    "Joule rating isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "6 smart, each controlled separately",
+    "usb": "3 ports",
+    "surge": "ETL-certified",
+    "extras": "Not stated in bullets"
+   },
+   "features": {
+    "many": true,
+    "surge": true,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61PI8akrKOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07G95FFN3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B07G95FFN3"
+  },
+  {
+   "rank": 3,
+   "asin": "B083JKSSR5",
+   "name": "kasa smart Plug Power Strip KP303, Surge Protector with 3 Individually Controlled Smart Outlets and 2 USB Ports, Works with Alexa & Google Home, No Hub Required , White",
+   "brand": "Kasa",
+   "model": "KP303 Smart Power Strip",
+   "price": 24.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 16519,
+   "score": 77,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A compact three-outlet strip for a nightstand or TV stand.",
+   "pros": [
+    "$24.98",
+    "16,519 reviews",
+    "Surge protection"
+   ],
+   "cons": [
+    "3 outlets",
+    "No Apple Home",
+    "No energy monitoring"
+   ],
+   "specs": {
+    "outlets": "3 smart",
+    "usb": "2 ports",
+    "surge": "ETL-certified",
+    "extras": "Not stated in bullets"
+   },
+   "features": {
+    "many": false,
+    "surge": true,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61yUqv7M9VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B083JKSSR5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B083JKSSR5"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CYGSFFFW",
+   "name": "Tapo Smart Plug Outlet Extender, P306, 3 Individual Smart Outlets",
+   "brand": "Tapo",
+   "model": "P306 Outlet Extender",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 658,
+   "score": 74,
+   "awards": [
+    "Best Outlet Extender"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A wall-plug extender with smart outlets and smart USB ports, and HomeKit.",
+   "pros": [
+    "Apple HomeKit",
+    "Smart USB ports",
+    "Wide outlet spacing"
+   ],
+   "cons": [
+    "Surge protection isn't in the bullets",
+    "$39.99",
+    "Only 658 reviews"
+   ],
+   "specs": {
+    "outlets": "3 smart + 3 always on",
+    "usb": "3 smart ports",
+    "surge": "Not stated in bullets",
+    "extras": "Plugs into the wall, wide spacing"
+   },
+   "features": {
+    "many": true,
+    "surge": false,
+    "big_platforms": true,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dqJe+2c8L._SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYGSFFFW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0CYGSFFFW"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CP4D62RX",
+   "name": "Geeni Surge Ultra Smart 8-Outlet Surge Protector, No Hub, 6 ft. Cord, Black",
+   "brand": "Geeni",
+   "model": "Surge Ultra Smart 8-Outlet",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 542,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Geeni app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Eight outlets with a stated 1,200-joule surge rating.",
+   "pros": [
+    "1,200 joules",
+    "8 outlets",
+    "6 ft cord"
+   ],
+   "cons": [
+    "Geeni app",
+    "Only 542 reviews",
+    "No Apple Home"
+   ],
+   "specs": {
+    "outlets": "6 smart + 2 always on",
+    "usb": "Not stated in bullets",
+    "surge": "1,200 joules",
+    "extras": "6 ft cord"
+   },
+   "features": {
+    "many": true,
+    "surge": true,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71GkElZxN3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CP4D62RX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0CP4D62RX"
+  },
+  {
+   "rank": 6,
+   "asin": "B0B9WQL3FD",
+   "name": "GHome Smart Plug Outlet Extender, USB Wall Charger with 3 Individual Smart Outlets and 3 Smart USB Ports, Works with Alexa Google Home, WiFi Power Strip for APP Control,15A/1800W",
+   "brand": "GHome",
+   "model": "Smart Outlet Extender",
+   "price": 38.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1719,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "GHome app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A cheaper wall-plug extender with smart USB ports.",
+   "pros": [
+    "$38.99",
+    "1,719 reviews",
+    "Smart USB ports"
+   ],
+   "cons": [
+    "USB ports switch as a group",
+    "No Apple Home",
+    "Surge protection isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "3 smart + 3 always on",
+    "usb": "3 smart (grouped)",
+    "surge": "Not stated in bullets",
+    "extras": "Plugs into the wall"
+   },
+   "features": {
+    "many": true,
+    "surge": false,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51iqEWtr35L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B9WQL3FD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0B9WQL3FD"
+  },
+  {
+   "rank": 7,
+   "asin": "B097NJ8Y4N",
+   "name": "BN LINK Smart Plug Power Strip，Surge Protector with 6 Individually Controlled Smart Outlets, 4 USBs (incl. 20W USB-C), Compatible with Alexa and Google Home",
+   "brand": "BN-LINK",
+   "model": "Smart Power Strip (6 outlets)",
+   "price": 42.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 625,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Six smart outlets with 20 W USB-C fast charging.",
+   "pros": [
+    "20 W USB-C",
+    "Surge protection",
+    "6 independent outlets"
+   ],
+   "cons": [
+    "4.0 stars",
+    "$42.99",
+    "No Apple Home"
+   ],
+   "specs": {
+    "outlets": "6 smart",
+    "usb": "4 (incl. 20 W USB-C)",
+    "surge": "Yes",
+    "extras": "Not stated in bullets"
+   },
+   "features": {
+    "many": true,
+    "surge": true,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61QqHRzAVjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B097NJ8Y4N?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B097NJ8Y4N"
+  },
+  {
+   "rank": 8,
+   "asin": "B0C453CLSY",
+   "name": "Amazon Basics Smart Plug Power Strip with 6 Individually Controlled Outlets and 3 USB Ports (2 USB-A and 1 USB-C), WiFi, Works with Alexa Only, 2.4 GHz, No Hub Required, White",
+   "brand": "Amazon Basics",
+   "model": "Smart Power Strip (6 outlets)",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 697,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Six outlets and USB-C for Alexa homes, and only Alexa homes.",
+   "pros": [
+    "6 independent outlets",
+    "USB-C",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Alexa only",
+    "4.3 stars",
+    "Surge protection isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "6 smart",
+    "usb": "3 (2 USB-A, 1 USB-C)",
+    "surge": "Not stated in bullets",
+    "extras": "Set up in the Alexa app"
+   },
+   "features": {
+    "many": true,
+    "surge": false,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61239SvkPoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C453CLSY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0C453CLSY"
+  },
+  {
+   "rank": 9,
+   "asin": "B0DZWLRKGW",
+   "name": "Smart Power Strip, Yozisital Charging Station with 6 Smart Outlets and 4 USB Ports, 5FT Flat Plug Extension Cord for Home Office, Compatible with Alexa & Google Home",
+   "brand": "Yozisital",
+   "model": "Smart Power Strip (6 smart + 2)",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 376,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A desk charging station with six smart outlets and two USB-C ports.",
+   "pros": [
+    "2 USB-C ports",
+    "Flat plug",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Surge protection isn't in the bullets",
+    "Smart Life app",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "outlets": "6 smart + 2 always on",
+    "usb": "4 (2 USB-A, 2 USB-C)",
+    "surge": "Not stated in bullets",
+    "extras": "Flat plug, 5 ft cord"
+   },
+   "features": {
+    "many": true,
+    "surge": false,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61JkKJQEUUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZWLRKGW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0DZWLRKGW"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Smart power strip or several smart plugs?",
+   "a": "A strip puts three to six individually controlled outlets, and usually USB ports, in one place, which suits a desk or entertainment center. Smart plugs suit single lamps spread around the house."
+  },
+  {
+   "q": "Does a smart power strip protect against surges?",
+   "a": "Only if the listing gives a joule rating. Many smart strips have surge protection, but some don't; check before plugging in a computer or TV."
+  },
+  {
+   "q": "Can each outlet be controlled separately?",
+   "a": "On most smart strips, yes: each outlet appears as its own switch in the app and in Alexa or Google. USB ports are usually switched together."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Dropped POWSAV WiFi Surge Protector (8 outlets).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

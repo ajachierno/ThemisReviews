@@ -1,0 +1,633 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-garage-openers.html",
+ "json_url": "https://themisreviews.com/wifi-garage-openers.json",
+ "slug": "wifi-garage-openers",
+ "title": "The 10 Best Smart Garage Door Openers",
+ "subtitle": "Wi-Fi controllers that add phone and voice control to the opener you already have.",
+ "intro": "We pulled the best-selling smart garage door controllers on Amazon and scored them on rating, review volume, and features: door position sensors, Apple Home support, and Matter. Matter models here use Wi-Fi, so they belong on this page too.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Garage door openers",
+ "data_captured": "2026-10-29",
+ "updated": "2026-10-29",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "sensor": 0.35,
+   "apple_home": 0.25,
+   "matter": 0.2,
+   "multi_door": 0.2
+  },
+  "reviews_ceiling": 30000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B08GD3D9YJ",
+   "name": "Chamberlain myQ Smart Garage Control",
+   "price": 64.98,
+   "why": "61,004 reviews, 6K+ bought last month, a wireless door sensor, and Amazon Key in-garage delivery."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B07TZJYSR7",
+   "name": "eKyro Smart Garage Door Opener",
+   "price": 34.99,
+   "why": "4.5 stars for $34.99, with Alexa, Google, and Siri and no monthly fees."
+  },
+  {
+   "label": "Best for Apple Home",
+   "asin": "B084Z5QZR2",
+   "name": "meross MSG100HK",
+   "price": 49.99,
+   "why": "Native HomeKit, a wired door sensor, and Security+ 2.0 support, with 6,722 reviews."
+  },
+  {
+   "label": "Best Matter Pick",
+   "asin": "B0FX4G3ML2",
+   "name": "THIRDREALITY Smart Garage Door Opener (Matter)",
+   "price": 49.99,
+   "why": "Matter certified with a pre-paired tilt sensor and no wiring to the motor."
+  }
+ ],
+ "systems_note": "Tuya and Smart Life controllers also work with Home Assistant's official Tuya integration. Genie Aladdin Connect has an official Home Assistant integration too.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B08GD3D9YJ",
+   "name": "CHAMBERLAIN Smart Garage Control - Wireless Garage Hub and Sensor with Wifi & Bluetooth - Smartphone Controlled, myQ-G0401-ES, White",
+   "brand": "Chamberlain",
+   "model": "myQ Smart Garage Control",
+   "price": 64.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 61004,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "myQ app, Amazon Key",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "6K+ bought in past month",
+   "verdict": "The most popular smart garage controller by far, and the one Amazon Key in-garage delivery is built around.",
+   "pros": [
+    "61,004 reviews, 6K+ bought in the past month",
+    "Wireless door sensor, no wiring to the opener",
+    "Amazon Key in-garage delivery",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "The listing names no voice assistants",
+    "2.4 GHz Wi-Fi within 50 ft. of the hub",
+    "Not for openers whose photo-eye sensors shut off"
+   ],
+   "specs": {
+    "sensor": "Wireless door sensor",
+    "openers": "Most brands made after 1993",
+    "doors": "2 (extra sensor sold separately)",
+    "app": "myQ"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": false,
+    "matter": false,
+    "multi_door": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51U402oH80L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08GD3D9YJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B08GD3D9YJ"
+  },
+  {
+   "rank": 2,
+   "asin": "B084Z5QZR2",
+   "name": "meross Smart Garage Door Opener Remote Work with HomeKit, Alexa and Google",
+   "brand": "meross",
+   "model": "MSG100HK",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 6722,
+   "score": 78,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The best pick for Apple homes: native HomeKit, a wired sensor, and wide opener support.",
+   "pros": [
+    "Apple HomeKit, Alexa, and Google",
+    "Wired sensor for accurate status",
+    "Security+ 1.0 and 2.0 openers",
+    "6,722 reviews, sold by Amazon"
+   ],
+   "cons": [
+    "Not for Security+ 3.0 openers",
+    "Adapter may be required",
+    "4.2 stars"
+   ],
+   "specs": {
+    "sensor": "Wired door sensor",
+    "openers": "200+ brands, Security+ 1.0 and 2.0",
+    "doors": "1",
+    "app": "meross"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": true,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61I2M19hAGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B084Z5QZR2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B084Z5QZR2"
+  },
+  {
+   "rank": 3,
+   "asin": "B08JYSXXSK",
+   "name": "meross Smart Garage Door Opener Remote with External Antenna",
+   "brand": "meross",
+   "model": "MSG200 (external antenna)",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 678,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "One controller for up to three doors, with an external antenna for garages with weak Wi-Fi.",
+   "pros": [
+    "Controls up to 3 doors",
+    "External antenna for weak Wi-Fi",
+    "Apple HomeKit, Alexa, and Google",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Third door sensor sold separately",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "sensor": "2 wired sensors included",
+    "openers": "200+ brands, Security+ 1.0 and 2.0",
+    "doors": "Up to 3 (third sensor extra)",
+    "app": "meross"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": true,
+    "matter": false,
+    "multi_door": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61OHBNGAGcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08JYSXXSK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B08JYSXXSK"
+  },
+  {
+   "rank": 4,
+   "asin": "B07L5DPK8P",
+   "name": "meross Smart WiFi Garage Door Opener Remote Work with Alexa and Google",
+   "brand": "meross",
+   "model": "MSG100",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 5894,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The non-HomeKit meross MSG100: the same wired-sensor controller as the HK model for $18 less, with Alexa, Google, and SmartThings.",
+   "pros": [
+    "$31.99, sold by Amazon",
+    "4.4 stars from 5,894 reviews",
+    "Works with Security+ 1.0 and 2.0 openers, with an adapter if needed"
+   ],
+   "cons": [
+    "No Apple Home",
+    "Not for Security+ 3.0 openers",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "sensor": "Wired door sensor included",
+    "openers": "Security+ 1.0 and 2.0 openers, not Security+ 3.0; adapter may be needed",
+    "doors": "1",
+    "app": "meross"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": false,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61pFFEemc-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07L5DPK8P?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B07L5DPK8P"
+  },
+  {
+   "rank": 5,
+   "asin": "B07TZJYSR7",
+   "name": "Smart Garage Door Opener - Universal WiFi Remote Controller Compatible with Alexa, Google Home, iPhone, Siri, Android, Door Left Open Alert, Door Security Systems, Updated Model",
+   "brand": "eKyro",
+   "model": "Smart Garage Door Opener",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 3940,
+   "score": 73,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A highly rated, cheap controller with voice control and auto-close and no monthly fees.",
+   "pros": [
+    "4.5 stars from 3,940 reviews",
+    "Alexa, Google, and Siri",
+    "Auto-close and scheduling with no fees",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "Some openers need an adapter (contact eKyro)",
+    "One controller per door",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "sensor": "Door-left-open alerts",
+    "openers": "Most openers (adapter may be needed)",
+    "doors": "1",
+    "app": "eKyro"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": false,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vMOjjTsVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TZJYSR7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B07TZJYSR7"
+  },
+  {
+   "rank": 6,
+   "asin": "B0FMXX1W7D",
+   "name": "meross Smart Garage Door Opener Remote, Apple HomeKit Support, MSG150HK",
+   "brand": "meross",
+   "model": "MSG150HK",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 191,
+   "score": 69,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A HomeKit controller made for Chamberlain, LiftMaster, and Craftsman openers, with no adapter or sensor wiring.",
+   "pros": [
+    "Apple HomeKit, Alexa, and Google",
+    "No adapter or wired sensor to install",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Chamberlain, LiftMaster, and Craftsman openers only",
+    "$69.99",
+    "Only 191 reviews"
+   ],
+   "specs": {
+    "sensor": "No wired sensor needed",
+    "openers": "Chamberlain, LiftMaster, Craftsman only",
+    "doors": "1",
+    "app": "meross"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": true,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61d11JybWUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMXX1W7D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FMXX1W7D"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FX4G3ML2",
+   "name": "THIRDREALITY Smart Garage Door Opener, Matter Certified, Retrofit with Existing Remote, Compatible with Alexa, Apple Home, Google Home, SmartThings, Home Assistant & Homey",
+   "brand": "THIRDREALITY",
+   "model": "Smart Garage Door Opener (Matter)",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 90,
+   "score": 69,
+   "awards": [
+    "Best Matter Pick"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Matter opener that presses a spare remote instead of wiring to the motor, so brand lock-in doesn't matter.",
+   "pros": [
+    "Matter certified, works with Apple, Google, Alexa, SmartThings, Home Assistant, and Homey",
+    "Uses a spare remote, so encrypted openers aren't a problem",
+    "Tilt sensor comes pre-paired"
+   ],
+   "cons": [
+    "Needs a Matter controller and 2.4 GHz Wi-Fi",
+    "Tilt sensor is for sectional (flip-up) doors only",
+    "4.0 stars from 90 reviews"
+   ],
+   "specs": {
+    "sensor": "Pre-paired tilt sensor",
+    "openers": "Any opener with a spare remote",
+    "doors": "1",
+    "app": "Matter controller"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": true,
+    "matter": true,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51I+i5ZJ-lL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FX4G3ML2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FX4G3ML2"
+  },
+  {
+   "rank": 8,
+   "asin": "B0GV57H4YQ",
+   "name": "Genie Aladdin Connect Smart Garage Door Controller, Single Door Kit ALKT2-R",
+   "brand": "Genie",
+   "model": "Aladdin Connect ALKT2-R",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 145,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "Genie's universal kit, with Alexa, Ring, and Amazon Key support and no monthly fee.",
+   "pros": [
+    "4.6 stars",
+    "Works with Alexa, Ring, and Amazon Key",
+    "No monthly fees",
+    "3K+ bought in the past month, sold by Amazon"
+   ],
+   "cons": [
+    "Only 145 reviews",
+    "Single door",
+    "Google and Apple Home aren't named"
+   ],
+   "specs": {
+    "sensor": "Door status alerts",
+    "openers": "Most major brands",
+    "doors": "1",
+    "app": "Aladdin Connect"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": false,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/713u1esPWyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GV57H4YQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0GV57H4YQ"
+  },
+  {
+   "rank": 9,
+   "asin": "B07TCW1WJ1",
+   "name": "AGSHOME Smart Wi-Fi Garage Door Opener Remote, APP Control, Compatible with Alexa, Google Assistant, No Hub Needed with Smartphone Control",
+   "brand": "AGSHOME",
+   "model": "Smart Wi-Fi Garage Door Opener",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1367,
+   "score": 60,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Tied for the cheapest pick here, running on the Smart Life app with Alexa, Google, and SmartThings.",
+   "pros": [
+    "$24.99",
+    "Alexa, Google, and SmartThings",
+    "1,367 reviews"
+   ],
+   "cons": [
+    "2.4 GHz Wi-Fi only",
+    "Sensor type isn't described",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "sensor": "Open/close notifications",
+    "openers": "Most brands (check the guide)",
+    "doors": "1",
+    "app": "Smart Life"
+   },
+   "features": {
+    "sensor": false,
+    "apple_home": false,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61eGWzTFG5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TCW1WJ1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B07TCW1WJ1"
+  },
+  {
+   "rank": 10,
+   "asin": "B0FF4VHCJV",
+   "name": "Switchbot WiFi Smart Garage Door Opener, Matter Certified, Alexa/Google/Siri/IFTTT/Smartthings Supported, Most Garage Door Supported, App Control, Multiple Notification Modes, No Hub Needed",
+   "brand": "SwitchBot",
+   "model": "Garage Door Opener (Matter)",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 81,
+   "score": 60,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A $24.99 Matter-certified controller that works with every major platform and falls back to Bluetooth.",
+   "pros": [
+    "Matter certified",
+    "$24.99",
+    "Bluetooth control when Wi-Fi is down",
+    "No monthly fees"
+   ],
+   "cons": [
+    "4.0 stars from 81 reviews",
+    "The listing doesn't detail a door sensor",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "sensor": "Real-time alerts (sensor not detailed)",
+    "openers": "200+ brands, 1990s and newer",
+    "doors": "1",
+    "app": "SwitchBot"
+   },
+   "features": {
+    "sensor": false,
+    "apple_home": true,
+    "matter": true,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Xbw1zzSqL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FF4VHCJV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FF4VHCJV"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Will it work with my garage door opener?",
+   "a": "Most smart controllers wire to the same two terminals your wall button uses, so they work with most openers made since the 1990s. Newer Chamberlain and LiftMaster openers with yellow learn buttons use encrypted wall controls; check the product's compatibility list or plan on an adapter."
+  },
+  {
+   "q": "How does it know if the door is open?",
+   "a": "A tilt or contact sensor on the door tells the controller whether it's open or closed. Without one, the app can push the button but can't confirm the door actually moved."
+  },
+  {
+   "q": "Is it safe to close the door remotely?",
+   "a": "Openers sold in the US must stop and reverse if the safety sensors detect something. Most smart controllers also flash a light or beep before closing remotely, as UL 325 requires for unattended operation."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-29",
+   "notes": [
+    "Added meross MSG100.",
+    "Dropped meross MSG150.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Replaced the meross MSG150, whose relaunched listing had only 57 reviews, with the meross MSG100 ($31.99, 4.4 stars from 5,894 reviews), the non-HomeKit twin of the MSG100HK. All other picks kept; prices and ratings re-checked."
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

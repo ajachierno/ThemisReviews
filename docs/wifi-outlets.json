@@ -1,0 +1,564 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-outlets.html",
+ "json_url": "https://themisreviews.com/wifi-outlets.json",
+ "slug": "wifi-outlets",
+ "title": "The Best Wi-Fi In-Wall Smart Outlets",
+ "subtitle": "Smart receptacles that replace a standard outlet, no plug-in adapter, ranked.",
+ "intro": "We pulled the Wi-Fi in-wall smart outlets on Amazon and scored them on rating, review volume, and features: individually controlled sockets, USB ports, and tamper resistance.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "In-wall outlets",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "independent": 0.25,
+   "energy": 0.25,
+   "big_platforms": 0.3,
+   "usb": 0.2
+  },
+  "reviews_ceiling": 5000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B07N3CK3MM",
+   "name": "Kasa KP200",
+   "price": 24.99,
+   "why": "Two independently controlled sockets, rated 4.6 stars by 7,800 buyers."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0C741MSY2",
+   "name": "TOPELER Smart wall outlet",
+   "price": 14.99,
+   "why": "Two controlled sockets for $14.99."
+  },
+  {
+   "label": "Best With Energy Monitoring",
+   "asin": "B0DLLQR3K7",
+   "name": "Tapo P210M",
+   "price": 25.99,
+   "why": "Energy monitoring plus Matter, so it also works with Apple Home."
+  },
+  {
+   "label": "Best for Apple Home",
+   "asin": "B0DR3BNNLM",
+   "name": "Leviton Decora D215R (2nd Gen)",
+   "price": 30.81,
+   "why": "Leviton's Decora outlet names HomeKit, Alexa, Google, and SmartThings."
+  }
+ ],
+ "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0DLLQR3K7",
+   "name": "Tapo Smart Plug, Wi-Fi in-Wall Outlet, P210M, Matter Compatible",
+   "brand": "Tapo",
+   "model": "P210M",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 419,
+   "score": 81,
+   "awards": [
+    "Best With Energy Monitoring"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Energy monitoring and Matter in an in-wall outlet for $25.99.",
+   "pros": [
+    "Matter certified",
+    "Energy monitoring",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Neutral required",
+    "Only 419 reviews",
+    "4.4 stars"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Energy monitoring",
+    "radio": "2.4 GHz Wi-Fi, Matter"
+   },
+   "features": {
+    "independent": true,
+    "energy": true,
+    "big_platforms": true,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61PHxUzYs9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DLLQR3K7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B0DLLQR3K7"
+  },
+  {
+   "rank": 2,
+   "asin": "B07N3CK3MM",
+   "name": "Kasa Smart Plug KP200, In-Wall Smart Home Wi-Fi Outlet",
+   "brand": "Kasa",
+   "model": "KP200",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 7800,
+   "score": 78,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The proven in-wall outlet: two sockets you can name and control separately.",
+   "pros": [
+    "Each socket controlled separately",
+    "4.6 stars from 7,800 reviews",
+    "Away mode",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "No Apple Home",
+    "No energy monitoring",
+    "$24.99"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Away mode, 1875 W max total",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Cz57Vl0yL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07N3CK3MM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B07N3CK3MM"
+  },
+  {
+   "rank": 3,
+   "asin": "B07KZSG2CT",
+   "name": "BN-LINK Smart Electrical Outlet with 2 Controlled Plugs and Type-C Charging, in-Wall Smart Wi-Fi Outlet with Voice and APP Remote Control, Compatible with Alexa and Google Assistant, 2.4GHz Wi-Fi Only",
+   "brand": "BN-LINK",
+   "model": "In-wall outlet with USB-C",
+   "price": 15.33,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 471,
+   "score": 73,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Two controlled sockets plus a USB-C charging port for $15.33.",
+   "pros": [
+    "$15.33",
+    "USB-C port",
+    "Physical buttons on the faceplate"
+   ],
+   "cons": [
+    "Smart Life app",
+    "4.4 stars",
+    "USB-C is only 2.4 A"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "USB-C (5 V, 2.4 A)",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51CyHCYo5GL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KZSG2CT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B07KZSG2CT"
+  },
+  {
+   "rank": 4,
+   "asin": "B07R3R5PWS",
+   "name": "MOES Smart in-Wall Outlet, USB-A, 15A, 2.4GHz WiFi, No Hub Required",
+   "brand": "MOES",
+   "model": "In-wall outlet with USB-A and USB-C",
+   "price": 20.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 338,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "MOES / Tuya app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Smart sockets plus USB-A and USB-C ports you can switch from the app.",
+   "pros": [
+    "USB-A and USB-C",
+    "Each output controlled separately",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Some units ship with ports switched off in the app",
+    "Tuya app",
+    "No Apple Home"
+   ],
+   "specs": {
+    "controlled": "Sockets plus USB ports, individually",
+    "extras": "USB-A and USB-C",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51kSUhv4ugL._SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07R3R5PWS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B07R3R5PWS"
+  },
+  {
+   "rank": 5,
+   "asin": "B094YN5VZH",
+   "name": "Amazon Basics Smart In-Wall Outlet, Works with Alexa Only, Individually Controlled Outlets, Voice Control, WiFi, 15 Amps, 2.4 GHz, No Hub Required, White",
+   "brand": "Amazon Basics",
+   "model": "Smart In-Wall Outlet",
+   "price": 16.79,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1430,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "Amazon's own in-wall outlet. It works with Alexa and nothing else.",
+   "pros": [
+    "$16.79",
+    "Guided install video",
+    "4.4 stars from 1,430 reviews"
+   ],
+   "cons": [
+    "Alexa only",
+    "Needs a 2-inch-deep box and neutral",
+    "No app outside Alexa"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "15 A",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71E8kyucaAL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B094YN5VZH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B094YN5VZH"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CBBN4K7Y",
+   "name": "ELEGRP Smart Plug, Smart in-Wall Outlet Compatible with Alexa and Google Assistant, 2.4GHz Wi-Fi Smart Receptacle with Energy Monitoring, No Hub Required, UL Listed, White, 6 Pack",
+   "brand": "ELEGRP",
+   "model": "Smart in-wall outlet (6-pack)",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 37,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Six energy-monitoring outlets for about $13 each, without Matter.",
+   "pros": [
+    "Energy monitoring",
+    "UL and cUL certified",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Sold only as a 6-pack",
+    "Only 37 reviews",
+    "Alexa and Google only"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Energy monitoring, UL and cUL, 6-pack",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": true,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LcV1SftwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CBBN4K7Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B0CBBN4K7Y"
+  },
+  {
+   "rank": 7,
+   "asin": "B0C741MSY2",
+   "name": "Smart Wall Outlet with 2 Individually Controlled Ports, 15Amp TR Receptacle Control Appliances from Anywhere, 2.4 GHz WiFi Outlet Work with Alexa & Google Home, White, ETL & FCC Approval",
+   "brand": "TOPELER",
+   "model": "Smart wall outlet",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 278,
+   "score": 65,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The cheapest two-socket smart outlet here, and tamper resistant.",
+   "pros": [
+    "$14.99",
+    "Tamper-resistant receptacle",
+    "4.3 stars from 278 reviews"
+   ],
+   "cons": [
+    "2.4 GHz only",
+    "Smart Life app",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Tamper resistant, 15 A",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61NA8ThmydL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C741MSY2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B0C741MSY2"
+  },
+  {
+   "rank": 8,
+   "asin": "B0DR3BNNLM",
+   "name": "Leviton Decora Smart Outlet, 15A, Wi-Fi 2nd Gen, D215R-1RW, White",
+   "brand": "Leviton",
+   "model": "Decora D215R (2nd Gen)",
+   "price": 30.81,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 119,
+   "score": 65,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A Decora-style outlet that works with Apple Home, Alexa, Google, and SmartThings.",
+   "pros": [
+    "HomeKit, Alexa, Google, and SmartThings",
+    "Handles motor loads to 3/4 HP",
+    "Pairs with Leviton's Anywhere companion"
+   ],
+   "cons": [
+    "One switched socket",
+    "Only 119 reviews",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "controlled": "1 switched",
+    "extras": "Sunrise/sunset schedules, vacation mode, Anywhere companion",
+    "radio": "Wi-Fi"
+   },
+   "features": {
+    "independent": false,
+    "energy": false,
+    "big_platforms": true,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51KGVAiqt8L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DR3BNNLM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B0DR3BNNLM"
+  },
+  {
+   "rank": 9,
+   "asin": "B0FCZJ48JV",
+   "name": "Geeni Smart Wi-Fi in-Wall Outlet, Tamper & Fire Resistant, White, 4-Pack",
+   "brand": "Geeni",
+   "model": "In-wall outlet (4-pack)",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 31,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Geeni app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Four tamper-resistant smart outlets for $59.99, about $15 each.",
+   "pros": [
+    "4-pack",
+    "Tamper and fire resistant",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Only 31 reviews",
+    "Neutral required",
+    "Geeni app"
+   ],
+   "specs": {
+    "controlled": "2 per outlet, individually",
+    "extras": "Tamper and fire resistant, 4-pack",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71gyvyFUsVL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FCZJ48JV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B0FCZJ48JV"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "In-wall outlet or plug-in smart plug?",
+   "a": "An in-wall outlet replaces your receptacle, so nothing sticks out and both sockets stay usable. It needs wiring work. A plug-in smart plug needs no tools."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Yes, nearly all smart outlets need line, neutral, and ground. Most outlet boxes have them."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "notes": [
+    "Corrected the ELEGRP outlet: the listing is a 6-pack (about $13.33 per outlet), not a single outlet."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 9 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

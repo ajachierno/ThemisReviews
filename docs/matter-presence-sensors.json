@@ -1,0 +1,249 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-presence-sensors.html",
+ "json_url": "https://themisreviews.com/matter-presence-sensors.json",
+ "slug": "matter-presence-sensors",
+ "title": "The Best Matter Presence Sensors",
+ "subtitle": "Presence sensors that work with every major smart home platform.",
+ "intro": "Matter presence sensors are new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Presence sensors",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "battery": 0.35,
+   "multi": 0.35,
+   "rating": 0.3
+  },
+  "reviews_ceiling": 1000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0FG2MD3YP",
+   "name": "Aqara FP300",
+   "price": 46.99,
+   "why": "mmWave plus PIR with temperature, humidity, and light on batteries, 1K+ bought last month."
+  },
+  {
+   "label": "Best Rated",
+   "asin": "B0H6JFC9RQ",
+   "name": "GL Technologies LWR02",
+   "price": 49.99,
+   "why": "A 5-in-1 radar-and-PIR Matter sensor rated 4.3 stars, with a 2-year AAA battery."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0H6JFC9RQ",
+   "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
+   "brand": "GL Technologies",
+   "model": "LWR02",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 116,
+   "score": 84,
+   "awards": [
+    "Best Rated"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A well-rated 5-in-1 Thread sensor that takes rechargeable AAAs.",
+   "pros": [
+    "4.3 stars",
+    "Up to 2 years on AAA",
+    "Rechargeable cells supported"
+   ],
+   "cons": [
+    "Only 116 reviews",
+    "Lesser-known brand",
+    "$49.99"
+   ],
+   "specs": {
+    "radar": "24 GHz mmWave + PIR",
+    "power": "2 AAA, up to 2 years",
+    "extras": "Light, temperature, humidity",
+    "hub": "Thread border router"
+   },
+   "features": {
+    "battery": true,
+    "multi": true,
+    "rating": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51U1Fzg+OPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H6JFC9RQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-presence-sensors.html#B0H6JFC9RQ"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FG2MD3YP",
+   "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
+   "brand": "Aqara",
+   "model": "FP300",
+   "price": 46.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 959,
+   "score": 81,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The most popular Matter presence sensor, and it can run on Zigbee instead if you prefer.",
+   "pros": [
+    "Matter over Thread or Zigbee",
+    "5 sensors in one",
+    "Battery powered",
+    "959 reviews"
+   ],
+   "cons": [
+    "3.7 stars",
+    "$46.99",
+    "Needs a Thread border router for Matter"
+   ],
+   "specs": {
+    "radar": "60 GHz mmWave + PIR",
+    "power": "Battery",
+    "extras": "Light, temperature, humidity",
+    "hub": "Thread border router (or Zigbee hub)"
+   },
+   "features": {
+    "battery": true,
+    "multi": true,
+    "rating": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61rVKe4shTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FG2MD3YP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-presence-sensors.html#B0FG2MD3YP"
+  },
+  {
+   "rank": 3,
+   "asin": "B0G8HN5THR",
+   "name": "meross Presence Sensor MS605, Matter Over Thread, IP67 and Battery-Powered",
+   "brand": "meross",
+   "model": "MS605",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 31,
+   "score": 58,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "An IP67 battery presence sensor on Matter over Thread, usable outdoors.",
+   "pros": [
+    "IP67",
+    "Flexible stand",
+    "Matter over Thread"
+   ],
+   "cons": [
+    "3.8 stars",
+    "$59.99",
+    "Only 31 reviews"
+   ],
+   "specs": {
+    "radar": "mmWave",
+    "power": "Battery",
+    "extras": "IP67, foldable stand",
+    "hub": "Thread border router"
+   },
+   "features": {
+    "battery": true,
+    "multi": false,
+    "rating": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61sM0BfmspL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G8HN5THR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-presence-sensors.html#B0G8HN5THR"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Presence sensor or motion sensor?",
+   "a": "A motion sensor (PIR) sees movement, so lights turn off if you sit still. An mmWave presence sensor detects breathing-level motion, so it knows you're still in the room while you read or work."
+  },
+  {
+   "q": "Do presence sensors need power?",
+   "a": "Most mmWave sensors need USB or wall power because the radar runs constantly. A few newer battery models combine PIR and mmWave to save power."
+  },
+  {
+   "q": "Can it tell where I am in the room?",
+   "a": "Some models, like the Aqara FP2, support zones, so a desk, couch, and bed can trigger different automations."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 3 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

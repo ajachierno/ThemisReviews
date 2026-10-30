@@ -1,0 +1,573 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-desk-lamps.html",
+ "json_url": "https://themisreviews.com/wifi-desk-lamps.json",
+ "slug": "wifi-desk-lamps",
+ "title": "The Best Smart Desk and Table Lamps",
+ "subtitle": "Wi-Fi desk and table lamps with app and voice control, ranked.",
+ "intro": "We pulled the smart desk and table lamps on Amazon and scored them on rating, review volume, and features: tunable white, color, brightness, and voice control.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Lamps",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "white": 0.3,
+   "matter": 0.25,
+   "cordless": 0.2,
+   "bright": 0.25
+  },
+  "reviews_ceiling": 10000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0D41XL87F",
+   "name": "Govee RGBIC Smart Table Lamp 2",
+   "price": 69.99,
+   "why": "Govee's Table Lamp 2 has tunable white, Matter, and 4.7 stars from 2,611 buyers."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B099MV5XMX",
+   "name": "Hifree Smart Table Lamp",
+   "price": 29.99,
+   "why": "A touch-and-voice bedside lamp with Alexa and Google for $29.99."
+  },
+  {
+   "label": "Best Cordless",
+   "asin": "B0GLM9BBQT",
+   "name": "Govee Cordless Table Lamp Classic",
+   "price": 63.99,
+   "why": "Up to 30 hours per charge with Matter support."
+  },
+  {
+   "label": "Best for Effects",
+   "asin": "B0DDXD8BMQ",
+   "name": "Lepro TB1 AI Smart Table Lamp",
+   "price": 63.99,
+   "why": "196 addressable LEDs and AI-generated lighting scenes."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0D41XL87F",
+   "name": "Govee RGBIC Smart Table Lamp 2, Touch Bedside Small Table Lamp (Corded)",
+   "brand": "Govee",
+   "model": "RGBIC Smart Table Lamp 2",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2611,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "7K+ bought in past month",
+   "verdict": "The best-selling smart table lamp, with real white light and Matter.",
+   "pros": [
+    "4.7 stars from 2,611 reviews",
+    "7K+ bought in the past month",
+    "Matter, so it works in Apple Home"
+   ],
+   "cons": [
+    "500 lm is a bedside light, not a reading lamp",
+    "Corded",
+    "Govee app for effects"
+   ],
+   "specs": {
+    "style": "Bedside table lamp, corded",
+    "brightness": "500 lm",
+    "color": "RGBICWW, 2,700K–6,500K",
+    "extras": "Pat-to-wake, music sync"
+   },
+   "features": {
+    "matter": true,
+    "white": true,
+    "cordless": false,
+    "bright": false,
+    "effects": true
+   },
+   "image": "https://m.media-amazon.com/images/I/618yTEtHltL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D41XL87F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0D41XL87F"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GLM9BBQT",
+   "name": "Govee Smart Cordless Table Lamp Classic (No Adapter) , RGBIC Desk Lamp",
+   "brand": "Govee",
+   "model": "Cordless Table Lamp Classic",
+   "price": 63.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 200,
+   "score": 75,
+   "awards": [
+    "Best Cordless"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Carry it to the patio or dinner table; it charges over USB-C.",
+   "pros": [
+    "Cordless, 5 to 30 hours per charge",
+    "Matter and SmartThings",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "Power adapter not included",
+    "Dims itself on battery",
+    "Only 200 reviews"
+   ],
+   "specs": {
+    "style": "Cordless table lamp",
+    "brightness": "500 lm",
+    "color": "RGBIC+WW, 2,700K–6,500K",
+    "extras": "4,800 mAh battery, 5–30 hours"
+   },
+   "features": {
+    "matter": true,
+    "white": true,
+    "cordless": true,
+    "bright": false,
+    "effects": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61VGyq646AL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GLM9BBQT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0GLM9BBQT"
+  },
+  {
+   "rank": 3,
+   "asin": "B08CKGXVL3",
+   "name": "meross Smart Table Lamp, Compatible with Apple HomeKit and Amazon Alexa",
+   "brand": "meross",
+   "model": "Smart Table Lamp",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1774,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "works_with_note": "meross app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The cheapest way to get a lamp into Apple Home, and it keeps schedules even offline.",
+   "pros": [
+    "Apple HomeKit and Alexa",
+    "Local control when Wi-Fi is down",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "No Google Assistant",
+    "4.2 stars",
+    "Brightness isn't in the bullets"
+   ],
+   "specs": {
+    "style": "Bedside table lamp",
+    "brightness": "Not stated in bullets",
+    "color": "16M colors, 2,700K–6,500K",
+    "extras": "Local control and schedules if Wi-Fi drops"
+   },
+   "features": {
+    "matter": false,
+    "white": true,
+    "cordless": false,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51dBD+myDDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08CKGXVL3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B08CKGXVL3"
+  },
+  {
+   "rank": 4,
+   "asin": "B099MV5XMX",
+   "name": "Smart Table Lamp, Dimmable Desk Lamp with App/Voice Control, LED RGB Color Changing Touch Lamp, Night Lamp for Bedroom Compatible with Alexa",
+   "brand": "Hifree",
+   "model": "Smart Table Lamp",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1508,
+   "score": 70,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Smart Life app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A simple night lamp for a kid's room, controlled by touch, voice, or app.",
+   "pros": [
+    "$29.99",
+    "1,508 reviews",
+    "Touch, voice, and app control"
+   ],
+   "cons": [
+    "Smart Life app",
+    "Small, accent light only",
+    "Sold by a third party"
+   ],
+   "specs": {
+    "style": "Small touch lamp",
+    "brightness": "Not stated in bullets",
+    "color": "RGB + 2,700K–6,500K",
+    "extras": "Anti-blue-light LEDs"
+   },
+   "features": {
+    "matter": false,
+    "white": true,
+    "cordless": false,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51nx4ZZbhrL._AC_SL1472_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B099MV5XMX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B099MV5XMX"
+  },
+  {
+   "rank": 5,
+   "asin": "B0936C6SBW",
+   "name": "Bedroom Lamp with Smart RGB LED Bulb, Multicolor Changing Table Lamp for Bedroom with 2 USB Port, Dimmable Bedside Lamp Work with Alexa, Smart Nightstand Light for Living Room Sync with Music(2.4GHz)",
+   "brand": "Peteme",
+   "model": "Bedroom Lamp with Smart RGB Bulb",
+   "price": 32.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 646,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A regular-looking bedside lamp with a smart bulb and USB charging in the base.",
+   "pros": [
+    "2 USB ports",
+    "$32.99",
+    "646 reviews"
+   ],
+   "cons": [
+    "Alexa only",
+    "2.4 GHz Wi-Fi only",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "style": "Shade lamp with smart bulb",
+    "brightness": "Not stated in bullets",
+    "color": "RGB + 2,700K–6,500K",
+    "extras": "2 USB charging ports"
+   },
+   "features": {
+    "matter": false,
+    "white": true,
+    "cordless": false,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61UPHWjfGZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0936C6SBW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0936C6SBW"
+  },
+  {
+   "rank": 6,
+   "asin": "B0F3D8RB4H",
+   "name": "Govee Table Lamp 2 Pro x Sound by JBL, Cordless Table Lamp with Speaker",
+   "brand": "Govee",
+   "model": "Table Lamp 2 Pro x Sound by JBL",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 572,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A party lamp with a built-in speaker and fast music sync.",
+   "pros": [
+    "Built-in JBL-tuned speaker",
+    "Pair two for stereo",
+    "Cordless"
+   ],
+   "cons": [
+    "3.9 stars",
+    "$179.99",
+    "Needs a firmware update before touch controls work properly"
+   ],
+   "specs": {
+    "style": "Cordless table lamp with speaker",
+    "brightness": "Not stated in bullets",
+    "color": "RGBIC, 210 LEDs",
+    "extras": "JBL-tuned speaker, 5,200 mAh battery"
+   },
+   "features": {
+    "matter": true,
+    "white": false,
+    "cordless": true,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71lINT5EVbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F3D8RB4H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0F3D8RB4H"
+  },
+  {
+   "rank": 7,
+   "asin": "B09G6S3QX1",
+   "name": "WiZ Connected Hero v2 Smart Portable Table Lamp, WiFi Enabled, 16 Million Colors, Compatible with Alexa and Google Home Assistant, No Hub Required",
+   "brand": "WiZ",
+   "model": "Hero v2 Portable Table Lamp",
+   "price": 44.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 75,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "WiZ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A small WiZ lamp that can sense motion when paired with another WiZ light.",
+   "pros": [
+    "Works with Home Assistant via WiZ",
+    "SpaceSense motion detection",
+    "No hub needed"
+   ],
+   "cons": [
+    "Only 75 reviews",
+    "Siri through Shortcuts only",
+    "$44.99"
+   ],
+   "specs": {
+    "style": "Portable table lamp",
+    "brightness": "Not stated in bullets",
+    "color": "16M colors",
+    "extras": "SpaceSense motion with two WiZ lights"
+   },
+   "features": {
+    "matter": false,
+    "white": true,
+    "cordless": true,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61MD8uMMd0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09G6S3QX1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B09G6S3QX1"
+  },
+  {
+   "rank": 8,
+   "asin": "B0DDXD8BMQ",
+   "name": "Lepro TB1 AI Smart Table Lamp, RGB+IC Addressable Color Changing Desk Lamp",
+   "brand": "Lepro",
+   "model": "TB1 AI Smart Table Lamp",
+   "price": 63.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 456,
+   "score": 60,
+   "awards": [
+    "Best for Effects"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Lepro app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A display piece with flowing color effects you can describe in plain words.",
+   "pros": [
+    "4.5 stars",
+    "196 addressable LEDs",
+    "AI lighting scenes"
+   ],
+   "cons": [
+    "Decor light, not task light",
+    "No remote",
+    "$63.99"
+   ],
+   "specs": {
+    "style": "Sculptural desk lamp",
+    "brightness": "Not stated in bullets",
+    "color": "RGB+IC, 196 LEDs",
+    "extras": "AI scene designer, photo-to-lighting"
+   },
+   "features": {
+    "matter": false,
+    "white": false,
+    "cordless": false,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71r6-ICscrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DDXD8BMQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0DDXD8BMQ"
+  },
+  {
+   "rank": 9,
+   "asin": "B0DDX2CY1Q",
+   "name": "Lepro TB2 AI Smart Table Lamp, RGB+IC Modern Treble Clef Spiral Desk Light",
+   "brand": "Lepro",
+   "model": "TB2 AI Smart Table Lamp",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 95,
+   "score": 54,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Lepro app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The spiral version of the TB1.",
+   "pros": [
+    "Addressable LEDs",
+    "Alexa and Google",
+    "AI lighting scenes"
+   ],
+   "cons": [
+    "Only 95 reviews",
+    "4.3 stars",
+    "Decor light only"
+   ],
+   "specs": {
+    "style": "Spiral desk lamp",
+    "brightness": "Not stated in bullets",
+    "color": "RGB+IC, 152 LEDs",
+    "extras": "AI scene designer"
+   },
+   "features": {
+    "matter": false,
+    "white": false,
+    "cordless": false,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61nWhgSSCoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DDX2CY1Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0DDX2CY1Q"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Smart lamp or a smart bulb in a regular lamp?",
+   "a": "A smart lamp builds the color effects into the fixture, often with segmented RGBIC light a single bulb can't do. A smart bulb is cheaper if you like the lamp you have."
+  },
+  {
+   "q": "Do smart lamps need a hub?",
+   "a": "Most Wi-Fi lamps connect straight to your router. Philips Hue lamps need the Hue Bridge for full features."
+  },
+  {
+   "q": "Can they light a whole room?",
+   "a": "Floor lamps with 1,000+ lumens can. Many color lamps are accent lights, so check the brightness if you need reading light."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 9 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

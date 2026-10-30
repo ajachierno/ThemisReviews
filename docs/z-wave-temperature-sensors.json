@@ -1,0 +1,542 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html",
+ "json_url": "https://themisreviews.com/z-wave-temperature-sensors.json",
+ "slug": "z-wave-temperature-sensors",
+ "title": "The Best Z-Wave Temperature and Humidity Sensors",
+ "subtitle": "Z-Wave climate sensors and multisensors, ranked.",
+ "intro": "Dedicated Z-Wave temperature sensors are rare, so this list includes multisensors that also report temperature. We scored them on rating, review volume, and features: humidity, Long Range, and extra sensing.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Temperature sensors",
+ "data_captured": "2026-10-22",
+ "updated": "2026-10-22",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "humidity": 0.35,
+   "long_range": 0.3,
+   "multi": 0.2,
+   "usb_power": 0.15
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0B3G9Z4LJ",
+   "name": "Zooz ZSE44 800LR",
+   "price": 44.95,
+   "why": "A dedicated temperature and humidity sensor with 800 Series Long Range, and the best rating of the dedicated sensors."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0987MNJZ1",
+   "name": "Aeotec aërQ",
+   "price": 34.99,
+   "why": "Temperature, humidity, and dew point in a 1.38 in. square, for $34.99."
+  },
+  {
+   "label": "Best Multisensor",
+   "asin": "B08XHZP7NV",
+   "name": "Aeotec MultiSensor 7",
+   "price": 69.99,
+   "why": "Six sensors in one, including humidity and temperature, with batteries or USB power."
+  },
+  {
+   "label": "Best for Basements",
+   "asin": "B0GYZRCWCB",
+   "name": "Aeotec Water Sensor 8",
+   "price": 39.99,
+   "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09GDL6BGY",
+   "name": "Zooz Z-Wave Long Range Q Sensor ZSE11 800LR | Motion, Temperature, Humidity, Light (Hub Required)",
+   "brand": "Zooz",
+   "model": "Q Sensor ZSE11 800LR",
+   "price": 46.95,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 127,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A four-in-one motion and climate sensor with Long Range and optional USB power.",
+   "pros": [
+    "Motion, temperature, humidity, and light",
+    "Batteries or micro USB",
+    "Adjustable mounting bracket"
+   ],
+   "cons": [
+    "3.6 stars",
+    "Many basic hubs can't display multisensors, per Zooz",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature, humidity, motion, light",
+    "power": "Batteries included or micro USB"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": true,
+    "multi": true,
+    "usb_power": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41xURZEyPGL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09GDL6BGY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B09GDL6BGY"
+  },
+  {
+   "rank": 2,
+   "asin": "B0B3G9Z4LJ",
+   "name": "Zooz 800 Series Z-Wave Long Range Temperature | Humidity XS Sensor ZSE44 800LR. Hub Required (Sold Separately). Compatible with Z-Box, SmartThings, Hubitat, and Home Assistant (Z-Wave JS).",
+   "brand": "Zooz",
+   "model": "ZSE44 800LR",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 132,
+   "score": 77,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best dedicated Z-Wave climate sensor: extra small, with Long Range.",
+   "pros": [
+    "800 Series Long Range",
+    "Extra small",
+    "Names Home Assistant, Hubitat, HomeSeer, and SmartThings",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "Open Z-Wave hubs only, per the listing",
+    "4.1 stars",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature, humidity",
+    "power": "Battery"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": true,
+    "multi": false,
+    "usb_power": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41Fdd-uONjL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B3G9Z4LJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0B3G9Z4LJ"
+  },
+  {
+   "rank": 3,
+   "asin": "B08XHZP7NV",
+   "name": "Aeotec MultiSensor 7, 6-in-1 Zwave Sensors Contains Monitor Motion, Temperature, Light, Humidity, UV, and Vibration, Z-Wave Plus, Gen7, S2, SmartStart Enabled, Compatible with Zwave Hub Smartthings",
+   "brand": "Aeotec",
+   "model": "MultiSensor 7",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 112,
+   "score": 75,
+   "awards": [
+    "Best Multisensor"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Six sensors in one small puck, and it can run on USB power so you never change batteries.",
+   "pros": [
+    "Temperature, humidity, motion, light, UV, and vibration",
+    "Batteries or USB power",
+    "Mounts in a corner, on a shelf, or in a downlight"
+   ],
+   "cons": [
+    "3.8 stars",
+    "700 Series, no Long Range",
+    "$69.99"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "long_range": false,
+    "measures": "Temperature, humidity, motion, light, UV, vibration",
+    "power": "Batteries included or USB"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": false,
+    "multi": true,
+    "usb_power": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61CHj5F2NzS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08XHZP7NV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B08XHZP7NV"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GR6BB2YT",
+   "name": "Aeotec Door Window Sensor 8 - Z-Wave Long Range, Open/Close, Temperature & Humidity, 3 Axis Sensor, Mold Hazard Function, Tamper, Garage Door Sensor, Z-Wave 800 Series, HomeAssistant, SmartThings,",
+   "brand": "Aeotec",
+   "model": "Door Window Sensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 16,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A door sensor that doubles as a climate sensor, with mold-hazard and dew point reports.",
+   "pros": [
+    "Temperature, humidity, and mold-hazard alerts",
+    "Open/close, tilt, and vibration",
+    "Names SmartThings, Homey, Home Assistant, and Hubitat"
+   ],
+   "cons": [
+    "Only 16 reviews",
+    "4.1 stars",
+    "Overkill if you only need temperature"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature, humidity, open/close, tilt, vibration",
+    "power": "Battery"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": true,
+    "multi": true,
+    "usb_power": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61uR59Fo6yL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR6BB2YT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0GR6BB2YT"
+  },
+  {
+   "rank": 5,
+   "asin": "B0GYZRCWCB",
+   "name": "Aeotec Water Sensor 8, Z-Wave Plus 800 Series with Long Range Support, Leak Detector with Temperature & Humidity, SmartThings Compatible, Battery or USB-C Powered Flood Sensor",
+   "brand": "Aeotec",
+   "model": "Water Sensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 6,
+   "score": 71,
+   "awards": [
+    "Best for Basements"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A leak sensor that also reports temperature, humidity, and mold risk, for basements and crawl spaces.",
+   "pros": [
+    "Leak, temperature, humidity, and mold risk",
+    "Long Range",
+    "Battery up to 4 years or USB-C"
+   ],
+   "cons": [
+    "Only 6 reviews",
+    "$39.99",
+    "Bigger than a plain climate sensor"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature, humidity, leak, mold risk",
+    "power": "Battery up to 4 yrs or USB-C"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": true,
+    "multi": true,
+    "usb_power": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61r0vROq5YL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GYZRCWCB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0GYZRCWCB"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DCL43CS2",
+   "name": "Zooz Outdoor/Indoor Motion Sensor ZSE70, Z-Wave Long Range, Temperature Monitoring, 800 LR Range",
+   "brand": "Zooz",
+   "model": "ZSE70 Outdoor Motion Sensor",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 62,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "An outdoor motion sensor that also reports temperature, for porches and yards.",
+   "pros": [
+    "Works outdoors",
+    "Long Range up to 1,300 ft.",
+    "Acts as a repeater on 12 V power"
+   ],
+   "cons": [
+    "No humidity",
+    "Open Z-Wave hubs only",
+    "$47.95"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature, motion, light",
+    "power": "2 CR123A or 12 V"
+   },
+   "features": {
+    "humidity": false,
+    "long_range": true,
+    "multi": true,
+    "usb_power": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61hlDa1jAZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DCL43CS2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0DCL43CS2"
+  },
+  {
+   "rank": 7,
+   "asin": "B0987MNJZ1",
+   "name": "Aeotec aërQ Temperature, Humidity, Dew Point Sensor - Wireless, Battery Powered, Z-Wave Hub Required (White)",
+   "brand": "Aeotec",
+   "model": "aërQ",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 3.5,
+   "reviews_count": 173,
+   "score": 65,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A tiny sensor that adds dew point to temperature and humidity, for the lowest price here.",
+   "pros": [
+    "$34.99",
+    "Dew point and alerts",
+    "1.38 in. square"
+   ],
+   "cons": [
+    "3.5 stars",
+    "Only 7 left at capture time",
+    "No Long Range listed"
+   ],
+   "specs": {
+    "series": "Z-Wave Plus",
+    "long_range": false,
+    "measures": "Temperature, humidity, dew point",
+    "power": "Battery, 1+ year"
+   },
+   "features": {
+    "humidity": true,
+    "long_range": false,
+    "multi": false,
+    "usb_power": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51anfmuGO8S._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0987MNJZ1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0987MNJZ1"
+  },
+  {
+   "rank": 8,
+   "asin": "B0D47WR1S2",
+   "name": "Aeotec TriSensor 8, 800 Series Zwave Motion Sensor, Temperature, Light Sensor, Work with Zwave Hub Smartthings 3-in 1 Security System, Long Range Capable",
+   "brand": "Aeotec",
+   "model": "TriSensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 40,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A motion, temperature, and light sensor with Long Range.",
+   "pros": [
+    "800 Series with Long Range",
+    "Adjustable motion sensitivity",
+    "Names SmartThings and HomeSeer"
+   ],
+   "cons": [
+    "No humidity",
+    "3.7 stars",
+    "±1°C is less precise than dedicated sensors"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "long_range": true,
+    "measures": "Temperature (±1°C), motion, light",
+    "power": "CR123A, about 1 year"
+   },
+   "features": {
+    "humidity": false,
+    "long_range": true,
+    "multi": true,
+    "usb_power": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615t9T6S3UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D47WR1S2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#B0D47WR1S2"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B09MWM5DWB",
+   "name": "Trane Parts OEM Trane ZSENS930AW00MA Z-Wave Temperature and Humidity Sensor (ZSENS930AW00M_ver4)",
+   "brand": "Trane",
+   "model": "ZSENS930 Z-Wave sensor",
+   "price": 91.0,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 27,
+   "flag": "Only pairs with Trane HVAC systems, non-returnable",
+   "verdict": "It says Z-Wave in the title, but the listing says it only pairs with Trane ComfortLink and AccuLink systems, and you can't return it.",
+   "reasons": [
+    "\"ONLY PAIRS with ComfortLink & AccuLink Systems,\" per the listing, so a normal Z-Wave hub won't use it.",
+    "It's marked non-returnable.",
+    "$91 is double or triple the price of every general-purpose sensor here."
+   ],
+   "works_with": [],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/31mDqLdEazL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09MWM5DWB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-temperature-sensors.html#avoid-B09MWM5DWB"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "How accurate are these sensors?",
+   "a": "Most smart sensors are within about 1°F and 3 to 5% relative humidity, which is fine for rooms, nurseries, and basements. For fridges, freezers, or reptile tanks, pick one with a probe or a stated tighter accuracy, and check it against a reference thermometer once."
+  },
+  {
+   "q": "What can I automate with one?",
+   "a": "Turn on a fan or dehumidifier when humidity climbs, get an alert when a freezer warms up or pipes risk freezing, or let a smart thermostat average temperatures across rooms."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-22",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 8 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

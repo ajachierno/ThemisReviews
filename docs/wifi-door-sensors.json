@@ -1,0 +1,594 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-door-sensors.html",
+ "json_url": "https://themisreviews.com/wifi-door-sensors.json",
+ "slug": "wifi-door-sensors",
+ "title": "The Best Wi-Fi Door and Window Sensors",
+ "subtitle": "No-hub contact sensors that connect straight to your router.",
+ "intro": "We pulled the Wi-Fi door and window sensors selling on Amazon and scored them on rating, review volume, and features. Wi-Fi sensors need no hub, but they use more battery, and almost all of them run on the cloud-based Smart Life (Tuya) app.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Door and window sensors",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "voice": 0.5,
+   "siren": 0.25,
+   "bluetooth_backup": 0.25
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DG2HF6R6",
+   "name": "Xinji Wi-Fi door sensor",
+   "price": 11.99,
+   "why": "The best-rated Smart Life sensor with a real review count, and it answers \"is the door closed?\" through Alexa or Google."
+  },
+  {
+   "label": "Best Multipack",
+   "asin": "B0BKT1RBW4",
+   "name": "Gaoducash Wi-Fi door sensor (4-pack)",
+   "price": 34.18,
+   "why": "Four sensors for about $8.50 each, with low-battery alerts."
+  },
+  {
+   "label": "Built-in Alarm",
+   "asin": "B0H4TX9FZM",
+   "name": "TECKNET Wi-Fi door alarm sensor and chime",
+   "price": 22.49,
+   "why": "A sensor with its own alarm and chime modes, rated 4.6 stars by 1,067 buyers for $22.49."
+  }
+ ],
+ "systems_note": "Smart Life (Tuya) sensors work with Home Assistant through its official Tuya integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0BPXVQ359",
+   "name": "WiFi Door Sensor: Smart Door Open/Closed Detectors, Wireless Window Sensor with App Notification Alert, Contact Sensor for Home Security, Compatible with Alexa Google Assistant (1pack)",
+   "brand": "Xinji",
+   "model": "Wi-Fi + Bluetooth door sensor",
+   "price": 12.34,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 303,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The same idea with Bluetooth added for easier pairing, and a history log of every open and close.",
+   "pros": [
+    "Wi-Fi and Bluetooth dual mode",
+    "History log in the app",
+    "Alexa and Google voice queries"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Cloud-based Smart Life app",
+    "Battery life isn't listed"
+   ],
+   "specs": {
+    "app": "Smart Life",
+    "pack": "1 sensor",
+    "extras": "Bluetooth setup mode, history log",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51RC0C-o8JL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BPXVQ359?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0BPXVQ359"
+  },
+  {
+   "rank": 2,
+   "asin": "B0H4TX9FZM",
+   "name": "TECKNET 2.4G WiFi Wireless Window Door Alarm Sensor & Chime with App",
+   "brand": "TECKNET",
+   "model": "Wi-Fi door alarm sensor and chime",
+   "price": 22.49,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1067,
+   "score": 78,
+   "awards": [
+    "Built-in Alarm"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Tuya app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best-reviewed Wi-Fi door alarm here: a sensor that sounds on its own and sends Tuya app alerts, with three alarm or chime modes.",
+   "pros": [
+    "4.6 stars from 1,067 reviews, 100+ bought last month",
+    "Alarm, door-open, and chime modes with adjustable volume",
+    "36-month warranty"
+   ],
+   "cons": [
+    "Listing doesn't mention Alexa or Google",
+    "Bluetooth needed on the phone for setup",
+    "Cloud-based Tuya app"
+   ],
+   "specs": {
+    "app": "Tuya Smart",
+    "pack": "Not stated in bullets",
+    "extras": "Alarm, door-open, and chime modes with adjustable volume",
+    "battery": "2 AAA (sensor)"
+   },
+   "features": {
+    "voice": false,
+    "siren": true,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61wGaE3A2-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H4TX9FZM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0H4TX9FZM"
+  },
+  {
+   "rank": 3,
+   "asin": "B0GPW2KHRX",
+   "name": "Door Chime, Smart WiFi Door Sensor Chime Window Sensor Alarm",
+   "brand": "KINGWANT",
+   "model": "Wi-Fi door chime with sensor",
+   "price": 29.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 930,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Tuya / Smart Life app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A plug-in door chime with a Wi-Fi sensor, so a shop or front door rings in the room and pings your phone.",
+   "pros": [
+    "Chime up to 110 dB with 5 volume levels",
+    "Free app alerts, 300+ bought last month",
+    "Expandable to 20 sensors with different ringtones"
+   ],
+   "cons": [
+    "Listing doesn't mention Alexa or Google",
+    "Receiver needs an outlet",
+    "Paid SMS and call alerts are an optional extra"
+   ],
+   "specs": {
+    "app": "Tuya Smart or Smart Life",
+    "pack": "Plug-in chime receiver and 1 sensor",
+    "extras": "Up to 110 dB, 5 volume levels, expandable to 20 sensors",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": false,
+    "siren": true,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71X6fjo2jvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GPW2KHRX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0GPW2KHRX"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DG2HF6R6",
+   "name": "WiFi Door Sensor Window Detector: Smart Window Contact Sensor, Wireless Magnetic Door Open Detector with Free Notification Alerts, Compatible with Alexa Google Assistant (1-Pack)",
+   "brand": "Xinji",
+   "model": "Wi-Fi door sensor",
+   "price": 11.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 301,
+   "score": 75,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A no-hub Smart Life sensor with the best rating among the Wi-Fi sensors that have meaningful review counts.",
+   "pros": [
+    "3.9 stars from 301 reviews",
+    "Ask Alexa or Google whether a door is open",
+    "Triggers Smart Life routines"
+   ],
+   "cons": [
+    "Cloud-based Smart Life app",
+    "Wi-Fi drains batteries faster than Zigbee",
+    "Sold by a third-party seller"
+   ],
+   "specs": {
+    "app": "Smart Life",
+    "pack": "1 sensor",
+    "extras": "Voice status queries",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61R5kY90KGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DG2HF6R6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0DG2HF6R6"
+  },
+  {
+   "rank": 5,
+   "asin": "B0BKT1RBW4",
+   "name": "WiFi Door Window Sensor: Smart Contact Sensor with App Alerts, Door Open Detector Compatible with Alexa Google Assistant, Entry Detector Sensor for Home Security and Home Automation (4-Pack)",
+   "brand": "Gaoducash",
+   "model": "Wi-Fi door sensor (4-pack)",
+   "price": 34.18,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 292,
+   "score": 75,
+   "awards": [
+    "Best Multipack"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Four Tuya sensors for about $8.50 each, for covering several doors at once.",
+   "pros": [
+    "About $8.50 per sensor",
+    "Low-battery alerts in the app",
+    "Alexa and Google voice queries"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Cloud-based app",
+    "The pack size is only stated deep in the listing"
+   ],
+   "specs": {
+    "app": "Tuya Smart or Smart Life",
+    "pack": "4 sensors",
+    "extras": "Low-battery alerts",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61GSes6j6DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BKT1RBW4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0BKT1RBW4"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CLTSX9DC",
+   "name": "Smart WiFi Door Sensor: Wireless Window Sensor with App Notification Alert, Tuya Door Open Contact Sensor for Home Security, No Hub Required, Compatible with Alexa Google Assistant",
+   "brand": "Gaoducash",
+   "model": "Wi-Fi door sensor",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 268,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A basic Tuya door sensor with free alerts and Alexa or Google voice queries.",
+   "pros": [
+    "No hub, no fees",
+    "Links to other Tuya devices for automations",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Cloud-based app",
+    "Battery life isn't listed"
+   ],
+   "specs": {
+    "app": "Tuya Smart or Smart Life",
+    "pack": "1 sensor",
+    "extras": "No subscription fees",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61oWgQ-w16L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLTSX9DC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0CLTSX9DC"
+  },
+  {
+   "rank": 7,
+   "asin": "B0B76PR3X8",
+   "name": "2 Pack WiFi Door Window Sensor Detector: Wireless Security Alarm Door Sensor, Tuya Door Open Contact Sensor, Compatible with Alexa,Google Home,Siri, Smart Door Sensors for Home Business Security",
+   "brand": "Gaoducash",
+   "model": "Wi-Fi door sensor (2-pack)",
+   "price": 21.84,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 66,
+   "score": 69,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Two Tuya sensors with adhesive mounts, rated slightly higher than the single.",
+   "pros": [
+    "4.0 stars",
+    "Tool-free adhesive mounting",
+    "Alexa and Google voice queries"
+   ],
+   "cons": [
+    "Costs more per sensor than the 4-pack",
+    "Only 66 reviews",
+    "Cloud-based app"
+   ],
+   "specs": {
+    "app": "Tuya Smart or Smart Life",
+    "pack": "2 sensors",
+    "extras": "3M adhesive",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51fOeqzghML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B76PR3X8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0B76PR3X8"
+  },
+  {
+   "rank": 8,
+   "asin": "B0DSGWF7SR",
+   "name": "WiFi Door and Window Sensor, Smart Home Security Alert System, 2.4G Wireless, Compatible with Alexa, Google Home, Tuya Smart Devices",
+   "brand": "XFOX",
+   "model": "Wi-Fi door and window sensor",
+   "price": 28.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 13,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Tuya-based sensor with Alexa and Google support. Pricier than similar ones.",
+   "pros": [
+    "Alexa and Google",
+    "No hub",
+    "Works with Tuya automations"
+   ],
+   "cons": [
+    "$28.99, about double similar sensors",
+    "3.7 stars from 13 reviews",
+    "Cloud-based app"
+   ],
+   "specs": {
+    "app": "Tuya",
+    "pack": "1 sensor",
+    "extras": "Integrates with Tuya devices",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": true,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61mZqVk2mhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DSGWF7SR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0DSGWF7SR"
+  },
+  {
+   "rank": 9,
+   "asin": "B08P41B5JH",
+   "name": "SONOFF DW2 Wi-Fi Wireless Door Window Sensor, APP Alert for Home Security & Automation, No Gateway Required, Compatible with IFTTT, for Sliding Door/Window/Hinged Door",
+   "brand": "SONOFF",
+   "model": "DW2 Wi-Fi",
+   "price": 12.9,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 159,
+   "score": 58,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "eWeLink app only",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "SONOFF's no-gateway Wi-Fi sensor, which can grab a camera snapshot when a door opens.",
+   "pros": [
+    "No gateway needed",
+    "Can pair with a SONOFF camera or spare phone for snapshots",
+    "IFTTT support"
+   ],
+   "cons": [
+    "3.7 stars",
+    "Listing names IFTTT but no voice assistants",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "app": "eWeLink",
+    "pack": "1 sensor",
+    "extras": "IFTTT, camera snapshot integration",
+    "battery": "Not listed"
+   },
+   "features": {
+    "voice": false,
+    "siren": false,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/515F8aFEDdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08P41B5JH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B08P41B5JH"
+  },
+  {
+   "rank": 10,
+   "asin": "B0G1H9MBDR",
+   "name": "WiFi Door Window Alarm, Smart Contact Sensor with APP Alerts & Sound Light Alarm, DIY Home Security System for House, Apartment, Office (Battery Not Included)",
+   "brand": "PGST",
+   "model": "Wi-Fi door alarm with siren",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 12,
+   "score": 49,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A door sensor with its own 100 dB siren and light, for a simple standalone alarm.",
+   "pros": [
+    "Built-in 100 dB siren and flashing light",
+    "Arm and disarm from the app",
+    "Adhesive or screw mounting"
+   ],
+   "cons": [
+    "3.4 stars from 12 reviews",
+    "Battery not included",
+    "Listing doesn't mention Alexa or Google"
+   ],
+   "specs": {
+    "app": "Smart Life",
+    "pack": "1 sensor",
+    "extras": "100 dB siren and flashing light",
+    "battery": "Not included"
+   },
+   "features": {
+    "voice": false,
+    "siren": true,
+    "bluetooth_backup": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61A+BvFJjOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G1H9MBDR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-door-sensors.html#B0G1H9MBDR"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "How do door and window sensors work?",
+   "a": "A magnet goes on the door or window and the sensor goes on the frame. When the two separate, the sensor reports open. Mount them within the gap the listing specifies, usually under an inch."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  },
+  {
+   "q": "Can I use these as a security system?",
+   "a": "They can trigger alerts and sirens through your smart home system, but they aren't a monitored alarm. For insurance discounts or police dispatch you need a professionally monitored system."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Added TECKNET Wi-Fi door alarm sensor and chime, KINGWANT Wi-Fi door chime with sensor.",
+    "Dropped PGST Wireless door and window sensor.",
+    "New Built-in Alarm: TECKNET Wi-Fi door alarm sensor and chime.",
+    "Removed the PGST wireless sensor: its listing now says a PGST alarm host is required and has no reviews, so the Best Budget award was retired (the Xinji Best Overall is already the cheapest single at $11.99). Added the TECKNET Wi-Fi door alarm and chime ($22.49, 4.6 stars from 1,067 reviews), which takes the Built-in Alarm award, and the KINGWANT Wi-Fi door chime with sensor ($29.98). Other prices unchanged."
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 9 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

@@ -1,0 +1,550 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/zigbee-leak-sensors.html",
+ "json_url": "https://themisreviews.com/zigbee-leak-sensors.json",
+ "slug": "zigbee-leak-sensors",
+ "title": "The Best Zigbee Water Leak Sensors",
+ "subtitle": "Cheap Zigbee leak sensors, many with built-in alarms, ranked.",
+ "intro": "We pulled the Zigbee water leak sensors selling on Amazon and scored them on rating, review volume, and features: built-in sirens, sensing cables, and open Zigbee 3.0 pairing.",
+ "protocol": {
+  "slug": "zigbee",
+  "name": "Zigbee",
+  "url": "https://themisreviews.com/#zigbee"
+ },
+ "product_type": "Leak sensors",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "siren": 0.35,
+   "open_hub": 0.35,
+   "long_battery": 0.3
+  },
+  "reviews_ceiling": 4000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DFVY6HS9",
+   "name": "SONOFF SNZB-05P",
+   "price": 24.99,
+   "why": "4.5 stars, a 5-year battery, drip detection, and an optional sensing cable."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0GK19F6Z2",
+   "name": "THIRDREALITY WL2",
+   "price": 17.99,
+   "why": "$17.99 with a 3-year battery, and it pairs straight to Echo hubs."
+  },
+  {
+   "label": "Best with Alarm",
+   "asin": "B09GYFN8VL",
+   "name": "THIRDREALITY Zigbee leak sensor",
+   "price": 20.99,
+   "why": "A 120 dB siren right at the leak, plus app and email alerts."
+  },
+  {
+   "label": "Best for SmartThings",
+   "asin": "B095TR9NYR",
+   "name": "Aeotec SmartThings Water Leak Sensor",
+   "price": 39.99,
+   "why": "SmartThings' own leak sensor, with temperature and the best rating here."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B095TR9NYR",
+   "name": "Aeotec SmartThings SmartThings Water Leak Sensor, ZigBee, Battery Powered, Smart Home Hub Compatible",
+   "brand": "Aeotec",
+   "model": "SmartThings Water Leak Sensor",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 528,
+   "score": 81,
+   "awards": [
+    "Best for SmartThings"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "SmartThings' official leak sensor, with temperature monitoring and the best rating here.",
+   "pros": [
+    "4.5 stars from 528 reviews",
+    "Temperature monitoring",
+    "Can trigger water shut-off through your hub"
+   ],
+   "cons": [
+    "$39.99",
+    "Battery life isn't listed",
+    "Operating range 32-104°F"
+   ],
+   "specs": {
+    "hub": "SmartThings or other Zigbee hubs",
+    "siren": "Light-up or siren alerts",
+    "power": "Battery",
+    "extras": "Temperature"
+   },
+   "features": {
+    "siren": true,
+    "open_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41T56VuBXwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B095TR9NYR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B095TR9NYR"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DFVY6HS9",
+   "name": "SONOFF SNZB-05P Zigbee Water Leak Sensor for Alarm System and Smart Home Automation, Wireless Mini Flood Detector for Kitchen Bathroom Basement 1Pack",
+   "brand": "SONOFF",
+   "model": "SNZB-05P",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 420,
+   "score": 79,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The Zigbee leak sensor to buy: well rated, long battery life, and it catches drips.",
+   "pros": [
+    "4.5 stars from 420 reviews",
+    "Up to 5-year battery",
+    "Detects drips as well as pooling water",
+    "Optional sensing cable"
+   ],
+   "cons": [
+    "No built-in siren; alarms come from your hub",
+    "Needs a Zigbee hub",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "hub": "Zigbee hub",
+    "siren": "Through your hub",
+    "power": "CR2477, up to 5 years",
+    "extras": "Drip detection, optional cable"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61LtuECcpFL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFVY6HS9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0DFVY6HS9"
+  },
+  {
+   "rank": 3,
+   "asin": "B09GYFN8VL",
+   "name": "THIRDREALITY Zigbee Water Leak Sensor with Dripping Detection,120dB Alarm,App Notifications Enabled When Work with Home Assistant and Compatible Zigbee HUB Like SmartThings,Aeotec or Third Reality Hub",
+   "brand": "THIRDREALITY",
+   "model": "Zigbee leak sensor",
+   "price": 20.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 354,
+   "score": 76,
+   "awards": [
+    "Best with Alarm"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A leak sensor with its own 120 dB siren, so you hear it even with the internet down.",
+   "pros": [
+    "120 dB built-in siren",
+    "Drip detection",
+    "App and email alerts",
+    "354 reviews"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Battery life isn't listed",
+    "Bigger than coin-cell sensors"
+   ],
+   "specs": {
+    "hub": "Zigbee hub or Echo with Zigbee",
+    "siren": "120 dB",
+    "power": "Not listed",
+    "extras": "Drip detection"
+   },
+   "features": {
+    "siren": true,
+    "open_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41VZQgeEKVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09GYFN8VL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B09GYFN8VL"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DFVYCBK2",
+   "name": "SONOFF SNZB-05P Zigbee Water Leak Sensor with Detection Cable for Alarm System and Smart Home Automation, Wireless Mini Flood Detector for Kitchen Bathroom Basement 1Pack",
+   "brand": "SONOFF",
+   "model": "SNZB-05P with cable",
+   "price": 22.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 210,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The same sensor with a detection cable for covering a long stretch, like behind a water heater.",
+   "pros": [
+    "Sensing cable covers more floor",
+    "5-year battery",
+    "$22.90"
+   ],
+   "cons": [
+    "No built-in siren",
+    "210 reviews",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Zigbee hub",
+    "siren": "Through your hub",
+    "power": "CR2477, up to 5 years",
+    "extras": "Sensing cable included"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/5136WfqgDCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFVYCBK2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0DFVYCBK2"
+  },
+  {
+   "rank": 5,
+   "asin": "B07D39MSZS",
+   "name": "Aqara Water Leak Sensor 1 Pack, Zigbee Water Leak Detector for Alarm System",
+   "brand": "Aqara",
+   "model": "Water Leak Sensor",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3666,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The most-reviewed Zigbee leak sensor, for Aqara homes.",
+   "pros": [
+    "3,666 reviews",
+    "Detects 0.5 mm of water",
+    "Apple Home, Alexa, and Google through the Aqara hub"
+   ],
+   "cons": [
+    "\"Not compatible with hubs from other brands\", per the listing",
+    "Keep within about 33 ft of the hub",
+    "No built-in siren"
+   ],
+   "specs": {
+    "hub": "Aqara hub only",
+    "siren": "Through Aqara hub",
+    "power": "Not listed",
+    "extras": "Detects 0.5 mm of water"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61zSUbv67ZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D39MSZS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B07D39MSZS"
+  },
+  {
+   "rank": 6,
+   "asin": "B0GK19F6Z2",
+   "name": "THIRDREALITY Zigbee Water Leak Sensor WL2 with Dripping & Leaking Detection, App Notifications, Zigbee Hub Needed, 3-Year Battery Life, No Battery & Siren, Support Home Assistant, SmartThings, Homey",
+   "brand": "THIRDREALITY",
+   "model": "WL2",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 43,
+   "score": 66,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "ThirdReality's newer, cheaper sensor with a 3-year battery.",
+   "pros": [
+    "$17.99",
+    "Up to 3-year battery",
+    "Pairs with Echo (4th gen) and other Zigbee hubs"
+   ],
+   "cons": [
+    "Only 43 reviews",
+    "No siren listed",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Zigbee 3.0 hub or Echo with Zigbee",
+    "siren": "None listed",
+    "power": "Up to 3 years",
+    "extras": "Drip detection"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41nh-BQyiIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GK19F6Z2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0GK19F6Z2"
+  },
+  {
+   "rank": 7,
+   "asin": "B0GWQKHST5",
+   "name": "Zigbee Water Detector with 110 dB Siren Alarm, Wireless Water Sensor",
+   "brand": "Haozee",
+   "model": "Zigbee water detector",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 10,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheap sensor with a 110 dB siren and Home Assistant support named in the listing.",
+   "pros": [
+    "110 dB siren",
+    "$14.99",
+    "Home Assistant and Zigbee2MQTT"
+   ],
+   "cons": [
+    "Only 10 reviews",
+    "Battery life isn't listed",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "hub": "Zigbee hub, Home Assistant, Zigbee2MQTT",
+    "siren": "110 dB",
+    "power": "Not listed",
+    "extras": "Event log"
+   },
+   "features": {
+    "siren": true,
+    "open_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61wZOSHqdsL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GWQKHST5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0GWQKHST5"
+  },
+  {
+   "rank": 8,
+   "asin": "B072DYHPY7",
+   "name": "Centralite by Ezlo Water Sensor | Monitors Your Whole Home for Leaks | Detects Water Leaks in a Kitchen, Bathroom, Basement or Laundry Room | Zigbee Smart Water Sensor",
+   "brand": "Centralite",
+   "model": "Water Sensor",
+   "price": 14.95,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 150,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A simple leak sensor with pull-tab pairing. Works on any non-conductive floor.",
+   "pros": [
+    "Pull-tab pairing",
+    "$14.95",
+    "Battery pre-installed"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Needs a non-conductive surface",
+    "No siren"
+   ],
+   "specs": {
+    "hub": "Zigbee hub",
+    "siren": "None listed",
+    "power": "Battery, pre-installed",
+    "extras": "Pull-to-pair"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51xMDn2B6iL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B072DYHPY7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B072DYHPY7"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0DZ28YCTX",
+   "name": "Zigbee Water Leak Sensor, IP54 Splash Resistant, Tuya Hub Required",
+   "brand": "Tuya (Toyanc)",
+   "model": "Zigbee leak sensor with alarm",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 2,
+   "flag": "\"Built-in alarm\" is only 55 dB",
+   "verdict": "The title sells a built-in alarm, but the listing puts it at 55 dB, about as loud as normal conversation.",
+   "reasons": [
+    "A 55 dB alert is unlikely to be heard from another room, let alone another floor.",
+    "The ThirdReality and Haozee sensors above have 120 dB and 110 dB sirens for similar money.",
+    "Only 2 reviews, sold by a small reseller."
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/31ZLc-Be17L._AC_SL1024_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZ28YCTX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#avoid-B0DZ28YCTX"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "Where should leak sensors go?",
+   "a": "Anywhere water can appear without you seeing it: under sinks, behind the toilet, next to the water heater, under the dishwasher and washing machine, and near the sump pump. Put them flat on the floor where water would pool first."
+  },
+  {
+   "q": "Do I want a built-in alarm?",
+   "a": "Yes, if the sensor might be your only warning. A loud local siren works even if your internet or hub is down. App and hub alerts are better when you're away."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  },
+  {
+   "q": "Can a leak sensor shut off the water?",
+   "a": "Not on its own. Paired with a smart water shut-off valve through your hub or app, it can close the main valve automatically when it detects a leak."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 8 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

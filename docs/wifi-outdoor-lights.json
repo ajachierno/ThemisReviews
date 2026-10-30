@@ -1,0 +1,616 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-outdoor-lights.html",
+ "json_url": "https://themisreviews.com/wifi-outdoor-lights.json",
+ "slug": "wifi-outdoor-lights",
+ "title": "The 10 Best Smart Outdoor Lights",
+ "subtitle": "Permanent roofline lights and smart string lights you control from your phone, ranked from live Amazon data.",
+ "intro": "We pulled the best-selling smart outdoor lights on Amazon, from permanent eave lights to patio string lights, and scored them on rating, review volume, and features: weatherproofing, multicolor effects, and voice control.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Outdoor lights",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "permanent": 0.25,
+   "true_white": 0.3,
+   "matter": 0.25,
+   "long_run": 0.2
+  },
+  "reviews_ceiling": 20000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0D14WP9TB",
+   "name": "Govee Permanent Outdoor Lights 2 (100 ft)",
+   "price": 279.99,
+   "why": "Year-round RGBIC eave lights rated 4.4 stars by 3,154 buyers, with 8K+ bought last month."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B093DFSHN8",
+   "name": "XMCOSY+ Smart Patio Lights (50 ft, 25 G40 bulbs)",
+   "price": 39.99,
+   "why": "Smart dimmable patio string lights with Alexa and Google for $39.99."
+  },
+  {
+   "label": "Best Premium",
+   "asin": "B0DX1WPB9J",
+   "name": "Govee Permanent Outdoor Lights Pro (200 ft)",
+   "price": 759.99,
+   "why": "200 feet of permanent lights with real warm and cool whites, plus Matter."
+  },
+  {
+   "label": "Best String Lights",
+   "asin": "B0F21SVF9R",
+   "name": "Govee S14 Bulb Outdoor String Lights 2 (96 ft)",
+   "price": 79.99,
+   "why": "96 feet of color bulbs with warm white and Matter support, 5K+ bought last month."
+  }
+ ],
+ "systems_note": "Govee lights also work with Home Assistant's official Govee Light Local integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0DX1WPB9J",
+   "name": "Govee Permanent Outdoor Lights Pro, 200ft with 120 RGBIC LED Lights, White",
+   "brand": "Govee",
+   "model": "Permanent Outdoor Lights Pro (200 ft)",
+   "price": 759.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2425,
+   "score": 88,
+   "awards": [
+    "Best Premium"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "The upgrade: twice the length, anti-glare lenses, real white light for everyday use, and Matter.",
+   "pros": [
+    "Warm and cool white LEDs",
+    "Matter, Alexa, and Google",
+    "Cuttable and extendable",
+    "4K+ bought in the past month"
+   ],
+   "cons": [
+    "$759.99",
+    "4.4 stars",
+    "Weather rating isn't in the bullets"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "200 ft, 120 lights",
+    "weather": "Not stated in bullets",
+    "light": "RGBWWIC, up to 50 lm per light"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": true,
+    "matter": true,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71o1zyoDhnL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DX1WPB9J?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0DX1WPB9J"
+  },
+  {
+   "rank": 2,
+   "asin": "B0D4DW6BXC",
+   "name": "eufy Permanent Outdoor Lights E22, 100ft with 60 Triple-LED Lights",
+   "brand": "eufy",
+   "model": "Permanent Outdoor Lights E22 (100 ft)",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1039,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "Triple-LED lights bright enough to use as everyday exterior lighting.",
+   "pros": [
+    "Up to 90 lumens per light",
+    "Dedicated warm and cool white",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "$99.99",
+    "IP65 lights",
+    "No Matter"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "100 ft, 60 lights",
+    "weather": "IP65 lights, IP67 adapter",
+    "light": "RGB + warm and cool white, up to 90 lm"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": true,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61obXJ4fS5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D4DW6BXC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0D4DW6BXC"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FKGH55C7",
+   "name": "ASAHOM Permanent Outdoor Lights S107B, 100FT with 72 RGBCW LEDs, Black",
+   "brand": "ASAHOM",
+   "model": "S107B Permanent Outdoor Lights (100 ft)",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 498,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "ASAHOM app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "RGBCW lights with an external-antenna controller for a garage far from the router.",
+   "pros": [
+    "External Wi-Fi antenna",
+    "Works down to -22°F",
+    "4.5 stars"
+   ],
+   "cons": [
+    "$169.99",
+    "Only 498 reviews",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "100 ft, 72 lights",
+    "weather": "IP67, -22°F to 113°F",
+    "light": "RGBCW"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": true,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71EoXwIQeXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FKGH55C7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0FKGH55C7"
+  },
+  {
+   "rank": 4,
+   "asin": "B0F1XGYD3W",
+   "name": "Linkind Permanent Outdoor Lights for House HP5,100ft RGBTW Christmas Lights",
+   "brand": "Linkind",
+   "model": "HP5 Permanent Outdoor Lights (100 ft)",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 241,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "AiDot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Tunable-white permanent lights for $40 less than Govee's.",
+   "pros": [
+    "Tunable white",
+    "IP67 lights",
+    "$149.99"
+   ],
+   "cons": [
+    "Only 241 reviews",
+    "No Matter",
+    "AI features are a separate tier"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "100 ft",
+    "weather": "IP67 lights, IP65 controller",
+    "light": "RGBTW"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": true,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81uhCVP+KxL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1XGYD3W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0F1XGYD3W"
+  },
+  {
+   "rank": 5,
+   "asin": "B0D14WP9TB",
+   "name": "Govee Permanent Outdoor Lights 2, 100ft RGBIC Outdoor Lights with 100 Modes",
+   "brand": "Govee",
+   "model": "Permanent Outdoor Lights 2 (100 ft)",
+   "price": 279.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3154,
+   "score": 75,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "8K+ bought in past month",
+   "verdict": "The best-selling permanent lights: install once and change colors for every holiday.",
+   "pros": [
+    "8K+ bought in the past month",
+    "4.4 stars from 3,154 reviews",
+    "IP67 lights",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "RGBIC, no dedicated white LEDs",
+    "No Matter",
+    "$279.99"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "100 ft",
+    "weather": "IP67 lights, IP65 controller",
+    "light": "RGBIC"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": false,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71igQA0d-gL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D14WP9TB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0D14WP9TB"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CZY49ZTL",
+   "name": "Enbrighten Eternity Permanent Outdoor Lights, 100ft, 72 Lights",
+   "brand": "Enbrighten",
+   "model": "Eternity Permanent Outdoor Lights (100 ft)",
+   "price": 249.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 200,
+   "score": 75,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Enbrighten app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "ETL-listed permanent lights with adjustable white, sold by Amazon.",
+   "pros": [
+    "ETL and NEC compliant",
+    "Adjustable white light",
+    "4.5 stars"
+   ],
+   "cons": [
+    "$249.99",
+    "Voice assistants aren't named in the bullets",
+    "Only 200 reviews"
+   ],
+   "specs": {
+    "type": "Permanent eave lights",
+    "length": "100 ft, 72 lights",
+    "weather": "-4°F to 131°F, ETL listed",
+    "light": "RGBWIC"
+   },
+   "features": {
+    "permanent": true,
+    "true_white": true,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81AK5nZp06L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CZY49ZTL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0CZY49ZTL"
+  },
+  {
+   "rank": 7,
+   "asin": "B0F21SVF9R",
+   "name": "Govee S14 Bulb Outdoor String Lights 2, 96ft RGBICWW, 30 LED Bulbs, IP66",
+   "brand": "Govee",
+   "model": "S14 Bulb Outdoor String Lights 2 (96 ft)",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1354,
+   "score": 73,
+   "awards": [
+    "Best String Lights"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "5K+ bought in past month",
+   "verdict": "Color string lights with warm white and Matter, so they work in Apple Home too.",
+   "pros": [
+    "Matter support",
+    "IP66",
+    "5K+ bought in the past month"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Adapter needs cover",
+    "96 ft"
+   ],
+   "specs": {
+    "type": "String lights, 30 bulbs",
+    "length": "96 ft",
+    "weather": "IP66",
+    "light": "RGBICWW, 65 lm warm white"
+   },
+   "features": {
+    "permanent": false,
+    "true_white": true,
+    "matter": true,
+    "long_run": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Y3DsRQnjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F21SVF9R?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0F21SVF9R"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CT4ZR4Y9",
+   "name": "Govee Smart Outdoor String Lights 2, 144ft RGBIC Patio Lights with 45 Bulbs",
+   "brand": "Govee",
+   "model": "Smart Outdoor String Lights 2 (144 ft)",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1923,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Long color string lights for a big patio or fence line.",
+   "pros": [
+    "144 feet",
+    "Up to 100 lumens per bulb",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Adapter must stay indoors or in a covered box",
+    "$129.99"
+   ],
+   "specs": {
+    "type": "String lights, 45 bulbs",
+    "length": "144 ft",
+    "weather": "IP65",
+    "light": "RGBICW, up to 100 lm per bulb"
+   },
+   "features": {
+    "permanent": false,
+    "true_white": true,
+    "matter": false,
+    "long_run": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ag0xH4YsL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CT4ZR4Y9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0CT4ZR4Y9"
+  },
+  {
+   "rank": 9,
+   "asin": "B093DFSHN8",
+   "name": "XMCOSY+ Patio Lights, Smart 50Ft Outdoor String Lights with 25 G40 Bulbs",
+   "brand": "XMCOSY+",
+   "model": "Smart Patio Lights (50 ft, 25 G40 bulbs)",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2300,
+   "score": 71,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "XMcosy app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Classic warm-white patio bulbs with a smart dimmer, for $39.99.",
+   "pros": [
+    "$39.99",
+    "Works without Wi-Fi as plain lights",
+    "4.4 stars"
+   ],
+   "cons": [
+    "White only",
+    "50 ft",
+    "Weather rating isn't in the bullets"
+   ],
+   "specs": {
+    "type": "String lights, 25 bulbs",
+    "length": "50 ft",
+    "weather": "Not stated in bullets",
+    "light": "Dimmable warm white"
+   },
+   "features": {
+    "permanent": false,
+    "true_white": true,
+    "matter": false,
+    "long_run": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71nTJVNWQBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B093DFSHN8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B093DFSHN8"
+  },
+  {
+   "rank": 10,
+   "asin": "B0DT7LMJJN",
+   "name": "Cync GE Dynamic Effects Smart Cafe Lights, Color Changing Patio String Lights, Compatible with Alexa and Google, 48ft",
+   "brand": "Cync",
+   "model": "GE Dynamic Effects Smart Cafe Lights (48 ft)",
+   "price": 48.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 202,
+   "score": 55,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Cync app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "Color-changing cafe lights from GE's Cync line, sold by Amazon.",
+   "pros": [
+    "Each bulb can be its own color",
+    "Wet rated",
+    "400+ bought in the past month"
+   ],
+   "cons": [
+    "Only 202 reviews",
+    "48 ft",
+    "Cync app"
+   ],
+   "specs": {
+    "type": "String lights",
+    "length": "48 ft",
+    "weather": "IP65, wet rated",
+    "light": "Color, per-bulb control"
+   },
+   "features": {
+    "permanent": false,
+    "true_white": false,
+    "matter": false,
+    "long_run": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71rhXgpRNTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DT7LMJJN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-lights.html#B0DT7LMJJN"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Permanent outdoor lights or string lights?",
+   "a": "Permanent lights mount under the eaves or along the roofline and stay up all year, with colors you change for each holiday. String lights hang on patios and fences and come down when you want. Permanent kits cost more and take an afternoon to install."
+  },
+  {
+   "q": "Are smart outdoor lights weatherproof?",
+   "a": "Check the IP rating on the listing. IP65 handles rain and sprinklers; IP67 can survive brief submersion. The power adapter usually needs a covered outdoor outlet."
+  },
+  {
+   "q": "Do they need a hub?",
+   "a": "Most outdoor light kits connect over Wi-Fi with Bluetooth for setup, so no hub. Philips Hue outdoor lights need the Hue Bridge."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

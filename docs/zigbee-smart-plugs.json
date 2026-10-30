@@ -1,0 +1,640 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/zigbee-smart-plugs.html",
+ "json_url": "https://themisreviews.com/zigbee-smart-plugs.json",
+ "slug": "zigbee-smart-plugs",
+ "title": "The 10 Best Zigbee Smart Plugs",
+ "subtitle": "Cheap Zigbee outlets that double as mesh repeaters, ranked from live Amazon data.",
+ "intro": "We pulled the Zigbee smart plugs selling on Amazon and scored them on rating, review volume, and features: energy monitoring, open Zigbee 3.0 pairing, and signal repeating. Plugs are the easiest way to strengthen a Zigbee mesh.",
+ "protocol": {
+  "slug": "zigbee",
+  "name": "Zigbee",
+  "url": "https://themisreviews.com/#zigbee"
+ },
+ "product_type": "Smart plugs",
+ "data_captured": "2026-10-21",
+ "updated": "2026-10-21",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "energy": 0.5,
+   "open_hub": 0.5
+  },
+  "reviews_ceiling": 6000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0BPY2KRHH",
+   "name": "THIRDREALITY Zigbee smart plug (power monitoring)",
+   "price": 12.99,
+   "why": "$12.99 with real-time power monitoring, ETL certification, and pairing straight to Echo hubs or any Zigbee 3.0 hub."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B09LV53X62",
+   "name": "SONOFF S40 Lite",
+   "price": 12.99,
+   "why": "4.4 stars at $12.99, ETL certified, and works with SmartThings and Echo hubs."
+  },
+  {
+   "label": "Best Dual Outlet",
+   "asin": "B0FCLZDMR8",
+   "name": "THIRDREALITY Smart Dual Plug",
+   "price": 22.99,
+   "why": "Two outlets with separate control and separate energy monitoring, and a long list of supported hubs."
+  },
+  {
+   "label": "Best for Hue Homes",
+   "asin": "B08CRYGLGN",
+   "name": "Philips Hue Smart Plug (2-pack)",
+   "price": 74.99,
+   "why": "The most-reviewed Zigbee plug here, and it slots straight into a Philips Hue setup."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0BPY2KRHH",
+   "name": "THIRDREALITY Zigbee Smart Plug with Real-time Power Monitoring,15A Smart Outlet, Zigbee Repeater, ETL Certified, ZigBee Hub Required,Work with Home Assistant,Compatible Echo Devices and SmartThing",
+   "brand": "THIRDREALITY",
+   "model": "Zigbee smart plug (power monitoring)",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 274,
+   "score": 84,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The Zigbee plug to buy. Cheap, ETL certified, monitors power, and pairs directly with Echo devices that have a Zigbee hub.",
+   "pros": [
+    "Real-time power monitoring",
+    "Pairs with Echo (4th gen), Echo Show 10, and other Zigbee hubs",
+    "Doesn't block the second outlet",
+    "300+ bought in the past month"
+   ],
+   "cons": [
+    "Needs a Zigbee hub",
+    "4.4 stars",
+    "Sold by the brand, not Amazon"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+    "load": "15 A",
+    "pack": "1 plug",
+    "extras": "ETL, Zigbee repeater"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/310JSqFghvL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BPY2KRHH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0BPY2KRHH"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FCLZDMR8",
+   "name": "THIRDREALITY Smart Dual Plug, Zigbee 2-in-1 Smart Outlet with Independent Control and Power Monitoring, Zigbee Repeater, Compatible with Home Assistant(ZHA/Z2M), SmartThings, Homey",
+   "brand": "THIRDREALITY",
+   "model": "Smart Dual Plug",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 89,
+   "score": 80,
+   "awards": [
+    "Best Dual Outlet"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Two outlets, each with its own control and energy readings, and the broadest hub list here.",
+   "pros": [
+    "Two independently controlled outlets",
+    "Energy monitoring per outlet",
+    "Lists Home Assistant, SmartThings, Hubitat, and Homey"
+   ],
+   "cons": [
+    "Covers both sockets of a wall outlet",
+    "89 reviews",
+    "Load rating isn't listed"
+   ],
+   "specs": {
+    "hub": "Home Assistant, SmartThings, Hubitat, Homey, others",
+    "load": "Not listed",
+    "pack": "1 plug, 2 outlets",
+    "extras": "Per-outlet energy monitoring"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41nbp7xXoaL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FCLZDMR8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0FCLZDMR8"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DXQF3NQ7",
+   "name": "Zigbee Smart Plug, Energy Monitoring, 𝗭𝗶𝗴𝗯𝗲𝗲 𝗛𝘂𝗯 Required, ETL Certified, Compatible with Alexa, Google Home, Home Assistant, SmartThings, Remote App Control, Smart Outlet, 1 Pack",
+   "brand": "NOUS",
+   "model": "Zigbee smart plug (energy)",
+   "price": 11.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 43,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheap ETL-certified plug with energy monitoring that works with Home Assistant and SmartThings.",
+   "pros": [
+    "$11.99 with energy monitoring",
+    "ETL certified",
+    "Works with Home Assistant and SmartThings"
+   ],
+   "cons": [
+    "Listing pairs 15 A with 1500 W, which doesn't add up at 120 V",
+    "Only 43 reviews",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Any Zigbee 3.0 hub",
+    "load": "15 A (listing says 1500 W)",
+    "pack": "1 plug",
+    "extras": "ETL"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71JIVZQobmL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DXQF3NQ7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0DXQF3NQ7"
+  },
+  {
+   "rank": 4,
+   "asin": "B0G4VZB6NC",
+   "name": "THIRDREALITY Smart Plug Gen3,Precise Real-time Power Monitoring,15A Outlet, Enhanced Zigbee Repeater,ETL Certified,ZigBee Hub Needed,Work with Home Assistant,Compatible Echo Devices and SmartThings",
+   "brand": "THIRDREALITY",
+   "model": "Smart Plug Gen3",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 67,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "ThirdReality's newer plug with a stronger radio for repeating, selling 400+ a month.",
+   "pros": [
+    "Upgraded Zigbee chip and RF module for repeating",
+    "Precise power monitoring",
+    "400+ bought in the past month"
+   ],
+   "cons": [
+    "Only 67 reviews so far",
+    "$2 more than the original",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+    "load": "15 A",
+    "pack": "1 plug",
+    "extras": "ETL, upgraded repeater"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/516dogV0kPL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G4VZB6NC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0G4VZB6NC"
+  },
+  {
+   "rank": 5,
+   "asin": "B07CJ2MM6Z",
+   "name": "Aqara Zigbee Smart Plug with Energy Monitoring, Overload Protection",
+   "brand": "Aqara",
+   "model": "Zigbee smart plug",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 705,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A solid energy-monitoring plug for homes already running an Aqara hub.",
+   "pros": [
+    "Energy monitoring and overload protection",
+    "705 reviews, 300+ bought in the past month",
+    "Works with Apple Home, Alexa, and Google through the Aqara hub"
+   ],
+   "cons": [
+    "Needs an Aqara hub, sold separately",
+    "Costs more than most Zigbee plugs",
+    "Bulky"
+   ],
+   "specs": {
+    "hub": "Aqara hub",
+    "load": "Not listed",
+    "pack": "1 plug",
+    "extras": "Overload protection"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61SX9XPX4CL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07CJ2MM6Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B07CJ2MM6Z"
+  },
+  {
+   "rank": 6,
+   "asin": "B08CRYGLGN",
+   "name": "Philips Hue Smart Plug, White - 2 Pack - Turns Any Light Into a Smart Light - Control with Hue App - Compatible with Alexa, Google Assistant, and Apple HomeKit",
+   "brand": "Philips Hue",
+   "model": "Smart Plug (2-pack)",
+   "price": 74.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5393,
+   "score": 72,
+   "awards": [
+    "Best for Hue Homes"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The plug for Hue households, with 5,393 reviews. Works over Bluetooth without a bridge, or Zigbee with one.",
+   "pros": [
+    "4.7 stars from 5,393 reviews",
+    "Works with Alexa, Google, and Apple Home through the Hue Bridge",
+    "Bluetooth control without a bridge"
+   ],
+   "cons": [
+    "Sold by a reseller at about $36 per plug",
+    "No energy monitoring",
+    "Full features need the Hue Bridge"
+   ],
+   "specs": {
+    "hub": "Hue Bridge (or Bluetooth app)",
+    "load": "Not listed",
+    "pack": "2 plugs",
+    "extras": "Bluetooth for bridge-free use"
+   },
+   "features": {
+    "energy": false,
+    "open_hub": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71SlK4IEESL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08CRYGLGN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B08CRYGLGN"
+  },
+  {
+   "rank": 7,
+   "asin": "B08K45W4LR",
+   "name": "CMARS Smart Plug, ZigBee Switch Mini Smart Outlet Compatible with Alexa, SmartThings Hub, Hue, Echo (4th gen) Echo Plus (2nd) Google Home, Works as a Range Extender, Hub Required （2 Pack）",
+   "brand": "CMARS",
+   "model": "Zigbee mini plug",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 604,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A mini Zigbee plug that pairs straight to Echo devices with no extra app.",
+   "pros": [
+    "No third-party app, pairs to Alexa directly",
+    "604 reviews",
+    "Compact"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "Load rating isn't listed",
+    "4.2 stars"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, SmartThings, Hue",
+    "load": "Not listed",
+    "pack": "1 plug",
+    "extras": "Repeater"
+   },
+   "features": {
+    "energy": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51Pim-MsA-L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08K45W4LR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B08K45W4LR"
+  },
+  {
+   "rank": 8,
+   "asin": "B08G46WWBB",
+   "name": "Smart Plug,DOGAIN Zigbee Smart Plugs Outlet Works with ST and Echo Plus Hub Voice Control Compatible with Alexa and The Google Assistant (Hub Required)(2 Pack)",
+   "brand": "DOGAIN",
+   "model": "Zigbee smart plug",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 340,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A basic plug-and-play Zigbee outlet for Echo or SmartThings homes.",
+   "pros": [
+    "Works through Alexa with no extra app",
+    "340 reviews",
+    "Works with SmartThings"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "Load rating isn't listed",
+    "Sold by a smaller brand"
+   ],
+   "specs": {
+    "hub": "SmartThings or Echo with Zigbee",
+    "load": "Not listed",
+    "pack": "1 plug",
+    "extras": "No extra app"
+   },
+   "features": {
+    "energy": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41wegdjh+hS._SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08G46WWBB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B08G46WWBB"
+  },
+  {
+   "rank": 9,
+   "asin": "B09LV53X62",
+   "name": "SONOFF Zigbee Smart Plug with ETL Certified, S40 Lite 15A Outlet, Zigbee Repeater, Works with SmartThings and Amazon Echo Plus, Hub Needed for Amazon Alexa",
+   "brand": "SONOFF",
+   "model": "S40 Lite",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 135,
+   "score": 69,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheap, well-rated, ETL-certified plug that does on/off and repeats signal.",
+   "pros": [
+    "4.4 stars at $12.99",
+    "ETL certified",
+    "Repeats Zigbee signal"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "Needs a Zigbee hub",
+    "Scheduling depends on your hub"
+   ],
+   "specs": {
+    "hub": "SmartThings, Echo with Zigbee, other Zigbee hubs",
+    "load": "15 A",
+    "pack": "1 plug",
+    "extras": "ETL, Zigbee repeater"
+   },
+   "features": {
+    "energy": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51aTmvrzMKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09LV53X62?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B09LV53X62"
+  },
+  {
+   "rank": 10,
+   "asin": "B0CFVMQZJ1",
+   "name": "Innr Zigbee Smart Plug, Works with Philips Hue*, Energy Monitor, 2-Pack",
+   "brand": "Innr",
+   "model": "Zigbee smart plug",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 88,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A Hue-compatible plug that also works with SmartThings, Home Assistant, and Hubitat.",
+   "pros": [
+    "Connects to Hue, SmartThings, Home Assistant, and Hubitat hubs",
+    "Repeats Zigbee signal",
+    "Sold by Innr"
+   ],
+   "cons": [
+    "Doesn't work with Apple Home, per the listing",
+    "No energy monitoring on this model",
+    "$34.99 for one plug"
+   ],
+   "specs": {
+    "hub": "Hue, SmartThings, Home Assistant, Hubitat",
+    "load": "Not listed",
+    "pack": "1 plug",
+    "extras": "Works with Hue bridge"
+   },
+   "features": {
+    "energy": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ni5EMxJZL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CFVMQZJ1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0CFVMQZJ1"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B09K5BGQK6",
+   "name": "Zigbee Smart Plug Outlet, Mini Remote Voice Control with Alexa, Easy Setup, Work with Google Home/SmartThings, Hub Required 4-Pack",
+   "brand": "Sparkleiot",
+   "model": "Zigbee mini plug (4-pack)",
+   "price": 36.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 82,
+   "flag": "Claims Google Home works as a Zigbee hub; 1,100 W limit",
+   "verdict": "The listing tells you to pair these to Google Home as a Zigbee hub, which no Google device can do, and they're rated well below a standard plug.",
+   "reasons": [
+    "It names Google Home as a compatible Zigbee hub. Google's speakers and displays don't have Zigbee radios.",
+    "It's rated for 1,100 W per plug, below the 15 A (about 1,800 W) that most plugs here handle.",
+    "Only FCC and RoHS are listed, neither of which is an electrical safety certification like ETL or UL.",
+    "The listing warns against plugging two into a compact dual-port strip."
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/41mhjkirwlL._SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09K5BGQK6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#avoid-B09K5BGQK6"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What can I plug into a smart plug?",
+   "a": "Lamps, fans, coffee makers, holiday lights, and anything else that turns on with a physical switch left in the on position. Check the plug's amp rating (most are 15 A) before plugging in anything that draws a lot of power."
+  },
+  {
+   "q": "Is energy monitoring worth paying for?",
+   "a": "If you want to know what a fridge, dehumidifier, or entertainment center costs to run, yes. Energy-monitoring plugs also let you trigger automations, like an alert when the washer finishes."
+  },
+  {
+   "q": "Will a smart plug block the second outlet?",
+   "a": "Bulky plugs often cover the other socket. Mini designs leave it free, so check the shape before you buy several."
+  },
+  {
+   "q": "Are smart plugs safe for heaters and air conditioners?",
+   "a": "Only if the plug's rating covers the appliance's draw and the maker allows it. Many plugs are rated 15 A, but heaters run near that limit for hours. Check the appliance's manual; some say not to use any timer or smart plug."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-21",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

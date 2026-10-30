@@ -1,0 +1,484 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-thermostats.html",
+ "json_url": "https://themisreviews.com/matter-thermostats.json",
+ "slug": "matter-thermostats",
+ "title": "The Best Matter Smart Thermostats",
+ "subtitle": "Thermostats that work with every major smart home platform.",
+ "intro": "We pulled the Matter smart thermostats selling on Amazon and scored them on rating, review volume, and features. Matter thermostats can be controlled from Apple Home, Google Home, Alexa, SmartThings, and Home Assistant at once.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Thermostats",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "sensors": 0.4,
+   "thread": 0.3,
+   "line_voltage": 0.3
+  },
+  "reviews_ceiling": 30000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B08HRWWCTR",
+   "name": "Google Nest Thermostat",
+   "price": 129.99,
+   "why": "Nearly 30,000 reviews, Matter support, and a price that leaves room for other upgrades."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0D8SW5B2G",
+   "name": "meross Matter smart thermostat",
+   "price": 58.99,
+   "why": "$58.99 for a Matter thermostat that works with Apple Home, Alexa, Google, and SmartThings."
+  },
+  {
+   "label": "Most Capable",
+   "asin": "B0D5BGST5N",
+   "name": "Google Nest Learning Thermostat (4th gen)",
+   "price": 219.99,
+   "why": "Nest's learning thermostat with a room sensor included, 2K+ bought last month."
+  },
+  {
+   "label": "Best for Baseboard Heat",
+   "asin": "B0FCY3Z1S5",
+   "name": "meross Matter baseboard thermostat",
+   "price": 71.99,
+   "why": "A line-voltage Matter thermostat for electric baseboard heaters, rated 4.4 stars."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0D5BGST5N",
+   "name": "Google Nest Learning Thermostat (4th gen) + Nest Temperature Sensor (2nd gen) - Silver",
+   "brand": "Google",
+   "model": "Nest Learning Thermostat (4th gen)",
+   "price": 219.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2648,
+   "score": 73,
+   "awards": [
+    "Most Capable"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "Nest's flagship, with a room sensor in the box and Matter for every platform.",
+   "pros": [
+    "Temperature sensor included",
+    "Matter support, works with Siri and Alexa",
+    "4.4 stars, 2K+ bought in the past month"
+   ],
+   "cons": [
+    "$219.99",
+    "Learning features work best in the Google Home app",
+    "Check C-wire needs"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "Most 24 V systems",
+    "c_wire": "Listed",
+    "extras": "Nest Temperature Sensor (2nd gen) included"
+   },
+   "features": {
+    "sensors": true,
+    "thread": false,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61NKDb2TthL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D5BGST5N?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0D5BGST5N"
+  },
+  {
+   "rank": 2,
+   "asin": "B0G25F5XC1",
+   "name": "Aqara Smart Thermostat W200 with Apple Adaptive Temperature",
+   "brand": "Aqara",
+   "model": "Smart Thermostat W200",
+   "price": 135.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 261,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A Matter-over-Thread thermostat with Apple's Adaptive Temperature support and sensor options.",
+   "pros": [
+    "Matter over Thread",
+    "Supports Apple Adaptive Temperature",
+    "Works with Home Assistant, SmartThings, Alexa, and Google",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "$135.99",
+    "4.1 stars",
+    "Thread mode needs a border router"
+   ],
+   "specs": {
+    "radio": "Thread (also Zigbee, Wi-Fi)",
+    "system_type": "24 V systems",
+    "c_wire": "Listed",
+    "extras": "Apple Adaptive Temperature, sensor support"
+   },
+   "features": {
+    "sensors": true,
+    "thread": true,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ZR0xzgXbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G25F5XC1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0G25F5XC1"
+  },
+  {
+   "rank": 3,
+   "asin": "B08HRWWCTR",
+   "name": "Google Nest Thermostat - Smart Thermostat for Home - Programmable Wifi Thermostat - Fog",
+   "brand": "Google",
+   "model": "Nest Thermostat",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 29749,
+   "score": 67,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best-selling smart thermostat on Amazon, and it reaches every platform through Matter.",
+   "pros": [
+    "29,749 reviews",
+    "Matter support",
+    "Energy Star",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "No remote sensors",
+    "4.1 stars",
+    "Check C-wire needs before buying"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "Most 24 V systems",
+    "c_wire": "Listed",
+    "extras": "Energy Star"
+   },
+   "features": {
+    "sensors": false,
+    "thread": false,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41XPirHnd5L._AC_SL1080_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08HRWWCTR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B08HRWWCTR"
+  },
+  {
+   "rank": 4,
+   "asin": "B0FCY3Z1S5",
+   "name": "meross Matter Smart Thermostat for Electric Baseboard Heaters",
+   "brand": "meross",
+   "model": "Matter baseboard thermostat",
+   "price": 71.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 106,
+   "score": 61,
+   "awards": [
+    "Best for Baseboard Heat"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A line-voltage Matter thermostat for electric baseboard heaters, which ordinary smart thermostats can't run.",
+   "pros": [
+    "Made for electric baseboard heat",
+    "Matter plus Apple Home, Alexa, Google, and SmartThings",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Only 106 reviews",
+    "Only for line-voltage heaters",
+    "One heater circuit per thermostat"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "Electric baseboard (line voltage)",
+    "c_wire": "Not applicable",
+    "extras": "Line voltage"
+   },
+   "features": {
+    "sensors": false,
+    "thread": false,
+    "line_voltage": true
+   },
+   "image": "https://m.media-amazon.com/images/I/619rGQ2FJ3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FCY3Z1S5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0FCY3Z1S5"
+  },
+  {
+   "rank": 5,
+   "asin": "B0D8SW5B2G",
+   "name": "meross Matter Smart Thermostat for Home, Programmble WiFi Thermostat",
+   "brand": "meross",
+   "model": "Matter smart thermostat",
+   "price": 58.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 750,
+   "score": 53,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The cheapest Matter thermostat here, working with Apple Home, Alexa, Google, and SmartThings.",
+   "pros": [
+    "$58.99",
+    "Apple Home, Alexa, Google, and SmartThings",
+    "750 reviews"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Not for baseboard heaters",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "24 V (not baseboard)",
+    "c_wire": "Listed",
+    "extras": "Works with SmartThings"
+   },
+   "features": {
+    "sensors": false,
+    "thread": false,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61G7wiEOG1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D8SW5B2G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0D8SW5B2G"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DSGGCGG4",
+   "name": "Honeywell Home X2S Smart Wi-Fi Thermostat, White",
+   "brand": "Honeywell Home",
+   "model": "X2S",
+   "price": 61.75,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 120,
+   "score": 53,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A cheap Honeywell thermostat with Matter, Apple Home, Alexa, and Google.",
+   "pros": [
+    "$61.75",
+    "Matter plus Apple Home, Alexa, and Google",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Only 120 reviews",
+    "Sold by a third-party seller",
+    "Not for electric baseboard heat"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "24 V (not baseboard)",
+    "c_wire": "Listed",
+    "extras": "Energy Star"
+   },
+   "features": {
+    "sensors": false,
+    "thread": false,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/614xEHmc7gL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DSGGCGG4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0DSGGCGG4"
+  },
+  {
+   "rank": 7,
+   "asin": "B0GQCTS6PH",
+   "name": "Honeywell Home X7B Smart Wi-Fi Programmable Thermostat",
+   "brand": "Honeywell Home",
+   "model": "X7B",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 73,
+   "score": 48,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Honeywell's higher-end Matter thermostat. Newer, with mixed reviews.",
+   "pros": [
+    "Matter plus Apple Home, Alexa, and Google",
+    "Energy Star",
+    "200+ bought in the past month"
+   ],
+   "cons": [
+    "3.9 stars from 73 reviews",
+    "$149.99",
+    "Sold by a third-party seller"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "system_type": "24 V (not baseboard)",
+    "c_wire": "Listed",
+    "extras": "Energy Star"
+   },
+   "features": {
+    "sensors": false,
+    "thread": false,
+    "line_voltage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41xh6wQz2QL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQCTS6PH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-thermostats.html#B0GQCTS6PH"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Do I need a C-wire?",
+   "a": "Most smart thermostats need constant power from a C (common) wire. Some include a power adapter for homes without one, and a few run on batteries. Check your current thermostat's wiring before you buy."
+  },
+  {
+   "q": "Will it work with my heating and cooling system?",
+   "a": "Most smart thermostats handle standard 24 V forced-air and heat pump systems. Line-voltage electric baseboard heaters need a different, line-voltage thermostat. Check the maker's compatibility checker before buying."
+  },
+  {
+   "q": "Do remote sensors matter?",
+   "a": "If some rooms run hotter or colder than where the thermostat hangs, yes. Remote room sensors let the thermostat average temperatures or focus on the rooms you're using."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 7 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

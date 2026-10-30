@@ -1,0 +1,564 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/rf-bridges.html",
+ "json_url": "https://themisreviews.com/rf-bridges.json",
+ "slug": "rf-bridges",
+ "title": "The Best RF Bridges and SDR Receivers",
+ "subtitle": "Devices that bring 433 MHz remotes and sensors into a smart home.",
+ "intro": "We pulled the RF bridges, IR/RF hubs, and SDR receivers selling on Amazon and scored them on rating, review volume, and features. The table shows which can send commands and which only listen.",
+ "protocol": {
+  "slug": "433-mhz-rf",
+  "name": "433 MHz RF",
+  "url": "https://themisreviews.com/#433-mhz-rf"
+ },
+ "product_type": "Hubs and controllers",
+ "data_captured": "2026-10-26",
+ "updated": "2026-10-26",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "sends": 0.3,
+   "ha": 0.25,
+   "tcxo": 0.25,
+   "antenna": 0.2
+  },
+  "reviews_ceiling": 6000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best SDR Receiver",
+   "asin": "B0BMKB3L47",
+   "name": "RTL-SDR Blog V3 + dipole antenna kit",
+   "price": 47.95,
+   "why": "The standard rtl_433 stick, with a 1 PPM TCXO and a dipole antenna kit, and 6,498 reviews."
+  },
+  {
+   "label": "Best Budget SDR",
+   "asin": "B0BMKZCKTF",
+   "name": "RTL-SDR Blog V3 (dongle only)",
+   "price": 37.95,
+   "why": "The same RTL-SDR Blog V3 without the antenna kit, for $37.95, rated 4.6 stars."
+  },
+  {
+   "label": "Best RF Bridge",
+   "asin": "B0872P4HX7",
+   "name": "BroadLink RM4 Pro",
+   "price": 49.99,
+   "why": "Learns 433 MHz fixed-code remotes and IR, with Alexa, Google, and an official Home Assistant integration."
+  },
+  {
+   "label": "Best Premium SDR",
+   "asin": "B01HA642SW",
+   "name": "Nooelec NESDR SMArt v5",
+   "price": 44.95,
+   "why": "Nooelec's v5 with a 0.5 PPM TCXO and better HF, VHF, and UHF noise performance than a V3, per Nooelec."
+  }
+ ],
+ "systems_note": "SDR receivers feed Home Assistant through rtl_433, a community add-on rather than an official integration. Broadlink and Tuya hubs have official Home Assistant integrations.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0BMKB3L47",
+   "name": "RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXO HF Bias Tee SMA Software Defined Radio with Dipole Antenna Kit",
+   "brand": "RTL-SDR Blog",
+   "model": "V3 + dipole antenna kit",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 6498,
+   "score": 81,
+   "awards": [
+    "Best SDR Receiver"
+   ],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The default SDR for rtl_433: stable, well documented, and it comes with an antenna kit.",
+   "pros": [
+    "1 PPM TCXO for stable tuning",
+    "Dipole antenna kit included",
+    "6,498 reviews"
+   ],
+   "cons": [
+    "Receive only",
+    "Needs rtl_433 setup",
+    "Stock wasn't shown at capture time"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "500 kHz to 1.7 GHz",
+    "direction": "Receive only",
+    "extras": "1 PPM TCXO, bias tee, dipole kit"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71TXUQcJ4PL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BMKB3L47?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B0BMKB3L47"
+  },
+  {
+   "rank": 2,
+   "asin": "B01GDN1T4S",
+   "name": "Nooelec RTL-SDR v5 Bundle - NESDR Smart HF/VHF/UHF (100kHz-1.75GHz) Software Defined Radio. Premium RTLSDR w/ 0.5PPM TCXO, SMA Input, Aluminum Enclosure & 3 Antennas. RTL2832U & R820T2-Based Radio",
+   "brand": "Nooelec",
+   "model": "NESDR SMArt v5 bundle",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3992,
+   "score": 78,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The v5 with antennas and accessories in the box.",
+   "pros": [
+    "Bundle with antennas",
+    "0.5 PPM TCXO",
+    "3,992 reviews, 1K+ bought in the past month"
+   ],
+   "cons": [
+    "$54.95",
+    "4.2 stars",
+    "Receive only"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "100 kHz to 1.75 GHz",
+    "direction": "Receive only",
+    "extras": "0.5 PPM TCXO, antenna bundle"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71nQQh3SxRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01GDN1T4S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B01GDN1T4S"
+  },
+  {
+   "rank": 3,
+   "asin": "B0872P4HX7",
+   "name": "Broadlink Rm4 Pro Universal Remote with Sensor Cable,RF/IR Smart Remote",
+   "brand": "BroadLink",
+   "model": "RM4 Pro",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 3375,
+   "score": 78,
+   "awards": [
+    "Best RF Bridge"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The most popular RF bridge: it learns fixed-code 433 MHz remotes and IR, and Home Assistant supports it.",
+   "pros": [
+    "433 MHz RF and IR in one hub",
+    "Alexa, Google, and Siri voice control",
+    "Official Home Assistant integration",
+    "3,375 reviews"
+   ],
+   "cons": [
+    "Rolling-code remotes aren't supported",
+    "2.4 GHz Wi-Fi only",
+    "4.0 stars"
+   ],
+   "specs": {
+    "type": "Wi-Fi IR/RF hub",
+    "rf": "433 MHz fixed code",
+    "direction": "Sends (learns remotes)",
+    "extras": "IR blaster, temp/humidity cable"
+   },
+   "features": {
+    "sends": true,
+    "ha": true,
+    "tcxo": false,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/610kpY5U+VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0872P4HX7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B0872P4HX7"
+  },
+  {
+   "rank": 4,
+   "asin": "B0BMKZCKTF",
+   "name": "RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXO SMA Software Defined Radio (Dongle Only) (Black)",
+   "brand": "RTL-SDR Blog",
+   "model": "V3 (dongle only)",
+   "price": 37.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3137,
+   "score": 75,
+   "awards": [
+    "Best Budget SDR"
+   ],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The V3 dongle by itself, for when you already have an antenna.",
+   "pros": [
+    "$37.95",
+    "4.6 stars, 1K+ bought in the past month",
+    "Aluminum case"
+   ],
+   "cons": [
+    "No antenna",
+    "Receive only",
+    "Needs rtl_433 setup"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "500 kHz to 1.7 GHz",
+    "direction": "Receive only",
+    "extras": "1 PPM TCXO, bias tee"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61vpNX7rLNL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BMKZCKTF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B0BMKZCKTF"
+  },
+  {
+   "rank": 5,
+   "asin": "B01HA642SW",
+   "name": "Nooelec RTL-SDR v5 SDR - NESDR Smart HF/VHF/UHF (100kHz-1.75GHz) Software Defined Radio. Premium RTLSDR w/ 0.5PPM TCXO, SMA Input & Aluminum Enclosure. RTL2832U & R820T2 (R860)-Based Radio",
+   "brand": "Nooelec",
+   "model": "NESDR SMArt v5",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2879,
+   "score": 74,
+   "awards": [
+    "Best Premium SDR"
+   ],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Nooelec's premium RTL-SDR with a tighter oscillator and lower noise.",
+   "pros": [
+    "0.5 PPM TCXO",
+    "Lower noise than a V3, per Nooelec",
+    "4.5 stars"
+   ],
+   "cons": [
+    "No antenna in this version",
+    "Receive only",
+    "$44.95"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "100 kHz to 1.75 GHz",
+    "direction": "Receive only",
+    "extras": "0.5 PPM TCXO, aluminum case"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/611x-3wPnfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01HA642SW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B01HA642SW"
+  },
+  {
+   "rank": 6,
+   "asin": "B009U7WZCA",
+   "name": "Nooelec NESDR Mini USB RTL-SDR & ADS-B Receiver Set, RTL2832U & R820T Tuner, MCX Input. Low-Cost Software Defined Radio Compatible with Many SDR Software Packages. R820T Tuner & ESD-Safe Antenna Input",
+   "brand": "Nooelec",
+   "model": "NESDR Mini",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1911,
+   "score": 70,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Nooelec's basic SDR with an antenna, fine for 433 MHz sensors.",
+   "pros": [
+    "Antenna included",
+    "1-year warranty",
+    "1,911 reviews"
+   ],
+   "cons": [
+    "No TCXO listed",
+    "Older R820T tuner",
+    "$44.95, same as the better v5"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "R820T tuner, antenna"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71XcMmebiiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B009U7WZCA?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B009U7WZCA"
+  },
+  {
+   "rank": 7,
+   "asin": "B01B4L48QU",
+   "name": "NESDR Nano 2 Plus - Tiny Black RTL-SDR USB Set (RTL2832U & R820T2) with Ultra-Low Phase Noise 0.5PPM TCXO, MCX Antenna",
+   "brand": "Nooelec",
+   "model": "NESDR Nano 2+",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 351,
+   "score": 70,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A tiny SDR for a Raspberry Pi or mini PC with crowded ports.",
+   "pros": [
+    "Under 1 in. square",
+    "0.5 PPM TCXO",
+    "Telescopic antenna included"
+   ],
+   "cons": [
+    "Only 351 reviews",
+    "MCX antenna connector",
+    "$47.95"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "Tiny, 0.5 PPM TCXO, telescopic antenna"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ZEhmQtg-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01B4L48QU?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B01B4L48QU"
+  },
+  {
+   "rank": 8,
+   "asin": "B079C3FHPG",
+   "name": "NESDR SMArTee v2 SDR - Premium RTL-SDR w/Integrated Bias Tee, Aluminum Enclosure, 0.5PPM TCXO, SMA Input. RTL2832U & R820T2-Based Software Defined Radio",
+   "brand": "Nooelec",
+   "model": "NESDR SMArTee v2",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 395,
+   "score": 66,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "An SDR with an always-on bias tee for powering an active outdoor antenna.",
+   "pros": [
+    "Always-on 4.5 V bias tee",
+    "2-year warranty",
+    "Slim enough to sit next to other USB devices"
+   ],
+   "cons": [
+    "Only 395 reviews",
+    "No antenna",
+    "Receive only"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "Always-on bias tee, 0.5 PPM TCXO"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/719zJqrduvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B079C3FHPG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B079C3FHPG"
+  },
+  {
+   "rank": 9,
+   "asin": "B0F29LWRS9",
+   "name": "Wi-Fi Universal IR/RF Remote Hub 433.92 MHz Fixed-Code Only, App Control via Smart Life/Tuya, Works with Alexa & Google, 2.4 GHz Wi-Fi Only, USB-C Powered — Control TV, A/C, Fans, RF Switches Blinds",
+   "brand": "Toyanc",
+   "model": "Tuya IR/RF hub",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 19,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Smart Life IR/RF hub that's clear about what it can't do: fixed-code 433.92 MHz only.",
+   "pros": [
+    "Clearly states fixed-code only",
+    "Smart Life app, Alexa, and Google",
+    "USB-C"
+   ],
+   "cons": [
+    "Only 19 reviews",
+    "3.7 stars",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "type": "Wi-Fi IR/RF hub",
+    "rf": "433.92 MHz fixed code",
+    "direction": "Sends (learns remotes)",
+    "extras": "USB-C power"
+   },
+   "features": {
+    "sends": true,
+    "ha": true,
+    "tcxo": false,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41T2dres0YL._AC_SL1024_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F29LWRS9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B0F29LWRS9"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0D926FQRQ",
+   "name": "WiFi Smart IR RF Blaster, Remote Control Hub/IR RF Controller for Smart Curtains, Retractable Door, Garage Door, Home Automation Bridge Works with Tuya/Smart Life App",
+   "brand": "Tuya",
+   "model": "Wi-Fi IR/RF blaster",
+   "price": 32.0,
+   "currency": "USD",
+   "rating": 3.1,
+   "reviews_count": 26,
+   "flag": "Promises garage doors without the rolling-code caveat",
+   "verdict": "It lists garage doors as a use, but never mentions that rolling-code garage remotes can't be copied, which the other RF hubs here state plainly.",
+   "reasons": [
+    "Garage doors are named in the title and bullets, with no mention of rolling codes.",
+    "BroadLink and Toyanc both say rolling-code devices aren't supported, and most garage remotes made in the last 25 years use rolling codes.",
+    "RF devices don't support voice control, per its own last bullet.",
+    "3.1 stars, the lowest of the RF hubs here."
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/51G6ikyN7BL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D926FQRQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#avoid-B0D926FQRQ"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What does an RF bridge do?",
+   "a": "It learns the signals from 433 MHz remotes, doorbells, and sensors so you can trigger them from an app or a smart home hub. Most handle only fixed-code remotes, not the rolling-code remotes used by garage doors and car fobs."
+  },
+  {
+   "q": "What is an SDR receiver for?",
+   "a": "A software-defined radio USB stick can listen to many 433 MHz and 915 MHz weather sensors at once. With rtl_433 and Home Assistant, it turns cheap weather and temperature sensors into smart home data. It only receives; it can't send commands."
+  },
+  {
+   "q": "Is any of this plug and play?",
+   "a": "The Wi-Fi IR/RF hubs are app-based and fairly easy. SDR sticks and custom firmware are hobbyist projects that need some comfort with Linux or Home Assistant add-ons."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 9 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

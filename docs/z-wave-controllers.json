@@ -1,0 +1,510 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-controllers.html",
+ "json_url": "https://themisreviews.com/z-wave-controllers.json",
+ "slug": "z-wave-controllers",
+ "title": "The Best Z-Wave Hubs and USB Controllers",
+ "subtitle": "Z-Wave USB sticks and all-in-one hubs, ranked from live Amazon data.",
+ "intro": "We pulled the Z-Wave USB controllers and hubs selling on Amazon and scored them on rating, review volume, and features: 800 Series chips with Long Range, all-in-one hubs that need no extra computer, and extra radios. The table shows whether each is a stick or a hub.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Hubs and controllers",
+ "data_captured": "2026-10-26",
+ "updated": "2026-10-26",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "long_range": 0.35,
+   "standalone": 0.3,
+   "multi_radio": 0.2,
+   "antenna": 0.15
+  },
+  "reviews_ceiling": 3000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0G8JKPMV7",
+   "name": "SONOFF Dongle Plus PZG23",
+   "price": 39.9,
+   "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, 4.6 stars, for $39.90, the lowest price here."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0FL858V4Q",
+   "name": "Home Assistant Connect ZWA-2",
+   "price": 79.0,
+   "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
+  },
+  {
+   "label": "Best All-in-One Hub",
+   "asin": "B0CR4G1G8M",
+   "name": "Hubitat Elevation C-8 Pro",
+   "price": 210.0,
+   "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
+  }
+ ],
+ "systems_note": "For USB sticks, the icons show the hub software they work with. For full hubs, they show the hub itself plus the voice assistants it connects to.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0CR4G1G8M",
+   "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
+   "brand": "Hubitat",
+   "model": "Elevation C-8 Pro",
+   "price": 210.0,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 393,
+   "score": 79,
+   "awards": [
+    "Best All-in-One Hub"
+   ],
+   "works_with": [
+    "Hubitat Elevation",
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A local-first hub with 800 Series Long Range, Zigbee, and Matter, and no subscription required.",
+   "pros": [
+    "Automations run locally on the hub",
+    "800 Series Long Range, Zigbee, Matter, and Bluetooth",
+    "No subscription required",
+    "Works with Alexa, Google Home, and Apple Home"
+   ],
+   "cons": [
+    "3.9 stars",
+    "$210.00",
+    "Steeper learning curve than SmartThings"
+   ],
+   "specs": {
+    "type": "Hub",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Zigbee, Matter, Bluetooth",
+    "needs": "Nothing else"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": true,
+    "multi_radio": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71NJAozHjnL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CR4G1G8M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0CR4G1G8M"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FL858V4Q",
+   "name": "Home Assistant Connect ZWA-2 | Connect Z-Wave Devices to Home Assistant | Official Home Assistant Hardware",
+   "brand": "Home Assistant",
+   "model": "Connect ZWA-2",
+   "price": 79.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 261,
+   "score": 75,
+   "awards": [
+    "Best for Home Assistant"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The official Home Assistant Z-Wave adapter, with a tuned antenna and a setup wizard.",
+   "pros": [
+    "Built by the Home Assistant and Z-Wave JS team",
+    "Tuned antenna base for range",
+    "Couple-of-clicks migration from other adapters",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "$79, about double most sticks",
+    "Home Assistant only",
+    "Sold by Nabu Casa, stock wasn't shown at capture time"
+   ],
+   "specs": {
+    "type": "USB antenna base",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Home Assistant"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41XQziRKfyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FL858V4Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0FL858V4Q"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DV9RFSR9",
+   "name": "Z-Stick 10 Pro - Zigbee 3.0 & Z-Wave 800 Series USB Adapter - Works with HomeAssistant - Zigbee2MQTT - Z-Wave Controller - Z-Wave Long Range - Up to 1 Mile Wireless Range - cloudfree",
+   "brand": "Aeotec",
+   "model": "Z-Stick 10 Pro",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 182,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Z-Wave Long Range and Zigbee 3.0 on one slim stick, so you use one USB port instead of two.",
+   "pros": [
+    "Z-Wave 800 and Zigbee 3.0 in one stick",
+    "Slim enough not to block nearby ports",
+    "Works with Z-Wave JS and Zigbee2MQTT",
+    "4.5 stars"
+   ],
+   "cons": [
+    "$59.99",
+    "Two radios in one stick can't be placed separately",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Zigbee 3.0",
+    "needs": "Computer running hub software"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615b5ID+cUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DV9RFSR9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0DV9RFSR9"
+  },
+  {
+   "rank": 4,
+   "asin": "B0G8JKPMV7",
+   "name": "SONOFF Z-Wave 800 Dongle Plus (Dongle-PZG23), USB Stick with EFR32ZG23, Compatible with Home Assistant & openHAB, S2 Security, Stable and Long-Range Smart Home Control",
+   "brand": "SONOFF",
+   "model": "Dongle Plus PZG23",
+   "price": 39.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 184,
+   "score": 73,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "An 800 Series Long Range stick with an adjustable antenna and an extension cable in the box.",
+   "pros": [
+    "External 2 dBi antenna",
+    "USB extension cable included",
+    "800 Series with Long Range",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 184 reviews",
+    "Names Home Assistant and openHAB only",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Computer running hub software"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61oquCTd1oL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G8JKPMV7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G8JKPMV7"
+  },
+  {
+   "rank": 5,
+   "asin": "B0D29Y1L5H",
+   "name": "Z-Wave USB Interface/Radio/Dongle (SmartStick G8), 800 Series Mesh & Long Range Z-Wave Technology, Compatible with HomeSeer, Home Assistant, OpenHAB",
+   "brand": "HomeSeer",
+   "model": "SmartStick G8",
+   "price": 39.95,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 98,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "An 800 Series Long Range stick that runs mesh and Long Range devices together and migrates older networks.",
+   "pros": [
+    "Runs mesh and Long Range devices at once",
+    "Migrates from 500, 700, and 800 Series controllers",
+    "Works with HomeSeer or Home Assistant"
+   ],
+   "cons": [
+    "Only 98 reviews",
+    "4.5 stars",
+    "Not a standalone hub"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Computer running hub software"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/5122wJPMzxL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D29Y1L5H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0D29Y1L5H"
+  },
+  {
+   "rank": 6,
+   "asin": "B0G52DX5M3",
+   "name": "Homey Pro (2026) | Smart Hub for Home Automation – Features Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter & Thread. Compatible with Siri, Alexa & Google Home.",
+   "brand": "Homey",
+   "model": "Pro (2026)",
+   "price": 449.0,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 71,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Homey Pro",
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The hub with the most radios: Z-Wave, Zigbee, Thread, Matter, Bluetooth, infrared, and Wi-Fi in one box.",
+   "pros": [
+    "Seven radio technologies in one hub",
+    "Works with Siri, Alexa, and Google",
+    "Local-first automations with Homey Flow"
+   ],
+   "cons": [
+    "$471",
+    "3.9 stars from 71 reviews",
+    "Z-Wave Plus, Long Range isn't listed"
+   ],
+   "specs": {
+    "type": "Hub",
+    "series": "Z-Wave Plus",
+    "long_range": false,
+    "radios": "Zigbee, Wi-Fi, BLE, IR, Matter, Thread",
+    "needs": "Nothing else"
+   },
+   "features": {
+    "long_range": false,
+    "standalone": true,
+    "multi_radio": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G52DX5M3"
+  },
+  {
+   "rank": 7,
+   "asin": "B0H5QKDKN2",
+   "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
+   "brand": "SONOFF",
+   "model": "PoE Dongle Max (Dongle-MZG23)",
+   "price": 44.9,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 34,
+   "score": 64,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
+   "pros": [
+    "Ethernet with PoE, Wi-Fi, or USB",
+    "Two adjustable antennas",
+    "Built-in web console",
+    "Aluminum case"
+   ],
+   "cons": [
+    "Only 34 reviews",
+    "Names Home Assistant, openHAB, and Z-Wave JS only",
+    "Network setup is more work than a USB stick"
+   ],
+   "specs": {
+    "type": "Network dongle",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Hub software on your network"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5QKDKN2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0H5QKDKN2"
+  },
+  {
+   "rank": 8,
+   "asin": "B094NW5B68",
+   "name": "Aeotec Z-Stick 7 Plus, Zwave Plus USB to Create Z-Wave hub, Gateway Controller with 700 Series ZWave, SmartStart and S2, Works with Raspberry Pi 4, Compatible with Home Assistant",
+   "brand": "Aeotec",
+   "model": "Z-Stick 7 Plus",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 256,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A dependable 700 Series stick that works on a Raspberry Pi, Windows, Mac, or Linux.",
+   "pros": [
+    "Works with Raspberry Pi, Windows, Mac, and Linux",
+    "SmartStart and S2",
+    "Sold by Aeotec"
+   ],
+   "cons": [
+    "700 Series, no Long Range",
+    "No software included",
+    "$39.99, same as 800 Series sticks"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "series": "700 Series",
+    "long_range": false,
+    "radios": "Z-Wave only",
+    "needs": "Computer running hub software"
+   },
+   "features": {
+    "long_range": false,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51j3xDW-vPS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B094NW5B68?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B094NW5B68"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "USB stick or full hub?",
+   "a": "A USB stick (or network coordinator) is just a radio. It needs software running on something else, usually Home Assistant on a mini PC or a Home Assistant Green. A full hub has the radio and the automation software in one box, so it works out of the box but you're tied to its app."
+  },
+  {
+   "q": "Can I move my devices to a new hub later?",
+   "a": "Usually not without re-pairing each device. Z-Wave controllers can sometimes back up and restore their network, and some Zigbee coordinators can be migrated in Home Assistant, but plan on re-pairing if you switch brands."
+  },
+  {
+   "q": "Where should the hub go?",
+   "a": "Somewhere central and out in the open, not in a metal cabinet or right next to the router. For USB sticks, use a short USB extension cable to move the stick away from the computer, since USB 3 ports put out interference that hurts 2.4 GHz radios."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-26",
+   "notes": [
+    "Dropped Zooz ZST39 LR, Aeotec Smart Home Hub (SmartThings, V3).",
+    "New Best Overall: SONOFF Dongle Plus PZG23.",
+    "New Best All-in-One Hub: Hubitat Elevation C-8 Pro.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

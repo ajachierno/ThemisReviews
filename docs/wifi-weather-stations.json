@@ -1,0 +1,582 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-weather-stations.html",
+ "json_url": "https://themisreviews.com/wifi-weather-stations.json",
+ "slug": "wifi-weather-stations",
+ "title": "The Best Wi-Fi Weather Stations",
+ "subtitle": "Backyard weather stations that upload to the internet and your phone, ranked.",
+ "intro": "We pulled the Wi-Fi weather stations on Amazon and scored them on rating, review volume, and features: wind and rain sensors, an indoor display, and Weather Underground or Home Assistant support.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Weather stations",
+ "data_captured": "2026-10-10",
+ "updated": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "wind_rain": 0.25,
+   "solar": 0.2,
+   "integrations": 0.3,
+   "display": 0.25
+  },
+  "reviews_ceiling": 5000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B01N5TEHLI",
+   "name": "Ambient Weather WS-2902",
+   "price": 199.99,
+   "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,139 reviews."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0FM3CVKNL",
+   "name": "VEVOR 7-in-1 Wi-Fi Weather Station",
+   "price": 84.75,
+   "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $84.75."
+  },
+  {
+   "label": "Best No-Moving-Parts",
+   "asin": "B0868WY7NY",
+   "name": "Tempest Weather System",
+   "price": 349.0,
+   "why": "Tempest's all-in-one sensor measures wind and rain without spinning cups."
+  },
+  {
+   "label": "Best for Enthusiasts",
+   "asin": "B07GRBY9NP",
+   "name": "Ambient Weather WS-2000",
+   "price": 299.99,
+   "why": "Ambient's WS-2000 with a bigger console and solar-powered outdoor array."
+  }
+ ],
+ "systems_note": "Ambient Weather and Tempest stations have official Home Assistant integrations.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B01N5TEHLI",
+   "name": "Ambient Weather WS-2902 Wi-Fi Smart Weather Station",
+   "brand": "Ambient Weather",
+   "model": "WS-2902",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 13139,
+   "score": 95,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": "Ambient Weather Network",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best-known home weather station, and a Home Assistant favorite.",
+   "pros": [
+    "13,139 reviews",
+    "Full wind and rain sensors",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "$199.99",
+    "4.4 stars",
+    "Mounting pole sold separately"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity, UV, solar",
+    "display": "Color console",
+    "online": "Ambient Weather Network, Weather Underground",
+    "power": "Solar with battery backup"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51fSHzJV5dL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01N5TEHLI?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B01N5TEHLI"
+  },
+  {
+   "rank": 2,
+   "asin": "B07GRBY9NP",
+   "name": "Ambient Weather WS-2000 Smart Weather Station",
+   "brand": "Ambient Weather",
+   "model": "WS-2000",
+   "price": 299.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2990,
+   "score": 93,
+   "awards": [
+    "Best for Enthusiasts"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Ambient Weather Network",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "The step-up Ambient with a larger, more detailed console.",
+   "pros": [
+    "Bigger console",
+    "2,990 reviews",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "$299.99",
+    "Alexa isn't named in the bullets",
+    "4.4 stars"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity, UV, solar",
+    "display": "Large color console",
+    "online": "Ambient Weather Network",
+    "power": "Solar"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61FL1666qmL._SL1142_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07GRBY9NP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B07GRBY9NP"
+  },
+  {
+   "rank": 3,
+   "asin": "B07D9D6CXW",
+   "name": "AcuRite Iris (5-in-1) Home Weather Station with Wi-Fi Connection to Weather Underground with Temperature, Humidity, Wind Speed/Direction, and Rainfall (01540M), Black",
+   "brand": "AcuRite",
+   "model": "Iris 5-in-1 with Wi-Fi",
+   "price": 138.58,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 2964,
+   "score": 85,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "My AcuRite",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "800+ bought in past month",
+   "verdict": "AcuRite's popular 5-in-1, connected to Weather Underground.",
+   "pros": [
+    "Weather Underground",
+    "2,964 reviews",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "4.1 stars",
+    "No solar sensor",
+    "$138.58"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Display",
+    "online": "Weather Underground",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71jiKpEy1jS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D9D6CXW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B07D9D6CXW"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GZ3CRC9Q",
+   "name": "Sainlogic WiFi Weather Station with 443FT Wireless Indoor Outdoor Sensor",
+   "brand": "Sainlogic",
+   "model": "Wi-Fi Weather Station (443 ft)",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 978,
+   "score": 85,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Sainlogic app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A well-rated station that uploads to Weather Underground.",
+   "pros": [
+    "4.5 stars",
+    "443 ft wireless range",
+    "Weather Underground"
+   ],
+   "cons": [
+    "$169.99",
+    "Only 978 reviews",
+    "Sold as WeatherAI"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Color display",
+    "online": "Weather Underground",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71cPgG+qHVL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZ3CRC9Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GZ3CRC9Q"
+  },
+  {
+   "rank": 5,
+   "asin": "B0868WY7NY",
+   "name": "Tempest Weather Station with Built-in Wind Meter, Rain Gauge, and Accurate Weather Forecasts, Wireless, App and Alexa Enabled",
+   "brand": "Tempest",
+   "model": "Weather System",
+   "price": 349.0,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2205,
+   "score": 84,
+   "awards": [
+    "Best No-Moving-Parts"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": "Tempest app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "900+ bought in past month",
+   "verdict": "A single sensor with no moving parts and forecasts tuned to your backyard.",
+   "pros": [
+    "No spinning cups to wear out",
+    "Solar powered",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "$349",
+    "No display console",
+    "4.2 stars"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity, pressure, light, lightning",
+    "display": "Phone app",
+    "online": "Tempest forecasts",
+    "power": "Solar"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/618WaTRyhBL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0868WY7NY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0868WY7NY"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BBH688XG",
+   "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
+   "brand": "Ambient Weather",
+   "model": "WS-1965",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 556,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": "Ambient Weather Network",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheaper Ambient station with wind and rain.",
+   "pros": [
+    "$149.99",
+    "Alexa",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Only 556 reviews",
+    "No UV or solar sensor listed"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Console",
+    "online": "Ambient Weather Network",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": true,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BBH688XG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BBH688XG"
+  },
+  {
+   "rank": 7,
+   "asin": "B0GXFKPZJV",
+   "name": "Sainlogic WiFi Smart Weather Station 14-in-1 with 24/7 Accurate Weather Forecast by Weatherseed AI, 8.5\" Large Display, Wind Gauge, 2-Year Data Storage & Export (Only 2.4G)",
+   "brand": "Sainlogic",
+   "model": "14-in-1 Wi-Fi Weather Station",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 741,
+   "score": 79,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Sainlogic app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The most readings for $129.99.",
+   "pros": [
+    "14 readings",
+    "8.5 in. display",
+    "Solar sensor"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Lesser-known integrations",
+    "Only 741 reviews"
+   ],
+   "specs": {
+    "sensors": "14 readings incl. wind and rain",
+    "display": "8.5 in. display",
+    "online": "AI forecast",
+    "power": "Solar"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71tunn2GruL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXFKPZJV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFKPZJV"
+  },
+  {
+   "rank": 8,
+   "asin": "B0BL53M5HR",
+   "name": "La Crosse Technology Professional Smart Wi-Fi Weather Station with Remote Monitoring (400 Foot Range), Wind and Rain Gauges, Temperature and Humidity Sensors, and Forecasting - V42-PRO-INT",
+   "brand": "La Crosse Technology",
+   "model": "Professional Smart Wi-Fi Weather Station",
+   "price": 184.77,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1407,
+   "score": 76,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "La Crosse View",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A 400-foot-range station with remote monitoring in La Crosse's app.",
+   "pros": [
+    "400 ft range",
+    "1,407 reviews",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "4.2 stars",
+    "$184.77",
+    "No Weather Underground listed"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Color display",
+    "online": "La Crosse View app",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81OX4afhGEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BL53M5HR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BL53M5HR"
+  },
+  {
+   "rank": 9,
+   "asin": "B0FM3CVKNL",
+   "name": "VEVOR 7-in-1 Wi-Fi Weather Station with APP, 7.5-Inch VA Display, Solar Powered Outdoor Sensor, Rain Gauge, Indoor Outdoor for Weather Forecast, Wind Speed, Temperature, Humidity, Rainfall",
+   "brand": "VEVOR",
+   "model": "7-in-1 Wi-Fi Weather Station",
+   "price": 84.75,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 342,
+   "score": 75,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "VEVOR app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The cheapest full station with wind, rain, and a solar sensor.",
+   "pros": [
+    "$84.75",
+    "Solar outdoor sensor",
+    "Big display"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Only 342 reviews",
+    "Fewer integrations"
+   ],
+   "specs": {
+    "sensors": "7 readings incl. wind and rain",
+    "display": "7.5 in. VA display",
+    "online": "App",
+    "power": "Solar"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71+WsAQplzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM3CVKNL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0FM3CVKNL"
+  },
+  {
+   "rank": 10,
+   "asin": "B0GXFBT2D6",
+   "name": "Sainlogic 5G/2.4G WiFi Weather Station with 24/7 AI Weather Forecast, Weather Stations Wireless Indoor Outdoor, UV, Rain Gauge, Wind Speed/Direction, App Alerts, 2 Years Data Export",
+   "brand": "Sainlogic",
+   "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 509,
+   "score": 74,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Sainlogic app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Works on 5 GHz Wi-Fi as well as 2.4 GHz.",
+   "pros": [
+    "Dual-band Wi-Fi",
+    "4.4 stars",
+    "AI forecasts"
+   ],
+   "cons": [
+    "$179.99",
+    "Only 509 reviews",
+    "Forecast service details aren't in the bullets"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Color display",
+    "online": "AI forecast",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/714Ev8TFwtL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXFBT2D6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFBT2D6"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What does a Wi-Fi weather station do that an RF one doesn't?",
+   "a": "It uploads readings to the internet, so you can see your backyard conditions from anywhere, get alerts, and share data with services like Weather Underground. Many also work with Home Assistant."
+  },
+  {
+   "q": "Where should the outdoor sensor go?",
+   "a": "In open air about five feet off the ground, away from walls, roofs, and pavement, which skew temperature. Wind and rain sensors need to be higher and clear of obstructions."
+  },
+  {
+   "q": "Does it need a hub?",
+   "a": "Most use an indoor display or small gateway that receives the outdoor sensor by radio and connects to Wi-Fi. It's included in the kit."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

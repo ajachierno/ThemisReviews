@@ -1,0 +1,252 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-smoke-detectors.html",
+ "json_url": "https://themisreviews.com/matter-smoke-detectors.json",
+ "slug": "matter-smoke-detectors",
+ "title": "The Best Matter Smoke and CO Alarms",
+ "subtitle": "Matter-over-Thread smoke and CO alarms for any smart home platform.",
+ "intro": "Matter smoke alarms are brand new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Smoke and CO detectors",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "climate": 0.35,
+   "long_battery": 0.35,
+   "co": 0.3
+  },
+  "reviews_ceiling": 200,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0GV4CWB6D",
+   "name": "Heiman S1-TM",
+   "price": 44.98,
+   "why": "A UL 217 smoke alarm on Matter over Thread that also reports temperature and humidity."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0FVSVNJBY",
+   "name": "Heiman Matter smoke detector",
+   "price": 39.99,
+   "why": "The plain Matter smoke alarm for $39.99."
+  },
+  {
+   "label": "Best CO Alarm",
+   "asin": "B0G135MZJY",
+   "name": "Heiman C1-M CO alarm",
+   "price": 47.99,
+   "why": "A UL 2034 CO alarm with a Figaro sensor and a battery rated up to 10 years."
+  }
+ ],
+ "systems_note": "All three need a Thread border router; the listings name Apple Home, Google Home, Alexa, SmartThings, and Home Assistant.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0G135MZJY",
+   "name": "Heiman Smart Carbon Monoxide Detectors, Matter Over Thread CO Alarm, C1-M",
+   "brand": "Heiman",
+   "model": "C1-M CO alarm",
+   "price": 47.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 23,
+   "score": 67,
+   "awards": [
+    "Best CO Alarm"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A dedicated Matter CO alarm for near furnaces, water heaters, and garages.",
+   "pros": [
+    "UL 2034 5th edition",
+    "Figaro electrochemical sensor",
+    "Battery rated up to 10 years"
+   ],
+   "cons": [
+    "CO only",
+    "3.6 stars from 23 reviews",
+    "Needs a Thread border router"
+   ],
+   "specs": {
+    "detects": "Carbon monoxide",
+    "power": "CR123A, up to 10 years",
+    "cert": "UL 2034 5th Ed.",
+    "extras": "Figaro TGS5141 sensor"
+   },
+   "features": {
+    "climate": false,
+    "long_battery": true,
+    "co": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bwb7dwGCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G135MZJY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-smoke-detectors.html#B0G135MZJY"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GV4CWB6D",
+   "name": "Heiman Smoke Detector, Matter Over Thread, with Temp&Humidity Sensor, S1-TM",
+   "brand": "Heiman",
+   "model": "S1-TM",
+   "price": 44.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 23,
+   "score": 66,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A Matter smoke alarm that doubles as a temperature and humidity sensor.",
+   "pros": [
+    "UL 217 10th edition, CSFM listed",
+    "Temperature and humidity built in",
+    "Names Apple, Google, Alexa, SmartThings, Homey, and Home Assistant"
+   ],
+   "cons": [
+    "Only 23 reviews",
+    "Needs a Thread border router",
+    "Smoke only, no CO"
+   ],
+   "specs": {
+    "detects": "Smoke, temperature, humidity",
+    "power": "Battery (included)",
+    "cert": "UL 217 10th Ed.",
+    "extras": "85 dB, magnetic or screw mount"
+   },
+   "features": {
+    "climate": true,
+    "long_battery": false,
+    "co": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71L5tKOT+GL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GV4CWB6D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-smoke-detectors.html#B0GV4CWB6D"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FVSVNJBY",
+   "name": "Heiman Smart Smoke Detector, Matter Over Thread Fire Alarm,Real-Time Alerts",
+   "brand": "Heiman",
+   "model": "Matter smoke detector",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 81,
+   "score": 57,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The basic Heiman Matter smoke alarm, which can also trigger lights or cut power in a fire.",
+   "pros": [
+    "$39.99",
+    "UL 217 10th edition",
+    "Triggers local automations without Wi-Fi"
+   ],
+   "cons": [
+    "3.6 stars",
+    "Needs a Thread border router",
+    "Battery life isn't stated"
+   ],
+   "specs": {
+    "detects": "Smoke",
+    "power": "CR123A (included)",
+    "cert": "UL 217 10th Ed.",
+    "extras": "85 dB, local automations"
+   },
+   "features": {
+    "climate": false,
+    "long_battery": false,
+    "co": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71jqYTWZdvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FVSVNJBY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-smoke-detectors.html#B0FVSVNJBY"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Smoke only, or smoke and CO?",
+   "a": "Put a combination smoke and carbon monoxide alarm on every level and outside sleeping areas if your home has gas appliances, a fireplace, or an attached garage. Smoke-only alarms are fine inside bedrooms."
+  },
+  {
+   "q": "Does a smart alarm replace a regular one?",
+   "a": "Only if it's UL listed as a smoke alarm. A smart alarm adds phone alerts and interconnection, but the local siren is what wakes you up. Check the listing for UL 217 (smoke) and UL 2034 (CO)."
+  },
+  {
+   "q": "Hardwired or battery?",
+   "a": "If your home has hardwired alarms, replace them with hardwired smart alarms so they stay interconnected and code compliant. Battery models suit homes without wiring, and 10-year sealed batteries mean no yearly battery swaps."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 3 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

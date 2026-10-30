@@ -1,0 +1,252 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-power-strips.html",
+ "json_url": "https://themisreviews.com/matter-power-strips.json",
+ "slug": "matter-power-strips",
+ "title": "The Best Matter Power Strips",
+ "subtitle": "Smart power strips that work with Apple Home, Google Home, Alexa, and SmartThings, ranked.",
+ "intro": "We pulled the smart power strips on Amazon whose listings name Matter support and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "Smart power strips",
+ "data_captured": "2026-10-29",
+ "updated": "2026-10-29",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "energy": 0.35,
+   "many": 0.25,
+   "usbc": 0.2,
+   "surge": 0.2
+  },
+  "reviews_ceiling": 2000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0F5LNYTR7",
+   "name": "Tapo P316M",
+   "price": 49.99,
+   "why": "Six individually controlled outlets with per-outlet energy monitoring and Matter for $49.99."
+  },
+  {
+   "label": "Best for Charging",
+   "asin": "B0H8Q1KJ13",
+   "name": "Jinvoo Matter Smart Power Strip",
+   "price": 35.99,
+   "why": "Two USB-C ports with 20 W PD, plus ETL and UL certification."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0F5LNYTR7",
+   "name": "Tapo Smart Wi-Fi Power Strip, Matter, P316M, Energy Monitoring",
+   "brand": "Tapo",
+   "model": "P316M",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 362,
+   "score": 84,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Tapo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The clear pick: six smart outlets that each report their own energy use.",
+   "pros": [
+    "Per-outlet energy monitoring",
+    "Sold by Amazon",
+    "4.5 stars"
+   ],
+   "cons": [
+    "USB ports aren't switchable",
+    "3 ft cord",
+    "No USB-C"
+   ],
+   "specs": {
+    "outlets": "6, individually controlled",
+    "usb": "3 USB, always on",
+    "energy": "Per outlet",
+    "extras": "Surge protection, flat plug, 3 ft cord"
+   },
+   "features": {
+    "energy": true,
+    "many": true,
+    "usbc": false,
+    "surge": true
+   },
+   "image": "https://m.media-amazon.com/images/I/611LrgoYkvL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5LNYTR7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-power-strips.html#B0F5LNYTR7"
+  },
+  {
+   "rank": 2,
+   "asin": "B0H8Q1KJ13",
+   "name": "Matter Smart Power Strip with USB-C 20W ETL listed FCC certified",
+   "brand": "Jinvoo",
+   "model": "Matter Smart Power Strip",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 5.0,
+   "reviews_count": 2,
+   "score": 59,
+   "awards": [
+    "Best for Charging"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A smaller strip with fast USB-C charging.",
+   "pros": [
+    "20 W USB-C PD",
+    "ETL and UL certified",
+    "5 ft cord"
+   ],
+   "cons": [
+    "Only 2 reviews",
+    "5.0 stars",
+    "Energy monitoring isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "4, individually controlled",
+    "usb": "2 USB-C (20 W PD) + 2 USB-A",
+    "energy": "Not stated in bullets",
+    "extras": "Surge protection, ETL and UL, 5 ft cord"
+   },
+   "features": {
+    "energy": false,
+    "many": false,
+    "usbc": true,
+    "surge": true
+   },
+   "image": "https://m.media-amazon.com/images/I/614OXy0vpCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H8Q1KJ13?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-power-strips.html#B0H8Q1KJ13"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DYD7FKKB",
+   "name": "Matter Smart Power Strip,Works with Apple HomeKit, Siri, Alexa, Google Assistant, with 4 Individually Controlled AC Outlets, Multi-Plug Extender for Home Office (Matter Upgrade -White)",
+   "brand": "UseeLink",
+   "model": "Matter Smart Power Strip",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 64,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A basic four-outlet Matter strip with USB-C.",
+   "pros": [
+    "USB-C ports",
+    "Matter",
+    "$35.99"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Only 64 reviews",
+    "Surge protection isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "4, individually controlled",
+    "usb": "2 USB + 2 USB-C",
+    "energy": "Not stated in bullets",
+    "extras": "Flat extension cord"
+   },
+   "features": {
+    "energy": false,
+    "many": false,
+    "usbc": true,
+    "surge": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61HAWVCZ4nL._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DYD7FKKB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-power-strips.html#B0DYD7FKKB"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Smart power strip or several smart plugs?",
+   "a": "A strip puts three to six individually controlled outlets, and usually USB ports, in one place, which suits a desk or entertainment center. Smart plugs suit single lamps spread around the house."
+  },
+  {
+   "q": "Does a smart power strip protect against surges?",
+   "a": "Only if the listing gives a joule rating. Many smart strips have surge protection, but some don't; check before plugging in a computer or TV."
+  },
+  {
+   "q": "Can each outlet be controlled separately?",
+   "a": "On most smart strips, yes: each outlet appears as its own switch in the app and in Alexa or Google. USB ports are usually switched together."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-29",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 3 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

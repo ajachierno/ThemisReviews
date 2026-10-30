@@ -1,0 +1,411 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/thread-switches.html",
+ "json_url": "https://themisreviews.com/thread-switches.json",
+ "slug": "thread-switches",
+ "title": "The Best Thread Light Switches",
+ "subtitle": "Every in-wall Thread switch we could find on Amazon, ranked.",
+ "intro": "Thread light switches are still uncommon, so this list is short. We pulled the Thread switches and dimmers selling on Amazon and scored them on rating, review volume, and features. Every switch here needs a Thread border router.",
+ "protocol": {
+  "slug": "thread",
+  "name": "Thread",
+  "url": "https://themisreviews.com/#thread"
+ },
+ "product_type": "Light switches",
+ "data_captured": "2026-10-20",
+ "updated": "2026-10-20",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "three_way": 0.35,
+   "no_neutral": 0.35,
+   "dimming": 0.3
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DCK65T2Y",
+   "name": "Eve Light Switch (Matter)",
+   "price": 49.95,
+   "why": "A clean Matter over Thread on/off switch with 3-way support and no cloud account."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0F3JD2SK3",
+   "name": "THIRDREALITY MT1",
+   "price": 34.99,
+   "why": "Under $35 and no wiring at all. It mounts over your existing switch and flips it."
+  },
+  {
+   "label": "Best for No-Neutral Boxes",
+   "asin": "B0DN1H69ZP",
+   "name": "Aqara H2 switch (1 channel)",
+   "price": 49.99,
+   "why": "Installs with or without a neutral and handles 3-way."
+  },
+  {
+   "label": "Best Thread Dimmer",
+   "asin": "B0F2N68K3C",
+   "name": "Aqara H2 dimmer",
+   "price": 49.99,
+   "why": "No-neutral capable dimmer with forward and reverse phase dimming and adjustable brightness limits."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0F3JD2SK3",
+   "name": "THIRDREALITY Smart Switch MT1, Matter Over Thread, Retrofit for Toggle/Rocker Switches, No Wiring Needed, Requires Thread Border Router, Works with Apple, SmartThings, Google, Home Assistant",
+   "brand": "THIRDREALITY",
+   "model": "MT1",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 55,
+   "score": 74,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A no-wiring option for renters. It mounts over your existing toggle or rocker and flips it over Thread.",
+   "pros": [
+    "No wiring, installs in minutes",
+    "Fits toggle or rocker switches, including multi-gang plates",
+    "Works with Apple Home, Google, SmartThings, and Home Assistant",
+    "Over-the-air firmware updates"
+   ],
+   "cons": [
+    "Runs on 2 AAA batteries, rated for up to a year",
+    "Sits on top of the switch instead of replacing it",
+    "Needs a Thread border router"
+   ],
+   "specs": {
+    "type": "Retrofit (mounts over switch)",
+    "neutral": "Not needed (no wiring)",
+    "three_way_text": "Works on any existing switch",
+    "also": "Matter only",
+    "extras": "2 AAA, about 1 year"
+   },
+   "features": {
+    "three_way": true,
+    "no_neutral": true,
+    "dimming": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41RZ+Tw8ZmL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F3JD2SK3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0F3JD2SK3"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DN1H69ZP",
+   "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
+   "brand": "Aqara",
+   "model": "H2 switch (1 channel)",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 61,
+   "score": 71,
+   "awards": [
+    "Best for No-Neutral Boxes"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Thread or Zigbee, neutral or no neutral, single-pole or 3-way. The most flexible on/off switch on this list.",
+   "pros": [
+    "Works with or without a neutral",
+    "Matter over Thread, or Zigbee with an Aqara hub",
+    "Single-pole and 3-way",
+    "Extra button works as a wireless scene switch"
+   ],
+   "cons": [
+    "3.8-star rating",
+    "Power monitoring needs a neutral",
+    "Two-button layout looks different from a standard paddle"
+   ],
+   "specs": {
+    "type": "In-wall on/off",
+    "neutral": "Optional",
+    "three_way_text": "Yes",
+    "also": "Zigbee",
+    "extras": "Decoupled scene button"
+   },
+   "features": {
+    "three_way": true,
+    "no_neutral": true,
+    "dimming": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61lq1-DChlL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DN1H69ZP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0DN1H69ZP"
+  },
+  {
+   "rank": 3,
+   "asin": "B0F2N68K3C",
+   "name": "Aqara Smart Dimmer Switch H2, 2-in-1 Neutral, Thread/Zigbee Protocol",
+   "brand": "Aqara",
+   "model": "H2 dimmer",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 61,
+   "score": 71,
+   "awards": [
+    "Best Thread Dimmer"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A Thread dimmer that works without a neutral and lets you set brightness limits to stop LED flicker.",
+   "pros": [
+    "Works with or without a neutral",
+    "Forward and reverse phase dimming for a wide range of bulbs",
+    "Set minimum and maximum brightness to prevent flicker",
+    "Silent buttons"
+   ],
+   "cons": [
+    "3-way isn't covered in the listing",
+    "3.9-star rating",
+    "Most expensive Aqara option here"
+   ],
+   "specs": {
+    "type": "In-wall dimmer",
+    "neutral": "Optional",
+    "three_way_text": "Not listed",
+    "also": "Zigbee",
+    "extras": "Forward and reverse phase"
+   },
+   "features": {
+    "three_way": false,
+    "no_neutral": true,
+    "dimming": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61JIjLOZd8L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F2N68K3C?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0F2N68K3C"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DCK65T2Y",
+   "name": "Eve Light Switch (Matter) – Smart Wall Switch",
+   "brand": "Eve",
+   "model": "Light Switch (Matter)",
+   "price": 49.95,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 82,
+   "score": 66,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The most straightforward Thread switch. It's local-only with no Eve account, and it handles 3-way by replacing one switch.",
+   "pros": [
+    "Matter over Thread with no Eve cloud, registration, or tracking",
+    "Single-pole or 3-way by replacing one switch",
+    "Works with Apple, Google, Amazon, and SmartThings hubs",
+    "UL certified, sold by Amazon"
+   ],
+   "cons": [
+    "Needs a Thread border router",
+    "3.9-star rating",
+    "On/off only"
+   ],
+   "specs": {
+    "type": "In-wall on/off",
+    "neutral": "Not stated in listing",
+    "three_way_text": "Yes, replaces one switch",
+    "also": "Matter only",
+    "extras": "No cloud or account"
+   },
+   "features": {
+    "three_way": true,
+    "no_neutral": false,
+    "dimming": false
+   },
+   "image": "https://m.media-amazon.com/images/I/716NXTCmGxL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DCK65T2Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0DCK65T2Y"
+  },
+  {
+   "rank": 5,
+   "asin": "B0F18PM6JK",
+   "name": "Eve Dimmer Switch (Matter) – Smart Dimmer Switch, for Alexa/Apple/Google/SmartThings/Home Assistant; for Single-Pole switches; Requires Thread Border Router and Neutral Wire; UL-Certified",
+   "brand": "Eve",
+   "model": "Dimmer Switch (Matter)",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 56,
+   "score": 58,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Eve's Thread dimmer with flicker-free dimming and a touch-and-rocker design. Reviews are mixed.",
+   "pros": [
+    "Precise, flicker-free dimming per the listing",
+    "Motion and presence automations through your platform",
+    "UL certified, sold by Amazon"
+   ],
+   "cons": [
+    "3.4-star rating",
+    "Single-pole only",
+    "Needs a neutral and a Thread border router"
+   ],
+   "specs": {
+    "type": "In-wall dimmer",
+    "neutral": "Required",
+    "three_way_text": "No (single pole)",
+    "also": "Matter only",
+    "extras": "Hybrid touch and rocker"
+   },
+   "features": {
+    "three_way": false,
+    "no_neutral": false,
+    "dimming": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61g4aLZi1+L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F18PM6JK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0F18PM6JK"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0BG6GDSWW",
+   "name": "Wemo Smart Light Switch with Thread - Smart Switch for Apple HomeKit - 3 Way Switch Compatible - Smart Home Products, - Can only be used with Apple HomeKit, Apple Home App - Requires Neutral Wire",
+   "brand": "Wemo",
+   "model": "Smart Light Switch with Thread",
+   "price": 25.74,
+   "currency": "USD",
+   "rating": 2.9,
+   "reviews_count": 234,
+   "flag": "Discontinued brand, Apple Home only, 2.9 stars",
+   "verdict": "Belkin has wound down the Wemo brand, so this switch won't get new features. It's Apple Home only and has the lowest rating of any Thread switch we found.",
+   "reasons": [
+    "Belkin ended support for Wemo products on January 31, 2026. This Thread model still works inside Apple Home, but there's no Wemo app or future development behind it.",
+    "It only works with Apple HomeKit, per the listing title.",
+    "2.9 stars from 234 reviews.",
+    "It's sold by a reseller with limited stock, and the spec table lists a 200 milliamp current rating."
+   ],
+   "works_with": [
+    "Apple Home"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/41BSXpeBqRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BG6GDSWW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#avoid-B0BG6GDSWW"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What's a Thread border router and do I have one?",
+   "a": "It's the device that connects Thread gear to your home network. HomePod mini, HomePod (2nd gen), Apple TV 4K with Ethernet, Nest Hub (2nd gen), Nest Hub Max, and some Echo models have one built in. Home Assistant can also run one with a compatible radio."
+  },
+  {
+   "q": "Why are there so few Thread switches?",
+   "a": "Most switch makers launched Matter over Wi-Fi first because it needs no extra hardware. Thread versions are arriving more slowly."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+  },
+  {
+   "q": "Can I install it myself?",
+   "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-20",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 5 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

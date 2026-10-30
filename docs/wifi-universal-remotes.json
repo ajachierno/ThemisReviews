@@ -1,0 +1,305 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-universal-remotes.html",
+ "json_url": "https://themisreviews.com/wifi-universal-remotes.json",
+ "slug": "wifi-universal-remotes",
+ "title": "The Best Universal Remotes",
+ "subtitle": "Universal remotes and hubs that control your TV, streamer, and smart home, ranked.",
+ "intro": "We pulled the universal remotes on Amazon and scored them on rating, review volume, and features: a hub for hidden devices, Bluetooth and Wi-Fi control, and smart home support.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "IR blasters and remotes",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "matter": 0.3,
+   "ha": 0.2,
+   "voice": 0.25,
+   "screen": 0.25
+  },
+  "reviews_ceiling": 5000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0CXJC5ZZT",
+   "name": "SwitchBot Universal Remote with Hub Mini (Matter)",
+   "price": 85.49,
+   "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,325 buyers."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0FYPR3KLW",
+   "name": "SofaBaton X2",
+   "price": 359.99,
+   "why": "A touchscreen remote that can also control Home Assistant over MQTT."
+  },
+  {
+   "label": "Best for Home Theater",
+   "asin": "B0CTH5HGGT",
+   "name": "SofaBaton X1S",
+   "price": 179.99,
+   "why": "One-touch activities across a 500,000-device code library, with Alexa and Google."
+  }
+ ],
+ "systems_note": "SwitchBot remotes join Matter through the included hub. SofaBaton's X2 has a Home Assistant integration.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0CXJC5ZZT",
+   "name": "SwitchBot Universal Remote Control with Hub Mini Matter Enabled, Multi-use Smart Remote with Customize App, Control 25 IR/Bluetooth Devices and 10 Scenes, Compatible with TV/AC/SwitchBot BLE Devices",
+   "brand": "SwitchBot",
+   "model": "Universal Remote with Hub Mini (Matter)",
+   "price": 85.49,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 5325,
+   "score": 87,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A remote for TVs, ACs, and SwitchBot gear, bridged to Matter by the included hub.",
+   "pros": [
+    "5,325 reviews",
+    "Matter through the hub",
+    "$85.49"
+   ],
+   "cons": [
+    "Check IR and Bluetooth compatibility first",
+    "No screen",
+    "10 IR devices max"
+   ],
+   "specs": {
+    "hub": "Hub Mini (Matter)",
+    "devices": "25 (10 IR + 15 Bluetooth)",
+    "screen": "No",
+    "extras": "10 scenes, 2,000 mAh battery"
+   },
+   "features": {
+    "matter": true,
+    "ha": true,
+    "voice": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51S89CrngpL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CXJC5ZZT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-universal-remotes.html#B0CXJC5ZZT"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FT3F7ZGZ",
+   "name": "SwitchBot Universal Remote Control with Hub 3, Multi-use Smart Remote with Customize App, Control 25 IR/Bluetooth Devices and 10 Scenes, Compatible with TV/AC/SwitchBot BLE Devices",
+   "brand": "SwitchBot",
+   "model": "Universal Remote with Hub 3",
+   "price": 142.49,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 1884,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The same remote bundled with the bigger Hub 3.",
+   "pros": [
+    "Hub 3 included",
+    "Matter and Apple Home",
+    "1,884 reviews"
+   ],
+   "cons": [
+    "3.8 stars",
+    "$142.49",
+    "Check compatibility first"
+   ],
+   "specs": {
+    "hub": "Hub 3",
+    "devices": "25 (10 IR + 15 Bluetooth)",
+    "screen": "No",
+    "extras": "10 scenes, IR learning"
+   },
+   "features": {
+    "matter": true,
+    "ha": true,
+    "voice": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61gwD+eBUrL._AC_SL1402_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FT3F7ZGZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-universal-remotes.html#B0FT3F7ZGZ"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FYPR3KLW",
+   "name": "SofaBaton X2 Universal Remote with Hub & Charing Dock & APP & Touchscreen",
+   "brand": "SofaBaton",
+   "model": "X2",
+   "price": 359.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 88,
+   "score": 64,
+   "awards": [
+    "Best for Home Assistant"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "SofaBaton app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A touchscreen home theater remote that doubles as a Home Assistant controller.",
+   "pros": [
+    "Home Assistant integration",
+    "Touchscreen",
+    "Charging dock"
+   ],
+   "cons": [
+    "$359.99",
+    "Only 88 reviews",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "hub": "X2 hub with charging dock",
+    "devices": "500,000+ devices, 6,000+ brands",
+    "screen": "2.4 in touchscreen",
+    "extras": "Home Assistant control over MQTT"
+   },
+   "features": {
+    "matter": false,
+    "ha": true,
+    "voice": false,
+    "screen": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61k2NzOnAkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FYPR3KLW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-universal-remotes.html#B0FYPR3KLW"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CTH5HGGT",
+   "name": "SofaBaton X1S Universal Remote with Hub & Customize APP",
+   "brand": "SofaBaton",
+   "model": "X1S",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 483,
+   "score": 60,
+   "awards": [
+    "Best for Home Theater"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "SofaBaton app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Starts the TV, soundbar, and streamer together with one button or one voice command.",
+   "pros": [
+    "Activities across devices",
+    "Alexa and Google",
+    "IR, Bluetooth, and Wi-Fi devices"
+   ],
+   "cons": [
+    "3.6 stars",
+    "$179.99",
+    "No touchscreen"
+   ],
+   "specs": {
+    "hub": "X1S hub with 2 wired IR transmitters",
+    "devices": "500,000+ devices",
+    "screen": "No",
+    "extras": "One-touch activities, raise to wake"
+   },
+   "features": {
+    "matter": false,
+    "ha": false,
+    "voice": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61R86Jqr0bL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CTH5HGGT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-universal-remotes.html#B0CTH5HGGT"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Why a universal remote with a hub?",
+   "a": "The hub controls devices hidden in a cabinet over IR, Bluetooth, and Wi-Fi, and a single button can switch on the TV, soundbar, and streamer together."
+  },
+  {
+   "q": "Will it control my streaming stick?",
+   "a": "Bluetooth remotes and hubs can control Fire TV, Roku, and Apple TV. Check the device list in the listing."
+  },
+  {
+   "q": "Is Logitech Harmony still sold?",
+   "a": "Logitech discontinued Harmony remotes, so the picks here are from brands still making and updating them."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 4 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

@@ -1,0 +1,692 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-switches.html",
+ "json_url": "https://themisreviews.com/z-wave-switches.json",
+ "slug": "z-wave-switches",
+ "title": "The 10 Best Z-Wave Light Switches",
+ "subtitle": "In-wall on/off switches for Z-Wave hubs, ranked from live Amazon data.",
+ "intro": "We pulled the in-wall Z-Wave on/off switches selling on Amazon, checked each listing's specs, and scored them on rating, review volume, and the features that matter on a Z-Wave network: 800 Series Long Range radios, 3-way support without extra hardware, and S2 security. Dimmers get their own page.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Light switches",
+ "data_captured": "2026-10-19",
+ "updated": "2026-10-19",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "long_range": 0.35,
+   "direct_3way": 0.35,
+   "scene_control": 0.15,
+   "custom_led": 0.15
+  },
+  "reviews_ceiling": 1500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0921F1KVY",
+   "name": "Zooz ZEN76 800LR",
+   "price": 43.95,
+   "why": "800 Series Long Range, works with the plain on/off switches already in your 3-, 4-, or 5-way circuit, multi-tap scene control, and a 4.4-star rating from 212 reviews."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0FX3CTLW2",
+   "name": "UltraPro 800 Series LR paddle",
+   "price": 24.99,
+   "why": "The cheapest 800 Series Long Range switch here, and it still works with one standard 3-way switch."
+  },
+  {
+   "label": "Best for Fan and Light",
+   "asin": "B0846CJTRN",
+   "name": "Zooz ZEN30 800LR Double Switch",
+   "price": 44.95,
+   "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 331 reviews."
+  },
+  {
+   "label": "Best for Heavy Loads",
+   "asin": "B0FB2VN95Q",
+   "name": "Zooz ZEN75 800LR",
+   "price": 49.95,
+   "why": "Handles up to 600 W of LED lighting and motors up to 1 HP, and runs on 120 to 277 V."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0921F1KVY",
+   "name": "Zooz 800 Series Z-Wave Long Range S2 On Off Switch ZEN76 800LR, White | Simple Direct 3-Way and 4-Way Solution (Works with Regular Switches, No Aux Switch Needed) | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN76 800LR",
+   "price": 43.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 212,
+   "score": 87,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The easiest way to make a 3-way or 4-way circuit smart. You wire it in the box with power and leave the other switches alone.",
+   "pros": [
+    "Works with existing on/off switches in 3-, 4-, and 5-way setups",
+    "No rewiring of the other boxes, even if line and load are in different boxes",
+    "800 Series with Long Range support",
+    "Multicolor LED indicator and replaceable paddles in four colors",
+    "5-year warranty once registered"
+   ],
+   "cons": [
+    "The other switches in the circuit must be plain on/off switches, not dimmers",
+    "Voice control only through a Z-Wave hub, not directly from a smart speaker",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Existing 3-, 4-, 5-way switches",
+    "neutral": "Required",
+    "extras": "Scene control, multicolor LED"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": true,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51duTGXmIHL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0921F1KVY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0921F1KVY"
+  },
+  {
+   "rank": 2,
+   "asin": "B0846CJTRN",
+   "name": "Zooz Z-Wave Long Range Double Switch (White) ZEN30 800LR for Fan and Light Combo (NO Speed Control), Hub Required (Works with Home Assistant, Hubitat, Wink, SmartThings, Z-Box Hub)",
+   "brand": "Zooz",
+   "model": "ZEN30 800LR Double Switch",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 331,
+   "score": 76,
+   "awards": [
+    "Best for Fan and Light"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Two controls in one gang: the paddle dims a light and the button switches a fan on or off. Good for a bathroom or bedroom where the light and fan share one box.",
+   "pros": [
+    "Controls two loads separately from one switch",
+    "Dimmer handles up to 75 W of LEDs, relay handles up to 15 A",
+    "800 Series with Z-Wave Long Range",
+    "Only 1.1 in. deep with no side tabs, and pigtail wires included",
+    "5-year warranty once registered"
+   ],
+   "cons": [
+    "No fan speed control, just on and off",
+    "No direct 3-way, only virtual 3-way through a hub",
+    "SmartThings needs a custom driver",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle dimmer plus relay button",
+    "three_way": "Virtual 3-way only",
+    "neutral": "Required",
+    "extras": "Dimmer and 15 A fan relay in one switch"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": false,
+    "scene_control": true,
+    "custom_led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51Qvuby5y9L._SX342_SY445_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0846CJTRN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0846CJTRN"
+  },
+  {
+   "rank": 3,
+   "asin": "B0G1N7R29W",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR toggle",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 46,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
+   "pros": [
+    "One of the few 800 Series Long Range toggle switches",
+    "Lit toggle in eight colors and four modes",
+    "Works with one standard 3-way switch or up to four add-ons",
+    "Auto-detecting line and load terminals"
+   ],
+   "cons": [
+    "Toggle only comes in white",
+    "Fewer reviews than older Enbrighten models",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Toggle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
+    "neutral": "Required",
+    "extras": "8-color lit toggle"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
+  },
+  {
+   "rank": 4,
+   "asin": "B0FX3CTLW2",
+   "name": "UltraPro Z-Wave Long Range On/Off Switch, 800 Series, Paddle, 1 Pack",
+   "brand": "UltraPro",
+   "model": "800 Series LR paddle",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 91,
+   "score": 75,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The cheapest way into 800 Series Long Range. Flying leads make it easy to connect with wire nuts.",
+   "pros": [
+    "Lowest price for an 800 Series Long Range switch on this list",
+    "Up to 1,300 ft. range as Z-Wave LR",
+    "Color-coded flying leads connect with standard wire nuts",
+    "Works with one standard 3-way switch"
+   ],
+   "cons": [
+    "Not compatible with UltraPro add-on switches",
+    "3.9-star rating is the lowest on this list",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "One standard 3-way switch",
+    "neutral": "Required",
+    "extras": "Flying leads, 8-color LED"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/711e5LadriL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FX3CTLW2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FX3CTLW2"
+  },
+  {
+   "rank": 5,
+   "asin": "B0GHZN4M22",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Paddle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR paddle",
+   "price": 35.68,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 50,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Enbrighten's newest Long Range switch. It's easy to wire thanks to auto-detecting line and load terminals, and it's selling fast.",
+   "pros": [
+    "Up to 1,300 ft. range when paired as Z-Wave Long Range",
+    "Works with one standard 3-way switch or up to four Enbrighten add-ons",
+    "Auto-detecting line and load terminals",
+    "20% shallower housing than earlier models",
+    "White and light almond paddles in the box"
+   ],
+   "cons": [
+    "Full 3-way features need Enbrighten add-on switches",
+    "Newer listing with fewer reviews than older models",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
+    "neutral": "Required",
+    "extras": "8-color LED, white and almond paddles"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81PvpSwNfQL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHZN4M22?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0GHZN4M22"
+  },
+  {
+   "rank": 6,
+   "asin": "B0FB2VN95Q",
+   "name": "Zooz 800 Series Z-Wave Long Range Heavy Duty On/Off Wall Switch ZEN75 800LR, White | Direct 3-Way (No Add-On Switch Needed) | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN75 800LR",
+   "price": 49.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 13,
+   "score": 75,
+   "awards": [
+    "Best for Heavy Loads"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A heavy-duty version of Zooz's on/off switch for big lighting loads, fans, pumps, and 277 V commercial circuits.",
+   "pros": [
+    "Up to 600 W of LED lighting and motors up to 1 HP",
+    "Runs on 120 to 277 V",
+    "Direct 3-way with a regular 3-way switch",
+    "Pigtails included",
+    "Scene control and adjustable LED"
+   ],
+   "cons": [
+    "One leg stays hot when off, so it isn't a disconnect for service work",
+    "Costs more than the ZEN76 for a typical light",
+    "Few reviews so far"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Existing 3-way switch",
+    "neutral": "Required",
+    "extras": "120-277 V, 1 HP motors"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": true,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51zPYibu6SL._SX342_SY445_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FB2VN95Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FB2VN95Q"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FQPKFWNH",
+   "name": "HomeSeer Smart Light Switch (WS300), 800 Series Long Range Z-Wave Technology, Includes Programmable RGB LED Indicatory, Multi-Tap Scene Control, Compatible with HomeSeer, Home Assistant (1-Pack)",
+   "brand": "HomeSeer",
+   "model": "WS300",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 18,
+   "score": 63,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Built for people who automate a lot. Multi-tap scenes and a programmable RGB LED turn it into a status display and scene controller.",
+   "pros": [
+    "Up to 14 scenes from taps and holds on each paddle",
+    "RGB LED can blink or glow to show alerts",
+    "800 Series with Long Range",
+    "Works with HomeSeer and Home Assistant"
+   ],
+   "cons": [
+    "Not compatible with SmartThings, per the listing",
+    "3-way wiring isn't covered in the listing",
+    "3.8-star rating from a small number of reviews"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Not listed",
+    "neutral": "Required",
+    "extras": "14 scenes, RGB LED"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": false,
+    "scene_control": true,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610E7AjUijL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQPKFWNH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FQPKFWNH"
+  },
+  {
+   "rank": 8,
+   "asin": "B0D2DRSXC1",
+   "name": "Leviton Decora Smart Switch, Z-Wave 800 Series, ZW15S-1RW, White",
+   "brand": "Leviton",
+   "model": "ZW15S-1RW",
+   "price": 49.87,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 159,
+   "score": 60,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A solid, name-brand 800 Series switch that's rated for fans and motors as well as lights. It's sold and shipped by Amazon.",
+   "pros": [
+    "800 Series with S2 security, SmartStart, and over-the-air updates",
+    "Rated for 15 A and 3/4 HP loads, including fans and pumps",
+    "Acts as a Z-Wave repeater",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "3-way needs Leviton's DD0SR companion switch",
+    "The listing doesn't mention Long Range",
+    "No scene control or LED customization listed"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Decora paddle",
+    "three_way": "DD0SR companion switch",
+    "neutral": "Required",
+    "extras": "15 A, 3/4 HP rated"
+   },
+   "features": {
+    "long_range": false,
+    "direct_3way": false,
+    "scene_control": false,
+    "custom_led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51jFoKPJjvL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D2DRSXC1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0D2DRSXC1"
+  },
+  {
+   "rank": 9,
+   "asin": "B08562D7X8",
+   "name": "Enbrighten Z-Wave On/Off Switch, Toggle, Light Almond, 1 Pack",
+   "brand": "Enbrighten",
+   "model": "On/Off toggle (Z-Wave Plus)",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 241,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "An older, cheaper Z-Wave Plus switch that still repeats signal and works with every Z-Wave hub. Fine for a basic single-pole circuit.",
+   "pros": [
+    "Lowest price on this list",
+    "Works with every Z-Wave generation and acts as a repeater",
+    "Works indoors or controls outdoor fixtures",
+    "Light almond finish is hard to find in smart switches"
+   ],
+   "cons": [
+    "Older Z-Wave Plus chip without Long Range",
+    "Listing doesn't cover 3-way wiring",
+    "Sold by a third-party seller"
+   ],
+   "specs": {
+    "series": "Z-Wave Plus",
+    "style": "Toggle",
+    "three_way": "Not listed",
+    "neutral": "Required",
+    "extras": "Light almond"
+   },
+   "features": {
+    "long_range": false,
+    "direct_3way": false,
+    "scene_control": false,
+    "custom_led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/91tD5iFYivL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08562D7X8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B08562D7X8"
+  },
+  {
+   "rank": 10,
+   "asin": "B07NLVFL2Q",
+   "name": "Eaton Z-Wave Plus RF9601DW Wireless Switch, Single Pole, 3-Way, White",
+   "brand": "Eaton",
+   "model": "RF9601DW",
+   "price": 32.84,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 85,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A dependable Z-Wave Plus switch from a big electrical brand, with a 4.5-star rating. It's older tech, and 3-way needs Eaton's accessory switch.",
+   "pros": [
+    "4.5-star rating",
+    "Can control up to 5 other Z-Wave Plus devices directly through association",
+    "Status LED you can dim"
+   ],
+   "cons": [
+    "No Long Range or 800 Series chip",
+    "3-way needs the RF9642 accessory switch",
+    "Sold by a third-party seller"
+   ],
+   "specs": {
+    "series": "Z-Wave Plus",
+    "style": "Paddle",
+    "three_way": "RF9642 accessory switch",
+    "neutral": "Required",
+    "extras": "Dimmable blue LED"
+   },
+   "features": {
+    "long_range": false,
+    "direct_3way": false,
+    "scene_control": false,
+    "custom_led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71XyDohXCQL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07NLVFL2Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B07NLVFL2Q"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0716YVRCV",
+   "name": "Home Automation Lighting, ZWAVE Plus Smart Switch by Ecolink, Lighting Switch Control, White Single Toggle Style Light Switch Design (PN - STLS2-ZWAVE5)",
+   "brand": "Ecolink",
+   "model": "STLS2-ZWAVE5",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 3.5,
+   "reviews_count": 52,
+   "flag": "Battery gadget that flips your old switch, listed as a smart switch",
+   "verdict": "Despite \"Smart Switch\" in the title, this isn't an in-wall switch. It's a battery-powered motor that clips over your existing toggle and flips it.",
+   "reasons": [
+    "It runs on AA batteries that the listing estimates last 6 to 12 months, so it needs regular attention that a wired switch never does.",
+    "The listing says it only works on single switches and won't install on double or larger gangs.",
+    "Its compatibility list leans on hubs that have been discontinued, such as Vera Lite and the D-Link/Staples Connect hub.",
+    "Every wired switch on this list costs about the same and does more."
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/611ANEp5aHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0716YVRCV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#avoid-B0716YVRCV"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What's the difference between 500, 700, and 800 Series Z-Wave?",
+   "a": "The series is the generation of Silicon Labs chip inside. 800 Series switches support Z-Wave Long Range, use less power, and have better range than 500 and 700 Series. All of them work together on the same network, so older switches still run fine next to new ones."
+  },
+  {
+   "q": "Do Z-Wave switches need a hub?",
+   "a": "Yes. They pair to a Z-Wave controller such as Home Assistant with a USB stick, Hubitat, SmartThings, or a Zooz Z-Box. Alexa and Google Home can't talk to Z-Wave directly."
+  },
+  {
+   "q": "What does Z-Wave Long Range mean for a light switch?",
+   "a": "Long Range is a separate star network that talks straight to the hub over a much longer distance. Switches listed as 800LR can join either the regular mesh or Long Range, depending on what your controller supports."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Most smart switches need one because the electronics stay powered when the light is off. Open the box and look for a bundle of white wires tied together at the back. If it's there, you have a neutral. Older homes, especially those built before the mid-1980s, often don't. If yours doesn't, pick a switch listed as no-neutral."
+  },
+  {
+   "q": "Will a smart switch work on a 3-way circuit?",
+   "a": "Only if it says so. A 3-way circuit controls one light from two switches. Some smart switches handle that on their own and keep the existing switch at the other end. Others need a matching add-on or companion switch, and some only work on single-pole circuits."
+  },
+  {
+   "q": "Can I install it myself?",
+   "a": "If you're comfortable replacing an ordinary switch, the job is similar: power off at the breaker, confirm it's dead with a tester, and match the wires. Check local code, and hire an electrician if the box is crowded, the wiring is aluminum, or you're not sure which wire is which."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-19",
+   "notes": [
+    "Added Zooz ZEN30 800LR Double Switch.",
+    "Dropped Zooz ZEN71 800LR.",
+    "New Best Overall: Zooz ZEN76 800LR.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Removed the Zooz ZEN71, whose Amazon listing now sells the ZEN76 instead. Added the Zooz ZEN30 Double Switch for rooms where a light and fan share one box. Best Overall moved to the Zooz ZEN76, and the ZEN30 is now Best for Fan and Light. The Enbrighten Long Range paddle dropped from $39.99 to $35.68."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 10 picks and 1 to avoid."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

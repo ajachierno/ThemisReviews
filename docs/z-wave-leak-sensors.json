@@ -1,0 +1,526 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-leak-sensors.html",
+ "json_url": "https://themisreviews.com/z-wave-leak-sensors.json",
+ "slug": "z-wave-leak-sensors",
+ "title": "The Best Z-Wave Water Leak Sensors",
+ "subtitle": "Z-Wave flood sensors for your hub, ranked from live Amazon data.",
+ "intro": "We pulled the Z-Wave water leak sensors selling on Amazon and scored them on rating, review volume, and features: 800 Series Long Range radios, probes and cables, and freeze or temperature alerts.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Leak sensors",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "long_range": 0.3,
+   "probe": 0.25,
+   "climate": 0.25,
+   "long_battery": 0.2
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0716YVPLG",
+   "name": "Ecolink FLF-ZWAVE5-ECO",
+   "price": 34.99,
+   "why": "Flood and freeze alerts, a 36 in. probe, a 5-year battery, and the most reviews here."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0BYFPP6HM",
+   "name": "Aeotec Water Sensor 7 (basic)",
+   "price": 24.99,
+   "why": "$24.99 for a 700 Series leak sensor that detects 0.02 in. of water."
+  },
+  {
+   "label": "Best Long Range",
+   "asin": "B09JKJNFMX",
+   "name": "Zooz ZSE42 800LR",
+   "price": 39.95,
+   "why": "Tiny, IP66 sealed, and 800 Series Long Range for basements far from the hub."
+  },
+  {
+   "label": "Most Sensors",
+   "asin": "B0GYZRCWCB",
+   "name": "Aeotec Water Sensor 8",
+   "price": 39.99,
+   "why": "Leak, temperature, humidity, and mold risk, with Long Range and a 4-year battery or USB-C power."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0716YVPLG",
+   "name": "Ecolink FLF-ZWAVE5-ECO Z-Wave Plus Flood/Freeze Sensor, White, Smart Home",
+   "brand": "Ecolink",
+   "model": "FLF-ZWAVE5-ECO",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 379,
+   "score": 85,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The best all-rounder: it catches leaks and warns you before pipes freeze, and the battery lasts years.",
+   "pros": [
+    "Freeze alert at 41°F, can also tell a Z-Wave thermostat to add heat",
+    "36 in. probe reaches behind appliances",
+    "Rated for about 5 years on one battery",
+    "379 reviews at 4.3 stars"
+   ],
+   "cons": [
+    "Older Z-Wave Plus chip",
+    "Sold by a third-party seller",
+    "No built-in siren"
+   ],
+   "specs": {
+    "series": "Z-Wave Plus",
+    "detect": "36 in. probe",
+    "extras": "Freeze alert at 41°F",
+    "power": "CR123A, about 5 years"
+   },
+   "features": {
+    "long_range": false,
+    "probe": true,
+    "climate": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61OjnRnE49L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0716YVPLG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0716YVPLG"
+  },
+  {
+   "rank": 2,
+   "asin": "B08VJ9TWBB",
+   "name": "PRO Version: Aeotec Water Sensor 7 Pro, with Flood, Temperature, Humidity Sensor, SmartThings Sensor Compatible, Z-Wave Plus, S2, SmartStart, ZWave hub Required",
+   "brand": "Aeotec",
+   "model": "Water Sensor 7 Pro",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 119,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A sensitive leak sensor with temperature and humidity for bathrooms and laundry rooms.",
+   "pros": [
+    "Detects as little as 0.02 in. of water",
+    "Temperature and humidity",
+    "3-year battery"
+   ],
+   "cons": [
+    "No Long Range",
+    "4.1 stars",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "detect": "0.02 in. of water",
+    "extras": "Temperature, humidity",
+    "power": "Battery, about 3 years"
+   },
+   "features": {
+    "long_range": false,
+    "probe": false,
+    "climate": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61LT40kYB9S._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08VJ9TWBB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B08VJ9TWBB"
+  },
+  {
+   "rank": 3,
+   "asin": "B09JKJNFMX",
+   "name": "Zooz 800 Series Z-Wave Long Range Water Leak XS Sensor ZSE42 800LR for for smart Flood Prevention. Hub Required (Sold Separately). Compatible with SmartThings, Hubitat, and Z-Box Hub.",
+   "brand": "Zooz",
+   "model": "ZSE42 800LR",
+   "price": 39.95,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 156,
+   "score": 66,
+   "awards": [
+    "Best Long Range"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A tiny, fully sealed Long Range leak sensor for tight spots under appliances.",
+   "pros": [
+    "Extra small, fits under appliances",
+    "IP66 sealed battery cover",
+    "800 Series Long Range"
+   ],
+   "cons": [
+    "Supported by open Z-Wave hubs only, per the listing",
+    "3.8 stars",
+    "No probe or temperature"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "detect": "Built-in contacts",
+    "extras": "None listed",
+    "power": "Battery"
+   },
+   "features": {
+    "long_range": true,
+    "probe": false,
+    "climate": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/513AF7+CEyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09JKJNFMX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B09JKJNFMX"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GYZRCWCB",
+   "name": "Aeotec Water Sensor 8, Z-Wave Plus 800 Series with Long Range Support, Leak Detector with Temperature & Humidity, SmartThings Compatible, Battery or USB-C Powered Flood Sensor",
+   "brand": "Aeotec",
+   "model": "Water Sensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 6,
+   "score": 65,
+   "awards": [
+    "Most Sensors"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A leak sensor that also watches temperature, humidity, and mold risk, with Long Range.",
+   "pros": [
+    "Temperature, humidity, and mold-risk alerts",
+    "Z-Wave Long Range",
+    "Battery up to 4 years, or USB-C"
+   ],
+   "cons": [
+    "Only 6 reviews",
+    "17 left in stock at capture time",
+    "$39.99"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "detect": "Built-in",
+    "extras": "Temperature, humidity, mold risk",
+    "power": "Battery up to 4 yrs or USB-C"
+   },
+   "features": {
+    "long_range": true,
+    "probe": false,
+    "climate": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61r0vROq5YL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GYZRCWCB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0GYZRCWCB"
+  },
+  {
+   "rank": 5,
+   "asin": "B0GXW53RZP",
+   "name": "Z-Wave Smart Water Leak Detector, Long Range, Z-Wave Hub required",
+   "brand": "Ezlo",
+   "model": "Water leak detector (LR)",
+   "price": 28.95,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 11,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Long Range sensor with both a probe and built-in prongs, for awkward spots.",
+   "pros": [
+    "Probe or direct placement",
+    "800 Series",
+    "$28.95"
+   ],
+   "cons": [
+    "Only 11 reviews",
+    "3.7 stars",
+    "Newer brand on Amazon"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "detect": "Probe or built-in prongs",
+    "extras": "None listed",
+    "power": "Battery"
+   },
+   "features": {
+    "long_range": true,
+    "probe": true,
+    "climate": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/21+zC6IrB0L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXW53RZP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0GXW53RZP"
+  },
+  {
+   "rank": 6,
+   "asin": "B0FSKFCKTB",
+   "name": "NEO Z-Wave Plus 700 Water Leak Sensor with Probe, Water Leak Detetor, Home Assistant & Hubitat, for Home Security, Instant alerts & App Notification; Requires a Z-Wave hub (not Included)",
+   "brand": "NEO",
+   "model": "Z-Wave Plus 700 leak sensor",
+   "price": 25.64,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 15,
+   "score": 56,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A probe-style 700 Series sensor that names Home Assistant and Hubitat.",
+   "pros": [
+    "Probe for hard-to-reach spots",
+    "Names Home Assistant and Hubitat",
+    "$25.64"
+   ],
+   "cons": [
+    "Only 15 reviews",
+    "CR2 battery is less common",
+    "No Long Range"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "detect": "Probe",
+    "extras": "None listed",
+    "power": "CR2 battery"
+   },
+   "features": {
+    "long_range": false,
+    "probe": true,
+    "climate": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51ezCkRUzYL._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FSKFCKTB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0FSKFCKTB"
+  },
+  {
+   "rank": 7,
+   "asin": "B0D7MZK7N6",
+   "name": "Smart Water Leak Sensor (LS100 G8), 800 Series Long Range Z-Wave Technology, Compatible with HomeSeer, Hubitat, Smartthings & Home Assistant (1)",
+   "brand": "HomeSeer",
+   "model": "LS100 G8",
+   "price": 39.95,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 11,
+   "score": 55,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Long Range leak sensor from HomeSeer that names SmartThings, Hubitat, and Home Assistant.",
+   "pros": [
+    "800 Series Long Range",
+    "Lists HomeSeer, Hubitat, SmartThings, and Home Assistant",
+    "Sold by HomeSeer"
+   ],
+   "cons": [
+    "Only 11 reviews",
+    "Thin listing",
+    "3.9 stars"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "detect": "Built-in",
+    "extras": "Not listed",
+    "power": "Battery"
+   },
+   "features": {
+    "long_range": true,
+    "probe": false,
+    "climate": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51wAXNYDTqL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D7MZK7N6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0D7MZK7N6"
+  },
+  {
+   "rank": 8,
+   "asin": "B0BYFPP6HM",
+   "name": "Basic Version: Aeotec Water Sensor 7 Leak and Flood Detection, SmartThings Compatible, Z-Wave Plus, S2, SmartStart, ZWave hub Required",
+   "brand": "Aeotec",
+   "model": "Water Sensor 7 (basic)",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 33,
+   "score": 53,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The leak-only version of the Water Sensor 7, for $24.99.",
+   "pros": [
+    "$24.99",
+    "Detects as little as 0.02 in. of water",
+    "S2 and SmartStart"
+   ],
+   "cons": [
+    "3.4 stars",
+    "Leak only, no temperature",
+    "No Long Range"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "detect": "0.02 in. of water",
+    "extras": "None listed",
+    "power": "Battery, about 3 years"
+   },
+   "features": {
+    "long_range": false,
+    "probe": false,
+    "climate": false,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61RB+958a7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BYFPP6HM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-leak-sensors.html#B0BYFPP6HM"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Where should leak sensors go?",
+   "a": "Anywhere water can appear without you seeing it: under sinks, behind the toilet, next to the water heater, under the dishwasher and washing machine, and near the sump pump. Put them flat on the floor where water would pool first."
+  },
+  {
+   "q": "Do I want a built-in alarm?",
+   "a": "Yes, if the sensor might be your only warning. A loud local siren works even if your internet or hub is down. App and hub alerts are better when you're away."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  },
+  {
+   "q": "Can a leak sensor shut off the water?",
+   "a": "Not on its own. Paired with a smart water shut-off valve through your hub or app, it can close the main valve automatically when it detects a leak."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 8 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

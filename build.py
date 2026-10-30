@@ -58,11 +58,173 @@ def esc(s):
 def jsonld(*objs):
     return "\n".join(
         f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>'
-        for o in objs)
+        for o in objs if o)
 
 
 def base_url(site):
     return f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+
+
+# ------------------------------------------------------------- agent-readable layer
+# Everything in this block is additive and invisible to people: data-* attributes on
+# product cards, Product + WebPage nodes in the JSON-LD, a JSON twin of every review
+# page (<slug>.json), a site index (index.json), llms.txt and explicit robots.txt
+# allows for AI crawlers. No CSS or JS reads any of it. Regenerated on every build.
+AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",
+               "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended",
+               "Amazonbot", "meta-externalagent", "DuckAssistBot", "CCBot", "cohere-ai", "YouBot", "MistralAI-User"]
+AGENT_PAGES = []  # summary rows appended by build_category, written out by write_agent_index
+
+
+def data_attrs(p, **extra):
+    """Invisible data-* attributes for a product card so DOM-reading agents and browser
+    extensions can pull the numbers without parsing text."""
+    vals = {"asin": p.get("asin"), "brand": p.get("brand"), "model": p.get("model"), "rank": p.get("rank"),
+            "price": p.get("price"), "rating": p.get("rating"), "reviews": p.get("reviews_count"),
+            "score": p.get("score")}
+    vals.update(extra)
+    return " ".join(f'data-{k}="{esc(v)}"' for k, v in vals.items() if v not in (None, ""))
+
+
+def product_ld(p, site):
+    """schema.org Product for one pick. Amazon's star rating is deliberately not emitted as
+    aggregateRating (those are Amazon's ratings, not ours); it stays in the visible text,
+    the data-* attributes and the JSON twin."""
+    url = amazon_url(site, p["asin"])
+    out = {"@type": "Product", "name": p["name"], "brand": {"@type": "Brand", "name": p["brand"]},
+           "model": p["model"], "sku": p["asin"], "image": p["image"], "url": url}
+    if p.get("verdict"):
+        out["description"] = p["verdict"]
+    if isinstance(p.get("price"), (int, float)):
+        out["offers"] = {"@type": "Offer", "price": f"{p['price']:.2f}", "priceCurrency": "USD", "url": url}
+    return out
+
+
+def webpage_ld(site, canonical, title, cat, main_id):
+    """WebPage node carrying the dates agents weight most: when the data was captured, when
+    the page last changed and when it first went up."""
+    base = base_url(site)
+    out = {"@context": "https://schema.org", "@type": "WebPage", "@id": canonical, "url": canonical,
+           "name": title, "dateModified": cat.get("updated", cat["data_captured"]),
+           "isPartOf": {"@type": "WebSite", "name": site["brand"], "url": f"{base}/"},
+           "publisher": {"@type": "Organization", "name": site["brand"], "url": f"{base}/"},
+           "mainEntity": {"@id": main_id}}
+    first = min((c["date"] for c in cat.get("changes", []) if c.get("date")), default=None)
+    if first:
+        out["datePublished"] = first
+    return out
+
+
+def _agent_product(p, site, canonical, slug):
+    ok = (p.get("_ok") or "").split()
+    return {"rank": p.get("rank"), "asin": p["asin"], "name": p["name"], "brand": p["brand"], "model": p["model"],
+            "price": p.get("price"), "currency": "USD", "rating": p.get("rating"),
+            "reviews_count": p.get("reviews_count"), "score": p.get("score"),
+            "awards": [a["label"] for a in p.get("awards", [])],
+            "works_with": [SYSTEM_NAMES.get(s, s) for s in p.get("systems", [])],
+            "works_with_note": p.get("systems_label"),
+            "works_without": {"neutral_wire": "neutral" in ok, "hub": "hub" in ok, "subscription": "sub" in ok},
+            "bought_last_month": p.get("bought"), "verdict": p.get("verdict"),
+            "pros": p.get("pros", []), "cons": p.get("cons", []), "specs": p.get("specs", {}),
+            "features": p.get("features", {}), "image": p.get("image"),
+            "amazon_url": amazon_url(site, p["asin"]), "page_url": f"{canonical}#{p['asin']}"}
+
+
+def write_page_json(site, proto, sub, cat, ranked, canonical):
+    """<slug>.json: the data behind the page, so an agent gets the ranking in one fetch
+    instead of parsing HTML. Also records the summary row for index.json and llms.txt."""
+    base = base_url(site)
+    json_url = f"{base}/{sub['slug']}.json"
+    by_asin = {p["asin"]: p for p in ranked}
+    awards = [{"label": a["label"], "asin": a["asin"], "name": f"{by_asin[a['asin']]['brand']} {by_asin[a['asin']]['model']}",
+               "price": by_asin[a["asin"]].get("price"), "why": a.get("why")} for a in cat.get("awards", [])
+              if a["asin"] in by_asin]
+    data = {
+        "site": site["brand"], "page_url": canonical, "json_url": json_url, "slug": sub["slug"],
+        "title": cat["title"], "subtitle": cat.get("subtitle"), "intro": cat.get("intro"),
+        "protocol": {"slug": proto["slug"], "name": proto["name"], "url": f"{base}/#{proto['slug']}"},
+        "product_type": cat.get("family_title") or cat.get("family"),
+        "data_captured": cat["data_captured"], "updated": cat.get("updated", cat["data_captured"]),
+        "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review "
+                       "counts change daily; check the listing before relying on a number.",
+        "scoring": {"scale": "0-100", "weights": cat["weights"], "feature_weights": cat.get("feature_weights", {}),
+                    "reviews_ceiling": cat.get("reviews_ceiling", 20000), "method_url": f"{base}/how-we-rank.html"},
+        "awards": awards,
+        "systems_note": cat.get("systems_note"),
+        "products": [_agent_product(p, site, canonical, sub["slug"]) for p in ranked],
+        "avoid": [{"asin": a["asin"], "name": a["name"], "brand": a["brand"], "model": a["model"],
+                   "price": a.get("price"), "currency": "USD", "rating": a.get("rating"),
+                   "reviews_count": a.get("reviews_count"), "flag": a.get("flag"), "verdict": a.get("verdict"),
+                   "reasons": a.get("reasons", []), "works_with": [SYSTEM_NAMES.get(s, s) for s in a.get("systems", [])],
+                   "bought_last_month": a.get("bought"), "image": a.get("image"),
+                   "amazon_url": amazon_url(site, a["asin"]), "page_url": f"{canonical}#avoid-{a['asin']}"}
+                  for a in cat.get("avoid", [])],
+        "buyers_guide": cat.get("buyers_guide", []),
+        "changes": cat.get("changes", []),
+        "affiliate_disclosure": f"Amazon links carry {site['brand']}'s Associates tag; a purchase may earn "
+                                "a commission at no extra cost to the buyer.",
+    }
+    (OUT / f"{sub['slug']}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n",
+                                             encoding="utf-8")
+    AGENT_PAGES.append({"slug": sub["slug"], "title": cat["title"], "url": canonical, "json": json_url,
+                        "protocol": proto["name"], "product_type": data["product_type"],
+                        "data_captured": cat["data_captured"], "updated": data["updated"],
+                        "products": len(ranked), "awards": awards})
+
+
+def write_robots(base):
+    groups = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_CRAWLERS)
+    (OUT / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\n"
+        "# AI assistants and answer engines are welcome. Machine-readable copies of the\n"
+        f"# reviews: {base}/llms.txt (index) and <page>.json beside every <page>.html.\n\n"
+        f"{groups}Sitemap: {base}/sitemap.xml\n", encoding="utf-8")
+
+
+def write_agent_index(site, other_pages):
+    """index.json + llms.txt (llmstxt.org layout): one line per review page with its awards,
+    grouped by protocol the way the site is."""
+    base = base_url(site)
+    rows = AGENT_PAGES
+    newest = max(r["updated"] for r in rows) if rows else site["updated"]
+    index = {"site": site["brand"], "url": f"{base}/", "description": site["description"],
+             "llms_txt": f"{base}/llms.txt", "sitemap": f"{base}/sitemap.xml", "updated": newest,
+             "data_source": "Amazon product listings; each page carries its own data_captured date.",
+             "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
+             "protocols": [{"slug": p["slug"], "name": p["name"], "summary": p.get("summary")} for p in site["protocols"]],
+             "page_count": len(rows), "pages": rows, "other_pages": other_pages}
+    (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    def award(a):
+        return f"{a['label']} {a['name']}" + (f" ({money(a['price'])})" if isinstance(a.get("price"), (int, float)) else "")
+    lines = [f"# {site['brand']}", "",
+             f"> {site['description']} Every price, star rating and review count comes from the product's "
+             "live Amazon listing on the date shown for that page; nothing is estimated. Each review page "
+             "scores its products 0-100 on published weights, names award picks, lists which smart home "
+             "systems each product works with, and flags one listing to avoid.", "",
+             "Machine-readable data: every review page has a JSON twin at the same path with `.json` in place "
+             "of `.html` (ranked products with ASIN, price, rating, review count, score, systems it works "
+             f"with, specs, pros, cons and the capture date). The site index is {base}/index.json. Each page "
+             'links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our '
+             "Associates tag; a purchase may earn us a commission at no extra cost to the buyer.", ""]
+    for proto in site["protocols"]:
+        mine = [r for r in rows if r["protocol"] == proto["name"]]
+        if not mine:
+            continue
+        lines += [f"## {proto['name']} reviews ({len(mine)} pages)", ""]
+        for r in sorted(mine, key=lambda r: r["title"].lower()):
+            picks = "; ".join(award(a) for a in r["awards"]) or "no awards"
+            lines.append(f"- [{r['title']}]({r['url']}): {picks}. Data captured {r['data_captured']}. JSON: {r['json']}")
+        lines.append("")
+    lines += ["## Site", "",
+              f"- [How we rank]({base}/how-we-rank.html): where the numbers come from, the score formula, how awards are chosen",
+              f"- [About]({base}/about.html)",
+              f"- [Search]({base}/search.html)",
+              f"- [Site index, JSON]({base}/index.json)",
+              f"- [Sitemap]({base}/sitemap.xml)"]
+    if other_pages:
+        lines += ["", "## Optional", ""] + [f"- [{p['title']}]({p['url']})" for p in other_pages]
+    (OUT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def short_desc(text, limit=160):
@@ -79,7 +241,7 @@ def short_desc(text, limit=160):
 
 
 def page(site, title, body, is_home=False, description=None, canonical="",
-         structured_data="", updated=None, noindex=False, image=None):
+         structured_data="", updated=None, noindex=False, image=None, alternate=None):
     desc = short_desc(description or site["description"])
     base = base_url(site)
     image = image or (f"{base}/assets/logo.jpg" if base else "assets/logo.jpg")
@@ -87,6 +249,8 @@ def page(site, title, body, is_home=False, description=None, canonical="",
     pin_tag = (f'\n<meta name="p:domain_verify" content="{esc(site["pinterest_verify"])}">'
                if site.get("pinterest_verify") else "")
     canonical_tag = f'\n<link rel="canonical" href="{esc(canonical)}">' if canonical else ""
+    alt_tag = (f'\n<link rel="alternate" type="application/json" href="{esc(alternate)}" '
+               f'title="{esc(site["brand"])} data for this page">' if alternate else "")
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build. Affiliate links are untagged until '
                  'the Amazon Associates account is approved.</div>')
@@ -119,7 +283,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<meta name="robots" content="{robots}">{canonical_tag}
+<meta name="robots" content="{robots}">{canonical_tag}{alt_tag}
 <meta name="theme-color" content="#0b0a17">{pin_tag}
 <link rel="icon" href="assets/favicon.png">
 <meta property="og:type" content="{"website" if is_home else "article"}">
@@ -516,7 +680,7 @@ def spec_value(p, field):
 
 def render_award(a, p, site):
     return f"""
-    <a class="hero-card {esc(a['kind'])}" href="{amazon_url(site, p['asin'])}" target="_blank" rel="sponsored nofollow noopener">
+    <a class="hero-card {esc(a['kind'])}" {data_attrs(p, award=a['label'])} href="{amazon_url(site, p['asin'])}" target="_blank" rel="sponsored nofollow noopener">
       <span class="hero-tag">{esc(a['label'])}</span>
       <img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy">
       <div class="hero-body">
@@ -559,7 +723,7 @@ def render_card(p, site, spec_fields):
     cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
     bought = f'<div class="tiny muted">{esc(p["bought"])}</div>' if p.get("bought") else ""
     return f"""
-    <article class="card{' awarded' if p['awards'] else ''}" id="{esc(p['asin'])}">
+    <article class="card{' awarded' if p['awards'] else ''}" id="{esc(p['asin'])}" {data_attrs(p, award=(p['awards'][0]['label'] if p['awards'] else None), systems=" ".join(p.get('systems', [])))}>
       <div class="rank">#{p['rank']}</div>
       <div class="card-head">
         <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
@@ -590,7 +754,7 @@ def render_avoid(avoid, site, noun):
     for a in avoid:
         reasons = "".join(f"<li>{esc(r)}</li>" for r in a["reasons"])
         cards.append(f"""
-      <article class="avoid-card" id="avoid-{esc(a['asin'])}">
+      <article class="avoid-card" id="avoid-{esc(a['asin'])}" {data_attrs(a, avoid="true", systems=" ".join(a.get('systems', [])))}>
         <span class="avoid-flag">&#10005; Avoid</span>
         <div class="avoid-head">
           <div class="card-img"><img src="{esc(a['image'])}" alt="{esc(a['name'])}" loading="lazy"></div>
@@ -777,17 +941,23 @@ def build_category(site, proto, sub):
   {render_family_links(site, cat)}"""
     base = base_url(site)
     url = f"{base}/{sub['slug']}.html" if base else ""
-    items = {"@context": "https://schema.org", "@type": "ItemList", "name": cat["title"],
+    items = {"@context": "https://schema.org", "@type": "ItemList", "@id": f"{url}#ranking", "name": cat["title"],
+             "numberOfItems": len(ranked),
              "itemListElement": [{"@type": "ListItem", "position": p["rank"], "name": p["name"],
-                                  "url": amazon_url(site, p["asin"])} for p in ranked]}
+                                  "url": amazon_url(site, p["asin"]), "item": product_ld(p, site)} for p in ranked]}
+    title = f"{cat['title']} ({cat['data_captured'][:4]}) | {site['brand']}"
+    webpage = webpage_ld(site, url, title, cat, items["@id"]) if url else None
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": g["q"],
                            "acceptedAnswer": {"@type": "Answer", "text": g["a"]}} for g in cat["buyers_guide"]]}
     (OUT / f"{sub['slug']}.html").write_text(
-        page(site, f"{cat['title']} ({cat['data_captured'][:4]}) | {site['brand']}", body,
-             description=cat["intro"], canonical=url, structured_data=jsonld(items, faq),
-             updated=nice_date(cat.get("updated", cat["data_captured"]))),
+        page(site, title, body,
+             description=cat["intro"], canonical=url, structured_data=jsonld(items, webpage, faq),
+             updated=nice_date(cat.get("updated", cat["data_captured"])),
+             alternate=f"{sub['slug']}.json" if url else None),
         encoding="utf-8")
+    if url:
+        write_page_json(site, proto, sub, cat, ranked, url)
     picks = ", ".join(f"{a['label']} = {by_asin[a['asin']]['brand']} {by_asin[a['asin']]['model']}" for a in cat["awards"])
     print(f"  {sub['slug']}: {n} products + {len(cat['avoid'])} avoid; {picks}")
     return url, cat["data_captured"]
@@ -1514,7 +1684,7 @@ def build_sitemap(site, urls):
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{locs}</urlset>\n',
         encoding="utf-8")
-    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    write_robots(base)
 
 
 def main():
@@ -1540,6 +1710,12 @@ def main():
     urls += fam + seas + build_trust_pages(site)
     n_search = build_search(site)
     build_sitemap(site, urls)
+    if base_url(site):
+        # Agent-readable index of the same public pages the sitemap lists (review pages are
+        # listed in detail; product-type and seasonal pages by URL).
+        other = [{"title": u.rsplit("/", 1)[-1].replace(".html", "").replace("-", " ").capitalize(), "url": u}
+                 for u, _d in fam + seas]
+        write_agent_index(site, other)
     print(f"search index: {n_search} entries")
     print(f"{n_cat} category pages + {len(fam)} product-type pages + {len(seas)} seasonal pages -> {OUT}")
 

@@ -1,0 +1,649 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/zigbee-relays.html",
+ "json_url": "https://themisreviews.com/zigbee-relays.json",
+ "slug": "zigbee-relays",
+ "title": "The Best Zigbee Relays and In-Wall Modules",
+ "subtitle": "Zigbee relays that make any switch or appliance smart, ranked.",
+ "intro": "We pulled the Zigbee relays and in-wall modules on Amazon and scored them on rating, review volume, and features: open Zigbee 3.0 pairing, dry contacts, and no-neutral options.",
+ "protocol": {
+  "slug": "zigbee",
+  "name": "Zigbee",
+  "url": "https://themisreviews.com/#zigbee"
+ },
+ "product_type": "Relays and modules",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "no_neutral": 0.2,
+   "dry_contact": 0.25,
+   "power_meter": 0.25,
+   "multi_channel": 0.3
+  },
+  "reviews_ceiling": 1500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DFLR468J",
+   "name": "SONOFF ZBMINIR2 (4-pack)",
+   "price": 45.9,
+   "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,514 buyers."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0GXZWRZXX",
+   "name": "SONOFF MINI-ZBD dry contact",
+   "price": 14.9,
+   "why": "A $14.90 dry-contact relay for garage doors and gates that runs on AC or DC."
+  },
+  {
+   "label": "Best With Power Metering",
+   "asin": "B0DZJ1W814",
+   "name": "Shelly 2PM Gen4",
+   "price": 38.99,
+   "why": "Two 16 A channels with power metering, on Zigbee, Wi-Fi, or Matter."
+  },
+  {
+   "label": "Best Multi-Channel",
+   "asin": "B091GS6J5W",
+   "name": "Mic Technology 4-channel 12 V dry contact relay",
+   "price": 23.9,
+   "why": "Four dry-contact channels with latching, momentary, and interlock modes."
+  }
+ ],
+ "systems_note": "Shelly Gen4 relays speak Zigbee, Wi-Fi, and Matter, so they also appear on our Wi-Fi and Matter relay pages.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0DZJ1W814",
+   "name": "Shelly 2PM Gen4, Smart Relay Switch, WiFi, Matter & Zigbee, 2-Channel",
+   "brand": "Shelly",
+   "model": "2PM Gen4",
+   "price": 38.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 864,
+   "score": 84,
+   "awards": [
+    "Best With Power Metering"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Two metered channels on any of three radios, for lights, shades, or appliances.",
+   "pros": [
+    "Power metering per channel",
+    "Zigbee, Wi-Fi, or Matter",
+    "4.7 stars from 864 reviews"
+   ],
+   "cons": [
+    "$38.99",
+    "Neutral requirement isn't stated",
+    "Larger than single relays"
+   ],
+   "specs": {
+    "channels": "2",
+    "rating": "16 A per channel",
+    "extras": "Power metering, Wi-Fi + Zigbee + Matter",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": false,
+    "power_meter": true,
+    "multi_channel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81zHxzmkBdL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZJ1W814?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0DZJ1W814"
+  },
+  {
+   "rank": 2,
+   "asin": "B091GS6J5W",
+   "name": "4 Channel 12V ZigBee Relay Switch with Clean Contact, Adjustable Self-Lock and Momentary Interlock Working Mode,Automate Garage Gate Door Blind(Zigbee Hub Needed)",
+   "brand": "Mic Technology",
+   "model": "4-channel 12 V dry contact relay",
+   "price": 23.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 213,
+   "score": 79,
+   "awards": [
+    "Best Multi-Channel"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Tuya Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Four dry-contact channels for gates, shutters, and blinds, with three operating modes.",
+   "pros": [
+    "4 channels",
+    "Latching, momentary, and interlock modes",
+    "Built-in 433 MHz RF receiver"
+   ],
+   "cons": [
+    "Needs a 12 V supply",
+    "Tuya Zigbee hub for the app",
+    "4.3 stars"
+   ],
+   "specs": {
+    "channels": "4",
+    "rating": "Dry contact",
+    "extras": "Latching, momentary, interlock; 433 MHz RF",
+    "neutral": "12 V supply"
+   },
+   "features": {
+    "no_neutral": true,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61oP7bhe+cL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091GS6J5W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B091GS6J5W"
+  },
+  {
+   "rank": 3,
+   "asin": "B08X218VMR",
+   "name": "Smart Home Dry Contact Zigbee Relay Switch, Remote Control Zigbee Switch for Light Garage Door, Compatible with Alexa Google Home,Zigbee hub Needed (1CH)",
+   "brand": "Mic Technology",
+   "model": "1-channel dry contact relay",
+   "price": 16.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 483,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Tuya Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A cheap low-voltage relay for garage doors that names Home Assistant support.",
+   "pros": [
+    "$16.90",
+    "Names Zigbee2MQTT and Home Assistant",
+    "483 reviews"
+   ],
+   "cons": [
+    "Low-voltage only",
+    "Sold by the maker",
+    "Thin documentation"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Dry contact, 5-24 V",
+    "extras": "433 MHz RF receiver",
+    "neutral": "Low-voltage supply"
+   },
+   "features": {
+    "no_neutral": true,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41qzRJGwdlL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08X218VMR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B08X218VMR"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DZHZDJXT",
+   "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
+   "brand": "Shelly",
+   "model": "1 Mini Gen4",
+   "price": 24.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 867,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A compact Shelly for tight boxes and garage door openers.",
+   "pros": [
+    "Very compact",
+    "Zigbee, Wi-Fi, or Matter",
+    "4.5 stars, 200+ bought in the past month"
+   ],
+   "cons": [
+    "8 A",
+    "No power metering",
+    "Neutral requirement isn't stated"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "8 A dry contact",
+    "extras": "Fits inside a garage opener",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DMapRQUwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZHZDJXT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0DZHZDJXT"
+  },
+  {
+   "rank": 5,
+   "asin": "B0D5XCFPTR",
+   "name": "Aqara Dual Relay Module T2, Requires a Neutral Line and Aqara Zigbee3.0 Hub",
+   "brand": "Aqara",
+   "model": "Dual Relay Module T2",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 117,
+   "score": 73,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A two-channel Aqara relay that can run tubular shade motors with interlock.",
+   "pros": [
+    "Dry contact mode",
+    "Motor interlock for shades",
+    "Matter through an Aqara hub"
+   ],
+   "cons": [
+    "Aqara Zigbee hub required",
+    "Neutral required",
+    "Only 117 reviews"
+   ],
+   "specs": {
+    "channels": "2",
+    "rating": "Not stated in bullets",
+    "extras": "Dry contact mode, motor interlock",
+    "neutral": "Required"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61PRrojvS7L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D5XCFPTR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0D5XCFPTR"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BYNRF8GV",
+   "name": "SONOFF Zigbee Smart Light Switch, No Neutral, Hub Required, 2-Way Interruptor Inteligente, Voice Control with Alexa, Google Home and SmartThings, ZBMINIL2 2 Pack",
+   "brand": "SONOFF",
+   "model": "ZBMINIL2 no-neutral (2-pack)",
+   "price": 29.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 976,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The no-neutral option: two Zigbee relays that fit behind old switches with no neutral wire in the box.",
+   "pros": [
+    "No neutral wire needed",
+    "Two relays for $29.90",
+    "976 reviews, 200+ bought last month"
+   ],
+   "cons": [
+    "Zigbee end device, so it doesn't repeat signal",
+    "Load rating isn't in the bullets",
+    "Zigbee hub required"
+   ],
+   "specs": {
+    "channels": "1 each, 2 relays",
+    "rating": "Not stated in bullets",
+    "extras": "Works with rocker or push-button switches; Zigbee end device",
+    "neutral": "Not required"
+   },
+   "features": {
+    "no_neutral": true,
+    "dry_contact": false,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51JpA8wTLWL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BYNRF8GV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0BYNRF8GV"
+  },
+  {
+   "rank": 7,
+   "asin": "B0DFLR468J",
+   "name": "SONOFF Zigbee 3.0 Smart Relay Switch, Mini in-Wall Light Switch Module, Compatible with Alexa Google Home SmartThings, ZBMINIR2 4-Pack (Zigbee Hub & Neutral Wire Required)",
+   "brand": "SONOFF",
+   "model": "ZBMINIR2 (4-pack)",
+   "price": 45.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1514,
+   "score": 71,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The best value way to make several existing switches smart: four relays for $45.90.",
+   "pros": [
+    "4 relays in the pack",
+    "Works with rocker or push-button switches",
+    "Tiny enough for crowded boxes",
+    "4.6 stars from 1,514 reviews"
+   ],
+   "cons": [
+    "Needs a neutral wire (one bullet says otherwise, but the title says required)",
+    "Needs a Zigbee hub",
+    "Load rating isn't in the bullets"
+   ],
+   "specs": {
+    "channels": "1 each, 4 relays",
+    "rating": "Not stated in bullets",
+    "extras": "Works with rocker or push-button switches",
+    "neutral": "Required (per the title)"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": false,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61746cD+reL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFLR468J?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0DFLR468J"
+  },
+  {
+   "rank": 8,
+   "asin": "B0GXZWRZXX",
+   "name": "SONOFF MINI-ZBD Zigbee 3.0 Dry Contact Relay, AC/DC Input, Works with Zigbee Hubs, Alexa & Google Home, for Smart Garage Door Controller, Boilers, DC Motors & Solenoid Valves",
+   "brand": "SONOFF",
+   "model": "MINI-ZBD dry contact",
+   "price": 14.9,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 216,
+   "score": 66,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A cheap Zigbee dry-contact relay for garage doors, gates, and boilers.",
+   "pros": [
+    "$14.90",
+    "AC or DC power",
+    "NO and NC modes",
+    "Acts as a Zigbee repeater"
+   ],
+   "cons": [
+    "Motor loads limited to 8 W",
+    "4.2 stars",
+    "Only 216 reviews"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Dry contact, NO/NC",
+    "extras": "110-240 V AC or 12-48 V DC input",
+    "neutral": "Not needed on DC"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61liXbfwLYL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXZWRZXX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0GXZWRZXX"
+  },
+  {
+   "rank": 9,
+   "asin": "B0HCZD5HS4",
+   "name": "SONOFF MINI ONE MINI-ZB1GS Zigbee Smart Switch 16A Relay",
+   "brand": "SONOFF",
+   "model": "MINI ONE (MINI-ZB1GS)",
+   "price": 17.9,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 80,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A 16 A relay for lights and ceiling fans behind an existing switch.",
+   "pros": [
+    "16 A load",
+    "Names Alexa and Home Assistant",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Only 80 reviews",
+    "Neutral requirement isn't stated",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "16 A",
+    "extras": "Keeps your wall switch",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": false,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61BCQxo8xJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HCZD5HS4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0HCZD5HS4"
+  },
+  {
+   "rank": 10,
+   "asin": "B0H8YW595V",
+   "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
+   "brand": "Shelly",
+   "model": "1 Gen4",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 18,
+   "score": 60,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A 15 A dry-contact relay that works on Zigbee, Wi-Fi, or Matter, on Shelly's UL-certified listing.",
+   "pros": [
+    "Dry contacts",
+    "Names Alexa, Google, SmartThings, and Home Assistant",
+    "Sold by Shelly USA, 1K+ bought last month"
+   ],
+   "cons": [
+    "No power metering",
+    "Only 18 reviews on this UL listing",
+    "Neutral requirement isn't stated"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "15 A dry contact",
+    "extras": "Wi-Fi + Zigbee + Matter",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71F3GYN4yyL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H8YW595V?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0H8YW595V"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What does a smart relay do?",
+   "a": "It hides behind a wall switch, inside a fan canopy, or in an appliance and switches the power, so you keep your existing switch and add smart control. Dry-contact relays can also trigger garage doors, gas fireplaces, and boilers."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Most relays do. Check your switch box for a bundle of white wires before buying. A few models work without a neutral, and the table notes which."
+  },
+  {
+   "q": "Is it safe to install myself?",
+   "a": "Only if you're comfortable with household wiring and turn the breaker off first. If you're not sure, have an electrician install it. Never exceed the relay's amp rating."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Added Shelly 1 Gen4, SONOFF ZBMINIL2 no-neutral (2-pack).",
+    "Dropped Shelly 1 Gen4, Ururtm 1-channel AC/DC dry contact relay.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "The Shelly 1 Gen4 listing we linked turned into a third-party 2-pack at $48.99, so the pick now points at Shelly USA's UL-certified single ($27.99). Replaced the Ururtm relay (16 reviews) with the SONOFF ZBMINIL2 2-pack ($29.90, 976 reviews), the only pick here that works without a neutral wire. Shelly 2PM Gen4 rating 4.6 -> 4.7; ZBMINIR2 reviews 1,313 -> 1,514."
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "notes": [
+    "Corrected the SONOFF ZBMINIR2: it needs a neutral wire. Its title says so; one bullet says otherwise, and we had followed the bullet."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

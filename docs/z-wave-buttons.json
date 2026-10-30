@@ -1,0 +1,307 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-buttons.html",
+ "json_url": "https://themisreviews.com/z-wave-buttons.json",
+ "slug": "z-wave-buttons",
+ "title": "The Best Z-Wave Scene Controllers and Remotes",
+ "subtitle": "Battery remotes and wired scene controllers for Z-Wave hubs, ranked.",
+ "intro": "We pulled the Z-Wave remotes and scene controllers selling on Amazon and scored them on rating, review volume, and features: number of buttons, Long Range, and battery or wired power.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Buttons and remotes",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "long_range": 0.3,
+   "buttons": 0.3,
+   "battery_free": 0.2,
+   "mount": 0.2
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B09B6S4TSL",
+   "name": "Zooz ZEN32 800LR",
+   "price": 47.95,
+   "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B08TMWLY74",
+   "name": "Zooz ZEN34 800LR",
+   "price": 37.95,
+   "why": "A battery paddle remote with Long Range for $37.95, 413 reviews."
+  },
+  {
+   "label": "Best Battery Remote",
+   "asin": "B0CV8RXT5W",
+   "name": "Zooz ZEN37 800LR",
+   "price": 46.95,
+   "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."
+  }
+ ],
+ "systems_note": "Scene control needs a hub that supports multi-tap Central Scene events; the icons show the platforms each listing names.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09B6S4TSL",
+   "name": "Zooz 800 Series Z-Wave Long Range Scene Controller ZEN32 800LR, White | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN32 800LR",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 334,
+   "score": 94,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A wall switch that runs a light and four scene buttons, and it never needs a battery.",
+   "pros": [
+    "Main button switches a light directly",
+    "Four extra scene buttons",
+    "Direct 3-way with regular switches",
+    "4.6 stars, 200+ bought in the past month"
+   ],
+   "cons": [
+    "Needs a neutral wire",
+    "SmartThings needs a custom driver",
+    "$47.95"
+   ],
+   "specs": {
+    "type": "Wired scene controller",
+    "buttons": "1 main + 4",
+    "series": "800 Series LR",
+    "power": "Wired (neutral required)",
+    "notes": "Controls a 120 V light up to 150 W LED"
+   },
+   "features": {
+    "long_range": true,
+    "buttons": true,
+    "battery_free": true,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51H1AOPvtDL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09B6S4TSL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B09B6S4TSL"
+  },
+  {
+   "rank": 2,
+   "asin": "B08TMWLY74",
+   "name": "Zooz 800 Series Z-Wave Long Range Remote Control & Scene Controller ZEN34 (Battery Powered), White | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN34 800LR",
+   "price": 37.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 413,
+   "score": 81,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A battery remote shaped like a paddle switch, for adding a switch anywhere without wiring.",
+   "pros": [
+    "Looks like a regular paddle switch",
+    "Magnetic base or switch box mount",
+    "Long Range",
+    "4.4 stars from 413 reviews"
+   ],
+   "cons": [
+    "Basic hubs can't program scene control, per Zooz",
+    "Only 20 left at capture time",
+    "Two paddles only"
+   ],
+   "specs": {
+    "type": "Battery paddle remote",
+    "buttons": "2 paddles",
+    "series": "800 Series LR",
+    "power": "Battery",
+    "notes": "Magnetic base, fits a switch box"
+   },
+   "features": {
+    "long_range": true,
+    "buttons": false,
+    "battery_free": false,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51vYNKllrBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08TMWLY74?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B08TMWLY74"
+  },
+  {
+   "rank": 3,
+   "asin": "B0CV8RXT5W",
+   "name": "Zooz 800 Series Z-Wave Long Range Wall Remote & Scene Controller ZEN37 (Battery Powered), White | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN37 800LR",
+   "price": 46.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 75,
+   "score": 80,
+   "awards": [
+    "Best Battery Remote"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Four buttons and up to 24 scenes on a rechargeable remote you can mount or carry.",
+   "pros": [
+    "Up to 24 scenes",
+    "Rechargeable battery",
+    "Magnetic base or decora box",
+    "5-year warranty when registered"
+   ],
+   "cons": [
+    "Only 75 reviews",
+    "SmartThings and Hubitat need custom drivers",
+    "$46.95"
+   ],
+   "specs": {
+    "type": "Battery wall remote",
+    "buttons": "4",
+    "series": "800 Series LR",
+    "power": "Rechargeable battery",
+    "notes": "Up to 24 scenes"
+   },
+   "features": {
+    "long_range": true,
+    "buttons": true,
+    "battery_free": false,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41iU3eL97OL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CV8RXT5W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B0CV8RXT5W"
+  },
+  {
+   "rank": 4,
+   "asin": "B0987K9VS3",
+   "name": "Z-Wave Wireless Remote Control/Scene Controller, Aeotec WallMote 7, on/Off, dim, Trigger Scenes, add a new Switch Anywhere, Battery Powered, Z-Wave hub Required, Z-Wave Plus, illumino",
+   "brand": "Aeotec",
+   "model": "WallMote 7",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 31,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A small Aeotec remote with six multi-tap commands for on, off, dimming, and scenes.",
+   "pros": [
+    "$31.99",
+    "Six multi-tap commands",
+    "Tape, junction box, or handheld"
+   ],
+   "cons": [
+    "3.9 stars from 31 reviews",
+    "700 Series, no Long Range",
+    "Stock wasn't shown at capture time"
+   ],
+   "specs": {
+    "type": "Battery remote",
+    "buttons": "Multi-tap",
+    "series": "700 Series",
+    "power": "Battery",
+    "notes": "144 ft. indoor range"
+   },
+   "features": {
+    "long_range": false,
+    "buttons": false,
+    "battery_free": false,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51HcaU4d1DS._SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0987K9VS3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B0987K9VS3"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What can a smart button do?",
+   "a": "Anything your hub can run: turn on a scene, toggle a lamp, start a routine, or arm an alarm. Many buttons recognize single, double, and long presses, so one button can run three actions."
+  },
+  {
+   "q": "Do buttons need a hub?",
+   "a": "Yes, for Zigbee and Z-Wave. The button sends a press to the hub, and the hub runs the automation. Some Zigbee buttons can bind directly to a bulb or plug, but most setups go through the hub."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 4 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

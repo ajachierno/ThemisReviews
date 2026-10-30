@@ -1,0 +1,395 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/rf-temperature-sensors.html",
+ "json_url": "https://themisreviews.com/rf-temperature-sensors.json",
+ "slug": "rf-temperature-sensors",
+ "title": "The Best 433 MHz Wireless Temperature Sensors",
+ "subtitle": "Indoor-outdoor thermometers and replacement sensors on the 433 MHz band.",
+ "intro": "We pulled the 433 MHz wireless temperature sensors selling on Amazon and scored them on rating, review volume, and features. These are standalone sensors and displays; the guide below explains how hobbyists read them in Home Assistant.",
+ "protocol": {
+  "slug": "433-mhz-rf",
+  "name": "433 MHz RF",
+  "url": "https://themisreviews.com/#433-mhz-rf"
+ },
+ "product_type": "Temperature sensors",
+ "data_captured": "2026-10-22",
+ "updated": "2026-10-22",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "humidity": 0.3,
+   "multi_sensor": 0.3,
+   "display": 0.2,
+   "long_range": 0.2
+  },
+  "reviews_ceiling": 40000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B06XKH666P",
+   "name": "TempPro TempAir 500 FT",
+   "price": 19.99,
+   "why": "A display and outdoor sensor with 500 ft. range, 36,124 reviews, and 6K+ bought last month, for $19.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0BMTNC9DR",
+   "name": "Geevon TX19 sensor",
+   "price": 9.99,
+   "why": "A $9.99 433 MHz replacement sensor for Geevon weather stations."
+  },
+  {
+   "label": "Best Replacement Sensor",
+   "asin": "B00T0K8NXC",
+   "name": "AcuRite 06002M / 592TXR sensor",
+   "price": 17.99,
+   "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,104 reviews, sold by Amazon."
+  },
+  {
+   "label": "Best Multi-Room Kit",
+   "asin": "B09R1TP7HF",
+   "name": "Geevon Indoor/outdoor thermometer (3 sensors)",
+   "price": 25.64,
+   "why": "A display with three 433 MHz sensors for four locations at once, for $25.64."
+  }
+ ],
+ "systems_note": "These sensors talk to their own displays and don't connect to smart home platforms. Home Assistant users can read many of them with a USB SDR receiver and rtl_433, but that isn't supported by the makers.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B06XKH666P",
+   "name": "TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor",
+   "brand": "TempPro",
+   "model": "TempAir 500 FT",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 36124,
+   "score": 85,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "7K+ bought in past month",
+   "verdict": "The most popular indoor-outdoor thermometer, with a long 500 ft. range.",
+   "pros": [
+    "500 ft. range",
+    "36,124 reviews, 6K+ bought in the past month",
+    "Min/max records and trend arrows",
+    "$19.99"
+   ],
+   "cons": [
+    "Frequency isn't stated in the listing",
+    "4.2 stars",
+    "Extra sensors sold separately"
+   ],
+   "specs": {
+    "type": "Display + 1 sensor",
+    "frequency": "Not stated in listing",
+    "range": "500 ft.",
+    "sensors": "1 (up to 3)",
+    "works_with": "Its own display"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": false,
+    "display": true,
+    "long_range": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ehHPphM-L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B06XKH666P?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B06XKH666P"
+  },
+  {
+   "rank": 2,
+   "asin": "B09R1TP7HF",
+   "name": "Geevon Indoor Outdoor Thermometer Wireless with 3 Remote Sensors, Digital Hygrometer Indoor Thermometer, Temperature Humidity Monitor Gauge with 200FT/60M Range",
+   "brand": "Geevon",
+   "model": "Indoor/outdoor thermometer (3 sensors)",
+   "price": 25.64,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2747,
+   "score": 81,
+   "awards": [
+    "Best Multi-Room Kit"
+   ],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A 433 MHz display kit that shows four locations at once, with max/min and alarms.",
+   "pros": [
+    "3 sensors included",
+    "433 MHz stated in the listing",
+    "Max/min and alarm functions",
+    "2,747 reviews"
+   ],
+   "cons": [
+    "200 ft. range",
+    "Indoor reading starts at 50°F",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "type": "Display + 3 sensors",
+    "frequency": "433 MHz",
+    "range": "200 ft.",
+    "sensors": "3",
+    "works_with": "Its own display"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": true,
+    "display": true,
+    "long_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61YYf3bA7gL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B09R1TP7HF"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DQPT4BP1",
+   "name": "TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors",
+   "brand": "TempPro",
+   "model": "TempAir 500 FT (3 sensors)",
+   "price": 33.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 76,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The three-sensor version, with alerts and ±0.5°F stated accuracy.",
+   "pros": [
+    "3 waterproof sensors",
+    "±0.5°F, ±2-3% RH",
+    "Out-of-range alerts on the display"
+   ],
+   "cons": [
+    "Only 76 reviews",
+    "$33.99",
+    "Frequency isn't stated"
+   ],
+   "specs": {
+    "type": "Display + 3 sensors",
+    "frequency": "Not stated in listing",
+    "range": "500 ft.",
+    "sensors": "3",
+    "works_with": "Its own display"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": true,
+    "display": true,
+    "long_range": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ITv05FpKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0DQPT4BP1"
+  },
+  {
+   "rank": 4,
+   "asin": "B00T0K8NXC",
+   "name": "AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)",
+   "brand": "AcuRite",
+   "model": "06002M / 592TXR sensor",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 12104,
+   "score": 76,
+   "awards": [
+    "Best Replacement Sensor"
+   ],
+   "works_with": [],
+   "works_with_note": "AcuRite displays",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The replacement sensor for most AcuRite weather stations, with an A-B-C channel switch.",
+   "pros": [
+    "4.6 stars from 12,104 reviews",
+    "A-B-C channel switch",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Check the model number on your old sensor first",
+    "AcuRite warns a similar-looking sensor isn't compatible",
+    "No display"
+   ],
+   "specs": {
+    "type": "Replacement sensor",
+    "frequency": "Not stated in listing",
+    "range": "Not stated",
+    "sensors": "1",
+    "works_with": "Displays that use 00592TX, 06002M, and related sensors"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": false,
+    "display": false,
+    "long_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/515r3f5dgXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B00T0K8NXC"
+  },
+  {
+   "rank": 5,
+   "asin": "B0BLX7RQRG",
+   "name": "TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor",
+   "brand": "La Crosse",
+   "model": "TX141TH-BV4",
+   "price": 20.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2289,
+   "score": 73,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "La Crosse displays",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A weather-resistant replacement sensor for a long list of La Crosse stations.",
+   "pros": [
+    "330 ft. range",
+    "-40°F to 140°F",
+    "2K+ bought in the past month, sold by Amazon"
+   ],
+   "cons": [
+    "Only works with the station models it lists",
+    "Batteries not included",
+    "4.3 stars"
+   ],
+   "specs": {
+    "type": "Replacement sensor",
+    "frequency": "Not stated in listing",
+    "range": "330 ft.",
+    "sensors": "1",
+    "works_with": "Listed La Crosse station models only"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": false,
+    "display": false,
+    "long_range": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41MY2VJ3vGL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0BLX7RQRG"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BMTNC9DR",
+   "name": "Geevon TX19 Wireless Remote Outdoor Sensor for 8646/23190/8688/8667/86258/86250/86268/86297/86275/86300/8614/86282/86278/86281 Weather Station Thermometer",
+   "brand": "Geevon",
+   "model": "TX19 sensor",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 121,
+   "score": 59,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "Geevon displays",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A cheap 433 MHz add-on or replacement for Geevon weather stations.",
+   "pros": [
+    "$9.99",
+    "433 MHz stated, every 30 seconds",
+    "Channel 1, 2, or 3"
+   ],
+   "cons": [
+    "Geevon stations only",
+    "Only 121 reviews",
+    "200 ft. range"
+   ],
+   "specs": {
+    "type": "Replacement sensor",
+    "frequency": "433 MHz",
+    "range": "200 ft.",
+    "sensors": "1",
+    "works_with": "Listed Geevon station models"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": false,
+    "display": false,
+    "long_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/415JO5bu6JL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BMTNC9DR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0BMTNC9DR"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Can a 433 MHz sensor work with a smart home?",
+   "a": "Not on its own. These sensors talk to their own display. With a cheap USB SDR receiver and the rtl_433 software, Home Assistant can read many AcuRite, La Crosse, and Ambient Weather sensors, but that's a do-it-yourself project, not a supported feature."
+  },
+  {
+   "q": "Will a replacement sensor work with my display?",
+   "a": "Only if the listing names your display's model. 433 MHz sensors use brand-specific formats, so an AcuRite sensor won't pair with a La Crosse display."
+  },
+  {
+   "q": "Where should an outdoor sensor go?",
+   "a": "In the shade, out of direct sun and rain, and a few feet off the ground. A sensor in the sun can read 10°F or more too high."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-22",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 6 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

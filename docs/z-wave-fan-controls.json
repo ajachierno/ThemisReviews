@@ -1,0 +1,297 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-fan-controls.html",
+ "json_url": "https://themisreviews.com/z-wave-fan-controls.json",
+ "slug": "z-wave-fan-controls",
+ "title": "The Best Z-Wave Ceiling Fan Controls",
+ "subtitle": "Z-Wave fan speed switches and fan-and-light combos, ranked.",
+ "intro": "Z-Wave fan controls are a small category. We scored the ones on Amazon on rating, review volume, and features: speeds, fan-and-light combos, and Long Range.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Fan controls",
+ "data_captured": "2026-10-29",
+ "updated": "2026-10-29",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "speeds": 0.35,
+   "light": 0.25,
+   "long_range": 0.2,
+   "rating": 0.2
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0846CJTRN",
+   "name": "Zooz ZEN30 800LR double switch",
+   "price": 44.95,
+   "why": "Dims the light and switches the fan from one double switch, with Long Range and 4.4 stars."
+  },
+  {
+   "label": "Best Speed Control",
+   "asin": "B07WSG4FN4",
+   "name": "Enbrighten Z-Wave fan control (3-speed)",
+   "price": 37.03,
+   "why": "Three fan speeds from the wall, sold by Amazon, for $37.03."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0846CJTRN",
+   "name": "Zooz Z-Wave Long Range Double Switch (White) ZEN30 800LR for Fan and Light Combo (NO Speed Control), Hub Required (Works with Home Assistant, Hubitat, Wink, SmartThings, Z-Box Hub)",
+   "brand": "Zooz",
+   "model": "ZEN30 800LR double switch",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 331,
+   "score": 84,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best pick for a fan-and-light combo when you only need the fan on or off.",
+   "pros": [
+    "Dimmer for the light plus a 15 A relay for the fan",
+    "800 Series Long Range",
+    "Scene control from the buttons",
+    "4.4 stars from 331 reviews"
+   ],
+   "cons": [
+    "No fan speed control",
+    "Needs separate fan and light wires",
+    "Neutral required"
+   ],
+   "specs": {
+    "speeds": "On/off only (no speed control)",
+    "light": "Yes, dimmer",
+    "install": "Wall switch",
+    "neutral": "Required"
+   },
+   "features": {
+    "speeds": false,
+    "light": true,
+    "long_range": true,
+    "rating": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51Qvuby5y9L._SX342_SY445_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0846CJTRN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-fan-controls.html#B0846CJTRN"
+  },
+  {
+   "rank": 2,
+   "asin": "B07WSG4FN4",
+   "name": "Enbrighten Z-Wave Fan Control Switch, Paddle, White & Light Almond, 1 Pack",
+   "brand": "Enbrighten",
+   "model": "Z-Wave fan control (3-speed)",
+   "price": 37.03,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 119,
+   "score": 76,
+   "awards": [
+    "Best Speed Control"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A dedicated fan speed switch that can run two fans from one wall box.",
+   "pros": [
+    "3 speeds",
+    "Controls up to two fans",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Fan only, not for lights",
+    "4.3 stars",
+    "Only 119 reviews"
+   ],
+   "specs": {
+    "speeds": "3 (low, medium, high)",
+    "light": "No",
+    "install": "Wall switch",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "speeds": true,
+    "light": false,
+    "long_range": false,
+    "rating": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81RINXAhvLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07WSG4FN4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-fan-controls.html#B07WSG4FN4"
+  },
+  {
+   "rank": 3,
+   "asin": "B08GQJWSRG",
+   "name": "Leviton Decora Smart Fan Speed Controller, Z-Wave Plus, ZW4SF-1BW, White",
+   "brand": "Leviton",
+   "model": "Decora Smart ZW4SF",
+   "price": 57.22,
+   "currency": "USD",
+   "rating": 3.1,
+   "reviews_count": 142,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Leviton's 700 Series fan speed controller with S2 security.",
+   "pros": [
+    "700 Series with S2 and SmartStart",
+    "4 speeds",
+    "Over-the-air updates"
+   ],
+   "cons": [
+    "3.1 stars",
+    "$57.22",
+    "Fan only"
+   ],
+   "specs": {
+    "speeds": "4 (low to max)",
+    "light": "No",
+    "install": "Wall switch",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "speeds": true,
+    "light": false,
+    "long_range": false,
+    "rating": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51tvNwqcfHL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08GQJWSRG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-fan-controls.html#B08GQJWSRG"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CNDCW9D9",
+   "name": "Enbrighten Z-Wave Fan Control Switch, Paddle, White & Light Almond, 1 Pack",
+   "brand": "Enbrighten",
+   "model": "Z-Wave fan control (4-speed, QuickFit)",
+   "price": 59.23,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 36,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The newer Enbrighten with four speeds and a shallower body.",
+   "pros": [
+    "4 speeds",
+    "Auto-detecting line/load terminals",
+    "Alexa and Google through a Z-Wave hub"
+   ],
+   "cons": [
+    "3.4 stars from 36 reviews",
+    "$59.23",
+    "Fan only"
+   ],
+   "specs": {
+    "speeds": "4",
+    "light": "No",
+    "install": "Wall switch, 20% shallower",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "speeds": true,
+    "light": false,
+    "long_range": false,
+    "rating": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71NS8qZgLNL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNDCW9D9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-fan-controls.html#B0CNDCW9D9"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Will a smart fan control work with my ceiling fan?",
+   "a": "Wall fan controls work with fans that are switched from the wall and have a pull chain left on high. If your fan uses a handheld remote and a receiver in the canopy, you need a receiver-based controller instead."
+  },
+  {
+   "q": "Can it also control the fan's light?",
+   "a": "Some combo switches control both the fan and the light separately, which needs separate wires for the fan and light. Single-function controls only do the fan."
+  },
+  {
+   "q": "Why not use a regular dimmer on a fan?",
+   "a": "Dimmers aren't designed for fan motors and can make them hum or overheat. Use a control rated for fans."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-29",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 4 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

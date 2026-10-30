@@ -1,0 +1,640 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/thread-locks.html",
+ "json_url": "https://themisreviews.com/thread-locks.json",
+ "slug": "thread-locks",
+ "title": "The Best Thread Smart Locks",
+ "subtitle": "Smart locks that run on Thread for fast, low-power control through Matter, ranked.",
+ "intro": "We pulled the smart locks on Amazon whose listings name Thread and scored them on rating, review volume, and features.",
+ "protocol": {
+  "slug": "thread",
+  "name": "Thread",
+  "url": "https://themisreviews.com/#thread"
+ },
+ "product_type": "Smart locks",
+ "data_captured": "2026-10-25",
+ "updated": "2026-10-25",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "hands_free": 0.25,
+   "fingerprint": 0.25,
+   "keypad": 0.25,
+   "retrofit": 0.25
+  },
+  "reviews_ceiling": 2000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0FQC6VCDW",
+   "name": "ULTRALOQ Bolt SE",
+   "price": 84.99,
+   "why": "ULTRALOQ's Bolt SE has fingerprint, keypad, Wi-Fi, and Matter over Thread, rated 4.3 stars by 10,361 buyers."
+  },
+  {
+   "label": "Best Hands-Free",
+   "asin": "B0FRS6T6HL",
+   "name": "Aqara UWB Smart Lock U400",
+   "price": 229.49,
+   "why": "Aqara's U400 unlocks as you approach with UWB and supports Apple Home Key."
+  },
+  {
+   "label": "Best Retrofit",
+   "asin": "B0F8RC3YRF",
+   "name": "Level Bolt",
+   "price": 199.0,
+   "why": "Level Bolt goes inside your door, so you keep your keys and hardware."
+  }
+ ],
+ "systems_note": "Only listings that name Thread are included; Aqara's U100 and U50 reach Matter through an Aqara hub instead. All of these need a Thread border router for Matter.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0FQC6VCDW",
+   "name": "ULTRALOQ Bolt SE Wifi Smart Deadbolt Lock, Supports Matter, Remote Control",
+   "brand": "ULTRALOQ",
+   "model": "Bolt SE",
+   "price": 84.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 10361,
+   "score": 81,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "U home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The best-selling Thread lock, with every unlock method and no separate bridge.",
+   "pros": [
+    "10,361 reviews",
+    "Fingerprint and keypad",
+    "$84.99"
+   ],
+   "cons": [
+    "Bulky exterior",
+    "Thread border router for Matter",
+    "Wi-Fi drains batteries faster"
+   ],
+   "specs": {
+    "type": "Keypad deadbolt",
+    "unlock": "Fingerprint, code, app, key and more (7-in-1)",
+    "extras": "Built-in Wi-Fi plus Matter over Thread"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": true,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61TZMukfPyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQC6VCDW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FQC6VCDW"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FRS6T6HL",
+   "name": "Aqara UWB Smart Lock U400, Apple Home Key, Fingerprint Deadbolt, Black",
+   "brand": "Aqara",
+   "model": "UWB Smart Lock U400",
+   "price": 229.49,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 443,
+   "score": 73,
+   "awards": [
+    "Best Hands-Free"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Aqara Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "Walk up with your iPhone or Apple Watch and it unlocks.",
+   "pros": [
+    "UWB hands-free unlock",
+    "Apple Home Key",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "$229.49",
+    "UWB needs a Thread Apple Home hub",
+    "4.1 stars"
+   ],
+   "specs": {
+    "type": "Fingerprint deadbolt",
+    "unlock": "UWB hands-free, Apple Home Key, fingerprint",
+    "extras": "Matter over Thread"
+   },
+   "features": {
+    "hands_free": true,
+    "fingerprint": true,
+    "keypad": false,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61STzCIW1TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FRS6T6HL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FRS6T6HL"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FXM1QCVT",
+   "name": "Philips Smart Lock Matter Over Thread, Touchscreen Fingerprint Deadbolt",
+   "brand": "Philips",
+   "model": "Smart Lock (Matter over Thread)",
+   "price": 181.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 51,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Philips Home Access app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A sleek touchscreen fingerprint lock on Matter over Thread.",
+   "pros": [
+    "Fingerprint",
+    "Touchscreen keypad"
+   ],
+   "cons": [
+    "$181.99, more than twice the Bolt SE",
+    "Only 51 reviews",
+    "4.2 stars",
+    "Newer brand in locks"
+   ],
+   "specs": {
+    "type": "Touchscreen deadbolt",
+    "unlock": "Fingerprint, touchscreen code, app",
+    "extras": "Remote control in the app"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": true,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71G2sQUx4rL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FXM1QCVT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FXM1QCVT"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GZWVC674",
+   "name": "Schlage Sense Pro UWB Smart Deadbolt Lock, Hands-Free Unlock, Matte Black",
+   "brand": "Schlage",
+   "model": "Sense Pro (UWB)",
+   "price": 338.74,
+   "currency": "USD",
+   "rating": 3.5,
+   "reviews_count": 66,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Schlage app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Schlage's hands-free lock for a sturdy front door.",
+   "pros": [
+    "UWB hands-free unlock",
+    "Schlage build quality",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$338.74",
+    "3.5 stars",
+    "Needs a Thread hub"
+   ],
+   "specs": {
+    "type": "Keypad deadbolt",
+    "unlock": "UWB hands-free, code, app",
+    "extras": "Matter, needs a Thread home hub"
+   },
+   "features": {
+    "hands_free": true,
+    "fingerprint": false,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/513Obhx5nYL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZWVC674?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0GZWVC674"
+  },
+  {
+   "rank": 5,
+   "asin": "B0BCGH7D8H",
+   "name": "Yale Smart Lock Deadbolt with Google Matter, Keyless Entry, Matte Black",
+   "brand": "Yale",
+   "model": "Smart Lock Deadbolt with Matter",
+   "price": 160.98,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 296,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Yale app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "Yale's Matter lock, built to slot into Google Home.",
+   "pros": [
+    "Sold by Amazon",
+    "Backup key",
+    "400+ bought in the past month"
+   ],
+   "cons": [
+    "3.4 stars",
+    "Remote access needs a Matter hub",
+    "$160.98"
+   ],
+   "specs": {
+    "type": "Keypad deadbolt",
+    "unlock": "Code, phone tap, Google Assistant, key",
+    "extras": "Matter over Thread, designed for Google Home"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": false,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71CFNJdkUfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BCGH7D8H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0BCGH7D8H"
+  },
+  {
+   "rank": 6,
+   "asin": "B0G3CPVSZW",
+   "name": "Kwikset Aura Reach Smart Lock Matter Over Thread and Bluetooth Enabled Keyless Entry Door Lock Deadbolt, BHMA Certified, Proximity Wakeup, Geofence Auto-Unlock Satin Nickel",
+   "brand": "Kwikset",
+   "model": "Aura Reach",
+   "price": 144.0,
+   "currency": "USD",
+   "rating": 3.3,
+   "reviews_count": 79,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Kwikset app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A BHMA-certified Kwikset that wakes as you approach and can unlock by geofence.",
+   "pros": [
+    "BHMA certified",
+    "Geofence auto-unlock",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "3.3 stars",
+    "Only 79 reviews",
+    "$144.00"
+   ],
+   "specs": {
+    "type": "Keypad deadbolt",
+    "unlock": "Code, app, geofence auto-unlock",
+    "extras": "Thread and Bluetooth, BHMA certified"
+   },
+   "features": {
+    "hands_free": true,
+    "fingerprint": false,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71YZ4WvKEBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G3CPVSZW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0G3CPVSZW"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FXWGYDQW",
+   "name": "Aqara Smart Lock with Handle U300, Apple Home Key, Smart Lever Lock, Black",
+   "brand": "Aqara",
+   "model": "Smart Lock with Handle U300",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 78,
+   "score": 59,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Aqara Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A lever-handle smart lock for side doors and offices.",
+   "pros": [
+    "Lever handle",
+    "Apple Home Key",
+    "25 fingerprints"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Only 78 reviews",
+    "Apple features need a Thread Apple hub"
+   ],
+   "specs": {
+    "type": "Lever lock",
+    "unlock": "Apple Home Key, fingerprint (25 stored)",
+    "extras": "Matter over Thread"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": true,
+    "keypad": false,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61TnI6V3PRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FXWGYDQW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FXWGYDQW"
+  },
+  {
+   "rank": 8,
+   "asin": "B0FKLBYHD2",
+   "name": "Level Lock Pro - World’s Smallest, Most Innovative Smart Lock (Matte Black)",
+   "brand": "Level",
+   "model": "Lock Pro",
+   "price": 349.0,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 156,
+   "score": 56,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Level Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The smallest smart lock here, and it knows if the door is open.",
+   "pros": [
+    "Door status detection",
+    "Apple Home Key",
+    "Looks like a normal lock"
+   ],
+   "cons": [
+    "$349",
+    "Remote access needs a hub or Level Connect bridge",
+    "4.0 stars"
+   ],
+   "specs": {
+    "type": "Compact deadbolt",
+    "unlock": "Apple Home Key, app, key",
+    "extras": "Door status sensor"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": false,
+    "keypad": false,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Wgm3UElaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FKLBYHD2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FKLBYHD2"
+  },
+  {
+   "rank": 9,
+   "asin": "B0F8RC3YRF",
+   "name": "Level Bolt Smart Deadbolt - Make Your Lock Smart, Keep Your Keys & Hardware",
+   "brand": "Level",
+   "model": "Bolt",
+   "price": 199.0,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 82,
+   "score": 54,
+   "awards": [
+    "Best Retrofit"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Level Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Replaces only the bolt, so nothing changes on the outside of your door.",
+   "pros": [
+    "Keeps your keys and hardware",
+    "Invisible install",
+    "Matter over Thread"
+   ],
+   "cons": [
+    "3.4 stars",
+    "No keypad",
+    "$199"
+   ],
+   "specs": {
+    "type": "Retrofit, inside the door",
+    "unlock": "App, phone, existing keys",
+    "extras": "Invisible from outside"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": false,
+    "keypad": false,
+    "retrofit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/718d6IRtn+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F8RC3YRF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0F8RC3YRF"
+  },
+  {
+   "rank": 10,
+   "asin": "B0H1LG78QW",
+   "name": "ULTRALOQ Bolt Mission UWB Smart Lock,Matter Over Thread,Approach to Unlock",
+   "brand": "ULTRALOQ",
+   "model": "Bolt Mission (UWB)",
+   "price": 299.99,
+   "currency": "USD",
+   "rating": 3.6,
+   "reviews_count": 50,
+   "score": 54,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "U home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "ULTRALOQ's hands-free UWB lock.",
+   "pros": [
+    "Approach to unlock",
+    "Matter over Thread",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$299.99",
+    "Only 50 reviews",
+    "3.6 stars"
+   ],
+   "specs": {
+    "type": "Deadbolt",
+    "unlock": "UWB approach-to-unlock",
+    "extras": "Matter over Thread"
+   },
+   "features": {
+    "hands_free": true,
+    "fingerprint": false,
+    "keypad": false,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61+gN2ATOSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H1LG78QW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0H1LG78QW"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "What do Thread devices need?",
+   "a": "A Thread border router, which is built into recent Apple TVs and HomePods, Nest Hubs, some Echo models, and SmartThings and Aqara hubs. With Matter, the device then shows up in Apple Home, Google Home, Alexa, SmartThings, or Home Assistant."
+  },
+  {
+   "q": "Will a smart lock fit my door?",
+   "a": "Most smart deadbolts fit a standard US door with a 2-1/8 in. bore hole and a 2-3/8 or 2-3/4 in. backset. Retrofit locks like Level Bolt replace only the inside parts and keep your existing key and hardware."
+  },
+  {
+   "q": "What happens if the batteries die?",
+   "a": "Locks warn you in their app before the batteries run out. Most also have a backup key, an emergency power point, or both. Check the listing for which one yours has."
+  },
+  {
+   "q": "Is a smart lock secure?",
+   "a": "Look for encrypted radios (Z-Wave S2, Matter, Thread, or the maker's encrypted Bluetooth), auto-lock, and an activity log. ANSI/BHMA grade ratings describe physical strength; Grade 2 or better is typical for a front door."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

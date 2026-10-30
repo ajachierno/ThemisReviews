@@ -1,0 +1,585 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/wifi-camera-systems.html",
+ "json_url": "https://themisreviews.com/wifi-camera-systems.json",
+ "slug": "wifi-camera-systems",
+ "title": "The Best Security Camera Systems",
+ "subtitle": "Multi-camera NVR systems that record 24/7 without a subscription, ranked.",
+ "intro": "We pulled the security camera systems on Amazon and scored them on rating, review volume, and features: resolution, number of cameras, storage, and PoE or Wi-Fi.",
+ "protocol": {
+  "slug": "wifi",
+  "name": "Wi-Fi",
+  "url": "https://themisreviews.com/#wifi"
+ },
+ "product_type": "Camera systems",
+ "data_captured": "2026-10-30",
+ "updated": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "uhd": 0.25,
+   "poe": 0.25,
+   "ai": 0.25,
+   "many": 0.25
+  },
+  "reviews_ceiling": 10000,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B016UCNP3A",
+   "name": "Reolink RLK8-410B4 (8-channel, 4 x 5MP)",
+   "price": 459.98,
+   "why": "Reolink's 4-camera PoE kit with a 2 TB recorder, rated 4.5 stars by 2,894 buyers."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B07QM5996S",
+   "name": "Hiseeu 5MP Wi-Fi Camera System",
+   "price": 199.99,
+   "why": "A Wi-Fi camera system with a hard-drive recorder for $199.99."
+  },
+  {
+   "label": "Best 4K",
+   "asin": "B07W4WBKKJ",
+   "name": "Reolink RLK8-800B6 (8-channel, 6 x 4K)",
+   "price": 889.99,
+   "why": "Six 4K PoE cameras with person and vehicle detection and a 2 TB recorder."
+  },
+  {
+   "label": "Best Wire-Free",
+   "asin": "B0CNRDG796",
+   "name": "aosu D1 Classic 4-Cam Kit (solar)",
+   "price": 299.96,
+   "why": "Four solar-powered wireless cameras with no monthly fees, 4,290 reviews."
+  }
+ ],
+ "systems_note": "Reolink systems have an official Home Assistant integration. Most NVR systems also expose RTSP streams for other software.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B082KGF6FX",
+   "name": "REOLINK 16CH 4K Security Bullet Camera System with 4TB HDD RLK16-800B8",
+   "brand": "Reolink",
+   "model": "RLK16-800B8 (16-channel, 8 x 4K)",
+   "price": 1259.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1586,
+   "score": 89,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A large-property system with room to double the cameras.",
+   "pros": [
+    "8 x 4K cameras",
+    "4 TB",
+    "16 channels"
+   ],
+   "cons": [
+    "$1,259.99",
+    "Professional-scale install",
+    "4.4 stars"
+   ],
+   "specs": {
+    "cameras": "8 x 4K bullets",
+    "recorder": "16-channel NVR, 4 TB",
+    "connection": "PoE",
+    "extras": "Room for 8 more cameras"
+   },
+   "features": {
+    "uhd": true,
+    "poe": true,
+    "ai": true,
+    "many": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61bTq38FWfL._AC_SL1379_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082KGF6FX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B082KGF6FX"
+  },
+  {
+   "rank": 2,
+   "asin": "B07W4WBKKJ",
+   "name": "REOLINK 8CH 4K/8MP Security Camera System with 2TB HDD RLK8-800B6",
+   "brand": "Reolink",
+   "model": "RLK8-800B6 (8-channel, 6 x 4K)",
+   "price": 889.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 917,
+   "score": 87,
+   "awards": [
+    "Best 4K"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Six 4K cameras for faces and plates at a distance.",
+   "pros": [
+    "4K",
+    "6 cameras",
+    "917 reviews"
+   ],
+   "cons": [
+    "$889.99",
+    "2 TB fills faster at 4K",
+    "Cable install"
+   ],
+   "specs": {
+    "cameras": "6 x 4K/8MP bullets",
+    "recorder": "8-channel NVR, 2 TB",
+    "connection": "PoE",
+    "extras": "Person and vehicle detection"
+   },
+   "features": {
+    "uhd": true,
+    "poe": true,
+    "ai": true,
+    "many": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61rfRDviMQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07W4WBKKJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B07W4WBKKJ"
+  },
+  {
+   "rank": 3,
+   "asin": "B07VPMX7Q5",
+   "name": "REOLINK 8CH 5MP Super HD Home Security Camera System RLK8-410B6-5MP",
+   "brand": "Reolink",
+   "model": "RLK8-410B6 (8-channel, 6 x 5MP)",
+   "price": 599.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 609,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Six cameras for covering every side of a house.",
+   "pros": [
+    "6 cameras",
+    "4.5 stars",
+    "PoE"
+   ],
+   "cons": [
+    "$599.99",
+    "5MP",
+    "Hard drive size isn't in the bullets"
+   ],
+   "specs": {
+    "cameras": "6 x 5MP bullets",
+    "recorder": "8-channel NVR",
+    "connection": "PoE",
+    "extras": "Person and vehicle detection"
+   },
+   "features": {
+    "uhd": false,
+    "poe": true,
+    "ai": true,
+    "many": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ADRWA7g7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07VPMX7Q5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B07VPMX7Q5"
+  },
+  {
+   "rank": 4,
+   "asin": "B016UCNP3A",
+   "name": "REOLINK 8CH 5MP PoE Security Camera System with 2TB HDD RLK8-410B4-5MP",
+   "brand": "Reolink",
+   "model": "RLK8-410B4 (8-channel, 4 x 5MP)",
+   "price": 459.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2894,
+   "score": 79,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The proven starter system: wired, reliable, and room for four more cameras.",
+   "pros": [
+    "2,894 reviews",
+    "PoE, one cable per camera",
+    "Home Assistant integration"
+   ],
+   "cons": [
+    "5MP, not 4K",
+    "Running cable takes work",
+    "$459.98"
+   ],
+   "specs": {
+    "cameras": "4 x 5MP bullets",
+    "recorder": "8-channel NVR, 2 TB",
+    "connection": "PoE",
+    "extras": "Person and vehicle detection"
+   },
+   "features": {
+    "uhd": false,
+    "poe": true,
+    "ai": true,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/6160FbWas7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B016UCNP3A?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B016UCNP3A"
+  },
+  {
+   "rank": 5,
+   "asin": "B07H3QVZQ2",
+   "name": "REOLINK 5MP 8CH Home Security Camera System with 2TB HDD RLK8-520D4-5MP",
+   "brand": "Reolink",
+   "model": "RLK8-520D4 (8-channel, 4 x 5MP domes)",
+   "price": 459.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2797,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The same system with vandal-resistant dome cameras.",
+   "pros": [
+    "Dome cameras",
+    "2,797 reviews",
+    "PoE"
+   ],
+   "cons": [
+    "5MP",
+    "$459.99",
+    "Domes are harder to aim"
+   ],
+   "specs": {
+    "cameras": "4 x 5MP domes",
+    "recorder": "8-channel NVR, 2 TB",
+    "connection": "PoE",
+    "extras": "Person and vehicle detection"
+   },
+   "features": {
+    "uhd": false,
+    "poe": true,
+    "ai": true,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61eSWau5mML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07H3QVZQ2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B07H3QVZQ2"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CF9Y9WMK",
+   "name": "【Human Track】Hiseeu 4K PoE PTZ Security Camera System, 6pcs 5MP PTZ Cameras",
+   "brand": "Hiseeu",
+   "model": "4K PoE PTZ System (6 x 5MP PTZ)",
+   "price": 349.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 526,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Hiseeu app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Six pan-tilt cameras that follow people, for $349.99.",
+   "pros": [
+    "6 PTZ cameras",
+    "Human tracking",
+    "No monthly fees"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Lesser-known app",
+    "Only 526 reviews"
+   ],
+   "specs": {
+    "cameras": "6 x 5MP pan-tilt-zoom",
+    "recorder": "4K NVR with HDD",
+    "connection": "PoE",
+    "extras": "Human tracking, no monthly fees"
+   },
+   "features": {
+    "uhd": false,
+    "poe": true,
+    "ai": true,
+    "many": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61pmrcbgHSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CF9Y9WMK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0CF9Y9WMK"
+  },
+  {
+   "rank": 7,
+   "asin": "B0DD3GXD3S",
+   "name": "Hiseeu Home Security Camera System, 4K NVR Kit, Wired Plug-in Powered 12Pcs 5MP CCTV Security Camera System for Outdoor, Night Vision, IP66, Motion Detection, 3TB HDD, 2.4G/5G Wireless Pro WiFi",
+   "brand": "Hiseeu",
+   "model": "4K NVR Kit (12 x 5MP, plug-in)",
+   "price": 479.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2216,
+   "score": 69,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Hiseeu app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Twelve cameras for a big property on a budget.",
+   "pros": [
+    "12 cameras",
+    "No monthly fees",
+    "2,216 reviews"
+   ],
+   "cons": [
+    "Each camera needs an outlet",
+    "4.2 stars",
+    "Lesser-known app"
+   ],
+   "specs": {
+    "cameras": "12 x 5MP",
+    "recorder": "4K NVR with HDD",
+    "connection": "Wired plug-in",
+    "extras": "No monthly fees"
+   },
+   "features": {
+    "uhd": false,
+    "poe": false,
+    "ai": false,
+    "many": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71JTRpRXXaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DD3GXD3S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0DD3GXD3S"
+  },
+  {
+   "rank": 8,
+   "asin": "B0H6G9MT1M",
+   "name": "ANNKE Wireless Security Camera System, 4K NVR, 4 Dual-Lens PT Cams, 1TB HDD",
+   "brand": "ANNKE",
+   "model": "Wireless 4K NVR System (4 dual-lens PT cameras)",
+   "price": 299.99,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 31,
+   "score": 68,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "ANNKE app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Dual-lens wireless cameras, so each one watches wide and zoomed at once.",
+   "pros": [
+    "Dual-lens cameras",
+    "No monthly fees",
+    "4.9 stars"
+   ],
+   "cons": [
+    "Only 31 reviews",
+    "Wi-Fi depends on signal",
+    "1 TB"
+   ],
+   "specs": {
+    "cameras": "4 x dual-lens pan-tilt",
+    "recorder": "4K NVR, 1 TB",
+    "connection": "Wi-Fi",
+    "extras": "Person detection, no subscription"
+   },
+   "features": {
+    "uhd": true,
+    "poe": false,
+    "ai": true,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71l9vjNW7aL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H6G9MT1M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0H6G9MT1M"
+  },
+  {
+   "rank": 9,
+   "asin": "B0CNRDG796",
+   "name": "aosu D1 Classic 4-Cam Kit, Security Cameras Wireless Outdoor, Solar Powered",
+   "brand": "aosu",
+   "model": "D1 Classic 4-Cam Kit (solar)",
+   "price": 299.96,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 4290,
+   "score": 65,
+   "awards": [
+    "Best Wire-Free"
+   ],
+   "works_with": [],
+   "works_with_note": "aosu app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "Four battery cameras with solar panels: no wiring at all.",
+   "pros": [
+    "Solar powered",
+    "No monthly fees",
+    "4,290 reviews"
+   ],
+   "cons": [
+    "Not continuous recording like an NVR",
+    "Wi-Fi range limits placement",
+    "$299.96"
+   ],
+   "specs": {
+    "cameras": "4 wireless cameras",
+    "recorder": "aosuBase, 32 GB",
+    "connection": "Wi-Fi, solar powered",
+    "extras": "No monthly fees, spotlights"
+   },
+   "features": {
+    "uhd": false,
+    "poe": false,
+    "ai": false,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61qPKBHs15L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNRDG796?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0CNRDG796"
+  },
+  {
+   "rank": 10,
+   "asin": "B07QM5996S",
+   "name": "Hiseeu Wireless Security Camera, 5MP WiFi Security Camera System, 500GB HDD",
+   "brand": "Hiseeu",
+   "model": "5MP Wi-Fi Camera System",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 838,
+   "score": 61,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "Hiseeu app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The cheapest whole system, with no data cables to run.",
+   "pros": [
+    "$199.99",
+    "Wi-Fi, no cable runs",
+    "Color night vision with floodlights"
+   ],
+   "cons": [
+    "500 GB drive",
+    "Cameras still need power outlets",
+    "Wi-Fi depends on signal"
+   ],
+   "specs": {
+    "cameras": "4 x 5MP Wi-Fi cameras",
+    "recorder": "10-channel NVR, 500 GB",
+    "connection": "Wi-Fi",
+    "extras": "Floodlights, two-way audio"
+   },
+   "features": {
+    "uhd": false,
+    "poe": false,
+    "ai": false,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61MFpZlUU7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07QM5996S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B07QM5996S"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "Camera system or individual cameras?",
+   "a": "A system records every camera to one recorder (NVR) in your home, usually continuously and with no monthly fee. Individual cameras are easier to install but usually record motion clips to the cloud or an SD card."
+  },
+  {
+   "q": "PoE or Wi-Fi cameras?",
+   "a": "PoE cameras get power and data over one Ethernet cable, which is more reliable and needs no outlet near the camera. Wi-Fi systems are easier to install but depend on signal strength."
+  },
+  {
+   "q": "Do they work with Home Assistant?",
+   "a": "Many NVR systems support RTSP streams, and Reolink has an official Home Assistant integration. Check each pick's notes."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-30",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "notes": [
+    "Published with 10 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

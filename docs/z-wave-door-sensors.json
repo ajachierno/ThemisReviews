@@ -1,0 +1,470 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/z-wave-door-sensors.html",
+ "json_url": "https://themisreviews.com/z-wave-door-sensors.json",
+ "slug": "z-wave-door-sensors",
+ "title": "The Best Z-Wave Door and Window Sensors",
+ "subtitle": "Battery Z-Wave contact sensors, ranked from live Amazon data.",
+ "intro": "We pulled the Z-Wave door and window sensors selling on Amazon and scored them on rating, review volume, and features: 800 Series Long Range radios, extra sensors, and recessed designs. The list is short because few makers still sell standalone Z-Wave contact sensors.",
+ "protocol": {
+  "slug": "z-wave",
+  "name": "Z-Wave",
+  "url": "https://themisreviews.com/#z-wave"
+ },
+ "product_type": "Door and window sensors",
+ "data_captured": "2026-10-27",
+ "updated": "2026-10-27",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "long_range": 0.4,
+   "extra_sensors": 0.4,
+   "recessed": 0.2
+  },
+  "reviews_ceiling": 400,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B09JKKLRLW",
+   "name": "Zooz ZSE41 800LR",
+   "price": 39.75,
+   "why": "A tiny 800 Series Long Range sensor that fits almost any frame, with an optional outdoor case."
+  },
+  {
+   "label": "Best for Ring Alarm",
+   "asin": "B07ZB2QLC2",
+   "name": "Ring Alarm Contact Sensor (2nd gen)",
+   "price": 14.99,
+   "why": "Nearly 30,000 reviews at 4.7 stars, for homes running Ring Alarm."
+  },
+  {
+   "label": "Most Sensors",
+   "asin": "B0GR6BB2YT",
+   "name": "Aeotec Door Window Sensor 8",
+   "price": 39.99,
+   "why": "Open/close plus tilt, vibration, temperature, humidity, and mold-risk alerts."
+  },
+  {
+   "label": "Best Hidden",
+   "asin": "B082PT71MM",
+   "name": "Aeotec Recessed Door Sensor 7",
+   "price": 37.99,
+   "why": "Recessed design that disappears inside the door frame."
+  }
+ ],
+ "systems_note": "Ring's sensor is made for the Ring Alarm base station; Ring doesn't support other Z-Wave hubs.",
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09JKKLRLW",
+   "name": "Zooz 800 Series Z-Wave Long Range Open|Close XS Sensor ZSE41 800LR for Door, Window, and Gate Monitoring. Hub Required (Sold Separately). Compatible with SmartThings, Hubitat, and Ring Alarm.",
+   "brand": "Zooz",
+   "model": "ZSE41 800LR",
+   "price": 39.75,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 184,
+   "score": 73,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best general-purpose Z-Wave contact sensor: small, Long Range, and easy to hide.",
+   "pros": [
+    "Extra small, fits most frames",
+    "800 Series Long Range",
+    "Rubber-coated against splashes; outdoor case sold separately",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "No extra sensors",
+    "Sold by a third-party seller",
+    "4.1 stars"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "mount": "Surface, extra small",
+    "extras": "Open/close only",
+    "hub": "Any Z-Wave hub",
+    "battery": "Not listed"
+   },
+   "features": {
+    "long_range": true,
+    "extra_sensors": false,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/31gouRY8nxL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09JKKLRLW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B09JKKLRLW"
+  },
+  {
+   "rank": 2,
+   "asin": "B07ZB2QLC2",
+   "name": "Ring Alarm Contact Sensor - 2nd Gen | Instant Window & Door Alerts | Approximately 3-Year Battery Life | Slim Design Fits Any Frame | Easy Installation | Base Station Required",
+   "brand": "Ring",
+   "model": "Alarm Contact Sensor (2nd gen)",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 29621,
+   "score": 72,
+   "awards": [
+    "Best for Ring Alarm"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The most-reviewed contact sensor by far. Ring Alarm sensors run on Z-Wave, but this one is built for Ring Alarm, not general Z-Wave hubs.",
+   "pros": [
+    "4.7 stars from 29,621 reviews",
+    "$14.99, about 3-year battery",
+    "Tool-free installation",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Needs a Ring Alarm base station",
+    "Ring doesn't support other Z-Wave hubs",
+    "Professional monitoring needs a Ring subscription"
+   ],
+   "specs": {
+    "series": "Not stated in listing",
+    "mount": "Surface, slim",
+    "extras": "Open/close only",
+    "hub": "Ring Alarm base station",
+    "battery": "About 3 years"
+   },
+   "features": {
+    "long_range": false,
+    "extra_sensors": false,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51RDFM5cidL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07ZB2QLC2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B07ZB2QLC2"
+  },
+  {
+   "rank": 3,
+   "asin": "B0GR6BB2YT",
+   "name": "Aeotec Door Window Sensor 8 - Z-Wave Long Range, Open/Close, Temperature & Humidity, 3 Axis Sensor, Mold Hazard Function, Tamper, Garage Door Sensor, Z-Wave 800 Series, HomeAssistant, SmartThings,",
+   "brand": "Aeotec",
+   "model": "Door Window Sensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 16,
+   "score": 71,
+   "awards": [
+    "Most Sensors"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A contact sensor that also tracks tilt, vibration, temperature, and humidity, with mold-risk alerts.",
+   "pros": [
+    "Open/close, tilt, and vibration",
+    "Temperature and humidity with dew point and mold hazard alerts",
+    "Z-Wave Long Range",
+    "Tamper alert"
+   ],
+   "cons": [
+    "Only 16 reviews",
+    "Larger than single-purpose sensors",
+    "$39.99"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "mount": "Surface",
+    "extras": "Tilt, vibration, temperature, humidity",
+    "hub": "Any Z-Wave hub",
+    "battery": "Not listed"
+   },
+   "features": {
+    "long_range": true,
+    "extra_sensors": true,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61uR59Fo6yL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR6BB2YT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B0GR6BB2YT"
+  },
+  {
+   "rank": 4,
+   "asin": "B082PT71MM",
+   "name": "Zwave Door Sensor Aeotec Recessed Door Sensor 7, Z-Wave Plus Enabled Smart Door Sensor Battery Powered, SmartStart S2, Zwave Hub Required SmartThings Fibaro Home Centre 3 Hubitat",
+   "brand": "Aeotec",
+   "model": "Recessed Door Sensor 7",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 354,
+   "score": 69,
+   "awards": [
+    "Best Hidden"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A hidden sensor that fits in a hole drilled into the door frame, for doors where a stick-on sensor looks wrong.",
+   "pros": [
+    "Invisible once installed",
+    "S2 security and SmartStart",
+    "354 reviews"
+   ],
+   "cons": [
+    "You have to drill the frame and the door",
+    "3.8 stars",
+    "No Long Range"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "mount": "Recessed (drilled into frame)",
+    "extras": "Open/close only",
+    "hub": "Any Z-Wave hub",
+    "battery": "Not listed"
+   },
+   "features": {
+    "long_range": false,
+    "extra_sensors": false,
+    "recessed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61lYKQ9CNsL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082PT71MM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B082PT71MM"
+  },
+  {
+   "rank": 5,
+   "asin": "B08LDJJWSY",
+   "name": "Aeotec ZWA012 Z-Wave Plus v2 Door / Window Sensor 7 Pro, Gen7",
+   "brand": "Aeotec",
+   "model": "Door/Window Sensor 7 Pro",
+   "price": 47.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 111,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A 3-in-1 sensor that adds tilt detection and a dry-contact input to the standard contact sensor, for garage doors and wired sensors.",
+   "pros": [
+    "Magnetic contact, tilt sensor, and dry-contact input in one",
+    "S2 security and SmartStart",
+    "111 reviews"
+   ],
+   "cons": [
+    "3.7 stars",
+    "$47.99",
+    "No Long Range"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "mount": "Surface, mini",
+    "extras": "Tilt, dry-contact input",
+    "hub": "Any Z-Wave hub",
+    "battery": "About 3 years (1/2 AA)"
+   },
+   "features": {
+    "long_range": false,
+    "extra_sensors": true,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51Q5jNDtU2S._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08LDJJWSY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B08LDJJWSY"
+  },
+  {
+   "rank": 6,
+   "asin": "B0G8J8F7HS",
+   "name": "Shelly Wave Door/Window Operated Sensor, White",
+   "brand": "Shelly",
+   "model": "Wave Door/Window LR",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 19,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A Long Range sensor that also reports tilt angle and light level. Reviews are mixed.",
+   "pros": [
+    "Measures tilt angle, handy for windows",
+    "Built-in light sensor",
+    "Z-Wave Long Range"
+   ],
+   "cons": [
+    "3.4 stars from 19 reviews",
+    "Range claims in the listing are best case",
+    "Newer product"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "mount": "Surface",
+    "extras": "Tilt angle, light",
+    "hub": "Any Z-Wave hub",
+    "battery": "Not listed"
+   },
+   "features": {
+    "long_range": true,
+    "extra_sensors": true,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71aubJaOTdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G8J8F7HS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B0G8J8F7HS"
+  },
+  {
+   "rank": 7,
+   "asin": "B08HCGPWZX",
+   "name": "Aeotec Door Window Sensor 7, Z-Wave Plus Enabled Zwave Hub Required, Gen7, White (Door/Window Sensor 7)",
+   "brand": "Aeotec",
+   "model": "Door Window Sensor 7",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 47,
+   "score": 57,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A compact 700 Series contact sensor with SmartStart pairing, for homes that don't need Long Range.",
+   "pros": [
+    "700 Series chip with S2 security and SmartStart",
+    "40% smaller than the previous generation",
+    "Battery rated for about 4 years"
+   ],
+   "cons": [
+    "No Long Range",
+    "Only 47 reviews",
+    "Only 1 in stock when we checked"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "mount": "Surface, mini",
+    "extras": "Open/close only",
+    "hub": "Any Z-Wave hub",
+    "battery": "About 4 years (per the listing)"
+   },
+   "features": {
+    "long_range": false,
+    "extra_sensors": false,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61zIBHoR0NL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08HCGPWZX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B08HCGPWZX"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "How do door and window sensors work?",
+   "a": "A magnet goes on the door or window and the sensor goes on the frame. When the two separate, the sensor reports open. Mount them within the gap the listing specifies, usually under an inch."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  },
+  {
+   "q": "Can I use these as a security system?",
+   "a": "They can trigger alerts and sirens through your smart home system, but they aren't a monitored alarm. For insurance discounts or police dispatch you need a professionally monitored system."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-27",
+   "notes": [
+    "Added Aeotec Door Window Sensor 7, Aeotec Door/Window Sensor 7 Pro.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Added the Aeotec Door Window Sensor 7 (700 Series, $37.99) and the Door/Window Sensor 7 Pro, which adds a tilt sensor and a dry-contact input ($47.99). All five existing picks kept; prices unchanged since the last check. Ring's newest Window & Door Sensor was considered but runs on Amazon Sidewalk, not Z-Wave."
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "notes": [
+    "Published with 5 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

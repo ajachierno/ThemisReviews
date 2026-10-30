@@ -1,0 +1,351 @@
+{
+ "site": "ThemisReviews",
+ "page_url": "https://themisreviews.com/matter-outlets.html",
+ "json_url": "https://themisreviews.com/matter-outlets.json",
+ "slug": "matter-outlets",
+ "title": "The Best Matter In-Wall Smart Outlets",
+ "subtitle": "In-wall outlets that work with every major smart home platform.",
+ "intro": "Matter in-wall outlets are new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
+ "protocol": {
+  "slug": "matter",
+  "name": "Matter",
+  "url": "https://themisreviews.com/#matter"
+ },
+ "product_type": "In-wall outlets",
+ "data_captured": "2026-10-28",
+ "updated": "2026-10-28",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.3,
+   "features": 0.25
+  },
+  "feature_weights": {
+   "energy": 0.3,
+   "thread": 0.3,
+   "independent": 0.4
+  },
+  "reviews_ceiling": 500,
+  "method_url": "https://themisreviews.com/how-we-rank.html"
+ },
+ "awards": [
+  {
+   "label": "Best Overall",
+   "asin": "B0DLLQR3K7",
+   "name": "Tapo P210M",
+   "price": 25.99,
+   "why": "Two controlled sockets and energy monitoring for $25.99, 500+ bought last month."
+  },
+  {
+   "label": "Best on Thread",
+   "asin": "B0CT62FC6W",
+   "name": "Eve Energy Outlet",
+   "price": 54.97,
+   "why": "Eve's outlet runs on Thread, so it strengthens your Thread mesh and needs no Wi-Fi."
+  }
+ ],
+ "systems_note": null,
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0CT62FC6W",
+   "name": "Eve Energy Outlet (Matter) – Smart Outlet & Power Meter",
+   "brand": "Eve",
+   "model": "Energy Outlet",
+   "price": 54.97,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 175,
+   "score": 87,
+   "awards": [
+    "Best on Thread"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Thread outlet with a power meter that extends your Thread network.",
+   "pros": [
+    "Thread",
+    "Power meter",
+    "UL certified"
+   ],
+   "cons": [
+    "4.1 stars",
+    "$54.97",
+    "Needs a Thread border router"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Power meter, UL certified",
+    "radio": "Thread (Matter)"
+   },
+   "features": {
+    "energy": true,
+    "thread": true,
+    "independent": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71hoF03fDgL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CT62FC6W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-outlets.html#B0CT62FC6W"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DLLQR3K7",
+   "name": "Tapo Smart Plug, Wi-Fi in-Wall Outlet, P210M, Matter Compatible",
+   "brand": "Tapo",
+   "model": "P210M",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 419,
+   "score": 86,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best value Matter outlet, with energy monitoring.",
+   "pros": [
+    "$25.99",
+    "Energy monitoring",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Neutral required",
+    "Wi-Fi, not Thread",
+    "Only 419 reviews"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "Energy monitoring",
+    "radio": "Wi-Fi (Matter)"
+   },
+   "features": {
+    "energy": true,
+    "thread": false,
+    "independent": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61PHxUzYs9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DLLQR3K7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-outlets.html#B0DLLQR3K7"
+  },
+  {
+   "rank": 3,
+   "asin": "B0G63TQFV7",
+   "name": "InvisOutlet Aura in-Wall Smart Outlet with RGB Night Light, Matter Smart Outlet, 15A Dual Receptacles, Apple Home, Alexa, Google Home, SmartThings, MQTT, ETL Listed, No Hub",
+   "brand": "InvisOutlet",
+   "model": "Aura",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 24,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Matter outlet with an RGB glow you can use as a night light or an alert.",
+   "pros": [
+    "RGB light for notifications",
+    "Names Home Assistant and MQTT",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 24 reviews",
+    "Neutral required",
+    "$35.99"
+   ],
+   "specs": {
+    "controlled": "2",
+    "extras": "RGB night light for alerts",
+    "radio": "Wi-Fi (Matter)"
+   },
+   "features": {
+    "energy": false,
+    "thread": false,
+    "independent": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51pyhkOOlDL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G63TQFV7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-outlets.html#B0G63TQFV7"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CLVR6GSH",
+   "name": "Legrand Radiant Wi-Fi Matter 15 Amp Smart Outlet, White 1 Pack",
+   "brand": "Legrand",
+   "model": "Radiant Wi-Fi Matter outlet",
+   "price": 28.35,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 57,
+   "score": 54,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Legrand outlet with one smart socket, for Radiant-trim homes.",
+   "pros": [
+    "Legrand Radiant styling",
+    "Sold by Amazon",
+    "$28.35"
+   ],
+   "cons": [
+    "Only one socket is smart",
+    "3.8 stars",
+    "Matter controller required"
+   ],
+   "specs": {
+    "controlled": "1 (the other is always on)",
+    "extras": "15 A",
+    "radio": "Wi-Fi (Matter)"
+   },
+   "features": {
+    "energy": false,
+    "thread": false,
+    "independent": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ikYOSe5YL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLVR6GSH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-outlets.html#B0CLVR6GSH"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CPLKGMQ3",
+   "name": "Matter Smart in-Wall Outlet, Apple&Google Home, Alexa, 2.4Ghz 15A, 4Pack",
+   "brand": "JUNLIT",
+   "model": "Matter in-wall outlet (4-pack)",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 19,
+   "score": 50,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Four Matter outlets for $49.99, about $12.50 each.",
+   "pros": [
+    "4-pack",
+    "Cheapest per outlet",
+    "Matter"
+   ],
+   "cons": [
+    "Only 19 reviews",
+    "4.0 stars",
+    "Unknown brand"
+   ],
+   "specs": {
+    "controlled": "Not stated in bullets",
+    "extras": "4-pack, 15 A",
+    "radio": "2.4 GHz Wi-Fi (Matter)"
+   },
+   "features": {
+    "energy": false,
+    "thread": false,
+    "independent": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51V9zPsEOnL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CPLKGMQ3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-outlets.html#B0CPLKGMQ3"
+  }
+ ],
+ "avoid": [],
+ "buyers_guide": [
+  {
+   "q": "In-wall outlet or plug-in smart plug?",
+   "a": "An in-wall outlet replaces your receptacle, so nothing sticks out and both sockets stay usable. It needs wiring work. A plug-in smart plug needs no tools."
+  },
+  {
+   "q": "Do I need a neutral wire?",
+   "a": "Yes, nearly all smart outlets need line, neutral, and ground. Most outlet boxes have them."
+  },
+  {
+   "q": "How long do the batteries last?",
+   "a": "Most battery sensors on these lists are rated for one to three years, depending on how often they report. Low-power radios like Zigbee, Z-Wave, and Thread last much longer than Wi-Fi."
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-28",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "notes": [
+    "Published with 5 picks."
+   ]
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ThemisReviews's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}
