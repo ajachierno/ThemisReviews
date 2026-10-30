@@ -1,0 +1,139 @@
+{
+ "B0C3SL4K28": {
+  "title": "Eve Door & Window (Matter) 3 Pack – Smart Contact Sensor for Doors & Windows, Open/Closed State, Automatic Control of Accessories, Matter Over Thread, Apple Home, Alexa, Google Home, SmartThings",
+  "byline": "Visit the Eve Store",
+  "price": "$31.80",
+  "rating": "4.2 out of 5 stars",
+  "reviews": "(787)",
+  "bought": null,
+  "availability": "P.when(\"A\", \"load\").execute(\"aod-assets-loaded\", function(A){\n        function logAssetsNotLoaded() {\n            if (window.ueLogError) {\n                var customError = { message: 'Failed to load AOD assets for WDG: home_improvement_display_on_website, Device: web' };\n                var additionalInfo = {\n                    logLevel : 'ERROR',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                ueLogError (customError, additionalInfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyAssetsLoaded() {\n            var assetsLoadedPageState = A.state('aod:assetsLoaded');\n            var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');\n\n            if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)\n                && (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {\n                A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});\n                logAssetsNotLoaded();\n            }\n        }\n\n        setTimeout(verifyAssetsLoaded, 50000)\n    });",
+  "seller": null,
+  "image": "https://m.media-amazon.com/images/I/41dK7zUGFPL._AC_SL1000_.jpg",
+  "bullets": [
+   "Check your door or window: See the current open/closed state at a glance. Create automations to control other connected devices in your home whenever doors or windows are opened or closed (available on selected platforms).",
+   "Receive activity notifications (available on selected platforms); Review time and duration statistics to make smarter choices in the Eve app for iOS",
+   "Matter-enabled to let you seamlessly monitor your home across smartphones and voice assistants of all major platforms. Cutting-edge Thread network technology for a robust smart home.",
+   "100% Privacy: No Eve cloud, no registration, no tracking. Local communication without cloud dependency.",
+   "Eve Door & Window requires iOS/iPadOS 16.4 (or later) or Android 8.1 (or later) plus a hub of your chosen platform: Apple: Apple TV 4K (2nd gen), Apple TV 4K (3rd gen, 128 GB), HomePod (2nd gen) / Samsung: SmartThings Hub v3 / Amazon: Echo (4th gen), Echo Show 8 (3rd gen) / Google: Nest Hub (2nd gen), Nest Hub Max, Nest Wifi Pro"
+  ],
+  "specs": {
+   "Color": "White",
+   "Brand": "Eve",
+   "Power Source": "Battery Powered",
+   "Compatible Devices": "Smartphone",
+   "Product Dimensions": "0.91\"L x 2.05\"W x 0.94\"H"
+  },
+  "asin": "B0C3SL4K28",
+  "captured": "2026-10-30"
+ },
+ "B0BZSY26WP": {
+  "title": "Eve Door & Window (Matter) – Smart Contact Sensor for Doors & Windows, Open/Closed State, Automatic Control of Accessories, Matter Over Thread, Apple Home, Alexa, Google Home, SmartThings",
+  "byline": "Visit the Eve Store",
+  "price": "$31.80",
+  "rating": "4.1 out of 5 stars",
+  "reviews": "(149)",
+  "bought": "100+ bought in past month",
+  "availability": "",
+  "seller": "Alakhras LLC",
+  "image": "https://m.media-amazon.com/images/I/31ki+DeJ6gL._SL1000_.jpg",
+  "bullets": [
+   "Check your door or window: See the current open/closed state at a glance. Create automations to control other connected devices in your home whenever doors or windows are opened or closed (available on selected platforms).",
+   "Receive activity notifications (available on selected platforms); Review time and duration statistics to make smarter choices in the Eve app for iOS",
+   "Matter-enabled to let you seamlessly monitor your home across smartphones and voice assistants of all major platforms. Cutting-edge Thread network technology for a robust smart home.",
+   "100% Privacy: No Eve cloud, no registration, no tracking. Local communication without cloud dependency.",
+   "Eve Door & Window requires iOS/iPadOS 16.4 (or later) or Android 8.1 (or later) plus a hub of your chosen platform: Apple Home: Apple TV 4K (2nd gen / 3rd gen 128 GB), HomePod (2nd gen), HomePod mini / Samsung SmartThings: SmartThings Hub v3 / Amazon Alexa: Echo (4th gen), Echo Hub, Echo Plus (2nd gen), Echo Show 8 (3rd gen), Echo Show 10 (3rd gen), Echo Studio, eero 6 / 6+ / Pro 6 / Pro 6E / Max 7 / Google Home: Nest Hub (2nd gen), Nest Hub Max, Nest Wifi, Nest Wifi Pro"
+  ],
+  "specs": {
+   "Brand": "Eve",
+   "Item dimensions L x W x H": "0.91 x 2.05 x 0.94 inches",
+   "Item Weight": "15.01 g",
+   "Style": "Eve Door & Window",
+   "Mounting Type": "Door Mount"
+  },
+  "asin": "B0BZSY26WP",
+  "captured": "2026-10-30"
+ },
+ "B0BTL8B72D": {
+  "title": "Aqara Door and Window Sensor P2, Contact Sensor with Remote Alarm",
+  "byline": "Visit the Aqara Store",
+  "price": "$27.99",
+  "rating": "3.6 out of 5 stars",
+  "reviews": "(1,137)",
+  "bought": "500+ bought in past month",
+  "availability": "In Stock                 {\"isInternal\":false,\"showInsightsHub\":false,\"isRobot\":false,\"showFaceout\":true,\"merchantId\":\"A35PXP61BJ01A2\",\"availableBadges\":\"\",\"loggedIn\":false,\"asin\":\"B0BTL8B72D\",\"showBadge\":false,\"ingressFaceout\":\"\",\"availableFaceouts\":\"TK_BOUGHT\"}",
+  "seller": "AqaraDirect",
+  "image": "https://m.media-amazon.com/images/I/612VSU7yrgL._AC_SL1500_.jpg",
+  "bullets": [
+   "[Native Matter Support over Thread] As one of the first sensors to support Matter, the P2 supports access to Aqara Home, Apple Home, Google Home, Amazon Alexa and Samsung . Meanwhile, as a sensor based on the Thread protocol, the P2 provides enhanced connectivity, low-power consumption, more stability, and low latency. (**Note: 2-in-1 Matter Controller & Thread Border Router is required and sold separately)",
+   "[Open/Closed Status Monitoring] With a built-in high-precision Hall sensor, the Aqara Door and Window Sensor P2 can detect the opening and closing status of doors, windows, and drawers precisely. Once the sensor is triggered, it will send real-time alert notifications to your smartphone whether you're at home or away, ensuring you're always aware of any potential security concerns. (*Note: To ensure a stable connection, place the Door and Window Sensor P2 main unit between the accessory unit is no more than 22 mm )",
+   "[Local Home Automations] You can integrate the Door and Window Sensor P2 with your smart home ecosystem to enable advanced automations like adjusting thermostat settings or activating security cameras when a door or window is opened. Moreover, the automations are executed without the cloud, which can protect the user’s privacy and will keep working even if there is no internet connection.",
+   "[Voice Alerts and Status Notifications] The Aqara Door and Window Sensor P2 supports Apple Siri, Alexa, and Google Assistant. With these voice assistants, you can receive alerts about events such as door entries, or ask whether a door is open, allowing you to effortlessly monitor your home.",
+   "[Matter Compatibility] A Matter Controller & Thread Border Router 2-in-1 is required to enjoy seamless integration with a Matter-enabled smart home ecosystem. Currently, the following hubs are tested, but new hubs will be added over time. Aqara Home(Hub M3), Apple: Apple TV 4K (3rd gen, 128 GB), Apple TV 4K (2nd gen), HomePod (2nd gen), HomePod mini | Samsung: Hub v3, Aeotec Hub v3, | Amazon: Echo (4th gen) | Google: Nest Hub (2nd gen), Nest Hub Max, Nest Wi-Fi Pr",
+   "[Easy Installation & Long Battery Life] With its compact design and adhesive back, the sensor is easily integrated into any interior. Additionally, equipped with a powerful CR123A battery, it provides uninterrupted protection with infrequent replacements.* The battery life may vary depending on the border router and Matter app the sensor is connected to. Please ensure to use a CR123A battery when replacing, as incompatible models may cause failure or malfunction."
+  ],
+  "specs": {
+   "Brand": "Aqara",
+   "Item dimensions L x W x H": "3.03 x 1.32 x 0.87 inches",
+   "Item Weight": "0.04 kg",
+   "Style": "Door and Window Sensor P2",
+   "Mounting Type": "Door Mount"
+  },
+  "asin": "B0BTL8B72D",
+  "captured": "2026-10-30"
+ },
+ "B0G6ZH853W": {
+  "title": "Aqara Multi-State Sensor P100, Door and Window & Vibration Sensor, White",
+  "byline": "Visit the Aqara Store",
+  "price": "$26.99",
+  "rating": "3.0 out of 5 stars",
+  "reviews": "(124)",
+  "bought": null,
+  "availability": "In Stock",
+  "seller": "AqaraDirect",
+  "image": "https://m.media-amazon.com/images/I/61thJJpG-wL._AC_SL1500_.jpg",
+  "bullets": [
+   "2-in-1 Sensor with Dual-Protocol Compatibility: The P100 is a versatile 2-in-1 sensor, combining door/window and object monitoring in one. It supports both Thread and Zigbee protocols with Matter compatibility to connect with Apple Home, Home Assistant, Google Home, Alexa, SmartThings, and Homey. (*Matter requires a corresponding Thread Border Router and Matter Controller). Note: Thread protocol offers only Open/Close Monitoring. Zigbee protocol (Aqara Hub required) unlocks full features including Object Monitoring. Only one mode can be active at a time.",
+   "Hassle-Free Open / Close Monitoring: In Open/Close Monitoring Mode, the Multi-State Sensor P100 accurately detects the status of hinged doors, casement windows, hopper windows, composite windows, refrigerators, safes, and more. Its single-body design eliminates the alignment hassle of traditional two‑piece magnetic sensors, ensuring reliable detection even if doors/windows sag over time. Ideal for home security and energy‑saving automations.",
+   "Context-Aware Object Monitoring : Switch to Object Monitoring Mode in the Zigbee protocol (requires an Aqara hub) to unlock comprehensive event detection: orientation (horizontal/vertical/tilt), movement, fall, vibration, and triple tap. Perfect for securing valuables, monitoring drawers, detecting glass breaking, or caring for elders and pets. Get precise alerts based on what actually happened, not just generic motion. (Note: Supported only in the Aqara Home App via Zigbee mode; cannot be bridged to third-party Matter platforms.)",
+   "Easy Installation & Smart Calibration: The Multi-State Sensor P100's one‑piece design sticks to almost any flat surface. Quickly press the top button of the device three times to complete manual calibration. Choose from 10 adjustable sensitivity levels to match your environment, and customize reporting intervals (5s to 5min) in Zigbee mode. Its AI self‑learning algorithm continuously corrects minor drift over time, ensuring long‑term accuracy and reducing false alerts. (Indoor use only; avoid direct rain exposure.)",
+   "Long Battery Life & Detailed Event History: Designed with ultra-low power consumption, the Multi-State Sensor P100 offers a long battery life. In Aqara Home (Zigbee mode), all events are logged with clear charts and statistics, helping you track patterns and spot anomalies. Thread mode provides open/close notifications via your Matter platform. Perfect for creating smarter, data‑driven automations. (Note: Zigbee2MQTT and comparable third-party USB dongles are not officially supported by Aqara. Full product functionality may be limited or unavailable.)"
+  ],
+  "specs": {
+   "Brand": "Aqara",
+   "Color": "White",
+   "Compatible Devices": "Smartphone, Aqara Hub, Apple Home, Google Home, Amazon Alexa, SmartThings, Home Assistant, Homey",
+   "Item dimensions L x W x H": "1.77 x 1.22 x 0.51 inches",
+   "Connectivity Technology": "Zigbee, Thread"
+  },
+  "asin": "B0G6ZH853W",
+  "captured": "2026-10-30"
+ },
+ "B0DR3C9D17": {
+  "title": "arre Contact Sensor with Matter & Thread Support, Control Smart Home Accessories, Works with Apple Home / Google Home / Samsung SmartThings, Door / Garage Sensor",
+  "byline": "Brand: arre",
+  "price": "$29.99",
+  "rating": "3.0 out of 5 stars",
+  "reviews": "(20)",
+  "bought": null,
+  "availability": "In Stock",
+  "seller": "arre - smart home",
+  "image": "https://m.media-amazon.com/images/I/61znKwDtfdL._AC_SL1500_.jpg",
+  "bullets": [
+   "Matter Certified",
+   "Works with Apple Home",
+   "Works with Google Home",
+   "Works with Alexa",
+   "Works with Samsung SmartThings",
+   "** Thread Border Router Required **"
+  ],
+  "specs": {
+   "Color": "White",
+   "Brand": "arre",
+   "Power Source": "Battery Powered",
+   "Compatible Devices": "Apple Home (iOS), Google Home (Android), Samsung SmartThings (Android), Alexa (various)",
+   "Product Dimensions": "1.55\"L x 0.5\"W x 1.22\"H"
+  },
+  "asin": "B0DR3C9D17",
+  "captured": "2026-10-30"
+ }
+}

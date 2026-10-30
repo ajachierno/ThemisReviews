@@ -33,6 +33,6 @@ PY
 for i in 1 2 3; do rm -f .git/index.lock; git add -A -- . ':!research/audit-out.json' && break; sleep 3; done
 git commit -qm "$MSG
 
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
 git push -q origin main
 git log --oneline -1
