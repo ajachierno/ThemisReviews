@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -569,8 +569,8 @@
    "json": "https://themisreviews.com/z-wave-sirens.json",
    "protocol": "Z-Wave",
    "product_type": "Sirens",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 3,
    "awards": [
     {
@@ -578,7 +578,7 @@
      "asin": "B0G21S2TF9",
      "name": "Zooz ZSE50 800LR Siren & Chime",
      "price": 47.95,
-     "why": "An 800 Series Long Range siren and chime that plays your own MP3s, rated 4.3 stars."
+     "why": "An 800 Series Long Range siren and chime that plays your own MP3s, rated 4.4 stars."
     },
     {
      "label": "Loudest",
@@ -596,8 +596,8 @@
    "json": "https://themisreviews.com/z-wave-multisensors.json",
    "protocol": "Z-Wave",
    "product_type": "Multisensors",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 4,
    "awards": [
     {
@@ -623,8 +623,8 @@
    "json": "https://themisreviews.com/z-wave-range-extenders.json",
    "protocol": "Z-Wave",
    "product_type": "Range extenders",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 5,
    "awards": [
     {
@@ -632,7 +632,7 @@
      "asin": "B081G97TLB",
      "name": "Aeotec Range Extender 7",
      "price": 34.99,
-     "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 845 buyers."
+     "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 847 buyers."
     },
     {
      "label": "Best Long Range Plug",
@@ -646,7 +646,7 @@
      "asin": "B07ZB2VP4K",
      "name": "Ring Alarm Range Extender (2nd Gen)",
      "price": 14.99,
-     "why": "A $14.99 extender for Ring Alarm systems, 4,194 reviews."
+     "why": "A $14.99 extender for Ring Alarm systems, 4,200 reviews."
     }
    ]
   },
@@ -657,8 +657,8 @@
    "json": "https://themisreviews.com/z-wave-garage-openers.json",
    "protocol": "Z-Wave",
    "product_type": "Garage door openers",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 3,
    "awards": [
     {
@@ -672,7 +672,7 @@
      "label": "Best All-in-One",
      "asin": "B0FXYWJ47K",
      "name": "GoControl GD00Z-7 Smart Garage Door Controller",
-     "price": 74.99,
+     "price": 63.24,
      "why": "A dedicated garage controller with the tilt sensor in the box."
     }
    ]
@@ -684,8 +684,8 @@
    "json": "https://themisreviews.com/z-wave-water-valves.json",
    "protocol": "Z-Wave",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 2,
    "awards": [
     {
@@ -700,7 +700,7 @@
      "asin": "B07DJZCFBH",
      "name": "EcoNet Controls Bulldog Valve Robot (EVC200-HCSML)",
      "price": 215.0,
-     "why": "The Bulldog Valve Robot, rated 4.7 stars by 280 buyers."
+     "why": "The Bulldog Valve Robot, rated 4.7 stars by 281 buyers."
     }
    ]
   },
@@ -711,8 +711,8 @@
    "json": "https://themisreviews.com/z-wave-smoke-detectors.json",
    "protocol": "Z-Wave",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 2,
    "awards": [
     {
@@ -929,8 +929,8 @@
    "json": "https://themisreviews.com/zigbee-motion-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Motion sensors",
-   "data_captured": "2026-10-23",
-   "updated": "2026-10-23",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 10,
    "awards": [
     {
@@ -938,14 +938,14 @@
      "asin": "B0C1GB4DVR",
      "name": "SONOFF SNZB-03P",
      "price": 16.5,
-     "why": "Fast 5-second detection, a 3-year battery, 872 reviews, and $16.50."
+     "why": "Fast 5-second detection, a 3-year battery, 889 reviews, and $16.50."
     },
     {
      "label": "Best for Alexa",
      "asin": "B08RRRWK6B",
      "name": "THIRDREALITY Zigbee motion sensor",
      "price": 19.99,
-     "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,281)."
+     "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,283)."
     },
     {
      "label": "Best Presence Sensor",
@@ -958,7 +958,7 @@
      "label": "Most Capable",
      "asin": "B0FG2MD3YP",
      "name": "Aqara Presence Sensor FP300",
-     "price": 49.99,
+     "price": 46.99,
      "why": "PIR plus 60 GHz mmWave in a wireless 5-in-1 sensor that runs on Zigbee or Matter over Thread."
     }
    ]
@@ -1366,8 +1366,8 @@
    "json": "https://themisreviews.com/zigbee-vibration-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Vibration sensors",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 6,
    "awards": [
     {
@@ -1381,8 +1381,8 @@
      "label": "Best for Aqara Homes",
      "asin": "B07PJT939B",
      "name": "Aqara Vibration Sensor",
-     "price": 19.99,
-     "why": "Detects vibration, tilt, and drops, with 1,906 reviews."
+     "price": 17.99,
+     "why": "Detects vibration, tilt, and drops, with 1,913 reviews."
     }
    ]
   },
@@ -1393,8 +1393,8 @@
    "json": "https://themisreviews.com/zigbee-repeaters.json",
    "protocol": "Zigbee",
    "product_type": "Range extenders",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 5,
    "awards": [
     {
@@ -1402,7 +1402,7 @@
      "asin": "B0BXFBH6JR",
      "name": "Aeotec Range Extender Zi",
      "price": 29.49,
-     "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.5 stars."
+     "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.4 stars."
     },
     {
      "label": "Best Budget",
@@ -1427,9 +1427,9 @@
    "json": "https://themisreviews.com/zigbee-water-valves.json",
    "protocol": "Zigbee",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
-   "products": 4,
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
+   "products": 3,
    "awards": [
     {
      "label": "Best Overall",
@@ -1444,13 +1444,6 @@
      "name": "Reutov Zigbee Smart Water Shutoff Valve 3/4-inch",
      "price": 147.0,
      "why": "A solid brass 3/4-inch motorized valve with a manual override."
-    },
-    {
-     "label": "Best Budget",
-     "asin": "B0F1F9QBJJ",
-     "name": "iSolartech Zigbee 3.0 Smart Water Valve (reinforced arm)",
-     "price": 36.99,
-     "why": "A Zigbee 3.0 valve controller for $36.99 that fits pipes up to 1-1/4 inch."
     }
    ]
   },
@@ -1461,8 +1454,8 @@
    "json": "https://themisreviews.com/zigbee-curtain-motors.json",
    "protocol": "Zigbee",
    "product_type": "Curtain motors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 3,
    "awards": [
     {
@@ -3386,23 +3379,23 @@
    "json": "https://themisreviews.com/wifi-weather-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Weather stations",
-   "data_captured": "2026-10-10",
-   "updated": "2026-10-10",
-   "products": 10,
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
+   "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B01N5TEHLI",
      "name": "Ambient Weather WS-2902",
      "price": 199.99,
-     "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,139 reviews."
+     "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,165 reviews."
     },
     {
      "label": "Best Budget",
      "asin": "B0FM3CVKNL",
      "name": "VEVOR 7-in-1 Wi-Fi Weather Station",
-     "price": 84.75,
-     "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $84.75."
+     "price": 73.99,
+     "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $73.99."
     },
     {
      "label": "Best No-Moving-Parts",
@@ -3912,8 +3905,8 @@
    "json": "https://themisreviews.com/wifi-water-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Water monitors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 6,
    "awards": [
     {
@@ -3927,7 +3920,7 @@
      "label": "Best with Shutoff",
      "asin": "B0DSKG73XB",
      "name": "Frizzlife LP365",
-     "price": 329.99,
+     "price": 296.99,
      "why": "Frizzlife's ultrasonic monitor detects flows down to 0.01 GPM and closes the valve itself, rated 4.5 stars."
     },
     {
@@ -3953,23 +3946,23 @@
    "json": "https://themisreviews.com/wifi-pool-cleaners.json",
    "protocol": "Wi-Fi",
    "product_type": "Pool cleaners",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GSVTQK33",
      "name": "Beatbot Sora 10",
-     "price": 469.0,
+     "price": 699.0,
      "why": "Beatbot's Sora 10 runs up to 300 minutes, cleans the waterline, and parks itself for pickup."
     },
     {
      "label": "Best Corded",
      "asin": "B09K4C9WGF",
      "name": "Dolphin Nautilus CC Plus Wi-Fi",
-     "price": 849.0,
-     "why": "Dolphin's Nautilus CC Plus has always-on Wi-Fi scheduling and 3,291 reviews."
+     "price": 899.0,
+     "why": "Dolphin's Nautilus CC Plus has always-on Wi-Fi scheduling and 3,306 reviews."
     },
     {
      "label": "Best Easy Retrieval",
@@ -3987,16 +3980,16 @@
    "json": "https://themisreviews.com/wifi-smart-scales.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart scales",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 7,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B09HCJD6H1",
      "name": "Etekcity Smart Scale (Wi-Fi, color display)",
-     "price": 79.99,
-     "why": "Etekcity's Wi-Fi scale has 349,711 reviews, a color display, and Alexa."
+     "price": 63.99,
+     "why": "Etekcity's Wi-Fi scale has 187,340 reviews, a color display, and Alexa."
     },
     {
      "label": "Best Budget",
@@ -4028,8 +4021,8 @@
    "json": "https://themisreviews.com/wifi-sunrise-alarms.json",
    "protocol": "Wi-Fi",
    "product_type": "Sunrise alarms",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 5,
    "awards": [
     {
@@ -4041,10 +4034,10 @@
     },
     {
      "label": "Best Budget",
-     "asin": "B0FRRXBZ3W",
-     "name": "ANJANK App Smart Sunrise Alarm Clock",
+     "asin": "B0H1QWLZTD",
+     "name": "ecozy Lumo Nova 3-in-1 Sunrise Alarm Clock",
      "price": 39.99,
-     "why": "15 alarms, 5 sunrise modes, and 25 sleep sounds over Wi-Fi for $39.99."
+     "why": "Sleep plans, 26 sounds, and surround color light over Wi-Fi for $39.99."
     },
     {
      "label": "Best Voice Control",
@@ -4057,7 +4050,7 @@
      "label": "Best Premium",
      "asin": "B0HKVSB8K1",
      "name": "Dekala Arches Gradual Sunrise Alarm Clock",
-     "price": 129.99,
+     "price": 117.31,
      "why": "Dekala's Arches adds a wireless charger and Bluetooth speaker."
     }
    ]
@@ -4069,8 +4062,8 @@
    "json": "https://themisreviews.com/wifi-curtain-openers.json",
    "protocol": "Wi-Fi",
    "product_type": "Curtain motors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 3,
    "awards": [
     {
@@ -4103,23 +4096,23 @@
    "json": "https://themisreviews.com/wifi-path-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
-   "products": 10,
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
+   "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GQ3JNL38",
      "name": "Govee Outdoor Cylinder Pathway Lights",
-     "price": 114.99,
+     "price": 144.99,
      "why": "Govee's cylinder lights put out 425 lm each with IP67 fixtures and Wi-Fi plus Bluetooth control."
     },
     {
      "label": "Best Budget",
      "asin": "B0FQ3KX7FL",
      "name": "APPECK RGBCW Pathway Lights",
-     "price": 66.49,
-     "why": "Four RGBCW path lights with Alexa and Google for $66.49, rated 4.6 stars."
+     "price": 79.99,
+     "why": "Four RGBCW path lights with Alexa and Google for $79.99, rated 4.3 stars."
     },
     {
      "label": "Best Spotlights",
@@ -4144,29 +4137,29 @@
    "json": "https://themisreviews.com/wifi-portable-air-conditioners.json",
    "protocol": "Wi-Fi",
    "product_type": "Air conditioners",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 7,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GMGR4BJV",
      "name": "Temprium 14,000 BTU Smart Portable AC",
-     "price": 439.99,
+     "price": 449.99,
      "why": "Temprium's 14,000 BTU unit runs at 41 dB in silent mode, with Alexa and Google."
     },
     {
      "label": "Best Budget",
      "asin": "B0H1YF1LCT",
      "name": "SereneLife 8,000 BTU Portable AC with WiFi",
-     "price": 299.9,
-     "why": "An 8,000 BTU Wi-Fi portable AC with 13,303 reviews for $299.90, sold by Amazon."
+     "price": 256.42,
+     "why": "An 8,000 BTU Wi-Fi portable AC with 13,409 reviews for $256.42, sold by Amazon."
     },
     {
      "label": "Best with Heat",
      "asin": "B01DLPUWJ4",
      "name": "BLACK+DECKER 14,000 BTU with Heat",
-     "price": 556.77,
+     "price": 499.99,
      "why": "BLACK+DECKER's 14,000 BTU unit adds 10,000 BTU of heat."
     },
     {
@@ -4185,23 +4178,16 @@
    "json": "https://themisreviews.com/wifi-mailbox-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Mailbox sensors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CPLQ16K7",
      "name": "X-Sense Smart Mailbox Alarm",
-     "price": 29.98,
-     "why": "X-Sense's mailbox alarm has 1,561 reviews and app alerts through its base station."
-    },
-    {
-     "label": "Best Battery Life",
-     "asin": "B0GYW9F4F7",
-     "name": "Irrespek WiFi Mailbox Alarm Sensor",
      "price": 29.99,
-     "why": "Up to 5 years on one battery with app alerts and an indoor chime."
+     "why": "X-Sense's mailbox alarm has 1,567 reviews and app alerts through its base station."
     },
     {
      "label": "Longest Range",
@@ -4478,8 +4464,8 @@
    "json": "https://themisreviews.com/bluetooth-propane-monitors.json",
    "protocol": "Bluetooth",
    "product_type": "Tank monitors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 6,
    "awards": [
     {
@@ -4487,7 +4473,7 @@
      "asin": "B09J6MXJKT",
      "name": "Mopeka Pro Check",
      "price": 65.99,
-     "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,812 reviews."
+     "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,841 reviews."
     },
     {
      "label": "Best Budget",
@@ -4717,23 +4703,23 @@
    "json": "https://themisreviews.com/thread-motion-sensors.json",
    "protocol": "Thread",
    "product_type": "Motion sensors",
-   "data_captured": "2026-10-23",
-   "updated": "2026-10-23",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0FG2MD3YP",
      "name": "Aqara Presence Sensor FP300",
-     "price": 49.99,
+     "price": 46.99,
      "why": "Aqara's FP300 combines mmWave presence and PIR motion with Thread or Zigbee, 2K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0CT8W9NRB",
      "name": "Aqara Motion and Light Sensor P2",
-     "price": 29.99,
-     "why": "A Matter-over-Thread motion and light sensor for $29.99."
+     "price": 31.99,
+     "why": "Aqara's Matter-over-Thread motion and light sensor for $31.99, with 678 reviews."
     },
     {
      "label": "Most Sensors",
@@ -4921,8 +4907,8 @@
    "json": "https://themisreviews.com/matter-smart-plugs.json",
    "protocol": "Matter",
    "product_type": "Smart plugs",
-   "data_captured": "2026-10-21",
-   "updated": "2026-10-21",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 10,
    "awards": [
     {
@@ -4930,14 +4916,14 @@
      "asin": "B0BNWGZ545",
      "name": "Tapo P125M",
      "price": 11.99,
-     "why": "A 15 A Matter plug for $11.99 with 2,986 reviews, sold by Amazon."
+     "why": "A 15 A Matter plug for $11.99 with 3,016 reviews, sold by Amazon."
     },
     {
      "label": "Best Budget",
      "asin": "B0DP8KKHQB",
      "name": "Amazon Basics Matter smart plug",
-     "price": 11.19,
-     "why": "$11.19 for a Matter plug that also sets up with zero effort in Alexa."
+     "price": 10.39,
+     "why": "$10.39 for a Matter plug that also sets up with zero effort in Alexa."
     },
     {
      "label": "Best Energy Monitoring",
@@ -4951,7 +4937,7 @@
      "asin": "B0CVN3CNCD",
      "name": "Tapo P400M outdoor",
      "price": 25.99,
-     "why": "Two independently controlled IP65 outdoor outlets, 2K+ bought last month."
+     "why": "Two independently controlled IP65 outdoor outlets, 3K+ bought last month."
     }
    ]
   },
@@ -5676,8 +5662,8 @@
    "json": "https://themisreviews.com/matter-air-quality-monitors.json",
    "protocol": "Matter",
    "product_type": "Air quality monitors",
-   "data_captured": "2026-10-11",
-   "updated": "2026-10-11",
+   "data_captured": "2026-10-31",
+   "updated": "2026-10-31",
    "products": 2,
    "awards": [
     {
@@ -5685,7 +5671,7 @@
      "asin": "B0G2WDPB29",
      "name": "SONOFF AirGuard CO2 SAWF-08P",
      "price": 49.9,
-     "why": "SONOFF's AirGuard uses a real NDIR CO2 sensor and reports to every Matter system, rated 4.4 stars."
+     "why": "SONOFF's AirGuard uses a real NDIR CO2 sensor and reports to every Matter system, rated 4.3 stars."
     },
     {
      "label": "Best for Particles",

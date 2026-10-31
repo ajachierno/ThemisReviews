@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Water shutoff valves",
- "data_captured": "2026-10-10",
- "updated": "2026-10-10",
+ "data_captured": "2026-10-31",
+ "updated": "2026-10-31",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -45,13 +45,6 @@
    "name": "Reutov Zigbee Smart Water Shutoff Valve 3/4-inch",
    "price": 147.0,
    "why": "A solid brass 3/4-inch motorized valve with a manual override."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0F1F9QBJJ",
-   "name": "iSolartech Zigbee 3.0 Smart Water Valve (reinforced arm)",
-   "price": 36.99,
-   "why": "A Zigbee 3.0 valve controller for $36.99 that fits pipes up to 1-1/4 inch."
   }
  ],
  "systems_note": "Every valve here needs a Zigbee hub. Aqara's T1 needs an Aqara hub; the rest pair with any Zigbee 3.0 or Tuya hub.",
@@ -65,7 +58,7 @@
    "price": 69.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 401,
+   "reviews_count": 408,
    "score": 79,
    "awards": [
     "Best Overall"
@@ -89,7 +82,7 @@
    "pros": [
     "No plumbing work",
     "Matter through the hub",
-    "401 reviews"
+    "408 reviews"
    ],
    "cons": [
     "3.8 stars",
@@ -114,71 +107,15 @@
   },
   {
    "rank": 2,
-   "asin": "B0F1F9QBJJ",
-   "name": "Upgrade Zigbee 3.0 Smart Water Valve Shutoff Reinforced Mounting Arm Durable Metal Gear (TUYA/SmartThings Hub), Alexa/Google Compatible, 2.4 GHz, Motorized Ball Valve Actuator",
-   "brand": "iSolartech",
-   "model": "Zigbee 3.0 Smart Water Valve (reinforced arm)",
-   "price": 36.99,
-   "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 6,
-   "score": 56,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro",
-    "Google Home"
-   ],
-   "works_with_note": "Tuya / Smart Life / SmartThings",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A cheap clamp-on controller for standard ball valves.",
-   "pros": [
-    "$36.99",
-    "Fits up to 1-1/4 in",
-    "Works offline over Zigbee"
-   ],
-   "cons": [
-    "Only 6 reviews",
-    "3.7 stars",
-    "Low stock"
-   ],
-   "specs": {
-    "type": "Clamps onto ball valve",
-    "pipes": "1/2 to 1-1/4 in",
-    "hub": "Zigbee 3.0 hub",
-    "extras": "Metal gear, reinforced mounting arm"
-   },
-   "features": {
-    "retrofit": true,
-    "manual": false,
-    "matter": false,
-    "wide": true
-   },
-   "image": "https://m.media-amazon.com/images/I/617TLAQ8kyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1F9QBJJ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-water-valves.html#B0F1F9QBJJ"
-  },
-  {
-   "rank": 3,
    "asin": "B0DK5VQ29S",
    "name": "Zigbee Smart Water Shutoff Valve 3/4\"",
    "brand": "Reutov",
    "model": "Zigbee Smart Water Shutoff Valve 3/4-inch",
    "price": 147.0,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 10,
-   "score": 53,
+   "rating": 4.3,
+   "reviews_count": 11,
+   "score": 54,
    "awards": [
     "Best Inline Valve"
    ],
@@ -198,7 +135,7 @@
    ],
    "cons": [
     "$147",
-    "Only 10 reviews",
+    "Only 11 reviews",
     "Needs a plumber"
    ],
    "specs": {
@@ -218,7 +155,7 @@
    "page_url": "https://themisreviews.com/zigbee-water-valves.html#B0DK5VQ29S"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0G3WJGBZN",
    "name": "Smart Valve PRO Zigbee 3.0 Motorized Ball Valve Metal Gear Tuya Smart Alexa Google Home iOS Android 2.4GHz Only",
    "brand": "iSolartech",
@@ -311,6 +248,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-10-31",
+   "notes": [
+    "Dropped iSolartech Zigbee 3.0 Smart Water Valve (reinforced arm).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-10",
    "notes": [

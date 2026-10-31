@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Range extenders",
- "data_captured": "2026-10-10",
- "updated": "2026-10-10",
+ "data_captured": "2026-10-31",
+ "updated": "2026-10-31",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,7 +37,7 @@
    "asin": "B081G97TLB",
    "name": "Aeotec Range Extender 7",
    "price": 34.99,
-   "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 845 buyers."
+   "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 847 buyers."
   },
   {
    "label": "Best Long Range Plug",
@@ -51,7 +51,7 @@
    "asin": "B07ZB2VP4K",
    "name": "Ring Alarm Range Extender (2nd Gen)",
    "price": 14.99,
-   "why": "A $14.99 extender for Ring Alarm systems, 4,194 reviews."
+   "why": "A $14.99 extender for Ring Alarm systems, 4,200 reviews."
   }
  ],
  "systems_note": "Every plug-in Z-Wave device repeats the mesh; the plugs here are sold partly as range extenders. The Ring extender only works inside a Ring Alarm system.",
@@ -59,13 +59,13 @@
   {
    "rank": 1,
    "asin": "B0CQX4JFV2",
-   "name": "Minoston Smart Plug, 15A Mini Z-Wave 800 Series Plug-in Socket with Built-in Repeater and Range Extender, Z-Wave Hub Required, Compatible with SmartThings, Wink, FCC and ETL Listed, MP21Z",
+   "name": "Smart Plug, 15A Mini Z-Wave 800 Series Plug-in Socket with Built-in Repeater and Range Extender, Z-Wave Hub Required, Compatible with SmartThings, Wink, FCC and ETL Listed, MP21Z",
    "brand": "Minoston",
    "model": "Mini Z-Wave 800 plug (repeater)",
-   "price": 26.09,
+   "price": 28.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 507,
+   "reviews_count": 510,
    "score": 85,
    "awards": [],
    "works_with": [
@@ -80,11 +80,11 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "200+ bought in past month",
    "verdict": "A cheap 800 Series plug sold as a repeater and range extender.",
    "pros": [
-    "$26.09",
-    "4.5 stars from 507 reviews",
+    "$28.99",
+    "4.5 stars from 510 reviews",
     "Compact"
    ],
    "cons": [
@@ -116,7 +116,7 @@
    "price": 34.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 845,
+   "reviews_count": 847,
    "score": 81,
    "awards": [
     "Best Overall"
@@ -133,12 +133,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "The standard fix for a weak spot in a Z-Wave mesh.",
    "pros": [
     "Works with any Z-Wave hub",
     "Repeats S2 security devices",
-    "400+ bought in the past month"
+    "300+ bought in the past month"
    ],
    "cons": [
     "700 Series",
@@ -169,7 +169,7 @@
    "price": 35.95,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 70,
+   "reviews_count": 73,
    "score": 79,
    "awards": [
     "Best Long Range Plug"
@@ -194,7 +194,7 @@
     "800 Series Long Range"
    ],
    "cons": [
-    "Only 70 reviews",
+    "Only 73 reviews",
     "$35.95",
     "Not a dimmer"
    ],
@@ -222,7 +222,7 @@
    "price": 14.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 4194,
+   "reviews_count": 4200,
    "score": 76,
    "awards": [
     "Best for Ring Alarm"
@@ -236,11 +236,11 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "1K+ bought in past month",
    "verdict": "Only for Ring Alarm: it boosts the Ring Base Station's network and nothing else.",
    "pros": [
     "$14.99",
-    "4,194 reviews",
+    "4,200 reviews",
     "Sold by Amazon"
    ],
    "cons": [
@@ -266,13 +266,13 @@
   {
    "rank": 5,
    "asin": "B0CQS4SS9F",
-   "name": "New One Z-Wave Smart Plug, 800 Series Z-Wave Outlet with Built-in Repeater",
+   "name": "Z-Wave Smart Plug, 800 Series Z-Wave Outlet with Built-in Repeater",
    "brand": "New One",
    "model": "Z-Wave 800 smart plug (repeater)",
    "price": 26.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 32,
+   "reviews_count": 33,
    "score": 75,
    "awards": [],
    "works_with": [
@@ -287,7 +287,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "An 800 Series plug that relays signals up to four hops deep.",
    "pros": [
     "4.7 stars",
@@ -295,7 +295,7 @@
     "$26.99"
    ],
    "cons": [
-    "Only 32 reviews",
+    "Only 33 reviews",
     "Doesn't work with Echo hubs",
     "Lesser-known brand"
    ],
@@ -331,6 +331,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-10-31",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-10",
    "notes": [
