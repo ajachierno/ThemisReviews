@@ -73,6 +73,7 @@ def build_price_tracker(site):
     ctx = {"esc": esc, "money": money, "base": base, "brand": site["brand"], "out": OUT, "write": write,
            "nav": render_quicknav(site["protocols"], compact=True), "table_js": "", "to_top": "",
            "noun": "product", "nouns": "products", "category_label": "Review page", "category_label_plural": "review pages",
+           "page_count": sum(1 for proto in site["protocols"] for sub in proto["subs"] if sub.get("ready")),
            "extra_note": "Amazon links on this site carry our Associates tag; the dataset itself contains no affiliate links.",
            "caveat": "Our first checks, on October 4 and 5, 2026, landed on Amazon's Prime Big Deal Days, so many of the largest rises are deal prices returning to list."}
     return price_tracker.build(site, meta, PRICE_HISTORY, ctx)
@@ -325,7 +326,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
     alt="{esc(site['brand'])}: Themis holding the scales of justice"></a>
   <form class="site-search" action="search.html" role="search" autocomplete="off">
     <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
-      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+      role="combobox" aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
     <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
   </form>
 </header>"""
@@ -336,7 +337,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
   <span class="slogan">{esc(site['tagline'])}</span>
   <form class="site-search" action="search.html" role="search" autocomplete="off">
     <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
-      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+      role="combobox" aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
     <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
   </form>
 </header>"""
@@ -714,7 +715,7 @@ def unit_note(p, cls="unit"):
 
 def stars(rating):
     pct = round(rating / 5 * 100)
-    return f'<span class="stars" style="--pct:{pct}%" aria-label="{rating} out of 5 stars"></span>'
+    return f'<span class="stars" role="img" style="--pct:{pct}%" aria-label="{rating} out of 5 stars"></span>'
 
 
 def score_product(p, cat):

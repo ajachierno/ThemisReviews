@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ThemisReviews price tracker: 1,171 Amazon products, re-checked weekly</title>
-<meta name="description" content="Tracked Amazon prices for 1,171 products across 159 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and…">
+<meta name="description" content="Tracked Amazon prices for 1,171 products across 162 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and…">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://themisreviews.com/price-tracker.html">
 <meta name="theme-color" content="#0b0a17">
@@ -13,15 +13,15 @@
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="ThemisReviews">
 <meta property="og:title" content="ThemisReviews price tracker: 1,171 Amazon products, re-checked weekly">
-<meta property="og:description" content="Tracked Amazon prices for 1,171 products across 159 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and…">
+<meta property="og:description" content="Tracked Amazon prices for 1,171 products across 162 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and…">
 <meta property="og:image" content="https://themisreviews.com/assets/logo.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://themisreviews.com/assets/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "ThemisReviews Amazon price history", "description": "Tracked Amazon prices for 1,171 products across 159 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and the full dataset to download.", "url": "https://themisreviews.com/price-tracker.html", "license": "https://themisreviews.com/price-tracker.html#how-this-is-measured", "creator": {"@type": "Organization", "name": "ThemisReviews", "url": "https://themisreviews.com/"}, "temporalCoverage": "2026-10-04/2026-10-30", "dateModified": "2026-10-30", "keywords": ["product prices", "Amazon price history", "ThemisReviews"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://themisreviews.com/price-history.csv"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://themisreviews.com/price-history.json"}]}</script>
-<link rel="stylesheet" href="assets/styles.css?v=061e2a61">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "ThemisReviews Amazon price history", "description": "Tracked Amazon prices for 1,171 products across 162 review pages: the biggest drops and rises of the last 14 days, products at their lowest recorded price, and the full dataset to download.", "url": "https://themisreviews.com/price-tracker.html", "license": "https://themisreviews.com/price-tracker.html#how-this-is-measured", "creator": {"@type": "Organization", "name": "ThemisReviews", "url": "https://themisreviews.com/"}, "temporalCoverage": "2026-10-04/2026-10-30", "dateModified": "2026-10-30", "keywords": ["product prices", "Amazon price history", "ThemisReviews"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://themisreviews.com/price-history.csv"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://themisreviews.com/price-history.json"}]}</script>
+<link rel="stylesheet" href="assets/styles.css?v=c76b2ac2">
 </head>
 <body>
 <header class="site">
@@ -30,7 +30,7 @@
   <span class="slogan">Smart home tech, weighed fairly.</span>
   <form class="site-search" action="search.html" role="search" autocomplete="off">
     <input type="search" name="q" id="ss-q" placeholder="Search products, models, brands" aria-label="Search the site"
-      aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
+      role="combobox" aria-autocomplete="list" aria-controls="ss-list" aria-expanded="false">
     <div class="ss-panel" id="ss-list" role="listbox" hidden></div>
   </form>
 </header>
@@ -76,7 +76,7 @@
   </nav>
   <section class="lead">
     <h1>ThemisReviews price tracker</h1>
-    <p class="sub">1,171 Amazon products across 159 review pages, re-checked on a rotation since October 4, 2026.</p>
+    <p class="sub">1,171 Amazon products across 162 review pages, re-checked on a rotation since October 4, 2026.</p>
     <p class="intro">Every time we refresh a page we log each product's Amazon price under that day's date. This page reads that log:
     which products moved most in the last 14 days, which are sitting at the lowest price we have ever recorded, and how each
     review page is trending. Prices are what Amazon showed on the dates listed; they change daily, so check the listing before you buy.
@@ -113,7 +113,8 @@
     <h2 id="how-this-is-measured">How this is measured</h2>
     <p>A check is the price Amazon showed for a listing on the day one of our pages was refreshed. Each page is re-priced about weekly,
     so most products have one check per week. The 14-day change compares the latest check with the last check taken at least
-    14 days earlier; products without a check that old are left out rather than guessed. Moves under 3% or
+    14 days before the site's newest capture; a product counts only if its own latest check is within 10 days of
+    that capture, and products without a check that old are left out rather than guessed. Moves under 3% or
     under $2.00 are treated as noise. A monthly report compares each product's last check before the month with its last
     check inside it. We only track products currently ranked on the site; when one is removed, its history stops.</p>
     <h2>Download the data</h2>
