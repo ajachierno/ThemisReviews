@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+# Content signals (contentsignals.org): fine for search, AI answers and AI training.
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # AI assistants and answer engines are welcome. Machine-readable copies of the
 # reviews: https://themisreviews.com/llms.txt (index) and <page>.json beside every <page>.html.

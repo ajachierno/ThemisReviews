@@ -175,7 +175,9 @@ def write_page_json(site, proto, sub, cat, ranked, canonical):
 def write_robots(base):
     groups = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_CRAWLERS)
     (OUT / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\n"
+        "User-agent: *\nAllow: /\n"
+        "# Content signals (contentsignals.org): fine for search, AI answers and AI training.\n"
+        "Content-Signal: search=yes, ai-input=yes, ai-train=yes\n\n"
         "# AI assistants and answer engines are welcome. Machine-readable copies of the\n"
         f"# reviews: {base}/llms.txt (index) and <page>.json beside every <page>.html.\n\n"
         f"{groups}Sitemap: {base}/sitemap.xml\n", encoding="utf-8")
@@ -248,6 +250,11 @@ def page(site, title, body, is_home=False, description=None, canonical="",
     robots = "noindex, follow" if noindex else "index, follow, max-image-preview:large"
     pin_tag = (f'\n<meta name="p:domain_verify" content="{esc(site["pinterest_verify"])}">'
                if site.get("pinterest_verify") else "")
+    cf = (site.get("cloudflare_beacon_token") or "").strip()
+    if cf and not re.fullmatch(r"[0-9a-f]{32}", cf):
+        raise SystemExit(f"site.json: cloudflare_beacon_token={cf!r} does not look valid")
+    beacon = ("\n<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
+              f"data-cf-beacon='{{\"token\": \"{cf}\"}}'></script>" if cf else "")
     canonical_tag = f'\n<link rel="canonical" href="{esc(canonical)}">' if canonical else ""
     alt_tag = (f'\n<link rel="alternate" type="application/json" href="{esc(alternate)}" '
                f'title="{esc(site["brand"])} data for this page">' if alternate else "")
@@ -292,6 +299,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:image" content="{esc(image)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{esc(image)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap">
@@ -315,7 +323,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 {REVEAL_JS}
-<script src="assets/search.js?v={SEARCH_VERSION}" defer></script>
+<script src="assets/search.js?v={SEARCH_VERSION}" defer></script>{beacon}
 <script>(function(){{var b=document.querySelector('.to-top');
 window.addEventListener('scroll',function(){{b.classList.toggle('show',window.scrollY>600);}},{{passive:true}});}})();</script>
 </body>
@@ -597,6 +605,8 @@ def build_home(site):
     base = base_url(site)
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.jpg" if base else ""}
+    if site.get("same_as"):
+        org["sameAs"] = site["same_as"]
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"],
                "url": f"{base}/" if base else "", "description": site["description"],
                "potentialAction": {"@type": "SearchAction",
@@ -950,11 +960,14 @@ def build_category(site, proto, sub):
     faq = {"@context": "https://schema.org", "@type": "FAQPage",
            "mainEntity": [{"@type": "Question", "name": g["q"],
                            "acceptedAnswer": {"@type": "Answer", "text": g["a"]}} for g in cat["buyers_guide"]]}
+    share_img = next((by_asin[a["asin"]]["image"] for a in cat["awards"]
+                      if a.get("kind") == "overall" and a["asin"] in by_asin),
+                     ranked[0]["image"] if ranked else None)
     (OUT / f"{sub['slug']}.html").write_text(
         page(site, title, body,
              description=cat["intro"], canonical=url, structured_data=jsonld(items, webpage, faq),
              updated=nice_date(cat.get("updated", cat["data_captured"])),
-             alternate=f"{sub['slug']}.json" if url else None),
+             alternate=f"{sub['slug']}.json" if url else None, image=share_img),
         encoding="utf-8")
     if url:
         write_page_json(site, proto, sub, cat, ranked, url)
