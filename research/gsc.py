@@ -143,6 +143,8 @@ def queue(n=10):
     asked = json.loads(REQUESTED.read_text(encoding="utf-8")) if REQUESTED.exists() else {}
     week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
     mods = dict(sitemap_urls())
+    al = HERE / "editorial" / "audit-log.json"
+    audits = json.loads(al.read_text(encoding="utf-8")) if al.exists() else {}
     # research/priority-urls.txt: URLs that jump the queue (holiday pages, soonest holiday first,
     # and pages whose request failed). One URL per line, # comments allowed.
     pf = HERE / "priority-urls.txt"
@@ -152,11 +154,17 @@ def queue(n=10):
     for u, mod in mods.items():
         st = data.get(u, {}).get("state", "unknown")
         if st.startswith("Submitted and indexed") or st.startswith("Indexed"):
-            # indexed, but changed since Google last crawled it: worth a recrawl
+            # Indexed: only a full audit since Google's last crawl (product swaps) earns a request.
+            # Price passes move the sitemap date but not what the page ranks for; the sitemap
+            # lastmod and IndexNow carry those for free.
             crawled = (data[u].get("crawled") or "")[:10]
-            if not (mod and crawled and mod > crawled):
+            slug = u.rsplit("/", 1)[-1][:-5] if u.endswith(".html") else ""
+            aud = audits.get(slug)
+            if isinstance(aud, dict):
+                aud = aud.get("date") or aud.get("audited")
+            if not (aud and crawled and aud > crawled):
                 continue
-            reason = f"changed {mod}, crawled {crawled}"
+            reason = f"audited {aud}, crawled {crawled}"
         else:
             reason = st
         if asked.get(u, "") >= week_ago:
