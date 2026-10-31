@@ -19,6 +19,64 @@ ASSETS = OUT / "assets"
 
 HOLIDAY_PRICES = json.loads((DATA / "holiday-prices.json").read_text(encoding="utf-8")) if (DATA / "holiday-prices.json").exists() else {}
 
+import price_tracker  # noqa: E402  price-tracker hub, monthly reports and data downloads (same folder)
+
+# data/price-history.json: {asin: [[date, price], ...]}. Every build records each live
+# page's prices under its data_captured date, so each refresh adds a point. Seeded from
+# git history by research/seed_price_history.py.
+PRICE_HISTORY = {}
+
+
+def record_prices(site):
+    path = DATA / "price-history.json"
+    hist = {a: dict(v) for a, v in json.loads(path.read_text(encoding="utf-8")).items()} if path.exists() else {}
+    before = json.dumps(hist, sort_keys=True)
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if not sub.get("ready"):
+                continue
+            cat = load(f"pages/{sub['slug']}.json")
+            when = cat.get("data_captured") or site["updated"]
+            for p in cat["products"] + cat.get("avoid", []):
+                if isinstance(p.get("price"), (int, float)):
+                    hist.setdefault(p["asin"], {})[when] = p["price"]
+    PRICE_HISTORY.clear()
+    PRICE_HISTORY.update({a: sorted(d.items()) for a, d in hist.items()})
+    if json.dumps(hist, sort_keys=True) != before:
+        lines = [f"  {json.dumps(a)}: {json.dumps(v)}" for a, v in sorted(PRICE_HISTORY.items())]
+        path.write_text("{\n" + ",\n".join(lines) + "\n}\n", encoding="utf-8")
+
+
+def build_price_tracker(site):
+    """Hub + monthly reports + CSV/JSON from data/price-history.json (see price_tracker.py).
+    Only listings on the site today are tracked, so every row links to its review."""
+    base = base_url(site)
+    if not base:
+        return []
+    meta = {}
+    for proto in site["protocols"]:
+        for sub in proto["subs"]:
+            if not sub.get("ready"):
+                continue
+            cat = load(f"pages/{sub['slug']}.json")
+            title = re.sub(r"\b\d+ Best\b", f"{len(cat['products'])} Best", cat["title"])
+            for p in cat["products"] + cat.get("avoid", []):
+                anchor = f"{sub['slug']}.html#{'avoid-' if p in cat.get('avoid', []) else ''}{p['asin']}"
+                meta[p["asin"]] = {"name": p["name"], "brand": p["brand"], "model": p["model"],
+                                   "cat_slug": sub["slug"], "cat_title": title, "cat_url": f"{sub['slug']}.html",
+                                   "url": anchor, "abs_url": f"{base}/{anchor}"}
+
+    def write(slug, title, body, desc, sd, lastmod):
+        (OUT / f"{slug}.html").write_text(
+            page(site, title, body, description=desc, canonical=f"{base}/{slug}.html",
+                 structured_data=jsonld(sd), updated=nice_date(lastmod)), encoding="utf-8")
+    ctx = {"esc": esc, "money": money, "base": base, "brand": site["brand"], "out": OUT, "write": write,
+           "nav": render_quicknav(site["protocols"], compact=True), "table_js": "", "to_top": "",
+           "noun": "product", "nouns": "products", "category_label": "Review page", "category_label_plural": "review pages",
+           "extra_note": "Amazon links on this site carry our Associates tag; the dataset itself contains no affiliate links.",
+           "caveat": "Our first checks, on October 4 and 5, 2026, landed on Amazon's Prime Big Deal Days, so many of the largest rises are deal prices returning to list."}
+    return price_tracker.build(site, meta, PRICE_HISTORY, ctx)
+
 
 def load(name):
     data = json.loads((DATA / name).read_text(encoding="utf-8"))
@@ -316,7 +374,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
   <p class="disclosure"><b>Affiliate disclosure.</b> {esc(site['brand'])} is reader-supported.
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings come from Amazon and change over time.</p>
-  <p class="foot-links"><a href="how-we-rank.html">How we rank</a> &middot; <a href="about.html">About</a> &middot;
+  <p class="foot-links"><a href="how-we-rank.html">How we rank</a> &middot; <a href="about.html">About</a> &middot; <a href="price-tracker.html">Price tracker</a> &middot;
   <a href="{esc(site['repo_url'])}/issues/new" target="_blank" rel="noopener">Report a mistake</a></p>
   <p class="muted">{home_link}Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon,
   the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
@@ -1710,6 +1768,7 @@ def main():
     # IndexNow ownership key (Bing, Yandex, Seznam, Naver); pinged by .github/workflows/indexnow.yml
     if site.get("indexnow_key"):
         (OUT / f"{site['indexnow_key']}.txt").write_text(site["indexnow_key"], encoding="utf-8")
+    record_prices(site)
     build_home(site)
     print(f"Built home page with {len(site['protocols'])} protocols")
     urls = [(f"{base_url(site)}/", site["updated"])]
@@ -1720,14 +1779,18 @@ def main():
     n_cat = len(urls) - 1
     fam = build_family_pages(site)
     seas = build_seasonal(site)
-    urls += fam + seas + build_trust_pages(site)
+    tracker = [(f"{base_url(site)}/{slug}.html", d) for slug, d in build_price_tracker(site)]
+    urls += fam + seas + tracker + build_trust_pages(site)
     n_search = build_search(site)
     build_sitemap(site, urls)
     if base_url(site):
         # Agent-readable index of the same public pages the sitemap lists (review pages are
         # listed in detail; product-type and seasonal pages by URL).
-        other = [{"title": u.rsplit("/", 1)[-1].replace(".html", "").replace("-", " ").capitalize(), "url": u}
-                 for u, _d in fam + seas]
+        other = ([{"title": u.rsplit("/", 1)[-1].replace(".html", "").replace("-", " ").capitalize(), "url": u}
+                  for u, _d in fam + seas]
+                 + [{"title": "Price tracker: tracked Amazon prices, biggest drops and rises, dataset download" if u.endswith("price-tracker.html")
+                     else f"Price report {u[-12:-5]}", "url": u} for u, _d in tracker]
+                 + [{"title": "Price history dataset (CSV)", "url": f"{base_url(site)}/price-history.csv"}])
         write_agent_index(site, other)
     print(f"search index: {n_search} entries")
     print(f"{n_cat} category pages + {len(fam)} product-type pages + {len(seas)} seasonal pages -> {OUT}")
@@ -2273,6 +2336,7 @@ tr.avoid-row a{color:#ff9d94;text-decoration:underline}
 }
 """
 
+CSS = CSS + price_tracker.CSS
 CSS_VERSION = hashlib.md5(CSS.encode('utf-8')).hexdigest()[:8]
 
 if __name__ == "__main__":
