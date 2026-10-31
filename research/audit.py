@@ -50,7 +50,9 @@ async def check(ctx, name, view, results):
         info = await page.evaluate(CHECK_JS)
     except Exception as e:
         info = {"fatal": str(e)[:200]}
-    info["errs"], info["fails"] = errs, [f for f in fails if "googleapis" not in f and "gstatic" not in f]
+    skip = ("googleapis", "gstatic", "cloudflareinsights")
+    info["errs"] = [e for e in errs if not any(k in e for k in skip)]
+    info["fails"] = [f for f in fails if not any(k in f for k in skip)]
     results[(name, view)] = info
     await page.close()
 
@@ -62,7 +64,9 @@ async def main():
         b = await p.chromium.launch(headless=True, channel="chrome")
         for view, opts in VIEWS.items():
             ctx = await b.new_context(**opts)
-            await ctx.route(re.compile(r"fonts\.(googleapis|gstatic)\.com"), lambda r: r.abort())
+            # Third-party beacons/fonts are not what this audit tests; the Cloudflare beacon in
+            # particular refuses a 127.0.0.1 origin (CORS) and would flag every page.
+            await ctx.route(re.compile(r"fonts\.(googleapis|gstatic)\.com|cloudflareinsights\.com"), lambda r: r.abort())
             sem = asyncio.Semaphore(6)
             async def run(n):
                 async with sem:
