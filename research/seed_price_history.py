@@ -1,4 +1,4 @@
-"""One-off: build data/price-history.json from what the repo already knows.
+"""Seed or top up data/price-history.json from what the repo already knows.
 
 Two sources, both real Amazon captures:
   1. the first committed version of each data/pages/<slug>.json (dated by its data_captured),
@@ -7,7 +7,10 @@ Two sources, both real Amazon captures:
      date in the file name (these are the re-checks the price passes and audits made).
 Later commits of a page file are not used on their own, because publish.sh rewrites the
 page from the newest capture and the file's data_captured does not move with it.
-build.py appends new captures from then on, so this only needs running once.
+
+Safe to re-run: the result is merged into the existing file and existing points win, so
+nothing build.py recorded since the first seed is dropped or changed. build.py appends a
+point for every live page on every build.
 """
 import json
 import re
@@ -15,6 +18,7 @@ import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "data/price-history.json"
 
 
 def git(*args):
@@ -28,7 +32,10 @@ def num(s):
 
 
 def main():
-    history = {}
+    existing = ({a: dict(v) for a, v in json.loads(OUT.read_text(encoding="utf-8")).items()}
+                if OUT.exists() else {})
+    before = sum(len(v) for v in existing.values())
+    found = {}
     for page in sorted((ROOT / "data/pages").glob("*.json")):
         path = f"data/pages/{page.name}"
         log = git("log", "--follow", "--reverse", "--date=short", "--format=%H %ad", "--", path).splitlines()
@@ -42,7 +49,7 @@ def main():
         when = cat.get("data_captured") or date
         for p in cat.get("products", []) + cat.get("avoid", []):
             if isinstance(p.get("price"), (int, float)) and p.get("asin"):
-                history.setdefault(p["asin"], {})[when] = p["price"]
+                found.setdefault(p["asin"], {})[when] = p["price"]
     n_files = 0
     for cap in sorted((ROOT / "research/refresh").glob("*.json")):
         m = re.match(r"(\d{4}-\d{2}-\d{2})-(.+)\.json$", cap.name)
@@ -59,11 +66,17 @@ def main():
             if isinstance(d, dict) and re.fullmatch(r"[A-Z0-9]{10}", asin):
                 price = num(d.get("price"))
                 if price:
-                    history.setdefault(asin, {})[m.group(1)] = price
-    out = {a: sorted(d.items()) for a, d in sorted(history.items())}
+                    found.setdefault(asin, {})[m.group(1)] = price
+    for asin, pts in found.items():
+        merged = existing.setdefault(asin, {})
+        for d, price in pts.items():
+            merged.setdefault(d, price)  # existing (build-recorded) points win
+    out = {a: sorted(d.items()) for a, d in sorted(existing.items())}
     lines = [f"  {json.dumps(a)}: {json.dumps(v)}" for a, v in out.items()]
-    (ROOT / "data/price-history.json").write_text("{\n" + ",\n".join(lines) + "\n}\n", encoding="utf-8")
-    print(f"{len(out)} ASINs, {sum(len(v) for v in out.values())} price points, {n_files} capture files")
+    OUT.write_text("{\n" + ",\n".join(lines) + "\n}\n", encoding="utf-8")
+    total = sum(len(v) for v in out.values())
+    print(f"{len(out)} ASINs, {total} price points ({total - before:+d} vs before, none removed), "
+          f"{n_files} capture files")
 
 
 if __name__ == "__main__":

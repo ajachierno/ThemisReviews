@@ -1598,7 +1598,7 @@ def stat_box(s):
 def build_trust_pages(site):
     s = site_stats(site)
     base = base_url(site)
-    today = datetime.date.today().isoformat()
+    today = site["updated"]  # newest capture on the site, so a rebuild on a quiet day changes nothing
     w = {"rating": 45, "reviews": 30, "features": 25}
     method = f"""
   <nav class="crumbs"><a href="./">Home</a> &rsaquo; How we rank</nav>
@@ -1769,6 +1769,11 @@ def main():
     if site.get("indexnow_key"):
         (OUT / f"{site['indexnow_key']}.txt").write_text(site["indexnow_key"], encoding="utf-8")
     record_prices(site)
+    # The home page and the sitemap's home entry carry the newest capture date on the site, so
+    # "Last updated" and <lastmod> move with every price pass (site.json's own date is a floor).
+    captures = [load(f"pages/{sub['slug']}.json")["data_captured"]
+                for proto in site["protocols"] for sub in proto["subs"] if sub.get("ready")]
+    site["updated"] = max([site["updated"], *captures])
     build_home(site)
     print(f"Built home page with {len(site['protocols'])} protocols")
     urls = [(f"{base_url(site)}/", site["updated"])]
