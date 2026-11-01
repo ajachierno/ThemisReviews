@@ -42,10 +42,10 @@
   ],
   "awards": [
     {
-      "asin": "B0FK2HPNCB",
+      "asin": "B0GGRSMXKN",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "20,000 Pa, a roller mop that rinses itself, a dock that empties the bin, and Alexa, Google, and Siri, with 56,901 reviews at 4.4 stars."
+      "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.1 stars from 6,906 reviews and 10K+ bought in the past month."
     },
     {
       "asin": "B0DWX69JVG",
@@ -96,6 +96,7 @@
       ],
       "cons": [
         "$599.98",
+        "3.8 stars",
         "2.4 GHz Wi-Fi only",
         "Siri works through shortcuts, not Apple Home"
       ]
@@ -156,7 +157,7 @@
         "$249.98",
         "7–9 weeks per bag",
         "Anti-tangle main brush",
-        "25,599 reviews, 8K+ bought in the past month"
+        "25,611 reviews, 9K+ bought in the past month"
       ],
       "cons": [
         "Basic mop, no washing dock",
@@ -189,7 +190,7 @@
       "pros": [
         "Self-emptying",
         "Alexa and Google",
-        "639 reviews, 2K+ bought in the past month"
+        "641 reviews, 1K+ bought in the past month"
       ],
       "cons": [
         "3.2 stars",
@@ -198,9 +199,9 @@
       ]
     },
     {
-      "asin": "B09T4YZGQR",
+      "asin": "B09H8CWFNK",
       "brand": "Shark",
-      "model": "AI Ultra (AV2511AE)",
+      "model": "AI Ultra (AV2501S)",
       "systems": [
         "alexa",
         "google-home",
@@ -209,7 +210,7 @@
       "systems_label": "SharkClean app",
       "specs": {
         "suction": "Not stated in Pa",
-        "dock": "Bagless self-empty, 60 days",
+        "dock": "Bagless self-empty, 30 days",
         "voice": "Alexa, Google"
       },
       "features": {
@@ -218,11 +219,11 @@
         "voice": true,
         "strong": false
       },
-      "verdict": "A bagless self-emptying vacuum that cleans in a grid pattern for full coverage.",
+      "verdict": "A bagless self-emptying Shark with LiDAR mapping that cleans in a grid pattern, sold by Amazon.",
       "pros": [
-        "Bagless base, no bags to buy",
-        "Matrix Clean grid pattern",
-        "41,666 reviews",
+        "Bagless base with HEPA filter, no bags to buy",
+        "LiDAR mapping and Matrix Clean grid pattern",
+        "10K+ bought in the past month",
         "Official Home Assistant integration"
       ],
       "cons": [
@@ -258,8 +259,8 @@
         "4K+ bought in the past month, sold by Amazon"
       ],
       "cons": [
-        "Only 905 reviews",
-        "$569.98",
+        "Only 924 reviews",
+        "$499.98",
         "2.4 GHz Wi-Fi only"
       ]
     },
@@ -294,9 +295,39 @@
         "3.6 in. tall for under furniture"
       ],
       "cons": [
-        "3.8 stars from 325 reviews",
+        "3.8 stars from 326 reviews",
         "6,000 Pa",
         "Basic mopping"
+      ]
+    },
+    {
+      "asin": "B0G5Y3LN8M",
+      "brand": "dreame",
+      "model": "D20 Air Plus",
+      "systems": [],
+      "systems_label": "Dreamehome app",
+      "specs": {
+        "suction": "20,000 Pa",
+        "dock": "Self-empty, 4 L sealed bag (up to 120 days)",
+        "voice": "Not listed in bullets"
+      },
+      "features": {
+        "self_empty": true,
+        "mop": true,
+        "voice": false,
+        "strong": true
+      },
+      "verdict": "A low-priced self-emptying vacuum and mop with 20,000 Pa suction and LiDAR mapping.",
+      "pros": [
+        "20,000 Pa suction",
+        "Up to 120 days per dust bag",
+        "4.2 stars from 3,776 reviews",
+        "$239.99"
+      ],
+      "cons": [
+        "Mop pad isn't washed by the dock",
+        "2.4 GHz Wi-Fi only",
+        "Voice assistants aren't named in the bullets"
       ]
     }
   ],
