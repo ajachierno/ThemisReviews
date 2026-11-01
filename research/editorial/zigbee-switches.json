@@ -51,22 +51,16 @@
   ],
   "awards": [
     {
-      "asin": "B000U39QL6",
+      "asin": "B081ZQWX1F",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Zigbee 3.0 certified, pairs with an Echo's built-in hub or SmartThings, and handles up to 600 W of LED."
+      "why": "The most-reviewed switch here, 4.3 stars from 532 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
     },
     {
       "asin": "B0D4DGJ32V",
       "label": "Best Budget",
       "kind": "budget",
       "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."
-    },
-    {
-      "asin": "B081ZQWX1F",
-      "label": "Best for No-Neutral Boxes",
-      "kind": "special",
-      "why": "The most-reviewed switch here, and it installs without a neutral wire."
     },
     {
       "asin": "B0DN1H69ZP",
@@ -76,42 +70,6 @@
     }
   ],
   "products": [
-    {
-      "asin": "B000U39QL6",
-      "brand": "Leviton",
-      "model": "DG15S-1BW",
-      "systems": [
-        "home-assistant",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "neutral": "Required",
-        "three_way_text": "With DD0SR remote",
-        "hub": "Any Zigbee 3.0 hub",
-        "style": "Decora paddle",
-        "extras": "600 W LED, 15 A ballast"
-      },
-      "features": {
-        "no_neutral": false,
-        "three_way": true,
-        "open_hub": true
-      },
-      "verdict": "A standard Zigbee 3.0 switch from a major brand. It pairs with the Zigbee hub built into some Echo devices, so many people won't need to buy a hub at all.",
-      "pros": [
-        "Zigbee 3.0 certified",
-        "Works with Echo devices that have a Zigbee hub, SmartThings, and other Zigbee 3.0 hubs",
-        "Rated for 600 W LED/CFL, 1,800 W incandescent, and 15 A ballast loads",
-        "Decora form factor with optional color change kits"
-      ],
-      "cons": [
-        "3-way needs a Leviton DD0SR remote switch",
-        "Needs a neutral wire",
-        "Sold by a third-party seller"
-      ]
-    },
     {
       "asin": "B081ZQWX1F",
       "brand": "Aqara",
@@ -137,7 +95,7 @@
       "verdict": "The go-to switch for older boxes without a neutral, with the most reviews on this list. It's built around Aqara's hub and app.",
       "pros": [
         "Installs without a neutral wire",
-        "531 reviews and 100+ bought in the past month",
+        "532 reviews and 100+ bought in the past month",
         "Works with Apple Home, Google, Alexa, and SmartThings through the Aqara hub",
         "Cuts power if it overheats"
       ],

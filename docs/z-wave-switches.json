@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Light switches",
- "data_captured": "2026-10-19",
- "updated": "2026-10-19",
+ "data_captured": "2026-11-01",
+ "updated": "2026-11-01",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,7 +37,7 @@
    "asin": "B0921F1KVY",
    "name": "Zooz ZEN76 800LR",
    "price": 43.95,
-   "why": "800 Series Long Range, works with the plain on/off switches already in your 3-, 4-, or 5-way circuit, multi-tap scene control, and a 4.4-star rating from 212 reviews."
+   "why": "800 Series Long Range, works with the plain on/off switches already in your 3-, 4-, or 5-way circuit, multi-tap scene control, and a 4.4-star rating from 213 reviews."
   },
   {
    "label": "Best Budget",
@@ -51,7 +51,7 @@
    "asin": "B0846CJTRN",
    "name": "Zooz ZEN30 800LR Double Switch",
    "price": 44.95,
-   "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 331 reviews."
+   "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 330 reviews."
   },
   {
    "label": "Best for Heavy Loads",
@@ -71,9 +71,9 @@
    "model": "ZEN76 800LR",
    "price": 43.95,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 212,
-   "score": 87,
+   "rating": 4.3,
+   "reviews_count": 213,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -89,7 +89,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "The easiest way to make a 3-way or 4-way circuit smart. You wire it in the box with power and leave the other switches alone.",
    "pros": [
     "Works with existing on/off switches in 3-, 4-, and 5-way setups",
@@ -129,7 +129,7 @@
    "price": 44.95,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 331,
+   "reviews_count": 330,
    "score": 76,
    "awards": [
     "Best for Fan and Light"
@@ -145,7 +145,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "Two controls in one gang: the paddle dims a light and the button switches a fan on or off. Good for a bathroom or bedroom where the light and fan share one box.",
    "pros": [
     "Controls two loads separately from one switch",
@@ -179,16 +179,18 @@
   },
   {
    "rank": 3,
-   "asin": "B0G1N7R29W",
-   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
-   "brand": "Enbrighten",
-   "model": "800 Series LR toggle",
-   "price": 39.99,
+   "asin": "B0FB2VN95Q",
+   "name": "Zooz 800 Series Z-Wave Long Range Heavy Duty On/Off Wall Switch ZEN75 800LR, White | Direct 3-Way (No Add-On Switch Needed) | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN75 800LR",
+   "price": 49.95,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 46,
+   "rating": 4.4,
+   "reviews_count": 15,
    "score": 76,
-   "awards": [],
+   "awards": [
+    "Best for Heavy Loads"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -201,35 +203,36 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A heavy-duty version of Zooz's on/off switch for big lighting loads, fans, pumps, and 277 V commercial circuits.",
    "pros": [
-    "One of the few 800 Series Long Range toggle switches",
-    "Lit toggle in eight colors and four modes",
-    "Works with one standard 3-way switch or up to four add-ons",
-    "Auto-detecting line and load terminals"
+    "Up to 600 W of LED lighting and motors up to 1 HP",
+    "Runs on 120 to 277 V",
+    "Direct 3-way with a regular 3-way switch",
+    "Pigtails included",
+    "Scene control and adjustable LED"
    ],
    "cons": [
-    "Toggle only comes in white",
-    "Fewer reviews than older Enbrighten models",
-    "Needs a neutral wire"
+    "One leg stays hot when off, so it isn't a disconnect for service work",
+    "Costs more than the ZEN76 for a typical light",
+    "Few reviews so far"
    ],
    "specs": {
     "series": "800 Series",
-    "style": "Toggle",
-    "three_way": "Standard 3-way or up to 4 add-ons",
+    "style": "Paddle",
+    "three_way": "Existing 3-way switch",
     "neutral": "Required",
-    "extras": "8-color lit toggle"
+    "extras": "120-277 V, 1 HP motors"
    },
    "features": {
     "long_range": true,
     "direct_3way": true,
-    "scene_control": false,
+    "scene_control": true,
     "custom_led": true
    },
-   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
+   "image": "https://m.media-amazon.com/images/I/51zPYibu6SL._SX342_SY445_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FB2VN95Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FB2VN95Q"
   },
   {
    "rank": 4,
@@ -240,7 +243,7 @@
    "price": 24.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 91,
+   "reviews_count": 94,
    "score": 75,
    "awards": [
     "Best Budget"
@@ -293,10 +296,10 @@
    "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Paddle",
    "brand": "Enbrighten",
    "model": "800 Series LR paddle",
-   "price": 35.68,
+   "price": 39.99,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 50,
+   "rating": 4.1,
+   "reviews_count": 53,
    "score": 75,
    "awards": [],
    "works_with": [
@@ -344,18 +347,16 @@
   },
   {
    "rank": 6,
-   "asin": "B0FB2VN95Q",
-   "name": "Zooz 800 Series Z-Wave Long Range Heavy Duty On/Off Wall Switch ZEN75 800LR, White | Direct 3-Way (No Add-On Switch Needed) | Z-Wave Hub Required",
-   "brand": "Zooz",
-   "model": "ZEN75 800LR",
-   "price": 49.95,
+   "asin": "B0G1N7R29W",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR toggle",
+   "price": 39.99,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 13,
+   "rating": 4.2,
+   "reviews_count": 48,
    "score": 75,
-   "awards": [
-    "Best for Heavy Loads"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -368,41 +369,40 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A heavy-duty version of Zooz's on/off switch for big lighting loads, fans, pumps, and 277 V commercial circuits.",
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
    "pros": [
-    "Up to 600 W of LED lighting and motors up to 1 HP",
-    "Runs on 120 to 277 V",
-    "Direct 3-way with a regular 3-way switch",
-    "Pigtails included",
-    "Scene control and adjustable LED"
+    "One of the few 800 Series Long Range toggle switches",
+    "Lit toggle in eight colors and four modes",
+    "Works with one standard 3-way switch or up to four add-ons",
+    "Auto-detecting line and load terminals"
    ],
    "cons": [
-    "One leg stays hot when off, so it isn't a disconnect for service work",
-    "Costs more than the ZEN76 for a typical light",
-    "Few reviews so far"
+    "Toggle only comes in white",
+    "Fewer reviews than older Enbrighten models",
+    "Needs a neutral wire"
    ],
    "specs": {
     "series": "800 Series",
-    "style": "Paddle",
-    "three_way": "Existing 3-way switch",
+    "style": "Toggle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
     "neutral": "Required",
-    "extras": "120-277 V, 1 HP motors"
+    "extras": "8-color lit toggle"
    },
    "features": {
     "long_range": true,
     "direct_3way": true,
-    "scene_control": true,
+    "scene_control": false,
     "custom_led": true
    },
-   "image": "https://m.media-amazon.com/images/I/51zPYibu6SL._SX342_SY445_QL70_FMwebp_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FB2VN95Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FB2VN95Q"
+   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
   },
   {
    "rank": 7,
    "asin": "B0FQPKFWNH",
-   "name": "HomeSeer Smart Light Switch (WS300), 800 Series Long Range Z-Wave Technology, Includes Programmable RGB LED Indicatory, Multi-Tap Scene Control, Compatible with HomeSeer, Home Assistant (1-Pack)",
+   "name": "Smart Light Switch (WS300), 800 Series Long Range Z-Wave Technology, Includes Programmable RGB LED Indicatory, Multi-Tap Scene Control, Compatible with HomeSeer, Home Assistant (1-Pack)",
    "brand": "HomeSeer",
    "model": "WS300",
    "price": 54.95,
@@ -461,7 +461,7 @@
    "price": 49.87,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 159,
+   "reviews_count": 160,
    "score": 60,
    "awards": [],
    "works_with": [
@@ -502,7 +502,7 @@
     "scene_control": false,
     "custom_led": false
    },
-   "image": "https://m.media-amazon.com/images/I/51jFoKPJjvL._SL1000_.jpg",
+   "image": "https://m.media-amazon.com/images/I/51jFoKPJjvL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D2DRSXC1?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0D2DRSXC1"
   },
@@ -512,10 +512,10 @@
    "name": "Enbrighten Z-Wave On/Off Switch, Toggle, Light Almond, 1 Pack",
    "brand": "Enbrighten",
    "model": "On/Off toggle (Z-Wave Plus)",
-   "price": 17.99,
+   "price": 19.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 241,
+   "reviews_count": 242,
    "score": 59,
    "awards": [],
    "works_with": [
@@ -566,7 +566,7 @@
    "name": "Eaton Z-Wave Plus RF9601DW Wireless Switch, Single Pole, 3-Way, White",
    "brand": "Eaton",
    "model": "RF9601DW",
-   "price": 32.84,
+   "price": 27.89,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 85,
@@ -671,6 +671,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-01",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-19",
    "notes": [

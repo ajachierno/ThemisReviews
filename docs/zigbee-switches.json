@@ -3,7 +3,7 @@
  "page_url": "https://themisreviews.com/zigbee-switches.html",
  "json_url": "https://themisreviews.com/zigbee-switches.json",
  "slug": "zigbee-switches",
- "title": "The 10 Best Zigbee Light Switches",
+ "title": "The 9 Best Zigbee Light Switches",
  "subtitle": "In-wall Zigbee switches for SmartThings, Echo, Hubitat, and Home Assistant.",
  "intro": "We pulled the in-wall Zigbee switches selling on Amazon, checked each listing, and scored them on rating, review volume, and features that matter on Zigbee: no-neutral support, 3-way support, and whether a brand-specific hub is required. Wall-mount remotes and in-wall relays aren't on this list.",
  "protocol": {
@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Light switches",
- "data_captured": "2026-10-20",
- "updated": "2026-10-20",
+ "data_captured": "2026-11-01",
+ "updated": "2026-11-01",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -33,10 +33,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B000U39QL6",
-   "name": "Leviton DG15S-1BW",
-   "price": 31.6,
-   "why": "Zigbee 3.0 certified, pairs with an Echo's built-in hub or SmartThings, and handles up to 600 W of LED."
+   "asin": "B081ZQWX1F",
+   "name": "Aqara Smart Light Switch (no neutral, single rocker)",
+   "price": 39.99,
+   "why": "The most-reviewed switch here, 4.3 stars from 532 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
   },
   {
    "label": "Best Budget",
@@ -44,13 +44,6 @@
    "name": "MOES Zigbee 3-way, 1 gang",
    "price": 19.99,
    "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."
-  },
-  {
-   "label": "Best for No-Neutral Boxes",
-   "asin": "B081ZQWX1F",
-   "name": "Aqara Smart Light Switch (no neutral, single rocker)",
-   "price": 36.99,
-   "why": "The most-reviewed switch here, and it installs without a neutral wire."
   },
   {
    "label": "Most Flexible",
@@ -70,8 +63,8 @@
    "model": "H2 (1 channel)",
    "price": 49.99,
    "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 61,
+   "rating": 3.6,
+   "reviews_count": 65,
    "score": 76,
    "awards": [
     "Most Flexible"
@@ -127,13 +120,13 @@
    "name": "Aqara Smart Light Switch (No Neutral, Single Rocker), Requires AQARA HUB",
    "brand": "Aqara",
    "model": "Smart Light Switch (no neutral, single rocker)",
-   "price": 36.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 531,
+   "reviews_count": 532,
    "score": 75,
    "awards": [
-    "Best for No-Neutral Boxes"
+    "Best Overall"
    ],
    "works_with": [
     "Apple Home",
@@ -151,7 +144,7 @@
    "verdict": "The go-to switch for older boxes without a neutral, with the most reviews on this list. It's built around Aqara's hub and app.",
    "pros": [
     "Installs without a neutral wire",
-    "531 reviews and 100+ bought in the past month",
+    "532 reviews and 100+ bought in the past month",
     "Works with Apple Home, Google, Alexa, and SmartThings through the Aqara hub",
     "Cuts power if it overheats"
    ],
@@ -230,62 +223,6 @@
   },
   {
    "rank": 4,
-   "asin": "B000U39QL6",
-   "name": "Leviton Decora Smart Switch, Zigbee Certified, DG15S-1BW, White",
-   "brand": "Leviton",
-   "model": "DG15S-1BW",
-   "price": 31.6,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 63,
-   "score": 72,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A standard Zigbee 3.0 switch from a major brand. It pairs with the Zigbee hub built into some Echo devices, so many people won't need to buy a hub at all.",
-   "pros": [
-    "Zigbee 3.0 certified",
-    "Works with Echo devices that have a Zigbee hub, SmartThings, and other Zigbee 3.0 hubs",
-    "Rated for 600 W LED/CFL, 1,800 W incandescent, and 15 A ballast loads",
-    "Decora form factor with optional color change kits"
-   ],
-   "cons": [
-    "3-way needs a Leviton DD0SR remote switch",
-    "Needs a neutral wire",
-    "Sold by a third-party seller"
-   ],
-   "specs": {
-    "neutral": "Required",
-    "three_way_text": "With DD0SR remote",
-    "hub": "Any Zigbee 3.0 hub",
-    "style": "Decora paddle",
-    "extras": "600 W LED, 15 A ballast"
-   },
-   "features": {
-    "no_neutral": false,
-    "three_way": true,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/419plCtw16L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000U39QL6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-switches.html#B000U39QL6"
-  },
-  {
-   "rank": 5,
    "asin": "B0F6T5JCZL",
    "name": "Zigbee Smart Switch no Neutral Required | 1 Channel Rocker Paddle Smart Light Switch Compatible with Alexa, SmartThings and Work with Google Home, Smart Home Devices, 1-Pack",
    "brand": "Martin Jerry",
@@ -340,7 +277,7 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B0F6T5JCZL"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B0D4DGJ32V",
    "name": "MOES Zigbee 3 Way Light Switch 1 Gang, Need Neutral Wire & MOES Zigbee Hub",
    "brand": "MOES",
@@ -395,16 +332,16 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B0D4DGJ32V"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B0DNHLKWYV",
    "name": "SONOFF Zigbee Smart Light Switch, Required SONOFF Zigbee Hub, Interruptor Inteligente, Smart Switch No Neutral or with Neutral, Voice Control with Alexa Google Home, Zigbee Switch ZBM5-1C-120W",
    "brand": "SONOFF",
    "model": "ZBM5-1C-120W",
    "price": 29.99,
    "currency": "USD",
-   "rating": 3.4,
-   "reviews_count": 54,
-   "score": 66,
+   "rating": 3.5,
+   "reviews_count": 56,
+   "score": 67,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -446,16 +383,16 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B0DNHLKWYV"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0CTZRTS12",
    "name": "MOES Zigbee Smart Switch 1 Gang, Need MOES Zigbee Hub & Neutral Wire, White",
    "brand": "MOES",
    "model": "Zigbee 1 gang (neutral)",
    "price": 21.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 75,
-   "score": 64,
+   "rating": 4.1,
+   "reviews_count": 78,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -497,12 +434,12 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B0CTZRTS12"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B081ZRBPLC",
    "name": "Aqara Zigbee Smart Light Switch (with Neutral, Double Rocker)",
    "brand": "Aqara",
    "model": "Smart Light Switch (neutral, double rocker)",
-   "price": 35.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 156,
@@ -549,12 +486,12 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B081ZRBPLC"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B081ZRND3K",
    "name": "Aqara Zigbee Smart Light Switch (with Neutral, Single Rocker)",
    "brand": "Aqara",
    "model": "Smart Light Switch (neutral, single rocker)",
-   "price": 34.19,
+   "price": 35.99,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 264,
@@ -652,6 +589,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-01",
+   "notes": [
+    "Dropped Leviton DG15S-1BW.",
+    "New Best Overall: Aqara Smart Light Switch (no neutral, single rocker).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-20",
    "notes": [
