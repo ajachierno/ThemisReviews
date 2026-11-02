@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Dimmers",
- "data_captured": "2026-10-24",
- "updated": "2026-10-24",
+ "data_captured": "2026-11-02",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,21 +36,21 @@
    "label": "Best Overall",
    "asin": "B0DKGXY4DL",
    "name": "Tapo S515D kit",
-   "price": 44.99,
+   "price": 42.99,
    "why": "A complete 3-way Matter dimmer kit with energy monitoring, and 1K+ bought last month."
   },
   {
    "label": "Best Budget",
    "asin": "B0C2B8SP3W",
    "name": "Tapo S505D",
-   "price": 18.99,
-   "why": "$18.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
+   "price": 17.99,
+   "why": "$17.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
   },
   {
    "label": "Best Name Brand",
    "asin": "B0BVKYKKRK",
    "name": "Leviton D26HD-1RW (2nd gen)",
-   "price": 53.43,
+   "price": 51.98,
    "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
   },
   {
@@ -65,14 +65,72 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0BVKYKKRK",
+   "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi 2nd Gen, Neutral Wire Required, Works with Matter, Alexa, Google Assistant, Apple Home/Siri, Wired or Wireless 3-Way, D26HD-1RW, White",
+   "brand": "Leviton",
+   "model": "D26HD-1RW (2nd gen)",
+   "price": 51.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 320,
+   "score": 79,
+   "awards": [
+    "Best Name Brand"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The most configurable Matter dimmer here, with bulb-type, min-dim, and max-bright settings to stop flicker.",
+   "pros": [
+    "Bulb type, minimum dim, and maximum bright settings",
+    "Wired or wireless 3-way",
+    "Night settings and fade rates",
+    "400+ bought in the past month, sold by Amazon"
+   ],
+   "cons": [
+    "Matter has to be turned on with a firmware update in the My Leviton app",
+    "Needs a neutral wire",
+    "Costs more than Tapo or Kasa"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "neutral": "Required",
+    "three_way_text": "Wired or wireless 3-way",
+    "pack": "1 dimmer"
+   },
+   "features": {
+    "three_way": true,
+    "no_neutral": false,
+    "dim_tuning": true,
+    "energy_monitoring": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51Iuc3SbU-L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BVKYKKRK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-dimmers.html#B0BVKYKKRK"
+  },
+  {
+   "rank": 2,
    "asin": "B0DKGXY4DL",
    "name": "Tapo Matter Smart 3-Way Dimmer Switch Kit, S515D KIT",
    "brand": "Tapo",
    "model": "S515D kit",
-   "price": 44.99,
+   "price": 42.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 429,
+   "reviews_count": 434,
    "score": 78,
    "awards": [
     "Best Overall"
@@ -122,73 +180,15 @@
    "page_url": "https://themisreviews.com/matter-dimmers.html#B0DKGXY4DL"
   },
   {
-   "rank": 2,
-   "asin": "B0BVKYKKRK",
-   "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi 2nd Gen, Neutral Wire Required, Works with Matter, Alexa, Google Assistant, Apple Home/Siri, Wired or Wireless 3-Way, D26HD-1RW, White",
-   "brand": "Leviton",
-   "model": "D26HD-1RW (2nd gen)",
-   "price": 53.43,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 319,
-   "score": 78,
-   "awards": [
-    "Best Name Brand"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "The most configurable Matter dimmer here, with bulb-type, min-dim, and max-bright settings to stop flicker.",
-   "pros": [
-    "Bulb type, minimum dim, and maximum bright settings",
-    "Wired or wireless 3-way",
-    "Night settings and fade rates",
-    "500+ bought in the past month, sold by Amazon"
-   ],
-   "cons": [
-    "Matter has to be turned on with a firmware update in the My Leviton app",
-    "Needs a neutral wire",
-    "Costs more than Tapo or Kasa"
-   ],
-   "specs": {
-    "radio": "Wi-Fi",
-    "neutral": "Required",
-    "three_way_text": "Wired or wireless 3-way",
-    "pack": "1 dimmer"
-   },
-   "features": {
-    "three_way": true,
-    "no_neutral": false,
-    "dim_tuning": true,
-    "energy_monitoring": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51Iuc3SbU-L._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BVKYKKRK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-dimmers.html#B0BVKYKKRK"
-  },
-  {
    "rank": 3,
    "asin": "B0CC8KRB2N",
    "name": "Kasa Matter Smart Dimmer Switch, KS225, Single Pole, Need Neutral Wire",
    "brand": "Kasa",
    "model": "KS225",
-   "price": 24.99,
+   "price": 22.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1047,
+   "reviews_count": 1049,
    "score": 70,
    "awards": [],
    "works_with": [
@@ -209,7 +209,7 @@
    "bought_last_month": "500+ bought in past month",
    "verdict": "Kasa's Matter dimmer, with the most reviews of any Matter dimmer here.",
    "pros": [
-    "4.6 stars from 1,047 reviews",
+    "4.6 stars from 1,049 reviews",
     "Local control over your network when the internet is down",
     "1% to 100% dimming",
     "Sold by Amazon"
@@ -241,10 +241,10 @@
    "name": "Tapo Matter Smart Dimmer Switch, S505D, Single Pole, Need Neutral Wire",
    "brand": "Tapo",
    "model": "S505D",
-   "price": 18.99,
+   "price": 17.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 825,
+   "reviews_count": 828,
    "score": 69,
    "awards": [
     "Best Budget"
@@ -267,7 +267,7 @@
    "bought_last_month": "500+ bought in past month",
    "verdict": "The cheapest well-reviewed Matter dimmer, with fade on and off.",
    "pros": [
-    "$18.99 with 4.6 stars from 825 reviews",
+    "$17.99 with 4.6 stars from 828 reviews",
     "Fade on and off",
     "Away mode and schedules",
     "Sold by Amazon"
@@ -302,7 +302,7 @@
    "price": 30.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 825,
+   "reviews_count": 828,
    "score": 69,
    "awards": [],
    "works_with": [
@@ -324,7 +324,7 @@
    "verdict": "Two S505D dimmers for about $15.50 each, and it's selling faster than the single.",
    "pros": [
     "About $15.50 per dimmer",
-    "1K+ bought in the past month",
+    "2K+ bought in the past month",
     "Same 4.6-star dimmer as the single"
    ],
    "cons": [
@@ -357,7 +357,7 @@
    "price": 49.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 61,
+   "reviews_count": 62,
    "score": 68,
    "awards": [
     "Best No-Neutral"
@@ -468,10 +468,10 @@
    "name": "GE Cync Paddle Dimmer Smart Switch, Highly Customizable Dimmer Switch, Works with Alexa and Google Home, Matter Compatible, Easy to Install Smart Light Switch (1 Pack)",
    "brand": "GE Cync",
    "model": "Paddle dimmer",
-   "price": 22.99,
+   "price": 19.49,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 71,
+   "reviews_count": 72,
    "score": 52,
    "awards": [],
    "works_with": [
@@ -492,7 +492,7 @@
    "bought_last_month": null,
    "verdict": "A cheap Cync dimmer that also joins Apple Home and SmartThings through Matter.",
    "pros": [
-    "$22.99",
+    "$19.49",
     "Alexa and Google built in, Apple Home and SmartThings through Matter",
     "Sold by Amazon"
    ],
@@ -599,7 +599,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Eve's local-only Thread dimmer, with a touch-and-rocker design. Reviews are mixed.",
    "pros": [
     "Matter over Thread with no cloud account",
@@ -637,14 +637,14 @@
    "price": 35.88,
    "currency": "USD",
    "rating": 3.7,
-   "reviews_count": 45,
+   "reviews_count": 46,
    "flag": "Dimmer title, outlet bullets",
    "verdict": "The title says smart dimmer light switch, but the bullets describe a smart outlet. With the listing contradicting itself, you can't be sure what will arrive.",
    "reasons": [
     "A bullet says it \"Replaces existing outlet\" and that \"one outlet is Wi-Fi controlled while the other remains always on\", which describes a receptacle, not a dimmer.",
     "Another bullet mentions managing \"downstream outlets\".",
     "No LED load rating or 3-way information appears anywhere in the listing.",
-    "3.7 stars from 45 reviews."
+    "3.7 stars from 46 reviews."
    ],
    "works_with": [
     "Home Assistant",
@@ -692,6 +692,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-02",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-24",
    "notes": [

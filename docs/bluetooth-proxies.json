@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#bluetooth"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-10-26",
- "updated": "2026-10-26",
+ "data_captured": "2026-11-02",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -44,7 +44,7 @@
    "asin": "B0D8T53CQ5",
    "name": "ELEGOO ESP-32 dev boards (3-pack)",
    "price": 19.99,
-   "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 2K+ bought last month."
+   "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 3K+ bought last month."
   },
   {
    "label": "Best Ethernet (PoE)",
@@ -72,7 +72,7 @@
    "price": 19.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 548,
+   "reviews_count": 555,
    "score": 79,
    "awards": [
     "Best Budget"
@@ -91,7 +91,7 @@
    "pros": [
     "3 boards for $19.99",
     "USB-C",
-    "4.7 stars, 2K+ bought in the past month"
+    "4.7 stars, 3K+ bought in the past month"
    ],
    "cons": [
     "No case",
@@ -111,7 +111,7 @@
     "ethernet": false,
     "usb_c": true
    },
-   "image": "https://m.media-amazon.com/images/I/71N+OwhkhqL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/71seE5QkHtL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D8T53CQ5?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0D8T53CQ5"
   },
@@ -124,7 +124,7 @@
    "price": 16.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1283,
+   "reviews_count": 1285,
    "score": 76,
    "awards": [],
    "works_with": [
@@ -139,8 +139,8 @@
    "bought_last_month": "1K+ bought in past month",
    "verdict": "The most-reviewed generic ESP32 board here.",
    "pros": [
-    "1,283 reviews",
-    "2K+ bought in the past month",
+    "1,285 reviews",
+    "1K+ bought in the past month",
     "Works with generic ESP32 proxy firmware"
    ],
    "cons": [
@@ -193,7 +193,7 @@
    "pros": [
     "24 x 24 mm with a case",
     "Supported by ESPHome's ready-made Bluetooth proxy",
-    "$15.10, 400+ bought in the past month"
+    "$15.10, 500+ bought in the past month"
    ],
    "cons": [
     "Wi-Fi only",
@@ -226,7 +226,7 @@
    "price": 14.9,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 30,
+   "reviews_count": 32,
    "score": 69,
    "awards": [],
    "works_with": [
@@ -246,7 +246,7 @@
     "4.8 stars, sold by M5Stack"
    ],
    "cons": [
-    "Only 30 reviews",
+    "Only 32 reviews",
     "Wi-Fi only",
     "Needs your own ESPHome config"
    ],
@@ -276,7 +276,7 @@
    "price": 11.9,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 165,
+   "reviews_count": 166,
    "score": 67,
    "awards": [
     "Best Tiny Board"
@@ -341,12 +341,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "Six USB-C ESP32 boards for about $5 each.",
    "pros": [
     "6 boards for $29.96",
     "USB-C",
-    "400+ bought in the past month"
+    "300+ bought in the past month"
    ],
    "cons": [
     "No cases",
@@ -425,6 +425,56 @@
   },
   {
    "rank": 8,
+   "asin": "B0DKJ21JD4",
+   "name": "Waveshare ESP32-S3 ETH Development Board Microcontroller, 10/100Mbps RJ45 Ethernet Port, W-F & BT Support, 240MHz Dual Core Processor, Onboard Type-C Port and TF Card Slot, OV2640 Camera+PoE Module",
+   "brand": "Waveshare",
+   "model": "ESP32-S3 ETH (camera + PoE)",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 31,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Waveshare's Ethernet ESP32-S3 with the PoE module and a camera included.",
+   "pros": [
+    "PoE module included in this option",
+    "W5500 Ethernet",
+    "Sold by Waveshare"
+   ],
+   "cons": [
+    "$34.99 includes a camera you may not need",
+    "Only 31 reviews",
+    "Needs your own ESPHome config"
+   ],
+   "specs": {
+    "chip": "ESP32-S3",
+    "connection": "Ethernet, PoE (802.3af)",
+    "case": false,
+    "setup": "ESPHome (custom config)",
+    "pack": "1"
+   },
+   "features": {
+    "case": false,
+    "ready_firmware": false,
+    "ethernet": true,
+    "usb_c": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ahuLzAw3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DKJ21JD4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DKJ21JD4"
+  },
+  {
+   "rank": 9,
    "asin": "B0DJ6N55FX",
    "name": "XIAO ESP32C6 3PCS Pack - 2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, Matter, Thread, onboard Antenna and External Antenna Interface",
    "brand": "Seeed Studio",
@@ -432,7 +482,7 @@
    "price": 22.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 110,
+   "reviews_count": 114,
    "score": 64,
    "awards": [],
    "works_with": [
@@ -449,7 +499,7 @@
    "pros": [
     "3 boards for $22.99",
     "Wi-Fi 6 and BLE 5",
-    "500+ bought in the past month"
+    "2K+ bought in the past month"
    ],
    "cons": [
     "No cases",
@@ -474,56 +524,6 @@
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DJ6N55FX"
   },
   {
-   "rank": 9,
-   "asin": "B0DKJ21JD4",
-   "name": "Waveshare ESP32-S3 ETH Development Board Microcontroller, 10/100Mbps RJ45 Ethernet Port, W-F & BT Support, 240MHz Dual Core Processor, Onboard Type-C Port and TF Card Slot, OV2640 Camera+PoE Module",
-   "brand": "Waveshare",
-   "model": "ESP32-S3 ETH (camera + PoE)",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 29,
-   "score": 64,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Waveshare's Ethernet ESP32-S3 with the PoE module and a camera included.",
-   "pros": [
-    "PoE module included in this option",
-    "W5500 Ethernet",
-    "Sold by Waveshare"
-   ],
-   "cons": [
-    "$34.99 includes a camera you may not need",
-    "Only 29 reviews",
-    "Needs your own ESPHome config"
-   ],
-   "specs": {
-    "chip": "ESP32-S3",
-    "connection": "Ethernet, PoE (802.3af)",
-    "case": false,
-    "setup": "ESPHome (custom config)",
-    "pack": "1"
-   },
-   "features": {
-    "case": false,
-    "ready_firmware": false,
-    "ethernet": true,
-    "usb_c": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ahuLzAw3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DKJ21JD4?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DKJ21JD4"
-  },
-  {
    "rank": 10,
    "asin": "B0DRNSV5CS",
    "name": "Seeed Studio XIAO ESP32C3 (Pre-Soldered)",
@@ -532,7 +532,7 @@
    "price": 10.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 63,
+   "reviews_count": 64,
    "score": 62,
    "awards": [],
    "works_with": [
@@ -590,6 +590,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-02",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-26",
    "notes": [

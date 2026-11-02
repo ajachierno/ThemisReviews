@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Smart locks",
- "data_captured": "2026-10-25",
- "updated": "2026-10-25",
+ "data_captured": "2026-11-02",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,7 +36,7 @@
    "asin": "B0BZSD2L1W",
    "name": "Aqara Smart Lock U100",
    "price": 149.99,
-   "why": "Fingerprint and Apple Home Key with 2,600 reviews, on Zigbee through Aqara's hub."
+   "why": "Fingerprint and Apple Home Key with 2,603 reviews, on Zigbee through Aqara's hub."
   },
   {
    "label": "Best Retrofit",
@@ -49,7 +49,7 @@
    "label": "Best Touchscreen",
    "asin": "B08XXVND8V",
    "name": "Kwikset 916 SmartCode (Zigbee 3.0)",
-   "price": 219.0,
+   "price": 268.95,
    "why": "BHMA Grade 2 with a touchscreen, SmartKey re-keying, and a long list of supported hubs."
   }
  ],
@@ -64,7 +64,7 @@
    "price": 149.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 2600,
+   "reviews_count": 2603,
    "score": 84,
    "awards": [
     "Best Overall"
@@ -85,7 +85,7 @@
    "pros": [
     "Fingerprint reader, up to 50 prints",
     "Apple Home Key tap to unlock",
-    "2,600 reviews, 500+ bought in the past month"
+    "2,603 reviews, 1K+ bought in the past month"
    ],
    "cons": [
     "Remote and voice features need an Aqara Zigbee hub",
@@ -110,15 +110,68 @@
   },
   {
    "rank": 2,
+   "asin": "B09HZB4D71",
+   "name": "Kwikset 914 Contemporary Keypad SmartCode Electronic Deadbolt Smart Lock featuring SmartKey Security and ZigBee 3.0 Technology in Matte Black",
+   "brand": "Kwikset",
+   "model": "914 SmartCode (Zigbee 3.0)",
+   "price": 170.37,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 108,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A keypad deadbolt with auto lock and SmartKey re-keying, on Zigbee 3.0.",
+   "pros": [
+    "30-second auto lock",
+    "Up to 30 user codes",
+    "SmartKey security, re-key it yourself"
+   ],
+   "cons": [
+    "3.9 stars",
+    "$170.37",
+    "Only 30 codes"
+   ],
+   "specs": {
+    "type": "Deadbolt",
+    "entry": "Keypad, key",
+    "hub": "Any Zigbee panel or hub",
+    "rating": "Not listed",
+    "extras": "30-second auto lock, SmartKey"
+   },
+   "features": {
+    "auto_lock": true,
+    "retrofit": false,
+    "home_key": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51ErYJww9zL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09HZB4D71?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-locks.html#B09HZB4D71"
+  },
+  {
+   "rank": 3,
    "asin": "B09HYYZH6R",
    "name": "Kwikset Convert Zigbee 3.0 Electronic Smart Lock Conversion Kit in Satin Nickel",
    "brand": "Kwikset",
    "model": "Convert (Zigbee 3.0)",
    "price": 80.97,
    "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 52,
-   "score": 57,
+   "rating": 3.7,
+   "reviews_count": 53,
+   "score": 56,
    "awards": [
     "Best Retrofit"
    ],
@@ -143,7 +196,7 @@
     "$80.97"
    ],
    "cons": [
-    "3.8 stars",
+    "3.7 stars",
     "Sold by a third-party seller",
     "Measure backset, bore, and door thickness first, per the listing"
    ],
@@ -164,69 +217,16 @@
    "page_url": "https://themisreviews.com/zigbee-locks.html#B09HYYZH6R"
   },
   {
-   "rank": 3,
-   "asin": "B09HZB4D71",
-   "name": "Kwikset 914 Contemporary Keypad SmartCode Electronic Deadbolt Smart Lock featuring SmartKey Security and ZigBee 3.0 Technology in Matte Black",
-   "brand": "Kwikset",
-   "model": "914 SmartCode (Zigbee 3.0)",
-   "price": 170.37,
-   "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 48,
-   "score": 56,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A keypad deadbolt with auto lock and SmartKey re-keying, on Zigbee 3.0.",
-   "pros": [
-    "30-second auto lock",
-    "Up to 30 user codes",
-    "SmartKey security, re-key it yourself"
-   ],
-   "cons": [
-    "3.6 stars",
-    "$170.37",
-    "Only 30 codes"
-   ],
-   "specs": {
-    "type": "Deadbolt",
-    "entry": "Keypad, key",
-    "hub": "Any Zigbee panel or hub",
-    "rating": "Not listed",
-    "extras": "30-second auto lock, SmartKey"
-   },
-   "features": {
-    "auto_lock": true,
-    "retrofit": false,
-    "home_key": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51ErYJww9zL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09HZB4D71?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-locks.html#B09HZB4D71"
-  },
-  {
    "rank": 4,
    "asin": "B08XXVND8V",
    "name": "Kwikset 916 Keyless Entry Touchscreen SmartCode Electronic Deadbolt Smart Lock Featuring SmartKey Security and ZigBee 3.0 Technology in Traditional Satin Nickel, Zigbee Hub Sold Separately",
    "brand": "Kwikset",
    "model": "916 SmartCode (Zigbee 3.0)",
-   "price": 219.0,
+   "price": 268.95,
    "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 59,
-   "score": 49,
+   "rating": 3.9,
+   "reviews_count": 138,
+   "score": 54,
    "awards": [
     "Best Touchscreen"
    ],
@@ -251,8 +251,8 @@
     "SmartKey re-keying"
    ],
    "cons": [
-    "3.7 stars",
-    "$219.00",
+    "3.9 stars",
+    "$268.95",
     "Up to 30 user codes"
    ],
    "specs": {
@@ -288,6 +288,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-02",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-25",
    "notes": [

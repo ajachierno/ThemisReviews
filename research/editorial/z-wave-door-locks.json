@@ -15,7 +15,7 @@
   ],
   "awards": [
     {"asin": "B07KQPQMXS", "label": "Best Overall", "kind": "overall", "why": "The most-reviewed Z-Wave lock by far, with Schlage's Snap 'n Stay install and Ring Alarm and SmartThings support."},
-    {"asin": "B0DWGXFS8H", "label": "Best Budget", "kind": "budget", "why": "Z-Wave Long Range with S2 and SmartStart for about $105."},
+    {"asin": "B0DWGXFS8H", "label": "Best Budget", "kind": "budget", "why": "Z-Wave Long Range with S2 and SmartStart for about $110."},
     {"asin": "B0GT9NHTNB", "label": "Best Long Range", "kind": "special", "why": "An 800 Series Long Range lock rated 4.3 stars, with Home Assistant named in the listing."},
     {"asin": "B0D97134GL", "label": "Best Fingerprint", "kind": "premium", "why": "Fingerprint, keypad, and Auto-Unlock on Z-Wave."}
   ],
@@ -37,7 +37,7 @@
      "features": {"long_range": true, "fingerprint": false, "touchscreen": true, "auto_unlock": false},
      "verdict": "Kwikset's touchscreen Z-Wave lock with Long Range and a contemporary look.",
      "pros": ["Touchscreen keypad", "Z-Wave Long Range", "100+ bought in the past month, sold by Amazon"],
-     "cons": ["$213.00", "Only 80 reviews", "Needs a Z-Wave hub"]},
+     "cons": ["$213.00", "Only 81 reviews", "Needs a Z-Wave hub"]},
     {"asin": "B0GT9NHTNB", "brand": "ULTRALOQ", "model": "Bolt Z-Wave", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"series": "800 Series (ZG28)", "entry": "Keypad", "key": "Not stated in bullets", "extras": "Remote access through your hub"},
      "features": {"long_range": true, "fingerprint": false, "touchscreen": false, "auto_unlock": false},
@@ -61,7 +61,7 @@
      "features": {"long_range": false, "fingerprint": false, "touchscreen": false, "auto_unlock": true},
      "verdict": "The Assure 2 with a push-button keypad instead of a touchscreen.",
      "pros": ["Auto-Unlock", "Physical buttons work with gloves", "100+ bought in the past month"],
-     "cons": ["3.8 stars", "$209.99", "Only $20 less than the touchscreen model"]},
+     "cons": ["3.8 stars", "$206.38", "Only $20 less than the touchscreen model"]},
     {"asin": "B0D97134GL", "brand": "Yale", "model": "Z-Wave fingerprint deadbolt", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"series": "Z-Wave", "entry": "Fingerprint, keypad, Auto-Unlock", "key": "Not stated in bullets", "extras": "Scheduled and expiring codes"},
      "features": {"long_range": false, "fingerprint": true, "touchscreen": false, "auto_unlock": true},

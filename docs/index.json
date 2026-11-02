@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -99,8 +99,8 @@
    "json": "https://themisreviews.com/z-wave-dimmers.json",
    "protocol": "Z-Wave",
    "product_type": "Dimmers",
-   "data_captured": "2026-10-24",
-   "updated": "2026-10-24",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -222,8 +222,8 @@
    "json": "https://themisreviews.com/z-wave-motion-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Motion sensors",
-   "data_captured": "2026-10-23",
-   "updated": "2026-10-23",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 9,
    "awards": [
     {
@@ -345,8 +345,8 @@
    "json": "https://themisreviews.com/z-wave-door-locks.json",
    "protocol": "Z-Wave",
    "product_type": "Smart locks",
-   "data_captured": "2026-10-25",
-   "updated": "2026-10-25",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 8,
    "awards": [
     {
@@ -360,8 +360,8 @@
      "label": "Best Budget",
      "asin": "B0DWGXFS8H",
      "name": "Kwikset HomeConnect 620",
-     "price": 104.99,
-     "why": "Z-Wave Long Range with S2 and SmartStart for about $105."
+     "price": 109.95,
+     "why": "Z-Wave Long Range with S2 and SmartStart for about $110."
     },
     {
      "label": "Best Long Range",
@@ -535,8 +535,8 @@
    "json": "https://themisreviews.com/z-wave-controllers.json",
    "protocol": "Z-Wave",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 8,
    "awards": [
     {
@@ -557,7 +557,7 @@
      "label": "Best All-in-One Hub",
      "asin": "B0CR4G1G8M",
      "name": "Hubitat Elevation C-8 Pro",
-     "price": 210.0,
+     "price": 219.95,
      "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
     }
    ]
@@ -772,15 +772,15 @@
    "json": "https://themisreviews.com/zigbee-dimmers.json",
    "protocol": "Zigbee",
    "product_type": "Dimmers",
-   "data_captured": "2026-10-24",
-   "updated": "2026-10-24",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 3,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B08428GDS8",
      "name": "Enbrighten Zigbee in-wall dimmer",
-     "price": 34.72,
+     "price": 44.99,
      "why": "The most-reviewed Zigbee dimmer we found, sold by Amazon, and it pairs straight to Echo devices with a built-in Zigbee hub."
     },
     {
@@ -1004,8 +1004,8 @@
    "json": "https://themisreviews.com/zigbee-locks.json",
    "protocol": "Zigbee",
    "product_type": "Smart locks",
-   "data_captured": "2026-10-25",
-   "updated": "2026-10-25",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 4,
    "awards": [
     {
@@ -1013,7 +1013,7 @@
      "asin": "B0BZSD2L1W",
      "name": "Aqara Smart Lock U100",
      "price": 149.99,
-     "why": "Fingerprint and Apple Home Key with 2,600 reviews, on Zigbee through Aqara's hub."
+     "why": "Fingerprint and Apple Home Key with 2,603 reviews, on Zigbee through Aqara's hub."
     },
     {
      "label": "Best Retrofit",
@@ -1026,7 +1026,7 @@
      "label": "Best Touchscreen",
      "asin": "B08XXVND8V",
      "name": "Kwikset 916 SmartCode (Zigbee 3.0)",
-     "price": 219.0,
+     "price": 268.95,
      "why": "BHMA Grade 2 with a touchscreen, SmartKey re-keying, and a long list of supported hubs."
     }
    ]
@@ -1318,8 +1318,8 @@
    "json": "https://themisreviews.com/zigbee-coordinators.json",
    "protocol": "Zigbee",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -1327,7 +1327,7 @@
      "asin": "B0B6P22YJC",
      "name": "SONOFF ZBDongle-E",
      "price": 24.9,
-     "why": "4.7 stars from 3,791 reviews, an external antenna, and pre-flashed firmware, for $24.90."
+     "why": "4.7 stars from 3,806 reviews, an external antenna, and pre-flashed firmware, for $24.90."
     },
     {
      "label": "Best Zigbee + Thread",
@@ -1340,7 +1340,7 @@
      "label": "Best No-Computer Hub",
      "asin": "B016H0QZ7I",
      "name": "Philips Hue Bridge",
-     "price": 52.99,
+     "price": 51.0,
      "why": "The Hue Bridge runs Hue lights with no computer and connects them to every major platform through Matter."
     },
     {
@@ -1515,16 +1515,16 @@
    "json": "https://themisreviews.com/wifi-dimmers.json",
    "protocol": "Wi-Fi",
    "product_type": "Dimmers",
-   "data_captured": "2026-10-24",
-   "updated": "2026-10-24",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B079775ZZQ",
      "name": "Kasa HS220",
-     "price": 19.99,
-     "why": "Nearly 35,000 reviews at 4.5 stars for about $20, with fade-on and gentle-off built in."
+     "price": 14.98,
+     "why": "Nearly 35,000 reviews at 4.5 stars for about $15, with fade-on and gentle-off built in."
     },
     {
      "label": "Best for Alexa Homes",
@@ -1537,8 +1537,8 @@
      "label": "Best for 3-Way",
      "asin": "B0BC2MWTR9",
      "name": "Kasa KS230 kit v2",
-     "price": 41.99,
-     "why": "A complete 3-way dimmer kit with 2,650 reviews and 2K+ bought last month."
+     "price": 33.99,
+     "why": "A complete 3-way dimmer kit with 2,657 reviews and 2K+ bought last month."
     },
     {
      "label": "Best No-Neutral",
@@ -1795,8 +1795,8 @@
    "json": "https://themisreviews.com/wifi-locks.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart locks",
-   "data_captured": "2026-10-25",
-   "updated": "2026-10-25",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -1804,20 +1804,20 @@
      "asin": "B07HXMLCBT",
      "name": "Schlage Encode (Century trim)",
      "price": 229.0,
-     "why": "16,705 reviews, 3K+ bought last month, and the highest residential BHMA rating, per the listing."
+     "why": "16,714 reviews, 4K+ bought last month, and the highest residential BHMA rating, per the listing."
     },
     {
      "label": "Best Budget",
      "asin": "B0F5BH3HDV",
      "name": "Tapo DL100",
-     "price": 59.98,
-     "why": "$59.98 for a 4.5-star Wi-Fi deadbolt that works with Alexa, Google, and SmartThings."
+     "price": 45.0,
+     "why": "$45.00 for a 4.5-star Wi-Fi deadbolt that works with Alexa, Google, and SmartThings."
     },
     {
      "label": "Best Fingerprint",
      "asin": "B0DKQQ6Z7Q",
      "name": "Tapo DL110",
-     "price": 106.99,
+     "price": 149.99,
      "why": "A 0.42-second fingerprint reader, 100 stored prints, a rechargeable battery rated for a year, and 4.6 stars."
     },
     {
@@ -4300,8 +4300,8 @@
    "json": "https://themisreviews.com/bluetooth-trackers.json",
    "protocol": "Bluetooth",
    "product_type": "Trackers",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -4315,14 +4315,14 @@
      "label": "Best Budget",
      "asin": "B0F82HR8QZ",
      "name": "UGREEN FineTrack (4-pack)",
-     "price": 19.96,
-     "why": "Four Find My tags with a 2-year replaceable battery for $19.96, 7K+ bought last month."
+     "price": 22.79,
+     "why": "Four Find My tags with a 2-year replaceable battery for $22.79, 10K+ bought last month."
     },
     {
      "label": "Best for Samsung",
      "asin": "B0CCC69HN3",
      "name": "Samsung Galaxy SmartTag2",
-     "price": 7.99,
+     "price": 26.75,
      "why": "UWB precision finding on Galaxy phones, IP67, and it can trigger SmartThings devices."
     },
     {
@@ -4375,8 +4375,8 @@
    "json": "https://themisreviews.com/bluetooth-proxies.json",
    "protocol": "Bluetooth",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -4391,7 +4391,7 @@
      "asin": "B0D8T53CQ5",
      "name": "ELEGOO ESP-32 dev boards (3-pack)",
      "price": 19.99,
-     "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 2K+ bought last month."
+     "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 3K+ bought last month."
     },
     {
      "label": "Best Ethernet (PoE)",
@@ -4573,7 +4573,7 @@
    "json": "https://themisreviews.com/thread-blinds.json",
    "protocol": "Thread",
    "product_type": "Blinds and shades",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-02",
    "updated": "2026-10-27",
    "products": 8,
    "awards": [
@@ -4614,8 +4614,8 @@
    "json": "https://themisreviews.com/thread-border-routers.json",
    "protocol": "Thread",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 9,
    "awards": [
     {
@@ -4623,14 +4623,14 @@
      "asin": "B08ZK39NSL",
      "name": "eero 6+",
      "price": 139.99,
-     "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,603 reviews."
+     "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,611 reviews."
     },
     {
      "label": "Best Budget",
      "asin": "B0DWK8318H",
      "name": "Aqara Hub M100",
-     "price": 38.99,
-     "why": "A $38.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
+     "price": 39.99,
+     "why": "A $39.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
     },
     {
      "label": "Best Standalone Hub",
@@ -4777,8 +4777,8 @@
    "json": "https://themisreviews.com/thread-locks.json",
    "protocol": "Thread",
    "product_type": "Smart locks",
-   "data_captured": "2026-10-25",
-   "updated": "2026-10-25",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -4786,13 +4786,13 @@
      "asin": "B0FQC6VCDW",
      "name": "ULTRALOQ Bolt SE",
      "price": 84.99,
-     "why": "ULTRALOQ's Bolt SE has fingerprint, keypad, Wi-Fi, and Matter over Thread, rated 4.3 stars by 10,361 buyers."
+     "why": "ULTRALOQ's Bolt SE has fingerprint, keypad, Wi-Fi, and Matter over Thread, rated 4.3 stars by 10,370 buyers."
     },
     {
      "label": "Best Hands-Free",
      "asin": "B0FRS6T6HL",
      "name": "Aqara UWB Smart Lock U400",
-     "price": 229.49,
+     "price": 269.99,
      "why": "Aqara's U400 unlocks as you approach with UWB and supports Apple Home Key."
     },
     {
@@ -4852,29 +4852,29 @@
    "json": "https://themisreviews.com/matter-dimmers.json",
    "protocol": "Matter",
    "product_type": "Dimmers",
-   "data_captured": "2026-10-24",
-   "updated": "2026-10-24",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DKGXY4DL",
      "name": "Tapo S515D kit",
-     "price": 44.99,
+     "price": 42.99,
      "why": "A complete 3-way Matter dimmer kit with energy monitoring, and 1K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0C2B8SP3W",
      "name": "Tapo S505D",
-     "price": 18.99,
-     "why": "$18.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
+     "price": 17.99,
+     "why": "$17.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
     },
     {
      "label": "Best Name Brand",
      "asin": "B0BVKYKKRK",
      "name": "Leviton D26HD-1RW (2nd gen)",
-     "price": 53.43,
+     "price": 51.98,
      "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
     },
     {
@@ -4934,36 +4934,36 @@
    "json": "https://themisreviews.com/matter-bulbs.json",
    "protocol": "Matter",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CFG9SHPQ",
      "name": "Tapo L535E (2-pack)",
-     "price": 24.99,
+     "price": 18.99,
      "why": "Two bright 1,100 lm Matter color bulbs from Tapo, 1K+ bought last month, sold by Amazon."
     },
     {
      "label": "Best Budget",
-     "asin": "B0BHS1X2G7",
-     "name": "Linkind Matter A19",
-     "price": 13.99,
-     "why": "$13.99 Matter color bulb with 1,071 reviews at 4.5 stars."
+     "asin": "B0BVQX6875",
+     "name": "OREiN Matter A19 RGBTW (4-pack)",
+     "price": 29.99,
+     "why": "Four Matter color bulbs for $29.99, about $7.50 each, with 1,522 reviews at 4.4 stars."
     },
     {
      "label": "Brightest",
      "asin": "B0CW1RBHGS",
      "name": "Linkind Matter 1600 lm",
-     "price": 25.99,
+     "price": 31.99,
      "why": "1,600 lumens, a 100 W equivalent, on Matter."
     },
     {
      "label": "Best Thread Bulb",
      "asin": "B0DN63SFWL",
      "name": "Aqara LED Bulb T2",
-     "price": 21.99,
+     "price": 23.99,
      "why": "Matter over Thread or Zigbee, 1,100 lm, and 16 million colors."
     }
    ]
@@ -5036,8 +5036,8 @@
    "json": "https://themisreviews.com/matter-leak-sensors.json",
    "protocol": "Matter",
    "product_type": "Leak sensors",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 3,
    "awards": [
     {
@@ -5052,7 +5052,7 @@
      "asin": "B0H3QG45XL",
      "name": "Shelly Flood S Gen4",
      "price": 27.99,
-     "why": "$27.99 for a slim triple-pad sensor that slides under appliances, rated 4.4 stars."
+     "why": "$27.99 for a slim triple-pad sensor that slides under appliances, rated 4.5 stars."
     },
     {
      "label": "Best Kit",
@@ -5070,8 +5070,8 @@
    "json": "https://themisreviews.com/matter-locks.json",
    "protocol": "Matter",
    "product_type": "Smart locks",
-   "data_captured": "2026-10-25",
-   "updated": "2026-10-25",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 9,
    "awards": [
     {
@@ -5099,7 +5099,7 @@
      "label": "Most Advanced",
      "asin": "B0FRS6T6HL",
      "name": "Aqara Smart Lock U400 (UWB)",
-     "price": 229.49,
+     "price": 269.99,
      "why": "UWB hands-free unlocking that senses you approaching, plus fingerprint and Home Key."
     }
    ]
@@ -5111,36 +5111,36 @@
    "json": "https://themisreviews.com/matter-thermostats.json",
    "protocol": "Matter",
    "product_type": "Thermostats",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 7,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B08HRWWCTR",
      "name": "Google Nest Thermostat",
-     "price": 129.99,
+     "price": 89.99,
      "why": "Nearly 30,000 reviews, Matter support, and a price that leaves room for other upgrades."
     },
     {
      "label": "Best Budget",
      "asin": "B0D8SW5B2G",
      "name": "meross Matter smart thermostat",
-     "price": 58.99,
-     "why": "$58.99 for a Matter thermostat that works with Apple Home, Alexa, Google, and SmartThings."
+     "price": 57.99,
+     "why": "$57.99 for a Matter thermostat that works with Apple Home, Alexa, Google, and SmartThings."
     },
     {
      "label": "Most Capable",
      "asin": "B0D5BGST5N",
      "name": "Google Nest Learning Thermostat (4th gen)",
-     "price": 219.99,
-     "why": "Nest's learning thermostat with a room sensor included, 2K+ bought last month."
+     "price": 214.99,
+     "why": "Nest's learning thermostat with a room sensor included, 3K+ bought last month."
     },
     {
      "label": "Best for Baseboard Heat",
      "asin": "B0FCY3Z1S5",
      "name": "meross Matter baseboard thermostat",
-     "price": 71.99,
+     "price": 79.99,
      "why": "A line-voltage Matter thermostat for electric baseboard heaters, rated 4.4 stars."
     }
    ]
@@ -5342,8 +5342,8 @@
    "json": "https://themisreviews.com/matter-controllers.json",
    "protocol": "Matter",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -5351,14 +5351,14 @@
      "asin": "B0CWLHSKYC",
      "name": "Aqara Hub M3",
      "price": 139.99,
-     "why": "Thread border router, Matter controller and bridge, IR blaster, and PoE, with 1,705 reviews."
+     "why": "Thread border router, Matter controller and bridge, IR blaster, and PoE, with 1,714 reviews."
     },
     {
      "label": "Best Budget",
      "asin": "B0DWK8318H",
      "name": "Aqara Hub M100",
-     "price": 38.99,
-     "why": "A $38.99 Thread border router and Matter bridge, 500+ bought last month."
+     "price": 39.99,
+     "why": "A $39.99 Thread border router and Matter bridge, 500+ bought last month."
     },
     {
      "label": "Best for Alexa",
@@ -5371,7 +5371,7 @@
      "label": "Best Local Hub",
      "asin": "B0CR4G1G8M",
      "name": "Hubitat Elevation C-8 Pro",
-     "price": 210.0,
+     "price": 219.95,
      "why": "Matter, Z-Wave Long Range, and Zigbee, with automations that run on the hub and no subscription."
     }
    ]
@@ -5716,8 +5716,8 @@
    "json": "https://themisreviews.com/lutron-pico-remotes.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 10,
    "awards": [
     {
@@ -5725,7 +5725,7 @@
      "asin": "B00KLAXFQ0",
      "name": "Lutron Pico 3-button dimmer remote",
      "price": 24.95,
-     "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,846 reviews, $24.95, sold by Amazon."
+     "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,848 reviews, $24.95, sold by Amazon."
     },
     {
      "label": "Best Wall Kit",
@@ -5784,8 +5784,8 @@
    "json": "https://themisreviews.com/lutron-bridges.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 8,
    "awards": [
     {
@@ -5793,27 +5793,27 @@
      "asin": "B07G5V6M6G",
      "name": "Lutron Caseta Smart Dimmer Starter Kit",
      "price": 114.95,
-     "why": "Hub, dimmer, and Pico remote for $114.95, $25 more than the hub alone, with 2,704 reviews at 4.7 stars."
+     "why": "Hub, dimmer, and Pico remote for $114.95, about $21 more than the hub alone, with 2,704 reviews at 4.7 stars."
     },
     {
      "label": "Best Hub Only",
      "asin": "B00XPW67ZM",
      "name": "Lutron Caseta Smart Hub (L-BDG2)",
-     "price": 89.95,
+     "price": 94.16,
      "why": "The Caseta Smart Hub on its own, sold by Amazon, 1K+ bought last month."
     },
     {
      "label": "Best Whole-Room Kit",
      "asin": "B01M3XJUAD",
      "name": "Lutron Caseta Deluxe Smart Dimmer Kit",
-     "price": 189.9,
+     "price": 269.99,
      "why": "Two dimmers, two Picos, and the hub, for two rooms or a 3-way setup."
     },
     {
      "label": "Best for Hubitat and Pros",
      "asin": "B01AVLTHY2",
      "name": "Lutron Caseta Smart Hub Pro Kit (L-BDGPRO2)",
-     "price": 226.77,
+     "price": 227.31,
      "why": "The Smart Hub Pro with its integration port, plus a dimmer, Pico, and wallplate."
     }
    ]
@@ -5825,8 +5825,8 @@
    "json": "https://themisreviews.com/lutron-plug-in-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Dimmers",
-   "data_captured": "2026-10-24",
-   "updated": "2026-10-24",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 5,
    "awards": [
     {
@@ -5834,7 +5834,7 @@
      "asin": "B00JJY1QG0",
      "name": "Lutron Caseta Lamp Dimmer Kit (dimmer + Pico)",
      "price": 54.95,
-     "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,819 buyers."
+     "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,820 buyers."
     },
     {
      "label": "Best Starter Kit",
@@ -5995,8 +5995,8 @@
    "json": "https://themisreviews.com/rf-bridges.json",
    "protocol": "433 MHz RF",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-10-26",
-   "updated": "2026-10-26",
+   "data_captured": "2026-11-02",
+   "updated": "2026-11-02",
    "products": 9,
    "awards": [
     {
@@ -6004,7 +6004,7 @@
      "asin": "B0BMKB3L47",
      "name": "RTL-SDR Blog V3 + dipole antenna kit",
      "price": 47.95,
-     "why": "The standard rtl_433 stick, with a 1 PPM TCXO and a dipole antenna kit, and 6,498 reviews."
+     "why": "The standard rtl_433 stick, with a 1 PPM TCXO and a dipole antenna kit, and 6,500 reviews."
     },
     {
      "label": "Best Budget SDR",

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-10-26",
- "updated": "2026-10-26",
+ "data_captured": "2026-11-02",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -50,7 +50,7 @@
    "label": "Best All-in-One Hub",
    "asin": "B0CR4G1G8M",
    "name": "Hubitat Elevation C-8 Pro",
-   "price": 210.0,
+   "price": 219.95,
    "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
   }
  ],
@@ -62,11 +62,11 @@
    "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
    "brand": "Hubitat",
    "model": "Elevation C-8 Pro",
-   "price": 210.0,
+   "price": 219.95,
    "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 393,
-   "score": 79,
+   "rating": 4.0,
+   "reviews_count": 399,
+   "score": 80,
    "awards": [
     "Best All-in-One Hub"
    ],
@@ -91,8 +91,8 @@
     "Works with Alexa, Google Home, and Apple Home"
    ],
    "cons": [
-    "3.9 stars",
-    "$210.00",
+    "4.0 stars",
+    "$219.95",
     "Steeper learning curve than SmartThings"
    ],
    "specs": {
@@ -108,7 +108,7 @@
     "multi_radio": true,
     "antenna": false
    },
-   "image": "https://m.media-amazon.com/images/I/71NJAozHjnL._SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/517X7B15XnL._SX342_SY445_QL70_FMwebp_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CR4G1G8M?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-controllers.html#B0CR4G1G8M"
   },
@@ -121,7 +121,7 @@
    "price": 79.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 261,
+   "reviews_count": 263,
    "score": 75,
    "awards": [
     "Best for Home Assistant"
@@ -141,7 +141,7 @@
     "Built by the Home Assistant and Z-Wave JS team",
     "Tuned antenna base for range",
     "Couple-of-clicks migration from other adapters",
-    "500+ bought in the past month"
+    "1K+ bought in the past month"
    ],
    "cons": [
     "$79, about double most sticks",
@@ -167,6 +167,59 @@
   },
   {
    "rank": 3,
+   "asin": "B0G8JKPMV7",
+   "name": "SONOFF Z-Wave 800 Dongle Plus (Dongle-PZG23), USB Stick with EFR32ZG23, Compatible with Home Assistant & openHAB, S2 Security, Stable and Long-Range Smart Home Control",
+   "brand": "SONOFF",
+   "model": "Dongle Plus PZG23",
+   "price": 39.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 187,
+   "score": 74,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "An 800 Series Long Range stick with an adjustable antenna and an extension cable in the box.",
+   "pros": [
+    "External 2 dBi antenna",
+    "USB extension cable included",
+    "800 Series with Long Range",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 187 reviews",
+    "Names Home Assistant and openHAB only",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Computer running hub software"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61oquCTd1oL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G8JKPMV7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G8JKPMV7"
+  },
+  {
+   "rank": 4,
    "asin": "B0DV9RFSR9",
    "name": "Z-Stick 10 Pro - Zigbee 3.0 & Z-Wave 800 Series USB Adapter - Works with HomeAssistant - Zigbee2MQTT - Z-Wave Controller - Z-Wave Long Range - Up to 1 Mile Wireless Range - cloudfree",
    "brand": "Aeotec",
@@ -174,7 +227,7 @@
    "price": 59.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 182,
+   "reviews_count": 183,
    "score": 74,
    "awards": [],
    "works_with": [
@@ -215,59 +268,6 @@
    "image": "https://m.media-amazon.com/images/I/615b5ID+cUL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DV9RFSR9?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-controllers.html#B0DV9RFSR9"
-  },
-  {
-   "rank": 4,
-   "asin": "B0G8JKPMV7",
-   "name": "SONOFF Z-Wave 800 Dongle Plus (Dongle-PZG23), USB Stick with EFR32ZG23, Compatible with Home Assistant & openHAB, S2 Security, Stable and Long-Range Smart Home Control",
-   "brand": "SONOFF",
-   "model": "Dongle Plus PZG23",
-   "price": 39.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 184,
-   "score": 73,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "An 800 Series Long Range stick with an adjustable antenna and an extension cable in the box.",
-   "pros": [
-    "External 2 dBi antenna",
-    "USB extension cable included",
-    "800 Series with Long Range",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 184 reviews",
-    "Names Home Assistant and openHAB only",
-    "Needs a computer running hub software"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "series": "800 Series",
-    "long_range": true,
-    "radios": "Z-Wave only",
-    "needs": "Computer running hub software"
-   },
-   "features": {
-    "long_range": true,
-    "standalone": false,
-    "multi_radio": false,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61oquCTd1oL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G8JKPMV7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G8JKPMV7"
   },
   {
    "rank": 5,
@@ -321,6 +321,57 @@
   },
   {
    "rank": 6,
+   "asin": "B0H5QKDKN2",
+   "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
+   "brand": "SONOFF",
+   "model": "PoE Dongle Max (Dongle-MZG23)",
+   "price": 44.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 37,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
+   "pros": [
+    "Ethernet with PoE, Wi-Fi, or USB",
+    "Two adjustable antennas",
+    "Built-in web console",
+    "Aluminum case"
+   ],
+   "cons": [
+    "Only 37 reviews",
+    "Names Home Assistant, openHAB, and Z-Wave JS only",
+    "Network setup is more work than a USB stick"
+   ],
+   "specs": {
+    "type": "Network dongle",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Hub software on your network"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5QKDKN2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0H5QKDKN2"
+  },
+  {
+   "rank": 7,
    "asin": "B0G52DX5M3",
    "name": "Homey Pro (2026) | Smart Hub for Home Automation – Features Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter & Thread. Compatible with Siri, Alexa & Google Home.",
    "brand": "Homey",
@@ -328,7 +379,7 @@
    "price": 449.0,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 71,
+   "reviews_count": 72,
    "score": 64,
    "awards": [],
    "works_with": [
@@ -352,7 +403,7 @@
    ],
    "cons": [
     "$471",
-    "3.9 stars from 71 reviews",
+    "3.9 stars from 72 reviews",
     "Z-Wave Plus, Long Range isn't listed"
    ],
    "specs": {
@@ -371,57 +422,6 @@
    "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G52DX5M3"
-  },
-  {
-   "rank": 7,
-   "asin": "B0H5QKDKN2",
-   "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
-   "brand": "SONOFF",
-   "model": "PoE Dongle Max (Dongle-MZG23)",
-   "price": 44.9,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 34,
-   "score": 64,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
-   "pros": [
-    "Ethernet with PoE, Wi-Fi, or USB",
-    "Two adjustable antennas",
-    "Built-in web console",
-    "Aluminum case"
-   ],
-   "cons": [
-    "Only 34 reviews",
-    "Names Home Assistant, openHAB, and Z-Wave JS only",
-    "Network setup is more work than a USB stick"
-   ],
-   "specs": {
-    "type": "Network dongle",
-    "series": "800 Series",
-    "long_range": true,
-    "radios": "Z-Wave only",
-    "needs": "Hub software on your network"
-   },
-   "features": {
-    "long_range": true,
-    "standalone": false,
-    "multi_radio": false,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5QKDKN2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0H5QKDKN2"
   },
   {
    "rank": 8,
@@ -490,6 +490,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-02",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-26",
    "notes": [
