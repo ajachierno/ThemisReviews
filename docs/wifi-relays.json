@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Relays and modules",
- "data_captured": "2026-10-29",
- "updated": "2026-10-29",
+ "data_captured": "2026-11-02",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,8 +36,8 @@
    "label": "Best Overall",
    "asin": "B0D8YPW46Y",
    "name": "Shelly 1 Gen3",
-   "price": 22.99,
-   "why": "A 16 A dry-contact Shelly with Matter for $22.99, rated 4.6 stars by 1,300 buyers."
+   "price": 18.39,
+   "why": "A 16 A dry-contact Shelly with Matter for $18.39, rated 4.6 stars by 1,326 buyers."
   },
   {
    "label": "Best Budget",
@@ -57,7 +57,7 @@
    "label": "Best for Low-Voltage DIY",
    "asin": "B0CQD1Z2K8",
    "name": "Shelly Plus Uni",
-   "price": 19.95,
+   "price": 19.99,
    "why": "Shelly's tiny Uni module for low-voltage buttons, sensors, and old appliances."
   }
  ],
@@ -72,7 +72,7 @@
    "price": 38.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 878,
+   "reviews_count": 888,
    "score": 89,
    "awards": [
     "Best With Power Metering"
@@ -97,7 +97,7 @@
    "pros": [
     "Power metering on both channels",
     "Three radios",
-    "4.7 stars from 878 reviews"
+    "4.7 stars from 888 reviews"
    ],
    "cons": [
     "$38.99",
@@ -122,14 +122,69 @@
   },
   {
    "rank": 2,
+   "asin": "B0DGXMZ9GD",
+   "name": "SONOFF WiFi MINI-D Smart Switch with Matter,Home Automation,Dry Contact Output,Supports AC or DC Input,Compatible Alexa & Google Home,for Garage Doors,Boilers,DC Low Power Motors/Solenoid Valves",
+   "brand": "SONOFF",
+   "model": "MINI-D (Matter)",
+   "price": 14.9,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1108,
+   "score": 84,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A small Matter dry-contact relay for boilers, garage door openers, and access control, for $14.90.",
+   "pros": [
+    "Matter, so it works with Apple Home, Google, Alexa, SmartThings, and Home Assistant",
+    "Normally open and normally closed outputs",
+    "Takes AC or DC input",
+    "4.7 stars from 1,108 reviews"
+   ],
+   "cons": [
+    "Outputs aren't for AC loads; DC motors and valves up to 8 W only",
+    "Apple Home, SmartThings, and the rest need a Matter controller"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Dry contact; DC loads up to 8 W",
+    "radios": "Wi-Fi, Matter",
+    "extras": "AC or DC input; normally open and normally closed outputs"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": true,
+    "matter": true,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61lSfid+jsL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DGXMZ9GD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-relays.html#B0DGXMZ9GD"
+  },
+  {
+   "rank": 3,
    "asin": "B0D8YPW46Y",
    "name": "Shelly 1 Gen3 Relay Switch, WiFi Matter, Dry Contacts, No hub Required",
    "brand": "Shelly",
    "model": "1 Gen3",
-   "price": 22.99,
+   "price": 18.39,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1300,
+   "reviews_count": 1326,
    "score": 83,
    "awards": [
     "Best Overall"
@@ -155,12 +210,12 @@
     "16 A dry contacts",
     "Matter plus Alexa, Google, SmartThings, and Home Assistant",
     "Runs on low-voltage DC for garage doors",
-    "4.6 stars from 1,300 reviews"
+    "4.6 stars from 1,326 reviews"
    ],
    "cons": [
     "Sold by a reseller",
     "No power metering",
-    "Gen4 adds Zigbee for a dollar or two more"
+    "Gen4 adds Zigbee for about $10 more"
    ],
    "specs": {
     "channels": "1",
@@ -179,7 +234,7 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0D8YPW46Y"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B0DZHZDJXT",
    "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
    "brand": "Shelly",
@@ -187,7 +242,7 @@
    "price": 24.98,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 873,
+   "reviews_count": 885,
    "score": 82,
    "awards": [],
    "works_with": [
@@ -234,15 +289,15 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0DZHZDJXT"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0CQD1Z2K8",
    "name": "Shelly Plus Uni Smart Wi-Fi and Bluetooth Operated Module, Dry Contact",
    "brand": "Shelly",
    "model": "Plus Uni",
-   "price": 19.95,
+   "price": 19.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 672,
+   "reviews_count": 675,
    "score": 79,
    "awards": [
     "Best for Low-Voltage DIY"
@@ -259,12 +314,12 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "A tiny low-voltage module that turns buttons and old gadgets smart.",
    "pros": [
-    "$19.95",
+    "$19.99",
     "Names Alexa, Google, SmartThings, and Home Assistant",
-    "400+ bought in the past month"
+    "300+ bought in the past month"
    ],
    "cons": [
     "Low-voltage systems only",
@@ -288,7 +343,7 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0CQD1Z2K8"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0F9LJYSQS",
    "name": "Shelly 1PM Mini Gen4 Smart Switch Wi-Fi Matter Zigbee 1-Channel 8A, 2 Pack",
    "brand": "Shelly",
@@ -296,7 +351,7 @@
    "price": 54.86,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 462,
+   "reviews_count": 463,
    "score": 79,
    "awards": [],
    "works_with": [
@@ -314,7 +369,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "Two small metered relays to track what lights and gadgets use.",
    "pros": [
     "Power metering",
@@ -343,7 +398,7 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0F9LJYSQS"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B09M6HTDVS",
    "name": "4 Channel Smart WiFi RF Bluetooth Wireless Dry Contact Relay Switch Module,Phone app Remote Control,Compatible with Alexa Google Home (Tuya 4CH 5V AC/DC7-32V)",
    "brand": "MHCOZY",
@@ -394,7 +449,58 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B09M6HTDVS"
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "asin": "B0C1GTGKQJ",
+   "name": "SONOFF MINIR4 10A Smart WiFi Extreme Wireless Light Switch,Universal DIY Module for Smart Home Automation Solution, Compatible with Alexa & Google Home, No Hub Required,4 Pack",
+   "brand": "SONOFF",
+   "model": "MINIR4 (4-pack)",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2759,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "eWeLink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Four tiny 10 A Wi-Fi relays for $39.99, about $10 each, to put existing wall switches on an app.",
+   "pros": [
+    "About $10 per relay",
+    "Detach relay mode keeps smart bulbs powered",
+    "Takes momentary, latching, and SPDT wall switches",
+    "4.7 stars from 2,759 reviews"
+   ],
+   "cons": [
+    "No Matter; eWeLink app with Alexa and Google",
+    "Switched output, not dry contacts",
+    "Wi-Fi only (the Zigbee version is a different listing)"
+   ],
+   "specs": {
+    "channels": "1 per module, 4 modules",
+    "rating": "10 A",
+    "radios": "Wi-Fi",
+    "extras": "External switch input; detach relay mode"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": false,
+    "matter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61gSvW48WzL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C1GTGKQJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-relays.html#B0C1GTGKQJ"
+  },
+  {
+   "rank": 9,
    "asin": "B0C7QQHMCX",
    "name": "WiFi Relay Switch 12V, eWeLink 5V USB DC 7-48V Smart Relay Module",
    "brand": "eWeLink",
@@ -446,16 +552,16 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0C7QQHMCX"
   },
   {
-   "rank": 8,
+   "rank": 10,
    "asin": "B0H8YW595V",
    "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
    "brand": "Shelly",
    "model": "1 Gen4 UL",
    "price": 27.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 20,
-   "score": 65,
+   "rating": 4.3,
+   "reviews_count": 24,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -480,7 +586,7 @@
     "1K+ bought in the past month"
    ],
    "cons": [
-    "Only 20 reviews on this listing",
+    "Only 24 reviews on this listing",
     "15 A rather than 16 A",
     "$27.99"
    ],
@@ -517,6 +623,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-02",
+   "notes": [
+    "Added SONOFF MINI-D (Matter), SONOFF MINIR4 (4-pack).",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Added the SONOFF MINI-D, a Matter dry-contact relay at $14.90 with 4.7 stars from 1,108 reviews, and the SONOFF MINIR4 4-pack ($39.99, about $10 per relay, 4.7 stars from 2,759 reviews). All eight existing picks kept. The Shelly 1 Gen3 dropped from $22.99 to $18.39."
+   ]
+  },
   {
    "date": "2026-10-29",
    "notes": [

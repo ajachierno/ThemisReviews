@@ -43,7 +43,7 @@
       "asin": "B0D8YPW46Y",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A 16 A dry-contact Shelly with Matter for $22.99, rated 4.6 stars by 1,300 buyers."
+      "why": "A 16 A dry-contact Shelly with Matter for $18.39, rated 4.6 stars by 1,326 buyers."
     },
     {
       "asin": "B0C7QQHMCX",
@@ -95,12 +95,12 @@
         "16 A dry contacts",
         "Matter plus Alexa, Google, SmartThings, and Home Assistant",
         "Runs on low-voltage DC for garage doors",
-        "4.6 stars from 1,300 reviews"
+        "4.6 stars from 1,326 reviews"
       ],
       "cons": [
         "Sold by a reseller",
         "No power metering",
-        "Gen4 adds Zigbee for a dollar or two more"
+        "Gen4 adds Zigbee for about $10 more"
       ]
     },
     {
@@ -135,7 +135,7 @@
         "1K+ bought in the past month"
       ],
       "cons": [
-        "Only 20 reviews on this listing",
+        "Only 24 reviews on this listing",
         "15 A rather than 16 A",
         "$27.99"
       ]
@@ -169,7 +169,7 @@
       "pros": [
         "Power metering on both channels",
         "Three radios",
-        "4.7 stars from 878 reviews"
+        "4.7 stars from 888 reviews"
       ],
       "cons": [
         "$38.99",
@@ -275,9 +275,9 @@
       },
       "verdict": "A tiny low-voltage module that turns buttons and old gadgets smart.",
       "pros": [
-        "$19.95",
+        "$19.99",
         "Names Alexa, Google, SmartThings, and Home Assistant",
-        "400+ bought in the past month"
+        "300+ bought in the past month"
       ],
       "cons": [
         "Low-voltage systems only",
@@ -350,6 +350,77 @@
         "Low voltage only",
         "Unknown brand",
         "Only 198 reviews"
+      ]
+    },
+    {
+      "asin": "B0DGXMZ9GD",
+      "brand": "SONOFF",
+      "model": "MINI-D (Matter)",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "channels": "1",
+        "rating": "Dry contact; DC loads up to 8 W",
+        "radios": "Wi-Fi, Matter",
+        "extras": "AC or DC input; normally open and normally closed outputs"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": true,
+        "matter": true,
+        "multi_channel": false
+      },
+      "verdict": "A small Matter dry-contact relay for boilers, garage door openers, and access control, for $14.90.",
+      "pros": [
+        "Matter, so it works with Apple Home, Google, Alexa, SmartThings, and Home Assistant",
+        "Normally open and normally closed outputs",
+        "Takes AC or DC input",
+        "4.7 stars from 1,108 reviews"
+      ],
+      "cons": [
+        "Outputs aren't for AC loads; DC motors and valves up to 8 W only",
+        "Apple Home, SmartThings, and the rest need a Matter controller"
+      ]
+    },
+    {
+      "asin": "B0C1GTGKQJ",
+      "brand": "SONOFF",
+      "model": "MINIR4 (4-pack)",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "eWeLink app",
+      "specs": {
+        "channels": "1 per module, 4 modules",
+        "rating": "10 A",
+        "radios": "Wi-Fi",
+        "extras": "External switch input; detach relay mode"
+      },
+      "features": {
+        "power_meter": false,
+        "dry_contact": false,
+        "matter": false,
+        "multi_channel": false
+      },
+      "verdict": "Four tiny 10 A Wi-Fi relays for $39.99, about $10 each, to put existing wall switches on an app.",
+      "pros": [
+        "About $10 per relay",
+        "Detach relay mode keeps smart bulbs powered",
+        "Takes momentary, latching, and SPDT wall switches",
+        "4.7 stars from 2,759 reviews"
+      ],
+      "cons": [
+        "No Matter; eWeLink app with Alexa and Google",
+        "Switched output, not dry contacts",
+        "Wi-Fi only (the Zigbee version is a different listing)"
       ]
     }
   ],
