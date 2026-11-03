@@ -15,17 +15,10 @@
     {"key": "power", "label": "Power"}
   ],
   "awards": [
-    {"asin": "B09B6S4TSL", "label": "Best Overall", "kind": "overall", "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars."},
-    {"asin": "B08TMWLY74", "label": "Best Budget", "kind": "budget", "why": "A battery paddle remote with Long Range for $37.95, 413 reviews."},
+    {"asin": "B08TMWLY74", "label": "Best Overall", "kind": "overall", "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."},
     {"asin": "B0CV8RXT5W", "label": "Best Battery Remote", "kind": "special", "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."}
   ],
   "products": [
-    {"asin": "B09B6S4TSL", "brand": "Zooz", "model": "ZEN32 800LR", "systems": ["home-assistant", "smartthings", "hubitat"],
-     "specs": {"type": "Wired scene controller", "buttons": "1 main + 4", "series": "800 Series LR", "power": "Wired (neutral required)", "notes": "Controls a 120 V light up to 150 W LED"},
-     "features": {"long_range": true, "buttons": true, "battery_free": true, "mount": true},
-     "verdict": "A wall switch that runs a light and four scene buttons, and it never needs a battery.",
-     "pros": ["Main button switches a light directly", "Four extra scene buttons", "Direct 3-way with regular switches", "4.6 stars, 200+ bought in the past month"],
-     "cons": ["Needs a neutral wire", "SmartThings needs a custom driver", "$47.95"]},
     {"asin": "B08TMWLY74", "brand": "Zooz", "model": "ZEN34 800LR", "systems": ["home-assistant", "hubitat"],
      "specs": {"type": "Battery paddle remote", "buttons": "2 paddles", "series": "800 Series LR", "power": "Battery", "notes": "Magnetic base, fits a switch box"},
      "features": {"long_range": true, "buttons": false, "battery_free": false, "mount": true},
@@ -37,7 +30,7 @@
      "features": {"long_range": true, "buttons": true, "battery_free": false, "mount": true},
      "verdict": "Four buttons and up to 24 scenes on a rechargeable remote you can mount or carry.",
      "pros": ["Up to 24 scenes", "Rechargeable battery", "Magnetic base or decora box", "5-year warranty when registered"],
-     "cons": ["Only 75 reviews", "SmartThings and Hubitat need custom drivers", "$46.95"]},
+     "cons": ["Only 77 reviews", "SmartThings and Hubitat need custom drivers", "$46.95"]},
     {"asin": "B0987K9VS3", "brand": "Aeotec", "model": "WallMote 7", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"type": "Battery remote", "buttons": "Multi-tap", "series": "700 Series", "power": "Battery", "notes": "144 ft. indoor range"},
      "features": {"long_range": false, "buttons": false, "battery_free": false, "mount": true},

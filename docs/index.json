@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -181,8 +181,8 @@
    "json": "https://themisreviews.com/z-wave-door-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 7,
    "awards": [
     {
@@ -263,8 +263,8 @@
    "json": "https://themisreviews.com/z-wave-leak-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Leak sensors",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 8,
    "awards": [
     {
@@ -386,16 +386,16 @@
    "json": "https://themisreviews.com/z-wave-thermostats.json",
    "protocol": "Z-Wave",
    "product_type": "Thermostats",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 3,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B07HFL7R44",
      "name": "Honeywell T6 Pro Z-Wave (TH6320ZW2003)",
-     "price": 136.09,
-     "why": "Honeywell's T6 Pro Z-Wave, with 724 reviews and wide support across Z-Wave hubs."
+     "price": 135.99,
+     "why": "Honeywell's T6 Pro Z-Wave, with 723 reviews and wide support across Z-Wave hubs."
     },
     {
      "label": "Best for Security Panels",
@@ -413,23 +413,16 @@
    "json": "https://themisreviews.com/z-wave-buttons.json",
    "protocol": "Z-Wave",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
-   "products": 4,
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
+   "products": 3,
    "awards": [
     {
      "label": "Best Overall",
-     "asin": "B09B6S4TSL",
-     "name": "Zooz ZEN32 800LR",
-     "price": 47.95,
-     "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars."
-    },
-    {
-     "label": "Best Budget",
      "asin": "B08TMWLY74",
      "name": "Zooz ZEN34 800LR",
      "price": 37.95,
-     "why": "A battery paddle remote with Long Range for $37.95, 413 reviews."
+     "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."
     },
     {
      "label": "Best Battery Remote",
@@ -840,9 +833,9 @@
    "json": "https://themisreviews.com/zigbee-bulbs.json",
    "protocol": "Zigbee",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
-   "products": 9,
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
+   "products": 8,
    "awards": [
     {
      "label": "Best Overall",
@@ -855,7 +848,7 @@
      "label": "Best Budget White",
      "asin": "B078HHWQWG",
      "name": "Sengled Zigbee bulb (daylight)",
-     "price": 14.99,
+     "price": 11.35,
      "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,862 reviews."
     },
     {
@@ -863,7 +856,7 @@
      "asin": "B0FMGP1P6W",
      "name": "Philips Hue Essential A19 (4-pack)",
      "price": 69.99,
-     "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 4K+ bought last month."
+     "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 6K+ bought last month."
     },
     {
      "label": "Brightest",
@@ -963,15 +956,15 @@
    "json": "https://themisreviews.com/zigbee-leak-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Leak sensors",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DFVY6HS9",
      "name": "SONOFF SNZB-05P",
-     "price": 24.99,
+     "price": 24.93,
      "why": "4.5 stars, a 5-year battery, drip detection, and an optional sensing cable."
     },
     {
@@ -985,7 +978,7 @@
      "label": "Best with Alarm",
      "asin": "B09GYFN8VL",
      "name": "THIRDREALITY Zigbee leak sensor",
-     "price": 20.99,
+     "price": 18.99,
      "why": "A 120 dB siren right at the leak, plus app and email alerts."
     },
     {
@@ -1079,23 +1072,23 @@
    "json": "https://themisreviews.com/zigbee-buttons.json",
    "protocol": "Zigbee",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B08W8GLPD5",
      "name": "Philips Hue Dimmer Switch V2",
-     "price": 26.99,
-     "why": "4.7 stars from 4,032 reviews, a magnetic wall plate, and 3K+ bought last month."
+     "price": 27.98,
+     "why": "4.7 stars from 4,036 reviews, a magnetic wall plate, and 4K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B07D19YXND",
      "name": "Aqara Wireless Mini Switch",
      "price": 15.9,
-     "why": "A $15.90 button with single, double, and long press, 3,086 reviews."
+     "why": "A $15.90 button with single, double, and long press, 3,095 reviews."
     },
     {
      "label": "Best for Home Assistant",
@@ -1195,8 +1188,8 @@
    "json": "https://themisreviews.com/zigbee-relays.json",
    "protocol": "Zigbee",
    "product_type": "Relays and modules",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
@@ -1204,7 +1197,7 @@
      "asin": "B0DFLR468J",
      "name": "SONOFF ZBMINIR2 (4-pack)",
      "price": 45.9,
-     "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,514 buyers."
+     "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,535 buyers."
     },
     {
      "label": "Best Budget",
@@ -1597,23 +1590,23 @@
    "json": "https://themisreviews.com/wifi-bulbs.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CS8T6VPV",
      "name": "Tapo L531E",
-     "price": 22.57,
-     "why": "A full-color, CRI 90+ bulb with 7,508 reviews and 5K+ bought last month."
+     "price": 16.13,
+     "why": "A full-color, CRI 90+ bulb with 7,514 reviews and 4K+ bought last month."
     },
     {
      "label": "Most Popular",
      "asin": "B09B7QNYHR",
      "name": "Govee A19 smart bulb",
      "price": 18.99,
-     "why": "27,491 reviews at 4.6 stars and 6K+ bought last month."
+     "why": "27,541 reviews at 4.6 stars and 10K+ bought last month."
     },
     {
      "label": "Brightest",
@@ -1713,15 +1706,15 @@
    "json": "https://themisreviews.com/wifi-leak-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Leak sensors",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CRRMD559",
      "name": "SwitchBot Wi-Fi water leak detector",
-     "price": 19.99,
+     "price": 16.99,
      "why": "Direct Wi-Fi with no hub, a 1 m water-level probe, a 100 dB alarm, and Alexa, Google, and SmartThings support."
     },
     {
@@ -1729,14 +1722,14 @@
      "asin": "B0BDF94TMV",
      "name": "X-Sense SWS54 kit",
      "price": 37.99,
-     "why": "Three sensors and a base for $37.99, with 120 dB alarms on both and 2,294 reviews."
+     "why": "Three sensors and a base for $37.99, with 120 dB alarms on both and 2,298 reviews."
     },
     {
      "label": "Best Range",
      "asin": "B083Z5Z9HM",
      "name": "YoLink Water Leak Sensor 1 (3-pack)",
      "price": 49.99,
-     "why": "LoRa radio reaches about 2,000 ft, so sensors work in sheds and detached garages. 6,963 reviews."
+     "why": "LoRa radio reaches about 2,000 ft, so sensors work in sheds and detached garages. 6,972 reviews."
     },
     {
      "label": "Best Single Sensor",
@@ -1836,15 +1829,15 @@
    "json": "https://themisreviews.com/wifi-thermostats.json",
    "protocol": "Wi-Fi",
    "product_type": "Thermostats",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B09XXTQPXC",
      "name": "ecobee Smart Thermostat Enhanced",
-     "price": 172.99,
+     "price": 177.99,
      "why": "ecobee's mid-range model with room sensor support and Apple Home, Alexa, Google, and SmartThings, 3K+ bought last month."
     },
     {
@@ -1852,61 +1845,61 @@
      "asin": "B08J4C8871",
      "name": "Amazon Smart Thermostat",
      "price": 79.99,
-     "why": "$79.99 and 25,615 reviews. The easy pick for an Alexa home with a C-wire."
+     "why": "$79.99 and 25,632 reviews. The easy pick for an Alexa home with a C-wire."
     },
     {
      "label": "Best Without Apps",
      "asin": "B01NB1OB0I",
      "name": "Sensi ST55",
-     "price": 99.99,
-     "why": "Sensi's simple, well-rated thermostat with 23,125 reviews and no subscription."
+     "price": 114.99,
+     "why": "Sensi's simple, well-rated thermostat with 23,136 reviews and no subscription."
     },
     {
      "label": "Most Features",
      "asin": "B09XXS48P8",
      "name": "ecobee Smart Thermostat Premium",
-     "price": 252.0,
+     "price": 239.99,
      "why": "Alexa and Siri built in, plus a SmartSensor in the box."
     }
    ]
   },
   {
    "slug": "wifi-indoor-cameras",
-   "title": "The 10 Best Indoor Wi-Fi Security Cameras",
+   "title": "The 9 Best Indoor Wi-Fi Security Cameras",
    "url": "https://themisreviews.com/wifi-indoor-cameras.html",
    "json": "https://themisreviews.com/wifi-indoor-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Indoor cameras",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
-   "products": 10,
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
+   "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0D7XPXCSL",
      "name": "Tapo C211 (2-pack)",
-     "price": 49.99,
-     "why": "Two 2K pan-and-tilt cameras with microSD recording for $49.99, 7K+ bought last month."
+     "price": 44.99,
+     "why": "Two 2K pan-and-tilt cameras with microSD recording for $44.99, 5K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0866S3D82",
      "name": "Tapo C100",
-     "price": 17.98,
-     "why": "A 1080p camera with microSD storage for $17.98 and 29,121 reviews."
+     "price": 24.99,
+     "why": "A 1080p camera with microSD storage for $24.99 and 29,213 reviews."
     },
     {
      "label": "Best for Alexa and Ring",
      "asin": "B0B6GLQJMV",
      "name": "Ring Indoor Cam (newest)",
      "price": 49.99,
-     "why": "46,901 reviews at 4.7 stars, and it fits straight into a Ring setup."
+     "why": "47,036 reviews at 4.7 stars, and it fits straight into a Ring setup."
     },
     {
      "label": "Best No Subscription",
      "asin": "B0DJVGZQW7",
      "name": "eufy Indoor Cam E30 (4K)",
-     "price": 69.99,
+     "price": 59.99,
      "why": "4K with local storage, no subscription, and Apple HomeKit support."
     }
    ]
@@ -1918,8 +1911,8 @@
    "json": "https://themisreviews.com/wifi-outdoor-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor cameras",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
@@ -1934,13 +1927,13 @@
      "asin": "B0C5QRZ47P",
      "name": "Ring Outdoor Cam (Stick Up Cam)",
      "price": 79.99,
-     "why": "65,898 reviews and 10K+ bought last month, battery or wired, and it fits a Ring setup."
+     "why": "65,965 reviews and 10K+ bought last month, battery or wired, and it fits a Ring setup."
     },
     {
      "label": "Best Solar",
      "asin": "B0CCYP6KFM",
      "name": "eufy SoloCam S340",
-     "price": 159.99,
+     "price": 119.99,
      "why": "3K dual-lens with a built-in solar panel and free local storage, 6K+ bought last month."
     },
     {
@@ -1959,29 +1952,29 @@
    "json": "https://themisreviews.com/wifi-doorbells.json",
    "protocol": "Wi-Fi",
    "product_type": "Video doorbells",
-   "data_captured": "2026-10-27",
-   "updated": "2026-10-27",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0D8MKQ5RC",
      "name": "Tapo D225",
-     "price": 99.99,
+     "price": 89.99,
      "why": "2K, wired or battery, a chime in the box, and microSD storage with no subscription needed."
     },
     {
      "label": "Best Budget",
      "asin": "B0G2D1R15Q",
      "name": "Ring Battery Doorbell 2K (newest)",
-     "price": 44.99,
-     "why": "Ring's 2K battery doorbell for $44.99, with 10K+ bought last month."
+     "price": 39.99,
+     "why": "Ring's 2K battery doorbell for $39.99, with 10K+ bought last month."
     },
     {
      "label": "Best Package View",
      "asin": "B0CD7NT4Y9",
      "name": "eufy Video Doorbell E340",
-     "price": 119.98,
+     "price": 119.99,
      "why": "Two cameras, one aimed down at packages, with 8 GB local storage."
     },
     {
@@ -2669,8 +2662,8 @@
    "json": "https://themisreviews.com/wifi-ac-controllers.json",
    "protocol": "Wi-Fi",
    "product_type": "AC controllers",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 7,
    "awards": [
     {
@@ -2678,7 +2671,7 @@
      "asin": "B0C7VMZ9FG",
      "name": "Cielo Breez Max",
      "price": 114.44,
-     "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,060 buyers."
+     "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,071 buyers."
     },
     {
      "label": "Best Budget",
@@ -4341,8 +4334,8 @@
    "json": "https://themisreviews.com/bluetooth-blinds.json",
    "protocol": "Bluetooth",
    "product_type": "Blinds and shades",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 9,
    "awards": [
     {
@@ -4350,14 +4343,14 @@
      "asin": "B0C6XZYFS7",
      "name": "SwitchBot Curtain 3 (U Rail)",
      "price": 89.99,
-     "why": "SwitchBot Curtain 3 for U-rails, rated 4.5 stars by 513 buyers."
+     "why": "SwitchBot Curtain 3 for U-rails, rated 4.5 stars by 514 buyers."
     },
     {
      "label": "Best for Blinds",
      "asin": "B0BMLFZ4CP",
      "name": "SwitchBot Blind Tilt",
      "price": 59.99,
-     "why": "Solar tilt motor for existing horizontal blinds, 1,459 reviews."
+     "why": "Solar tilt motor for existing horizontal blinds, 1,462 reviews."
     },
     {
      "label": "Best Starter Kit",
@@ -4750,23 +4743,23 @@
    "json": "https://themisreviews.com/thread-bulbs.json",
    "protocol": "Thread",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 2,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DN63SFWL",
      "name": "Aqara LED Light Bulb T2 (Color)",
-     "price": 21.99,
+     "price": 23.99,
      "why": "Aqara's T2 color bulb runs on Thread or Zigbee, 500+ bought last month."
     },
     {
      "label": "Best White Bulb",
      "asin": "B0DN1542G5",
      "name": "Aqara LED Light Bulb T2 (Tunable White)",
-     "price": 19.99,
-     "why": "The tunable white T2 at 1,100 lm for $19.99."
+     "price": 21.99,
+     "why": "The tunable white T2 at 1,100 lm for $21.99."
     }
    ]
   },
@@ -5152,8 +5145,8 @@
    "json": "https://themisreviews.com/matter-smoke-detectors.json",
    "protocol": "Matter",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 3,
    "awards": [
     {
@@ -5186,16 +5179,16 @@
    "json": "https://themisreviews.com/matter-light-strips.json",
    "protocol": "Matter",
    "product_type": "Light strips",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 5,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DL9G5F5R",
      "name": "Govee RGBIC Neon 32.8 ft (Matter)",
-     "price": 119.99,
-     "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,323 buyers."
+     "price": 159.99,
+     "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,316 buyers."
     },
     {
      "label": "Best Budget",
@@ -5220,8 +5213,8 @@
    "json": "https://themisreviews.com/matter-relays.json",
    "protocol": "Matter",
    "product_type": "Relays and modules",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 8,
    "awards": [
     {
@@ -5261,8 +5254,8 @@
    "json": "https://themisreviews.com/matter-presence-sensors.json",
    "protocol": "Matter",
    "product_type": "Presence sensors",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 3,
    "awards": [
     {
@@ -5270,7 +5263,7 @@
      "asin": "B0FG2MD3YP",
      "name": "Aqara FP300",
      "price": 46.99,
-     "why": "mmWave plus PIR with temperature, humidity, and light on batteries, 1K+ bought last month."
+     "why": "mmWave plus PIR with temperature, humidity, and light on batteries, 2K+ bought last month."
     },
     {
      "label": "Best Rated",
@@ -5288,8 +5281,8 @@
    "json": "https://themisreviews.com/matter-air-purifiers.json",
    "protocol": "Matter",
    "product_type": "Air purifiers",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 3,
    "awards": [
     {
@@ -5315,22 +5308,22 @@
    "json": "https://themisreviews.com/matter-outlets.json",
    "protocol": "Matter",
    "product_type": "In-wall outlets",
-   "data_captured": "2026-10-28",
-   "updated": "2026-10-28",
+   "data_captured": "2026-11-03",
+   "updated": "2026-11-03",
    "products": 5,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DLLQR3K7",
      "name": "Tapo P210M",
-     "price": 25.99,
-     "why": "Two controlled sockets and energy monitoring for $25.99, 500+ bought last month."
+     "price": 20.99,
+     "why": "Two controlled sockets and energy monitoring for $20.99, 1K+ bought last month."
     },
     {
      "label": "Best on Thread",
      "asin": "B0CT62FC6W",
      "name": "Eve Energy Outlet",
-     "price": 54.97,
+     "price": 54.99,
      "why": "Eve's outlet runs on Thread, so it strengthens your Thread mesh and needs no Wi-Fi."
     }
    ]
@@ -5757,7 +5750,7 @@
    "json": "https://themisreviews.com/lutron-fan-controls.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Fan controls",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "updated": "2026-10-28",
    "products": 2,
    "awards": [
