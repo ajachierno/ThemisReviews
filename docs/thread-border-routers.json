@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#thread"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-11-02",
- "updated": "2026-11-02",
+ "data_captured": "2026-11-03",
+ "updated": "2026-11-03",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,7 +37,7 @@
    "asin": "B08ZK39NSL",
    "name": "eero 6+",
    "price": 139.99,
-   "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,611 reviews."
+   "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,612 reviews."
   },
   {
    "label": "Best Budget",
@@ -72,7 +72,7 @@
    "price": 139.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 10611,
+   "reviews_count": 10612,
    "score": 86,
    "awards": [
     "Best Overall"
@@ -91,7 +91,7 @@
    "pros": [
     "Thread and Zigbee hub built in, per the listing",
     "Gigabit Wi-Fi 6",
-    "4.4 stars from 10,611 reviews",
+    "4.4 stars from 10,612 reviews",
     "Sold by Amazon"
    ],
    "cons": [
@@ -224,6 +224,62 @@
   },
   {
    "rank": 4,
+   "asin": "B0FLXXF4YW",
+   "name": "Aqara Smart Hub M200, Matter Controller, Featuring Aqara Zigbee, Wi-Fi, IR",
+   "brand": "Aqara",
+   "model": "Hub M200",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 398,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A smaller Aqara hub that's a Thread border router, Matter controller, and Matter bridge, with an IR blaster and PoE.",
+   "pros": [
+    "Thread border router, Matter controller, and Matter bridge, per the listing",
+    "PoE or dual-band Wi-Fi",
+    "IR blaster with feedback",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Up to 40 Thread devices, fewer than the M3's 127",
+    "Zigbee for Aqara devices only",
+    "4.0 stars from 398 reviews"
+   ],
+   "specs": {
+    "type": "Hub",
+    "controller": true,
+    "radios": "Aqara Zigbee, IR",
+    "needs": "Aqara app"
+   },
+   "features": {
+    "standalone": true,
+    "matter_controller": true,
+    "extra_radios": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61kJxmiPr3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FLXXF4YW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FLXXF4YW"
+  },
+  {
+   "rank": 5,
    "asin": "B0DWK8318H",
    "name": "Aqara Smart Hub M100 for Home Automation, Matter Controller, Wi-Fi",
    "brand": "Aqara",
@@ -231,7 +287,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 1040,
+   "reviews_count": 1039,
    "score": 77,
    "awards": [
     "Best Budget"
@@ -280,7 +336,7 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0DWK8318H"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0FMJH4DPN",
    "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
    "brand": "SONOFF",
@@ -288,7 +344,7 @@
    "price": 42.9,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 689,
+   "reviews_count": 690,
    "score": 68,
    "awards": [],
    "works_with": [
@@ -329,7 +385,7 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJH4DPN"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0FMJD288B",
    "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24 (Dongle-PMG24)",
    "brand": "SONOFF",
@@ -337,7 +393,7 @@
    "price": 35.9,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 750,
+   "reviews_count": 751,
    "score": 67,
    "awards": [
     "Best for Home Assistant"
@@ -378,55 +434,6 @@
    "image": "https://m.media-amazon.com/images/I/41cndlAw3bL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FMJD288B?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJD288B"
-  },
-  {
-   "rank": 7,
-   "asin": "B0H3W7JGP2",
-   "name": "Google Nest Wifi Pro Wi-Fi 6E Mesh Router, Non-Retail Packaging, 2 Pack, Fog",
-   "brand": "Google",
-   "model": "Nest Wifi Pro",
-   "price": 199.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 305,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Google's Wi-Fi 6E router, which doubles as a Thread border router for Google Home.",
-   "pros": [
-    "Wi-Fi 6E with a 6 GHz band",
-    "Up to 2,200 sq. ft. per router",
-    "50+ bought in the past month"
-   ],
-   "cons": [
-    "\"Non-Retail Packaging\" from a reseller",
-    "The listing doesn't mention Thread",
-    "Not compatible with older Google Wifi or Nest Wifi"
-   ],
-   "specs": {
-    "type": "Mesh Wi-Fi router",
-    "controller": false,
-    "radios": "None listed",
-    "needs": "Google Home app"
-   },
-   "features": {
-    "standalone": true,
-    "matter_controller": false,
-    "extra_radios": false,
-    "network": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41la7UmE34L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H3W7JGP2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-border-routers.html#B0H3W7JGP2"
   },
   {
    "rank": 8,
@@ -568,6 +575,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-03",
+   "notes": [
+    "Added Aqara Hub M200.",
+    "Dropped Google Nest Wifi Pro.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Replaced the Google Nest Wifi Pro: every Amazon listing for it is now a reseller multi-pack (the one we carried became a non-retail 2-pack at $199.99), and none mentions Thread. Added the Aqara Hub M200 ($69.99, 4.0 stars from 398 reviews), which names Thread border router, Matter controller, and Matter bridge in its listing. Other prices unchanged."
+   ]
+  },
   {
    "date": "2026-11-02",
    "notes": [

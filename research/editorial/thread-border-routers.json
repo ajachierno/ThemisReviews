@@ -45,7 +45,7 @@
       "asin": "B08ZK39NSL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,611 reviews."
+      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,612 reviews."
     },
     {
       "asin": "B0DWK8318H",
@@ -90,7 +90,7 @@
       "pros": [
         "Thread and Zigbee hub built in, per the listing",
         "Gigabit Wi-Fi 6",
-        "4.4 stars from 10,611 reviews",
+        "4.4 stars from 10,612 reviews",
         "Sold by Amazon"
       ],
       "cons": [
@@ -206,35 +206,41 @@
       ]
     },
     {
-      "asin": "B0H3W7JGP2",
-      "name": "Google Nest Wifi Pro Wi-Fi 6E Mesh Router, Non-Retail Packaging, 2 Pack, Fog",
-      "brand": "Google",
-      "model": "Nest Wifi Pro",
+      "asin": "B0FLXXF4YW",
+      "brand": "Aqara",
+      "model": "Hub M200",
       "systems": [
-        "google-home"
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
       ],
       "specs": {
-        "type": "Mesh Wi-Fi router",
-        "controller": false,
-        "radios": "None listed",
-        "needs": "Google Home app"
+        "type": "Hub",
+        "controller": true,
+        "radios": "Aqara Zigbee, IR",
+        "needs": "Aqara app"
       },
       "features": {
         "standalone": true,
-        "matter_controller": false,
-        "extra_radios": false,
+        "matter_controller": true,
+        "extra_radios": true,
         "network": true
       },
-      "verdict": "Google's Wi-Fi 6E router, which doubles as a Thread border router for Google Home.",
+      "verdict": "A smaller Aqara hub that's a Thread border router, Matter controller, and Matter bridge, with an IR blaster and PoE.",
       "pros": [
-        "Wi-Fi 6E with a 6 GHz band",
-        "Up to 2,200 sq. ft. per router",
-        "50+ bought in the past month"
+        "Thread border router, Matter controller, and Matter bridge, per the listing",
+        "PoE or dual-band Wi-Fi",
+        "IR blaster with feedback",
+        "500+ bought in the past month"
       ],
       "cons": [
-        "\"Non-Retail Packaging\" from a reseller",
-        "The listing doesn't mention Thread",
-        "Not compatible with older Google Wifi or Nest Wifi"
+        "Up to 40 Thread devices, fewer than the M3's 127",
+        "Zigbee for Aqara devices only",
+        "4.0 stars from 398 reviews"
       ]
     },
     {

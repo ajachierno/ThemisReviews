@@ -59,7 +59,7 @@
       "asin": "B08ZK39NSL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,611 reviews."
+      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,612 reviews."
     },
     {
       "asin": "B0DWK8318H",
@@ -104,7 +104,7 @@
       "pros": [
         "Thread and Zigbee hub built in, per the listing",
         "Gigabit Wi-Fi 6",
-        "4.4 stars from 10,611 reviews",
+        "4.4 stars from 10,612 reviews",
         "Sold by Amazon"
       ],
       "cons": [
@@ -116,7 +116,7 @@
       "image": "https://m.media-amazon.com/images/I/61jZBJ15YFL._AC_SL1500_.jpg",
       "price": 139.99,
       "rating": 4.4,
-      "reviews_count": 10611,
+      "reviews_count": 10612,
       "bought": "1K+ bought in past month"
     },
     {
@@ -159,7 +159,7 @@
       "image": "https://m.media-amazon.com/images/I/51iz6liRfQL._AC_SL1500_.jpg",
       "price": 39.99,
       "rating": 3.8,
-      "reviews_count": 1040,
+      "reviews_count": 1039,
       "bought": "500+ bought in past month"
     },
     {
@@ -244,41 +244,48 @@
       "bought": null
     },
     {
-      "asin": "B0H3W7JGP2",
-      "brand": "Google",
-      "model": "Nest Wifi Pro",
+      "asin": "B0FLXXF4YW",
+      "brand": "Aqara",
+      "model": "Hub M200",
       "systems": [
-        "google-home"
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
       ],
       "specs": {
-        "type": "Mesh Wi-Fi router",
-        "controller": false,
-        "radios": "None listed",
-        "needs": "Google Home app"
+        "type": "Hub",
+        "controller": true,
+        "radios": "Aqara Zigbee, IR",
+        "needs": "Aqara app"
       },
       "features": {
         "standalone": true,
-        "matter_controller": false,
-        "extra_radios": false,
+        "matter_controller": true,
+        "extra_radios": true,
         "network": true
       },
-      "verdict": "Google's Wi-Fi 6E router, which doubles as a Thread border router for Google Home.",
+      "verdict": "A smaller Aqara hub that's a Thread border router, Matter controller, and Matter bridge, with an IR blaster and PoE.",
       "pros": [
-        "Wi-Fi 6E with a 6 GHz band",
-        "Up to 2,200 sq. ft. per router",
-        "50+ bought in the past month"
+        "Thread border router, Matter controller, and Matter bridge, per the listing",
+        "PoE or dual-band Wi-Fi",
+        "IR blaster with feedback",
+        "500+ bought in the past month"
       ],
       "cons": [
-        "\"Non-Retail Packaging\" from a reseller",
-        "The listing doesn't mention Thread",
-        "Not compatible with older Google Wifi or Nest Wifi"
+        "Up to 40 Thread devices, fewer than the M3's 127",
+        "Zigbee for Aqara devices only",
+        "4.0 stars from 398 reviews"
       ],
-      "name": "Google Nest Wifi Pro Wi-Fi 6E Mesh Router, Non-Retail Packaging, 2 Pack, Fog",
-      "image": "https://m.media-amazon.com/images/I/41la7UmE34L._AC_SL1000_.jpg",
-      "price": 199.99,
-      "rating": 4.1,
-      "reviews_count": 305,
-      "bought": "50+ bought in past month"
+      "name": "Aqara Smart Hub M200, Matter Controller, Featuring Aqara Zigbee, Wi-Fi, IR",
+      "image": "https://m.media-amazon.com/images/I/61kJxmiPr3L._SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.0,
+      "reviews_count": 398,
+      "bought": "500+ bought in past month"
     },
     {
       "asin": "B0FMJD288B",
@@ -314,7 +321,7 @@
       "image": "https://m.media-amazon.com/images/I/41cndlAw3bL._AC_SL1500_.jpg",
       "price": 35.9,
       "rating": 4.6,
-      "reviews_count": 750,
+      "reviews_count": 751,
       "bought": "1K+ bought in past month"
     },
     {
@@ -388,7 +395,7 @@
       "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
       "price": 42.9,
       "rating": 4.3,
-      "reviews_count": 689,
+      "reviews_count": 690,
       "bought": "500+ bought in past month"
     },
     {

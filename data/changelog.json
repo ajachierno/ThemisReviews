@@ -1075,9 +1075,18 @@
   "audited": null
  },
  "thread-border-routers": {
-  "captured": "2026-11-02",
-  "updated": "2026-11-02",
+  "captured": "2026-11-03",
+  "updated": "2026-11-03",
   "entries": [
+   {
+    "date": "2026-11-03",
+    "notes": [
+     "Added Aqara Hub M200.",
+     "Dropped Google Nest Wifi Pro.",
+     "Prices, ratings, and review counts refreshed from Amazon.",
+     "Replaced the Google Nest Wifi Pro: every Amazon listing for it is now a reseller multi-pack (the one we carried became a non-retail 2-pack at $199.99), and none mentions Thread. Added the Aqara Hub M200 ($69.99, 4.0 stars from 398 reviews), which names Thread border router, Matter controller, and Matter bridge in its listing. Other prices unchanged."
+    ]
+   },
    {
     "date": "2026-11-02",
     "notes": [
@@ -1097,7 +1106,7 @@
     ]
    }
   ],
-  "audited": null
+  "audited": "2026-11-03"
  },
  "thread-bulbs": {
   "captured": "2026-11-03",
@@ -1982,9 +1991,16 @@
   "audited": null
  },
  "wifi-mailbox-sensors": {
-  "captured": "2026-10-31",
-  "updated": "2026-10-31",
+  "captured": "2026-11-03",
+  "updated": "2026-11-03",
   "entries": [
+   {
+    "date": "2026-11-03",
+    "notes": [
+     "Prices, ratings, and review counts refreshed from Amazon.",
+     "All picks kept. The Irrespek sensor dropped from $39.99 to $29.99; X-Sense now has 1,748 reviews. The Ring Mailbox Sensor was considered and left out because it connects over Amazon Sidewalk, not Wi-Fi."
+    ]
+   },
    {
     "date": "2026-10-31",
     "notes": [
@@ -1998,7 +2014,7 @@
     ]
    }
   ],
-  "audited": null
+  "audited": "2026-11-03"
  },
  "wifi-mesh-routers": {
   "captured": "2026-10-28",
