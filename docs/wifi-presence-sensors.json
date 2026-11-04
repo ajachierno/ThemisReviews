@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Presence sensors",
- "data_captured": "2026-10-28",
- "updated": "2026-10-28",
+ "data_captured": "2026-11-04",
+ "updated": "2026-11-04",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,8 +35,8 @@
    "label": "Best Overall",
    "asin": "B0BXWZMQJ3",
    "name": "Aqara FP2",
-   "price": 82.99,
-   "why": "Up to 5 people, multiple zones, and fall detection, with 2,526 reviews."
+   "price": 79.99,
+   "why": "Up to 5 people, multiple zones, and fall detection, with 2,533 reviews."
   },
   {
    "label": "Best for Home Assistant",
@@ -46,7 +46,7 @@
    "why": "A plug-and-play ESPHome presence sensor for $20.99."
   }
  ],
- "systems_note": "The Akamatis sensors and LD2410C modules run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+ "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
  "products": [
   {
    "rank": 1,
@@ -54,10 +54,10 @@
    "name": "Aqara Presence Sensor FP2, mmWave Radar Wired Smart Motion Sensor",
    "brand": "Aqara",
    "model": "FP2",
-   "price": 82.99,
+   "price": 79.99,
    "currency": "USD",
    "rating": 3.6,
-   "reviews_count": 2526,
+   "reviews_count": 2533,
    "score": 80,
    "awards": [
     "Best Overall"
@@ -80,11 +80,11 @@
     "Multiple detection zones",
     "Tracks up to 5 people",
     "Fall detection",
-    "2,526 reviews"
+    "2,533 reviews"
    ],
    "cons": [
     "3.6 stars",
-    "$82.99",
+    "$79.99",
     "2.4 GHz Wi-Fi only"
    ],
    "specs": {
@@ -111,7 +111,7 @@
    "price": 20.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 55,
+   "reviews_count": 56,
    "score": 73,
    "awards": [
     "Best for Home Assistant"
@@ -134,7 +134,7 @@
    ],
    "cons": [
     "Home Assistant only",
-    "Only 55 reviews",
+    "Only 56 reviews",
     "No zones"
    ],
    "specs": {
@@ -158,10 +158,10 @@
    "name": "SwitchBot Smart mmWave Radar Motion Sensor, Bluetooth Presence Sensor with Dynamic Detection & Zone Positioning, Compatible with Alexa, HomeKit & Apple Home (Presence Sensor*1)",
    "brand": "SwitchBot",
    "model": "mmWave Radar Motion Sensor",
-   "price": 25.99,
+   "price": 24.99,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 443,
+   "reviews_count": 448,
    "score": 72,
    "awards": [],
    "works_with": [
@@ -212,7 +212,7 @@
    "price": 24.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 37,
+   "reviews_count": 38,
    "score": 71,
    "awards": [],
    "works_with": [
@@ -233,7 +233,7 @@
    ],
    "cons": [
     "Home Assistant only",
-    "Only 37 reviews",
+    "Only 38 reviews",
     "$24.99"
    ],
    "specs": {
@@ -250,54 +250,6 @@
    "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0H2QYVWZ7"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CH8CRDS6",
-   "name": "3pcs LD2410C Human Presence Radar Sensor Module HLK-LD2410 LD2410 Millimeter Wave Non-Contact 24GHz ISM Band Serial Port IO Level Output",
-   "brand": "XIITIA",
-   "model": "LD2410C radar modules (3-pack)",
-   "price": 18.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 51,
-   "score": 64,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "DIY (ESPHome)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Bare radar modules for building your own ESPHome sensors.",
-   "pros": [
-    "3 modules for $18.99",
-    "4.6 stars",
-    "Configurable over Bluetooth"
-   ],
-   "cons": [
-    "Bare modules; you need an ESP32 and wiring",
-    "No case",
-    "For tinkerers only"
-   ],
-   "specs": {
-    "radar": "24 GHz",
-    "power": "From your board",
-    "extras": "Up to 5 m, Bluetooth config",
-    "hub": "Your ESP32 + Home Assistant"
-   },
-   "features": {
-    "zones": false,
-    "local": true,
-    "consumer": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71bVSLBxneL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CH8CRDS6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0CH8CRDS6"
   }
  ],
  "avoid": [],
@@ -316,6 +268,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-04",
+   "notes": [
+    "Dropped XIITIA LD2410C radar modules (3-pack).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-28",
    "notes": [

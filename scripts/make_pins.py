@@ -12,6 +12,8 @@ upload requires. Needs Pillow (the site build does not):
     python scripts/make_pins.py --start 2026-10-06 --per-day 5
     python scripts/make_pins.py --only sample      # one of each format, no CSV
     python scripts/make_pins.py --holidays         # holiday deal pins -> marketing/pinterest/queue.csv
+    python scripts/make_pins.py --pages <slugs> --refresh "November 2026"   # fresh top-3 pins for
+        # pages whose picks changed since their first pin; then marketing/pinterest/add_to_queue.py
 """
 import argparse
 import csv
@@ -193,7 +195,7 @@ def short_title(sub):
 
 
 # ----------------------------------------------------------------------- formats
-def pin_top3(sub, cat, year):
+def pin_top3(sub, cat, year, update=None):
     ranked = sorted(cat["products"], key=lambda p: p["rank"])
     ov, bu = build.page_overall_budget(cat)
     picks, seen = [("Best Overall", OVERALL, ov)], {ov["asin"]}
@@ -210,6 +212,8 @@ def pin_top3(sub, cat, year):
     product_rows(d, y, picks, H - 230)
     footer(d, "See the full ranking")
     title = f"The Best {t} ({year}): Top Picks Ranked From Real Reviews"
+    if update:  # refreshed pin for a page whose picks changed since its first pin
+        title = f"The Best {t}, {update} Update: Top Picks Ranked From Real Reviews"
     desc = (f"Which {sub['title'].lower()} are worth buying? We scored every one on Amazon rating, "
             f"review count, and the features that matter. Best Overall: {name(ov)}."
             + (f" Best Budget: {name(bu)}." if bu and bu is not ov else "")
@@ -515,6 +519,10 @@ def main():
     ap.add_argument("--holidays", action="store_true",
                     help="only the holiday deal pins, dated to each page's link_from, written into "
                          "marketing/pinterest/queue.csv (rows already in sent.csv are left alone)")
+    ap.add_argument("--refresh", metavar="LABEL",
+                    help="with --pages: refreshed top-3 pins only, id top3-<slug>-<label-slug>, title "
+                         "'..., <LABEL> Update' (e.g. --refresh 'November 2026'); add the batch CSV with "
+                         "marketing/pinterest/add_to_queue.py")
     ap.add_argument("--pages", nargs="+", help="only top-3/avoid pins for these page slugs (a follow-up batch); a gifts- prefix such as gifts-splurge picks gift pins")
     args = ap.parse_args()
     if args.holidays:
@@ -524,6 +532,14 @@ def main():
     if args.pages:
         want = set(args.pages)
         ordered = [p for p in seasonal + evergreen if (p[0].split("-", 1)[1] in want or any(p[0].startswith(w) for w in want if w.startswith("gifts-"))) and not p[0].startswith("protocol-")]
+        bf_pin = None
+    if args.refresh:
+        assert args.pages, "--refresh needs --pages"
+        tag = args.refresh.lower().replace(" ", "-")
+        year = str(site["updated"])[:4]
+        want = set(args.pages)
+        ordered = [(f"top3-{sub['slug']}-{tag}", board_for(cat), pin_top3(sub, cat, year, args.refresh))
+                   for _p, sub, cat in build.ranked_pages(site) if sub["slug"] in want]
         bf_pin = None
     if args.only == "sample":
         keep = {seasonal[0][0] if seasonal else "", "black-friday-cheat-sheet", "top3-wifi-smart-plugs",

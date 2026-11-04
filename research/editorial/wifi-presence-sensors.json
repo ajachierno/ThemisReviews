@@ -4,7 +4,7 @@
     "local": 0.3,
     "consumer": 0.4
   },
-  "systems_note": "The Akamatis sensors and LD2410C modules run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+  "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
   "spec_fields": [
     {
       "key": "radar",
@@ -42,7 +42,7 @@
       "asin": "B0BXWZMQJ3",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Up to 5 people, multiple zones, and fall detection, with 2,526 reviews."
+      "why": "Up to 5 people, multiple zones, and fall detection, with 2,533 reviews."
     },
     {
       "asin": "B0FX7FXQGB",
@@ -78,11 +78,11 @@
         "Multiple detection zones",
         "Tracks up to 5 people",
         "Fall detection",
-        "2,526 reviews"
+        "2,533 reviews"
       ],
       "cons": [
         "3.6 stars",
-        "$82.99",
+        "$79.99",
         "2.4 GHz Wi-Fi only"
       ]
     },
@@ -113,7 +113,7 @@
       ],
       "cons": [
         "Home Assistant only",
-        "Only 55 reviews",
+        "Only 56 reviews",
         "No zones"
       ]
     },
@@ -144,7 +144,7 @@
       ],
       "cons": [
         "Home Assistant only",
-        "Only 37 reviews",
+        "Only 38 reviews",
         "$24.99"
       ]
     },
@@ -180,37 +180,6 @@
         "3.5 stars",
         "Bluetooth; needs a SwitchBot hub for remote use",
         "Duplicate bullets in the listing"
-      ]
-    },
-    {
-      "asin": "B0CH8CRDS6",
-      "brand": "XIITIA",
-      "model": "LD2410C radar modules (3-pack)",
-      "systems": [
-        "home-assistant"
-      ],
-      "systems_label": "DIY (ESPHome)",
-      "specs": {
-        "radar": "24 GHz",
-        "power": "From your board",
-        "extras": "Up to 5 m, Bluetooth config",
-        "hub": "Your ESP32 + Home Assistant"
-      },
-      "features": {
-        "zones": false,
-        "local": true,
-        "consumer": false
-      },
-      "verdict": "Bare radar modules for building your own ESPHome sensors.",
-      "pros": [
-        "3 modules for $18.99",
-        "4.6 stars",
-        "Configurable over Bluetooth"
-      ],
-      "cons": [
-        "Bare modules; you need an ESP32 and wiring",
-        "No case",
-        "For tinkerers only"
       ]
     }
   ],

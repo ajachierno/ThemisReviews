@@ -265,7 +265,7 @@ PAGES = {
         "Wi-Fi automatic feeders for cats and dogs, ranked from live Amazon data.",
         "We pulled the Wi-Fi automatic pet feeders on Amazon and scored them on rating, review volume, and features: cameras, battery backup, and capacity.",
         10000, PET_FEEDER_GUIDE),
-    "wifi-pet-cameras": _p("pet-cameras", "Pet cameras", "camera", "The 10 Best Pet Cameras",
+    "wifi-pet-cameras": _p("pet-cameras", "Pet cameras", "camera", "The Best Pet Cameras",
         "Treat-tossing and pan-tilt cameras for checking on pets, ranked.",
         "We pulled the pet cameras on Amazon and scored them on rating, review volume, and features: treat tossing, 360-degree view, and whether core features need a subscription.",
         20000, PET_CAM_GUIDE),
