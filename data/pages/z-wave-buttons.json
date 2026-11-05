@@ -68,6 +68,12 @@
       "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."
     },
     {
+      "asin": "B09B6S4TSL",
+      "label": "Best Wired",
+      "kind": "special",
+      "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars from 335 reviews."
+    },
+    {
       "asin": "B0CV8RXT5W",
       "label": "Best Battery Remote",
       "kind": "special",
@@ -75,6 +81,47 @@
     }
   ],
   "products": [
+    {
+      "asin": "B09B6S4TSL",
+      "brand": "Zooz",
+      "model": "ZEN32 800LR",
+      "systems": [
+        "home-assistant",
+        "smartthings",
+        "hubitat"
+      ],
+      "specs": {
+        "type": "Wired scene controller",
+        "buttons": "1 main + 4",
+        "series": "800 Series LR",
+        "power": "Wired (neutral required)",
+        "notes": "Controls a 120 V light up to 150 W LED"
+      },
+      "features": {
+        "long_range": true,
+        "buttons": true,
+        "battery_free": true,
+        "mount": true
+      },
+      "verdict": "A wall switch that runs a light and four scene buttons, and it never needs a battery.",
+      "pros": [
+        "Main button switches a light directly",
+        "Four extra scene buttons",
+        "Direct 3-way with regular switches",
+        "4.6 stars, 200+ bought in the past month"
+      ],
+      "cons": [
+        "Needs a neutral wire",
+        "SmartThings needs a custom driver",
+        "$47.95, and only 1 left at capture time"
+      ],
+      "name": "Zooz 800 Series Z-Wave Long Range Scene Controller ZEN32 800LR, White | Z-Wave Hub Required",
+      "image": "https://m.media-amazon.com/images/I/51H1AOPvtDL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 47.95,
+      "rating": 4.6,
+      "reviews_count": 335,
+      "bought": "200+ bought in past month"
+    },
     {
       "asin": "B08TMWLY74",
       "brand": "Zooz",
@@ -105,7 +152,6 @@
       ],
       "cons": [
         "Basic hubs can't program scene control, per Zooz",
-        "Only 20 left at capture time",
         "Two paddles only"
       ],
       "name": "Zooz 800 Series Z-Wave Long Range Remote Control & Scene Controller ZEN34 (Battery Powered), White | Z-Wave Hub Required",
@@ -188,7 +234,7 @@
       "cons": [
         "3.9 stars from 31 reviews",
         "700 Series, no Long Range",
-        "Stock wasn't shown at capture time"
+        "Only 2 left at capture time"
       ],
       "name": "Aeotec WallMote 7 Z-Wave Plus Wireless Remote and Scene Controller, Battery Powered",
       "image": "https://m.media-amazon.com/images/I/51HcaU4d1DS._SL1200_.jpg",

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Presence sensors",
- "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "data_captured": "2026-11-05",
+ "updated": "2026-11-05",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -46,7 +46,7 @@
    "why": "A plug-and-play ESPHome presence sensor for $20.99."
   }
  ],
- "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+ "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub. GoveeLife's listing says it doesn't support Home Assistant.",
  "products": [
   {
    "rank": 1,
@@ -111,7 +111,7 @@
    "price": 20.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 56,
+   "reviews_count": 57,
    "score": 73,
    "awards": [
     "Best for Home Assistant"
@@ -134,7 +134,7 @@
    ],
    "cons": [
     "Home Assistant only",
-    "Only 56 reviews",
+    "Only 57 reviews",
     "No zones"
    ],
    "specs": {
@@ -205,6 +205,61 @@
   },
   {
    "rank": 4,
+   "asin": "B0DYC9235W",
+   "name": "meross Presence Sensor MS600, Matter Over Wi-Fi, 1.5m Corded Motion Sensor",
+   "brand": "meross",
+   "model": "MS600",
+   "price": 33.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 191,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A corded Matter-over-Wi-Fi presence sensor that pairs radar with PIR and a light sensor.",
+   "pros": [
+    "Matter over Wi-Fi with local control",
+    "Radar, PIR, and light in one sensor",
+    "Pet shield included",
+    "$33.99"
+   ],
+   "cons": [
+    "3.8 stars from 191 reviews",
+    "Needs constant power",
+    "No detection zones"
+   ],
+   "specs": {
+    "radar": "mmWave + PIR",
+    "power": "Wired (1.5 m cord)",
+    "extras": "Light, pet shield",
+    "hub": "None for the Meross app; Matter controller for Matter"
+   },
+   "features": {
+    "zones": false,
+    "local": true,
+    "consumer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61q6s201paL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DYC9235W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0DYC9235W"
+  },
+  {
+   "rank": 5,
    "asin": "B0H2QYVWZ7",
    "name": "Akamatis Litos v3 Human Presence and Light Sensor, mmWave, 2.4 GHz Wi-Fi, Requires Home Assistant",
    "brand": "Akamatis",
@@ -212,7 +267,7 @@
    "price": 24.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 38,
+   "reviews_count": 40,
    "score": 71,
    "awards": [],
    "works_with": [
@@ -233,7 +288,7 @@
    ],
    "cons": [
     "Home Assistant only",
-    "Only 38 reviews",
+    "Only 40 reviews",
     "$24.99"
    ],
    "specs": {
@@ -250,6 +305,55 @@
    "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0H2QYVWZ7"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CNRRT45G",
+   "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor",
+   "brand": "GoveeLife",
+   "model": "Human Presence Sensor",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 263,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A Wi-Fi radar and PIR presence sensor for Govee homes, with Alexa and Google support.",
+   "pros": [
+    "Radar plus PIR for steadier detection",
+    "Automations by presence, duration, and distance",
+    "200+ bought in the past month"
+   ],
+   "cons": [
+    "The listing says it doesn't support Home Assistant",
+    "3.9 stars from 263 reviews",
+    "$39.99"
+   ],
+   "specs": {
+    "radar": "mmWave + PIR",
+    "power": "Wired (constant power)",
+    "extras": "Distance and duration triggers",
+    "hub": "None (2.4 GHz Wi-Fi)"
+   },
+   "features": {
+    "zones": false,
+    "local": false,
+    "consumer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61s-kBHk9BL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNRRT45G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0CNRRT45G"
   }
  ],
  "avoid": [],
@@ -268,6 +372,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-05",
+   "notes": [
+    "Added meross MS600, GoveeLife Human Presence Sensor.",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Added two Wi-Fi radar sensors that pair mmWave with PIR: the meross MS600 (Matter over Wi-Fi, $33.99, 3.8 stars from 191 reviews) and the GoveeLife Human Presence Sensor ($39.99, 3.9 stars from 263 reviews). All four existing picks kept; prices unchanged."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

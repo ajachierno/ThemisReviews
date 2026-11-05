@@ -4,7 +4,7 @@
     "local": 0.3,
     "consumer": 0.4
   },
-  "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub.",
+  "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub. GoveeLife's listing says it doesn't support Home Assistant.",
   "spec_fields": [
     {
       "key": "radar",
@@ -114,7 +114,7 @@
       ],
       "cons": [
         "Home Assistant only",
-        "Only 56 reviews",
+        "Only 57 reviews",
         "No zones"
       ]
     },
@@ -146,7 +146,7 @@
       ],
       "cons": [
         "Home Assistant only",
-        "Only 38 reviews",
+        "Only 40 reviews",
         "$24.99"
       ]
     },
@@ -183,6 +183,75 @@
         "3.5 stars",
         "Bluetooth; needs a SwitchBot hub for remote use",
         "Duplicate bullets in the listing"
+      ]
+    },
+    {
+      "asin": "B0DYC9235W",
+      "brand": "meross",
+      "model": "MS600",
+      "systems": [
+        "home-assistant",
+        "apple-home",
+        "google-home",
+        "alexa",
+        "smartthings",
+        "hubitat",
+        "homey"
+      ],
+      "specs": {
+        "radar": "mmWave + PIR",
+        "power": "Wired (1.5 m cord)",
+        "extras": "Light, pet shield",
+        "hub": "None for the Meross app; Matter controller for Matter"
+      },
+      "features": {
+        "zones": false,
+        "local": true,
+        "consumer": true
+      },
+      "verdict": "A corded Matter-over-Wi-Fi presence sensor that pairs radar with PIR and a light sensor.",
+      "pros": [
+        "Matter over Wi-Fi with local control",
+        "Radar, PIR, and light in one sensor",
+        "Pet shield included",
+        "$33.99"
+      ],
+      "cons": [
+        "3.8 stars from 191 reviews",
+        "Needs constant power",
+        "No detection zones"
+      ]
+    },
+    {
+      "asin": "B0CNRRT45G",
+      "brand": "GoveeLife",
+      "model": "Human Presence Sensor",
+      "systems": [
+        "alexa",
+        "google-home"
+      ],
+      "systems_label": "Govee Home app",
+      "specs": {
+        "radar": "mmWave + PIR",
+        "power": "Wired (constant power)",
+        "extras": "Distance and duration triggers",
+        "hub": "None (2.4 GHz Wi-Fi)"
+      },
+      "features": {
+        "zones": false,
+        "local": false,
+        "consumer": true
+      },
+      "verdict": "A Wi-Fi radar and PIR presence sensor for Govee homes, with Alexa and Google support.",
+      "pros": [
+        "Radar plus PIR for steadier detection",
+        "Automations by presence, duration, and distance",
+        "200+ bought in the past month"
+      ],
+      "cons": [
+        "The listing says it doesn't support Home Assistant",
+        "3.9 stars from 263 reviews",
+        "$39.99"
       ]
     }
   ],

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Buttons and remotes",
- "data_captured": "2026-11-03",
- "updated": "2026-11-03",
+ "data_captured": "2026-11-05",
+ "updated": "2026-11-05",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -40,6 +40,13 @@
    "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."
   },
   {
+   "label": "Best Wired",
+   "asin": "B09B6S4TSL",
+   "name": "Zooz ZEN32 800LR",
+   "price": 47.95,
+   "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars from 335 reviews."
+  },
+  {
    "label": "Best Battery Remote",
    "asin": "B0CV8RXT5W",
    "name": "Zooz ZEN37 800LR",
@@ -51,6 +58,61 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B09B6S4TSL",
+   "name": "Zooz 800 Series Z-Wave Long Range Scene Controller ZEN32 800LR, White | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN32 800LR",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 335,
+   "score": 94,
+   "awards": [
+    "Best Wired"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A wall switch that runs a light and four scene buttons, and it never needs a battery.",
+   "pros": [
+    "Main button switches a light directly",
+    "Four extra scene buttons",
+    "Direct 3-way with regular switches",
+    "4.6 stars, 200+ bought in the past month"
+   ],
+   "cons": [
+    "Needs a neutral wire",
+    "SmartThings needs a custom driver",
+    "$47.95, and only 1 left at capture time"
+   ],
+   "specs": {
+    "type": "Wired scene controller",
+    "buttons": "1 main + 4",
+    "series": "800 Series LR",
+    "power": "Wired (neutral required)",
+    "notes": "Controls a 120 V light up to 150 W LED"
+   },
+   "features": {
+    "long_range": true,
+    "buttons": true,
+    "battery_free": true,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51H1AOPvtDL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09B6S4TSL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B09B6S4TSL"
+  },
+  {
+   "rank": 2,
    "asin": "B08TMWLY74",
    "name": "Zooz 800 Series Z-Wave Long Range Remote Control & Scene Controller ZEN34 (Battery Powered), White | Z-Wave Hub Required",
    "brand": "Zooz",
@@ -83,7 +145,6 @@
    ],
    "cons": [
     "Basic hubs can't program scene control, per Zooz",
-    "Only 20 left at capture time",
     "Two paddles only"
    ],
    "specs": {
@@ -104,7 +165,7 @@
    "page_url": "https://themisreviews.com/z-wave-buttons.html#B08TMWLY74"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B0CV8RXT5W",
    "name": "Zooz 800 Series Z-Wave Long Range Wall Remote & Scene Controller ZEN37 (Battery Powered), White | Z-Wave Hub Required",
    "brand": "Zooz",
@@ -159,7 +220,7 @@
    "page_url": "https://themisreviews.com/z-wave-buttons.html#B0CV8RXT5W"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B0987K9VS3",
    "name": "Aeotec WallMote 7 Z-Wave Plus Wireless Remote and Scene Controller, Battery Powered",
    "brand": "Aeotec",
@@ -192,7 +253,7 @@
    "cons": [
     "3.9 stars from 31 reviews",
     "700 Series, no Long Range",
-    "Stock wasn't shown at capture time"
+    "Only 2 left at capture time"
    ],
    "specs": {
     "type": "Battery remote",
@@ -228,6 +289,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-05",
+   "notes": [
+    "Added Zooz ZEN32 800LR.",
+    "The Zooz ZEN32 scene controller is back in stock on Amazon ($47.95, 4.6 stars from 335 reviews), so it returns as Best Wired. The ZEN34 stays Best Overall. All other picks kept; prices unchanged."
+   ]
+  },
   {
    "date": "2026-11-03",
    "notes": [
