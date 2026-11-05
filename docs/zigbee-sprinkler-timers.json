@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Sprinklers and timers",
- "data_captured": "2026-10-29",
- "updated": "2026-10-29",
+ "data_captured": "2026-11-05",
+ "updated": "2026-11-05",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -59,13 +59,13 @@
   {
    "rank": 1,
    "asin": "B0H3L2JVZP",
-   "name": "SONOFF SWV-ZFU Hydro ONE Zigbee Smart Sprinkler Timer, Brass Inlet, Weather-Adaptive Scheduling Irrigation Timer with Flow Meter for Garden, 4 AA Powered, Requires Zigbee Hub, Compatible with HA",
+   "name": "SONOFF SWV-ZFU Hydro ONE Zigbee Smart Sprinkler Timer with Flow Meter, Brass Inlet, Weather-Adaptive, 4 AA Powered, Zigbee Hub Required",
    "brand": "SONOFF",
    "model": "Hydro ONE (SWV-ZFU)",
    "price": 36.9,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 45,
+   "reviews_count": 46,
    "score": 74,
    "awards": [
     "Best Overall"
@@ -79,16 +79,16 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "The most complete Zigbee hose timer: flow meter, weather adjustments, and leak and frost alerts.",
    "pros": [
     "Built-in flow meter with 6 months of history",
     "Leak, water shortage, and frost alerts",
     "Brass inlet",
-    "100+ bought in the past month"
+    "50+ bought in the past month"
    ],
    "cons": [
-    "3.9 stars from 45 reviews",
+    "3.9 stars from 46 reviews",
     "Needs a Zigbee hub",
     "4 AA batteries"
    ],
@@ -111,7 +111,7 @@
   {
    "rank": 2,
    "asin": "B0H4VC5XRQ",
-   "name": "SONOFF SWV-ZF2U Hydro DUO Zigbee Smart 2 Zone Sprinkler Timer, Brass Inlet, IP65, Type-C & 4 AA Battery Powered, Weather-Adaptive with Flow Meter for Garden, Requires Zigbee Hub, Compatible with HA",
+   "name": "SONOFF SWV-ZF2U Hydro DUO Zigbee 2-Zone Sprinkler Timer with Flow Meter, Brass Inlet, IP65, Type-C and 4 AA Powered, Hub Required",
    "brand": "SONOFF",
    "model": "Hydro DUO (SWV-ZF2U)",
    "price": 46.5,
@@ -131,7 +131,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Two zones with six schedules each and a flow meter.",
    "pros": [
     "Two outlets, 12 schedules total",
@@ -162,7 +162,7 @@
   {
    "rank": 3,
    "asin": "B0H3LB7234",
-   "name": "SONOFF SWV-ZNU Hydro ONE Lite Zigbee Smart Sprinkler Timer, Brass Inlet, Weather-Adaptive Scheduling Irrigation for Garden, 4 AA Battery Powered, Requires Zigbee Hub, No Flow Meter, Compatible with HA",
+   "name": "SONOFF SWV-ZNU Hydro ONE Lite Zigbee Smart Sprinkler Timer, Brass Inlet, Weather-Adaptive, 4 AA Powered, No Flow Meter, Hub Required",
    "brand": "SONOFF",
    "model": "Hydro ONE Lite (SWV-ZNU)",
    "price": 24.9,
@@ -182,7 +182,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "The Hydro ONE without the flow meter, for $24.90.",
    "pros": [
     "$24.90",
@@ -213,14 +213,14 @@
   {
    "rank": 4,
    "asin": "B0GWXCG5YT",
-   "name": "[Requires Zigbee Hub, Hub NOT Included] GIEX Zigbee Smart Water Timer with Flow Meter, Garden Hose Faucet Timer with Brass Inlet, Compatible with Tuya Smart Life, ZHA and Zigbee2MQTT",
+   "name": "GIEX Zigbee Smart Water Timer with Flow Meter, Brass Inlet, Tuya Smart Life, ZHA and Zigbee2MQTT, Requires Zigbee Hub (Not Included)",
    "brand": "GIEX",
    "model": "Zigbee water timer with flow meter",
    "price": 24.9,
    "currency": "USD",
-   "rating": 3.3,
-   "reviews_count": 26,
-   "score": 60,
+   "rating": 3.4,
+   "reviews_count": 27,
+   "score": 61,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -239,7 +239,7 @@
     "Watering cycles from 1 second for drip lines"
    ],
    "cons": [
-    "3.3 stars from 26 reviews",
+    "3.4 stars from 27 reviews",
     "Needs a Zigbee hub",
     "Weather adjustment isn't listed"
    ],
@@ -262,7 +262,7 @@
   {
    "rank": 5,
    "asin": "B0D5B8S8N8",
-   "name": "SONOFF Zigbee Sprinkler Timer, Gateway Required, Smart Controller Voice Control with Alexa and Google Home, Automate Irrigation for Garden, Lawn, Pool, Outdoor Watering, SWV-NH, Black",
+   "name": "SONOFF SWV-NH Zigbee Sprinkler Timer, Gateway Required, Works with Alexa and Google Home, Black",
    "brand": "SONOFF",
    "model": "Zigbee sprinkler timer (original)",
    "price": 29.9,
@@ -282,7 +282,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "SONOFF's older Zigbee timer, with Alexa and Google through the eWeLink app.",
    "pros": [
     "Alexa and Google through eWeLink",
@@ -376,6 +376,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-05",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-10-29",
    "notes": [

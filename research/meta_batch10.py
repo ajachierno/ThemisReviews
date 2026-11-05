@@ -251,7 +251,7 @@ PAGES = {
         "Backyard weather stations that upload to the internet and your phone, ranked.",
         "We pulled the Wi-Fi weather stations on Amazon and scored them on rating, review volume, and features: wind and rain sensors, an indoor display, and Weather Underground or Home Assistant support.",
         5000, WEATHER_GUIDE),
-    "wifi-bird-feeders": _p("bird-feeders", "Bird feeders", "feeder", "The 10 Best Smart Bird Feeders",
+    "wifi-bird-feeders": _p("bird-feeders", "Bird feeders", "feeder", "The Best Smart Bird Feeders",
         "Camera bird feeders that photograph and identify your visitors, ranked.",
         "We pulled the smart bird feeders on Amazon and scored them on rating, review volume, and features: video resolution, AI bird identification, solar power, and whether identification needs a subscription.",
         10000, BIRD_GUIDE),
