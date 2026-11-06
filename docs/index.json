@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -922,8 +922,8 @@
    "json": "https://themisreviews.com/zigbee-motion-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Motion sensors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -931,14 +931,14 @@
      "asin": "B0C1GB4DVR",
      "name": "SONOFF SNZB-03P",
      "price": 16.5,
-     "why": "Fast 5-second detection, a 3-year battery, 889 reviews, and $16.50."
+     "why": "Fast 5-second detection, a 3-year battery, 903 reviews, and $16.50."
     },
     {
      "label": "Best for Alexa",
      "asin": "B08RRRWK6B",
      "name": "THIRDREALITY Zigbee motion sensor",
-     "price": 19.99,
-     "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,283)."
+     "price": 17.99,
+     "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,285)."
     },
     {
      "label": "Best Presence Sensor",
@@ -1359,23 +1359,23 @@
    "json": "https://themisreviews.com/zigbee-vibration-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Vibration sensors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0C9DP249C",
      "name": "THIRDREALITY Smart Vibration Sensor",
-     "price": 19.99,
-     "why": "Works with open Zigbee hubs, has a built-in 110 dB alarm, and costs $19.99."
+     "price": 17.99,
+     "why": "Works with open Zigbee hubs, has a built-in 110 dB alarm, and costs $17.99."
     },
     {
      "label": "Best for Aqara Homes",
      "asin": "B07PJT939B",
      "name": "Aqara Vibration Sensor",
-     "price": 17.99,
-     "why": "Detects vibration, tilt, and drops, with 1,913 reviews."
+     "price": 19.99,
+     "why": "Detects vibration, tilt, and drops, with 1,917 reviews."
     }
    ]
   },
@@ -1474,8 +1474,8 @@
    "json": "https://themisreviews.com/wifi-switches.json",
    "protocol": "Wi-Fi",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -2198,8 +2198,8 @@
    "json": "https://themisreviews.com/wifi-hose-timers.json",
    "protocol": "Wi-Fi",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -2207,7 +2207,7 @@
      "asin": "B0H11D2TS9",
      "name": "GoveeLife H5901 with gateway",
      "price": 49.99,
-     "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 800+ bought last month, for $49.99."
+     "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 600+ bought last month, for $49.99."
     },
     {
      "label": "Best Budget",
@@ -2227,7 +2227,7 @@
      "label": "Best Multi-Zone",
      "asin": "B0B1QWVQPY",
      "name": "Orbit B-hyve XD 4-port",
-     "price": 79.99,
+     "price": 74.99,
      "why": "Four outlets on one faucet with weather-based adjustments, sold by Amazon."
     }
    ]
@@ -3017,8 +3017,8 @@
    "json": "https://themisreviews.com/wifi-outdoor-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -3026,7 +3026,7 @@
      "asin": "B0D14WP9TB",
      "name": "Govee Permanent Outdoor Lights 2 (100 ft)",
      "price": 279.99,
-     "why": "Year-round RGBIC eave lights rated 4.4 stars by 3,154 buyers, with 8K+ bought last month."
+     "why": "Year-round RGBIC eave lights rated 4.4 stars by 3,174 buyers, with 7K+ bought last month."
     },
     {
      "label": "Best Budget",
@@ -3039,15 +3039,15 @@
      "label": "Best Premium",
      "asin": "B0DX1WPB9J",
      "name": "Govee Permanent Outdoor Lights Pro (200 ft)",
-     "price": 759.99,
+     "price": 599.99,
      "why": "200 feet of permanent lights with real warm and cool whites, plus Matter."
     },
     {
      "label": "Best String Lights",
      "asin": "B0F21SVF9R",
      "name": "Govee S14 Bulb Outdoor String Lights 2 (96 ft)",
-     "price": 79.99,
-     "why": "96 feet of color bulbs with warm white and Matter support, 5K+ bought last month."
+     "price": 84.59,
+     "why": "96 feet of color bulbs with warm white and Matter support, 4K+ bought last month."
     }
    ]
   },
@@ -3092,8 +3092,8 @@
    "json": "https://themisreviews.com/wifi-floodlight-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Floodlight cameras",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 9,
    "awards": [
     {
@@ -3101,20 +3101,20 @@
      "asin": "B08F6GPQQ7",
      "name": "Ring Floodlight Cam Wired Plus",
      "price": 179.99,
-     "why": "Rated 4.7 stars by 44,503 buyers, with 2,000-lumen lights; recordings need Ring Protect."
+     "why": "Rated 4.7 stars by 44,556 buyers, with 2,000-lumen lights; recordings need Ring Protect."
     },
     {
      "label": "Best Budget",
      "asin": "B0C9W1K5Y8",
      "name": "Wyze Floodlight Camera v2",
-     "price": 79.99,
-     "why": "2K video, 2,800 lumens, and free 24/7 microSD recording for $79.99."
+     "price": 99.98,
+     "why": "2K video, 2,800 lumens, and free 24/7 microSD recording for $99.98."
     },
     {
      "label": "Best 4K",
      "asin": "B0GHR3WVT1",
      "name": "Reolink Elite Floodlight Wi-Fi 4K",
-     "price": 289.99,
+     "price": 249.99,
      "why": "4K panoramic 180° view, 3,000 lumens, and local recording with no monthly fees."
     },
     {
@@ -3133,16 +3133,16 @@
    "json": "https://themisreviews.com/wifi-outdoor-plugs.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor smart plugs",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B091FXH2FR",
      "name": "Kasa EP40 Outdoor Smart Plug",
-     "price": 22.99,
-     "why": "Two independent outlets, rated 4.6 stars by 17,547 buyers, with 10K+ bought last month."
+     "price": 18.99,
+     "why": "Two independent outlets, rated 4.6 stars by 17,556 buyers, with 8K+ bought last month."
     },
     {
      "label": "Best Budget",
@@ -3162,7 +3162,7 @@
      "label": "Best for Holiday Lights",
      "asin": "B08D4RQR1T",
      "name": "HBN Smart Outdoor Power Stake (6 outlets)",
-     "price": 25.99,
+     "price": 24.99,
      "why": "A six-outlet yard stake with a 6 ft cord for big light displays."
     }
    ]
@@ -3174,8 +3174,8 @@
    "json": "https://themisreviews.com/wifi-power-strips.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart power strips",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 9,
    "awards": [
     {
@@ -3183,7 +3183,7 @@
      "asin": "B07G95FFN3",
      "name": "Kasa HS300 Smart Power Strip",
      "price": 42.99,
-     "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,475 buyers."
+     "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,484 buyers."
     },
     {
      "label": "Best Budget",
@@ -3203,7 +3203,7 @@
      "label": "Best Outlet Extender",
      "asin": "B0CYGSFFFW",
      "name": "Tapo P306 Outlet Extender",
-     "price": 39.99,
+     "price": 34.99,
      "why": "Plugs straight into the wall with 3 smart outlets and 3 smart USB ports, and works with HomeKit."
     }
    ]
@@ -3215,29 +3215,29 @@
    "json": "https://themisreviews.com/wifi-humidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Humidifiers",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CCVX6FSD",
      "name": "Dreo Smart Humidifier 4L",
-     "price": 42.25,
-     "why": "A quiet 4 L smart humidifier with Alexa and Google, rated 4.4 stars by 12,281 buyers."
+     "price": 50.53,
+     "why": "A quiet 4 L smart humidifier with Alexa and Google, rated 4.4 stars by 12,331 buyers."
     },
     {
      "label": "Best Budget",
      "asin": "B0BT93MJ4G",
      "name": "GoveeLife Smart Humidifier 3L",
-     "price": 31.99,
-     "why": "A top-fill 3 L smart humidifier with auto mode for $31.99, 5K+ bought last month."
+     "price": 29.99,
+     "why": "A top-fill 3 L smart humidifier with auto mode for $29.99, 5K+ bought last month."
     },
     {
      "label": "Best for Large Rooms",
      "asin": "B0DT48R3BR",
      "name": "Dreo HM717S Smart Humidifier 8L",
-     "price": 99.94,
+     "price": 99.93,
      "why": "8 L, warm or cool mist, 80-hour runtime, and voice control."
     },
     {
@@ -3256,8 +3256,8 @@
    "json": "https://themisreviews.com/wifi-dehumidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Dehumidifiers",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -3265,27 +3265,27 @@
      "asin": "B07NRDBBH5",
      "name": "Midea 22 Pint Dehumidifier",
      "price": 194.99,
-     "why": "Rated 4.4 stars by 7,229 buyers, with Wi-Fi, Alexa, Google, and Energy Star."
+     "why": "Rated 4.4 stars by 7,235 buyers, with Wi-Fi, Alexa, Google, and Energy Star."
     },
     {
      "label": "Best for Large Basements",
      "asin": "B073VBWKJZ",
      "name": "hOmeLabs 50 Pint Dehumidifier (7,000 sq. ft.)",
      "price": 269.99,
-     "why": "50 pints for spaces up to 7,000 sq. ft., with 25,687 reviews."
+     "why": "50 pints for spaces up to 7,000 sq. ft., with 53,014 reviews."
     },
     {
      "label": "Best With a Pump",
      "asin": "B0GL7R3RJV",
      "name": "Midea 50 Pint Dehumidifier with Pump",
-     "price": 263.49,
+     "price": 270.03,
      "why": "A built-in pump pushes water up into a sink, so you never empty a bucket."
     },
     {
      "label": "Best Compact",
      "asin": "B08ZMY8BC8",
      "name": "Midea Cube 20 Pint",
-     "price": 179.99,
+     "price": 189.91,
      "why": "Midea's Cube stacks its bucket underneath to save floor space."
     }
    ]
@@ -3297,8 +3297,8 @@
    "json": "https://themisreviews.com/wifi-space-heaters.json",
    "protocol": "Wi-Fi",
    "product_type": "Space heaters",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 8,
    "awards": [
     {
@@ -3306,7 +3306,7 @@
      "asin": "B0CBBR4TLX",
      "name": "Dreo Smart Wall Heater 1500W",
      "price": 129.99,
-     "why": "A smart wall heater with Alexa and Google, rated 4.3 stars by 5,355 buyers."
+     "why": "A smart wall heater with Alexa and Google, rated 4.3 stars by 5,381 buyers."
     },
     {
      "label": "Best Budget",
@@ -3319,8 +3319,8 @@
      "label": "Best Infrared",
      "asin": "B07JXRWJ8D",
      "name": "Heat Storm HS-1500-PHX-WIFI Infrared",
-     "price": 149.99,
-     "why": "A Wi-Fi infrared wall heater with a thermostat and 13,969 reviews."
+     "price": 134.99,
+     "why": "A Wi-Fi infrared wall heater with a thermostat and 13,971 reviews."
     }
    ]
   },
@@ -3447,29 +3447,29 @@
    "json": "https://themisreviews.com/wifi-camera-systems.json",
    "protocol": "Wi-Fi",
    "product_type": "Camera systems",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B016UCNP3A",
      "name": "Reolink RLK8-410B4 (8-channel, 4 x 5MP)",
-     "price": 459.98,
+     "price": 542.99,
      "why": "Reolink's 4-camera PoE kit with a 2 TB recorder, rated 4.5 stars by 2,894 buyers."
     },
     {
      "label": "Best Budget",
      "asin": "B07QM5996S",
      "name": "Hiseeu 5MP Wi-Fi Camera System",
-     "price": 199.99,
-     "why": "A Wi-Fi camera system with a hard-drive recorder for $199.99."
+     "price": 179.98,
+     "why": "A Wi-Fi camera system with a hard-drive recorder for $179.98."
     },
     {
      "label": "Best 4K",
      "asin": "B07W4WBKKJ",
      "name": "Reolink RLK8-800B6 (8-channel, 6 x 4K)",
-     "price": 889.99,
+     "price": 755.99,
      "why": "Six 4K PoE cameras with person and vehicle detection and a 2 TB recorder."
     },
     {
@@ -3477,7 +3477,7 @@
      "asin": "B0CNRDG796",
      "name": "aosu D1 Classic 4-Cam Kit (solar)",
      "price": 299.96,
-     "why": "Four solar-powered wireless cameras with no monthly fees, 4,290 reviews."
+     "why": "Four solar-powered wireless cameras with no monthly fees, 4,327 reviews."
     }
    ]
   },
@@ -3529,8 +3529,8 @@
    "json": "https://themisreviews.com/wifi-garage-door-openers.json",
    "protocol": "Wi-Fi",
    "product_type": "Garage door opener units",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 9,
    "awards": [
     {
@@ -3538,7 +3538,7 @@
      "asin": "B07SKCGMY7",
      "name": "Genie StealthDrive Connect 7155-TKV",
      "price": 339.99,
-     "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,098 reviews."
+     "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,104 reviews."
     },
     {
      "label": "Best Budget",
@@ -3558,7 +3558,7 @@
      "label": "Best Premium",
      "asin": "B0C7K97GX2",
      "name": "Chamberlain Wall Mount myQ Opener",
-     "price": 519.0,
+     "price": 521.8,
      "why": "Chamberlain's wall-mount opener frees the ceiling and handles tall or heavy doors."
     }
    ]
@@ -3611,8 +3611,8 @@
    "json": "https://themisreviews.com/wifi-universal-remotes.json",
    "protocol": "Wi-Fi",
    "product_type": "IR blasters and remotes",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 4,
    "awards": [
     {
@@ -3620,7 +3620,7 @@
      "asin": "B0CXJC5ZZT",
      "name": "SwitchBot Universal Remote with Hub Mini (Matter)",
      "price": 85.49,
-     "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,325 buyers."
+     "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,332 buyers."
     },
     {
      "label": "Best for Home Assistant",
@@ -3645,8 +3645,8 @@
    "json": "https://themisreviews.com/wifi-fans.json",
    "protocol": "Wi-Fi",
    "product_type": "Fans",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 9,
    "awards": [
     {
@@ -3654,7 +3654,7 @@
      "asin": "B09N3HKY79",
      "name": "DREO 42-inch Smart Tower Fan",
      "price": 119.99,
-     "why": "DREO's 42-inch tower fan runs as quiet as 20 dB, works with Alexa and Google, and is rated 4.5 stars."
+     "why": "DREO's 42-inch tower fan runs as quiet as 20 dB, works with Alexa and Google, and is rated 4.4 stars."
     },
     {
      "label": "Best Budget",
@@ -3674,7 +3674,7 @@
      "label": "Widest Coverage",
      "asin": "B09M8PMW26",
      "name": "DREO Pilot Max Tower Fan (120°)",
-     "price": 116.94,
+     "price": 129.99,
      "why": "120° oscillation with 12 speeds and a brushless DC motor."
     }
    ]
@@ -3727,36 +3727,36 @@
    "json": "https://themisreviews.com/wifi-ceiling-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling lights",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0B1V6G21S",
      "name": "Govee Smart Recessed Lighting 6-inch",
-     "price": 99.99,
+     "price": 149.99,
      "why": "Govee's 6-inch downlights in a 4-pack with Wi-Fi and Bluetooth control, rated 4.6 stars."
     },
     {
      "label": "Best Budget",
      "asin": "B0F3BKBNVZ",
      "name": "Feit Electric Smart Recessed Downlights 5/6-inch",
-     "price": 45.6,
-     "why": "Three 1,000 lm color downlights for $45.60, sold by Amazon."
+     "price": 49.97,
+     "why": "Three 1,000 lm color downlights for $49.97, sold by Amazon."
     },
     {
      "label": "Best with Matter",
      "asin": "B0F2165SNY",
      "name": "Govee RGBIC Recessed Light 4-inch",
-     "price": 114.99,
+     "price": 149.99,
      "why": "RGBIC backlit 4-inch downlights with Matter, Alexa, and Google."
     },
     {
      "label": "Best Canless",
      "asin": "B0C1F1XLWS",
      "name": "HALO HLB 6-inch Canless (WiZ)",
-     "price": 36.41,
+     "price": 38.88,
      "why": "A slim HALO wafer light that needs no housing or J-box and works with Apple Home."
     }
    ]
@@ -3809,8 +3809,8 @@
    "json": "https://themisreviews.com/wifi-flush-mount-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling lights",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
@@ -3818,27 +3818,27 @@
      "asin": "B0CRV5F1VB",
      "name": "Govee Smart Ceiling Light 12-inch",
      "price": 69.99,
-     "why": "Govee's 12-inch ceiling light puts out 2,400 lm with Matter, rated 4.5 stars by 2,035 buyers."
+     "why": "Govee's 12-inch ceiling light puts out 2,400 lm with Matter, rated 4.5 stars by 2,047 buyers."
     },
     {
      "label": "Best Budget",
      "asin": "B0C7VPW49D",
      "name": "MELEGAN 12-inch Smart RGB Flush Mount (2-pack)",
-     "price": 54.99,
-     "why": "Two 12-inch color ceiling lights with Alexa and Google for $54.99."
+     "price": 49.99,
+     "why": "Two 12-inch color ceiling lights with Alexa and Google for $49.99."
     },
     {
      "label": "Best for Living Rooms",
      "asin": "B0GSYPZ4L5",
      "name": "Govee Smart Ceiling Light Pro 18-inch",
-     "price": 169.99,
+     "price": 134.99,
      "why": "An 18-inch, 4,800 lm Govee light for spaces up to about 320 sq ft."
     },
     {
      "label": "Best Premium",
      "asin": "B0GR9VMV71",
      "name": "Govee Ceiling Light Ultra 21-inch",
-     "price": 209.99,
+     "price": 249.99,
      "why": "5,000 lm, 616 RGBIC LEDs, and CRI 95 warm white."
     }
    ]
@@ -3850,8 +3850,8 @@
    "json": "https://themisreviews.com/wifi-power-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Power stations",
-   "data_captured": "2026-10-30",
-   "updated": "2026-10-30",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 8,
    "awards": [
     {
@@ -3859,7 +3859,7 @@
      "asin": "B0D7PPG25F",
      "name": "Jackery Explorer 1000 v2",
      "price": 559.0,
-     "why": "Jackery's Explorer 1000 v2 is rated 4.7 stars by 3,721 buyers and charges in about an hour from the app's emergency mode."
+     "why": "Jackery's Explorer 1000 v2 is rated 4.7 stars by 3,731 buyers and charges in about an hour from the app's emergency mode."
     },
     {
      "label": "Best Budget",
@@ -3872,14 +3872,14 @@
      "label": "Best for Home Backup",
      "asin": "B0FQV6LMVX",
      "name": "EcoFlow DELTA 3 Max",
-     "price": 899.0,
+     "price": 878.99,
      "why": "2,048 Wh and 2,400 W with a 10 ms transfer and app power scheduling."
     },
     {
      "label": "Best Solar Kit",
      "asin": "B0GWGSKN54",
      "name": "Anker SOLIX C1000 Gen 2 with 200 W Solar Panel",
-     "price": 739.99,
+     "price": 849.99,
      "why": "Anker's C1000 Gen 2 with a 200 W panel, 2,000 W output, and time-of-use scheduling."
     }
    ]
@@ -3891,8 +3891,8 @@
    "json": "https://themisreviews.com/wifi-water-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Water monitors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 6,
    "awards": [
     {
@@ -3906,7 +3906,7 @@
      "label": "Best with Shutoff",
      "asin": "B0DSKG73XB",
      "name": "Frizzlife LP365",
-     "price": 296.99,
+     "price": 279.98,
      "why": "Frizzlife's ultrasonic monitor detects flows down to 0.01 GPM and closes the valve itself, rated 4.5 stars."
     },
     {
@@ -4082,8 +4082,8 @@
    "json": "https://themisreviews.com/wifi-path-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 9,
    "awards": [
     {
@@ -4097,15 +4097,15 @@
      "label": "Best Budget",
      "asin": "B0FQ3KX7FL",
      "name": "APPECK RGBCW Pathway Lights",
-     "price": 79.99,
-     "why": "Four RGBCW path lights with Alexa and Google for $79.99, rated 4.3 stars."
+     "price": 65.87,
+     "why": "Four RGBCW path lights with Alexa and Google for $65.87, rated 4.3 stars."
     },
     {
      "label": "Best Spotlights",
      "asin": "B0GKP32WT3",
      "name": "Lumary Smart Landscape Lights (56 ft)",
-     "price": 80.99,
-     "why": "Six tunable-white landscape spotlights with Alexa and Google for $80.99."
+     "price": 71.99,
+     "why": "Six tunable-white landscape spotlights with Alexa and Google for $71.99."
     },
     {
      "label": "Best with Matter",
@@ -4443,8 +4443,8 @@
    "json": "https://themisreviews.com/bluetooth-propane-monitors.json",
    "protocol": "Bluetooth",
    "product_type": "Tank monitors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 6,
    "awards": [
     {
@@ -4452,7 +4452,7 @@
      "asin": "B09J6MXJKT",
      "name": "Mopeka Pro Check",
      "price": 65.99,
-     "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,841 reviews."
+     "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,846 reviews."
     },
     {
      "label": "Best Budget",
@@ -4648,16 +4648,16 @@
    "json": "https://themisreviews.com/thread-door-sensors.json",
    "protocol": "Thread",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0BZSY26WP",
      "name": "Eve Door & Window (Matter)",
-     "price": 31.8,
-     "why": "Eve's Matter-over-Thread contact sensor, local-only, rated 4.1 stars by 149 buyers, for $31.80."
+     "price": 43.95,
+     "why": "Eve's Matter-over-Thread contact sensor, local-only, rated 4.1 stars by 150 buyers, for $43.95."
     },
     {
      "label": "Best Budget",
@@ -4670,7 +4670,7 @@
      "label": "Best 2-in-1",
      "asin": "B0G6ZH853W",
      "name": "Aqara Multi-State Sensor P100",
-     "price": 26.99,
+     "price": 27.99,
      "why": "Detects doors opening and vibration, on Thread or Zigbee."
     }
    ]
@@ -4682,8 +4682,8 @@
    "json": "https://themisreviews.com/thread-motion-sensors.json",
    "protocol": "Thread",
    "product_type": "Motion sensors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 6,
    "awards": [
     {
@@ -4691,14 +4691,14 @@
      "asin": "B0FG2MD3YP",
      "name": "Aqara Presence Sensor FP300",
      "price": 46.99,
-     "why": "Aqara's FP300 combines mmWave presence and PIR motion with Thread or Zigbee, 2K+ bought last month."
+     "why": "Aqara's FP300 combines mmWave presence and PIR motion with Thread or Zigbee, 1K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0CT8W9NRB",
      "name": "Aqara Motion and Light Sensor P2",
      "price": 31.99,
-     "why": "Aqara's Matter-over-Thread motion and light sensor for $31.99, with 678 reviews."
+     "why": "Aqara's Matter-over-Thread motion and light sensor for $31.99, with 680 reviews."
     },
     {
      "label": "Most Sensors",
@@ -5600,23 +5600,23 @@
    "json": "https://themisreviews.com/matter-lamps.json",
    "protocol": "Matter",
    "product_type": "Lamps",
-   "data_captured": "2026-11-04",
-   "updated": "2026-11-04",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0F3NZ12GL",
      "name": "Govee Uplighter Floor Lamp (ripple projector)",
-     "price": 179.99,
+     "price": 169.99,
      "why": "Govee's uplighter combines a ripple projector, color, and a 1,000 lm task light, rated 4.6 stars."
     },
     {
      "label": "Best Table Lamp",
      "asin": "B0D41XL87F",
      "name": "Govee RGBIC Smart Table Lamp 2",
-     "price": 79.99,
-     "why": "A Matter bedside lamp rated 4.7 stars by 2,618 buyers."
+     "price": 69.99,
+     "why": "A Matter bedside lamp rated 4.7 stars by 2,622 buyers."
     },
     {
      "label": "Best Budget",
@@ -5641,8 +5641,8 @@
    "json": "https://themisreviews.com/matter-air-quality-monitors.json",
    "protocol": "Matter",
    "product_type": "Air quality monitors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-06",
+   "updated": "2026-11-06",
    "products": 2,
    "awards": [
     {
