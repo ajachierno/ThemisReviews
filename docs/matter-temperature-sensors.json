@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Temperature sensors",
- "data_captured": "2026-11-01",
- "updated": "2026-11-01",
+ "data_captured": "2026-11-07",
+ "updated": "2026-11-07",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,14 +37,14 @@
    "asin": "B0DWSK5H33",
    "name": "Aqara Climate Sensor W100",
    "price": 36.99,
-   "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 400+ bought last month."
+   "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 300+ bought last month."
   },
   {
    "label": "Best Multi-Room Kit",
    "asin": "B0CCP6HLN5",
    "name": "SwitchBot 4 outdoor sensors + Hub 2 (Matter)",
    "price": 88.39,
-   "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,231 reviews."
+   "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,267 reviews."
   },
   {
    "label": "Best Outdoor",
@@ -59,13 +59,13 @@
   {
    "rank": 1,
    "asin": "B0CCP6HLN5",
-   "name": "SwitchBot Wi-Fi Humidity Sensor 4 Pack with Hub 2 (Matter Enabled), IP65 Indoor Outdoor Thermometer Wireless, Humidity/Temperature/Dewpoint/VPD Sensor with Smart Alerts, Compatible with Alexa",
+   "name": "SwitchBot Wi-Fi Humidity Sensor 4-Pack with Hub 2 (Matter Enabled), IP65 Indoor/Outdoor Thermometer",
    "brand": "SwitchBot",
    "model": "4 outdoor sensors + Hub 2 (Matter)",
    "price": 88.39,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 10231,
+   "reviews_count": 10267,
    "score": 87,
    "awards": [
     "Best Multi-Room Kit"
@@ -90,7 +90,7 @@
    "pros": [
     "4 IP65 sensors",
     "Hub 2 included",
-    "10,231 reviews"
+    "10,267 reviews"
    ],
    "cons": [
     "Sensors reach Matter only through the hub",
@@ -121,9 +121,9 @@
    "model": "Weather (Matter)",
    "price": 87.95,
    "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 73,
-   "score": 75,
+   "rating": 3.6,
+   "reviews_count": 74,
+   "score": 74,
    "awards": [
     "Best Outdoor"
    ],
@@ -142,7 +142,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "An outdoor Thread weather sensor you can ask Siri, Alexa, or Google about.",
    "pros": [
     "Outdoor rated",
@@ -150,7 +150,7 @@
     "Thread"
    ],
    "cons": [
-    "3.7 stars",
+    "3.6 stars",
     "Sold by a reseller, 6 left at capture time",
     "$87.95"
    ],
@@ -179,7 +179,7 @@
    "price": 36.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 145,
+   "reviews_count": 146,
    "score": 73,
    "awards": [
     "Best Overall"
@@ -199,12 +199,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "A sensor and scene remote in one, on Thread or Zigbee.",
    "pros": [
     "Thread or Zigbee",
     "Programmable buttons",
-    "400+ bought in the past month"
+    "300+ bought in the past month"
    ],
    "cons": [
     "3.8 stars",
@@ -254,7 +254,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "50+ bought in past month",
    "verdict": "A cheap Thread sensor with a display and good stated accuracy.",
    "pros": [
     "$29.99",
@@ -343,16 +343,16 @@
    "name": "Eve Weather (Matter) - weather station connected with temperature, humidity, weather trend, IPX4 water resistance, voice command access with Google/Alexa/Siri, requires hub",
    "brand": "Eve",
    "model": "Weather (Matter), reseller listing",
-   "price": 156.79,
+   "price": 117.52,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 141,
+   "reviews_count": 142,
    "flag": "Same sensor, about $69 more",
-   "verdict": "This is the same Eve Weather (Matter) sold above, from a different reseller at $156.79 instead of $87.95.",
+   "verdict": "This is the same Eve Weather (Matter) sold above, from a different reseller at $117.52 instead of $87.95.",
    "reasons": [
-    "Listed at $156.79; the other Eve Weather (Matter) listing was $87.95 on the same day.",
+    "Listed at $117.52; the other Eve Weather (Matter) listing was $87.95 on the same day.",
     "Sold by a third-party reseller.",
-    "3.5 stars from 141 reviews."
+    "3.5 stars from 142 reviews."
    ],
    "works_with": [
     "Home Assistant",
@@ -384,6 +384,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-07",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-01",
    "notes": [

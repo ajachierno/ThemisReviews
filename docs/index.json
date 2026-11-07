@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -569,8 +569,8 @@
    "json": "https://themisreviews.com/z-wave-sirens.json",
    "protocol": "Z-Wave",
    "product_type": "Sirens",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 3,
    "awards": [
     {
@@ -596,8 +596,8 @@
    "json": "https://themisreviews.com/z-wave-multisensors.json",
    "protocol": "Z-Wave",
    "product_type": "Multisensors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 4,
    "awards": [
     {
@@ -623,8 +623,8 @@
    "json": "https://themisreviews.com/z-wave-range-extenders.json",
    "protocol": "Z-Wave",
    "product_type": "Range extenders",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 5,
    "awards": [
     {
@@ -646,7 +646,7 @@
      "asin": "B07ZB2VP4K",
      "name": "Ring Alarm Range Extender (2nd Gen)",
      "price": 14.99,
-     "why": "A $14.99 extender for Ring Alarm systems, 4,200 reviews."
+     "why": "A $14.99 extender for Ring Alarm systems, 4,204 reviews."
     }
    ]
   },
@@ -657,8 +657,8 @@
    "json": "https://themisreviews.com/z-wave-garage-openers.json",
    "protocol": "Z-Wave",
    "product_type": "Garage door openers",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 3,
    "awards": [
     {
@@ -672,7 +672,7 @@
      "label": "Best All-in-One",
      "asin": "B0FXYWJ47K",
      "name": "GoControl GD00Z-7 Smart Garage Door Controller",
-     "price": 63.24,
+     "price": 65.0,
      "why": "A dedicated garage controller with the tilt sensor in the box."
     }
    ]
@@ -684,7 +684,7 @@
    "json": "https://themisreviews.com/z-wave-water-valves.json",
    "protocol": "Z-Wave",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-07",
    "updated": "2026-10-31",
    "products": 2,
    "awards": [
@@ -711,8 +711,8 @@
    "json": "https://themisreviews.com/z-wave-smoke-detectors.json",
    "protocol": "Z-Wave",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 2,
    "awards": [
     {
@@ -1386,8 +1386,8 @@
    "json": "https://themisreviews.com/zigbee-repeaters.json",
    "protocol": "Zigbee",
    "product_type": "Range extenders",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 5,
    "awards": [
     {
@@ -1395,7 +1395,7 @@
      "asin": "B0BXFBH6JR",
      "name": "Aeotec Range Extender Zi",
      "price": 29.49,
-     "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.4 stars."
+     "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.5 stars."
     },
     {
      "label": "Best Budget",
@@ -1447,7 +1447,7 @@
    "json": "https://themisreviews.com/zigbee-curtain-motors.json",
    "protocol": "Zigbee",
    "product_type": "Curtain motors",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-07",
    "updated": "2026-10-31",
    "products": 3,
    "awards": [
@@ -1556,8 +1556,8 @@
    "json": "https://themisreviews.com/wifi-smart-plugs.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
@@ -1565,7 +1565,7 @@
      "asin": "B091699Z3W",
      "name": "Kasa EP10 Ultra Mini",
      "price": 9.99,
-     "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,909 reviews and Alexa and Google support."
+     "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,948 reviews and Alexa and Google support."
     },
     {
      "label": "Best for Alexa Homes",
@@ -1585,8 +1585,8 @@
      "label": "Best Outdoor",
      "asin": "B091FXH2FR",
      "name": "Kasa EP40 outdoor",
-     "price": 22.99,
-     "why": "Two independently controlled outdoor outlets, 15 A each, with 17,548 reviews."
+     "price": 18.99,
+     "why": "Two independently controlled outdoor outlets, 15 A each, with 17,557 reviews."
     }
    ]
   },
@@ -3488,8 +3488,8 @@
    "json": "https://themisreviews.com/wifi-pet-fountains.json",
    "protocol": "Wi-Fi",
    "product_type": "Pet fountains",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 9,
    "awards": [
     {
@@ -3497,7 +3497,7 @@
      "asin": "B0FDKQGRCK",
      "name": "PETLIBRO Dockstream 2 (3 L, plug-in)",
      "price": 79.99,
-     "why": "PETLIBRO's Dockstream 2 weighs every sip, rated 4.3 stars by 20,331 buyers, 4K+ bought last month."
+     "why": "PETLIBRO's Dockstream 2 weighs every sip, rated 3.4 stars by 1,874 buyers, 3K+ bought last month."
     },
     {
      "label": "Best Budget",
@@ -3517,7 +3517,7 @@
      "label": "Best Premium",
      "asin": "B0GWJ2QWXF",
      "name": "PETKIT Eversweet Ultra (5 L, AI camera)",
-     "price": 224.99,
+     "price": 249.99,
      "why": "A 5 L filterless fountain with a built-in AI camera to watch your pet drink."
     }
    ]
@@ -3686,15 +3686,15 @@
    "json": "https://themisreviews.com/wifi-smart-lamps.json",
    "protocol": "Wi-Fi",
    "product_type": "Lamps",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-05",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0F3NZ12GL",
      "name": "Govee Uplighter Floor Lamp (ripple projector)",
-     "price": 179.99,
+     "price": 149.99,
      "why": "Govee's uplighter combines a ripple projector, RGBIC color, and a 1,000 lm task light, with Matter, rated 4.6 stars."
     },
     {
@@ -3702,14 +3702,14 @@
      "asin": "B0DB1739S4",
      "name": "Lanmonlily Corner Floor Lamp (RGBICW)",
      "price": 34.99,
-     "why": "An RGBIC corner lamp with music sync and an anti-tip base for $34.99, with 1,222 reviews."
+     "why": "An RGBIC corner lamp with music sync and an anti-tip base for $34.99, with 1,224 reviews."
     },
     {
      "label": "Most Popular",
      "asin": "B0BLSGHRXB",
      "name": "Govee RGBIC Floor Lamp",
      "price": 69.99,
-     "why": "Govee's RGBIC corner lamp has 12,185 reviews and 4K+ bought last month."
+     "why": "Govee's RGBIC corner lamp has 12,194 reviews and 1K+ bought last month."
     },
     {
      "label": "Best for Reading",
@@ -3932,15 +3932,15 @@
    "json": "https://themisreviews.com/wifi-pool-cleaners.json",
    "protocol": "Wi-Fi",
    "product_type": "Pool cleaners",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GSVTQK33",
      "name": "Beatbot Sora 10",
-     "price": 699.0,
+     "price": 499.0,
      "why": "Beatbot's Sora 10 runs up to 300 minutes, cleans the waterline, and parks itself for pickup."
     },
     {
@@ -3948,7 +3948,7 @@
      "asin": "B09K4C9WGF",
      "name": "Dolphin Nautilus CC Plus Wi-Fi",
      "price": 899.0,
-     "why": "Dolphin's Nautilus CC Plus has always-on Wi-Fi scheduling and 3,306 reviews."
+     "why": "Dolphin's Nautilus CC Plus has always-on Wi-Fi scheduling and 3,307 reviews."
     },
     {
      "label": "Best Easy Retrieval",
@@ -3966,8 +3966,8 @@
    "json": "https://themisreviews.com/wifi-smart-scales.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart scales",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 7,
    "awards": [
     {
@@ -3975,7 +3975,7 @@
      "asin": "B09HCJD6H1",
      "name": "Etekcity Smart Scale (Wi-Fi, color display)",
      "price": 63.99,
-     "why": "Etekcity's Wi-Fi scale has 187,340 reviews, a color display, and Alexa."
+     "why": "Etekcity's Wi-Fi scale has 187,465 reviews, a color display, and Alexa."
     },
     {
      "label": "Best Budget",
@@ -4007,8 +4007,8 @@
    "json": "https://themisreviews.com/wifi-sunrise-alarms.json",
    "protocol": "Wi-Fi",
    "product_type": "Sunrise alarms",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 5,
    "awards": [
     {
@@ -4022,8 +4022,8 @@
      "label": "Best Budget",
      "asin": "B0H1QWLZTD",
      "name": "ecozy Lumo Nova 3-in-1 Sunrise Alarm Clock",
-     "price": 39.99,
-     "why": "Sleep plans, 26 sounds, and surround color light over Wi-Fi for $39.99."
+     "price": 39.98,
+     "why": "Sleep plans, 26 sounds, and surround color light over Wi-Fi for $39.98."
     },
     {
      "label": "Best Voice Control",
@@ -4123,9 +4123,9 @@
    "json": "https://themisreviews.com/wifi-portable-air-conditioners.json",
    "protocol": "Wi-Fi",
    "product_type": "Air conditioners",
-   "data_captured": "2026-10-31",
-   "updated": "2026-10-31",
-   "products": 7,
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
+   "products": 6,
    "awards": [
     {
      "label": "Best Overall",
@@ -4139,7 +4139,7 @@
      "asin": "B0H1YF1LCT",
      "name": "SereneLife 8,000 BTU Portable AC with WiFi",
      "price": 256.42,
-     "why": "An 8,000 BTU Wi-Fi portable AC with 13,409 reviews for $256.42, sold by Amazon."
+     "why": "An 8,000 BTU Wi-Fi portable AC with 18,360 reviews for $256.42, sold by Amazon."
     },
     {
      "label": "Best with Heat",
@@ -4191,7 +4191,7 @@
    "json": "https://themisreviews.com/bluetooth-switches.json",
    "protocol": "Bluetooth",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
+   "data_captured": "2026-11-07",
    "updated": "2026-11-01",
    "products": 3,
    "awards": [
@@ -4252,23 +4252,23 @@
    "json": "https://themisreviews.com/bluetooth-temperature-sensors.json",
    "protocol": "Bluetooth",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B07Y36FWTT",
      "name": "Govee H5075",
-     "price": 12.99,
-     "why": "48,648 reviews at 4.5 stars, a 3 in. display, and ±0.54°F accuracy for $12.99."
+     "price": 11.69,
+     "why": "48,684 reviews at 4.5 stars, a 3 in. display, and ±0.54°F accuracy for $11.69."
     },
     {
      "label": "Best Mini",
      "asin": "B07R586J37",
      "name": "Govee H5074",
-     "price": 12.99,
-     "why": "A tiny $12.99 sensor with 20 days of on-board storage and 13,352 reviews."
+     "price": 13.99,
+     "why": "A tiny $13.99 sensor with 20 days of on-board storage and 13,362 reviews."
     },
     {
      "label": "Best Outdoor",
@@ -4804,15 +4804,15 @@
    "json": "https://themisreviews.com/matter-switches.json",
    "protocol": "Matter",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DKHCF53T",
      "name": "Tapo S515",
-     "price": 18.99,
+     "price": 15.99,
      "why": "Single-pole, 3-way, or 4-way, with energy monitoring, for about $20. 2K+ bought in the past month."
     },
     {
@@ -4995,8 +4995,8 @@
    "json": "https://themisreviews.com/matter-motion-sensors.json",
    "protocol": "Matter",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 4,
    "awards": [
     {
@@ -5444,8 +5444,8 @@
    "json": "https://themisreviews.com/matter-temperature-sensors.json",
    "protocol": "Matter",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 5,
    "awards": [
     {
@@ -5453,14 +5453,14 @@
      "asin": "B0DWSK5H33",
      "name": "Aqara Climate Sensor W100",
      "price": 36.99,
-     "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 400+ bought last month."
+     "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 300+ bought last month."
     },
     {
      "label": "Best Multi-Room Kit",
      "asin": "B0CCP6HLN5",
      "name": "SwitchBot 4 outdoor sensors + Hub 2 (Matter)",
      "price": 88.39,
-     "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,231 reviews."
+     "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,267 reviews."
     },
     {
      "label": "Best Outdoor",
@@ -5668,8 +5668,8 @@
    "json": "https://themisreviews.com/lutron-caseta-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
@@ -5683,14 +5683,14 @@
      "label": "Best Budget",
      "asin": "B00KLAXFQA",
      "name": "Lutron Caseta smart dimmer",
-     "price": 62.0,
+     "price": 64.95,
      "why": "The plain Caseta dimmer: 5,673 reviews at 4.7 stars and works in old boxes without a neutral."
     },
     {
      "label": "Best Starter Kit",
      "asin": "B08FRPJFXQ",
      "name": "Lutron Caseta smart switch starter kit",
-     "price": 104.95,
+     "price": 83.95,
      "why": "Switch, Smart Hub, and wallplate in one box. The hub alone is most of the price."
     },
     {
@@ -5852,7 +5852,7 @@
    "json": "https://themisreviews.com/lutron-occupancy-sensors.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-01",
+   "data_captured": "2026-11-07",
    "updated": "2026-11-01",
    "products": 2,
    "awards": [
@@ -5879,8 +5879,8 @@
    "json": "https://themisreviews.com/rf-light-switches.json",
    "protocol": "433 MHz RF",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
@@ -5895,7 +5895,7 @@
      "asin": "B08CXCHFYC",
      "name": "DEWENWILS Expandable wireless switch kit",
      "price": 12.99,
-     "why": "$12.99 for a switch and receiver, with 2,085 reviews and 500+ bought last month."
+     "why": "$12.99 for a switch and receiver, with 2,089 reviews and 500+ bought last month."
     },
     {
      "label": "Best for 3-Way",
@@ -6029,30 +6029,30 @@
    "json": "https://themisreviews.com/rf-remote-outlets.json",
    "protocol": "433 MHz RF",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-07",
+   "updated": "2026-11-07",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B01NASZ0UM",
      "name": "BN-LINK Remote Outlet Kit (3 outlets + 1 remote)",
-     "price": 16.99,
-     "why": "Three outlets and a remote for $16.99, rated 4.7 stars by 24,842 buyers."
+     "price": 15.99,
+     "why": "Three outlets and a remote for $15.99, rated 4.7 stars by 24,853 buyers."
     },
     {
      "label": "Best Budget",
      "asin": "B07D2BY7VY",
      "name": "DEWENWILS Indoor Remote Control Outlet (compact)",
-     "price": 9.99,
-     "why": "A compact remote outlet for $9.99, rated 4.7 stars."
+     "price": 9.98,
+     "why": "A compact remote outlet for $9.98, rated 4.7 stars."
     },
     {
      "label": "Best Outdoor",
      "asin": "B082TX3CV1",
      "name": "HBN Outdoor Remote Control Outlets",
-     "price": 13.47,
-     "why": "Weatherproof remote outlets rated 15 A, with 9,754 reviews."
+     "price": 12.99,
+     "why": "Weatherproof remote outlets rated 15 A, with 9,762 reviews."
     },
     {
      "label": "Best Whole-Room Kit",
