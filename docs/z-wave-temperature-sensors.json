@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Temperature sensors",
- "data_captured": "2026-11-01",
- "updated": "2026-11-01",
+ "data_captured": "2026-11-08",
+ "updated": "2026-11-08",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -57,7 +57,7 @@
    "label": "Best for Basements",
    "asin": "B0GYZRCWCB",
    "name": "Aeotec Water Sensor 8",
-   "price": 39.99,
+   "price": 39.95,
    "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."
   }
  ],
@@ -86,7 +86,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "A four-in-one motion and climate sensor with Long Range and optional USB power.",
    "pros": [
     "Motion, temperature, humidity, and light",
@@ -117,7 +117,7 @@
   {
    "rank": 2,
    "asin": "B0B3G9Z4LJ",
-   "name": "Zooz 800 Series Z-Wave Long Range Temperature | Humidity XS Sensor ZSE44 800LR. Hub Required (Sold Separately). Compatible with Z-Box, SmartThings, Hubitat, and Home Assistant (Z-Wave JS).",
+   "name": "Zooz ZSE44 800LR Z-Wave Long Range Temperature and Humidity XS Sensor",
    "brand": "Zooz",
    "model": "ZSE44 800LR",
    "price": 44.95,
@@ -171,13 +171,13 @@
   {
    "rank": 3,
    "asin": "B08XHZP7NV",
-   "name": "Aeotec MultiSensor 7, 6-in-1 Zwave Sensors Contains Monitor Motion, Temperature, Light, Humidity, UV, and Vibration, Z-Wave Plus, Gen7, S2, SmartStart Enabled, Compatible with Zwave Hub Smartthings",
+   "name": "Aeotec MultiSensor 7, 6-in-1 Z-Wave Plus Sensor: Motion, Temperature, Light, Humidity, UV, Vibration",
    "brand": "Aeotec",
    "model": "MultiSensor 7",
    "price": 69.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 112,
+   "reviews_count": 113,
    "score": 75,
    "awards": [
     "Best Multisensor"
@@ -194,7 +194,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "Six sensors in one small puck, and it can run on USB power so you never change batteries.",
    "pros": [
     "Temperature, humidity, motion, light, UV, and vibration",
@@ -225,7 +225,7 @@
   {
    "rank": 4,
    "asin": "B0GR6BB2YT",
-   "name": "Aeotec Door Window Sensor 8 - Z-Wave Long Range, Open/Close, Temperature & Humidity, 3 Axis Sensor, Mold Hazard Function, Tamper, Garage Door Sensor, Z-Wave 800 Series, HomeAssistant, SmartThings,",
+   "name": "Aeotec Door Window Sensor 8, Z-Wave 800 Series Long Range, Temperature & Humidity",
    "brand": "Aeotec",
    "model": "Door Window Sensor 8",
    "price": 39.99,
@@ -277,10 +277,10 @@
   {
    "rank": 5,
    "asin": "B0GYZRCWCB",
-   "name": "Aeotec Water Sensor 8, Z-Wave Plus 800 Series with Long Range Support, Leak Detector with Temperature & Humidity, SmartThings Compatible, Battery or USB-C Powered Flood Sensor",
+   "name": "Aeotec Water Sensor 8, Z-Wave 800 Series Long Range Leak Detector with Temperature & Humidity",
    "brand": "Aeotec",
    "model": "Water Sensor 8",
-   "price": 39.99,
+   "price": 39.95,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 6,
@@ -309,7 +309,7 @@
    ],
    "cons": [
     "Only 6 reviews",
-    "$39.99",
+    "$39.95",
     "Bigger than a plain climate sensor"
    ],
    "specs": {
@@ -336,9 +336,9 @@
    "model": "ZSE70 Outdoor Motion Sensor",
    "price": 47.95,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 63,
-   "score": 69,
+   "rating": 3.9,
+   "reviews_count": 64,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -436,14 +436,14 @@
   {
    "rank": 8,
    "asin": "B0D47WR1S2",
-   "name": "Aeotec TriSensor 8, 800 Series Zwave Motion Sensor, Temperature, Light Sensor, Work with Zwave Hub Smartthings 3-in 1 Security System, Long Range Capable",
+   "name": "Aeotec TriSensor 8, 800 Series Z-Wave Motion, Temperature and Light Sensor, Long Range Capable",
    "brand": "Aeotec",
    "model": "TriSensor 8",
    "price": 39.99,
    "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 40,
-   "score": 64,
+   "rating": 3.8,
+   "reviews_count": 41,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -466,7 +466,7 @@
    ],
    "cons": [
     "No humidity",
-    "3.7 stars",
+    "3.8 stars",
     "±1°C is less precise than dedicated sensors"
    ],
    "specs": {
@@ -525,6 +525,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-08",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-01",
    "notes": [

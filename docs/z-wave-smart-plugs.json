@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Smart plugs",
- "data_captured": "2026-11-01",
- "updated": "2026-11-01",
+ "data_captured": "2026-11-08",
+ "updated": "2026-11-08",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -42,9 +42,9 @@
   {
    "label": "Best Budget",
    "asin": "B0BWY63YVX",
-   "name": "NEO Smart mini plug",
-   "price": 19.99,
-   "why": "$19.99 with energy monitoring, and it repeats signal for the rest of your Z-Wave network."
+   "name": "NEO Smart mini plug (3-pack)",
+   "price": 56.99,
+   "why": "A 3-pack for $56.99, about $19 a plug, and each one repeats signal for the rest of your Z-Wave network."
   },
   {
    "label": "Best Outdoor",
@@ -126,7 +126,7 @@
    "price": 39.95,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 103,
+   "reviews_count": 104,
    "score": 75,
    "awards": [],
    "works_with": [
@@ -171,6 +171,58 @@
   },
   {
    "rank": 3,
+   "asin": "B0CGHR5NV1",
+   "name": "Zwave Outlet Mini, Compact Size, 800 Series Z-Wave Long Range, ETL",
+   "brand": "Minoston",
+   "model": "Mini plug (800 Series LR)",
+   "price": 26.59,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 117,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Minoston's mini plug with Z-Wave Long Range.",
+   "pros": [
+    "Z-Wave Long Range",
+    "Compact size",
+    "ETL listed"
+   ],
+   "cons": [
+    "No energy monitoring",
+    "117 reviews",
+    "Load rating isn't in the listing"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "location": "Indoor",
+    "outlets": "1",
+    "load": "Not listed"
+   },
+   "features": {
+    "long_range": true,
+    "energy": false,
+    "outdoor": false,
+    "dual": false
+   },
+   "image": "https://m.media-amazon.com/images/I/618CqDkWI7L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CGHR5NV1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B0CGHR5NV1"
+  },
+  {
+   "rank": 4,
    "asin": "B01NAO4B9Z",
    "name": "Leviton Decora Smart Plug, Z-Wave, DZPA1-2BW, White",
    "brand": "Leviton",
@@ -222,61 +274,9 @@
    "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B01NAO4B9Z"
   },
   {
-   "rank": 4,
-   "asin": "B0CGHR5NV1",
-   "name": "Zwave Outlet Mini, Compact Size, 800 Series Z-Wave Long Range, ETL",
-   "brand": "Minoston",
-   "model": "Mini plug (800 Series LR)",
-   "price": 27.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 115,
-   "score": 70,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Minoston's mini plug with Z-Wave Long Range.",
-   "pros": [
-    "Z-Wave Long Range",
-    "Compact size",
-    "ETL listed"
-   ],
-   "cons": [
-    "No energy monitoring",
-    "115 reviews",
-    "Load rating isn't in the listing"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "location": "Indoor",
-    "outlets": "1",
-    "load": "Not listed"
-   },
-   "features": {
-    "long_range": true,
-    "energy": false,
-    "outdoor": false,
-    "dual": false
-   },
-   "image": "https://m.media-amazon.com/images/I/618CqDkWI7L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CGHR5NV1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B0CGHR5NV1"
-  },
-  {
    "rank": 5,
    "asin": "B0CRL5F1QY",
-   "name": "800 Series Zwave Dual Outlet Plug, On/Off Z-Wave Repeater Switch with 2 Individual Control Sockets, Hub Required, Z Wave LR Smart Plugs Compatible with SmartThings, Hubitat, Fibaro (MP26Z)",
+   "name": "Minoston 800 Series Z-Wave LR Dual Outlet Plug, 2 Independent Sockets, Repeater",
    "brand": "Minoston",
    "model": "Dual outlet plug (800 Series LR)",
    "price": 34.99,
@@ -382,7 +382,7 @@
   {
    "rank": 7,
    "asin": "B0CQX4JFV2",
-   "name": "Smart Plug, 15A Mini Z-Wave 800 Series Plug-in Socket with Built-in Repeater and Range Extender, Z-Wave Hub Required, Compatible with SmartThings, Wink, FCC and ETL Listed, MP21Z",
+   "name": "Minoston Z-Wave 800 Series Mini Smart Plug, 15A, Built-in Repeater (MP21Z)",
    "brand": "Minoston",
    "model": "Mini plug (800 Series)",
    "price": 28.99,
@@ -434,13 +434,13 @@
   {
    "rank": 8,
    "asin": "B0BWY63YVX",
-   "name": "NEO Z-Wave Plus Smart Mini Plug, Compact Z-Wave Outlet for Home Automation, Works with Smartthings, Basic On/Off Function, 500 S2",
+   "name": "NEO Z-Wave Plus Smart Mini Plug 3-Pack, 500 Series S2",
    "brand": "NEO",
-   "model": "Smart mini plug",
-   "price": 19.99,
+   "model": "Smart mini plug (3-pack)",
+   "price": 56.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 105,
+   "reviews_count": 106,
    "score": 68,
    "awards": [
     "Best Budget"
@@ -457,14 +457,15 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "The cheapest Z-Wave plug here, and it still meters energy.",
+   "bought_last_month": null,
+   "verdict": "The lowest price per plug here, sold as a 3-pack, and it still meters energy.",
    "pros": [
-    "$19.99",
+    "$56.99 for three, about $19 each",
     "Energy monitoring",
     "Compact, repeats signal"
    ],
    "cons": [
+    "Sold only as a 3-pack",
     "Older 500 Series chip",
     "Load rating isn't listed",
     "Sold by a third-party seller"
@@ -481,7 +482,7 @@
     "outdoor": false,
     "dual": false
    },
-   "image": "https://m.media-amazon.com/images/I/41ITLUa-54L._SL1200_.jpg",
+   "image": "https://m.media-amazon.com/images/I/41DMWCxgr7L._SL1200_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BWY63YVX?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B0BWY63YVX"
   },
@@ -494,7 +495,7 @@
    "price": 34.95,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 56,
+   "reviews_count": 57,
    "score": 68,
    "awards": [
     "Best Outdoor"
@@ -542,7 +543,7 @@
   {
    "rank": 10,
    "asin": "B0CKWX2S5B",
-   "name": "Zwave Plug Energy Monitor, 800 Series Zwave Outlet, Built-in Repeater Range Extender, Z-Wave Hub Required, Alexa and Google Assistant Compatible (MP21ZP)",
+   "name": "Minoston Z-Wave 800 Series Plug with Energy Monitor, Built-in Repeater (MP21ZP)",
    "brand": "Minoston",
    "model": "Energy monitor plug (800 Series)",
    "price": 30.99,
@@ -612,6 +613,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-08",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-01",
    "notes": [

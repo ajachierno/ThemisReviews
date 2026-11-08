@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -58,8 +58,8 @@
    "json": "https://themisreviews.com/z-wave-switches.json",
    "protocol": "Z-Wave",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -81,7 +81,7 @@
      "asin": "B0846CJTRN",
      "name": "Zooz ZEN30 800LR Double Switch",
      "price": 44.95,
-     "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 330 reviews."
+     "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 332 reviews."
     },
     {
      "label": "Best for Heavy Loads",
@@ -140,8 +140,8 @@
    "json": "https://themisreviews.com/z-wave-smart-plugs.json",
    "protocol": "Z-Wave",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -154,9 +154,9 @@
     {
      "label": "Best Budget",
      "asin": "B0BWY63YVX",
-     "name": "NEO Smart mini plug",
-     "price": 19.99,
-     "why": "$19.99 with energy monitoring, and it repeats signal for the rest of your Z-Wave network."
+     "name": "NEO Smart mini plug (3-pack)",
+     "price": 56.99,
+     "why": "A 3-pack for $56.99, about $19 a plug, and each one repeats signal for the rest of your Z-Wave network."
     },
     {
      "label": "Best Outdoor",
@@ -304,8 +304,8 @@
    "json": "https://themisreviews.com/z-wave-temperature-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 8,
    "awards": [
     {
@@ -333,7 +333,7 @@
      "label": "Best for Basements",
      "asin": "B0GYZRCWCB",
      "name": "Aeotec Water Sensor 8",
-     "price": 39.99,
+     "price": 39.95,
      "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."
     }
    ]
@@ -738,8 +738,8 @@
    "json": "https://themisreviews.com/zigbee-switches.json",
    "protocol": "Zigbee",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 9,
    "awards": [
     {
@@ -747,7 +747,7 @@
      "asin": "B081ZQWX1F",
      "name": "Aqara Smart Light Switch (no neutral, single rocker)",
      "price": 39.99,
-     "why": "The most-reviewed switch here, 4.3 stars from 532 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
+     "why": "The most-reviewed switch here, 4.3 stars from 533 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
     },
     {
      "label": "Best Budget",
@@ -799,8 +799,8 @@
    "json": "https://themisreviews.com/zigbee-smart-plugs.json",
    "protocol": "Zigbee",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -821,7 +821,7 @@
      "label": "Best Dual Outlet",
      "asin": "B0FCLZDMR8",
      "name": "THIRDREALITY Smart Dual Plug",
-     "price": 22.99,
+     "price": 21.84,
      "why": "Two outlets with separate control and separate energy monitoring, and a long list of supported hubs."
     },
     {
@@ -1038,8 +1038,8 @@
    "json": "https://themisreviews.com/zigbee-temperature-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -1047,7 +1047,7 @@
      "asin": "B0BYZP8NK2",
      "name": "SONOFF SNZB-02D",
      "price": 15.9,
-     "why": "A Zigbee 3.0 sensor with an LCD and ±0.4°F stated accuracy for $15.90, with 3,435 reviews."
+     "why": "A Zigbee 3.0 sensor with an LCD and ±0.4°F stated accuracy for $15.90, with 3,460 reviews."
     },
     {
      "label": "Best Budget",
@@ -1672,15 +1672,15 @@
    "json": "https://themisreviews.com/wifi-motion-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GD6ND4C7",
      "name": "Cotinse Wi-Fi PIR motion sensor",
-     "price": 19.99,
+     "price": 15.99,
      "why": "Battery or USB power, Bluetooth-assisted pairing, and Alexa, Google, and SmartThings triggers."
     },
     {
@@ -1695,13 +1695,13 @@
      "asin": "B0CNRRT45G",
      "name": "GoveeLife Human Presence Sensor",
      "price": 39.99,
-     "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 200+ bought last month."
+     "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 100+ bought last month."
     },
     {
      "label": "Best for Home Assistant",
      "asin": "B0H2QYVWZ7",
      "name": "Akamatis Litos v3",
-     "price": 24.99,
+     "price": 26.99,
      "why": "A local ESP32 mmWave presence and light sensor built for Home Assistant, rated 4.4 stars."
     }
    ]
@@ -1754,8 +1754,8 @@
    "json": "https://themisreviews.com/wifi-temperature-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -1763,14 +1763,14 @@
      "asin": "B0872ZWV8X",
      "name": "Govee H5179",
      "price": 31.98,
-     "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,925 reviews, and 3K+ bought last month."
+     "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,928 reviews, and 3K+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0G7VC5D3F",
      "name": "X-Sense Temperature and humidity monitor kit",
-     "price": 36.09,
-     "why": "Three sensors and a base station for $36.09, with ±0.36°F stated accuracy."
+     "price": 36.08,
+     "why": "Three sensors and a base station for $36.08, with ±0.36°F stated accuracy."
     },
     {
      "label": "Best for Freezers and Outbuildings",
@@ -2234,34 +2234,27 @@
   },
   {
    "slug": "wifi-robot-vacuums",
-   "title": "The 8 Best Robot Vacuums",
+   "title": "The 7 Best Robot Vacuums",
    "url": "https://themisreviews.com/wifi-robot-vacuums.html",
    "json": "https://themisreviews.com/wifi-robot-vacuums.json",
    "protocol": "Wi-Fi",
    "product_type": "Robot vacuums",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
-   "products": 8,
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
+   "products": 7,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GGRSMXKN",
      "name": "roborock Qrevo S Pro",
-     "price": 499.99,
-     "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.1 stars from 6,906 reviews and 10K+ bought in the past month."
-    },
-    {
-     "label": "Best Budget",
-     "asin": "B0DWX69JVG",
-     "name": "roborock Q7 M5+",
-     "price": 249.98,
-     "why": "A self-emptying vacuum and mop for $249.98, with up to 7–9 weeks between bag changes."
+     "price": 399.99,
+     "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.0 stars from 1,986 reviews and 5K+ bought in the past month."
     },
     {
      "label": "Best Mopping",
      "asin": "B0FSJPFDPV",
      "name": "dreame L40 Ultra Gen 2",
-     "price": 499.98,
+     "price": 569.99,
      "why": "An all-in-one dock that washes and dries the mop, with 25,000 Pa suction and Alexa, Google, and Siri."
     },
     {
@@ -3365,8 +3358,8 @@
    "json": "https://themisreviews.com/wifi-weather-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Weather stations",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 9,
    "awards": [
     {
@@ -3374,14 +3367,14 @@
      "asin": "B01N5TEHLI",
      "name": "Ambient Weather WS-2902",
      "price": 199.99,
-     "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,165 reviews."
+     "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,173 reviews."
     },
     {
      "label": "Best Budget",
      "asin": "B0FM3CVKNL",
      "name": "VEVOR 7-in-1 Wi-Fi Weather Station",
-     "price": 73.99,
-     "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $73.99."
+     "price": 95.99,
+     "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $95.99."
     },
     {
      "label": "Best No-Moving-Parts",
@@ -4293,8 +4286,8 @@
    "json": "https://themisreviews.com/bluetooth-trackers.json",
    "protocol": "Bluetooth",
    "product_type": "Trackers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -4308,14 +4301,14 @@
      "label": "Best Budget",
      "asin": "B0F82HR8QZ",
      "name": "UGREEN FineTrack (4-pack)",
-     "price": 22.79,
-     "why": "Four Find My tags with a 2-year replaceable battery for $22.79, 10K+ bought last month."
+     "price": 21.79,
+     "why": "Four Find My tags with a 2-year replaceable battery for $21.79, 6K+ bought last month."
     },
     {
      "label": "Best for Samsung",
      "asin": "B0CCC69HN3",
      "name": "Samsung Galaxy SmartTag2",
-     "price": 26.75,
+     "price": 21.79,
      "why": "UWB precision finding on Galaxy phones, IP67, and it can trigger SmartThings devices."
     },
     {
@@ -4368,8 +4361,8 @@
    "json": "https://themisreviews.com/bluetooth-proxies.json",
    "protocol": "Bluetooth",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -4484,8 +4477,8 @@
    "json": "https://themisreviews.com/thread-switches.json",
    "protocol": "Thread",
    "product_type": "Light switches",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 5,
    "awards": [
     {
@@ -4525,16 +4518,16 @@
    "json": "https://themisreviews.com/thread-smart-plugs.json",
    "protocol": "Thread",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0BZBGD87V",
      "name": "Eve Energy (Matter)",
-     "price": 35.99,
-     "why": "Matter over Thread with a power meter, no cloud account, and 400+ bought last month."
+     "price": 35.82,
+     "why": "Matter over Thread with a power meter, no cloud account, and 300+ bought last month."
     },
     {
      "label": "Best Budget",
@@ -4716,8 +4709,8 @@
    "json": "https://themisreviews.com/thread-temperature-sensors.json",
    "protocol": "Thread",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 3,
    "awards": [
     {
@@ -4725,7 +4718,7 @@
      "asin": "B0DWSK5H33",
      "name": "Aqara Climate Sensor W100",
      "price": 36.99,
-     "why": "Aqara's W100 adds a big display and three programmable buttons, 400+ bought last month."
+     "why": "Aqara's W100 adds a big display and three programmable buttons, 300+ bought last month."
     },
     {
      "label": "Best Budget",
@@ -4845,8 +4838,8 @@
    "json": "https://themisreviews.com/matter-dimmers.json",
    "protocol": "Matter",
    "product_type": "Dimmers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -4867,7 +4860,7 @@
      "label": "Best Name Brand",
      "asin": "B0BVKYKKRK",
      "name": "Leviton D26HD-1RW (2nd gen)",
-     "price": 51.98,
+     "price": 50.77,
      "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
     },
     {
@@ -4927,8 +4920,8 @@
    "json": "https://themisreviews.com/matter-bulbs.json",
    "protocol": "Matter",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -4942,14 +4935,14 @@
      "label": "Best Budget",
      "asin": "B0BVQX6875",
      "name": "OREiN Matter A19 RGBTW (4-pack)",
-     "price": 29.99,
-     "why": "Four Matter color bulbs for $29.99, about $7.50 each, with 1,522 reviews at 4.4 stars."
+     "price": 23.99,
+     "why": "Four Matter color bulbs for $23.99, about $6 each, with 1,523 reviews at 4.4 stars."
     },
     {
      "label": "Brightest",
      "asin": "B0CW1RBHGS",
      "name": "Linkind Matter 1600 lm",
-     "price": 31.99,
+     "price": 22.0,
      "why": "1,600 lumens, a 100 W equivalent, on Matter."
     },
     {
@@ -5029,8 +5022,8 @@
    "json": "https://themisreviews.com/matter-leak-sensors.json",
    "protocol": "Matter",
    "product_type": "Leak sensors",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 3,
    "awards": [
     {
@@ -5335,8 +5328,8 @@
    "json": "https://themisreviews.com/matter-controllers.json",
    "protocol": "Matter",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -5344,14 +5337,14 @@
      "asin": "B0CWLHSKYC",
      "name": "Aqara Hub M3",
      "price": 139.99,
-     "why": "Thread border router, Matter controller and bridge, IR blaster, and PoE, with 1,714 reviews."
+     "why": "Thread border router, Matter controller and bridge, IR blaster, and PoE, with 1,720 reviews."
     },
     {
      "label": "Best Budget",
      "asin": "B0DWK8318H",
      "name": "Aqara Hub M100",
-     "price": 39.99,
-     "why": "A $39.99 Thread border router and Matter bridge, 500+ bought last month."
+     "price": 41.99,
+     "why": "A $41.99 Thread border router and Matter bridge, 500+ bought last month."
     },
     {
      "label": "Best for Alexa",
@@ -5364,7 +5357,7 @@
      "label": "Best Local Hub",
      "asin": "B0CR4G1G8M",
      "name": "Hubitat Elevation C-8 Pro",
-     "price": 219.95,
+     "price": 229.95,
      "why": "Matter, Z-Wave Long Range, and Zigbee, with automations that run on the hub and no subscription."
     }
    ]
@@ -5709,8 +5702,8 @@
    "json": "https://themisreviews.com/lutron-pico-remotes.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 10,
    "awards": [
     {
@@ -5718,7 +5711,7 @@
      "asin": "B00KLAXFQ0",
      "name": "Lutron Pico 3-button dimmer remote",
      "price": 24.95,
-     "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,848 reviews, $24.95, sold by Amazon."
+     "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,849 reviews, $24.95, sold by Amazon."
     },
     {
      "label": "Best Wall Kit",
@@ -5777,36 +5770,36 @@
    "json": "https://themisreviews.com/lutron-bridges.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B07G5V6M6G",
      "name": "Lutron Caseta Smart Dimmer Starter Kit",
-     "price": 114.95,
-     "why": "Hub, dimmer, and Pico remote for $114.95, about $21 more than the hub alone, with 2,704 reviews at 4.7 stars."
+     "price": 91.95,
+     "why": "Hub, dimmer, and Pico remote for $91.95, about $21 more than the hub alone, with 2,704 reviews at 4.7 stars."
     },
     {
      "label": "Best Hub Only",
      "asin": "B00XPW67ZM",
      "name": "Lutron Caseta Smart Hub (L-BDG2)",
-     "price": 94.16,
+     "price": 89.99,
      "why": "The Caseta Smart Hub on its own, sold by Amazon, 1K+ bought last month."
     },
     {
      "label": "Best Whole-Room Kit",
      "asin": "B01M3XJUAD",
      "name": "Lutron Caseta Deluxe Smart Dimmer Kit",
-     "price": 269.99,
+     "price": 151.9,
      "why": "Two dimmers, two Picos, and the hub, for two rooms or a 3-way setup."
     },
     {
      "label": "Best for Hubitat and Pros",
      "asin": "B01AVLTHY2",
      "name": "Lutron Caseta Smart Hub Pro Kit (L-BDGPRO2)",
-     "price": 227.31,
+     "price": 230.0,
      "why": "The Smart Hub Pro with its integration port, plus a dimmer, Pico, and wallplate."
     }
    ]
@@ -5818,8 +5811,8 @@
    "json": "https://themisreviews.com/lutron-plug-in-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Dimmers",
-   "data_captured": "2026-11-02",
-   "updated": "2026-11-02",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 5,
    "awards": [
     {
@@ -5827,7 +5820,7 @@
      "asin": "B00JJY1QG0",
      "name": "Lutron Caseta Lamp Dimmer Kit (dimmer + Pico)",
      "price": 54.95,
-     "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,820 buyers."
+     "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,821 buyers."
     },
     {
      "label": "Best Starter Kit",
@@ -5920,8 +5913,8 @@
    "json": "https://themisreviews.com/rf-weather-stations.json",
    "protocol": "433 MHz RF",
    "product_type": "Weather stations",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 9,
    "awards": [
     {
@@ -5929,14 +5922,14 @@
      "asin": "B00N1XCA9M",
      "name": "AcuRite Iris 5-in-1 (01512MCB)",
      "price": 153.49,
-     "why": "Wind, rain, temperature, and humidity on a color display, with 7,139 reviews and 1K+ bought last month."
+     "why": "Wind, rain, temperature, and humidity on a color display, with 7,142 reviews and 700+ bought last month."
     },
     {
      "label": "Best Budget",
      "asin": "B0CWL7ST6S",
      "name": "DreamSky Atomic clock weather station",
-     "price": 29.98,
-     "why": "A color atomic-clock station with alerts and room for 3 sensors, for $29.98."
+     "price": 33.99,
+     "why": "A color atomic-clock station with alerts and room for 3 sensors, for $33.99."
     },
     {
      "label": "Best Smart Home Station",
@@ -5954,23 +5947,23 @@
    "json": "https://themisreviews.com/rf-temperature-sensors.json",
    "protocol": "433 MHz RF",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-01",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-08",
+   "updated": "2026-11-08",
    "products": 5,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B06XKH666P",
      "name": "TempPro TempAir 500 FT",
-     "price": 19.99,
-     "why": "A display and outdoor sensor with 500 ft. range, 36,169 reviews, and 7K+ bought last month, for $19.99."
+     "price": 18.98,
+     "why": "A display and outdoor sensor with 500 ft. range, 36,207 reviews, and 7K+ bought last month, for $18.98."
     },
     {
      "label": "Best Replacement Sensor",
      "asin": "B00T0K8NXC",
      "name": "AcuRite 06002M / 592TXR sensor",
      "price": 17.99,
-     "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,113 reviews, sold by Amazon."
+     "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,126 reviews, sold by Amazon."
     },
     {
      "label": "Best Multi-Room Kit",
