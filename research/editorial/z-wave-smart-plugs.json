@@ -17,7 +17,7 @@
   "awards": [
     {"asin": "B0BHL9MBRZ", "label": "Best Overall", "kind": "overall", "why": "800 Series Long Range with energy monitoring and a 4.8-star rating."},
     {"asin": "B0BWY63YVX", "label": "Best Budget", "kind": "budget", "why": "A 3-pack for $56.99, about $19 a plug, and each one repeats signal for the rest of your Z-Wave network."},
-    {"asin": "B0BHF6MPNK", "label": "Best Outdoor", "kind": "special", "why": "IP65 weatherproof housing with Long Range, for holiday lights, pumps, and patio lighting."},
+    {"asin": "B081DWCYP3", "label": "Best Outdoor", "kind": "special", "why": "IP65 weather-resistant housing and Long Range for $31.99, rated 4.3 stars by 884 buyers."},
     {"asin": "B0CRL5F1QY", "label": "Best Dual Outlet", "kind": "premium", "why": "Two independently controlled outlets in one plug, with Long Range."}
   ],
   "products": [
@@ -57,12 +57,12 @@
      "verdict": "The lowest price per plug here, sold as a 3-pack, and it still meters energy.",
      "pros": ["$56.99 for three, about $19 each", "Energy monitoring", "Compact, repeats signal"],
      "cons": ["Sold only as a 3-pack", "Older 500 Series chip", "Load rating isn't listed", "Sold by a third-party seller"]},
-    {"asin": "B0BHF6MPNK", "brand": "Zooz", "model": "ZEN05 outdoor", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
-     "specs": {"series": "800 Series", "location": "Outdoor (IP65)", "outlets": "1", "load": "15 A resistive"},
+    {"asin": "B081DWCYP3", "name": "Minoston Outdoor Z-Wave 800 Series LR Smart Plug, IP65 Weather-Resistant, Built-in Repeater, Black (MP22Z)", "brand": "Minoston", "model": "MP22Z outdoor plug (800 Series LR)", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"series": "800 Series", "location": "Outdoor (IP65)", "outlets": "1", "load": "15 A, 1,875 W"},
      "features": {"long_range": true, "energy": false, "outdoor": true, "dual": false},
-     "verdict": "A weatherproof Long Range plug for outdoor lights and pumps.",
-     "pros": ["IP65 weatherproof", "Long Range up to 1,300 ft", "S2 and SmartStart"],
-     "cons": ["No energy monitoring", "No dimming", "Sold by a third-party seller"]},
+     "verdict": "A weather-resistant Long Range plug for outdoor lights, pumps, and fountains, with the most reviews of any outdoor plug here.",
+     "pros": ["IP65 weather-resistant housing", "800 Series chip with Long Range, per the listing", "15 A, 1,875 W load rating", "4.3 stars from 884 reviews"],
+     "cons": ["No energy monitoring", "Sold by a third-party seller", "Alexa and Google only through a Z-Wave hub"]},
     {"asin": "B0BHC73DLB", "brand": "Zooz", "model": "ZEN14 outdoor double", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
      "specs": {"series": "800 Series", "location": "Outdoor (IP65)", "outlets": "2, independent", "load": "15 A total"},
      "features": {"long_range": true, "energy": false, "outdoor": true, "dual": true},
@@ -80,7 +80,7 @@
      "features": {"long_range": false, "energy": true, "outdoor": false, "dual": false},
      "verdict": "Minoston's 800 Series plug with energy monitoring.",
      "pros": ["Energy monitoring", "800 Series with S2 and SmartStart", "50+ bought in the past month"],
-     "cons": ["Long Range isn't mentioned in the listing", "4.1 stars from 27 reviews", "Load rating isn't listed"]}
+     "cons": ["Long Range isn't mentioned in the listing", "4.2 stars from 28 reviews", "Load rating isn't listed"]}
   ],
   "avoid": []
 }

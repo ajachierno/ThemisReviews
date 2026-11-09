@@ -45,7 +45,7 @@
       "asin": "B0GGRSMXKN",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.0 stars from 1,986 reviews and 5K+ bought in the past month."
+      "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.0 stars from 1,994 reviews and 6K+ bought in the past month."
     },
     {
       "asin": "B0FSJPFDPV",
@@ -58,6 +58,12 @@
       "label": "Best for Matter",
       "kind": "premium",
       "why": "The one vacuum here with Matter, so Apple Home, SmartThings, and Home Assistant can run it."
+    },
+    {
+      "asin": "B0G5Y3LN8M",
+      "label": "Best Budget",
+      "kind": "budget",
+      "why": "The lowest price here at $227.99, with a self-emptying dock, a mop, and LiDAR mapping."
     }
   ],
   "products": [
@@ -89,7 +95,7 @@
         "Alexa, Google, and Siri"
       ],
       "cons": [
-        "$599.98",
+        "$599.99",
         "2.4 GHz Wi-Fi only",
         "Siri works through shortcuts, not Apple Home"
       ]
@@ -117,7 +123,7 @@
       "pros": [
         "18,500 Pa suction",
         "Zero-tangle brushes for pet hair",
-        "5K+ bought in the past month",
+        "6K+ bought in the past month",
         "Official Home Assistant integration"
       ],
       "cons": [
@@ -145,12 +151,12 @@
         "voice": false,
         "strong": false
       },
-      "verdict": "The best cheap self-emptying robot, with a mop and anti-tangle brush.",
+      "verdict": "A self-emptying Roborock with a mop, an anti-tangle brush, and more than 25,000 reviews.",
       "pros": [
-        "$299.99",
+        "$359.99",
         "7–9 weeks per bag",
         "Anti-tangle main brush",
-        "25,643 reviews, 5K+ bought in the past month"
+        "25,648 reviews, 5K+ bought in the past month"
       ],
       "cons": [
         "Basic mop, no washing dock",
@@ -183,12 +189,12 @@
       "pros": [
         "Self-emptying",
         "Alexa and Google",
-        "654 reviews, 600+ bought in the past month"
+        "658 reviews, 600+ bought in the past month"
       ],
       "cons": [
         "3.2 stars",
         "No mop washing",
-        "$329.99"
+        "$279.98"
       ]
     },
     {
@@ -218,13 +224,14 @@
         "2K+ bought in the past month, sold by Amazon"
       ],
       "cons": [
-        "Only 984 reviews",
-        "$569.99",
+        "Only 987 reviews",
+        "$499.98",
         "2.4 GHz Wi-Fi only"
       ]
     },
     {
-      "asin": "B0FBRK76L8", "name": "SwitchBot K11+ Robot Vacuum & Mop with Matter, 6000Pa, 90-Day Self-Emptying, LDS Navigation",
+      "asin": "B0FBRK76L8",
+      "name": "SwitchBot K11+ Robot Vacuum & Mop with Matter, 6000Pa, 90-Day Self-Emptying, LDS Navigation",
       "brand": "SwitchBot",
       "model": "K11+ (Matter)",
       "systems": [
@@ -254,7 +261,7 @@
         "3.6 in. tall for under furniture"
       ],
       "cons": [
-        "3.8 stars from 328 reviews",
+        "3.8 stars from 329 reviews",
         "6,000 Pa",
         "Basic mopping"
       ]
@@ -280,13 +287,47 @@
       "pros": [
         "20,000 Pa suction",
         "Up to 120 days per dust bag",
-        "4.2 stars from 310 reviews",
-        "$269.99"
+        "4.2 stars from 312 reviews",
+        "$227.99"
       ],
       "cons": [
         "Mop pad isn't washed by the dock",
         "2.4 GHz Wi-Fi only",
         "Voice assistants aren't named in the bullets"
+      ]
+    },
+    {
+      "asin": "B08QZVSC8D",
+      "brand": "Shark",
+      "model": "AI Ultra (AV2501AE)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "systems_label": "SharkClean app",
+      "specs": {
+        "suction": "Not stated in Pa",
+        "dock": "Bagless self-empty, 60 days",
+        "voice": "Alexa, Google"
+      },
+      "features": {
+        "self_empty": true,
+        "mop": false,
+        "voice": true,
+        "strong": false
+      },
+      "verdict": "A bagless self-emptying Shark with LiDAR mapping that cleans in a grid pattern, sold by Amazon.",
+      "pros": [
+        "Bagless base with HEPA filter holds up to 60 days of debris",
+        "LiDAR mapping and Matrix Clean grid pattern",
+        "1K+ bought in the past month, sold by Amazon",
+        "Official Home Assistant integration"
+      ],
+      "cons": [
+        "Vacuum only, no mop",
+        "3.9 stars",
+        "Suction isn't stated in Pa"
       ]
     }
   ],
