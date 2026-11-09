@@ -27,7 +27,7 @@
      "verdict": "The best Zigbee stick for most Home Assistant setups: cheap, highly rated, and ready out of the box.",
      "pros": ["4.6 stars from 3,820 reviews", "External antenna, +20 dBm output", "Pre-flashed coordinator firmware", "$24.90, 500+ bought in the past month"],
      "cons": ["Needs a computer running hub software", "Thread isn't mentioned in this listing", "No extension cable listed"]},
-    {"asin": "B09KXTCMSC", "brand": "SONOFF", "model": "ZBDongle-P", "systems": ["home-assistant"],
+    {"asin": "B09KXTCMSC", "name": "SONOFF Zigbee 3.0 USB Dongle Plus Gateway with Antenna for Home Assistant (1 Pack)", "brand": "SONOFF", "model": "ZBDongle-P", "systems": ["home-assistant"],
      "specs": {"type": "USB stick", "chip": "TI CC2652P", "thread": false, "connection": "USB", "needs": "Home Assistant (ZHA) or Zigbee2MQTT"},
      "features": {"standalone": false, "thread": false, "antenna": true, "network": false},
      "verdict": "The classic TI-based Zigbee stick, with the most reviews of any coordinator here.",
@@ -63,7 +63,7 @@
      "verdict": "A mini SMLIGHT stick with an amplifier and antenna, pre-flashed for ZHA and Zigbee2MQTT.",
      "pros": ["+20 dB amplifier and 3 dB antenna", "Coordinator or router firmware", "Autoflash over USB"],
      "cons": ["Thread support is experimental, per the listing", "Sold by a reseller", "Only 141 reviews"]},
-    {"asin": "B016H0QZ7I", "brand": "Philips Hue", "model": "Bridge", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
+    {"asin": "B016H0QZ7I", "name": "Philips Hue Bridge, Smart Lighting Hub with Multi-Room and Out-of-Home Control, Matter-Compatible", "brand": "Philips Hue", "model": "Bridge", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
      "specs": {"type": "Hub", "chip": "Not listed", "thread": false, "connection": "Ethernet", "needs": "Hue app"},
      "features": {"standalone": true, "thread": false, "antenna": false, "network": true},
      "verdict": "The hub for Hue lights: no computer needed, and Matter connects it to every major platform.",
@@ -83,7 +83,7 @@
      "cons": ["The listing names only SONOFF Zigbee devices", "3.9 stars", "Voice assistants aren't named in the bullets"]}
   ],
   "avoid": [
-    {"asin": "B0DJNKTCFY", "brand": "Tuya", "model": "Smart Multi-Mode Gateway", "systems": [], "systems_label": "Smart Life app",
+    {"asin": "B0DJNKTCFY", "name": "Tuya Smart Multi-Mode Gateway, Zigbee 3.0, BLE and Bluetooth Mesh Hub, Dual-Band Wi-Fi, Alexa and Google", "brand": "Tuya", "model": "Smart Multi-Mode Gateway", "systems": [], "systems_label": "Smart Life app",
      "flag": "Contradictory listing, cloud-dependent",
      "verdict": "The listing contradicts itself: it says there's \"no fear of disconnecting from the Ethernet\" on a Wi-Fi gateway with no Ethernet port listed, and it sends device data to the cloud.",
      "reasons": [
