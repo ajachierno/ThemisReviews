@@ -23,7 +23,7 @@
      "specs": {"neutral": "Required", "three_way_text": "Up to 4 add-ons (46199)", "led_load": "Not listed", "hub": "Echo with Zigbee hub, or any Zigbee 3.0 hub", "extras": "Auto-detecting line and load"},
      "features": {"no_neutral": false, "three_way": true, "open_hub": true},
      "verdict": "The most-reviewed Zigbee dimmer we found. It pairs directly with Echo devices that have a Zigbee hub built in.",
-     "pros": ["Pairs with Echo Studio, Echo Show 10, and Echo Plus with no extra hub", "312 reviews, sold by Amazon", "Auto-detecting line and load terminals", "Zigbee 3.0 without well-known network keys"],
+     "pros": ["Pairs with Echo Studio, Echo Show 10, and Echo Plus with no extra hub", "313 reviews, sold by Amazon", "Auto-detecting line and load terminals", "Zigbee 3.0 without well-known network keys"],
      "cons": ["3-way needs Enbrighten 46199 add-on switches", "Needs a neutral wire", "4.0 stars"]},
     {"asin": "B0F2N68K3C", "brand": "Aqara", "model": "H2 dimmer", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],
      "specs": {"neutral": "Optional", "three_way_text": "Not listed", "led_load": "Not listed", "hub": "Aqara hub (Zigbee) or Thread border router (Matter)", "extras": "Forward and reverse phase, brightness limits"},
@@ -36,7 +36,7 @@
      "features": {"no_neutral": false, "three_way": false, "open_hub": true},
      "verdict": "A compact dimmer module that wires in behind your wall switch and runs Zigbee, Matter, or Wi-Fi. A good fit if you want to keep the switches you have.",
      "pros": ["Zigbee, Matter, Wi-Fi, and Bluetooth in one module", "Set minimum and maximum brightness, fade rate, and transition time", "Schedules that can follow sunrise and sunset", "UL certified, with a 3-year warranty"],
-     "cons": ["A hidden module, not a wall switch", "The listing doesn't state neutral, 3-way, or LED load details", "Only 31 reviews"]}
+     "cons": ["A hidden module, not a wall switch", "The listing doesn't state neutral, 3-way, or LED load details", "Only 33 reviews"]}
   ],
   "avoid": [
     {"asin": "B091L1912K", "brand": "GLEDOPTO", "model": "Triac touch dimmer", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],

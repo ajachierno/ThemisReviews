@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Presence sensors",
- "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "data_captured": "2026-11-09",
+ "updated": "2026-11-09",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,15 +35,15 @@
    "label": "Best Overall",
    "asin": "B0BXWZMQJ3",
    "name": "Aqara FP2",
-   "price": 79.99,
-   "why": "Up to 5 people, multiple zones, and fall detection, with 2,533 reviews."
+   "price": 67.99,
+   "why": "Up to 5 people, multiple zones, and fall detection, with 2,537 reviews."
   },
   {
    "label": "Best for Home Assistant",
    "asin": "B0FX7FXQGB",
    "name": "AKAMATIS Presence Sensor v2.2",
-   "price": 20.99,
-   "why": "A plug-and-play ESPHome presence sensor for $20.99."
+   "price": 22.99,
+   "why": "A plug-and-play ESPHome presence sensor for $22.99."
   }
  ],
  "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub. GoveeLife's listing says it doesn't support Home Assistant.",
@@ -54,10 +54,10 @@
    "name": "Aqara Presence Sensor FP2, mmWave Radar Wired Smart Motion Sensor",
    "brand": "Aqara",
    "model": "FP2",
-   "price": 79.99,
+   "price": 67.99,
    "currency": "USD",
    "rating": 3.6,
-   "reviews_count": 2533,
+   "reviews_count": 2537,
    "score": 80,
    "awards": [
     "Best Overall"
@@ -74,17 +74,17 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "The most capable presence sensor: zones, up to five people, and fall detection.",
    "pros": [
     "Multiple detection zones",
     "Tracks up to 5 people",
     "Fall detection",
-    "2,533 reviews"
+    "2,537 reviews"
    ],
    "cons": [
     "3.6 stars",
-    "$79.99",
+    "$67.99",
     "2.4 GHz Wi-Fi only"
    ],
    "specs": {
@@ -108,7 +108,7 @@
    "name": "AKAMATIS Human Presence Sensor v2.2 for Home Assistant, mmWave Radar, Wi-Fi, External Antenna, LD2410B",
    "brand": "AKAMATIS",
    "model": "Presence Sensor v2.2",
-   "price": 20.99,
+   "price": 22.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 57,
@@ -130,7 +130,7 @@
    "pros": [
     "Plug and play with Home Assistant",
     "Fully local",
-    "$20.99, 4.4 stars"
+    "$22.99, 4.4 stars"
    ],
    "cons": [
     "Home Assistant only",
@@ -161,7 +161,7 @@
    "price": 24.99,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 448,
+   "reviews_count": 451,
    "score": 72,
    "awards": [],
    "works_with": [
@@ -264,10 +264,10 @@
    "name": "Akamatis Litos v3 Human Presence and Light Sensor, mmWave, 2.4 GHz Wi-Fi, Requires Home Assistant",
    "brand": "Akamatis",
    "model": "Litos v3",
-   "price": 24.99,
+   "price": 26.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 40,
+   "reviews_count": 41,
    "score": 71,
    "awards": [],
    "works_with": [
@@ -279,7 +279,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Akamatis's newer sensor adds a proper ambient light sensor.",
    "pros": [
     "Light sensor for dark-only automations",
@@ -288,8 +288,8 @@
    ],
    "cons": [
     "Home Assistant only",
-    "Only 40 reviews",
-    "$24.99"
+    "Only 41 reviews",
+    "$26.99"
    ],
    "specs": {
     "radar": "24 GHz (HLK-LD2401)",
@@ -328,12 +328,12 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "A Wi-Fi radar and PIR presence sensor for Govee homes, with Alexa and Google support.",
    "pros": [
     "Radar plus PIR for steadier detection",
     "Automations by presence, duration, and distance",
-    "200+ bought in the past month"
+    "100+ bought in the past month"
    ],
    "cons": [
     "The listing says it doesn't support Home Assistant",
@@ -372,6 +372,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-09",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [
