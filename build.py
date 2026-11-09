@@ -696,11 +696,11 @@ def build_home(site):
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.jpg" if base else ""}
     if site.get("same_as"):
         org["sameAs"] = site["same_as"]
+    # No SearchAction here: Google crawled its URL template (search.html?q={search_term_string})
+    # literally and reported it as "Excluded by 'noindex' tag" (2026-11-09). search.html stays
+    # noindex on purpose, and Google no longer shows a sitelinks search box, so the markup did nothing.
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"],
-               "url": f"{base}/" if base else "", "description": site["description"],
-               "potentialAction": {"@type": "SearchAction",
-                                   "target": f"{base}/search.html?q={{search_term_string}}",
-                                   "query-input": "required name=search_term_string"}}
+               "url": f"{base}/" if base else "", "description": site["description"]}
     (OUT / "index.html").write_text(
         page(site, f"{site['brand']}: smart home protocols compared", body, is_home=True,
              canonical=f"{base}/" if base else "", structured_data=jsonld(org, website)),
