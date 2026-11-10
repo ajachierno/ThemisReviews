@@ -35,10 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
+   "asin": "B0CNGKFG9Y",
+   "name": "SONOFF SNZB-06P",
+   "price": 17.9,
+   "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 501 reviews, $17.90."
+  },
+  {
+   "label": "Best With Zones",
    "asin": "B0GZVPQQRX",
    "name": "SONOFF SNZB-06P24",
    "price": 24.9,
-   "why": "Highest score on the page (84): 3.8 stars from 219 reviews, $24.90."
+   "why": "Highest score of the picks that fit this award (84): 3.8 stars from 219 reviews, $24.90."
   },
   {
    "label": "Best Battery-Powered",
@@ -69,7 +76,7 @@
    "reviews_count": 219,
    "score": 84,
    "awards": [
-    "Best Overall"
+    "Best With Zones"
    ],
    "works_with": [
     "Home Assistant",
@@ -182,7 +189,9 @@
    "rating": 4.0,
    "reviews_count": 501,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -605,7 +614,7 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: SONOFF SNZB-06P24."
+    "New Best Overall: SONOFF SNZB-06P."
    ]
   },
   {

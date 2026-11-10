@@ -35,10 +35,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09GDL6BGY",
-   "name": "Zooz Q Sensor ZSE11 800LR",
-   "price": 46.95,
-   "why": "Highest score on the page (85): 3.6 stars from 127 reviews, $46.95."
+   "asin": "B0B3G9Z4LJ",
+   "name": "Zooz ZSE44 800LR",
+   "price": 44.95,
+   "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 133 reviews, $44.95."
   },
   {
    "label": "Best Budget",
@@ -49,10 +49,10 @@
   },
   {
    "label": "Best Multisensor",
-   "asin": "B08XHZP7NV",
-   "name": "Aeotec MultiSensor 7",
-   "price": 69.99,
-   "why": "Highest score of the picks that fit this award (79): 3.8 stars from 113 reviews, $69.99."
+   "asin": "B09GDL6BGY",
+   "name": "Zooz Q Sensor ZSE11 800LR",
+   "price": 46.95,
+   "why": "Highest score of the picks that fit this award (85): 3.6 stars from 127 reviews, $46.95."
   }
  ],
  "systems_note": null,
@@ -69,7 +69,7 @@
    "reviews_count": 127,
    "score": 85,
    "awards": [
-    "Best Overall"
+    "Best Multisensor"
    ],
    "works_with": [
     "Home Assistant",
@@ -121,7 +121,9 @@
    "rating": 4.0,
    "reviews_count": 133,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -173,9 +175,7 @@
    "rating": 3.8,
    "reviews_count": 113,
    "score": 79,
-   "awards": [
-    "Best Multisensor"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -520,8 +520,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: Zooz Q Sensor ZSE11 800LR.",
-    "New Best Budget: Aeotec Door Window Sensor 8."
+    "New Best Budget: Aeotec Door Window Sensor 8.",
+    "New Best Overall: Zooz ZSE44 800LR.",
+    "New Best Multisensor: Zooz Q Sensor ZSE11 800LR."
    ]
   },
   {

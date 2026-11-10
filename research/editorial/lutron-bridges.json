@@ -42,8 +42,8 @@
   ],
   "awards": [
     {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Hub Only", "kind": "budget", "rule": {"type": "feature", "key": "hub"}},
-    {"label": "Best Whole-Room Kit", "kind": "special", "rule": {"type": "feature", "key": "pico"}},
+    {"label": "Best Hub Only", "kind": "budget", "rule": {"type": "feature", "key": "hub", "also": {"switch": false}}},
+    {"label": "Best Starter Kit", "kind": "special", "rule": {"type": "feature", "key": "pico"}},
     {"label": "Best for Hubitat and Pros", "kind": "premium", "rule": {"type": "feature", "key": "pro"}}
   ],
   "products": [
@@ -70,7 +70,7 @@
         "pico": true,
         "pro": false
       },
-      "verdict": "The best way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
+      "verdict": "A simple way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
       "pros": [
         "Hub, dimmer, and Pico in one box",
         "4.7 stars from 2,704 reviews",

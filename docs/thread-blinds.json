@@ -35,10 +35,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09M9PZJWT",
-   "name": "SmartWings Motorized roller shade (70% blackout)",
-   "price": 169.99,
-   "why": "Highest score on the page (78): 4.2 stars from 25 reviews, $169.99."
+   "asin": "B0D54KR9W7",
+   "name": "Eve MotionBlinds Upgrade Kit",
+   "price": 219.95,
+   "why": "Highest score (71) among picks with at least 4.0 stars and 30 reviews: 4.4 stars from 47 reviews, $219.95."
   },
   {
    "label": "Best Budget Kit",
@@ -49,10 +49,10 @@
   },
   {
    "label": "Best Complete Shade",
-   "asin": "B0B4DK18Z3",
-   "name": "SmartWings Light filtering roller shade",
-   "price": 159.99,
-   "why": "Highest score of the picks that fit this award (78): 4.6 stars from 14 reviews, $159.99."
+   "asin": "B09M9PZJWT",
+   "name": "SmartWings Motorized roller shade (70% blackout)",
+   "price": 169.99,
+   "why": "Highest score of the picks that fit this award (78): 4.2 stars from 25 reviews, $169.99."
   }
  ],
  "systems_note": "Matter-over-Thread shades work with every Matter platform once you have a Thread border router.",
@@ -69,7 +69,7 @@
    "reviews_count": 25,
    "score": 78,
    "awards": [
-    "Best Overall"
+    "Best Complete Shade"
    ],
    "works_with": [
     "Home Assistant",
@@ -126,9 +126,7 @@
    "rating": 4.6,
    "reviews_count": 14,
    "score": 78,
-   "awards": [
-    "Best Complete Shade"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -184,7 +182,9 @@
    "rating": 4.4,
    "reviews_count": 47,
    "score": 71,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -560,8 +560,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: SmartWings Motorized roller shade (70% blackout).",
-    "New Best Budget Kit: TeFei Matter blinds motor kit (Home Assistant)."
+    "New Best Budget Kit: TeFei Matter blinds motor kit (Home Assistant).",
+    "New Best Overall: Eve MotionBlinds Upgrade Kit.",
+    "New Best Complete Shade: SmartWings Motorized roller shade (70% blackout)."
    ]
   },
   {

@@ -34,17 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09GDL6BGY",
-   "name": "Zooz ZSE11 Q Sensor 800LR",
-   "price": 46.95,
-   "why": "Highest score on the page (85): 3.6 stars from 127 reviews, $46.95."
+   "asin": "B07FHL7J11",
+   "name": "Zooz ZSE18 800LR",
+   "price": 37.95,
+   "why": "Highest score (83) among picks with at least 4.0 stars and 30 reviews: 4.1 stars from 270 reviews, $37.95."
   },
   {
    "label": "Most Sensors",
-   "asin": "B07226MG2T",
-   "name": "Enbrighten Motion sensor light switch",
-   "price": 57.49,
-   "why": "Highest score of the picks that fit this award (77): 4.3 stars from 578 reviews, $57.49."
+   "asin": "B09GDL6BGY",
+   "name": "Zooz ZSE11 Q Sensor 800LR",
+   "price": 46.95,
+   "why": "Highest score of the picks that fit this award (85): 3.6 stars from 127 reviews, $46.95."
   }
  ],
  "systems_note": null,
@@ -61,7 +61,7 @@
    "reviews_count": 127,
    "score": 85,
    "awards": [
-    "Best Overall"
+    "Most Sensors"
    ],
    "works_with": [
     "Home Assistant",
@@ -114,7 +114,9 @@
    "rating": 4.1,
    "reviews_count": 270,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -167,9 +169,7 @@
    "rating": 4.3,
    "reviews_count": 578,
    "score": 77,
-   "awards": [
-    "Most Sensors"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -545,8 +545,8 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: Zooz ZSE11 Q Sensor 800LR.",
-    "New Most Sensors: Enbrighten Motion sensor light switch."
+    "New Best Overall: Zooz ZSE18 800LR.",
+    "New Most Sensors: Zooz ZSE11 Q Sensor 800LR."
    ]
   },
   {

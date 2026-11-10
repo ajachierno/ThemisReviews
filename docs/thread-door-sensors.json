@@ -35,17 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0G6ZH853W",
-   "name": "Aqara Multi-State Sensor P100",
-   "price": 27.99,
-   "why": "Highest score on the page (76): 3.0 stars from 126 reviews, $27.99."
+   "asin": "B0BZSY26WP",
+   "name": "Eve Door & Window (Matter)",
+   "price": 43.95,
+   "why": "Highest score (73) among picks with at least 4.0 stars and 30 reviews: 4.1 stars from 150 reviews, $43.95."
   },
   {
    "label": "Best Budget",
-   "asin": "B0BTL8B72D",
-   "name": "Aqara Door and Window Sensor P2",
+   "asin": "B0G6ZH853W",
+   "name": "Aqara Multi-State Sensor P100",
    "price": 27.99,
-   "why": "Highest score (70) among the cheapest third of picks (up to $27.99 each): 3.6 stars from 1,142 reviews, $27.99."
+   "why": "Highest score (76) among the cheapest third of picks (up to $27.99 each): 3.0 stars from 126 reviews, $27.99."
   }
  ],
  "systems_note": "Every sensor here runs on Thread and joins your system through Matter. You need a Thread border router such as a recent Apple TV, HomePod, Nest Hub, or Echo.",
@@ -62,7 +62,7 @@
    "reviews_count": 126,
    "score": 76,
    "awards": [
-    "Best Overall"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -118,7 +118,9 @@
    "rating": 4.1,
    "reviews_count": 150,
    "score": 73,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -173,9 +175,7 @@
    "rating": 3.6,
    "reviews_count": 1142,
    "score": 70,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -298,7 +298,8 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: Aqara Multi-State Sensor P100."
+    "New Best Overall: Eve Door & Window (Matter).",
+    "New Best Budget: Aqara Multi-State Sensor P100."
    ]
   },
   {

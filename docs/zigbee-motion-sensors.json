@@ -34,24 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0GZVPQQRX",
-   "name": "SONOFF SNZB-06P24",
-   "price": 24.9,
-   "why": "Highest score on the page (82): 3.8 stars from 219 reviews, $24.90."
+   "asin": "B0H4GD6GGK",
+   "name": "Shelly BLU Motion ZB",
+   "price": 26.99,
+   "why": "Highest score (77) among picks with at least 4.0 stars and 30 reviews: 4.5 stars from 78 reviews, $26.99."
   },
   {
    "label": "Best Presence Sensor",
-   "asin": "B0FG2MD3YP",
-   "name": "Aqara Presence Sensor FP300",
-   "price": 46.99,
-   "why": "Highest score (81) among picks marked Yes for Detects still people: 3.7 stars from 969 reviews, $46.99."
+   "asin": "B0GZVPQQRX",
+   "name": "SONOFF SNZB-06P24",
+   "price": 24.9,
+   "why": "Highest score (82) among picks marked Yes for Detects still people: 3.8 stars from 219 reviews, $24.90."
   },
   {
    "label": "Most Capable",
-   "asin": "B0D5QPH3T6",
-   "name": "Aqara Presence Sensor FP1E",
-   "price": 42.99,
-   "why": "Most of this page's scored features: 4.0 stars from 502 reviews, $42.99."
+   "asin": "B0FG2MD3YP",
+   "name": "Aqara Presence Sensor FP300",
+   "price": 46.99,
+   "why": "Most of this page's scored features: 3.7 stars from 969 reviews, $46.99."
   }
  ],
  "systems_note": null,
@@ -68,7 +68,7 @@
    "reviews_count": 219,
    "score": 82,
    "awards": [
-    "Best Overall"
+    "Best Presence Sensor"
    ],
    "works_with": [
     "Home Assistant",
@@ -123,7 +123,7 @@
    "reviews_count": 969,
    "score": 81,
    "awards": [
-    "Best Presence Sensor"
+    "Most Capable"
    ],
    "works_with": [
     "Home Assistant",
@@ -179,7 +179,9 @@
    "rating": 4.5,
    "reviews_count": 78,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Google Home",
@@ -247,7 +249,7 @@
     "subscription": true
    },
    "bought_last_month": "400+ bought in past month",
-   "verdict": "The Zigbee motion sensor to buy: fast, cheap, and the battery lasts years.",
+   "verdict": "A fast, cheap Zigbee motion sensor with a battery that lasts years.",
    "pros": [
     "Retriggers in as little as 5 seconds",
     "Rated for about 3 years on a battery",
@@ -284,9 +286,7 @@
    "rating": 4.0,
    "reviews_count": 502,
    "score": 76,
-   "awards": [
-    "Most Capable"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -608,9 +608,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: SONOFF SNZB-06P24.",
-    "New Best Presence Sensor: Aqara Presence Sensor FP300.",
-    "New Most Capable: Aqara Presence Sensor FP1E."
+    "New Best Overall: Shelly BLU Motion ZB.",
+    "New Best Presence Sensor: SONOFF SNZB-06P24.",
+    "New Most Capable: Aqara Presence Sensor FP300."
    ]
   },
   {

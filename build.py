@@ -1762,7 +1762,7 @@ def build_trust_pages(site):
     <h2>Awards come from the scores</h2>
     <p>Nobody picks the award winners by hand. Each award is a rule, and the product that fits the rule with the highest score wins it:</p>
     <ul>
-      <li><b>Best Overall</b> is the highest score on the page.</li>
+      <li><b>Best Overall</b> is the highest score among products with at least 4.0 stars from at least 30 reviews, so a long feature list can't carry a poorly rated or barely reviewed product to the top award. If nothing on the page clears both, it goes to the highest score.</li>
       <li><b>Best Budget</b> is the highest score among the cheapest third of the page, by price per item. <b>Best Premium</b> is the same for the priciest third.</li>
       <li>Awards for a feature or a system, such as Best Outdoor or Best for Apple Home, go to the highest score among the products with that feature or that work with that system.</li>
       <li>Most Popular goes to the most Amazon reviews, Best Rated to the highest star rating, and Most Features to the most of the page's scored features.</li>

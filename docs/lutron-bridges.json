@@ -42,17 +42,17 @@
   },
   {
    "label": "Best Hub Only",
+   "asin": "B00XPW67ZM",
+   "name": "Lutron Caseta Smart Hub (L-BDG2)",
+   "price": 89.99,
+   "why": "Highest score of the picks that fit this award (80): 4.6 stars from 1,967 reviews, $89.99."
+  },
+  {
+   "label": "Best Starter Kit",
    "asin": "B07G5V6M6G",
    "name": "Lutron Caseta Smart Dimmer Starter Kit",
    "price": 91.95,
-   "why": "Highest score of the picks that fit this award (94): 4.7 stars from 2,704 reviews, $91.95."
-  },
-  {
-   "label": "Best Whole-Room Kit",
-   "asin": "B01M3XJUAD",
-   "name": "Lutron Caseta Deluxe Smart Dimmer Kit",
-   "price": 151.9,
-   "why": "Highest score (94) among picks marked Yes for Pico remote: 4.7 stars from 2,586 reviews, $151.90."
+   "why": "Highest score (94) among picks marked Yes for Pico remote: 4.7 stars from 2,704 reviews, $91.95."
   }
  ],
  "systems_note": "Caseta works with Alexa, Apple Home, Google Home, SmartThings, and Home Assistant's official Lutron Caseta integration. Hubitat's Lutron integration needs the Smart Hub Pro.",
@@ -125,7 +125,7 @@
    "reviews_count": 2704,
    "score": 94,
    "awards": [
-    "Best Hub Only"
+    "Best Starter Kit"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -141,7 +141,7 @@
     "subscription": true
    },
    "bought_last_month": "400+ bought in past month",
-   "verdict": "The best way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
+   "verdict": "A simple way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
    "pros": [
     "Hub, dimmer, and Pico in one box",
     "4.7 stars from 2,704 reviews",
@@ -180,9 +180,7 @@
    "rating": 4.7,
    "reviews_count": 2586,
    "score": 94,
-   "awards": [
-    "Best Whole-Room Kit"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Apple Home",
@@ -394,7 +392,9 @@
    "rating": 4.6,
    "reviews_count": 1967,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Hub Only"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Apple Home",
@@ -510,7 +510,7 @@
    "date": "2026-11-10",
    "notes": [
     "New Best Overall: Lutron Caseta Smart Hub Pro Kit (L-BDGPRO2).",
-    "New Best Hub Only: Lutron Caseta Smart Dimmer Starter Kit."
+    "New Best Hub Only: Lutron Caseta Smart Hub (L-BDG2)."
    ]
   },
   {

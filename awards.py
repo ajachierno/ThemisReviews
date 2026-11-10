@@ -5,10 +5,12 @@ Every award in research/editorial/<slug>.json is a rule, never a product:
     {"label": "Best Outdoor", "kind": "special", "rule": {"type": "feature", "key": "outdoor"}}
 
 Rule types (the winner is always the highest score among the products that qualify):
-    overall                      every product on the page
+    overall                      every product with at least 4.0 stars and 30 reviews (listing_age.py);
+                                 every product on the page if none has both
     budget                       the cheapest third of the page, by price per item
     premium                      the priciest third of the page, by price per item
-    feature  key [value]         products whose feature `key` is true (or equals `value`, e.g. false)
+    feature  key [value] [also]  products whose feature `key` is true (or equals `value`, e.g. false);
+                                 `also` adds more features that must match, e.g. {"switch": false}
     system   key                 products that work with that system slug (data/systems.json)
     brand    key                 products from that brand
     most_reviews                 the product with the most Amazon reviews
@@ -77,7 +79,8 @@ def check_rule(rule, cat, where=""):
     t = rule.get("type")
     assert t in RULE_TYPES, f"{where}: unknown award rule {rule}"
     if t == "feature":
-        assert rule.get("key") in cat["feature_weights"], f"{where}: award rule feature {rule.get('key')!r} not in feature_weights"
+        for k in [rule.get("key"), *rule.get("also", {})]:
+            assert k in cat["feature_weights"], f"{where}: award rule feature {k!r} not in feature_weights"
     if t in ("system", "brand"):
         assert rule.get("key"), f"{where}: award rule {t} needs a key"
 
@@ -85,6 +88,9 @@ def check_rule(rule, cat, where=""):
 def _qualifies(rule, cat):
     t = rule["type"]
     prods = cat["products"]
+    if t == "overall":
+        ids = {p["asin"] for p in listing_age.overall_eligible(prods)}
+        return lambda p: p["asin"] in ids
     if t in ("budget", "premium"):
         n = max(1, math.ceil(len(prods) / 3))
         by_price = sorted(prods, key=unit_price)
@@ -92,8 +98,8 @@ def _qualifies(rule, cat):
         ids = {p["asin"] for p in pool}
         return lambda p: p["asin"] in ids
     if t == "feature":
-        want = rule.get("value", True)
-        return lambda p: bool(p["features"].get(rule["key"])) == want
+        want = {rule["key"]: rule.get("value", True), **rule.get("also", {})}
+        return lambda p: all(bool(p["features"].get(k)) == v for k, v in want.items())
     if t == "system":
         return lambda p: rule["key"] in p.get("systems", [])
     if t == "brand":
@@ -116,7 +122,11 @@ def _why(rule, p, cat, pool):
     t = rule["type"]
     facts = f'{p["rating"]} stars from {p["reviews_count"]:,} reviews, {"$"}{p["price"]:,.2f}'
     if t == "overall":
-        lead = f'Highest score on the page ({p["score"]})'
+        if p["score"] >= max(x["score"] for x in cat["products"]):
+            lead = f'Highest score on the page ({p["score"]})'
+        else:
+            lead = (f'Highest score ({p["score"]}) among picks with at least {listing_age.MIN_OVERALL_RATING:.1f} stars '
+                    f'and {listing_age.MIN_OVERALL_REVIEWS} reviews')
     elif t == "budget":
         cap = max(unit_price(x) for x in pool)
         lead = f'Highest score ({p["score"]}) among the cheapest third of picks (up to {"$"}{cap:,.2f} each)'

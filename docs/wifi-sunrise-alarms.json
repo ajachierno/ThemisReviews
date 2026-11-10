@@ -35,17 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H3NSFQ5K",
-   "name": "NEEWER NF03 Sunrise Alarm Clock",
-   "price": 59.99,
-   "why": "Highest score on the page (86): 3.8 stars from 61 reviews, $59.99."
-  },
-  {
-   "label": "Best Budget",
    "asin": "B0H1QWLZTD",
    "name": "ecozy Lumo Nova 3-in-1 Sunrise Alarm Clock",
    "price": 39.98,
-   "why": "Highest score (82) among the cheapest third of picks (up to $43.99 each): 4.0 stars from 62 reviews, $39.98."
+   "why": "Highest score (82) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 62 reviews, $39.98."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0FRRXBZ3W",
+   "name": "ANJANK App Smart Sunrise Alarm Clock",
+   "price": 43.99,
+   "why": "Highest score (76) among the cheapest third of picks (up to $43.99 each): 3.8 stars from 32 reviews, $43.99."
+  },
+  {
+   "label": "Best Voice Control",
+   "asin": "B0H3NSFQ5K",
+   "name": "NEEWER NF03 Sunrise Alarm Clock",
+   "price": 59.99,
+   "why": "Highest score of the picks that fit this award (86): 3.8 stars from 61 reviews, $59.99."
   },
   {
    "label": "Best Premium",
@@ -69,7 +76,7 @@
    "reviews_count": 61,
    "score": 86,
    "awards": [
-    "Best Overall"
+    "Best Voice Control"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -121,7 +128,7 @@
    "reviews_count": 62,
    "score": 82,
    "awards": [
-    "Best Budget"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "ecozy app",
@@ -265,7 +272,9 @@
    "rating": 3.8,
    "reviews_count": 32,
    "score": 76,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "ANJANK app",
    "works_without": {
@@ -321,7 +330,8 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "New Best Overall: NEEWER NF03 Sunrise Alarm Clock."
+    "New Best Overall: ecozy Lumo Nova 3-in-1 Sunrise Alarm Clock.",
+    "New Best Budget: ANJANK App Smart Sunrise Alarm Clock."
    ]
   },
   {
