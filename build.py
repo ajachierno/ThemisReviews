@@ -1398,8 +1398,14 @@ def long_date(iso):
 
 def page_overall_budget(cat):
     by = {p["asin"]: p for p in cat["products"]}
-    ov = next((by[a["asin"]] for a in cat.get("awards", []) if a["kind"] == "overall" and a["asin"] in by), None)
-    bu = next((by[a["asin"]] for a in cat.get("awards", []) if a["kind"] == "budget" and a["asin"] in by), None)
+
+    def holder(rule_type):
+        # Match on the award's rule, not its card color: "kind" is also used to style awards
+        # such as Most Popular or Best for Ring Alarm, which are not budget picks.
+        return next((by[a["asin"]] for a in cat.get("awards", [])
+                     if a.get("rule", {}).get("type") == rule_type and a["asin"] in by), None)
+
+    ov, bu = holder("overall"), holder("budget")
     ranked = sorted(cat["products"], key=lambda p: p["rank"])
     return ov or (ranked[0] if ranked else None), bu
 

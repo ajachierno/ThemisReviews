@@ -90,6 +90,17 @@ def diff(old, new):
     return notes
 
 
+def last_award_note(notes):
+    """When an award changed hands more than once in a day, keep only the final holder's note."""
+    last = {}
+    for i, n in enumerate(notes):
+        if n.startswith("New ") and ": " in n and not n.startswith("New avoid pick"):
+            last[n.split(": ", 1)[0]] = i
+    return [n for i, n in enumerate(notes)
+            if not (n.startswith("New ") and ": " in n and not n.startswith("New avoid pick"))
+            or last[n.split(": ", 1)[0]] == i]
+
+
 def build():
     log = {}
     for f in sorted(PAGES.glob("*.json")):
@@ -108,7 +119,8 @@ def build():
                 entries.setdefault(d1, []).extend(notes)
         for m in MANUAL.get(slug, []):
             entries.setdefault(m["date"], []).append(m["note"])
-        merged = [{"date": d, "notes": list(dict.fromkeys(ns))} for d, ns in sorted(entries.items(), reverse=True)]
+        merged = [{"date": d, "notes": last_award_note(list(dict.fromkeys(ns)))}
+                  for d, ns in sorted(entries.items(), reverse=True)]
         if AUDITS.get(slug, "") > captured:
             captured = AUDITS[slug]
         if PRICECHECKS.get(slug, "") > captured:

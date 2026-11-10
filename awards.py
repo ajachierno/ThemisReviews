@@ -126,10 +126,11 @@ def _why(rule, p, cat, pool):
         lab = _feature_label(cat, rule["key"])
         if not lab:
             lead = f'Highest score of the picks that fit this award ({p["score"]})'
-        elif rule.get("value", True):
-            lead = f'Highest score ({p["score"]}) among picks with {lab[:1].lower() + lab[1:]}'
         else:
-            lead = f'Highest score ({p["score"]}) among picks without {lab[:1].lower() + lab[1:]}'
+            # The label is quoted as it appears in the specs ("Long Range: Yes"), so it reads
+            # correctly whatever its wording or capitalization.
+            yes_no = "Yes" if rule.get("value", True) else "No"
+            lead = f'Highest score ({p["score"]}) among picks marked {yes_no} for {lab}'
     elif t == "system":
         lead = f'Highest score ({p["score"]}) among picks that work with {_systems().get(rule["key"], rule["key"])}'
     elif t == "brand":
