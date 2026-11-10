@@ -29,6 +29,7 @@
    "bright": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -131,7 +132,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 204,
-   "score": 74,
+   "score": 76,
    "awards": [
     "Best Cordless"
    ],
@@ -284,6 +285,61 @@
   },
   {
    "rank": 5,
+   "asin": "B0F3D8RB4H",
+   "name": "Govee Table Lamp 2 Pro x Sound by JBL, Cordless Table Lamp with Speaker",
+   "brand": "Govee",
+   "model": "Table Lamp 2 Pro x Sound by JBL",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 575,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A party lamp with a built-in speaker and fast music sync.",
+   "pros": [
+    "Built-in JBL-tuned speaker",
+    "Pair two for stereo",
+    "Cordless"
+   ],
+   "cons": [
+    "3.9 stars",
+    "$179.99",
+    "Needs a firmware update before touch controls work properly"
+   ],
+   "specs": {
+    "style": "Cordless table lamp with speaker",
+    "brightness": "Not stated in bullets",
+    "color": "RGBIC, 210 LEDs",
+    "extras": "JBL-tuned speaker, 5,200 mAh battery"
+   },
+   "features": {
+    "matter": true,
+    "white": false,
+    "cordless": true,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71lINT5EVbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F3D8RB4H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0F3D8RB4H"
+  },
+  {
+   "rank": 6,
    "asin": "B0936C6SBW",
    "name": "Bedroom Table Lamp with Smart RGB LED Bulb, 2 USB Ports, Dimmable, Works with Alexa, Music Sync, 2.4 GHz Wi-Fi",
    "brand": "Peteme",
@@ -330,61 +386,6 @@
    "image": "https://m.media-amazon.com/images/I/61UPHWjfGZL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0936C6SBW?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0936C6SBW"
-  },
-  {
-   "rank": 6,
-   "asin": "B0F3D8RB4H",
-   "name": "Govee Table Lamp 2 Pro x Sound by JBL, Cordless Table Lamp with Speaker",
-   "brand": "Govee",
-   "model": "Table Lamp 2 Pro x Sound by JBL",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 575,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A party lamp with a built-in speaker and fast music sync.",
-   "pros": [
-    "Built-in JBL-tuned speaker",
-    "Pair two for stereo",
-    "Cordless"
-   ],
-   "cons": [
-    "3.9 stars",
-    "$179.99",
-    "Needs a firmware update before touch controls work properly"
-   ],
-   "specs": {
-    "style": "Cordless table lamp with speaker",
-    "brightness": "Not stated in bullets",
-    "color": "RGBIC, 210 LEDs",
-    "extras": "JBL-tuned speaker, 5,200 mAh battery"
-   },
-   "features": {
-    "matter": true,
-    "white": false,
-    "cordless": true,
-    "bright": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71lINT5EVbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F3D8RB4H?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-desk-lamps.html#B0F3D8RB4H"
   },
   {
    "rank": 7,

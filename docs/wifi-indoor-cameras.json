@@ -28,6 +28,7 @@
    "high_res": 0.35
   },
   "reviews_ceiling": 45000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -218,6 +219,52 @@
   },
   {
    "rank": 4,
+   "asin": "B0F5KGHSHF",
+   "name": "Tapo 4K Indoor Pan/Tilt Wired Security Camera, Baby Monitor, C260",
+   "brand": "Tapo",
+   "model": "C260 (4K)",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 735,
+   "score": 86,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Tapo app (no assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Tapo's 4K pan-and-tilt camera, rated 4.6 stars.",
+   "pros": [
+    "4K with pan and tilt",
+    "microSD recording",
+    "4.6 stars, sold by Amazon"
+   ],
+   "cons": [
+    "The listing doesn't name voice assistants",
+    "Only 735 reviews",
+    "$59.99"
+   ],
+   "specs": {
+    "resolution": "4K",
+    "storage": "microSD or cloud",
+    "power": "Wired",
+    "pack": "1 camera"
+   },
+   "features": {
+    "pan_tilt": true,
+    "local_storage": true,
+    "high_res": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61aCVNHsfCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5KGHSHF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0F5KGHSHF"
+  },
+  {
+   "rank": 5,
    "asin": "B0BXMSS8Z7",
    "name": "Kasa 1080p Indoor Pan/Tilt Wired Security Camera, Baby & Pet Monitor, EC71",
    "brand": "Kasa",
@@ -266,7 +313,7 @@
    "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0BXMSS8Z7"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0CCHQ38D2",
    "name": "Aqara 2K Indoor Security Camera E1, HomeKit Secure Video Indoor Camera",
    "brand": "Aqara",
@@ -313,52 +360,6 @@
    "image": "https://m.media-amazon.com/images/I/6134T2Cs0hL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CCHQ38D2?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0CCHQ38D2"
-  },
-  {
-   "rank": 6,
-   "asin": "B0F5KGHSHF",
-   "name": "Tapo 4K Indoor Pan/Tilt Wired Security Camera, Baby Monitor, C260",
-   "brand": "Tapo",
-   "model": "C260 (4K)",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 735,
-   "score": 85,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Tapo app (no assistants listed)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Tapo's 4K pan-and-tilt camera, rated 4.6 stars.",
-   "pros": [
-    "4K with pan and tilt",
-    "microSD recording",
-    "4.6 stars, sold by Amazon"
-   ],
-   "cons": [
-    "The listing doesn't name voice assistants",
-    "Only 735 reviews",
-    "$59.99"
-   ],
-   "specs": {
-    "resolution": "4K",
-    "storage": "microSD or cloud",
-    "power": "Wired",
-    "pack": "1 camera"
-   },
-   "features": {
-    "pan_tilt": true,
-    "local_storage": true,
-    "high_res": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61aCVNHsfCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F5KGHSHF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0F5KGHSHF"
   },
   {
    "rank": 7,

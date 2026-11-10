@@ -28,6 +28,7 @@
    "multi": 0.35
   },
   "reviews_ceiling": 7000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -163,6 +164,55 @@
   },
   {
    "rank": 3,
+   "asin": "B0DQLDBXWF",
+   "name": "GoveeLife Upgraded Smart Water Leak Detector 1s with High Alarm, 3 Pack",
+   "brand": "GoveeLife",
+   "model": "Water Leak Detector 1s (3-pack)",
+   "price": 43.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2974,
+   "score": 83,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "5K+ bought in past month",
+   "verdict": "Loud sensors with a 5-year battery and SMS, app, and email alerts, selling 3K+ a month.",
+   "pros": [
+    "105 dB alarm",
+    "Up to 5-year battery",
+    "SMS, app, and email alerts",
+    "5K+ bought in the past month"
+   ],
+   "cons": [
+    "Needs Govee's gateway",
+    "No voice assistant integration named",
+    "4.2 stars"
+   ],
+   "specs": {
+    "connection": "Sub-1 GHz to Wi-Fi gateway",
+    "siren": "105 dB",
+    "pack": "3 sensors",
+    "power": "Up to 5 years",
+    "app": "Govee Home",
+    "extras": "SMS and email alerts"
+   },
+   "features": {
+    "siren": true,
+    "direct_wifi": false,
+    "multi": true
+   },
+   "image": "https://m.media-amazon.com/images/I/611tOn+Is2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQLDBXWF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DQLDBXWF"
+  },
+  {
+   "rank": 4,
    "asin": "B0C3B91TJB",
    "name": "GoveeLife Smart Water Leak Detector 2 with 1968ft Ultra-Long Range, 6 Pack",
    "brand": "GoveeLife",
@@ -211,55 +261,6 @@
    "image": "https://m.media-amazon.com/images/I/61xL3sIdVrL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C3B91TJB?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0C3B91TJB"
-  },
-  {
-   "rank": 4,
-   "asin": "B0DQLDBXWF",
-   "name": "GoveeLife Upgraded Smart Water Leak Detector 1s with High Alarm, 3 Pack",
-   "brand": "GoveeLife",
-   "model": "Water Leak Detector 1s (3-pack)",
-   "price": 43.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 2974,
-   "score": 82,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "5K+ bought in past month",
-   "verdict": "Loud sensors with a 5-year battery and SMS, app, and email alerts, selling 3K+ a month.",
-   "pros": [
-    "105 dB alarm",
-    "Up to 5-year battery",
-    "SMS, app, and email alerts",
-    "5K+ bought in the past month"
-   ],
-   "cons": [
-    "Needs Govee's gateway",
-    "No voice assistant integration named",
-    "4.2 stars"
-   ],
-   "specs": {
-    "connection": "Sub-1 GHz to Wi-Fi gateway",
-    "siren": "105 dB",
-    "pack": "3 sensors",
-    "power": "Up to 5 years",
-    "app": "Govee Home",
-    "extras": "SMS and email alerts"
-   },
-   "features": {
-    "siren": true,
-    "direct_wifi": false,
-    "multi": true
-   },
-   "image": "https://m.media-amazon.com/images/I/611tOn+Is2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQLDBXWF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DQLDBXWF"
   },
   {
    "rank": 5,
@@ -378,7 +379,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 419,
-   "score": 75,
+   "score": 77,
    "awards": [
     "Best Single Sensor"
    ],

@@ -29,6 +29,7 @@
    "load_mgmt": 0.25
   },
   "reviews_ceiling": 3000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -121,7 +122,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2197,
-   "score": 82,
+   "score": 83,
    "awards": [
     "Best Plug-In"
    ],
@@ -311,7 +312,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 153,
-   "score": 78,
+   "score": 80,
    "awards": [],
    "works_with": [],
    "works_with_note": "IYILO app",
@@ -357,7 +358,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 153,
-   "score": 70,
+   "score": 72,
    "awards": [],
    "works_with": [],
    "works_with_note": "IYILO app",
@@ -403,7 +404,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 38,
-   "score": 70,
+   "score": 72,
    "awards": [],
    "works_with": [],
    "works_with_note": "Grasside app",
@@ -449,7 +450,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 57,
-   "score": 68,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant"

@@ -29,6 +29,7 @@
    "custom_led": 0.2
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -186,7 +187,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 45,
-   "score": 72,
+   "score": 75,
    "awards": [
     "Best Budget"
    ],

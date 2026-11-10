@@ -11,9 +11,10 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
-from scrape_data import load_scrape  # noqa: E402  base captures, then research/refresh/*.json (newest wins)
+from scrape_data import load_scrape, load_first_available  # noqa: E402  base captures, then research/refresh/*.json (newest wins)
 
 SCRAPE = load_scrape()
+FIRST_AVAILABLE = load_first_available()
 OUT = HERE.parent / "data" / "pages"
 
 
@@ -35,8 +36,11 @@ def live(asin):
     if bought:
         m = re.search(r"([\d.,]+K?\+?) bought", bought)
         bought = f"{m.group(1)} bought in past month" if m else None
-    return {"name": re.sub(r"\s+", " ", d["title"]).strip(), "image": d["image"], "price": price,
-            "rating": rating, "reviews_count": reviews, "bought": bought}
+    out = {"name": re.sub(r"\s+", " ", d["title"]).strip(), "image": d["image"], "price": price,
+           "rating": rating, "reviews_count": reviews, "bought": bought}
+    if asin in FIRST_AVAILABLE:
+        out["first_available"] = FIRST_AVAILABLE[asin]
+    return out
 
 
 def merge(slug):

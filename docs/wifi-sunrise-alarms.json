@@ -29,6 +29,7 @@
    "nosub": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 61,
-   "score": 73,
+   "score": 75,
    "awards": [
     "Best Voice Control"
    ],
@@ -117,6 +118,55 @@
   },
   {
    "rank": 2,
+   "asin": "B0H1QWLZTD",
+   "name": "ecozy 3 in 1 Sunrise Alarm Clock White Noise Machine with Smart App Control",
+   "brand": "ecozy",
+   "model": "Lumo Nova 3-in-1 Sunrise Alarm Clock",
+   "price": 39.98,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 62,
+   "score": 70,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "ecozy app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A sleep trainer with personalized plans and surround color lighting.",
+   "pros": [
+    "Sleep plans in the app",
+    "360° ambient light",
+    "$39.98"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Only 62 reviews",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "light": "Simulated sunrise, 360° RGB",
+    "sounds": "26 sounds",
+    "control": "App over 2.4 GHz Wi-Fi",
+    "extras": "Bluetooth audio, sleep plans"
+   },
+   "features": {
+    "voice": false,
+    "sounds": true,
+    "color": true,
+    "nosub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71n1S70FjAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H1QWLZTD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0H1QWLZTD"
+  },
+  {
+   "rank": 3,
    "asin": "B0HKVSB8K1",
    "name": "Dekala Arches Sunrise Alarm Clock with Wireless Charging, White Noise, App/Touch Control, 2.4G Wi-Fi",
    "brand": "Dekala",
@@ -165,55 +215,6 @@
    "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0HKVSB8K1"
   },
   {
-   "rank": 3,
-   "asin": "B0H1QWLZTD",
-   "name": "ecozy 3 in 1 Sunrise Alarm Clock White Noise Machine with Smart App Control",
-   "brand": "ecozy",
-   "model": "Lumo Nova 3-in-1 Sunrise Alarm Clock",
-   "price": 39.98,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 62,
-   "score": 68,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "ecozy app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A sleep trainer with personalized plans and surround color lighting.",
-   "pros": [
-    "Sleep plans in the app",
-    "360° ambient light",
-    "$39.98"
-   ],
-   "cons": [
-    "4.0 stars",
-    "Only 62 reviews",
-    "2.4 GHz Wi-Fi only"
-   ],
-   "specs": {
-    "light": "Simulated sunrise, 360° RGB",
-    "sounds": "26 sounds",
-    "control": "App over 2.4 GHz Wi-Fi",
-    "extras": "Bluetooth audio, sleep plans"
-   },
-   "features": {
-    "voice": false,
-    "sounds": true,
-    "color": true,
-    "nosub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71n1S70FjAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H1QWLZTD?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0H1QWLZTD"
-  },
-  {
    "rank": 4,
    "asin": "B0FRRXBZ3W",
    "name": "ANJANK App Smart Sunrise Alarm Clock and Sound Machine, Wake-Up Light, 15 Alarms, 25 Soothing Sounds",
@@ -223,7 +224,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 32,
-   "score": 64,
+   "score": 66,
    "awards": [],
    "works_with": [],
    "works_with_note": "ANJANK app",
@@ -270,7 +271,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 75,
-   "score": 63,
+   "score": 64,
    "awards": [
     "Best Overall"
    ],

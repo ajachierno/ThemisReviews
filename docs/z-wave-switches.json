@@ -29,6 +29,7 @@
    "custom_led": 0.15
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -122,6 +123,171 @@
   },
   {
    "rank": 2,
+   "asin": "B0FX3CTLW2",
+   "name": "UltraPro Z-Wave Long Range On/Off Switch, 800 Series, Paddle, 1 Pack",
+   "brand": "UltraPro",
+   "model": "800 Series LR paddle",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 94,
+   "score": 78,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The cheapest way into 800 Series Long Range. Flying leads make it easy to connect with wire nuts.",
+   "pros": [
+    "Lowest price for an 800 Series Long Range switch on this list",
+    "Up to 1,300 ft. range as Z-Wave LR",
+    "Color-coded flying leads connect with standard wire nuts",
+    "Works with one standard 3-way switch"
+   ],
+   "cons": [
+    "Not compatible with UltraPro add-on switches",
+    "3.9-star rating is the lowest on this list",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "One standard 3-way switch",
+    "neutral": "Required",
+    "extras": "Flying leads, 8-color LED"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/711e5LadriL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FX3CTLW2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FX3CTLW2"
+  },
+  {
+   "rank": 3,
+   "asin": "B0G1N7R29W",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR toggle",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 49,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
+   "pros": [
+    "One of the few 800 Series Long Range toggle switches",
+    "Lit toggle in eight colors and four modes",
+    "Works with one standard 3-way switch or up to four add-ons",
+    "Auto-detecting line and load terminals"
+   ],
+   "cons": [
+    "Toggle only comes in white",
+    "Fewer reviews than older Enbrighten models",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Toggle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
+    "neutral": "Required",
+    "extras": "8-color lit toggle"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GHZN4M22",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Paddle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR paddle",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 55,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Enbrighten's newest Long Range switch. It's easy to wire thanks to auto-detecting line and load terminals, and it's selling fast.",
+   "pros": [
+    "Up to 1,300 ft. range when paired as Z-Wave Long Range",
+    "Works with one standard 3-way switch or up to four Enbrighten add-ons",
+    "Auto-detecting line and load terminals",
+    "20% shallower housing than earlier models",
+    "White and light almond paddles in the box"
+   ],
+   "cons": [
+    "Full 3-way features need Enbrighten add-on switches",
+    "Newer listing with fewer reviews than older models",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
+    "neutral": "Required",
+    "extras": "8-color LED, white and almond paddles"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81PvpSwNfQL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHZN4M22?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0GHZN4M22"
+  },
+  {
+   "rank": 5,
    "asin": "B0846CJTRN",
    "name": "Zooz ZEN30 800LR Z-Wave Long Range Double Switch for Fan and Light (No Speed Control), White",
    "brand": "Zooz",
@@ -178,7 +344,7 @@
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0846CJTRN"
   },
   {
-   "rank": 3,
+   "rank": 6,
    "asin": "B0FB2VN95Q",
    "name": "Zooz 800 Series Z-Wave Long Range Heavy Duty On/Off Wall Switch ZEN75 800LR, White | Direct 3-Way (No Add-On Switch Needed) | Z-Wave Hub Required",
    "brand": "Zooz",
@@ -233,171 +399,6 @@
    "image": "https://m.media-amazon.com/images/I/51zPYibu6SL._SX342_SY445_QL70_FMwebp_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FB2VN95Q?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0FB2VN95Q"
-  },
-  {
-   "rank": 4,
-   "asin": "B0FX3CTLW2",
-   "name": "UltraPro Z-Wave Long Range On/Off Switch, 800 Series, Paddle, 1 Pack",
-   "brand": "UltraPro",
-   "model": "800 Series LR paddle",
-   "price": 24.99,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 94,
-   "score": 75,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "The cheapest way into 800 Series Long Range. Flying leads make it easy to connect with wire nuts.",
-   "pros": [
-    "Lowest price for an 800 Series Long Range switch on this list",
-    "Up to 1,300 ft. range as Z-Wave LR",
-    "Color-coded flying leads connect with standard wire nuts",
-    "Works with one standard 3-way switch"
-   ],
-   "cons": [
-    "Not compatible with UltraPro add-on switches",
-    "3.9-star rating is the lowest on this list",
-    "Needs a neutral wire"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "style": "Paddle",
-    "three_way": "One standard 3-way switch",
-    "neutral": "Required",
-    "extras": "Flying leads, 8-color LED"
-   },
-   "features": {
-    "long_range": true,
-    "direct_3way": true,
-    "scene_control": false,
-    "custom_led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/711e5LadriL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FX3CTLW2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FX3CTLW2"
-  },
-  {
-   "rank": 5,
-   "asin": "B0GHZN4M22",
-   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Paddle",
-   "brand": "Enbrighten",
-   "model": "800 Series LR paddle",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 55,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Enbrighten's newest Long Range switch. It's easy to wire thanks to auto-detecting line and load terminals, and it's selling fast.",
-   "pros": [
-    "Up to 1,300 ft. range when paired as Z-Wave Long Range",
-    "Works with one standard 3-way switch or up to four Enbrighten add-ons",
-    "Auto-detecting line and load terminals",
-    "20% shallower housing than earlier models",
-    "White and light almond paddles in the box"
-   ],
-   "cons": [
-    "Full 3-way features need Enbrighten add-on switches",
-    "Newer listing with fewer reviews than older models",
-    "Needs a neutral wire"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "style": "Paddle",
-    "three_way": "Standard 3-way or up to 4 add-ons",
-    "neutral": "Required",
-    "extras": "8-color LED, white and almond paddles"
-   },
-   "features": {
-    "long_range": true,
-    "direct_3way": true,
-    "scene_control": false,
-    "custom_led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81PvpSwNfQL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GHZN4M22?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0GHZN4M22"
-  },
-  {
-   "rank": 6,
-   "asin": "B0G1N7R29W",
-   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
-   "brand": "Enbrighten",
-   "model": "800 Series LR toggle",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 49,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
-   "pros": [
-    "One of the few 800 Series Long Range toggle switches",
-    "Lit toggle in eight colors and four modes",
-    "Works with one standard 3-way switch or up to four add-ons",
-    "Auto-detecting line and load terminals"
-   ],
-   "cons": [
-    "Toggle only comes in white",
-    "Fewer reviews than older Enbrighten models",
-    "Needs a neutral wire"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "style": "Toggle",
-    "three_way": "Standard 3-way or up to 4 add-ons",
-    "neutral": "Required",
-    "extras": "8-color lit toggle"
-   },
-   "features": {
-    "long_range": true,
-    "direct_3way": true,
-    "scene_control": false,
-    "custom_led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
   },
   {
    "rank": 7,

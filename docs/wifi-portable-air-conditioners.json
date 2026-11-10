@@ -29,6 +29,7 @@
    "voice": 0.25
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -65,6 +66,58 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GMGR4BJV",
+   "name": "14,000 BTU Portable Air Conditioner, 4-in-1 Smart AC with WiFi",
+   "brand": "Temprium",
+   "model": "14,000 BTU Smart Portable AC",
+   "price": 449.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 389,
+   "score": 80,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "TEMPRIUM app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The quietest big portable AC here.",
+   "pros": [
+    "41 dB silent mode",
+    "Alexa and Google",
+    "4.2 stars"
+   ],
+   "cons": [
+    "$449.99",
+    "Room size isn't in the bullets",
+    "Only 389 reviews"
+   ],
+   "specs": {
+    "btu": "14,000 BTU",
+    "room": "Not stated in bullets",
+    "modes": "Cool, dry, fan, dehumidify",
+    "extras": "41 dB silent mode, dual-motor compressor"
+   },
+   "features": {
+    "big": true,
+    "quiet": true,
+    "evap": false,
+    "voice": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61fRvloBvhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GMGR4BJV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B0GMGR4BJV"
+  },
+  {
+   "rank": 2,
    "asin": "B01DLPUWGW",
    "name": "BLACK+DECKER Smart Portable Air Conditioner, 12,000 BTU, BPACT12WT, White",
    "brand": "BLACK+DECKER",
@@ -114,7 +167,7 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWGW"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B01DLPUWHQ",
    "name": "BLACK+DECKER Smart Portable Air Conditioner, 14,000 BTU, BPACT14WT, White",
    "brand": "BLACK+DECKER",
@@ -164,7 +217,7 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWHQ"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B01DLPUWJ4",
    "name": "BLACK+DECKER Smart Portable Air Conditioner with Heat, 14,000 BTU, White",
    "brand": "BLACK+DECKER",
@@ -216,58 +269,6 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWJ4"
   },
   {
-   "rank": 4,
-   "asin": "B0GMGR4BJV",
-   "name": "14,000 BTU Portable Air Conditioner, 4-in-1 Smart AC with WiFi",
-   "brand": "Temprium",
-   "model": "14,000 BTU Smart Portable AC",
-   "price": 449.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 389,
-   "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "TEMPRIUM app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The quietest big portable AC here.",
-   "pros": [
-    "41 dB silent mode",
-    "Alexa and Google",
-    "4.2 stars"
-   ],
-   "cons": [
-    "$449.99",
-    "Room size isn't in the bullets",
-    "Only 389 reviews"
-   ],
-   "specs": {
-    "btu": "14,000 BTU",
-    "room": "Not stated in bullets",
-    "modes": "Cool, dry, fan, dehumidify",
-    "extras": "41 dB silent mode, dual-motor compressor"
-   },
-   "features": {
-    "big": true,
-    "quiet": true,
-    "evap": false,
-    "voice": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61fRvloBvhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GMGR4BJV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B0GMGR4BJV"
-  },
-  {
    "rank": 5,
    "asin": "B0HCYKKLLG",
    "name": "14,000 BTU Smart WiFi Portable Air Conditioner, Cools up to 700 Sq.Ft, Auto-Evaporation, 3-in-1 Modes, Voice & Remote Control, Quiet Operation, White",
@@ -277,7 +278,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 89,
-   "score": 75,
+   "score": 78,
    "awards": [
     "Best for Big Rooms"
    ],

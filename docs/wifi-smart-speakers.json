@@ -28,6 +28,7 @@
    "display": 0.3
   },
   "reviews_ceiling": 100000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -260,6 +261,50 @@
   },
   {
    "rank": 5,
+   "asin": "B0GLH11HYK",
+   "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke",
+   "brand": "Bose",
+   "model": "Lifestyle Ultra Speaker",
+   "price": 349.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 381,
+   "score": 65,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Bose app, AirPlay, Google Cast",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
+   "pros": [
+    "AirPlay and Google Cast",
+    "Adjustable EQ",
+    "AUX input"
+   ],
+   "cons": [
+    "$349.00",
+    "4.3 stars",
+    "The listing doesn't name which voice assistant"
+   ],
+   "specs": {
+    "assistant": "Voice commands (assistant not named)",
+    "extras": "AirPlay, Google Cast, AUX, adjustable EQ"
+   },
+   "features": {
+    "hub": false,
+    "sound": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81DYUJWBUoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GLH11HYK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0GLH11HYK"
+  },
+  {
+   "rank": 6,
    "asin": "B0CL7P33RH",
    "name": "Google Audio Bluetooth Speaker with Keychain LED - Wireless Music Streaming - Chalk",
    "brand": "Google",
@@ -303,50 +348,6 @@
    "image": "https://m.media-amazon.com/images/I/81-qmWPiqTL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CL7P33RH?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0CL7P33RH"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GLH11HYK",
-   "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke",
-   "brand": "Bose",
-   "model": "Lifestyle Ultra Speaker",
-   "price": 349.0,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 381,
-   "score": 63,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Bose app, AirPlay, Google Cast",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
-   "pros": [
-    "AirPlay and Google Cast",
-    "Adjustable EQ",
-    "AUX input"
-   ],
-   "cons": [
-    "$349.00",
-    "4.3 stars",
-    "The listing doesn't name which voice assistant"
-   ],
-   "specs": {
-    "assistant": "Voice commands (assistant not named)",
-    "extras": "AirPlay, Google Cast, AUX, adjustable EQ"
-   },
-   "features": {
-    "hub": false,
-    "sound": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81DYUJWBUoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GLH11HYK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0GLH11HYK"
   }
  ],
  "avoid": [

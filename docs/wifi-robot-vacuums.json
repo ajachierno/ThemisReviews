@@ -29,6 +29,7 @@
    "strong": 0.2
   },
   "reviews_ceiling": 40000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -123,7 +124,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 987,
-   "score": 84,
+   "score": 86,
    "awards": [
     "Best Mopping"
    ],
@@ -174,7 +175,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 25648,
-   "score": 78,
+   "score": 79,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -215,6 +216,57 @@
   },
   {
    "rank": 4,
+   "asin": "B0GGRSMXKN",
+   "name": "roborock 2026 New Qrevo S Pro Robot Vacuum and Mop, 18,500Pa Suction",
+   "brand": "roborock",
+   "model": "Qrevo S Pro",
+   "price": 399.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1994,
+   "score": 78,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Roborock app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "6K+ bought in past month",
+   "verdict": "A popular all-in-one Roborock with strong suction and anti-tangle brushes for pet homes.",
+   "pros": [
+    "18,500 Pa suction",
+    "Zero-tangle brushes for pet hair",
+    "6K+ bought in the past month",
+    "Official Home Assistant integration"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Voice assistants aren't named in the bullets",
+    "$399.99"
+   ],
+   "specs": {
+    "suction": "18,500 Pa",
+    "dock": "All-in-one, sealed bag",
+    "voice": "Not listed in bullets"
+   },
+   "features": {
+    "self_empty": true,
+    "mop": true,
+    "voice": false,
+    "strong": true
+   },
+   "image": "https://m.media-amazon.com/images/I/615KW-IyiHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GGRSMXKN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GGRSMXKN"
+  },
+  {
+   "rank": 5,
    "asin": "B08QZVSC8D",
    "name": "Shark AI Ultra AV2501AE Robot Vacuum with Bagless XL HEPA Self-Empty Base, LiDAR Navigation, Wi-Fi, Black",
    "brand": "Shark",
@@ -265,57 +317,6 @@
    "page_url": "https://themisreviews.com/wifi-robot-vacuums.html#B08QZVSC8D"
   },
   {
-   "rank": 5,
-   "asin": "B0GGRSMXKN",
-   "name": "roborock 2026 New Qrevo S Pro Robot Vacuum and Mop, 18,500Pa Suction",
-   "brand": "roborock",
-   "model": "Qrevo S Pro",
-   "price": 399.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 1994,
-   "score": 76,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Roborock app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "6K+ bought in past month",
-   "verdict": "A popular all-in-one Roborock with strong suction and anti-tangle brushes for pet homes.",
-   "pros": [
-    "18,500 Pa suction",
-    "Zero-tangle brushes for pet hair",
-    "6K+ bought in the past month",
-    "Official Home Assistant integration"
-   ],
-   "cons": [
-    "4.0 stars",
-    "Voice assistants aren't named in the bullets",
-    "$399.99"
-   ],
-   "specs": {
-    "suction": "18,500 Pa",
-    "dock": "All-in-one, sealed bag",
-    "voice": "Not listed in bullets"
-   },
-   "features": {
-    "self_empty": true,
-    "mop": true,
-    "voice": false,
-    "strong": true
-   },
-   "image": "https://m.media-amazon.com/images/I/615KW-IyiHL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GGRSMXKN?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-robot-vacuums.html#B0GGRSMXKN"
-  },
-  {
    "rank": 6,
    "asin": "B0G5Y3LN8M",
    "name": "DREAME D20 Air Plus Robot Vacuum and Mop, 20,000Pa Powerful Suction",
@@ -325,7 +326,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 312,
-   "score": 73,
+   "score": 75,
    "awards": [
     "Best Budget"
    ],
@@ -374,7 +375,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 329,
-   "score": 71,
+   "score": 72,
    "awards": [
     "Best for Matter"
    ],
@@ -430,7 +431,7 @@
    "currency": "USD",
    "rating": 3.2,
    "reviews_count": 658,
-   "score": 67,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

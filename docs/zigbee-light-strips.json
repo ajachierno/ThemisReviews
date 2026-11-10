@@ -29,6 +29,7 @@
    "long": 0.25
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 92,
-   "score": 82,
+   "score": 85,
    "awards": [
     "Best Overall"
    ],
@@ -186,7 +187,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 169,
-   "score": 78,
+   "score": 80,
    "awards": [
     "Best Premium"
    ],
@@ -235,6 +236,61 @@
   },
   {
    "rank": 4,
+   "asin": "B0GNTM6WK1",
+   "name": "Hue Flux 10-Feet LED Strip Light, 1-Pack",
+   "brand": "Philips Hue",
+   "model": "Flux 10 ft",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 92,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Hue app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The shorter Flux for shelves, desks, and TV walls.",
+   "pros": [
+    "True white plus multicolor",
+    "Cuttable and extendable",
+    "$79.99, 1K+ bought in the past month"
+   ],
+   "cons": [
+    "Only 92 reviews",
+    "10 ft",
+    "Hue Bridge for automations"
+   ],
+   "specs": {
+    "type": "Strip",
+    "length": "10 ft, cuttable",
+    "color": "RGBWWIC",
+    "hub": "Hue Bridge or Bluetooth"
+   },
+   "features": {
+    "multicolor": true,
+    "white": true,
+    "bridge_free": true,
+    "long": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71gwBO6NteL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GNTM6WK1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0GNTM6WK1"
+  },
+  {
+   "rank": 5,
    "asin": "B09BDK76R2",
    "name": "Philips Hue Indoor 6-Foot Smart LED Light Strip Base Kit with Plug, Flowing Multicolor Effect, Works with Alexa, Google and Apple HomeKit",
    "brand": "Philips Hue",
@@ -287,61 +343,6 @@
    "image": "https://m.media-amazon.com/images/I/610F1of3PrL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09BDK76R2?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-light-strips.html#B09BDK76R2"
-  },
-  {
-   "rank": 5,
-   "asin": "B0GNTM6WK1",
-   "name": "Hue Flux 10-Feet LED Strip Light, 1-Pack",
-   "brand": "Philips Hue",
-   "model": "Flux 10 ft",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 92,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Hue app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The shorter Flux for shelves, desks, and TV walls.",
-   "pros": [
-    "True white plus multicolor",
-    "Cuttable and extendable",
-    "$79.99, 1K+ bought in the past month"
-   ],
-   "cons": [
-    "Only 92 reviews",
-    "10 ft",
-    "Hue Bridge for automations"
-   ],
-   "specs": {
-    "type": "Strip",
-    "length": "10 ft, cuttable",
-    "color": "RGBWWIC",
-    "hub": "Hue Bridge or Bluetooth"
-   },
-   "features": {
-    "multicolor": true,
-    "white": true,
-    "bridge_free": true,
-    "long": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71gwBO6NteL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GNTM6WK1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0GNTM6WK1"
   },
   {
    "rank": 6,
@@ -410,7 +411,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 43,
-   "score": 65,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -465,7 +466,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 43,
-   "score": 63,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -518,7 +519,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 48,
-   "score": 60,
+   "score": 62,
    "awards": [],
    "works_with": [
     "Home Assistant",

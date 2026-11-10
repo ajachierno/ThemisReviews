@@ -29,6 +29,7 @@
    "multi_channel": 0.3
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 889,
-   "score": 84,
+   "score": 85,
    "awards": [
     "Best With Power Metering"
    ],
@@ -175,6 +176,61 @@
   },
   {
    "rank": 3,
+   "asin": "B0DZHZDJXT",
+   "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
+   "brand": "Shelly",
+   "model": "1 Mini Gen4",
+   "price": 24.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 886,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A compact Shelly for tight boxes and garage door openers.",
+   "pros": [
+    "Very compact",
+    "Zigbee, Wi-Fi, or Matter",
+    "4.6 stars, 500+ bought in the past month"
+   ],
+   "cons": [
+    "8 A",
+    "No power metering",
+    "Neutral requirement isn't stated"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "8 A dry contact",
+    "extras": "Fits inside a garage opener",
+    "neutral": "Not stated in bullets"
+   },
+   "features": {
+    "no_neutral": false,
+    "dry_contact": true,
+    "power_meter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DMapRQUwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZHZDJXT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-relays.html#B0DZHZDJXT"
+  },
+  {
+   "rank": 4,
    "asin": "B08X218VMR",
    "name": "1-Channel Dry Contact Zigbee Relay Switch for Lights and Garage Doors (Zigbee Hub Needed)",
    "brand": "Mic Technology",
@@ -223,61 +279,6 @@
    "image": "https://m.media-amazon.com/images/I/41qzRJGwdlL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08X218VMR?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-relays.html#B08X218VMR"
-  },
-  {
-   "rank": 4,
-   "asin": "B0DZHZDJXT",
-   "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
-   "brand": "Shelly",
-   "model": "1 Mini Gen4",
-   "price": 24.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 886,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A compact Shelly for tight boxes and garage door openers.",
-   "pros": [
-    "Very compact",
-    "Zigbee, Wi-Fi, or Matter",
-    "4.6 stars, 500+ bought in the past month"
-   ],
-   "cons": [
-    "8 A",
-    "No power metering",
-    "Neutral requirement isn't stated"
-   ],
-   "specs": {
-    "channels": "1",
-    "rating": "8 A dry contact",
-    "extras": "Fits inside a garage opener",
-    "neutral": "Not stated in bullets"
-   },
-   "features": {
-    "no_neutral": false,
-    "dry_contact": true,
-    "power_meter": false,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71DMapRQUwL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DZHZDJXT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-relays.html#B0DZHZDJXT"
   },
   {
    "rank": 5,
@@ -451,7 +452,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 227,
-   "score": 67,
+   "score": 70,
    "awards": [
     "Best Budget"
    ],
@@ -508,7 +509,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 92,
-   "score": 60,
+   "score": 63,
    "awards": [],
    "works_with": [
     "Home Assistant",

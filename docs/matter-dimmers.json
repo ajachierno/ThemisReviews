@@ -29,6 +29,7 @@
    "energy_monitoring": 0.2
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -358,7 +359,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 62,
-   "score": 68,
+   "score": 69,
    "awards": [
     "Best No-Neutral"
    ],
@@ -416,7 +417,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 31,
-   "score": 62,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -519,6 +520,61 @@
   },
   {
    "rank": 9,
+   "asin": "B0F18PM6JK",
+   "name": "Eve Dimmer Switch (Matter over Thread), Single-Pole, Neutral Wire Required",
+   "brand": "Eve",
+   "model": "Dimmer Switch (Matter)",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 57,
+   "score": 48,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Eve's local-only Thread dimmer, with a touch-and-rocker design. Reviews are mixed.",
+   "pros": [
+    "Matter over Thread with no cloud account",
+    "Flicker-free dimming, per the listing",
+    "UL certified, sold by Amazon"
+   ],
+   "cons": [
+    "3.4 stars",
+    "Single-pole only",
+    "Needs a neutral and a Thread border router"
+   ],
+   "specs": {
+    "radio": "Thread",
+    "neutral": "Required",
+    "three_way_text": "No (single pole)",
+    "pack": "1 dimmer"
+   },
+   "features": {
+    "three_way": false,
+    "no_neutral": false,
+    "dim_tuning": false,
+    "energy_monitoring": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61g4aLZi1+L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F18PM6JK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-dimmers.html#B0F18PM6JK"
+  },
+  {
+   "rank": 10,
    "asin": "B0HFKB8KR7",
    "name": "Enbrighten Smart Dimmer Light Switch, Matter, Plastic Yoke, Flying Leads",
    "brand": "Enbrighten",
@@ -571,61 +627,6 @@
    "image": "https://m.media-amazon.com/images/I/71FGqYIER8L._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0HFKB8KR7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-dimmers.html#B0HFKB8KR7"
-  },
-  {
-   "rank": 10,
-   "asin": "B0F18PM6JK",
-   "name": "Eve Dimmer Switch (Matter over Thread), Single-Pole, Neutral Wire Required",
-   "brand": "Eve",
-   "model": "Dimmer Switch (Matter)",
-   "price": 54.95,
-   "currency": "USD",
-   "rating": 3.4,
-   "reviews_count": 57,
-   "score": 47,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Eve's local-only Thread dimmer, with a touch-and-rocker design. Reviews are mixed.",
-   "pros": [
-    "Matter over Thread with no cloud account",
-    "Flicker-free dimming, per the listing",
-    "UL certified, sold by Amazon"
-   ],
-   "cons": [
-    "3.4 stars",
-    "Single-pole only",
-    "Needs a neutral and a Thread border router"
-   ],
-   "specs": {
-    "radio": "Thread",
-    "neutral": "Required",
-    "three_way_text": "No (single pole)",
-    "pack": "1 dimmer"
-   },
-   "features": {
-    "three_way": false,
-    "no_neutral": false,
-    "dim_tuning": false,
-    "energy_monitoring": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61g4aLZi1+L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F18PM6JK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-dimmers.html#B0F18PM6JK"
   }
  ],
  "avoid": [

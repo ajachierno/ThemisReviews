@@ -29,6 +29,7 @@
    "auto_unlock": 0.25
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -226,6 +227,60 @@
   },
   {
    "rank": 4,
+   "asin": "B0GT9NHTNB",
+   "name": "ULTRALOQ Bolt Z-Wave Deadbolt Smart Lock with 800 Series Z-Wave Long Range",
+   "brand": "ULTRALOQ",
+   "model": "Bolt Z-Wave",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 63,
+   "score": 63,
+   "awards": [
+    "Best Long Range"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A current 800 Series Long Range lock that names Home Assistant, SmartThings, and Alarm.com in the listing.",
+   "pros": [
+    "800 Series Long Range (Silicon Labs ZG28)",
+    "Lists Home Assistant, SmartThings, and Alarm.com",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Only 63 reviews",
+    "Sold by the brand",
+    "$179.99"
+   ],
+   "specs": {
+    "series": "800 Series (ZG28)",
+    "entry": "Keypad",
+    "key": "Not stated in bullets",
+    "extras": "Remote access through your hub"
+   },
+   "features": {
+    "long_range": true,
+    "fingerprint": false,
+    "touchscreen": false,
+    "auto_unlock": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61+zned4g4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GT9NHTNB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0GT9NHTNB"
+  },
+  {
+   "rank": 5,
    "asin": "B0BMSVX3Z2",
    "name": "Yale Assure Lock 2 Touchscreen Deadbolt with Z-Wave, Key-Free, Black Suede (YRD450-ZW2-BSP)",
    "brand": "Yale",
@@ -277,7 +332,7 @@
    "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0BMSVX3Z2"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07XHNZH2W",
    "name": "Yale Assure Lock Touchscreen Deadbolt with Z-Wave, Black Suede",
    "brand": "Yale",
@@ -327,60 +382,6 @@
    "image": "https://m.media-amazon.com/images/I/61jiNvQ0X7L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07XHNZH2W?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-door-locks.html#B07XHNZH2W"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GT9NHTNB",
-   "name": "ULTRALOQ Bolt Z-Wave Deadbolt Smart Lock with 800 Series Z-Wave Long Range",
-   "brand": "ULTRALOQ",
-   "model": "Bolt Z-Wave",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 63,
-   "score": 61,
-   "awards": [
-    "Best Long Range"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A current 800 Series Long Range lock that names Home Assistant, SmartThings, and Alarm.com in the listing.",
-   "pros": [
-    "800 Series Long Range (Silicon Labs ZG28)",
-    "Lists Home Assistant, SmartThings, and Alarm.com",
-    "4.3 stars"
-   ],
-   "cons": [
-    "Only 63 reviews",
-    "Sold by the brand",
-    "$179.99"
-   ],
-   "specs": {
-    "series": "800 Series (ZG28)",
-    "entry": "Keypad",
-    "key": "Not stated in bullets",
-    "extras": "Remote access through your hub"
-   },
-   "features": {
-    "long_range": true,
-    "fingerprint": false,
-    "touchscreen": false,
-    "auto_unlock": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61+zned4g4L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GT9NHTNB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0GT9NHTNB"
   },
   {
    "rank": 7,

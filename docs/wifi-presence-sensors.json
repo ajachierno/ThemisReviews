@@ -28,6 +28,7 @@
    "consumer": 0.4
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -104,56 +105,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0FX7FXQGB",
-   "name": "AKAMATIS Human Presence Sensor v2.2 for Home Assistant, mmWave Radar, Wi-Fi, External Antenna, LD2410B",
-   "brand": "AKAMATIS",
-   "model": "Presence Sensor v2.2",
-   "price": 22.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 57,
-   "score": 73,
-   "awards": [
-    "Best for Home Assistant"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "ESPHome",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A ready-made ESPHome presence sensor for Home Assistant, with an external antenna.",
-   "pros": [
-    "Plug and play with Home Assistant",
-    "Fully local",
-    "$22.99, 4.4 stars"
-   ],
-   "cons": [
-    "Home Assistant only",
-    "Only 57 reviews",
-    "No zones"
-   ],
-   "specs": {
-    "radar": "24 GHz (HLK-LD2410B)",
-    "power": "USB-C",
-    "extras": "External Wi-Fi antenna",
-    "hub": "Home Assistant"
-   },
-   "features": {
-    "zones": false,
-    "local": true,
-    "consumer": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51S9FE1+csL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FX7FXQGB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0FX7FXQGB"
-  },
-  {
-   "rank": 3,
    "asin": "B0FSRJT4KW",
    "name": "SwitchBot Smart mmWave Radar Motion Sensor, Bluetooth Presence Sensor with Zone Positioning, Alexa and Apple Home",
    "brand": "SwitchBot",
@@ -162,7 +113,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 451,
-   "score": 72,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -204,7 +155,105 @@
    "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0FSRJT4KW"
   },
   {
+   "rank": 3,
+   "asin": "B0FX7FXQGB",
+   "name": "AKAMATIS Human Presence Sensor v2.2 for Home Assistant, mmWave Radar, Wi-Fi, External Antenna, LD2410B",
+   "brand": "AKAMATIS",
+   "model": "Presence Sensor v2.2",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 57,
+   "score": 75,
+   "awards": [
+    "Best for Home Assistant"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "ESPHome",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A ready-made ESPHome presence sensor for Home Assistant, with an external antenna.",
+   "pros": [
+    "Plug and play with Home Assistant",
+    "Fully local",
+    "$22.99, 4.4 stars"
+   ],
+   "cons": [
+    "Home Assistant only",
+    "Only 57 reviews",
+    "No zones"
+   ],
+   "specs": {
+    "radar": "24 GHz (HLK-LD2410B)",
+    "power": "USB-C",
+    "extras": "External Wi-Fi antenna",
+    "hub": "Home Assistant"
+   },
+   "features": {
+    "zones": false,
+    "local": true,
+    "consumer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51S9FE1+csL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FX7FXQGB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0FX7FXQGB"
+  },
+  {
    "rank": 4,
+   "asin": "B0H2QYVWZ7",
+   "name": "Akamatis Litos v3 Human Presence and Light Sensor, mmWave, 2.4 GHz Wi-Fi, Requires Home Assistant",
+   "brand": "Akamatis",
+   "model": "Litos v3",
+   "price": 26.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 41,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "ESPHome",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Akamatis's newer sensor adds a proper ambient light sensor.",
+   "pros": [
+    "Light sensor for dark-only automations",
+    "Fully local",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Home Assistant only",
+    "Only 41 reviews",
+    "$26.99"
+   ],
+   "specs": {
+    "radar": "24 GHz (HLK-LD2401)",
+    "power": "USB",
+    "extras": "Light (VEML7700)",
+    "hub": "Home Assistant"
+   },
+   "features": {
+    "zones": false,
+    "local": true,
+    "consumer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0H2QYVWZ7"
+  },
+  {
+   "rank": 5,
    "asin": "B0DYC9235W",
    "name": "meross Presence Sensor MS600, Matter Over Wi-Fi, 1.5m Corded Motion Sensor",
    "brand": "meross",
@@ -257,54 +306,6 @@
    "image": "https://m.media-amazon.com/images/I/61q6s201paL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DYC9235W?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0DYC9235W"
-  },
-  {
-   "rank": 5,
-   "asin": "B0H2QYVWZ7",
-   "name": "Akamatis Litos v3 Human Presence and Light Sensor, mmWave, 2.4 GHz Wi-Fi, Requires Home Assistant",
-   "brand": "Akamatis",
-   "model": "Litos v3",
-   "price": 26.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 41,
-   "score": 71,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "ESPHome",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Akamatis's newer sensor adds a proper ambient light sensor.",
-   "pros": [
-    "Light sensor for dark-only automations",
-    "Fully local",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Home Assistant only",
-    "Only 41 reviews",
-    "$26.99"
-   ],
-   "specs": {
-    "radar": "24 GHz (HLK-LD2401)",
-    "power": "USB",
-    "extras": "Light (VEML7700)",
-    "hub": "Home Assistant"
-   },
-   "features": {
-    "zones": false,
-    "local": true,
-    "consumer": true
-   },
-   "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-presence-sensors.html#B0H2QYVWZ7"
   },
   {
    "rank": 6,

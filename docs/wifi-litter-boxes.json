@@ -29,6 +29,7 @@
    "dual_band": 0.2
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -161,6 +162,55 @@
   },
   {
    "rank": 3,
+   "asin": "B0GD73F98D",
+   "name": "CATLINK Self Cleaning Cat Litter Box Open-X, 5G & 2.4G WiFi, Safe",
+   "brand": "CATLINK",
+   "model": "Open-X",
+   "price": 169.0,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 612,
+   "score": 80,
+   "awards": [
+    "Best Connectivity"
+   ],
+   "works_with": [],
+   "works_with_note": "CATLINK app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "An open design on 5 GHz or 2.4 GHz Wi-Fi, so it connects on any router.",
+   "pros": [
+    "5 GHz and 2.4 GHz Wi-Fi",
+    "Weight tracking",
+    "Open design"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Only 612 reviews",
+    "$169"
+   ],
+   "specs": {
+    "design": "Open top",
+    "capacity": "Not stated in bullets",
+    "safety": "Safety sensors",
+    "tracking": "Weight"
+   },
+   "features": {
+    "weight": true,
+    "safety": true,
+    "big": false,
+    "dual_band": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71E9yjTkv9L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GD73F98D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0GD73F98D"
+  },
+  {
+   "rank": 4,
    "asin": "B0DFM4Z71X",
    "name": "Cumrige Automatic Litter Box,Safety Sensor,App Control,95L Large Capacity",
    "brand": "Cumrige",
@@ -207,55 +257,6 @@
    "image": "https://m.media-amazon.com/images/I/61Yg6sJAjnL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DFM4Z71X?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0DFM4Z71X"
-  },
-  {
-   "rank": 4,
-   "asin": "B0GD73F98D",
-   "name": "CATLINK Self Cleaning Cat Litter Box Open-X, 5G & 2.4G WiFi, Safe",
-   "brand": "CATLINK",
-   "model": "Open-X",
-   "price": 169.0,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 612,
-   "score": 78,
-   "awards": [
-    "Best Connectivity"
-   ],
-   "works_with": [],
-   "works_with_note": "CATLINK app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "600+ bought in past month",
-   "verdict": "An open design on 5 GHz or 2.4 GHz Wi-Fi, so it connects on any router.",
-   "pros": [
-    "5 GHz and 2.4 GHz Wi-Fi",
-    "Weight tracking",
-    "Open design"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Only 612 reviews",
-    "$169"
-   ],
-   "specs": {
-    "design": "Open top",
-    "capacity": "Not stated in bullets",
-    "safety": "Safety sensors",
-    "tracking": "Weight"
-   },
-   "features": {
-    "weight": true,
-    "safety": true,
-    "big": false,
-    "dual_band": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71E9yjTkv9L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GD73F98D?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0GD73F98D"
   },
   {
    "rank": 5,
@@ -314,7 +315,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 606,
-   "score": 73,
+   "score": 75,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -361,7 +362,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 323,
-   "score": 71,
+   "score": 72,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -408,7 +409,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 407,
-   "score": 68,
+   "score": 69,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -455,7 +456,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 1292,
-   "score": 67,
+   "score": 68,
    "awards": [
     "Best Budget"
    ],

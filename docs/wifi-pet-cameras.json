@@ -29,6 +29,7 @@
    "tracking": 0.2
   },
   "reviews_ceiling": 20000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -165,55 +166,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0DZ6NMTY9",
-   "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
-   "brand": "TKENPRO",
-   "model": "2K treat camera with auto tracking",
-   "price": 75.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1022,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "TKENPRO app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Adds auto tracking and an AI photo album for $6 more.",
-   "pros": [
-    "Auto tracking",
-    "AI photo album",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "$75.98",
-    "4.3 stars",
-    "Cloud plan details aren't in the bullets"
-   ],
-   "specs": {
-    "video": "2K, 360° auto tracking",
-    "treats": "Yes, 0.5 L",
-    "fees": "Not stated in bullets"
-   },
-   "features": {
-    "treats": true,
-    "no_fee": false,
-    "voice": true,
-    "tracking": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DZ6NMTY9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0DZ6NMTY9"
-  },
-  {
-   "rank": 4,
    "asin": "B0GGGPRRSF",
    "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
    "brand": "TKENPRO",
@@ -222,7 +174,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1022,
-   "score": 77,
+   "score": 79,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -260,6 +212,55 @@
    "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GGGPRRSF?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0GGGPRRSF"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DZ6NMTY9",
+   "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
+   "brand": "TKENPRO",
+   "model": "2K treat camera with auto tracking",
+   "price": 75.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1022,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "TKENPRO app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Adds auto tracking and an AI photo album for $6 more.",
+   "pros": [
+    "Auto tracking",
+    "AI photo album",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "$75.98",
+    "4.3 stars",
+    "Cloud plan details aren't in the bullets"
+   ],
+   "specs": {
+    "video": "2K, 360° auto tracking",
+    "treats": "Yes, 0.5 L",
+    "fees": "Not stated in bullets"
+   },
+   "features": {
+    "treats": true,
+    "no_fee": false,
+    "voice": true,
+    "tracking": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DZ6NMTY9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0DZ6NMTY9"
   },
   {
    "rank": 5,
@@ -370,7 +371,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2413,
-   "score": 68,
+   "score": 69,
    "awards": [],
    "works_with": [],
    "works_with_note": "Anona app",

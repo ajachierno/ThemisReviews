@@ -20,3 +20,26 @@ def load_scrape():
         if f.exists():
             out.update({k: v for k, v in json.loads(f.read_text(encoding="utf-8")).items() if v.get("title")})
     return out
+
+
+def load_first_available():
+    """{asin: "YYYY-MM-DD"}: the earliest Amazon "Date First Available" seen for each listing in any
+    capture (the first_available field, or the specs row). The score uses it to judge review volume
+    against how long a listing has been collecting reviews."""
+    import datetime
+    out = {}
+    files = [HERE / f for f in BASE] + sorted(REFRESH_DIR.glob("*.json"))
+    for f in files:
+        if not f.exists():
+            continue
+        for asin, v in json.loads(f.read_text(encoding="utf-8")).items():
+            raw = (v.get("first_available") or (v.get("specs") or {}).get("Date First Available") or "").strip()
+            if not raw:
+                continue
+            try:
+                d = datetime.datetime.strptime(raw, "%B %d, %Y").date().isoformat()
+            except ValueError:
+                continue
+            if asin not in out or d < out[asin]:
+                out[asin] = d
+    return out

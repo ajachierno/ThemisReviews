@@ -29,6 +29,7 @@
    "multi_pet": 0.2
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 7572,
-   "score": 84,
+   "score": 85,
    "awards": [],
    "works_with": [],
    "works_with_note": "HGsmart app",
@@ -347,6 +348,144 @@
   },
   {
    "rank": 7,
+   "asin": "B0GJS115H7",
+   "name": "iPettie Camera Automatic Cat Feeder and Water Dispenser, 5G/2.4GHz WiFi",
+   "brand": "iPettie",
+   "model": "Camera feeder and water dispenser",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 363,
+   "score": 73,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "iPettie app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Food and water in one footprint, with a camera on top.",
+   "pros": [
+    "Feeder and fountain combined",
+    "Dual-band Wi-Fi",
+    "Clear level windows"
+   ],
+   "cons": [
+    "4.1 stars",
+    "$109.99",
+    "Only 363 reviews"
+   ],
+   "specs": {
+    "capacity": "Food and water in one unit",
+    "camera": "Yes",
+    "wifi": "2.4 + 5 GHz"
+   },
+   "features": {
+    "camera": true,
+    "dual_band": true,
+    "backup_power": false,
+    "multi_pet": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71yQKYwJjSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJS115H7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GJS115H7"
+  },
+  {
+   "rank": 8,
+   "asin": "B0GSR1GTHW",
+   "name": "Automatic Cat Feeder with 1080P Camera, 7 L, 5G Wi-Fi, Night Vision, 2-Way Audio, 1-15 Meals",
+   "brand": "MUBBI",
+   "model": "Feeder with camera (7 L)",
+   "price": 62.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 103,
+   "score": 73,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "MUBBI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "A big camera feeder with an elevated bowl and removable legs.",
+   "pros": [
+    "Elevated bowl",
+    "2-way audio",
+    "600+ bought in the past month"
+   ],
+   "cons": [
+    "Only 103 reviews",
+    "New brand",
+    "$62.99"
+   ],
+   "specs": {
+    "capacity": "7 L / 29 cups",
+    "camera": "1080p, night vision, 2-way audio",
+    "wifi": "2.4 + 5 GHz"
+   },
+   "features": {
+    "camera": true,
+    "dual_band": true,
+    "backup_power": false,
+    "multi_pet": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61w5HBxj3wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GSR1GTHW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GSR1GTHW"
+  },
+  {
+   "rank": 9,
+   "asin": "B0F1Y6NLT2",
+   "name": "IMIPAW Automatic Cat Feeder, 5G Wi-Fi App Control, Dry Food Dispenser, Dual Power, 1-10 Meals a Day",
+   "brand": "IMIPAW",
+   "model": "5G Wi-Fi feeder",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 790,
+   "score": 72,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "PetTech app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A $39.99 dual-band feeder with app schedules.",
+   "pros": [
+    "5 GHz Wi-Fi",
+    "Dual power",
+    "$39.99"
+   ],
+   "cons": [
+    "No camera",
+    "4.2 stars",
+    "PetTech app"
+   ],
+   "specs": {
+    "capacity": "Not stated in bullets",
+    "camera": "No",
+    "wifi": "2.4 + 5 GHz"
+   },
+   "features": {
+    "camera": false,
+    "dual_band": true,
+    "backup_power": true,
+    "multi_pet": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61STq-hRBJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1Y6NLT2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0F1Y6NLT2"
+  },
+  {
+   "rank": 10,
    "asin": "B09TKH9Q31",
    "name": "PAPIFEED Automatic Cat Feeder with App, Wi-Fi, 6 L Slow-Feed Dry Food Dispenser, Dual Power",
    "brand": "PAPIFEED",
@@ -392,144 +531,6 @@
    "image": "https://m.media-amazon.com/images/I/61Bpg0jIL2L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09TKH9Q31?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B09TKH9Q31"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F1Y6NLT2",
-   "name": "IMIPAW Automatic Cat Feeder, 5G Wi-Fi App Control, Dry Food Dispenser, Dual Power, 1-10 Meals a Day",
-   "brand": "IMIPAW",
-   "model": "5G Wi-Fi feeder",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 790,
-   "score": 71,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "PetTech app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A $39.99 dual-band feeder with app schedules.",
-   "pros": [
-    "5 GHz Wi-Fi",
-    "Dual power",
-    "$39.99"
-   ],
-   "cons": [
-    "No camera",
-    "4.2 stars",
-    "PetTech app"
-   ],
-   "specs": {
-    "capacity": "Not stated in bullets",
-    "camera": "No",
-    "wifi": "2.4 + 5 GHz"
-   },
-   "features": {
-    "camera": false,
-    "dual_band": true,
-    "backup_power": true,
-    "multi_pet": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61STq-hRBJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1Y6NLT2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0F1Y6NLT2"
-  },
-  {
-   "rank": 9,
-   "asin": "B0GJS115H7",
-   "name": "iPettie Camera Automatic Cat Feeder and Water Dispenser, 5G/2.4GHz WiFi",
-   "brand": "iPettie",
-   "model": "Camera feeder and water dispenser",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 363,
-   "score": 71,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "iPettie app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Food and water in one footprint, with a camera on top.",
-   "pros": [
-    "Feeder and fountain combined",
-    "Dual-band Wi-Fi",
-    "Clear level windows"
-   ],
-   "cons": [
-    "4.1 stars",
-    "$109.99",
-    "Only 363 reviews"
-   ],
-   "specs": {
-    "capacity": "Food and water in one unit",
-    "camera": "Yes",
-    "wifi": "2.4 + 5 GHz"
-   },
-   "features": {
-    "camera": true,
-    "dual_band": true,
-    "backup_power": false,
-    "multi_pet": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71yQKYwJjSL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJS115H7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GJS115H7"
-  },
-  {
-   "rank": 10,
-   "asin": "B0GSR1GTHW",
-   "name": "Automatic Cat Feeder with 1080P Camera, 7 L, 5G Wi-Fi, Night Vision, 2-Way Audio, 1-15 Meals",
-   "brand": "MUBBI",
-   "model": "Feeder with camera (7 L)",
-   "price": 62.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 103,
-   "score": 71,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "MUBBI app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "600+ bought in past month",
-   "verdict": "A big camera feeder with an elevated bowl and removable legs.",
-   "pros": [
-    "Elevated bowl",
-    "2-way audio",
-    "600+ bought in the past month"
-   ],
-   "cons": [
-    "Only 103 reviews",
-    "New brand",
-    "$62.99"
-   ],
-   "specs": {
-    "capacity": "7 L / 29 cups",
-    "camera": "1080p, night vision, 2-way audio",
-    "wifi": "2.4 + 5 GHz"
-   },
-   "features": {
-    "camera": true,
-    "dual_band": true,
-    "backup_power": false,
-    "multi_pet": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61w5HBxj3wL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GSR1GTHW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GSR1GTHW"
   }
  ],
  "avoid": [],

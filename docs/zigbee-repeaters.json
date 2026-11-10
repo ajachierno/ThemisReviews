@@ -29,6 +29,7 @@
    "free_outlet": 0.15
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -166,6 +167,58 @@
   },
   {
    "rank": 3,
+   "asin": "B0G4VZB6NC",
+   "name": "THIRDREALITY Smart Plug Gen3 with Power Monitoring, 15A, Zigbee Repeater, Works with Home Assistant",
+   "brand": "THIRDREALITY",
+   "model": "Smart Plug Gen3",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 71,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The newer plug, with an enhanced radio for repeating.",
+   "pros": [
+    "Enhanced repeater radio",
+    "±1% power monitoring",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Only 71 reviews",
+    "4.3 stars",
+    "$14.99"
+   ],
+   "specs": {
+    "type": "Smart plug that repeats",
+    "extra": "±1% power monitoring",
+    "hub": "Any Zigbee 3.0 hub, incl. Echo"
+   },
+   "features": {
+    "dedicated": false,
+    "open_hub": true,
+    "bonus": true,
+    "free_outlet": true
+   },
+   "image": "https://m.media-amazon.com/images/I/516dogV0kPL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G4VZB6NC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-repeaters.html#B0G4VZB6NC"
+  },
+  {
+   "rank": 4,
    "asin": "B0C9LNXYLL",
    "name": "THIRDREALITY Multi-Function Night Light, Zigbee Repeater with Motion Sensor and RGB Light",
    "brand": "THIRDREALITY",
@@ -219,58 +272,6 @@
    "page_url": "https://themisreviews.com/zigbee-repeaters.html#B0C9LNXYLL"
   },
   {
-   "rank": 4,
-   "asin": "B0G4VZB6NC",
-   "name": "THIRDREALITY Smart Plug Gen3 with Power Monitoring, 15A, Zigbee Repeater, Works with Home Assistant",
-   "brand": "THIRDREALITY",
-   "model": "Smart Plug Gen3",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 71,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "The newer plug, with an enhanced radio for repeating.",
-   "pros": [
-    "Enhanced repeater radio",
-    "±1% power monitoring",
-    "500+ bought in the past month"
-   ],
-   "cons": [
-    "Only 71 reviews",
-    "4.3 stars",
-    "$14.99"
-   ],
-   "specs": {
-    "type": "Smart plug that repeats",
-    "extra": "±1% power monitoring",
-    "hub": "Any Zigbee 3.0 hub, incl. Echo"
-   },
-   "features": {
-    "dedicated": false,
-    "open_hub": true,
-    "bonus": true,
-    "free_outlet": true
-   },
-   "image": "https://m.media-amazon.com/images/I/516dogV0kPL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G4VZB6NC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-repeaters.html#B0G4VZB6NC"
-  },
-  {
    "rank": 5,
    "asin": "B0DSC6QCDB",
    "name": "LinkTap Zigbee Extender, Not Compatible with Third-Party Systems",
@@ -280,7 +281,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 65,
-   "score": 66,
+   "score": 67,
    "awards": [],
    "works_with": [],
    "works_with_note": "LinkTap only",

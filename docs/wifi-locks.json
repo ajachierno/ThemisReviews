@@ -28,6 +28,7 @@
    "apple_home": 0.35
   },
   "reviews_ceiling": 17000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -72,7 +73,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 716,
-   "score": 77,
+   "score": 78,
    "awards": [],
    "works_with": [],
    "works_with_note": "Wyze app (no voice assistants listed)",
@@ -119,7 +120,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 868,
-   "score": 76,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -210,6 +211,55 @@
   },
   {
    "rank": 4,
+   "asin": "B0F5QKCD3S",
+   "name": "Philips Wi-Fi Smart Deadbolt Lock, Keyless Entry Door Locks for Front Door",
+   "brand": "Philips",
+   "model": "Wi-Fi smart deadbolt",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1248,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A fingerprint Wi-Fi deadbolt for $109.99 with Alexa and Google voice control.",
+   "pros": [
+    "Fingerprint, passcode, app, key, or voice",
+    "No hub needed",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "4.3 stars",
+    "BHMA rating isn't listed",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "entry": "Fingerprint, passcode, app, key, voice",
+    "rating": "Not listed",
+    "power": "Not listed",
+    "key": "Yes"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": false,
+    "apple_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/617vzMlNYGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5QKCD3S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-locks.html#B0F5QKCD3S"
+  },
+  {
+   "rank": 5,
    "asin": "B0DKQQ6Z7Q",
    "name": "Tapo Smart Wi-Fi Door Lock, Deadbolt, Fingerprint Recognition, DL110",
    "brand": "Tapo",
@@ -257,7 +307,7 @@
    "page_url": "https://themisreviews.com/wifi-locks.html#B0DKQQ6Z7Q"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07HXMLCBT",
    "name": "Schlage Encode Smart WiFi Deadbolt Lock with Century Trim, Matte Black",
    "brand": "Schlage",
@@ -308,55 +358,6 @@
    "image": "https://m.media-amazon.com/images/I/614CFdY31DL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07HXMLCBT?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-locks.html#B07HXMLCBT"
-  },
-  {
-   "rank": 6,
-   "asin": "B0F5QKCD3S",
-   "name": "Philips Wi-Fi Smart Deadbolt Lock, Keyless Entry Door Locks for Front Door",
-   "brand": "Philips",
-   "model": "Wi-Fi smart deadbolt",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1248,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A fingerprint Wi-Fi deadbolt for $109.99 with Alexa and Google voice control.",
-   "pros": [
-    "Fingerprint, passcode, app, key, or voice",
-    "No hub needed",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "4.3 stars",
-    "BHMA rating isn't listed",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "entry": "Fingerprint, passcode, app, key, voice",
-    "rating": "Not listed",
-    "power": "Not listed",
-    "key": "Yes"
-   },
-   "features": {
-    "fingerprint": true,
-    "auto_lock": false,
-    "apple_home": false
-   },
-   "image": "https://m.media-amazon.com/images/I/617vzMlNYGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F5QKCD3S?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-locks.html#B0F5QKCD3S"
   },
   {
    "rank": 7,
@@ -517,7 +518,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 677,
-   "score": 60,
+   "score": 61,
    "awards": [
     "Best Budget"
    ],

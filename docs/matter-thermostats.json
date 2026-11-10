@@ -28,6 +28,7 @@
    "line_voltage": 0.3
   },
   "reviews_ceiling": 30000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -128,7 +129,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 269,
-   "score": 71,
+   "score": 73,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -240,7 +241,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 114,
-   "score": 61,
+   "score": 62,
    "awards": [
     "Best for Baseboard Heat"
    ],
@@ -406,7 +407,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 75,
-   "score": 49,
+   "score": 51,
    "awards": [],
    "works_with": [
     "Home Assistant",

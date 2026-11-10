@@ -29,6 +29,7 @@
    "certified": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -58,6 +59,58 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0H93JB64R",
+   "name": "FLANUR Space Heater for Indoor Use, 1500W Smart Electric Heater, Black",
+   "brand": "FLANUR",
+   "model": "Smart Space Heater 1500W",
+   "price": 55.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 844,
+   "score": 84,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best value: thermostat, ETL, and both voice assistants for $55.99.",
+   "pros": [
+    "$55.99",
+    "Alexa and Google",
+    "Thermostat"
+   ],
+   "cons": [
+    "Only 844 reviews",
+    "Tip-over protection isn't in the bullets",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "type": "Portable heater",
+    "safety": "ETL",
+    "control": "App, Alexa, Google",
+    "extras": "Thermostat"
+   },
+   "features": {
+    "thermostat": true,
+    "voice": true,
+    "tip": false,
+    "certified": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71UWn0mOMML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H93JB64R?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0H93JB64R"
+  },
+  {
+   "rank": 2,
    "asin": "B0CDQ1Y78W",
    "name": "GiveBest Smart Wall Heater, 1500W Space Heaters for Indoor Use, Large Room",
    "brand": "GiveBest",
@@ -104,7 +157,7 @@
    "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0CDQ1Y78W"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B07JXRWJ8D",
    "name": "Heat Storm HS-1500-PHX-WIFI Infrared Heater, Wifi Wall Mounted",
    "brand": "Heat Storm",
@@ -153,22 +206,19 @@
    "page_url": "https://themisreviews.com/wifi-space-heaters.html#B07JXRWJ8D"
   },
   {
-   "rank": 3,
-   "asin": "B0H93JB64R",
-   "name": "FLANUR Space Heater for Indoor Use, 1500W Smart Electric Heater, Black",
-   "brand": "FLANUR",
-   "model": "Smart Space Heater 1500W",
-   "price": 55.99,
+   "rank": 4,
+   "asin": "B0FJF36X7D",
+   "name": "Ballu Mica Infrared Smart Panel Heater, Programmable Thermostat, Wi-Fi App Control, Stand or Wall Mount, Alexa",
+   "brand": "Ballu",
+   "model": "Mica Infrared Panel Heater",
+   "price": 164.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 844,
-   "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "reviews_count": 378,
+   "score": 80,
+   "awards": [],
    "works_with": [
-    "Amazon Alexa",
-    "Google Home"
+    "Amazon Alexa"
    ],
    "works_with_note": "Companion app",
    "works_without": {
@@ -176,23 +226,23 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The best value: thermostat, ETL, and both voice assistants for $55.99.",
+   "bought_last_month": "900+ bought in past month",
+   "verdict": "A slim mica panel heater for large rooms, with a programmable thermostat.",
    "pros": [
-    "$55.99",
-    "Alexa and Google",
-    "Thermostat"
+    "Programmable thermostat",
+    "Wall or floor",
+    "ETL"
    ],
    "cons": [
-    "Only 844 reviews",
-    "Tip-over protection isn't in the bullets",
-    "Lesser-known brand"
+    "$164.99",
+    "Only 378 reviews",
+    "Google isn't named in the bullets"
    ],
    "specs": {
-    "type": "Portable heater",
+    "type": "Mica panel, wall or floor",
     "safety": "ETL",
-    "control": "App, Alexa, Google",
-    "extras": "Thermostat"
+    "control": "App, Alexa",
+    "extras": "Programmable thermostat"
    },
    "features": {
     "thermostat": true,
@@ -200,12 +250,12 @@
     "tip": false,
     "certified": true
    },
-   "image": "https://m.media-amazon.com/images/I/71UWn0mOMML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H93JB64R?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0H93JB64R"
+   "image": "https://m.media-amazon.com/images/I/91XL+pyj9dL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FJF36X7D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0FJF36X7D"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0D819MVKF",
    "name": "DREO Smart Electric Wall Heater for Indoor Use, Works with Alexa,Large Room",
    "brand": "Dreo",
@@ -252,55 +302,6 @@
    "image": "https://m.media-amazon.com/images/I/7199MGKxlnL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D819MVKF?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0D819MVKF"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FJF36X7D",
-   "name": "Ballu Mica Infrared Smart Panel Heater, Programmable Thermostat, Wi-Fi App Control, Stand or Wall Mount, Alexa",
-   "brand": "Ballu",
-   "model": "Mica Infrared Panel Heater",
-   "price": 164.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 378,
-   "score": 79,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "900+ bought in past month",
-   "verdict": "A slim mica panel heater for large rooms, with a programmable thermostat.",
-   "pros": [
-    "Programmable thermostat",
-    "Wall or floor",
-    "ETL"
-   ],
-   "cons": [
-    "$164.99",
-    "Only 378 reviews",
-    "Google isn't named in the bullets"
-   ],
-   "specs": {
-    "type": "Mica panel, wall or floor",
-    "safety": "ETL",
-    "control": "App, Alexa",
-    "extras": "Programmable thermostat"
-   },
-   "features": {
-    "thermostat": true,
-    "voice": true,
-    "tip": false,
-    "certified": true
-   },
-   "image": "https://m.media-amazon.com/images/I/91XL+pyj9dL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FJF36X7D?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0FJF36X7D"
   },
   {
    "rank": 6,
@@ -356,6 +357,53 @@
   },
   {
    "rank": 7,
+   "asin": "B0FQ5WKDXK",
+   "name": "SereneLife Smart Space Heater, 1500W PTC Ceramic, Thermostat, Remote, 12-Hour Timer, Wi-Fi, Black",
+   "brand": "SereneLife",
+   "model": "Smart Space Heater 1500W",
+   "price": 35.9,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 300,
+   "score": 69,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The cheapest smart heater here, with tip-over protection.",
+   "pros": [
+    "$35.90",
+    "Tip-over protection",
+    "Remote included"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Voice assistants aren't named in the bullets",
+    "Only 300 reviews"
+   ],
+   "specs": {
+    "type": "Portable heater",
+    "safety": "Tip-over",
+    "control": "App, remote",
+    "extras": "Thermostat, 12-hour timer"
+   },
+   "features": {
+    "thermostat": true,
+    "voice": false,
+    "tip": true,
+    "certified": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81lQ58YJ6jL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQ5WKDXK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0FQ5WKDXK"
+  },
+  {
+   "rank": 8,
    "asin": "B0DHZ7HYQC",
    "name": "MORENTO Smart Space Heater, 1500W, Wi-Fi and Voice Control, Thermostat, 12H Timer (Black)",
    "brand": "MORENTO",
@@ -403,53 +451,6 @@
    "image": "https://m.media-amazon.com/images/I/81qgktsBRdL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DHZ7HYQC?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0DHZ7HYQC"
-  },
-  {
-   "rank": 8,
-   "asin": "B0FQ5WKDXK",
-   "name": "SereneLife Smart Space Heater, 1500W PTC Ceramic, Thermostat, Remote, 12-Hour Timer, Wi-Fi, Black",
-   "brand": "SereneLife",
-   "model": "Smart Space Heater 1500W",
-   "price": 35.9,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 300,
-   "score": 67,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The cheapest smart heater here, with tip-over protection.",
-   "pros": [
-    "$35.90",
-    "Tip-over protection",
-    "Remote included"
-   ],
-   "cons": [
-    "4.0 stars",
-    "Voice assistants aren't named in the bullets",
-    "Only 300 reviews"
-   ],
-   "specs": {
-    "type": "Portable heater",
-    "safety": "Tip-over",
-    "control": "App, remote",
-    "extras": "Thermostat, 12-hour timer"
-   },
-   "features": {
-    "thermostat": true,
-    "voice": false,
-    "tip": true,
-    "certified": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81lQ58YJ6jL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQ5WKDXK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-space-heaters.html#B0FQ5WKDXK"
   }
  ],
  "avoid": [],

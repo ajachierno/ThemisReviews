@@ -29,6 +29,7 @@
    "voice": 0.25
   },
   "reviews_ceiling": 20000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -321,6 +322,56 @@
   },
   {
    "rank": 6,
+   "asin": "B0F8Q1GY69",
+   "name": "Della 42\" Smart Tower Fan, Ultra Quiet 23dB Cooling Fan with 12 Speeds",
+   "brand": "Della",
+   "model": "42-inch Smart Tower Fan",
+   "price": 94.96,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 277,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "DELLA app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The most airflow listed here at a budget price.",
+   "pros": [
+    "1,950 CFM",
+    "4.5 stars",
+    "$94.96"
+   ],
+   "cons": [
+    "Only 277 reviews",
+    "Sold by a third party",
+    "90° oscillation"
+   ],
+   "specs": {
+    "height": "42 in",
+    "oscillation": "90°",
+    "noise": "23 dB",
+    "extras": "1,950 CFM, 28 ft/s, DC motor, 18-month warranty"
+   },
+   "features": {
+    "dc": true,
+    "quiet": true,
+    "wide": false,
+    "voice": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61IJZEdIKcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F8Q1GY69?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-fans.html#B0F8Q1GY69"
+  },
+  {
+   "rank": 7,
    "asin": "B09N3HKY79",
    "name": "DREO Smart 42'' Tower Fan for Bedroom, 12 Speeds, 20dB Quiet Standing Fan",
    "brand": "DREO",
@@ -370,56 +421,6 @@
    "image": "https://m.media-amazon.com/images/I/71dOQTuap6L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09N3HKY79?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-fans.html#B09N3HKY79"
-  },
-  {
-   "rank": 7,
-   "asin": "B0F8Q1GY69",
-   "name": "Della 42\" Smart Tower Fan, Ultra Quiet 23dB Cooling Fan with 12 Speeds",
-   "brand": "Della",
-   "model": "42-inch Smart Tower Fan",
-   "price": 94.96,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 277,
-   "score": 78,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "DELLA app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The most airflow listed here at a budget price.",
-   "pros": [
-    "1,950 CFM",
-    "4.5 stars",
-    "$94.96"
-   ],
-   "cons": [
-    "Only 277 reviews",
-    "Sold by a third party",
-    "90° oscillation"
-   ],
-   "specs": {
-    "height": "42 in",
-    "oscillation": "90°",
-    "noise": "23 dB",
-    "extras": "1,950 CFM, 28 ft/s, DC motor, 18-month warranty"
-   },
-   "features": {
-    "dc": true,
-    "quiet": true,
-    "wide": false,
-    "voice": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61IJZEdIKcL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F8Q1GY69?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-fans.html#B0F8Q1GY69"
   },
   {
    "rank": 8,

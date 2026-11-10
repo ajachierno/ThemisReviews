@@ -29,6 +29,7 @@
    "energy_star": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -65,6 +66,58 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GL7R3RJV",
+   "name": "Midea 50 Pint Dehumidifier with Pump, 4,500 Sq. Ft, Energy star",
+   "brand": "Midea",
+   "model": "50 Pint Dehumidifier with Pump",
+   "price": 270.03,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 171,
+   "score": 82,
+   "awards": [
+    "Best With a Pump"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "SmartHome app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "The same Midea with a pump, for basements without a floor drain.",
+   "pros": [
+    "Built-in pump",
+    "Alexa and Google",
+    "Energy Star"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Only 171 reviews",
+    "$270.03"
+   ],
+   "specs": {
+    "capacity": "50 pints/day",
+    "coverage": "Up to 4,500 sq. ft.",
+    "drain": "Built-in pump",
+    "app": "Midea SmartHome"
+   },
+   "features": {
+    "big": true,
+    "pump": true,
+    "voice": true,
+    "energy_star": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61QqHtPe1OL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GL7R3RJV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B0GL7R3RJV"
+  },
+  {
+   "rank": 2,
    "asin": "B07NRDBBH5",
    "name": "Midea 22 Pint Dehumidifier for Basement, 1,500 Sq. Ft, Energy star",
    "brand": "Midea",
@@ -116,19 +169,17 @@
    "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B07NRDBBH5"
   },
   {
-   "rank": 2,
-   "asin": "B0GL7R3RJV",
-   "name": "Midea 50 Pint Dehumidifier with Pump, 4,500 Sq. Ft, Energy star",
+   "rank": 3,
+   "asin": "B0GL7QFBJ9",
+   "name": "Midea 50 Pint Dehumidifier for Basement, 4,500 Sq. Ft, Energy star",
    "brand": "Midea",
-   "model": "50 Pint Dehumidifier with Pump",
-   "price": 270.03,
+   "model": "50 Pint Dehumidifier",
+   "price": 219.99,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 171,
-   "score": 80,
-   "awards": [
-    "Best With a Pump"
-   ],
+   "rating": 4.4,
+   "reviews_count": 263,
+   "score": 79,
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -139,36 +190,36 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "600+ bought in past month",
-   "verdict": "The same Midea with a pump, for basements without a floor drain.",
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Midea's large-basement model with voice control.",
    "pros": [
-    "Built-in pump",
+    "50 pints",
     "Alexa and Google",
     "Energy Star"
    ],
    "cons": [
-    "4.2 stars",
-    "Only 171 reviews",
-    "$270.03"
+    "Only 263 reviews",
+    "No pump",
+    "$219.99"
    ],
    "specs": {
     "capacity": "50 pints/day",
     "coverage": "Up to 4,500 sq. ft.",
-    "drain": "Built-in pump",
+    "drain": "Bucket or hose",
     "app": "Midea SmartHome"
    },
    "features": {
     "big": true,
-    "pump": true,
+    "pump": false,
     "voice": true,
     "energy_star": true
    },
    "image": "https://m.media-amazon.com/images/I/61QqHtPe1OL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GL7R3RJV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B0GL7R3RJV"
+   "amazon_url": "https://www.amazon.com/dp/B0GL7QFBJ9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B0GL7QFBJ9"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B073VBWKJZ",
    "name": "hOmeLabs Dehumidifier 7,000 Sq Ft 50 Pint (MAX 120 Pint at 95°F, 90% RH)",
    "brand": "hOmeLabs",
@@ -215,56 +266,6 @@
    "image": "https://m.media-amazon.com/images/I/51ZO2SB0SvL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B073VBWKJZ?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B073VBWKJZ"
-  },
-  {
-   "rank": 4,
-   "asin": "B0GL7QFBJ9",
-   "name": "Midea 50 Pint Dehumidifier for Basement, 4,500 Sq. Ft, Energy star",
-   "brand": "Midea",
-   "model": "50 Pint Dehumidifier",
-   "price": 219.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 263,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "SmartHome app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Midea's large-basement model with voice control.",
-   "pros": [
-    "50 pints",
-    "Alexa and Google",
-    "Energy Star"
-   ],
-   "cons": [
-    "Only 263 reviews",
-    "No pump",
-    "$219.99"
-   ],
-   "specs": {
-    "capacity": "50 pints/day",
-    "coverage": "Up to 4,500 sq. ft.",
-    "drain": "Bucket or hose",
-    "app": "Midea SmartHome"
-   },
-   "features": {
-    "big": true,
-    "pump": false,
-    "voice": true,
-    "energy_star": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61QqHtPe1OL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GL7QFBJ9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-dehumidifiers.html#B0GL7QFBJ9"
   },
   {
    "rank": 5,
@@ -378,7 +379,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 225,
-   "score": 69,
+   "score": 71,
    "awards": [],
    "works_with": [],
    "works_with_note": "Dreo app",
@@ -474,7 +475,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 162,
-   "score": 65,
+   "score": 67,
    "awards": [],
    "works_with": [],
    "works_with_note": "ALORAIR app",
@@ -521,7 +522,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 55,
-   "score": 56,
+   "score": 58,
    "awards": [],
    "works_with": [
     "Home Assistant"

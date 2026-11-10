@@ -29,6 +29,7 @@
    "reverse": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -66,7 +67,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1955,
-   "score": 84,
+   "score": 85,
    "awards": [
     "Best Low Profile"
    ],
@@ -117,7 +118,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 201,
-   "score": 82,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -214,6 +215,63 @@
   },
   {
    "rank": 4,
+   "asin": "B0GQGY896M",
+   "name": "Govee Ceiling Fans with Lights and Remote, RGBIC Smart 52'' flush mount",
+   "brand": "Govee",
+   "model": "Ceiling Fan with RGBIC Light 52 in.",
+   "price": 189.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 282,
+   "score": 81,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A color-light fan that works in every major system through Matter.",
+   "pros": [
+    "Matter",
+    "RGBIC light",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 282 reviews",
+    "$189.99",
+    "Reverse isn't named in the bullets"
+   ],
+   "specs": {
+    "size": "52 in.",
+    "mount": "Flush mount",
+    "light": "RGBIC, dimmable",
+    "motor": "DC"
+   },
+   "features": {
+    "dc": true,
+    "voice": true,
+    "matter": true,
+    "reverse": false
+   },
+   "image": "https://m.media-amazon.com/images/I/7184hv5AKUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQGY896M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0GQGY896M"
+  },
+  {
+   "rank": 5,
    "asin": "B0D65VQMZR",
    "name": "DREO Smart RGBIC Ceiling Fan with Lights, Low Profile, 52 Inch, Dimmable, Alexa/App, 25dB Quiet, Black",
    "brand": "Dreo",
@@ -262,63 +320,6 @@
    "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0D65VQMZR"
   },
   {
-   "rank": 5,
-   "asin": "B0GQGY896M",
-   "name": "Govee Ceiling Fans with Lights and Remote, RGBIC Smart 52'' flush mount",
-   "brand": "Govee",
-   "model": "Ceiling Fan with RGBIC Light 52 in.",
-   "price": 189.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 282,
-   "score": 79,
-   "awards": [
-    "Best for Apple Home"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A color-light fan that works in every major system through Matter.",
-   "pros": [
-    "Matter",
-    "RGBIC light",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 282 reviews",
-    "$189.99",
-    "Reverse isn't named in the bullets"
-   ],
-   "specs": {
-    "size": "52 in.",
-    "mount": "Flush mount",
-    "light": "RGBIC, dimmable",
-    "motor": "DC"
-   },
-   "features": {
-    "dc": true,
-    "voice": true,
-    "matter": true,
-    "reverse": false
-   },
-   "image": "https://m.media-amazon.com/images/I/7184hv5AKUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQGY896M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0GQGY896M"
-  },
-  {
    "rank": 6,
    "asin": "B0GR3WJL89",
    "name": "Linkind Matter 52\" Smart Ceiling Fan with Lights and Remote, Black",
@@ -328,7 +329,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 31,
-   "score": 78,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Home Assistant",

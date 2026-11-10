@@ -28,6 +28,7 @@
    "multi": 0.4
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -118,7 +119,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 55,
-   "score": 72,
+   "score": 74,
    "awards": [
     "Best Starter Kit"
    ],
@@ -171,7 +172,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 242,
-   "score": 69,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -222,7 +223,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 165,
-   "score": 69,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -377,7 +378,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 32,
-   "score": 62,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -428,7 +429,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 177,
-   "score": 60,
+   "score": 61,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -479,7 +480,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 38,
-   "score": 55,
+   "score": 58,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

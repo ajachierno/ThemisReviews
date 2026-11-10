@@ -29,6 +29,7 @@
    "ul": 0.15
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -272,7 +273,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 76,
-   "score": 80,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -313,6 +314,55 @@
   },
   {
    "rank": 6,
+   "asin": "B0FSZYR7V4",
+   "name": "Meross Smart Home Energy Monitor, Real-Time Power & Cost Tracking",
+   "brand": "Meross",
+   "model": "Smart Home Energy Monitor",
+   "price": 189.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 51,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Meross app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "An ETL-certified monitor with cost charts, alerts, and Home Assistant support.",
+   "pros": [
+    "ETL certified",
+    "±1% accuracy, per the listing",
+    "Usage-spike alerts"
+   ],
+   "cons": [
+    "Only 51 reviews",
+    "Circuit sensors aren't detailed",
+    "$189.99"
+   ],
+   "specs": {
+    "sensors": "Not stated in bullets",
+    "local": "Home Assistant support",
+    "solar": "Yes",
+    "cert": "ETL, UL 61010 standard"
+   },
+   "features": {
+    "circuits": false,
+    "local": true,
+    "solar": true,
+    "ul": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71K3rwKlrqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FSZYR7V4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0FSZYR7V4"
+  },
+  {
+   "rank": 7,
    "asin": "B0C7B1LKDW",
    "name": "Emporia Vue 3 Smart Home Energy Monitor, Real-Time Electricity Usage, Solar and Net Metering, UL Certified",
    "brand": "Emporia",
@@ -359,55 +409,6 @@
    "image": "https://m.media-amazon.com/images/I/51WSkqqndKL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C7B1LKDW?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0C7B1LKDW"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FSZYR7V4",
-   "name": "Meross Smart Home Energy Monitor, Real-Time Power & Cost Tracking",
-   "brand": "Meross",
-   "model": "Smart Home Energy Monitor",
-   "price": 189.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 51,
-   "score": 72,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Meross app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "An ETL-certified monitor with cost charts, alerts, and Home Assistant support.",
-   "pros": [
-    "ETL certified",
-    "±1% accuracy, per the listing",
-    "Usage-spike alerts"
-   ],
-   "cons": [
-    "Only 51 reviews",
-    "Circuit sensors aren't detailed",
-    "$189.99"
-   ],
-   "specs": {
-    "sensors": "Not stated in bullets",
-    "local": "Home Assistant support",
-    "solar": "Yes",
-    "cert": "ETL, UL 61010 standard"
-   },
-   "features": {
-    "circuits": false,
-    "local": true,
-    "solar": true,
-    "ul": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71K3rwKlrqL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FSZYR7V4?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0FSZYR7V4"
   },
   {
    "rank": 8,

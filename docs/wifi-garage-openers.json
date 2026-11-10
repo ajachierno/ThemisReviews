@@ -29,6 +29,7 @@
    "multi_door": 0.2
   },
   "reviews_ceiling": 30000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -325,57 +326,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0FMXX1W7D",
-   "name": "meross Smart Garage Door Opener Remote, Apple HomeKit Support, MSG150HK",
-   "brand": "meross",
-   "model": "MSG150HK",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 195,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A HomeKit controller made for Chamberlain, LiftMaster, and Craftsman openers, with no adapter or sensor wiring.",
-   "pros": [
-    "Apple HomeKit, Alexa, and Google",
-    "No adapter or wired sensor to install",
-    "500+ bought in the past month"
-   ],
-   "cons": [
-    "Chamberlain, LiftMaster, and Craftsman openers only",
-    "$69.99",
-    "Only 195 reviews"
-   ],
-   "specs": {
-    "sensor": "No wired sensor needed",
-    "openers": "Chamberlain, LiftMaster, Craftsman only",
-    "doors": "1",
-    "app": "meross"
-   },
-   "features": {
-    "sensor": true,
-    "apple_home": true,
-    "matter": false,
-    "multi_door": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61d11JybWUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMXX1W7D?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FMXX1W7D"
-  },
-  {
-   "rank": 7,
    "asin": "B0FX4G3ML2",
    "name": "THIRDREALITY Smart Garage Door Opener, Matter Certified, Alexa, Apple Home, Google Home, SmartThings, Home Assistant",
    "brand": "THIRDREALITY",
@@ -384,7 +334,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 91,
-   "score": 69,
+   "score": 71,
    "awards": [
     "Best Matter Pick"
    ],
@@ -432,6 +382,57 @@
    "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FX4G3ML2"
   },
   {
+   "rank": 7,
+   "asin": "B0FMXX1W7D",
+   "name": "meross Smart Garage Door Opener Remote, Apple HomeKit Support, MSG150HK",
+   "brand": "meross",
+   "model": "MSG150HK",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 195,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A HomeKit controller made for Chamberlain, LiftMaster, and Craftsman openers, with no adapter or sensor wiring.",
+   "pros": [
+    "Apple HomeKit, Alexa, and Google",
+    "No adapter or wired sensor to install",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Chamberlain, LiftMaster, and Craftsman openers only",
+    "$69.99",
+    "Only 195 reviews"
+   ],
+   "specs": {
+    "sensor": "No wired sensor needed",
+    "openers": "Chamberlain, LiftMaster, Craftsman only",
+    "doors": "1",
+    "app": "meross"
+   },
+   "features": {
+    "sensor": true,
+    "apple_home": true,
+    "matter": false,
+    "multi_door": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61d11JybWUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMXX1W7D?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-openers.html#B0FMXX1W7D"
+  },
+  {
    "rank": 8,
    "asin": "B0GV57H4YQ",
    "name": "Genie Aladdin Connect Smart Garage Door Controller, Single Door Kit ALKT2-R",
@@ -441,7 +442,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 155,
-   "score": 65,
+   "score": 67,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -544,7 +545,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 82,
-   "score": 59,
+   "score": 60,
    "awards": [],
    "works_with": [
     "Home Assistant",

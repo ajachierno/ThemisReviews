@@ -29,6 +29,7 @@
    "heat": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -117,56 +118,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0FDQGPCG7",
-   "name": "Midea 8,000 BTU U-Shaped Smart Inverter Window AC, Cools 350 Sq Ft, Ultra Quiet, Alexa/Google Compatible, 37% Energy Savings",
-   "brand": "Midea",
-   "model": "U Smart Inverter 8,000 BTU",
-   "price": 399.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 917,
-   "score": 78,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "SmartHome app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The U design sized for a bedroom or home office.",
-   "pros": [
-    "Inverter",
-    "917 reviews",
-    "Quiet"
-   ],
-   "cons": [
-    "Sold by a third party",
-    "4.1 stars",
-    "$399.99"
-   ],
-   "specs": {
-    "type": "U-shaped window, inverter",
-    "btu": "8,000 BTU",
-    "room": "Up to 350 sq ft",
-    "extras": "Window stays usable"
-   },
-   "features": {
-    "inverter": true,
-    "google": true,
-    "quiet": true,
-    "heat": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81PIyPQdNLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FDQGPCG7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-air-conditioners.html#B0FDQGPCG7"
-  },
-  {
-   "rank": 3,
    "asin": "B0FDQLNGHZ",
    "name": "Midea 10,000 BTU U-Shaped Smart Inverter Window AC, Cools 450 Sq Ft, Ultra Quiet, Alexa/Google Compatible, 35% Energy Savings",
    "brand": "Midea",
@@ -175,7 +126,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 635,
-   "score": 78,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -216,6 +167,56 @@
    "page_url": "https://themisreviews.com/wifi-air-conditioners.html#B0FDQLNGHZ"
   },
   {
+   "rank": 3,
+   "asin": "B0FDQGPCG7",
+   "name": "Midea 8,000 BTU U-Shaped Smart Inverter Window AC, Cools 350 Sq Ft, Ultra Quiet, Alexa/Google Compatible, 37% Energy Savings",
+   "brand": "Midea",
+   "model": "U Smart Inverter 8,000 BTU",
+   "price": 399.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 917,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "SmartHome app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The U design sized for a bedroom or home office.",
+   "pros": [
+    "Inverter",
+    "917 reviews",
+    "Quiet"
+   ],
+   "cons": [
+    "Sold by a third party",
+    "4.1 stars",
+    "$399.99"
+   ],
+   "specs": {
+    "type": "U-shaped window, inverter",
+    "btu": "8,000 BTU",
+    "room": "Up to 350 sq ft",
+    "extras": "Window stays usable"
+   },
+   "features": {
+    "inverter": true,
+    "google": true,
+    "quiet": true,
+    "heat": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81PIyPQdNLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FDQGPCG7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-conditioners.html#B0FDQGPCG7"
+  },
+  {
    "rank": 4,
    "asin": "B0G34M7C1M",
    "name": "Midea 6,000 BTU U Shaped Window Air Conditioner, Cools up to 250 Sq Ft",
@@ -225,7 +226,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 288,
-   "score": 77,
+   "score": 79,
    "awards": [
     "Best Overall"
    ],
@@ -379,7 +380,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 486,
-   "score": 57,
+   "score": 59,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -428,7 +429,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 486,
-   "score": 57,
+   "score": 59,
    "awards": [
     "Best Budget"
    ],

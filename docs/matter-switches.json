@@ -28,6 +28,7 @@
    "energy_monitoring": 0.25
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -292,6 +293,64 @@
   },
   {
    "rank": 5,
+   "asin": "B0GR1TR26Y",
+   "name": "Leviton Decora Smart Switch, Wi-Fi, D315S-1RW, White",
+   "brand": "Leviton",
+   "model": "D315S-1RW",
+   "price": 39.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 238,
+   "score": 65,
+   "awards": [
+    "Best Name Brand"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "Leviton's Decora smart switch with Matter ready out of the box. It's selling faster than anything else in this category.",
+   "pros": [
+    "3K+ bought in the past month",
+    "Works with Alexa, Google, Apple Home, SmartThings, and Home Assistant",
+    "Decora styling from a major electrical brand",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Costs about twice as much as Tapo and Kasa",
+    "Listing doesn't cover neutral or 3-way requirements",
+    "Thin listing with no spec table"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "neutral": "Not stated in listing",
+    "three_way_text": "Not stated in listing",
+    "style": "Decora paddle",
+    "extras": "My Leviton app"
+   },
+   "features": {
+    "three_way": false,
+    "no_neutral": false,
+    "energy_monitoring": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61KwGf1AfBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR1TR26Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-switches.html#B0GR1TR26Y"
+  },
+  {
+   "rank": 6,
    "asin": "B0DCK65T2Y",
    "name": "Eve Light Switch (Matter) – Smart Wall Switch",
    "brand": "Eve",
@@ -347,64 +406,6 @@
    "image": "https://m.media-amazon.com/images/I/716NXTCmGxL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DCK65T2Y?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-switches.html#B0DCK65T2Y"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GR1TR26Y",
-   "name": "Leviton Decora Smart Switch, Wi-Fi, D315S-1RW, White",
-   "brand": "Leviton",
-   "model": "D315S-1RW",
-   "price": 39.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 238,
-   "score": 62,
-   "awards": [
-    "Best Name Brand"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "Leviton's Decora smart switch with Matter ready out of the box. It's selling faster than anything else in this category.",
-   "pros": [
-    "3K+ bought in the past month",
-    "Works with Alexa, Google, Apple Home, SmartThings, and Home Assistant",
-    "Decora styling from a major electrical brand",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "Costs about twice as much as Tapo and Kasa",
-    "Listing doesn't cover neutral or 3-way requirements",
-    "Thin listing with no spec table"
-   ],
-   "specs": {
-    "radio": "Wi-Fi",
-    "neutral": "Not stated in listing",
-    "three_way_text": "Not stated in listing",
-    "style": "Decora paddle",
-    "extras": "My Leviton app"
-   },
-   "features": {
-    "three_way": false,
-    "no_neutral": false,
-    "energy_monitoring": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61KwGf1AfBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR1TR26Y?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-switches.html#B0GR1TR26Y"
   },
   {
    "rank": 7,
@@ -464,6 +465,62 @@
   },
   {
    "rank": 8,
+   "asin": "B0FSRR5K9J",
+   "name": "SONOFF TX Gen2 T6-1C-120M Smart Wall Touch Switch, 1-Channel, Wi-Fi, Matter Compatible",
+   "brand": "SONOFF",
+   "model": "TX Gen2 T6-1C-120M",
+   "price": 15.9,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 84,
+   "score": 61,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A cheap touch switch with a mode that keeps smart bulbs powered even when someone presses the button.",
+   "pros": [
+    "$15.90, the lowest price here",
+    "Independent relay mode keeps smart bulbs online",
+    "Dimmable LED locator light",
+    "Matter plus the eWeLink app"
+   ],
+   "cons": [
+    "Touch panel style",
+    "No 3-way listed",
+    "Needs 2.4 GHz Wi-Fi"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "neutral": "Required",
+    "three_way_text": "Not listed",
+    "style": "Glass touch",
+    "extras": "Relay-decoupled mode"
+   },
+   "features": {
+    "three_way": false,
+    "no_neutral": false,
+    "energy_monitoring": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61BHW3zsE-L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FSRR5K9J?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-switches.html#B0FSRR5K9J"
+  },
+  {
+   "rank": 9,
    "asin": "B0GLN62QJ7",
    "name": "LYSOME Matter Smart Light Switch, 3 Way, 2.4 GHz Wi-Fi, Neutral Wire Required",
    "brand": "LYSOME",
@@ -517,62 +574,6 @@
    "image": "https://m.media-amazon.com/images/I/61eDn5SvDPL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GLN62QJ7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-switches.html#B0GLN62QJ7"
-  },
-  {
-   "rank": 9,
-   "asin": "B0FSRR5K9J",
-   "name": "SONOFF TX Gen2 T6-1C-120M Smart Wall Touch Switch, 1-Channel, Wi-Fi, Matter Compatible",
-   "brand": "SONOFF",
-   "model": "TX Gen2 T6-1C-120M",
-   "price": 15.9,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 84,
-   "score": 58,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A cheap touch switch with a mode that keeps smart bulbs powered even when someone presses the button.",
-   "pros": [
-    "$15.90, the lowest price here",
-    "Independent relay mode keeps smart bulbs online",
-    "Dimmable LED locator light",
-    "Matter plus the eWeLink app"
-   ],
-   "cons": [
-    "Touch panel style",
-    "No 3-way listed",
-    "Needs 2.4 GHz Wi-Fi"
-   ],
-   "specs": {
-    "radio": "Wi-Fi",
-    "neutral": "Required",
-    "three_way_text": "Not listed",
-    "style": "Glass touch",
-    "extras": "Relay-decoupled mode"
-   },
-   "features": {
-    "three_way": false,
-    "no_neutral": false,
-    "energy_monitoring": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61BHW3zsE-L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FSRR5K9J?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-switches.html#B0FSRR5K9J"
   },
   {
    "rank": 10,

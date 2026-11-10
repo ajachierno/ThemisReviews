@@ -29,6 +29,7 @@
    "no_sub": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -65,6 +66,55 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GTV1R5JY",
+   "name": "GoveeLife WiFi Thermometer Hygrometer 5-in-1, Large LCD 3-Pack with Gateway",
+   "brand": "GoveeLife",
+   "model": "5-in-1 LCD 3-pack + gateway",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 178,
+   "score": 86,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "GoveeLife app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Three big-screen sensors with weather and a 1,640 ft. range through the gateway.",
+   "pros": [
+    "3.7 in. color comfort display",
+    "±0.36°F, ±2% RH",
+    "Gateway buzzer plus push and email alerts",
+    "4.6 stars"
+   ],
+   "cons": [
+    "$89.99",
+    "Only 178 reviews",
+    "Weather forecast needs the gateway"
+   ],
+   "specs": {
+    "connection": "Gateway on Wi-Fi",
+    "accuracy": "±0.36°F, ±2% RH",
+    "display": "3.7 in. LCD",
+    "pack": "3 sensors + gateway",
+    "extras": "Weather forecast, 1,640 ft. range"
+   },
+   "features": {
+    "display": true,
+    "accuracy": true,
+    "multi_sensor": true,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bAKsEzxIL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTV1R5JY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0GTV1R5JY"
+  },
+  {
+   "rank": 2,
    "asin": "B0CZ8ZSP67",
    "name": "MOCREO WiFi Freezer Thermometer Alarm with Hub and 2 Remote Sensors, No Subscription",
    "brand": "MOCREO",
@@ -111,55 +161,6 @@
    "image": "https://m.media-amazon.com/images/I/618Yn5VLKWL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CZ8ZSP67?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0CZ8ZSP67"
-  },
-  {
-   "rank": 2,
-   "asin": "B0GTV1R5JY",
-   "name": "GoveeLife WiFi Thermometer Hygrometer 5-in-1, Large LCD 3-Pack with Gateway",
-   "brand": "GoveeLife",
-   "model": "5-in-1 LCD 3-pack + gateway",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 178,
-   "score": 83,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "GoveeLife app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Three big-screen sensors with weather and a 1,640 ft. range through the gateway.",
-   "pros": [
-    "3.7 in. color comfort display",
-    "±0.36°F, ±2% RH",
-    "Gateway buzzer plus push and email alerts",
-    "4.6 stars"
-   ],
-   "cons": [
-    "$89.99",
-    "Only 178 reviews",
-    "Weather forecast needs the gateway"
-   ],
-   "specs": {
-    "connection": "Gateway on Wi-Fi",
-    "accuracy": "±0.36°F, ±2% RH",
-    "display": "3.7 in. LCD",
-    "pack": "3 sensors + gateway",
-    "extras": "Weather forecast, 1,640 ft. range"
-   },
-   "features": {
-    "display": true,
-    "accuracy": true,
-    "multi_sensor": true,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71bAKsEzxIL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTV1R5JY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0GTV1R5JY"
   },
   {
    "rank": 3,
@@ -213,6 +214,57 @@
   },
   {
    "rank": 4,
+   "asin": "B0G7VC5D3F",
+   "name": "X-Sense Smart Wi-Fi Thermometer Hygrometer, 3 Sensors & Base Station",
+   "brand": "X-Sense",
+   "model": "Temperature and humidity monitor kit",
+   "price": 36.08,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 570,
+   "score": 82,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "X-Sense app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The best value here: three accurate sensors and a long-range base station for about $36.",
+   "pros": [
+    "$36.08 for 3 sensors",
+    "±0.36°F, ±2% RH",
+    "Base links up to 50 X-Sense devices",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Up to 1 year on AAA batteries",
+    "Voice assistants aren't named",
+    "Only 570 reviews"
+   ],
+   "specs": {
+    "connection": "Base station on Wi-Fi",
+    "accuracy": "±0.36°F, ±2% RH",
+    "display": "Not stated in bullets",
+    "pack": "3 sensors + base",
+    "extras": "Dew point and VPD, 1,700 ft. range"
+   },
+   "features": {
+    "display": false,
+    "accuracy": true,
+    "multi_sensor": true,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61F0qRwSp8L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G7VC5D3F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0G7VC5D3F"
+  },
+  {
+   "rank": 5,
    "asin": "B0CCP6HLN5",
    "name": "SwitchBot Wi-Fi Humidity Sensor 4-Pack with Hub 2 (Matter), IP65 Indoor/Outdoor Thermometer",
    "brand": "SwitchBot",
@@ -268,7 +320,7 @@
    "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0CCP6HLN5"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0872ZWV8X",
    "name": "Govee WiFi Thermometer Hygrometer H5179 with App Notification Alert",
    "brand": "Govee",
@@ -319,57 +371,6 @@
    "image": "https://m.media-amazon.com/images/I/61UNq0X0rwL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0872ZWV8X?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0872ZWV8X"
-  },
-  {
-   "rank": 6,
-   "asin": "B0G7VC5D3F",
-   "name": "X-Sense Smart Wi-Fi Thermometer Hygrometer, 3 Sensors & Base Station",
-   "brand": "X-Sense",
-   "model": "Temperature and humidity monitor kit",
-   "price": 36.08,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 570,
-   "score": 80,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "X-Sense app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The best value here: three accurate sensors and a long-range base station for about $36.",
-   "pros": [
-    "$36.08 for 3 sensors",
-    "±0.36°F, ±2% RH",
-    "Base links up to 50 X-Sense devices",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Up to 1 year on AAA batteries",
-    "Voice assistants aren't named",
-    "Only 570 reviews"
-   ],
-   "specs": {
-    "connection": "Base station on Wi-Fi",
-    "accuracy": "±0.36°F, ±2% RH",
-    "display": "Not stated in bullets",
-    "pack": "3 sensors + base",
-    "extras": "Dew point and VPD, 1,700 ft. range"
-   },
-   "features": {
-    "display": false,
-    "accuracy": true,
-    "multi_sensor": true,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61F0qRwSp8L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G7VC5D3F?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0G7VC5D3F"
   },
   {
    "rank": 7,
@@ -429,7 +430,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 978,
-   "score": 77,
+   "score": 78,
    "awards": [
     "Best for Freezers and Outbuildings"
    ],

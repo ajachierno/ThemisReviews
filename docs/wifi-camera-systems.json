@@ -29,6 +29,7 @@
    "many": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -408,6 +409,53 @@
   },
   {
    "rank": 8,
+   "asin": "B0H6G9MT1M",
+   "name": "ANNKE Wireless Security Camera System, 4K NVR, 4 Dual-Lens PT Cams, 1TB HDD",
+   "brand": "ANNKE",
+   "model": "Wireless 4K NVR System (4 dual-lens PT cameras)",
+   "price": 249.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 32,
+   "score": 67,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "ANNKE app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Dual-lens wireless cameras, so each one watches wide and zoomed at once.",
+   "pros": [
+    "Dual-lens cameras",
+    "No monthly fees",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 32 reviews",
+    "Wi-Fi depends on signal",
+    "1 TB"
+   ],
+   "specs": {
+    "cameras": "4 x dual-lens pan-tilt",
+    "recorder": "4K NVR, 1 TB",
+    "connection": "Wi-Fi",
+    "extras": "Person detection, no subscription"
+   },
+   "features": {
+    "uhd": true,
+    "poe": false,
+    "ai": true,
+    "many": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71l9vjNW7aL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H6G9MT1M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0H6G9MT1M"
+  },
+  {
+   "rank": 9,
    "asin": "B0CNRDG796",
    "name": "aosu D1 Classic 4-Cam Kit, Security Cameras Wireless Outdoor, Solar Powered",
    "brand": "aosu",
@@ -454,53 +502,6 @@
    "image": "https://m.media-amazon.com/images/I/61qPKBHs15L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CNRDG796?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0CNRDG796"
-  },
-  {
-   "rank": 9,
-   "asin": "B0H6G9MT1M",
-   "name": "ANNKE Wireless Security Camera System, 4K NVR, 4 Dual-Lens PT Cams, 1TB HDD",
-   "brand": "ANNKE",
-   "model": "Wireless 4K NVR System (4 dual-lens PT cameras)",
-   "price": 249.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 32,
-   "score": 65,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "ANNKE app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Dual-lens wireless cameras, so each one watches wide and zoomed at once.",
-   "pros": [
-    "Dual-lens cameras",
-    "No monthly fees",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 32 reviews",
-    "Wi-Fi depends on signal",
-    "1 TB"
-   ],
-   "specs": {
-    "cameras": "4 x dual-lens pan-tilt",
-    "recorder": "4K NVR, 1 TB",
-    "connection": "Wi-Fi",
-    "extras": "Person detection, no subscription"
-   },
-   "features": {
-    "uhd": true,
-    "poe": false,
-    "ai": true,
-    "many": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71l9vjNW7aL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H6G9MT1M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-camera-systems.html#B0H6G9MT1M"
   },
   {
    "rank": 10,

@@ -28,6 +28,7 @@
    "long_battery": 0.3
   },
   "reviews_ceiling": 4000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -280,6 +281,60 @@
   },
   {
    "rank": 5,
+   "asin": "B0GK19F6Z2",
+   "name": "THIRDREALITY Zigbee Water Leak Sensor WL2, Dripping and Leaking Detection, Zigbee Hub Needed",
+   "brand": "THIRDREALITY",
+   "model": "WL2",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 44,
+   "score": 68,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "ThirdReality's newer, cheaper sensor with a 3-year battery.",
+   "pros": [
+    "$17.99",
+    "Up to 3-year battery",
+    "Pairs with Echo (4th gen) and other Zigbee hubs"
+   ],
+   "cons": [
+    "Only 44 reviews",
+    "No siren listed",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Zigbee 3.0 hub or Echo with Zigbee",
+    "siren": "None listed",
+    "power": "Up to 3 years",
+    "extras": "Drip detection"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41nh-BQyiIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GK19F6Z2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0GK19F6Z2"
+  },
+  {
+   "rank": 6,
    "asin": "B07D39MSZS",
    "name": "Aqara Water Leak Sensor 1 Pack, Zigbee Water Leak Detector for Alarm System",
    "brand": "Aqara",
@@ -327,60 +382,6 @@
    "image": "https://m.media-amazon.com/images/I/61zSUbv67ZL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07D39MSZS?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B07D39MSZS"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GK19F6Z2",
-   "name": "THIRDREALITY Zigbee Water Leak Sensor WL2, Dripping and Leaking Detection, Zigbee Hub Needed",
-   "brand": "THIRDREALITY",
-   "model": "WL2",
-   "price": 17.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 44,
-   "score": 66,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "ThirdReality's newer, cheaper sensor with a 3-year battery.",
-   "pros": [
-    "$17.99",
-    "Up to 3-year battery",
-    "Pairs with Echo (4th gen) and other Zigbee hubs"
-   ],
-   "cons": [
-    "Only 44 reviews",
-    "No siren listed",
-    "Needs a Zigbee hub"
-   ],
-   "specs": {
-    "hub": "Zigbee 3.0 hub or Echo with Zigbee",
-    "siren": "None listed",
-    "power": "Up to 3 years",
-    "extras": "Drip detection"
-   },
-   "features": {
-    "siren": false,
-    "open_hub": true,
-    "long_battery": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41nh-BQyiIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GK19F6Z2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0GK19F6Z2"
   },
   {
    "rank": 7,

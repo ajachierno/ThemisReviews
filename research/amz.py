@@ -40,6 +40,9 @@ PRODUCT_JS = r"""() => {
     image: img ? (img.getAttribute('data-old-hires') || img.src) : null,
     bullets: [...document.querySelectorAll('#feature-bullets li span.a-list-item')].map(s => s.textContent.trim()).filter(Boolean),
     specs: rows,
+    // Date First Available sits in collapsed detail sections on newer layouts, so read textContent (not innerText).
+    first_available: rows['Date First Available'] || (() => { const m = (document.querySelector('#dp') || document.body).textContent
+      .match(/Date First Available[\s:‎‏]*([A-Z][a-z]+ \d{1,2}, \d{4})/); return m ? m[1] : null; })(),
   };
 }"""
 

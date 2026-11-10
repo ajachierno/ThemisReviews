@@ -29,6 +29,7 @@
    "antenna": 0.15
   },
   "reviews_ceiling": 3000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -122,7 +123,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 265,
-   "score": 75,
+   "score": 77,
    "awards": [
     "Best for Home Assistant"
    ],
@@ -175,7 +176,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 188,
-   "score": 74,
+   "score": 76,
    "awards": [
     "Best Overall"
    ],
@@ -271,6 +272,110 @@
   },
   {
    "rank": 5,
+   "asin": "B0H5QKDKN2",
+   "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
+   "brand": "SONOFF",
+   "model": "PoE Dongle Max (Dongle-MZG23)",
+   "price": 44.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 39,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
+   "pros": [
+    "Ethernet with PoE, Wi-Fi, or USB",
+    "Two adjustable antennas",
+    "Built-in web console",
+    "Aluminum case"
+   ],
+   "cons": [
+    "Only 39 reviews",
+    "Names Home Assistant, openHAB, and Z-Wave JS only",
+    "Network setup is more work than a USB stick"
+   ],
+   "specs": {
+    "type": "Network dongle",
+    "series": "800 Series",
+    "long_range": true,
+    "radios": "Z-Wave only",
+    "needs": "Hub software on your network"
+   },
+   "features": {
+    "long_range": true,
+    "standalone": false,
+    "multi_radio": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5QKDKN2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0H5QKDKN2"
+  },
+  {
+   "rank": 6,
+   "asin": "B0G52DX5M3",
+   "name": "Homey Pro (2026) Smart Home Hub with Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter and Thread",
+   "brand": "Homey",
+   "model": "Pro (2026)",
+   "price": 449.0,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 76,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Homey Pro",
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "The hub with the most radios: Z-Wave, Zigbee, Thread, Matter, Bluetooth, infrared, and Wi-Fi in one box.",
+   "pros": [
+    "Seven radio technologies in one hub",
+    "Works with Siri, Alexa, and Google",
+    "Local-first automations with Homey Flow"
+   ],
+   "cons": [
+    "$471",
+    "4.0 stars from 76 reviews",
+    "Z-Wave Plus, Long Range isn't listed"
+   ],
+   "specs": {
+    "type": "Hub",
+    "series": "Z-Wave Plus",
+    "long_range": false,
+    "radios": "Zigbee, Wi-Fi, BLE, IR, Matter, Thread",
+    "needs": "Nothing else"
+   },
+   "features": {
+    "long_range": false,
+    "standalone": true,
+    "multi_radio": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G52DX5M3"
+  },
+  {
+   "rank": 7,
    "asin": "B0D29Y1L5H",
    "name": "Z-Wave USB Interface/Radio/Dongle (SmartStick G8), 800 Series Mesh & Long Range Z-Wave Technology, Compatible with HomeSeer, Home Assistant, OpenHAB",
    "brand": "HomeSeer",
@@ -318,110 +423,6 @@
    "image": "https://m.media-amazon.com/images/I/5122wJPMzxL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D29Y1L5H?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-controllers.html#B0D29Y1L5H"
-  },
-  {
-   "rank": 6,
-   "asin": "B0G52DX5M3",
-   "name": "Homey Pro (2026) Smart Home Hub with Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter and Thread",
-   "brand": "Homey",
-   "model": "Pro (2026)",
-   "price": 449.0,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 76,
-   "score": 65,
-   "awards": [],
-   "works_with": [
-    "Homey Pro",
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "The hub with the most radios: Z-Wave, Zigbee, Thread, Matter, Bluetooth, infrared, and Wi-Fi in one box.",
-   "pros": [
-    "Seven radio technologies in one hub",
-    "Works with Siri, Alexa, and Google",
-    "Local-first automations with Homey Flow"
-   ],
-   "cons": [
-    "$471",
-    "4.0 stars from 76 reviews",
-    "Z-Wave Plus, Long Range isn't listed"
-   ],
-   "specs": {
-    "type": "Hub",
-    "series": "Z-Wave Plus",
-    "long_range": false,
-    "radios": "Zigbee, Wi-Fi, BLE, IR, Matter, Thread",
-    "needs": "Nothing else"
-   },
-   "features": {
-    "long_range": false,
-    "standalone": true,
-    "multi_radio": true,
-    "antenna": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0G52DX5M3"
-  },
-  {
-   "rank": 7,
-   "asin": "B0H5QKDKN2",
-   "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
-   "brand": "SONOFF",
-   "model": "PoE Dongle Max (Dongle-MZG23)",
-   "price": 44.9,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 39,
-   "score": 65,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A Z-Wave radio on your network instead of a USB port, so you can mount it in the middle of the house.",
-   "pros": [
-    "Ethernet with PoE, Wi-Fi, or USB",
-    "Two adjustable antennas",
-    "Built-in web console",
-    "Aluminum case"
-   ],
-   "cons": [
-    "Only 39 reviews",
-    "Names Home Assistant, openHAB, and Z-Wave JS only",
-    "Network setup is more work than a USB stick"
-   ],
-   "specs": {
-    "type": "Network dongle",
-    "series": "800 Series",
-    "long_range": true,
-    "radios": "Z-Wave only",
-    "needs": "Hub software on your network"
-   },
-   "features": {
-    "long_range": true,
-    "standalone": false,
-    "multi_radio": false,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61G3ixi7miL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5QKDKN2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-controllers.html#B0H5QKDKN2"
   },
   {
    "rank": 8,

@@ -27,6 +27,7 @@
    "open_hub": 0.5
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -125,7 +126,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 91,
-   "score": 81,
+   "score": 82,
    "awards": [
     "Best Dual Outlet"
    ],
@@ -170,6 +171,57 @@
   },
   {
    "rank": 3,
+   "asin": "B0G4VZB6NC",
+   "name": "THIRDREALITY Smart Plug Gen3, Zigbee, Real-Time Power Monitoring, 15A, Repeater",
+   "brand": "THIRDREALITY",
+   "model": "Smart Plug Gen3",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 71,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "ThirdReality's newer plug with a stronger radio for repeating, selling 400+ a month.",
+   "pros": [
+    "Upgraded Zigbee chip and RF module for repeating",
+    "Precise power monitoring",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Only 71 reviews so far",
+    "$2 more than the original",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+    "load": "15 A",
+    "pack": "1 plug",
+    "extras": "ETL, upgraded repeater"
+   },
+   "features": {
+    "energy": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/516dogV0kPL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G4VZB6NC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0G4VZB6NC"
+  },
+  {
+   "rank": 4,
    "asin": "B0DXQF3NQ7",
    "name": "NOUS Zigbee Smart Plug with Energy Monitoring, Zigbee Hub Required, ETL Certified",
    "brand": "NOUS",
@@ -219,57 +271,6 @@
    "image": "https://m.media-amazon.com/images/I/71JIVZQobmL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DXQF3NQ7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0DXQF3NQ7"
-  },
-  {
-   "rank": 4,
-   "asin": "B0G4VZB6NC",
-   "name": "THIRDREALITY Smart Plug Gen3, Zigbee, Real-Time Power Monitoring, 15A, Repeater",
-   "brand": "THIRDREALITY",
-   "model": "Smart Plug Gen3",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 71,
-   "score": 78,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "ThirdReality's newer plug with a stronger radio for repeating, selling 400+ a month.",
-   "pros": [
-    "Upgraded Zigbee chip and RF module for repeating",
-    "Precise power monitoring",
-    "500+ bought in the past month"
-   ],
-   "cons": [
-    "Only 71 reviews so far",
-    "$2 more than the original",
-    "Needs a Zigbee hub"
-   ],
-   "specs": {
-    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
-    "load": "15 A",
-    "pack": "1 plug",
-    "extras": "ETL, upgraded repeater"
-   },
-   "features": {
-    "energy": true,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/516dogV0kPL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G4VZB6NC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-smart-plugs.html#B0G4VZB6NC"
   },
   {
    "rank": 5,

@@ -29,6 +29,7 @@
    "network": 0.15
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -175,6 +176,62 @@
   },
   {
    "rank": 3,
+   "asin": "B0FLXXF4YW",
+   "name": "Aqara Smart Hub M200, Matter Controller, Featuring Aqara Zigbee, Wi-Fi, IR",
+   "brand": "Aqara",
+   "model": "Hub M200",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 401,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A smaller Aqara hub that's a Thread border router, Matter controller, and Matter bridge, with an IR blaster and PoE.",
+   "pros": [
+    "Thread border router, Matter controller, and Matter bridge, per the listing",
+    "PoE or dual-band Wi-Fi",
+    "IR blaster with feedback",
+    "400+ bought in the past month"
+   ],
+   "cons": [
+    "Up to 40 Thread devices, fewer than the M3's 127",
+    "Zigbee for Aqara devices only",
+    "4.0 stars from 401 reviews"
+   ],
+   "specs": {
+    "type": "Hub",
+    "controller": true,
+    "radios": "Aqara Zigbee, IR",
+    "needs": "Aqara app"
+   },
+   "features": {
+    "standalone": true,
+    "matter_controller": true,
+    "extra_radios": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61kJxmiPr3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FLXXF4YW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FLXXF4YW"
+  },
+  {
+   "rank": 4,
    "asin": "B0BCR7M9KX",
    "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Smart home hub compatible with thousands of devices",
    "brand": "Amazon",
@@ -223,62 +280,6 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0BCR7M9KX"
   },
   {
-   "rank": 4,
-   "asin": "B0FLXXF4YW",
-   "name": "Aqara Smart Hub M200, Matter Controller, Featuring Aqara Zigbee, Wi-Fi, IR",
-   "brand": "Aqara",
-   "model": "Hub M200",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 401,
-   "score": 80,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "A smaller Aqara hub that's a Thread border router, Matter controller, and Matter bridge, with an IR blaster and PoE.",
-   "pros": [
-    "Thread border router, Matter controller, and Matter bridge, per the listing",
-    "PoE or dual-band Wi-Fi",
-    "IR blaster with feedback",
-    "400+ bought in the past month"
-   ],
-   "cons": [
-    "Up to 40 Thread devices, fewer than the M3's 127",
-    "Zigbee for Aqara devices only",
-    "4.0 stars from 401 reviews"
-   ],
-   "specs": {
-    "type": "Hub",
-    "controller": true,
-    "radios": "Aqara Zigbee, IR",
-    "needs": "Aqara app"
-   },
-   "features": {
-    "standalone": true,
-    "matter_controller": true,
-    "extra_radios": true,
-    "network": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61kJxmiPr3L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FLXXF4YW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FLXXF4YW"
-  },
-  {
    "rank": 5,
    "asin": "B0DWK8318H",
    "name": "Aqara Smart Hub M100 for Home Automation, Matter Controller, Wi-Fi",
@@ -288,7 +289,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 1050,
-   "score": 77,
+   "score": 78,
    "awards": [
     "Best Budget"
    ],
@@ -337,55 +338,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0FMJH4DPN",
-   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
-   "brand": "SONOFF",
-   "model": "Dongle Max (Dongle-M)",
-   "price": 42.9,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 702,
-   "score": 68,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A network-connected Thread or Zigbee radio you can place anywhere you have Ethernet.",
-   "pros": [
-    "Ethernet with PoE, Wi-Fi, or USB",
-    "Switch to Thread RCP firmware from the web console",
-    "Two 5 dBi antennas"
-   ],
-   "cons": [
-    "4.3 stars",
-    "$42.90",
-    "Thread or Zigbee, not both at once"
-   ],
-   "specs": {
-    "type": "Network dongle",
-    "controller": false,
-    "radios": "Zigbee (one at a time)",
-    "needs": "Home Assistant or OTBR"
-   },
-   "features": {
-    "standalone": false,
-    "matter_controller": false,
-    "extra_radios": true,
-    "network": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJH4DPN"
-  },
-  {
-   "rank": 7,
    "asin": "B0FMJD288B",
    "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24 (Dongle-PMG24)",
    "brand": "SONOFF",
@@ -394,7 +346,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 766,
-   "score": 67,
+   "score": 69,
    "awards": [
     "Best for Home Assistant"
    ],
@@ -436,6 +388,55 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJD288B"
   },
   {
+   "rank": 7,
+   "asin": "B0FMJH4DPN",
+   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
+   "brand": "SONOFF",
+   "model": "Dongle Max (Dongle-M)",
+   "price": 42.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 702,
+   "score": 69,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A network-connected Thread or Zigbee radio you can place anywhere you have Ethernet.",
+   "pros": [
+    "Ethernet with PoE, Wi-Fi, or USB",
+    "Switch to Thread RCP firmware from the web console",
+    "Two 5 dBi antennas"
+   ],
+   "cons": [
+    "4.3 stars",
+    "$42.90",
+    "Thread or Zigbee, not both at once"
+   ],
+   "specs": {
+    "type": "Network dongle",
+    "controller": false,
+    "radios": "Zigbee (one at a time)",
+    "needs": "Home Assistant or OTBR"
+   },
+   "features": {
+    "standalone": false,
+    "matter_controller": false,
+    "extra_radios": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJH4DPN"
+  },
+  {
    "rank": 8,
    "asin": "B0G2LTBM1M",
    "name": "SONOFF Zigbee 3.0 & Thread USB Dongle (Dongle-LMG21)",
@@ -445,7 +446,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 489,
-   "score": 66,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -494,7 +495,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 116,
-   "score": 59,
+   "score": 62,
    "awards": [],
    "works_with": [
     "Home Assistant"

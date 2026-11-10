@@ -29,6 +29,7 @@
    "radon": 0.2
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -178,7 +179,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 256,
-   "score": 73,
+   "score": 74,
    "awards": [
     "Best Overall"
    ],
@@ -223,6 +224,64 @@
   },
   {
    "rank": 4,
+   "asin": "B0G2WDPB29",
+   "name": "SONOFF AirGuard CO2 SAWF-08P Smart Air Quality Monitor, CO2, Temperature, Humidity, Matter, 2.4 GHz Wi-Fi",
+   "brand": "SONOFF",
+   "model": "AirGuard CO2 SAWF-08P",
+   "price": 49.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 182,
+   "score": 73,
+   "awards": [
+    "Best for Matter"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Matter CO2 monitor that plugs into every major smart home platform.",
+   "pros": [
+    "Matter over Wi-Fi",
+    "NDIR CO2 sensor",
+    "4.3 stars",
+    "$49.90"
+   ],
+   "cons": [
+    "Only 182 reviews",
+    "No PM2.5",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "measures": "CO2, temperature, humidity",
+    "co2": "NDIR",
+    "power": "Plug-in",
+    "app": "Matter, eWeLink"
+   },
+   "features": {
+    "ndir_co2": true,
+    "pm25": false,
+    "smart_home": true,
+    "radon": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61qPR1dWs9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2WDPB29?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0G2WDPB29"
+  },
+  {
+   "rank": 5,
    "asin": "B0CLYRBRSB",
    "name": "BREATHE Smart Air Quality Monitor Indoor, CO2 Detector for Home, PM2.5 VOC",
    "brand": "BREATHE",
@@ -270,7 +329,7 @@
    "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0CLYRBRSB"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0DLN46519",
    "name": "SwitchBot CO2 Detector, Air Quality Monitor Indoor, CO2 Monitor for CO2/TEMP/Humidity, Portable Carbon Dioxide Detector for Home/Car/Office/Greenhouse",
    "brand": "SwitchBot",
@@ -318,64 +377,6 @@
    "image": "https://m.media-amazon.com/images/I/71aclmecNOL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DLN46519?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0DLN46519"
-  },
-  {
-   "rank": 6,
-   "asin": "B0G2WDPB29",
-   "name": "SONOFF AirGuard CO2 SAWF-08P Smart Air Quality Monitor, CO2, Temperature, Humidity, Matter, 2.4 GHz Wi-Fi",
-   "brand": "SONOFF",
-   "model": "AirGuard CO2 SAWF-08P",
-   "price": 49.9,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 182,
-   "score": 71,
-   "awards": [
-    "Best for Matter"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A Matter CO2 monitor that plugs into every major smart home platform.",
-   "pros": [
-    "Matter over Wi-Fi",
-    "NDIR CO2 sensor",
-    "4.3 stars",
-    "$49.90"
-   ],
-   "cons": [
-    "Only 182 reviews",
-    "No PM2.5",
-    "2.4 GHz Wi-Fi only"
-   ],
-   "specs": {
-    "measures": "CO2, temperature, humidity",
-    "co2": "NDIR",
-    "power": "Plug-in",
-    "app": "Matter, eWeLink"
-   },
-   "features": {
-    "ndir_co2": true,
-    "pm25": false,
-    "smart_home": true,
-    "radon": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61qPR1dWs9L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G2WDPB29?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-air-quality-monitors.html#B0G2WDPB29"
   },
   {
    "rank": 7,
@@ -434,7 +435,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 202,
-   "score": 65,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -536,7 +537,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 37,
-   "score": 57,
+   "score": 59,
    "awards": [],
    "works_with": [],
    "works_with_note": "AprilAire Healthy Air app",

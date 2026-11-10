@@ -29,6 +29,7 @@
    "diy": 0.2
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 545,
-   "score": 86,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -167,6 +168,53 @@
   },
   {
    "rank": 3,
+   "asin": "B0GJRQMPGM",
+   "name": "Frizzlife LPG365 Dual Leak Detection & Auto Water Shutoff, 3 Leak Sensors",
+   "brand": "Frizzlife",
+   "model": "LPG365 with 3 leak sensors",
+   "price": 499.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 42,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Frizzlife app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Flow monitoring plus leak sensors, so it catches both slow leaks and sudden floods.",
+   "pros": [
+    "Flow monitoring and leak sensors together",
+    "App, SMS, and phone call alerts",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Only 42 reviews",
+    "$499.99",
+    "Plumber install"
+   ],
+   "specs": {
+    "type": "Flow monitor + shutoff valve",
+    "detects": "Ultrasonic flow + 3 LoRa leak sensors",
+    "install": "Plumbed into the main line",
+    "connection": "Wi-Fi (2.4/5 GHz)"
+   },
+   "features": {
+    "auto_shutoff": true,
+    "sensors_included": true,
+    "flow_monitor": true,
+    "diy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71ALh2lF19L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJRQMPGM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-water-valves.html#B0GJRQMPGM"
+  },
+  {
+   "rank": 4,
    "asin": "B00C03D01Q",
    "name": "Moen Flo Shutoff, 3/4\" Automatic Water Leak Detector & Shutoff, 900-001",
    "brand": "Moen",
@@ -213,53 +261,6 @@
    "image": "https://m.media-amazon.com/images/I/71HYxYwnHsL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00C03D01Q?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-water-valves.html#B00C03D01Q"
-  },
-  {
-   "rank": 4,
-   "asin": "B0GJRQMPGM",
-   "name": "Frizzlife LPG365 Dual Leak Detection & Auto Water Shutoff, 3 Leak Sensors",
-   "brand": "Frizzlife",
-   "model": "LPG365 with 3 leak sensors",
-   "price": 499.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 42,
-   "score": 78,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Frizzlife app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Flow monitoring plus leak sensors, so it catches both slow leaks and sudden floods.",
-   "pros": [
-    "Flow monitoring and leak sensors together",
-    "App, SMS, and phone call alerts",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Only 42 reviews",
-    "$499.99",
-    "Plumber install"
-   ],
-   "specs": {
-    "type": "Flow monitor + shutoff valve",
-    "detects": "Ultrasonic flow + 3 LoRa leak sensors",
-    "install": "Plumbed into the main line",
-    "connection": "Wi-Fi (2.4/5 GHz)"
-   },
-   "features": {
-    "auto_shutoff": true,
-    "sensors_included": true,
-    "flow_monitor": true,
-    "diy": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71ALh2lF19L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJRQMPGM?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-water-valves.html#B0GJRQMPGM"
   },
   {
    "rank": 5,
@@ -321,7 +322,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 100,
-   "score": 74,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Home Assistant"

@@ -29,6 +29,7 @@
    "battery": 0.2
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -131,7 +132,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 219,
-   "score": 78,
+   "score": 81,
    "awards": [
     "Best With Zones"
    ],
@@ -244,7 +245,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 52,
-   "score": 65,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -285,6 +286,59 @@
   },
   {
    "rank": 5,
+   "asin": "B0GJZ3B7WY",
+   "name": "THIRDREALITY Smart Presence Sensor R3, 60GHz mmWave Radar, USB-C Powered, RGB Light, Illumination Sensor, Zigbee Repeater",
+   "brand": "THIRDREALITY",
+   "model": "Presence Sensor R3",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 3.3,
+   "reviews_count": 65,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A 60 GHz sensor with an RGB light that can show status or act as a night light.",
+   "pros": [
+    "60 GHz mmWave",
+    "RGB indicator light",
+    "Zigbee repeater"
+   ],
+   "cons": [
+    "3.3 stars",
+    "Only 65 reviews",
+    "$49.99"
+   ],
+   "specs": {
+    "radar": "60 GHz mmWave",
+    "power": "USB-C",
+    "extras": "Light, RGB status light",
+    "hub": "Zigbee hub"
+   },
+   "features": {
+    "zones": false,
+    "light": true,
+    "open_zigbee": true,
+    "battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51gB3oWEQZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJZ3B7WY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0GJZ3B7WY"
+  },
+  {
+   "rank": 6,
    "asin": "B0D5QPH3T6",
    "name": "Aqara Zigbee Presence Sensor FP1E, mmWave Radar Wired Motion Sensor",
    "brand": "Aqara",
@@ -335,59 +389,6 @@
    "image": "https://m.media-amazon.com/images/I/61gblrXx8SL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D5QPH3T6?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0D5QPH3T6"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GJZ3B7WY",
-   "name": "THIRDREALITY Smart Presence Sensor R3, 60GHz mmWave Radar, USB-C Powered, RGB Light, Illumination Sensor, Zigbee Repeater",
-   "brand": "THIRDREALITY",
-   "model": "Presence Sensor R3",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 3.3,
-   "reviews_count": 65,
-   "score": 62,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A 60 GHz sensor with an RGB light that can show status or act as a night light.",
-   "pros": [
-    "60 GHz mmWave",
-    "RGB indicator light",
-    "Zigbee repeater"
-   ],
-   "cons": [
-    "3.3 stars",
-    "Only 65 reviews",
-    "$49.99"
-   ],
-   "specs": {
-    "radar": "60 GHz mmWave",
-    "power": "USB-C",
-    "extras": "Light, RGB status light",
-    "hub": "Zigbee hub"
-   },
-   "features": {
-    "zones": false,
-    "light": true,
-    "open_zigbee": true,
-    "battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51gB3oWEQZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJZ3B7WY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0GJZ3B7WY"
   },
   {
    "rank": 7,

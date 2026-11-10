@@ -29,6 +29,7 @@
    "big": 0.25
   },
   "reviews_ceiling": 20000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -122,7 +123,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1007,
-   "score": 86,
+   "score": 87,
    "awards": [
     "Best for Large Rooms"
    ],
@@ -524,7 +525,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 190,
-   "score": 69,
+   "score": 71,
    "awards": [],
    "works_with": [],
    "works_with_note": "Dreo app",

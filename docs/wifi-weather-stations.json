@@ -29,6 +29,7 @@
    "display": 0.25
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -267,6 +268,54 @@
   },
   {
    "rank": 5,
+   "asin": "B0H7RQPHBR",
+   "name": "Sainlogic 5GHz/2.4GHz Dual-Band WiFi Weather Station, 12-in-1",
+   "brand": "Sainlogic",
+   "model": "12-in-1 Dual-Band Wi-Fi Weather Station",
+   "price": 129.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1008,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Inercom app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A full wind and rain station that connects over 5 GHz or 2.4 GHz Wi-Fi and stores two years of data on the device.",
+   "pros": [
+    "4.5 stars from 1,008 reviews",
+    "5 GHz or 2.4 GHz Wi-Fi",
+    "Two years of local data with Excel export",
+    "Phone alerts for temperature, humidity, and pressure"
+   ],
+   "cons": [
+    "$129.98",
+    "Sold by a third-party seller",
+    "No smart home platforms named in the bullets"
+   ],
+   "specs": {
+    "sensors": "Wind speed and direction, rain, pressure, temperature, humidity",
+    "display": "Indoor display (size not stated)",
+    "online": "Inercom app over 5 or 2.4 GHz Wi-Fi",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bVVi5AZYL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7RQPHBR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0H7RQPHBR"
+  },
+  {
+   "rank": 6,
    "asin": "B0BBH688XG",
    "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
    "brand": "Ambient Weather",
@@ -316,41 +365,40 @@
    "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BBH688XG"
   },
   {
-   "rank": 6,
-   "asin": "B0H7RQPHBR",
-   "name": "Sainlogic 5GHz/2.4GHz Dual-Band WiFi Weather Station, 12-in-1",
+   "rank": 7,
+   "asin": "B0GXFBT2D6",
+   "name": "Sainlogic 5GHz/2.4GHz WiFi Weather Station with 24H/7D AI Weather Forecast",
    "brand": "Sainlogic",
-   "model": "12-in-1 Dual-Band Wi-Fi Weather Station",
-   "price": 129.98,
+   "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
+   "price": 179.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1008,
+   "rating": 4.4,
+   "reviews_count": 510,
    "score": 77,
    "awards": [],
    "works_with": [],
-   "works_with_note": "Inercom app",
+   "works_with_note": "Sainlogic app",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A full wind and rain station that connects over 5 GHz or 2.4 GHz Wi-Fi and stores two years of data on the device.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Works on 5 GHz Wi-Fi as well as 2.4 GHz.",
    "pros": [
-    "4.5 stars from 1,008 reviews",
-    "5 GHz or 2.4 GHz Wi-Fi",
-    "Two years of local data with Excel export",
-    "Phone alerts for temperature, humidity, and pressure"
+    "Dual-band Wi-Fi",
+    "4.4 stars",
+    "AI forecasts"
    ],
    "cons": [
-    "$129.98",
-    "Sold by a third-party seller",
-    "No smart home platforms named in the bullets"
+    "$179.99",
+    "Only 510 reviews",
+    "Forecast service details aren't in the bullets"
    ],
    "specs": {
-    "sensors": "Wind speed and direction, rain, pressure, temperature, humidity",
-    "display": "Indoor display (size not stated)",
-    "online": "Inercom app over 5 or 2.4 GHz Wi-Fi",
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Color display",
+    "online": "AI forecast",
     "power": "Not stated in bullets"
    },
    "features": {
@@ -359,12 +407,61 @@
     "integrations": false,
     "display": true
    },
-   "image": "https://m.media-amazon.com/images/I/71bVVi5AZYL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7RQPHBR?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0H7RQPHBR"
+   "image": "https://m.media-amazon.com/images/I/714Ev8TFwtL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXFBT2D6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFBT2D6"
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "asin": "B0FM3CVKNL",
+   "name": "VEVOR 7-in-1 Wi-Fi Weather Station, 7.5-Inch Display, Solar Outdoor Sensor, Rain Gauge",
+   "brand": "VEVOR",
+   "model": "7-in-1 Wi-Fi Weather Station",
+   "price": 95.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 370,
+   "score": 77,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "VEVOR app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The cheapest full station with wind, rain, and a solar sensor.",
+   "pros": [
+    "$95.99",
+    "Solar outdoor sensor",
+    "Big display"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Only 370 reviews",
+    "Fewer integrations"
+   ],
+   "specs": {
+    "sensors": "7 readings incl. wind and rain",
+    "display": "7.5 in. VA display",
+    "online": "App",
+    "power": "Solar"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": true,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71+WsAQplzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM3CVKNL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0FM3CVKNL"
+  },
+  {
+   "rank": 9,
    "asin": "B0BL53M5HR",
    "name": "La Crosse Technology Professional Smart Wi-Fi Weather Station, Wind and Rain Gauges, 400 ft Range",
    "brand": "La Crosse Technology",
@@ -409,102 +506,6 @@
    "image": "https://m.media-amazon.com/images/I/81OX4afhGEL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BL53M5HR?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BL53M5HR"
-  },
-  {
-   "rank": 8,
-   "asin": "B0FM3CVKNL",
-   "name": "VEVOR 7-in-1 Wi-Fi Weather Station, 7.5-Inch Display, Solar Outdoor Sensor, Rain Gauge",
-   "brand": "VEVOR",
-   "model": "7-in-1 Wi-Fi Weather Station",
-   "price": 95.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 370,
-   "score": 75,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "VEVOR app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The cheapest full station with wind, rain, and a solar sensor.",
-   "pros": [
-    "$95.99",
-    "Solar outdoor sensor",
-    "Big display"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Only 370 reviews",
-    "Fewer integrations"
-   ],
-   "specs": {
-    "sensors": "7 readings incl. wind and rain",
-    "display": "7.5 in. VA display",
-    "online": "App",
-    "power": "Solar"
-   },
-   "features": {
-    "wind_rain": true,
-    "solar": true,
-    "integrations": false,
-    "display": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71+WsAQplzL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FM3CVKNL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0FM3CVKNL"
-  },
-  {
-   "rank": 9,
-   "asin": "B0GXFBT2D6",
-   "name": "Sainlogic 5GHz/2.4GHz WiFi Weather Station with 24H/7D AI Weather Forecast",
-   "brand": "Sainlogic",
-   "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 510,
-   "score": 74,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Sainlogic app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Works on 5 GHz Wi-Fi as well as 2.4 GHz.",
-   "pros": [
-    "Dual-band Wi-Fi",
-    "4.4 stars",
-    "AI forecasts"
-   ],
-   "cons": [
-    "$179.99",
-    "Only 510 reviews",
-    "Forecast service details aren't in the bullets"
-   ],
-   "specs": {
-    "sensors": "Wind, rain, temperature, humidity",
-    "display": "Color display",
-    "online": "AI forecast",
-    "power": "Not stated in bullets"
-   },
-   "features": {
-    "wind_rain": true,
-    "solar": false,
-    "integrations": false,
-    "display": true
-   },
-   "image": "https://m.media-amazon.com/images/I/714Ev8TFwtL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GXFBT2D6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFBT2D6"
   }
  ],
  "avoid": [],

@@ -29,6 +29,7 @@
    "multi_channel": 0.25
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -73,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 909,
-   "score": 89,
+   "score": 90,
    "awards": [
     "Best With Power Metering"
    ],
@@ -290,6 +291,61 @@
   },
   {
    "rank": 5,
+   "asin": "B0F9LJYSQS",
+   "name": "Shelly 1PM Mini Gen4 Smart Switch Wi-Fi Matter Zigbee 1-Channel 8A, 2 Pack",
+   "brand": "Shelly",
+   "model": "1PM Mini Gen4 (2-pack)",
+   "price": 54.86,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 466,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Two small metered relays to track what lights and gadgets use.",
+   "pros": [
+    "Power metering",
+    "2-pack",
+    "4.6 stars"
+   ],
+   "cons": [
+    "8 A",
+    "$54.86",
+    "Not dry contact"
+   ],
+   "specs": {
+    "channels": "1 each, 2 relays",
+    "rating": "8 A",
+    "radios": "Wi-Fi, Zigbee, Matter",
+    "extras": "Power metering, 8 MB memory"
+   },
+   "features": {
+    "power_meter": true,
+    "dry_contact": false,
+    "matter": true,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/816YHVCt63L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F9LJYSQS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-relays.html#B0F9LJYSQS"
+  },
+  {
+   "rank": 6,
    "asin": "B0CQD1Z2K8",
    "name": "Shelly Plus Uni Smart Wi-Fi and Bluetooth Operated Module, Dry Contact",
    "brand": "Shelly",
@@ -341,61 +397,6 @@
    "image": "https://m.media-amazon.com/images/I/91aXpGiLLLL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CQD1Z2K8?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-relays.html#B0CQD1Z2K8"
-  },
-  {
-   "rank": 6,
-   "asin": "B0F9LJYSQS",
-   "name": "Shelly 1PM Mini Gen4 Smart Switch Wi-Fi Matter Zigbee 1-Channel 8A, 2 Pack",
-   "brand": "Shelly",
-   "model": "1PM Mini Gen4 (2-pack)",
-   "price": 54.86,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 466,
-   "score": 79,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Two small metered relays to track what lights and gadgets use.",
-   "pros": [
-    "Power metering",
-    "2-pack",
-    "4.6 stars"
-   ],
-   "cons": [
-    "8 A",
-    "$54.86",
-    "Not dry contact"
-   ],
-   "specs": {
-    "channels": "1 each, 2 relays",
-    "rating": "8 A",
-    "radios": "Wi-Fi, Zigbee, Matter",
-    "extras": "Power metering, 8 MB memory"
-   },
-   "features": {
-    "power_meter": true,
-    "dry_contact": false,
-    "matter": true,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/816YHVCt63L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F9LJYSQS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-relays.html#B0F9LJYSQS"
   },
   {
    "rank": 7,

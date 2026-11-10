@@ -28,6 +28,7 @@
    "voice": 0.3
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -64,6 +65,59 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GD6ND4C7",
+   "name": "WiFi Motion Sensor, Smart PIR Motion Detector with Instant App Alerts",
+   "brand": "Cotinse",
+   "model": "Wi-Fi PIR motion sensor",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 272,
+   "score": 77,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A flexible no-hub motion sensor that runs on batteries or USB and triggers Alexa, Google, and SmartThings routines.",
+   "pros": [
+    "AA batteries or USB power",
+    "Bluetooth-assisted pairing",
+    "Triggers Alexa, Google, and SmartThings routines"
+   ],
+   "cons": [
+    "No Home Assistant support, per the listing",
+    "3.9 stars",
+    "Cloud-based Smart Life app"
+   ],
+   "specs": {
+    "type": "PIR motion",
+    "power": "2 AA or 5 V USB",
+    "range": "Not listed",
+    "app": "Smart Life / Tuya",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "presence": false,
+    "usb_option": true,
+    "voice": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610QlCe8LtL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GD6ND4C7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0GD6ND4C7"
+  },
+  {
+   "rank": 2,
    "asin": "B0CNRRT45G",
    "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor",
    "brand": "GoveeLife",
@@ -113,59 +167,6 @@
    "image": "https://m.media-amazon.com/images/I/61s-kBHk9BL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CNRRT45G?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0CNRRT45G"
-  },
-  {
-   "rank": 2,
-   "asin": "B0GD6ND4C7",
-   "name": "WiFi Motion Sensor, Smart PIR Motion Detector with Instant App Alerts",
-   "brand": "Cotinse",
-   "model": "Wi-Fi PIR motion sensor",
-   "price": 15.99,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 272,
-   "score": 74,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "SmartThings"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A flexible no-hub motion sensor that runs on batteries or USB and triggers Alexa, Google, and SmartThings routines.",
-   "pros": [
-    "AA batteries or USB power",
-    "Bluetooth-assisted pairing",
-    "Triggers Alexa, Google, and SmartThings routines"
-   ],
-   "cons": [
-    "No Home Assistant support, per the listing",
-    "3.9 stars",
-    "Cloud-based Smart Life app"
-   ],
-   "specs": {
-    "type": "PIR motion",
-    "power": "2 AA or 5 V USB",
-    "range": "Not listed",
-    "app": "Smart Life / Tuya",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "presence": false,
-    "usb_option": true,
-    "voice": true
-   },
-   "image": "https://m.media-amazon.com/images/I/610QlCe8LtL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GD6ND4C7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0GD6ND4C7"
   },
   {
    "rank": 3,
@@ -277,7 +278,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 41,
-   "score": 66,
+   "score": 69,
    "awards": [
     "Best for Home Assistant"
    ],

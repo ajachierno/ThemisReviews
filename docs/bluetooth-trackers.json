@@ -29,6 +29,7 @@
    "both_phones": 0.2
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -177,7 +178,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1667,
-   "score": 81,
+   "score": 83,
    "awards": [],
    "works_with": [],
    "works_with_note": "Google Find Hub or Apple Find My",
@@ -226,7 +227,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4707,
-   "score": 80,
+   "score": 81,
    "awards": [
     "Best Budget"
    ],
@@ -277,7 +278,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 652,
-   "score": 77,
+   "score": 78,
    "awards": [
     "Best for Mixed Households"
    ],
@@ -319,6 +320,103 @@
   },
   {
    "rank": 6,
+   "asin": "B0FSKPVR91",
+   "name": "Air Tag Tracker 4 Pack for Apple Find My, MFi Certified, IP67",
+   "brand": "Ultrbeka",
+   "model": "Air Tracker Tag (4-pack)",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 659,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Apple Find My",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "An MFi-certified Find My four-pack with replaceable batteries for $15.99.",
+   "pros": [
+    "MFi certified",
+    "Replaceable battery",
+    "$15.99 for 4"
+   ],
+   "cons": [
+    "iPhone only",
+    "Only 659 reviews",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "network": "Apple Find My",
+    "phones": "iPhone, iPad",
+    "battery": "Replaceable",
+    "extras": "MFi certified",
+    "pack": "4"
+   },
+   "features": {
+    "big_network": true,
+    "precision": false,
+    "battery": true,
+    "both_phones": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51GQ5fEqICL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FSKPVR91?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-trackers.html#B0FSKPVR91"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FVYDTHZ3",
+   "name": "Pebblebee Card 5, Bluetooth Wallet Tracker | Alt to Air Tag, 18-Mo Battery",
+   "brand": "Pebblebee",
+   "model": "Card 5",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 467,
+   "score": 76,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Apple Find My or Google Find Hub",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A credit-card tracker for wallets and passports that charges wirelessly.",
+   "pros": [
+    "Thin enough for a wallet",
+    "Up to 18 months per wireless charge",
+    "Apple or Google network",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "4.0 stars",
+    "$39.99",
+    "One network at a time"
+   ],
+   "specs": {
+    "network": "Apple Find My or Google Find Hub",
+    "phones": "iPhone or Android",
+    "battery": "Wireless charging, up to 18 months",
+    "extras": "Wallet card, phone finder",
+    "pack": "1"
+   },
+   "features": {
+    "big_network": true,
+    "precision": false,
+    "battery": true,
+    "both_phones": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Dl2+Z62TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FVYDTHZ3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-trackers.html#B0FVYDTHZ3"
+  },
+  {
+   "rank": 8,
    "asin": "B0C2ZL46QC",
    "name": "ATUVOS Air Tracker Tags 4 Pack, Works with Apple Find My (iOS Only)",
    "brand": "ATUVOS",
@@ -365,103 +463,6 @@
    "image": "https://m.media-amazon.com/images/I/61dxPp0KJuL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C2ZL46QC?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/bluetooth-trackers.html#B0C2ZL46QC"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FSKPVR91",
-   "name": "Air Tag Tracker 4 Pack for Apple Find My, MFi Certified, IP67",
-   "brand": "Ultrbeka",
-   "model": "Air Tracker Tag (4-pack)",
-   "price": 15.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 659,
-   "score": 75,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Apple Find My",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "An MFi-certified Find My four-pack with replaceable batteries for $15.99.",
-   "pros": [
-    "MFi certified",
-    "Replaceable battery",
-    "$15.99 for 4"
-   ],
-   "cons": [
-    "iPhone only",
-    "Only 659 reviews",
-    "Sold by a reseller"
-   ],
-   "specs": {
-    "network": "Apple Find My",
-    "phones": "iPhone, iPad",
-    "battery": "Replaceable",
-    "extras": "MFi certified",
-    "pack": "4"
-   },
-   "features": {
-    "big_network": true,
-    "precision": false,
-    "battery": true,
-    "both_phones": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51GQ5fEqICL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FSKPVR91?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-trackers.html#B0FSKPVR91"
-  },
-  {
-   "rank": 8,
-   "asin": "B0FVYDTHZ3",
-   "name": "Pebblebee Card 5, Bluetooth Wallet Tracker | Alt to Air Tag, 18-Mo Battery",
-   "brand": "Pebblebee",
-   "model": "Card 5",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 467,
-   "score": 74,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Apple Find My or Google Find Hub",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A credit-card tracker for wallets and passports that charges wirelessly.",
-   "pros": [
-    "Thin enough for a wallet",
-    "Up to 18 months per wireless charge",
-    "Apple or Google network",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "4.0 stars",
-    "$39.99",
-    "One network at a time"
-   ],
-   "specs": {
-    "network": "Apple Find My or Google Find Hub",
-    "phones": "iPhone or Android",
-    "battery": "Wireless charging, up to 18 months",
-    "extras": "Wallet card, phone finder",
-    "pack": "1"
-   },
-   "features": {
-    "big_network": true,
-    "precision": false,
-    "battery": true,
-    "both_phones": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Dl2+Z62TL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FVYDTHZ3?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-trackers.html#B0FVYDTHZ3"
   },
   {
    "rank": 9,
@@ -522,7 +523,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 1429,
-   "score": 71,
+   "score": 72,
    "awards": [],
    "works_with": [],
    "works_with_note": "Apple Find My or Google Find Hub",

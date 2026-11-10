@@ -28,6 +28,7 @@
    "long_battery": 0.3
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -72,7 +73,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 969,
-   "score": 79,
+   "score": 81,
    "awards": [
     "Most Capable"
    ],
@@ -121,6 +122,59 @@
   },
   {
    "rank": 2,
+   "asin": "B0GZVPQQRX",
+   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24 GHz mmWave and Light Sensor, USB-C Powered, Hub Required",
+   "brand": "SONOFF",
+   "model": "SNZB-06P24",
+   "price": 24.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 219,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A 24 GHz mmWave presence sensor with zones and a light sensor, sensitive enough to pick up breathing.",
+   "pros": [
+    "Detects micro-movements like breathing",
+    "Zone positioning",
+    "Light sensor built in",
+    "200+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Needs USB-C power",
+    "More setup than a PIR sensor"
+   ],
+   "specs": {
+    "type": "Presence (24 GHz mmWave)",
+    "power": "USB-C",
+    "hub": "Zigbee hub",
+    "extras": "Zones, self-calibration"
+   },
+   "features": {
+    "presence": true,
+    "light_sensor": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0GZVPQQRX"
+  },
+  {
+   "rank": 3,
    "asin": "B0C1GB4DVR",
    "name": "SONOFF SNZB-03P Zigbee Motion Sensor, 3-Year Battery Life, Zigbee Bridge Required (1 Pack)",
    "brand": "SONOFF",
@@ -172,59 +226,6 @@
    "image": "https://m.media-amazon.com/images/I/51dZyuxTAvL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C1GB4DVR?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0C1GB4DVR"
-  },
-  {
-   "rank": 3,
-   "asin": "B0GZVPQQRX",
-   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24 GHz mmWave and Light Sensor, USB-C Powered, Hub Required",
-   "brand": "SONOFF",
-   "model": "SNZB-06P24",
-   "price": 24.9,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 219,
-   "score": 74,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A 24 GHz mmWave presence sensor with zones and a light sensor, sensitive enough to pick up breathing.",
-   "pros": [
-    "Detects micro-movements like breathing",
-    "Zone positioning",
-    "Light sensor built in",
-    "200+ bought in the past month"
-   ],
-   "cons": [
-    "3.8 stars",
-    "Needs USB-C power",
-    "More setup than a PIR sensor"
-   ],
-   "specs": {
-    "type": "Presence (24 GHz mmWave)",
-    "power": "USB-C",
-    "hub": "Zigbee hub",
-    "extras": "Zones, self-calibration"
-   },
-   "features": {
-    "presence": true,
-    "light_sensor": true,
-    "long_battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0GZVPQQRX"
   },
   {
    "rank": 4,
@@ -386,6 +387,59 @@
   },
   {
    "rank": 7,
+   "asin": "B0H4GD6GGK",
+   "name": "Shelly BLU Motion ZB Smart Bluetooth & Zigbee Light Sensor",
+   "brand": "Shelly",
+   "model": "BLU Motion ZB",
+   "price": 26.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 78,
+   "score": 69,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A compact motion and light sensor that speaks Zigbee or Bluetooth.",
+   "pros": [
+    "Motion plus light level",
+    "Zigbee or Bluetooth",
+    "4.5 stars, 200+ bought in the past month"
+   ],
+   "cons": [
+    "Only 78 reviews",
+    "Battery life isn't in the bullets",
+    "$26.99"
+   ],
+   "specs": {
+    "type": "PIR motion",
+    "power": "Battery",
+    "hub": "Zigbee hub or Bluetooth gateway",
+    "extras": "Light sensor"
+   },
+   "features": {
+    "presence": false,
+    "light_sensor": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71k0OijsvhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H4GD6GGK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0H4GD6GGK"
+  },
+  {
+   "rank": 8,
    "asin": "B095TZTGNB",
    "name": "Aeotec SmartThings Motion Sensor, Zigbee, Magnetic Mounting, Works with Smart Home Hub and Compatible Zigbee Hubs",
    "brand": "Aeotec",
@@ -435,59 +489,6 @@
    "image": "https://m.media-amazon.com/images/I/51i--y1gzAL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B095TZTGNB?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B095TZTGNB"
-  },
-  {
-   "rank": 8,
-   "asin": "B0H4GD6GGK",
-   "name": "Shelly BLU Motion ZB Smart Bluetooth & Zigbee Light Sensor",
-   "brand": "Shelly",
-   "model": "BLU Motion ZB",
-   "price": 26.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 78,
-   "score": 66,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A compact motion and light sensor that speaks Zigbee or Bluetooth.",
-   "pros": [
-    "Motion plus light level",
-    "Zigbee or Bluetooth",
-    "4.5 stars, 200+ bought in the past month"
-   ],
-   "cons": [
-    "Only 78 reviews",
-    "Battery life isn't in the bullets",
-    "$26.99"
-   ],
-   "specs": {
-    "type": "PIR motion",
-    "power": "Battery",
-    "hub": "Zigbee hub or Bluetooth gateway",
-    "extras": "Light sensor"
-   },
-   "features": {
-    "presence": false,
-    "light_sensor": true,
-    "long_battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71k0OijsvhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H4GD6GGK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0H4GD6GGK"
   },
   {
    "rank": 9,

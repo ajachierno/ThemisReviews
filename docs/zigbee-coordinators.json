@@ -29,6 +29,7 @@
    "network": 0.2
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -132,7 +133,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 702,
-   "score": 79,
+   "score": 80,
    "awards": [
     "Best Network Coordinator"
    ],
@@ -235,7 +236,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 766,
-   "score": 77,
+   "score": 78,
    "awards": [
     "Best Zigbee + Thread"
    ],
@@ -333,6 +334,106 @@
   },
   {
    "rank": 6,
+   "asin": "B0G2LTBM1M",
+   "name": "SONOFF Zigbee 3.0 & Thread USB Dongle (Dongle-LMG21)",
+   "brand": "SONOFF",
+   "model": "Dongle Lite (MG21)",
+   "price": 24.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 489,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A compact, cheap stick that fits crowded USB ports and can be flashed for Thread.",
+   "pros": [
+    "$24.90",
+    "Compact, with a USB extension cable",
+    "Zigbee coordinator, router, or Thread RCP firmware"
+   ],
+   "cons": [
+    "Internal antenna",
+    "4.6 stars",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "chip": "EFR32MG21",
+    "thread": true,
+    "connection": "USB",
+    "needs": "Home Assistant, Zigbee2MQTT, or openHAB"
+   },
+   "features": {
+    "standalone": false,
+    "thread": true,
+    "antenna": false,
+    "network": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51z07OVe5+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G2LTBM1M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0G2LTBM1M"
+  },
+  {
+   "rank": 7,
+   "asin": "B0H5HYZ3LP",
+   "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)",
+   "brand": "SONOFF",
+   "model": "Dongle Plus PP10",
+   "price": 35.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 116,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A high-power TI stick built for large Zigbee or Thread networks.",
+   "pros": [
+    "TI CC2674P10 chip for large networks",
+    "4.5 dBi antenna, 20 dBm output",
+    "2-year warranty"
+   ],
+   "cons": [
+    "Only 116 reviews",
+    "$35.90",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "chip": "TI CC2674P10",
+    "thread": true,
+    "connection": "USB",
+    "needs": "Home Assistant, Zigbee2MQTT, or OTBR"
+   },
+   "features": {
+    "standalone": false,
+    "thread": true,
+    "antenna": true,
+    "network": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61YdfBJjNPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5HYZ3LP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0H5HYZ3LP"
+  },
+  {
+   "rank": 8,
    "asin": "B09ZQQZSQZ",
    "name": "SONOFF Zigbee Bridge Pro Hub, ZigBee 3.0 Smart Gateway, APP Control and Multi-Device Management, Compatible with SONOFF Zigbee Devices",
    "brand": "SONOFF",
@@ -381,57 +482,7 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B09ZQQZSQZ"
   },
   {
-   "rank": 7,
-   "asin": "B0G2LTBM1M",
-   "name": "SONOFF Zigbee 3.0 & Thread USB Dongle (Dongle-LMG21)",
-   "brand": "SONOFF",
-   "model": "Dongle Lite (MG21)",
-   "price": 24.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 489,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A compact, cheap stick that fits crowded USB ports and can be flashed for Thread.",
-   "pros": [
-    "$24.90",
-    "Compact, with a USB extension cable",
-    "Zigbee coordinator, router, or Thread RCP firmware"
-   ],
-   "cons": [
-    "Internal antenna",
-    "4.6 stars",
-    "Needs a computer running hub software"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "chip": "EFR32MG21",
-    "thread": true,
-    "connection": "USB",
-    "needs": "Home Assistant, Zigbee2MQTT, or openHAB"
-   },
-   "features": {
-    "standalone": false,
-    "thread": true,
-    "antenna": false,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51z07OVe5+L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G2LTBM1M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0G2LTBM1M"
-  },
-  {
-   "rank": 8,
+   "rank": 9,
    "asin": "B0D737SJ5G",
    "name": "SMLIGHT SLZB-07 Zigbee 3.0 Coordinator Thread/Matter Mini USB Adapter Works with Zigbee2MQTT, Home Assistant, ZHA",
    "brand": "SMLIGHT",
@@ -481,56 +532,6 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0D737SJ5G"
   },
   {
-   "rank": 9,
-   "asin": "B0H5HYZ3LP",
-   "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)",
-   "brand": "SONOFF",
-   "model": "Dongle Plus PP10",
-   "price": 35.9,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 116,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A high-power TI stick built for large Zigbee or Thread networks.",
-   "pros": [
-    "TI CC2674P10 chip for large networks",
-    "4.5 dBi antenna, 20 dBm output",
-    "2-year warranty"
-   ],
-   "cons": [
-    "Only 116 reviews",
-    "$35.90",
-    "Needs a computer running hub software"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "chip": "TI CC2674P10",
-    "thread": true,
-    "connection": "USB",
-    "needs": "Home Assistant, Zigbee2MQTT, or OTBR"
-   },
-   "features": {
-    "standalone": false,
-    "thread": true,
-    "antenna": true,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61YdfBJjNPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5HYZ3LP?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0H5HYZ3LP"
-  },
-  {
    "rank": 10,
    "asin": "B0H7BQVT8F",
    "name": "SONOFF Bridge Max Smart Home Hub (Bridge-M)",
@@ -540,7 +541,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 73,
-   "score": 63,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

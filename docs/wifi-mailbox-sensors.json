@@ -29,6 +29,7 @@
    "weather": 0.2
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -59,7 +60,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 723,
-   "score": 86,
+   "score": 87,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -194,6 +195,55 @@
   },
   {
    "rank": 4,
+   "asin": "B0G529M45T",
+   "name": "Briidea Wi-Fi Mailbox Alert with LoRa, Up to 1200ft Range, 2.4 and 5GHz Dual-Band Wi-Fi",
+   "brand": "Briidea",
+   "model": "WiFi Mailbox Alert with LoRa",
+   "price": 38.99,
+   "currency": "USD",
+   "rating": 3.0,
+   "reviews_count": 32,
+   "score": 59,
+   "awards": [
+    "Longest Range"
+   ],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The longest range here, for long driveways.",
+   "pros": [
+    "1,200 ft range",
+    "Works in metal mailboxes",
+    "Adjustable chime volume"
+   ],
+   "cons": [
+    "3.0 stars",
+    "Only 32 reviews",
+    "$38.99"
+   ],
+   "specs": {
+    "range": "Up to 1,200 ft (LoRa)",
+    "alerts": "App, chime, LED",
+    "power": "Battery",
+    "extras": "Works with metal mailboxes"
+   },
+   "features": {
+    "range": true,
+    "chime": true,
+    "battery": false,
+    "weather": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61MfNAmqGfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G529M45T?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0G529M45T"
+  },
+  {
+   "rank": 5,
    "asin": "B0GYW9F4F7",
    "name": "Mailbox Chime with Wireless, WiFi Mailbox Alarm Sensor for Delivered",
    "brand": "Irrespek",
@@ -240,55 +290,6 @@
    "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0GYW9F4F7"
   },
   {
-   "rank": 5,
-   "asin": "B0G529M45T",
-   "name": "Briidea Wi-Fi Mailbox Alert with LoRa, Up to 1200ft Range, 2.4 and 5GHz Dual-Band Wi-Fi",
-   "brand": "Briidea",
-   "model": "WiFi Mailbox Alert with LoRa",
-   "price": 38.99,
-   "currency": "USD",
-   "rating": 3.0,
-   "reviews_count": 32,
-   "score": 56,
-   "awards": [
-    "Longest Range"
-   ],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The longest range here, for long driveways.",
-   "pros": [
-    "1,200 ft range",
-    "Works in metal mailboxes",
-    "Adjustable chime volume"
-   ],
-   "cons": [
-    "3.0 stars",
-    "Only 32 reviews",
-    "$38.99"
-   ],
-   "specs": {
-    "range": "Up to 1,200 ft (LoRa)",
-    "alerts": "App, chime, LED",
-    "power": "Battery",
-    "extras": "Works with metal mailboxes"
-   },
-   "features": {
-    "range": true,
-    "chime": true,
-    "battery": false,
-    "weather": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61MfNAmqGfL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G529M45T?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0G529M45T"
-  },
-  {
    "rank": 6,
    "asin": "B0GGZXF4Y5",
    "name": "linkshow Wi-Fi Smart Mailbox Sensor, 500 ft Long Range Mailbox Alarm with LED and Sound",
@@ -298,7 +299,7 @@
    "currency": "USD",
    "rating": 3.2,
    "reviews_count": 56,
-   "score": 51,
+   "score": 54,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",

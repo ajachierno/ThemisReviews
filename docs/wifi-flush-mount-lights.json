@@ -29,6 +29,7 @@
    "ic": 0.2
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
  "awards": [
@@ -122,61 +123,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0F1N5HPVH",
-   "name": "Govee Smart Ceiling Light 4300LM 15 Inch, RGBIC 2700K-6500K 1 Pack",
-   "brand": "Govee",
-   "model": "Smart Ceiling Light 15-inch",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 579,
-   "score": 89,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Nearly twice the light of the 12-inch, with segmented color across the whole face.",
-   "pros": [
-    "4,300 lm",
-    "121 color segments",
-    "Matter"
-   ],
-   "cons": [
-    "$99.99",
-    "Not compatible with wall dimmers",
-    "Only 579 reviews"
-   ],
-   "specs": {
-    "size": "15 in",
-    "brightness": "4,300 lm",
-    "color": "RGBIC, 121 segments",
-    "extras": "Twist-on mounting plate"
-   },
-   "features": {
-    "bright": true,
-    "matter": true,
-    "white": true,
-    "ic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71R9BRI2yBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1N5HPVH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0F1N5HPVH"
-  },
-  {
-   "rank": 3,
    "asin": "B0GSYPZ4L5",
    "name": "Govee Smart Ceiling Light Pro, RGBIC 4800LM 2700K-6500K 18 Inch 1 Pack",
    "brand": "Govee",
@@ -185,7 +131,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 579,
-   "score": 89,
+   "score": 91,
    "awards": [
     "Best for Living Rooms"
    ],
@@ -233,6 +179,61 @@
    "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0GSYPZ4L5"
   },
   {
+   "rank": 3,
+   "asin": "B0F1N5HPVH",
+   "name": "Govee Smart Ceiling Light 4300LM 15 Inch, RGBIC 2700K-6500K 1 Pack",
+   "brand": "Govee",
+   "model": "Smart Ceiling Light 15-inch",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 579,
+   "score": 90,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Nearly twice the light of the 12-inch, with segmented color across the whole face.",
+   "pros": [
+    "4,300 lm",
+    "121 color segments",
+    "Matter"
+   ],
+   "cons": [
+    "$99.99",
+    "Not compatible with wall dimmers",
+    "Only 579 reviews"
+   ],
+   "specs": {
+    "size": "15 in",
+    "brightness": "4,300 lm",
+    "color": "RGBIC, 121 segments",
+    "extras": "Twist-on mounting plate"
+   },
+   "features": {
+    "bright": true,
+    "matter": true,
+    "white": true,
+    "ic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71R9BRI2yBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1N5HPVH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0F1N5HPVH"
+  },
+  {
    "rank": 4,
    "asin": "B0GR9VMV71",
    "name": "Govee Ceiling Light Ultra 21 Inch, 5000LM Smart Flush Mount Ceiling Light",
@@ -242,7 +243,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 91,
-   "score": 81,
+   "score": 84,
    "awards": [
     "Best Premium"
    ],
@@ -291,6 +292,61 @@
   },
   {
    "rank": 5,
+   "asin": "B0H1J192F3",
+   "name": "SwitchBot RGBICWW Ceiling Light 12 Inch, Matter Flush Mount, 2000 lm, 2700-6500K, Apple Home and Alexa",
+   "brand": "SwitchBot",
+   "model": "RGBICWW Ceiling Light 12-inch",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 95,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Matter-certified light that joins Apple Home or Home Assistant without a SwitchBot hub.",
+   "pros": [
+    "Matter certified",
+    "Works with Home Assistant",
+    "$49.99"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Only 95 reviews",
+    "2,000 lm"
+   ],
+   "specs": {
+    "size": "12 in",
+    "brightness": "2,000 lm",
+    "color": "RGBICWW, 2,700K–6,500K",
+    "extras": "Matter certified, no hub"
+   },
+   "features": {
+    "bright": true,
+    "matter": true,
+    "white": true,
+    "ic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51eAd9zeFIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H1J192F3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0H1J192F3"
+  },
+  {
+   "rank": 6,
    "asin": "B0H6N18HKY",
    "name": "LIFX 13in Smart Ceiling Light, RGB, 2000lm, Matter, Apple Home, Black Trim",
    "brand": "LIFX",
@@ -343,61 +399,6 @@
    "image": "https://m.media-amazon.com/images/I/61cmNc39a1L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0H6N18HKY?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0H6N18HKY"
-  },
-  {
-   "rank": 6,
-   "asin": "B0H1J192F3",
-   "name": "SwitchBot RGBICWW Ceiling Light 12 Inch, Matter Flush Mount, 2000 lm, 2700-6500K, Apple Home and Alexa",
-   "brand": "SwitchBot",
-   "model": "RGBICWW Ceiling Light 12-inch",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 95,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "SwitchBot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A Matter-certified light that joins Apple Home or Home Assistant without a SwitchBot hub.",
-   "pros": [
-    "Matter certified",
-    "Works with Home Assistant",
-    "$49.99"
-   ],
-   "cons": [
-    "3.8 stars",
-    "Only 95 reviews",
-    "2,000 lm"
-   ],
-   "specs": {
-    "size": "12 in",
-    "brightness": "2,000 lm",
-    "color": "RGBICWW, 2,700K–6,500K",
-    "extras": "Matter certified, no hub"
-   },
-   "features": {
-    "bright": true,
-    "matter": true,
-    "white": true,
-    "ic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51eAd9zeFIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H1J192F3?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-flush-mount-lights.html#B0H1J192F3"
   },
   {
    "rank": 7,
