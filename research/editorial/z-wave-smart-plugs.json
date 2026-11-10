@@ -75,12 +75,12 @@
      "verdict": "A Long Range plug that tracks watts and kWh, with over-current protection.",
      "pros": ["Energy monitoring in watts and kWh", "Z-Wave Long Range", "Over-current protection"],
      "cons": ["Only 21 reviews", "Load rating isn't listed", "Newer brand on Amazon"]},
-    {"asin": "B0CKWX2S5B", "name": "Minoston Z-Wave 800 Series Plug with Energy Monitor, Built-in Repeater (MP21ZP)", "brand": "Minoston", "model": "Energy monitor plug (800 Series)", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
-     "specs": {"series": "800 Series", "location": "Indoor", "outlets": "1", "load": "Not listed"},
-     "features": {"long_range": false, "energy": true, "outdoor": false, "dual": false},
-     "verdict": "Minoston's 800 Series plug with energy monitoring.",
-     "pros": ["Energy monitoring", "800 Series with S2 and SmartStart", "50+ bought in the past month"],
-     "cons": ["Long Range isn't mentioned in the listing", "4.2 stars from 28 reviews", "Load rating isn't listed"]}
+    {"asin": "B0BHF6MPNK", "brand": "Zooz", "model": "ZEN05 outdoor", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],
+     "specs": {"series": "800 Series", "location": "Outdoor (IP65)", "outlets": "1", "load": "15 A resistive"},
+     "features": {"long_range": true, "energy": false, "outdoor": true, "dual": false},
+     "verdict": "A weatherproof Long Range plug for outdoor lights and pumps.",
+     "pros": ["IP65 weatherproof", "Long Range up to 1,300 ft", "S2 and SmartStart"],
+     "cons": ["No energy monitoring", "No dimming", "Sold by a third-party seller"]}
   ],
   "avoid": []
 }

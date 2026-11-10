@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Smart plugs",
- "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "data_captured": "2026-11-10",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -543,15 +543,15 @@
   },
   {
    "rank": 10,
-   "asin": "B0CKWX2S5B",
-   "name": "Minoston Z-Wave 800 Series Plug with Energy Monitor, Built-in Repeater (MP21ZP)",
-   "brand": "Minoston",
-   "model": "Energy monitor plug (800 Series)",
-   "price": 30.99,
+   "asin": "B0BHF6MPNK",
+   "name": "Zooz 800 Series Z-Wave Long Range Outdoor Single Plug ZEN05 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat",
+   "brand": "Zooz",
+   "model": "ZEN05 outdoor",
+   "price": 34.95,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 28,
-   "score": 61,
+   "reviews_count": 57,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -565,33 +565,33 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Minoston's 800 Series plug with energy monitoring.",
+   "bought_last_month": null,
+   "verdict": "A weatherproof Long Range plug for outdoor lights and pumps.",
    "pros": [
-    "Energy monitoring",
-    "800 Series with S2 and SmartStart",
-    "50+ bought in the past month"
+    "IP65 weatherproof",
+    "Long Range up to 1,300 ft",
+    "S2 and SmartStart"
    ],
    "cons": [
-    "Long Range isn't mentioned in the listing",
-    "4.2 stars from 28 reviews",
-    "Load rating isn't listed"
+    "No energy monitoring",
+    "No dimming",
+    "Sold by a third-party seller"
    ],
    "specs": {
     "series": "800 Series",
-    "location": "Indoor",
+    "location": "Outdoor (IP65)",
     "outlets": "1",
-    "load": "Not listed"
+    "load": "15 A resistive"
    },
    "features": {
-    "long_range": false,
-    "energy": true,
-    "outdoor": false,
+    "long_range": true,
+    "energy": false,
+    "outdoor": true,
     "dual": false
    },
-   "image": "https://m.media-amazon.com/images/I/61zRhKNU87L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CKWX2S5B?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B0CKWX2S5B"
+   "image": "https://m.media-amazon.com/images/I/41UNEX3qMBL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BHF6MPNK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-smart-plugs.html#B0BHF6MPNK"
   }
  ],
  "avoid": [],
@@ -614,6 +614,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "Added Zooz ZEN05 outdoor.",
+    "Dropped Minoston Energy monitor plug (800 Series).",
+    "Brought back the Zooz ZEN05 outdoor plug ($34.95, 4.2 stars from 57 reviews) and dropped the Minoston MP21ZP energy-monitoring plug (4.1 stars from 27 reviews), the lowest-scoring pick on the page. The Minoston MP22Z keeps Best Outdoor."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

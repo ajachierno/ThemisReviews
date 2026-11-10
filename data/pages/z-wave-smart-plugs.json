@@ -457,9 +457,9 @@
       "bought": null
     },
     {
-      "asin": "B0CKWX2S5B",
-      "brand": "Minoston",
-      "model": "Energy monitor plug (800 Series)",
+      "asin": "B0BHF6MPNK",
+      "brand": "Zooz",
+      "model": "ZEN05 outdoor",
       "systems": [
         "home-assistant",
         "smartthings",
@@ -468,33 +468,33 @@
       ],
       "specs": {
         "series": "800 Series",
-        "location": "Indoor",
+        "location": "Outdoor (IP65)",
         "outlets": "1",
-        "load": "Not listed"
+        "load": "15 A resistive"
       },
       "features": {
-        "long_range": false,
-        "energy": true,
-        "outdoor": false,
+        "long_range": true,
+        "energy": false,
+        "outdoor": true,
         "dual": false
       },
-      "verdict": "Minoston's 800 Series plug with energy monitoring.",
+      "verdict": "A weatherproof Long Range plug for outdoor lights and pumps.",
       "pros": [
-        "Energy monitoring",
-        "800 Series with S2 and SmartStart",
-        "50+ bought in the past month"
+        "IP65 weatherproof",
+        "Long Range up to 1,300 ft",
+        "S2 and SmartStart"
       ],
       "cons": [
-        "Long Range isn't mentioned in the listing",
-        "4.2 stars from 28 reviews",
-        "Load rating isn't listed"
+        "No energy monitoring",
+        "No dimming",
+        "Sold by a third-party seller"
       ],
-      "name": "Minoston Z-Wave 800 Series Plug with Energy Monitor, Built-in Repeater (MP21ZP)",
-      "image": "https://m.media-amazon.com/images/I/61zRhKNU87L._SL1500_.jpg",
-      "price": 30.99,
+      "name": "Zooz 800 Series Z-Wave Long Range Outdoor Single Plug ZEN05 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat",
+      "image": "https://m.media-amazon.com/images/I/41UNEX3qMBL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+      "price": 34.95,
       "rating": 4.2,
-      "reviews_count": 28,
-      "bought": "50+ bought in past month"
+      "reviews_count": 57,
+      "bought": null
     }
   ],
   "avoid": [],
