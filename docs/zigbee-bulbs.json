@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Smart bulbs",
- "data_captured": "2026-11-03",
- "updated": "2026-11-03",
+ "data_captured": "2026-11-10",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -43,15 +43,15 @@
    "label": "Best Budget White",
    "asin": "B078HHWQWG",
    "name": "Sengled Zigbee bulb (daylight)",
-   "price": 11.35,
-   "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,862 reviews."
+   "price": 9.99,
+   "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,865 reviews."
   },
   {
    "label": "Best for Hue Homes",
    "asin": "B0FMGP1P6W",
    "name": "Philips Hue Essential A19 (4-pack)",
    "price": 69.99,
-   "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 6K+ bought last month."
+   "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 4K+ bought last month."
   },
   {
    "label": "Brightest",
@@ -71,9 +71,9 @@
    "model": "LED Bulb T2",
    "price": 23.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 236,
-   "score": 79,
+   "rating": 4.1,
+   "reviews_count": 238,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -90,16 +90,16 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "A bright 1,100 lm bulb that runs on Zigbee or Matter over Thread.",
    "pros": [
     "Zigbee or Matter over Thread",
     "1,100 lumens",
     "16 million colors",
-    "500+ bought in the past month"
+    "300+ bought in the past month"
    ],
    "cons": [
-    "4.0 stars",
+    "4.1 stars",
     "Zigbee mode features need an Aqara hub",
     "$23.99 for one"
    ],
@@ -128,7 +128,7 @@
    "price": 11.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 648,
+   "reviews_count": 654,
    "score": 78,
    "awards": [
     "Best Overall"
@@ -184,7 +184,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 648,
+   "reviews_count": 654,
    "score": 78,
    "awards": [],
    "works_with": [
@@ -234,10 +234,10 @@
    "name": "Sengled Zigbee Smart Light Bulbs, Daylight 60W Equivalent A19, Smart Hub Required, 4 Pack",
    "brand": "Sengled",
    "model": "Zigbee bulb (daylight)",
-   "price": 11.35,
+   "price": 9.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 3862,
+   "reviews_count": 3865,
    "score": 75,
    "awards": [
     "Best Budget White"
@@ -256,12 +256,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "50+ bought in past month",
    "verdict": "A cheap white Zigbee bulb that pairs straight to Echo hubs.",
    "pros": [
     "Works with Echo hubs, SmartThings, and Hubitat",
     "Google voice control through a hub",
-    "3,862 reviews"
+    "3,865 reviews"
    ],
    "cons": [
     "Sold by a reseller, not Sengled",
@@ -290,10 +290,10 @@
    "name": "Sengled Zigbee Smart Light Bulbs, Daylight 60W Equivalent A19, Smart Hub Required, 8 Pack",
    "brand": "Sengled",
    "model": "Zigbee bulb (multi-pack)",
-   "price": 19.61,
+   "price": 19.11,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 3862,
+   "reviews_count": 3865,
    "score": 75,
    "awards": [],
    "works_with": [
@@ -347,7 +347,7 @@
    "price": 69.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1114,
+   "reviews_count": 1132,
    "score": 74,
    "awards": [
     "Best for Hue Homes"
@@ -365,12 +365,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "6K+ bought in past month",
+   "bought_last_month": "4K+ bought in past month",
    "verdict": "Hue's more affordable color line, four bulbs for about $17.50 each.",
    "pros": [
     "Hue app and scene library",
     "About $17.50 per color bulb",
-    "6K+ bought in the past month, sold by Amazon"
+    "4K+ bought in the past month, sold by Amazon"
    ],
    "cons": [
     "Full features need the Hue Bridge",
@@ -519,6 +519,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-03",
    "notes": [

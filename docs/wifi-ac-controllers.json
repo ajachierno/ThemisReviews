@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "AC controllers",
- "data_captured": "2026-11-03",
- "updated": "2026-11-03",
+ "data_captured": "2026-11-10",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,22 +36,22 @@
    "label": "Best Overall",
    "asin": "B0C7VMZ9FG",
    "name": "Cielo Breez Max",
-   "price": 114.44,
-   "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,071 buyers."
+   "price": 114.37,
+   "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,086 buyers."
   },
   {
    "label": "Best Budget",
    "asin": "B0BMTRCNG3",
    "name": "Cielo Breez Lite",
-   "price": 68.0,
-   "why": "A $68 IR controller with temperature and humidity sensing and no subscription."
+   "price": 57.8,
+   "why": "A $57.80 IR controller with temperature and humidity sensing and no subscription."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B07MTGD3D9",
    "name": "Sensibo Sky",
    "price": 99.0,
-   "why": "Sensibo Sky names HomeKit, with 6,048 reviews."
+   "why": "Sensibo Sky names HomeKit, with 6,052 reviews."
   }
  ],
  "systems_note": "Sensibo has an official Home Assistant integration. Cielo names Home Assistant on the Breez Max listing. Smart Life (Tuya) controllers work with Home Assistant's Tuya integration.",
@@ -65,7 +65,7 @@
    "price": 99.0,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 6048,
+   "reviews_count": 6052,
    "score": 93,
    "awards": [
     "Best for Apple Home"
@@ -86,7 +86,7 @@
    "verdict": "The most-reviewed AC controller, with HomeKit support.",
    "pros": [
     "HomeKit, Alexa, and Google",
-    "6,048 reviews",
+    "6,052 reviews",
     "Official Home Assistant integration"
    ],
    "cons": [
@@ -114,10 +114,10 @@
    "name": "Breez Max Smart WiFi Thermostat for Mini-Split, Window, Portable AC (White)",
    "brand": "Cielo",
    "model": "Breez Max",
-   "price": 114.44,
+   "price": 114.37,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1071,
+   "reviews_count": 1086,
    "score": 91,
    "awards": [
     "Best Overall"
@@ -134,7 +134,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "The most connected AC controller, and it can group units into zones.",
    "pros": [
     "Names Home Assistant and SmartThings",
@@ -142,7 +142,7 @@
     "4.6 stars"
    ],
    "cons": [
-    "$114.44",
+    "$114.37",
     "2.4 GHz Wi-Fi",
     "IR line of sight needed"
    ],
@@ -166,10 +166,10 @@
    "name": "Breez Lite Smart AC Controller for Mini-Split, Window, Portable ACS (Black)",
    "brand": "Cielo",
    "model": "Breez Lite",
-   "price": 68.0,
+   "price": 57.8,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 737,
+   "reviews_count": 738,
    "score": 81,
    "awards": [
     "Best Budget"
@@ -188,12 +188,12 @@
    "bought_last_month": "100+ bought in past month",
    "verdict": "Cielo's cheapest controller still gets SmartThings and both voice assistants.",
    "pros": [
-    "$68",
+    "$57.80",
     "No monthly subscription",
     "4.5 stars"
    ],
    "cons": [
-    "Only 737 reviews",
+    "Only 738 reviews",
     "No display",
     "Sold by a reseller"
    ],
@@ -220,7 +220,7 @@
    "price": 124.0,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 1367,
+   "reviews_count": 1372,
    "score": 79,
    "awards": [],
    "works_with": [
@@ -232,11 +232,11 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Sensibo's newer model balances real-feel temperature with indoor and outdoor data.",
    "pros": [
     "Climate zone tech",
-    "1,367 reviews",
+    "1,372 reviews",
     "Home Assistant integration"
    ],
    "cons": [
@@ -267,7 +267,7 @@
    "price": 99.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1860,
+   "reviews_count": 1859,
    "score": 66,
    "awards": [],
    "works_with": [
@@ -284,7 +284,7 @@
    "verdict": "A simple Cielo for Alexa and Google homes.",
    "pros": [
     "$99.99",
-    "4.4 stars from 1,860 reviews",
+    "4.4 stars from 1,859 reviews",
     "Alexa and Google"
    ],
    "cons": [
@@ -361,7 +361,7 @@
    "name": "MrCool Smart HVAC Controller Enhanced WiFi Kit for Ductless Split System",
    "brand": "MrCool",
    "model": "SmartHVAC Wi-Fi kit",
-   "price": 73.99,
+   "price": 56.35,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 65,
@@ -379,7 +379,7 @@
    "pros": [
     "Made for MrCool units",
     "4.5 stars",
-    "$73.99"
+    "$56.35"
    ],
    "cons": [
     "MrCool systems only",
@@ -417,6 +417,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-03",
    "notes": [
