@@ -119,8 +119,20 @@ def build():
                 entries.setdefault(d1, []).extend(notes)
         for m in MANUAL.get(slug, []):
             entries.setdefault(m["date"], []).append(m["note"])
-        merged = [{"date": d, "notes": last_award_note(list(dict.fromkeys(ns)))}
+        # An award note is only kept while the page still has an award by that name, so a
+        # renamed or retired label doesn't linger in "What changed".
+        ed_file = Path(__file__).parent / "editorial" / f"{slug}.json"
+        labels = ({a["label"] for a in json.loads(ed_file.read_text(encoding="utf-8")).get("awards", [])}
+                  if ed_file.exists() else None)
+
+        def current(n):
+            if labels is None or not n.startswith("New ") or ": " not in n or n.startswith("New avoid pick"):
+                return True
+            return n[4:].split(": ", 1)[0] in labels
+
+        merged = [{"date": d, "notes": last_award_note([n for n in dict.fromkeys(ns) if current(n)])}
                   for d, ns in sorted(entries.items(), reverse=True)]
+        merged = [m for m in merged if m["notes"]]
         if AUDITS.get(slug, "") > captured:
             captured = AUDITS[slug]
         if PRICECHECKS.get(slug, "") > captured:
