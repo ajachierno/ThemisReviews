@@ -32,16 +32,10 @@
   ],
   "awards": [
     {
-      "asin": "B0D1XLRC5D",
+      "asin": "B0CKKPTDPK",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "48 A, off-peak scheduling, and a 3-year warranty, rated 4.7 stars by 2,197 buyers."
-    },
-    {
-      "asin": "B0DD7KW73M",
-      "label": "Best Plug-In",
-      "kind": "special",
-      "why": "The same EVIQO charger at 40 A on a NEMA 14-50 plug, no hardwiring."
+      "why": "A 48 A hardwired charger that is UL listed and ENERGY STAR certified, rated 4.8 stars by 512 buyers."
     },
     {
       "asin": "B0CG8D445Q",
@@ -57,64 +51,6 @@
     }
   ],
   "products": [
-    {
-      "asin": "B0D1XLRC5D",
-      "brand": "EVIQO",
-      "model": "48 A hardwired",
-      "systems": [],
-      "systems_label": "EVIQO app",
-      "specs": {
-        "power": "48 A, adjustable 6-48 A",
-        "install": "Hardwired (electrician)",
-        "app": "EVIQO"
-      },
-      "features": {
-        "high_amp": true,
-        "plug_in": false,
-        "schedule": true,
-        "load_mgmt": false
-      },
-      "verdict": "The best home EV charger here: full 48 A, a strong Wi-Fi antenna, and off-peak scheduling.",
-      "pros": [
-        "4.7 stars from 2,197 reviews",
-        "Off-peak scheduling",
-        "3-year warranty, U.S. support"
-      ],
-      "cons": [
-        "Needs an electrician",
-        "$449.98",
-        "J1772 only"
-      ]
-    },
-    {
-      "asin": "B0DD7KW73M",
-      "brand": "EVIQO",
-      "model": "40 A NEMA 14-50",
-      "systems": [],
-      "systems_label": "EVIQO app",
-      "specs": {
-        "power": "40 A, adjustable 6-40 A",
-        "install": "Plugs into NEMA 14-50",
-        "app": "EVIQO"
-      },
-      "features": {
-        "high_amp": false,
-        "plug_in": true,
-        "schedule": true,
-        "load_mgmt": false
-      },
-      "verdict": "The plug-in version for garages that already have a 14-50 outlet.",
-      "pros": [
-        "No hardwiring",
-        "Off-peak scheduling",
-        "4.7 stars"
-      ],
-      "cons": [
-        "40 A max",
-        "Not a dryer outlet; needs 14-50",
-        "$449.98, same as the 48 A model"
-      ]
-    },
     {
       "asin": "B0C6YMS4KH",
       "brand": "ChargePoint",
@@ -321,7 +257,35 @@
         "4.6 stars"
       ]
     },
-    {"asin": "B0CKKPTDPK", "brand": "Emporia", "model": "48 A hardwired", "systems": [], "systems_label": "Emporia app", "specs": {"power": "48 A", "install": "Hardwired with whip (electrician)", "app": "Emporia"}, "features": {"high_amp": true, "plug_in": false, "schedule": true, "load_mgmt": false}, "verdict": "A 48 A hardwired charger with a 25 ft cable, UL listed and ENERGY STAR certified, with real-time energy data and scheduled charging in the Emporia app.", "pros": ["4.8 stars from 512 reviews", "UL listed and ENERGY STAR certified", "Real-time energy data and charge scheduling"], "cons": ["Needs an electrician", "$449", "2.4 GHz Wi-Fi only"]}
+    {
+      "asin": "B0CKKPTDPK",
+      "brand": "Emporia",
+      "model": "48 A hardwired",
+      "systems": [],
+      "systems_label": "Emporia app",
+      "specs": {
+        "power": "48 A",
+        "install": "Hardwired with whip (electrician)",
+        "app": "Emporia"
+      },
+      "features": {
+        "high_amp": true,
+        "plug_in": false,
+        "schedule": true,
+        "load_mgmt": false
+      },
+      "verdict": "A 48 A hardwired charger with a 25 ft cable, UL listed and ENERGY STAR certified, with real-time energy data and scheduled charging in the Emporia app.",
+      "pros": [
+        "4.8 stars from 512 reviews",
+        "UL listed and ENERGY STAR certified",
+        "Real-time energy data and charge scheduling"
+      ],
+      "cons": [
+        "Needs an electrician",
+        "$449",
+        "2.4 GHz Wi-Fi only"
+      ]
+    }
   ],
   "avoid": []
 }

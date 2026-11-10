@@ -257,7 +257,7 @@ PAGES = {
         "Mesh routers that keep dozens of smart devices online, ranked from live Amazon data.",
         "We pulled the best-selling mesh Wi-Fi systems on Amazon and scored them on rating, review volume, and features: Wi-Fi 6 or 7, coverage, and a built-in smart home hub.",
         30000, MESH_GUIDE),
-    "wifi-ev-chargers": _p("ev-chargers", "EV chargers", "charger", "The 10 Best Smart Level 2 EV Chargers",
+    "wifi-ev-chargers": _p("ev-chargers", "EV chargers", "charger", "The Best Smart Level 2 EV Chargers",
         "Wi-Fi home EV chargers with scheduling and charging history, ranked.",
         "We pulled the Level 2 home EV chargers on Amazon and scored them on rating, review volume, and features: amperage, safety certification, and Wi-Fi app control.",
         3000, EV_GUIDE),
