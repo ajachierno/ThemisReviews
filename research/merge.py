@@ -12,6 +12,9 @@ from pathlib import Path
 HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 from scrape_data import load_scrape, load_first_available  # noqa: E402  base captures, then research/refresh/*.json (newest wins)
+sys.path.insert(0, str(HERE.parent))
+import awards  # noqa: E402  score + data-driven award picks (repo root)
+import copy  # noqa: E402
 
 SCRAPE = load_scrape()
 FIRST_AVAILABLE = load_first_available()
@@ -63,9 +66,11 @@ def merge(slug):
         assert "systems" in p, f"{slug}: {p['asin']} has no \"systems\" list (use [] for standalone)"
         bad = set(p["systems"]) - known
         assert not bad, f"{slug}: {p['asin']} has unknown systems {bad}"
-    asins = {p["asin"] for p in ed["products"]}
+    # Awards are rules, never hand-picked products: resolve them from the scores (see awards.py).
     for a in ed["awards"]:
-        assert a["asin"] in asins, f"{slug}: award {a['label']} points at {a['asin']} not in products"
+        assert "rule" in a and "asin" not in a, f"{slug}: award {a['label']} must be a rule, not a product"
+        awards.check_rule(a["rule"], ed, f"{slug} {a['label']}")
+    ed["awards"] = awards.resolve(copy.deepcopy(ed))
     for p in ed["products"]:
         missing = set(ed["feature_weights"]) - set(p["features"])
         assert not missing, f"{slug}: {p['asin']} missing features {missing}"

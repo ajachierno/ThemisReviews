@@ -13,7 +13,7 @@
  },
  "product_type": "Baby monitors",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07WCV632L",
-   "name": "VTech Smart Wi-Fi Baby Monitor",
-   "price": 116.32,
-   "why": "A 5-inch parent screen plus a free app, with pan-tilt-zoom and 7,630 reviews."
+   "asin": "B0H5BR6R7Z",
+   "name": "Blemil 5.5\" smart monitor",
+   "price": 99.99,
+   "why": "Highest score on the page (91): 4.6 stars from 133 reviews, $99.99."
   },
   {
    "label": "Best Smart Features",
-   "asin": "B0GWL492J9",
-   "name": "Monai Pro 4K",
-   "price": 199.99,
-   "why": "4K with covered-face, sleep, and danger-zone alerts, and no monthly fee."
+   "asin": "B0H5BVB9CY",
+   "name": "ARENTI C3 kit (PTZ)",
+   "price": 84.99,
+   "why": "Highest score of the picks that fit this award (89): 4.3 stars from 41 reviews, $84.99."
   },
   {
    "label": "Best Budget (App Only)",
    "asin": "B09Y8TLP25",
    "name": "Tapo C210",
    "price": 27.99,
-   "why": "A $27.99 2K camera with free crying alerts, if you'll use your phone as the monitor."
-  },
-  {
-   "label": "Best for Two Rooms",
-   "asin": "B0DJS7WRJS",
-   "name": "ARENTI D3 set, 2 cameras",
-   "price": 149.99,
-   "why": "Two 3MP Wi-Fi 6 cameras and one 5-inch display for $149.99."
+   "why": "Highest score (88) among the cheapest third of picks (up to $69.99 each): 4.5 stars from 23,443 reviews, $27.99."
   }
  ],
  "systems_note": "Baby monitors mostly live in their own apps. Tapo cameras have an official TP-Link integration in Home Assistant.",
@@ -75,7 +68,9 @@
    "rating": 4.6,
    "reviews_count": 133,
    "score": 91,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "Blemil app",
    "works_without": {
@@ -121,7 +116,9 @@
    "rating": 4.3,
    "reviews_count": 41,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Smart Features"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -268,9 +265,7 @@
    "rating": 4.0,
    "reviews_count": 2531,
    "score": 86,
-   "awards": [
-    "Best for Two Rooms"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "ARENTI app",
    "works_without": {
@@ -362,9 +357,7 @@
    "rating": 4.1,
    "reviews_count": 7630,
    "score": 81,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "VTech app",
    "works_without": {
@@ -502,9 +495,7 @@
    "rating": 4.2,
    "reviews_count": 57,
    "score": 77,
-   "awards": [
-    "Best Smart Features"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Monai app",
    "works_without": {
@@ -556,6 +547,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Blemil 5.5\" smart monitor.",
+    "New Best Smart Features: ARENTI C3 kit (PTZ)."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

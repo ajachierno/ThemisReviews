@@ -13,7 +13,7 @@
  },
  "product_type": "Smoke and CO detectors",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,17 +35,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DY21V8MG",
-   "name": "First Alert 10-Year Battery Smoke & CO Alarm (Z-Wave Plus)",
-   "price": 64.98,
-   "why": "A Z-Wave Plus smoke and CO alarm with a 10-year sealed battery, sold by Amazon."
-  },
-  {
-   "label": "Best for Wired Alarms",
    "asin": "B0C7HVF4SJ",
    "name": "Zooz ZEN55 DC Signal Sensor (800 Series LR)",
    "price": 44.95,
-   "why": "Adds Z-Wave Long Range alerts to the hardwired, interconnected alarms you already have."
+   "why": "Highest score on the page (86): 4.9 stars from 61 reviews, $44.95."
   }
  ],
  "systems_note": "Both work with any Z-Wave hub. The First Alert alarm also works with Ring Alarm.",
@@ -62,7 +55,7 @@
    "reviews_count": 61,
    "score": 86,
    "awards": [
-    "Best for Wired Alarms"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -115,9 +108,7 @@
    "rating": 3.5,
    "reviews_count": 280,
    "score": 76,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -175,6 +166,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Zooz ZEN55 DC Signal Sensor (800 Series LR)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

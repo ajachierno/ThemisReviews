@@ -13,7 +13,7 @@
  },
  "product_type": "Security systems",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07ZPMCW64",
-   "name": "Ring Alarm 8-Piece Kit",
-   "price": 249.99,
-   "why": "Rated 4.7 stars by 18,081 buyers, with optional pro monitoring and a range extender in the box."
+   "asin": "B07C38HT49",
+   "name": "SimpliSafe 8-Piece System",
+   "price": 206.99,
+   "why": "Highest score on the page (90): 4.5 stars from 2,701 reviews, $206.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B08LKXCL65",
-   "name": "tolviviov 8-Piece Door Alarm Kit",
-   "price": 59.99,
-   "why": "An 8-piece door alarm kit with free app alerts for $59.99."
+   "asin": "B0D3LC2HNV",
+   "name": "LWOHSI A108F",
+   "price": 139.99,
+   "why": "Highest score (85) among the cheapest third of picks (up to $139.99 each): 4.0 stars from 521 reviews, $139.99."
   },
   {
    "label": "Best With 4G Backup",
    "asin": "B0CLBTCC78",
    "name": "OSI Alarm System Gen 2 (4G), 11-piece",
    "price": 149.75,
-   "why": "Built-in 4G with free self-monitoring, and no SIM card needed for alerts."
+   "why": "Highest score of the picks that fit this award (87): 4.3 stars from 210 reviews, $149.75."
   }
  ],
  "systems_note": "Ring, SimpliSafe, and Abode all have official Home Assistant integrations. Smart Life alarms work with Home Assistant's Tuya integration.",
@@ -68,7 +68,9 @@
    "rating": 4.5,
    "reviews_count": 2701,
    "score": 90,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -170,9 +172,7 @@
    "rating": 4.7,
    "reviews_count": 18081,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -320,7 +320,9 @@
    "rating": 4.0,
    "reviews_count": 521,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -369,9 +371,7 @@
    "rating": 4.2,
    "reviews_count": 4194,
    "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -543,6 +543,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SimpliSafe 8-Piece System.",
+    "New Best Budget: LWOHSI A108F."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

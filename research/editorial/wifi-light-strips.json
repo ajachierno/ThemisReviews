@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07N1CMGQQ",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "The most-reviewed smart strip: 62,033 reviews at 4.5 stars, with Alexa and Google, for $19.99."
-    },
-    {
-      "asin": "B0CFQRCSQ1",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "100 ft of Wi-Fi strip with Alexa and Google for $19.99."
-    },
-    {
-      "asin": "B0B2KY8X4M",
-      "label": "Best for Apple Home",
-      "kind": "special",
-      "why": "Tapo's 1000-lumen RGBWIC strip works with Apple HomeKit, Alexa, and Google."
-    },
-    {
-      "asin": "B0D7MKV1CK",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Real white LEDs from 1000K to 10000K plus multicolor effects, with Matter."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Apple Home", "kind": "special", "rule": {"type": "system", "key": "apple-home"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

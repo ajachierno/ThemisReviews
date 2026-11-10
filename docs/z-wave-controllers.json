@@ -13,7 +13,7 @@
  },
  "product_type": "Hubs and controllers",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0G8JKPMV7",
-   "name": "SONOFF Dongle Plus PZG23",
-   "price": 39.9,
-   "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, 4.6 stars, for $39.90, the lowest price here."
+   "asin": "B0CR4G1G8M",
+   "name": "Hubitat Elevation C-8 Pro",
+   "price": 229.95,
+   "why": "Highest score on the page (87): 4.0 stars from 402 reviews, $229.95."
   },
   {
    "label": "Best for Home Assistant",
    "asin": "B0FL858V4Q",
    "name": "Home Assistant Connect ZWA-2",
    "price": 79.0,
-   "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
+   "why": "Highest score (84) among picks that work with Home Assistant: 4.6 stars from 265 reviews, $79.00."
   },
   {
    "label": "Best All-in-One Hub",
-   "asin": "B0CR4G1G8M",
-   "name": "Hubitat Elevation C-8 Pro",
-   "price": 229.95,
-   "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
+   "asin": "B0DV9RFSR9",
+   "name": "Aeotec Z-Stick 10 Pro",
+   "price": 59.99,
+   "why": "Highest score of the picks that fit this award (84): 4.5 stars from 183 reviews, $59.99."
   }
  ],
  "systems_note": "For USB sticks, the icons show the hub software they work with. For full hubs, they show the hub itself plus the voice assistants it connects to.",
@@ -69,7 +69,7 @@
    "reviews_count": 402,
    "score": 87,
    "awards": [
-    "Best All-in-One Hub"
+    "Best Overall"
    ],
    "works_with": [
     "Hubitat Elevation",
@@ -177,9 +177,7 @@
    "rating": 4.6,
    "reviews_count": 188,
    "score": 84,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -230,7 +228,9 @@
    "rating": 4.5,
    "reviews_count": 183,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best All-in-One Hub"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -491,6 +491,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Hubitat Elevation C-8 Pro.",
+    "New Best All-in-One Hub: Aeotec Z-Stick 10 Pro."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

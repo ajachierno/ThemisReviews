@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FNMM6X65",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "REACHER's R7 brightens over 5 to 60 minutes, has a full wind-down routine, and charges no monthly fees."
-    },
-    {
-      "asin": "B0H1QWLZTD",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Sleep plans, 26 sounds, and surround color light over Wi-Fi for $39.98."
-    },
-    {
-      "asin": "B0H3NSFQ5K",
-      "label": "Best Voice Control",
-      "kind": "special",
-      "why": "The only clock here that works with Alexa and Google, with RGB-IC lighting."
-    },
-    {
-      "asin": "B0HKVSB8K1",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Dekala's Arches adds a wireless charger and Bluetooth speaker."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Voice Control", "kind": "special", "rule": {"type": "feature", "key": "voice"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

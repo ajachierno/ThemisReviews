@@ -51,30 +51,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DCK65T2Y",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A clean Matter over Thread on/off switch with 3-way support and no cloud account."
-    },
-    {
-      "asin": "B0F3JD2SK3",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Under $35 and no wiring at all. It mounts over your existing switch and flips it."
-    },
-    {
-      "asin": "B0DN1H69ZP",
-      "label": "Best for No-Neutral Boxes",
-      "kind": "special",
-      "why": "Installs with or without a neutral and handles 3-way."
-    },
-    {
-      "asin": "B0F2N68K3C",
-      "label": "Best Thread Dimmer",
-      "kind": "premium",
-      "why": "No-neutral capable dimmer with forward and reverse phase dimming and adjustable brightness limits."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for No-Neutral Boxes", "kind": "special", "rule": {"type": "feature", "key": "no_neutral"}},
+    {"label": "Best Thread Dimmer", "kind": "premium", "rule": {"type": "feature", "key": "dimming"}}
   ],
   "products": [
     {

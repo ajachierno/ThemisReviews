@@ -13,7 +13,7 @@
  },
  "product_type": "Buttons and remotes",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B00KLAXFQ0",
-   "name": "Lutron Pico 3-button dimmer remote",
-   "price": 24.95,
-   "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,849 reviews, $24.95, sold by Amazon."
-  },
-  {
-   "label": "Best Wall Kit",
    "asin": "B00JR202JQ",
    "name": "Lutron Pico wall-mounting kit",
    "price": 39.95,
-   "why": "Pico, bracket, and wallplate in one box for a no-wire 3-way switch, rated 4.9 stars."
+   "why": "Highest score on the page (99): 4.9 stars from 418 reviews, $39.95."
   },
   {
-   "label": "Best Starter Kit",
+   "label": "Best Wall Kit",
    "asin": "B07HM6L48C",
    "name": "Lutron Caseta 3-way dimmer kit",
    "price": 74.95,
-   "why": "A Caseta dimmer, Pico, and bracket for a complete 3-way setup, with 3,057 reviews."
+   "why": "Highest score of the picks that fit this award (97): 4.7 stars from 3,057 reviews, $74.95."
   },
   {
-   "label": "Best for Ceiling Fans",
-   "asin": "B07NQDT39V",
-   "name": "Lutron Pico fan speed remote",
-   "price": 39.95,
-   "why": "Four fan speeds plus a favorite button, with a battery rated for about 10 years."
+   "label": "Best Starter Kit",
+   "asin": "B00JJY1QG0",
+   "name": "Lutron Caseta lamp dimmer kit",
+   "price": 54.95,
+   "why": "Highest score of the picks that fit this award (97): 4.7 stars from 1,821 reviews, $54.95."
   }
  ],
  "systems_note": "Picos pair directly to Caseta devices with no hub. Through the Caseta Smart Hub, their button presses also reach Home Assistant and Apple Home; Hubitat needs the Smart Hub Pro.",
@@ -75,7 +68,7 @@
    "reviews_count": 418,
    "score": 99,
    "awards": [
-    "Best Wall Kit"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -126,7 +119,7 @@
    "reviews_count": 3057,
    "score": 97,
    "awards": [
-    "Best Starter Kit"
+    "Best Wall Kit"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -179,7 +172,9 @@
    "rating": 4.7,
    "reviews_count": 1821,
    "score": 97,
-   "awards": [],
+   "awards": [
+    "Best Starter Kit"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Apple Home",
@@ -328,9 +323,7 @@
    "rating": 4.8,
    "reviews_count": 2849,
    "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home"
@@ -428,9 +421,7 @@
    "rating": 4.8,
    "reviews_count": 633,
    "score": 82,
-   "awards": [
-    "Best for Ceiling Fans"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home"
@@ -608,6 +599,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Lutron Pico wall-mounting kit.",
+    "New Best Wall Kit: Lutron Caseta 3-way dimmer kit.",
+    "New Best Starter Kit: Lutron Caseta lamp dimmer kit."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

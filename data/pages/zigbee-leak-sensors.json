@@ -61,28 +61,42 @@
   ],
   "awards": [
     {
-      "asin": "B0DFVY6HS9",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "4.4 stars, a 5-year battery, drip detection, and an optional sensing cable."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B095TR9NYR",
+      "why": "Highest score on the page (88): 4.5 stars from 527 reviews, $39.99."
     },
     {
-      "asin": "B0GK19F6Z2",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$17.99 with a 3-year battery, and it pairs straight to Echo hubs."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B072DYHPY7",
+      "why": "Highest score (71) among the cheapest third of picks (up to $16.99 each): 3.8 stars from 150 reviews, $14.95."
     },
     {
-      "asin": "B09GYFN8VL",
       "label": "Best with Alarm",
       "kind": "special",
-      "why": "A 120 dB siren right at the leak, plus app and email alerts."
+      "rule": {
+        "type": "feature",
+        "key": "siren"
+      },
+      "asin": "B09GYFN8VL",
+      "why": "Highest score (84) among picks with built-in siren: 4.1 stars from 356 reviews, $18.99."
     },
     {
-      "asin": "B095TR9NYR",
       "label": "Best for SmartThings",
       "kind": "premium",
-      "why": "SmartThings' own leak sensor, with temperature and the best rating here."
+      "rule": {
+        "type": "system",
+        "key": "smartthings"
+      },
+      "asin": "B0DFVY6HS9",
+      "why": "Highest score (86) among picks that work with SmartThings: 4.4 stars from 428 reviews, $22.00."
     }
   ],
   "products": [

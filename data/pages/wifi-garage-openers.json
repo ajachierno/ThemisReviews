@@ -54,28 +54,42 @@
   ],
   "awards": [
     {
-      "asin": "B08GD3D9YJ",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "61,026 reviews, 6K+ bought last month, a wireless door sensor, and Amazon Key in-garage delivery."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B08JYSXXSK",
+      "why": "Highest score on the page (87): 4.1 stars from 680 reviews, $62.99."
     },
     {
-      "asin": "B07TZJYSR7",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "4.5 stars for $34.99, with Alexa, Google, and Siri and no monthly fees."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B07TZJYSR7",
+      "why": "Highest score (79) among the cheapest third of picks (up to $34.99 each): 4.5 stars from 3,946 reviews, $34.99."
     },
     {
-      "asin": "B084Z5QZR2",
       "label": "Best for Apple Home",
       "kind": "special",
-      "why": "Native HomeKit, a wired door sensor, and Security+ 2.0 support, with 6,729 reviews."
+      "rule": {
+        "type": "feature",
+        "key": "apple_home"
+      },
+      "asin": "B0FX4G3ML2",
+      "why": "Highest score of the picks that fit this award (85): 4.0 stars from 91 reviews, $49.99."
     },
     {
-      "asin": "B0FX4G3ML2",
       "label": "Best Matter Pick",
       "kind": "premium",
-      "why": "Matter certified with a pre-paired tilt sensor and no wiring to the motor."
+      "rule": {
+        "type": "feature",
+        "key": "matter"
+      },
+      "asin": "B0FF4VHCJV",
+      "why": "Highest score of the picks that fit this award (74): 3.9 stars from 82 reviews, $24.99."
     }
   ],
   "products": [

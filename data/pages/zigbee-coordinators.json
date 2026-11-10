@@ -64,28 +64,33 @@
   ],
   "awards": [
     {
-      "asin": "B0B6P22YJC",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "4.6 stars from 3,820 reviews, an external antenna, and pre-flashed firmware, for $24.90."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0FMJH4DPN",
+      "why": "Highest score on the page (86): 4.3 stars from 702 reviews, $42.90."
     },
     {
-      "asin": "B0FMJD288B",
       "label": "Best Zigbee + Thread",
       "kind": "budget",
-      "why": "The newer MG24 chip, firmware you can switch to Thread, and 1K+ bought last month."
+      "rule": {
+        "type": "feature",
+        "key": "thread"
+      },
+      "asin": "B0FMJD288B",
+      "why": "Highest score (84) among picks with can run Thread: 4.6 stars from 766 reviews, $35.90."
     },
     {
-      "asin": "B016H0QZ7I",
       "label": "Best No-Computer Hub",
       "kind": "special",
-      "why": "The Hue Bridge runs Hue lights with no computer and connects them to every major platform through Matter."
-    },
-    {
-      "asin": "B0FMJH4DPN",
-      "label": "Best Network Coordinator",
-      "kind": "premium",
-      "why": "Ethernet with PoE, Wi-Fi, or USB, two 5 dBi antennas, and Zigbee or Thread firmware."
+      "rule": {
+        "type": "feature",
+        "key": "standalone"
+      },
+      "asin": "B016H0QZ7I",
+      "why": "Highest score of the picks that fit this award (83): 4.5 stars from 11,441 reviews, $55.99."
     }
   ],
   "products": [

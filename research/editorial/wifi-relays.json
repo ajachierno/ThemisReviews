@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0D8YPW46Y",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A 16 A dry-contact Shelly with Matter for $18.39, rated 4.6 stars by 1,356 buyers."
-    },
-    {
-      "asin": "B0C7QQHMCX",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $12.99 low-voltage Wi-Fi relay for gates, PCs, and access control."
-    },
-    {
-      "asin": "B0DZJ1W814",
-      "label": "Best With Power Metering",
-      "kind": "special",
-      "why": "Two metered 16 A channels on Wi-Fi, Zigbee, or Matter."
-    },
-    {
-      "asin": "B0CQD1Z2K8",
-      "label": "Best for Low-Voltage DIY",
-      "kind": "premium",
-      "why": "Shelly's tiny Uni module for low-voltage buttons, sensors, and old appliances."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best With Power Metering", "kind": "special", "rule": {"type": "feature", "key": "power_meter"}},
+    {"label": "Best for Low-Voltage DIY", "kind": "premium", "rule": {"type": "feature", "key": "dry_contact"}}
   ],
   "products": [
     {

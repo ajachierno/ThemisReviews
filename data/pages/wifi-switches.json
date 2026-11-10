@@ -64,28 +64,32 @@
   ],
   "awards": [
     {
-      "asin": "B01EZV35QU",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Over 43,000 reviews at 4.5 stars, about $16, and a mature app with schedules and away mode."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B07724HNTX",
+      "why": "Highest score on the page (96): 4.6 stars from 19,960 reviews, $30.99."
     },
     {
-      "asin": "B095X911T8",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$14.99 and simple to set up, as long as Alexa is the only assistant you use."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BS3LG9TX",
+      "why": "Highest score (86) among the cheapest third of picks (up to $14.99 each): 4.5 stars from 1,595 reviews, $14.59."
     },
     {
-      "asin": "B07724HNTX",
       "label": "Best for 3-Way",
       "kind": "special",
-      "why": "A matched main and companion switch for stairways and hallways, with nearly 20,000 reviews."
-    },
-    {
-      "asin": "B0DHYLF7PQ",
-      "label": "Best Multipack",
-      "kind": "premium",
-      "why": "Four switches for about $43, or under $11 each, with a 4.6-star rating."
+      "rule": {
+        "type": "feature",
+        "key": "three_way"
+      },
+      "asin": "B0D2X8HCQD",
+      "why": "Highest score of the picks that fit this award (78): 3.8 stars from 78 reviews, $24.99."
     }
   ],
   "products": [

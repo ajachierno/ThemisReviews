@@ -14,10 +14,10 @@
     {"key": "extras", "label": "Extras"}
   ],
   "awards": [
-    {"asin": "B0DFVY6HS9", "label": "Best Overall", "kind": "overall", "why": "4.4 stars, a 5-year battery, drip detection, and an optional sensing cable."},
-    {"asin": "B0GK19F6Z2", "label": "Best Budget", "kind": "budget", "why": "$17.99 with a 3-year battery, and it pairs straight to Echo hubs."},
-    {"asin": "B09GYFN8VL", "label": "Best with Alarm", "kind": "special", "why": "A 120 dB siren right at the leak, plus app and email alerts."},
-    {"asin": "B095TR9NYR", "label": "Best for SmartThings", "kind": "premium", "why": "SmartThings' own leak sensor, with temperature and the best rating here."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best with Alarm", "kind": "special", "rule": {"type": "feature", "key": "siren"}},
+    {"label": "Best for SmartThings", "kind": "premium", "rule": {"type": "system", "key": "smartthings"}}
   ],
   "products": [
     {"asin": "B0DFVY6HS9", "brand": "SONOFF", "model": "SNZB-05P", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],

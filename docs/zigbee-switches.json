@@ -13,7 +13,7 @@
  },
  "product_type": "Light switches",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,24 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B081ZQWX1F",
-   "name": "Aqara Smart Light Switch (no neutral, single rocker)",
-   "price": 39.99,
-   "why": "The most-reviewed switch here, 4.3 stars from 533 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0D4DGJ32V",
-   "name": "MOES Zigbee 3-way, 1 gang",
-   "price": 19.99,
-   "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."
-  },
-  {
-   "label": "Most Flexible",
    "asin": "B0DN1H69ZP",
    "name": "Aqara H2 (1 channel)",
    "price": 49.99,
-   "why": "Runs as Zigbee or Matter over Thread, works with or without a neutral, and handles 3-way."
+   "why": "Highest score on the page (81): 3.6 stars from 67 reviews, $49.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0F6T5JCZL",
+   "name": "Martin Jerry RP-ZB-S01",
+   "price": 24.99,
+   "why": "Highest score (77) among the cheapest third of picks (up to $24.99 each): 3.6 stars from 95 reviews, $24.99."
   }
  ],
  "systems_note": "Brand-hub switches (Aqara, MOES, SONOFF) are shown with the systems their listings name.",
@@ -68,7 +61,7 @@
    "reviews_count": 67,
    "score": 81,
    "awards": [
-    "Most Flexible"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -178,9 +171,7 @@
    "rating": 4.3,
    "reviews_count": 533,
    "score": 77,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -233,7 +224,9 @@
    "rating": 3.6,
    "reviews_count": 95,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -288,9 +281,7 @@
    "rating": 3.9,
    "reviews_count": 58,
    "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -590,6 +581,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Aqara H2 (1 channel).",
+    "New Best Budget: Martin Jerry RP-ZB-S01."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

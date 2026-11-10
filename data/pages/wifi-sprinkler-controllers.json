@@ -54,28 +54,42 @@
   ],
   "awards": [
     {
-      "asin": "B07CZ864Y9",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "The best-known smart sprinkler controller, with weather skips for rain, wind, and freeze, rated 4.5 stars by 8,460 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B07CZ864Y9",
+      "why": "Highest score on the page (90): 4.5 stars from 8,460 reviews, $180.79."
     },
     {
-      "asin": "B07DJ2QTW9",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $77.98 B-hyve controller with Wi-Fi and Bluetooth for smaller 4-zone yards, rated 4.5 stars."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0F883P8N1",
+      "why": "Highest score (77) among the cheapest third of picks (up to $77.98 each): 4.2 stars from 462 reviews, $39.99."
     },
     {
-      "asin": "B01D15HOTU",
       "label": "Best Outdoor",
       "kind": "special",
-      "why": "A weatherproof 12-zone B-hyve that mounts outside, sold by Amazon."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B01D15HOTU",
+      "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,908 reviews, $116.56."
     },
     {
-      "asin": "B07CZ5K355",
       "label": "Best for Big Yards",
       "kind": "premium",
-      "why": "The 16-zone Rachio 3, sold by Amazon."
+      "rule": {
+        "type": "feature",
+        "key": "zones"
+      },
+      "asin": "B07CZ5K355",
+      "why": "Highest score (90) among picks with zones: 4.5 stars from 3,126 reviews, $208.99."
     }
   ],
   "products": [

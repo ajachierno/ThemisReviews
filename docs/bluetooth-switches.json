@@ -13,7 +13,7 @@
  },
  "product_type": "Light switches",
  "data_captured": "2026-11-07",
- "updated": "2026-11-01",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,17 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07NWBD7YB",
-   "name": "GE Cync Smart paddle switch",
-   "price": 22.99,
-   "why": "A GE Cync in-wall paddle with built-in Wi-Fi for remote and voice control, for about $23."
+   "asin": "B0DX7762RF",
+   "name": "Avatar Controls Wi-Fi switch with Bluetooth remote",
+   "price": 24.99,
+   "why": "Highest score on the page (83): 4.1 stars from 133 reviews, $24.99."
   },
   {
    "label": "Best Local-Only",
    "asin": "B0FBDR3HCC",
    "name": "HAUZA BLE 2-button touch switch",
    "price": 20.99,
-   "why": "Pure Bluetooth control with no router or hub needed, and two circuits in one gang."
+   "why": "Highest score (68) among picks with works without internet: 4.1 stars from 10 reviews, $20.99."
   }
  ],
  "systems_note": null,
@@ -60,7 +60,9 @@
    "rating": 4.1,
    "reviews_count": 133,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -111,9 +113,7 @@
    "rating": 4.1,
    "reviews_count": 287,
    "score": 74,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -228,6 +228,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Avatar Controls Wi-Fi switch with Bluetooth remote."
+   ]
+  },
   {
    "date": "2026-11-01",
    "notes": [

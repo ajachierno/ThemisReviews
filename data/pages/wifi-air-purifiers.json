@@ -45,28 +45,22 @@
   ],
   "awards": [
     {
-      "asin": "B0BNDM2RNG",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "AHAM verified, light-sensing sleep mode, and 4.6 stars from 11,616 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DG5QLWP6",
+      "why": "Highest score on the page (96): 4.5 stars from 724 reviews, $89.99."
     },
     {
-      "asin": "B0C3QQMMRJ",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $39.99 bedroom purifier with app and Alexa control."
-    },
-    {
-      "asin": "B0DG5QLWP6",
-      "label": "Best for Apple Home",
-      "kind": "special",
-      "why": "One of the few purifiers with Matter, for Apple Home, Alexa, and Google."
-    },
-    {
-      "asin": "B0BN2LZ9JH",
-      "label": "Best for Big Rooms",
-      "kind": "premium",
-      "why": "Cleans 439 sq. ft. in 12.5 minutes, with auto mode from built-in sensors."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B08FJ678YK",
+      "why": "Highest score (79) among the cheapest third of picks (up to $69.97 each): 4.6 stars from 124,958 reviews, $69.97."
     }
   ],
   "products": [

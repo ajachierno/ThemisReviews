@@ -31,30 +31,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B091FXH2FR",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Two independent outlets, rated 4.6 stars by 17,556 buyers, with 8K+ bought last month."
-    },
-    {
-      "asin": "B099KLNM24",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A single IP64 outdoor plug with 300 ft Wi-Fi range for $12.99."
-    },
-    {
-      "asin": "B0CDYPNS5K",
-      "label": "Best for Apple Home",
-      "kind": "premium",
-      "why": "IP65, -20°F to 122°F, and Matter, so it works in every major system."
-    },
-    {
-      "asin": "B08D4RQR1T",
-      "label": "Best for Holiday Lights",
-      "kind": "special",
-      "why": "A six-outlet yard stake with a 6 ft cord for big light displays."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Apple Home", "kind": "premium", "rule": {"type": "system", "key": "apple-home"}},
+    {"label": "Best for Holiday Lights", "kind": "special", "rule": {"type": "feature", "key": "multi"}}
   ],
   "products": [
     {

@@ -13,7 +13,7 @@
  },
  "product_type": "Outdoor smart plugs",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B091FXH2FR",
-   "name": "Kasa EP40 Outdoor Smart Plug",
-   "price": 18.99,
-   "why": "Two independent outlets, rated 4.6 stars by 17,556 buyers, with 8K+ bought last month."
+   "asin": "B08HQ2N235",
+   "name": "meross Outdoor Smart Plug (2 sockets)",
+   "price": 25.99,
+   "why": "Highest score on the page (90): 4.4 stars from 3,962 reviews, $25.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B099KLNM24",
-   "name": "Kasa KP401 Outdoor Smart Plug",
-   "price": 12.99,
-   "why": "A single IP64 outdoor plug with 300 ft Wi-Fi range for $12.99."
+   "asin": "B07JQSX11M",
+   "name": "BN-LINK Outdoor Smart Plug (3 outlets)",
+   "price": 20.89,
+   "why": "Highest score (81) among the cheapest third of picks (up to $21.99 each): 4.3 stars from 13,777 reviews, $20.89."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0CDYPNS5K",
    "name": "Leviton Decora Smart Outdoor Plug D215O",
    "price": 59.99,
-   "why": "IP65, -20°F to 122°F, and Matter, so it works in every major system."
+   "why": "Highest score (89) among picks that work with Apple Home: 4.5 stars from 180 reviews, $59.99."
   },
   {
    "label": "Best for Holiday Lights",
-   "asin": "B08D4RQR1T",
-   "name": "HBN Smart Outdoor Power Stake (6 outlets)",
-   "price": 24.99,
-   "why": "A six-outlet yard stake with a 6 ft cord for big light displays."
+   "asin": "B08NXY7WWX",
+   "name": "Wyze Plug Outdoor",
+   "price": 36.97,
+   "why": "Highest score of the picks that fit this award (88): 4.5 stars from 3,693 reviews, $36.97."
   }
  ],
  "systems_note": "Kasa plugs have an official TP-Link integration in Home Assistant; Smart Life (Tuya) plugs work with its Tuya integration.",
@@ -75,7 +75,9 @@
    "rating": 4.4,
    "reviews_count": 3962,
    "score": 90,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Apple Home",
     "Amazon Alexa",
@@ -182,7 +184,9 @@
    "rating": 4.5,
    "reviews_count": 3693,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best for Holiday Lights"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -328,7 +332,9 @@
    "rating": 4.3,
    "reviews_count": 13777,
    "score": 81,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -429,9 +435,7 @@
    "rating": 4.2,
    "reviews_count": 1617,
    "score": 79,
-   "awards": [
-    "Best for Holiday Lights"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -480,9 +484,7 @@
    "rating": 4.6,
    "reviews_count": 17556,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -533,9 +535,7 @@
    "rating": 4.5,
    "reviews_count": 6933,
    "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -591,6 +591,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: meross Outdoor Smart Plug (2 sockets).",
+    "New Best Budget: BN-LINK Outdoor Smart Plug (3 outlets).",
+    "New Best for Holiday Lights: Wyze Plug Outdoor."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

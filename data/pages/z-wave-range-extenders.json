@@ -46,22 +46,33 @@
   ],
   "awards": [
     {
-      "asin": "B081G97TLB",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 847 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CQX4JFV2",
+      "why": "Highest score on the page (88): 4.5 stars from 510 reviews, $28.99."
     },
     {
-      "asin": "B0BHL9MBRZ",
       "label": "Best Long Range Plug",
       "kind": "special",
-      "why": "An 800 Series Long Range plug with power monitoring that also repeats your mesh."
+      "rule": {
+        "type": "feature",
+        "key": "bonus"
+      },
+      "asin": "B0BHL9MBRZ",
+      "why": "Highest score of the picks that fit this award (85): 4.8 stars from 74 reviews, $35.95."
     },
     {
-      "asin": "B07ZB2VP4K",
       "label": "Best for Ring Alarm",
       "kind": "budget",
-      "why": "A $14.99 extender for Ring Alarm systems, 4,204 reviews."
+      "rule": {
+        "type": "brand",
+        "key": "Ring"
+      },
+      "asin": "B07ZB2VP4K",
+      "why": "Highest score (76) among Ring picks: 4.3 stars from 4,204 reviews, $14.99."
     }
   ],
   "products": [

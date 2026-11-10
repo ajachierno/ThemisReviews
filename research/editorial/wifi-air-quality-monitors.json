@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FFMZL15X",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A real NDIR CO2 sensor, a display with an alarm, and Alexa and Google, rated 4.4 stars."
-    },
-    {
-      "asin": "B08W8KS8D3",
-      "label": "Best for Alexa",
-      "kind": "budget",
-      "why": "PM2.5, VOCs, and CO in the Alexa app with routine triggers, for $69.99."
-    },
-    {
-      "asin": "B0G2WDPB29",
-      "label": "Best for Matter",
-      "kind": "special",
-      "why": "An NDIR CO2 monitor that works with Apple Home, Google, Alexa, SmartThings, and Home Assistant."
-    },
-    {
-      "asin": "B097YW5Q72",
-      "label": "Best With Radon",
-      "kind": "premium",
-      "why": "Radon plus PM2.5, CO2, and VOCs on batteries, from the best-known radon brand."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Alexa", "kind": "budget", "rule": {"type": "system", "key": "alexa"}},
+    {"label": "Best With Radon", "kind": "premium", "rule": {"type": "feature", "key": "radon"}}
   ],
   "products": [
     {

@@ -56,28 +56,42 @@
   ],
   "awards": [
     {
-      "asin": "B08ZK39NSL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,622 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CWLHSKYC",
+      "why": "Highest score on the page (91): 4.0 stars from 1,720 reviews, $129.99."
     },
     {
-      "asin": "B0DWK8318H",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $41.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0FMJD288B",
+      "why": "Highest score (76) among the cheapest third of picks (up to $35.90 each): 4.6 stars from 766 reviews, $35.90."
     },
     {
-      "asin": "B0CWLHSKYC",
       "label": "Best Standalone Hub",
       "kind": "special",
-      "why": "Thread border router, Matter controller, IR blaster, and PoE in one hub."
+      "rule": {
+        "type": "feature",
+        "key": "standalone"
+      },
+      "asin": "B0FLXXF4YW",
+      "why": "Highest score of the picks that fit this award (91): 4.0 stars from 401 reviews, $69.99."
     },
     {
-      "asin": "B0FMJD288B",
       "label": "Best for Home Assistant",
       "kind": "premium",
-      "why": "Flash it as a Thread radio for Home Assistant's border router for $35.90, 1K+ bought last month."
+      "rule": {
+        "type": "system",
+        "key": "home-assistant"
+      },
+      "asin": "B0DWK8318H",
+      "why": "Highest score (85) among picks that work with Home Assistant: 3.8 stars from 1,050 reviews, $41.99."
     }
   ],
   "products": [

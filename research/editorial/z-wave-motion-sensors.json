@@ -50,30 +50,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07FHL7J11",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "800 Series Long Range, adjustable sensitivity, and battery or USB power. On USB it also repeats signal."
-    },
-    {
-      "asin": "B01MQXXG0I",
-      "label": "Best for Pets",
-      "kind": "budget",
-      "why": "Ignores pets up to 55 lbs, with up to 5-year battery life and 692 reviews."
-    },
-    {
-      "asin": "B0DCL43CS2",
-      "label": "Best Outdoor",
-      "kind": "special",
-      "why": "Indoor or outdoor, a 30 ft detection radius, and temperature monitoring."
-    },
-    {
-      "asin": "B08XHZP7NV",
-      "label": "Most Sensors",
-      "kind": "premium",
-      "why": "Motion plus temperature, humidity, light, UV, and vibration in a 1.8 in. body."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Most Sensors", "kind": "premium", "rule": {"type": "feature", "key": "extra_sensors"}}
   ],
   "products": [
     {

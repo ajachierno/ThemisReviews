@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GNTQR5S1",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "3,000 lumens of real white and multicolor on a cuttable 16 ft strip, sold by Amazon."
-    },
-    {
-      "asin": "B0BPBPGJ5G",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $24.99 5-in-1 Zigbee controller that turns almost any LED strip into a Zigbee light."
-    },
-    {
-      "asin": "B08CK9LQP5",
-      "label": "Best Outdoor",
-      "kind": "special",
-      "why": "A weatherproof Hue strip for railings, stairs, and paths, rated 4.6 stars."
-    },
-    {
-      "asin": "B0FQLNRJCG",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Hue's micro-LED OmniGlow strip for seamless, dot-free light."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

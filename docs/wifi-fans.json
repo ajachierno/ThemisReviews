@@ -13,7 +13,7 @@
  },
  "product_type": "Fans",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09N3HKY79",
-   "name": "DREO 42-inch Smart Tower Fan",
-   "price": 119.99,
-   "why": "DREO's 42-inch tower fan runs as quiet as 20 dB, works with Alexa and Google, and is rated 4.4 stars."
+   "asin": "B0CS5YG5YV",
+   "name": "GoveeLife 42-inch Tower Fan (150°)",
+   "price": 179.99,
+   "why": "Highest score on the page (96): 4.6 stars from 969 reviews, $179.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0BRKPCJ7P",
    "name": "DREO Smart Tower Fan (90°)",
    "price": 79.93,
-   "why": "A smart DREO tower fan with Alexa and Google for $79.93, sold by Amazon."
+   "why": "Highest score (84) among the cheapest third of picks (up to $79.99 each): 4.5 stars from 3,743 reviews, $79.93."
   },
   {
    "label": "Best Premium",
-   "asin": "B0CS5YG5YV",
-   "name": "GoveeLife 42-inch Tower Fan (150°)",
-   "price": 179.99,
-   "why": "GoveeLife's 42-inch fan oscillates 150°, has a built-in thermostat, and works with Siri too."
+   "asin": "B0CKQNHK1H",
+   "name": "Levoit Smart Tower Fan (26 ft/s)",
+   "price": 129.99,
+   "why": "Highest score (90) among the priciest third of picks: 4.5 stars from 1,494 reviews, $129.99."
   },
   {
    "label": "Widest Coverage",
    "asin": "B09M8PMW26",
    "name": "DREO Pilot Max Tower Fan (120°)",
    "price": 129.99,
-   "why": "120° oscillation with 12 speeds and a brushless DC motor."
+   "why": "Highest score of the picks that fit this award (88): 4.5 stars from 6,873 reviews, $129.99."
   }
  ],
  "systems_note": "All of these fans run in their makers' apps; voice assistant support is listed per model.",
@@ -76,7 +76,7 @@
    "reviews_count": 969,
    "score": 96,
    "awards": [
-    "Best Premium"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -127,7 +127,9 @@
    "rating": 4.5,
    "reviews_count": 1494,
    "score": 90,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -381,9 +383,7 @@
    "rating": 4.4,
    "reviews_count": 3353,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -536,6 +536,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: GoveeLife 42-inch Tower Fan (150°).",
+    "New Best Premium: Levoit Smart Tower Fan (26 ft/s)."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

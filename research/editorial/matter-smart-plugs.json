@@ -51,24 +51,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BNWGZ545",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A 15 A Matter plug for $7.99 with 3,044 reviews, sold by Amazon."
-    },
-    {
-      "asin": "B0DKGBP38V",
-      "label": "Best Energy Monitoring",
-      "kind": "special",
-      "why": "Matter plus detailed energy tracking, two plugs for $14.99."
-    },
-    {
-      "asin": "B0CVN3CNCD",
-      "label": "Best Outdoor",
-      "kind": "premium",
-      "why": "Two independently controlled IP65 outdoor outlets, 3K+ bought last month."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Energy Monitoring", "kind": "special", "rule": {"type": "feature", "key": "energy"}},
+    {"label": "Best Outdoor", "kind": "premium", "rule": {"type": "feature", "key": "outdoor"}}
   ],
   "products": [
     {

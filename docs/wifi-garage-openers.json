@@ -13,7 +13,7 @@
  },
  "product_type": "Garage door openers",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08GD3D9YJ",
-   "name": "Chamberlain myQ Smart Garage Control",
-   "price": 64.99,
-   "why": "61,026 reviews, 6K+ bought last month, a wireless door sensor, and Amazon Key in-garage delivery."
+   "asin": "B08JYSXXSK",
+   "name": "meross MSG200 (external antenna)",
+   "price": 62.99,
+   "why": "Highest score on the page (87): 4.1 stars from 680 reviews, $62.99."
   },
   {
    "label": "Best Budget",
    "asin": "B07TZJYSR7",
    "name": "eKyro Smart Garage Door Opener",
    "price": 34.99,
-   "why": "4.5 stars for $34.99, with Alexa, Google, and Siri and no monthly fees."
+   "why": "Highest score (79) among the cheapest third of picks (up to $34.99 each): 4.5 stars from 3,946 reviews, $34.99."
   },
   {
    "label": "Best for Apple Home",
-   "asin": "B084Z5QZR2",
-   "name": "meross MSG100HK",
-   "price": 49.99,
-   "why": "Native HomeKit, a wired door sensor, and Security+ 2.0 support, with 6,729 reviews."
-  },
-  {
-   "label": "Best Matter Pick",
    "asin": "B0FX4G3ML2",
    "name": "THIRDREALITY Smart Garage Door Opener (Matter)",
    "price": 49.99,
-   "why": "Matter certified with a pre-paired tilt sensor and no wiring to the motor."
+   "why": "Highest score of the picks that fit this award (85): 4.0 stars from 91 reviews, $49.99."
+  },
+  {
+   "label": "Best Matter Pick",
+   "asin": "B0FF4VHCJV",
+   "name": "SwitchBot Garage Door Opener (Matter)",
+   "price": 24.99,
+   "why": "Highest score of the picks that fit this award (74): 3.9 stars from 82 reviews, $24.99."
   }
  ],
  "systems_note": "Tuya and Smart Life controllers also work with Home Assistant's official Tuya integration. Genie Aladdin Connect has an official Home Assistant integration too.",
@@ -75,7 +75,9 @@
    "rating": 4.1,
    "reviews_count": 680,
    "score": 87,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Apple Home",
     "Amazon Alexa",
@@ -128,7 +130,7 @@
    "reviews_count": 91,
    "score": 85,
    "awards": [
-    "Best Matter Pick"
+    "Best for Apple Home"
    ],
    "works_with": [
     "Home Assistant",
@@ -235,9 +237,7 @@
    "rating": 4.2,
    "reviews_count": 6729,
    "score": 83,
-   "awards": [
-    "Best for Apple Home"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Amazon Alexa",
@@ -289,9 +289,7 @@
    "rating": 4.3,
    "reviews_count": 61026,
    "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "myQ app, Amazon Key",
    "works_without": {
@@ -494,7 +492,9 @@
    "rating": 3.9,
    "reviews_count": 82,
    "score": 74,
-   "awards": [],
+   "awards": [
+    "Best Matter Pick"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -608,6 +608,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: meross MSG200 (external antenna).",
+    "New Best for Apple Home: THIRDREALITY Smart Garage Door Opener (Matter).",
+    "New Best Matter Pick: SwitchBot Garage Door Opener (Matter)."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

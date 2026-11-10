@@ -50,28 +50,42 @@
   ],
   "awards": [
     {
-      "asin": "B09GDQZLD1",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "See, talk, and toss treats with no subscription, rated 4.4 stars by 9,304 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B09GDQZLD1",
+      "why": "Highest score on the page (90): 4.4 stars from 9,304 reviews, $72.00."
     },
     {
-      "asin": "B09Y8TLP25",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $27.99 pan-tilt camera with Alexa and Google, 23,510 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B09Y8TLP25",
+      "why": "Highest score (88) among the cheapest third of picks (up to $69.98 each): 4.5 stars from 23,510 reviews, $27.99."
     },
     {
-      "asin": "B0CF5B94X2",
       "label": "Best Value Treat Cam",
       "kind": "special",
-      "why": "2K, 360° view, and treat tossing for $69.98."
+      "rule": {
+        "type": "feature",
+        "key": "treats"
+      },
+      "asin": "B0DZ6NMTY9",
+      "why": "Highest score (86) among picks with treat toss: 4.3 stars from 1,022 reviews, $75.98."
     },
     {
-      "asin": "B0DZHDF7MD",
       "label": "Most Fun",
       "kind": "premium",
-      "why": "A camera on wheels that drives around to find your pet."
+      "rule": {
+        "type": "feature",
+        "key": "tracking"
+      },
+      "asin": "B0GGGPRRSF",
+      "why": "Highest score of the picks that fit this award (86): 4.3 stars from 1,022 reviews, $75.98."
     }
   ],
   "products": [

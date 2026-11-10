@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07NRDBBH5",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Rated 4.4 stars by 7,235 buyers, with Wi-Fi, Alexa, Google, and Energy Star."
-    },
-    {
-      "asin": "B073VBWKJZ",
-      "label": "Best for Large Basements",
-      "kind": "premium",
-      "why": "50 pints for spaces up to 7,000 sq. ft., with 53,014 reviews."
-    },
-    {
-      "asin": "B0GL7R3RJV",
-      "label": "Best With a Pump",
-      "kind": "special",
-      "why": "A built-in pump pushes water up into a sink, so you never empty a bucket."
-    },
-    {
-      "asin": "B08ZMY8BC8",
-      "label": "Best Compact",
-      "kind": "budget",
-      "why": "Midea's Cube stacks its bucket underneath to save floor space."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Large Basements", "kind": "premium", "rule": {"type": "feature", "key": "big"}},
+    {"label": "Best With a Pump", "kind": "special", "rule": {"type": "feature", "key": "pump"}},
+    {"label": "Best Compact", "kind": "budget", "rule": {"type": "feature", "key": "big", "value": false}}
   ],
   "products": [
     {

@@ -13,7 +13,7 @@
  },
  "product_type": "Hubs and controllers",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0B6P22YJC",
-   "name": "SONOFF ZBDongle-E",
-   "price": 24.9,
-   "why": "4.6 stars from 3,820 reviews, an external antenna, and pre-flashed firmware, for $24.90."
+   "asin": "B0FMJH4DPN",
+   "name": "SONOFF Dongle Max (Dongle-M)",
+   "price": 42.9,
+   "why": "Highest score on the page (86): 4.3 stars from 702 reviews, $42.90."
   },
   {
    "label": "Best Zigbee + Thread",
    "asin": "B0FMJD288B",
    "name": "SONOFF Dongle Plus MG24",
    "price": 35.9,
-   "why": "The newer MG24 chip, firmware you can switch to Thread, and 1K+ bought last month."
+   "why": "Highest score (84) among picks with can run Thread: 4.6 stars from 766 reviews, $35.90."
   },
   {
    "label": "Best No-Computer Hub",
    "asin": "B016H0QZ7I",
    "name": "Philips Hue Bridge",
    "price": 55.99,
-   "why": "The Hue Bridge runs Hue lights with no computer and connects them to every major platform through Matter."
-  },
-  {
-   "label": "Best Network Coordinator",
-   "asin": "B0FMJH4DPN",
-   "name": "SONOFF Dongle Max (Dongle-M)",
-   "price": 42.9,
-   "why": "Ethernet with PoE, Wi-Fi, or USB, two 5 dBi antennas, and Zigbee or Thread firmware."
+   "why": "Highest score of the picks that fit this award (83): 4.5 stars from 11,441 reviews, $55.99."
   }
  ],
  "systems_note": "For USB and network coordinators, the icons show the hub software they work with. For full hubs, they show the platforms the hub connects to.",
@@ -76,7 +69,7 @@
    "reviews_count": 702,
    "score": 86,
    "awards": [
-    "Best Network Coordinator"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant"
@@ -390,9 +383,7 @@
    "rating": 4.6,
    "reviews_count": 3820,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -626,6 +617,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SONOFF Dongle Max (Dongle-M)."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

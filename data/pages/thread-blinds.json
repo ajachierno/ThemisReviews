@@ -64,28 +64,32 @@
   ],
   "awards": [
     {
-      "asin": "B0D54KR9W7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Eve's retrofit motor with local Matter control, no cloud or account, and the most reviews of any Thread shade here."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B09M9PZJWT",
+      "why": "Highest score on the page (78): 4.2 stars from 25 reviews, $169.99."
     },
     {
-      "asin": "B0FG2C8W67",
       "label": "Best Budget Kit",
       "kind": "budget",
-      "why": "A Matter-over-Thread motor with a remote and bracket for $112.88."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0F42GMH45",
+      "why": "Highest score (64) among the cheapest third of picks (up to $112.68 each): 4.1 stars from 7 reviews, $112.68."
     },
     {
-      "asin": "B0B4DK18Z3",
       "label": "Best Complete Shade",
       "kind": "special",
-      "why": "Made-to-measure SmartWings shades with a Matter motor option, rated 4.6 stars."
-    },
-    {
-      "asin": "B0FYM58RFW",
-      "label": "Best for Small Tubes",
-      "kind": "premium",
-      "why": "Fits 17, 25, and 28 mm tubes that 1.5 in. motors can't."
+      "rule": {
+        "type": "feature",
+        "key": "complete"
+      },
+      "asin": "B0B4DK18Z3",
+      "why": "Highest score of the picks that fit this award (78): 4.6 stars from 14 reviews, $159.99."
     }
   ],
   "products": [

@@ -54,28 +54,32 @@
   ],
   "awards": [
     {
-      "asin": "B0C79PNK84",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "UL-listed whole-home monitoring with 16 circuit sensors, 4.6 stars from 887 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0D6VZQBPF",
+      "why": "Highest score on the page (91): 4.4 stars from 226 reviews, $139.99."
     },
     {
-      "asin": "B0C7B1LKDW",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "The same Emporia Vue 3 without circuit sensors, for $99.99; add sensors later."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0C7B1LKDW",
+      "why": "Highest score (79) among the cheapest third of picks (up to $149.89 each): 4.5 stars from 235 reviews, $99.99."
     },
     {
-      "asin": "B0DJNV3GPR",
       "label": "Best for Home Assistant",
       "kind": "special",
-      "why": "Local web UI, open API, MQTT, and native Home Assistant support, no cloud required."
-    },
-    {
-      "asin": "B0D6VZQBPF",
-      "label": "Best Value With Sensors",
-      "kind": "premium",
-      "why": "16 circuit sensors and Home Assistant support for $139.99."
+      "rule": {
+        "type": "system",
+        "key": "home-assistant"
+      },
+      "asin": "B0FQ9ZNKBL",
+      "why": "Highest score (89) among picks that work with Home Assistant: 4.4 stars from 76 reviews, $199.99."
     }
   ],
   "products": [

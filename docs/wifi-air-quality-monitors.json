@@ -13,7 +13,7 @@
  },
  "product_type": "Air quality monitors",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0FFMZL15X",
-   "name": "GoveeLife H5140 CO2 monitor",
-   "price": 69.99,
-   "why": "A real NDIR CO2 sensor, a display with an alarm, and Alexa and Google, rated 4.4 stars."
-  },
-  {
-   "label": "Best for Alexa",
-   "asin": "B08W8KS8D3",
-   "name": "Amazon Smart Air Quality Monitor",
-   "price": 69.99,
-   "why": "PM2.5, VOCs, and CO in the Alexa app with routine triggers, for $69.99."
-  },
-  {
-   "label": "Best for Matter",
-   "asin": "B0G2WDPB29",
-   "name": "SONOFF AirGuard CO2 SAWF-08P",
-   "price": 49.9,
-   "why": "An NDIR CO2 monitor that works with Apple Home, Google, Alexa, SmartThings, and Home Assistant."
-  },
-  {
-   "label": "Best With Radon",
    "asin": "B097YW5Q72",
    "name": "Airthings View Plus (2960)",
    "price": 329.99,
-   "why": "Radon plus PM2.5, CO2, and VOCs on batteries, from the best-known radon brand."
+   "why": "Highest score on the page (91): 4.0 stars from 1,988 reviews, $329.99."
+  },
+  {
+   "label": "Best for Alexa",
+   "asin": "B0FFMZL15X",
+   "name": "GoveeLife H5140 CO2 monitor",
+   "price": 69.99,
+   "why": "Highest score (83) among picks that work with Amazon Alexa: 4.4 stars from 256 reviews, $69.99."
   }
  ],
  "systems_note": "Airthings and SwitchBot also have official Home Assistant integrations.",
@@ -76,7 +62,7 @@
    "reviews_count": 1988,
    "score": 91,
    "awards": [
-    "Best With Radon"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -129,7 +115,7 @@
    "reviews_count": 256,
    "score": 83,
    "awards": [
-    "Best Overall"
+    "Best for Alexa"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -231,9 +217,7 @@
    "rating": 4.3,
    "reviews_count": 182,
    "score": 82,
-   "awards": [
-    "Best for Matter"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -289,9 +273,7 @@
    "rating": 4.2,
    "reviews_count": 5585,
    "score": 80,
-   "awards": [
-    "Best for Alexa"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -591,6 +573,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Airthings View Plus (2960).",
+    "New Best for Alexa: GoveeLife H5140 CO2 monitor."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

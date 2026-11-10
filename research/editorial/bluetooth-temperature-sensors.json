@@ -47,30 +47,7 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07Y36FWTT",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "48,684 reviews at 4.5 stars, a 3 in. display, and ±0.54°F accuracy for $11.69."
-    },
-    {
-      "asin": "B07R586J37",
-      "label": "Best Mini",
-      "kind": "budget",
-      "why": "A tiny $13.99 sensor with 20 days of on-board storage and 13,362 reviews."
-    },
-    {
-      "asin": "B0BVZC9Q31",
-      "label": "Best Outdoor",
-      "kind": "special",
-      "why": "Three IP65 sensors with ±0.36°F accuracy and 394 ft. range."
-    },
-    {
-      "asin": "B08PKVRJJX",
-      "label": "Best Data Logger",
-      "kind": "premium",
-      "why": "Temperature, humidity, and barometric pressure with on-board logging and unlimited app history."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}}
   ],
   "products": [
     {

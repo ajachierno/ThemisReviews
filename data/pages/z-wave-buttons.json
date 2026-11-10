@@ -62,22 +62,24 @@
   ],
   "awards": [
     {
-      "asin": "B08TMWLY74",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."
-    },
-    {
+      "rule": {
+        "type": "overall"
+      },
       "asin": "B09B6S4TSL",
-      "label": "Best Wired",
-      "kind": "special",
-      "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars from 335 reviews."
+      "why": "Highest score on the page (96): 4.6 stars from 335 reviews, $47.95."
     },
     {
-      "asin": "B0CV8RXT5W",
       "label": "Best Battery Remote",
       "kind": "special",
-      "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."
+      "rule": {
+        "type": "feature",
+        "key": "battery_free",
+        "value": false
+      },
+      "asin": "B0CV8RXT5W",
+      "why": "Highest score of the picks that fit this award (83): 4.3 stars from 77 reviews, $46.95."
     }
   ],
   "products": [

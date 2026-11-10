@@ -34,24 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BNWGZ545",
-   "name": "Tapo P125M",
-   "price": 7.99,
-   "why": "A 15 A Matter plug for $7.99 with 3,044 reviews, sold by Amazon."
-  },
-  {
-   "label": "Best Energy Monitoring",
-   "asin": "B0DKGBP38V",
-   "name": "Tapo P110M (2-pack)",
-   "price": 14.99,
-   "why": "Matter plus detailed energy tracking, two plugs for $14.99."
-  },
-  {
-   "label": "Best Outdoor",
    "asin": "B0CVN3CNCD",
    "name": "Tapo P400M outdoor",
    "price": 25.99,
-   "why": "Two independently controlled IP65 outdoor outlets, 3K+ bought last month."
+   "why": "Highest score on the page (83): 4.5 stars from 1,129 reviews, $25.99."
+  },
+  {
+   "label": "Best Energy Monitoring",
+   "asin": "B0BYGRLRS1",
+   "name": "Kasa KP125M (2-pack)",
+   "price": 18.99,
+   "why": "Highest score (82) among picks with energy monitoring: 4.4 stars from 2,314 reviews, $18.99."
+  },
+  {
+   "label": "Best Outdoor",
+   "asin": "B07X52W1J8",
+   "name": "Minoston Matter outdoor plug",
+   "price": 19.99,
+   "why": "Highest score of the picks that fit this award (75): 4.3 stars from 3,844 reviews, $19.99."
   }
  ],
  "systems_note": null,
@@ -68,7 +68,7 @@
    "reviews_count": 1129,
    "score": 83,
    "awards": [
-    "Best Outdoor"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -124,7 +124,9 @@
    "rating": 4.4,
    "reviews_count": 2314,
    "score": 82,
-   "awards": [],
+   "awards": [
+    "Best Energy Monitoring"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -179,9 +181,7 @@
    "rating": 4.4,
    "reviews_count": 749,
    "score": 82,
-   "awards": [
-    "Best Energy Monitoring"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -291,7 +291,9 @@
    "rating": 4.3,
    "reviews_count": 3844,
    "score": 75,
-   "awards": [],
+   "awards": [
+    "Best Outdoor"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -346,9 +348,7 @@
    "rating": 4.5,
    "reviews_count": 3044,
    "score": 70,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -670,6 +670,9 @@
    "date": "2026-11-10",
    "notes": [
     "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Tapo P400M outdoor.",
+    "New Best Energy Monitoring: Kasa KP125M (2-pack).",
+    "New Best Outdoor: Minoston Matter outdoor plug.",
     "All 10 picks kept. The Tapo P125M dropped from $11.99 to $7.99 and is now the lowest-priced single plug here, so the Best Budget label came off the Amazon Basics plug, which rose from $8.98 to $10.39. The Tapo P110M 2-pack fell from $21.99 to $14.99, the Kasa KP125M 2-pack from $24.99 to $18.99, and the GE Cync plug rose from $9.98 to $14.98."
    ]
   },

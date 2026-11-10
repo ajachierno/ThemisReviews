@@ -67,28 +67,43 @@
   ],
   "awards": [
     {
-      "asin": "B09JKKLRLW",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A tiny 800 Series Long Range sensor that fits almost any frame, with an optional outdoor case."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B09JKKLRLW",
+      "why": "Highest score on the page (77): 4.1 stars from 186 reviews, $39.75."
     },
     {
-      "asin": "B07ZB2QLC2",
       "label": "Best for Ring Alarm",
       "kind": "budget",
-      "why": "Nearly 30,000 reviews at 4.7 stars, for homes running Ring Alarm."
+      "rule": {
+        "type": "brand",
+        "key": "Ring"
+      },
+      "asin": "B07ZB2QLC2",
+      "why": "Highest score (72) among Ring picks: 4.7 stars from 29,636 reviews, $14.99."
     },
     {
-      "asin": "B0GR6BB2YT",
       "label": "Most Sensors",
       "kind": "premium",
-      "why": "Open/close plus tilt, vibration, temperature, humidity, and mold-risk alerts."
+      "rule": {
+        "type": "feature",
+        "key": "extra_sensors"
+      },
+      "asin": "B0GR6BB2YT",
+      "why": "Highest score of the picks that fit this award (73): 4.1 stars from 16 reviews, $39.99."
     },
     {
-      "asin": "B082PT71MM",
       "label": "Best Hidden",
       "kind": "special",
-      "why": "Recessed design that disappears inside the door frame."
+      "rule": {
+        "type": "feature",
+        "key": "recessed"
+      },
+      "asin": "B082PT71MM",
+      "why": "Highest score of the picks that fit this award (69): 3.8 stars from 354 reviews, $37.99."
     }
   ],
   "products": [

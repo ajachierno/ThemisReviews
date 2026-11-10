@@ -31,24 +31,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FQC6VCDW",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "ULTRALOQ's Bolt SE has fingerprint, keypad, Wi-Fi, and Matter over Thread, rated 4.3 stars by 10,380 buyers."
-    },
-    {
-      "asin": "B0FRS6T6HL",
-      "label": "Best Hands-Free",
-      "kind": "premium",
-      "why": "Aqara's U400 unlocks as you approach with UWB and supports Apple Home Key."
-    },
-    {
-      "asin": "B0F8RC3YRF",
-      "label": "Best Retrofit",
-      "kind": "special",
-      "why": "Level Bolt goes inside your door, so you keep your keys and hardware."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Hands-Free", "kind": "premium", "rule": {"type": "feature", "key": "hands_free"}},
+    {"label": "Best Retrofit", "kind": "special", "rule": {"type": "feature", "key": "retrofit"}}
   ],
   "products": [
     {

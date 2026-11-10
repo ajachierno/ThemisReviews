@@ -65,28 +65,33 @@
   ],
   "awards": [
     {
-      "asin": "B0CRRMD559",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Direct Wi-Fi with no hub, a 1 m water-level probe, a 100 dB alarm, and Alexa, Google, and SmartThings support."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BDF94TMV",
+      "why": "Highest score on the page (88): 4.5 stars from 2,300 reviews, $39.99."
     },
     {
-      "asin": "B0BDF94TMV",
       "label": "Best Kit",
       "kind": "budget",
-      "why": "Three sensors and a base for $39.99, with 120 dB alarms on both and 2,300 reviews."
+      "rule": {
+        "type": "feature",
+        "key": "multi"
+      },
+      "asin": "B0DFCMJH5L",
+      "why": "Highest score of the picks that fit this award (88): 4.5 stars from 2,300 reviews, $52.99."
     },
     {
-      "asin": "B083Z5Z9HM",
-      "label": "Best Range",
-      "kind": "special",
-      "why": "LoRa radio reaches about 2,000 ft, so sensors work in sheds and detached garages. 6,981 reviews."
-    },
-    {
-      "asin": "B0F947BJVQ",
       "label": "Best Single Sensor",
       "kind": "premium",
-      "why": "IP67, six probes, and an adjustable 120 dB alarm with direct Wi-Fi."
+      "rule": {
+        "type": "feature",
+        "key": "direct_wifi"
+      },
+      "asin": "B0CRRMD559",
+      "why": "Highest score of the picks that fit this award (86): 4.4 stars from 1,938 reviews, $16.99."
     }
   ],
   "products": [

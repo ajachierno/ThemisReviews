@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BXWZMQJ3",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Up to 5 people, multiple zones, and fall detection, with 2,537 reviews."
-    },
-    {
-      "asin": "B0FX7FXQGB",
-      "label": "Best for Home Assistant",
-      "kind": "budget",
-      "why": "A plug-and-play ESPHome presence sensor for $22.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Home Assistant", "kind": "budget", "rule": {"type": "system", "key": "home-assistant"}}
   ],
   "products": [
     {

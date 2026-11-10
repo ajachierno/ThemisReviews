@@ -45,30 +45,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CS8T6VPV",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A full-color, CRI 90+ bulb with 7,556 reviews and 1K+ bought last month."
-    },
-    {
-      "asin": "B09B7QNYHR",
-      "label": "Most Popular",
-      "kind": "budget",
-      "why": "27,607 reviews at 4.6 stars and 8K+ bought last month."
-    },
-    {
-      "asin": "B07X8QXR9L",
-      "label": "Brightest",
-      "kind": "special",
-      "why": "1,600 lumens of color and tunable white in an A21 bulb."
-    },
-    {
-      "asin": "B0C3TSTG69",
-      "label": "Best Multipack",
-      "kind": "premium",
-      "why": "Four 1,000 lm color bulbs with Bluetooth backup, about $8.50 each."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Most Popular", "kind": "budget", "rule": {"type": "most_reviews"}},
+    {"label": "Brightest", "kind": "special", "rule": {"type": "feature", "key": "bright"}}
   ],
   "products": [
     {

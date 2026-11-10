@@ -41,30 +41,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07G5V6M6G",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Hub, dimmer, and Pico remote for $91.95, about $21 more than the hub alone, with 2,704 reviews at 4.7 stars."
-    },
-    {
-      "asin": "B00XPW67ZM",
-      "label": "Best Hub Only",
-      "kind": "budget",
-      "why": "The Caseta Smart Hub on its own, sold by Amazon, 1K+ bought last month."
-    },
-    {
-      "asin": "B01M3XJUAD",
-      "label": "Best Whole-Room Kit",
-      "kind": "special",
-      "why": "Two dimmers, two Picos, and the hub, for two rooms or a 3-way setup."
-    },
-    {
-      "asin": "B01AVLTHY2",
-      "label": "Best for Hubitat and Pros",
-      "kind": "premium",
-      "why": "The Smart Hub Pro with its integration port, plus a dimmer, Pico, and wallplate."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Hub Only", "kind": "budget", "rule": {"type": "feature", "key": "hub"}},
+    {"label": "Best Whole-Room Kit", "kind": "special", "rule": {"type": "feature", "key": "pico"}},
+    {"label": "Best for Hubitat and Pros", "kind": "premium", "rule": {"type": "feature", "key": "pro"}}
   ],
   "products": [
     {

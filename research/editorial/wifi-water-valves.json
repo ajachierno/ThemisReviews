@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DTP7J9Z7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Valve robot, four leak sensors, and hub in one kit; sensors close the valve even with the internet down, rated 4.8 stars."
-    },
-    {
-      "asin": "B0851DYWBH",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $36.99 Wi-Fi valve robot that clamps onto an existing quarter-turn valve and works with Alexa and Google."
-    },
-    {
-      "asin": "B0DSKG73XB",
-      "label": "Best Flow Monitor",
-      "kind": "special",
-      "why": "Ultrasonic flow monitoring that spots leaks as small as 0.01 GPM and shuts the water off, rated 4.5 stars."
-    },
-    {
-      "asin": "B0GYGCDL8H",
-      "label": "Best for Matter",
-      "kind": "premium",
-      "why": "A Bulldog valve robot on Matter over Wi-Fi with a wired leak sensor and no hub."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Flow Monitor", "kind": "special", "rule": {"type": "feature", "key": "flow_monitor"}}
   ],
   "products": [
     {

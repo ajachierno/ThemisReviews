@@ -13,7 +13,7 @@
  },
  "product_type": "Water shutoff valves",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,21 @@
    "asin": "B0DTP7J9Z7",
    "name": "YoLink X3 + EVO valve kit (4 sensors + hub)",
    "price": 296.99,
-   "why": "Valve robot, four leak sensors, and hub in one kit; sensors close the valve even with the internet down, rated 4.8 stars."
+   "why": "Highest score on the page (92): 4.8 stars from 545 reviews, $296.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0851DYWBH",
-   "name": "Tokatuker Wi-Fi valve actuator",
-   "price": 36.99,
-   "why": "A $36.99 Wi-Fi valve robot that clamps onto an existing quarter-turn valve and works with Alexa and Google."
+   "asin": "B0F2MYNQS2",
+   "name": "YoLink X3 1 in. stainless valve kit",
+   "price": 259.99,
+   "why": "Highest score (84) among the cheapest third of picks (up to $259.99 each): 4.7 stars from 100 reviews, $259.99."
   },
   {
    "label": "Best Flow Monitor",
-   "asin": "B0DSKG73XB",
-   "name": "Frizzlife LP365",
-   "price": 279.98,
-   "why": "Ultrasonic flow monitoring that spots leaks as small as 0.01 GPM and shuts the water off, rated 4.5 stars."
-  },
-  {
-   "label": "Best for Matter",
-   "asin": "B0GYGCDL8H",
-   "name": "EcoNet Bulldog Matter Wi-Fi (EVC400)",
-   "price": 215.0,
-   "why": "A Bulldog valve robot on Matter over Wi-Fi with a wired leak sensor and no hub."
+   "asin": "B0GJRQMPGM",
+   "name": "Frizzlife LPG365 with 3 leak sensors",
+   "price": 499.99,
+   "why": "Highest score of the picks that fit this award (88): 4.8 stars from 42 reviews, $499.99."
   }
  ],
  "systems_note": "YoLink, Moen Flo, and Tuya/Smart Life devices also have official Home Assistant integrations. YoLink kits use their own LoRa radio to a hub that connects to Wi-Fi.",
@@ -177,7 +170,9 @@
    "rating": 4.8,
    "reviews_count": 42,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Flow Monitor"
+   ],
    "works_with": [],
    "works_with_note": "Frizzlife app",
    "works_without": {
@@ -224,9 +219,7 @@
    "rating": 4.5,
    "reviews_count": 380,
    "score": 84,
-   "awards": [
-    "Best Flow Monitor"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Frizzlife app",
    "works_without": {
@@ -274,7 +267,9 @@
    "rating": 4.7,
    "reviews_count": 100,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -471,9 +466,7 @@
    "rating": 4.0,
    "reviews_count": 290,
    "score": 71,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -524,9 +517,7 @@
    "rating": 4.2,
    "reviews_count": 3,
    "score": 64,
-   "awards": [
-    "Best for Matter"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -614,6 +605,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: YoLink X3 1 in. stainless valve kit.",
+    "New Best Flow Monitor: Frizzlife LPG365 with 3 leak sensors."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

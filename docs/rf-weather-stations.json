@@ -13,7 +13,7 @@
  },
  "product_type": "Weather stations",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B00N1XCA9M",
-   "name": "AcuRite Iris 5-in-1 (01512MCB)",
-   "price": 153.49,
-   "why": "Wind, rain, temperature, and humidity on a color display, with 7,142 reviews and 700+ bought last month."
+   "asin": "B0BBH688XG",
+   "name": "Ambient Weather WS-1965",
+   "price": 149.99,
+   "why": "Highest score on the page (88): 4.2 stars from 573 reviews, $149.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0CWL7ST6S",
    "name": "DreamSky Atomic clock weather station",
    "price": 33.99,
-   "why": "A color atomic-clock station with alerts and room for 3 sensors, for $33.99."
+   "why": "Highest score (80) among the cheapest third of picks (up to $35.99 each): 4.4 stars from 3,049 reviews, $33.99."
   },
   {
    "label": "Best Smart Home Station",
-   "asin": "B0BBH688XG",
-   "name": "Ambient Weather WS-1965",
-   "price": 149.99,
-   "why": "Full sensor array on Wi-Fi, with Alexa, Google Home, IFTTT, and Home Assistant support."
+   "asin": "B0H7RPJ912",
+   "name": "Sainlogic Wi-Fi weather station (newer)",
+   "price": 129.98,
+   "why": "Highest score of the picks that fit this award (83): 4.7 stars from 44 reviews, $129.98."
   }
  ],
  "systems_note": "Most stations here are standalone. Wi-Fi models upload to their own apps; Ambient Weather also has an official Home Assistant integration.",
@@ -69,7 +69,7 @@
    "reviews_count": 573,
    "score": 88,
    "awards": [
-    "Best Smart Home Station"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -123,9 +123,7 @@
    "rating": 4.4,
    "reviews_count": 7142,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Standalone display",
    "works_without": {
@@ -173,7 +171,9 @@
    "rating": 4.7,
    "reviews_count": 44,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Smart Home Station"
+   ],
    "works_with": [],
    "works_with_note": "Sainlogic app",
    "works_without": {
@@ -518,6 +518,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Ambient Weather WS-1965.",
+    "New Best Smart Home Station: Sainlogic Wi-Fi weather station (newer)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

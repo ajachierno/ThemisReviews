@@ -54,28 +54,22 @@
   ],
   "awards": [
     {
-      "asin": "B07G95FFN3",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,484 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0F5LNYTR7",
+      "why": "Highest score on the page (96): 4.5 stars from 364 reviews, $49.99."
     },
     {
-      "asin": "B083JKSSR5",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Three smart outlets and two USB ports with surge protection for $24.98."
-    },
-    {
-      "asin": "B0F5LNYTR7",
-      "label": "Best for Apple Home",
-      "kind": "premium",
-      "why": "Matter, per-outlet energy monitoring, and surge protection for $49.99."
-    },
-    {
+      "rule": {
+        "type": "budget"
+      },
       "asin": "B0CYGSFFFW",
-      "label": "Best Outlet Extender",
-      "kind": "special",
-      "why": "Plugs straight into the wall with 3 smart outlets and 3 smart USB ports, and works with HomeKit."
+      "why": "Highest score (84) among the cheapest third of picks (up to $34.99 each): 4.5 stars from 663 reviews, $34.99."
     }
   ],
   "products": [

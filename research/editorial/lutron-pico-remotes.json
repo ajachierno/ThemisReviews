@@ -38,30 +38,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B00KLAXFQ0",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "The classic 3-button dimmer Pico: 4.8 stars from 2,849 reviews, $24.95, sold by Amazon."
-    },
-    {
-      "asin": "B00JR202JQ",
-      "label": "Best Wall Kit",
-      "kind": "budget",
-      "why": "Pico, bracket, and wallplate in one box for a no-wire 3-way switch, rated 4.9 stars."
-    },
-    {
-      "asin": "B07HM6L48C",
-      "label": "Best Starter Kit",
-      "kind": "special",
-      "why": "A Caseta dimmer, Pico, and bracket for a complete 3-way setup, with 3,057 reviews."
-    },
-    {
-      "asin": "B07NQDT39V",
-      "label": "Best for Ceiling Fans",
-      "kind": "premium",
-      "why": "Four fan speeds plus a favorite button, with a battery rated for about 10 years."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Wall Kit", "kind": "budget", "rule": {"type": "feature", "key": "mount"}},
+    {"label": "Best Starter Kit", "kind": "special", "rule": {"type": "feature", "key": "bundle"}}
   ],
   "products": [
     {

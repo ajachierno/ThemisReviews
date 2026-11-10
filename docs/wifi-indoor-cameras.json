@@ -37,28 +37,28 @@
    "asin": "B0D7XPXCSL",
    "name": "Tapo C211 (2-pack)",
    "price": 44.99,
-   "why": "Two 2K pan-and-tilt cameras with microSD recording for $44.99, 3K+ bought last month."
+   "why": "Highest score on the page (96): 4.5 stars from 23,540 reviews, $44.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0866S3D82",
-   "name": "Tapo C100",
-   "price": 17.98,
-   "why": "A 1080p camera with microSD storage for $17.98 and 29,359 reviews."
+   "asin": "B0BXMSS8Z7",
+   "name": "Kasa EC71",
+   "price": 20.99,
+   "why": "Highest score (86) among the cheapest third of picks (up to $22.50 each): 4.4 stars from 34,557 reviews, $20.99."
   },
   {
    "label": "Best for Alexa and Ring",
-   "asin": "B0B6GLQJMV",
-   "name": "Ring Indoor Cam (newest)",
-   "price": 49.99,
-   "why": "47,228 reviews at 4.7 stars, and it fits straight into a Ring setup."
-  },
-  {
-   "label": "Best No Subscription",
    "asin": "B0DJVGZQW7",
    "name": "eufy Indoor Cam E30 (4K)",
    "price": 54.98,
-   "why": "4K with local storage, no subscription, and Apple HomeKit support."
+   "why": "Highest score (95) among picks that work with Amazon Alexa: 4.4 stars from 2,585 reviews, $54.98."
+  },
+  {
+   "label": "Best No Subscription",
+   "asin": "B0F5KGHSHF",
+   "name": "Tapo C260 (4K)",
+   "price": 59.99,
+   "why": "Highest score of the picks that fit this award (96): 4.6 stars from 748 reviews, $59.99."
   }
  ],
  "systems_note": "Ring, Blink, and Reolink cameras also have official Home Assistant integrations.",
@@ -126,7 +126,9 @@
    "rating": 4.6,
    "reviews_count": 748,
    "score": 96,
-   "awards": [],
+   "awards": [
+    "Best No Subscription"
+   ],
    "works_with": [],
    "works_with_note": "Tapo app (no assistants listed)",
    "works_without": {
@@ -173,7 +175,7 @@
    "reviews_count": 2585,
    "score": 95,
    "awards": [
-    "Best No Subscription"
+    "Best for Alexa and Ring"
    ],
    "works_with": [
     "Apple Home",
@@ -323,7 +325,9 @@
    "rating": 4.4,
    "reviews_count": 34557,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -420,9 +424,7 @@
    "rating": 4.4,
    "reviews_count": 29359,
    "score": 78,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -471,9 +473,7 @@
    "rating": 4.7,
    "reviews_count": 47228,
    "score": 72,
-   "awards": [
-    "Best for Alexa and Ring"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -556,7 +556,10 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Budget: Kasa EC71.",
+    "New Best for Alexa and Ring: eufy Indoor Cam E30 (4K).",
+    "New Best No Subscription: Tapo C260 (4K)."
    ]
   },
   {

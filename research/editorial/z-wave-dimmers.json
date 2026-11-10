@@ -52,30 +52,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0921T7L2V",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "800 Series Long Range, 3-, 4-, or 5-way with your existing switches, and Zooz says it handles LEDs that flicker on other dimmers."
-    },
-    {
-      "asin": "B0FX36Z8VN",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "The cheapest 800 Series Long Range dimmer here, and it works with one standard 3-way switch."
-    },
-    {
-      "asin": "B09VCPYSKH",
-      "label": "Best Toggle",
-      "kind": "special",
-      "why": "A Long Range toggle dimmer with direct 3-way, for rooms with toggle switches."
-    },
-    {
-      "asin": "B0D2DQXBC2",
-      "label": "Best Name Brand",
-      "kind": "premium",
-      "why": "Leviton's 800 Series Decora dimmer with fade rates, preset levels, and LED fine-tuning, sold by Amazon."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

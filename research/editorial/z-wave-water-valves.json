@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B09G82YM3B",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A strong valve actuator with a leak sensor in the box and no tools needed."
-    },
-    {
-      "asin": "B07DJZCFBH",
-      "label": "Best Rated",
-      "kind": "special",
-      "why": "The Bulldog Valve Robot, rated 4.7 stars by 281 buyers."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Rated", "kind": "special", "rule": {"type": "top_rating"}}
   ],
   "products": [
     {

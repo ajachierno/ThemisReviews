@@ -13,7 +13,7 @@
  },
  "product_type": "Sprinklers and timers",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B07CZ864Y9",
    "name": "Rachio Rachio 3 (8-zone)",
    "price": 180.79,
-   "why": "The best-known smart sprinkler controller, with weather skips for rain, wind, and freeze, rated 4.5 stars by 8,460 buyers."
+   "why": "Highest score on the page (90): 4.5 stars from 8,460 reviews, $180.79."
   },
   {
    "label": "Best Budget",
-   "asin": "B07DJ2QTW9",
-   "name": "Orbit B-hyve 4-zone indoor (57915)",
-   "price": 77.98,
-   "why": "A $77.98 B-hyve controller with Wi-Fi and Bluetooth for smaller 4-zone yards, rated 4.5 stars."
+   "asin": "B0F883P8N1",
+   "name": "HiOazo 4-zone Wi-Fi controller",
+   "price": 39.99,
+   "why": "Highest score (77) among the cheapest third of picks (up to $77.98 each): 4.2 stars from 462 reviews, $39.99."
   },
   {
    "label": "Best Outdoor",
    "asin": "B01D15HOTU",
    "name": "Orbit B-hyve 12-zone indoor/outdoor",
    "price": 116.56,
-   "why": "A weatherproof 12-zone B-hyve that mounts outside, sold by Amazon."
+   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,908 reviews, $116.56."
   },
   {
    "label": "Best for Big Yards",
    "asin": "B07CZ5K355",
    "name": "Rachio Rachio 3 (16-zone)",
    "price": 208.99,
-   "why": "The 16-zone Rachio 3, sold by Amazon."
+   "why": "Highest score (90) among picks with zones: 4.5 stars from 3,126 reviews, $208.99."
   }
  ],
  "systems_note": "Rachio and Rain Bird also have official Home Assistant integrations.",
@@ -280,7 +280,9 @@
    "rating": 4.2,
    "reviews_count": 462,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "HiOazo app",
    "works_without": {
@@ -468,9 +470,7 @@
    "rating": 4.5,
    "reviews_count": 3763,
    "score": 70,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "B-hyve app",
    "works_without": {
@@ -523,6 +523,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: HiOazo 4-zone Wi-Fi controller."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

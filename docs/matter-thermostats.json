@@ -13,7 +13,7 @@
  },
  "product_type": "Thermostats",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08HRWWCTR",
-   "name": "Google Nest Thermostat",
-   "price": 89.99,
-   "why": "Nearly 30,000 reviews, Matter support, and a price that leaves room for other upgrades."
+   "asin": "B0G25F5XC1",
+   "name": "Aqara Smart Thermostat W200",
+   "price": 159.99,
+   "why": "Highest score on the page (84): 4.1 stars from 269 reviews, $159.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0D8SW5B2G",
-   "name": "meross Matter smart thermostat",
-   "price": 59.99,
-   "why": "$59.99 for a Matter thermostat that works with Apple Home, Alexa, Google, and SmartThings."
+   "asin": "B0FCY3Z1S5",
+   "name": "meross Matter baseboard thermostat",
+   "price": 79.99,
+   "why": "Highest score (76) among the cheapest third of picks (up to $79.99 each): 4.4 stars from 114 reviews, $79.99."
   },
   {
    "label": "Most Capable",
    "asin": "B0D5BGST5N",
    "name": "Google Nest Learning Thermostat (4th gen)",
    "price": 219.99,
-   "why": "Nest's learning thermostat with a room sensor included, 2K+ bought last month."
-  },
-  {
-   "label": "Best for Baseboard Heat",
-   "asin": "B0FCY3Z1S5",
-   "name": "meross Matter baseboard thermostat",
-   "price": 79.99,
-   "why": "A line-voltage Matter thermostat for electric baseboard heaters, rated 4.4 stars."
+   "why": "Most of this page's scored features: 4.4 stars from 2,684 reviews, $219.99."
   }
  ],
  "systems_note": null,
@@ -74,7 +67,9 @@
    "rating": 4.1,
    "reviews_count": 269,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -186,7 +181,7 @@
    "reviews_count": 114,
    "score": 76,
    "awards": [
-    "Best for Baseboard Heat"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -241,9 +236,7 @@
    "rating": 4.1,
    "reviews_count": 29801,
    "score": 67,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -352,9 +345,7 @@
    "rating": 3.8,
    "reviews_count": 762,
    "score": 64,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -468,6 +459,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Aqara Smart Thermostat W200.",
+    "New Best Budget: meross Matter baseboard thermostat."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

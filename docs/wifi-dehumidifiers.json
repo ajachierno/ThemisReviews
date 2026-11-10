@@ -13,7 +13,7 @@
  },
  "product_type": "Dehumidifiers",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07NRDBBH5",
-   "name": "Midea 22 Pint Dehumidifier",
-   "price": 194.99,
-   "why": "Rated 4.4 stars by 7,235 buyers, with Wi-Fi, Alexa, Google, and Energy Star."
-  },
-  {
-   "label": "Best for Large Basements",
-   "asin": "B073VBWKJZ",
-   "name": "hOmeLabs 50 Pint Dehumidifier (7,000 sq. ft.)",
-   "price": 269.99,
-   "why": "50 pints for spaces up to 7,000 sq. ft., with 53,014 reviews."
-  },
-  {
-   "label": "Best With a Pump",
    "asin": "B0GL7R3RJV",
    "name": "Midea 50 Pint Dehumidifier with Pump",
    "price": 270.03,
-   "why": "A built-in pump pushes water up into a sink, so you never empty a bucket."
+   "why": "Highest score on the page (93): 4.2 stars from 171 reviews, $270.03."
+  },
+  {
+   "label": "Best for Large Basements",
+   "asin": "B0GL7QFBJ9",
+   "name": "Midea 50 Pint Dehumidifier",
+   "price": 219.99,
+   "why": "Highest score of the picks that fit this award (88): 4.4 stars from 263 reviews, $219.99."
+  },
+  {
+   "label": "Best With a Pump",
+   "asin": "B0GWQDR1PK",
+   "name": "ALORAIR Smart Wi-Fi 70 Pint Crawlspace",
+   "price": 449.36,
+   "why": "Highest score of the picks that fit this award (78): 4.0 stars from 162 reviews, $449.36."
   },
   {
    "label": "Best Compact",
-   "asin": "B08ZMY8BC8",
-   "name": "Midea Cube 20 Pint",
-   "price": 189.91,
-   "why": "Midea's Cube stacks its bucket underneath to save floor space."
+   "asin": "B07NRDBBH5",
+   "name": "Midea 22 Pint Dehumidifier",
+   "price": 194.99,
+   "why": "Highest score of the picks that fit this award (82): 4.4 stars from 7,235 reviews, $194.99."
   }
  ],
  "systems_note": "LG ThinQ appliances have an official Home Assistant integration.",
@@ -76,7 +76,7 @@
    "reviews_count": 171,
    "score": 93,
    "awards": [
-    "Best With a Pump"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -127,7 +127,9 @@
    "rating": 4.4,
    "reviews_count": 263,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best for Large Basements"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -178,7 +180,7 @@
    "reviews_count": 7235,
    "score": 82,
    "awards": [
-    "Best Overall"
+    "Best Compact"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -325,9 +327,7 @@
    "rating": 4.0,
    "reviews_count": 2572,
    "score": 78,
-   "awards": [
-    "Best Compact"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -427,7 +427,9 @@
    "rating": 4.0,
    "reviews_count": 162,
    "score": 78,
-   "awards": [],
+   "awards": [
+    "Best With a Pump"
+   ],
    "works_with": [],
    "works_with_note": "ALORAIR app",
    "works_without": {
@@ -474,9 +476,7 @@
    "rating": 4.5,
    "reviews_count": 53014,
    "score": 77,
-   "awards": [
-    "Best for Large Basements"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "hOmeLabs app",
    "works_without": {
@@ -578,6 +578,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Midea 50 Pint Dehumidifier with Pump.",
+    "New Best for Large Basements: Midea 50 Pint Dehumidifier.",
+    "New Best With a Pump: ALORAIR Smart Wi-Fi 70 Pint Crawlspace.",
+    "New Best Compact: Midea 22 Pint Dehumidifier."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

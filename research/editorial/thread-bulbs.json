@@ -37,18 +37,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DN63SFWL",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Aqara's T2 color bulb runs on Thread or Zigbee, 300+ bought last month."
-    },
-    {
-      "asin": "B0DN1542G5",
-      "label": "Best White Bulb",
-      "kind": "special",
-      "why": "The tunable white T2 at 1,100 lm for $21.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best White Bulb", "kind": "special", "rule": {"type": "feature", "key": "bright"}}
   ],
   "products": [
     {

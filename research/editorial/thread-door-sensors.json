@@ -39,24 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BZSY26WP",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Eve's Matter-over-Thread contact sensor, local-only, rated 4.1 stars by 150 buyers, for $43.95."
-    },
-    {
-      "asin": "B0BTL8B72D",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Aqara's P2 joins Matter over Thread directly, no Aqara hub needed, for $27.99."
-    },
-    {
-      "asin": "B0G6ZH853W",
-      "label": "Best 2-in-1",
-      "kind": "special",
-      "why": "Detects doors opening and vibration, on Thread or Zigbee."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best 2-in-1", "kind": "special", "rule": {"type": "feature", "key": "dual"}}
   ],
   "products": [
     {

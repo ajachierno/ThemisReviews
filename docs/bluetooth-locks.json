@@ -13,7 +13,7 @@
  },
  "product_type": "Smart locks",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,24 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DCJYTLFX",
-   "name": "Veise VE017",
-   "price": 49.99,
-   "why": "A fingerprint deadbolt with 8 ways in, 3K+ bought last month, and a BHMA/ANSI certification claim, for $49.99."
-  },
-  {
-   "label": "Best with Handle",
    "asin": "B08D29XQS7",
    "name": "Sifely Fingerprint lock with handle",
    "price": 66.29,
-   "why": "Fingerprint, keypad, fob, and auto-lock in a handle set, with the most reviews here."
-  },
-  {
-   "label": "Best Name Brand",
-   "asin": "B0B9HY417C",
-   "name": "Yale Bluetooth keypad deadbolt",
-   "price": 140.88,
-   "why": "Yale's Bluetooth keypad deadbolt with Auto-Unlock and Apple Watch support, sold by Amazon."
+   "why": "Highest score on the page (95): 4.4 stars from 4,374 reviews, $66.29."
   }
  ],
  "systems_note": "Alexa and Google control on these locks needs the maker's Wi-Fi gateway, sold separately.",
@@ -68,7 +54,7 @@
    "reviews_count": 4374,
    "score": 95,
    "awards": [
-    "Best with Handle"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -219,9 +205,7 @@
    "rating": 4.3,
    "reviews_count": 1448,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -416,9 +400,7 @@
    "rating": 4.2,
    "reviews_count": 285,
    "score": 75,
-   "awards": [
-    "Best Name Brand"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Yale Access app (Bluetooth)",
    "works_without": {
@@ -495,6 +477,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Sifely Fingerprint lock with handle."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

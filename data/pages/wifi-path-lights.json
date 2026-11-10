@@ -53,28 +53,22 @@
   ],
   "awards": [
     {
-      "asin": "B0GQ3JNL38",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Govee's cylinder lights put out 425 lm each with IP67 fixtures and Wi-Fi plus Bluetooth control."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GQ3JNL38",
+      "why": "Highest score on the page (88): 4.4 stars from 92 reviews, $144.99."
     },
     {
-      "asin": "B0FQ3KX7FL",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Four RGBCW path lights with Alexa and Google for $65.87, rated 4.3 stars."
-    },
-    {
+      "rule": {
+        "type": "budget"
+      },
       "asin": "B0GKP32WT3",
-      "label": "Best Spotlights",
-      "kind": "special",
-      "why": "Six tunable-white landscape spotlights with Alexa and Google for $71.99."
-    },
-    {
-      "asin": "B0FWKP22YT",
-      "label": "Best with Matter",
-      "kind": "premium",
-      "why": "Govee's curved pathway lights with flowing color and Matter."
+      "why": "Highest score (79) among the cheapest third of picks (up to $16.47 each): 4.1 stars from 184 reviews, $71.99."
     }
   ],
   "products": [

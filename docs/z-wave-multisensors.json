@@ -13,7 +13,7 @@
  },
  "product_type": "Multisensors",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,17 +35,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08XHZP7NV",
-   "name": "Aeotec MultiSensor 7",
-   "price": 69.99,
-   "why": "Six readings in one 1.8-inch sensor, on batteries or USB."
-  },
-  {
-   "label": "Best for Home Assistant",
    "asin": "B09GDL6BGY",
    "name": "Zooz ZSE11 Q Sensor 800LR",
    "price": 46.95,
-   "why": "An 800 Series Long Range 4-in-1 that names Home Assistant and Hubitat."
+   "why": "Highest score on the page (80): 3.6 stars from 127 reviews, $46.95."
   }
  ],
  "systems_note": null,
@@ -62,7 +55,7 @@
    "reviews_count": 127,
    "score": 80,
    "awards": [
-    "Best for Home Assistant"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -114,9 +107,7 @@
    "rating": 3.8,
    "reviews_count": 113,
    "score": 76,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -275,6 +266,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Zooz ZSE11 Q Sensor 800LR."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

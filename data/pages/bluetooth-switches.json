@@ -65,16 +65,23 @@
   ],
   "awards": [
     {
-      "asin": "B07NWBD7YB",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A GE Cync in-wall paddle with built-in Wi-Fi for remote and voice control, for about $23."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DX7762RF",
+      "why": "Highest score on the page (83): 4.1 stars from 133 reviews, $24.99."
     },
     {
-      "asin": "B0FBDR3HCC",
       "label": "Best Local-Only",
       "kind": "premium",
-      "why": "Pure Bluetooth control with no router or hub needed, and two circuits in one gang."
+      "rule": {
+        "type": "feature",
+        "key": "local_bluetooth"
+      },
+      "asin": "B0FBDR3HCC",
+      "why": "Highest score (68) among picks with works without internet: 4.1 stars from 10 reviews, $20.99."
     }
   ],
   "products": [

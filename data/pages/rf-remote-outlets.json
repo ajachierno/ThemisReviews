@@ -49,28 +49,32 @@
   ],
   "awards": [
     {
-      "asin": "B01NASZ0UM",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Three outlets and a remote for $15.99, rated 4.7 stars by 24,853 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B082TX3CV1",
+      "why": "Highest score on the page (96): 4.5 stars from 9,762 reviews, $12.99."
     },
     {
-      "asin": "B07D2BY7VY",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A compact remote outlet for $9.98, rated 4.7 stars."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B09X2W2TRT",
+      "why": "Highest score (84) among the cheapest third of picks (up to $12.99 each): 4.7 stars from 2,966 reviews, $9.99."
     },
     {
-      "asin": "B082TX3CV1",
-      "label": "Best Outdoor",
-      "kind": "special",
-      "why": "Weatherproof remote outlets rated 15 A, with 9,762 reviews."
-    },
-    {
-      "asin": "B07CY8RSBF",
       "label": "Best Whole-Room Kit",
       "kind": "premium",
-      "why": "Five mini outlets and two remotes for lamps around a room."
+      "rule": {
+        "type": "feature",
+        "key": "kit"
+      },
+      "asin": "B01N23GRYD",
+      "why": "Highest score (86) among picks with in the box: 4.7 stars from 29,992 reviews, $25.64."
     }
   ],
   "products": [

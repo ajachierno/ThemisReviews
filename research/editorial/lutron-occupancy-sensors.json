@@ -29,18 +29,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B084CMPWST",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Turns Caseta lights on and off automatically, with a 10-year battery and 961 reviews."
-    },
-    {
-      "asin": "B084CMP3Q6",
-      "label": "Best for Bedrooms",
-      "kind": "special",
-      "why": "Vacancy mode: you switch lights on, it turns them off when you leave."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Bedrooms", "kind": "special", "rule": {"type": "feature", "key": "auto_on", "value": false}}
   ],
   "products": [
     {

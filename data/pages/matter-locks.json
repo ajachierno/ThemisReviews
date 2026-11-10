@@ -67,28 +67,31 @@
   ],
   "awards": [
     {
-      "asin": "B0FQC6VCDW",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Fingerprint, built-in Wi-Fi, and Matter over Thread for $84.99, with over 10,000 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0FQC6VCDW",
+      "why": "Highest score on the page (85): 4.3 stars from 10,380 reviews, $84.99."
     },
     {
-      "asin": "B0CZNZGGS7",
       "label": "Best Budget Home Key",
       "kind": "budget",
-      "why": "Apple Home Key tap-to-unlock for $119.99, with Matter through Aqara's hub."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CZNZGGS7",
+      "why": "Highest score (75) among the cheapest third of picks (up to $129.99 each): 4.0 stars from 684 reviews, $119.99."
     },
     {
-      "asin": "B0F8RC3YRF",
-      "label": "Best Retrofit",
-      "kind": "special",
-      "why": "Replaces only the deadbolt inside your door, so you keep your keys and hardware."
-    },
-    {
-      "asin": "B0FRS6T6HL",
       "label": "Most Advanced",
       "kind": "premium",
-      "why": "UWB hands-free unlocking that senses you approaching, plus fingerprint and Home Key."
+      "rule": {
+        "type": "most_features"
+      },
+      "asin": "B0FP7PBL1F",
+      "why": "Most of this page's scored features: 3.4 stars from 107 reviews, $309.00."
     }
   ],
   "products": [

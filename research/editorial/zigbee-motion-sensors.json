@@ -52,30 +52,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0C1GB4DVR",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Fast 5-second detection, a 3-year battery, 903 reviews, and $16.50."
-    },
-    {
-      "asin": "B08RRRWK6B",
-      "label": "Best for Alexa",
-      "kind": "special",
-      "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,285)."
-    },
-    {
-      "asin": "B0CNGKFG9Y",
-      "label": "Best Presence Sensor",
-      "kind": "special",
-      "why": "Radar presence detection that keeps the lights on while you sit still, for $17.90."
-    },
-    {
-      "asin": "B0FG2MD3YP",
-      "label": "Most Capable",
-      "kind": "premium",
-      "why": "PIR plus 60 GHz mmWave in a wireless 5-in-1 sensor that runs on Zigbee or Matter over Thread."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Presence Sensor", "kind": "special", "rule": {"type": "feature", "key": "presence"}},
+    {"label": "Most Capable", "kind": "premium", "rule": {"type": "most_features"}}
   ],
   "products": [
     {

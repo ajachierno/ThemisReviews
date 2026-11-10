@@ -13,7 +13,7 @@
  },
  "product_type": "Motion sensors",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0C1GB4DVR",
-   "name": "SONOFF SNZB-03P",
-   "price": 16.5,
-   "why": "Fast 5-second detection, a 3-year battery, 903 reviews, and $16.50."
-  },
-  {
-   "label": "Best for Alexa",
-   "asin": "B08RRRWK6B",
-   "name": "THIRDREALITY Zigbee motion sensor",
-   "price": 17.99,
-   "why": "Pairs straight to Echo hubs with Zigbee, is pet friendly, and has the most reviews here (1,285)."
+   "asin": "B0GZVPQQRX",
+   "name": "SONOFF SNZB-06P24",
+   "price": 24.9,
+   "why": "Highest score on the page (82): 3.8 stars from 219 reviews, $24.90."
   },
   {
    "label": "Best Presence Sensor",
-   "asin": "B0CNGKFG9Y",
-   "name": "SONOFF SNZB-06P",
-   "price": 17.9,
-   "why": "Radar presence detection that keeps the lights on while you sit still, for $17.90."
-  },
-  {
-   "label": "Most Capable",
    "asin": "B0FG2MD3YP",
    "name": "Aqara Presence Sensor FP300",
    "price": 46.99,
-   "why": "PIR plus 60 GHz mmWave in a wireless 5-in-1 sensor that runs on Zigbee or Matter over Thread."
+   "why": "Highest score (81) among picks with detects still people: 3.7 stars from 969 reviews, $46.99."
+  },
+  {
+   "label": "Most Capable",
+   "asin": "B0D5QPH3T6",
+   "name": "Aqara Presence Sensor FP1E",
+   "price": 42.99,
+   "why": "Most of this page's scored features: 4.0 stars from 502 reviews, $42.99."
   }
  ],
  "systems_note": null,
@@ -74,7 +67,9 @@
    "rating": 3.8,
    "reviews_count": 219,
    "score": 82,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -128,7 +123,7 @@
    "reviews_count": 969,
    "score": 81,
    "awards": [
-    "Most Capable"
+    "Best Presence Sensor"
    ],
    "works_with": [
     "Home Assistant",
@@ -237,9 +232,7 @@
    "rating": 4.3,
    "reviews_count": 903,
    "score": 76,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -291,7 +284,9 @@
    "rating": 4.0,
    "reviews_count": 502,
    "score": 76,
-   "awards": [],
+   "awards": [
+    "Most Capable"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -345,9 +340,7 @@
    "rating": 4.0,
    "reviews_count": 501,
    "score": 76,
-   "awards": [
-    "Best Presence Sensor"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -501,9 +494,7 @@
    "rating": 3.9,
    "reviews_count": 1285,
    "score": 65,
-   "awards": [
-    "Best for Alexa"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -614,6 +605,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SONOFF SNZB-06P24.",
+    "New Best Presence Sensor: Aqara Presence Sensor FP300.",
+    "New Most Capable: Aqara Presence Sensor FP1E."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

@@ -13,7 +13,7 @@
  },
  "product_type": "Smart scales",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09HCJD6H1",
-   "name": "Etekcity Smart Scale (Wi-Fi, color display)",
-   "price": 63.99,
-   "why": "Etekcity's Wi-Fi scale has 187,465 reviews, a color display, and Alexa."
+   "asin": "B0H6FPSYXM",
+   "name": "Etekcity WiFi 8-Electrode Smart Scale",
+   "price": 169.99,
+   "why": "Highest score on the page (97): 4.7 stars from 153,229 reviews, $169.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0DHTYQ4KJ",
-   "name": "Wyze Scale Ultra",
-   "price": 49.98,
-   "why": "A Wi-Fi and Bluetooth scale with a 4.3-inch display for $49.98."
+   "asin": "B09HCJD6H1",
+   "name": "Etekcity Smart Scale (Wi-Fi, color display)",
+   "price": 63.99,
+   "why": "Highest score (91) among the cheapest third of picks (up to $63.99 each): 4.7 stars from 187,465 reviews, $63.99."
   },
   {
    "label": "Best Body Composition",
-   "asin": "B0FS764RQ4",
-   "name": "Wyze Scale Ultra BodyScan",
-   "price": 119.98,
-   "why": "Wyze's handle scale measures 44 metrics with 8 electrodes and syncs over Wi-Fi."
-  },
-  {
-   "label": "Best for Heart Health",
-   "asin": "B0C3JNJPZ7",
-   "name": "Withings Body Smart",
-   "price": 129.95,
-   "why": "Withings Body Smart is clinically validated and checks your heart rate at every weigh-in."
+   "asin": "B0GYP37RZW",
+   "name": "RENPHO Smart Scale with Handle Display",
+   "price": 159.99,
+   "why": "Highest score of the picks that fit this award (94): 4.3 stars from 1,724 reviews, $159.99."
   }
  ],
  "systems_note": "Only Wi-Fi scales are included, so readings sync without your phone nearby. Many popular scales are Bluetooth only.",
@@ -75,7 +68,9 @@
    "rating": 4.7,
    "reviews_count": 153229,
    "score": 97,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "VeSync app",
    "works_without": {
@@ -122,7 +117,9 @@
    "rating": 4.3,
    "reviews_count": 1724,
    "score": 94,
-   "awards": [],
+   "awards": [
+    "Best Body Composition"
+   ],
    "works_with": [],
    "works_with_note": "RENPHO Health app",
    "works_without": {
@@ -170,7 +167,7 @@
    "reviews_count": 187465,
    "score": 91,
    "awards": [
-    "Best Overall"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa"
@@ -220,9 +217,7 @@
    "rating": 4.6,
    "reviews_count": 24652,
    "score": 90,
-   "awards": [
-    "Best Body Composition"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Wyze app",
    "works_without": {
@@ -316,9 +311,7 @@
    "rating": 4.4,
    "reviews_count": 1617,
    "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Wyze app",
    "works_without": {
@@ -365,9 +358,7 @@
    "rating": 4.2,
    "reviews_count": 39878,
    "score": 80,
-   "awards": [
-    "Best for Heart Health"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Withings app",
    "works_without": {
@@ -420,6 +411,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Etekcity WiFi 8-Electrode Smart Scale.",
+    "New Best Budget: Etekcity Smart Scale (Wi-Fi, color display).",
+    "New Best Body Composition: RENPHO Smart Scale with Handle Display."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

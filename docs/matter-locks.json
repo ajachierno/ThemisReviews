@@ -13,7 +13,7 @@
  },
  "product_type": "Smart locks",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,28 +37,21 @@
    "asin": "B0FQC6VCDW",
    "name": "ULTRALOQ Bolt SE",
    "price": 84.99,
-   "why": "Fingerprint, built-in Wi-Fi, and Matter over Thread for $84.99, with over 10,000 reviews."
+   "why": "Highest score on the page (85): 4.3 stars from 10,380 reviews, $84.99."
   },
   {
    "label": "Best Budget Home Key",
    "asin": "B0CZNZGGS7",
    "name": "Aqara Smart Lock U50",
    "price": 119.99,
-   "why": "Apple Home Key tap-to-unlock for $119.99, with Matter through Aqara's hub."
-  },
-  {
-   "label": "Best Retrofit",
-   "asin": "B0F8RC3YRF",
-   "name": "Level Bolt",
-   "price": 199.0,
-   "why": "Replaces only the deadbolt inside your door, so you keep your keys and hardware."
+   "why": "Highest score (75) among the cheapest third of picks (up to $129.99 each): 4.0 stars from 684 reviews, $119.99."
   },
   {
    "label": "Most Advanced",
-   "asin": "B0FRS6T6HL",
-   "name": "Aqara Smart Lock U400 (UWB)",
-   "price": 269.99,
-   "why": "UWB hands-free unlocking that senses you approaching, plus fingerprint and Home Key."
+   "asin": "B0FP7PBL1F",
+   "name": "Kwikset Halo Select Plus",
+   "price": 309.0,
+   "why": "Most of this page's scored features: 3.4 stars from 107 reviews, $309.00."
   }
  ],
  "systems_note": null,
@@ -131,9 +124,7 @@
    "rating": 4.1,
    "reviews_count": 467,
    "score": 83,
-   "awards": [
-    "Most Advanced"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -188,7 +179,9 @@
    "rating": 3.4,
    "reviews_count": 107,
    "score": 78,
-   "awards": [],
+   "awards": [
+    "Most Advanced"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -517,9 +510,7 @@
    "rating": 3.5,
    "reviews_count": 84,
    "score": 59,
-   "awards": [
-    "Best Retrofit"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -579,6 +570,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Most Advanced: Kwikset Halo Select Plus."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

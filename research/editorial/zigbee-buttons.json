@@ -38,30 +38,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B08W8GLPD5",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "4.7 stars from 4,038 reviews, a magnetic wall plate, and 3K+ bought last month."
-    },
-    {
-      "asin": "B07D19YXND",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $15.90 button with single, double, and long press, 3,102 reviews."
-    },
-    {
-      "asin": "B0G2LNPCP7",
-      "label": "Best for Home Assistant",
-      "kind": "special",
-      "why": "Four buttons, 16 actions, and direct Zigbee binding in ZHA and Zigbee2MQTT."
-    },
-    {
-      "asin": "B0B6LDPZ5M",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Four scene buttons plus a rotary dial for dimming, rated 4.7 stars."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Home Assistant", "kind": "special", "rule": {"type": "system", "key": "home-assistant"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FDKVJNXB",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "PETLIBRO's cordless Dockstream 2 weighs every sip and runs up to a month per charge, rated 4.2 stars by 4,617 buyers."
-    },
-    {
-      "asin": "B0GX5JWR3P",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Hydration tracking and water-level alerts for $69.99, sold by Amazon."
-    },
-    {
-      "asin": "B0FHQC19RV",
-      "label": "Best Cordless",
-      "kind": "special",
-      "why": "A 5,000 mAh battery, dishwasher-safe parts, and a motion-sensor mode that stretches each charge, for $84.99."
-    },
-    {
-      "asin": "B0GWJ2QWXF",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "A 5 L filterless fountain with a built-in AI camera to watch your pet drink."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Cordless", "kind": "special", "rule": {"type": "feature", "key": "cordless"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

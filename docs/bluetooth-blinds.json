@@ -13,7 +13,7 @@
  },
  "product_type": "Blinds and shades",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,24 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0C6XZYFS7",
-   "name": "SwitchBot Curtain 3 (U Rail)",
-   "price": 89.99,
-   "why": "SwitchBot Curtain 3 for U-rails, rated 4.5 stars by 516 buyers."
-  },
-  {
-   "label": "Best for Blinds",
-   "asin": "B0BMLFZ4CP",
-   "name": "SwitchBot Blind Tilt",
-   "price": 59.99,
-   "why": "Solar tilt motor for existing horizontal blinds, 1,464 reviews."
-  },
-  {
-   "label": "Best Starter Kit",
    "asin": "B0FKH3PQT1",
    "name": "SwitchBot Curtain opener 2-pack + Hub Mini",
    "price": 199.99,
-   "why": "Two curtain openers with a Hub Mini, so voice control works out of the box."
+   "why": "Highest score on the page (82): 4.3 stars from 55 reviews, $199.99."
   }
  ],
  "systems_note": "SwitchBot curtains and blinds run on Bluetooth. Add a SwitchBot hub (Hub Mini, Hub 2, or Hub 3) for Alexa, Google, SmartThings, and remote control, and a Matter-capable hub for Apple Home. Home Assistant controls them locally over Bluetooth.",
@@ -68,7 +54,7 @@
    "reviews_count": 55,
    "score": 82,
    "awards": [
-    "Best Starter Kit"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -171,9 +157,7 @@
    "rating": 4.4,
    "reviews_count": 1464,
    "score": 77,
-   "awards": [
-    "Best for Blinds"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -326,9 +310,7 @@
    "rating": 4.5,
    "reviews_count": 516,
    "score": 70,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -536,6 +518,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SwitchBot Curtain opener 2-pack + Hub Mini."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

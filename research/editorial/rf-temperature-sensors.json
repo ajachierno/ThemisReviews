@@ -47,24 +47,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B06XKH666P",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A display and outdoor sensor with 500 ft. range, 36,207 reviews, and 7K+ bought last month, for $18.98."
-    },
-    {
-      "asin": "B00T0K8NXC",
-      "label": "Best Replacement Sensor",
-      "kind": "special",
-      "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,126 reviews, sold by Amazon."
-    },
-    {
-      "asin": "B09R1TP7HF",
-      "label": "Best Multi-Room Kit",
-      "kind": "premium",
-      "why": "A display with three 433 MHz sensors for four locations at once, for $23.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Multi-Room Kit", "kind": "premium", "rule": {"type": "feature", "key": "multi_sensor"}}
   ],
   "products": [
     {

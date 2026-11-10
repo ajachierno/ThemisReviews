@@ -13,7 +13,7 @@
  },
  "product_type": "Temperature sensors",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DWSK5H33",
-   "name": "Aqara Climate Sensor W100",
-   "price": 36.99,
-   "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 300+ bought last month."
-  },
-  {
-   "label": "Best Multi-Room Kit",
    "asin": "B0CCP6HLN5",
    "name": "SwitchBot 4 outdoor sensors + Hub 2 (Matter)",
    "price": 88.39,
-   "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,267 reviews."
+   "why": "Highest score on the page (87): 4.2 stars from 10,267 reviews, $88.39."
   },
   {
    "label": "Best Outdoor",
    "asin": "B0D81BVH6P",
    "name": "Eve Weather (Matter)",
    "price": 87.95,
-   "why": "Eve Weather adds barometric pressure and a weather trend for outside your door."
+   "why": "Highest score of the picks that fit this award (82): 3.6 stars from 74 reviews, $87.95."
   }
  ],
  "systems_note": null,
@@ -69,7 +62,7 @@
    "reviews_count": 10267,
    "score": 87,
    "awards": [
-    "Best Multi-Room Kit"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -125,9 +118,7 @@
    "rating": 3.8,
    "reviews_count": 146,
    "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -385,6 +376,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SwitchBot 4 outdoor sensors + Hub 2 (Matter)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

@@ -65,28 +65,42 @@
   ],
   "awards": [
     {
-      "asin": "B0GD6ND4C7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Battery or USB power, Bluetooth-assisted pairing, and Alexa, Google, and SmartThings triggers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CNRRT45G",
+      "why": "Highest score on the page (83): 3.9 stars from 263 reviews, $39.99."
     },
     {
-      "asin": "B0DDBR4Z9V",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$12.99 with Alexa routine support and Tuya automations."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CLY75LMK",
+      "why": "Highest score (69) among the cheapest third of picks (up to $13.99 each): 3.5 stars from 990 reviews, $13.99."
     },
     {
-      "asin": "B0CNRRT45G",
       "label": "Best Presence Sensor",
       "kind": "special",
-      "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 100+ bought last month."
+      "rule": {
+        "type": "feature",
+        "key": "presence"
+      },
+      "asin": "B0H2QYVWZ7",
+      "why": "Highest score (75) among picks with detects still people: 4.4 stars from 41 reviews, $26.99."
     },
     {
-      "asin": "B0H2QYVWZ7",
       "label": "Best for Home Assistant",
       "kind": "premium",
-      "why": "A local ESP32 mmWave presence and light sensor built for Home Assistant, rated 4.4 stars."
+      "rule": {
+        "type": "system",
+        "key": "home-assistant"
+      },
+      "asin": "B0CQR8TDZV",
+      "why": "Highest score (69) among picks that work with Home Assistant: 3.5 stars from 990 reviews, $39.99."
     }
   ],
   "products": [

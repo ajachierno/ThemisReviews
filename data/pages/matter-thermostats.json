@@ -56,28 +56,31 @@
   ],
   "awards": [
     {
-      "asin": "B08HRWWCTR",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Nearly 30,000 reviews, Matter support, and a price that leaves room for other upgrades."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0G25F5XC1",
+      "why": "Highest score on the page (84): 4.1 stars from 269 reviews, $159.99."
     },
     {
-      "asin": "B0D8SW5B2G",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$59.99 for a Matter thermostat that works with Apple Home, Alexa, Google, and SmartThings."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0FCY3Z1S5",
+      "why": "Highest score (76) among the cheapest third of picks (up to $79.99 each): 4.4 stars from 114 reviews, $79.99."
     },
     {
-      "asin": "B0D5BGST5N",
       "label": "Most Capable",
       "kind": "premium",
-      "why": "Nest's learning thermostat with a room sensor included, 2K+ bought last month."
-    },
-    {
-      "asin": "B0FCY3Z1S5",
-      "label": "Best for Baseboard Heat",
-      "kind": "special",
-      "why": "A line-voltage Matter thermostat for electric baseboard heaters, rated 4.4 stars."
+      "rule": {
+        "type": "most_features"
+      },
+      "asin": "B0D5BGST5N",
+      "why": "Most of this page's scored features: 4.4 stars from 2,684 reviews, $219.99."
     }
   ],
   "products": [

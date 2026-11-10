@@ -46,22 +46,32 @@
   ],
   "awards": [
     {
-      "asin": "B0BXFBH6JR",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A dedicated Zigbee repeater for SmartThings, Home Assistant, and other hubs, rated 4.5 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BXFBH6JR",
+      "why": "Highest score on the page (90): 4.5 stars from 182 reviews, $29.49."
     },
     {
-      "asin": "B0BPY2KRHH",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $12.99 power-monitoring plug that doubles as a repeater."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BPY2KRHH",
+      "why": "Highest score (87) among the cheapest third of picks (up to $14.99 each): 4.4 stars from 276 reviews, $12.99."
     },
     {
-      "asin": "B0C9LNXYLL",
       "label": "Best Multi-Use",
       "kind": "special",
-      "why": "A repeater that's also a motion sensor, light sensor, and color night light."
+      "rule": {
+        "type": "feature",
+        "key": "bonus"
+      },
+      "asin": "B0G4VZB6NC",
+      "why": "Highest score of the picks that fit this award (84): 4.3 stars from 71 reviews, $14.99."
     }
   ],
   "products": [

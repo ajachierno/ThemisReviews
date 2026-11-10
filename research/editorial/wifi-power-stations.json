@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0D7PPG25F",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Jackery's Explorer 1000 v2 is rated 4.7 stars by 3,731 buyers and charges in about an hour from the app's emergency mode."
-    },
-    {
-      "asin": "B0HD6GN86Q",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "1 kWh with a 10 ms UPS for $429.00, in the smallest footprint here."
-    },
-    {
-      "asin": "B0FQV6LMVX",
-      "label": "Best for Home Backup",
-      "kind": "premium",
-      "why": "2,048 Wh and 2,400 W with a 10 ms transfer and app power scheduling."
-    },
-    {
-      "asin": "B0GWGSKN54",
-      "label": "Best Solar Kit",
-      "kind": "special",
-      "why": "Anker's C1000 Gen 2 with a 200 W panel, 2,000 W output, and time-of-use scheduling."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Home Backup", "kind": "premium", "rule": {"type": "feature", "key": "ups"}}
   ],
   "products": [
     {

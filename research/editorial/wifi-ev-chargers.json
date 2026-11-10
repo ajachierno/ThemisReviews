@@ -31,24 +31,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CKKPTDPK",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A 48 A hardwired charger that is UL listed and ENERGY STAR certified, rated 4.8 stars by 512 buyers."
-    },
-    {
-      "asin": "B0CG8D445Q",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $189.99 Wi-Fi charger with scheduling, rated 4.6 stars by 1,364 buyers."
-    },
-    {
-      "asin": "B0C6YMS4KH",
-      "label": "Best Known Brand",
-      "kind": "premium",
-      "why": "ChargePoint's 50 A HomeFlex, with 2,331 reviews and access to its public charging network in the same app."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

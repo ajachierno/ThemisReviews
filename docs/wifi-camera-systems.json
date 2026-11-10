@@ -13,7 +13,7 @@
  },
  "product_type": "Camera systems",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B016UCNP3A",
-   "name": "Reolink RLK8-410B4 (8-channel, 4 x 5MP)",
-   "price": 542.99,
-   "why": "Reolink's 4-camera PoE kit with a 2 TB recorder, rated 4.5 stars by 2,894 buyers."
+   "asin": "B082KGF6FX",
+   "name": "Reolink RLK16-800B8 (16-channel, 8 x 4K)",
+   "price": 1259.99,
+   "why": "Highest score on the page (95): 4.4 stars from 1,588 reviews, $1,259.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B07QM5996S",
-   "name": "Hiseeu 5MP Wi-Fi Camera System",
-   "price": 179.98,
-   "why": "A Wi-Fi camera system with a hard-drive recorder for $179.98."
+   "asin": "B0CF9Y9WMK",
+   "name": "Hiseeu 4K PoE PTZ System (6 x 5MP PTZ)",
+   "price": 349.99,
+   "why": "Highest score (87) among the cheapest third of picks (up to $299.96 each): 4.3 stars from 530 reviews, $349.99."
   },
   {
    "label": "Best 4K",
    "asin": "B07W4WBKKJ",
    "name": "Reolink RLK8-800B6 (8-channel, 6 x 4K)",
    "price": 755.99,
-   "why": "Six 4K PoE cameras with person and vehicle detection and a 2 TB recorder."
-  },
-  {
-   "label": "Best Wire-Free",
-   "asin": "B0CNRDG796",
-   "name": "aosu D1 Classic 4-Cam Kit (solar)",
-   "price": 299.96,
-   "why": "Four solar-powered wireless cameras with no monthly fees, 4,327 reviews."
+   "why": "Highest score of the picks that fit this award (95): 4.4 stars from 916 reviews, $755.99."
   }
  ],
  "systems_note": "Reolink systems have an official Home Assistant integration. Most NVR systems also expose RTSP streams for other software.",
@@ -75,7 +68,9 @@
    "rating": 4.4,
    "reviews_count": 1588,
    "score": 95,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -224,7 +219,9 @@
    "rating": 4.3,
    "reviews_count": 530,
    "score": 87,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "Hiseeu app",
    "works_without": {
@@ -271,9 +268,7 @@
    "rating": 4.5,
    "reviews_count": 2894,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -465,9 +460,7 @@
    "rating": 4.2,
    "reviews_count": 4327,
    "score": 68,
-   "awards": [
-    "Best Wire-Free"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "aosu app",
    "works_without": {
@@ -514,9 +507,7 @@
    "rating": 4.2,
    "reviews_count": 842,
    "score": 68,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Hiseeu app",
    "works_without": {
@@ -569,6 +560,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Reolink RLK16-800B8 (16-channel, 8 x 4K).",
+    "New Best Budget: Hiseeu 4K PoE PTZ System (6 x 5MP PTZ)."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

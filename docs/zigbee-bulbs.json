@@ -34,31 +34,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DHCJ67XX",
-   "name": "THIRDREALITY Smart Color Bulb ZL1",
-   "price": 11.99,
-   "why": "A $11.99 color bulb that pairs with Echo hubs and every open Zigbee platform, and repeats signal."
+   "asin": "B0DN63SFWL",
+   "name": "Aqara LED Bulb T2",
+   "price": 23.99,
+   "why": "Highest score on the page (92): 4.1 stars from 238 reviews, $23.99."
   },
   {
    "label": "Best Budget White",
-   "asin": "B078HHWQWG",
-   "name": "Sengled Zigbee bulb (daylight)",
-   "price": 9.99,
-   "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,865 reviews."
+   "asin": "B0DHFSDV46",
+   "name": "THIRDREALITY Smart Color Bulb ZL1 (4-pack)",
+   "price": 29.99,
+   "why": "Highest score (86) among the cheapest third of picks (up to $7.50 each): 4.3 stars from 654 reviews, $29.99."
   },
   {
    "label": "Best for Hue Homes",
    "asin": "B0FMGP1P6W",
    "name": "Philips Hue Essential A19 (4-pack)",
    "price": 69.99,
-   "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 4K+ bought last month."
+   "why": "Highest score (79) among Philips Hue picks: 4.5 stars from 1,132 reviews, $69.99."
   },
   {
    "label": "Brightest",
    "asin": "B0FH59TRX1",
    "name": "innr White & Color (2-pack)",
    "price": 29.99,
-   "why": "1,100 lumens of color and white that works with Hue, SmartThings, Home Assistant, and Hubitat."
+   "why": "Highest score of the picks that fit this award (84): 4.0 stars from 36 reviews, $29.99."
   }
  ],
  "systems_note": null,
@@ -74,7 +74,9 @@
    "rating": 4.1,
    "reviews_count": 238,
    "score": 92,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -130,9 +132,7 @@
    "rating": 4.3,
    "reviews_count": 654,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -186,7 +186,9 @@
    "rating": 4.3,
    "reviews_count": 654,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget White"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -349,9 +351,7 @@
    "rating": 4.3,
    "reviews_count": 3865,
    "score": 77,
-   "awards": [
-    "Best Budget White"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -522,7 +522,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Aqara LED Bulb T2.",
+    "New Best Budget White: THIRDREALITY Smart Color Bulb ZL1 (4-pack)."
    ]
   },
   {

@@ -53,16 +53,23 @@
   ],
   "awards": [
     {
-      "asin": "B0G21S2TF9",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "An 800 Series Long Range siren and chime that plays your own MP3s, rated 4.4 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0G21S2TF9",
+      "why": "Highest score on the page (77): 4.4 stars from 48 reviews, $47.95."
     },
     {
-      "asin": "B07P8ZRWQM",
       "label": "Loudest",
       "kind": "special",
-      "why": "110 dB with a 1,000-lumen strobe, for a real alarm."
+      "rule": {
+        "type": "feature",
+        "key": "loud"
+      },
+      "asin": "B07P8ZRWQM",
+      "why": "Highest score of the picks that fit this award (74): 3.4 stars from 381 reviews, $79.99."
     }
   ],
   "products": [

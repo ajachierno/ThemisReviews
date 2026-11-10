@@ -13,7 +13,7 @@
  },
  "product_type": "Presence sensors",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0CNGKFG9Y",
-   "name": "SONOFF SNZB-06P",
-   "price": 17.9,
-   "why": "A $17.90 presence sensor with light sensing that pairs with any Zigbee 3.0 hub, 501 reviews."
-  },
-  {
-   "label": "Best With Zones",
    "asin": "B0GZVPQQRX",
    "name": "SONOFF SNZB-06P24",
    "price": 24.9,
-   "why": "24 GHz mmWave with up to 7 detection zones for $24.90."
+   "why": "Highest score on the page (84): 3.8 stars from 219 reviews, $24.90."
   },
   {
    "label": "Best Battery-Powered",
    "asin": "B0FG2MD3YP",
    "name": "Aqara FP300",
    "price": 46.99,
-   "why": "mmWave plus PIR, temperature, humidity, and light, on batteries, over Zigbee or Thread."
+   "why": "Highest score of the picks that fit this award (82): 3.7 stars from 968 reviews, $46.99."
   },
   {
    "label": "Best for Aqara Homes",
    "asin": "B0D5QPH3T6",
    "name": "Aqara FP1E",
    "price": 42.99,
-   "why": "AI filtering for pets and fans, and Matter through an Aqara hub."
+   "why": "Highest score (66) among Aqara picks: 4.0 stars from 501 reviews, $42.99."
   }
  ],
  "systems_note": null,
@@ -76,7 +69,7 @@
    "reviews_count": 219,
    "score": 84,
    "awards": [
-    "Best With Zones"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -189,9 +182,7 @@
    "rating": 4.0,
    "reviews_count": 501,
    "score": 80,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -611,6 +602,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SONOFF SNZB-06P24."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09XXTQPXC",
-   "name": "ecobee Smart Thermostat Enhanced",
-   "price": 177.99,
-   "why": "ecobee's mid-range model with room sensor support and Apple Home, Alexa, Google, and SmartThings, 3K+ bought last month."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B08J4C8871",
-   "name": "Amazon Smart Thermostat",
-   "price": 56.99,
-   "why": "$56.99 and 25,665 reviews. The easy pick for an Alexa home with a C-wire."
-  },
-  {
-   "label": "Best Without Apps",
-   "asin": "B01NB1OB0I",
-   "name": "Sensi ST55",
-   "price": 89.99,
-   "why": "Sensi's simple, well-rated thermostat with 23,157 reviews and no subscription."
-  },
-  {
-   "label": "Most Features",
    "asin": "B09XXS48P8",
    "name": "ecobee Smart Thermostat Premium",
    "price": 242.48,
-   "why": "Alexa and Siri built in, plus a SmartSensor in the box."
+   "why": "Highest score on the page (94): 4.3 stars from 4,220 reviews, $242.48."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B01NB1OB0I",
+   "name": "Sensi ST55",
+   "price": 89.99,
+   "why": "Highest score (70) among the cheapest third of picks (up to $89.99 each): 4.4 stars from 23,157 reviews, $89.99."
+  },
+  {
+   "label": "Most Features",
+   "asin": "B09XXTQPXC",
+   "name": "ecobee Smart Thermostat Enhanced",
+   "price": 177.99,
+   "why": "Most of this page's scored features: 4.4 stars from 3,795 reviews, $177.99."
   }
  ],
  "systems_note": "ecobee and Honeywell Home thermostats also have official Home Assistant integrations.",
@@ -75,7 +68,7 @@
    "reviews_count": 4220,
    "score": 94,
    "awards": [
-    "Most Features"
+    "Best Overall"
    ],
    "works_with": [
     "Apple Home",
@@ -127,7 +120,7 @@
    "reviews_count": 3795,
    "score": 86,
    "awards": [
-    "Best Overall"
+    "Most Features"
    ],
    "works_with": [
     "Apple Home",
@@ -280,7 +273,7 @@
    "reviews_count": 23157,
    "score": 70,
    "awards": [
-    "Best Without Apps"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa"
@@ -474,9 +467,7 @@
    "rating": 4.0,
    "reviews_count": 25665,
    "score": 66,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -582,7 +573,10 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: ecobee Smart Thermostat Premium.",
+    "New Best Budget: Sensi ST55.",
+    "New Most Features: ecobee Smart Thermostat Enhanced."
    ]
   },
   {

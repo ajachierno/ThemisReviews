@@ -34,31 +34,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DFVY6HS9",
-   "name": "SONOFF SNZB-05P",
-   "price": 22.0,
-   "why": "4.4 stars, a 5-year battery, drip detection, and an optional sensing cable."
+   "asin": "B095TR9NYR",
+   "name": "Aeotec SmartThings Water Leak Sensor",
+   "price": 39.99,
+   "why": "Highest score on the page (88): 4.5 stars from 527 reviews, $39.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0GK19F6Z2",
-   "name": "THIRDREALITY WL2",
-   "price": 17.99,
-   "why": "$17.99 with a 3-year battery, and it pairs straight to Echo hubs."
+   "asin": "B072DYHPY7",
+   "name": "Centralite Water Sensor",
+   "price": 14.95,
+   "why": "Highest score (71) among the cheapest third of picks (up to $16.99 each): 3.8 stars from 150 reviews, $14.95."
   },
   {
    "label": "Best with Alarm",
    "asin": "B09GYFN8VL",
    "name": "THIRDREALITY Zigbee leak sensor",
    "price": 18.99,
-   "why": "A 120 dB siren right at the leak, plus app and email alerts."
+   "why": "Highest score (84) among picks with built-in siren: 4.1 stars from 356 reviews, $18.99."
   },
   {
    "label": "Best for SmartThings",
-   "asin": "B095TR9NYR",
-   "name": "Aeotec SmartThings Water Leak Sensor",
-   "price": 39.99,
-   "why": "SmartThings' own leak sensor, with temperature and the best rating here."
+   "asin": "B0DFVY6HS9",
+   "name": "SONOFF SNZB-05P",
+   "price": 22.0,
+   "why": "Highest score (86) among picks that work with SmartThings: 4.4 stars from 428 reviews, $22.00."
   }
  ],
  "systems_note": null,
@@ -75,7 +75,7 @@
    "reviews_count": 527,
    "score": 88,
    "awards": [
-    "Best for SmartThings"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -129,7 +129,7 @@
    "reviews_count": 428,
    "score": 86,
    "awards": [
-    "Best Overall"
+    "Best for SmartThings"
    ],
    "works_with": [
     "Home Assistant",
@@ -290,9 +290,7 @@
    "rating": 4.0,
    "reviews_count": 45,
    "score": 78,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -344,7 +342,9 @@
    "rating": 3.8,
    "reviews_count": 150,
    "score": 71,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -537,7 +537,10 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Aeotec SmartThings Water Leak Sensor.",
+    "New Best Budget: Centralite Water Sensor.",
+    "New Best for SmartThings: SONOFF SNZB-05P."
    ]
   },
   {

@@ -53,22 +53,23 @@
   ],
   "awards": [
     {
-      "asin": "B0DWSK5H33",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Temperature, humidity, and three programmable buttons on Thread or Zigbee, 300+ bought last month."
-    },
-    {
+      "rule": {
+        "type": "overall"
+      },
       "asin": "B0CCP6HLN5",
-      "label": "Best Multi-Room Kit",
-      "kind": "special",
-      "why": "Four IP65 sensors plus a Matter-enabled Hub 2, with 10,267 reviews."
+      "why": "Highest score on the page (87): 4.2 stars from 10,267 reviews, $88.39."
     },
     {
-      "asin": "B0D81BVH6P",
       "label": "Best Outdoor",
       "kind": "premium",
-      "why": "Eve Weather adds barometric pressure and a weather trend for outside your door."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B0D81BVH6P",
+      "why": "Highest score of the picks that fit this award (82): 3.6 stars from 74 reviews, $87.95."
     }
   ],
   "products": [

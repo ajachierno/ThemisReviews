@@ -13,7 +13,7 @@
  },
  "product_type": "Dimmers",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DKGXY4DL",
-   "name": "Tapo S515D kit",
-   "price": 42.99,
-   "why": "A complete 3-way Matter dimmer kit with energy monitoring, and 1K+ bought last month."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0C2B8SP3W",
-   "name": "Tapo S505D",
-   "price": 17.99,
-   "why": "$17.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
-  },
-  {
-   "label": "Best Name Brand",
    "asin": "B0BVKYKKRK",
    "name": "Leviton D26HD-1RW (2nd gen)",
    "price": 50.77,
-   "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
+   "why": "Highest score on the page (85): 4.6 stars from 322 reviews, $50.77."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0CC8KRB2N",
+   "name": "Kasa KS225",
+   "price": 23.72,
+   "why": "Highest score (71) among the cheapest third of picks (up to $23.72 each): 4.6 stars from 1,054 reviews, $23.72."
   },
   {
    "label": "Best No-Neutral",
    "asin": "B0F2N68K3C",
    "name": "Aqara H2 dimmer",
    "price": 49.99,
-   "why": "The only Matter dimmer here that installs without a neutral wire."
+   "why": "Highest score of the picks that fit this award (76): 3.9 stars from 62 reviews, $49.99."
   }
  ],
  "systems_note": null,
@@ -76,7 +69,7 @@
    "reviews_count": 322,
    "score": 85,
    "awards": [
-    "Best Name Brand"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -133,9 +126,7 @@
    "rating": 4.4,
    "reviews_count": 438,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -249,7 +240,9 @@
    "rating": 4.6,
    "reviews_count": 1054,
    "score": 71,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -305,9 +298,7 @@
    "rating": 4.6,
    "reviews_count": 832,
    "score": 71,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -693,6 +684,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Leviton D26HD-1RW (2nd gen).",
+    "New Best Budget: Kasa KS225."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

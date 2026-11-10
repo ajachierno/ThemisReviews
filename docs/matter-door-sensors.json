@@ -13,7 +13,7 @@
  },
  "product_type": "Door and window sensors",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -33,17 +33,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BZSY26WP",
-   "name": "Eve Door & Window (Matter)",
-   "price": 43.95,
-   "why": "A local-only Eve sensor for $43.95, rated 4.1 stars by 150 buyers, on Matter over Thread."
+   "asin": "B0F5LYZRVL",
+   "name": "Tapo T31 Door Sensor Starter Kit (3 sensors + H100 hub)",
+   "price": 41.99,
+   "why": "Highest score on the page (83): 4.5 stars from 342 reviews, $41.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0BTL8B72D",
    "name": "Aqara Door and Window Sensor P2",
    "price": 27.99,
-   "why": "$27.99, the most reviews of any Matter contact sensor, and remote alarm support."
+   "why": "Highest score (75) among the cheapest third of picks (up to $27.99 each): 3.6 stars from 1,142 reviews, $27.99."
   }
  ],
  "systems_note": null,
@@ -59,7 +59,9 @@
    "rating": 4.5,
    "reviews_count": 342,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -111,9 +113,7 @@
    "rating": 4.1,
    "reviews_count": 150,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -309,6 +309,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Tapo T31 Door Sensor Starter Kit (3 sensors + H100 hub)."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

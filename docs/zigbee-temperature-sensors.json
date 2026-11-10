@@ -13,7 +13,7 @@
  },
  "product_type": "Temperature sensors",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BYZP8NK2",
-   "name": "SONOFF SNZB-02D",
-   "price": 15.9,
-   "why": "A Zigbee 3.0 sensor with an LCD and ±0.4°F stated accuracy for $15.90, with 3,460 reviews."
+   "asin": "B0HGQXF2W1",
+   "name": "SONOFF SNZB-02UL (E-Ink)",
+   "price": 24.9,
+   "why": "Highest score on the page (97): 4.7 stars from 184 reviews, $24.90."
   },
   {
    "label": "Best Budget",
    "asin": "B0G56QWSSZ",
    "name": "SONOFF SNZB-02DR2 AirGuard TH",
    "price": 14.9,
-   "why": "A 3.6 in. display with daily highs and lows for $14.90, rated 4.3 stars."
-  },
-  {
-   "label": "Best for Fridges and Pools",
-   "asin": "B0FCG8N5NC",
-   "name": "SONOFF SNZB-02LD (probe)",
-   "price": 19.9,
-   "why": "A 1.5 m stainless probe that reads from -40°F to 239°F, with an IP65 body."
-  },
-  {
-   "label": "Best Thread and Matter",
-   "asin": "B0DWSK5H33",
-   "name": "Aqara Climate Sensor W100",
-   "price": 36.99,
-   "why": "Runs on Zigbee or Thread, works over Matter, and adds three programmable buttons."
+   "why": "Highest score (94) among the cheapest third of picks (up to $17.99 each): 4.3 stars from 743 reviews, $14.90."
   }
  ],
  "systems_note": null,
@@ -75,7 +61,9 @@
    "rating": 4.7,
    "reviews_count": 184,
    "score": 97,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -186,9 +174,7 @@
    "rating": 4.3,
    "reviews_count": 3460,
    "score": 89,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -299,9 +285,7 @@
    "rating": 4.2,
    "reviews_count": 1093,
    "score": 88,
-   "awards": [
-    "Best for Fridges and Pools"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -519,9 +503,7 @@
    "rating": 3.8,
    "reviews_count": 146,
    "score": 81,
-   "awards": [
-    "Best Thread and Matter"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -667,6 +649,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SONOFF SNZB-02UL (E-Ink)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

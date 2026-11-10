@@ -13,7 +13,7 @@
  },
  "product_type": "Hubs and controllers",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0BMKB3L47",
    "name": "RTL-SDR Blog V3 + dipole antenna kit",
    "price": 47.95,
-   "why": "The standard rtl_433 stick, with a 1 PPM TCXO and a dipole antenna kit, and 6,500 reviews."
+   "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,500 reviews, $47.95."
   },
   {
    "label": "Best Budget SDR",
    "asin": "B0BMKZCKTF",
    "name": "RTL-SDR Blog V3 (dongle only)",
    "price": 37.95,
-   "why": "The same RTL-SDR Blog V3 without the antenna kit, for $37.95, rated 4.6 stars."
+   "why": "Highest score (78) among the cheapest third of picks (up to $44.95 each): 4.6 stars from 3,140 reviews, $37.95."
   },
   {
    "label": "Best RF Bridge",
    "asin": "B0872P4HX7",
    "name": "BroadLink RM4 Pro",
    "price": 49.99,
-   "why": "Learns 433 MHz fixed-code remotes and IR, with Alexa, Google, and an official Home Assistant integration."
+   "why": "Highest score of the picks that fit this award (80): 4.0 stars from 3,378 reviews, $49.99."
   },
   {
    "label": "Best Premium SDR",
-   "asin": "B01HA642SW",
-   "name": "Nooelec NESDR SMArt v5",
-   "price": 44.95,
-   "why": "Nooelec's v5 with a 0.5 PPM TCXO and better HF, VHF, and UHF noise performance than a V3, per Nooelec."
+   "asin": "B01B4L48QU",
+   "name": "Nooelec NESDR Nano 2+",
+   "price": 47.95,
+   "why": "Highest score (80) among the priciest third of picks: 4.3 stars from 352 reviews, $47.95."
   }
  ],
  "systems_note": "SDR receivers feed Home Assistant through rtl_433, a community add-on rather than an official integration. Broadlink and Tuya hubs have official Home Assistant integrations.",
@@ -178,7 +178,9 @@
    "rating": 4.3,
    "reviews_count": 352,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Premium SDR"
+   ],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
    "works_without": {
@@ -321,9 +323,7 @@
    "rating": 4.5,
    "reviews_count": 2884,
    "score": 77,
-   "awards": [
-    "Best Premium SDR"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
    "works_without": {
@@ -548,6 +548,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Premium SDR: Nooelec NESDR Nano 2+."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

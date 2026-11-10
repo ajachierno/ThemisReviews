@@ -46,30 +46,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BYZP8NK2",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A Zigbee 3.0 sensor with an LCD and ±0.4°F stated accuracy for $15.90, with 3,460 reviews."
-    },
-    {
-      "asin": "B0G56QWSSZ",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A 3.6 in. display with daily highs and lows for $14.90, rated 4.3 stars."
-    },
-    {
-      "asin": "B0FCG8N5NC",
-      "label": "Best for Fridges and Pools",
-      "kind": "special",
-      "why": "A 1.5 m stainless probe that reads from -40°F to 239°F, with an IP65 body."
-    },
-    {
-      "asin": "B0DWSK5H33",
-      "label": "Best Thread and Matter",
-      "kind": "premium",
-      "why": "Runs on Zigbee or Thread, works over Matter, and adds three programmable buttons."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

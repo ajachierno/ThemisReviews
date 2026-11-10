@@ -39,24 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CXJC5ZZT",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,332 buyers."
-    },
-    {
-      "asin": "B0FYPR3KLW",
-      "label": "Best for Home Assistant",
-      "kind": "special",
-      "why": "A touchscreen remote that can also control Home Assistant over MQTT."
-    },
-    {
-      "asin": "B0CTH5HGGT",
-      "label": "Best for Home Theater",
-      "kind": "premium",
-      "why": "One-touch activities across a 500,000-device code library, with Alexa and Google."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Home Assistant", "kind": "special", "rule": {"type": "feature", "key": "ha"}}
   ],
   "products": [
     {

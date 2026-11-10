@@ -13,7 +13,7 @@
  },
  "product_type": "Trackers",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,32 +34,25 @@
  },
  "awards": [
   {
-   "label": "Best for iPhone",
-   "asin": "B0GJTFXNRX",
-   "name": "Apple AirTag (2nd Gen)",
-   "price": 23.0,
-   "why": "Apple's 2nd-gen AirTag, with Precision Finding on iPhone and Apple Watch and a louder speaker, for $23.00."
-  },
-  {
    "label": "Best Budget",
-   "asin": "B0F82HR8QZ",
-   "name": "UGREEN FineTrack (4-pack)",
-   "price": 21.79,
-   "why": "Four Find My tags with a 2-year replaceable battery for $21.79, 6K+ bought last month."
+   "asin": "B0G1Y9GB16",
+   "name": "ZHXING Android + Apple tags (4-pack)",
+   "price": 26.99,
+   "why": "Highest score (87) among the cheapest third of picks (up to $6.75 each): 4.3 stars from 1,667 reviews, $26.99."
   },
   {
    "label": "Best for Samsung",
    "asin": "B0CCC69HN3",
    "name": "Samsung Galaxy SmartTag2",
    "price": 21.79,
-   "why": "UWB precision finding on Galaxy phones, IP67, and it can trigger SmartThings devices."
+   "why": "Highest score (90) among picks that work with SmartThings: 4.4 stars from 12,421 reviews, $21.79."
   },
   {
    "label": "Best for Mixed Households",
    "asin": "B0FLKG9NWT",
    "name": "Chipolo LOOP",
    "price": 39.0,
-   "why": "Works with Apple Find My or Google Find Hub, recharges over USB-C, and rings at 125 dB."
+   "why": "Highest score of the picks that fit this award (87): 4.2 stars from 652 reviews, $39.00."
   }
  ],
  "systems_note": "Trackers report to phone networks (Apple Find My, Google Find Hub, SmartThings Find, or Tile), not to smart home hubs. Samsung's SmartTag2 is the exception: it can also trigger SmartThings devices.",
@@ -75,9 +68,7 @@
    "rating": 4.6,
    "reviews_count": 12944,
    "score": 91,
-   "awards": [
-    "Best for iPhone"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Apple Find My",
    "works_without": {
@@ -179,7 +170,9 @@
    "rating": 4.3,
    "reviews_count": 1667,
    "score": 87,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "Google Find Hub or Apple Find My",
    "works_without": {
@@ -375,9 +368,7 @@
    "rating": 4.4,
    "reviews_count": 4707,
    "score": 83,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Apple Find My",
    "works_without": {
@@ -602,6 +593,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: ZHXING Android + Apple tags (4-pack)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

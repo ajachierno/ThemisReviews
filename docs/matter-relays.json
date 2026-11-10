@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DF1T9V3G",
-   "name": "SONOFF MINIR4M",
-   "price": 12.9,
-   "why": "A Matter-certified mini relay with detached-switch mode for $12.90, rated 4.6 stars."
+   "asin": "B0DZJ1W814",
+   "name": "Shelly 2PM Gen4",
+   "price": 38.99,
+   "why": "Highest score on the page (92): 4.7 stars from 911 reviews, $38.99."
   },
   {
    "label": "Best With Power Metering",
    "asin": "B0DNQ9DKBV",
    "name": "SwitchBot Relay Switch 1PM",
    "price": 14.99,
-   "why": "Power measuring and a Bluetooth repeater on Matter, for $14.99."
-  },
-  {
-   "label": "Best Two-Channel",
-   "asin": "B0DZJ1W814",
-   "name": "Shelly 2PM Gen4",
-   "price": 38.99,
-   "why": "Two metered 16 A channels on Matter, Wi-Fi, or Zigbee."
+   "why": "Highest score of the picks that fit this award (86): 4.5 stars from 274 reviews, $14.99."
   },
   {
    "label": "Best Dry Contact",
-   "asin": "B0H8YW595V",
-   "name": "Shelly 1 Gen4",
-   "price": 27.99,
-   "why": "A 15 A dry-contact Shelly for garage doors and boilers, on Matter, from Shelly USA's UL listing for $27.99."
+   "asin": "B0DZHZDJXT",
+   "name": "Shelly 1 Mini Gen4",
+   "price": 24.98,
+   "why": "Highest score of the picks that fit this award (84): 4.6 stars from 898 reviews, $24.98."
   }
  ],
  "systems_note": "Matter relays work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey.",
@@ -76,7 +69,7 @@
    "reviews_count": 911,
    "score": 92,
    "awards": [
-    "Best Two-Channel"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -189,7 +182,9 @@
    "rating": 4.6,
    "reviews_count": 898,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best Dry Contact"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -244,9 +239,7 @@
    "rating": 4.6,
    "reviews_count": 517,
    "score": 79,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -357,9 +350,7 @@
    "rating": 4.4,
    "reviews_count": 28,
    "score": 71,
-   "awards": [
-    "Best Dry Contact"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -533,7 +524,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Shelly 2PM Gen4.",
+    "New Best Dry Contact: Shelly 1 Mini Gen4."
    ]
   },
   {

@@ -69,22 +69,23 @@
   ],
   "awards": [
     {
-      "asin": "B0DG2HF6R6",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "The best-rated Smart Life sensor with a real review count, and it answers \"is the door closed?\" through Alexa or Google."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BPXVQ359",
+      "why": "Highest score on the page (85): 4.0 stars from 305 reviews, $12.34."
     },
     {
-      "asin": "B0BKT1RBW4",
-      "label": "Best Multipack",
-      "kind": "special",
-      "why": "Four sensors for about $8.50 each, with low-battery alerts."
-    },
-    {
-      "asin": "B0H4TX9FZM",
       "label": "Built-in Alarm",
       "kind": "premium",
-      "why": "A sensor with its own alarm and chime modes, rated 4.6 stars by 1,069 buyers for $25.99."
+      "rule": {
+        "type": "feature",
+        "key": "siren"
+      },
+      "asin": "B0H4TX9FZM",
+      "why": "Highest score (78) among picks with built-in siren: 4.6 stars from 1,069 reviews, $25.99."
     }
   ],
   "products": [

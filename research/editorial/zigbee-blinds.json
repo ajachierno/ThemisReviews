@@ -30,30 +30,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B09STSWQCB",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Complete honeycomb blinds that pair straight to an Echo, SmartThings, Hubitat, or Home Assistant."
-    },
-    {
-      "asin": "B07F817HJT",
-      "label": "Best Custom Shades",
-      "kind": "special",
-      "why": "Custom-size blackout shades with a Zigbee motor option, 1,221 reviews."
-    },
-    {
-      "asin": "B0C6KP9SDR",
-      "label": "Best Retrofit Motor",
-      "kind": "budget",
-      "why": "Motorize the roller shades you already own, rated 4.4 stars."
-    },
-    {
-      "asin": "B0DCNTCKTK",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "SmartWings shades with a Zigbee or Z-Wave motor, rated 4.9 stars."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Custom Shades", "kind": "special", "rule": {"type": "feature", "key": "complete"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

@@ -35,30 +35,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B01N5TEHLI",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,173 reviews."
-    },
-    {
-      "asin": "B0FM3CVKNL",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $95.99."
-    },
-    {
-      "asin": "B0868WY7NY",
-      "label": "Best No-Moving-Parts",
-      "kind": "premium",
-      "why": "Tempest's all-in-one sensor measures wind and rain without spinning cups."
-    },
-    {
-      "asin": "B07GRBY9NP",
-      "label": "Best for Enthusiasts",
-      "kind": "special",
-      "why": "Ambient's WS-2000 with a bigger console and solar-powered outdoor array."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

@@ -13,7 +13,7 @@
  },
  "product_type": "Blinds and shades",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B09STSWQCB",
-   "name": "THIRDREALITY ZigBee Smart Blind (honeycomb)",
-   "price": 158.99,
-   "why": "Complete honeycomb blinds that pair straight to an Echo, SmartThings, Hubitat, or Home Assistant."
+   "asin": "B0FF4YL1MW",
+   "name": "JaeJaes Smart roller shades 23\" x 72\"",
+   "price": 129.99,
+   "why": "Highest score on the page (92): 4.4 stars from 83 reviews, $129.99."
   },
   {
    "label": "Best Custom Shades",
    "asin": "B07F817HJT",
    "name": "Yoolax Motorized blackout shades (custom size)",
    "price": 119.0,
-   "why": "Custom-size blackout shades with a Zigbee motor option, 1,221 reviews."
-  },
-  {
-   "label": "Best Retrofit Motor",
-   "asin": "B0C6KP9SDR",
-   "name": "Sortfle 1.5\" Zigbee blinds motor",
-   "price": 99.79,
-   "why": "Motorize the roller shades you already own, rated 4.4 stars."
+   "why": "Highest score of the picks that fit this award (87): 4.4 stars from 1,221 reviews, $119.00."
   },
   {
    "label": "Best Premium",
-   "asin": "B0DCNTCKTK",
-   "name": "SmartWings Z-Wave/Zigbee roller shades",
-   "price": 199.99,
-   "why": "SmartWings shades with a Zigbee or Z-Wave motor, rated 4.9 stars."
+   "asin": "B09STSWQCB",
+   "name": "THIRDREALITY ZigBee Smart Blind (honeycomb)",
+   "price": 158.99,
+   "why": "Highest score (80) among the priciest third of picks: 4.0 stars from 108 reviews, $158.99."
   }
  ],
  "systems_note": "Tuya Zigbee motors need a Tuya / Smart Life Zigbee gateway and work with Home Assistant through the Tuya integration or Zigbee2MQTT. Graywind and Yoolax sell several motor types on one listing; pick the Zigbee option.",
@@ -74,7 +67,9 @@
    "rating": 4.4,
    "reviews_count": 83,
    "score": 92,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant",
@@ -179,7 +174,7 @@
    "reviews_count": 108,
    "score": 80,
    "awards": [
-    "Best Overall"
+    "Best Premium"
    ],
    "works_with": [
     "Home Assistant",
@@ -282,9 +277,7 @@
    "rating": 4.9,
    "reviews_count": 11,
    "score": 76,
-   "awards": [
-    "Best Premium"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant",
@@ -335,9 +328,7 @@
    "rating": 4.4,
    "reviews_count": 43,
    "score": 69,
-   "awards": [
-    "Best Retrofit Motor"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -588,6 +579,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: JaeJaes Smart roller shades 23\" x 72\".",
+    "New Best Premium: THIRDREALITY ZigBee Smart Blind (honeycomb)."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

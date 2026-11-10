@@ -13,7 +13,7 @@
  },
  "product_type": "Outdoor lights",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,14 @@
    "asin": "B0GQ3JNL38",
    "name": "Govee Outdoor Cylinder Pathway Lights",
    "price": 144.99,
-   "why": "Govee's cylinder lights put out 425 lm each with IP67 fixtures and Wi-Fi plus Bluetooth control."
+   "why": "Highest score on the page (88): 4.4 stars from 92 reviews, $144.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0FQ3KX7FL",
-   "name": "APPECK RGBCW Pathway Lights",
-   "price": 65.87,
-   "why": "Four RGBCW path lights with Alexa and Google for $65.87, rated 4.3 stars."
-  },
-  {
-   "label": "Best Spotlights",
    "asin": "B0GKP32WT3",
    "name": "Lumary Smart Landscape Lights (56 ft)",
    "price": 71.99,
-   "why": "Six tunable-white landscape spotlights with Alexa and Google for $71.99."
-  },
-  {
-   "label": "Best with Matter",
-   "asin": "B0FWKP22YT",
-   "name": "Govee Outdoor Pathway Lights 2 Lite",
-   "price": 169.99,
-   "why": "Govee's curved pathway lights with flowing color and Matter."
+   "why": "Highest score (79) among the cheapest third of picks (up to $16.47 each): 4.1 stars from 184 reviews, $71.99."
   }
  ],
  "systems_note": null,
@@ -124,9 +110,7 @@
    "rating": 4.3,
    "reviews_count": 159,
    "score": 87,
-   "awards": [
-    "Best with Matter"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -182,7 +166,7 @@
    "reviews_count": 184,
    "score": 79,
    "awards": [
-    "Best Spotlights"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -330,9 +314,7 @@
    "rating": 4.3,
    "reviews_count": 61,
    "score": 78,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -536,6 +518,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: Lumary Smart Landscape Lights (56 ft)."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

@@ -21,6 +21,8 @@ HOLIDAY_PRICES = json.loads((DATA / "holiday-prices.json").read_text(encoding="u
 
 import price_tracker  # noqa: E402  price-tracker hub, monthly reports and data downloads (same folder)
 import listing_age  # noqa: E402  review counts weighted by how long a listing has been on Amazon (same folder)
+import awards  # noqa: E402  score + data-driven award picks (same folder); merge.py uses the same module
+from awards import PACK_RE, KIT_RE, pack_size, unit_price  # noqa: E402,F401
 
 # data/price-history.json: {asin: [[date, price], ...]}. Every build records each live
 # page's prices under its data_captured date, so each refresh adds a point. Seeded from
@@ -711,7 +713,7 @@ def build_home(site):
 
 # --------------------------------------------------------------------------- category pages
 # Each ready sub-page has data/pages/<slug>.json: products (up to 10), one avoid pick,
-# editorial awards, scoring weights, spec/table columns, and a buyer's guide.
+# award rules, scoring weights, spec/table columns, and a buyer's guide.
 
 def amazon_url(site, asin):
     base = f"https://{site['amazon_domain']}/dp/{asin}"
@@ -720,24 +722,6 @@ def amazon_url(site, asin):
 
 def money(v):
     return f"${v:,.2f}"
-
-
-# "4-Pack", "3PCS", "Pack of 2", "(2-pack)" in the Amazon title or our model name. Kits are
-# skipped: in "3-Pack Sensors + Hub" the count covers only part of what's in the box.
-PACK_RE = re.compile(r"\b(\d{1,2})\s*-?\s*(?:pack|pk|pcs|count|ct)s?\b|\bpack\s+of\s+(\d{1,2})\b", re.I)
-KIT_RE = re.compile(r"\bkit\b|gateway|\+\s*hub|with hub|hub mini|hub 2|\bvalve\b", re.I)
-
-
-def pack_size(p):
-    text = f"{p.get('name', '')} {p.get('model', '')}"
-    if KIT_RE.search(text):
-        return 1
-    sizes = {int(n) for m in PACK_RE.findall(text) for n in m if n}
-    return sizes.pop() if len(sizes) == 1 and next(iter(sizes)) >= 2 else 1
-
-
-def unit_price(p):
-    return p["price"] / pack_size(p)
 
 
 def unit_note(p, cls="unit"):
@@ -751,19 +735,13 @@ def stars(rating):
 
 
 def score_product(p, cat):
-    """Same 100-point scale as ToolboxTop10: rating, review volume (log scale), features.
-    Review volume counts a listing under two years old at a higher rate (up to 2x; see listing_age.py)."""
-    w = cat["weights"]
-    rating_s = p["rating"] / 5.0
-    # Full review credit at 200 reviews (or the page's lower ceiling); see listing_age.py.
-    reviews_s, _mult = listing_age.review_subscore(p, cat, 20000)
-    feat_s = min(1.0, sum(cat["feature_weights"].get(k, 0) for k, on in p["features"].items() if on))
-    return round((w["rating"] * rating_s + w["reviews"] * reviews_s + w["features"] * feat_s) * 100)
+    """See awards.score_product (shared with merge.py)."""
+    return awards.score_product(p, cat)
 
 
 def rank_products(cat):
+    awards.resolve(cat)  # scores every product and picks each award from the data
     for p in cat["products"]:
-        p["score"] = score_product(p, cat)
         p["awards"] = []
     ranked = sorted(cat["products"], key=lambda p: (-p["score"], -p["reviews_count"]))
     for i, p in enumerate(ranked, 1):
@@ -1775,8 +1753,15 @@ def build_trust_pages(site):
       <li><b>{w['features']}%</b> features: a short checklist for that page (for example 800 Series chip, Long Range, and 3-way support on Z-Wave switches). Each item has a weight, and the weights are the same for every product on the page.</li>
     </ul>
     <p>Scores only compare products on the same page. An 80 on the Zigbee switch page and an 80 on the Wi-Fi bulb page don't mean the same thing. On the product-type pages, which mix protocols, each product keeps the score it earned on its own protocol page.</p>
-    <h2>Awards are our call</h2>
-    <p>Labels such as Best Overall, Best Budget, and Best for Apple Home are editorial. The top-scoring product usually earns Best Overall, but not always: a slightly lower score can still be the better buy if it works with more systems or costs half as much. Every award card says why it won.</p>
+    <h2>Awards come from the scores</h2>
+    <p>Nobody picks the award winners by hand. Each award is a rule, and the product that fits the rule with the highest score wins it:</p>
+    <ul>
+      <li><b>Best Overall</b> is the highest score on the page.</li>
+      <li><b>Best Budget</b> is the highest score among the cheapest third of the page, by price per item. <b>Best Premium</b> is the same for the priciest third.</li>
+      <li>Awards for a feature or a system, such as Best Outdoor or Best for Apple Home, go to the highest score among the products with that feature or that work with that system.</li>
+      <li>Most Popular goes to the most Amazon reviews, Best Rated to the highest star rating, and Most Features to the most of the page's scored features.</li>
+    </ul>
+    <p>A product holds one award at most, so the next award goes to the best product that hasn't won one yet. Ties go to the product with more reviews. Awards move on their own when the numbers change, and each award card shows the figures behind it.</p>
     <h2>Avoid picks</h2>
     <p>A product lands in "the one to avoid" only for a concrete problem we can point to in the listing, and we quote it. Past examples: a title naming one model while the bullets describe another, an import model that won't work on US power or apps, a reseller charging far more than retail, and a camera that does nothing until you pay for a plan. Being new or having few reviews isn't enough on its own.</p>
     <h2>Works with</h2>

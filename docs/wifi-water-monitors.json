@@ -13,7 +13,7 @@
  },
  "product_type": "Water monitors",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0FLF5Y2K6",
-   "name": "Flume F2X Smart Water Monitor",
-   "price": 269.0,
-   "why": "Flume straps onto your water meter in minutes and alerts you to leaks indoors and out."
-  },
-  {
-   "label": "Best with Shutoff",
    "asin": "B0DSKG73XB",
    "name": "Frizzlife LP365",
    "price": 279.98,
-   "why": "Frizzlife's ultrasonic monitor detects flows down to 0.01 GPM and closes the valve itself, rated 4.5 stars."
+   "why": "Highest score on the page (89): 4.5 stars from 382 reviews, $279.98."
   },
   {
-   "label": "Best Budget",
-   "asin": "B0HHH9DYGP",
-   "name": "GreenVation Water Flow Monitor and Valve (3/4 in)",
-   "price": 119.99,
-   "why": "An ultrasonic flow monitor and motorized valve for $119.99."
-  },
-  {
-   "label": "Best Premium",
+   "label": "Best with Shutoff",
    "asin": "B081HT5LD6",
    "name": "Moen Flo Smart Water Monitor and Shutoff (900-006, 1 in)",
    "price": 608.0,
-   "why": "Moen Flo learns your home's water patterns and shuts off the main line on its own."
+   "why": "Highest score (85) among picks with auto shutoff: 4.0 stars from 2,348 reviews, $608.00."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0FH6FS9TV",
+   "name": "Haozee WiFi Smart Water Valve and Auto Shut-Off",
+   "price": 159.99,
+   "why": "Highest score (71) among the cheapest third of picks (up to $159.99 each): 3.8 stars from 46 reviews, $159.99."
   }
  ],
  "systems_note": "Every monitor here connects over Wi-Fi to its maker's app. YoLink's FlowSmart uses LoRa through a hub, so it isn't included here.",
@@ -76,7 +69,7 @@
    "reviews_count": 382,
    "score": 89,
    "awards": [
-    "Best with Shutoff"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "Smart Life app",
@@ -125,7 +118,7 @@
    "reviews_count": 2348,
    "score": 85,
    "awards": [
-    "Best Premium"
+    "Best with Shutoff"
    ],
    "works_with": [
     "Google Home"
@@ -175,9 +168,7 @@
    "rating": 4.3,
    "reviews_count": 94,
    "score": 85,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Flume app",
    "works_without": {
@@ -224,7 +215,9 @@
    "rating": 3.8,
    "reviews_count": 46,
    "score": 71,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "Tuya app",
    "works_without": {
@@ -271,9 +264,7 @@
    "rating": 4.8,
    "reviews_count": 15,
    "score": 71,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Smart Life app",
    "works_without": {
@@ -373,6 +364,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Frizzlife LP365.",
+    "New Best with Shutoff: Moen Flo Smart Water Monitor and Shutoff (900-006, 1 in).",
+    "New Best Budget: Haozee WiFi Smart Water Valve and Auto Shut-Off."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

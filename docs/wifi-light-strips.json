@@ -13,7 +13,7 @@
  },
  "product_type": "Light strips",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07N1CMGQQ",
-   "name": "Govee RGB strip 16.4 ft",
-   "price": 19.99,
-   "why": "The most-reviewed smart strip: 62,033 reviews at 4.5 stars, with Alexa and Google, for $19.99."
+   "asin": "B0D7MKV1CK",
+   "name": "Govee Strip Light 2 Pro (RGBWWIC)",
+   "price": 99.99,
+   "why": "Highest score on the page (90): 4.5 stars from 624 reviews, $99.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0CFQRCSQ1",
-   "name": "DAYBETTER 100 ft Wi-Fi strip",
-   "price": 19.99,
-   "why": "100 ft of Wi-Fi strip with Alexa and Google for $19.99."
+   "asin": "B0DB69D1YJ",
+   "name": "Cync GE Cync strip (Matter)",
+   "price": 13.79,
+   "why": "Highest score (82) among the cheapest third of picks (up to $19.99 each): 4.4 stars from 686 reviews, $13.79."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0B2KY8X4M",
    "name": "Tapo L930-5 RGBWIC",
    "price": 35.99,
-   "why": "Tapo's 1000-lumen RGBWIC strip works with Apple HomeKit, Alexa, and Google."
+   "why": "Highest score (84) among picks that work with Apple Home: 3.8 stars from 394 reviews, $35.99."
   },
   {
    "label": "Best Premium",
-   "asin": "B0D7MKV1CK",
-   "name": "Govee Strip Light 2 Pro (RGBWWIC)",
-   "price": 99.99,
-   "why": "Real white LEDs from 1000K to 10000K plus multicolor effects, with Matter."
+   "asin": "B09VBZC2CX",
+   "name": "Govee RGBIC 100 ft (2 x 50 ft)",
+   "price": 50.99,
+   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 7,573 reviews, $50.99."
   }
  ],
  "systems_note": "TP-Link (Kasa, Tapo) and Tuya/Smart Life strips also have official Home Assistant integrations. Two popular Govee RGBIC strips are left off because their listings say they don't support Wi-Fi.",
@@ -76,7 +76,7 @@
    "reviews_count": 624,
    "score": 90,
    "awards": [
-    "Best Premium"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -132,7 +132,9 @@
    "rating": 4.4,
    "reviews_count": 7573,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -288,7 +290,9 @@
    "rating": 4.4,
    "reviews_count": 686,
    "score": 82,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -343,9 +347,7 @@
    "rating": 4.4,
    "reviews_count": 8465,
    "score": 81,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -496,9 +498,7 @@
    "rating": 4.5,
    "reviews_count": 62033,
    "score": 77,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -606,6 +606,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee Strip Light 2 Pro (RGBWWIC).",
+    "New Best Budget: Cync GE Cync strip (Matter).",
+    "New Best Premium: Govee RGBIC 100 ft (2 x 50 ft)."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

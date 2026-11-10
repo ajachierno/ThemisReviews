@@ -39,24 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FG2MD3YP",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Aqara's FP300 combines mmWave presence and PIR motion with Thread or Zigbee, 1K+ bought last month."
-    },
-    {
-      "asin": "B0CT8W9NRB",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Aqara's Matter-over-Thread motion and light sensor for $31.99, with 680 reviews."
-    },
-    {
-      "asin": "B0H6JFC9RQ",
-      "label": "Most Sensors",
-      "kind": "premium",
-      "why": "Presence, motion, temperature, humidity, and light in one battery sensor."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Most Sensors", "kind": "premium", "rule": {"type": "feature", "key": "presence"}}
   ],
   "products": [
     {

@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0G2WDPB29",
-      "label": "Best for CO2",
-      "kind": "overall",
-      "why": "SONOFF's AirGuard uses a real NDIR CO2 sensor and reports to every Matter system, rated 4.3 stars."
-    },
-    {
-      "asin": "B0G2W4FVQF",
-      "label": "Best for Particles",
-      "kind": "special",
-      "why": "PM2.5 and PM10 on a 3.73-inch screen with Matter for $39.90."
-    }
+    {"label": "Best for CO2", "kind": "overall", "rule": {"type": "feature", "key": "co2"}},
+    {"label": "Best for Particles", "kind": "special", "rule": {"type": "feature", "key": "pm"}}
   ],
   "products": [
     {

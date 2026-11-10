@@ -50,30 +50,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GD6ND4C7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Battery or USB power, Bluetooth-assisted pairing, and Alexa, Google, and SmartThings triggers."
-    },
-    {
-      "asin": "B0DDBR4Z9V",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "$12.99 with Alexa routine support and Tuya automations."
-    },
-    {
-      "asin": "B0CNRRT45G",
-      "label": "Best Presence Sensor",
-      "kind": "special",
-      "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 100+ bought last month."
-    },
-    {
-      "asin": "B0H2QYVWZ7",
-      "label": "Best for Home Assistant",
-      "kind": "premium",
-      "why": "A local ESP32 mmWave presence and light sensor built for Home Assistant, rated 4.4 stars."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Presence Sensor", "kind": "special", "rule": {"type": "feature", "key": "presence"}},
+    {"label": "Best for Home Assistant", "kind": "premium", "rule": {"type": "system", "key": "home-assistant"}}
   ],
   "products": [
     {

@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07SKCGMY7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,106 reviews."
-    },
-    {
-      "asin": "B0FQYM9DQS",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "The cheapest opener here at $219, a quiet belt drive with myQ, battery backup, and 4.4 stars."
-    },
-    {
-      "asin": "B0FQYSF58M",
-      "label": "Best with Camera",
-      "kind": "special",
-      "why": "A quiet belt-drive myQ opener with a 130° camera and battery backup."
-    },
-    {
-      "asin": "B0C7K97GX2",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Chamberlain's wall-mount opener frees the ceiling and handles tall or heavy doors."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best with Camera", "kind": "special", "rule": {"type": "feature", "key": "camera"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

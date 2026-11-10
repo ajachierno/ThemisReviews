@@ -13,7 +13,7 @@
  },
  "product_type": "Temperature sensors",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0872ZWV8X",
-   "name": "Govee H5179",
-   "price": 31.98,
-   "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,928 reviews, and 3K+ bought last month."
+   "asin": "B0GTV1R5JY",
+   "name": "GoveeLife 5-in-1 LCD 3-pack + gateway",
+   "price": 89.99,
+   "why": "Highest score on the page (96): 4.6 stars from 178 reviews, $89.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0G7VC5D3F",
    "name": "X-Sense Temperature and humidity monitor kit",
    "price": 36.08,
-   "why": "Three sensors and a base station for $36.08, with ±0.36°F stated accuracy."
+   "why": "Highest score (89) among the cheapest third of picks (up to $39.99 each): 4.5 stars from 570 reviews, $36.08."
   },
   {
    "label": "Best for Freezers and Outbuildings",
-   "asin": "B0F245PNYH",
-   "name": "YoLink Freezer thermometer kit (3 + hub)",
-   "price": 79.59,
-   "why": "LoRa range, up to 5 years on AA batteries, and text alerts, rated 4.7 stars."
-  },
-  {
-   "label": "Best for Vacation Homes",
-   "asin": "B01HH7YD2Y",
-   "name": "Temp Stick Remote Wi-Fi sensor",
-   "price": 149.0,
-   "why": "Unlimited text, app, and email alerts with no subscription, and it keeps logging when Wi-Fi drops."
+   "asin": "B0CZ8ZSP67",
+   "name": "MOCREO Freezer alarm kit (H5Lite hub)",
+   "price": 59.99,
+   "why": "Highest score of the picks that fit this award (89): 4.5 stars from 2,138 reviews, $59.99."
   }
  ],
  "systems_note": "Govee's Bluetooth sensors, YoLink, SwitchBot, and Tuya/Smart Life devices also have official Home Assistant integrations.",
@@ -75,7 +68,9 @@
    "rating": 4.6,
    "reviews_count": 178,
    "score": 96,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "GoveeLife app",
    "works_without": {
@@ -124,7 +119,9 @@
    "rating": 4.5,
    "reviews_count": 2138,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best for Freezers and Outbuildings"
+   ],
    "works_with": [],
    "works_with_note": "MOCREO app",
    "works_without": {
@@ -322,9 +319,7 @@
    "rating": 4.7,
    "reviews_count": 978,
    "score": 85,
-   "awards": [
-    "Best for Freezers and Outbuildings"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -376,9 +371,7 @@
    "rating": 4.3,
    "reviews_count": 7928,
    "score": 81,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -485,9 +478,7 @@
    "rating": 4.4,
    "reviews_count": 3963,
    "score": 76,
-   "awards": [
-    "Best for Vacation Homes"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Temp Stick app",
    "works_without": {
@@ -616,6 +607,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: GoveeLife 5-in-1 LCD 3-pack + gateway.",
+    "New Best for Freezers and Outbuildings: MOCREO Freezer alarm kit (H5Lite hub)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

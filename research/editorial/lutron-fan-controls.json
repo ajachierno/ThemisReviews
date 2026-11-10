@@ -37,18 +37,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07N1GXM38",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Four fan speeds from a Caseta switch, rated 4.7 stars by 1,960 buyers."
-    },
-    {
-      "asin": "B07NQDT39V",
-      "label": "Best Add-On",
-      "kind": "budget",
-      "why": "A Pico remote with four speeds and a favorite button for the Caseta fan control."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Add-On", "kind": "budget", "rule": {"type": "feature", "key": "remote"}}
   ],
   "products": [
     {

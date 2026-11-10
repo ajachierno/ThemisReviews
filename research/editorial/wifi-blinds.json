@@ -30,24 +30,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BNHQJ95L",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Three solar Blind Tilts plus a Hub Mini, rated 4.4 stars by 826 buyers."
-    },
-    {
-      "asin": "B0FX9BVZNW",
-      "label": "Best for Curtains",
-      "kind": "special",
-      "why": "An Apple Home certified Matter-over-Wi-Fi curtain track with no hub."
-    },
-    {
-      "asin": "B0CSFCCQC6",
-      "label": "Best Budget Motor",
-      "kind": "budget",
-      "why": "A $79.88 Wi-Fi tube motor that needs no bridge."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget Motor", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

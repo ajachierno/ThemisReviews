@@ -13,7 +13,7 @@
  },
  "product_type": "IR blasters and remotes",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,21 +38,14 @@
    "asin": "B0CXJC5ZZT",
    "name": "SwitchBot Universal Remote with Hub Mini (Matter)",
    "price": 85.49,
-   "why": "SwitchBot's remote and Matter hub bundle, rated 4.2 stars by 5,332 buyers."
+   "why": "Highest score on the page (87): 4.2 stars from 5,332 reviews, $85.49."
   },
   {
    "label": "Best for Home Assistant",
-   "asin": "B0FYPR3KLW",
-   "name": "SofaBaton X2",
-   "price": 359.99,
-   "why": "A touchscreen remote that can also control Home Assistant over MQTT."
-  },
-  {
-   "label": "Best for Home Theater",
-   "asin": "B0CTH5HGGT",
-   "name": "SofaBaton X1S",
-   "price": 179.99,
-   "why": "One-touch activities across a 500,000-device code library, with Alexa and Google."
+   "asin": "B0FT3F7ZGZ",
+   "name": "SwitchBot Universal Remote with Hub 3",
+   "price": 142.49,
+   "why": "Highest score of the picks that fit this award (83): 3.8 stars from 1,890 reviews, $142.49."
   }
  ],
  "systems_note": "SwitchBot remotes join Matter through the included hub. SofaBaton's X2 has a Home Assistant integration.",
@@ -125,7 +118,9 @@
    "rating": 3.8,
    "reviews_count": 1890,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best for Home Assistant"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -180,9 +175,7 @@
    "rating": 4.1,
    "reviews_count": 89,
    "score": 78,
-   "awards": [
-    "Best for Home Assistant"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -231,9 +224,7 @@
    "rating": 3.6,
    "reviews_count": 484,
    "score": 69,
-   "awards": [
-    "Best for Home Theater"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -289,6 +280,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best for Home Assistant: SwitchBot Universal Remote with Hub 3."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

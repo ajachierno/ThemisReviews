@@ -54,28 +54,32 @@
   ],
   "awards": [
     {
-      "asin": "B09J6MXJKT",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Mopeka's Pro Check sticks on with magnets, reads the level by ultrasound, and has 2,846 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BKLFQ3CL",
+      "why": "Highest score on the page (92): 4.1 stars from 314 reviews, $159.99."
     },
     {
-      "asin": "B07NRC2W4C",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A Bluetooth tank scale for $19.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B09J6MXJKT",
+      "why": "Highest score (80) among the cheapest third of picks (up to $65.99 each): 4.3 stars from 2,846 reviews, $65.99."
     },
     {
-      "asin": "B0BKLFQ3CL",
       "label": "Best for Home Tanks",
       "kind": "premium",
-      "why": "Mopeka's PRO+ reaches up to 1,000 ft and covers tanks up to 2,000 gallons."
-    },
-    {
+      "rule": {
+        "type": "feature",
+        "key": "big"
+      },
       "asin": "B0FCPN9JLW",
-      "label": "Best Anywhere Alerts",
-      "kind": "special",
-      "why": "Adds a cellular connection, so alerts reach you away from home."
+      "why": "Highest score of the picks that fit this award (77): 4.0 stars from 15 reviews, $199.99."
     }
   ],
   "products": [

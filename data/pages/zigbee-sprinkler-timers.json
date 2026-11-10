@@ -54,22 +54,32 @@
   ],
   "awards": [
     {
-      "asin": "B0H3L2JVZP",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A brass-inlet Zigbee timer with a flow meter, weather adjustment, and leak and frost alerts."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0H3L2JVZP",
+      "why": "Highest score on the page (80): 3.9 stars from 46 reviews, $36.90."
     },
     {
-      "asin": "B0H3LB7234",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "The $24.90 Lite version, with weather adjustment and the best rating here."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0H3LB7234",
+      "why": "Highest score (68) among the cheapest third of picks (up to $24.90 each): 3.7 stars from 33 reviews, $24.90."
     },
     {
-      "asin": "B0H4VC5XRQ",
       "label": "Best Two-Zone",
       "kind": "special",
-      "why": "Two outlets with separate schedules and a flow meter."
+      "rule": {
+        "type": "feature",
+        "key": "multi_zone"
+      },
+      "asin": "B0H4VC5XRQ",
+      "why": "Highest score of the picks that fit this award (74): 3.5 stars from 21 reviews, $46.50."
     }
   ],
   "products": [

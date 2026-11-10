@@ -13,7 +13,7 @@
  },
  "product_type": "Range extenders",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B081G97TLB",
-   "name": "Aeotec Range Extender 7",
-   "price": 34.99,
-   "why": "A dedicated repeater for any Z-Wave hub, rated 4.2 stars by 847 buyers."
+   "asin": "B0CQX4JFV2",
+   "name": "Minoston Mini Z-Wave 800 plug (repeater)",
+   "price": 28.99,
+   "why": "Highest score on the page (88): 4.5 stars from 510 reviews, $28.99."
   },
   {
    "label": "Best Long Range Plug",
    "asin": "B0BHL9MBRZ",
    "name": "Zooz ZEN04 800LR Smart Plug",
    "price": 35.95,
-   "why": "An 800 Series Long Range plug with power monitoring that also repeats your mesh."
+   "why": "Highest score of the picks that fit this award (85): 4.8 stars from 74 reviews, $35.95."
   },
   {
    "label": "Best for Ring Alarm",
    "asin": "B07ZB2VP4K",
    "name": "Ring Alarm Range Extender (2nd Gen)",
    "price": 14.99,
-   "why": "A $14.99 extender for Ring Alarm systems, 4,204 reviews."
+   "why": "Highest score (76) among Ring picks: 4.3 stars from 4,204 reviews, $14.99."
   }
  ],
  "systems_note": "Every plug-in Z-Wave device repeats the mesh; the plugs here are sold partly as range extenders. The Ring extender only works inside a Ring Alarm system.",
@@ -68,7 +68,9 @@
    "rating": 4.5,
    "reviews_count": 510,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -172,9 +174,7 @@
    "rating": 4.2,
    "reviews_count": 847,
    "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -332,6 +332,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Minoston Mini Z-Wave 800 plug (repeater)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

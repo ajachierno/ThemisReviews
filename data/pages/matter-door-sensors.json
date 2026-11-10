@@ -57,16 +57,22 @@
   ],
   "awards": [
     {
-      "asin": "B0BZSY26WP",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A local-only Eve sensor for $43.95, rated 4.1 stars by 150 buyers, on Matter over Thread."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0F5LYZRVL",
+      "why": "Highest score on the page (83): 4.5 stars from 342 reviews, $41.99."
     },
     {
-      "asin": "B0BTL8B72D",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$27.99, the most reviews of any Matter contact sensor, and remote alarm support."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BTL8B72D",
+      "why": "Highest score (75) among the cheapest third of picks (up to $27.99 each): 3.6 stars from 1,142 reviews, $27.99."
     }
   ],
   "products": [

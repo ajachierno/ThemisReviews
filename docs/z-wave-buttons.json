@@ -13,7 +13,7 @@
  },
  "product_type": "Buttons and remotes",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08TMWLY74",
-   "name": "Zooz ZEN34 800LR",
-   "price": 37.95,
-   "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."
-  },
-  {
-   "label": "Best Wired",
    "asin": "B09B6S4TSL",
    "name": "Zooz ZEN32 800LR",
    "price": 47.95,
-   "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars from 335 reviews."
+   "why": "Highest score on the page (96): 4.6 stars from 335 reviews, $47.95."
   },
   {
    "label": "Best Battery Remote",
    "asin": "B0CV8RXT5W",
    "name": "Zooz ZEN37 800LR",
    "price": 46.95,
-   "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."
+   "why": "Highest score of the picks that fit this award (83): 4.3 stars from 77 reviews, $46.95."
   }
  ],
  "systems_note": "Scene control needs a hub that supports multi-tap Central Scene events; the icons show the platforms each listing names.",
@@ -69,7 +62,7 @@
    "reviews_count": 335,
    "score": 96,
    "awards": [
-    "Best Wired"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -178,9 +171,7 @@
    "rating": 4.4,
    "reviews_count": 413,
    "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Hubitat Elevation"
@@ -290,6 +281,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Zooz ZEN32 800LR."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

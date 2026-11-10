@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B08F6GPQQ7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Rated 4.7 stars by 44,556 buyers, with 2,000-lumen lights; recordings need Ring Protect."
-    },
-    {
-      "asin": "B0C9W1K5Y8",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "2K video, 2,800 lumens, and free 24/7 microSD recording for $99.98."
-    },
-    {
-      "asin": "B0GHR3WVT1",
-      "label": "Best 4K",
-      "kind": "premium",
-      "why": "4K panoramic 180° view, 3,000 lumens, and local recording with no monthly fees."
-    },
-    {
-      "asin": "B0FQ1ZGF98",
-      "label": "Best Wire-Free",
-      "kind": "special",
-      "why": "A solar pan-tilt floodlight camera with subscription-free AI detection."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best 4K", "kind": "premium", "rule": {"type": "feature", "key": "high_res"}}
   ],
   "products": [
     {

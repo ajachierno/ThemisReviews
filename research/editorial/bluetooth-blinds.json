@@ -30,24 +30,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0C6XZYFS7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "SwitchBot Curtain 3 for U-rails, rated 4.5 stars by 516 buyers."
-    },
-    {
-      "asin": "B0BMLFZ4CP",
-      "label": "Best for Blinds",
-      "kind": "special",
-      "why": "Solar tilt motor for existing horizontal blinds, 1,464 reviews."
-    },
-    {
-      "asin": "B0FKH3PQT1",
-      "label": "Best Starter Kit",
-      "kind": "budget",
-      "why": "Two curtain openers with a Hub Mini, so voice control works out of the box."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Starter Kit", "kind": "budget", "rule": {"type": "feature", "key": "hub_included"}}
   ],
   "products": [
     {

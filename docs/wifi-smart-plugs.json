@@ -13,7 +13,7 @@
  },
  "product_type": "Smart plugs",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B091699Z3W",
-   "name": "Kasa EP10 Ultra Mini",
-   "price": 9.99,
-   "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,948 reviews and Alexa and Google support."
-  },
-  {
-   "label": "Best for Alexa Homes",
-   "asin": "B089DR29T6",
-   "name": "Amazon Smart Plug",
-   "price": 24.99,
-   "why": "Over 571,000 reviews at 4.7 stars, and it sets up in the Alexa app in minutes."
+   "asin": "B0B14C719T",
+   "name": "Kasa EP25P4 (4-pack)",
+   "price": 42.99,
+   "why": "Highest score on the page (85): 4.2 stars from 5,126 reviews, $42.99."
   },
   {
    "label": "Best Energy Monitoring",
    "asin": "B08LN3C7WK",
    "name": "Kasa KP115",
    "price": 15.99,
-   "why": "Real-time and historical energy use for $15.99."
+   "why": "Highest score (80) among picks with energy monitoring: 4.5 stars from 17,803 reviews, $15.99."
   },
   {
    "label": "Best Outdoor",
    "asin": "B091FXH2FR",
    "name": "Kasa EP40 outdoor",
    "price": 18.99,
-   "why": "Two independently controlled outdoor outlets, 15 A each, with 17,557 reviews."
+   "why": "Highest score of the picks that fit this award (79): 4.6 stars from 17,557 reviews, $18.99."
   }
  ],
  "systems_note": null,
@@ -74,7 +67,9 @@
    "rating": 4.2,
    "reviews_count": 5126,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Apple Home",
     "Amazon Alexa",
@@ -278,9 +273,7 @@
    "rating": 4.7,
    "reviews_count": 571337,
    "score": 72,
-   "awards": [
-    "Best for Alexa Homes"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -378,9 +371,7 @@
    "rating": 4.5,
    "reviews_count": 40948,
    "score": 70,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -616,6 +607,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Kasa EP25P4 (4-pack)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

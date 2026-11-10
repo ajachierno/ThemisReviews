@@ -41,24 +41,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FPG9SGLJ",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Wi-Fi, Bluetooth, Zigbee, or Matter, with a sensing cable and a 3-year battery."
-    },
-    {
-      "asin": "B0H3QG45XL",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "$27.99 for a slim triple-pad sensor that slides under appliances, rated 4.5 stars."
-    },
-    {
-      "asin": "B0GJCYV2LD",
-      "label": "Best Kit",
-      "kind": "special",
-      "why": "Three sensors and a controller with a 100 dB alarm, all over Matter Wi-Fi."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

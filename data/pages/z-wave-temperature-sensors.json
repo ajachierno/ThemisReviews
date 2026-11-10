@@ -59,28 +59,32 @@
   ],
   "awards": [
     {
-      "asin": "B0B3G9Z4LJ",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A dedicated temperature and humidity sensor with 800 Series Long Range, and the best rating of the dedicated sensors."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B09GDL6BGY",
+      "why": "Highest score on the page (85): 3.6 stars from 127 reviews, $46.95."
     },
     {
-      "asin": "B0987MNJZ1",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Temperature, humidity, and dew point in a 1.38 in. square, for $34.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0GR6BB2YT",
+      "why": "Highest score (74) among the cheapest third of picks (up to $39.99 each): 4.1 stars from 16 reviews, $39.99."
     },
     {
-      "asin": "B08XHZP7NV",
       "label": "Best Multisensor",
       "kind": "special",
-      "why": "Six sensors in one, including humidity and temperature, with batteries or USB power."
-    },
-    {
-      "asin": "B0GYZRCWCB",
-      "label": "Best for Basements",
-      "kind": "premium",
-      "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."
+      "rule": {
+        "type": "feature",
+        "key": "multi"
+      },
+      "asin": "B08XHZP7NV",
+      "why": "Highest score of the picks that fit this award (79): 3.8 stars from 113 reviews, $69.99."
     }
   ],
   "products": [

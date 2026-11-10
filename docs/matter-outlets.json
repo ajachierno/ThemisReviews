@@ -13,7 +13,7 @@
  },
  "product_type": "In-wall outlets",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,17 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DLLQR3K7",
-   "name": "Tapo P210M",
-   "price": 20.99,
-   "why": "Two controlled sockets and energy monitoring for $20.99, 500+ bought last month."
-  },
-  {
-   "label": "Best on Thread",
    "asin": "B0CT62FC6W",
    "name": "Eve Energy Outlet",
    "price": 54.97,
-   "why": "Eve's outlet runs on Thread, so it strengthens your Thread mesh and needs no Wi-Fi."
+   "why": "Highest score on the page (91): 4.1 stars from 177 reviews, $54.97."
   }
  ],
  "systems_note": null,
@@ -61,7 +54,7 @@
    "reviews_count": 177,
    "score": 91,
    "awards": [
-    "Best on Thread"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -115,9 +108,7 @@
    "rating": 4.4,
    "reviews_count": 428,
    "score": 87,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -335,6 +326,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Eve Energy Outlet."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

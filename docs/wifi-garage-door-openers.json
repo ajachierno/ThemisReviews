@@ -38,28 +38,28 @@
    "asin": "B07SKCGMY7",
    "name": "Genie StealthDrive Connect 7155-TKV",
    "price": 322.99,
-   "why": "Genie's StealthDrive Connect works with Alexa, Google, and SmartThings, has a battery backup, and has 5,106 reviews."
+   "why": "Highest score on the page (90): 4.4 stars from 5,106 reviews, $322.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0FQYM9DQS",
-   "name": "Chamberlain Belt Drive myQ Opener 1/2 HP",
-   "price": 219.0,
-   "why": "The cheapest opener here at $219, a quiet belt drive with myQ, battery backup, and 4.4 stars."
-  },
-  {
-   "label": "Best with Camera",
    "asin": "B0FQYSF58M",
    "name": "Chamberlain Belt Drive myQ Opener 3/4 HP with camera",
    "price": 248.86,
-   "why": "A quiet belt-drive myQ opener with a 130° camera and battery backup."
+   "why": "Highest score (87) among the cheapest third of picks (up to $248.86 each): 4.2 stars from 263 reviews, $248.86."
+  },
+  {
+   "label": "Best with Camera",
+   "asin": "B0G95ZTYDG",
+   "name": "Chamberlain 1 HP Belt Drive myQ Opener with camera",
+   "price": 325.0,
+   "why": "Highest score (84) among picks with camera: 4.5 stars from 39 reviews, $325.00."
   },
   {
    "label": "Best Premium",
    "asin": "B0C7K97GX2",
    "name": "Chamberlain Wall Mount myQ Opener",
    "price": 521.8,
-   "why": "Chamberlain's wall-mount opener frees the ceiling and handles tall or heavy doors."
+   "why": "Highest score (85) among the priciest third of picks: 4.6 stars from 647 reviews, $521.80."
   }
  ],
  "systems_note": "Chamberlain, LiftMaster, and Craftsman openers use the myQ app. Genie openers use Aladdin Connect, which also has an official Home Assistant integration.",
@@ -130,7 +130,7 @@
    "reviews_count": 263,
    "score": 87,
    "awards": [
-    "Best with Camera"
+    "Best Budget"
    ],
    "works_with": [],
    "works_with_note": "myQ app",
@@ -227,7 +227,9 @@
    "rating": 4.5,
    "reviews_count": 39,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best with Camera"
+   ],
    "works_with": [],
    "works_with_note": "myQ app",
    "works_without": {
@@ -274,9 +276,7 @@
    "rating": 4.4,
    "reviews_count": 205,
    "score": 83,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "myQ app",
    "works_without": {
@@ -548,6 +548,8 @@
    "date": "2026-11-10",
    "notes": [
     "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Budget: Chamberlain Belt Drive myQ Opener 3/4 HP with camera.",
+    "New Best with Camera: Chamberlain 1 HP Belt Drive myQ Opener with camera.",
     "All 9 picks kept. The Genie StealthDrive Connect dropped from $339.99 to $322.99. Other prices and ratings re-checked with only small changes."
    ]
   },

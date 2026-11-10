@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FLF5Y2K6",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Flume straps onto your water meter in minutes and alerts you to leaks indoors and out."
-    },
-    {
-      "asin": "B0DSKG73XB",
-      "label": "Best with Shutoff",
-      "kind": "special",
-      "why": "Frizzlife's ultrasonic monitor detects flows down to 0.01 GPM and closes the valve itself, rated 4.5 stars."
-    },
-    {
-      "asin": "B0HHH9DYGP",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "An ultrasonic flow monitor and motorized valve for $119.99."
-    },
-    {
-      "asin": "B081HT5LD6",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Moen Flo learns your home's water patterns and shuts off the main line on its own."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best with Shutoff", "kind": "special", "rule": {"type": "feature", "key": "shutoff"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

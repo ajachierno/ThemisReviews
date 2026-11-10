@@ -41,30 +41,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GGRSMXKN",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.0 stars from 1,994 reviews and 6K+ bought in the past month."
-    },
-    {
-      "asin": "B0FSJPFDPV",
-      "label": "Best Mopping",
-      "kind": "special",
-      "why": "An all-in-one dock that washes and dries the mop, with 25,000 Pa suction and Alexa, Google, and Siri."
-    },
-    {
-      "asin": "B0FBRK76L8",
-      "label": "Best for Matter",
-      "kind": "premium",
-      "why": "The one vacuum here with Matter, so Apple Home, SmartThings, and Home Assistant can run it."
-    },
-    {
-      "asin": "B0G5Y3LN8M",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "The lowest price here at $227.99, with a self-emptying dock, a mop, and LiDAR mapping."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Mopping", "kind": "special", "rule": {"type": "feature", "key": "mop"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

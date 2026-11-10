@@ -45,30 +45,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DHCJ67XX",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A $11.99 color bulb that pairs with Echo hubs and every open Zigbee platform, and repeats signal."
-    },
-    {
-      "asin": "B078HHWQWG",
-      "label": "Best Budget White",
-      "kind": "budget",
-      "why": "A cheap white Zigbee bulb that works with Echo hubs and SmartThings, with 3,865 reviews."
-    },
-    {
-      "asin": "B0FMGP1P6W",
-      "label": "Best for Hue Homes",
-      "kind": "premium",
-      "why": "Philips Hue color in a 4-pack at about $17.50 a bulb, 4K+ bought last month."
-    },
-    {
-      "asin": "B0FH59TRX1",
-      "label": "Brightest",
-      "kind": "special",
-      "why": "1,100 lumens of color and white that works with Hue, SmartThings, Home Assistant, and Hubitat."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget White", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Hue Homes", "kind": "premium", "rule": {"type": "brand", "key": "Philips Hue"}},
+    {"label": "Brightest", "kind": "special", "rule": {"type": "feature", "key": "bright"}}
   ],
   "products": [
     {

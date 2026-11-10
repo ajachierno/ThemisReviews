@@ -49,24 +49,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0G8JKPMV7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "800 Series Long Range with an external antenna and a USB extension cable in the box, 4.6 stars, for $39.90, the lowest price here."
-    },
-    {
-      "asin": "B0FL858V4Q",
-      "label": "Best for Home Assistant",
-      "kind": "special",
-      "why": "Official Home Assistant hardware with a tuned antenna and one-click migration from other sticks."
-    },
-    {
-      "asin": "B0CR4G1G8M",
-      "label": "Best All-in-One Hub",
-      "kind": "premium",
-      "why": "800 Series Long Range, Zigbee, and Matter in one box, with automations that run locally and no subscription required."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Home Assistant", "kind": "special", "rule": {"type": "system", "key": "home-assistant"}},
+    {"label": "Best All-in-One Hub", "kind": "premium", "rule": {"type": "feature", "key": "multi_radio"}}
   ],
   "products": [
     {

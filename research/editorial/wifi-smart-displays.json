@@ -37,30 +37,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DC8ZMR1P",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "An 8.7 in. HD screen, spatial audio, and a built-in smart home hub, with 9K+ bought last month."
-    },
-    {
-      "asin": "B09B2SBHQK",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "The 73,835-review Echo Show 5 for $99.99, ideal on a nightstand."
-    },
-    {
-      "asin": "B0C5DPSW5Y",
-      "label": "Best for Kitchens",
-      "kind": "special",
-      "why": "A 15.6 in. wall-mountable family hub with calendars, lists, and Fire TV built in."
-    },
-    {
-      "asin": "B0BCR7M9KX",
-      "label": "Best Control Panel",
-      "kind": "premium",
-      "why": "A wall-mounted smart home dashboard with Zigbee, Thread, and Matter built in."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Kitchens", "kind": "special", "rule": {"type": "feature", "key": "screen"}},
+    {"label": "Best Control Panel", "kind": "premium", "rule": {"type": "feature", "key": "hub"}}
   ],
   "products": [
     {

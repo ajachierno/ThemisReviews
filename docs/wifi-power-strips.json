@@ -13,7 +13,7 @@
  },
  "product_type": "Smart power strips",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07G95FFN3",
-   "name": "Kasa HS300 Smart Power Strip",
-   "price": 42.99,
-   "why": "Six individually controlled outlets with surge protection, rated 4.6 stars by 9,484 buyers."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B083JKSSR5",
-   "name": "Kasa KP303 Smart Power Strip",
-   "price": 24.98,
-   "why": "Three smart outlets and two USB ports with surge protection for $24.98."
-  },
-  {
-   "label": "Best for Apple Home",
    "asin": "B0F5LNYTR7",
    "name": "Tapo P316M Smart Power Strip",
    "price": 49.99,
-   "why": "Matter, per-outlet energy monitoring, and surge protection for $49.99."
+   "why": "Highest score on the page (96): 4.5 stars from 364 reviews, $49.99."
   },
   {
-   "label": "Best Outlet Extender",
+   "label": "Best Budget",
    "asin": "B0CYGSFFFW",
    "name": "Tapo P306 Outlet Extender",
    "price": 34.99,
-   "why": "Plugs straight into the wall with 3 smart outlets and 3 smart USB ports, and works with HomeKit."
+   "why": "Highest score (84) among the cheapest third of picks (up to $34.99 each): 4.5 stars from 663 reviews, $34.99."
   }
  ],
  "systems_note": "Kasa and Tapo strips have an official TP-Link integration in Home Assistant; Smart Life (Tuya) strips work with its Tuya integration.",
@@ -76,7 +62,7 @@
    "reviews_count": 364,
    "score": 96,
    "awards": [
-    "Best for Apple Home"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -132,9 +118,7 @@
    "rating": 4.6,
    "reviews_count": 9484,
    "score": 84,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -186,7 +170,7 @@
    "reviews_count": 663,
    "score": 84,
    "awards": [
-    "Best Outlet Extender"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -289,9 +273,7 @@
    "rating": 4.6,
    "reviews_count": 16527,
    "score": 78,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -548,6 +530,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Tapo P316M Smart Power Strip.",
+    "New Best Budget: Tapo P306 Outlet Extender."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

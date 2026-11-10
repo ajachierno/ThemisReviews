@@ -53,28 +53,41 @@
   ],
   "awards": [
     {
-      "asin": "B08W8GLPD5",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "4.7 stars from 4,038 reviews, a magnetic wall plate, and 3K+ bought last month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B08W8GLPD5",
+      "why": "Highest score on the page (97): 4.7 stars from 4,038 reviews, $27.98."
     },
     {
-      "asin": "B07D19YXND",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $15.90 button with single, double, and long press, 3,102 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0G2LNPCP7",
+      "why": "Highest score (92) among the cheapest third of picks (up to $19.90 each): 4.1 stars from 411 reviews, $19.90."
     },
     {
-      "asin": "B0G2LNPCP7",
       "label": "Best for Home Assistant",
       "kind": "special",
-      "why": "Four buttons, 16 actions, and direct Zigbee binding in ZHA and Zigbee2MQTT."
+      "rule": {
+        "type": "system",
+        "key": "home-assistant"
+      },
+      "asin": "B0B6LDPZ5M",
+      "why": "Highest score (97) among picks that work with Home Assistant: 4.7 stars from 962 reviews, $54.99."
     },
     {
-      "asin": "B0B6LDPZ5M",
       "label": "Best Premium",
       "kind": "premium",
-      "why": "Four scene buttons plus a rotary dial for dimming, rated 4.7 stars."
+      "rule": {
+        "type": "premium"
+      },
+      "asin": "B0FCZRXH8Z",
+      "why": "Highest score (90) among the priciest third of picks: 4.6 stars from 191 reviews, $32.99."
     }
   ],
   "products": [

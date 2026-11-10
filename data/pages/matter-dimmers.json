@@ -67,28 +67,32 @@
   ],
   "awards": [
     {
-      "asin": "B0DKGXY4DL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A complete 3-way Matter dimmer kit with energy monitoring, and 1K+ bought last month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BVKYKKRK",
+      "why": "Highest score on the page (85): 4.6 stars from 322 reviews, $50.77."
     },
     {
-      "asin": "B0C2B8SP3W",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$17.99 for a Matter dimmer with 4.6 stars, fade on and off, and away mode."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CC8KRB2N",
+      "why": "Highest score (71) among the cheapest third of picks (up to $23.72 each): 4.6 stars from 1,054 reviews, $23.72."
     },
     {
-      "asin": "B0BVKYKKRK",
-      "label": "Best Name Brand",
-      "kind": "premium",
-      "why": "Leviton's Decora dimmer with bulb-type, min-dim, and max-bright settings and wired or wireless 3-way."
-    },
-    {
-      "asin": "B0F2N68K3C",
       "label": "Best No-Neutral",
       "kind": "special",
-      "why": "The only Matter dimmer here that installs without a neutral wire."
+      "rule": {
+        "type": "feature",
+        "key": "no_neutral"
+      },
+      "asin": "B0F2N68K3C",
+      "why": "Highest score of the picks that fit this award (77): 3.9 stars from 62 reviews, $49.99."
     }
   ],
   "products": [

@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DFLR468J",
-   "name": "SONOFF ZBMINIR2 (4-pack)",
-   "price": 45.9,
-   "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,562 buyers."
+   "asin": "B091GS6J5W",
+   "name": "Mic Technology 4-channel 12 V dry contact relay",
+   "price": 23.9,
+   "why": "Highest score on the page (88): 4.4 stars from 214 reviews, $23.90."
   },
   {
    "label": "Best Budget",
-   "asin": "B0GXZWRZXX",
-   "name": "SONOFF MINI-ZBD dry contact",
-   "price": 14.9,
-   "why": "A $14.90 dry-contact relay for garage doors and gates that runs on AC or DC."
+   "asin": "B08X218VMR",
+   "name": "Mic Technology 1-channel dry contact relay",
+   "price": 16.9,
+   "why": "Highest score (82) among the cheapest third of picks (up to $16.90 each): 4.5 stars from 487 reviews, $16.90."
   },
   {
    "label": "Best With Power Metering",
    "asin": "B0DZJ1W814",
    "name": "Shelly 2PM Gen4",
    "price": 38.99,
-   "why": "Two 16 A channels with power metering, on Zigbee, Wi-Fi, or Matter."
+   "why": "Highest score of the picks that fit this award (86): 4.7 stars from 911 reviews, $38.99."
   },
   {
    "label": "Best Multi-Channel",
-   "asin": "B091GS6J5W",
-   "name": "Mic Technology 4-channel 12 V dry contact relay",
-   "price": 23.9,
-   "why": "Four dry-contact channels with latching, momentary, and interlock modes."
+   "asin": "B0D5XCFPTR",
+   "name": "Aqara Dual Relay Module T2",
+   "price": 32.99,
+   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 117 reviews, $32.99."
   }
  ],
  "systems_note": "Shelly Gen4 relays speak Zigbee, Wi-Fi, and Matter, so they also appear on our Wi-Fi and Matter relay pages.",
@@ -76,7 +76,7 @@
    "reviews_count": 214,
    "score": 88,
    "awards": [
-    "Best Multi-Channel"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -185,7 +185,9 @@
    "rating": 4.5,
    "reviews_count": 487,
    "score": 82,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -236,7 +238,9 @@
    "rating": 4.4,
    "reviews_count": 117,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Multi-Channel"
+   ],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -342,9 +346,7 @@
    "rating": 4.3,
    "reviews_count": 232,
    "score": 75,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -453,9 +455,7 @@
    "rating": 4.6,
    "reviews_count": 1562,
    "score": 71,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -627,7 +627,10 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Mic Technology 4-channel 12 V dry contact relay.",
+    "New Best Budget: Mic Technology 1-channel dry contact relay.",
+    "New Best Multi-Channel: Aqara Dual Relay Module T2."
    ]
   },
   {

@@ -13,7 +13,7 @@
  },
  "product_type": "Power stations",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D7PPG25F",
-   "name": "Jackery Explorer 1000 v2",
-   "price": 559.0,
-   "why": "Jackery's Explorer 1000 v2 is rated 4.7 stars by 3,731 buyers and charges in about an hour from the app's emergency mode."
+   "asin": "B0FQVC4RF5",
+   "name": "EcoFlow DELTA 3 Classic",
+   "price": 462.0,
+   "why": "Highest score on the page (97): 4.7 stars from 1,396 reviews, $462.00."
   },
   {
    "label": "Best Budget",
    "asin": "B0HD6GN86Q",
    "name": "BLUETTI Elite 100 mini",
    "price": 429.0,
-   "why": "1 kWh with a 10 ms UPS for $429.00, in the smallest footprint here."
+   "why": "Highest score (89) among the cheapest third of picks (up to $489.00 each): 4.5 stars from 1,845 reviews, $429.00."
   },
   {
    "label": "Best for Home Backup",
    "asin": "B0FQV6LMVX",
    "name": "EcoFlow DELTA 3 Max",
    "price": 878.99,
-   "why": "2,048 Wh and 2,400 W with a 10 ms transfer and app power scheduling."
-  },
-  {
-   "label": "Best Solar Kit",
-   "asin": "B0GWGSKN54",
-   "name": "Anker SOLIX C1000 Gen 2 with 200 W Solar Panel",
-   "price": 849.99,
-   "why": "Anker's C1000 Gen 2 with a 200 W panel, 2,000 W output, and time-of-use scheduling."
+   "why": "Highest score (97) among picks with uPS switchover: 4.7 stars from 658 reviews, $878.99."
   }
  ],
  "systems_note": "All of these connect to their maker's app for monitoring and settings. None of the listings name Alexa, Google, or Home Assistant.",
@@ -75,7 +68,9 @@
    "rating": 4.7,
    "reviews_count": 1396,
    "score": 97,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "EcoFlow app",
    "works_without": {
@@ -218,9 +213,7 @@
    "rating": 4.6,
    "reviews_count": 1782,
    "score": 96,
-   "awards": [
-    "Best Solar Kit"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Anker app",
    "works_without": {
@@ -363,9 +356,7 @@
    "rating": 4.7,
    "reviews_count": 3731,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Jackery app",
    "works_without": {
@@ -465,6 +456,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: EcoFlow DELTA 3 Classic."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

@@ -39,24 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FBRK76L8",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "SwitchBot's K11+ joins Matter directly, empties itself for 90 days, and is the most-reviewed Matter vacuum."
-    },
-    {
-      "asin": "B0H7XCFZP8",
-      "label": "Most Powerful",
-      "kind": "premium",
-      "why": "Double the K11+'s suction at 12,000 Pa in the same compact body."
-    },
-    {
-      "asin": "B0F6CJ6G2Z",
-      "label": "Best Mopping",
-      "kind": "special",
-      "why": "A self-washing roller mop with hot-air drying."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Most Powerful", "kind": "premium", "rule": {"type": "feature", "key": "power"}}
   ],
   "products": [
     {

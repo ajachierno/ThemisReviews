@@ -65,28 +65,32 @@
   ],
   "awards": [
     {
-      "asin": "B0BZBGD87V",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Matter over Thread with a power meter, no cloud account, and 300+ bought last month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BZBGD87V",
+      "why": "Highest score on the page (83): 4.2 stars from 758 reviews, $35.82."
     },
     {
-      "asin": "B0CWTKW9BB",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$17.99 for a 15 A Thread plug in a mini size."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0H7X7T22R",
+      "why": "Highest score (77) among the cheapest third of picks (up to $19.99 each): 4.1 stars from 39 reviews, $19.99."
     },
     {
-      "asin": "B0HC79KN8J",
       "label": "Best Outdoor",
       "kind": "special",
-      "why": "The only outdoor Thread plug we found, with IP65 and energy monitoring."
-    },
-    {
-      "asin": "B0C1CL2MV3",
-      "label": "Best Multipack",
-      "kind": "premium",
-      "why": "Two Eve Energy plugs, about $30 each, to start a Thread network properly."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B0HC79KN8J",
+      "why": "Highest score of the picks that fit this award (75): 4.1 stars from 9 reviews, $35.99."
     }
   ],
   "products": [

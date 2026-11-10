@@ -51,28 +51,33 @@
   ],
   "awards": [
     {
-      "asin": "B09B8V1LZ3",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "201,929 reviews at 4.7 stars and 10K+ bought last month, for $79.99."
-    },
-    {
+      "rule": {
+        "type": "overall"
+      },
       "asin": "B0D6SX8VLQ",
-      "label": "Best Smart Home Hub",
-      "kind": "budget",
-      "why": "A built-in smart home hub and nearly 3x the bass of the Echo Dot, for $119.99."
+      "why": "Highest score on the page (86): 4.3 stars from 5,758 reviews, $119.99."
     },
     {
-      "asin": "B0BFCBKXWL",
       "label": "Best for Bedrooms",
       "kind": "special",
-      "why": "A smart alarm clock with a screen, Alexa, and good sound, rated 4.5 stars."
+      "rule": {
+        "type": "feature",
+        "key": "display"
+      },
+      "asin": "B0BFCBKXWL",
+      "why": "Highest score of the picks that fit this award (78): 4.5 stars from 46,915 reviews, $109.99."
     },
     {
-      "asin": "B0BW34LCB8",
       "label": "Best Sound",
       "kind": "premium",
-      "why": "Stereo sound from a compact Sonos speaker, with Alexa built in."
+      "rule": {
+        "type": "feature",
+        "key": "sound"
+      },
+      "asin": "B0BW34LCB8",
+      "why": "Highest score of the picks that fit this award (78): 4.4 stars from 2,847 reviews, $219.00."
     }
   ],
   "products": [

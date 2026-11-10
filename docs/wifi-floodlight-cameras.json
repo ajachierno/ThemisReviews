@@ -13,7 +13,7 @@
  },
  "product_type": "Floodlight cameras",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08F6GPQQ7",
-   "name": "Ring Floodlight Cam Wired Plus",
-   "price": 179.99,
-   "why": "Rated 4.7 stars by 44,556 buyers, with 2,000-lumen lights; recordings need Ring Protect."
+   "asin": "B0GHR3WVT1",
+   "name": "Reolink Elite Floodlight Wi-Fi 4K",
+   "price": 249.99,
+   "why": "Highest score on the page (91): 4.0 stars from 520 reviews, $249.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0C9W1K5Y8",
    "name": "Wyze Floodlight Camera v2",
    "price": 99.98,
-   "why": "2K video, 2,800 lumens, and free 24/7 microSD recording for $99.98."
+   "why": "Highest score (89) among the cheapest third of picks (up to $119.98 each): 4.2 stars from 3,062 reviews, $99.98."
   },
   {
    "label": "Best 4K",
-   "asin": "B0GHR3WVT1",
-   "name": "Reolink Elite Floodlight Wi-Fi 4K",
-   "price": 249.99,
-   "why": "4K panoramic 180° view, 3,000 lumens, and local recording with no monthly fees."
-  },
-  {
-   "label": "Best Wire-Free",
-   "asin": "B0FQ1ZGF98",
-   "name": "Tapo C615F Kit (solar pan-tilt floodlight)",
-   "price": 119.99,
-   "why": "A solar pan-tilt floodlight camera with subscription-free AI detection."
+   "asin": "B0B9TTCVS8",
+   "name": "Wyze Floodlight Camera Pro",
+   "price": 149.93,
+   "why": "Highest score of the picks that fit this award (89): 4.2 stars from 1,956 reviews, $149.93."
   }
  ],
  "systems_note": "Ring, Blink, Reolink, and Tapo cameras have official Home Assistant integrations.",
@@ -76,7 +69,7 @@
    "reviews_count": 520,
    "score": 91,
    "awards": [
-    "Best 4K"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant"
@@ -175,7 +168,9 @@
    "rating": 4.2,
    "reviews_count": 1956,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best 4K"
+   ],
    "works_with": [],
    "works_with_note": "Wyze app",
    "works_without": {
@@ -222,9 +217,7 @@
    "rating": 4.4,
    "reviews_count": 662,
    "score": 88,
-   "awards": [
-    "Best Wire-Free"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -466,9 +459,7 @@
    "rating": 4.7,
    "reviews_count": 44556,
    "score": 72,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -524,6 +515,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Reolink Elite Floodlight Wi-Fi 4K.",
+    "New Best 4K: Wyze Floodlight Camera Pro."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

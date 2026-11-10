@@ -14,10 +14,10 @@
     {"key": "key", "label": "Key"}
   ],
   "awards": [
-    {"asin": "B07KQPQMXS", "label": "Best Overall", "kind": "overall", "why": "The most-reviewed Z-Wave lock by far, with Schlage's Snap 'n Stay install and Ring Alarm and SmartThings support."},
-    {"asin": "B0DWGXFS8H", "label": "Best Budget", "kind": "budget", "why": "Z-Wave Long Range with S2 and SmartStart for about $110."},
-    {"asin": "B0GT9NHTNB", "label": "Best Long Range", "kind": "special", "why": "An 800 Series Long Range lock rated 4.3 stars, with Home Assistant named in the listing."},
-    {"asin": "B0D97134GL", "label": "Best Fingerprint", "kind": "premium", "why": "Fingerprint, keypad, and Auto-Unlock on Z-Wave."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Long Range", "kind": "special", "rule": {"type": "feature", "key": "long_range"}},
+    {"label": "Best Fingerprint", "kind": "premium", "rule": {"type": "feature", "key": "fingerprint"}}
   ],
   "products": [
     {"asin": "B07KQPQMXS", "brand": "Schlage", "model": "Connect (Camelot trim)", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],

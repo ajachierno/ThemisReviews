@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B016UCNP3A",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Reolink's 4-camera PoE kit with a 2 TB recorder, rated 4.5 stars by 2,894 buyers."
-    },
-    {
-      "asin": "B07QM5996S",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A Wi-Fi camera system with a hard-drive recorder for $179.98."
-    },
-    {
-      "asin": "B07W4WBKKJ",
-      "label": "Best 4K",
-      "kind": "premium",
-      "why": "Six 4K PoE cameras with person and vehicle detection and a 2 TB recorder."
-    },
-    {
-      "asin": "B0CNRDG796",
-      "label": "Best Wire-Free",
-      "kind": "special",
-      "why": "Four solar-powered wireless cameras with no monthly fees, 4,327 reviews."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best 4K", "kind": "premium", "rule": {"type": "feature", "key": "uhd"}}
   ],
   "products": [
     {

@@ -13,7 +13,7 @@
  },
  "product_type": "Hubs and controllers",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D6LDXRJ4",
-   "name": "M5Stack ATOM Lite",
-   "price": 15.1,
-   "why": "The classic Bluetooth proxy: a cased 24 mm ESP32 that ESPHome's ready-made firmware supports, for $15.10."
-  },
-  {
-   "label": "Best Budget",
    "asin": "B0D8T53CQ5",
    "name": "ELEGOO ESP-32 dev boards (3-pack)",
    "price": 19.99,
-   "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 3K+ bought last month."
+   "why": "Highest score on the page (84): 4.7 stars from 567 reviews, $19.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B08D5ZD528",
+   "name": "Aitrip ESP-WROOM-32 board",
+   "price": 16.99,
+   "why": "Highest score (77) among the cheapest third of picks (up to $7.66 each): 4.4 stars from 1,288 reviews, $16.99."
   },
   {
    "label": "Best Ethernet (PoE)",
    "asin": "B0DKXFB7PW",
    "name": "UeeKKoo ESP32-S3 PoE Ethernet board",
    "price": 30.71,
-   "why": "Wired Ethernet with a PoE option keeps Bluetooth and Wi-Fi from sharing one radio."
-  },
-  {
-   "label": "Best Tiny Board",
-   "asin": "B0D2NKVB34",
-   "name": "Seeed Studio XIAO ESP32C6",
-   "price": 11.9,
-   "why": "A thumb-sized ESP32-C6 with Wi-Fi 6, BLE 5, and an external antenna connector, for $11.90."
+   "why": "Highest score of the picks that fit this award (73): 4.6 stars from 47 reviews, $30.71."
   }
  ],
  "systems_note": "Bluetooth proxies run ESPHome and work only with Home Assistant.",
@@ -76,7 +69,7 @@
    "reviews_count": 567,
    "score": 84,
    "awards": [
-    "Best Budget"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant"
@@ -127,9 +120,7 @@
    "rating": 4.4,
    "reviews_count": 76,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -179,7 +170,9 @@
    "rating": 4.4,
    "reviews_count": 1288,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -229,9 +222,7 @@
    "rating": 4.7,
    "reviews_count": 167,
    "score": 75,
-   "awards": [
-    "Best Tiny Board"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -591,6 +582,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: ELEGOO ESP-32 dev boards (3-pack).",
+    "New Best Budget: Aitrip ESP-WROOM-32 board."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

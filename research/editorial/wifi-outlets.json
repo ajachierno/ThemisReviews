@@ -31,30 +31,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B07N3CK3MM",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Two independently controlled sockets, rated 4.6 stars by 7,808 buyers."
-    },
-    {
-      "asin": "B0C741MSY2",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Two controlled sockets for $13.99."
-    },
-    {
-      "asin": "B0DLLQR3K7",
-      "label": "Best With Energy Monitoring",
-      "kind": "special",
-      "why": "Energy monitoring plus Matter, so it also works with Apple Home."
-    },
-    {
-      "asin": "B0DR3BNNLM",
-      "label": "Best for Apple Home",
-      "kind": "premium",
-      "why": "Leviton's Decora outlet names HomeKit, Alexa, Google, and SmartThings."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best With Energy Monitoring", "kind": "special", "rule": {"type": "feature", "key": "energy"}},
+    {"label": "Best for Apple Home", "kind": "premium", "rule": {"type": "system", "key": "apple-home"}}
   ],
   "products": [
     {

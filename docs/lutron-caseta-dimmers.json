@@ -13,7 +13,7 @@
  },
  "product_type": "Light switches",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B07HM6L48C",
    "name": "Lutron Caseta 3-way dimmer kit",
    "price": 74.95,
-   "why": "No neutral needed, and the Pico remote and bracket turn any 3-way into a smart 3-way. 1K+ bought in the past month."
+   "why": "Highest score on the page (92): 4.7 stars from 3,057 reviews, $74.95."
   },
   {
    "label": "Best Budget",
-   "asin": "B00KLAXFQA",
-   "name": "Lutron Caseta smart dimmer",
-   "price": 64.95,
-   "why": "The plain Caseta dimmer: 5,673 reviews at 4.7 stars and works in old boxes without a neutral."
+   "asin": "B07SJJBTYY",
+   "name": "Lutron Caseta smart dimmer with wallplate",
+   "price": 69.2,
+   "why": "Highest score (86) among the cheapest third of picks (up to $69.20 each): 4.8 stars from 1,059 reviews, $69.20."
   },
   {
    "label": "Best Starter Kit",
    "asin": "B08FRPJFXQ",
    "name": "Lutron Caseta smart switch starter kit",
    "price": 83.95,
-   "why": "Switch, Smart Hub, and wallplate in one box. The hub alone is most of the price."
+   "why": "Highest score (76) among picks with smart Hub included: 4.5 stars from 287 reviews, $83.95."
   },
   {
    "label": "Best On/Off Switch",
-   "asin": "B017LRCG38",
-   "name": "Lutron Caseta smart switch",
-   "price": 64.95,
-   "why": "For fans and lights you don't want to dim. Rated for 600 W of lighting or fans up to 6 A."
+   "asin": "B08FRN8FK5",
+   "name": "Lutron Caseta 3-way switch kit",
+   "price": 74.95,
+   "why": "Highest score of the picks that fit this award (80): 4.7 stars from 1,463 reviews, $74.95."
   }
  ],
  "systems_note": "Through a Lutron Smart Bridge.",
@@ -184,7 +184,9 @@
    "rating": 4.8,
    "reviews_count": 1059,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -237,9 +239,7 @@
    "rating": 4.7,
    "reviews_count": 5673,
    "score": 85,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -347,7 +347,9 @@
    "rating": 4.7,
    "reviews_count": 1463,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best On/Off Switch"
+   ],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -564,9 +566,7 @@
    "rating": 4.7,
    "reviews_count": 3095,
    "score": 72,
-   "awards": [
-    "Best On/Off Switch"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -630,6 +630,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: Lutron Caseta smart dimmer with wallplate.",
+    "New Best On/Off Switch: Lutron Caseta 3-way switch kit."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

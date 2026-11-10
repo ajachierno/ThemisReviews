@@ -13,7 +13,7 @@
  },
  "product_type": "Door and window sensors",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,24 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DG2HF6R6",
-   "name": "Xinji Wi-Fi door sensor",
+   "asin": "B0BPXVQ359",
+   "name": "Xinji Wi-Fi + Bluetooth door sensor",
    "price": 12.34,
-   "why": "The best-rated Smart Life sensor with a real review count, and it answers \"is the door closed?\" through Alexa or Google."
-  },
-  {
-   "label": "Best Multipack",
-   "asin": "B0BKT1RBW4",
-   "name": "Gaoducash Wi-Fi door sensor (4-pack)",
-   "price": 35.99,
-   "why": "Four sensors for about $8.50 each, with low-battery alerts."
+   "why": "Highest score on the page (85): 4.0 stars from 305 reviews, $12.34."
   },
   {
    "label": "Built-in Alarm",
    "asin": "B0H4TX9FZM",
    "name": "TECKNET Wi-Fi door alarm sensor and chime",
    "price": 25.99,
-   "why": "A sensor with its own alarm and chime modes, rated 4.6 stars by 1,069 buyers for $25.99."
+   "why": "Highest score (78) among picks with built-in siren: 4.6 stars from 1,069 reviews, $25.99."
   }
  ],
  "systems_note": "Smart Life (Tuya) sensors work with Home Assistant through its official Tuya integration.",
@@ -67,7 +60,9 @@
    "rating": 4.0,
    "reviews_count": 305,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -167,9 +162,7 @@
    "rating": 3.9,
    "reviews_count": 303,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -219,9 +212,7 @@
    "rating": 3.9,
    "reviews_count": 292,
    "score": 78,
-   "awards": [
-    "Best Multipack"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -569,6 +560,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Xinji Wi-Fi + Bluetooth door sensor."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

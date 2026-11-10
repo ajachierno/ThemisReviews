@@ -67,28 +67,42 @@
   ],
   "awards": [
     {
-      "asin": "B07HXMLCBT",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "16,732 reviews, 2K+ bought last month, and the highest residential BHMA rating, per the listing."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0FD3WMV2T",
+      "why": "Highest score on the page (87): 4.5 stars from 716 reviews, $79.00."
     },
     {
-      "asin": "B0F5BH3HDV",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$59.99 for a 4.4-star Wi-Fi deadbolt that works with Alexa, Google, and SmartThings."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0F6N86ZTM",
+      "why": "Highest score (85) among the cheapest third of picks (up to $109.99 each): 4.3 stars from 868 reviews, $48.00."
     },
     {
-      "asin": "B0DKQQ6Z7Q",
       "label": "Best Fingerprint",
       "kind": "special",
-      "why": "A 0.42-second fingerprint reader, 100 stored prints, a rechargeable battery rated for a year, and 4.5 stars."
+      "rule": {
+        "type": "feature",
+        "key": "fingerprint"
+      },
+      "asin": "B0DKQQ6Z7Q",
+      "why": "Highest score (79) among picks with fingerprint reader: 4.5 stars from 864 reviews, $149.99."
     },
     {
-      "asin": "B09RS1Z1ZN",
       "label": "Best for iPhone",
       "kind": "premium",
-      "why": "Tap to unlock with Apple Home Key on an iPhone or Apple Watch, plus Alexa and Google."
+      "rule": {
+        "type": "feature",
+        "key": "apple_home"
+      },
+      "asin": "B09RS1Z1ZN",
+      "why": "Highest score (74) among picks with apple Home: 3.9 stars from 1,435 reviews, $284.97."
     }
   ],
   "products": [

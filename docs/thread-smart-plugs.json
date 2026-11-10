@@ -13,7 +13,7 @@
  },
  "product_type": "Smart plugs",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,28 +36,21 @@
    "asin": "B0BZBGD87V",
    "name": "Eve Energy (Matter)",
    "price": 35.82,
-   "why": "Matter over Thread with a power meter, no cloud account, and 300+ bought last month."
+   "why": "Highest score on the page (83): 4.2 stars from 758 reviews, $35.82."
   },
   {
    "label": "Best Budget",
-   "asin": "B0CWTKW9BB",
-   "name": "Onvis Thread mini plug",
-   "price": 17.99,
-   "why": "$17.99 for a 15 A Thread plug in a mini size."
+   "asin": "B0H7X7T22R",
+   "name": "Onvis Thread plug with energy monitoring",
+   "price": 19.99,
+   "why": "Highest score (77) among the cheapest third of picks (up to $19.99 each): 4.1 stars from 39 reviews, $19.99."
   },
   {
    "label": "Best Outdoor",
    "asin": "B0HC79KN8J",
    "name": "Onvis Outdoor Thread plug",
    "price": 35.99,
-   "why": "The only outdoor Thread plug we found, with IP65 and energy monitoring."
-  },
-  {
-   "label": "Best Multipack",
-   "asin": "B0C1CL2MV3",
-   "name": "Eve Energy (Matter) 2-pack",
-   "price": 69.95,
-   "why": "Two Eve Energy plugs, about $30 each, to start a Thread network properly."
+   "why": "Highest score of the picks that fit this award (75): 4.1 stars from 9 reviews, $35.99."
   }
  ],
  "systems_note": null,
@@ -130,9 +123,7 @@
    "rating": 4.2,
    "reviews_count": 758,
    "score": 83,
-   "awards": [
-    "Best Multipack"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -186,7 +177,9 @@
    "rating": 4.1,
    "reviews_count": 39,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -296,9 +289,7 @@
    "rating": 4.0,
    "reviews_count": 157,
    "score": 65,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -442,6 +433,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: Onvis Thread plug with energy monitoring."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

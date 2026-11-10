@@ -13,7 +13,7 @@
  },
  "product_type": "Temperature sensors",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B06XKH666P",
-   "name": "TempPro TempAir 500 FT",
-   "price": 18.98,
-   "why": "A display and outdoor sensor with 500 ft. range, 36,207 reviews, and 7K+ bought last month, for $18.98."
-  },
-  {
-   "label": "Best Replacement Sensor",
-   "asin": "B00T0K8NXC",
-   "name": "AcuRite 06002M / 592TXR sensor",
-   "price": 17.99,
-   "why": "AcuRite's 592TXR sensor, 4.6 stars from 12,126 reviews, sold by Amazon."
-  },
-  {
-   "label": "Best Multi-Room Kit",
    "asin": "B09R1TP7HF",
    "name": "Geevon Indoor/outdoor thermometer (3 sensors)",
    "price": 23.99,
-   "why": "A display with three 433 MHz sensors for four locations at once, for $23.99."
+   "why": "Highest score on the page (89): 4.3 stars from 2,786 reviews, $23.99."
+  },
+  {
+   "label": "Best Multi-Room Kit",
+   "asin": "B0DQPT4BP1",
+   "name": "TempPro TempAir 500 FT (3 sensors)",
+   "price": 29.99,
+   "why": "Highest score of the picks that fit this award (89): 4.3 stars from 84 reviews, $29.99."
   }
  ],
  "systems_note": "These sensors talk to their own displays and don't connect to smart home platforms. Home Assistant users can read many of them with a USB SDR receiver and rtl_433, but that isn't supported by the makers.",
@@ -69,7 +62,7 @@
    "reviews_count": 2786,
    "score": 89,
    "awards": [
-    "Best Multi-Room Kit"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "Standalone display",
@@ -119,7 +112,9 @@
    "rating": 4.3,
    "reviews_count": 84,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Multi-Room Kit"
+   ],
    "works_with": [],
    "works_with_note": "Standalone display",
    "works_without": {
@@ -167,9 +162,7 @@
    "rating": 4.2,
    "reviews_count": 36207,
    "score": 85,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Standalone display",
    "works_without": {
@@ -266,9 +259,7 @@
    "rating": 4.6,
    "reviews_count": 12126,
    "score": 79,
-   "awards": [
-    "Best Replacement Sensor"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "AcuRite displays",
    "works_without": {
@@ -322,6 +313,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Geevon Indoor/outdoor thermometer (3 sensors).",
+    "New Best Multi-Room Kit: TempPro TempAir 500 FT (3 sensors)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

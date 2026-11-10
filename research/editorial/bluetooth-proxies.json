@@ -49,30 +49,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0D6LDXRJ4",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "The classic Bluetooth proxy: a cased 24 mm ESP32 that ESPHome's ready-made firmware supports, for $15.10."
-    },
-    {
-      "asin": "B0D8T53CQ5",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Three USB-C ESP32 boards for $19.99, rated 4.7 stars with 3K+ bought last month."
-    },
-    {
-      "asin": "B0DKXFB7PW",
-      "label": "Best Ethernet (PoE)",
-      "kind": "special",
-      "why": "Wired Ethernet with a PoE option keeps Bluetooth and Wi-Fi from sharing one radio."
-    },
-    {
-      "asin": "B0D2NKVB34",
-      "label": "Best Tiny Board",
-      "kind": "premium",
-      "why": "A thumb-sized ESP32-C6 with Wi-Fi 6, BLE 5, and an external antenna connector, for $11.90."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Ethernet (PoE)", "kind": "special", "rule": {"type": "feature", "key": "ethernet"}}
   ],
   "products": [
     {

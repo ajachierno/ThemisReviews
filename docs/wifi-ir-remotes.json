@@ -13,7 +13,7 @@
  },
  "product_type": "IR blasters and remotes",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BFWH2WD8",
-   "name": "SwitchBot Hub Mini",
-   "price": 36.1,
-   "why": "Learns any remote in 5 seconds and doubles as the hub for SwitchBot gear, with 55,832 reviews."
+   "asin": "B0872P4HX7",
+   "name": "BroadLink RM4 Pro",
+   "price": 49.99,
+   "why": "Highest score on the page (84): 4.0 stars from 3,378 reviews, $49.99."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0FNXCFN6J",
    "name": "Tapo H110 IR & IoT Hub",
    "price": 29.99,
-   "why": "A Matter-certified IR hub, so your TV and AC show up in Apple Home, Alexa, and Google."
+   "why": "Highest score (82) among picks that work with Apple Home: 4.2 stars from 184 reviews, $29.99."
   },
   {
    "label": "Best for Home Assistant",
-   "asin": "B07ZSF46BX",
-   "name": "BroadLink RM4 mini",
-   "price": 25.99,
-   "why": "BroadLink's RM4 mini runs locally in Home Assistant, for $25.99."
-  },
-  {
-   "label": "Best IR + RF",
-   "asin": "B0872P4HX7",
-   "name": "BroadLink RM4 Pro",
-   "price": 49.99,
-   "why": "Controls 433 MHz RF devices like fans and shades as well as IR."
+   "asin": "B0872PPSGM",
+   "name": "BroadLink RM4 mini with sensor cable",
+   "price": 29.99,
+   "why": "Highest score of the picks that fit this award (80): 4.2 stars from 3,591 reviews, $29.99."
   }
  ],
  "systems_note": "BroadLink blasters have an official Home Assistant integration that runs locally. Smart Life (Tuya) blasters work with Home Assistant's Tuya integration.",
@@ -76,7 +69,7 @@
    "reviews_count": 3378,
    "score": 84,
    "awards": [
-    "Best IR + RF"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -183,7 +176,9 @@
    "rating": 4.2,
    "reviews_count": 3591,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best for Home Assistant"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -233,9 +228,7 @@
    "rating": 4.2,
    "reviews_count": 3273,
    "score": 74,
-   "awards": [
-    "Best for Home Assistant"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -435,9 +428,7 @@
    "rating": 4.2,
    "reviews_count": 55832,
    "score": 68,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -593,6 +584,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: BroadLink RM4 Pro.",
+    "New Best for Home Assistant: BroadLink RM4 mini with sensor cable."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

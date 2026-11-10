@@ -38,24 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FP3MM8W4",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Smoke and CO with Ring app alerts and no subscription required, 4K+ bought last month."
-    },
-    {
-      "asin": "B0FP3F4GJS",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $49.98 smart smoke alarm with wire-free interconnection and Ring alerts."
-    },
-    {
-      "asin": "B0F7N7WGWY",
-      "label": "Best Hardwired",
-      "kind": "special",
-      "why": "Replaces a hardwired alarm and sends phone alerts for every hardwired alarm in the house."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

@@ -63,28 +63,42 @@
   ],
   "awards": [
     {
-      "asin": "B07KQPQMXS",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "The most-reviewed Z-Wave lock by far, with Schlage's Snap 'n Stay install and Ring Alarm and SmartThings support."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DTBJJ8KR",
+      "why": "Highest score on the page (75): 4.1 stars from 81 reviews, $213.00."
     },
     {
-      "asin": "B0DWGXFS8H",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Z-Wave Long Range with S2 and SmartStart for about $110."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0DWGXFS8H",
+      "why": "Highest score (74) among the cheapest third of picks (up to $190.01 each): 4.1 stars from 369 reviews, $113.99."
     },
     {
-      "asin": "B0GT9NHTNB",
       "label": "Best Long Range",
       "kind": "special",
-      "why": "An 800 Series Long Range lock rated 4.3 stars, with Home Assistant named in the listing."
+      "rule": {
+        "type": "feature",
+        "key": "long_range"
+      },
+      "asin": "B0GT9NHTNB",
+      "why": "Highest score (74) among picks with long Range: 4.3 stars from 63 reviews, $179.99."
     },
     {
-      "asin": "B0D97134GL",
       "label": "Best Fingerprint",
       "kind": "premium",
-      "why": "Fingerprint, keypad, and Auto-Unlock on Z-Wave."
+      "rule": {
+        "type": "feature",
+        "key": "fingerprint"
+      },
+      "asin": "B0D97134GL",
+      "why": "Highest score of the picks that fit this award (67): 3.6 stars from 53 reviews, $229.99."
     }
   ],
   "products": [

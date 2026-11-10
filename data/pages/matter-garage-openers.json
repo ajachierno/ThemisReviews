@@ -48,16 +48,23 @@
   ],
   "awards": [
     {
-      "asin": "B0FF4VHCJV",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A Matter-certified garage controller with no hub or monthly fee, for $24.99."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0F38C31H2",
+      "why": "Highest score on the page (78): 3.9 stars from 84 reviews, $44.99."
     },
     {
-      "asin": "B0FX4G3ML2",
       "label": "Best No-Wiring Install",
       "kind": "special",
-      "why": "Retrofits with your existing remote instead of wiring to the opener."
+      "rule": {
+        "type": "feature",
+        "key": "no_wiring"
+      },
+      "asin": "B0FX4G3ML2",
+      "why": "Highest score of the picks that fit this award (74): 4.0 stars from 93 reviews, $49.99."
     }
   ],
   "products": [

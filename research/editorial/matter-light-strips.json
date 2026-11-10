@@ -35,24 +35,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DL9G5F5R",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,328 buyers."
-    },
-    {
-      "asin": "B0DB69D1YJ",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Matter and tunable white for $13.79."
-    },
-    {
-      "asin": "B0H6MDZC4R",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "Govee's 840 LED/m COB strip for glare-free light, with 1000K to 10000K white."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

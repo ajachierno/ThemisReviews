@@ -54,28 +54,32 @@
   ],
   "awards": [
     {
-      "asin": "B0DFYF2D7D",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "PETKIT's odor-free box with weight tracking, safety sensors, and a 2-year warranty, 2,717 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DFYF2D7D",
+      "why": "Highest score on the page (88): 4.2 stars from 2,717 reviews, $299.99."
     },
     {
-      "asin": "B0FH21L9CF",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A quiet self-cleaning box with weight monitoring in the app for $107.99, with 1,292 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0GD73F98D",
+      "why": "Highest score (87) among the cheapest third of picks (up to $169.00 each): 4.1 stars from 612 reviews, $169.00."
     },
     {
-      "asin": "B0DFM4Z71X",
       "label": "Best for Big Cats",
       "kind": "special",
-      "why": "A 95 L drum with safety sensors and app control, with 4,302 reviews."
-    },
-    {
-      "asin": "B0GD73F98D",
-      "label": "Best Connectivity",
-      "kind": "premium",
-      "why": "CATLINK's open box works on 5 GHz or 2.4 GHz Wi-Fi, with weight tracking."
+      "rule": {
+        "type": "feature",
+        "key": "big"
+      },
+      "asin": "B0D1QWZDKT",
+      "why": "Highest score of the picks that fit this award (86): 4.0 stars from 1,392 reviews, $239.99."
     }
   ],
   "products": [

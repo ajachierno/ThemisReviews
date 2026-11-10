@@ -39,24 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FKH3PQT1",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Two SwitchBot curtain robots plus the Hub Mini for Wi-Fi, voice, and Matter control."
-    },
-    {
-      "asin": "B0F8BR5Q66",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A single 2025 SwitchBot curtain robot for $89.99 that moves curtains up to 33 lbs."
-    },
-    {
-      "asin": "B0FB38TSRV",
-      "label": "Best for Pairs",
-      "kind": "special",
-      "why": "Two robots with a remote for a two-panel window."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Pairs", "kind": "special", "rule": {"type": "feature", "key": "pack"}}
   ],
   "products": [
     {

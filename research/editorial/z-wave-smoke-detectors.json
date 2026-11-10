@@ -39,18 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DY21V8MG",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A Z-Wave Plus smoke and CO alarm with a 10-year sealed battery, sold by Amazon."
-    },
-    {
-      "asin": "B0C7HVF4SJ",
-      "label": "Best for Wired Alarms",
-      "kind": "special",
-      "why": "Adds Z-Wave Long Range alerts to the hardwired, interconnected alarms you already have."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Wired Alarms", "kind": "special", "rule": {"type": "feature", "key": "relay"}}
   ],
   "products": [
     {

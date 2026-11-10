@@ -45,22 +45,32 @@
   ],
   "awards": [
     {
-      "asin": "B0C7VMZ9FG",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Names Alexa, Google, SmartThings, and Home Assistant, rated 4.6 stars by 1,086 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0C7VMZ9FG",
+      "why": "Highest score on the page (96): 4.6 stars from 1,086 reviews, $114.37."
     },
     {
-      "asin": "B0BMTRCNG3",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $57.80 IR controller with temperature and humidity sensing and no subscription."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BMTRCNG3",
+      "why": "Highest score (88) among the cheapest third of picks (up to $57.80 each): 4.5 stars from 738 reviews, $57.80."
     },
     {
-      "asin": "B07MTGD3D9",
       "label": "Best for Apple Home",
       "kind": "special",
-      "why": "Sensibo Sky names HomeKit, with 6,052 reviews."
+      "rule": {
+        "type": "system",
+        "key": "apple-home"
+      },
+      "asin": "B07MTGD3D9",
+      "why": "Highest score (93) among picks that work with Apple Home: 4.2 stars from 6,052 reviews, $99.00."
     }
   ],
   "products": [

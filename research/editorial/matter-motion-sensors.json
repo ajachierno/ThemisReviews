@@ -50,24 +50,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0H6JFC9RQ",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Radar plus PIR presence with temperature, humidity, and light, on AAA batteries rated for up to 2 years."
-    },
-    {
-      "asin": "B0CT8W9NRB",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A native Matter motion and light sensor for $31.99 with a 170° view."
-    },
-    {
-      "asin": "B0DYC9235W",
-      "label": "Best Wi-Fi Presence",
-      "kind": "premium",
-      "why": "Radar, PIR, and light in one sensor over Matter Wi-Fi, so no Thread border router needed."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Wi-Fi Presence", "kind": "premium", "rule": {"type": "feature", "key": "presence"}}
   ],
   "products": [
     {

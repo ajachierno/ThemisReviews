@@ -53,28 +53,33 @@
   ],
   "awards": [
     {
-      "asin": "B0CNGKFG9Y",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A $17.90 presence sensor with light sensing that pairs with any Zigbee 3.0 hub, 501 reviews."
-    },
-    {
+      "rule": {
+        "type": "overall"
+      },
       "asin": "B0GZVPQQRX",
-      "label": "Best With Zones",
-      "kind": "budget",
-      "why": "24 GHz mmWave with up to 7 detection zones for $24.90."
+      "why": "Highest score on the page (84): 3.8 stars from 219 reviews, $24.90."
     },
     {
-      "asin": "B0FG2MD3YP",
       "label": "Best Battery-Powered",
       "kind": "special",
-      "why": "mmWave plus PIR, temperature, humidity, and light, on batteries, over Zigbee or Thread."
+      "rule": {
+        "type": "feature",
+        "key": "battery"
+      },
+      "asin": "B0FG2MD3YP",
+      "why": "Highest score of the picks that fit this award (82): 3.7 stars from 968 reviews, $46.99."
     },
     {
-      "asin": "B0D5QPH3T6",
       "label": "Best for Aqara Homes",
       "kind": "premium",
-      "why": "AI filtering for pets and fans, and Matter through an Aqara hub."
+      "rule": {
+        "type": "brand",
+        "key": "Aqara"
+      },
+      "asin": "B0D5QPH3T6",
+      "why": "Highest score (66) among Aqara picks: 4.0 stars from 501 reviews, $42.99."
     }
   ],
   "products": [

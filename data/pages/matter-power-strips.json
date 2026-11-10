@@ -53,16 +53,23 @@
   ],
   "awards": [
     {
-      "asin": "B0F5LNYTR7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Six individually controlled outlets with per-outlet energy monitoring and Matter for $49.99."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0F5LNYTR7",
+      "why": "Highest score on the page (90): 4.5 stars from 365 reviews, $49.99."
     },
     {
-      "asin": "B0H8Q1KJ13",
       "label": "Best for Charging",
       "kind": "special",
-      "why": "Two USB-C ports with 20 W PD, plus ETL and UL certification."
+      "rule": {
+        "type": "feature",
+        "key": "usbc"
+      },
+      "asin": "B0DYD7FKKB",
+      "why": "Highest score of the picks that fit this award (65): 3.9 stars from 66 reviews, $35.99."
     }
   ],
   "products": [

@@ -13,10 +13,9 @@
     {"key": "power", "label": "Power"}
   ],
   "awards": [
-    {"asin": "B0B3G9Z4LJ", "label": "Best Overall", "kind": "overall", "why": "A dedicated temperature and humidity sensor with 800 Series Long Range, and the best rating of the dedicated sensors."},
-    {"asin": "B0987MNJZ1", "label": "Best Budget", "kind": "budget", "why": "Temperature, humidity, and dew point in a 1.38 in. square, for $34.99."},
-    {"asin": "B08XHZP7NV", "label": "Best Multisensor", "kind": "special", "why": "Six sensors in one, including humidity and temperature, with batteries or USB power."},
-    {"asin": "B0GYZRCWCB", "label": "Best for Basements", "kind": "premium", "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Multisensor", "kind": "special", "rule": {"type": "feature", "key": "multi"}}
   ],
   "products": [
     {"asin": "B0B3G9Z4LJ", "name": "Zooz ZSE44 800LR Z-Wave Long Range Temperature and Humidity XS Sensor", "brand": "Zooz", "model": "ZSE44 800LR", "systems": ["home-assistant", "smartthings", "hubitat"],

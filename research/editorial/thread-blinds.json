@@ -15,10 +15,9 @@
     {"key": "remote", "label": "Remote", "type": "bool"}
   ],
   "awards": [
-    {"asin": "B0D54KR9W7", "label": "Best Overall", "kind": "overall", "why": "Eve's retrofit motor with local Matter control, no cloud or account, and the most reviews of any Thread shade here."},
-    {"asin": "B0FG2C8W67", "label": "Best Budget Kit", "kind": "budget", "why": "A Matter-over-Thread motor with a remote and bracket for $112.88."},
-    {"asin": "B0B4DK18Z3", "label": "Best Complete Shade", "kind": "special", "why": "Made-to-measure SmartWings shades with a Matter motor option, rated 4.6 stars."},
-    {"asin": "B0FYM58RFW", "label": "Best for Small Tubes", "kind": "premium", "why": "Fits 17, 25, and 28 mm tubes that 1.5 in. motors can't."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget Kit", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Complete Shade", "kind": "special", "rule": {"type": "feature", "key": "complete"}}
   ],
   "products": [
     {"asin": "B0D54KR9W7", "brand": "Eve", "model": "MotionBlinds Upgrade Kit", "systems": ["home-assistant", "apple-home", "google-home", "alexa", "smartthings", "hubitat", "homey"],

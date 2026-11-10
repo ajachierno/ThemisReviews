@@ -37,18 +37,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0FG2MD3YP",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "mmWave plus PIR with temperature, humidity, and light on batteries, 1K+ bought last month."
-    },
-    {
-      "asin": "B0H6JFC9RQ",
-      "label": "Best Rated",
-      "kind": "budget",
-      "why": "A 5-in-1 radar-and-PIR Matter sensor rated 4.3 stars, with a 2-year AAA battery."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Rated", "kind": "budget", "rule": {"type": "top_rating"}}
   ],
   "products": [
     {

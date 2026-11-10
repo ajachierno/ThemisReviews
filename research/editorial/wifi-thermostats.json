@@ -48,30 +48,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B09XXTQPXC",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "ecobee's mid-range model with room sensor support and Apple Home, Alexa, Google, and SmartThings, 3K+ bought last month."
-    },
-    {
-      "asin": "B08J4C8871",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "$56.99 and 25,665 reviews. The easy pick for an Alexa home with a C-wire."
-    },
-    {
-      "asin": "B01NB1OB0I",
-      "label": "Best Without Apps",
-      "kind": "special",
-      "why": "Sensi's simple, well-rated thermostat with 23,157 reviews and no subscription."
-    },
-    {
-      "asin": "B09XXS48P8",
-      "label": "Most Features",
-      "kind": "premium",
-      "why": "Alexa and Siri built in, plus a SmartSensor in the box."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Most Features", "kind": "premium", "rule": {"type": "most_features"}}
   ],
   "products": [
     {

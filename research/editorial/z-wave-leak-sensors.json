@@ -47,30 +47,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0716YVPLG",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Flood and freeze alerts, a 36 in. probe, a 5-year battery, and the most reviews here."
-    },
-    {
-      "asin": "B0BYFPP6HM",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "$24.99 for a 700 Series leak sensor that detects 0.02 in. of water."
-    },
-    {
-      "asin": "B09JKJNFMX",
-      "label": "Best Long Range",
-      "kind": "special",
-      "why": "Tiny, IP66 sealed, and 800 Series Long Range for basements far from the hub."
-    },
-    {
-      "asin": "B0GYZRCWCB",
-      "label": "Most Sensors",
-      "kind": "premium",
-      "why": "Leak, temperature, humidity, and mold risk, with Long Range and a 4-year battery or USB-C power."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Long Range", "kind": "special", "rule": {"type": "feature", "key": "long_range"}},
+    {"label": "Most Sensors", "kind": "premium", "rule": {"type": "feature", "key": "climate"}}
   ],
   "products": [
     {

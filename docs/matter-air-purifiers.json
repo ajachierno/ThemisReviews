@@ -13,7 +13,7 @@
  },
  "product_type": "Air purifiers",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,17 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DG5QLWP6",
-   "name": "SwitchBot Air Purifier",
-   "price": 89.99,
-   "why": "A $89.99 Matter purifier for rooms up to 3,620 sq. ft., 200+ bought last month."
-  },
-  {
-   "label": "Best Multi-Purpose",
    "asin": "B0DG5S291H",
    "name": "SwitchBot Air Purifier Table",
    "price": 179.99,
-   "why": "A purifier that's also a side table, RGB lamp, and wireless charger."
+   "why": "Highest score on the page (95): 4.4 stars from 371 reviews, $179.99."
   }
  ],
  "systems_note": null,
@@ -61,7 +54,7 @@
    "reviews_count": 371,
    "score": 95,
    "awards": [
-    "Best Multi-Purpose"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -115,9 +108,7 @@
    "rating": 4.5,
    "reviews_count": 730,
    "score": 88,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -229,6 +220,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SwitchBot Air Purifier Table."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

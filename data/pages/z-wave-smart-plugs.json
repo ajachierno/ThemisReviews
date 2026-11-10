@@ -69,28 +69,42 @@
   ],
   "awards": [
     {
-      "asin": "B0BHL9MBRZ",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "800 Series Long Range with energy monitoring and a 4.8-star rating."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BHL9MBRZ",
+      "why": "Highest score on the page (85): 4.8 stars from 75 reviews, $35.95."
     },
     {
-      "asin": "B0BWY63YVX",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A 3-pack for $56.99, about $19 a plug, and each one repeats signal for the rest of your Z-Wave network."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CGHR5NV1",
+      "why": "Highest score (77) among the cheapest third of picks (up to $28.99 each): 4.6 stars from 117 reviews, $26.59."
     },
     {
-      "asin": "B081DWCYP3",
       "label": "Best Outdoor",
       "kind": "special",
-      "why": "IP65 weather-resistant housing and Long Range for $31.99, rated 4.3 stars by 884 buyers."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B081DWCYP3",
+      "why": "Highest score of the picks that fit this award (81): 4.3 stars from 884 reviews, $31.99."
     },
     {
-      "asin": "B0CRL5F1QY",
       "label": "Best Dual Outlet",
       "kind": "premium",
-      "why": "Two independently controlled outlets in one plug, with Long Range."
+      "rule": {
+        "type": "feature",
+        "key": "dual"
+      },
+      "asin": "B0BHC73DLB",
+      "why": "Highest score of the picks that fit this award (80): 4.2 stars from 104 reviews, $39.95."
     }
   ],
   "products": [

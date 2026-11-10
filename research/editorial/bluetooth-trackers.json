@@ -47,30 +47,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GJTFXNRX",
-      "label": "Best for iPhone",
-      "kind": "overall",
-      "why": "Apple's 2nd-gen AirTag, with Precision Finding on iPhone and Apple Watch and a louder speaker, for $23.00."
-    },
-    {
-      "asin": "B0F82HR8QZ",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Four Find My tags with a 2-year replaceable battery for $21.79, 6K+ bought last month."
-    },
-    {
-      "asin": "B0CCC69HN3",
-      "label": "Best for Samsung",
-      "kind": "special",
-      "why": "UWB precision finding on Galaxy phones, IP67, and it can trigger SmartThings devices."
-    },
-    {
-      "asin": "B0FLKG9NWT",
-      "label": "Best for Mixed Households",
-      "kind": "premium",
-      "why": "Works with Apple Find My or Google Find Hub, recharges over USB-C, and rings at 125 dB."
-    }
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Samsung", "kind": "special", "rule": {"type": "system", "key": "smartthings"}},
+    {"label": "Best for Mixed Households", "kind": "premium", "rule": {"type": "feature", "key": "both_phones"}}
   ],
   "products": [
     {

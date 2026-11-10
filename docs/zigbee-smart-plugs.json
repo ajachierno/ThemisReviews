@@ -13,7 +13,7 @@
  },
  "product_type": "Smart plugs",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,28 +36,21 @@
    "asin": "B0BPY2KRHH",
    "name": "THIRDREALITY Zigbee smart plug (power monitoring)",
    "price": 12.99,
-   "why": "$12.99 with real-time power monitoring, ETL certification, and pairing straight to Echo hubs or any Zigbee 3.0 hub."
+   "why": "Highest score on the page (95): 4.4 stars from 276 reviews, $12.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B09LV53X62",
-   "name": "SONOFF S40 Lite",
-   "price": 12.99,
-   "why": "4.4 stars at $12.99, ETL certified, and works with SmartThings and Echo hubs."
-  },
-  {
-   "label": "Best Dual Outlet",
-   "asin": "B0FCLZDMR8",
-   "name": "THIRDREALITY Smart Dual Plug",
-   "price": 21.84,
-   "why": "Two outlets with separate control and separate energy monitoring, and a long list of supported hubs."
+   "asin": "B0DXQF3NQ7",
+   "name": "NOUS Zigbee smart plug (energy)",
+   "price": 11.99,
+   "why": "Highest score (88) among the cheapest third of picks (up to $12.99 each): 4.5 stars from 43 reviews, $11.99."
   },
   {
    "label": "Best for Hue Homes",
    "asin": "B08CRYGLGN",
    "name": "Philips Hue Smart Plug (2-pack)",
    "price": 74.99,
-   "why": "The most-reviewed Zigbee plug here, and it slots straight into a Philips Hue setup."
+   "why": "Highest score (72) among Philips Hue picks: 4.7 stars from 5,403 reviews, $74.99."
   }
  ],
  "systems_note": null,
@@ -127,9 +120,7 @@
    "rating": 4.5,
    "reviews_count": 91,
    "score": 93,
-   "awards": [
-    "Best Dual Outlet"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -231,7 +222,9 @@
    "rating": 4.5,
    "reviews_count": 43,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -430,9 +423,7 @@
    "rating": 4.4,
    "reviews_count": 137,
    "score": 80,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -624,6 +615,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: NOUS Zigbee smart plug (energy)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

@@ -13,7 +13,7 @@
  },
  "product_type": "Mesh Wi-Fi routers",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08ZK2BHP2",
-   "name": "eero 6+ (3-pack)",
-   "price": 299.99,
-   "why": "A built-in Thread and Zigbee hub for Alexa, 4,500 sq. ft. of coverage, and 10,615 reviews."
-  },
-  {
-   "label": "Best Value",
-   "asin": "B09PRB1MZM",
-   "name": "TP-Link Deco X55 (3-pack)",
-   "price": 149.96,
-   "why": "A Wi-Fi 6 3-pack for $149.96, rated 4.4 stars by 13,395 buyers."
+   "asin": "B0D9555PBN",
+   "name": "eero 7 (2-pack)",
+   "price": 284.99,
+   "why": "Highest score on the page (86): 4.4 stars from 2,258 reviews, $284.99."
   },
   {
    "label": "Best Wi-Fi 7",
-   "asin": "B0DKVDZXSN",
-   "name": "TP-Link Deco 7 BE5000",
-   "price": 249.99,
-   "why": "Wi-Fi 7 with 2.5G Ethernet covering 6,600 sq. ft. for $249.99."
+   "asin": "B0C6RDKBTG",
+   "name": "eero Pro 7 (2-pack)",
+   "price": 549.99,
+   "why": "Highest score of the picks that fit this award (85): 4.3 stars from 1,570 reviews, $549.99."
   },
   {
    "label": "Best High-End",
-   "asin": "B0CN8QLS4K",
-   "name": "TP-Link Deco 7 Pro BE10000 (3-pack)",
-   "price": 396.5,
-   "why": "Tri-band Wi-Fi 7 with a 10G WAN port and 7,600 sq. ft. of coverage."
+   "asin": "B0DKVDZXSN",
+   "name": "TP-Link Deco 7 BE5000",
+   "price": 249.99,
+   "why": "Highest score (85) among the priciest third of picks: 4.3 stars from 1,442 reviews, $249.99."
   }
  ],
  "systems_note": "Mesh routers don't join a smart home platform the way sensors do. eero 6 and 6+ double as Zigbee (and on the 6+, Thread) hubs for Alexa.",
@@ -74,7 +67,9 @@
    "rating": 4.4,
    "reviews_count": 2258,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "eero app",
    "works_without": {
@@ -119,7 +114,9 @@
    "rating": 4.3,
    "reviews_count": 1570,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Wi-Fi 7"
+   ],
    "works_with": [],
    "works_with_note": "eero app",
    "works_without": {
@@ -165,7 +162,7 @@
    "reviews_count": 1442,
    "score": 85,
    "awards": [
-    "Best Wi-Fi 7"
+    "Best High-End"
    ],
    "works_with": [],
    "works_with_note": "Deco app",
@@ -211,9 +208,7 @@
    "rating": 4.2,
    "reviews_count": 1323,
    "score": 84,
-   "awards": [
-    "Best High-End"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Deco app",
    "works_without": {
@@ -305,9 +300,7 @@
    "rating": 4.4,
    "reviews_count": 10615,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -401,9 +394,7 @@
    "rating": 4.4,
    "reviews_count": 13395,
    "score": 70,
-   "awards": [
-    "Best Value"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Deco app",
    "works_without": {
@@ -546,6 +537,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: eero 7 (2-pack).",
+    "New Best Wi-Fi 7: eero Pro 7 (2-pack).",
+    "New Best High-End: TP-Link Deco 7 BE5000."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

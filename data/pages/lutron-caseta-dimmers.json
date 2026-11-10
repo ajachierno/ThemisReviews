@@ -69,28 +69,43 @@
   ],
   "awards": [
     {
-      "asin": "B07HM6L48C",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "No neutral needed, and the Pico remote and bracket turn any 3-way into a smart 3-way. 1K+ bought in the past month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B07HM6L48C",
+      "why": "Highest score on the page (92): 4.7 stars from 3,057 reviews, $74.95."
     },
     {
-      "asin": "B00KLAXFQA",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "The plain Caseta dimmer: 5,673 reviews at 4.7 stars and works in old boxes without a neutral."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B07SJJBTYY",
+      "why": "Highest score (86) among the cheapest third of picks (up to $69.20 each): 4.8 stars from 1,059 reviews, $69.20."
     },
     {
-      "asin": "B08FRPJFXQ",
       "label": "Best Starter Kit",
       "kind": "special",
-      "why": "Switch, Smart Hub, and wallplate in one box. The hub alone is most of the price."
+      "rule": {
+        "type": "feature",
+        "key": "hub_included"
+      },
+      "asin": "B08FRPJFXQ",
+      "why": "Highest score (76) among picks with smart Hub included: 4.5 stars from 287 reviews, $83.95."
     },
     {
-      "asin": "B017LRCG38",
       "label": "Best On/Off Switch",
       "kind": "premium",
-      "why": "For fans and lights you don't want to dim. Rated for 600 W of lighting or fans up to 6 A."
+      "rule": {
+        "type": "feature",
+        "key": "dimming",
+        "value": false
+      },
+      "asin": "B08FRN8FK5",
+      "why": "Highest score of the picks that fit this award (80): 4.7 stars from 1,463 reviews, $74.95."
     }
   ],
   "products": [

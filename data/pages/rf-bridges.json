@@ -54,28 +54,42 @@
   ],
   "awards": [
     {
-      "asin": "B0BMKB3L47",
       "label": "Best SDR Receiver",
       "kind": "overall",
-      "why": "The standard rtl_433 stick, with a 1 PPM TCXO and a dipole antenna kit, and 6,500 reviews."
+      "rule": {
+        "type": "feature",
+        "key": "antenna"
+      },
+      "asin": "B0BMKB3L47",
+      "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,500 reviews, $47.95."
     },
     {
-      "asin": "B0BMKZCKTF",
       "label": "Best Budget SDR",
       "kind": "budget",
-      "why": "The same RTL-SDR Blog V3 without the antenna kit, for $37.95, rated 4.6 stars."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BMKZCKTF",
+      "why": "Highest score (78) among the cheapest third of picks (up to $44.95 each): 4.6 stars from 3,140 reviews, $37.95."
     },
     {
-      "asin": "B0872P4HX7",
       "label": "Best RF Bridge",
       "kind": "special",
-      "why": "Learns 433 MHz fixed-code remotes and IR, with Alexa, Google, and an official Home Assistant integration."
+      "rule": {
+        "type": "feature",
+        "key": "sends"
+      },
+      "asin": "B0872P4HX7",
+      "why": "Highest score of the picks that fit this award (80): 4.0 stars from 3,378 reviews, $49.99."
     },
     {
-      "asin": "B01HA642SW",
       "label": "Best Premium SDR",
       "kind": "premium",
-      "why": "Nooelec's v5 with a 0.5 PPM TCXO and better HF, VHF, and UHF noise performance than a V3, per Nooelec."
+      "rule": {
+        "type": "premium"
+      },
+      "asin": "B01B4L48QU",
+      "why": "Highest score (80) among the priciest third of picks: 4.3 stars from 352 reviews, $47.95."
     }
   ],
   "products": [

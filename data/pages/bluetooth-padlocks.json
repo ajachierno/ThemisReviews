@@ -49,22 +49,32 @@
   ],
   "awards": [
     {
-      "asin": "B0CCXR9ZVN",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Fingerprint, app, and key backup in a weatherproof heavy-duty body."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0D228BZJM",
+      "why": "Highest score on the page (87): 4.2 stars from 569 reviews, $38.99."
     },
     {
-      "asin": "B0CNCN7RKY",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $24.29 fingerprint lock for gym lockers and luggage, 685 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CNCN7RKY",
+      "why": "Highest score (86) among the cheapest third of picks (up to $53.19 each): 4.1 stars from 685 reviews, $24.29."
     },
     {
-      "asin": "B0BYYR57GQ",
       "label": "Best for Sharing Access",
       "kind": "premium",
-      "why": "igloohome's tough padlock shares time-limited access from anywhere."
+      "rule": {
+        "type": "feature",
+        "key": "remote"
+      },
+      "asin": "B0BYYR57GQ",
+      "why": "Highest score of the picks that fit this award (78): 4.0 stars from 315 reviews, $184.99."
     }
   ],
   "products": [

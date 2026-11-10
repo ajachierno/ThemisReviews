@@ -13,7 +13,7 @@
  },
  "product_type": "Smart displays",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,21 @@
    "asin": "B0DC8ZMR1P",
    "name": "Amazon Echo Show 8 (newest)",
    "price": 199.99,
-   "why": "An 8.7 in. HD screen, spatial audio, and a built-in smart home hub, with 9K+ bought last month."
+   "why": "Highest score on the page (93): 4.2 stars from 9,099 reviews, $199.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B09B2SBHQK",
-   "name": "Amazon Echo Show 5 (newest)",
-   "price": 99.99,
-   "why": "The 73,835-review Echo Show 5 for $99.99, ideal on a nightstand."
-  },
-  {
-   "label": "Best for Kitchens",
-   "asin": "B0C5DPSW5Y",
-   "name": "Amazon Echo Show 15 (newest)",
-   "price": 349.99,
-   "why": "A 15.6 in. wall-mountable family hub with calendars, lists, and Fire TV built in."
-  },
-  {
-   "label": "Best Control Panel",
    "asin": "B0BCR7M9KX",
    "name": "Amazon Echo Hub",
    "price": 179.99,
-   "why": "A wall-mounted smart home dashboard with Zigbee, Thread, and Matter built in."
+   "why": "Highest score (78) among the cheapest third of picks (up to $179.99 each): 3.9 stars from 1,845 reviews, $179.99."
+  },
+  {
+   "label": "Best for Kitchens",
+   "asin": "B0DC91H3JK",
+   "name": "Amazon Echo Show 11 (newest)",
+   "price": 249.99,
+   "why": "Highest score (93) among picks with screen: 4.2 stars from 9,099 reviews, $249.99."
   }
  ],
  "systems_note": "Echo displays run Alexa. Google doesn't sell Nest displays on Amazon, so every Nest Hub listing is a reseller or an import; we found none worth recommending.",
@@ -126,7 +119,9 @@
    "rating": 4.2,
    "reviews_count": 9099,
    "score": 93,
-   "awards": [],
+   "awards": [
+    "Best for Kitchens"
+   ],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -174,9 +169,7 @@
    "rating": 4.4,
    "reviews_count": 6651,
    "score": 81,
-   "awards": [
-    "Best for Kitchens"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -274,7 +267,7 @@
    "reviews_count": 1845,
    "score": 78,
    "awards": [
-    "Best Control Panel"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa"
@@ -323,9 +316,7 @@
    "rating": 4.2,
    "reviews_count": 73835,
    "score": 73,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -500,6 +491,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: Amazon Echo Hub.",
+    "New Best for Kitchens: Amazon Echo Show 11 (newest)."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

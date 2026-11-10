@@ -34,18 +34,7 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B08XHZP7NV",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Six readings in one 1.8-inch sensor, on batteries or USB."
-    },
-    {
-      "asin": "B09GDL6BGY",
-      "label": "Best for Home Assistant",
-      "kind": "special",
-      "why": "An 800 Series Long Range 4-in-1 that names Home Assistant and Hubitat."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}}
   ],
   "products": [
     {

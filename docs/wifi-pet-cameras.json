@@ -13,7 +13,7 @@
  },
  "product_type": "Pet cameras",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B09GDQZLD1",
    "name": "Furbo 360° Dog Camera (no-fee version)",
    "price": 72.0,
-   "why": "See, talk, and toss treats with no subscription, rated 4.4 stars by 9,304 buyers."
+   "why": "Highest score on the page (90): 4.4 stars from 9,304 reviews, $72.00."
   },
   {
    "label": "Best Budget",
    "asin": "B09Y8TLP25",
    "name": "Tapo C210",
    "price": 27.99,
-   "why": "A $27.99 pan-tilt camera with Alexa and Google, 23,510 reviews."
+   "why": "Highest score (88) among the cheapest third of picks (up to $69.98 each): 4.5 stars from 23,510 reviews, $27.99."
   },
   {
    "label": "Best Value Treat Cam",
-   "asin": "B0CF5B94X2",
-   "name": "TKENPRO 2K treat camera",
-   "price": 69.98,
-   "why": "2K, 360° view, and treat tossing for $69.98."
+   "asin": "B0DZ6NMTY9",
+   "name": "TKENPRO 2K treat camera with auto tracking",
+   "price": 75.98,
+   "why": "Highest score (86) among picks with treat toss: 4.3 stars from 1,022 reviews, $75.98."
   },
   {
    "label": "Most Fun",
-   "asin": "B0DZHDF7MD",
-   "name": "Enabot EBO Air 2",
-   "price": 199.0,
-   "why": "A camera on wheels that drives around to find your pet."
+   "asin": "B0GGGPRRSF",
+   "name": "TKENPRO 5MP treat camera",
+   "price": 75.98,
+   "why": "Highest score of the picks that fit this award (86): 4.3 stars from 1,022 reviews, $75.98."
   }
  ],
  "systems_note": "Tapo cameras have an official TP-Link integration in Home Assistant.",
@@ -175,7 +175,9 @@
    "rating": 4.3,
    "reviews_count": 1022,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Value Treat Cam"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -224,7 +226,9 @@
    "rating": 4.3,
    "reviews_count": 1022,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Most Fun"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -273,9 +277,7 @@
    "rating": 4.3,
    "reviews_count": 1022,
    "score": 81,
-   "awards": [
-    "Best Value Treat Cam"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -418,9 +420,7 @@
    "rating": 4.1,
    "reviews_count": 374,
    "score": 72,
-   "awards": [
-    "Most Fun"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Enabot app",
    "works_without": {
@@ -495,6 +495,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Value Treat Cam: TKENPRO 2K treat camera with auto tracking.",
+    "New Most Fun: TKENPRO 5MP treat camera."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

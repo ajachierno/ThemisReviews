@@ -38,28 +38,28 @@
    "asin": "B08W8GLPD5",
    "name": "Philips Hue Dimmer Switch V2",
    "price": 27.98,
-   "why": "4.7 stars from 4,038 reviews, a magnetic wall plate, and 3K+ bought last month."
+   "why": "Highest score on the page (97): 4.7 stars from 4,038 reviews, $27.98."
   },
   {
    "label": "Best Budget",
-   "asin": "B07D19YXND",
-   "name": "Aqara Wireless Mini Switch",
-   "price": 15.9,
-   "why": "A $15.90 button with single, double, and long press, 3,102 reviews."
-  },
-  {
-   "label": "Best for Home Assistant",
    "asin": "B0G2LNPCP7",
    "name": "SONOFF Fusion SNZB-01M",
    "price": 19.9,
-   "why": "Four buttons, 16 actions, and direct Zigbee binding in ZHA and Zigbee2MQTT."
+   "why": "Highest score (92) among the cheapest third of picks (up to $19.90 each): 4.1 stars from 411 reviews, $19.90."
   },
   {
-   "label": "Best Premium",
+   "label": "Best for Home Assistant",
    "asin": "B0B6LDPZ5M",
    "name": "Philips Hue Tap Dial Switch",
    "price": 54.99,
-   "why": "Four scene buttons plus a rotary dial for dimming, rated 4.7 stars."
+   "why": "Highest score (97) among picks that work with Home Assistant: 4.7 stars from 962 reviews, $54.99."
+  },
+  {
+   "label": "Best Premium",
+   "asin": "B0FCZRXH8Z",
+   "name": "Philips Hue Smart Button",
+   "price": 32.99,
+   "why": "Highest score (90) among the priciest third of picks: 4.6 stars from 191 reviews, $32.99."
   }
  ],
  "systems_note": null,
@@ -132,7 +132,7 @@
    "reviews_count": 962,
    "score": 97,
    "awards": [
-    "Best Premium"
+    "Best for Home Assistant"
    ],
    "works_with": [
     "Home Assistant",
@@ -187,7 +187,7 @@
    "reviews_count": 411,
    "score": 92,
    "awards": [
-    "Best for Home Assistant"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -242,7 +242,9 @@
    "rating": 4.6,
    "reviews_count": 191,
    "score": 90,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -556,9 +558,7 @@
    "rating": 4.3,
    "reviews_count": 3102,
    "score": 75,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -618,7 +618,10 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Budget: SONOFF Fusion SNZB-01M.",
+    "New Best for Home Assistant: Philips Hue Tap Dial Switch.",
+    "New Best Premium: Philips Hue Smart Button."
    ]
   },
   {

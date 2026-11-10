@@ -13,7 +13,7 @@
  },
  "product_type": "Blinds and shades",
  "data_captured": "2026-11-09",
- "updated": "2026-10-27",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D54KR9W7",
-   "name": "Eve MotionBlinds Upgrade Kit",
-   "price": 219.95,
-   "why": "Eve's retrofit motor with local Matter control, no cloud or account, and the most reviews of any Thread shade here."
+   "asin": "B09M9PZJWT",
+   "name": "SmartWings Motorized roller shade (70% blackout)",
+   "price": 169.99,
+   "why": "Highest score on the page (78): 4.2 stars from 25 reviews, $169.99."
   },
   {
    "label": "Best Budget Kit",
-   "asin": "B0FG2C8W67",
-   "name": "TeFei Matter roller shade motor kit",
-   "price": 112.88,
-   "why": "A Matter-over-Thread motor with a remote and bracket for $112.88."
+   "asin": "B0F42GMH45",
+   "name": "TeFei Matter blinds motor kit (Home Assistant)",
+   "price": 112.68,
+   "why": "Highest score (64) among the cheapest third of picks (up to $112.68 each): 4.1 stars from 7 reviews, $112.68."
   },
   {
    "label": "Best Complete Shade",
    "asin": "B0B4DK18Z3",
    "name": "SmartWings Light filtering roller shade",
    "price": 159.99,
-   "why": "Made-to-measure SmartWings shades with a Matter motor option, rated 4.6 stars."
-  },
-  {
-   "label": "Best for Small Tubes",
-   "asin": "B0FYM58RFW",
-   "name": "Benexmart Matter over Thread shade motor",
-   "price": 96.99,
-   "why": "Fits 17, 25, and 28 mm tubes that 1.5 in. motors can't."
+   "why": "Highest score of the picks that fit this award (78): 4.6 stars from 14 reviews, $159.99."
   }
  ],
  "systems_note": "Matter-over-Thread shades work with every Matter platform once you have a Thread border router.",
@@ -75,7 +68,9 @@
    "rating": 4.2,
    "reviews_count": 25,
    "score": 78,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -189,9 +184,7 @@
    "rating": 4.4,
    "reviews_count": 47,
    "score": 71,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -247,9 +240,7 @@
    "rating": 4.4,
    "reviews_count": 14,
    "score": 71,
-   "awards": [
-    "Best Budget Kit"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -361,7 +352,9 @@
    "rating": 4.1,
    "reviews_count": 7,
    "score": 64,
-   "awards": [],
+   "awards": [
+    "Best Budget Kit"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -473,9 +466,7 @@
    "rating": 4.0,
    "reviews_count": 2,
    "score": 43,
-   "awards": [
-    "Best for Small Tubes"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -566,6 +557,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SmartWings Motorized roller shade (70% blackout).",
+    "New Best Budget Kit: TeFei Matter blinds motor kit (Home Assistant)."
+   ]
+  },
   {
    "date": "2026-10-27",
    "notes": [

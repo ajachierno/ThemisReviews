@@ -67,28 +67,22 @@
   ],
   "awards": [
     {
-      "asin": "B0921F1KVY",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "800 Series Long Range, works with the plain on/off switches already in your 3-, 4-, or 5-way circuit, multi-tap scene control, and a 4.4-star rating from 213 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0921F1KVY",
+      "why": "Highest score on the page (94): 4.3 stars from 213 reviews, $43.95."
     },
     {
-      "asin": "B0FX3CTLW2",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "The cheapest 800 Series Long Range switch here, and it still works with one standard 3-way switch."
-    },
-    {
-      "asin": "B0846CJTRN",
-      "label": "Best for Fan and Light",
-      "kind": "special",
-      "why": "Dims a light and switches a fan up to 15 A from one gang, with Long Range and a 4.4-star rating from 332 reviews."
-    },
-    {
-      "asin": "B0FB2VN95Q",
-      "label": "Best for Heavy Loads",
-      "kind": "premium",
-      "why": "Handles up to 600 W of LED lighting and motors up to 1 HP, and runs on 120 to 277 V."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0FX3CTLW2",
+      "why": "Highest score (86) among the cheapest third of picks (up to $39.99 each): 3.9 stars from 94 reviews, $24.99."
     }
   ],
   "products": [

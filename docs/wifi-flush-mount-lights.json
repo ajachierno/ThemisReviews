@@ -13,7 +13,7 @@
  },
  "product_type": "Ceiling lights",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,21 @@
    "asin": "B0CRV5F1VB",
    "name": "Govee Smart Ceiling Light 12-inch",
    "price": 69.99,
-   "why": "Govee's 12-inch ceiling light puts out 2,400 lm with Matter, rated 4.5 stars by 2,047 buyers."
+   "why": "Highest score on the page (96): 4.5 stars from 2,047 reviews, $69.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0C7VPW49D",
-   "name": "MELEGAN 12-inch Smart RGB Flush Mount (2-pack)",
+   "asin": "B0H1J192F3",
+   "name": "SwitchBot RGBICWW Ceiling Light 12-inch",
    "price": 49.99,
-   "why": "Two 12-inch color ceiling lights with Alexa and Google for $49.99."
-  },
-  {
-   "label": "Best for Living Rooms",
-   "asin": "B0GSYPZ4L5",
-   "name": "Govee Smart Ceiling Light Pro 18-inch",
-   "price": 134.99,
-   "why": "An 18-inch, 4,800 lm Govee light for spaces up to about 320 sq ft."
+   "why": "Highest score (89) among the cheapest third of picks (up to $49.99 each): 3.8 stars from 95 reviews, $49.99."
   },
   {
    "label": "Best Premium",
-   "asin": "B0GR9VMV71",
-   "name": "Govee Ceiling Light Ultra 21-inch",
-   "price": 249.99,
-   "why": "5,000 lm, 616 RGBIC LEDs, and CRI 95 warm white."
+   "asin": "B0F1N5HPVH",
+   "name": "Govee Smart Ceiling Light 15-inch",
+   "price": 99.99,
+   "why": "Highest score (96) among the priciest third of picks: 4.6 stars from 579 reviews, $99.99."
   }
  ],
  "systems_note": null,
@@ -132,7 +125,9 @@
    "rating": 4.6,
    "reviews_count": 579,
    "score": 96,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -187,9 +182,7 @@
    "rating": 4.6,
    "reviews_count": 579,
    "score": 96,
-   "awards": [
-    "Best for Living Rooms"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -244,9 +237,7 @@
    "rating": 4.5,
    "reviews_count": 91,
    "score": 95,
-   "awards": [
-    "Best Premium"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -301,7 +292,9 @@
    "rating": 3.8,
    "reviews_count": 95,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -461,9 +454,7 @@
    "rating": 4.3,
    "reviews_count": 387,
    "score": 75,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -618,6 +609,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: SwitchBot RGBICWW Ceiling Light 12-inch.",
+    "New Best Premium: Govee Smart Ceiling Light 15-inch."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

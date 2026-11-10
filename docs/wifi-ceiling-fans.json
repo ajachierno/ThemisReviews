@@ -13,7 +13,7 @@
  },
  "product_type": "Ceiling fans",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0CW9PK1K4",
-   "name": "Dreo Smart Ceiling Fan 52 in. (12 speeds)",
-   "price": 189.99,
-   "why": "A quiet DC fan with 12 speeds, a dimmable light, Alexa and Google, rated 4.5 stars by 1,136 buyers."
-  },
-  {
-   "label": "Best Low Profile",
-   "asin": "B0FK9P8FKZ",
-   "name": "Sofucor Smart Ceiling Fan 52 in. (low profile)",
-   "price": 129.99,
-   "why": "A flush-mount DC fan with reverse, rated 4.5 stars by 1,955 buyers, for $129.99."
+   "asin": "B0F1MVQ4HT",
+   "name": "Lumary Smart Wi-Fi Ceiling Fan (low profile)",
+   "price": 159.99,
+   "why": "Highest score on the page (95): 4.4 stars from 201 reviews, $159.99."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0GQGY896M",
    "name": "Govee Ceiling Fan with RGBIC Light 52 in.",
    "price": 189.99,
-   "why": "Govee's flush-mount fan with an RGBIC light and Matter."
+   "why": "Highest score (90) among picks that work with Apple Home: 4.6 stars from 282 reviews, $189.99."
   }
  ],
  "systems_note": null,
@@ -68,7 +61,9 @@
    "rating": 4.4,
    "reviews_count": 201,
    "score": 95,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -235,9 +230,7 @@
    "rating": 4.5,
    "reviews_count": 1955,
    "score": 89,
-   "awards": [
-    "Best Low Profile"
-   ],
+   "awards": [],
    "works_with": [
     "Google Home"
    ],
@@ -435,9 +428,7 @@
    "rating": 4.5,
    "reviews_count": 1136,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -593,6 +584,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Lumary Smart Wi-Fi Ceiling Fan (low profile)."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

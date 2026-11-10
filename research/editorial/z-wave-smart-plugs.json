@@ -15,10 +15,10 @@
     {"key": "location", "label": "Use"}
   ],
   "awards": [
-    {"asin": "B0BHL9MBRZ", "label": "Best Overall", "kind": "overall", "why": "800 Series Long Range with energy monitoring and a 4.8-star rating."},
-    {"asin": "B0BWY63YVX", "label": "Best Budget", "kind": "budget", "why": "A 3-pack for $56.99, about $19 a plug, and each one repeats signal for the rest of your Z-Wave network."},
-    {"asin": "B081DWCYP3", "label": "Best Outdoor", "kind": "special", "why": "IP65 weather-resistant housing and Long Range for $31.99, rated 4.3 stars by 884 buyers."},
-    {"asin": "B0CRL5F1QY", "label": "Best Dual Outlet", "kind": "premium", "why": "Two independently controlled outlets in one plug, with Long Range."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Outdoor", "kind": "special", "rule": {"type": "feature", "key": "outdoor"}},
+    {"label": "Best Dual Outlet", "kind": "premium", "rule": {"type": "feature", "key": "dual"}}
   ],
   "products": [
     {"asin": "B0BHL9MBRZ", "brand": "Zooz", "model": "ZEN04 800LR", "systems": ["home-assistant", "smartthings", "hubitat", "homey"],

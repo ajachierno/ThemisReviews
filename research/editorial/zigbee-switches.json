@@ -50,24 +50,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B081ZQWX1F",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "The most-reviewed switch here, 4.3 stars from 533 reviews, and it installs without a neutral wire. Pairs with an Aqara hub."
-    },
-    {
-      "asin": "B0D4DGJ32V",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Under $20 and it replaces either or both switches in a 3-way. Works locally with Zigbee2MQTT."
-    },
-    {
-      "asin": "B0DN1H69ZP",
-      "label": "Most Flexible",
-      "kind": "premium",
-      "why": "Runs as Zigbee or Matter over Thread, works with or without a neutral, and handles 3-way."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

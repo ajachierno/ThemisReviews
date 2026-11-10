@@ -13,7 +13,7 @@
  },
  "product_type": "Robot vacuums",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,21 +38,14 @@
    "asin": "B0FBRK76L8",
    "name": "SwitchBot K11+",
    "price": 239.99,
-   "why": "SwitchBot's K11+ joins Matter directly, empties itself for 90 days, and is the most-reviewed Matter vacuum."
+   "why": "Highest score on the page (84): 3.8 stars from 326 reviews, $239.99."
   },
   {
    "label": "Most Powerful",
-   "asin": "B0H7XCFZP8",
-   "name": "SwitchBot K11+ Pro",
-   "price": 269.99,
-   "why": "Double the K11+'s suction at 12,000 Pa in the same compact body."
-  },
-  {
-   "label": "Best Mopping",
    "asin": "B0F6CJ6G2Z",
    "name": "SwitchBot S20",
    "price": 359.99,
-   "why": "A self-washing roller mop with hot-air drying."
+   "why": "Highest score of the picks that fit this award (75): 3.2 stars from 75 reviews, $359.99."
   }
  ],
  "systems_note": "Only listings that name Matter are included. Other robot vacuums say they work with Siri, which means Siri Shortcuts, not Matter.",
@@ -126,7 +119,7 @@
    "reviews_count": 75,
    "score": 75,
    "awards": [
-    "Best Mopping"
+    "Most Powerful"
    ],
    "works_with": [
     "Home Assistant",
@@ -182,9 +175,7 @@
    "rating": 3.8,
    "reviews_count": 16,
    "score": 75,
-   "awards": [
-    "Most Powerful"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -245,6 +236,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Most Powerful: SwitchBot S20."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

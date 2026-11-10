@@ -51,30 +51,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DKHCF53T",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Single-pole, 3-way, or 4-way, with energy monitoring, for about $20. 2K+ bought in the past month."
-    },
-    {
-      "asin": "B0C2B6RSDX",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "$15.99 for a Matter switch with 4.5 stars from over 1,300 reviews."
-    },
-    {
-      "asin": "B0DCK65T2Y",
-      "label": "Best Thread Switch",
-      "kind": "special",
-      "why": "Matter over Thread with no Eve cloud and no account, and it works in 3-way setups."
-    },
-    {
-      "asin": "B0GR1TR26Y",
-      "label": "Best Name Brand",
-      "kind": "premium",
-      "why": "Leviton's Decora switch with Matter built in. The most-bought Matter switch in our data at 3K+ a month."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

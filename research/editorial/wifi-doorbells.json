@@ -48,30 +48,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0D8MKQ5RC",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "2K, wired or battery, a chime in the box, and microSD storage with no subscription needed."
-    },
-    {
-      "asin": "B0G2D1R15Q",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Ring's 2K battery doorbell for $39.99, with 10K+ bought last month."
-    },
-    {
-      "asin": "B0CD7NT4Y9",
-      "label": "Best Package View",
-      "kind": "special",
-      "why": "Two cameras, one aimed down at packages, with 8 GB local storage."
-    },
-    {
-      "asin": "B0B7S1HMPC",
-      "label": "Best Wired (PoE)",
-      "kind": "premium",
-      "why": "Power over Ethernet, local microSD storage, and a chime, with no Wi-Fi to drop."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

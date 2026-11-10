@@ -38,24 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CW9PK1K4",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A quiet DC fan with 12 speeds, a dimmable light, Alexa and Google, rated 4.5 stars by 1,136 buyers."
-    },
-    {
-      "asin": "B0FK9P8FKZ",
-      "label": "Best Low Profile",
-      "kind": "budget",
-      "why": "A flush-mount DC fan with reverse, rated 4.5 stars by 1,955 buyers, for $129.99."
-    },
-    {
-      "asin": "B0GQGY896M",
-      "label": "Best for Apple Home",
-      "kind": "premium",
-      "why": "Govee's flush-mount fan with an RGBIC light and Matter."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Apple Home", "kind": "premium", "rule": {"type": "system", "key": "apple-home"}}
   ],
   "products": [
     {

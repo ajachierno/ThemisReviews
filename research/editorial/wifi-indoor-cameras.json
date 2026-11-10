@@ -48,30 +48,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0D7XPXCSL",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Two 2K pan-and-tilt cameras with microSD recording for $44.99, 3K+ bought last month."
-    },
-    {
-      "asin": "B0866S3D82",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A 1080p camera with microSD storage for $17.98 and 29,359 reviews."
-    },
-    {
-      "asin": "B0B6GLQJMV",
-      "label": "Best for Alexa and Ring",
-      "kind": "special",
-      "why": "47,228 reviews at 4.7 stars, and it fits straight into a Ring setup."
-    },
-    {
-      "asin": "B0DJVGZQW7",
-      "label": "Best No Subscription",
-      "kind": "premium",
-      "why": "4K with local storage, no subscription, and Apple HomeKit support."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Alexa and Ring", "kind": "special", "rule": {"type": "system", "key": "alexa"}},
+    {"label": "Best No Subscription", "kind": "premium", "rule": {"type": "feature", "key": "local_storage"}}
   ],
   "products": [
     {

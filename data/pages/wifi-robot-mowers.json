@@ -46,22 +46,33 @@
   ],
   "awards": [
     {
-      "asin": "B0CX8LL2PC",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "The most-reviewed wire-free mower, with RTK plus vision for small yards."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GKM8JZDF",
+      "why": "Highest score on the page (93): 4.2 stars from 196 reviews, $2,799.00."
     },
     {
-      "asin": "B0GKM8JZDF",
       "label": "Best for Hills",
       "kind": "premium",
-      "why": "AWD that climbs slopes up to 80%, with LiDAR and NetRTK."
+      "rule": {
+        "type": "feature",
+        "key": "awd"
+      },
+      "asin": "B0H761SNFG",
+      "why": "Highest score of the picks that fit this award (84): 4.7 stars from 35 reviews, $1,449.99."
     },
     {
-      "asin": "B0G1SCJ18P",
       "label": "Best for Big Yards",
       "kind": "special",
-      "why": "3D LiDAR for up to 0.75 acre at $1,099.00."
+      "rule": {
+        "type": "feature",
+        "key": "big_yard"
+      },
+      "asin": "B0GGZQTY2N",
+      "why": "Highest score of the picks that fit this award (79): 3.9 stars from 191 reviews, $1,999.99."
     }
   ],
   "products": [

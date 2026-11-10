@@ -53,28 +53,31 @@
   ],
   "awards": [
     {
-      "asin": "B0F3NZ12GL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Govee's uplighter combines a ripple projector, RGBIC color, and a 1,000 lm task light, with Matter, rated 4.6 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GQTF4X6H",
+      "why": "Highest score on the page (98): 4.8 stars from 404 reviews, $129.99."
     },
     {
-      "asin": "B0DB1739S4",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "An RGBIC corner lamp with music sync and an anti-tip base for $34.99, with 1,224 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B09W8WLQ19",
+      "why": "Highest score (80) among the cheapest third of picks (up to $49.99 each): 4.2 stars from 2,304 reviews, $49.99."
     },
     {
-      "asin": "B0BLSGHRXB",
       "label": "Most Popular",
       "kind": "special",
-      "why": "Govee's RGBIC corner lamp has 12,194 reviews and 1K+ bought last month."
-    },
-    {
-      "asin": "B0F43M9KWW",
-      "label": "Best for Reading",
-      "kind": "premium",
-      "why": "Three aimable heads with tunable white up to 1,500 lm, plus Matter."
+      "rule": {
+        "type": "most_reviews"
+      },
+      "asin": "B0BLSGHRXB",
+      "why": "Most Amazon reviews on the page: 4.4 stars from 12,194 reviews, $69.99."
     }
   ],
   "products": [

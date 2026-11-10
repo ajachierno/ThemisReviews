@@ -62,28 +62,32 @@
   ],
   "awards": [
     {
-      "asin": "B0872ZWV8X",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,928 reviews, and 3K+ bought last month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GTV1R5JY",
+      "why": "Highest score on the page (96): 4.6 stars from 178 reviews, $89.99."
     },
     {
-      "asin": "B0G7VC5D3F",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Three sensors and a base station for $36.08, with ±0.36°F stated accuracy."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0G7VC5D3F",
+      "why": "Highest score (89) among the cheapest third of picks (up to $39.99 each): 4.5 stars from 570 reviews, $36.08."
     },
     {
-      "asin": "B0F245PNYH",
       "label": "Best for Freezers and Outbuildings",
       "kind": "special",
-      "why": "LoRa range, up to 5 years on AA batteries, and text alerts, rated 4.7 stars."
-    },
-    {
-      "asin": "B01HH7YD2Y",
-      "label": "Best for Vacation Homes",
-      "kind": "premium",
-      "why": "Unlimited text, app, and email alerts with no subscription, and it keeps logging when Wi-Fi drops."
+      "rule": {
+        "type": "feature",
+        "key": "multi_sensor"
+      },
+      "asin": "B0CZ8ZSP67",
+      "why": "Highest score of the picks that fit this award (89): 4.5 stars from 2,138 reviews, $59.99."
     }
   ],
   "products": [

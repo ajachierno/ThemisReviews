@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BW2CYQZJ",
-   "name": "Tapo C500",
-   "price": 33.99,
-   "why": "A wired pan-and-tilt outdoor camera with microSD recording, Alexa and Google, and 4.5 stars, for $33.99."
+   "asin": "B0CHSK6M21",
+   "name": "Tapo MagCam C425",
+   "price": 54.99,
+   "why": "Highest score on the page (93): 4.2 stars from 3,896 reviews, $54.99."
   },
   {
    "label": "Most Popular",
    "asin": "B0C5QRZ47P",
    "name": "Ring Outdoor Cam (Stick Up Cam)",
    "price": 79.99,
-   "why": "66,076 reviews and 8K+ bought last month, battery or wired, and it fits a Ring setup."
-  },
-  {
-   "label": "Best Solar",
-   "asin": "B0CCYP6KFM",
-   "name": "eufy SoloCam S340",
-   "price": 159.99,
-   "why": "3K dual-lens with a built-in solar panel and free local storage, 3K+ bought last month."
+   "why": "Most Amazon reviews on the page: 4.5 stars from 66,076 reviews, $79.99."
   },
   {
    "label": "Best Image",
-   "asin": "B0DCZGNQXB",
-   "name": "Reolink Lumus Pro 4K",
-   "price": 84.99,
-   "why": "4K with local microSD recording and no subscription needed."
+   "asin": "B0FP2FKZ5Z",
+   "name": "eufy SoloCam E42",
+   "price": 119.96,
+   "why": "Highest score of the picks that fit this award (93): 4.2 stars from 1,408 reviews, $119.96."
   }
  ],
  "systems_note": "Ring and Reolink cameras also have official Home Assistant integrations.",
@@ -74,7 +67,9 @@
    "rating": 4.2,
    "reviews_count": 3896,
    "score": 93,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -125,7 +120,9 @@
    "rating": 4.2,
    "reviews_count": 1408,
    "score": 93,
-   "awards": [],
+   "awards": [
+    "Best Image"
+   ],
    "works_with": [],
    "works_with_note": "eufy app (no assistants listed)",
    "works_without": {
@@ -172,9 +169,7 @@
    "rating": 4.1,
    "reviews_count": 7208,
    "score": 92,
-   "awards": [
-    "Best Solar"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "eufy app (no assistants listed)",
    "works_without": {
@@ -222,9 +217,7 @@
    "rating": 4.4,
    "reviews_count": 309,
    "score": 87,
-   "awards": [
-    "Best Image"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -421,9 +414,7 @@
    "rating": 4.5,
    "reviews_count": 7210,
    "score": 79,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -583,7 +574,9 @@
   {
    "date": "2026-11-10",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: Tapo MagCam C425.",
+    "New Best Image: eufy SoloCam E42."
    ]
   },
   {

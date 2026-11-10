@@ -13,7 +13,7 @@
  },
  "product_type": "Pet feeders",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DCNNN5FC",
-   "name": "Frienhund Feeder with 2K camera (7 L)",
-   "price": 59.99,
-   "why": "A 2K camera feeder with dual-band Wi-Fi for $59.99, rated 4.4 stars by 1,861 buyers."
+   "asin": "B0GSR1GTHW",
+   "name": "MUBBI Feeder with camera (7 L)",
+   "price": 62.99,
+   "why": "Highest score on the page (86): 4.5 stars from 103 reviews, $62.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B09TKH9Q31",
-   "name": "PAPIFEED 6 L Wi-Fi feeder",
-   "price": 46.99,
-   "why": "A $46.99 app feeder with dual power and 4,285 reviews."
+   "asin": "B0CNNN3BMR",
+   "name": "Yuposl YPF05 Feeder with 1080p camera",
+   "price": 59.99,
+   "why": "Highest score (85) among the cheapest third of picks (up to $59.99 each): 4.4 stars from 5,465 reviews, $59.99."
   },
   {
    "label": "Best for Two Pets",
-   "asin": "B0CFFKBW58",
-   "name": "PETKIT YumShare Dual-Hopper with camera",
-   "price": 133.99,
-   "why": "Two hoppers with separate schedules, plus a 1080p camera with AI motion capture."
+   "asin": "B0GTY42R3Z",
+   "name": "HoneyGuaridan S303D feeder for 2 cats",
+   "price": 59.99,
+   "why": "Highest score of the picks that fit this award (85): 4.3 stars from 7,572 reviews, $59.99."
   },
   {
    "label": "Most Popular",
    "asin": "B0B5ZJY9MT",
    "name": "PETLIBRO Feeder with 1080p camera",
    "price": 119.99,
-   "why": "PETLIBRO's camera feeder has 11,994 reviews and an anti-clog outlet."
+   "why": "Most Amazon reviews on the page: 4.1 stars from 11,994 reviews, $119.99."
   }
  ],
  "systems_note": "Pet feeders run in their makers' apps. None of these listings name Alexa, Google, Apple Home, or Home Assistant.",
@@ -75,7 +75,9 @@
    "rating": 4.5,
    "reviews_count": 103,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "MUBBI app",
    "works_without": {
@@ -121,7 +123,9 @@
    "rating": 4.3,
    "reviews_count": 7572,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best for Two Pets"
+   ],
    "works_with": [],
    "works_with_note": "HGsmart app",
    "works_without": {
@@ -167,7 +171,9 @@
    "rating": 4.4,
    "reviews_count": 5465,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "Yuposl app",
    "works_without": {
@@ -213,9 +219,7 @@
    "rating": 4.4,
    "reviews_count": 1861,
    "score": 85,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Frienhund app",
    "works_without": {
@@ -261,9 +265,7 @@
    "rating": 4.5,
    "reviews_count": 429,
    "score": 84,
-   "awards": [
-    "Best for Two Pets"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "PETKIT app",
    "works_without": {
@@ -495,9 +497,7 @@
    "rating": 4.3,
    "reviews_count": 4285,
    "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "PAPIFEED app",
    "works_without": {
@@ -549,6 +549,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: MUBBI Feeder with camera (7 L).",
+    "New Best Budget: Yuposl YPF05 Feeder with 1080p camera.",
+    "New Best for Two Pets: HoneyGuaridan S303D feeder for 2 cats."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

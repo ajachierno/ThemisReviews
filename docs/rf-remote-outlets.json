@@ -13,7 +13,7 @@
  },
  "product_type": "Smart plugs",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B01NASZ0UM",
-   "name": "BN-LINK Remote Outlet Kit (3 outlets + 1 remote)",
-   "price": 15.99,
-   "why": "Three outlets and a remote for $15.99, rated 4.7 stars by 24,853 buyers."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B07D2BY7VY",
-   "name": "DEWENWILS Indoor Remote Control Outlet (compact)",
-   "price": 9.98,
-   "why": "A compact remote outlet for $9.98, rated 4.7 stars."
-  },
-  {
-   "label": "Best Outdoor",
    "asin": "B082TX3CV1",
    "name": "HBN Outdoor Remote Control Outlets",
    "price": 12.99,
-   "why": "Weatherproof remote outlets rated 15 A, with 9,762 reviews."
+   "why": "Highest score on the page (96): 4.5 stars from 9,762 reviews, $12.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B09X2W2TRT",
+   "name": "DEWENWILS Indoor Remote Outlet 15 A",
+   "price": 9.99,
+   "why": "Highest score (84) among the cheapest third of picks (up to $12.99 each): 4.7 stars from 2,966 reviews, $9.99."
   },
   {
    "label": "Best Whole-Room Kit",
-   "asin": "B07CY8RSBF",
-   "name": "BN-LINK Mini Remote Outlet Kit (5 outlets + 2 remotes)",
+   "asin": "B01N23GRYD",
+   "name": "BN-LINK Remote Outlet Kit (5 outlets + 2 remotes)",
    "price": 25.64,
-   "why": "Five mini outlets and two remotes for lamps around a room."
+   "why": "Highest score (86) among picks with in the box: 4.7 stars from 29,992 reviews, $25.64."
   }
  ],
  "systems_note": null,
@@ -76,7 +69,7 @@
    "reviews_count": 9762,
    "score": 96,
    "awards": [
-    "Best Outdoor"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": null,
@@ -124,7 +117,9 @@
    "rating": 4.7,
    "reviews_count": 29992,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Whole-Room Kit"
+   ],
    "works_with": [],
    "works_with_note": null,
    "works_without": {
@@ -171,9 +166,7 @@
    "rating": 4.7,
    "reviews_count": 24853,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": null,
    "works_without": {
@@ -267,9 +260,7 @@
    "rating": 4.6,
    "reviews_count": 7469,
    "score": 85,
-   "awards": [
-    "Best Whole-Room Kit"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": null,
    "works_without": {
@@ -316,7 +307,9 @@
    "rating": 4.7,
    "reviews_count": 2966,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": null,
    "works_without": {
@@ -457,9 +450,7 @@
    "rating": 4.7,
    "reviews_count": 7902,
    "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": null,
    "works_without": {
@@ -559,6 +550,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: HBN Outdoor Remote Control Outlets.",
+    "New Best Budget: DEWENWILS Indoor Remote Outlet 15 A.",
+    "New Best Whole-Room Kit: BN-LINK Remote Outlet Kit (5 outlets + 2 remotes)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

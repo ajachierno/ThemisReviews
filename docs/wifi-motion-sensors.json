@@ -13,7 +13,7 @@
  },
  "product_type": "Motion sensors",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0GD6ND4C7",
-   "name": "Cotinse Wi-Fi PIR motion sensor",
-   "price": 15.99,
-   "why": "Battery or USB power, Bluetooth-assisted pairing, and Alexa, Google, and SmartThings triggers."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0DDBR4Z9V",
-   "name": "Gaoducash Wi-Fi PIR motion sensor",
-   "price": 12.99,
-   "why": "$12.99 with Alexa routine support and Tuya automations."
-  },
-  {
-   "label": "Best Presence Sensor",
    "asin": "B0CNRRT45G",
    "name": "GoveeLife Human Presence Sensor",
    "price": 39.99,
-   "why": "mmWave plus PIR presence detection with Alexa, Google, and IFTTT, 100+ bought last month."
+   "why": "Highest score on the page (83): 3.9 stars from 263 reviews, $39.99."
   },
   {
-   "label": "Best for Home Assistant",
+   "label": "Best Budget",
+   "asin": "B0CLY75LMK",
+   "name": "Jiestar Wi-Fi motion sensor",
+   "price": 13.99,
+   "why": "Highest score (69) among the cheapest third of picks (up to $13.99 each): 3.5 stars from 990 reviews, $13.99."
+  },
+  {
+   "label": "Best Presence Sensor",
    "asin": "B0H2QYVWZ7",
    "name": "Akamatis Litos v3",
    "price": 26.99,
-   "why": "A local ESP32 mmWave presence and light sensor built for Home Assistant, rated 4.4 stars."
+   "why": "Highest score (75) among picks with detects still people: 4.4 stars from 41 reviews, $26.99."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0CQR8TDZV",
+   "name": "Jiestar Wi-Fi motion sensor (4-pack)",
+   "price": 39.99,
+   "why": "Highest score (69) among picks that work with Home Assistant: 3.5 stars from 990 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +75,7 @@
    "reviews_count": 263,
    "score": 83,
    "awards": [
-    "Best Presence Sensor"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -126,9 +126,7 @@
    "rating": 3.9,
    "reviews_count": 272,
    "score": 80,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -180,7 +178,7 @@
    "reviews_count": 41,
    "score": 75,
    "awards": [
-    "Best for Home Assistant"
+    "Best Presence Sensor"
    ],
    "works_with": [
     "Home Assistant"
@@ -230,7 +228,9 @@
    "rating": 3.5,
    "reviews_count": 990,
    "score": 69,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -280,7 +280,9 @@
    "rating": 3.5,
    "reviews_count": 990,
    "score": 69,
-   "awards": [],
+   "awards": [
+    "Best for Home Assistant"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -377,9 +379,7 @@
    "rating": 3.7,
    "reviews_count": 94,
    "score": 67,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -485,6 +485,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: GoveeLife Human Presence Sensor.",
+    "New Best Budget: Jiestar Wi-Fi motion sensor.",
+    "New Best Presence Sensor: Akamatis Litos v3.",
+    "New Best for Home Assistant: Jiestar Wi-Fi motion sensor (4-pack)."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

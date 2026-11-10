@@ -115,8 +115,7 @@ def diff(slug):
             v = p.get(k)
             for s in ([v] if isinstance(v, str) else v or []):
                 texts.append((p["asin"], s))
-    for a in ed.get("awards", []):
-        texts.append((a["asin"], a["why"]))
+    # award "why" lines are generated from the numbers at merge time (awards.py), so nothing to check here
     found = 0
     for p in d["products"] + d.get("avoid", []):
         n = new.get(p["asin"], {})

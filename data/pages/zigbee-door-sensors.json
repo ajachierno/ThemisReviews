@@ -66,28 +66,42 @@
   ],
   "awards": [
     {
-      "asin": "B08R9PH4JT",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Pairs with Echo hubs, Home Assistant, SmartThings, Hubitat, and Homey, with 791 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B095TPSQ3S",
+      "why": "Highest score on the page (89): 4.5 stars from 366 reviews, $38.99."
     },
     {
-      "asin": "B0GKFB3XCL",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "$13.90 with a tamper alert and 300+ bought last month."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0GKFB3XCL",
+      "why": "Highest score (84) among the cheapest third of picks (up to $14.25 each): 4.1 stars from 322 reviews, $13.90."
     },
     {
-      "asin": "B07D37VDM3",
       "label": "Best for Aqara Homes",
       "kind": "special",
-      "why": "The most-reviewed Zigbee contact sensor, at 4.4 stars from over 6,000 reviews."
+      "rule": {
+        "type": "brand",
+        "key": "Aqara"
+      },
+      "asin": "B07D37VDM3",
+      "why": "Highest score (70) among Aqara picks: 4.4 stars from 6,134 reviews, $15.99."
     },
     {
-      "asin": "B0G52D5CY6",
       "label": "Most Sensors",
       "kind": "premium",
-      "why": "Adds tilt angle and light level, with up to 5-year battery life."
+      "rule": {
+        "type": "feature",
+        "key": "extra_sensors"
+      },
+      "asin": "B0G52D5CY6",
+      "why": "Highest score of the picks that fit this award (86): 4.5 stars from 52 reviews, $22.99."
     }
   ],
   "products": [

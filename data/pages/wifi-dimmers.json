@@ -66,28 +66,23 @@
   ],
   "awards": [
     {
-      "asin": "B079775ZZQ",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "About 35,000 reviews at 4.5 stars for $19.99, with fade-on and gentle-off built in."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0C9W2G2V9",
+      "why": "Highest score on the page (86): 4.2 stars from 64 reviews, $39.98."
     },
     {
-      "asin": "B095X5H16X",
-      "label": "Best for Alexa Homes",
-      "kind": "budget",
-      "why": "Sets up entirely in the Alexa app, no extra app needed, for $19.99."
-    },
-    {
-      "asin": "B0BC2MWTR9",
       "label": "Best for 3-Way",
       "kind": "special",
-      "why": "A complete 3-way dimmer kit with 2,663 reviews and 2K+ bought last month."
-    },
-    {
-      "asin": "B0C9W2G2V9",
-      "label": "Best No-Neutral",
-      "kind": "premium",
-      "why": "Installs without a neutral and works with Apple Home, Alexa, Google, and SmartThings through Leviton's bridge."
+      "rule": {
+        "type": "feature",
+        "key": "three_way"
+      },
+      "asin": "B0BC2MWTR9",
+      "why": "Highest score of the picks that fit this award (78): 4.4 stars from 2,663 reviews, $33.99."
     }
   ],
   "products": [

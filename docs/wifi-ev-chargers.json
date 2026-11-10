@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0CKKPTDPK",
-   "name": "Emporia 48 A hardwired",
-   "price": 449.0,
-   "why": "A 48 A hardwired charger that is UL listed and ENERGY STAR certified, rated 4.8 stars by 512 buyers."
+   "asin": "B0FP886BVQ",
+   "name": "IYILO 48 A hardwired",
+   "price": 339.98,
+   "why": "Highest score on the page (90): 4.4 stars from 153 reviews, $339.98."
   },
   {
    "label": "Best Budget",
    "asin": "B0CG8D445Q",
    "name": "AIMILER 32 A Wi-Fi charger",
    "price": 189.99,
-   "why": "A $189.99 Wi-Fi charger with scheduling, rated 4.6 stars by 1,364 buyers."
-  },
-  {
-   "label": "Best Known Brand",
-   "asin": "B0C6YMS4KH",
-   "name": "ChargePoint HomeFlex 50 A",
-   "price": 549.0,
-   "why": "ChargePoint's 50 A HomeFlex, with 2,331 reviews and access to its public charging network in the same app."
+   "why": "Highest score (83) among the cheapest third of picks (up to $319.99 each): 4.6 stars from 1,367 reviews, $189.99."
   }
  ],
  "systems_note": "Smart EV chargers run in their own apps; none of these listings name Alexa, Google, or Apple Home. Smart Life chargers work with Home Assistant's Tuya integration. All use J1772, so Tesla and other NACS cars need an adapter unless noted.",
@@ -68,7 +61,9 @@
    "rating": 4.4,
    "reviews_count": 153,
    "score": 90,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "IYILO app",
    "works_without": {
@@ -114,9 +109,7 @@
    "rating": 4.8,
    "reviews_count": 512,
    "score": 87,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Emporia app",
    "works_without": {
@@ -210,9 +203,7 @@
    "rating": 4.2,
    "reviews_count": 2331,
    "score": 82,
-   "awards": [
-    "Best Known Brand"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "ChargePoint app",
    "works_without": {
@@ -455,7 +446,8 @@
    "notes": [
     "Dropped EVIQO 48 A hardwired, EVIQO 40 A NEMA 14-50.",
     "New Best Overall: Emporia 48 A hardwired.",
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: IYILO 48 A hardwired."
    ]
   },
   {

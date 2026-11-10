@@ -47,30 +47,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0872ZWV8X",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Direct Wi-Fi with no gateway, ±0.54°F accuracy, 7,928 reviews, and 3K+ bought last month."
-    },
-    {
-      "asin": "B0G7VC5D3F",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Three sensors and a base station for $36.08, with ±0.36°F stated accuracy."
-    },
-    {
-      "asin": "B0F245PNYH",
-      "label": "Best for Freezers and Outbuildings",
-      "kind": "special",
-      "why": "LoRa range, up to 5 years on AA batteries, and text alerts, rated 4.7 stars."
-    },
-    {
-      "asin": "B01HH7YD2Y",
-      "label": "Best for Vacation Homes",
-      "kind": "premium",
-      "why": "Unlimited text, app, and email alerts with no subscription, and it keeps logging when Wi-Fi drops."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Freezers and Outbuildings", "kind": "special", "rule": {"type": "feature", "key": "multi_sensor"}}
   ],
   "products": [
     {

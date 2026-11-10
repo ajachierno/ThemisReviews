@@ -46,28 +46,41 @@
   ],
   "awards": [
     {
-      "asin": "B0DCNNN5FC",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A 2K camera feeder with dual-band Wi-Fi for $59.99, rated 4.4 stars by 1,861 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GSR1GTHW",
+      "why": "Highest score on the page (86): 4.5 stars from 103 reviews, $62.99."
     },
     {
-      "asin": "B09TKH9Q31",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $46.99 app feeder with dual power and 4,285 reviews."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0CNNN3BMR",
+      "why": "Highest score (85) among the cheapest third of picks (up to $59.99 each): 4.4 stars from 5,465 reviews, $59.99."
     },
     {
-      "asin": "B0CFFKBW58",
       "label": "Best for Two Pets",
       "kind": "special",
-      "why": "Two hoppers with separate schedules, plus a 1080p camera with AI motion capture."
+      "rule": {
+        "type": "feature",
+        "key": "multi_pet"
+      },
+      "asin": "B0GTY42R3Z",
+      "why": "Highest score of the picks that fit this award (85): 4.3 stars from 7,572 reviews, $59.99."
     },
     {
-      "asin": "B0B5ZJY9MT",
       "label": "Most Popular",
       "kind": "premium",
-      "why": "PETLIBRO's camera feeder has 11,994 reviews and an anti-clog outlet."
+      "rule": {
+        "type": "most_reviews"
+      },
+      "asin": "B0B5ZJY9MT",
+      "why": "Most Amazon reviews on the page: 4.1 stars from 11,994 reviews, $119.99."
     }
   ],
   "products": [

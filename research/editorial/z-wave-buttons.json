@@ -15,9 +15,9 @@
     {"key": "power", "label": "Power"}
   ],
   "awards": [
-    {"asin": "B08TMWLY74", "label": "Best Overall", "kind": "overall", "why": "A Z-Wave Long Range paddle remote you can put anywhere, 4.4 stars from 413 reviews, the most of any button here."},
-    {"asin": "B09B6S4TSL", "label": "Best Wired", "kind": "special", "why": "A wired scene controller that also switches a light, with 4 extra buttons and 4.6 stars from 335 reviews."},
-    {"asin": "B0CV8RXT5W", "label": "Best Battery Remote", "kind": "special", "why": "Four buttons, up to 24 scenes, a rechargeable battery, and a magnetic base."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Wired", "kind": "special", "rule": {"type": "feature", "key": "battery_free"}},
+    {"label": "Best Battery Remote", "kind": "special", "rule": {"type": "feature", "key": "battery_free", "value": false}}
   ],
   "products": [
     {"asin": "B09B6S4TSL", "brand": "Zooz", "model": "ZEN32 800LR", "systems": ["home-assistant", "smartthings", "hubitat"],

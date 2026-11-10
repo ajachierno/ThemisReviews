@@ -46,28 +46,32 @@
   ],
   "awards": [
     {
-      "asin": "B07WCV632L",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A 5-inch parent screen plus a free app, with pan-tilt-zoom and 7,630 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0H5BR6R7Z",
+      "why": "Highest score on the page (91): 4.6 stars from 133 reviews, $99.99."
     },
     {
-      "asin": "B0GWL492J9",
       "label": "Best Smart Features",
       "kind": "premium",
-      "why": "4K with covered-face, sleep, and danger-zone alerts, and no monthly fee."
+      "rule": {
+        "type": "feature",
+        "key": "smart_alerts"
+      },
+      "asin": "B0H5BVB9CY",
+      "why": "Highest score of the picks that fit this award (89): 4.3 stars from 41 reviews, $84.99."
     },
     {
-      "asin": "B09Y8TLP25",
       "label": "Best Budget (App Only)",
       "kind": "budget",
-      "why": "A $27.99 2K camera with free crying alerts, if you'll use your phone as the monitor."
-    },
-    {
-      "asin": "B0DJS7WRJS",
-      "label": "Best for Two Rooms",
-      "kind": "special",
-      "why": "Two 3MP Wi-Fi 6 cameras and one 5-inch display for $149.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B09Y8TLP25",
+      "why": "Highest score (88) among the cheapest third of picks (up to $69.99 each): 4.5 stars from 23,443 reviews, $27.99."
     }
   ],
   "products": [

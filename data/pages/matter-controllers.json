@@ -56,28 +56,32 @@
   ],
   "awards": [
     {
-      "asin": "B0CWLHSKYC",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Thread border router, Matter controller and bridge, IR blaster, and PoE, with 1,723 reviews."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CWLHSKYC",
+      "why": "Highest score on the page (87): 4.0 stars from 1,723 reviews, $129.99."
     },
     {
-      "asin": "B0DWK8318H",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $41.99 Thread border router and Matter bridge, 500+ bought last month."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0DWK8318H",
+      "why": "Highest score (85) among the cheapest third of picks (up to $89.99 each): 3.8 stars from 1,052 reviews, $41.99."
     },
     {
-      "asin": "B0BCR7M9KX",
-      "label": "Best for Alexa",
-      "kind": "special",
-      "why": "An 8 in. wall panel with Zigbee, Thread, and Matter built in, sold by Amazon."
-    },
-    {
-      "asin": "B0CR4G1G8M",
       "label": "Best Local Hub",
       "kind": "premium",
-      "why": "Matter, Z-Wave Long Range, and Zigbee, with automations that run on the hub and no subscription."
+      "rule": {
+        "type": "feature",
+        "key": "local"
+      },
+      "asin": "B0G52DX5M3",
+      "why": "Highest score of the picks that fit this award (86): 4.0 stars from 75 reviews, $449.00."
     }
   ],
   "products": [

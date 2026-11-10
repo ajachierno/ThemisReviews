@@ -13,7 +13,7 @@
  },
  "product_type": "Outdoor lights",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D14WP9TB",
-   "name": "Govee Permanent Outdoor Lights 2 (100 ft)",
-   "price": 279.99,
-   "why": "Year-round RGBIC eave lights rated 4.4 stars by 3,174 buyers, with 7K+ bought last month."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B093DFSHN8",
-   "name": "XMCOSY+ Smart Patio Lights (50 ft, 25 G40 bulbs)",
-   "price": 39.99,
-   "why": "Smart dimmable patio string lights with Alexa and Google for $39.99."
-  },
-  {
-   "label": "Best Premium",
    "asin": "B0DX1WPB9J",
    "name": "Govee Permanent Outdoor Lights Pro (200 ft)",
    "price": 599.99,
-   "why": "200 feet of permanent lights with real warm and cool whites, plus Matter."
+   "why": "Highest score on the page (95): 4.4 stars from 2,452 reviews, $599.99."
   },
   {
-   "label": "Best String Lights",
-   "asin": "B0F21SVF9R",
-   "name": "Govee S14 Bulb Outdoor String Lights 2 (96 ft)",
-   "price": 84.59,
-   "why": "96 feet of color bulbs with warm white and Matter support, 4K+ bought last month."
+   "label": "Best Budget",
+   "asin": "B0F1XGYD3W",
+   "name": "Linkind HP5 Permanent Outdoor Lights (100 ft)",
+   "price": 116.99,
+   "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 242 reviews, $116.99."
+  },
+  {
+   "label": "Best Premium",
+   "asin": "B0FKGH55C7",
+   "name": "ASAHOM S107B Permanent Outdoor Lights (100 ft)",
+   "price": 169.99,
+   "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 503 reviews, $169.99."
   }
  ],
  "systems_note": "Govee lights also work with Home Assistant's official Govee Light Local integration.",
@@ -76,7 +69,7 @@
    "reviews_count": 2452,
    "score": 95,
    "awards": [
-    "Best Premium"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -133,7 +126,9 @@
    "rating": 4.5,
    "reviews_count": 503,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -230,7 +225,9 @@
    "rating": 4.4,
    "reviews_count": 242,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -330,9 +327,7 @@
    "rating": 4.2,
    "reviews_count": 1376,
    "score": 82,
-   "awards": [
-    "Best String Lights"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -387,9 +382,7 @@
    "rating": 4.4,
    "reviews_count": 3174,
    "score": 81,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -492,9 +485,7 @@
    "rating": 4.4,
    "reviews_count": 2301,
    "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -600,6 +591,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee Permanent Outdoor Lights Pro (200 ft).",
+    "New Best Budget: Linkind HP5 Permanent Outdoor Lights (100 ft).",
+    "New Best Premium: ASAHOM S107B Permanent Outdoor Lights (100 ft)."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

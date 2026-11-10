@@ -66,28 +66,32 @@
   ],
   "awards": [
     {
-      "asin": "B0BPY2KRHH",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "$12.99 with real-time power monitoring, ETL certification, and pairing straight to Echo hubs or any Zigbee 3.0 hub."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0BPY2KRHH",
+      "why": "Highest score on the page (95): 4.4 stars from 276 reviews, $12.99."
     },
     {
-      "asin": "B09LV53X62",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "4.4 stars at $12.99, ETL certified, and works with SmartThings and Echo hubs."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0DXQF3NQ7",
+      "why": "Highest score (88) among the cheapest third of picks (up to $12.99 each): 4.5 stars from 43 reviews, $11.99."
     },
     {
-      "asin": "B0FCLZDMR8",
-      "label": "Best Dual Outlet",
-      "kind": "special",
-      "why": "Two outlets with separate control and separate energy monitoring, and a long list of supported hubs."
-    },
-    {
-      "asin": "B08CRYGLGN",
       "label": "Best for Hue Homes",
       "kind": "premium",
-      "why": "The most-reviewed Zigbee plug here, and it slots straight into a Philips Hue setup."
+      "rule": {
+        "type": "brand",
+        "key": "Philips Hue"
+      },
+      "asin": "B08CRYGLGN",
+      "why": "Highest score (72) among Philips Hue picks: 4.7 stars from 5,403 reviews, $74.99."
     }
   ],
   "products": [

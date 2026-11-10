@@ -46,22 +46,33 @@
   ],
   "awards": [
     {
-      "asin": "B00JJY1QG0",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A plug-in lamp dimmer with a Pico remote, rated 4.7 stars by 1,821 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0777TC8QZ",
+      "why": "Highest score on the page (86): 4.7 stars from 146 reviews, $114.95."
     },
     {
-      "asin": "B0777TC8QZ",
       "label": "Best Starter Kit",
       "kind": "special",
-      "why": "Lamp dimmer, Smart Hub, and remote: everything for app and voice control, rated 4.7 stars."
+      "rule": {
+        "type": "feature",
+        "key": "bridge"
+      },
+      "asin": "B011PHGURS",
+      "why": "Highest score of the picks that fit this award (86): 4.4 stars from 79 reviews, $214.95."
     },
     {
-      "asin": "B08Z4HK39S",
       "label": "Best Outdoor",
       "kind": "premium",
-      "why": "Caseta's weather-resistant plug for outdoor lights, with a Pico remote."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B08Z4HK39S",
+      "why": "Highest score of the picks that fit this award (81): 4.6 stars from 136 reviews, $94.95."
     }
   ],
   "products": [

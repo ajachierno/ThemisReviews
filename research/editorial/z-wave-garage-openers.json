@@ -39,18 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0846DZJD8",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Three dry-contact relays run up to three garage doors from one Long Range module, 4.6 stars."
-    },
-    {
-      "asin": "B0FXYWJ47K",
-      "label": "Best All-in-One",
-      "kind": "special",
-      "why": "A dedicated garage controller with the tilt sensor in the box."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best All-in-One", "kind": "special", "rule": {"type": "feature", "key": "tilt"}}
   ],
   "products": [
     {

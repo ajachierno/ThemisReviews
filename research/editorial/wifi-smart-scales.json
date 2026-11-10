@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B09HCJD6H1",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Etekcity's Wi-Fi scale has 187,465 reviews, a color display, and Alexa."
-    },
-    {
-      "asin": "B0DHTYQ4KJ",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A Wi-Fi and Bluetooth scale with a 4.3-inch display for $49.98."
-    },
-    {
-      "asin": "B0FS764RQ4",
-      "label": "Best Body Composition",
-      "kind": "premium",
-      "why": "Wyze's handle scale measures 44 metrics with 8 electrodes and syncs over Wi-Fi."
-    },
-    {
-      "asin": "B0C3JNJPZ7",
-      "label": "Best for Heart Health",
-      "kind": "special",
-      "why": "Withings Body Smart is clinically validated and checks your heart rate at every weigh-in."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Body Composition", "kind": "premium", "rule": {"type": "feature", "key": "handle"}}
   ],
   "products": [
     {

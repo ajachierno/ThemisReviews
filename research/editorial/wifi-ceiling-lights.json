@@ -39,30 +39,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0B1V6G21S",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Govee's 6-inch downlights in a 4-pack with Wi-Fi and Bluetooth control, rated 4.6 stars."
-    },
-    {
-      "asin": "B0F3BKBNVZ",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Three 1,000 lm color downlights for $49.97, sold by Amazon."
-    },
-    {
-      "asin": "B0F2165SNY",
-      "label": "Best with Matter",
-      "kind": "special",
-      "why": "RGBIC backlit 4-inch downlights with Matter, Alexa, and Google."
-    },
-    {
-      "asin": "B0C1F1XLWS",
-      "label": "Best Canless",
-      "kind": "premium",
-      "why": "A slim HALO wafer light that needs no housing or J-box and works with Apple Home."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best with Matter", "kind": "special", "rule": {"type": "feature", "key": "matter"}}
   ],
   "products": [
     {

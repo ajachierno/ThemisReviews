@@ -38,30 +38,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GMGR4BJV",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Temprium's 14,000 BTU unit runs at 41 dB in silent mode, with Alexa and Google."
-    },
-    {
-      "asin": "B0H1YF1LCT",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "An 8,000 BTU Wi-Fi portable AC with 18,360 reviews for $256.42, sold by Amazon."
-    },
-    {
-      "asin": "B01DLPUWJ4",
-      "label": "Best with Heat",
-      "kind": "special",
-      "why": "BLACK+DECKER's 14,000 BTU unit adds 10,000 BTU of heat."
-    },
-    {
-      "asin": "B0HCYKKLLG",
-      "label": "Best for Big Rooms",
-      "kind": "premium",
-      "why": "14,000 BTU for up to 700 sq ft with 72-hour self-evaporation."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Big Rooms", "kind": "premium", "rule": {"type": "feature", "key": "big"}}
   ],
   "products": [
     {

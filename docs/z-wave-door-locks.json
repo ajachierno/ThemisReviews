@@ -13,7 +13,7 @@
  },
  "product_type": "Smart locks",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07KQPQMXS",
-   "name": "Schlage Connect (Camelot trim)",
-   "price": 197.0,
-   "why": "The most-reviewed Z-Wave lock by far, with Schlage's Snap 'n Stay install and Ring Alarm and SmartThings support."
+   "asin": "B0DTBJJ8KR",
+   "name": "Kwikset HomeConnect 918",
+   "price": 213.0,
+   "why": "Highest score on the page (75): 4.1 stars from 81 reviews, $213.00."
   },
   {
    "label": "Best Budget",
    "asin": "B0DWGXFS8H",
    "name": "Kwikset HomeConnect 620",
    "price": 113.99,
-   "why": "Z-Wave Long Range with S2 and SmartStart for about $110."
+   "why": "Highest score (74) among the cheapest third of picks (up to $190.01 each): 4.1 stars from 369 reviews, $113.99."
   },
   {
    "label": "Best Long Range",
    "asin": "B0GT9NHTNB",
    "name": "ULTRALOQ Bolt Z-Wave",
    "price": 179.99,
-   "why": "An 800 Series Long Range lock rated 4.3 stars, with Home Assistant named in the listing."
+   "why": "Highest score (74) among picks with long Range: 4.3 stars from 63 reviews, $179.99."
   },
   {
    "label": "Best Fingerprint",
    "asin": "B0D97134GL",
    "name": "Yale Z-Wave fingerprint deadbolt",
    "price": 229.99,
-   "why": "Fingerprint, keypad, and Auto-Unlock on Z-Wave."
+   "why": "Highest score of the picks that fit this award (67): 3.6 stars from 53 reviews, $229.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +75,9 @@
    "rating": 4.1,
    "reviews_count": 81,
    "score": 75,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -287,9 +289,7 @@
    "rating": 4.1,
    "reviews_count": 5467,
    "score": 72,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -506,6 +506,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Kwikset HomeConnect 918."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

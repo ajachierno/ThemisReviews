@@ -50,22 +50,23 @@
   ],
   "awards": [
     {
-      "asin": "B0D54KR9W7",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Eve's Thread motor upgrades the roller blinds you already have, sold by Amazon."
-    },
-    {
+      "rule": {
+        "type": "overall"
+      },
       "asin": "B0FKGZTR9S",
-      "label": "Best for Horizontal Blinds",
-      "kind": "special",
-      "why": "Three solar Blind Tilts plus a Matter Hub Mini, rated 4.6 stars."
+      "why": "Highest score on the page (81): 4.6 stars from 73 reviews, $179.99."
     },
     {
-      "asin": "B0CQ1V35ZD",
       "label": "Best Complete Shades",
       "kind": "premium",
-      "why": "Made-to-measure Yoolax shades with a Matter motor."
+      "rule": {
+        "type": "feature",
+        "key": "complete"
+      },
+      "asin": "B0DJNKYKJG",
+      "why": "Highest score of the picks that fit this award (80): 4.6 stars from 34 reviews, $107.99."
     }
   ],
   "products": [

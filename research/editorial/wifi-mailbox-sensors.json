@@ -39,18 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CPLQ16K7",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "X-Sense's mailbox alarm has 1,711 reviews and app alerts through its base station."
-    },
-    {
-      "asin": "B0G529M45T",
-      "label": "Longest Range",
-      "kind": "premium",
-      "why": "LoRa radio reaches up to 1,200 ft."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Longest Range", "kind": "premium", "rule": {"type": "feature", "key": "range"}}
   ],
   "products": [
     {

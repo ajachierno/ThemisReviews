@@ -13,7 +13,7 @@
  },
  "product_type": "Robot vacuums",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0GGRSMXKN",
-   "name": "roborock Qrevo S Pro",
-   "price": 399.99,
-   "why": "18,500 Pa, an all-in-one dock with a sealed bag, and zero-tangle brushes for pet hair, with 4.0 stars from 1,994 reviews and 6K+ bought in the past month."
+   "asin": "B0FK2HPNCB",
+   "name": "eufy E25",
+   "price": 599.99,
+   "why": "Highest score on the page (95): 4.4 stars from 59,683 reviews, $599.99."
   },
   {
    "label": "Best Mopping",
    "asin": "B0FSJPFDPV",
    "name": "dreame L40 Ultra Gen 2",
    "price": 499.98,
-   "why": "An all-in-one dock that washes and dries the mop, with 25,000 Pa suction and Alexa, Google, and Siri."
-  },
-  {
-   "label": "Best for Matter",
-   "asin": "B0FBRK76L8",
-   "name": "SwitchBot K11+ (Matter)",
-   "price": 239.99,
-   "why": "The one vacuum here with Matter, so Apple Home, SmartThings, and Home Assistant can run it."
+   "why": "Highest score (95) among picks with mops: 4.4 stars from 987 reviews, $499.98."
   },
   {
    "label": "Best Budget",
    "asin": "B0G5Y3LN8M",
    "name": "dreame D20 Air Plus",
    "price": 227.99,
-   "why": "The lowest price here at $227.99, with a self-emptying dock, a mop, and LiDAR mapping."
+   "why": "Highest score (87) among the cheapest third of picks (up to $279.98 each): 4.2 stars from 312 reviews, $227.99."
   }
  ],
  "systems_note": "Roborock, iRobot Roomba, and Shark also have official Home Assistant integrations.",
@@ -75,7 +68,9 @@
    "rating": 4.4,
    "reviews_count": 59683,
    "score": 95,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -225,9 +220,7 @@
    "rating": 4.0,
    "reviews_count": 1994,
    "score": 85,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -276,9 +269,7 @@
    "rating": 3.8,
    "reviews_count": 329,
    "score": 84,
-   "awards": [
-    "Best for Matter"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -488,6 +479,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: eufy E25."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

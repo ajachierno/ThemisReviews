@@ -39,24 +39,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0GQGY896M",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Govee's 52-inch flush-mount fan moves 5,000 CFM at 30 dB with a 2,800 lm light and Matter."
-    },
-    {
-      "asin": "B0GR3WJL89",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Matter certified, 52 inches, and 5,000 CFM for $159.99."
-    },
-    {
-      "asin": "B0GSXQFW4C",
-      "label": "Best for Small Rooms",
-      "kind": "special",
-      "why": "A 20-inch bladeless fandelier with an oscillating fan and 3,100 lm light."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

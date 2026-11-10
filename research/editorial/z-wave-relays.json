@@ -46,30 +46,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0846DZJD8",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Three dry-contact relays for garage doors, sprinklers, or a gas fireplace, rated 4.6 stars by 508 buyers."
-    },
-    {
-      "asin": "B0B5VR87JX",
-      "label": "Best for Light Switches",
-      "kind": "budget",
-      "why": "Hides behind your existing switch, works in 3-way setups, and has a no-neutral option."
-    },
-    {
-      "asin": "B0F5RTPLG2",
-      "label": "Best With Power Metering",
-      "kind": "special",
-      "why": "Two UL-certified 16 A channels with power metering and Long Range."
-    },
-    {
-      "asin": "B0G2MN4TNF",
-      "label": "Best for Gates and Garages",
-      "kind": "premium",
-      "why": "An extra-small low-voltage dry-contact relay rated 4.8 stars."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best With Power Metering", "kind": "special", "rule": {"type": "feature", "key": "power_meter"}},
+    {"label": "Best for Gates and Garages", "kind": "premium", "rule": {"type": "feature", "key": "dry_contact"}}
   ],
   "products": [
     {

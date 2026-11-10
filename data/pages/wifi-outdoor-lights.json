@@ -54,28 +54,31 @@
   ],
   "awards": [
     {
-      "asin": "B0D14WP9TB",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Year-round RGBIC eave lights rated 4.4 stars by 3,174 buyers, with 7K+ bought last month."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DX1WPB9J",
+      "why": "Highest score on the page (95): 4.4 stars from 2,452 reviews, $599.99."
     },
     {
-      "asin": "B093DFSHN8",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "Smart dimmable patio string lights with Alexa and Google for $39.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0F1XGYD3W",
+      "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 242 reviews, $116.99."
     },
     {
-      "asin": "B0DX1WPB9J",
       "label": "Best Premium",
       "kind": "premium",
-      "why": "200 feet of permanent lights with real warm and cool whites, plus Matter."
-    },
-    {
-      "asin": "B0F21SVF9R",
-      "label": "Best String Lights",
-      "kind": "special",
-      "why": "96 feet of color bulbs with warm white and Matter support, 4K+ bought last month."
+      "rule": {
+        "type": "premium"
+      },
+      "asin": "B0FKGH55C7",
+      "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 503 reviews, $169.99."
     }
   ],
   "products": [

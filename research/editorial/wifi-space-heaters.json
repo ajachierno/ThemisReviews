@@ -35,24 +35,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CBBR4TLX",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A smart wall heater with Alexa and Google, rated 4.3 stars by 5,381 buyers."
-    },
-    {
-      "asin": "B0H93JB64R",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $55.99 heater with a thermostat, ETL listing, and Alexa and Google."
-    },
-    {
-      "asin": "B07JXRWJ8D",
-      "label": "Best Infrared",
-      "kind": "premium",
-      "why": "A Wi-Fi infrared wall heater with a thermostat and 13,971 reviews."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

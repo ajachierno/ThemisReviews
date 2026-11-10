@@ -29,18 +29,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DG5QLWP6",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A $89.99 Matter purifier for rooms up to 3,620 sq. ft., 200+ bought last month."
-    },
-    {
-      "asin": "B0DG5S291H",
-      "label": "Best Multi-Purpose",
-      "kind": "special",
-      "why": "A purifier that's also a side table, RGB lamp, and wireless charger."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Multi-Purpose", "kind": "special", "rule": {"type": "feature", "key": "extras"}}
   ],
   "products": [
     {

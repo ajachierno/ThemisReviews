@@ -61,28 +61,32 @@
   ],
   "awards": [
     {
-      "asin": "B0BW2CYQZJ",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A wired pan-and-tilt outdoor camera with microSD recording, Alexa and Google, and 4.5 stars, for $33.99."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CHSK6M21",
+      "why": "Highest score on the page (93): 4.2 stars from 3,896 reviews, $54.99."
     },
     {
-      "asin": "B0C5QRZ47P",
       "label": "Most Popular",
       "kind": "budget",
-      "why": "66,076 reviews and 8K+ bought last month, battery or wired, and it fits a Ring setup."
+      "rule": {
+        "type": "most_reviews"
+      },
+      "asin": "B0C5QRZ47P",
+      "why": "Most Amazon reviews on the page: 4.5 stars from 66,076 reviews, $79.99."
     },
     {
-      "asin": "B0CCYP6KFM",
-      "label": "Best Solar",
-      "kind": "special",
-      "why": "3K dual-lens with a built-in solar panel and free local storage, 3K+ bought last month."
-    },
-    {
-      "asin": "B0DCZGNQXB",
       "label": "Best Image",
       "kind": "premium",
-      "why": "4K with local microSD recording and no subscription needed."
+      "rule": {
+        "type": "feature",
+        "key": "high_res"
+      },
+      "asin": "B0FP2FKZ5Z",
+      "why": "Highest score of the picks that fit this award (93): 4.2 stars from 1,408 reviews, $119.96."
     }
   ],
   "products": [

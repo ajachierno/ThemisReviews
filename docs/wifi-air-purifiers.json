@@ -13,7 +13,7 @@
  },
  "product_type": "Air purifiers",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BNDM2RNG",
-   "name": "Levoit Vital 100S-P",
-   "price": 113.99,
-   "why": "AHAM verified, light-sensing sleep mode, and 4.6 stars from 11,616 reviews."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0C3QQMMRJ",
-   "name": "GoveeLife Smart Mini Air Purifier",
-   "price": 39.99,
-   "why": "A $39.99 bedroom purifier with app and Alexa control."
-  },
-  {
-   "label": "Best for Apple Home",
    "asin": "B0DG5QLWP6",
    "name": "SwitchBot Air Purifier",
    "price": 89.99,
-   "why": "One of the few purifiers with Matter, for Apple Home, Alexa, and Google."
+   "why": "Highest score on the page (96): 4.5 stars from 724 reviews, $89.99."
   },
   {
-   "label": "Best for Big Rooms",
-   "asin": "B0BN2LZ9JH",
-   "name": "Blueair Blue Pure 311i Max",
-   "price": 229.0,
-   "why": "Cleans 439 sq. ft. in 12.5 minutes, with auto mode from built-in sensors."
+   "label": "Best Budget",
+   "asin": "B08FJ678YK",
+   "name": "Levoit Core 200S-P",
+   "price": 69.97,
+   "why": "Highest score (79) among the cheapest third of picks (up to $69.97 each): 4.6 stars from 124,958 reviews, $69.97."
   }
  ],
  "systems_note": "Levoit (VeSync) purifiers have an official Home Assistant integration. Blueair's listings don't name a voice assistant in the bullets.",
@@ -75,7 +61,7 @@
    "reviews_count": 724,
    "score": 96,
    "awards": [
-    "Best for Apple Home"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -224,9 +210,7 @@
    "rating": 4.6,
    "reviews_count": 11616,
    "score": 88,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -320,7 +304,9 @@
    "rating": 4.6,
    "reviews_count": 124958,
    "score": 79,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -369,9 +355,7 @@
    "rating": 4.6,
    "reviews_count": 3964,
    "score": 79,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -418,9 +402,7 @@
    "rating": 4.5,
    "reviews_count": 2607,
    "score": 79,
-   "awards": [
-    "Best for Big Rooms"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Blueair app",
    "works_without": {
@@ -516,6 +498,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: SwitchBot Air Purifier.",
+    "New Best Budget: Levoit Core 200S-P."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

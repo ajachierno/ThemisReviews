@@ -15,8 +15,7 @@
     {"key": "hub", "label": "Hub"}
   ],
   "awards": [
-    {"asin": "B08428GDS8", "label": "Best Overall", "kind": "overall", "why": "The most-reviewed Zigbee dimmer we found, sold by Amazon, and it pairs straight to Echo devices with a built-in Zigbee hub."},
-    {"asin": "B0F2N68K3C", "label": "Most Flexible", "kind": "premium", "why": "Runs as Zigbee or Matter over Thread, works without a neutral, and lets you set brightness limits."}
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}}
   ],
   "products": [
     {"asin": "B08428GDS8", "brand": "Enbrighten", "model": "Zigbee in-wall dimmer", "systems": ["home-assistant", "alexa", "smartthings", "hubitat", "homey"],

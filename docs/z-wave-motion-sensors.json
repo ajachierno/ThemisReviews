@@ -13,7 +13,7 @@
  },
  "product_type": "Motion sensors",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07FHL7J11",
-   "name": "Zooz ZSE18 800LR",
-   "price": 37.95,
-   "why": "800 Series Long Range, adjustable sensitivity, and battery or USB power. On USB it also repeats signal."
-  },
-  {
-   "label": "Best for Pets",
-   "asin": "B01MQXXG0I",
-   "name": "Ecolink PIRZWAVE2.5-ECO",
-   "price": 32.99,
-   "why": "Ignores pets up to 55 lbs, with up to 5-year battery life and 692 reviews."
-  },
-  {
-   "label": "Best Outdoor",
-   "asin": "B0DCL43CS2",
-   "name": "Zooz ZSE70 outdoor/indoor",
-   "price": 47.95,
-   "why": "Indoor or outdoor, a 30 ft detection radius, and temperature monitoring."
+   "asin": "B09GDL6BGY",
+   "name": "Zooz ZSE11 Q Sensor 800LR",
+   "price": 46.95,
+   "why": "Highest score on the page (85): 3.6 stars from 127 reviews, $46.95."
   },
   {
    "label": "Most Sensors",
-   "asin": "B08XHZP7NV",
-   "name": "Aeotec MultiSensor 7",
-   "price": 69.99,
-   "why": "Motion plus temperature, humidity, light, UV, and vibration in a 1.8 in. body."
+   "asin": "B07226MG2T",
+   "name": "Enbrighten Motion sensor light switch",
+   "price": 57.49,
+   "why": "Highest score of the picks that fit this award (77): 4.3 stars from 578 reviews, $57.49."
   }
  ],
  "systems_note": null,
@@ -74,7 +60,9 @@
    "rating": 3.6,
    "reviews_count": 127,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -126,9 +114,7 @@
    "rating": 4.1,
    "reviews_count": 270,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -181,7 +167,9 @@
    "rating": 4.3,
    "reviews_count": 578,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Most Sensors"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -234,9 +222,7 @@
    "rating": 3.9,
    "reviews_count": 64,
    "score": 76,
-   "awards": [
-    "Best Outdoor"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -341,9 +327,7 @@
    "rating": 3.8,
    "reviews_count": 113,
    "score": 70,
-   "awards": [
-    "Most Sensors"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -395,9 +379,7 @@
    "rating": 4.2,
    "reviews_count": 692,
    "score": 68,
-   "awards": [
-    "Best for Pets"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -560,6 +542,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Zooz ZSE11 Q Sensor 800LR.",
+    "New Most Sensors: Enbrighten Motion sensor light switch."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

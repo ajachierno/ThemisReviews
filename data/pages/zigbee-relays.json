@@ -54,28 +54,42 @@
   ],
   "awards": [
     {
-      "asin": "B0DFLR468J",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Four tiny Zigbee relays that keep your existing switches, rated 4.6 stars by 1,562 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B091GS6J5W",
+      "why": "Highest score on the page (88): 4.4 stars from 214 reviews, $23.90."
     },
     {
-      "asin": "B0GXZWRZXX",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $14.90 dry-contact relay for garage doors and gates that runs on AC or DC."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B08X218VMR",
+      "why": "Highest score (82) among the cheapest third of picks (up to $16.90 each): 4.5 stars from 487 reviews, $16.90."
     },
     {
-      "asin": "B0DZJ1W814",
       "label": "Best With Power Metering",
       "kind": "special",
-      "why": "Two 16 A channels with power metering, on Zigbee, Wi-Fi, or Matter."
+      "rule": {
+        "type": "feature",
+        "key": "power_meter"
+      },
+      "asin": "B0DZJ1W814",
+      "why": "Highest score of the picks that fit this award (86): 4.7 stars from 911 reviews, $38.99."
     },
     {
-      "asin": "B091GS6J5W",
       "label": "Best Multi-Channel",
       "kind": "premium",
-      "why": "Four dry-contact channels with latching, momentary, and interlock modes."
+      "rule": {
+        "type": "feature",
+        "key": "multi_channel"
+      },
+      "asin": "B0D5XCFPTR",
+      "why": "Highest score of the picks that fit this award (80): 4.4 stars from 117 reviews, $32.99."
     }
   ],
   "products": [

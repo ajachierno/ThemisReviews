@@ -54,28 +54,22 @@
   ],
   "awards": [
     {
-      "asin": "B0G34M7C1M",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Midea's U-shaped inverter AC is quiet, efficient, and leaves the window usable, rated 4.4 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CVVQWGH2",
+      "why": "Highest score on the page (91): 4.0 stars from 852 reviews, $399.99."
     },
     {
-      "asin": "B0HKH91VNM",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A 5,000 BTU smart window AC with Alexa for $195.96."
-    },
-    {
-      "asin": "B0CVVQWGH2",
-      "label": "Best with Heat",
-      "kind": "special",
-      "why": "An Energy Star inverter AC that also heats, with 1K+ bought last month."
-    },
-    {
-      "asin": "B0CRJXS26V",
-      "label": "Best for Big Rooms",
-      "kind": "premium",
-      "why": "10,000 BTU for rooms up to 450 sq ft with Alexa and Google, sold by Amazon."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0G34M7C1M",
+      "why": "Highest score (88) among the cheapest third of picks (up to $314.99 each): 4.4 stars from 288 reviews, $314.99."
     }
   ],
   "products": [

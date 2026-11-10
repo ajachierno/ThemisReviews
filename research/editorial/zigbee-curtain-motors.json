@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B09ZY917TZ",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Aqara's E1 track motor moves curtains up to 26.4 lbs and runs about a year per charge."
-    },
-    {
-      "asin": "B0DS6XY9H4",
-      "label": "Best for Zigbee2MQTT",
-      "kind": "special",
-      "why": "A curtain robot that works with Zigbee2MQTT, for $55.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Zigbee2MQTT", "kind": "special", "rule": {"type": "feature", "key": "ha"}}
   ],
   "products": [
     {

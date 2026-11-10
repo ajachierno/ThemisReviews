@@ -41,30 +41,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B08ZK39NSL",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,622 reviews."
-    },
-    {
-      "asin": "B0DWK8318H",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A $41.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
-    },
-    {
-      "asin": "B0CWLHSKYC",
-      "label": "Best Standalone Hub",
-      "kind": "special",
-      "why": "Thread border router, Matter controller, IR blaster, and PoE in one hub."
-    },
-    {
-      "asin": "B0FMJD288B",
-      "label": "Best for Home Assistant",
-      "kind": "premium",
-      "why": "Flash it as a Thread radio for Home Assistant's border router for $35.90, 1K+ bought last month."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Standalone Hub", "kind": "special", "rule": {"type": "feature", "key": "standalone"}},
+    {"label": "Best for Home Assistant", "kind": "premium", "rule": {"type": "system", "key": "home-assistant"}}
   ],
   "products": [
     {

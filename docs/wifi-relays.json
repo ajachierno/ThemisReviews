@@ -13,7 +13,7 @@
  },
  "product_type": "Relays and modules",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D8YPW46Y",
-   "name": "Shelly 1 Gen3",
-   "price": 18.39,
-   "why": "A 16 A dry-contact Shelly with Matter for $18.39, rated 4.6 stars by 1,356 buyers."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0C7QQHMCX",
-   "name": "eWeLink USB/DC Wi-Fi relay",
-   "price": 12.99,
-   "why": "A $12.99 low-voltage Wi-Fi relay for gates, PCs, and access control."
-  },
-  {
-   "label": "Best With Power Metering",
    "asin": "B0DZJ1W814",
    "name": "Shelly 2PM Gen4",
    "price": 38.99,
-   "why": "Two metered 16 A channels on Wi-Fi, Zigbee, or Matter."
+   "why": "Highest score on the page (91): 4.7 stars from 909 reviews, $38.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0DGXMZ9GD",
+   "name": "SONOFF MINI-D (Matter)",
+   "price": 14.9,
+   "why": "Highest score (85) among the cheapest third of picks (up to $18.39 each): 4.7 stars from 1,123 reviews, $14.90."
+  },
+  {
+   "label": "Best With Power Metering",
+   "asin": "B0F9LJYSQS",
+   "name": "Shelly 1PM Mini Gen4 (2-pack)",
+   "price": 54.86,
+   "why": "Highest score of the picks that fit this award (84): 4.6 stars from 466 reviews, $54.86."
   },
   {
    "label": "Best for Low-Voltage DIY",
-   "asin": "B0CQD1Z2K8",
-   "name": "Shelly Plus Uni",
-   "price": 19.99,
-   "why": "Shelly's tiny Uni module for low-voltage buttons, sensors, and old appliances."
+   "asin": "B0D8YPW46Y",
+   "name": "Shelly 1 Gen3",
+   "price": 18.39,
+   "why": "Highest score of the picks that fit this award (84): 4.6 stars from 1,356 reviews, $18.39."
   }
  ],
  "systems_note": "Shelly relays also have an official Home Assistant integration that runs locally. Tuya/Smart Life relays work with Home Assistant's Tuya integration.",
@@ -76,7 +76,7 @@
    "reviews_count": 909,
    "score": 91,
    "awards": [
-    "Best With Power Metering"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -132,7 +132,9 @@
    "rating": 4.7,
    "reviews_count": 1123,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -188,7 +190,7 @@
    "reviews_count": 1356,
    "score": 84,
    "awards": [
-    "Best Overall"
+    "Best for Low-Voltage DIY"
    ],
    "works_with": [
     "Home Assistant",
@@ -300,7 +302,9 @@
    "rating": 4.6,
    "reviews_count": 466,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best With Power Metering"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -355,9 +359,7 @@
    "rating": 4.4,
    "reviews_count": 679,
    "score": 82,
-   "awards": [
-    "Best for Low-Voltage DIY"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -460,9 +462,7 @@
    "rating": 4.4,
    "reviews_count": 198,
    "score": 76,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -624,6 +624,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Shelly 2PM Gen4.",
+    "New Best Budget: SONOFF MINI-D (Matter).",
+    "New Best With Power Metering: Shelly 1PM Mini Gen4 (2-pack).",
+    "New Best for Low-Voltage DIY: Shelly 1 Gen3."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

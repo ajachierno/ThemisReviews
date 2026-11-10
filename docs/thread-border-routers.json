@@ -13,7 +13,7 @@
  },
  "product_type": "Hubs and controllers",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B08ZK39NSL",
-   "name": "eero 6+",
-   "price": 139.99,
-   "why": "A gigabit Wi-Fi 6 router with a Thread and Zigbee hub built in, 4.4 stars from 10,622 reviews."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0DWK8318H",
-   "name": "Aqara Hub M100",
-   "price": 41.99,
-   "why": "A $41.99 Thread border router that works with Apple, Google, Alexa, and Home Assistant through Matter."
-  },
-  {
-   "label": "Best Standalone Hub",
    "asin": "B0CWLHSKYC",
    "name": "Aqara Hub M3",
    "price": 129.99,
-   "why": "Thread border router, Matter controller, IR blaster, and PoE in one hub."
+   "why": "Highest score on the page (91): 4.0 stars from 1,720 reviews, $129.99."
   },
   {
-   "label": "Best for Home Assistant",
+   "label": "Best Budget",
    "asin": "B0FMJD288B",
    "name": "SONOFF Dongle Plus MG24",
    "price": 35.9,
-   "why": "Flash it as a Thread radio for Home Assistant's border router for $35.90, 1K+ bought last month."
+   "why": "Highest score (76) among the cheapest third of picks (up to $35.90 each): 4.6 stars from 766 reviews, $35.90."
+  },
+  {
+   "label": "Best Standalone Hub",
+   "asin": "B0FLXXF4YW",
+   "name": "Aqara Hub M200",
+   "price": 69.99,
+   "why": "Highest score of the picks that fit this award (91): 4.0 stars from 401 reviews, $69.99."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0DWK8318H",
+   "name": "Aqara Hub M100",
+   "price": 41.99,
+   "why": "Highest score (85) among picks that work with Home Assistant: 3.8 stars from 1,050 reviews, $41.99."
   }
  ],
  "systems_note": "The icons show which platform each border router serves. Sticks need Home Assistant's OpenThread Border Router add-on.",
@@ -76,7 +76,7 @@
    "reviews_count": 1720,
    "score": 91,
    "awards": [
-    "Best Standalone Hub"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -133,7 +133,9 @@
    "rating": 4.0,
    "reviews_count": 401,
    "score": 91,
-   "awards": [],
+   "awards": [
+    "Best Standalone Hub"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -189,9 +191,7 @@
    "rating": 4.4,
    "reviews_count": 10622,
    "score": 87,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -291,7 +291,7 @@
    "reviews_count": 1050,
    "score": 85,
    "awards": [
-    "Best Budget"
+    "Best for Home Assistant"
    ],
    "works_with": [
     "Home Assistant",
@@ -397,7 +397,7 @@
    "reviews_count": 766,
    "score": 76,
    "awards": [
-    "Best for Home Assistant"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant"
@@ -576,6 +576,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Aqara Hub M3.",
+    "New Best Budget: SONOFF Dongle Plus MG24.",
+    "New Best Standalone Hub: Aqara Hub M200.",
+    "New Best for Home Assistant: Aqara Hub M100."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

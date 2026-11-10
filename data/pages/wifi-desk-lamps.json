@@ -53,28 +53,32 @@
   ],
   "awards": [
     {
-      "asin": "B0D41XL87F",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Govee's Table Lamp 2 has tunable white, Matter, and 4.7 stars from 2,620 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GLM9BBQT",
+      "why": "Highest score on the page (87): 4.2 stars from 204 reviews, $79.99."
     },
     {
-      "asin": "B099MV5XMX",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A touch-and-voice bedside lamp with Alexa and Google for $29.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B099MV5XMX",
+      "why": "Highest score (76) among the cheapest third of picks (up to $35.99 each): 4.3 stars from 1,512 reviews, $29.99."
     },
     {
-      "asin": "B0GLM9BBQT",
       "label": "Best Cordless",
       "kind": "special",
-      "why": "Up to 30 hours per charge with Matter support."
-    },
-    {
-      "asin": "B0DDXD8BMQ",
-      "label": "Best for Effects",
-      "kind": "premium",
-      "why": "196 addressable LEDs and AI-generated lighting scenes."
+      "rule": {
+        "type": "feature",
+        "key": "cordless"
+      },
+      "asin": "B0F3D8RB4H",
+      "why": "Highest score of the picks that fit this award (76): 3.9 stars from 575 reviews, $179.99."
     }
   ],
   "products": [

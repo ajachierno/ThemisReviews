@@ -38,24 +38,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CVN3CNCD",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Two independent outlets, IP65, and Matter for $25.99, 3K+ bought last month."
-    },
-    {
-      "asin": "B07X52W1J8",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "An IP65 Matter outdoor plug for $19.99 with 3,844 reviews."
-    },
-    {
-      "asin": "B0GV124HC3",
-      "label": "Best for Holiday Lights",
-      "kind": "premium",
-      "why": "A six-outlet Matter yard stake with self-closing covers."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best for Holiday Lights", "kind": "premium", "rule": {"type": "feature", "key": "multi"}}
   ],
   "products": [
     {

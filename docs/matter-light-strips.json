@@ -13,7 +13,7 @@
  },
  "product_type": "Light strips",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0DL9G5F5R",
-   "name": "Govee RGBIC Neon 32.8 ft (Matter)",
-   "price": 105.99,
-   "why": "A 32.8 ft neon rope with RGBIC effects and Matter, rated 4.6 stars by 1,328 buyers."
+   "asin": "B0H6MDZC4R",
+   "name": "Govee COB Strip Lights 2 32.8 ft",
+   "price": 169.99,
+   "why": "Highest score on the page (94): 4.6 stars from 61 reviews, $169.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0DB69D1YJ",
    "name": "Cync GE Cync strip (Matter)",
    "price": 13.79,
-   "why": "Matter and tunable white for $13.79."
+   "why": "Highest score (77) among the cheapest third of picks (up to $35.99 each): 4.4 stars from 689 reviews, $13.79."
   },
   {
    "label": "Best Premium",
-   "asin": "B0H6MDZC4R",
-   "name": "Govee COB Strip Lights 2 32.8 ft",
-   "price": 169.99,
-   "why": "Govee's 840 LED/m COB strip for glare-free light, with 1000K to 10000K white."
+   "asin": "B0DL9G5F5R",
+   "name": "Govee RGBIC Neon 32.8 ft (Matter)",
+   "price": 105.99,
+   "why": "Highest score (89) among the priciest third of picks: 4.6 stars from 1,328 reviews, $105.99."
   }
  ],
  "systems_note": "Matter strips work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey. Several popular strips (Tapo L930, PAUTIX, Tatazone) aren't here because their listings don't mention Matter.",
@@ -69,7 +69,7 @@
    "reviews_count": 61,
    "score": 94,
    "awards": [
-    "Best Premium"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -126,7 +126,7 @@
    "reviews_count": 1328,
    "score": 89,
    "awards": [
-    "Best Overall"
+    "Best Premium"
    ],
    "works_with": [
     "Home Assistant",
@@ -352,6 +352,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee COB Strip Lights 2 32.8 ft.",
+    "New Best Premium: Govee RGBIC Neon 32.8 ft (Matter)."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

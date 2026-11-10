@@ -13,7 +13,7 @@
  },
  "product_type": "Lamps",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0D41XL87F",
-   "name": "Govee RGBIC Smart Table Lamp 2",
-   "price": 69.99,
-   "why": "Govee's Table Lamp 2 has tunable white, Matter, and 4.7 stars from 2,620 buyers."
+   "asin": "B0GLM9BBQT",
+   "name": "Govee Cordless Table Lamp Classic",
+   "price": 79.99,
+   "why": "Highest score on the page (87): 4.2 stars from 204 reviews, $79.99."
   },
   {
    "label": "Best Budget",
    "asin": "B099MV5XMX",
    "name": "Hifree Smart Table Lamp",
    "price": 29.99,
-   "why": "A touch-and-voice bedside lamp with Alexa and Google for $29.99."
+   "why": "Highest score (76) among the cheapest third of picks (up to $35.99 each): 4.3 stars from 1,512 reviews, $29.99."
   },
   {
    "label": "Best Cordless",
-   "asin": "B0GLM9BBQT",
-   "name": "Govee Cordless Table Lamp Classic",
-   "price": 79.99,
-   "why": "Up to 30 hours per charge with Matter support."
-  },
-  {
-   "label": "Best for Effects",
-   "asin": "B0DDXD8BMQ",
-   "name": "Lepro TB1 AI Smart Table Lamp",
-   "price": 63.99,
-   "why": "196 addressable LEDs and AI-generated lighting scenes."
+   "asin": "B0F3D8RB4H",
+   "name": "Govee Table Lamp 2 Pro x Sound by JBL",
+   "price": 179.99,
+   "why": "Highest score of the picks that fit this award (76): 3.9 stars from 575 reviews, $179.99."
   }
  ],
  "systems_note": null,
@@ -76,7 +69,7 @@
    "reviews_count": 204,
    "score": 87,
    "awards": [
-    "Best Cordless"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -133,9 +126,7 @@
    "rating": 4.7,
    "reviews_count": 2620,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -292,7 +283,9 @@
    "rating": 3.9,
    "reviews_count": 575,
    "score": 76,
-   "awards": [],
+   "awards": [
+    "Best Cordless"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -449,9 +442,7 @@
    "rating": 4.5,
    "reviews_count": 461,
    "score": 70,
-   "awards": [
-    "Best for Effects"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -557,6 +548,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee Cordless Table Lamp Classic.",
+    "New Best Cordless: Govee Table Lamp 2 Pro x Sound by JBL."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

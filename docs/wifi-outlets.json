@@ -13,7 +13,7 @@
  },
  "product_type": "In-wall outlets",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07N3CK3MM",
-   "name": "Kasa KP200",
-   "price": 15.99,
-   "why": "Two independently controlled sockets, rated 4.6 stars by 7,808 buyers."
+   "asin": "B0DLLQR3K7",
+   "name": "Tapo P210M",
+   "price": 20.99,
+   "why": "Highest score on the page (90): 4.4 stars from 424 reviews, $20.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0C741MSY2",
    "name": "TOPELER Smart wall outlet",
    "price": 13.99,
-   "why": "Two controlled sockets for $13.99."
+   "why": "Highest score (75) among the cheapest third of picks (up to $15.00 each): 4.3 stars from 281 reviews, $13.99."
   },
   {
    "label": "Best With Energy Monitoring",
-   "asin": "B0DLLQR3K7",
-   "name": "Tapo P210M",
-   "price": 20.99,
-   "why": "Energy monitoring plus Matter, so it also works with Apple Home."
+   "asin": "B0CBBN4K7Y",
+   "name": "ELEGRP Smart in-wall outlet (6-pack)",
+   "price": 79.99,
+   "why": "Highest score of the picks that fit this award (75): 4.6 stars from 39 reviews, $79.99."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0DR3BNNLM",
    "name": "Leviton Decora D215R (2nd Gen)",
    "price": 30.81,
-   "why": "Leviton's Decora outlet names HomeKit, Alexa, Google, and SmartThings."
+   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 121 reviews, $30.81."
   }
  ],
  "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
@@ -76,7 +76,7 @@
    "reviews_count": 424,
    "score": 90,
    "awards": [
-    "Best With Energy Monitoring"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -231,9 +231,7 @@
    "rating": 4.6,
    "reviews_count": 7808,
    "score": 78,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -438,7 +436,9 @@
    "rating": 4.6,
    "reviews_count": 39,
    "score": 75,
-   "awards": [],
+   "awards": [
+    "Best With Energy Monitoring"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -542,6 +542,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Tapo P210M.",
+    "New Best With Energy Monitoring: ELEGRP Smart in-wall outlet (6-pack)."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [

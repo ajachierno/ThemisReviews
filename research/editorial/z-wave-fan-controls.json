@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0846CJTRN",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Dims the light and switches the fan from one double switch, with Long Range and 4.4 stars."
-    },
-    {
-      "asin": "B07WSG4FN4",
-      "label": "Best Speed Control",
-      "kind": "budget",
-      "why": "Three fan speeds from the wall, sold by Amazon, for $38.43."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Speed Control", "kind": "budget", "rule": {"type": "feature", "key": "speeds"}}
   ],
   "products": [
     {

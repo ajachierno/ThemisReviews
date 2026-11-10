@@ -13,7 +13,7 @@
  },
  "product_type": "Lamps",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0F3NZ12GL",
-   "name": "Govee Uplighter Floor Lamp (ripple projector)",
-   "price": 149.99,
-   "why": "Govee's uplighter combines a ripple projector, RGBIC color, and a 1,000 lm task light, with Matter, rated 4.6 stars."
+   "asin": "B0GQTF4X6H",
+   "name": "Govee Lantern Floor Lamp",
+   "price": 129.99,
+   "why": "Highest score on the page (98): 4.8 stars from 404 reviews, $129.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0DB1739S4",
-   "name": "Lanmonlily Corner Floor Lamp (RGBICW)",
-   "price": 34.99,
-   "why": "An RGBIC corner lamp with music sync and an anti-tip base for $34.99, with 1,224 reviews."
+   "asin": "B09W8WLQ19",
+   "name": "YHW Smart RGB Floor Lamp (2,000 lm)",
+   "price": 49.99,
+   "why": "Highest score (80) among the cheapest third of picks (up to $49.99 each): 4.2 stars from 2,304 reviews, $49.99."
   },
   {
    "label": "Most Popular",
    "asin": "B0BLSGHRXB",
    "name": "Govee RGBIC Floor Lamp",
    "price": 69.99,
-   "why": "Govee's RGBIC corner lamp has 12,194 reviews and 1K+ bought last month."
-  },
-  {
-   "label": "Best for Reading",
-   "asin": "B0F43M9KWW",
-   "name": "Govee Tree Floor Lamp (3 heads)",
-   "price": 169.99,
-   "why": "Three aimable heads with tunable white up to 1,500 lm, plus Matter."
+   "why": "Most Amazon reviews on the page: 4.4 stars from 12,194 reviews, $69.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +68,9 @@
    "rating": 4.8,
    "reviews_count": 404,
    "score": 98,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -130,9 +125,7 @@
    "rating": 4.6,
    "reviews_count": 1506,
    "score": 96,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -242,9 +235,7 @@
    "rating": 4.6,
    "reviews_count": 744,
    "score": 91,
-   "awards": [
-    "Best for Reading"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -401,7 +392,9 @@
    "rating": 4.2,
    "reviews_count": 2304,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -451,9 +444,7 @@
    "rating": 4.2,
    "reviews_count": 1224,
    "score": 79,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -609,6 +600,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee Lantern Floor Lamp.",
+    "New Best Budget: YHW Smart RGB Floor Lamp (2,000 lm)."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

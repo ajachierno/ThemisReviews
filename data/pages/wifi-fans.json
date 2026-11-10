@@ -54,28 +54,41 @@
   ],
   "awards": [
     {
-      "asin": "B09N3HKY79",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "DREO's 42-inch tower fan runs as quiet as 20 dB, works with Alexa and Google, and is rated 4.4 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0CS5YG5YV",
+      "why": "Highest score on the page (96): 4.6 stars from 969 reviews, $179.99."
     },
     {
-      "asin": "B0BRKPCJ7P",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A smart DREO tower fan with Alexa and Google for $79.93, sold by Amazon."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0BRKPCJ7P",
+      "why": "Highest score (84) among the cheapest third of picks (up to $79.99 each): 4.5 stars from 3,743 reviews, $79.93."
     },
     {
-      "asin": "B0CS5YG5YV",
       "label": "Best Premium",
       "kind": "premium",
-      "why": "GoveeLife's 42-inch fan oscillates 150°, has a built-in thermostat, and works with Siri too."
+      "rule": {
+        "type": "premium"
+      },
+      "asin": "B0CKQNHK1H",
+      "why": "Highest score (90) among the priciest third of picks: 4.5 stars from 1,494 reviews, $129.99."
     },
     {
-      "asin": "B09M8PMW26",
       "label": "Widest Coverage",
       "kind": "special",
-      "why": "120° oscillation with 12 speeds and a brushless DC motor."
+      "rule": {
+        "type": "feature",
+        "key": "wide"
+      },
+      "asin": "B09M8PMW26",
+      "why": "Highest score of the picks that fit this award (88): 4.5 stars from 6,873 reviews, $129.99."
     }
   ],
   "products": [

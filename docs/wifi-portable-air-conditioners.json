@@ -13,7 +13,7 @@
  },
  "product_type": "Air conditioners",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0GMGR4BJV",
-   "name": "Temprium 14,000 BTU Smart Portable AC",
-   "price": 449.99,
-   "why": "Temprium's 14,000 BTU unit runs at 41 dB in silent mode, with Alexa and Google."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0H1YF1LCT",
-   "name": "SereneLife 8,000 BTU Portable AC with WiFi",
-   "price": 256.42,
-   "why": "An 8,000 BTU Wi-Fi portable AC with 18,360 reviews for $256.42, sold by Amazon."
-  },
-  {
-   "label": "Best with Heat",
-   "asin": "B01DLPUWJ4",
-   "name": "BLACK+DECKER 14,000 BTU with Heat",
-   "price": 499.99,
-   "why": "BLACK+DECKER's 14,000 BTU unit adds 10,000 BTU of heat."
-  },
-  {
-   "label": "Best for Big Rooms",
    "asin": "B0HCYKKLLG",
    "name": "GrowthWing 14,000 BTU Smart WiFi Portable AC",
    "price": 499.99,
-   "why": "14,000 BTU for up to 700 sq ft with 72-hour self-evaporation."
+   "why": "Highest score on the page (89): 4.5 stars from 89 reviews, $499.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B01DLPUWGW",
+   "name": "BLACK+DECKER BPACT12WT 12,000 BTU",
+   "price": 399.99,
+   "why": "Highest score (79) among the cheapest third of picks (up to $399.99 each): 4.1 stars from 7,504 reviews, $399.99."
+  },
+  {
+   "label": "Best for Big Rooms",
+   "asin": "B0GMGR4BJV",
+   "name": "Temprium 14,000 BTU Smart Portable AC",
+   "price": 449.99,
+   "why": "Highest score of the picks that fit this award (87): 4.2 stars from 389 reviews, $449.99."
   }
  ],
  "systems_note": null,
@@ -76,7 +69,7 @@
    "reviews_count": 89,
    "score": 89,
    "awards": [
-    "Best for Big Rooms"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -125,7 +118,7 @@
    "reviews_count": 389,
    "score": 87,
    "awards": [
-    "Best Overall"
+    "Best for Big Rooms"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -176,7 +169,9 @@
    "rating": 4.1,
    "reviews_count": 7504,
    "score": 79,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -276,9 +271,7 @@
    "rating": 3.9,
    "reviews_count": 6087,
    "score": 78,
-   "awards": [
-    "Best with Heat"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -328,9 +321,7 @@
    "rating": 4.1,
    "reviews_count": 18360,
    "score": 67,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "SereneLife app",
    "works_without": {
@@ -383,6 +374,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: GrowthWing 14,000 BTU Smart WiFi Portable AC.",
+    "New Best Budget: BLACK+DECKER BPACT12WT 12,000 BTU.",
+    "New Best for Big Rooms: Temprium 14,000 BTU Smart Portable AC."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

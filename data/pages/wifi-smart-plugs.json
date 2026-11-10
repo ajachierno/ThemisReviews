@@ -67,28 +67,33 @@
   ],
   "awards": [
     {
-      "asin": "B091699Z3W",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "$10 for a 15 A mini plug that leaves the other outlet free, with 40,948 reviews and Alexa and Google support."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0B14C719T",
+      "why": "Highest score on the page (85): 4.2 stars from 5,126 reviews, $42.99."
     },
     {
-      "asin": "B089DR29T6",
-      "label": "Best for Alexa Homes",
-      "kind": "budget",
-      "why": "Over 571,000 reviews at 4.7 stars, and it sets up in the Alexa app in minutes."
-    },
-    {
-      "asin": "B08LN3C7WK",
       "label": "Best Energy Monitoring",
       "kind": "special",
-      "why": "Real-time and historical energy use for $15.99."
+      "rule": {
+        "type": "feature",
+        "key": "energy"
+      },
+      "asin": "B08LN3C7WK",
+      "why": "Highest score (80) among picks with energy monitoring: 4.5 stars from 17,803 reviews, $15.99."
     },
     {
-      "asin": "B091FXH2FR",
       "label": "Best Outdoor",
       "kind": "premium",
-      "why": "Two independently controlled outdoor outlets, 15 A each, with 17,557 reviews."
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      },
+      "asin": "B091FXH2FR",
+      "why": "Highest score of the picks that fit this award (79): 4.6 stars from 17,557 reviews, $18.99."
     }
   ],
   "products": [

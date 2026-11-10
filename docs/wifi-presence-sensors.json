@@ -13,7 +13,7 @@
  },
  "product_type": "Presence sensors",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,17 +34,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0BXWZMQJ3",
-   "name": "Aqara FP2",
-   "price": 67.99,
-   "why": "Up to 5 people, multiple zones, and fall detection, with 2,537 reviews."
-  },
-  {
-   "label": "Best for Home Assistant",
    "asin": "B0FX7FXQGB",
    "name": "AKAMATIS Presence Sensor v2.2",
    "price": 22.99,
-   "why": "A plug-and-play ESPHome presence sensor for $22.99."
+   "why": "Highest score on the page (84): 4.4 stars from 57 reviews, $22.99."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0DYC9235W",
+   "name": "meross MS600",
+   "price": 33.99,
+   "why": "Highest score (82) among picks that work with Home Assistant: 3.8 stars from 191 reviews, $33.99."
   }
  ],
  "systems_note": "The Akamatis sensors run ESPHome and work only with Home Assistant. SwitchBot's sensor is Bluetooth and reaches Wi-Fi through a SwitchBot hub. GoveeLife's listing says it doesn't support Home Assistant.",
@@ -61,7 +61,7 @@
    "reviews_count": 57,
    "score": 84,
    "awards": [
-    "Best for Home Assistant"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant"
@@ -110,7 +110,9 @@
    "rating": 3.8,
    "reviews_count": 191,
    "score": 82,
-   "awards": [],
+   "awards": [
+    "Best for Home Assistant"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -213,9 +215,7 @@
    "rating": 3.6,
    "reviews_count": 2537,
    "score": 80,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Apple Home",
     "Google Home",
@@ -373,6 +373,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: AKAMATIS Presence Sensor v2.2.",
+    "New Best for Home Assistant: meross MS600."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

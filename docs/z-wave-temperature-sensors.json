@@ -13,7 +13,7 @@
  },
  "product_type": "Temperature sensors",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0B3G9Z4LJ",
-   "name": "Zooz ZSE44 800LR",
-   "price": 44.95,
-   "why": "A dedicated temperature and humidity sensor with 800 Series Long Range, and the best rating of the dedicated sensors."
+   "asin": "B09GDL6BGY",
+   "name": "Zooz Q Sensor ZSE11 800LR",
+   "price": 46.95,
+   "why": "Highest score on the page (85): 3.6 stars from 127 reviews, $46.95."
   },
   {
    "label": "Best Budget",
-   "asin": "B0987MNJZ1",
-   "name": "Aeotec aërQ",
-   "price": 34.99,
-   "why": "Temperature, humidity, and dew point in a 1.38 in. square, for $34.99."
+   "asin": "B0GR6BB2YT",
+   "name": "Aeotec Door Window Sensor 8",
+   "price": 39.99,
+   "why": "Highest score (74) among the cheapest third of picks (up to $39.99 each): 4.1 stars from 16 reviews, $39.99."
   },
   {
    "label": "Best Multisensor",
    "asin": "B08XHZP7NV",
    "name": "Aeotec MultiSensor 7",
    "price": 69.99,
-   "why": "Six sensors in one, including humidity and temperature, with batteries or USB power."
-  },
-  {
-   "label": "Best for Basements",
-   "asin": "B0GYZRCWCB",
-   "name": "Aeotec Water Sensor 8",
-   "price": 39.95,
-   "why": "Leak, temperature, humidity, and mold-risk alerts with Long Range."
+   "why": "Highest score of the picks that fit this award (79): 3.8 stars from 113 reviews, $69.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +68,9 @@
    "rating": 3.6,
    "reviews_count": 127,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -126,9 +121,7 @@
    "rating": 4.0,
    "reviews_count": 133,
    "score": 80,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -234,7 +227,9 @@
    "rating": 4.1,
    "reviews_count": 16,
    "score": 74,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -286,9 +281,7 @@
    "rating": 4.1,
    "reviews_count": 6,
    "score": 73,
-   "awards": [
-    "Best for Basements"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -391,9 +384,7 @@
    "rating": 3.5,
    "reviews_count": 173,
    "score": 69,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -526,6 +517,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Zooz Q Sensor ZSE11 800LR.",
+    "New Best Budget: Aeotec Door Window Sensor 8."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

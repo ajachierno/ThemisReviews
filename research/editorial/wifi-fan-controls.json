@@ -39,30 +39,7 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CTDCQJVZ",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Four fan speeds plus a light dimmer, with Apple HomeKit, Alexa, and Google, sold by Amazon."
-    },
-    {
-      "asin": "B086PPRWL7",
-      "label": "Best Value",
-      "kind": "budget",
-      "why": "A fan-and-light combo with 4,750 reviews for $39.99."
-    },
-    {
-      "asin": "B09C21LX9R",
-      "label": "Best No-Rewire",
-      "kind": "special",
-      "why": "Goes in the fan canopy instead of the wall, with a remote, for $19.90."
-    },
-    {
-      "asin": "B0C6BPTQ36",
-      "label": "Best Name Brand",
-      "kind": "premium",
-      "why": "Leviton's quiet 4-speed Wi-Fi fan control with LED speed indicators."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}}
   ],
   "products": [
     {

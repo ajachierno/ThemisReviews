@@ -39,30 +39,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DF1T9V3G",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "A Matter-certified mini relay with detached-switch mode for $12.90, rated 4.6 stars."
-    },
-    {
-      "asin": "B0DNQ9DKBV",
-      "label": "Best With Power Metering",
-      "kind": "budget",
-      "why": "Power measuring and a Bluetooth repeater on Matter, for $14.99."
-    },
-    {
-      "asin": "B0DZJ1W814",
-      "label": "Best Two-Channel",
-      "kind": "special",
-      "why": "Two metered 16 A channels on Matter, Wi-Fi, or Zigbee."
-    },
-    {
-      "asin": "B0H8YW595V",
-      "label": "Best Dry Contact",
-      "kind": "premium",
-      "why": "A 15 A dry-contact Shelly for garage doors and boilers, on Matter, from Shelly USA's UL listing for $27.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best With Power Metering", "kind": "budget", "rule": {"type": "feature", "key": "power_meter"}},
+    {"label": "Best Two-Channel", "kind": "special", "rule": {"type": "feature", "key": "multi_channel"}},
+    {"label": "Best Dry Contact", "kind": "premium", "rule": {"type": "feature", "key": "dry_contact"}}
   ],
   "products": [
     {

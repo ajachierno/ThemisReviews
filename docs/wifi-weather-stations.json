@@ -13,7 +13,7 @@
  },
  "product_type": "Weather stations",
  "data_captured": "2026-11-08",
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,14 @@
    "asin": "B01N5TEHLI",
    "name": "Ambient Weather WS-2902",
    "price": 199.99,
-   "why": "The classic WS-2902: wind, rain, solar, and a color console, with 13,173 reviews."
+   "why": "Highest score on the page (95): 4.4 stars from 13,173 reviews, $199.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0FM3CVKNL",
-   "name": "VEVOR 7-in-1 Wi-Fi Weather Station",
-   "price": 95.99,
-   "why": "A 7-in-1 Wi-Fi station with a solar sensor and a 7.5 in. display for $95.99."
-  },
-  {
-   "label": "Best No-Moving-Parts",
-   "asin": "B0868WY7NY",
-   "name": "Tempest Weather System",
-   "price": 349.0,
-   "why": "Tempest's all-in-one sensor measures wind and rain without spinning cups."
-  },
-  {
-   "label": "Best for Enthusiasts",
-   "asin": "B07GRBY9NP",
-   "name": "Ambient Weather WS-2000",
-   "price": 299.99,
-   "why": "Ambient's WS-2000 with a bigger console and solar-powered outdoor array."
+   "asin": "B07D9D6CXW",
+   "name": "AcuRite Iris 5-in-1 with Wi-Fi",
+   "price": 122.99,
+   "why": "Highest score (86) among the cheapest third of picks (up to $129.98 each): 4.0 stars from 2,990 reviews, $122.99."
   }
  ],
  "systems_note": "Ambient Weather and Tempest stations have official Home Assistant integrations.",
@@ -127,9 +113,7 @@
    "rating": 4.4,
    "reviews_count": 2996,
    "score": 95,
-   "awards": [
-    "Best for Enthusiasts"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -228,9 +212,7 @@
    "rating": 4.2,
    "reviews_count": 2231,
    "score": 87,
-   "awards": [
-    "Best No-Moving-Parts"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -280,7 +262,9 @@
    "rating": 4.0,
    "reviews_count": 2990,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "My AcuRite",
    "works_without": {
@@ -327,9 +311,7 @@
    "rating": 4.1,
    "reviews_count": 370,
    "score": 84,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "VEVOR app",
    "works_without": {
@@ -524,6 +506,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: AcuRite Iris 5-in-1 with Wi-Fi."
+   ]
+  },
   {
    "date": "2026-11-08",
    "notes": [

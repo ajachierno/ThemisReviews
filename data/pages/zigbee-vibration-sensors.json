@@ -50,16 +50,23 @@
   ],
   "awards": [
     {
-      "asin": "B0C9DP249C",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Works with open Zigbee hubs, has a built-in 110 dB alarm, and costs $17.99."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0C9DP249C",
+      "why": "Highest score on the page (87): 4.2 stars from 624 reviews, $17.99."
     },
     {
-      "asin": "B07PJT939B",
       "label": "Best for Aqara Homes",
       "kind": "special",
-      "why": "Detects vibration, tilt, and drops, with 1,917 reviews."
+      "rule": {
+        "type": "brand",
+        "key": "Aqara"
+      },
+      "asin": "B07PJT939B",
+      "why": "Highest score (70) among Aqara picks: 3.8 stars from 1,917 reviews, $19.99."
     }
   ],
   "products": [

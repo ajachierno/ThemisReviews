@@ -13,7 +13,7 @@
  },
  "product_type": "Ceiling lights",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0B1V6G21S",
-   "name": "Govee Smart Recessed Lighting 6-inch",
-   "price": 149.99,
-   "why": "Govee's 6-inch downlights in a 4-pack with Wi-Fi and Bluetooth control, rated 4.6 stars."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0F3BKBNVZ",
-   "name": "Feit Electric Smart Recessed Downlights 5/6-inch",
-   "price": 49.97,
-   "why": "Three 1,000 lm color downlights for $49.97, sold by Amazon."
-  },
-  {
-   "label": "Best with Matter",
    "asin": "B0F2165SNY",
    "name": "Govee RGBIC Recessed Light 4-inch",
    "price": 149.99,
-   "why": "RGBIC backlit 4-inch downlights with Matter, Alexa, and Google."
+   "why": "Highest score on the page (96): 4.5 stars from 402 reviews, $149.99."
   },
   {
-   "label": "Best Canless",
-   "asin": "B0C1F1XLWS",
-   "name": "HALO HLB 6-inch Canless (WiZ)",
-   "price": 38.88,
-   "why": "A slim HALO wafer light that needs no housing or J-box and works with Apple Home."
+   "label": "Best Budget",
+   "asin": "B0C4FBK4RY",
+   "name": "Govee Smart Recessed Lighting 4-inch",
+   "price": 99.99,
+   "why": "Highest score (84) among the cheapest third of picks (up to $25.00 each): 4.6 stars from 1,245 reviews, $99.99."
   }
  ],
  "systems_note": "HALO and Philips lights use WiZ, which has an official Home Assistant integration.",
@@ -76,7 +62,7 @@
    "reviews_count": 402,
    "score": 96,
    "awards": [
-    "Best with Matter"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -132,9 +118,7 @@
    "rating": 4.6,
    "reviews_count": 132,
    "score": 88,
-   "awards": [
-    "Best Canless"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -186,9 +170,7 @@
    "rating": 4.6,
    "reviews_count": 1245,
    "score": 84,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -238,7 +220,9 @@
    "rating": 4.6,
    "reviews_count": 1245,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -488,9 +472,7 @@
    "rating": 4.1,
    "reviews_count": 1318,
    "score": 79,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -595,6 +577,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee RGBIC Recessed Light 4-inch.",
+    "New Best Budget: Govee Smart Recessed Lighting 4-inch."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

@@ -13,7 +13,7 @@
  },
  "product_type": "Bird feeders",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0FHWJF8Q7",
-   "name": "Birdfy Smart Bird Feeder (60 fps slow motion)",
-   "price": 132.74,
-   "why": "Lifetime free AI bird ID, free 30-day cloud clips, and a built-in solar panel."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0CYH237TV",
-   "name": "Fazoxo Bird Feeder with Camera (solar)",
-   "price": 46.99,
-   "why": "A solar camera feeder for $46.99 with 1,312 reviews."
-  },
-  {
-   "label": "Best 4K",
    "asin": "B0G1S7CZG7",
    "name": "Kiwibit Solar Smart Bird Feeder 4K (no subscription)",
    "price": 229.99,
-   "why": "4K video and lifetime AI identification with no subscription."
+   "why": "Highest score on the page (90): 4.5 stars from 377 reviews, $229.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0DYDGBGQT",
+   "name": "HARYMOR Bird Feeder Camera (2K, 3x zoom)",
+   "price": 69.99,
+   "why": "Highest score (80) among the cheapest third of picks (up to $99.99 each): 4.5 stars from 567 reviews, $69.99."
+  },
+  {
+   "label": "Best 4K",
+   "asin": "B0DZHNDJQM",
+   "name": "Kiwibit Bird Feeder Camera 4K (external solar)",
+   "price": 139.99,
+   "why": "Highest score of the picks that fit this award (87): 4.5 stars from 535 reviews, $139.99."
   }
  ],
  "systems_note": "Bird feeder cameras run in their makers' apps; none of these listings name Alexa, Google, or Apple Home.",
@@ -69,7 +69,7 @@
    "reviews_count": 377,
    "score": 90,
    "awards": [
-    "Best 4K"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "Kiwibit app",
@@ -117,7 +117,9 @@
    "rating": 4.5,
    "reviews_count": 535,
    "score": 87,
-   "awards": [],
+   "awards": [
+    "Best 4K"
+   ],
    "works_with": [],
    "works_with_note": "Kiwibit app",
    "works_without": {
@@ -164,9 +166,7 @@
    "rating": 4.4,
    "reviews_count": 146,
    "score": 83,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Birdfy app",
    "works_without": {
@@ -213,7 +213,9 @@
    "rating": 4.5,
    "reviews_count": 567,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "HARYMOR app",
    "works_without": {
@@ -307,9 +309,7 @@
    "rating": 4.3,
    "reviews_count": 1312,
    "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Fazoxo app",
    "works_without": {
@@ -503,6 +503,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Kiwibit Solar Smart Bird Feeder 4K (no subscription).",
+    "New Best Budget: HARYMOR Bird Feeder Camera (2K, 3x zoom).",
+    "New Best 4K: Kiwibit Bird Feeder Camera 4K (external solar)."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

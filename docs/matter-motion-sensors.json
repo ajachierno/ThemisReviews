@@ -13,7 +13,7 @@
  },
  "product_type": "Motion sensors",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,21 +37,21 @@
    "asin": "B0H6JFC9RQ",
    "name": "GL Technologies LWR02 5-in-1",
    "price": 49.99,
-   "why": "Radar plus PIR presence with temperature, humidity, and light, on AAA batteries rated for up to 2 years."
+   "why": "Highest score on the page (94): 4.3 stars from 128 reviews, $49.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0CT8W9NRB",
-   "name": "Aqara Motion and Light Sensor P2",
-   "price": 31.99,
-   "why": "A native Matter motion and light sensor for $31.99 with a 170° view."
-  },
-  {
-   "label": "Best Wi-Fi Presence",
    "asin": "B0DYC9235W",
    "name": "meross MS600",
    "price": 33.99,
-   "why": "Radar, PIR, and light in one sensor over Matter Wi-Fi, so no Thread border router needed."
+   "why": "Highest score (82) among the cheapest third of picks (up to $33.99 each): 3.8 stars from 191 reviews, $33.99."
+  },
+  {
+   "label": "Best Wi-Fi Presence",
+   "asin": "B0F9YVNJ1C",
+   "name": "GL Technologies LWR01",
+   "price": 39.99,
+   "why": "Highest score of the picks that fit this award (77): 3.3 stars from 143 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -126,7 +126,7 @@
    "reviews_count": 191,
    "score": 82,
    "awards": [
-    "Best Wi-Fi Presence"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -182,7 +182,9 @@
    "rating": 3.3,
    "reviews_count": 143,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Wi-Fi Presence"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -237,9 +239,7 @@
    "rating": 3.5,
    "reviews_count": 681,
    "score": 76,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -300,6 +300,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: meross MS600.",
+    "New Best Wi-Fi Presence: GL Technologies LWR01."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

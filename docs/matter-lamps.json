@@ -13,7 +13,7 @@
  },
  "product_type": "Lamps",
  "data_captured": "2026-11-07",
- "updated": "2026-11-07",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0F3NZ12GL",
-   "name": "Govee Uplighter Floor Lamp (ripple projector)",
-   "price": 149.99,
-   "why": "Govee's uplighter combines a ripple projector, color, and a 1,000 lm task light, rated 4.6 stars."
-  },
-  {
-   "label": "Best Table Lamp",
-   "asin": "B0D41XL87F",
-   "name": "Govee RGBIC Smart Table Lamp 2",
-   "price": 69.99,
-   "why": "A Matter bedside lamp rated 4.7 stars by 2,625 buyers."
+   "asin": "B0GQTF4X6H",
+   "name": "Govee Lantern Floor Lamp",
+   "price": 129.99,
+   "why": "Highest score on the page (94): 4.8 stars from 404 reviews, $129.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0DZNVXQ94",
-   "name": "SwitchBot Floor Lamp with Matter",
-   "price": 59.99,
-   "why": "A Matter corner lamp with warm and cool white for $59.99."
+   "asin": "B0D41XL87F",
+   "name": "Govee RGBIC Smart Table Lamp 2",
+   "price": 69.99,
+   "why": "Highest score (86) among the cheapest third of picks (up to $99.99 each): 4.7 stars from 2,625 reviews, $69.99."
   },
   {
    "label": "Brightest",
    "asin": "B0GQT4YJ5F",
    "name": "Govee Floor Lamp 3",
    "price": 169.99,
-   "why": "Govee's Floor Lamp 3 reaches 2,100 lm with a 1,000K–10,000K white range."
+   "why": "Highest score of the picks that fit this award (93): 4.6 stars from 281 reviews, $169.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +68,9 @@
    "rating": 4.8,
    "reviews_count": 404,
    "score": 94,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -243,7 +238,7 @@
    "reviews_count": 2625,
    "score": 86,
    "awards": [
-    "Best Table Lamp"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -355,9 +350,7 @@
    "rating": 4.6,
    "reviews_count": 1506,
    "score": 85,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -468,9 +461,7 @@
    "rating": 4.2,
    "reviews_count": 434,
    "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -644,6 +635,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Govee Lantern Floor Lamp.",
+    "New Best Budget: Govee RGBIC Smart Table Lamp 2."
+   ]
+  },
   {
    "date": "2026-11-07",
    "notes": [

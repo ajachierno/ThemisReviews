@@ -38,30 +38,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0CRV5F1VB",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Govee's 12-inch ceiling light puts out 2,400 lm with Matter, rated 4.5 stars by 2,047 buyers."
-    },
-    {
-      "asin": "B0C7VPW49D",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "Two 12-inch color ceiling lights with Alexa and Google for $49.99."
-    },
-    {
-      "asin": "B0GSYPZ4L5",
-      "label": "Best for Living Rooms",
-      "kind": "special",
-      "why": "An 18-inch, 4,800 lm Govee light for spaces up to about 320 sq ft."
-    },
-    {
-      "asin": "B0GR9VMV71",
-      "label": "Best Premium",
-      "kind": "premium",
-      "why": "5,000 lm, 616 RGBIC LEDs, and CRI 95 warm white."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
   ],
   "products": [
     {

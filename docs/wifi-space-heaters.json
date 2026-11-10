@@ -13,7 +13,7 @@
  },
  "product_type": "Space heaters",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,17 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0CBBR4TLX",
-   "name": "Dreo Smart Wall Heater 1500W",
-   "price": 129.99,
-   "why": "A smart wall heater with Alexa and Google, rated 4.3 stars by 5,381 buyers."
-  },
-  {
-   "label": "Best Budget",
    "asin": "B0H93JB64R",
    "name": "FLANUR Smart Space Heater 1500W",
    "price": 55.99,
-   "why": "A $55.99 heater with a thermostat, ETL listing, and Alexa and Google."
+   "why": "Highest score on the page (90): 4.4 stars from 844 reviews, $55.99."
   },
   {
-   "label": "Best Infrared",
-   "asin": "B07JXRWJ8D",
-   "name": "Heat Storm HS-1500-PHX-WIFI Infrared",
-   "price": 134.99,
-   "why": "A Wi-Fi infrared wall heater with a thermostat and 13,971 reviews."
+   "label": "Best Budget",
+   "asin": "B0DHZ7HYQC",
+   "name": "MORENTO Smart Space Heater",
+   "price": 52.99,
+   "why": "Highest score (81) among the cheapest third of picks (up to $55.99 each): 4.1 stars from 238 reviews, $52.99."
   }
  ],
  "systems_note": "Plug a heater straight into a wall outlet, never a power strip or a regular smart plug.",
@@ -69,7 +62,7 @@
    "reviews_count": 844,
    "score": 90,
    "awards": [
-    "Best Budget"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -265,9 +258,7 @@
    "rating": 4.4,
    "reviews_count": 13971,
    "score": 82,
-   "awards": [
-    "Best Infrared"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "Heat Storm app",
    "works_without": {
@@ -314,7 +305,9 @@
    "rating": 4.1,
    "reviews_count": 238,
    "score": 81,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -411,9 +404,7 @@
    "rating": 4.3,
    "reviews_count": 5381,
    "score": 75,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -469,6 +460,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: FLANUR Smart Space Heater 1500W.",
+    "New Best Budget: MORENTO Smart Space Heater."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

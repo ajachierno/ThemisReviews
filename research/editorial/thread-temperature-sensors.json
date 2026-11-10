@@ -38,18 +38,8 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0DWSK5H33",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Aqara's W100 adds a big display and three programmable buttons, 300+ bought last month."
-    },
-    {
-      "asin": "B0HB4LXMWL",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A Matter-over-Thread sensor with an LCD and ±0.2°C accuracy for $29.99."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
   ],
   "products": [
     {

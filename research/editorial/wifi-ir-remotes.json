@@ -31,30 +31,10 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B0BFWH2WD8",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Learns any remote in 5 seconds and doubles as the hub for SwitchBot gear, with 55,832 reviews."
-    },
-    {
-      "asin": "B0FNXCFN6J",
-      "label": "Best for Apple Home",
-      "kind": "special",
-      "why": "A Matter-certified IR hub, so your TV and AC show up in Apple Home, Alexa, and Google."
-    },
-    {
-      "asin": "B07ZSF46BX",
-      "label": "Best for Home Assistant",
-      "kind": "budget",
-      "why": "BroadLink's RM4 mini runs locally in Home Assistant, for $25.99."
-    },
-    {
-      "asin": "B0872P4HX7",
-      "label": "Best IR + RF",
-      "kind": "premium",
-      "why": "Controls 433 MHz RF devices like fans and shades as well as IR."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best for Apple Home", "kind": "special", "rule": {"type": "system", "key": "apple-home"}},
+    {"label": "Best for Home Assistant", "kind": "budget", "rule": {"type": "feature", "key": "local_ha"}},
+    {"label": "Best IR + RF", "kind": "premium", "rule": {"type": "feature", "key": "rf"}}
   ],
   "products": [
     {

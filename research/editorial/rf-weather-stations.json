@@ -47,24 +47,9 @@
     }
   ],
   "awards": [
-    {
-      "asin": "B00N1XCA9M",
-      "label": "Best Overall",
-      "kind": "overall",
-      "why": "Wind, rain, temperature, and humidity on a color display, with 7,142 reviews and 700+ bought last month."
-    },
-    {
-      "asin": "B0CWL7ST6S",
-      "label": "Best Budget",
-      "kind": "budget",
-      "why": "A color atomic-clock station with alerts and room for 3 sensors, for $33.99."
-    },
-    {
-      "asin": "B0BBH688XG",
-      "label": "Best Smart Home Station",
-      "kind": "special",
-      "why": "Full sensor array on Wi-Fi, with Alexa, Google Home, IFTTT, and Home Assistant support."
-    }
+    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
+    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
+    {"label": "Best Smart Home Station", "kind": "special", "rule": {"type": "feature", "key": "wifi"}}
   ],
   "products": [
     {

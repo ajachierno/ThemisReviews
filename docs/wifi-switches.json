@@ -13,7 +13,7 @@
  },
  "product_type": "Light switches",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B01EZV35QU",
-   "name": "Kasa HS200",
-   "price": 15.99,
-   "why": "Over 43,000 reviews at 4.5 stars, about $16, and a mature app with schedules and away mode."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B095X911T8",
-   "name": "Amazon Basics Smart Light Switch",
-   "price": 14.99,
-   "why": "$14.99 and simple to set up, as long as Alexa is the only assistant you use."
-  },
-  {
-   "label": "Best for 3-Way",
    "asin": "B07724HNTX",
    "name": "Kasa HS210 kit",
    "price": 30.99,
-   "why": "A matched main and companion switch for stairways and hallways, with nearly 20,000 reviews."
+   "why": "Highest score on the page (96): 4.6 stars from 19,960 reviews, $30.99."
   },
   {
-   "label": "Best Multipack",
-   "asin": "B0DHYLF7PQ",
-   "name": "Tapo S500 (4-pack)",
-   "price": 42.99,
-   "why": "Four switches for about $43, or under $11 each, with a 4.6-star rating."
+   "label": "Best Budget",
+   "asin": "B0BS3LG9TX",
+   "name": "GHome SW5",
+   "price": 14.59,
+   "why": "Highest score (86) among the cheapest third of picks (up to $14.99 each): 4.5 stars from 1,595 reviews, $14.59."
+  },
+  {
+   "label": "Best for 3-Way",
+   "asin": "B0D2X8HCQD",
+   "name": "MOES Smart toggle switch",
+   "price": 24.99,
+   "why": "Highest score of the picks that fit this award (78): 3.8 stars from 78 reviews, $24.99."
   }
  ],
  "systems_note": null,
@@ -75,7 +68,7 @@
    "reviews_count": 19960,
    "score": 96,
    "awards": [
-    "Best for 3-Way"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -129,9 +122,7 @@
    "rating": 4.5,
    "reviews_count": 43265,
    "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -184,7 +175,9 @@
    "rating": 4.5,
    "reviews_count": 1595,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -236,9 +229,7 @@
    "rating": 4.6,
    "reviews_count": 882,
    "score": 86,
-   "awards": [
-    "Best Multipack"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -396,7 +387,9 @@
    "rating": 3.8,
    "reviews_count": 78,
    "score": 78,
-   "awards": [],
+   "awards": [
+    "Best for 3-Way"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -552,9 +545,7 @@
    "rating": 4.4,
    "reviews_count": 4219,
    "score": 70,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -652,6 +643,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Kasa HS210 kit.",
+    "New Best Budget: GHome SW5.",
+    "New Best for 3-Way: MOES Smart toggle switch."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

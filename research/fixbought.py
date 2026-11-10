@@ -53,9 +53,6 @@ def main(slugs):
                 p["verdict"] = fix(p["verdict"])
             p["pros"] = [fix(x) for x in p.get("pros", [])]
             p["cons"] = [fix(x) for x in p.get("cons", [])]
-            for a in e.get("awards", []):
-                if a["asin"] == p["asin"]:
-                    a["why"] = fix(a["why"])
         if n:
             path.write_text(json.dumps(e, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         print(f"{slug}: {n} bought-line fix(es)")

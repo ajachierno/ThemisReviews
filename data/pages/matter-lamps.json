@@ -53,28 +53,32 @@
   ],
   "awards": [
     {
-      "asin": "B0F3NZ12GL",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Govee's uplighter combines a ripple projector, color, and a 1,000 lm task light, rated 4.6 stars."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0GQTF4X6H",
+      "why": "Highest score on the page (94): 4.8 stars from 404 reviews, $129.99."
     },
     {
-      "asin": "B0D41XL87F",
-      "label": "Best Table Lamp",
-      "kind": "special",
-      "why": "A Matter bedside lamp rated 4.7 stars by 2,625 buyers."
-    },
-    {
-      "asin": "B0DZNVXQ94",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A Matter corner lamp with warm and cool white for $59.99."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0D41XL87F",
+      "why": "Highest score (86) among the cheapest third of picks (up to $99.99 each): 4.7 stars from 2,625 reviews, $69.99."
     },
     {
-      "asin": "B0GQT4YJ5F",
       "label": "Brightest",
       "kind": "premium",
-      "why": "Govee's Floor Lamp 3 reaches 2,100 lm with a 1,000K–10,000K white range."
+      "rule": {
+        "type": "feature",
+        "key": "bright"
+      },
+      "asin": "B0GQT4YJ5F",
+      "why": "Highest score of the picks that fit this award (93): 4.6 stars from 281 reviews, $169.99."
     }
   ],
   "products": [

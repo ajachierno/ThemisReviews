@@ -13,7 +13,7 @@
  },
  "product_type": "Smart locks",
  "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,31 +34,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B07HXMLCBT",
-   "name": "Schlage Encode (Century trim)",
-   "price": 229.31,
-   "why": "16,732 reviews, 2K+ bought last month, and the highest residential BHMA rating, per the listing."
+   "asin": "B0FD3WMV2T",
+   "name": "Wyze Lock Bolt v2",
+   "price": 79.0,
+   "why": "Highest score on the page (87): 4.5 stars from 716 reviews, $79.00."
   },
   {
    "label": "Best Budget",
-   "asin": "B0F5BH3HDV",
-   "name": "Tapo DL100",
-   "price": 59.99,
-   "why": "$59.99 for a 4.4-star Wi-Fi deadbolt that works with Alexa, Google, and SmartThings."
+   "asin": "B0F6N86ZTM",
+   "name": "Veise VE012W",
+   "price": 48.0,
+   "why": "Highest score (85) among the cheapest third of picks (up to $109.99 each): 4.3 stars from 868 reviews, $48.00."
   },
   {
    "label": "Best Fingerprint",
    "asin": "B0DKQQ6Z7Q",
    "name": "Tapo DL110",
    "price": 149.99,
-   "why": "A 0.42-second fingerprint reader, 100 stored prints, a rechargeable battery rated for a year, and 4.5 stars."
+   "why": "Highest score (79) among picks with fingerprint reader: 4.5 stars from 864 reviews, $149.99."
   },
   {
    "label": "Best for iPhone",
    "asin": "B09RS1Z1ZN",
    "name": "Schlage Encode Plus",
    "price": 284.97,
-   "why": "Tap to unlock with Apple Home Key on an iPhone or Apple Watch, plus Alexa and Google."
+   "why": "Highest score (74) among picks with apple Home: 3.9 stars from 1,435 reviews, $284.97."
   }
  ],
  "systems_note": null,
@@ -74,7 +74,9 @@
    "rating": 4.5,
    "reviews_count": 716,
    "score": 87,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [],
    "works_with_note": "Wyze app (no voice assistants listed)",
    "works_without": {
@@ -121,7 +123,9 @@
    "rating": 4.3,
    "reviews_count": 868,
    "score": 85,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -417,9 +421,7 @@
    "rating": 4.4,
    "reviews_count": 677,
    "score": 70,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -470,9 +472,7 @@
    "rating": 4.3,
    "reviews_count": 16732,
    "score": 69,
-   "awards": [
-    "Best Overall"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -578,6 +578,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: Wyze Lock Bolt v2.",
+    "New Best Budget: Veise VE012W."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

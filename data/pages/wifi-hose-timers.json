@@ -54,28 +54,42 @@
   ],
   "awards": [
     {
-      "asin": "B0H11D2TS9",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 600+ bought last month, for $49.99."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0HDS4CTKS",
+      "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.99."
     },
     {
-      "asin": "B0FKBG81PQ",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A $28.99 Smart Life timer with Alexa, Google, and Bluetooth fallback."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0H11D2TS9",
+      "why": "Highest score (79) among the cheapest third of picks (up to $49.99 each): 4.1 stars from 131 reviews, $49.99."
     },
     {
-      "asin": "B0HDS4CTKS",
       "label": "Best Water Tracking",
       "kind": "special",
-      "why": "Two zones with a built-in flow meter and 12 months of water-use history, rated 4.9 stars."
+      "rule": {
+        "type": "feature",
+        "key": "flow_meter"
+      },
+      "asin": "B09PNND4ZQ",
+      "why": "Highest score of the picks that fit this award (89): 4.3 stars from 952 reviews, $89.99."
     },
     {
-      "asin": "B0B1QWVQPY",
       "label": "Best Multi-Zone",
       "kind": "premium",
-      "why": "Four outlets on one faucet with weather-based adjustments, sold by Amazon."
+      "rule": {
+        "type": "feature",
+        "key": "multi_zone"
+      },
+      "asin": "B0B1QWVQPY",
+      "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $74.99."
     }
   ],
   "products": [

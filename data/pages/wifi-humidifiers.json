@@ -54,28 +54,32 @@
   ],
   "awards": [
     {
-      "asin": "B0CCVX6FSD",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A quiet 4 L smart humidifier with Alexa and Google, rated 4.4 stars by 12,331 buyers."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0DT48R3BR",
+      "why": "Highest score on the page (96): 4.5 stars from 1,007 reviews, $99.93."
     },
     {
-      "asin": "B0BT93MJ4G",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "A top-fill 3 L smart humidifier with auto mode for $29.99, 5K+ bought last month."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0GR99R7XD",
+      "why": "Highest score (82) among the cheapest third of picks (up to $67.99 each): 4.4 stars from 45,453 reviews, $67.99."
     },
     {
-      "asin": "B0DT48R3BR",
       "label": "Best for Large Rooms",
       "kind": "premium",
-      "why": "8 L, warm or cool mist, 80-hour runtime, and voice control."
-    },
-    {
-      "asin": "B0GR9DHR8W",
-      "label": "Best Evaporative",
-      "kind": "special",
-      "why": "An evaporative model that can't over-humidify or leave white dust, at 19 dB."
+      "rule": {
+        "type": "feature",
+        "key": "big"
+      },
+      "asin": "B0DHRD584W",
+      "why": "Highest score of the picks that fit this award (96): 4.5 stars from 592 reviews, $79.99."
     }
   ],
   "products": [

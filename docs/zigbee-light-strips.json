@@ -13,7 +13,7 @@
  },
  "product_type": "Light strips",
  "data_captured": "2026-11-05",
- "updated": "2026-11-05",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,21 @@
    "asin": "B0GNTQR5S1",
    "name": "Philips Hue Flux 16 ft",
    "price": 109.99,
-   "why": "3,000 lumens of real white and multicolor on a cuttable 16 ft strip, sold by Amazon."
+   "why": "Highest score on the page (94): 4.4 stars from 92 reviews, $109.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0BPBPGJ5G",
-   "name": "BTF-LIGHTING LM052 5-in-1 controller",
-   "price": 24.99,
-   "why": "A $24.99 5-in-1 Zigbee controller that turns almost any LED strip into a Zigbee light."
-  },
-  {
-   "label": "Best Outdoor",
-   "asin": "B08CK9LQP5",
-   "name": "Philips Hue Outdoor Lightstrip 7 ft",
-   "price": 89.41,
-   "why": "A weatherproof Hue strip for railings, stairs, and paths, rated 4.6 stars."
+   "asin": "B0D326FYQ4",
+   "name": "Philips Hue Solo Lightstrip 16 ft",
+   "price": 72.0,
+   "why": "Highest score (83) among the cheapest third of picks (up to $72.00 each): 4.4 stars from 1,230 reviews, $72.00."
   },
   {
    "label": "Best Premium",
    "asin": "B0FQLNRJCG",
    "name": "Philips Hue OmniGlow 9.8 ft",
    "price": 139.99,
-   "why": "Hue's micro-LED OmniGlow strip for seamless, dot-free light."
+   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 169 reviews, $139.99."
   }
  ],
  "systems_note": "Hue strips connect through the Hue Bridge (Zigbee), which shares them with every Matter platform; most also pair over Bluetooth without a bridge. The controllers drive any standard LED strip you supply.",
@@ -245,7 +238,9 @@
    "rating": 4.4,
    "reviews_count": 1230,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -355,9 +350,7 @@
    "rating": 4.6,
    "reviews_count": 398,
    "score": 79,
-   "awards": [
-    "Best Outdoor"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -574,9 +567,7 @@
    "rating": 4.0,
    "reviews_count": 47,
    "score": 65,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -662,6 +653,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: Philips Hue Solo Lightstrip 16 ft."
+   ]
+  },
   {
    "date": "2026-11-05",
    "notes": [

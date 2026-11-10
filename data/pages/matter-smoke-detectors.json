@@ -53,22 +53,22 @@
   ],
   "awards": [
     {
-      "asin": "B0GV4CWB6D",
       "label": "Best Overall",
       "kind": "overall",
-      "why": "A UL 217 smoke alarm on Matter over Thread that also reports temperature and humidity."
+      "rule": {
+        "type": "overall"
+      },
+      "asin": "B0G135MZJY",
+      "why": "Highest score on the page (67): 3.6 stars from 23 reviews, $45.59."
     },
     {
-      "asin": "B0FVSVNJBY",
       "label": "Best Budget",
       "kind": "budget",
-      "why": "The plain Matter smoke alarm for $39.99."
-    },
-    {
-      "asin": "B0G135MZJY",
-      "label": "Best CO Alarm",
-      "kind": "special",
-      "why": "A UL 2034 CO alarm with a Figaro sensor and a battery rated up to 10 years."
+      "rule": {
+        "type": "budget"
+      },
+      "asin": "B0FVSVNJBY",
+      "why": "Highest score (62) among the cheapest third of picks (up to $39.99 each): 3.6 stars from 85 reviews, $39.99."
     }
   ],
   "products": [

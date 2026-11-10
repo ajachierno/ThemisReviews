@@ -13,7 +13,7 @@
  },
  "product_type": "Sprinklers and timers",
  "data_captured": "2026-11-06",
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,31 +35,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H11D2TS9",
-   "name": "GoveeLife H5901 with gateway",
-   "price": 49.99,
-   "why": "Weather-adaptive watering, a brass inlet, a 1,640 ft. gateway range, and 600+ bought last month, for $49.99."
-  },
-  {
-   "label": "Best Budget",
-   "asin": "B0FKBG81PQ",
-   "name": "Insoma Wi-Fi hose timer with hub",
-   "price": 28.99,
-   "why": "A $28.99 Smart Life timer with Alexa, Google, and Bluetooth fallback."
-  },
-  {
-   "label": "Best Water Tracking",
    "asin": "B0HDS4CTKS",
    "name": "RAINPOINT 2-zone with flow meter (HWG023 gateway)",
    "price": 95.99,
-   "why": "Two zones with a built-in flow meter and 12 months of water-use history, rated 4.9 stars."
+   "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.99."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0H11D2TS9",
+   "name": "GoveeLife H5901 with gateway",
+   "price": 49.99,
+   "why": "Highest score (79) among the cheapest third of picks (up to $49.99 each): 4.1 stars from 131 reviews, $49.99."
+  },
+  {
+   "label": "Best Water Tracking",
+   "asin": "B09PNND4ZQ",
+   "name": "RAINPOINT 2-zone Wi-Fi timer with hub",
+   "price": 89.99,
+   "why": "Highest score of the picks that fit this award (89): 4.3 stars from 952 reviews, $89.99."
   },
   {
    "label": "Best Multi-Zone",
    "asin": "B0B1QWVQPY",
    "name": "Orbit B-hyve XD 4-port",
    "price": 74.99,
-   "why": "Four outlets on one faucet with weather-based adjustments, sold by Amazon."
+   "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $74.99."
   }
  ],
  "systems_note": "Smart Life / Tuya timers also have an official Home Assistant integration. Most timers here talk to a plug-in gateway over Bluetooth or their own radio; the gateway connects to Wi-Fi.",
@@ -76,7 +76,7 @@
    "reviews_count": 64,
    "score": 97,
    "awards": [
-    "Best Water Tracking"
+    "Best Overall"
    ],
    "works_with": [],
    "works_with_note": "RainPoint app",
@@ -124,7 +124,9 @@
    "rating": 4.3,
    "reviews_count": 952,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Water Tracking"
+   ],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -271,7 +273,7 @@
    "reviews_count": 131,
    "score": 79,
    "awards": [
-    "Best Overall"
+    "Best Budget"
    ],
    "works_with": [],
    "works_with_note": "GoveeLife app",
@@ -469,9 +471,7 @@
    "rating": 4.4,
    "reviews_count": 62,
    "score": 73,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -607,6 +607,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Overall: RAINPOINT 2-zone with flow meter (HWG023 gateway).",
+    "New Best Budget: GoveeLife H5901 with gateway.",
+    "New Best Water Tracking: RAINPOINT 2-zone Wi-Fi timer with hub."
+   ]
+  },
   {
    "date": "2026-11-06",
    "notes": [

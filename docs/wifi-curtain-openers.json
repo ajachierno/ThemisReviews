@@ -13,7 +13,7 @@
  },
  "product_type": "Curtain motors",
  "data_captured": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,21 +38,14 @@
    "asin": "B0FKH3PQT1",
    "name": "SwitchBot Curtain Opener 2-pack with Hub Mini",
    "price": 199.99,
-   "why": "Two SwitchBot curtain robots plus the Hub Mini for Wi-Fi, voice, and Matter control."
+   "why": "Highest score on the page (89): 4.3 stars from 56 reviews, $199.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0F8BR5Q66",
-   "name": "SwitchBot Curtain Opener 3 (Rod, 2025)",
-   "price": 89.99,
-   "why": "A single 2025 SwitchBot curtain robot for $89.99 that moves curtains up to 33 lbs."
-  },
-  {
-   "label": "Best for Pairs",
    "asin": "B0FB38TSRV",
    "name": "SwitchBot Curtain Opener 2-pack with Remote",
    "price": 152.99,
-   "why": "Two robots with a remote for a two-panel window."
+   "why": "Highest score (84) among the cheapest third of picks (up to $76.50 each): 4.1 stars from 242 reviews, $152.99."
   }
  ],
  "systems_note": "SwitchBot robots run on Bluetooth and connect to Wi-Fi, voice assistants, and Matter through a SwitchBot hub.",
@@ -126,7 +119,7 @@
    "reviews_count": 242,
    "score": 84,
    "awards": [
-    "Best for Pairs"
+    "Best Budget"
    ],
    "works_with": [
     "Home Assistant",
@@ -182,9 +175,7 @@
    "rating": 4.4,
    "reviews_count": 177,
    "score": 81,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -245,6 +236,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-10",
+   "notes": [
+    "New Best Budget: SwitchBot Curtain Opener 2-pack with Remote."
+   ]
+  },
   {
    "date": "2026-11-04",
    "notes": [
