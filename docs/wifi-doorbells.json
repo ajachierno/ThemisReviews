@@ -27,7 +27,7 @@
    "high_res": 0.35,
    "chime": 0.3
   },
-  "reviews_ceiling": 56000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,58 +65,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0CD7NT4Y9",
-   "name": "eufy Security Video Doorbell E340, Dual Cameras, 2K FHD, 8GB Local Storage",
-   "brand": "eufy",
-   "model": "Video Doorbell E340",
-   "price": 119.98,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 6736,
-   "score": 86,
-   "awards": [
-    "Best Package View"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "4K+ bought in past month",
-   "verdict": "Two cameras, one looking down at packages, with local storage and no subscription.",
-   "pros": [
-    "Second camera watches packages",
-    "8 GB local storage",
-    "Chime included",
-    "4K+ bought in the past month"
-   ],
-   "cons": [
-    "4.1 stars",
-    "$119.98",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "resolution": "2K",
-    "power": "Battery or wired",
-    "storage": "8 GB local",
-    "extras": "Dual camera for packages"
-   },
-   "features": {
-    "local_storage": true,
-    "high_res": true,
-    "chime": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71QyIxfvwgL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CD7NT4Y9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-doorbells.html#B0CD7NT4Y9"
-  },
-  {
-   "rank": 2,
    "asin": "B0D8MKQ5RC",
    "name": "Tapo 2K+ Wired or Battery Powered Smart Video Doorbell with Chime, D225",
    "brand": "Tapo",
@@ -125,7 +73,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2352,
-   "score": 85,
+   "score": 94,
    "awards": [
     "Best Overall"
    ],
@@ -168,7 +116,7 @@
    "page_url": "https://themisreviews.com/wifi-doorbells.html#B0D8MKQ5RC"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0B7S1HMPC",
    "name": "REOLINK Video Doorbell PoE 2K Wired Outdoor Security Camera with Chime V2",
    "brand": "Reolink",
@@ -177,7 +125,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1568,
-   "score": 84,
+   "score": 94,
    "awards": [
     "Best Wired (PoE)"
    ],
@@ -219,6 +167,58 @@
    "page_url": "https://themisreviews.com/wifi-doorbells.html#B0B7S1HMPC"
   },
   {
+   "rank": 3,
+   "asin": "B0CD7NT4Y9",
+   "name": "eufy Security Video Doorbell E340, Dual Cameras, 2K FHD, 8GB Local Storage",
+   "brand": "eufy",
+   "model": "Video Doorbell E340",
+   "price": 119.98,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 6736,
+   "score": 92,
+   "awards": [
+    "Best Package View"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "Two cameras, one looking down at packages, with local storage and no subscription.",
+   "pros": [
+    "Second camera watches packages",
+    "8 GB local storage",
+    "Chime included",
+    "4K+ bought in the past month"
+   ],
+   "cons": [
+    "4.1 stars",
+    "$119.98",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Battery or wired",
+    "storage": "8 GB local",
+    "extras": "Dual camera for packages"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "chime": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71QyIxfvwgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CD7NT4Y9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-doorbells.html#B0CD7NT4Y9"
+  },
+  {
    "rank": 4,
    "asin": "B0F6CJ93GS",
    "name": "Aqara Smart Doorbell Camera G410 with Chime, HomeKit Secure Video, Black",
@@ -228,7 +228,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 1571,
-   "score": 81,
+   "score": 90,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -279,7 +279,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 3816,
-   "score": 79,
+   "score": 86,
    "awards": [],
    "works_with": [],
    "works_with_note": "BOIFUN app",
@@ -325,7 +325,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1661,
-   "score": 75,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -375,7 +375,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 8651,
-   "score": 73,
+   "score": 77,
    "awards": [
     "Best Budget"
    ],
@@ -427,7 +427,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 3353,
-   "score": 70,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -476,7 +476,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1984,
-   "score": 69,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -525,7 +525,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1966,
-   "score": 66,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Apple Home",

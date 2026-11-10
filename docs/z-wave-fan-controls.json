@@ -28,7 +28,7 @@
    "long_range": 0.2,
    "rating": 0.2
   },
-  "reviews_ceiling": 500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -60,7 +60,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 332,
-   "score": 84,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -114,7 +114,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 120,
-   "score": 76,
+   "score": 80,
    "awards": [
     "Best Speed Control"
    ],
@@ -168,7 +168,7 @@
    "currency": "USD",
    "rating": 3.1,
    "reviews_count": 142,
-   "score": 61,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -220,7 +220,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 36,
-   "score": 57,
+   "score": 60,
    "awards": [],
    "works_with": [
     "Home Assistant",

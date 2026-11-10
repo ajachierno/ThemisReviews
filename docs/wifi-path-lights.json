@@ -28,7 +28,7 @@
    "voice": 0.25,
    "bright": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,55 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GQ3JNL38",
+   "name": "Govee Outdoor Cylinder Pathway Lights, 8 Pack, 425 Lumens, IP67 Waterproof",
+   "brand": "Govee",
+   "model": "Outdoor Cylinder Pathway Lights",
+   "price": 144.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 92,
+   "score": 88,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Bright, all-around light for long walkways.",
+   "pros": [
+    "425 lm per light",
+    "IP67 throughout",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Voice assistants aren't named in the bullets",
+    "$144.99",
+    "Only 92 reviews"
+   ],
+   "specs": {
+    "type": "360° path lights",
+    "pack": "8-pack",
+    "brightness": "Up to 425 lm each",
+    "extras": "IP67 lights and box, RGBWIC"
+   },
+   "features": {
+    "white": true,
+    "ip67": true,
+    "voice": false,
+    "bright": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81nFKii5YDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQ3JNL38?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-path-lights.html#B0GQ3JNL38"
+  },
+  {
+   "rank": 2,
    "asin": "B0FWKP22YT",
    "name": "Govee Outdoor Pathway Lights 2 Lite, 8 Pack, 190 Lumens, IP67 Waterproof",
    "brand": "Govee",
@@ -74,7 +123,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 159,
-   "score": 78,
+   "score": 87,
    "awards": [
     "Best with Matter"
    ],
@@ -122,55 +171,6 @@
    "page_url": "https://themisreviews.com/wifi-path-lights.html#B0FWKP22YT"
   },
   {
-   "rank": 2,
-   "asin": "B0GQ3JNL38",
-   "name": "Govee Outdoor Cylinder Pathway Lights, 8 Pack, 425 Lumens, IP67 Waterproof",
-   "brand": "Govee",
-   "model": "Outdoor Cylinder Pathway Lights",
-   "price": 144.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 92,
-   "score": 77,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Bright, all-around light for long walkways.",
-   "pros": [
-    "425 lm per light",
-    "IP67 throughout",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Voice assistants aren't named in the bullets",
-    "$144.99",
-    "Only 92 reviews"
-   ],
-   "specs": {
-    "type": "360° path lights",
-    "pack": "8-pack",
-    "brightness": "Up to 425 lm each",
-    "extras": "IP67 lights and box, RGBWIC"
-   },
-   "features": {
-    "white": true,
-    "ip67": true,
-    "voice": false,
-    "bright": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81nFKii5YDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQ3JNL38?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-path-lights.html#B0GQ3JNL38"
-  },
-  {
    "rank": 3,
    "asin": "B0GKP32WT3",
    "name": "Lumary Upgraded Smart Landscape Lights, 56 ft Outdoor Spotlights, 6Pack",
@@ -180,7 +180,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 184,
-   "score": 70,
+   "score": 79,
    "awards": [
     "Best Spotlights"
    ],
@@ -232,7 +232,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 151,
-   "score": 69,
+   "score": 78,
    "awards": [],
    "works_with": [],
    "works_with_note": "Govee Home app",
@@ -271,6 +271,56 @@
   },
   {
    "rank": 5,
+   "asin": "B0FPM22JFC",
+   "name": "Landscape Lighting, RGBW Spotlights with APP Control,8 Pack",
+   "brand": "APPECK",
+   "model": "RGBW Landscape Spotlights",
+   "price": 119.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 90,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Smart Life app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Eight spotlights where each one can be its own color.",
+   "pros": [
+    "8-pack",
+    "Per-light color",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Don't submerge",
+    "$119.99"
+   ],
+   "specs": {
+    "type": "Spotlights",
+    "pack": "8-pack",
+    "brightness": "Not stated in bullets",
+    "extras": "Individual color per light"
+   },
+   "features": {
+    "white": true,
+    "ip67": false,
+    "voice": true,
+    "bright": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71xhYLgfu8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FPM22JFC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-path-lights.html#B0FPM22JFC"
+  },
+  {
+   "rank": 6,
    "asin": "B0FQ3KX7FL",
    "name": "Pathway Lights,RGBCW Walkway Lights with APP Control,4 Pack",
    "brand": "APPECK",
@@ -279,7 +329,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 61,
-   "score": 68,
+   "score": 78,
    "awards": [
     "Best Budget"
    ],
@@ -322,56 +372,6 @@
    "page_url": "https://themisreviews.com/wifi-path-lights.html#B0FQ3KX7FL"
   },
   {
-   "rank": 6,
-   "asin": "B0FPM22JFC",
-   "name": "Landscape Lighting, RGBW Spotlights with APP Control,8 Pack",
-   "brand": "APPECK",
-   "model": "RGBW Landscape Spotlights",
-   "price": 119.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 90,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Smart Life app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Eight spotlights where each one can be its own color.",
-   "pros": [
-    "8-pack",
-    "Per-light color",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Don't submerge",
-    "$119.99"
-   ],
-   "specs": {
-    "type": "Spotlights",
-    "pack": "8-pack",
-    "brightness": "Not stated in bullets",
-    "extras": "Individual color per light"
-   },
-   "features": {
-    "white": true,
-    "ip67": false,
-    "voice": true,
-    "bright": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71xhYLgfu8L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FPM22JFC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-path-lights.html#B0FPM22JFC"
-  },
-  {
    "rank": 7,
    "asin": "B0CC3RW3YM",
    "name": "WiZ Elpas Bollard Smart Wi-Fi Outdoor LED Path Light Starter Kit, Works with Alexa, Google Assistant and Siri Shortcuts",
@@ -381,7 +381,7 @@
    "currency": "USD",
    "rating": 4.9,
    "reviews_count": 13,
-   "score": 66,
+   "score": 72,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -432,7 +432,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 8,
-   "score": 63,
+   "score": 67,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -482,7 +482,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 26,
-   "score": 55,
+   "score": 62,
    "awards": [],
    "works_with": [],
    "works_with_note": "Enbrighten app",

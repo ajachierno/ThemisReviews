@@ -28,7 +28,7 @@
    "schedule": 0.25,
    "load_mgmt": 0.25
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,102 +59,52 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0C6YMS4KH",
-   "name": "ChargePoint HomeFlex Level 2 EV Fast Charger, J1772, Smart, Hardwired, 50A",
-   "brand": "ChargePoint",
-   "model": "HomeFlex 50 A",
-   "price": 549.0,
+   "asin": "B0FP886BVQ",
+   "name": "Level 2 EV Charger, 48Amp/11.5KW/240V, UL 2594, ETL & Energy Star",
+   "brand": "IYILO",
+   "model": "48 A hardwired",
+   "price": 339.98,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 2331,
-   "score": 81,
-   "awards": [
-    "Best Known Brand"
-   ],
+   "rating": 4.4,
+   "reviews_count": 153,
+   "score": 90,
+   "awards": [],
    "works_with": [],
-   "works_with_note": "ChargePoint app",
+   "works_with_note": "IYILO app",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The big-name pick, with the same app you'd use at ChargePoint public stations.",
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "48 A with power sharing, so two chargers can run on one breaker.",
    "pros": [
-    "50 A",
-    "1K+ bought in the past month",
-    "24/7 support"
+    "Power sharing and dynamic load balancing",
+    "Connector temperature sensor",
+    "Energy Star"
    ],
    "cons": [
-    "$549",
-    "4.2 stars",
-    "Sold by a reseller"
+    "Only 153 reviews",
+    "Sold as EVRA Energy",
+    "Needs an electrician"
    ],
    "specs": {
-    "power": "50 A",
-    "install": "Hardwired",
-    "app": "ChargePoint"
+    "power": "48 A / 11.5 kW",
+    "install": "Hardwired, 60 A breaker",
+    "app": "IYILO"
    },
    "features": {
     "high_amp": true,
     "plug_in": false,
     "schedule": true,
-    "load_mgmt": false
+    "load_mgmt": true
    },
-   "image": "https://m.media-amazon.com/images/I/7192lr5i6mL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C6YMS4KH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0C6YMS4KH"
+   "image": "https://m.media-amazon.com/images/I/71MWo09Qv3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FP886BVQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0FP886BVQ"
   },
   {
    "rank": 2,
-   "asin": "B0CG8D445Q",
-   "name": "Level 2 EV Charger, 32 A, Wi-Fi App, 25 ft Cable, NEMA 14-50P Plug, J1772, ETL Certified",
-   "brand": "AIMILER",
-   "model": "32 A Wi-Fi charger",
-   "price": 189.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1367,
-   "score": 80,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "AIMILER app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A cheap plug-in charger with app scheduling and a touch screen.",
-   "pros": [
-    "$189.99",
-    "4.6 stars from 1,364 reviews",
-    "NEMA Type 4 rated"
-   ],
-   "cons": [
-    "32 A max",
-    "2.4 GHz Wi-Fi only",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "power": "32 A, adjustable 16-32 A",
-    "install": "NEMA 14-50 plug, 25 ft cable",
-    "app": "AIMILER"
-   },
-   "features": {
-    "high_amp": false,
-    "plug_in": true,
-    "schedule": true,
-    "load_mgmt": false
-   },
-   "image": "https://m.media-amazon.com/images/I/716LWoP8ekL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CG8D445Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0CG8D445Q"
-  },
-  {
-   "rank": 3,
    "asin": "B0CKKPTDPK",
    "name": "EMPORIA Level 2 EV Charger w/ J1772 Connector — 48 Amp, 240V WiFi Enabled Electric Vehicle Charging Station, 25ft Cable, Hardwired with Whip, White",
    "brand": "Emporia",
@@ -163,7 +113,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 512,
-   "score": 80,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -202,50 +152,100 @@
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0CKKPTDPK"
   },
   {
-   "rank": 4,
-   "asin": "B0FP886BVQ",
-   "name": "Level 2 EV Charger, 48Amp/11.5KW/240V, UL 2594, ETL & Energy Star",
-   "brand": "IYILO",
-   "model": "48 A hardwired",
-   "price": 339.98,
+   "rank": 3,
+   "asin": "B0CG8D445Q",
+   "name": "Level 2 EV Charger, 32 A, Wi-Fi App, 25 ft Cable, NEMA 14-50P Plug, J1772, ETL Certified",
+   "brand": "AIMILER",
+   "model": "32 A Wi-Fi charger",
+   "price": 189.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 153,
-   "score": 80,
-   "awards": [],
+   "rating": 4.6,
+   "reviews_count": 1367,
+   "score": 83,
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
-   "works_with_note": "IYILO app",
+   "works_with_note": "AIMILER app",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "48 A with power sharing, so two chargers can run on one breaker.",
+   "bought_last_month": null,
+   "verdict": "A cheap plug-in charger with app scheduling and a touch screen.",
    "pros": [
-    "Power sharing and dynamic load balancing",
-    "Connector temperature sensor",
-    "Energy Star"
+    "$189.99",
+    "4.6 stars from 1,364 reviews",
+    "NEMA Type 4 rated"
    ],
    "cons": [
-    "Only 153 reviews",
-    "Sold as EVRA Energy",
-    "Needs an electrician"
+    "32 A max",
+    "2.4 GHz Wi-Fi only",
+    "Lesser-known brand"
    ],
    "specs": {
-    "power": "48 A / 11.5 kW",
-    "install": "Hardwired, 60 A breaker",
-    "app": "IYILO"
+    "power": "32 A, adjustable 16-32 A",
+    "install": "NEMA 14-50 plug, 25 ft cable",
+    "app": "AIMILER"
+   },
+   "features": {
+    "high_amp": false,
+    "plug_in": true,
+    "schedule": true,
+    "load_mgmt": false
+   },
+   "image": "https://m.media-amazon.com/images/I/716LWoP8ekL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CG8D445Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0CG8D445Q"
+  },
+  {
+   "rank": 4,
+   "asin": "B0C6YMS4KH",
+   "name": "ChargePoint HomeFlex Level 2 EV Fast Charger, J1772, Smart, Hardwired, 50A",
+   "brand": "ChargePoint",
+   "model": "HomeFlex 50 A",
+   "price": 549.0,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2331,
+   "score": 82,
+   "awards": [
+    "Best Known Brand"
+   ],
+   "works_with": [],
+   "works_with_note": "ChargePoint app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The big-name pick, with the same app you'd use at ChargePoint public stations.",
+   "pros": [
+    "50 A",
+    "1K+ bought in the past month",
+    "24/7 support"
+   ],
+   "cons": [
+    "$549",
+    "4.2 stars",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "power": "50 A",
+    "install": "Hardwired",
+    "app": "ChargePoint"
    },
    "features": {
     "high_amp": true,
     "plug_in": false,
     "schedule": true,
-    "load_mgmt": true
+    "load_mgmt": false
    },
-   "image": "https://m.media-amazon.com/images/I/71MWo09Qv3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FP886BVQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0FP886BVQ"
+   "image": "https://m.media-amazon.com/images/I/7192lr5i6mL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C6YMS4KH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0C6YMS4KH"
   },
   {
    "rank": 5,
@@ -257,7 +257,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 153,
-   "score": 72,
+   "score": 81,
    "awards": [],
    "works_with": [],
    "works_with_note": "IYILO app",
@@ -303,7 +303,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 38,
-   "score": 72,
+   "score": 81,
    "awards": [],
    "works_with": [],
    "works_with_note": "Grasside app",
@@ -349,7 +349,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 57,
-   "score": 70,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -397,7 +397,7 @@
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 11,
-   "score": 68,
+   "score": 73,
    "awards": [],
    "works_with": [],
    "works_with_note": "Autel Charge app",

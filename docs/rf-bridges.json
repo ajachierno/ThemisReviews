@@ -28,7 +28,7 @@
    "tcxo": 0.25,
    "antenna": 0.2
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -115,53 +115,6 @@
   },
   {
    "rank": 2,
-   "asin": "B01GDN1T4S",
-   "name": "Nooelec NESDR Smart v5 RTL-SDR Bundle, 100 kHz-1.75 GHz Software Defined Radio with 3 Antennas",
-   "brand": "Nooelec",
-   "model": "NESDR SMArt v5 bundle",
-   "price": 54.95,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 4004,
-   "score": 78,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "rtl_433 (DIY)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The v5 with antennas and accessories in the box.",
-   "pros": [
-    "Bundle with antennas",
-    "0.5 PPM TCXO",
-    "4,004 reviews, 1K+ bought in the past month"
-   ],
-   "cons": [
-    "$54.95",
-    "4.2 stars",
-    "Receive only"
-   ],
-   "specs": {
-    "type": "SDR receiver",
-    "rf": "100 kHz to 1.75 GHz",
-    "direction": "Receive only",
-    "extras": "0.5 PPM TCXO, antenna bundle"
-   },
-   "features": {
-    "sends": false,
-    "ha": false,
-    "tcxo": true,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71nQQh3SxRL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01GDN1T4S?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-bridges.html#B01GDN1T4S"
-  },
-  {
-   "rank": 3,
    "asin": "B0872P4HX7",
    "name": "Broadlink Rm4 Pro Universal Remote with Sensor Cable,RF/IR Smart Remote",
    "brand": "BroadLink",
@@ -170,7 +123,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 3378,
-   "score": 78,
+   "score": 80,
    "awards": [
     "Best RF Bridge"
    ],
@@ -215,7 +168,101 @@
    "page_url": "https://themisreviews.com/rf-bridges.html#B0872P4HX7"
   },
   {
+   "rank": 3,
+   "asin": "B01B4L48QU",
+   "name": "NESDR Nano 2 Plus - Tiny Black RTL-SDR USB Set (RTL2832U & R820T2) with Ultra-Low Phase Noise 0.5PPM TCXO, MCX Antenna",
+   "brand": "Nooelec",
+   "model": "NESDR Nano 2+",
+   "price": 47.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 352,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A tiny SDR for a Raspberry Pi or mini PC with crowded ports.",
+   "pros": [
+    "Under 1 in. square",
+    "0.5 PPM TCXO",
+    "Telescopic antenna included"
+   ],
+   "cons": [
+    "Only 352 reviews",
+    "MCX antenna connector",
+    "$47.95"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "Tiny, 0.5 PPM TCXO, telescopic antenna"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ZEhmQtg-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01B4L48QU?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B01B4L48QU"
+  },
+  {
    "rank": 4,
+   "asin": "B01GDN1T4S",
+   "name": "Nooelec NESDR Smart v5 RTL-SDR Bundle, 100 kHz-1.75 GHz Software Defined Radio with 3 Antennas",
+   "brand": "Nooelec",
+   "model": "NESDR SMArt v5 bundle",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 4004,
+   "score": 79,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The v5 with antennas and accessories in the box.",
+   "pros": [
+    "Bundle with antennas",
+    "0.5 PPM TCXO",
+    "4,004 reviews, 1K+ bought in the past month"
+   ],
+   "cons": [
+    "$54.95",
+    "4.2 stars",
+    "Receive only"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "100 kHz to 1.75 GHz",
+    "direction": "Receive only",
+    "extras": "0.5 PPM TCXO, antenna bundle"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71nQQh3SxRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01GDN1T4S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B01GDN1T4S"
+  },
+  {
+   "rank": 5,
    "asin": "B0BMKZCKTF",
    "name": "RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXO SMA Software Defined Radio (Dongle Only) (Black)",
    "brand": "RTL-SDR Blog",
@@ -224,7 +271,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3140,
-   "score": 75,
+   "score": 78,
    "awards": [
     "Best Budget SDR"
    ],
@@ -264,7 +311,7 @@
    "page_url": "https://themisreviews.com/rf-bridges.html#B0BMKZCKTF"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B01HA642SW",
    "name": "Nooelec NESDR Smart v5 RTL-SDR Software Defined Radio, 100 kHz-1.75 GHz, 0.5 PPM TCXO, Aluminum Enclosure",
    "brand": "Nooelec",
@@ -273,7 +320,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2884,
-   "score": 74,
+   "score": 77,
    "awards": [
     "Best Premium SDR"
    ],
@@ -313,101 +360,7 @@
    "page_url": "https://themisreviews.com/rf-bridges.html#B01HA642SW"
   },
   {
-   "rank": 6,
-   "asin": "B009U7WZCA",
-   "name": "Nooelec NESDR Mini USB RTL-SDR and ADS-B Receiver Set, RTL2832U and R820T Tuner",
-   "brand": "Nooelec",
-   "model": "NESDR Mini",
-   "price": 44.95,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1910,
-   "score": 70,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "rtl_433 (DIY)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Nooelec's basic SDR with an antenna, fine for 433 MHz sensors.",
-   "pros": [
-    "Antenna included",
-    "1-year warranty",
-    "1,910 reviews"
-   ],
-   "cons": [
-    "No TCXO listed",
-    "Older R820T tuner",
-    "$44.95, same as the better v5"
-   ],
-   "specs": {
-    "type": "SDR receiver",
-    "rf": "Not stated in bullets",
-    "direction": "Receive only",
-    "extras": "R820T tuner, antenna"
-   },
-   "features": {
-    "sends": false,
-    "ha": false,
-    "tcxo": false,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71XcMmebiiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B009U7WZCA?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-bridges.html#B009U7WZCA"
-  },
-  {
    "rank": 7,
-   "asin": "B01B4L48QU",
-   "name": "NESDR Nano 2 Plus - Tiny Black RTL-SDR USB Set (RTL2832U & R820T2) with Ultra-Low Phase Noise 0.5PPM TCXO, MCX Antenna",
-   "brand": "Nooelec",
-   "model": "NESDR Nano 2+",
-   "price": 47.95,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 352,
-   "score": 70,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "rtl_433 (DIY)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A tiny SDR for a Raspberry Pi or mini PC with crowded ports.",
-   "pros": [
-    "Under 1 in. square",
-    "0.5 PPM TCXO",
-    "Telescopic antenna included"
-   ],
-   "cons": [
-    "Only 352 reviews",
-    "MCX antenna connector",
-    "$47.95"
-   ],
-   "specs": {
-    "type": "SDR receiver",
-    "rf": "Not stated in bullets",
-    "direction": "Receive only",
-    "extras": "Tiny, 0.5 PPM TCXO, telescopic antenna"
-   },
-   "features": {
-    "sends": false,
-    "ha": false,
-    "tcxo": true,
-    "antenna": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ZEhmQtg-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01B4L48QU?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-bridges.html#B01B4L48QU"
-  },
-  {
-   "rank": 8,
    "asin": "B079C3FHPG",
    "name": "Nooelec NESDR SMArTee v2 RTL-SDR with Bias Tee, 0.5 PPM TCXO, SMA Input, Aluminum Enclosure",
    "brand": "Nooelec",
@@ -416,7 +369,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 397,
-   "score": 66,
+   "score": 75,
    "awards": [],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
@@ -454,6 +407,53 @@
    "page_url": "https://themisreviews.com/rf-bridges.html#B079C3FHPG"
   },
   {
+   "rank": 8,
+   "asin": "B009U7WZCA",
+   "name": "Nooelec NESDR Mini USB RTL-SDR and ADS-B Receiver Set, RTL2832U and R820T Tuner",
+   "brand": "Nooelec",
+   "model": "NESDR Mini",
+   "price": 44.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1910,
+   "score": 74,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Nooelec's basic SDR with an antenna, fine for 433 MHz sensors.",
+   "pros": [
+    "Antenna included",
+    "1-year warranty",
+    "1,910 reviews"
+   ],
+   "cons": [
+    "No TCXO listed",
+    "Older R820T tuner",
+    "$44.95, same as the better v5"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "R820T tuner, antenna"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": false,
+    "antenna": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71XcMmebiiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B009U7WZCA?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B009U7WZCA"
+  },
+  {
    "rank": 9,
    "asin": "B0F29LWRS9",
    "name": "Wi-Fi Universal IR/RF Remote Hub, 433.92 MHz Fixed-Code Only",
@@ -463,7 +463,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 19,
-   "score": 57,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

@@ -27,7 +27,7 @@
    "direct_wifi": 0.3,
    "multi": 0.35
   },
-  "reviews_ceiling": 7000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2300,
-   "score": 84,
+   "score": 88,
    "awards": [
     "Best Kit"
    ],
@@ -124,7 +124,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2300,
-   "score": 84,
+   "score": 88,
    "awards": [],
    "works_with": [],
    "works_with_note": "X-Sense app",
@@ -164,55 +164,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0DQLDBXWF",
-   "name": "GoveeLife Upgraded Smart Water Leak Detector 1s with High Alarm, 3 Pack",
-   "brand": "GoveeLife",
-   "model": "Water Leak Detector 1s (3-pack)",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 3003,
-   "score": 83,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "Loud sensors with a 5-year battery and SMS, app, and email alerts, selling 3K+ a month.",
-   "pros": [
-    "105 dB alarm",
-    "Up to 5-year battery",
-    "SMS, app, and email alerts",
-    "3K+ bought in the past month"
-   ],
-   "cons": [
-    "Needs Govee's gateway",
-    "No voice assistant integration named",
-    "4.2 stars"
-   ],
-   "specs": {
-    "connection": "Sub-1 GHz to Wi-Fi gateway",
-    "siren": "105 dB",
-    "pack": "3 sensors",
-    "power": "Up to 5 years",
-    "app": "Govee Home",
-    "extras": "SMS and email alerts"
-   },
-   "features": {
-    "siren": true,
-    "direct_wifi": false,
-    "multi": true
-   },
-   "image": "https://m.media-amazon.com/images/I/611tOn+Is2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQLDBXWF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DQLDBXWF"
-  },
-  {
-   "rank": 4,
    "asin": "B0C3B91TJB",
    "name": "GoveeLife Smart Water Leak Detector 2 with 1968ft Ultra-Long Range, 6 Pack",
    "brand": "GoveeLife",
@@ -221,7 +172,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1951,
-   "score": 83,
+   "score": 87,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -263,7 +214,7 @@
    "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0C3B91TJB"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B0CRRMD559",
    "name": "SwitchBot WiFi Water Leak Detector for Home, Water Leak Sensor, 1m Cable",
    "brand": "SwitchBot",
@@ -272,7 +223,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1938,
-   "score": 82,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -318,7 +269,158 @@
    "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0CRRMD559"
   },
   {
+   "rank": 5,
+   "asin": "B0DQLDBXWF",
+   "name": "GoveeLife Upgraded Smart Water Leak Detector 1s with High Alarm, 3 Pack",
+   "brand": "GoveeLife",
+   "model": "Water Leak Detector 1s (3-pack)",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3003,
+   "score": 85,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "Loud sensors with a 5-year battery and SMS, app, and email alerts, selling 3K+ a month.",
+   "pros": [
+    "105 dB alarm",
+    "Up to 5-year battery",
+    "SMS, app, and email alerts",
+    "3K+ bought in the past month"
+   ],
+   "cons": [
+    "Needs Govee's gateway",
+    "No voice assistant integration named",
+    "4.2 stars"
+   ],
+   "specs": {
+    "connection": "Sub-1 GHz to Wi-Fi gateway",
+    "siren": "105 dB",
+    "pack": "3 sensors",
+    "power": "Up to 5 years",
+    "app": "Govee Home",
+    "extras": "SMS and email alerts"
+   },
+   "features": {
+    "siren": true,
+    "direct_wifi": false,
+    "multi": true
+   },
+   "image": "https://m.media-amazon.com/images/I/611tOn+Is2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQLDBXWF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DQLDBXWF"
+  },
+  {
    "rank": 6,
+   "asin": "B0F947BJVQ",
+   "name": "TECKNET WiFi Water Leak Detector, Smart Leak Sensor with App Alerts",
+   "brand": "TECKNET",
+   "model": "Wi-Fi water leak detector",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 420,
+   "score": 85,
+   "awards": [
+    "Best Single Sensor"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A rugged IP67 Tuya sensor with an adjustable 120 dB alarm.",
+   "pros": [
+    "IP67 waterproof housing",
+    "Six probes catch drips and pooling",
+    "Adjustable 120 dB alarm"
+   ],
+   "cons": [
+    "Some alert types need a subscription, per the listing",
+    "Voice assistants aren't named",
+    "4.3 stars"
+   ],
+   "specs": {
+    "connection": "Direct Wi-Fi",
+    "siren": "120 dB, adjustable",
+    "pack": "1 sensor",
+    "power": "Not listed",
+    "app": "Tuya Smart",
+    "extras": "IP67, 6 probes"
+   },
+   "features": {
+    "siren": true,
+    "direct_wifi": true,
+    "multi": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Yfzv6ReqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F947BJVQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0F947BJVQ"
+  },
+  {
+   "rank": 7,
+   "asin": "B0DPM4PYHJ",
+   "name": "Stechro Wi-Fi Water Leak Detector Kit, 120dB Alarm, 4 Water Sensors and 1 Gateway",
+   "brand": "Stechro",
+   "model": "WD77 kit with W13 gateway",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 128,
+   "score": 84,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Tuya leak kit with a gateway and adjustable 120 dB alarms.",
+   "pros": [
+    "Adjustable 120 dB alarm",
+    "Free app push alerts",
+    "3-year battery"
+   ],
+   "cons": [
+    "SMS, phone, and email alerts need a subscription",
+    "Only the WD77 model pairs with the gateway",
+    "$39.99"
+   ],
+   "specs": {
+    "connection": "Sensors to Wi-Fi gateway",
+    "siren": "120 dB, adjustable",
+    "pack": "Sensors + gateway",
+    "power": "Up to 3 years",
+    "app": "Tuya",
+    "extras": "Free app alerts"
+   },
+   "features": {
+    "siren": true,
+    "direct_wifi": false,
+    "multi": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61bpMBsni0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DPM4PYHJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DPM4PYHJ"
+  },
+  {
+   "rank": 8,
    "asin": "B083Z5Z9HM",
    "name": "YoLink Water Leak Sensor 1, 3-Pack, YS7903",
    "brand": "YoLink",
@@ -370,108 +472,6 @@
    "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B083Z5Z9HM"
   },
   {
-   "rank": 7,
-   "asin": "B0F947BJVQ",
-   "name": "TECKNET WiFi Water Leak Detector, Smart Leak Sensor with App Alerts",
-   "brand": "TECKNET",
-   "model": "Wi-Fi water leak detector",
-   "price": 24.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 420,
-   "score": 77,
-   "awards": [
-    "Best Single Sensor"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A rugged IP67 Tuya sensor with an adjustable 120 dB alarm.",
-   "pros": [
-    "IP67 waterproof housing",
-    "Six probes catch drips and pooling",
-    "Adjustable 120 dB alarm"
-   ],
-   "cons": [
-    "Some alert types need a subscription, per the listing",
-    "Voice assistants aren't named",
-    "4.3 stars"
-   ],
-   "specs": {
-    "connection": "Direct Wi-Fi",
-    "siren": "120 dB, adjustable",
-    "pack": "1 sensor",
-    "power": "Not listed",
-    "app": "Tuya Smart",
-    "extras": "IP67, 6 probes"
-   },
-   "features": {
-    "siren": true,
-    "direct_wifi": true,
-    "multi": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Yfzv6ReqL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F947BJVQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0F947BJVQ"
-  },
-  {
-   "rank": 8,
-   "asin": "B0DPM4PYHJ",
-   "name": "Stechro Wi-Fi Water Leak Detector Kit, 120dB Alarm, 4 Water Sensors and 1 Gateway",
-   "brand": "Stechro",
-   "model": "WD77 kit with W13 gateway",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 128,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A Tuya leak kit with a gateway and adjustable 120 dB alarms.",
-   "pros": [
-    "Adjustable 120 dB alarm",
-    "Free app push alerts",
-    "3-year battery"
-   ],
-   "cons": [
-    "SMS, phone, and email alerts need a subscription",
-    "Only the WD77 model pairs with the gateway",
-    "$39.99"
-   ],
-   "specs": {
-    "connection": "Sensors to Wi-Fi gateway",
-    "siren": "120 dB, adjustable",
-    "pack": "Sensors + gateway",
-    "power": "Up to 3 years",
-    "app": "Tuya",
-    "extras": "Free app alerts"
-   },
-   "features": {
-    "siren": true,
-    "direct_wifi": false,
-    "multi": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61bpMBsni0L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DPM4PYHJ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-leak-sensors.html#B0DPM4PYHJ"
-  },
-  {
    "rank": 9,
    "asin": "B0CHZ83LQD",
    "name": "Tapo Smart Water Leak Detector, Requires Tapo Hub, T300",
@@ -481,7 +481,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 546,
-   "score": 72,
+   "score": 80,
    "awards": [],
    "works_with": [],
    "works_with_note": "Tapo app (needs Tapo hub)",

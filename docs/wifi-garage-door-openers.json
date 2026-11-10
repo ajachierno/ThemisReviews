@@ -28,7 +28,7 @@
    "quiet": 0.25,
    "voice": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -120,6 +120,200 @@
   },
   {
    "rank": 2,
+   "asin": "B0FQYSF58M",
+   "name": "Chamberlain Belt Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
+   "brand": "Chamberlain",
+   "model": "Belt Drive myQ Opener 3/4 HP with camera",
+   "price": 248.86,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 263,
+   "score": 87,
+   "awards": [
+    "Best with Camera"
+   ],
+   "works_with": [],
+   "works_with_note": "myQ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A camera in the opener lets you check the garage from the myQ app.",
+   "pros": [
+    "Built-in 130° camera",
+    "Battery backup",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "Bulbs sold separately",
+    "$248.86",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "drive": "Belt",
+    "power": "3/4 HP DC",
+    "camera": "130° built-in",
+    "extras": "Battery backup, 2 LED bulb sockets"
+   },
+   "features": {
+    "battery": true,
+    "camera": true,
+    "quiet": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51a6rIzODyL._AC_SL1022_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQYSF58M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0FQYSF58M"
+  },
+  {
+   "rank": 3,
+   "asin": "B0C7K97GX2",
+   "name": "Chamberlain Wall Mount myQ Garage Door Opener, Battery Backup",
+   "brand": "Chamberlain",
+   "model": "Wall Mount myQ Opener",
+   "price": 521.8,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 647,
+   "score": 85,
+   "awards": [
+    "Best Premium"
+   ],
+   "works_with": [],
+   "works_with_note": "myQ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Mounts beside the door, so there's no rail on the ceiling and room for high-lift setups.",
+   "pros": [
+    "No ceiling rail",
+    "Handles tall and heavy doors",
+    "4.6 stars from 647 reviews"
+   ],
+   "cons": [
+    "$521.80",
+    "Motor rating isn't in the bullets",
+    "No camera"
+   ],
+   "specs": {
+    "drive": "Direct drive, wall mount",
+    "power": "Not stated in bullets",
+    "camera": "No",
+    "extras": "Battery backup, remote LED light"
+   },
+   "features": {
+    "battery": true,
+    "camera": false,
+    "quiet": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61a7AR3ufJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C7K97GX2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0C7K97GX2"
+  },
+  {
+   "rank": 4,
+   "asin": "B0G95ZTYDG",
+   "name": "Chamberlain 1 HP Belt Drive Smart Garage Door Opener with Built-in Camera, Single LED Lighting, Battery Backup, and myQ Connectivity",
+   "brand": "Chamberlain",
+   "model": "1 HP Belt Drive myQ Opener with camera",
+   "price": 325.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 39,
+   "score": 84,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "myQ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A 1 HP motor for heavy doors, with a camera and a 10-year warranty.",
+   "pros": [
+    "10-year motor and belt warranty",
+    "Built-in camera",
+    "1 HP"
+   ],
+   "cons": [
+    "Only 39 reviews",
+    "$325.00",
+    "Single light"
+   ],
+   "specs": {
+    "drive": "Belt",
+    "power": "1 HP DC",
+    "camera": "Built-in",
+    "extras": "Battery backup, 10-year motor and belt warranty"
+   },
+   "features": {
+    "battery": true,
+    "camera": true,
+    "quiet": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51DuiHvm2KL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G95ZTYDG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0G95ZTYDG"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FQYM9DQS",
+   "name": "Chamberlain Belt Drive myQ Garage Door Opener, 1/2 HP w/Battery Backup",
+   "brand": "Chamberlain",
+   "model": "Belt Drive myQ Opener 1/2 HP",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 205,
+   "score": 83,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "myQ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A quiet myQ opener with battery backup for standard doors.",
+   "pros": [
+    "Battery backup",
+    "5-year motor and belt warranty",
+    "4.4 stars"
+   ],
+   "cons": [
+    "One bulb socket, bulb sold separately",
+    "1/2 HP",
+    "Only 205 reviews"
+   ],
+   "specs": {
+    "drive": "Belt",
+    "power": "1/2 HP DC",
+    "camera": "No",
+    "extras": "Battery backup, 5-year motor and belt warranty"
+   },
+   "features": {
+    "battery": true,
+    "camera": false,
+    "quiet": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51OmrJKNSTL._AC_SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQYM9DQS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0FQYM9DQS"
+  },
+  {
+   "rank": 6,
    "asin": "B07MV2WHF4",
    "name": "Genie QuietLift Connect Wi-Fi Smart Garage Door Opener with Wireless Keypad, 3/4 HPc Belt Drive, Model 3053-TKV",
    "brand": "Genie",
@@ -128,7 +322,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2032,
-   "score": 79,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -170,200 +364,6 @@
    "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B07MV2WHF4"
   },
   {
-   "rank": 3,
-   "asin": "B0C7K97GX2",
-   "name": "Chamberlain Wall Mount myQ Garage Door Opener, Battery Backup",
-   "brand": "Chamberlain",
-   "model": "Wall Mount myQ Opener",
-   "price": 521.8,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 647,
-   "score": 78,
-   "awards": [
-    "Best Premium"
-   ],
-   "works_with": [],
-   "works_with_note": "myQ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Mounts beside the door, so there's no rail on the ceiling and room for high-lift setups.",
-   "pros": [
-    "No ceiling rail",
-    "Handles tall and heavy doors",
-    "4.6 stars from 647 reviews"
-   ],
-   "cons": [
-    "$521.80",
-    "Motor rating isn't in the bullets",
-    "No camera"
-   ],
-   "specs": {
-    "drive": "Direct drive, wall mount",
-    "power": "Not stated in bullets",
-    "camera": "No",
-    "extras": "Battery backup, remote LED light"
-   },
-   "features": {
-    "battery": true,
-    "camera": false,
-    "quiet": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61a7AR3ufJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C7K97GX2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0C7K97GX2"
-  },
-  {
-   "rank": 4,
-   "asin": "B0FQYSF58M",
-   "name": "Chamberlain Belt Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
-   "brand": "Chamberlain",
-   "model": "Belt Drive myQ Opener 3/4 HP with camera",
-   "price": 248.86,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 263,
-   "score": 78,
-   "awards": [
-    "Best with Camera"
-   ],
-   "works_with": [],
-   "works_with_note": "myQ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A camera in the opener lets you check the garage from the myQ app.",
-   "pros": [
-    "Built-in 130° camera",
-    "Battery backup",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "Bulbs sold separately",
-    "$248.86",
-    "Voice assistants aren't named in the bullets"
-   ],
-   "specs": {
-    "drive": "Belt",
-    "power": "3/4 HP DC",
-    "camera": "130° built-in",
-    "extras": "Battery backup, 2 LED bulb sockets"
-   },
-   "features": {
-    "battery": true,
-    "camera": true,
-    "quiet": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51a6rIzODyL._AC_SL1022_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQYSF58M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0FQYSF58M"
-  },
-  {
-   "rank": 5,
-   "asin": "B0G95ZTYDG",
-   "name": "Chamberlain 1 HP Belt Drive Smart Garage Door Opener with Built-in Camera, Single LED Lighting, Battery Backup, and myQ Connectivity",
-   "brand": "Chamberlain",
-   "model": "1 HP Belt Drive myQ Opener with camera",
-   "price": 325.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 39,
-   "score": 75,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "myQ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A 1 HP motor for heavy doors, with a camera and a 10-year warranty.",
-   "pros": [
-    "10-year motor and belt warranty",
-    "Built-in camera",
-    "1 HP"
-   ],
-   "cons": [
-    "Only 39 reviews",
-    "$325.00",
-    "Single light"
-   ],
-   "specs": {
-    "drive": "Belt",
-    "power": "1 HP DC",
-    "camera": "Built-in",
-    "extras": "Battery backup, 10-year motor and belt warranty"
-   },
-   "features": {
-    "battery": true,
-    "camera": true,
-    "quiet": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51DuiHvm2KL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G95ZTYDG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0G95ZTYDG"
-  },
-  {
-   "rank": 6,
-   "asin": "B0FQYM9DQS",
-   "name": "Chamberlain Belt Drive myQ Garage Door Opener, 1/2 HP w/Battery Backup",
-   "brand": "Chamberlain",
-   "model": "Belt Drive myQ Opener 1/2 HP",
-   "price": 219.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 205,
-   "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "myQ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A quiet myQ opener with battery backup for standard doors.",
-   "pros": [
-    "Battery backup",
-    "5-year motor and belt warranty",
-    "4.4 stars"
-   ],
-   "cons": [
-    "One bulb socket, bulb sold separately",
-    "1/2 HP",
-    "Only 205 reviews"
-   ],
-   "specs": {
-    "drive": "Belt",
-    "power": "1/2 HP DC",
-    "camera": "No",
-    "extras": "Battery backup, 5-year motor and belt warranty"
-   },
-   "features": {
-    "battery": true,
-    "camera": false,
-    "quiet": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51OmrJKNSTL._AC_SL1001_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQYM9DQS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-garage-door-openers.html#B0FQYM9DQS"
-  },
-  {
    "rank": 7,
    "asin": "B0FQXRQ561",
    "name": "Chamberlain Chain Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
@@ -373,7 +373,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 168,
-   "score": 72,
+   "score": 82,
    "awards": [],
    "works_with": [],
    "works_with_note": "myQ app",
@@ -420,7 +420,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 59,
-   "score": 71,
+   "score": 80,
    "awards": [],
    "works_with": [],
    "works_with_note": "Craftsman myQ app",
@@ -467,7 +467,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 511,
-   "score": 69,
+   "score": 77,
    "awards": [],
    "works_with": [],
    "works_with_note": "myQ app",

@@ -28,7 +28,7 @@
    "ethernet": 0.25,
    "usb_c": 0.15
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 567,
-   "score": 80,
+   "score": 84,
    "awards": [
     "Best Budget"
    ],
@@ -118,56 +118,6 @@
   },
   {
    "rank": 2,
-   "asin": "B08D5ZD528",
-   "name": "Aitrip ESP-WROOM-32 ESP32 Development Board, Dual-Mode WiFi + Bluetooth (3 Pack)",
-   "brand": "Aitrip",
-   "model": "ESP-WROOM-32 board",
-   "price": 16.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1288,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The most-reviewed generic ESP32 board here.",
-   "pros": [
-    "1,288 reviews",
-    "1K+ bought in the past month",
-    "Works with generic ESP32 proxy firmware"
-   ],
-   "cons": [
-    "No case",
-    "Pack size and USB type aren't in the bullets",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "chip": "ESP32 (WROOM-32)",
-    "connection": "Wi-Fi",
-    "case": false,
-    "setup": "ESPHome ready-made firmware (generic ESP32)",
-    "pack": "Not stated in bullets"
-   },
-   "features": {
-    "case": false,
-    "ready_firmware": true,
-    "ethernet": false,
-    "usb_c": false
-   },
-   "image": "https://m.media-amazon.com/images/I/610bpa9nnrL._AC_SL1001_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08D5ZD528?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B08D5ZD528"
-  },
-  {
-   "rank": 3,
    "asin": "B0D6LDXRJ4",
    "name": "M5Stack Official ATOM Lite Compact ESP32 IoT Development Kit, Grey",
    "brand": "M5Stack",
@@ -176,7 +126,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 76,
-   "score": 76,
+   "score": 83,
    "awards": [
     "Best Overall"
    ],
@@ -219,16 +169,16 @@
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0D6LDXRJ4"
   },
   {
-   "rank": 4,
-   "asin": "B0D6S1LD1G",
-   "name": "M5Stack Official ATOMS3 Lite ESP32S3 Dev Kit",
-   "brand": "M5Stack",
-   "model": "ATOMS3 Lite",
-   "price": 14.9,
+   "rank": 3,
+   "asin": "B08D5ZD528",
+   "name": "Aitrip ESP-WROOM-32 ESP32 Development Board, Dual-Mode WiFi + Bluetooth (3 Pack)",
+   "brand": "Aitrip",
+   "model": "ESP-WROOM-32 board",
+   "price": 16.99,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 32,
-   "score": 69,
+   "rating": 4.4,
+   "reviews_count": 1288,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -239,37 +189,37 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The newer ESP32-S3 Atom, with 8 MB of flash and an IR transmitter for extra projects.",
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The most-reviewed generic ESP32 board here.",
    "pros": [
-    "ESP32-S3 with 8 MB flash",
-    "Cased, with an IR LED and RGB LED",
-    "4.8 stars, sold by M5Stack"
+    "1,288 reviews",
+    "1K+ bought in the past month",
+    "Works with generic ESP32 proxy firmware"
    ],
    "cons": [
-    "Only 32 reviews",
-    "Wi-Fi only",
-    "Needs your own ESPHome config"
+    "No case",
+    "Pack size and USB type aren't in the bullets",
+    "Sold by the brand"
    ],
    "specs": {
-    "chip": "ESP32-S3",
+    "chip": "ESP32 (WROOM-32)",
     "connection": "Wi-Fi",
-    "case": true,
-    "setup": "ESPHome (custom config)",
-    "pack": "1"
+    "case": false,
+    "setup": "ESPHome ready-made firmware (generic ESP32)",
+    "pack": "Not stated in bullets"
    },
    "features": {
-    "case": true,
-    "ready_firmware": false,
+    "case": false,
+    "ready_firmware": true,
     "ethernet": false,
-    "usb_c": true
+    "usb_c": false
    },
-   "image": "https://m.media-amazon.com/images/I/5163fMrXJmL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D6S1LD1G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0D6S1LD1G"
+   "image": "https://m.media-amazon.com/images/I/610bpa9nnrL._AC_SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08D5ZD528?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B08D5ZD528"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B0D2NKVB34",
    "name": "Seeed Studio XIAO ESP32C6-2.4 GHz WiFi 6, Bluetooth 5.3, Zigbee, Thread (802.15.4), ESP Rain Maker, AWS IoT, Support Microsoft Azure, Smart Home",
    "brand": "Seeed Studio",
@@ -278,7 +228,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 167,
-   "score": 67,
+   "score": 75,
    "awards": [
     "Best Tiny Board"
    ],
@@ -322,7 +272,7 @@
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0D2NKVB34"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B0DSZBH9N9",
    "name": "6-Pack ESP32-DevKitC-32 Development Board, Type-C, 38-Pin",
    "brand": "XKD",
@@ -331,7 +281,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 79,
-   "score": 67,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -372,6 +322,56 @@
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DSZBH9N9"
   },
   {
+   "rank": 6,
+   "asin": "B0D6S1LD1G",
+   "name": "M5Stack Official ATOMS3 Lite ESP32S3 Dev Kit",
+   "brand": "M5Stack",
+   "model": "ATOMS3 Lite",
+   "price": 14.9,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 32,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The newer ESP32-S3 Atom, with 8 MB of flash and an IR transmitter for extra projects.",
+   "pros": [
+    "ESP32-S3 with 8 MB flash",
+    "Cased, with an IR LED and RGB LED",
+    "4.8 stars, sold by M5Stack"
+   ],
+   "cons": [
+    "Only 32 reviews",
+    "Wi-Fi only",
+    "Needs your own ESPHome config"
+   ],
+   "specs": {
+    "chip": "ESP32-S3",
+    "connection": "Wi-Fi",
+    "case": true,
+    "setup": "ESPHome (custom config)",
+    "pack": "1"
+   },
+   "features": {
+    "case": true,
+    "ready_firmware": false,
+    "ethernet": false,
+    "usb_c": true
+   },
+   "image": "https://m.media-amazon.com/images/I/5163fMrXJmL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D6S1LD1G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0D6S1LD1G"
+  },
+  {
    "rank": 7,
    "asin": "B0DKXFB7PW",
    "name": "ESP32-S3 PoE Ethernet Development Board, with POE Module, 240MHz",
@@ -381,7 +381,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 47,
-   "score": 67,
+   "score": 73,
    "awards": [
     "Best Ethernet (PoE)"
    ],
@@ -426,56 +426,6 @@
   },
   {
    "rank": 8,
-   "asin": "B0DKJ21JD4",
-   "name": "Waveshare ESP32-S3 ETH Development Board, 10/100 RJ45 Ethernet, PoE, OV2640 Camera Support",
-   "brand": "Waveshare",
-   "model": "ESP32-S3 ETH (camera + PoE)",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 31,
-   "score": 65,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Waveshare's Ethernet ESP32-S3 with the PoE module and a camera included.",
-   "pros": [
-    "PoE module included in this option",
-    "W5500 Ethernet",
-    "Sold by Waveshare"
-   ],
-   "cons": [
-    "$34.99 includes a camera you may not need",
-    "Only 31 reviews",
-    "Needs your own ESPHome config"
-   ],
-   "specs": {
-    "chip": "ESP32-S3",
-    "connection": "Ethernet, PoE (802.3af)",
-    "case": false,
-    "setup": "ESPHome (custom config)",
-    "pack": "1"
-   },
-   "features": {
-    "case": false,
-    "ready_firmware": false,
-    "ethernet": true,
-    "usb_c": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ahuLzAw3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DKJ21JD4?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DKJ21JD4"
-  },
-  {
-   "rank": 9,
    "asin": "B0DJ6N55FX",
    "name": "XIAO ESP32C6 3PCS Pack - 2.4GHz Wi-Fi 6, BLE 5.0, Zigbee, Matter, Thread, onboard Antenna and External Antenna Interface",
    "brand": "Seeed Studio",
@@ -484,7 +434,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 122,
-   "score": 64,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -525,6 +475,56 @@
    "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DJ6N55FX"
   },
   {
+   "rank": 9,
+   "asin": "B0DKJ21JD4",
+   "name": "Waveshare ESP32-S3 ETH Development Board, 10/100 RJ45 Ethernet, PoE, OV2640 Camera Support",
+   "brand": "Waveshare",
+   "model": "ESP32-S3 ETH (camera + PoE)",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 31,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Waveshare's Ethernet ESP32-S3 with the PoE module and a camera included.",
+   "pros": [
+    "PoE module included in this option",
+    "W5500 Ethernet",
+    "Sold by Waveshare"
+   ],
+   "cons": [
+    "$34.99 includes a camera you may not need",
+    "Only 31 reviews",
+    "Needs your own ESPHome config"
+   ],
+   "specs": {
+    "chip": "ESP32-S3",
+    "connection": "Ethernet, PoE (802.3af)",
+    "case": false,
+    "setup": "ESPHome (custom config)",
+    "pack": "1"
+   },
+   "features": {
+    "case": false,
+    "ready_firmware": false,
+    "ethernet": true,
+    "usb_c": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ahuLzAw3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DKJ21JD4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-proxies.html#B0DKJ21JD4"
+  },
+  {
    "rank": 10,
    "asin": "B0DRNSV5CS",
    "name": "Seeed Studio XIAO ESP32C3 (Pre-Soldered)",
@@ -534,7 +534,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 66,
-   "score": 63,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Home Assistant"

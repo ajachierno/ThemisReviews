@@ -28,7 +28,7 @@
    "color": 0.2,
    "multi_sensor": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,6 +59,61 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0BBH688XG",
+   "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
+   "brand": "Ambient Weather",
+   "model": "WS-1965",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 573,
+   "score": 88,
+   "awards": [
+    "Best Smart Home Station"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A complete Wi-Fi weather station that plugs into Alexa, Google Home, IFTTT, and Home Assistant.",
+   "pros": [
+    "All-in-one sensor array",
+    "16-second updates",
+    "Alexa, Google Home, and IFTTT",
+    "Official Home Assistant integration"
+   ],
+   "cons": [
+    "$149.99",
+    "4.2 stars",
+    "Some features depend on Ambient Weather Network"
+   ],
+   "specs": {
+    "measures": "Temp, humidity, pressure, wind, rain",
+    "display": "Color LCD",
+    "connection": "Wi-Fi",
+    "frequency": "Not stated in listing",
+    "range": "Not stated"
+   },
+   "features": {
+    "wind_rain": true,
+    "wifi": true,
+    "color": true,
+    "multi_sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BBH688XG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0BBH688XG"
+  },
+  {
+   "rank": 2,
    "asin": "B00N1XCA9M",
    "name": "AcuRite Iris (01512MCB) Indoor/Outdoor Wireless Weather Station, Color Screen",
    "brand": "AcuRite",
@@ -67,7 +122,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 7142,
-   "score": 80,
+   "score": 83,
    "awards": [
     "Best Overall"
    ],
@@ -108,7 +163,106 @@
    "page_url": "https://themisreviews.com/rf-weather-stations.html#B00N1XCA9M"
   },
   {
-   "rank": 2,
+   "rank": 3,
+   "asin": "B0H7RPJ912",
+   "name": "Sainlogic 5G/2.4G WiFi Weather Station, Indoor Outdoor Wireless Monitor",
+   "brand": "Sainlogic",
+   "model": "Wi-Fi weather station (newer)",
+   "price": 129.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 44,
+   "score": 83,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Sainlogic app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A Sainlogic Wi-Fi station with a leveled rain gauge and Bluetooth setup.",
+   "pros": [
+    "Rain gauge with bubble level",
+    "Dual-band Wi-Fi",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Only 44 reviews",
+    "Only 20 left at capture time",
+    "Wind sensing isn't mentioned"
+   ],
+   "specs": {
+    "measures": "Temp, humidity, rain",
+    "display": "Yes",
+    "connection": "Wi-Fi (2.4/5 GHz) + Bluetooth setup",
+    "frequency": "Not stated in listing",
+    "range": "443 ft."
+   },
+   "features": {
+    "wind_rain": true,
+    "wifi": true,
+    "color": false,
+    "multi_sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71T2SWVFiyL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7RPJ912?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0H7RPJ912"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CWL7ST6S",
+   "name": "DreamSky Weather Station Indoor Outdoor Thermometer Wireless, Atomic Clock",
+   "brand": "DreamSky",
+   "model": "Atomic clock weather station",
+   "price": 33.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3049,
+   "score": 80,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A $33.99 color station with WWVB atomic time, alerts, and up to 3 sensors.",
+   "pros": [
+    "$33.99",
+    "High/low temperature alerts",
+    "WWVB atomic clock with auto DST",
+    "4.4 stars"
+   ],
+   "cons": [
+    "No wind or rain",
+    "No Wi-Fi",
+    "Extra sensors sold separately"
+   ],
+   "specs": {
+    "measures": "Temp, humidity",
+    "display": "Color LCD",
+    "connection": "No",
+    "frequency": "Not stated in listing",
+    "range": "Not stated"
+   },
+   "features": {
+    "wind_rain": false,
+    "wifi": false,
+    "color": true,
+    "multi_sensor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71JHRI6aiVL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CWL7ST6S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0CWL7ST6S"
+  },
+  {
+   "rank": 5,
    "asin": "B0836CM7KY",
    "name": "Newentor Weather Station Wireless Indoor Outdoor Thermometer, Black,1Sensor",
    "brand": "Newentor",
@@ -156,113 +310,7 @@
    "page_url": "https://themisreviews.com/rf-weather-stations.html#B0836CM7KY"
   },
   {
-   "rank": 3,
-   "asin": "B0BBH688XG",
-   "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
-   "brand": "Ambient Weather",
-   "model": "WS-1965",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 573,
-   "score": 77,
-   "awards": [
-    "Best Smart Home Station"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A complete Wi-Fi weather station that plugs into Alexa, Google Home, IFTTT, and Home Assistant.",
-   "pros": [
-    "All-in-one sensor array",
-    "16-second updates",
-    "Alexa, Google Home, and IFTTT",
-    "Official Home Assistant integration"
-   ],
-   "cons": [
-    "$149.99",
-    "4.2 stars",
-    "Some features depend on Ambient Weather Network"
-   ],
-   "specs": {
-    "measures": "Temp, humidity, pressure, wind, rain",
-    "display": "Color LCD",
-    "connection": "Wi-Fi",
-    "frequency": "Not stated in listing",
-    "range": "Not stated"
-   },
-   "features": {
-    "wind_rain": true,
-    "wifi": true,
-    "color": true,
-    "multi_sensor": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BBH688XG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0BBH688XG"
-  },
-  {
-   "rank": 4,
-   "asin": "B0CWL7ST6S",
-   "name": "DreamSky Weather Station Indoor Outdoor Thermometer Wireless, Atomic Clock",
-   "brand": "DreamSky",
-   "model": "Atomic clock weather station",
-   "price": 33.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3049,
-   "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "Standalone display",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A $33.99 color station with WWVB atomic time, alerts, and up to 3 sensors.",
-   "pros": [
-    "$33.99",
-    "High/low temperature alerts",
-    "WWVB atomic clock with auto DST",
-    "4.4 stars"
-   ],
-   "cons": [
-    "No wind or rain",
-    "No Wi-Fi",
-    "Extra sensors sold separately"
-   ],
-   "specs": {
-    "measures": "Temp, humidity",
-    "display": "Color LCD",
-    "connection": "No",
-    "frequency": "Not stated in listing",
-    "range": "Not stated"
-   },
-   "features": {
-    "wind_rain": false,
-    "wifi": false,
-    "color": true,
-    "multi_sensor": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71JHRI6aiVL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CWL7ST6S?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0CWL7ST6S"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B00T0K8MNI",
    "name": "AcuRite Iris (5-in-1) Weather Sensor with Rain Gauge, Wind Speed, Wind Direction, Temperature and Humidity (06004M)",
    "brand": "AcuRite",
@@ -271,7 +319,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1697,
-   "score": 72,
+   "score": 79,
    "awards": [],
    "works_with": [],
    "works_with_note": "AcuRite 5-in-1 displays",
@@ -310,103 +358,7 @@
    "page_url": "https://themisreviews.com/rf-weather-stations.html#B00T0K8MNI"
   },
   {
-   "rank": 6,
-   "asin": "B0H7RPJ912",
-   "name": "Sainlogic 5G/2.4G WiFi Weather Station, Indoor Outdoor Wireless Monitor",
-   "brand": "Sainlogic",
-   "model": "Wi-Fi weather station (newer)",
-   "price": 129.98,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 44,
-   "score": 71,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Sainlogic app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A Sainlogic Wi-Fi station with a leveled rain gauge and Bluetooth setup.",
-   "pros": [
-    "Rain gauge with bubble level",
-    "Dual-band Wi-Fi",
-    "4.7 stars"
-   ],
-   "cons": [
-    "Only 44 reviews",
-    "Only 20 left at capture time",
-    "Wind sensing isn't mentioned"
-   ],
-   "specs": {
-    "measures": "Temp, humidity, rain",
-    "display": "Yes",
-    "connection": "Wi-Fi (2.4/5 GHz) + Bluetooth setup",
-    "frequency": "Not stated in listing",
-    "range": "443 ft."
-   },
-   "features": {
-    "wind_rain": true,
-    "wifi": true,
-    "color": false,
-    "multi_sensor": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71T2SWVFiyL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7RPJ912?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-weather-stations.html#B0H7RPJ912"
-  },
-  {
    "rank": 7,
-   "asin": "B016BERUKQ",
-   "name": "AcuRite Wireless Home Weather Station with Color Display, Indoor Outdoor Thermometer and Temperature Sensor (02077M)",
-   "brand": "AcuRite",
-   "model": "02077M color station",
-   "price": 58.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 6120,
-   "score": 70,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Standalone display",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "800+ bought in past month",
-   "verdict": "A cheap color station with a 12-hour forecast and moon phase.",
-   "pros": [
-    "$58.99",
-    "6,120 reviews, sold by Amazon",
-    "433 MHz stated"
-   ],
-   "cons": [
-    "No wind or rain",
-    "No Wi-Fi",
-    "Batteries not included for the sensor"
-   ],
-   "specs": {
-    "measures": "Temp, humidity",
-    "display": "Color LCD",
-    "connection": "No",
-    "frequency": "433 MHz",
-    "range": "Not stated"
-   },
-   "features": {
-    "wind_rain": false,
-    "wifi": false,
-    "color": true,
-    "multi_sensor": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81r8M5fSgDS._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B016BERUKQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-weather-stations.html#B016BERUKQ"
-  },
-  {
-   "rank": 8,
    "asin": "B0GKD6BZC6",
    "name": "BluSon Weather Station Wireless Indoor Outdoor Thermometer, Atomic Clock",
    "brand": "BluSon",
@@ -415,7 +367,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 259,
-   "score": 67,
+   "score": 78,
    "awards": [],
    "works_with": [],
    "works_with_note": "Standalone display",
@@ -454,7 +406,7 @@
    "page_url": "https://themisreviews.com/rf-weather-stations.html#B0GKD6BZC6"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B0B9HMYR9T",
    "name": "La Crosse Technology V11-TH Color Wireless WiFi Weather Station…",
    "brand": "La Crosse",
@@ -463,7 +415,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 81,
-   "score": 65,
+   "score": 76,
    "awards": [],
    "works_with": [],
    "works_with_note": "La Crosse View app",
@@ -500,6 +452,54 @@
    "image": "https://m.media-amazon.com/images/I/81Rqxhhh-rL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0B9HMYR9T?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/rf-weather-stations.html#B0B9HMYR9T"
+  },
+  {
+   "rank": 9,
+   "asin": "B016BERUKQ",
+   "name": "AcuRite Wireless Home Weather Station with Color Display, Indoor Outdoor Thermometer and Temperature Sensor (02077M)",
+   "brand": "AcuRite",
+   "model": "02077M color station",
+   "price": 58.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 6120,
+   "score": 74,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "800+ bought in past month",
+   "verdict": "A cheap color station with a 12-hour forecast and moon phase.",
+   "pros": [
+    "$58.99",
+    "6,120 reviews, sold by Amazon",
+    "433 MHz stated"
+   ],
+   "cons": [
+    "No wind or rain",
+    "No Wi-Fi",
+    "Batteries not included for the sensor"
+   ],
+   "specs": {
+    "measures": "Temp, humidity",
+    "display": "Color LCD",
+    "connection": "No",
+    "frequency": "433 MHz",
+    "range": "Not stated"
+   },
+   "features": {
+    "wind_rain": false,
+    "wifi": false,
+    "color": true,
+    "multi_sensor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81r8M5fSgDS._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B016BERUKQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-weather-stations.html#B016BERUKQ"
   }
  ],
  "avoid": [],

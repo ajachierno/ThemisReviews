@@ -28,7 +28,7 @@
    "touchscreen": 0.2,
    "auto_unlock": 0.25
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,218 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0DTBJJ8KR",
+   "name": "Kwikset HomeConnect 918 Contemporary Z-Wave Long Range Touchscreen Lock, Matte Black",
+   "brand": "Kwikset",
+   "model": "HomeConnect 918",
+   "price": 213.0,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 81,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Kwikset's touchscreen Z-Wave lock with Long Range and a contemporary look.",
+   "pros": [
+    "Touchscreen keypad",
+    "Z-Wave Long Range",
+    "100+ bought in the past month, sold by Amazon"
+   ],
+   "cons": [
+    "$213.00",
+    "Only 81 reviews",
+    "Needs a Z-Wave hub"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "entry": "Touchscreen",
+    "key": "Not stated in bullets",
+    "extras": "Contemporary design"
+   },
+   "features": {
+    "long_range": true,
+    "fingerprint": false,
+    "touchscreen": true,
+    "auto_unlock": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dO899XLrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DTBJJ8KR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0DTBJJ8KR"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DWGXFS8H",
+   "name": "Kwikset HomeConnect 620 Z-Wave Long Range Keypad Smart Lock, Ring Alarm Compatible, Satin Nickel",
+   "brand": "Kwikset",
+   "model": "HomeConnect 620",
+   "price": 113.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 369,
+   "score": 74,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The cheapest Long Range Z-Wave lock here, with S2 and SmartStart.",
+   "pros": [
+    "Z-Wave Long Range",
+    "S2 encryption and SmartStart",
+    "Works with Ring Alarm"
+   ],
+   "cons": [
+    "Sold by a third-party seller",
+    "Basic keypad, no fingerprint",
+    "4.1 stars"
+   ],
+   "specs": {
+    "series": "700 Series",
+    "entry": "Keypad",
+    "key": "Not stated in bullets",
+    "extras": "Custom user codes"
+   },
+   "features": {
+    "long_range": true,
+    "fingerprint": false,
+    "touchscreen": false,
+    "auto_unlock": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71rfV7RloQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DWGXFS8H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0DWGXFS8H"
+  },
+  {
+   "rank": 3,
+   "asin": "B0GT9NHTNB",
+   "name": "ULTRALOQ Bolt Z-Wave Deadbolt Smart Lock with 800 Series Z-Wave Long Range",
+   "brand": "ULTRALOQ",
+   "model": "Bolt Z-Wave",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 63,
+   "score": 74,
+   "awards": [
+    "Best Long Range"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A current 800 Series Long Range lock that names Home Assistant, SmartThings, and Alarm.com in the listing.",
+   "pros": [
+    "800 Series Long Range (Silicon Labs ZG28)",
+    "Lists Home Assistant, SmartThings, and Alarm.com",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Only 63 reviews",
+    "Sold by the brand",
+    "$179.99"
+   ],
+   "specs": {
+    "series": "800 Series (ZG28)",
+    "entry": "Keypad",
+    "key": "Not stated in bullets",
+    "extras": "Remote access through your hub"
+   },
+   "features": {
+    "long_range": true,
+    "fingerprint": false,
+    "touchscreen": false,
+    "auto_unlock": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61+zned4g4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GT9NHTNB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0GT9NHTNB"
+  },
+  {
+   "rank": 4,
+   "asin": "B07XHNZH2W",
+   "name": "Yale Assure Lock Touchscreen Deadbolt with Z-Wave, Black Suede",
+   "brand": "Yale",
+   "model": "Assure Lock Touchscreen (Z-Wave)",
+   "price": 190.01,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 224,
+   "score": 73,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Yale's original Assure touchscreen with Z-Wave, guaranteed to fit standard doors.",
+   "pros": [
+    "Easy install, guaranteed fit on standard doors",
+    "Works with SmartThings, Ring Alarm, and other Z-Wave systems",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "No physical key",
+    "$190.01",
+    "Older Assure generation"
+   ],
+   "specs": {
+    "series": "Z-Wave",
+    "entry": "Touchscreen",
+    "key": "No (key-free)",
+    "extras": "Fits doors 1-3/4 to 2-1/4 in."
+   },
+   "features": {
+    "long_range": false,
+    "fingerprint": false,
+    "touchscreen": true,
+    "auto_unlock": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61jiNvQ0X7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07XHNZH2W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B07XHNZH2W"
+  },
+  {
+   "rank": 5,
    "asin": "B07KQPQMXS",
    "name": "Schlage Connect Smart Deadbolt Lock with Camelot Trim, Satin Nickel",
    "brand": "Schlage",
@@ -120,167 +332,7 @@
    "page_url": "https://themisreviews.com/z-wave-door-locks.html#B07KQPQMXS"
   },
   {
-   "rank": 2,
-   "asin": "B0DWGXFS8H",
-   "name": "Kwikset HomeConnect 620 Z-Wave Long Range Keypad Smart Lock, Ring Alarm Compatible, Satin Nickel",
-   "brand": "Kwikset",
-   "model": "HomeConnect 620",
-   "price": 113.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 369,
-   "score": 65,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The cheapest Long Range Z-Wave lock here, with S2 and SmartStart.",
-   "pros": [
-    "Z-Wave Long Range",
-    "S2 encryption and SmartStart",
-    "Works with Ring Alarm"
-   ],
-   "cons": [
-    "Sold by a third-party seller",
-    "Basic keypad, no fingerprint",
-    "4.1 stars"
-   ],
-   "specs": {
-    "series": "700 Series",
-    "entry": "Keypad",
-    "key": "Not stated in bullets",
-    "extras": "Custom user codes"
-   },
-   "features": {
-    "long_range": true,
-    "fingerprint": false,
-    "touchscreen": false,
-    "auto_unlock": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71rfV7RloQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DWGXFS8H?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0DWGXFS8H"
-  },
-  {
-   "rank": 3,
-   "asin": "B0DTBJJ8KR",
-   "name": "Kwikset HomeConnect 918 Contemporary Z-Wave Long Range Touchscreen Lock, Matte Black",
-   "brand": "Kwikset",
-   "model": "HomeConnect 918",
-   "price": 213.0,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 81,
-   "score": 65,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Kwikset's touchscreen Z-Wave lock with Long Range and a contemporary look.",
-   "pros": [
-    "Touchscreen keypad",
-    "Z-Wave Long Range",
-    "100+ bought in the past month, sold by Amazon"
-   ],
-   "cons": [
-    "$213.00",
-    "Only 81 reviews",
-    "Needs a Z-Wave hub"
-   ],
-   "specs": {
-    "series": "700 Series",
-    "entry": "Touchscreen",
-    "key": "Not stated in bullets",
-    "extras": "Contemporary design"
-   },
-   "features": {
-    "long_range": true,
-    "fingerprint": false,
-    "touchscreen": true,
-    "auto_unlock": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61dO899XLrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DTBJJ8KR?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0DTBJJ8KR"
-  },
-  {
-   "rank": 4,
-   "asin": "B0GT9NHTNB",
-   "name": "ULTRALOQ Bolt Z-Wave Deadbolt Smart Lock with 800 Series Z-Wave Long Range",
-   "brand": "ULTRALOQ",
-   "model": "Bolt Z-Wave",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 63,
-   "score": 63,
-   "awards": [
-    "Best Long Range"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A current 800 Series Long Range lock that names Home Assistant, SmartThings, and Alarm.com in the listing.",
-   "pros": [
-    "800 Series Long Range (Silicon Labs ZG28)",
-    "Lists Home Assistant, SmartThings, and Alarm.com",
-    "4.3 stars"
-   ],
-   "cons": [
-    "Only 63 reviews",
-    "Sold by the brand",
-    "$179.99"
-   ],
-   "specs": {
-    "series": "800 Series (ZG28)",
-    "entry": "Keypad",
-    "key": "Not stated in bullets",
-    "extras": "Remote access through your hub"
-   },
-   "features": {
-    "long_range": true,
-    "fingerprint": false,
-    "touchscreen": false,
-    "auto_unlock": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61+zned4g4L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GT9NHTNB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0GT9NHTNB"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0BMSVX3Z2",
    "name": "Yale Assure Lock 2 Touchscreen Deadbolt with Z-Wave, Key-Free, Black Suede (YRD450-ZW2-BSP)",
    "brand": "Yale",
@@ -289,7 +341,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 38,
-   "score": 62,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -332,58 +384,6 @@
    "page_url": "https://themisreviews.com/z-wave-door-locks.html#B0BMSVX3Z2"
   },
   {
-   "rank": 6,
-   "asin": "B07XHNZH2W",
-   "name": "Yale Assure Lock Touchscreen Deadbolt with Z-Wave, Black Suede",
-   "brand": "Yale",
-   "model": "Assure Lock Touchscreen (Z-Wave)",
-   "price": 190.01,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 224,
-   "score": 61,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Yale's original Assure touchscreen with Z-Wave, guaranteed to fit standard doors.",
-   "pros": [
-    "Easy install, guaranteed fit on standard doors",
-    "Works with SmartThings, Ring Alarm, and other Z-Wave systems",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "No physical key",
-    "$190.01",
-    "Older Assure generation"
-   ],
-   "specs": {
-    "series": "Z-Wave",
-    "entry": "Touchscreen",
-    "key": "No (key-free)",
-    "extras": "Fits doors 1-3/4 to 2-1/4 in."
-   },
-   "features": {
-    "long_range": false,
-    "fingerprint": false,
-    "touchscreen": true,
-    "auto_unlock": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61jiNvQ0X7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07XHNZH2W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-locks.html#B07XHNZH2W"
-  },
-  {
    "rank": 7,
    "asin": "B0D97134GL",
    "name": "Yale Z-Wave Smart Lock Deadbolt, Keypad & Fingerprint Access, Keyless Entry",
@@ -393,7 +393,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 53,
-   "score": 59,
+   "score": 67,
    "awards": [
     "Best Fingerprint"
    ],
@@ -447,7 +447,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 80,
-   "score": 56,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Home Assistant",

@@ -27,7 +27,7 @@
    "extra_sensors": 0.4,
    "recessed": 0.2
   },
-  "reviews_ceiling": 400,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 186,
-   "score": 73,
+   "score": 77,
    "awards": [
     "Best Overall"
    ],
@@ -120,6 +120,61 @@
   },
   {
    "rank": 2,
+   "asin": "B0GR6BB2YT",
+   "name": "Aeotec Door Window Sensor 8, Z-Wave Long Range 800 Series, Open/Close, Temperature and Humidity",
+   "brand": "Aeotec",
+   "model": "Door Window Sensor 8",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 16,
+   "score": 73,
+   "awards": [
+    "Most Sensors"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A contact sensor that also tracks tilt, vibration, temperature, and humidity, with mold-risk alerts.",
+   "pros": [
+    "Open/close, tilt, and vibration",
+    "Temperature and humidity with dew point and mold hazard alerts",
+    "Z-Wave Long Range",
+    "Tamper alert"
+   ],
+   "cons": [
+    "Only 16 reviews",
+    "Larger than single-purpose sensors",
+    "$39.99"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "mount": "Surface",
+    "extras": "Tilt, vibration, temperature, humidity",
+    "hub": "Any Z-Wave hub",
+    "battery": "Not listed"
+   },
+   "features": {
+    "long_range": true,
+    "extra_sensors": true,
+    "recessed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61uR59Fo6yL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR6BB2YT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B0GR6BB2YT"
+  },
+  {
+   "rank": 3,
    "asin": "B07ZB2QLC2",
    "name": "Ring Alarm Contact Sensor (2nd Gen), Window and Door Alerts, Base Station Required",
    "brand": "Ring",
@@ -169,61 +224,6 @@
    "image": "https://m.media-amazon.com/images/I/51RDFM5cidL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07ZB2QLC2?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B07ZB2QLC2"
-  },
-  {
-   "rank": 3,
-   "asin": "B0GR6BB2YT",
-   "name": "Aeotec Door Window Sensor 8, Z-Wave Long Range 800 Series, Open/Close, Temperature and Humidity",
-   "brand": "Aeotec",
-   "model": "Door Window Sensor 8",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 16,
-   "score": 71,
-   "awards": [
-    "Most Sensors"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A contact sensor that also tracks tilt, vibration, temperature, and humidity, with mold-risk alerts.",
-   "pros": [
-    "Open/close, tilt, and vibration",
-    "Temperature and humidity with dew point and mold hazard alerts",
-    "Z-Wave Long Range",
-    "Tamper alert"
-   ],
-   "cons": [
-    "Only 16 reviews",
-    "Larger than single-purpose sensors",
-    "$39.99"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "mount": "Surface",
-    "extras": "Tilt, vibration, temperature, humidity",
-    "hub": "Any Z-Wave hub",
-    "battery": "Not listed"
-   },
-   "features": {
-    "long_range": true,
-    "extra_sensors": true,
-    "recessed": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61uR59Fo6yL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR6BB2YT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-door-sensors.html#B0GR6BB2YT"
   },
   {
    "rank": 4,
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 112,
-   "score": 66,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -341,7 +341,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 20,
-   "score": 66,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -393,7 +393,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 47,
-   "score": 57,
+   "score": 60,
    "awards": [],
    "works_with": [
     "Home Assistant",

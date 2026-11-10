@@ -28,7 +28,7 @@
    "antenna": 0.25,
    "network": 0.2
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,112 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0FMJH4DPN",
+   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
+   "brand": "SONOFF",
+   "model": "Dongle Max (Dongle-M)",
+   "price": 42.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 702,
+   "score": 86,
+   "awards": [
+    "Best Network Coordinator"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A Zigbee or Thread radio that sits on your network, so it can go in the middle of the house.",
+   "pros": [
+    "Ethernet, Wi-Fi, or USB",
+    "Two adjustable 5 dBi antennas",
+    "Web console with firmware switching",
+    "Aluminum case"
+   ],
+   "cons": [
+    "4.3 stars",
+    "$42.90",
+    "Network setup takes more work than a USB stick"
+   ],
+   "specs": {
+    "type": "Network coordinator",
+    "chip": "EFR32MG24",
+    "thread": true,
+    "connection": "Ethernet/PoE, Wi-Fi, USB",
+    "needs": "Hub software on your network"
+   },
+   "features": {
+    "standalone": false,
+    "thread": true,
+    "antenna": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0FMJH4DPN"
+  },
+  {
+   "rank": 2,
+   "asin": "B0FMJD288B",
+   "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24 (Dongle-PMG24)",
+   "brand": "SONOFF",
+   "model": "Dongle Plus MG24",
+   "price": 35.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 766,
+   "score": 84,
+   "awards": [
+    "Best Zigbee + Thread"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "SONOFF's newest stick, with a faster chip and firmware that switches between Zigbee and Thread.",
+   "pros": [
+    "Newer EFR32MG24 chip",
+    "Flash as Zigbee coordinator, router, or Thread RCP",
+    "USB extension cable included",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "$35.90",
+    "Runs Zigbee or Thread, one at a time",
+    "Needs a computer running hub software"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "chip": "EFR32MG24",
+    "thread": true,
+    "connection": "USB",
+    "needs": "Home Assistant, Zigbee2MQTT, or openHAB"
+   },
+   "features": {
+    "standalone": false,
+    "thread": true,
+    "antenna": true,
+    "network": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41cndlAw3bL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMJD288B?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0FMJD288B"
+  },
+  {
+   "rank": 3,
    "asin": "B016H0QZ7I",
    "name": "Philips Hue Bridge, Smart Lighting Hub with Multi-Room and Out-of-Home Control, Matter-Compatible",
    "brand": "Philips Hue",
@@ -124,19 +230,17 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B016H0QZ7I"
   },
   {
-   "rank": 2,
-   "asin": "B0FMJH4DPN",
-   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
+   "rank": 4,
+   "asin": "B0H5HYZ3LP",
+   "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)",
    "brand": "SONOFF",
-   "model": "Dongle Max (Dongle-M)",
-   "price": 42.9,
+   "model": "Dongle Plus PP10",
+   "price": 35.9,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 702,
-   "score": 80,
-   "awards": [
-    "Best Network Coordinator"
-   ],
+   "rating": 4.4,
+   "reviews_count": 116,
+   "score": 82,
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -146,38 +250,87 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A Zigbee or Thread radio that sits on your network, so it can go in the middle of the house.",
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A high-power TI stick built for large Zigbee or Thread networks.",
    "pros": [
-    "Ethernet, Wi-Fi, or USB",
-    "Two adjustable 5 dBi antennas",
-    "Web console with firmware switching",
-    "Aluminum case"
+    "TI CC2674P10 chip for large networks",
+    "4.5 dBi antenna, 20 dBm output",
+    "2-year warranty"
    ],
    "cons": [
-    "4.3 stars",
-    "$42.90",
-    "Network setup takes more work than a USB stick"
+    "Only 116 reviews",
+    "$35.90",
+    "Needs a computer running hub software"
    ],
    "specs": {
-    "type": "Network coordinator",
-    "chip": "EFR32MG24",
+    "type": "USB stick",
+    "chip": "TI CC2674P10",
     "thread": true,
-    "connection": "Ethernet/PoE, Wi-Fi, USB",
-    "needs": "Hub software on your network"
+    "connection": "USB",
+    "needs": "Home Assistant, Zigbee2MQTT, or OTBR"
    },
    "features": {
     "standalone": false,
     "thread": true,
     "antenna": true,
-    "network": true
+    "network": false
    },
-   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0FMJH4DPN"
+   "image": "https://m.media-amazon.com/images/I/61YdfBJjNPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5HYZ3LP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0H5HYZ3LP"
   },
   {
-   "rank": 3,
+   "rank": 5,
+   "asin": "B0D737SJ5G",
+   "name": "SMLIGHT SLZB-07 Zigbee 3.0 Coordinator Thread/Matter Mini USB Adapter Works with Zigbee2MQTT, Home Assistant, ZHA",
+   "brand": "SMLIGHT",
+   "model": "SLZB-07",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 141,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A mini SMLIGHT stick with an amplifier and antenna, pre-flashed for ZHA and Zigbee2MQTT.",
+   "pros": [
+    "+20 dB amplifier and 3 dB antenna",
+    "Coordinator or router firmware",
+    "Autoflash over USB"
+   ],
+   "cons": [
+    "Thread support is experimental, per the listing",
+    "Sold by a reseller",
+    "Only 141 reviews"
+   ],
+   "specs": {
+    "type": "USB stick",
+    "chip": "EFR32MG21",
+    "thread": true,
+    "connection": "USB",
+    "needs": "Home Assistant (ZHA) or Zigbee2MQTT"
+   },
+   "features": {
+    "standalone": false,
+    "thread": true,
+    "antenna": true,
+    "network": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51s1YJkJDFL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D737SJ5G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0D737SJ5G"
+  },
+  {
+   "rank": 6,
    "asin": "B09KXTCMSC",
    "name": "SONOFF Zigbee 3.0 USB Dongle Plus Gateway with Antenna for Home Assistant (1 Pack)",
    "brand": "SONOFF",
@@ -227,60 +380,7 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B09KXTCMSC"
   },
   {
-   "rank": 4,
-   "asin": "B0FMJD288B",
-   "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24 (Dongle-PMG24)",
-   "brand": "SONOFF",
-   "model": "Dongle Plus MG24",
-   "price": 35.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 766,
-   "score": 78,
-   "awards": [
-    "Best Zigbee + Thread"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "SONOFF's newest stick, with a faster chip and firmware that switches between Zigbee and Thread.",
-   "pros": [
-    "Newer EFR32MG24 chip",
-    "Flash as Zigbee coordinator, router, or Thread RCP",
-    "USB extension cable included",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "$35.90",
-    "Runs Zigbee or Thread, one at a time",
-    "Needs a computer running hub software"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "chip": "EFR32MG24",
-    "thread": true,
-    "connection": "USB",
-    "needs": "Home Assistant, Zigbee2MQTT, or openHAB"
-   },
-   "features": {
-    "standalone": false,
-    "thread": true,
-    "antenna": true,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41cndlAw3bL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMJD288B?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0FMJD288B"
-  },
-  {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0B6P22YJC",
    "name": "SONOFF Zigbee USB Dongle Plus (ZBDongle-E)",
    "brand": "SONOFF",
@@ -289,7 +389,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3820,
-   "score": 76,
+   "score": 78,
    "awards": [
     "Best Overall"
    ],
@@ -333,7 +433,7 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0B6P22YJC"
   },
   {
-   "rank": 6,
+   "rank": 8,
    "asin": "B0G2LTBM1M",
    "name": "SONOFF Zigbee 3.0 & Thread USB Dongle (Dongle-LMG21)",
    "brand": "SONOFF",
@@ -342,7 +442,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 489,
-   "score": 71,
+   "score": 78,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -383,156 +483,7 @@
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0G2LTBM1M"
   },
   {
-   "rank": 7,
-   "asin": "B0H5HYZ3LP",
-   "name": "SONOFF Zigbee USB Dongle Plus CC2674P10(Dongle-PP10)",
-   "brand": "SONOFF",
-   "model": "Dongle Plus PP10",
-   "price": 35.9,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 116,
-   "score": 71,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A high-power TI stick built for large Zigbee or Thread networks.",
-   "pros": [
-    "TI CC2674P10 chip for large networks",
-    "4.5 dBi antenna, 20 dBm output",
-    "2-year warranty"
-   ],
-   "cons": [
-    "Only 116 reviews",
-    "$35.90",
-    "Needs a computer running hub software"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "chip": "TI CC2674P10",
-    "thread": true,
-    "connection": "USB",
-    "needs": "Home Assistant, Zigbee2MQTT, or OTBR"
-   },
-   "features": {
-    "standalone": false,
-    "thread": true,
-    "antenna": true,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61YdfBJjNPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5HYZ3LP?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0H5HYZ3LP"
-  },
-  {
-   "rank": 8,
-   "asin": "B09ZQQZSQZ",
-   "name": "SONOFF Zigbee Bridge Pro Hub, ZigBee 3.0 Smart Gateway, APP Control and Multi-Device Management, Compatible with SONOFF Zigbee Devices",
-   "brand": "SONOFF",
-   "model": "Zigbee Bridge Pro",
-   "price": 24.9,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 2710,
-   "score": 70,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "eWeLink app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A cheap app hub for SONOFF's own Zigbee devices, with local scenes and up to 128 devices.",
-   "pros": [
-    "$24.90",
-    "Up to 128 devices",
-    "Local scenes keep running when the internet is down",
-    "2,710 reviews"
-   ],
-   "cons": [
-    "The listing names only SONOFF Zigbee devices",
-    "3.9 stars",
-    "Voice assistants aren't named in the bullets"
-   ],
-   "specs": {
-    "type": "Hub",
-    "chip": "Not listed",
-    "thread": false,
-    "connection": "Wi-Fi",
-    "needs": "eWeLink app"
-   },
-   "features": {
-    "standalone": true,
-    "thread": false,
-    "antenna": false,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41BLJCsSf6L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09ZQQZSQZ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B09ZQQZSQZ"
-  },
-  {
    "rank": 9,
-   "asin": "B0D737SJ5G",
-   "name": "SMLIGHT SLZB-07 Zigbee 3.0 Coordinator Thread/Matter Mini USB Adapter Works with Zigbee2MQTT, Home Assistant, ZHA",
-   "brand": "SMLIGHT",
-   "model": "SLZB-07",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 141,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A mini SMLIGHT stick with an amplifier and antenna, pre-flashed for ZHA and Zigbee2MQTT.",
-   "pros": [
-    "+20 dB amplifier and 3 dB antenna",
-    "Coordinator or router firmware",
-    "Autoflash over USB"
-   ],
-   "cons": [
-    "Thread support is experimental, per the listing",
-    "Sold by a reseller",
-    "Only 141 reviews"
-   ],
-   "specs": {
-    "type": "USB stick",
-    "chip": "EFR32MG21",
-    "thread": true,
-    "connection": "USB",
-    "needs": "Home Assistant (ZHA) or Zigbee2MQTT"
-   },
-   "features": {
-    "standalone": false,
-    "thread": true,
-    "antenna": true,
-    "network": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51s1YJkJDFL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D737SJ5G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0D737SJ5G"
-  },
-  {
-   "rank": 10,
    "asin": "B0H7BQVT8F",
    "name": "SONOFF Bridge Max Smart Home Hub (Bridge-M)",
    "brand": "SONOFF",
@@ -541,7 +492,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 73,
-   "score": 65,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -584,6 +535,55 @@
    "image": "https://m.media-amazon.com/images/I/61K5+FIpVpL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0H7BQVT8F?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-coordinators.html#B0H7BQVT8F"
+  },
+  {
+   "rank": 10,
+   "asin": "B09ZQQZSQZ",
+   "name": "SONOFF Zigbee Bridge Pro Hub, ZigBee 3.0 Smart Gateway, APP Control and Multi-Device Management, Compatible with SONOFF Zigbee Devices",
+   "brand": "SONOFF",
+   "model": "Zigbee Bridge Pro",
+   "price": 24.9,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 2710,
+   "score": 73,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "eWeLink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheap app hub for SONOFF's own Zigbee devices, with local scenes and up to 128 devices.",
+   "pros": [
+    "$24.90",
+    "Up to 128 devices",
+    "Local scenes keep running when the internet is down",
+    "2,710 reviews"
+   ],
+   "cons": [
+    "The listing names only SONOFF Zigbee devices",
+    "3.9 stars",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "type": "Hub",
+    "chip": "Not listed",
+    "thread": false,
+    "connection": "Wi-Fi",
+    "needs": "eWeLink app"
+   },
+   "features": {
+    "standalone": true,
+    "thread": false,
+    "antenna": false,
+    "network": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41BLJCsSf6L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09ZQQZSQZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-coordinators.html#B09ZQQZSQZ"
   }
  ],
  "avoid": [

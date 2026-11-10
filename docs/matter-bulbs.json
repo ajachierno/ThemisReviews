@@ -27,7 +27,7 @@
    "special_shape": 0.25,
    "thread": 0.25
   },
-  "reviews_ceiling": 2500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,6 +65,120 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0DN63SFWL",
+   "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
+   "brand": "Aqara",
+   "model": "LED Bulb T2",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 238,
+   "score": 86,
+   "awards": [
+    "Best Thread Bulb"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The Thread option: a bright Matter-over-Thread bulb that doesn't touch your Wi-Fi.",
+   "pros": [
+    "Matter over Thread, or Zigbee",
+    "1,100 lumens",
+    "300+ bought in the past month"
+   ],
+   "cons": [
+    "Needs a Thread border router for Matter",
+    "4.1 stars",
+    "$23.99 for one"
+   ],
+   "specs": {
+    "radio": "Thread (or Zigbee)",
+    "light": "Color + wide-range white",
+    "lumens": "1,100 lm",
+    "shape": "A19 (E26)",
+    "pack": "1 bulb"
+   },
+   "features": {
+    "bright": true,
+    "special_shape": false,
+    "thread": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61BfImmeqrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DN63SFWL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-bulbs.html#B0DN63SFWL"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CW1RBHGS",
+   "name": "Linkind Matter Smart Light Bulbs, Work with Apple Home, Alexa, Siri, Google",
+   "brand": "Linkind",
+   "model": "Matter 1600 lm",
+   "price": 22.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 167,
+   "score": 82,
+   "awards": [
+    "Brightest"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The brightest Matter bulb here, for rooms with one main light.",
+   "pros": [
+    "1,600 lumens",
+    "4.5 stars",
+    "Works without a hub through the AiDot app"
+   ],
+   "cons": [
+    "Only 167 reviews",
+    "Pack size isn't stated",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "light": "Color + white",
+    "lumens": "1,600 lm",
+    "shape": "Not listed",
+    "pack": "Not stated"
+   },
+   "features": {
+    "bright": true,
+    "special_shape": false,
+    "thread": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61W9wz-M4iL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CW1RBHGS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-bulbs.html#B0CW1RBHGS"
+  },
+  {
+   "rank": 3,
    "asin": "B0CFG9SHPQ",
    "name": "Tapo Multicolor Dimmable Smart Light Bulbs, L535E(2-Pack), A19 E26, 1100LM",
    "brand": "Tapo",
@@ -73,7 +187,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1679,
-   "score": 80,
+   "score": 81,
    "awards": [
     "Best Overall"
    ],
@@ -122,7 +236,7 @@
    "page_url": "https://themisreviews.com/matter-bulbs.html#B0CFG9SHPQ"
   },
   {
-   "rank": 2,
+   "rank": 4,
    "asin": "B0FGK5D33V",
    "name": "Nanoleaf Essentials Smart Light Bulbs, Matter LED Bulbs A19 E26 60W 2PK",
    "brand": "Nanoleaf",
@@ -177,76 +291,17 @@
    "page_url": "https://themisreviews.com/matter-bulbs.html#B0FGK5D33V"
   },
   {
-   "rank": 3,
-   "asin": "B0DN63SFWL",
-   "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
-   "brand": "Aqara",
-   "model": "LED Bulb T2",
-   "price": 23.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 238,
-   "score": 77,
-   "awards": [
-    "Best Thread Bulb"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The Thread option: a bright Matter-over-Thread bulb that doesn't touch your Wi-Fi.",
-   "pros": [
-    "Matter over Thread, or Zigbee",
-    "1,100 lumens",
-    "300+ bought in the past month"
-   ],
-   "cons": [
-    "Needs a Thread border router for Matter",
-    "4.1 stars",
-    "$23.99 for one"
-   ],
-   "specs": {
-    "radio": "Thread (or Zigbee)",
-    "light": "Color + wide-range white",
-    "lumens": "1,100 lm",
-    "shape": "A19 (E26)",
-    "pack": "1 bulb"
-   },
-   "features": {
-    "bright": true,
-    "special_shape": false,
-    "thread": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61BfImmeqrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DN63SFWL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-bulbs.html#B0DN63SFWL"
-  },
-  {
-   "rank": 4,
-   "asin": "B0CW1RBHGS",
-   "name": "Linkind Matter Smart Light Bulbs, Work with Apple Home, Alexa, Siri, Google",
+   "rank": 5,
+   "asin": "B0BVB24KYL",
+   "name": "Linkind Matter Smart Edison Light Bulbs, ST19 (58) Vintage Bulbs, 4 Pack",
    "brand": "Linkind",
-   "model": "Matter 1600 lm",
-   "price": 22.0,
+   "model": "Matter Edison ST19 (4-pack)",
+   "price": 36.54,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 167,
-   "score": 73,
-   "awards": [
-    "Brightest"
-   ],
+   "rating": 4.4,
+   "reviews_count": 198,
+   "score": 76,
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -262,36 +317,91 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The brightest Matter bulb here, for rooms with one main light.",
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Vintage-style Edison bulbs with Matter, for exposed fixtures.",
    "pros": [
-    "1,600 lumens",
-    "4.5 stars",
-    "Works without a hub through the AiDot app"
+    "ST19 Edison look",
+    "Four bulbs",
+    "4.4 stars"
    ],
    "cons": [
-    "Only 167 reviews",
-    "Pack size isn't stated",
+    "Brightness and color options aren't in the bullets",
+    "198 reviews",
+    "$36.54"
+   ],
+   "specs": {
+    "radio": "Wi-Fi",
+    "light": "Not listed",
+    "lumens": "Not listed",
+    "shape": "ST19 Edison",
+    "pack": "4 bulbs"
+   },
+   "features": {
+    "bright": false,
+    "special_shape": true,
+    "thread": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71MTGizbJCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BVB24KYL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-bulbs.html#B0BVB24KYL"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BJTFQKB9",
+   "name": "Linkind Matter BR30 Smart Light Bulbs, Alexa/Apple/Google Home, 4 Pack",
+   "brand": "Linkind",
+   "model": "Matter BR30 (4-pack)",
+   "price": 29.97,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 570,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Four Matter BR30 bulbs for recessed cans.",
+   "pros": [
+    "BR30 for recessed lights",
+    "About $7.50 per bulb",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "Brightness isn't listed",
+    "4.2 stars",
     "Sold by the brand"
    ],
    "specs": {
     "radio": "Wi-Fi",
     "light": "Color + white",
-    "lumens": "1,600 lm",
-    "shape": "Not listed",
-    "pack": "Not stated"
+    "lumens": "Not listed",
+    "shape": "BR30 (recessed)",
+    "pack": "4 bulbs"
    },
    "features": {
-    "bright": true,
-    "special_shape": false,
+    "bright": false,
+    "special_shape": true,
     "thread": false
    },
-   "image": "https://m.media-amazon.com/images/I/61W9wz-M4iL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CW1RBHGS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-bulbs.html#B0CW1RBHGS"
+   "image": "https://m.media-amazon.com/images/I/71o37RX9gKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BJTFQKB9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-bulbs.html#B0BJTFQKB9"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0BVQX6875",
    "name": "OREiN Matter Smart Light Bulb, A19 RGBTW Color Changing Light Bulbs, 4 Pack",
    "brand": "OREiN",
@@ -300,7 +410,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1523,
-   "score": 68,
+   "score": 70,
    "awards": [
     "Best Budget"
    ],
@@ -348,62 +458,7 @@
    "page_url": "https://themisreviews.com/matter-bulbs.html#B0BVQX6875"
   },
   {
-   "rank": 6,
-   "asin": "B0BJTFQKB9",
-   "name": "Linkind Matter BR30 Smart Light Bulbs, Alexa/Apple/Google Home, 4 Pack",
-   "brand": "Linkind",
-   "model": "Matter BR30 (4-pack)",
-   "price": 29.97,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 570,
-   "score": 68,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Four Matter BR30 bulbs for recessed cans.",
-   "pros": [
-    "BR30 for recessed lights",
-    "About $7.50 per bulb",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "Brightness isn't listed",
-    "4.2 stars",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "radio": "Wi-Fi",
-    "light": "Color + white",
-    "lumens": "Not listed",
-    "shape": "BR30 (recessed)",
-    "pack": "4 bulbs"
-   },
-   "features": {
-    "bright": false,
-    "special_shape": true,
-    "thread": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71o37RX9gKL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BJTFQKB9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-bulbs.html#B0BJTFQKB9"
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "asin": "B0BHS1X2G7",
    "name": "Linkind Matter Smart Light Bulbs, Work with Apple Home, Alexa, Siri, Google",
    "brand": "Linkind",
@@ -412,7 +467,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1085,
-   "score": 67,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -458,61 +513,6 @@
    "page_url": "https://themisreviews.com/matter-bulbs.html#B0BHS1X2G7"
   },
   {
-   "rank": 8,
-   "asin": "B0BVB24KYL",
-   "name": "Linkind Matter Smart Edison Light Bulbs, ST19 (58) Vintage Bulbs, 4 Pack",
-   "brand": "Linkind",
-   "model": "Matter Edison ST19 (4-pack)",
-   "price": 36.54,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 198,
-   "score": 66,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Vintage-style Edison bulbs with Matter, for exposed fixtures.",
-   "pros": [
-    "ST19 Edison look",
-    "Four bulbs",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Brightness and color options aren't in the bullets",
-    "198 reviews",
-    "$36.54"
-   ],
-   "specs": {
-    "radio": "Wi-Fi",
-    "light": "Not listed",
-    "lumens": "Not listed",
-    "shape": "ST19 Edison",
-    "pack": "4 bulbs"
-   },
-   "features": {
-    "bright": false,
-    "special_shape": true,
-    "thread": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71MTGizbJCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BVB24KYL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-bulbs.html#B0BVB24KYL"
-  },
-  {
    "rank": 9,
    "asin": "B0D1G3KDKT",
    "name": "OREiN Matter Smart Light Bulbs BR30, Works with Alexa/Apple Home/Google",
@@ -522,7 +522,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 25,
-   "score": 64,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -576,7 +576,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 121,
-   "score": 57,
+   "score": 66,
    "awards": [],
    "works_with": [
     "Home Assistant",

@@ -238,7 +238,7 @@ def write_page_json(site, proto, sub, cat, ranked, canonical):
         "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review "
                        "counts change daily; check the listing before relying on a number.",
         "scoring": {"scale": "0-100", "weights": cat["weights"], "feature_weights": cat.get("feature_weights", {}),
-                    "reviews_ceiling": cat.get("reviews_ceiling", 20000),
+                    "reviews_ceiling": listing_age.review_ceiling(cat, 20000),
                     "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.", "method_url": f"{base}/how-we-rank.html"},
         "awards": awards,
         "systems_note": cat.get("systems_note"),
@@ -755,11 +755,8 @@ def score_product(p, cat):
     Review volume counts a listing under two years old at a higher rate (up to 2x; see listing_age.py)."""
     w = cat["weights"]
     rating_s = p["rating"] / 5.0
-    mult, listed, how = listing_age.review_multiplier(p, listing_age.as_of_date(cat))
-    p["review_weight"] = round(mult, 2)
-    if listed:
-        p["listed"], p["listed_how"] = listed.isoformat(), how
-    reviews_s = min(1.0, math.log10(p["reviews_count"] * mult + 1) / math.log10(cat.get("reviews_ceiling", 20000)))
+    # Full review credit at 200 reviews (or the page's lower ceiling); see listing_age.py.
+    reviews_s, _mult = listing_age.review_subscore(p, cat, 20000)
     feat_s = min(1.0, sum(cat["feature_weights"].get(k, 0) for k, on in p["features"].items() if on))
     return round((w["rating"] * rating_s + w["reviews"] * reviews_s + w["features"] * feat_s) * 100)
 
@@ -1774,7 +1771,7 @@ def build_trust_pages(site):
     <p>Every product gets a score out of 100:</p>
     <ul>
       <li><b>{w['rating']}%</b> customer rating: the Amazon star rating out of 5.</li>
-      <li><b>{w['reviews']}%</b> review volume: the number of ratings on a log scale, capped at a ceiling set per page. A switch with 1,500 reviews is well proven; a smart plug needs far more to stand out. The log scale means going from 10 to 100 reviews counts as much as going from 1,000 to 10,000. Newer listings get credit for having had less time to collect reviews: if a product has been on Amazon for under two years and has at least 30 reviews, its count is scaled up by 24 divided by its age in months (a one-year-old listing's reviews count double), never more than double. Older listings keep their count as is. We use Amazon's &ldquo;Date First Available&rdquo; when the listing shows it; most don't, so we estimate the date from the product's Amazon ID, which Amazon assigns in roughly date order (checked against {len(listing_age.load_dates()):,} listings with a known date, the estimate is usually within two months).</li>
+      <li><b>{w['reviews']}%</b> review volume: the number of ratings on a log scale, with full credit at {listing_age.FULL_CREDIT} ratings (lower on a few niche pages). Past that, more reviews add nothing, so between well-proven products the rating and features decide. The log scale means going from 10 to 100 reviews counts as much as going from 1,000 to 10,000. Newer listings get credit for having had less time to collect reviews: if a product has been on Amazon for under two years and has at least 30 reviews, its count is scaled up by 24 divided by its age in months (a one-year-old listing's reviews count double), never more than double. Older listings keep their count as is. We use Amazon's &ldquo;Date First Available&rdquo; when the listing shows it; most don't, so we estimate the date from the product's Amazon ID, which Amazon assigns in roughly date order (checked against {len(listing_age.load_dates()):,} listings with a known date, the estimate is usually within two months).</li>
       <li><b>{w['features']}%</b> features: a short checklist for that page (for example 800 Series chip, Long Range, and 3-way support on Z-Wave switches). Each item has a weight, and the weights are the same for every product on the page.</li>
     </ul>
     <p>Scores only compare products on the same page. An 80 on the Zigbee switch page and an 80 on the Wi-Fi bulb page don't mean the same thing. On the product-type pages, which mix protocols, each product keeps the score it earned on its own protocol page.</p>

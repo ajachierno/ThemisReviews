@@ -27,7 +27,7 @@
    "tamper": 0.25,
    "extra_sensors": 0.3
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 366,
-   "score": 80,
+   "score": 89,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -119,60 +119,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0GKFB3XCL",
-   "name": "SONOFF SenseGuard DW Gen2 SNZB-04PR2 Zigbee Door/Window Contact Sensor, Tamper Proof, Works with Alexa, Home Assistant and SmartThings, 1-Pack",
-   "brand": "SONOFF",
-   "model": "SNZB-04PR2",
-   "price": 13.9,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 322,
-   "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A cheap, AAA-powered sensor with a tamper alert if someone pulls it off the frame.",
-   "pros": [
-    "$13.90",
-    "Tamper alert",
-    "300+ bought in the past month"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Needs a Zigbee hub",
-    "Sold by the brand, not Amazon"
-   ],
-   "specs": {
-    "hub": "Any Zigbee hub",
-    "battery": "AAA",
-    "extras": "Open/close only",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "open_hub": true,
-    "tamper": true,
-    "extra_sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51rBgU89tUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GKFB3XCL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0GKFB3XCL"
-  },
-  {
-   "rank": 3,
    "asin": "B0G52D5CY6",
    "name": "Shelly BLU Door/Window ZB Black, Zigbee & Bluetooth Operated Sensor",
    "brand": "Shelly",
@@ -181,7 +127,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 52,
-   "score": 75,
+   "score": 86,
    "awards": [
     "Most Sensors"
    ],
@@ -226,7 +172,113 @@
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0G52D5CY6"
   },
   {
+   "rank": 3,
+   "asin": "B0GKFB3XCL",
+   "name": "SONOFF SenseGuard DW Gen2 SNZB-04PR2 Zigbee Door/Window Contact Sensor, Tamper Proof, Works with Alexa, Home Assistant and SmartThings, 1-Pack",
+   "brand": "SONOFF",
+   "model": "SNZB-04PR2",
+   "price": 13.9,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 322,
+   "score": 84,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheap, AAA-powered sensor with a tamper alert if someone pulls it off the frame.",
+   "pros": [
+    "$13.90",
+    "Tamper alert",
+    "300+ bought in the past month"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Needs a Zigbee hub",
+    "Sold by the brand, not Amazon"
+   ],
+   "specs": {
+    "hub": "Any Zigbee hub",
+    "battery": "AAA",
+    "extras": "Open/close only",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "open_hub": true,
+    "tamper": true,
+    "extra_sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51rBgU89tUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GKFB3XCL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0GKFB3XCL"
+  },
+  {
    "rank": 4,
+   "asin": "B09XCWRHCT",
+   "name": "THIRDREALITY Zigbee Contact Sensor 2 Pack, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub",
+   "brand": "THIRDREALITY",
+   "model": "Zigbee contact sensor (2-pack)",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 203,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The same ThirdReality sensor in a two-pack, for a front and back door.",
+   "pros": [
+    "Two sensors",
+    "4.4 stars",
+    "Up to 2-year battery life"
+   ],
+   "cons": [
+    "No per-unit savings over two singles",
+    "Bigger than coin-cell sensors",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, or any Zigbee hub",
+    "battery": "2 AAA, up to 2 years",
+    "extras": "Open/close only",
+    "pack": "2 sensors"
+   },
+   "features": {
+    "open_hub": true,
+    "tamper": false,
+    "extra_sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41fC3cyJTaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09XCWRHCT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B09XCWRHCT"
+  },
+  {
+   "rank": 5,
    "asin": "B08R9PH4JT",
    "name": "THIRDREALITY Zigbee Contact Sensor, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub, Hub Required",
    "brand": "THIRDREALITY",
@@ -235,7 +287,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 791,
-   "score": 73,
+   "score": 80,
    "awards": [
     "Best Overall"
    ],
@@ -281,7 +333,111 @@
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B08R9PH4JT"
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "asin": "B0HB933HR1",
+   "name": "SONOFF SNZB-04PR1 Zigbee Door and Window Sensor",
+   "brand": "SONOFF",
+   "model": "SNZB-04PR1",
+   "price": 15.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 58,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A sibling of the PR2 with tamper detection and local Zigbee automations.",
+   "pros": [
+    "Tamper alert",
+    "Local automations keep working without internet",
+    "50+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars from 58 reviews",
+    "Costs more than the PR2",
+    "Battery type isn't listed"
+   ],
+   "specs": {
+    "hub": "Any Zigbee hub",
+    "battery": "Not listed",
+    "extras": "Open/close only",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "open_hub": true,
+    "tamper": true,
+    "extra_sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61W67d0nSLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HB933HR1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0HB933HR1"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FHH6WTD6",
+   "name": "Door and Window Sensor, Requires Zigbee Hub",
+   "brand": "Haozee",
+   "model": "Door and window sensor",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 67,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The cheapest decent Zigbee door sensor, with Home Assistant support named in the listing.",
+   "pros": [
+    "$9.99",
+    "Zigbee 3.0, Home Assistant via Zigbee2MQTT",
+    "Low-battery alerts"
+   ],
+   "cons": [
+    "Only 67 reviews",
+    "Battery type isn't listed",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "hub": "Zigbee 3.0 hub, Home Assistant via Zigbee2MQTT",
+    "battery": "Not listed",
+    "extras": "Open/close only",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "open_hub": true,
+    "tamper": false,
+    "extra_sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41pdwAb6ELL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FHH6WTD6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0FHH6WTD6"
+  },
+  {
+   "rank": 8,
    "asin": "B07D37VDM3",
    "name": "Aqara Zigbee Door and Window Sensor 1 Pack, Wireless Mini Contact Sensor",
    "brand": "Aqara",
@@ -333,162 +489,6 @@
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B07D37VDM3"
   },
   {
-   "rank": 6,
-   "asin": "B09XCWRHCT",
-   "name": "THIRDREALITY Zigbee Contact Sensor 2 Pack, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub",
-   "brand": "THIRDREALITY",
-   "model": "Zigbee contact sensor (2-pack)",
-   "price": 37.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 203,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The same ThirdReality sensor in a two-pack, for a front and back door.",
-   "pros": [
-    "Two sensors",
-    "4.4 stars",
-    "Up to 2-year battery life"
-   ],
-   "cons": [
-    "No per-unit savings over two singles",
-    "Bigger than coin-cell sensors",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "hub": "Echo with Zigbee, or any Zigbee hub",
-    "battery": "2 AAA, up to 2 years",
-    "extras": "Open/close only",
-    "pack": "2 sensors"
-   },
-   "features": {
-    "open_hub": true,
-    "tamper": false,
-    "extra_sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41fC3cyJTaL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09XCWRHCT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B09XCWRHCT"
-  },
-  {
-   "rank": 7,
-   "asin": "B0HB933HR1",
-   "name": "SONOFF SNZB-04PR1 Zigbee Door and Window Sensor",
-   "brand": "SONOFF",
-   "model": "SNZB-04PR1",
-   "price": 15.9,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 58,
-   "score": 68,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A sibling of the PR2 with tamper detection and local Zigbee automations.",
-   "pros": [
-    "Tamper alert",
-    "Local automations keep working without internet",
-    "50+ bought in the past month"
-   ],
-   "cons": [
-    "3.8 stars from 58 reviews",
-    "Costs more than the PR2",
-    "Battery type isn't listed"
-   ],
-   "specs": {
-    "hub": "Any Zigbee hub",
-    "battery": "Not listed",
-    "extras": "Open/close only",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "open_hub": true,
-    "tamper": true,
-    "extra_sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61W67d0nSLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HB933HR1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0HB933HR1"
-  },
-  {
-   "rank": 8,
-   "asin": "B0FHH6WTD6",
-   "name": "Door and Window Sensor, Requires Zigbee Hub",
-   "brand": "Haozee",
-   "model": "Door and window sensor",
-   "price": 9.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 67,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The cheapest decent Zigbee door sensor, with Home Assistant support named in the listing.",
-   "pros": [
-    "$9.99",
-    "Zigbee 3.0, Home Assistant via Zigbee2MQTT",
-    "Low-battery alerts"
-   ],
-   "cons": [
-    "Only 67 reviews",
-    "Battery type isn't listed",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "hub": "Zigbee 3.0 hub, Home Assistant via Zigbee2MQTT",
-    "battery": "Not listed",
-    "extras": "Open/close only",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "open_hub": true,
-    "tamper": false,
-    "extra_sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41pdwAb6ELL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FHH6WTD6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B0FHH6WTD6"
-  },
-  {
    "rank": 9,
    "asin": "B09TP7VMKB",
    "name": "Aqara Zigbee Door and Window Sensor 3 Pack, Wireless Mini Contact Sensor",
@@ -498,7 +498,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1698,
-   "score": 64,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -550,7 +550,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 13,
-   "score": 42,
+   "score": 47,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

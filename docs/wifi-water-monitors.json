@@ -28,7 +28,7 @@
    "micro": 0.25,
    "alerts": 0.2
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,55 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0DSKG73XB",
+   "name": "Frizzlife LP365 Smart Water Monitor and Automatic Shutoff Valve, Ultrasonic Leak Detection, Wi-Fi, 3/4 in. and 1 in.",
+   "brand": "Frizzlife",
+   "model": "LP365",
+   "price": 279.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 382,
+   "score": 89,
+   "awards": [
+    "Best with Shutoff"
+   ],
+   "works_with": [],
+   "works_with_note": "Smart Life app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Catches the tiniest leaks and closes the main line automatically.",
+   "pros": [
+    "0.01 GPM sensitivity",
+    "SMS, phone call, and app alerts",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Needs a plumber",
+    "Smart Life app",
+    "$279.98"
+   ],
+   "specs": {
+    "type": "Inline ultrasonic monitor and valve",
+    "install": "Plumbed into main line",
+    "shutoff": "Yes",
+    "extras": "0.01 GPM micro-leak detection, NSF/ANSI 61 & 372"
+   },
+   "features": {
+    "shutoff": true,
+    "diy": false,
+    "micro": true,
+    "alerts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71OrU8sWVTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DSKG73XB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-water-monitors.html#B0DSKG73XB"
+  },
+  {
+   "rank": 2,
    "asin": "B081HT5LD6",
    "name": "Moen 900-006 Flo Smart Water Monitor and Automatic Shutoff Sensor, Wi-Fi Connected Water Leak Detector for 1-Inch Diameter Pipe",
    "brand": "Moen",
@@ -116,55 +165,6 @@
    "page_url": "https://themisreviews.com/wifi-water-monitors.html#B081HT5LD6"
   },
   {
-   "rank": 2,
-   "asin": "B0DSKG73XB",
-   "name": "Frizzlife LP365 Smart Water Monitor and Automatic Shutoff Valve, Ultrasonic Leak Detection, Wi-Fi, 3/4 in. and 1 in.",
-   "brand": "Frizzlife",
-   "model": "LP365",
-   "price": 279.98,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 382,
-   "score": 83,
-   "awards": [
-    "Best with Shutoff"
-   ],
-   "works_with": [],
-   "works_with_note": "Smart Life app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Catches the tiniest leaks and closes the main line automatically.",
-   "pros": [
-    "0.01 GPM sensitivity",
-    "SMS, phone call, and app alerts",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Needs a plumber",
-    "Smart Life app",
-    "$279.98"
-   ],
-   "specs": {
-    "type": "Inline ultrasonic monitor and valve",
-    "install": "Plumbed into main line",
-    "shutoff": "Yes",
-    "extras": "0.01 GPM micro-leak detection, NSF/ANSI 61 & 372"
-   },
-   "features": {
-    "shutoff": true,
-    "diy": false,
-    "micro": true,
-    "alerts": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71OrU8sWVTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DSKG73XB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-water-monitors.html#B0DSKG73XB"
-  },
-  {
    "rank": 3,
    "asin": "B0FLF5Y2K6",
    "name": "Flume F2X Smart Home Water Monitor and Leak Detector, Real-Time Usage Tracking, No-Plumbing Install",
@@ -174,7 +174,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 94,
-   "score": 76,
+   "score": 85,
    "awards": [
     "Best Overall"
    ],
@@ -215,6 +215,53 @@
   },
   {
    "rank": 4,
+   "asin": "B0FH6FS9TV",
+   "name": "WiFi Smart Water Valve and Auto Shut-Off",
+   "brand": "Haozee",
+   "model": "WiFi Smart Water Valve and Auto Shut-Off",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 46,
+   "score": 71,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Tuya app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A budget monitor and valve that pairs with cheap Tuya leak sensors.",
+   "pros": [
+    "No gateway needed",
+    "Backup battery",
+    "$159.99"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Needs a power outlet",
+    "Only 46 reviews"
+   ],
+   "specs": {
+    "type": "Inline ultrasonic monitor and valve",
+    "install": "Plumbed in, 5 V power",
+    "shutoff": "Yes",
+    "extras": "Backup battery, works with Tuya leak sensors"
+   },
+   "features": {
+    "shutoff": true,
+    "diy": false,
+    "micro": false,
+    "alerts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61TAvSVVDiL._AC_SL1388_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FH6FS9TV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-water-monitors.html#B0FH6FS9TV"
+  },
+  {
+   "rank": 5,
    "asin": "B0HHH9DYGP",
    "name": "Water Flow Meter, 0.1gal/min Water Flow Monitor Alarm, Water Valve 3/4\"",
    "brand": "GreenVation",
@@ -223,7 +270,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 15,
-   "score": 67,
+   "score": 71,
    "awards": [
     "Best Budget"
    ],
@@ -263,53 +310,6 @@
    "page_url": "https://themisreviews.com/wifi-water-monitors.html#B0HHH9DYGP"
   },
   {
-   "rank": 5,
-   "asin": "B0FH6FS9TV",
-   "name": "WiFi Smart Water Valve and Auto Shut-Off",
-   "brand": "Haozee",
-   "model": "WiFi Smart Water Valve and Auto Shut-Off",
-   "price": 159.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 46,
-   "score": 64,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Tuya app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A budget monitor and valve that pairs with cheap Tuya leak sensors.",
-   "pros": [
-    "No gateway needed",
-    "Backup battery",
-    "$159.99"
-   ],
-   "cons": [
-    "3.8 stars",
-    "Needs a power outlet",
-    "Only 46 reviews"
-   ],
-   "specs": {
-    "type": "Inline ultrasonic monitor and valve",
-    "install": "Plumbed in, 5 V power",
-    "shutoff": "Yes",
-    "extras": "Backup battery, works with Tuya leak sensors"
-   },
-   "features": {
-    "shutoff": true,
-    "diy": false,
-    "micro": false,
-    "alerts": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61TAvSVVDiL._AC_SL1388_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FH6FS9TV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-water-monitors.html#B0FH6FS9TV"
-  },
-  {
    "rank": 6,
    "asin": "B0FL1CZ447",
    "name": "Bluebot Mini Smart Water Meter Bundle, Wi-Fi Leak Detector, Clamp-On Ultrasonic Flow Meter, 3/4 in. and 1 in. Pipes",
@@ -319,7 +319,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 21,
-   "score": 58,
+   "score": 63,
    "awards": [],
    "works_with": [],
    "works_with_note": "Bluebot app",

@@ -27,7 +27,7 @@
    "ha": 0.3,
    "sensors": 0.35
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -58,6 +58,58 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0C7VMZ9FG",
+   "name": "Breez Max Smart WiFi Thermostat for Mini-Split, Window, Portable AC (White)",
+   "brand": "Cielo",
+   "model": "Breez Max",
+   "price": 114.37,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1086,
+   "score": 96,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": "Cielo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The most connected AC controller, and it can group units into zones.",
+   "pros": [
+    "Names Home Assistant and SmartThings",
+    "HVAC zones",
+    "4.6 stars"
+   ],
+   "cons": [
+    "$114.37",
+    "2.4 GHz Wi-Fi",
+    "IR line of sight needed"
+   ],
+   "specs": {
+    "sensors": "Temperature, humidity",
+    "works_with": "Mini-split, window, portable (IR)",
+    "app": "Cielo"
+   },
+   "features": {
+    "big_platforms": true,
+    "ha": true,
+    "sensors": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71FgpD9S8xL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C7VMZ9FG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B0C7VMZ9FG"
+  },
+  {
+   "rank": 2,
    "asin": "B07MTGD3D9",
    "name": "Sensibo Sky Smart Wireless Air Conditioner Controller, Wi-Fi, Google, Alexa and Siri Compatible",
    "brand": "Sensibo",
@@ -109,58 +161,6 @@
    "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B07MTGD3D9"
   },
   {
-   "rank": 2,
-   "asin": "B0C7VMZ9FG",
-   "name": "Breez Max Smart WiFi Thermostat for Mini-Split, Window, Portable AC (White)",
-   "brand": "Cielo",
-   "model": "Breez Max",
-   "price": 114.37,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1086,
-   "score": 91,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": "Cielo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The most connected AC controller, and it can group units into zones.",
-   "pros": [
-    "Names Home Assistant and SmartThings",
-    "HVAC zones",
-    "4.6 stars"
-   ],
-   "cons": [
-    "$114.37",
-    "2.4 GHz Wi-Fi",
-    "IR line of sight needed"
-   ],
-   "specs": {
-    "sensors": "Temperature, humidity",
-    "works_with": "Mini-split, window, portable (IR)",
-    "app": "Cielo"
-   },
-   "features": {
-    "big_platforms": true,
-    "ha": true,
-    "sensors": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71FgpD9S8xL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C7VMZ9FG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B0C7VMZ9FG"
-  },
-  {
    "rank": 3,
    "asin": "B0BMTRCNG3",
    "name": "Breez Lite Smart AC Controller for Mini-Split, Window, Portable ACS (Black)",
@@ -170,7 +170,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 738,
-   "score": 81,
+   "score": 88,
    "awards": [
     "Best Budget"
    ],
@@ -221,7 +221,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1372,
-   "score": 79,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -260,54 +260,6 @@
   },
   {
    "rank": 5,
-   "asin": "B08RB2Q88Y",
-   "name": "Breez Eco Smart AC Controller for Mini-Split, Window, Portable ACS (White)",
-   "brand": "Cielo",
-   "model": "Breez Eco",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1859,
-   "score": 66,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Cielo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A simple Cielo for Alexa and Google homes.",
-   "pros": [
-    "$99.99",
-    "4.4 stars from 1,859 reviews",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "No SmartThings listed",
-    "Sensors aren't in the bullets",
-    "Costs more than the Lite"
-   ],
-   "specs": {
-    "sensors": "Not stated in bullets",
-    "works_with": "Mini-split, window, portable (IR)",
-    "app": "Cielo"
-   },
-   "features": {
-    "big_platforms": false,
-    "ha": false,
-    "sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/613N0R0olRL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08RB2Q88Y?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B08RB2Q88Y"
-  },
-  {
-   "rank": 6,
    "asin": "B0CZ6F1BV9",
    "name": "WOOX Smart AC Controller, Wi-Fi Thermostat for Mini Split, Window and Portable AC, IR Remote, No Hub",
    "brand": "WOOX",
@@ -316,7 +268,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 80,
-   "score": 65,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -356,6 +308,54 @@
    "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B0CZ6F1BV9"
   },
   {
+   "rank": 6,
+   "asin": "B08RB2Q88Y",
+   "name": "Breez Eco Smart AC Controller for Mini-Split, Window, Portable ACS (White)",
+   "brand": "Cielo",
+   "model": "Breez Eco",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1859,
+   "score": 70,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Cielo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A simple Cielo for Alexa and Google homes.",
+   "pros": [
+    "$99.99",
+    "4.4 stars from 1,859 reviews",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "No SmartThings listed",
+    "Sensors aren't in the bullets",
+    "Costs more than the Lite"
+   ],
+   "specs": {
+    "sensors": "Not stated in bullets",
+    "works_with": "Mini-split, window, portable (IR)",
+    "app": "Cielo"
+   },
+   "features": {
+    "big_platforms": false,
+    "ha": false,
+    "sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/613N0R0olRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08RB2Q88Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ac-controllers.html#B08RB2Q88Y"
+  },
+  {
    "rank": 7,
    "asin": "B07QD28C5S",
    "name": "MrCool Smart HVAC Controller Enhanced WiFi Kit for Ductless Split System",
@@ -365,7 +365,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 65,
-   "score": 55,
+   "score": 64,
    "awards": [],
    "works_with": [],
    "works_with_note": "MrCool SmartHVAC app",

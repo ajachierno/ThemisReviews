@@ -28,7 +28,7 @@
    "battery_free": 0.2,
    "mount": 0.2
   },
-  "reviews_ceiling": 500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 335,
-   "score": 94,
+   "score": 96,
    "awards": [
     "Best Wired"
    ],
@@ -114,59 +114,6 @@
   },
   {
    "rank": 2,
-   "asin": "B08TMWLY74",
-   "name": "Zooz 800 Series Z-Wave Long Range Remote Control & Scene Controller ZEN34 (Battery Powered), White | Z-Wave Hub Required",
-   "brand": "Zooz",
-   "model": "ZEN34 800LR",
-   "price": 37.95,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 413,
-   "score": 81,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Hubitat Elevation"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A battery remote shaped like a paddle switch, for adding a switch anywhere without wiring.",
-   "pros": [
-    "Looks like a regular paddle switch",
-    "Magnetic base or switch box mount",
-    "Long Range",
-    "4.4 stars from 413 reviews"
-   ],
-   "cons": [
-    "Basic hubs can't program scene control, per Zooz",
-    "Two paddles only"
-   ],
-   "specs": {
-    "type": "Battery paddle remote",
-    "buttons": "2 paddles",
-    "series": "800 Series LR",
-    "power": "Battery",
-    "notes": "Magnetic base, fits a switch box"
-   },
-   "features": {
-    "long_range": true,
-    "buttons": false,
-    "battery_free": false,
-    "mount": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51vYNKllrBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08TMWLY74?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-buttons.html#B08TMWLY74"
-  },
-  {
-   "rank": 3,
    "asin": "B0CV8RXT5W",
    "name": "Zooz 800 Series Z-Wave Long Range Wall Remote & Scene Controller ZEN37 (Battery Powered), White | Z-Wave Hub Required",
    "brand": "Zooz",
@@ -175,7 +122,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 77,
-   "score": 80,
+   "score": 83,
    "awards": [
     "Best Battery Remote"
    ],
@@ -221,6 +168,59 @@
    "page_url": "https://themisreviews.com/z-wave-buttons.html#B0CV8RXT5W"
   },
   {
+   "rank": 3,
+   "asin": "B08TMWLY74",
+   "name": "Zooz 800 Series Z-Wave Long Range Remote Control & Scene Controller ZEN34 (Battery Powered), White | Z-Wave Hub Required",
+   "brand": "Zooz",
+   "model": "ZEN34 800LR",
+   "price": 37.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 413,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Hubitat Elevation"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A battery remote shaped like a paddle switch, for adding a switch anywhere without wiring.",
+   "pros": [
+    "Looks like a regular paddle switch",
+    "Magnetic base or switch box mount",
+    "Long Range",
+    "4.4 stars from 413 reviews"
+   ],
+   "cons": [
+    "Basic hubs can't program scene control, per Zooz",
+    "Two paddles only"
+   ],
+   "specs": {
+    "type": "Battery paddle remote",
+    "buttons": "2 paddles",
+    "series": "800 Series LR",
+    "power": "Battery",
+    "notes": "Magnetic base, fits a switch box"
+   },
+   "features": {
+    "long_range": true,
+    "buttons": false,
+    "battery_free": false,
+    "mount": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51vYNKllrBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08TMWLY74?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-buttons.html#B08TMWLY74"
+  },
+  {
    "rank": 4,
    "asin": "B0987K9VS3",
    "name": "Aeotec WallMote 7 Z-Wave Plus Wireless Remote and Scene Controller, Battery Powered",
@@ -230,7 +230,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 31,
-   "score": 57,
+   "score": 60,
    "awards": [],
    "works_with": [
     "Home Assistant",

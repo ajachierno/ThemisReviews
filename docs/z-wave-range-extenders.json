@@ -28,7 +28,7 @@
    "any_hub": 0.25,
    "bonus": 0.15
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 510,
-   "score": 85,
+   "score": 88,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -110,59 +110,6 @@
   },
   {
    "rank": 2,
-   "asin": "B081G97TLB",
-   "name": "Aeotec Range Extender 7, Z-Wave Hub Range Extender, Gen7",
-   "brand": "Aeotec",
-   "model": "Range Extender 7",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 847,
-   "score": 81,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The standard fix for a weak spot in a Z-Wave mesh.",
-   "pros": [
-    "Works with any Z-Wave hub",
-    "Repeats S2 security devices",
-    "300+ bought in the past month"
-   ],
-   "cons": [
-    "700 Series",
-    "Does nothing else",
-    "4.2 stars"
-   ],
-   "specs": {
-    "type": "Dedicated repeater",
-    "series": "700 Series (Gen7), S2",
-    "extra": "Repeats secure S2 devices such as locks"
-   },
-   "features": {
-    "dedicated": true,
-    "s800": false,
-    "any_hub": true,
-    "bonus": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61IzRoXUAGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B081G97TLB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B081G97TLB"
-  },
-  {
-   "rank": 3,
    "asin": "B0BHL9MBRZ",
    "name": "Zooz 800 Series Z-Wave Long Range Smart Plug ZEN04 800LR | Hub Required | Works with the Z-Box Hub, Home Assistant, and Hubitat",
    "brand": "Zooz",
@@ -171,7 +118,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 74,
-   "score": 79,
+   "score": 85,
    "awards": [
     "Best Long Range Plug"
    ],
@@ -215,7 +162,111 @@
    "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B0BHL9MBRZ"
   },
   {
+   "rank": 3,
+   "asin": "B081G97TLB",
+   "name": "Aeotec Range Extender 7, Z-Wave Hub Range Extender, Gen7",
+   "brand": "Aeotec",
+   "model": "Range Extender 7",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 847,
+   "score": 82,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The standard fix for a weak spot in a Z-Wave mesh.",
+   "pros": [
+    "Works with any Z-Wave hub",
+    "Repeats S2 security devices",
+    "300+ bought in the past month"
+   ],
+   "cons": [
+    "700 Series",
+    "Does nothing else",
+    "4.2 stars"
+   ],
+   "specs": {
+    "type": "Dedicated repeater",
+    "series": "700 Series (Gen7), S2",
+    "extra": "Repeats secure S2 devices such as locks"
+   },
+   "features": {
+    "dedicated": true,
+    "s800": false,
+    "any_hub": true,
+    "bonus": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61IzRoXUAGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B081G97TLB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B081G97TLB"
+  },
+  {
    "rank": 4,
+   "asin": "B0CQS4SS9F",
+   "name": "Z-Wave Smart Plug, 800 Series Z-Wave Outlet with Built-in Repeater",
+   "brand": "New One",
+   "model": "Z-Wave 800 smart plug (repeater)",
+   "price": 24.29,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 33,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "An 800 Series plug that relays signals up to four hops deep.",
+   "pros": [
+    "4.7 stars",
+    "800 Series",
+    "$24.29"
+   ],
+   "cons": [
+    "Only 33 reviews",
+    "Doesn't work with Echo hubs",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "type": "Smart plug that repeats",
+    "series": "800 Series",
+    "extra": "Up to 1,300 ft open-air range"
+   },
+   "features": {
+    "dedicated": false,
+    "s800": true,
+    "any_hub": true,
+    "bonus": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51PHgIJaTCL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CQS4SS9F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B0CQS4SS9F"
+  },
+  {
+   "rank": 5,
    "asin": "B07ZB2VP4K",
    "name": "Ring Alarm Range Extender (2nd Gen)",
    "brand": "Ring",
@@ -263,57 +314,6 @@
    "image": "https://m.media-amazon.com/images/I/51N4LnFoZoL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07ZB2VP4K?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B07ZB2VP4K"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CQS4SS9F",
-   "name": "Z-Wave Smart Plug, 800 Series Z-Wave Outlet with Built-in Repeater",
-   "brand": "New One",
-   "model": "Z-Wave 800 smart plug (repeater)",
-   "price": 24.29,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 33,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "An 800 Series plug that relays signals up to four hops deep.",
-   "pros": [
-    "4.7 stars",
-    "800 Series",
-    "$24.29"
-   ],
-   "cons": [
-    "Only 33 reviews",
-    "Doesn't work with Echo hubs",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "type": "Smart plug that repeats",
-    "series": "800 Series",
-    "extra": "Up to 1,300 ft open-air range"
-   },
-   "features": {
-    "dedicated": false,
-    "s800": true,
-    "any_hub": true,
-    "bonus": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51PHgIJaTCL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CQS4SS9F?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-range-extenders.html#B0CQS4SS9F"
   }
  ],
  "avoid": [],

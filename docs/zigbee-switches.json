@@ -27,7 +27,7 @@
    "three_way": 0.3,
    "open_hub": 0.35
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,7 +66,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 67,
-   "score": 76,
+   "score": 81,
    "awards": [
     "Most Flexible"
    ],
@@ -117,6 +117,58 @@
   },
   {
    "rank": 2,
+   "asin": "B08X3JJD3Z",
+   "name": "MOES Zigbee Smart Touch Wall Light Switch, No Neutral Wire, Tuya Zigbee Hub Required",
+   "brand": "MOES",
+   "model": "Zigbee touch switch (no neutral)",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 65,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A glass touch switch that installs with or without a neutral. Its 3-way is done by linking two smart switches in the app, not by wiring.",
+   "pros": [
+    "Works with or without a neutral wire, with no capacitor needed",
+    "Works with Zigbee2MQTT",
+    "Remembers on/off state after a power cut",
+    "4.2-star rating"
+   ],
+   "cons": [
+    "3-way means buying a second smart switch and linking them in the app",
+    "Needs a Tuya Zigbee hub for app and voice control",
+    "Glass touch style"
+   ],
+   "specs": {
+    "neutral": "Optional",
+    "three_way_text": "App-linked switches",
+    "hub": "Tuya Zigbee hub or Zigbee2MQTT",
+    "style": "Glass touch",
+    "extras": "Backlight on/off"
+   },
+   "features": {
+    "no_neutral": true,
+    "three_way": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51QP88SxYNL._SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08X3JJD3Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-switches.html#B08X3JJD3Z"
+  },
+  {
+   "rank": 3,
    "asin": "B081ZQWX1F",
    "name": "Aqara Smart Light Switch (No Neutral, Single Rocker), Requires AQARA HUB",
    "brand": "Aqara",
@@ -125,7 +177,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 533,
-   "score": 75,
+   "score": 77,
    "awards": [
     "Best Overall"
    ],
@@ -171,58 +223,6 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B081ZQWX1F"
   },
   {
-   "rank": 3,
-   "asin": "B08X3JJD3Z",
-   "name": "MOES Zigbee Smart Touch Wall Light Switch, No Neutral Wire, Tuya Zigbee Hub Required",
-   "brand": "MOES",
-   "model": "Zigbee touch switch (no neutral)",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 65,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": true,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A glass touch switch that installs with or without a neutral. Its 3-way is done by linking two smart switches in the app, not by wiring.",
-   "pros": [
-    "Works with or without a neutral wire, with no capacitor needed",
-    "Works with Zigbee2MQTT",
-    "Remembers on/off state after a power cut",
-    "4.2-star rating"
-   ],
-   "cons": [
-    "3-way means buying a second smart switch and linking them in the app",
-    "Needs a Tuya Zigbee hub for app and voice control",
-    "Glass touch style"
-   ],
-   "specs": {
-    "neutral": "Optional",
-    "three_way_text": "App-linked switches",
-    "hub": "Tuya Zigbee hub or Zigbee2MQTT",
-    "style": "Glass touch",
-    "extras": "Backlight on/off"
-   },
-   "features": {
-    "no_neutral": true,
-    "three_way": false,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51QP88SxYNL._SL1001_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08X3JJD3Z?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-switches.html#B08X3JJD3Z"
-  },
-  {
    "rank": 4,
    "asin": "B0F6T5JCZL",
    "name": "Martin Jerry Zigbee Smart Switch, No Neutral Required, 1-Channel Rocker Paddle (RP-ZB-S01)",
@@ -232,7 +232,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 95,
-   "score": 71,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -287,7 +287,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 58,
-   "score": 69,
+   "score": 74,
    "awards": [
     "Best Budget"
    ],
@@ -342,7 +342,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 58,
-   "score": 68,
+   "score": 73,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -393,7 +393,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 78,
-   "score": 65,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -444,7 +444,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 156,
-   "score": 62,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -496,7 +496,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 264,
-   "score": 61,
+   "score": 67,
    "awards": [],
    "works_with": [
     "Apple Home",

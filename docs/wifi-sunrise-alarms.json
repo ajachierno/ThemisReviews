@@ -28,7 +28,7 @@
    "color": 0.25,
    "nosub": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 61,
-   "score": 75,
+   "score": 86,
    "awards": [
     "Best Voice Control"
    ],
@@ -126,7 +126,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 62,
-   "score": 70,
+   "score": 82,
    "awards": [
     "Best Budget"
    ],
@@ -175,7 +175,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 26,
-   "score": 70,
+   "score": 78,
    "awards": [
     "Best Premium"
    ],
@@ -216,53 +216,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0FRRXBZ3W",
-   "name": "ANJANK App Smart Sunrise Alarm Clock and Sound Machine, Wake-Up Light, 15 Alarms, 25 Soothing Sounds",
-   "brand": "ANJANK",
-   "model": "App Smart Sunrise Alarm Clock",
-   "price": 43.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 32,
-   "score": 66,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "ANJANK app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Separate weekday and weekend alarms, set from anywhere.",
-   "pros": [
-    "15 alarms",
-    "25 sleep sounds",
-    "$43.99"
-   ],
-   "cons": [
-    "3.8 stars",
-    "Only 32 reviews",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "light": "5 sunrise modes",
-    "sounds": "25 sleep sounds",
-    "control": "App over Wi-Fi",
-    "extras": "15 alarms, 256-color night light"
-   },
-   "features": {
-    "voice": false,
-    "sounds": true,
-    "color": true,
-    "nosub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81q4RZj5IoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FRRXBZ3W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0FRRXBZ3W"
-  },
-  {
-   "rank": 5,
    "asin": "B0FNMM6X65",
    "name": "REACHER Smart Sunrise Alarm Clock with App Control and White Noise Machine",
    "brand": "REACHER",
@@ -271,7 +224,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 75,
-   "score": 64,
+   "score": 76,
    "awards": [
     "Best Overall"
    ],
@@ -309,6 +262,53 @@
    "image": "https://m.media-amazon.com/images/I/51eZEEdEt0L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FNMM6X65?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0FNMM6X65"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FRRXBZ3W",
+   "name": "ANJANK App Smart Sunrise Alarm Clock and Sound Machine, Wake-Up Light, 15 Alarms, 25 Soothing Sounds",
+   "brand": "ANJANK",
+   "model": "App Smart Sunrise Alarm Clock",
+   "price": 43.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 32,
+   "score": 76,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "ANJANK app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Separate weekday and weekend alarms, set from anywhere.",
+   "pros": [
+    "15 alarms",
+    "25 sleep sounds",
+    "$43.99"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Only 32 reviews",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "light": "5 sunrise modes",
+    "sounds": "25 sleep sounds",
+    "control": "App over Wi-Fi",
+    "extras": "15 alarms, 256-color night light"
+   },
+   "features": {
+    "voice": false,
+    "sounds": true,
+    "color": true,
+    "nosub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81q4RZj5IoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FRRXBZ3W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-sunrise-alarms.html#B0FRRXBZ3W"
   }
  ],
  "avoid": [],

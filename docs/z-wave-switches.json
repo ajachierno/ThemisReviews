@@ -28,7 +28,7 @@
    "scene_control": 0.15,
    "custom_led": 0.15
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 213,
-   "score": 86,
+   "score": 94,
    "awards": [
     "Best Overall"
    ],
@@ -131,7 +131,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 94,
-   "score": 78,
+   "score": 86,
    "awards": [
     "Best Budget"
    ],
@@ -179,60 +179,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0G1N7R29W",
-   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
-   "brand": "Enbrighten",
-   "model": "800 Series LR toggle",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 49,
-   "score": 78,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
-   "pros": [
-    "One of the few 800 Series Long Range toggle switches",
-    "Lit toggle in eight colors and four modes",
-    "Works with one standard 3-way switch or up to four add-ons",
-    "Auto-detecting line and load terminals"
-   ],
-   "cons": [
-    "Toggle only comes in white",
-    "Fewer reviews than older Enbrighten models",
-    "Needs a neutral wire"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "style": "Toggle",
-    "three_way": "Standard 3-way or up to 4 add-ons",
-    "neutral": "Required",
-    "extras": "8-color lit toggle"
-   },
-   "features": {
-    "long_range": true,
-    "direct_3way": true,
-    "scene_control": false,
-    "custom_led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
-  },
-  {
-   "rank": 4,
    "asin": "B0GHZN4M22",
    "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Paddle",
    "brand": "Enbrighten",
@@ -241,7 +187,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 55,
-   "score": 77,
+   "score": 85,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -287,6 +233,60 @@
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0GHZN4M22"
   },
   {
+   "rank": 4,
+   "asin": "B0G1N7R29W",
+   "name": "Enbrighten Z-Wave Long Range On/Off Switch, 800 Series, Toggle",
+   "brand": "Enbrighten",
+   "model": "800 Series LR toggle",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 49,
+   "score": 85,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The same Long Range switch in a toggle, for rooms where a paddle would look out of place.",
+   "pros": [
+    "One of the few 800 Series Long Range toggle switches",
+    "Lit toggle in eight colors and four modes",
+    "Works with one standard 3-way switch or up to four add-ons",
+    "Auto-detecting line and load terminals"
+   ],
+   "cons": [
+    "Toggle only comes in white",
+    "Fewer reviews than older Enbrighten models",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Toggle",
+    "three_way": "Standard 3-way or up to 4 add-ons",
+    "neutral": "Required",
+    "extras": "8-color lit toggle"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": true,
+    "scene_control": false,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81DM67qmLbL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G1N7R29W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0G1N7R29W"
+  },
+  {
    "rank": 5,
    "asin": "B0846CJTRN",
    "name": "Zooz ZEN30 800LR Z-Wave Long Range Double Switch for Fan and Light (No Speed Control), White",
@@ -296,7 +296,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 332,
-   "score": 76,
+   "score": 82,
    "awards": [
     "Best for Fan and Light"
    ],
@@ -353,7 +353,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 15,
-   "score": 76,
+   "score": 80,
    "awards": [
     "Best for Heavy Loads"
    ],
@@ -402,59 +402,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0FQPKFWNH",
-   "name": "HomeSeer WS300 Smart Light Switch, 800 Series Z-Wave Long Range, RGB LED Indicator",
-   "brand": "HomeSeer",
-   "model": "WS300",
-   "price": 54.95,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 18,
-   "score": 63,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Built for people who automate a lot. Multi-tap scenes and a programmable RGB LED turn it into a status display and scene controller.",
-   "pros": [
-    "Up to 14 scenes from taps and holds on each paddle",
-    "RGB LED can blink or glow to show alerts",
-    "800 Series with Long Range",
-    "Works with HomeSeer and Home Assistant"
-   ],
-   "cons": [
-    "Not compatible with SmartThings, per the listing",
-    "3-way wiring isn't covered in the listing",
-    "3.8-star rating from a small number of reviews"
-   ],
-   "specs": {
-    "series": "800 Series",
-    "style": "Paddle",
-    "three_way": "Not listed",
-    "neutral": "Required",
-    "extras": "14 scenes, RGB LED"
-   },
-   "features": {
-    "long_range": true,
-    "direct_3way": false,
-    "scene_control": true,
-    "custom_led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/610E7AjUijL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQPKFWNH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FQPKFWNH"
-  },
-  {
-   "rank": 8,
    "asin": "B0D2DRSXC1",
    "name": "Leviton Decora Smart Switch, Z-Wave 800 Series, ZW15S-1RW, White",
    "brand": "Leviton",
@@ -463,7 +410,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 160,
-   "score": 60,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -508,7 +455,7 @@
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0D2DRSXC1"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B08562D7X8",
    "name": "Enbrighten Z-Wave On/Off Switch, Toggle, Light Almond, 1 Pack",
    "brand": "Enbrighten",
@@ -517,7 +464,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 242,
-   "score": 59,
+   "score": 67,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -562,6 +509,59 @@
    "page_url": "https://themisreviews.com/z-wave-switches.html#B08562D7X8"
   },
   {
+   "rank": 9,
+   "asin": "B0FQPKFWNH",
+   "name": "HomeSeer WS300 Smart Light Switch, 800 Series Z-Wave Long Range, RGB LED Indicator",
+   "brand": "HomeSeer",
+   "model": "WS300",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 18,
+   "score": 67,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Built for people who automate a lot. Multi-tap scenes and a programmable RGB LED turn it into a status display and scene controller.",
+   "pros": [
+    "Up to 14 scenes from taps and holds on each paddle",
+    "RGB LED can blink or glow to show alerts",
+    "800 Series with Long Range",
+    "Works with HomeSeer and Home Assistant"
+   ],
+   "cons": [
+    "Not compatible with SmartThings, per the listing",
+    "3-way wiring isn't covered in the listing",
+    "3.8-star rating from a small number of reviews"
+   ],
+   "specs": {
+    "series": "800 Series",
+    "style": "Paddle",
+    "three_way": "Not listed",
+    "neutral": "Required",
+    "extras": "14 scenes, RGB LED"
+   },
+   "features": {
+    "long_range": true,
+    "direct_3way": false,
+    "scene_control": true,
+    "custom_led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610E7AjUijL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQPKFWNH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B0FQPKFWNH"
+  },
+  {
    "rank": 10,
    "asin": "B07NLVFL2Q",
    "name": "Eaton Z-Wave Plus RF9601DW Wireless Switch, Single Pole, 3-Way, White",
@@ -571,7 +571,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 86,
-   "score": 59,
+   "score": 66,
    "awards": [],
    "works_with": [
     "Home Assistant",

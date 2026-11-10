@@ -28,7 +28,7 @@
    "lidar": 0.2,
    "power": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 326,
-   "score": 76,
+   "score": 84,
    "awards": [
     "Best Overall"
    ],
@@ -116,63 +116,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0H7XCFZP8",
-   "name": "SwitchBot K11+ Pro Compact Robot Vacuum and Mop, 12,000Pa, LiDAR Navigation, 90-Day Self-Emptying, Matter-Compatible",
-   "brand": "SwitchBot",
-   "model": "K11+ Pro",
-   "price": 269.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 16,
-   "score": 69,
-   "awards": [
-    "Most Powerful"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "SwitchBot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The K11+ with twice the suction, for pet hair in small apartments.",
-   "pros": [
-    "12,000 Pa",
-    "Compact 9.8 in body",
-    "Matter"
-   ],
-   "cons": [
-    "Only 16 reviews",
-    "$269.99",
-    "Small bin for big homes"
-   ],
-   "specs": {
-    "suction": "12,000 Pa",
-    "dock": "Self-emptying, 4 L bag, about 90 days",
-    "nav": "LiDAR",
-    "extras": "9.8 in compact body"
-   },
-   "features": {
-    "mop": true,
-    "self_empty": true,
-    "lidar": true,
-    "power": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71UGWeTrxEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7XCFZP8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-robot-vacuums.html#B0H7XCFZP8"
-  },
-  {
-   "rank": 3,
    "asin": "B0F6CJ6G2Z",
    "name": "SwitchBot S20 Robot Vacuum and Mop with Matter, 10000Pa Suction, Roller Mop, Auto Mop Washing and Drying, Self-Emptying",
    "brand": "SwitchBot",
@@ -181,7 +124,7 @@
    "currency": "USD",
    "rating": 3.2,
    "reviews_count": 75,
-   "score": 65,
+   "score": 75,
    "awards": [
     "Best Mopping"
    ],
@@ -227,6 +170,63 @@
    "image": "https://m.media-amazon.com/images/I/61kp6u+RfCL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0F6CJ6G2Z?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-robot-vacuums.html#B0F6CJ6G2Z"
+  },
+  {
+   "rank": 3,
+   "asin": "B0H7XCFZP8",
+   "name": "SwitchBot K11+ Pro Compact Robot Vacuum and Mop, 12,000Pa, LiDAR Navigation, 90-Day Self-Emptying, Matter-Compatible",
+   "brand": "SwitchBot",
+   "model": "K11+ Pro",
+   "price": 269.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 16,
+   "score": 75,
+   "awards": [
+    "Most Powerful"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The K11+ with twice the suction, for pet hair in small apartments.",
+   "pros": [
+    "12,000 Pa",
+    "Compact 9.8 in body",
+    "Matter"
+   ],
+   "cons": [
+    "Only 16 reviews",
+    "$269.99",
+    "Small bin for big homes"
+   ],
+   "specs": {
+    "suction": "12,000 Pa",
+    "dock": "Self-emptying, 4 L bag, about 90 days",
+    "nav": "LiDAR",
+    "extras": "9.8 in compact body"
+   },
+   "features": {
+    "mop": true,
+    "self_empty": true,
+    "lidar": true,
+    "power": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71UGWeTrxEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7XCFZP8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-robot-vacuums.html#B0H7XCFZP8"
   }
  ],
  "avoid": [],

@@ -28,7 +28,7 @@
    "dry_contact": 0.2,
    "multi_channel": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -123,6 +123,63 @@
   },
   {
    "rank": 2,
+   "asin": "B0DNQ9DKBV",
+   "name": "SwitchBot Relay Switch 1PM, Wi-Fi and Bluetooth, Power-Measuring Relay Module, 16 A",
+   "brand": "SwitchBot",
+   "model": "Relay Switch 1PM",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 274,
+   "score": 86,
+   "awards": [
+    "Best With Power Metering"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A metered Matter relay that also extends SwitchBot's Bluetooth range.",
+   "pros": [
+    "Power measuring",
+    "Bluetooth repeater for SwitchBot devices",
+    "$14.99, 4.5 stars"
+   ],
+   "cons": [
+    "Only 274 reviews",
+    "Load rating isn't in the bullets",
+    "Sold by SwitchBot"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi, Bluetooth, Matter",
+    "extras": "Power measuring, Bluetooth repeater"
+   },
+   "features": {
+    "power_meter": true,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61XZ8GmgJ6L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DNQ9DKBV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0DNQ9DKBV"
+  },
+  {
+   "rank": 3,
    "asin": "B0DZHZDJXT",
    "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
    "brand": "Shelly",
@@ -177,63 +234,6 @@
    "page_url": "https://themisreviews.com/matter-relays.html#B0DZHZDJXT"
   },
   {
-   "rank": 3,
-   "asin": "B0DNQ9DKBV",
-   "name": "SwitchBot Relay Switch 1PM, Wi-Fi and Bluetooth, Power-Measuring Relay Module, 16 A",
-   "brand": "SwitchBot",
-   "model": "Relay Switch 1PM",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 274,
-   "score": 80,
-   "awards": [
-    "Best With Power Metering"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A metered Matter relay that also extends SwitchBot's Bluetooth range.",
-   "pros": [
-    "Power measuring",
-    "Bluetooth repeater for SwitchBot devices",
-    "$14.99, 4.5 stars"
-   ],
-   "cons": [
-    "Only 274 reviews",
-    "Load rating isn't in the bullets",
-    "Sold by SwitchBot"
-   ],
-   "specs": {
-    "channels": "1",
-    "rating": "Not stated in bullets",
-    "radios": "Wi-Fi, Bluetooth, Matter",
-    "extras": "Power measuring, Bluetooth repeater"
-   },
-   "features": {
-    "power_meter": true,
-    "no_hub": true,
-    "dry_contact": false,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61XZ8GmgJ6L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DNQ9DKBV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-relays.html#B0DNQ9DKBV"
-  },
-  {
    "rank": 4,
    "asin": "B0DF1T9V3G",
    "name": "SONOFF MINIR4M Matter Smart Switch Module, Wi-Fi, Neutral Required, 1-Pack",
@@ -243,7 +243,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 517,
-   "score": 76,
+   "score": 79,
    "awards": [
     "Best Overall"
    ],
@@ -301,7 +301,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 99,
-   "score": 67,
+   "score": 73,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -356,7 +356,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 28,
-   "score": 67,
+   "score": 71,
    "awards": [
     "Best Dry Contact"
    ],
@@ -405,61 +405,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0CLZGLY8Q",
-   "name": "TALTBREX Matter Smart Switch Relay Module, 2 Gang, Apple Home, Alexa, Google, SmartThings",
-   "brand": "TALTBREX",
-   "model": "Matter relay module",
-   "price": 15.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 14,
-   "score": 59,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A basic Matter relay that keeps working on your LAN if the internet drops.",
-   "pros": [
-    "Local control over Matter",
-    "$15.99",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Only 14 reviews",
-    "Neutral required",
-    "Load rating isn't in the bullets"
-   ],
-   "specs": {
-    "channels": "1",
-    "rating": "Not stated in bullets",
-    "radios": "Wi-Fi (Matter)",
-    "extras": "Local LAN control"
-   },
-   "features": {
-    "power_meter": false,
-    "no_hub": true,
-    "dry_contact": false,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71vNj2HDlLL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CLZGLY8Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-relays.html#B0CLZGLY8Q"
-  },
-  {
-   "rank": 8,
    "asin": "B0CNCHW258",
    "name": "2-Pack Matter Smart Switch 16A Mini Wi-Fi Relay Module, Apple Home, Alexa, Google Home",
    "brand": "RODOT",
@@ -468,7 +413,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 29,
-   "score": 58,
+   "score": 63,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -512,6 +457,61 @@
    "image": "https://m.media-amazon.com/images/I/61kwVqrpBJL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CNCHW258?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-relays.html#B0CNCHW258"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CLZGLY8Q",
+   "name": "TALTBREX Matter Smart Switch Relay Module, 2 Gang, Apple Home, Alexa, Google, SmartThings",
+   "brand": "TALTBREX",
+   "model": "Matter relay module",
+   "price": 15.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 14,
+   "score": 62,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A basic Matter relay that keeps working on your LAN if the internet drops.",
+   "pros": [
+    "Local control over Matter",
+    "$15.99",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Only 14 reviews",
+    "Neutral required",
+    "Load rating isn't in the bullets"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Not stated in bullets",
+    "radios": "Wi-Fi (Matter)",
+    "extras": "Local LAN control"
+   },
+   "features": {
+    "power_meter": false,
+    "no_hub": true,
+    "dry_contact": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vNj2HDlLL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLZGLY8Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0CLZGLY8Q"
   }
  ],
  "avoid": [],

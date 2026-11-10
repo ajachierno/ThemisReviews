@@ -28,7 +28,7 @@
    "solar": 0.2,
    "ul": 0.15
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,103 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0C79PNK84",
-   "name": "Emporia Vue 3 Smart Home Energy Monitor, Real-Time Electricity Usage, Solar and Net Metering, UL Certified",
-   "brand": "Emporia",
-   "model": "Vue 3 with 16 circuit sensors",
-   "price": 199.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 887,
-   "score": 88,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [],
-   "works_with_note": "Emporia app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The most popular whole-home monitor, with 16 circuit sensors to see what each appliance costs.",
-   "pros": [
-    "16 circuit sensors included",
-    "UL listed",
-    "Solar and net metering",
-    "4.6 stars, 1K+ bought in the past month"
-   ],
-   "cons": [
-    "Needs internet; data goes through Emporia's cloud",
-    "Panel install",
-    "$199.99"
-   ],
-   "specs": {
-    "sensors": "16 x 50 A",
-    "local": "Cloud app (2.4 GHz Wi-Fi + internet required)",
-    "solar": "Yes",
-    "cert": "UL listed"
-   },
-   "features": {
-    "circuits": true,
-    "local": false,
-    "solar": true,
-    "ul": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51+b2R+UWsL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C79PNK84?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0C79PNK84"
-  },
-  {
-   "rank": 2,
-   "asin": "B0C79TVH4Y",
-   "name": "Emporia Vue 3 Smart Home Energy Monitor, Real-Time Electricity Usage, Solar and Net Metering, UL Certified",
-   "brand": "Emporia",
-   "model": "Vue 3 with 8 circuit sensors",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 331,
-   "score": 84,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Emporia app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "The middle option: eight circuit sensors for the biggest loads.",
-   "pros": [
-    "8 circuit sensors",
-    "UL listed",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Cloud only",
-    "Panel install",
-    "$149.99"
-   ],
-   "specs": {
-    "sensors": "8 x 50 A",
-    "local": "Cloud app",
-    "solar": "Yes",
-    "cert": "UL listed"
-   },
-   "features": {
-    "circuits": true,
-    "local": false,
-    "solar": true,
-    "ul": true
-   },
-   "image": "https://m.media-amazon.com/images/I/518wmq8r5SL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C79TVH4Y?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0C79TVH4Y"
-  },
-  {
-   "rank": 3,
    "asin": "B0D6VZQBPF",
    "name": "Smart Home Energy Monitor with 16 x 50 A Circuit Sensors, Real-Time Usage and Cost Tracking, Home Assistant Compatible",
    "brand": "Fusion Energy",
@@ -171,7 +74,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 226,
-   "score": 84,
+   "score": 91,
    "awards": [
     "Best Value With Sensors"
    ],
@@ -213,7 +116,153 @@
    "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0D6VZQBPF"
   },
   {
+   "rank": 2,
+   "asin": "B0C79PNK84",
+   "name": "Emporia Vue 3 Smart Home Energy Monitor, Real-Time Electricity Usage, Solar and Net Metering, UL Certified",
+   "brand": "Emporia",
+   "model": "Vue 3 with 16 circuit sensors",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 887,
+   "score": 89,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "Emporia app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The most popular whole-home monitor, with 16 circuit sensors to see what each appliance costs.",
+   "pros": [
+    "16 circuit sensors included",
+    "UL listed",
+    "Solar and net metering",
+    "4.6 stars, 1K+ bought in the past month"
+   ],
+   "cons": [
+    "Needs internet; data goes through Emporia's cloud",
+    "Panel install",
+    "$199.99"
+   ],
+   "specs": {
+    "sensors": "16 x 50 A",
+    "local": "Cloud app (2.4 GHz Wi-Fi + internet required)",
+    "solar": "Yes",
+    "cert": "UL listed"
+   },
+   "features": {
+    "circuits": true,
+    "local": false,
+    "solar": true,
+    "ul": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51+b2R+UWsL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C79PNK84?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0C79PNK84"
+  },
+  {
+   "rank": 3,
+   "asin": "B0C79TVH4Y",
+   "name": "Emporia Vue 3 Smart Home Energy Monitor, Real-Time Electricity Usage, Solar and Net Metering, UL Certified",
+   "brand": "Emporia",
+   "model": "Vue 3 with 8 circuit sensors",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 331,
+   "score": 89,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Emporia app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The middle option: eight circuit sensors for the biggest loads.",
+   "pros": [
+    "8 circuit sensors",
+    "UL listed",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Cloud only",
+    "Panel install",
+    "$149.99"
+   ],
+   "specs": {
+    "sensors": "8 x 50 A",
+    "local": "Cloud app",
+    "solar": "Yes",
+    "cert": "UL listed"
+   },
+   "features": {
+    "circuits": true,
+    "local": false,
+    "solar": true,
+    "ul": true
+   },
+   "image": "https://m.media-amazon.com/images/I/518wmq8r5SL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C79TVH4Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0C79TVH4Y"
+  },
+  {
    "rank": 4,
+   "asin": "B0FQ9ZNKBL",
+   "name": "Refoss Smart Home Energy Monitor with 16 60A Circuit Sensor, Local Control",
+   "brand": "Refoss",
+   "model": "Monitor with 16 x 60 A sensors",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 76,
+   "score": 89,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Refoss app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Local monitoring of 18 circuits at ±1% precision, per the listing.",
+   "pros": [
+    "18 circuits",
+    "±1% precision, per the listing",
+    "Local API and MQTT"
+   ],
+   "cons": [
+    "Only 76 reviews",
+    "4.4 stars",
+    "$199.99"
+   ],
+   "specs": {
+    "sensors": "16 x 60 A (18 circuits total)",
+    "local": "Web UI, open API, MQTT, WebSocket",
+    "solar": "Yes",
+    "cert": "Not stated in bullets"
+   },
+   "features": {
+    "circuits": true,
+    "local": true,
+    "solar": true,
+    "ul": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71q-KusQCzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQ9ZNKBL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0FQ9ZNKBL"
+  },
+  {
+   "rank": 5,
    "asin": "B0DJNV3GPR",
    "name": "Refoss Smart Home Energy Monitor with Open API, Home Assistant, No Cloud",
    "brand": "Refoss",
@@ -222,7 +271,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 322,
-   "score": 83,
+   "score": 88,
    "awards": [
     "Best for Home Assistant"
    ],
@@ -264,55 +313,6 @@
    "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0DJNV3GPR"
   },
   {
-   "rank": 5,
-   "asin": "B0FQ9ZNKBL",
-   "name": "Refoss Smart Home Energy Monitor with 16 60A Circuit Sensor, Local Control",
-   "brand": "Refoss",
-   "model": "Monitor with 16 x 60 A sensors",
-   "price": 199.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 76,
-   "score": 83,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Refoss app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Local monitoring of 18 circuits at ±1% precision, per the listing.",
-   "pros": [
-    "18 circuits",
-    "±1% precision, per the listing",
-    "Local API and MQTT"
-   ],
-   "cons": [
-    "Only 76 reviews",
-    "4.4 stars",
-    "$199.99"
-   ],
-   "specs": {
-    "sensors": "16 x 60 A (18 circuits total)",
-    "local": "Web UI, open API, MQTT, WebSocket",
-    "solar": "Yes",
-    "cert": "Not stated in bullets"
-   },
-   "features": {
-    "circuits": true,
-    "local": true,
-    "solar": true,
-    "ul": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71q-KusQCzL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQ9ZNKBL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-energy-monitors.html#B0FQ9ZNKBL"
-  },
-  {
    "rank": 6,
    "asin": "B0FSZYR7V4",
    "name": "Meross Smart Home Energy Monitor, Real-Time Power & Cost Tracking",
@@ -322,7 +322,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 51,
-   "score": 75,
+   "score": 81,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 235,
-   "score": 73,
+   "score": 79,
    "awards": [
     "Best Budget"
    ],
@@ -420,7 +420,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 9,
-   "score": 66,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -469,7 +469,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 126,
-   "score": 58,
+   "score": 65,
    "awards": [],
    "works_with": [],
    "works_with_note": "MyEyedro cloud",

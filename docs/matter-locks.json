@@ -27,7 +27,7 @@
    "home_key": 0.35,
    "wifi_too": 0.35
   },
-  "reviews_ceiling": 11000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -130,7 +130,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 467,
-   "score": 75,
+   "score": 83,
    "awards": [
     "Most Advanced"
    ],
@@ -179,15 +179,15 @@
   },
   {
    "rank": 3,
-   "asin": "B0GX14GPT3",
-   "name": "TCL Smart Lock, Palm Vein Keyless Entry Deadbolt with Matter Over Thread",
-   "brand": "TCL",
-   "model": "Palm vein deadbolt",
-   "price": 179.99,
+   "asin": "B0FP7PBL1F",
+   "name": "Kwikset Halo Select Plus Wi-Fi and Matter Enabled, Touchscreen Smart Lock",
+   "brand": "Kwikset",
+   "model": "Halo Select Plus",
+   "price": 309.0,
    "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 10,
-   "score": 69,
+   "rating": 3.4,
+   "reviews_count": 107,
+   "score": 78,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -201,35 +201,35 @@
    "works_with_note": null,
    "works_without": {
     "neutral_wire": false,
-    "hub": false,
+    "hub": true,
     "subscription": true
    },
-   "bought_last_month": null,
-   "verdict": "A touch-free palm-vein lock with Matter over Thread. Very new, with only a handful of reviews.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The Halo Select with a touchscreen and Apple Home Key. Pricey, and reviews are mixed.",
    "pros": [
-    "Palm vein recognition, touch-free",
-    "Matter over Thread",
-    "Works with Alexa, Google, and SmartThings"
+    "Apple Home Key and NFC tap to unlock",
+    "Wi-Fi and Matter",
+    "Touchscreen"
    ],
    "cons": [
-    "Only 10 reviews",
-    "$179.99",
-    "Sold by the brand"
+    "$309.00, the most expensive here",
+    "3.4 stars",
+    "No fingerprint reader"
    ],
    "specs": {
-    "radio": "Thread (plus Wi-Fi)",
-    "entry": "Palm vein, fingerprint, app",
+    "radio": "Wi-Fi and Matter",
+    "entry": "Touchscreen, NFC, Home Key, app",
     "rating": "Not listed",
-    "extras": "Touch-free palm unlock"
+    "extras": "Geofencing"
    },
    "features": {
-    "fingerprint": true,
-    "home_key": false,
+    "fingerprint": false,
+    "home_key": true,
     "wifi_too": true
    },
-   "image": "https://m.media-amazon.com/images/I/71GAIRzmoeL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GX14GPT3?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-locks.html#B0GX14GPT3"
+   "image": "https://m.media-amazon.com/images/I/61Nktr9qnaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FP7PBL1F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-locks.html#B0FP7PBL1F"
   },
   {
    "rank": 4,
@@ -241,7 +241,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 684,
-   "score": 66,
+   "score": 75,
    "awards": [
     "Best Budget Home Key"
    ],
@@ -290,15 +290,15 @@
   },
   {
    "rank": 5,
-   "asin": "B0FP7PBL1F",
-   "name": "Kwikset Halo Select Plus Wi-Fi and Matter Enabled, Touchscreen Smart Lock",
-   "brand": "Kwikset",
-   "model": "Halo Select Plus",
-   "price": 309.0,
+   "asin": "B0GX14GPT3",
+   "name": "TCL Smart Lock, Palm Vein Keyless Entry Deadbolt with Matter Over Thread",
+   "brand": "TCL",
+   "model": "Palm vein deadbolt",
+   "price": 179.99,
    "currency": "USD",
-   "rating": 3.4,
-   "reviews_count": 107,
-   "score": 65,
+   "rating": 5.0,
+   "reviews_count": 10,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -312,35 +312,35 @@
    "works_with_note": null,
    "works_without": {
     "neutral_wire": false,
-    "hub": true,
+    "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The Halo Select with a touchscreen and Apple Home Key. Pricey, and reviews are mixed.",
+   "bought_last_month": null,
+   "verdict": "A touch-free palm-vein lock with Matter over Thread. Very new, with only a handful of reviews.",
    "pros": [
-    "Apple Home Key and NFC tap to unlock",
-    "Wi-Fi and Matter",
-    "Touchscreen"
+    "Palm vein recognition, touch-free",
+    "Matter over Thread",
+    "Works with Alexa, Google, and SmartThings"
    ],
    "cons": [
-    "$309.00, the most expensive here",
-    "3.4 stars",
-    "No fingerprint reader"
+    "Only 10 reviews",
+    "$179.99",
+    "Sold by the brand"
    ],
    "specs": {
-    "radio": "Wi-Fi and Matter",
-    "entry": "Touchscreen, NFC, Home Key, app",
+    "radio": "Thread (plus Wi-Fi)",
+    "entry": "Palm vein, fingerprint, app",
     "rating": "Not listed",
-    "extras": "Geofencing"
+    "extras": "Touch-free palm unlock"
    },
    "features": {
-    "fingerprint": false,
-    "home_key": true,
+    "fingerprint": true,
+    "home_key": false,
     "wifi_too": true
    },
-   "image": "https://m.media-amazon.com/images/I/61Nktr9qnaL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FP7PBL1F?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-locks.html#B0FP7PBL1F"
+   "image": "https://m.media-amazon.com/images/I/71GAIRzmoeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GX14GPT3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-locks.html#B0GX14GPT3"
   },
   {
    "rank": 6,
@@ -352,7 +352,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 274,
-   "score": 62,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -407,7 +407,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 52,
-   "score": 61,
+   "score": 72,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -461,7 +461,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 300,
-   "score": 50,
+   "score": 62,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -516,7 +516,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 84,
-   "score": 47,
+   "score": 59,
    "awards": [
     "Best Retrofit"
    ],

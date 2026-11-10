@@ -28,7 +28,7 @@
    "voice": 0.2,
    "tracking": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,54 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B09GDQZLD1",
+   "name": "Furbo 360° Dog Camera [Core Features, No Ongoing Cost]",
+   "brand": "Furbo",
+   "model": "360° Dog Camera (no-fee version)",
+   "price": 72.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 9304,
+   "score": 90,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "Furbo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The original treat-tossing camera, sold here without a required plan.",
+   "pros": [
+    "No subscription needed for core features",
+    "Barking alerts",
+    "9,304 reviews"
+   ],
+   "cons": [
+    "$72.00",
+    "Advanced alerts need Furbo Nanny",
+    "2.4 GHz only"
+   ],
+   "specs": {
+    "video": "1080p, 360°, color night vision",
+    "treats": "Yes",
+    "fees": "Core features free"
+   },
+   "features": {
+    "treats": true,
+    "no_fee": true,
+    "voice": false,
+    "tracking": true
+   },
+   "image": "https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09GDQZLD1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B09GDQZLD1"
+  },
+  {
+   "rank": 2,
    "asin": "B09Y8TLP25",
    "name": "Tapo 2K Pan Tilt Security Camera for Baby Monitor, Dog Camera, C210",
    "brand": "Tapo",
@@ -117,104 +165,7 @@
    "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B09Y8TLP25"
   },
   {
-   "rank": 2,
-   "asin": "B09GDQZLD1",
-   "name": "Furbo 360° Dog Camera [Core Features, No Ongoing Cost]",
-   "brand": "Furbo",
-   "model": "360° Dog Camera (no-fee version)",
-   "price": 72.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 9304,
-   "score": 87,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [],
-   "works_with_note": "Furbo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The original treat-tossing camera, sold here without a required plan.",
-   "pros": [
-    "No subscription needed for core features",
-    "Barking alerts",
-    "9,304 reviews"
-   ],
-   "cons": [
-    "$72.00",
-    "Advanced alerts need Furbo Nanny",
-    "2.4 GHz only"
-   ],
-   "specs": {
-    "video": "1080p, 360°, color night vision",
-    "treats": "Yes",
-    "fees": "Core features free"
-   },
-   "features": {
-    "treats": true,
-    "no_fee": true,
-    "voice": false,
-    "tracking": true
-   },
-   "image": "https://m.media-amazon.com/images/I/616wRFOTA5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09GDQZLD1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B09GDQZLD1"
-  },
-  {
    "rank": 3,
-   "asin": "B0GGGPRRSF",
-   "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
-   "brand": "TKENPRO",
-   "model": "5MP treat camera",
-   "price": 75.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1022,
-   "score": 79,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "TKENPRO app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "TKENPRO's sharpest camera, with motion alerts.",
-   "pros": [
-    "5MP",
-    "Auto tracking",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "$75.98",
-    "4.3 stars",
-    "Cloud plan details aren't in the bullets"
-   ],
-   "specs": {
-    "video": "5MP, 360° auto tracking",
-    "treats": "Yes, 0.5 L",
-    "fees": "Not stated in bullets"
-   },
-   "features": {
-    "treats": true,
-    "no_fee": false,
-    "voice": true,
-    "tracking": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GGGPRRSF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0GGGPRRSF"
-  },
-  {
-   "rank": 4,
    "asin": "B0DZ6NMTY9",
    "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
    "brand": "TKENPRO",
@@ -223,7 +174,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1022,
-   "score": 78,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -263,55 +214,56 @@
    "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0DZ6NMTY9"
   },
   {
-   "rank": 5,
-   "asin": "B08XXKJGKH",
-   "name": "Petcube Bites 2 Lite - WiFi Pet Camera with Treat Dispenser & App",
-   "brand": "Petcube",
-   "model": "Bites 2 Lite",
-   "price": 79.99,
+   "rank": 4,
+   "asin": "B0GGGPRRSF",
+   "name": "2K Pet Camera Treat Dispenser with 360-Degree Auto Tracking, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing",
+   "brand": "TKENPRO",
+   "model": "5MP treat camera",
+   "price": 75.98,
    "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 1562,
-   "score": 72,
+   "rating": 4.3,
+   "reviews_count": 1022,
+   "score": 86,
    "awards": [],
    "works_with": [
-    "Amazon Alexa"
+    "Amazon Alexa",
+    "Google Home"
    ],
-   "works_with_note": "Petcube app",
+   "works_with_note": "TKENPRO app",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
    "bought_last_month": "100+ bought in past month",
-   "verdict": "A treat-tossing camera from Petcube that can fling treats short, medium, or long distance and dispense them on a schedule.",
+   "verdict": "TKENPRO's sharpest camera, with motion alerts.",
    "pros": [
-    "Treat toss at three distances, or on a schedule",
-    "Large 1.5 lb treat container, dishwasher safe",
-    "4.1 stars from 1,562 reviews, sold by Petcube"
+    "5MP",
+    "Auto tracking",
+    "Alexa and Google"
    ],
    "cons": [
-    "Motion and sound alerts need the Petcube Care subscription",
-    "1080p with a 110° view, no pan or tilt",
-    "2.4 GHz Wi-Fi only"
+    "$75.98",
+    "4.3 stars",
+    "Cloud plan details aren't in the bullets"
    ],
    "specs": {
-    "video": "1080p, 110°",
-    "treats": "Yes, 1.5 lb container",
-    "fees": "Optional Petcube Care for alerts"
+    "video": "5MP, 360° auto tracking",
+    "treats": "Yes, 0.5 L",
+    "fees": "Not stated in bullets"
    },
    "features": {
     "treats": true,
     "no_fee": false,
     "voice": true,
-    "tracking": false
+    "tracking": true
    },
-   "image": "https://m.media-amazon.com/images/I/61UCem3UQbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08XXKJGKH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B08XXKJGKH"
+   "image": "https://m.media-amazon.com/images/I/71hMFv3jQrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GGGPRRSF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0GGGPRRSF"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B0CF5B94X2",
    "name": "2K Pet Camera Treat Dispenser, 360-Degree View, 5G/2.4G Wi-Fi, 2-Way Talk, Treat Tossing, Auto Tracking",
    "brand": "TKENPRO",
@@ -320,7 +272,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1022,
-   "score": 72,
+   "score": 81,
    "awards": [
     "Best Value Treat Cam"
    ],
@@ -362,6 +314,54 @@
    "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B0CF5B94X2"
   },
   {
+   "rank": 6,
+   "asin": "B08XXKJGKH",
+   "name": "Petcube Bites 2 Lite - WiFi Pet Camera with Treat Dispenser & App",
+   "brand": "Petcube",
+   "model": "Bites 2 Lite",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1562,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Petcube app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A treat-tossing camera from Petcube that can fling treats short, medium, or long distance and dispense them on a schedule.",
+   "pros": [
+    "Treat toss at three distances, or on a schedule",
+    "Large 1.5 lb treat container, dishwasher safe",
+    "4.1 stars from 1,562 reviews, sold by Petcube"
+   ],
+   "cons": [
+    "Motion and sound alerts need the Petcube Care subscription",
+    "1080p with a 110° view, no pan or tilt",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "video": "1080p, 110°",
+    "treats": "Yes, 1.5 lb container",
+    "fees": "Optional Petcube Care for alerts"
+   },
+   "features": {
+    "treats": true,
+    "no_fee": false,
+    "voice": true,
+    "tracking": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61UCem3UQbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08XXKJGKH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-cameras.html#B08XXKJGKH"
+  },
+  {
    "rank": 7,
    "asin": "B0FDX4YGKG",
    "name": "Anona 4K Indoor Pet Camera 2-Pack, 360-Degree Pan-Tilt, Dual-Band Wi-Fi 6, Auto-Tracking, Two-Way Audio",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2413,
-   "score": 69,
+   "score": 75,
    "awards": [],
    "works_with": [],
    "works_with_note": "Anona app",
@@ -417,7 +417,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 374,
-   "score": 60,
+   "score": 72,
    "awards": [
     "Most Fun"
    ],

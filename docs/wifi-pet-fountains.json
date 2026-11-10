@@ -28,7 +28,7 @@
    "filterless": 0.2,
    "big": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 4617,
-   "score": 87,
+   "score": 88,
    "awards": [
     "Best Overall"
    ],
@@ -115,53 +115,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0G52BXW5H",
-   "name": "Vacqueen Smart Dog Water Fountain, 10L Cordless, Stainless Steel, App Monitoring, 4000mAh Battery",
-   "brand": "Vacqueen",
-   "model": "Smart Dog Water Fountain (10 L)",
-   "price": 64.59,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 248,
-   "score": 75,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A 10 L fountain for big dogs or multi-pet homes.",
-   "pros": [
-    "10 L",
-    "Battery backup",
-    "Low-water alert"
-   ],
-   "cons": [
-    "3.9 stars",
-    "2.4 GHz Wi-Fi only",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "capacity": "10 L",
-    "power": "Plug-in or 4,000 mAh battery",
-    "filter": "5-stage filter",
-    "tracking": "Water status and drinking habits"
-   },
-   "features": {
-    "intake": true,
-    "cordless": true,
-    "filterless": false,
-    "big": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71l1uA+W2FL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G52BXW5H?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0G52BXW5H"
-  },
-  {
-   "rank": 3,
    "asin": "B0FHQC19RV",
    "name": "PETKIT EVERSWEET MAX 2 Cat Water Fountain Dishwasher Safe, Cordless",
    "brand": "PETKIT",
@@ -170,7 +123,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 179,
-   "score": 75,
+   "score": 87,
    "awards": [
     "Best Cordless"
    ],
@@ -210,7 +163,7 @@
    "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0FHQC19RV"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0GWJ2QWXF",
    "name": "PETKIT Eversweet Ultra Cat Water Fountain with AI Camera, Filterless",
    "brand": "PETKIT",
@@ -219,7 +172,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 130,
-   "score": 75,
+   "score": 87,
    "awards": [
     "Best Premium"
    ],
@@ -259,6 +212,53 @@
    "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0GWJ2QWXF"
   },
   {
+   "rank": 4,
+   "asin": "B0G52BXW5H",
+   "name": "Vacqueen Smart Dog Water Fountain, 10L Cordless, Stainless Steel, App Monitoring, 4000mAh Battery",
+   "brand": "Vacqueen",
+   "model": "Smart Dog Water Fountain (10 L)",
+   "price": 64.59,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 248,
+   "score": 85,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A 10 L fountain for big dogs or multi-pet homes.",
+   "pros": [
+    "10 L",
+    "Battery backup",
+    "Low-water alert"
+   ],
+   "cons": [
+    "3.9 stars",
+    "2.4 GHz Wi-Fi only",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "capacity": "10 L",
+    "power": "Plug-in or 4,000 mAh battery",
+    "filter": "5-stage filter",
+    "tracking": "Water status and drinking habits"
+   },
+   "features": {
+    "intake": true,
+    "cordless": true,
+    "filterless": false,
+    "big": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71l1uA+W2FL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G52BXW5H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0G52BXW5H"
+  },
+  {
    "rank": 5,
    "asin": "B0GQ9MV5R4",
    "name": "PETLIBRO Quiet Dog Water Fountain, 3L, Stainless Steel Tray, App Monitoring",
@@ -268,7 +268,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 240,
-   "score": 72,
+   "score": 82,
    "awards": [],
    "works_with": [],
    "works_with_note": "PETLIBRO app",
@@ -307,6 +307,53 @@
   },
   {
    "rank": 6,
+   "asin": "B0HGF8BDWD",
+   "name": "Filterless Cat Water Fountain - App Monitoring Pet Water Dispenser",
+   "brand": "ODSD",
+   "model": "Filterless Cat Water Fountain (3 L)",
+   "price": 68.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 65,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Filterless and cordless, with clean and wastewater levels in the app.",
+   "pros": [
+    "No filters to buy",
+    "Battery or plug-in",
+    "4.0 stars"
+   ],
+   "cons": [
+    "Only 65 reviews",
+    "Not for large dogs",
+    "Intake is not measured"
+   ],
+   "specs": {
+    "capacity": "3 L clean, 1.35 L waste tank",
+    "power": "Plug-in or 5,000 mAh battery",
+    "filter": "Filterless, wastewater separation",
+    "tracking": "Tank levels, drain schedules"
+   },
+   "features": {
+    "intake": false,
+    "cordless": true,
+    "filterless": true,
+    "big": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71hQvnwgsmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HGF8BDWD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0HGF8BDWD"
+  },
+  {
+   "rank": 7,
    "asin": "B0FDKQGRCK",
    "name": "PETLIBRO Dockstream 2 Cat Water Fountain, 3L, Stainless Steel Tray, App Monitoring, 5G Wi-Fi",
    "brand": "PETLIBRO",
@@ -315,7 +362,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 1874,
-   "score": 70,
+   "score": 74,
    "awards": [],
    "works_with": [],
    "works_with_note": "PETLIBRO app",
@@ -354,53 +401,6 @@
    "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0FDKQGRCK"
   },
   {
-   "rank": 7,
-   "asin": "B0HGF8BDWD",
-   "name": "Filterless Cat Water Fountain - App Monitoring Pet Water Dispenser",
-   "brand": "ODSD",
-   "model": "Filterless Cat Water Fountain (3 L)",
-   "price": 68.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 65,
-   "score": 68,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Filterless and cordless, with clean and wastewater levels in the app.",
-   "pros": [
-    "No filters to buy",
-    "Battery or plug-in",
-    "4.0 stars"
-   ],
-   "cons": [
-    "Only 65 reviews",
-    "Not for large dogs",
-    "Intake is not measured"
-   ],
-   "specs": {
-    "capacity": "3 L clean, 1.35 L waste tank",
-    "power": "Plug-in or 5,000 mAh battery",
-    "filter": "Filterless, wastewater separation",
-    "tracking": "Tank levels, drain schedules"
-   },
-   "features": {
-    "intake": false,
-    "cordless": true,
-    "filterless": true,
-    "big": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71hQvnwgsmL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HGF8BDWD?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-fountains.html#B0HGF8BDWD"
-  },
-  {
    "rank": 8,
    "asin": "B0GX5JWR3P",
    "name": "PETLIBRO Dockstream Cat Water Fountain, 2.5L, Stainless Steel Tray, App Monitoring, 2.4G Wi-Fi",
@@ -410,7 +410,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 84,
-   "score": 61,
+   "score": 74,
    "awards": [
     "Best Budget"
    ],
@@ -459,7 +459,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 11,
-   "score": 49,
+   "score": 55,
    "awards": [],
    "works_with": [],
    "works_with_note": "PETGUGU app",

@@ -27,7 +27,7 @@
    "apple_home": 0.3,
    "outdoor": 0.3
   },
-  "reviews_ceiling": 100000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 5126,
-   "score": 78,
+   "score": 85,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -124,7 +124,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 17803,
-   "score": 76,
+   "score": 80,
    "awards": [
     "Best Energy Monitoring"
    ],
@@ -176,7 +176,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 17557,
-   "score": 74,
+   "score": 79,
    "awards": [
     "Best Outdoor"
    ],
@@ -220,6 +220,55 @@
   },
   {
    "rank": 4,
+   "asin": "B08TNF4835",
+   "name": "SONOFF S31 Wi-Fi Smart Plug with Energy Monitoring, 15A, ETL Certified, Works with Alexa & Google Home",
+   "brand": "SONOFF",
+   "model": "S31",
+   "price": 10.9,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 522,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A cheap ETL-certified plug with energy monitoring and IFTTT support.",
+   "pros": [
+    "Energy monitoring for $10.90",
+    "ETL certified",
+    "IFTTT support"
+   ],
+   "cons": [
+    "4.1 stars",
+    "eWeLink app",
+    "No Apple Home"
+   ],
+   "specs": {
+    "location": "Indoor",
+    "app": "eWeLink",
+    "load": "15 A",
+    "pack": "1 plug"
+   },
+   "features": {
+    "energy": true,
+    "apple_home": false,
+    "outdoor": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51HPDgFpi4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08TNF4835?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08TNF4835"
+  },
+  {
+   "rank": 5,
    "asin": "B089DR29T6",
    "name": "Amazon Smart Plug, Works with Alexa, Simple Setup, Endless Possibilities",
    "brand": "Amazon",
@@ -269,7 +318,7 @@
    "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B089DR29T6"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07B8W2KHZ",
    "name": "Kasa Smart Plug HS103P2, Wi-Fi Outlet Works with Alexa, 2-Pack",
    "brand": "Kasa",
@@ -319,7 +368,7 @@
    "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B07B8W2KHZ"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B091699Z3W",
    "name": "Kasa Smart Plug Ultra Mini 15A, EP10, Smart Home Wi-Fi Outlet",
    "brand": "Kasa",
@@ -328,7 +377,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 40948,
-   "score": 68,
+   "score": 70,
    "awards": [
     "Best Overall"
    ],
@@ -372,7 +421,7 @@
    "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B091699Z3W"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B08X448XHR",
    "name": "Govee Smart Plug, WiFi Outlet Compatible with Alexa & Google Assts, 1 pcs",
    "brand": "Govee",
@@ -381,7 +430,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 14074,
-   "score": 65,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -421,7 +470,7 @@
    "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08X448XHR"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B0B62LPR5Z",
    "name": "EIGHTREE Smart Plug WiFi Outlet Works with Alexa & Google Home, 15A, 4-Pack",
    "brand": "EIGHTREE",
@@ -430,7 +479,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 13103,
-   "score": 65,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -471,55 +520,6 @@
    "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B0B62LPR5Z"
   },
   {
-   "rank": 9,
-   "asin": "B08TNF4835",
-   "name": "SONOFF S31 Wi-Fi Smart Plug with Energy Monitoring, 15A, ETL Certified, Works with Alexa & Google Home",
-   "brand": "SONOFF",
-   "model": "S31",
-   "price": 10.9,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 522,
-   "score": 63,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A cheap ETL-certified plug with energy monitoring and IFTTT support.",
-   "pros": [
-    "Energy monitoring for $10.90",
-    "ETL certified",
-    "IFTTT support"
-   ],
-   "cons": [
-    "4.1 stars",
-    "eWeLink app",
-    "No Apple Home"
-   ],
-   "specs": {
-    "location": "Indoor",
-    "app": "eWeLink",
-    "load": "15 A",
-    "pack": "1 plug"
-   },
-   "features": {
-    "energy": true,
-    "apple_home": false,
-    "outdoor": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51HPDgFpi4L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08TNF4835?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-plugs.html#B08TNF4835"
-  },
-  {
    "rank": 10,
    "asin": "B0D7ZXYPRL",
    "name": "GHome Smart Plug, WiFi Smart Plugs that Work with Alexa and Google Home",
@@ -529,7 +529,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4901,
-   "score": 62,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

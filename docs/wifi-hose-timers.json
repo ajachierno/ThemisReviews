@@ -28,7 +28,7 @@
    "brass": 0.2,
    "flow_meter": 0.25
   },
-  "reviews_ceiling": 12000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.9,
    "reviews_count": 64,
-   "score": 85,
+   "score": 97,
    "awards": [
     "Best Water Tracking"
    ],
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 952,
-   "score": 81,
+   "score": 89,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -173,7 +173,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2091,
-   "score": 74,
+   "score": 80,
    "awards": [
     "Best Multi-Zone"
    ],
@@ -214,104 +214,6 @@
   },
   {
    "rank": 4,
-   "asin": "B09YFWNH9Y",
-   "name": "Orbit B-hyve XD 1-Port Smart Hose Watering Timer - 24511",
-   "brand": "Orbit",
-   "model": "B-hyve XD 1-port",
-   "price": 36.98,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 2091,
-   "score": 68,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "B-hyve app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The single-outlet B-hyve, at a low reseller price.",
-   "pros": [
-    "$36.98",
-    "Weather and drought adjustments",
-    "IPX5"
-   ],
-   "cons": [
-    "Sold by a reseller",
-    "4.0 stars",
-    "One outlet"
-   ],
-   "specs": {
-    "zones": "1",
-    "connection": "Wi-Fi or Bluetooth",
-    "inlet": "Not stated in bullets",
-    "extras": "IPX5, local watering restrictions"
-   },
-   "features": {
-    "weather": true,
-    "multi_zone": false,
-    "brass": false,
-    "flow_meter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71IA9Z4GymL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09YFWNH9Y?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-hose-timers.html#B09YFWNH9Y"
-  },
-  {
-   "rank": 5,
-   "asin": "B0BWXZWJ1C",
-   "name": "Rachio Smart Hose Timer: App-Controlled Faucet Timer. 1 Valve + 1 WiFi Hub",
-   "brand": "Rachio",
-   "model": "Smart Hose Timer (1 valve + hub)",
-   "price": 99.98,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 1712,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Rachio app, IFTTT",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Rachio's hose timer, with the hub included and room for eight valves on it.",
-   "pros": [
-    "Hub included, up to 8 valves",
-    "Rain skips from the forecast",
-    "Alexa, Google Home, and IFTTT",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "$99.98 for one valve",
-    "4.0 stars",
-    "2.4 GHz Wi-Fi only"
-   ],
-   "specs": {
-    "zones": "1 valve (hub runs up to 8)",
-    "connection": "Wi-Fi hub included (2.4 GHz)",
-    "inlet": "Not stated in bullets",
-    "extras": "Rain skips, flow alerts, quick-run button"
-   },
-   "features": {
-    "weather": true,
-    "multi_zone": false,
-    "brass": false,
-    "flow_meter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Lr-XOaZhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BWXZWJ1C?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-hose-timers.html#B0BWXZWJ1C"
-  },
-  {
-   "rank": 6,
    "asin": "B0D3PVJMX8",
    "name": "RAINPOINT Wi-Fi Water Timer, Smart Hose Timer with Weather-Based Rain Delay, Brass Inlet and Outlet",
    "brand": "RAINPOINT",
@@ -320,7 +222,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 221,
-   "score": 67,
+   "score": 79,
    "awards": [],
    "works_with": [],
    "works_with_note": "RainPoint app",
@@ -358,7 +260,7 @@
    "page_url": "https://themisreviews.com/wifi-hose-timers.html#B0D3PVJMX8"
   },
   {
-   "rank": 7,
+   "rank": 5,
    "asin": "B0H11D2TS9",
    "name": "GoveeLife H5901 Smart WiFi Sprinkler Timer with Gateway, 1 Water Outlet",
    "brand": "GoveeLife",
@@ -367,7 +269,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 131,
-   "score": 67,
+   "score": 79,
    "awards": [
     "Best Overall"
    ],
@@ -408,7 +310,7 @@
    "page_url": "https://themisreviews.com/wifi-hose-timers.html#B0H11D2TS9"
   },
   {
-   "rank": 8,
+   "rank": 6,
    "asin": "B0DZ295PWK",
    "name": "Smart WiFi Sprinkler Timer 3 Zone, Water Timer for Garden Hose Irrigation",
    "brand": "OlsenXF",
@@ -417,7 +319,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 190,
-   "score": 62,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -459,6 +361,104 @@
    "page_url": "https://themisreviews.com/wifi-hose-timers.html#B0DZ295PWK"
   },
   {
+   "rank": 7,
+   "asin": "B09YFWNH9Y",
+   "name": "Orbit B-hyve XD 1-Port Smart Hose Watering Timer - 24511",
+   "brand": "Orbit",
+   "model": "B-hyve XD 1-port",
+   "price": 36.98,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 2091,
+   "score": 74,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "B-hyve app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The single-outlet B-hyve, at a low reseller price.",
+   "pros": [
+    "$36.98",
+    "Weather and drought adjustments",
+    "IPX5"
+   ],
+   "cons": [
+    "Sold by a reseller",
+    "4.0 stars",
+    "One outlet"
+   ],
+   "specs": {
+    "zones": "1",
+    "connection": "Wi-Fi or Bluetooth",
+    "inlet": "Not stated in bullets",
+    "extras": "IPX5, local watering restrictions"
+   },
+   "features": {
+    "weather": true,
+    "multi_zone": false,
+    "brass": false,
+    "flow_meter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71IA9Z4GymL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09YFWNH9Y?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-hose-timers.html#B09YFWNH9Y"
+  },
+  {
+   "rank": 8,
+   "asin": "B0BWXZWJ1C",
+   "name": "Rachio Smart Hose Timer: App-Controlled Faucet Timer. 1 Valve + 1 WiFi Hub",
+   "brand": "Rachio",
+   "model": "Smart Hose Timer (1 valve + hub)",
+   "price": 99.98,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1712,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Rachio app, IFTTT",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Rachio's hose timer, with the hub included and room for eight valves on it.",
+   "pros": [
+    "Hub included, up to 8 valves",
+    "Rain skips from the forecast",
+    "Alexa, Google Home, and IFTTT",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$99.98 for one valve",
+    "4.0 stars",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "zones": "1 valve (hub runs up to 8)",
+    "connection": "Wi-Fi hub included (2.4 GHz)",
+    "inlet": "Not stated in bullets",
+    "extras": "Rain skips, flow alerts, quick-run button"
+   },
+   "features": {
+    "weather": true,
+    "multi_zone": false,
+    "brass": false,
+    "flow_meter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Lr-XOaZhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BWXZWJ1C?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-hose-timers.html#B0BWXZWJ1C"
+  },
+  {
    "rank": 9,
    "asin": "B0FKBG81PQ",
    "name": "Insoma Wi-Fi Sprinkler Timer with Hub, 2.4 GHz Wi-Fi and Bluetooth, Rain Delay, Works with Alexa and Google",
@@ -468,7 +468,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 62,
-   "score": 62,
+   "score": 73,
    "awards": [
     "Best Budget"
    ],
@@ -522,7 +522,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 77,
-   "score": 59,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

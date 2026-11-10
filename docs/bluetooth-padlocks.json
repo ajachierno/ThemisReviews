@@ -28,7 +28,7 @@
    "weather": 0.25,
    "remote": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,55 +59,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0CNCN7RKY",
-   "name": "Dhiedas Fingerprint Gym Locker Lock with Bluetooth App, Keyless Biometric Padlock, Waterproof",
-   "brand": "Dhiedas",
-   "model": "Fingerprint Gym Locker Lock",
-   "price": 24.29,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 685,
-   "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A cheap fingerprint lock for gym lockers and luggage.",
-   "pros": [
-    "$24.29",
-    "685 reviews",
-    "Fingerprint"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Small shackle",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "unlock": "Fingerprint, app",
-    "backup": "Key",
-    "weather": "Water resistant",
-    "power": "USB rechargeable"
-   },
-   "features": {
-    "fingerprint": true,
-    "backup": true,
-    "weather": true,
-    "remote": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61VNlRt7UJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CNCN7RKY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B0CNCN7RKY"
-  },
-  {
-   "rank": 2,
    "asin": "B0D228BZJM",
    "name": "Fingerprint Gym Locker Lock, Keyless Biometric Padlock, Bluetooth App, Weatherproof, Black",
    "brand": "eLinkSmart",
@@ -116,7 +67,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 569,
-   "score": 77,
+   "score": 87,
    "awards": [],
    "works_with": [],
    "works_with_note": "eLinkSmart app",
@@ -154,7 +105,7 @@
    "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B0D228BZJM"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0CCXR9ZVN",
    "name": "Fingerprint Padlock with Key Backup, Heavy Duty, Weatherproof, Bluetooth App",
    "brand": "eLinkSmart",
@@ -163,7 +114,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 292,
-   "score": 75,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -203,6 +154,55 @@
    "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B0CCXR9ZVN"
   },
   {
+   "rank": 3,
+   "asin": "B0CNCN7RKY",
+   "name": "Dhiedas Fingerprint Gym Locker Lock with Bluetooth App, Keyless Biometric Padlock, Waterproof",
+   "brand": "Dhiedas",
+   "model": "Fingerprint Gym Locker Lock",
+   "price": 24.29,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 685,
+   "score": 86,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A cheap fingerprint lock for gym lockers and luggage.",
+   "pros": [
+    "$24.29",
+    "685 reviews",
+    "Fingerprint"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Small shackle",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "unlock": "Fingerprint, app",
+    "backup": "Key",
+    "weather": "Water resistant",
+    "power": "USB rechargeable"
+   },
+   "features": {
+    "fingerprint": true,
+    "backup": true,
+    "weather": true,
+    "remote": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61VNlRt7UJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNCN7RKY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B0CNCN7RKY"
+  },
+  {
    "rank": 4,
    "asin": "B0D8DNHRM8",
    "name": "Heavy Duty Smart Padlock with Key, Code and RFID, Weatherproof, Biometric",
@@ -212,7 +212,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 273,
-   "score": 74,
+   "score": 86,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -259,7 +259,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 61,
-   "score": 73,
+   "score": 85,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -298,53 +298,6 @@
   },
   {
    "rank": 6,
-   "asin": "B09D7F2GBQ",
-   "name": "Fingerprint Padlock, Pothunder Smart Padlock, Locker Lock, Fingerprint Lock with APP Unlock, USB Rechargeable, Suitable for Gym Locker, Door(Black)",
-   "brand": "Pothunder",
-   "model": "Fingerprint Padlock (locker)",
-   "price": 26.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 1340,
-   "score": 72,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The most-reviewed fingerprint padlock here, for indoor lockers.",
-   "pros": [
-    "1,340 reviews",
-    "$26.99",
-    "Fingerprint"
-   ],
-   "cons": [
-    "4.0 stars",
-    "Weather rating isn't in the bullets",
-    "Small shackle"
-   ],
-   "specs": {
-    "unlock": "Fingerprint, app",
-    "backup": "Key",
-    "weather": "Not stated in bullets",
-    "power": "USB rechargeable"
-   },
-   "features": {
-    "fingerprint": true,
-    "backup": true,
-    "weather": false,
-    "remote": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61WMCZOsvdL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09D7F2GBQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B09D7F2GBQ"
-  },
-  {
-   "rank": 7,
    "asin": "B0CXSH6LHD",
    "name": "Heavy Duty Smart Padlock with Key, Keypad and RFID, Bluetooth, Weatherproof",
    "brand": "eLinkSmart",
@@ -353,7 +306,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 408,
-   "score": 69,
+   "score": 79,
    "awards": [],
    "works_with": [],
    "works_with_note": "eLinkSmart app",
@@ -391,6 +344,53 @@
    "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B0CXSH6LHD"
   },
   {
+   "rank": 7,
+   "asin": "B09D7F2GBQ",
+   "name": "Fingerprint Padlock, Pothunder Smart Padlock, Locker Lock, Fingerprint Lock with APP Unlock, USB Rechargeable, Suitable for Gym Locker, Door(Black)",
+   "brand": "Pothunder",
+   "model": "Fingerprint Padlock (locker)",
+   "price": 26.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1340,
+   "score": 78,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The most-reviewed fingerprint padlock here, for indoor lockers.",
+   "pros": [
+    "1,340 reviews",
+    "$26.99",
+    "Fingerprint"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Weather rating isn't in the bullets",
+    "Small shackle"
+   ],
+   "specs": {
+    "unlock": "Fingerprint, app",
+    "backup": "Key",
+    "weather": "Not stated in bullets",
+    "power": "USB rechargeable"
+   },
+   "features": {
+    "fingerprint": true,
+    "backup": true,
+    "weather": false,
+    "remote": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61WMCZOsvdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09D7F2GBQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-padlocks.html#B09D7F2GBQ"
+  },
+  {
    "rank": 8,
    "asin": "B0BYYR57GQ",
    "name": "igloohome Smart Padlock 2 (SP2), Bluetooth App Access Sharing, Waterproof, Rechargeable",
@@ -400,7 +400,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 315,
-   "score": 67,
+   "score": 78,
    "awards": [
     "Best for Sharing Access"
    ],
@@ -449,7 +449,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 64,
-   "score": 58,
+   "score": 68,
    "awards": [],
    "works_with": [],
    "works_with_note": "ABUS app",
@@ -496,7 +496,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 88,
-   "score": 55,
+   "score": 66,
    "awards": [],
    "works_with": [],
    "works_with_note": "Master Lock Vault",

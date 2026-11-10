@@ -28,7 +28,7 @@
    "backup_power": 0.2,
    "multi_pet": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,52 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GSR1GTHW",
+   "name": "Automatic Cat Feeder with 1080P Camera, 7 L, 5G Wi-Fi, Night Vision, 2-Way Audio, 1-15 Meals",
+   "brand": "MUBBI",
+   "model": "Feeder with camera (7 L)",
+   "price": 62.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 103,
+   "score": 86,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "MUBBI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "A big camera feeder with an elevated bowl and removable legs.",
+   "pros": [
+    "Elevated bowl",
+    "2-way audio",
+    "600+ bought in the past month"
+   ],
+   "cons": [
+    "Only 103 reviews",
+    "New brand",
+    "$62.99"
+   ],
+   "specs": {
+    "capacity": "7 L / 29 cups",
+    "camera": "1080p, night vision, 2-way audio",
+    "wifi": "2.4 + 5 GHz"
+   },
+   "features": {
+    "camera": true,
+    "dual_band": true,
+    "backup_power": false,
+    "multi_pet": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61w5HBxj3wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GSR1GTHW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GSR1GTHW"
+  },
+  {
+   "rank": 2,
    "asin": "B0GTY42R3Z",
    "name": "HoneyGuaridan S303D Automatic Cat Feeder for 2 Cats, 2.4/5G Wi-Fi, Stainless Steel Bowls, Dual Power",
    "brand": "HoneyGuaridan",
@@ -111,7 +157,7 @@
    "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GTY42R3Z"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B0CNNN3BMR",
    "name": "Yuposl Automatic Cat Feeder with 1080P Camera, 5G Wi-Fi, Night Vision, 2-Way Audio, 1-15 Meals",
    "brand": "Yuposl",
@@ -120,7 +166,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 5465,
-   "score": 83,
+   "score": 85,
    "awards": [],
    "works_with": [],
    "works_with_note": "Yuposl app",
@@ -157,7 +203,103 @@
    "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0CNNN3BMR"
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "asin": "B0DCNNN5FC",
+   "name": "Frienhund Automatic Pet Feeder with 2K Camera, 5G Wi-Fi, Night Vision, 7 L Food Container",
+   "brand": "Frienhund",
+   "model": "Feeder with 2K camera (7 L)",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1861,
+   "score": 85,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [],
+   "works_with_note": "Frienhund app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best value camera feeder: 2K video and dual-band Wi-Fi for $59.99.",
+   "pros": [
+    "2K camera with night vision",
+    "Works on 5 GHz Wi-Fi",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "4.4 stars",
+    "Single bowl",
+    "Backup power isn't in the bullets"
+   ],
+   "specs": {
+    "capacity": "7 L",
+    "camera": "2K, night vision",
+    "wifi": "2.4 + 5 GHz"
+   },
+   "features": {
+    "camera": true,
+    "dual_band": true,
+    "backup_power": false,
+    "multi_pet": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71tQlxRny+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DCNNN5FC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0DCNNN5FC"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CFFKBW58",
+   "name": "PETKIT Automatic Cat Dog Feeder with Camera, Upgraded Multi-Pet Recognition",
+   "brand": "PETKIT",
+   "model": "YumShare Dual-Hopper with camera",
+   "price": 133.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 429,
+   "score": 84,
+   "awards": [
+    "Best for Two Pets"
+   ],
+   "works_with": [],
+   "works_with_note": "PETKIT app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Two hoppers on separate schedules, for two pets or two foods.",
+   "pros": [
+    "Dual hoppers",
+    "AI motion capture",
+    "4.5 stars"
+   ],
+   "cons": [
+    "$133.99",
+    "2.4 GHz only",
+    "Only 429 reviews"
+   ],
+   "specs": {
+    "capacity": "2 hoppers",
+    "camera": "1080p, 140°, AI motion capture",
+    "wifi": "2.4 GHz"
+   },
+   "features": {
+    "camera": true,
+    "dual_band": false,
+    "backup_power": false,
+    "multi_pet": true
+   },
+   "image": "https://m.media-amazon.com/images/I/717LMixWIsL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CFFKBW58?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0CFFKBW58"
+  },
+  {
+   "rank": 6,
    "asin": "B0B5ZJY9MT",
    "name": "PETLIBRO Automatic Cat Feeder with Camera, 1080P HD Video & Night Vision",
    "brand": "PETLIBRO",
@@ -205,148 +347,6 @@
    "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0B5ZJY9MT"
   },
   {
-   "rank": 4,
-   "asin": "B0DCNNN5FC",
-   "name": "Frienhund Automatic Pet Feeder with 2K Camera, 5G Wi-Fi, Night Vision, 7 L Food Container",
-   "brand": "Frienhund",
-   "model": "Feeder with 2K camera (7 L)",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1861,
-   "score": 79,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [],
-   "works_with_note": "Frienhund app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The best value camera feeder: 2K video and dual-band Wi-Fi for $59.99.",
-   "pros": [
-    "2K camera with night vision",
-    "Works on 5 GHz Wi-Fi",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "4.4 stars",
-    "Single bowl",
-    "Backup power isn't in the bullets"
-   ],
-   "specs": {
-    "capacity": "7 L",
-    "camera": "2K, night vision",
-    "wifi": "2.4 + 5 GHz"
-   },
-   "features": {
-    "camera": true,
-    "dual_band": true,
-    "backup_power": false,
-    "multi_pet": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71tQlxRny+L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DCNNN5FC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0DCNNN5FC"
-  },
-  {
-   "rank": 5,
-   "asin": "B0C5X4N132",
-   "name": "oneisall 5G WiFi Automatic Cat Feeder for 2 Cats, App Control, 20 Cups/5L",
-   "brand": "oneisall",
-   "model": "Feeder for 2 cats (5 L)",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2607,
-   "score": 76,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "oneisall app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A no-camera feeder that splits each meal between two bowls.",
-   "pros": [
-    "Feeds two cats",
-    "5 GHz Wi-Fi",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "No camera",
-    "4.4 stars",
-    "$69.99"
-   ],
-   "specs": {
-    "capacity": "5 L / 20 cups",
-    "camera": "No",
-    "wifi": "2.4 + 5 GHz"
-   },
-   "features": {
-    "camera": false,
-    "dual_band": true,
-    "backup_power": false,
-    "multi_pet": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71m-vL8WL-L._AC_SL1300_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C5X4N132?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0C5X4N132"
-  },
-  {
-   "rank": 6,
-   "asin": "B0CFFKBW58",
-   "name": "PETKIT Automatic Cat Dog Feeder with Camera, Upgraded Multi-Pet Recognition",
-   "brand": "PETKIT",
-   "model": "YumShare Dual-Hopper with camera",
-   "price": 133.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 429,
-   "score": 74,
-   "awards": [
-    "Best for Two Pets"
-   ],
-   "works_with": [],
-   "works_with_note": "PETKIT app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Two hoppers on separate schedules, for two pets or two foods.",
-   "pros": [
-    "Dual hoppers",
-    "AI motion capture",
-    "4.5 stars"
-   ],
-   "cons": [
-    "$133.99",
-    "2.4 GHz only",
-    "Only 429 reviews"
-   ],
-   "specs": {
-    "capacity": "2 hoppers",
-    "camera": "1080p, 140°, AI motion capture",
-    "wifi": "2.4 GHz"
-   },
-   "features": {
-    "camera": true,
-    "dual_band": false,
-    "backup_power": false,
-    "multi_pet": true
-   },
-   "image": "https://m.media-amazon.com/images/I/717LMixWIsL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CFFKBW58?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0CFFKBW58"
-  },
-  {
    "rank": 7,
    "asin": "B0GJS115H7",
    "name": "iPettie Camera Automatic Cat Feeder and Water Dispenser, 5G/2.4GHz WiFi",
@@ -356,7 +356,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 363,
-   "score": 73,
+   "score": 82,
    "awards": [],
    "works_with": [],
    "works_with_note": "iPettie app",
@@ -394,49 +394,49 @@
   },
   {
    "rank": 8,
-   "asin": "B0GSR1GTHW",
-   "name": "Automatic Cat Feeder with 1080P Camera, 7 L, 5G Wi-Fi, Night Vision, 2-Way Audio, 1-15 Meals",
-   "brand": "MUBBI",
-   "model": "Feeder with camera (7 L)",
-   "price": 62.99,
+   "asin": "B0C5X4N132",
+   "name": "oneisall 5G WiFi Automatic Cat Feeder for 2 Cats, App Control, 20 Cups/5L",
+   "brand": "oneisall",
+   "model": "Feeder for 2 cats (5 L)",
+   "price": 69.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 103,
-   "score": 73,
+   "rating": 4.4,
+   "reviews_count": 2607,
+   "score": 81,
    "awards": [],
    "works_with": [],
-   "works_with_note": "MUBBI app",
+   "works_with_note": "oneisall app",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "600+ bought in past month",
-   "verdict": "A big camera feeder with an elevated bowl and removable legs.",
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A no-camera feeder that splits each meal between two bowls.",
    "pros": [
-    "Elevated bowl",
-    "2-way audio",
-    "600+ bought in the past month"
+    "Feeds two cats",
+    "5 GHz Wi-Fi",
+    "1K+ bought in the past month"
    ],
    "cons": [
-    "Only 103 reviews",
-    "New brand",
-    "$62.99"
+    "No camera",
+    "4.4 stars",
+    "$69.99"
    ],
    "specs": {
-    "capacity": "7 L / 29 cups",
-    "camera": "1080p, night vision, 2-way audio",
+    "capacity": "5 L / 20 cups",
+    "camera": "No",
     "wifi": "2.4 + 5 GHz"
    },
    "features": {
-    "camera": true,
+    "camera": false,
     "dual_band": true,
     "backup_power": false,
-    "multi_pet": false
+    "multi_pet": true
    },
-   "image": "https://m.media-amazon.com/images/I/61w5HBxj3wL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GSR1GTHW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0GSR1GTHW"
+   "image": "https://m.media-amazon.com/images/I/71m-vL8WL-L._AC_SL1300_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C5X4N132?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pet-feeders.html#B0C5X4N132"
   },
   {
    "rank": 9,
@@ -448,7 +448,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 790,
-   "score": 72,
+   "score": 79,
    "awards": [],
    "works_with": [],
    "works_with_note": "PetTech app",
@@ -494,7 +494,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 4285,
-   "score": 71,
+   "score": 74,
    "awards": [
     "Best Budget"
    ],

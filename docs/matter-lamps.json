@@ -28,7 +28,7 @@
    "cordless": 0.15,
    "effects": 0.25
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,118 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GQTF4X6H",
+   "name": "Govee Lantern Floor Lamp, Halo Gradient RGBIC Smart Corner Lamp for Bedroom",
+   "brand": "Govee",
+   "model": "Lantern Floor Lamp",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 404,
+   "score": 94,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A soft lantern that looks good switched off.",
+   "pros": [
+    "4.8 stars",
+    "Touch-sensitive shade",
+    "1,400 lm"
+   ],
+   "cons": [
+    "Only 404 reviews",
+    "$129.99",
+    "Decor more than reading"
+   ],
+   "specs": {
+    "style": "Lantern, silicone shade",
+    "brightness": "1,400 lm",
+    "color": "RGBIC + 1,000K–10,000K",
+    "extras": "Touch shade"
+   },
+   "features": {
+    "white": true,
+    "bright": true,
+    "cordless": false,
+    "effects": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81+PY+wR8TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQTF4X6H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-lamps.html#B0GQTF4X6H"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GQT4YJ5F",
+   "name": "Govee Floor Lamp 3 with Luminblend+ Technology, 1000K-10000K Standing Lamp",
+   "brand": "Govee",
+   "model": "Floor Lamp 3",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 281,
+   "score": 93,
+   "awards": [
+    "Brightest"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The brightest Matter lamp here, with the widest white range.",
+   "pros": [
+    "2,100 lm",
+    "1,000K–10,000K white",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "2,100 lm only at cool white",
+    "$169.99",
+    "Only 281 reviews"
+   ],
+   "specs": {
+    "style": "Corner pole",
+    "brightness": "2,100 lm at 6,500K",
+    "color": "LuminBlend+, 1,000K–10,000K",
+    "extras": "Wider wall-wash"
+   },
+   "features": {
+    "white": true,
+    "bright": true,
+    "cordless": false,
+    "effects": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61j-NE3I1DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQT4YJ5F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-lamps.html#B0GQT4YJ5F"
+  },
+  {
+   "rank": 3,
    "asin": "B0CTH2QF23",
    "name": "Govee Floor Lamp 2, RGBIC Smart Floor Lamp for Living Room, Bedroom",
    "brand": "Govee",
@@ -118,118 +230,6 @@
    "image": "https://m.media-amazon.com/images/I/61X1OBENlqL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CTH2QF23?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-lamps.html#B0CTH2QF23"
-  },
-  {
-   "rank": 2,
-   "asin": "B0GQTF4X6H",
-   "name": "Govee Lantern Floor Lamp, Halo Gradient RGBIC Smart Corner Lamp for Bedroom",
-   "brand": "Govee",
-   "model": "Lantern Floor Lamp",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 404,
-   "score": 91,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A soft lantern that looks good switched off.",
-   "pros": [
-    "4.8 stars",
-    "Touch-sensitive shade",
-    "1,400 lm"
-   ],
-   "cons": [
-    "Only 404 reviews",
-    "$129.99",
-    "Decor more than reading"
-   ],
-   "specs": {
-    "style": "Lantern, silicone shade",
-    "brightness": "1,400 lm",
-    "color": "RGBIC + 1,000K–10,000K",
-    "extras": "Touch shade"
-   },
-   "features": {
-    "white": true,
-    "bright": true,
-    "cordless": false,
-    "effects": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81+PY+wR8TL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQTF4X6H?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-lamps.html#B0GQTF4X6H"
-  },
-  {
-   "rank": 3,
-   "asin": "B0GQT4YJ5F",
-   "name": "Govee Floor Lamp 3 with Luminblend+ Technology, 1000K-10000K Standing Lamp",
-   "brand": "Govee",
-   "model": "Floor Lamp 3",
-   "price": 169.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 281,
-   "score": 88,
-   "awards": [
-    "Brightest"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "The brightest Matter lamp here, with the widest white range.",
-   "pros": [
-    "2,100 lm",
-    "1,000K–10,000K white",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "2,100 lm only at cool white",
-    "$169.99",
-    "Only 281 reviews"
-   ],
-   "specs": {
-    "style": "Corner pole",
-    "brightness": "2,100 lm at 6,500K",
-    "color": "LuminBlend+, 1,000K–10,000K",
-    "extras": "Wider wall-wash"
-   },
-   "features": {
-    "white": true,
-    "bright": true,
-    "cordless": false,
-    "effects": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61j-NE3I1DL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQT4YJ5F?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-lamps.html#B0GQT4YJ5F"
   },
   {
    "rank": 4,
@@ -291,6 +291,61 @@
   },
   {
    "rank": 5,
+   "asin": "B0F43M9KWW",
+   "name": "Govee Tree Floor Lamp with 3 Rotatable Lights, Compatible with Matter",
+   "brand": "Govee",
+   "model": "Tree Floor Lamp (3 heads)",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 744,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Three aimable heads for reading and accent light at once.",
+   "pros": [
+    "1,500 lm",
+    "Aimable heads",
+    "4.6 stars"
+   ],
+   "cons": [
+    "$169.99",
+    "Only 744 reviews",
+    "Takes floor space"
+   ],
+   "specs": {
+    "style": "Tree, 3 rotating heads",
+    "brightness": "1,500 lm",
+    "color": "16M colors + 2,700K–6,500K",
+    "extras": "Heads rotate 350°"
+   },
+   "features": {
+    "white": true,
+    "bright": true,
+    "cordless": false,
+    "effects": false
+   },
+   "image": "https://m.media-amazon.com/images/I/712q-hM2JbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F43M9KWW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-lamps.html#B0F43M9KWW"
+  },
+  {
+   "rank": 6,
    "asin": "B0F3NZ12GL",
    "name": "Govee Uplighter Floor Lamp for Living Room, RGBIC Ripple Projector",
    "brand": "Govee",
@@ -347,61 +402,6 @@
    "page_url": "https://themisreviews.com/matter-lamps.html#B0F3NZ12GL"
   },
   {
-   "rank": 6,
-   "asin": "B0F43M9KWW",
-   "name": "Govee Tree Floor Lamp with 3 Rotatable Lights, Compatible with Matter",
-   "brand": "Govee",
-   "model": "Tree Floor Lamp (3 heads)",
-   "price": 169.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 744,
-   "score": 84,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Three aimable heads for reading and accent light at once.",
-   "pros": [
-    "1,500 lm",
-    "Aimable heads",
-    "4.6 stars"
-   ],
-   "cons": [
-    "$169.99",
-    "Only 744 reviews",
-    "Takes floor space"
-   ],
-   "specs": {
-    "style": "Tree, 3 rotating heads",
-    "brightness": "1,500 lm",
-    "color": "16M colors + 2,700K–6,500K",
-    "extras": "Heads rotate 350°"
-   },
-   "features": {
-    "white": true,
-    "bright": true,
-    "cordless": false,
-    "effects": false
-   },
-   "image": "https://m.media-amazon.com/images/I/712q-hM2JbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F43M9KWW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-lamps.html#B0F43M9KWW"
-  },
-  {
    "rank": 7,
    "asin": "B0GLM9BBQT",
    "name": "Govee Smart Cordless Table Lamp Classic (No Adapter) , RGBIC Desk Lamp",
@@ -411,7 +411,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 205,
-   "score": 79,
+   "score": 85,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -467,7 +467,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 434,
-   "score": 76,
+   "score": 82,
    "awards": [
     "Best Budget"
    ],
@@ -523,7 +523,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 81,
-   "score": 73,
+   "score": 81,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -578,7 +578,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 269,
-   "score": 68,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Home Assistant",

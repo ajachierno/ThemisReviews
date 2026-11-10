@@ -28,7 +28,7 @@
    "extra_radios": 0.2,
    "network": 0.15
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,58 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B08ZK39NSL",
-   "name": "Amazon eero 6+ mesh wifi router - Supports internet plans up to a Gigabit, Coverage up to 1,500 sq. ft., Connect 75+ devices, 1-pack",
-   "brand": "eero",
-   "model": "6+",
-   "price": 139.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 10622,
-   "score": 86,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "If you need a new router anyway, this one adds Thread and Zigbee without another box.",
-   "pros": [
-    "Thread and Zigbee hub built in, per the listing",
-    "Gigabit Wi-Fi 6",
-    "4.4 stars from 10,622 reviews",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "Smart home devices connect through Alexa",
-    "1,500 sq. ft. per unit",
-    "Replacing your router is a big change for a Thread radio"
-   ],
-   "specs": {
-    "type": "Mesh Wi-Fi router",
-    "controller": false,
-    "radios": "Zigbee",
-    "needs": "Alexa for smart home control"
-   },
-   "features": {
-    "standalone": true,
-    "matter_controller": false,
-    "extra_radios": true,
-    "network": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61jZBJ15YFL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08ZK39NSL?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-border-routers.html#B08ZK39NSL"
-  },
-  {
-   "rank": 2,
    "asin": "B0CWLHSKYC",
    "name": "Aqara Smart Home Hub M3 for Advanced Automation, Matter Controller, IR",
    "brand": "Aqara",
@@ -126,7 +74,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 1720,
-   "score": 84,
+   "score": 91,
    "awards": [
     "Best Standalone Hub"
    ],
@@ -175,7 +123,7 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0CWLHSKYC"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0FLXXF4YW",
    "name": "Aqara Smart Hub M200, Matter Controller, Featuring Aqara Zigbee, Wi-Fi, IR",
    "brand": "Aqara",
@@ -184,7 +132,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 401,
-   "score": 81,
+   "score": 91,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -231,6 +179,58 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0FLXXF4YW"
   },
   {
+   "rank": 3,
+   "asin": "B08ZK39NSL",
+   "name": "Amazon eero 6+ mesh wifi router - Supports internet plans up to a Gigabit, Coverage up to 1,500 sq. ft., Connect 75+ devices, 1-pack",
+   "brand": "eero",
+   "model": "6+",
+   "price": 139.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 10622,
+   "score": 87,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "If you need a new router anyway, this one adds Thread and Zigbee without another box.",
+   "pros": [
+    "Thread and Zigbee hub built in, per the listing",
+    "Gigabit Wi-Fi 6",
+    "4.4 stars from 10,622 reviews",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Smart home devices connect through Alexa",
+    "1,500 sq. ft. per unit",
+    "Replacing your router is a big change for a Thread radio"
+   ],
+   "specs": {
+    "type": "Mesh Wi-Fi router",
+    "controller": false,
+    "radios": "Zigbee",
+    "needs": "Alexa for smart home control"
+   },
+   "features": {
+    "standalone": true,
+    "matter_controller": false,
+    "extra_radios": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61jZBJ15YFL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08ZK39NSL?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-border-routers.html#B08ZK39NSL"
+  },
+  {
    "rank": 4,
    "asin": "B0BCR7M9KX",
    "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Smart home hub compatible with thousands of devices",
@@ -240,7 +240,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 1849,
-   "score": 80,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 1050,
-   "score": 78,
+   "score": 85,
    "awards": [
     "Best Budget"
    ],
@@ -338,6 +338,55 @@
   },
   {
    "rank": 6,
+   "asin": "B0FMJH4DPN",
+   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
+   "brand": "SONOFF",
+   "model": "Dongle Max (Dongle-M)",
+   "price": 42.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 702,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A network-connected Thread or Zigbee radio you can place anywhere you have Ethernet.",
+   "pros": [
+    "Ethernet with PoE, Wi-Fi, or USB",
+    "Switch to Thread RCP firmware from the web console",
+    "Two 5 dBi antennas"
+   ],
+   "cons": [
+    "4.3 stars",
+    "$42.90",
+    "Thread or Zigbee, not both at once"
+   ],
+   "specs": {
+    "type": "Network dongle",
+    "controller": false,
+    "radios": "Zigbee (one at a time)",
+    "needs": "Home Assistant or OTBR"
+   },
+   "features": {
+    "standalone": false,
+    "matter_controller": false,
+    "extra_radios": true,
+    "network": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJH4DPN"
+  },
+  {
+   "rank": 7,
    "asin": "B0FMJD288B",
    "name": "SONOFF Zigbee 3.0 USB Dongle Plus MG24 (Dongle-PMG24)",
    "brand": "SONOFF",
@@ -346,7 +395,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 766,
-   "score": 69,
+   "score": 76,
    "awards": [
     "Best for Home Assistant"
    ],
@@ -388,55 +437,6 @@
    "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJD288B"
   },
   {
-   "rank": 7,
-   "asin": "B0FMJH4DPN",
-   "name": "SONOFF Zigbee/Thread PoE Dongle Max (Dongle-M)",
-   "brand": "SONOFF",
-   "model": "Dongle Max (Dongle-M)",
-   "price": 42.9,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 702,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A network-connected Thread or Zigbee radio you can place anywhere you have Ethernet.",
-   "pros": [
-    "Ethernet with PoE, Wi-Fi, or USB",
-    "Switch to Thread RCP firmware from the web console",
-    "Two 5 dBi antennas"
-   ],
-   "cons": [
-    "4.3 stars",
-    "$42.90",
-    "Thread or Zigbee, not both at once"
-   ],
-   "specs": {
-    "type": "Network dongle",
-    "controller": false,
-    "radios": "Zigbee (one at a time)",
-    "needs": "Home Assistant or OTBR"
-   },
-   "features": {
-    "standalone": false,
-    "matter_controller": false,
-    "extra_radios": true,
-    "network": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51U8HrjXTDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMJH4DPN?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-border-routers.html#B0FMJH4DPN"
-  },
-  {
    "rank": 8,
    "asin": "B0G2LTBM1M",
    "name": "SONOFF Zigbee 3.0 & Thread USB Dongle (Dongle-LMG21)",
@@ -446,7 +446,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 489,
-   "score": 68,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -495,7 +495,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 116,
-   "score": 62,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Home Assistant"

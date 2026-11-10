@@ -27,7 +27,7 @@
    "retrofit": 0.3,
    "home_key": 0.35
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -119,7 +119,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 108,
-   "score": 61,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -164,61 +164,6 @@
   },
   {
    "rank": 3,
-   "asin": "B09HYYZH6R",
-   "name": "Kwikset Convert Zigbee 3.0 Electronic Smart Lock Conversion Kit in Satin Nickel",
-   "brand": "Kwikset",
-   "model": "Convert (Zigbee 3.0)",
-   "price": 95.0,
-   "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 53,
-   "score": 56,
-   "awards": [
-    "Best Retrofit"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Makes your current deadbolt smart by replacing just the inside half, so the outside looks the same.",
-   "pros": [
-    "Keeps your exterior lock and keys",
-    "Pairs with Echo devices that have Zigbee, SmartThings, and Xfinity",
-    "$95.00"
-   ],
-   "cons": [
-    "3.7 stars",
-    "Sold by a third-party seller",
-    "Measure backset, bore, and door thickness first, per the listing"
-   ],
-   "specs": {
-    "type": "Retrofit (interior only)",
-    "entry": "Your existing key, hub control",
-    "hub": "Echo (4th gen), Echo Show 10, SmartThings, Xfinity",
-    "rating": "Not listed",
-    "extras": "Keeps your exterior hardware"
-   },
-   "features": {
-    "auto_lock": false,
-    "retrofit": true,
-    "home_key": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41pEPPO84OL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09HYYZH6R?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-locks.html#B09HYYZH6R"
-  },
-  {
-   "rank": 4,
    "asin": "B08XXVND8V",
    "name": "Kwikset 916 Touchscreen SmartCode Deadbolt with SmartKey and Zigbee 3.0, Satin Nickel",
    "brand": "Kwikset",
@@ -227,7 +172,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 138,
-   "score": 54,
+   "score": 63,
    "awards": [
     "Best Touchscreen"
    ],
@@ -271,6 +216,61 @@
    "image": "https://m.media-amazon.com/images/I/61QuHA19hLS._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08XXVND8V?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-locks.html#B08XXVND8V"
+  },
+  {
+   "rank": 4,
+   "asin": "B09HYYZH6R",
+   "name": "Kwikset Convert Zigbee 3.0 Electronic Smart Lock Conversion Kit in Satin Nickel",
+   "brand": "Kwikset",
+   "model": "Convert (Zigbee 3.0)",
+   "price": 95.0,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 53,
+   "score": 63,
+   "awards": [
+    "Best Retrofit"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Makes your current deadbolt smart by replacing just the inside half, so the outside looks the same.",
+   "pros": [
+    "Keeps your exterior lock and keys",
+    "Pairs with Echo devices that have Zigbee, SmartThings, and Xfinity",
+    "$95.00"
+   ],
+   "cons": [
+    "3.7 stars",
+    "Sold by a third-party seller",
+    "Measure backset, bore, and door thickness first, per the listing"
+   ],
+   "specs": {
+    "type": "Retrofit (interior only)",
+    "entry": "Your existing key, hub control",
+    "hub": "Echo (4th gen), Echo Show 10, SmartThings, Xfinity",
+    "rating": "Not listed",
+    "extras": "Keeps your exterior hardware"
+   },
+   "features": {
+    "auto_lock": false,
+    "retrofit": true,
+    "home_key": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41pEPPO84OL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09HYYZH6R?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-locks.html#B09HYYZH6R"
   }
  ],
  "avoid": [],

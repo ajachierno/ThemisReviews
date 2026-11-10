@@ -28,7 +28,7 @@
    "usbc": 0.2,
    "surge": 0.2
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -60,7 +60,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 365,
-   "score": 85,
+   "score": 90,
    "awards": [
     "Best Overall"
    ],
@@ -109,6 +109,61 @@
   },
   {
    "rank": 2,
+   "asin": "B0DYD7FKKB",
+   "name": "Matter Smart Power Strip with 4 Individually Controlled Outlets, Apple HomeKit, Alexa, Google Assistant",
+   "brand": "UseeLink",
+   "model": "Matter Smart Power Strip",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 66,
+   "score": 65,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A basic four-outlet Matter strip with USB-C.",
+   "pros": [
+    "USB-C ports",
+    "Matter",
+    "$35.99"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Only 66 reviews",
+    "Surge protection isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "4, individually controlled",
+    "usb": "2 USB + 2 USB-C",
+    "energy": "Not stated in bullets",
+    "extras": "Flat extension cord"
+   },
+   "features": {
+    "energy": false,
+    "many": false,
+    "usbc": true,
+    "surge": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61HAWVCZ4nL._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DYD7FKKB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-power-strips.html#B0DYD7FKKB"
+  },
+  {
+   "rank": 3,
    "asin": "B0H8Q1KJ13",
    "name": "Matter Smart Power Strip with USB-C 20W ETL listed FCC certified",
    "brand": "Jinvoo",
@@ -117,7 +172,7 @@
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 3,
-   "score": 60,
+   "score": 63,
    "awards": [
     "Best for Charging"
    ],
@@ -163,61 +218,6 @@
    "image": "https://m.media-amazon.com/images/I/619847p1-ML._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0H8Q1KJ13?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-power-strips.html#B0H8Q1KJ13"
-  },
-  {
-   "rank": 3,
-   "asin": "B0DYD7FKKB",
-   "name": "Matter Smart Power Strip with 4 Individually Controlled Outlets, Apple HomeKit, Alexa, Google Assistant",
-   "brand": "UseeLink",
-   "model": "Matter Smart Power Strip",
-   "price": 35.99,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 66,
-   "score": 57,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A basic four-outlet Matter strip with USB-C.",
-   "pros": [
-    "USB-C ports",
-    "Matter",
-    "$35.99"
-   ],
-   "cons": [
-    "3.9 stars",
-    "Only 66 reviews",
-    "Surge protection isn't in the bullets"
-   ],
-   "specs": {
-    "outlets": "4, individually controlled",
-    "usb": "2 USB + 2 USB-C",
-    "energy": "Not stated in bullets",
-    "extras": "Flat extension cord"
-   },
-   "features": {
-    "energy": false,
-    "many": false,
-    "usbc": true,
-    "surge": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61HAWVCZ4nL._AC_SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DYD7FKKB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-power-strips.html#B0DYD7FKKB"
   }
  ],
  "avoid": [],

@@ -27,7 +27,7 @@
    "alexa_and_google": 0.35,
    "safety_listed": 0.25
   },
-  "reviews_ceiling": 40000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 19960,
-   "score": 94,
+   "score": 96,
    "awards": [
     "Best for 3-Way"
    ],
@@ -183,7 +183,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1595,
-   "score": 76,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -235,7 +235,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 882,
-   "score": 76,
+   "score": 86,
    "awards": [
     "Best Multipack"
    ],
@@ -282,58 +282,6 @@
   },
   {
    "rank": 5,
-   "asin": "B07R7PCCT9",
-   "name": "TREATLIFE Single Pole Smart Light Switch, Neutral Wire Required, 2.4GHz Wi-Fi Light Switch, Works with Alexa and Google Home, Schedule, Remote Control",
-   "brand": "TREATLIFE",
-   "model": "Single pole smart switch",
-   "price": 18.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 4268,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A popular, well-rated budget switch that runs on the Smart Life app.",
-   "pros": [
-    "4.5 stars from 4,268 reviews",
-    "Alexa and Google with no hub",
-    "Schedules and countdown timers"
-   ],
-   "cons": [
-    "Single-pole only, per the listing",
-    "No safety certification named in the listing",
-    "Smart Life is a cloud-based app"
-   ],
-   "specs": {
-    "neutral": "Required",
-    "three_way_text": "No (single pole)",
-    "app": "Smart Life",
-    "voice": "Alexa, Google",
-    "style": "Paddle",
-    "pack": "1 switch"
-   },
-   "features": {
-    "three_way": false,
-    "alexa_and_google": true,
-    "safety_listed": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61wzwQdVeGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07R7PCCT9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-switches.html#B07R7PCCT9"
-  },
-  {
-   "rank": 6,
    "asin": "B07DXDP662",
    "name": "Smart Light Switch WiFi Wall Switch Touch Switch 1 Gang, Voice Control, Remote Control, Timer & Schedule UL Certified, No Hub Required",
    "brand": "Lesim",
@@ -342,7 +290,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 642,
-   "score": 70,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -386,6 +334,58 @@
    "page_url": "https://themisreviews.com/wifi-switches.html#B07DXDP662"
   },
   {
+   "rank": 6,
+   "asin": "B07R7PCCT9",
+   "name": "TREATLIFE Single Pole Smart Light Switch, Neutral Wire Required, 2.4GHz Wi-Fi Light Switch, Works with Alexa and Google Home, Schedule, Remote Control",
+   "brand": "TREATLIFE",
+   "model": "Single pole smart switch",
+   "price": 18.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 4268,
+   "score": 79,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A popular, well-rated budget switch that runs on the Smart Life app.",
+   "pros": [
+    "4.5 stars from 4,268 reviews",
+    "Alexa and Google with no hub",
+    "Schedules and countdown timers"
+   ],
+   "cons": [
+    "Single-pole only, per the listing",
+    "No safety certification named in the listing",
+    "Smart Life is a cloud-based app"
+   ],
+   "specs": {
+    "neutral": "Required",
+    "three_way_text": "No (single pole)",
+    "app": "Smart Life",
+    "voice": "Alexa, Google",
+    "style": "Paddle",
+    "pack": "1 switch"
+   },
+   "features": {
+    "three_way": false,
+    "alexa_and_google": true,
+    "safety_listed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61wzwQdVeGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07R7PCCT9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-switches.html#B07R7PCCT9"
+  },
+  {
    "rank": 7,
    "asin": "B0D2X8HCQD",
    "name": "MOES Smart Toggle Switch, Single Pole & 3-Way, WiFi, Neutral Wire Required",
@@ -395,7 +395,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 78,
-   "score": 65,
+   "score": 78,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -439,59 +439,6 @@
   },
   {
    "rank": 8,
-   "asin": "B095X911T8",
-   "name": "Amazon Basics Smart Light Switch, Single Pole, Works with Alexa Only, Voice Control, Schedule, 2.4 GHz Wi-Fi, No Hub Required, Easy to Install, White",
-   "brand": "Amazon Basics",
-   "model": "Smart Light Switch",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4219,
-   "score": 63,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "A low-cost switch for an Alexa-only home. It's set up and controlled entirely through the Alexa app.",
-   "pros": [
-    "$14.99, the third-lowest price on this list",
-    "Sets up in the Alexa app with no extra app",
-    "4.4 stars from 4,216 reviews, sold by Amazon",
-    "Schedules through Alexa routines"
-   ],
-   "cons": [
-    "Works with Alexa only, not Google or Apple",
-    "Single-pole only",
-    "Useless if you ever leave Alexa"
-   ],
-   "specs": {
-    "neutral": "Not stated in listing",
-    "three_way_text": "No (single pole)",
-    "app": "Alexa app",
-    "voice": "Alexa only",
-    "style": "Paddle",
-    "pack": "1 switch"
-   },
-   "features": {
-    "three_way": false,
-    "alexa_and_google": false,
-    "safety_listed": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61fl6gfucJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B095X911T8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-switches.html#B095X911T8"
-  },
-  {
-   "rank": 9,
    "asin": "B078ZNJNSK",
    "name": "Smart WiFi Switch - Wireless Smartphone Controlled Wall Light Switch, Compatible with Alexa, Google Home, IFTTT, Android & iOS - No Hub Required (1-Pack)",
    "brand": "Nexete",
@@ -500,7 +447,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 256,
-   "score": 63,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -543,7 +490,7 @@
    "page_url": "https://themisreviews.com/wifi-switches.html#B078ZNJNSK"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B07KYX37T8",
    "name": "BN-LINK WiFi Smart in-Wall Light Switch, No Hub Required with Timer Function, White, Compatible with Alexa and Google Assistant, Neutral Wire Needed, 2.4 Ghz Network Only",
    "brand": "BN-LINK",
@@ -552,7 +499,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 794,
-   "score": 62,
+   "score": 73,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -593,6 +540,59 @@
    "image": "https://m.media-amazon.com/images/I/413FnzHtgoL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07KYX37T8?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-switches.html#B07KYX37T8"
+  },
+  {
+   "rank": 10,
+   "asin": "B095X911T8",
+   "name": "Amazon Basics Smart Light Switch, Single Pole, Works with Alexa Only, Voice Control, Schedule, 2.4 GHz Wi-Fi, No Hub Required, Easy to Install, White",
+   "brand": "Amazon Basics",
+   "model": "Smart Light Switch",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4219,
+   "score": 70,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A low-cost switch for an Alexa-only home. It's set up and controlled entirely through the Alexa app.",
+   "pros": [
+    "$14.99, the third-lowest price on this list",
+    "Sets up in the Alexa app with no extra app",
+    "4.4 stars from 4,216 reviews, sold by Amazon",
+    "Schedules through Alexa routines"
+   ],
+   "cons": [
+    "Works with Alexa only, not Google or Apple",
+    "Single-pole only",
+    "Useless if you ever leave Alexa"
+   ],
+   "specs": {
+    "neutral": "Not stated in listing",
+    "three_way_text": "No (single pole)",
+    "app": "Alexa app",
+    "voice": "Alexa only",
+    "style": "Paddle",
+    "pack": "1 switch"
+   },
+   "features": {
+    "three_way": false,
+    "alexa_and_google": false,
+    "safety_listed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61fl6gfucJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B095X911T8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-switches.html#B095X911T8"
   }
  ],
  "avoid": [

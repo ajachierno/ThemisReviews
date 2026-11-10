@@ -28,7 +28,7 @@
    "zones": 0.2,
    "smart_home": 0.25
   },
-  "reviews_ceiling": 9000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -128,7 +128,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3126,
-   "score": 87,
+   "score": 90,
    "awards": [
     "Best for Big Yards"
    ],
@@ -173,6 +173,55 @@
   },
   {
    "rank": 3,
+   "asin": "B0CYN2D41N",
+   "name": "Rain Bird ARC6 Irrigation Controller, Smart WiFi, Indoor, 6-Station",
+   "brand": "Rain Bird",
+   "model": "ARC6",
+   "price": 85.0,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 470,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Rain Bird app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Rain Bird's Wi-Fi controller, easy to share with a landscaper.",
+   "pros": [
+    "Weather-based skipping",
+    "Share control with family or a landscaper",
+    "Official Home Assistant integration"
+   ],
+   "cons": [
+    "4.0 stars",
+    "6 zones",
+    "Indoor only"
+   ],
+   "specs": {
+    "zones": "6",
+    "mount": "Indoor",
+    "weather": "Forecast-based skips (up to 30% savings)",
+    "app": "Rain Bird app, shared access"
+   },
+   "features": {
+    "weather": true,
+    "outdoor": false,
+    "zones": false,
+    "smart_home": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71XwOlMCn-L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYN2D41N?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0CYN2D41N"
+  },
+  {
+   "rank": 4,
    "asin": "B01D15HOTU",
    "name": "Orbit B-hyve Smart Indoor/Outdoor Sprinkler Controller 57950, 12-Zone, App Controlled, Weatherproof",
    "brand": "Orbit",
@@ -181,7 +230,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 6908,
-   "score": 79,
+   "score": 80,
    "awards": [
     "Best Outdoor"
    ],
@@ -221,7 +270,54 @@
    "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B01D15HOTU"
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "asin": "B0F883P8N1",
+   "name": "Smart Sprinkler Controller, 2.4 GHz Wi-Fi, 4 Zones and 16 Plans, App Control, Auto Skip for Rain, Freeze and Wind",
+   "brand": "HiOazo",
+   "model": "4-zone Wi-Fi controller",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 462,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "HiOazo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A $39.99 controller with weather skips and soak cycles for small yards.",
+   "pros": [
+    "$39.99",
+    "Rain, frost, and wind skips",
+    "Soak mode for better absorption"
+   ],
+   "cons": [
+    "Lesser-known brand",
+    "2.4 GHz Wi-Fi only",
+    "4.2 stars"
+   ],
+   "specs": {
+    "zones": "4",
+    "mount": "Not stated in bullets",
+    "weather": "Rain, frost, wind",
+    "app": "HiOazo app, 16 plans"
+   },
+   "features": {
+    "weather": true,
+    "outdoor": false,
+    "zones": false,
+    "smart_home": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71xwZ4AP8oL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F883P8N1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0F883P8N1"
+  },
+  {
+   "rank": 6,
    "asin": "B01D15HOIQ",
    "name": "Orbit B-hyve Smart Sprinkler Controller, 6-Zone - 57946",
    "brand": "Orbit",
@@ -268,7 +364,7 @@
    "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B01D15HOIQ"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B07DJ628XH",
    "name": "Orbit B-hyve Indoor Smart Sprinkler Controller, 8-Zone - 57925",
    "brand": "Orbit",
@@ -277,7 +373,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2960,
-   "score": 71,
+   "score": 75,
    "awards": [],
    "works_with": [],
    "works_with_note": "B-hyve app",
@@ -315,56 +411,54 @@
    "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B07DJ628XH"
   },
   {
-   "rank": 6,
-   "asin": "B0CYN2D41N",
-   "name": "Rain Bird ARC6 Irrigation Controller, Smart WiFi, Indoor, 6-Station",
-   "brand": "Rain Bird",
-   "model": "ARC6",
-   "price": 85.0,
+   "rank": 8,
+   "asin": "B0F2HV721R",
+   "name": "Indoor Smart Sprinkler Controller, Wi-Fi, 6 Zones and 16 Plans, App Control, Auto Skip for Rain, Freeze and Wind",
+   "brand": "HiOazo",
+   "model": "6-zone indoor Wi-Fi controller",
+   "price": 42.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 470,
-   "score": 71,
+   "rating": 4.2,
+   "reviews_count": 119,
+   "score": 75,
    "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Rain Bird app",
+   "works_with": [],
+   "works_with_note": "HiOazo app",
    "works_without": {
     "neutral_wire": false,
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Rain Bird's Wi-Fi controller, easy to share with a landscaper.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The 6-zone HiOazo, with a 5-year warranty.",
    "pros": [
-    "Weather-based skipping",
-    "Share control with family or a landscaper",
-    "Official Home Assistant integration"
+    "$42.99",
+    "Weather skips",
+    "5-year care, per the listing"
    ],
    "cons": [
-    "4.0 stars",
-    "6 zones",
+    "Only 119 reviews",
+    "Lesser-known brand",
     "Indoor only"
    ],
    "specs": {
     "zones": "6",
     "mount": "Indoor",
-    "weather": "Forecast-based skips (up to 30% savings)",
-    "app": "Rain Bird app, shared access"
+    "weather": "Rain, frost, wind",
+    "app": "HiOazo app, 16 plans"
    },
    "features": {
     "weather": true,
     "outdoor": false,
     "zones": false,
-    "smart_home": true
+    "smart_home": false
    },
-   "image": "https://m.media-amazon.com/images/I/71XwOlMCn-L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CYN2D41N?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0CYN2D41N"
+   "image": "https://m.media-amazon.com/images/I/61xOZXxsh1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F2HV721R?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0F2HV721R"
   },
   {
-   "rank": 7,
+   "rank": 9,
    "asin": "B07DJ2QTW9",
    "name": "Orbit 57915 B-hyve 4-Zone Indoor Smart Sprinkler Controller",
    "brand": "Orbit",
@@ -373,7 +467,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3763,
-   "score": 68,
+   "score": 70,
    "awards": [
     "Best Budget"
    ],
@@ -411,100 +505,6 @@
    "image": "https://m.media-amazon.com/images/I/71QI0AWFnNL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07DJ2QTW9?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B07DJ2QTW9"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F883P8N1",
-   "name": "Smart Sprinkler Controller, 2.4 GHz Wi-Fi, 4 Zones and 16 Plans, App Control, Auto Skip for Rain, Freeze and Wind",
-   "brand": "HiOazo",
-   "model": "4-zone Wi-Fi controller",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 462,
-   "score": 68,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "HiOazo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A $39.99 controller with weather skips and soak cycles for small yards.",
-   "pros": [
-    "$39.99",
-    "Rain, frost, and wind skips",
-    "Soak mode for better absorption"
-   ],
-   "cons": [
-    "Lesser-known brand",
-    "2.4 GHz Wi-Fi only",
-    "4.2 stars"
-   ],
-   "specs": {
-    "zones": "4",
-    "mount": "Not stated in bullets",
-    "weather": "Rain, frost, wind",
-    "app": "HiOazo app, 16 plans"
-   },
-   "features": {
-    "weather": true,
-    "outdoor": false,
-    "zones": false,
-    "smart_home": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71xwZ4AP8oL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F883P8N1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0F883P8N1"
-  },
-  {
-   "rank": 9,
-   "asin": "B0F2HV721R",
-   "name": "Indoor Smart Sprinkler Controller, Wi-Fi, 6 Zones and 16 Plans, App Control, Auto Skip for Rain, Freeze and Wind",
-   "brand": "HiOazo",
-   "model": "6-zone indoor Wi-Fi controller",
-   "price": 42.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 119,
-   "score": 63,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "HiOazo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The 6-zone HiOazo, with a 5-year warranty.",
-   "pros": [
-    "$42.99",
-    "Weather skips",
-    "5-year care, per the listing"
-   ],
-   "cons": [
-    "Only 119 reviews",
-    "Lesser-known brand",
-    "Indoor only"
-   ],
-   "specs": {
-    "zones": "6",
-    "mount": "Indoor",
-    "weather": "Rain, frost, wind",
-    "app": "HiOazo app, 16 plans"
-   },
-   "features": {
-    "weather": true,
-    "outdoor": false,
-    "zones": false,
-    "smart_home": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61xOZXxsh1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F2HV721R?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-sprinkler-controllers.html#B0F2HV721R"
   }
  ],
  "avoid": [],

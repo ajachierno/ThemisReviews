@@ -28,7 +28,7 @@
    "google": 0.25,
    "matter": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 402,
-   "score": 86,
+   "score": 96,
    "awards": [
     "Best with Matter"
    ],
@@ -123,108 +123,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0B1V6G21S",
-   "name": "Govee Smart Recessed Lighting 6 Inch, LED Downlight 1100 Lumen, 4 Pack",
-   "brand": "Govee",
-   "model": "Smart Recessed Lighting 6-inch",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1245,
-   "score": 77,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Bright, popular downlights that keep working over Bluetooth if the Wi-Fi drops.",
-   "pros": [
-    "4.6 stars",
-    "Wi-Fi and Bluetooth",
-    "4-pack"
-   ],
-   "cons": [
-    "No Matter",
-    "$149.99",
-    "Govee app for scenes"
-   ],
-   "specs": {
-    "size": "6 in canless",
-    "pack": "4-pack",
-    "brightness": "1,100 lm",
-    "color": "RGB + 2,700K–6,500K"
-   },
-   "features": {
-    "color": true,
-    "ha": false,
-    "google": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71NqEWTuwZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B1V6G21S?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0B1V6G21S"
-  },
-  {
-   "rank": 3,
-   "asin": "B0C4FBK4RY",
-   "name": "Govee Smart Recessed Lighting 4 Inch, LED Downlight 800 Lumen, 4 Pack",
-   "brand": "Govee",
-   "model": "Smart Recessed Lighting 4-inch",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1245,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The same lights in a 4-inch size for hallways and small rooms.",
-   "pros": [
-    "4.6 stars",
-    "4-pack",
-    "$99.99"
-   ],
-   "cons": [
-    "800 lm",
-    "No Matter",
-    "Govee app for scenes"
-   ],
-   "specs": {
-    "size": "4 in canless",
-    "pack": "4-pack",
-    "brightness": "800 lm",
-    "color": "RGB + 2,700K–6,500K"
-   },
-   "features": {
-    "color": true,
-    "ha": false,
-    "google": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71-Gixit2jL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C4FBK4RY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0C4FBK4RY"
-  },
-  {
-   "rank": 4,
    "asin": "B0C1F1XLWS",
    "name": "HALO HLB LED Recessed Lighting 6 in Smart Wi-Fi RGBWW Canless ceiling Light",
    "brand": "HALO",
@@ -233,7 +131,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 132,
-   "score": 76,
+   "score": 88,
    "awards": [
     "Best Canless"
    ],
@@ -278,7 +176,309 @@
    "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0C1F1XLWS"
   },
   {
+   "rank": 3,
+   "asin": "B0B1V6G21S",
+   "name": "Govee Smart Recessed Lighting 6 Inch, LED Downlight 1100 Lumen, 4 Pack",
+   "brand": "Govee",
+   "model": "Smart Recessed Lighting 6-inch",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1245,
+   "score": 84,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Bright, popular downlights that keep working over Bluetooth if the Wi-Fi drops.",
+   "pros": [
+    "4.6 stars",
+    "Wi-Fi and Bluetooth",
+    "4-pack"
+   ],
+   "cons": [
+    "No Matter",
+    "$149.99",
+    "Govee app for scenes"
+   ],
+   "specs": {
+    "size": "6 in canless",
+    "pack": "4-pack",
+    "brightness": "1,100 lm",
+    "color": "RGB + 2,700K–6,500K"
+   },
+   "features": {
+    "color": true,
+    "ha": false,
+    "google": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71NqEWTuwZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B1V6G21S?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0B1V6G21S"
+  },
+  {
+   "rank": 4,
+   "asin": "B0C4FBK4RY",
+   "name": "Govee Smart Recessed Lighting 4 Inch, LED Downlight 800 Lumen, 4 Pack",
+   "brand": "Govee",
+   "model": "Smart Recessed Lighting 4-inch",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1245,
+   "score": 84,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "The same lights in a 4-inch size for hallways and small rooms.",
+   "pros": [
+    "4.6 stars",
+    "4-pack",
+    "$99.99"
+   ],
+   "cons": [
+    "800 lm",
+    "No Matter",
+    "Govee app for scenes"
+   ],
+   "specs": {
+    "size": "4 in canless",
+    "pack": "4-pack",
+    "brightness": "800 lm",
+    "color": "RGB + 2,700K–6,500K"
+   },
+   "features": {
+    "color": true,
+    "ha": false,
+    "google": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71-Gixit2jL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C4FBK4RY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0C4FBK4RY"
+  },
+  {
    "rank": 5,
+   "asin": "B0GT7N35QM",
+   "name": "PHILIPS Smart 5-6 Inch Retrofit Recessed Downlight 4-Pack, 750 Lumens, Color, Wi-Fi, Powered by WiZ",
+   "brand": "Philips",
+   "model": "Smart Retrofit Downlight 5/6-inch (WiZ)",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 36,
+   "score": 83,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "WiZ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Philips WiZ retrofits that connect straight to your router.",
+   "pros": [
+    "4-pack",
+    "No gateway needed",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Not compatible with Philips Hue",
+    "750 lm",
+    "Only 36 reviews"
+   ],
+   "specs": {
+    "size": "5/6 in retrofit",
+    "pack": "4-pack",
+    "brightness": "750 lm",
+    "color": "Millions of colors + tunable white"
+   },
+   "features": {
+    "color": true,
+    "ha": true,
+    "google": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71p2UbQ2i+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GT7N35QM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0GT7N35QM"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CJJRRJ7X",
+   "name": "Govee Smart Retrofit Recessed Lighting 6 Inch, Wi-Fi + Bluetooth RGBWW Can Lights, 1000 Lumens, 4 Pack",
+   "brand": "Govee",
+   "model": "Smart Retrofit Recessed Lighting 6-inch",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 366,
+   "score": 82,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Slips into existing 6-inch cans with an E26 adapter, no rewiring.",
+   "pros": [
+    "Fits existing cans",
+    "1,000 lm",
+    "4-pack"
+   ],
+   "cons": [
+    "$129.99",
+    "No Matter",
+    "Only 366 reviews"
+   ],
+   "specs": {
+    "size": "6 in retrofit (E26 adapter)",
+    "pack": "4-pack",
+    "brightness": "1,000 lm",
+    "color": "RGBWW"
+   },
+   "features": {
+    "color": true,
+    "ha": false,
+    "google": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71IgkogLpZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CJJRRJ7X?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0CJJRRJ7X"
+  },
+  {
+   "rank": 7,
+   "asin": "B0GJSNPY6G",
+   "name": "Lumary Smart Recessed Lighting 6 Inch, RGBWW Canless Slim Wafer Lights 13W",
+   "brand": "Lumary",
+   "model": "Smart Recessed Lighting 6-inch Wafer",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 99,
+   "score": 82,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Lumary app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Slim canless wafers with music sync and group control.",
+   "pros": [
+    "Music sync",
+    "4.4 stars",
+    "Group control"
+   ],
+   "cons": [
+    "Only 99 reviews",
+    "Pack size isn't in the title",
+    "$109.99"
+   ],
+   "specs": {
+    "size": "6 in canless",
+    "pack": "Not stated in bullets",
+    "brightness": "Not stated in bullets",
+    "color": "RGBWW, 2,700K–6,500K"
+   },
+   "features": {
+    "color": true,
+    "ha": false,
+    "google": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71O41e1rkWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJSNPY6G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0GJSNPY6G"
+  },
+  {
+   "rank": 8,
+   "asin": "B0BF5KVM11",
+   "name": "HALO RL LED Recessed Lighting 5/6 in Smart WiFi RGBWW Canless ceiling Light",
+   "brand": "HALO",
+   "model": "RL 5/6-inch (WiZ)",
+   "price": 25.47,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 198,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "WiZ app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheap retrofit light with WiZ SpaceSense, which can switch it on when someone walks in.",
+   "pros": [
+    "$25.47",
+    "SpaceSense motion detection",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "600 lm",
+    "Voice assistants are cut off in the bullets",
+    "Sold singly"
+   ],
+   "specs": {
+    "size": "5/6 in retrofit",
+    "pack": "Single",
+    "brightness": "600 lm",
+    "color": "RGBWW"
+   },
+   "features": {
+    "color": true,
+    "ha": true,
+    "google": false,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41L+pDknVjL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BF5KVM11?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0BF5KVM11"
+  },
+  {
+   "rank": 9,
    "asin": "B0F3BKBNVZ",
    "name": "Feit Electric 5/6in Smart Recessed Downlights, 75W Eq, 1000 Lumens, 3 Pack",
    "brand": "Feit Electric",
@@ -287,7 +487,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1318,
-   "score": 74,
+   "score": 79,
    "awards": [
     "Best Budget"
    ],
@@ -330,206 +530,6 @@
    "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0F3BKBNVZ"
   },
   {
-   "rank": 6,
-   "asin": "B0GT7N35QM",
-   "name": "PHILIPS Smart 5-6 Inch Retrofit Recessed Downlight 4-Pack, 750 Lumens, Color, Wi-Fi, Powered by WiZ",
-   "brand": "Philips",
-   "model": "Smart Retrofit Downlight 5/6-inch (WiZ)",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 36,
-   "score": 72,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": "WiZ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Philips WiZ retrofits that connect straight to your router.",
-   "pros": [
-    "4-pack",
-    "No gateway needed",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "Not compatible with Philips Hue",
-    "750 lm",
-    "Only 36 reviews"
-   ],
-   "specs": {
-    "size": "5/6 in retrofit",
-    "pack": "4-pack",
-    "brightness": "750 lm",
-    "color": "Millions of colors + tunable white"
-   },
-   "features": {
-    "color": true,
-    "ha": true,
-    "google": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71p2UbQ2i+L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GT7N35QM?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0GT7N35QM"
-  },
-  {
-   "rank": 7,
-   "asin": "B0CJJRRJ7X",
-   "name": "Govee Smart Retrofit Recessed Lighting 6 Inch, Wi-Fi + Bluetooth RGBWW Can Lights, 1000 Lumens, 4 Pack",
-   "brand": "Govee",
-   "model": "Smart Retrofit Recessed Lighting 6-inch",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 366,
-   "score": 71,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Slips into existing 6-inch cans with an E26 adapter, no rewiring.",
-   "pros": [
-    "Fits existing cans",
-    "1,000 lm",
-    "4-pack"
-   ],
-   "cons": [
-    "$129.99",
-    "No Matter",
-    "Only 366 reviews"
-   ],
-   "specs": {
-    "size": "6 in retrofit (E26 adapter)",
-    "pack": "4-pack",
-    "brightness": "1,000 lm",
-    "color": "RGBWW"
-   },
-   "features": {
-    "color": true,
-    "ha": false,
-    "google": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71IgkogLpZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CJJRRJ7X?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0CJJRRJ7X"
-  },
-  {
-   "rank": 8,
-   "asin": "B0GJSNPY6G",
-   "name": "Lumary Smart Recessed Lighting 6 Inch, RGBWW Canless Slim Wafer Lights 13W",
-   "brand": "Lumary",
-   "model": "Smart Recessed Lighting 6-inch Wafer",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 99,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Lumary app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Slim canless wafers with music sync and group control.",
-   "pros": [
-    "Music sync",
-    "4.4 stars",
-    "Group control"
-   ],
-   "cons": [
-    "Only 99 reviews",
-    "Pack size isn't in the title",
-    "$109.99"
-   ],
-   "specs": {
-    "size": "6 in canless",
-    "pack": "Not stated in bullets",
-    "brightness": "Not stated in bullets",
-    "color": "RGBWW, 2,700K–6,500K"
-   },
-   "features": {
-    "color": true,
-    "ha": false,
-    "google": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71O41e1rkWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJSNPY6G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0GJSNPY6G"
-  },
-  {
-   "rank": 9,
-   "asin": "B0BF5KVM11",
-   "name": "HALO RL LED Recessed Lighting 5/6 in Smart WiFi RGBWW Canless ceiling Light",
-   "brand": "HALO",
-   "model": "RL 5/6-inch (WiZ)",
-   "price": 25.47,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 198,
-   "score": 68,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "WiZ app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A cheap retrofit light with WiZ SpaceSense, which can switch it on when someone walks in.",
-   "pros": [
-    "$25.47",
-    "SpaceSense motion detection",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "600 lm",
-    "Voice assistants are cut off in the bullets",
-    "Sold singly"
-   ],
-   "specs": {
-    "size": "5/6 in retrofit",
-    "pack": "Single",
-    "brightness": "600 lm",
-    "color": "RGBWW"
-   },
-   "features": {
-    "color": true,
-    "ha": true,
-    "google": false,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41L+pDknVjL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BF5KVM11?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-lights.html#B0BF5KVM11"
-  },
-  {
    "rank": 10,
    "asin": "B0DHZTHKJJ",
    "name": "Amazon Basics Smart Recessed 5/6 Inch Downlight, Color Changing, Works with Alexa only, 2.4GHz WiFi, 1 Pack",
@@ -539,7 +539,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 122,
-   "score": 53,
+   "score": 64,
    "awards": [],
    "works_with": [
     "Amazon Alexa"

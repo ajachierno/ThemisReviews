@@ -27,7 +27,7 @@
    "local_storage": 0.35,
    "high_res": 0.35
   },
-  "reviews_ceiling": 45000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 23540,
-   "score": 94,
+   "score": 96,
    "awards": [
     "Best Overall"
    ],
@@ -117,41 +117,38 @@
   },
   {
    "rank": 2,
-   "asin": "B07X81M2D2",
-   "name": "REOLINK 4MP 2K Indoor Camera E1, Plug-in WiFi 6 Security Camera",
-   "brand": "Reolink",
-   "model": "E1 (4MP)",
-   "price": 35.99,
+   "asin": "B0F5KGHSHF",
+   "name": "Tapo 4K Indoor Pan/Tilt Wired Security Camera, Baby Monitor, C260",
+   "brand": "Tapo",
+   "model": "C260 (4K)",
+   "price": 59.99,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 18890,
-   "score": 90,
+   "rating": 4.6,
+   "reviews_count": 748,
+   "score": 96,
    "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
+   "works_with": [],
+   "works_with_note": "Tapo app (no assistants listed)",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "The camera for local-control fans: ONVIF and RTSP streams, local storage, and Home Assistant support.",
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Tapo's 4K pan-and-tilt camera, rated 4.6 stars.",
    "pros": [
-    "ONVIF and RTSP for NVRs and Home Assistant",
-    "Local microSD storage",
-    "Pan with privacy mode",
-    "Wi-Fi 6"
+    "4K with pan and tilt",
+    "microSD recording",
+    "4.6 stars, sold by Amazon"
    ],
    "cons": [
-    "4.2 stars",
-    "No voice assistants named in the bullets",
-    "Sold by the brand"
+    "The listing doesn't name voice assistants",
+    "Only 748 reviews",
+    "$59.99"
    ],
    "specs": {
-    "resolution": "2K (4MP)",
-    "storage": "microSD, local",
+    "resolution": "4K",
+    "storage": "microSD or cloud",
     "power": "Wired",
     "pack": "1 camera"
    },
@@ -160,9 +157,9 @@
     "local_storage": true,
     "high_res": true
    },
-   "image": "https://m.media-amazon.com/images/I/71unbRC9kXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07X81M2D2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B07X81M2D2"
+   "image": "https://m.media-amazon.com/images/I/61aCVNHsfCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5KGHSHF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0F5KGHSHF"
   },
   {
    "rank": 3,
@@ -174,7 +171,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2585,
-   "score": 87,
+   "score": 95,
    "awards": [
     "Best No Subscription"
    ],
@@ -219,101 +216,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0F5KGHSHF",
-   "name": "Tapo 4K Indoor Pan/Tilt Wired Security Camera, Baby Monitor, C260",
-   "brand": "Tapo",
-   "model": "C260 (4K)",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 748,
-   "score": 86,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Tapo app (no assistants listed)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Tapo's 4K pan-and-tilt camera, rated 4.6 stars.",
-   "pros": [
-    "4K with pan and tilt",
-    "microSD recording",
-    "4.6 stars, sold by Amazon"
-   ],
-   "cons": [
-    "The listing doesn't name voice assistants",
-    "Only 748 reviews",
-    "$59.99"
-   ],
-   "specs": {
-    "resolution": "4K",
-    "storage": "microSD or cloud",
-    "power": "Wired",
-    "pack": "1 camera"
-   },
-   "features": {
-    "pan_tilt": true,
-    "local_storage": true,
-    "high_res": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61aCVNHsfCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F5KGHSHF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0F5KGHSHF"
-  },
-  {
-   "rank": 5,
-   "asin": "B0BXMSS8Z7",
-   "name": "Kasa 1080p Indoor Pan/Tilt Wired Security Camera, Baby & Pet Monitor, EC71",
-   "brand": "Kasa",
-   "model": "EC71",
-   "price": 20.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 34557,
-   "score": 85,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "A pan-and-tilt camera with microSD recording, popular as a baby and pet monitor.",
-   "pros": [
-    "Pan and tilt",
-    "microSD recording",
-    "34,557 reviews"
-   ],
-   "cons": [
-    "1080p",
-    "Wired only",
-    "The 2-pack Tapo C211 is better value"
-   ],
-   "specs": {
-    "resolution": "1080p",
-    "storage": "microSD or cloud",
-    "power": "Wired",
-    "pack": "1 camera"
-   },
-   "features": {
-    "pan_tilt": true,
-    "local_storage": true,
-    "high_res": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61GrnhJtS7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BXMSS8Z7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0BXMSS8Z7"
-  },
-  {
-   "rank": 6,
    "asin": "B0CCHQ38D2",
    "name": "Aqara 2K Indoor Security Camera E1, HomeKit Secure Video Indoor Camera",
    "brand": "Aqara",
@@ -322,7 +224,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1843,
-   "score": 85,
+   "score": 94,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -362,6 +264,104 @@
    "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0CCHQ38D2"
   },
   {
+   "rank": 5,
+   "asin": "B07X81M2D2",
+   "name": "REOLINK 4MP 2K Indoor Camera E1, Plug-in WiFi 6 Security Camera",
+   "brand": "Reolink",
+   "model": "E1 (4MP)",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 18890,
+   "score": 93,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The camera for local-control fans: ONVIF and RTSP streams, local storage, and Home Assistant support.",
+   "pros": [
+    "ONVIF and RTSP for NVRs and Home Assistant",
+    "Local microSD storage",
+    "Pan with privacy mode",
+    "Wi-Fi 6"
+   ],
+   "cons": [
+    "4.2 stars",
+    "No voice assistants named in the bullets",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "resolution": "2K (4MP)",
+    "storage": "microSD, local",
+    "power": "Wired",
+    "pack": "1 camera"
+   },
+   "features": {
+    "pan_tilt": true,
+    "local_storage": true,
+    "high_res": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71unbRC9kXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07X81M2D2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B07X81M2D2"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BXMSS8Z7",
+   "name": "Kasa 1080p Indoor Pan/Tilt Wired Security Camera, Baby & Pet Monitor, EC71",
+   "brand": "Kasa",
+   "model": "EC71",
+   "price": 20.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 34557,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A pan-and-tilt camera with microSD recording, popular as a baby and pet monitor.",
+   "pros": [
+    "Pan and tilt",
+    "microSD recording",
+    "34,557 reviews"
+   ],
+   "cons": [
+    "1080p",
+    "Wired only",
+    "The 2-pack Tapo C211 is better value"
+   ],
+   "specs": {
+    "resolution": "1080p",
+    "storage": "microSD or cloud",
+    "power": "Wired",
+    "pack": "1 camera"
+   },
+   "features": {
+    "pan_tilt": true,
+    "local_storage": true,
+    "high_res": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61GrnhJtS7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BXMSS8Z7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-indoor-cameras.html#B0BXMSS8Z7"
+  },
+  {
    "rank": 7,
    "asin": "B0B28H2DFZ",
    "name": "aosu 2K Indoor Camera,Baby Monitor for Home Security with 2.4GHz WiFi only",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 11814,
-   "score": 82,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -419,7 +419,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 29359,
-   "score": 77,
+   "score": 78,
    "awards": [
     "Best Budget"
    ],

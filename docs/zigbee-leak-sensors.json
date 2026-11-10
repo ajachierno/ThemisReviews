@@ -27,7 +27,7 @@
    "open_hub": 0.35,
    "long_battery": 0.3
   },
-  "reviews_ceiling": 4000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 527,
-   "score": 81,
+   "score": 88,
    "awards": [
     "Best for SmartThings"
    ],
@@ -127,7 +127,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 428,
-   "score": 78,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -174,6 +174,58 @@
   },
   {
    "rank": 3,
+   "asin": "B0DFVYCBK2",
+   "name": "SONOFF SNZB-05P Zigbee Water Leak Sensor with Detection Cable, 1-Pack",
+   "brand": "SONOFF",
+   "model": "SNZB-05P with cable",
+   "price": 22.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 217,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The same sensor with a detection cable for covering a long stretch, like behind a water heater.",
+   "pros": [
+    "Sensing cable covers more floor",
+    "5-year battery",
+    "$22.90"
+   ],
+   "cons": [
+    "No built-in siren",
+    "217 reviews",
+    "Needs a Zigbee hub"
+   ],
+   "specs": {
+    "hub": "Zigbee hub",
+    "siren": "Through your hub",
+    "power": "CR2477, up to 5 years",
+    "extras": "Sensing cable included"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": true,
+    "long_battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/5136WfqgDCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFVYCBK2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0DFVYCBK2"
+  },
+  {
+   "rank": 4,
    "asin": "B09GYFN8VL",
    "name": "THIRDREALITY Zigbee Water Leak Sensor with Dripping Detection, 120dB Alarm, Zigbee Hub Required",
    "brand": "THIRDREALITY",
@@ -182,7 +234,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 356,
-   "score": 76,
+   "score": 84,
    "awards": [
     "Best with Alarm"
    ],
@@ -228,58 +280,6 @@
    "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B09GYFN8VL"
   },
   {
-   "rank": 4,
-   "asin": "B0DFVYCBK2",
-   "name": "SONOFF SNZB-05P Zigbee Water Leak Sensor with Detection Cable, 1-Pack",
-   "brand": "SONOFF",
-   "model": "SNZB-05P with cable",
-   "price": 22.9,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 217,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The same sensor with a detection cable for covering a long stretch, like behind a water heater.",
-   "pros": [
-    "Sensing cable covers more floor",
-    "5-year battery",
-    "$22.90"
-   ],
-   "cons": [
-    "No built-in siren",
-    "217 reviews",
-    "Needs a Zigbee hub"
-   ],
-   "specs": {
-    "hub": "Zigbee hub",
-    "siren": "Through your hub",
-    "power": "CR2477, up to 5 years",
-    "extras": "Sensing cable included"
-   },
-   "features": {
-    "siren": false,
-    "open_hub": true,
-    "long_battery": true
-   },
-   "image": "https://m.media-amazon.com/images/I/5136WfqgDCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DFVYCBK2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B0DFVYCBK2"
-  },
-  {
    "rank": 5,
    "asin": "B0GK19F6Z2",
    "name": "THIRDREALITY Zigbee Water Leak Sensor WL2, Dripping and Leaking Detection, Zigbee Hub Needed",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 45,
-   "score": 69,
+   "score": 78,
    "awards": [
     "Best Budget"
    ],
@@ -335,56 +335,6 @@
   },
   {
    "rank": 6,
-   "asin": "B07D39MSZS",
-   "name": "Aqara Water Leak Sensor 1 Pack, Zigbee Water Leak Detector for Alarm System",
-   "brand": "Aqara",
-   "model": "Water Leak Sensor",
-   "price": 16.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 3677,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The most-reviewed Zigbee leak sensor, for Aqara homes.",
-   "pros": [
-    "3,677 reviews",
-    "Detects 0.5 mm of water",
-    "Apple Home, Alexa, and Google through the Aqara hub"
-   ],
-   "cons": [
-    "\"Not compatible with hubs from other brands\", per the listing",
-    "Keep within about 33 ft of the hub",
-    "No built-in siren"
-   ],
-   "specs": {
-    "hub": "Aqara hub only",
-    "siren": "Through Aqara hub",
-    "power": "Not listed",
-    "extras": "Detects 0.5 mm of water"
-   },
-   "features": {
-    "siren": false,
-    "open_hub": false,
-    "long_battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61zSUbv67ZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07D39MSZS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B07D39MSZS"
-  },
-  {
-   "rank": 7,
    "asin": "B072DYHPY7",
    "name": "Centralite by Ezlo Zigbee Smart Water Sensor, Water Leak Detector",
    "brand": "Centralite",
@@ -393,7 +343,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 150,
-   "score": 61,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -436,6 +386,56 @@
    "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B072DYHPY7"
   },
   {
+   "rank": 7,
+   "asin": "B07D39MSZS",
+   "name": "Aqara Water Leak Sensor 1 Pack, Zigbee Water Leak Detector for Alarm System",
+   "brand": "Aqara",
+   "model": "Water Leak Sensor",
+   "price": 16.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3677,
+   "score": 68,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The most-reviewed Zigbee leak sensor, for Aqara homes.",
+   "pros": [
+    "3,677 reviews",
+    "Detects 0.5 mm of water",
+    "Apple Home, Alexa, and Google through the Aqara hub"
+   ],
+   "cons": [
+    "\"Not compatible with hubs from other brands\", per the listing",
+    "Keep within about 33 ft of the hub",
+    "No built-in siren"
+   ],
+   "specs": {
+    "hub": "Aqara hub only",
+    "siren": "Through Aqara hub",
+    "power": "Not listed",
+    "extras": "Detects 0.5 mm of water"
+   },
+   "features": {
+    "siren": false,
+    "open_hub": false,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61zSUbv67ZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D39MSZS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-leak-sensors.html#B07D39MSZS"
+  },
+  {
    "rank": 8,
    "asin": "B0GWQKHST5",
    "name": "Zigbee Water Detector with 110 dB Siren Alarm, Wireless Water Sensor",
@@ -445,7 +445,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 11,
-   "score": 61,
+   "score": 66,
    "awards": [],
    "works_with": [
     "Home Assistant",

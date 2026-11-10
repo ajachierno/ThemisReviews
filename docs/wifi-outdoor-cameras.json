@@ -27,7 +27,7 @@
    "high_res": 0.35,
    "wire_free": 0.3
   },
-  "reviews_ceiling": 65000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,56 +65,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0CCYP6KFM",
-   "name": "eufy Security SoloCam S340, 3K Dual-Lens Solar Security Camera",
-   "brand": "eufy",
-   "model": "SoloCam S340",
-   "price": 159.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 7208,
-   "score": 86,
-   "awards": [
-    "Best Solar"
-   ],
-   "works_with": [],
-   "works_with_note": "eufy app (no assistants listed)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "A solar dual-lens camera that pans and zooms, with free local storage.",
-   "pros": [
-    "Built-in solar panel",
-    "3K dual lens with telephoto",
-    "Free local storage",
-    "3K+ bought in the past month"
-   ],
-   "cons": [
-    "$159.99",
-    "The listing doesn't name voice assistants",
-    "4.1 stars"
-   ],
-   "specs": {
-    "resolution": "3K dual-lens",
-    "power": "Solar + battery",
-    "storage": "Local, free",
-    "extras": "Pan, telephoto lens",
-    "pack": "1 camera"
-   },
-   "features": {
-    "local_storage": true,
-    "high_res": true,
-    "wire_free": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Y48+M0NOL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CCYP6KFM?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0CCYP6KFM"
-  },
-  {
-   "rank": 2,
    "asin": "B0CHSK6M21",
    "name": "Tapo MagCam 2K+ Security Camera Wireless Outdoor, Battery Powered, C425",
    "brand": "Tapo",
@@ -123,7 +73,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 3896,
-   "score": 85,
+   "score": 93,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -165,7 +115,7 @@
    "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0CHSK6M21"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0FP2FKZ5Z",
    "name": "eufy Security SoloCam E42, 4K Solar Security Camera, AI Facial Recognition",
    "brand": "eufy",
@@ -174,7 +124,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1408,
-   "score": 84,
+   "score": 93,
    "awards": [],
    "works_with": [],
    "works_with_note": "eufy app (no assistants listed)",
@@ -212,7 +162,109 @@
    "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0FP2FKZ5Z"
   },
   {
+   "rank": 3,
+   "asin": "B0CCYP6KFM",
+   "name": "eufy Security SoloCam S340, 3K Dual-Lens Solar Security Camera",
+   "brand": "eufy",
+   "model": "SoloCam S340",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 7208,
+   "score": 92,
+   "awards": [
+    "Best Solar"
+   ],
+   "works_with": [],
+   "works_with_note": "eufy app (no assistants listed)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A solar dual-lens camera that pans and zooms, with free local storage.",
+   "pros": [
+    "Built-in solar panel",
+    "3K dual lens with telephoto",
+    "Free local storage",
+    "3K+ bought in the past month"
+   ],
+   "cons": [
+    "$159.99",
+    "The listing doesn't name voice assistants",
+    "4.1 stars"
+   ],
+   "specs": {
+    "resolution": "3K dual-lens",
+    "power": "Solar + battery",
+    "storage": "Local, free",
+    "extras": "Pan, telephoto lens",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Y48+M0NOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CCYP6KFM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0CCYP6KFM"
+  },
+  {
    "rank": 4,
+   "asin": "B0DCZGNQXB",
+   "name": "REOLINK Lumus Pro 4K Outdoor Security Camera, Plug-in Power WiFi Camera",
+   "brand": "Reolink",
+   "model": "Lumus Pro 4K",
+   "price": 84.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 309,
+   "score": 87,
+   "awards": [
+    "Best Image"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Sharp 4K with local recording and no subscription, from a brand Home Assistant users like.",
+   "pros": [
+    "4K",
+    "Free local microSD recording",
+    "Official Home Assistant integration",
+    "500+ bought in the past month"
+   ],
+   "cons": [
+    "Needs an outlet",
+    "$84.99",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "resolution": "4K",
+    "power": "Plug-in",
+    "storage": "microSD, free",
+    "extras": "Spotlight",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51oQsODZPiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DCZGNQXB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0DCZGNQXB"
+  },
+  {
+   "rank": 5,
    "asin": "B09QPJDF78",
    "name": "DEKCO 2K Outdoor WiFi Security Camera, Plug-in Pan-Tilt Dome, 2-Cam-Kit",
    "brand": "DEKCO",
@@ -221,7 +273,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 6632,
-   "score": 80,
+   "score": 86,
    "awards": [],
    "works_with": [],
    "works_with_note": "Brand app",
@@ -259,7 +311,160 @@
    "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B09QPJDF78"
   },
   {
-   "rank": 5,
+   "rank": 6,
+   "asin": "B0BY8KN5CG",
+   "name": "SEHMUA Solar Wireless Outdoor Security Camera, 2K 360° View, Battery Powered, Wi-Fi",
+   "brand": "SEHMUA",
+   "model": "Solar 2K 360°",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 6954,
+   "score": 84,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Brand app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A cheap solar pan camera for driveways and yards.",
+   "pros": [
+    "Solar powered",
+    "360° view",
+    "$39.99"
+   ],
+   "cons": [
+    "Storage options aren't in the bullets",
+    "4.2 stars",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Solar + battery",
+    "storage": "Not listed",
+    "extras": "360° view, IP65",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": false,
+    "high_res": true,
+    "wire_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71lOmkJ39RL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BY8KN5CG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BY8KN5CG"
+  },
+  {
+   "rank": 7,
+   "asin": "B0F6CKH9BB",
+   "name": "Aqara 2K Indoor/Outdoor Security Camera G100, HomeKit Secure Video, White",
+   "brand": "Aqara",
+   "model": "Camera G100",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1859,
+   "score": 84,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A cheap 2K indoor/outdoor camera with HomeKit Secure Video and RTSP.",
+   "pros": [
+    "HomeKit Secure Video",
+    "RTSP stream and Home Assistant support",
+    "IP65",
+    "$35.99"
+   ],
+   "cons": [
+    "4.1 stars",
+    "Wired only",
+    "HomeKit Secure Video needs iCloud+"
+   ],
+   "specs": {
+    "resolution": "2K",
+    "power": "Wired",
+    "storage": "microSD or HomeKit Secure Video",
+    "extras": "IP65, RTSP",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": true,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61vxhvTfpSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F6CKH9BB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0F6CKH9BB"
+  },
+  {
+   "rank": 8,
+   "asin": "B0BW2CYQZJ",
+   "name": "TP-Link Tapo 1080P Outdoor Wired Pan/Tilt Security Camera, C500",
+   "brand": "Tapo",
+   "model": "C500",
+   "price": 33.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 7210,
+   "score": 79,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The best value outdoor camera: wired, pan and tilt, local recording, and Alexa and Google.",
+   "pros": [
+    "360° pan and tilt",
+    "microSD recording",
+    "4.5 stars, 2K+ bought in the past month",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "1080p",
+    "Needs an outdoor outlet",
+    "Smart features may need Tapo Care"
+   ],
+   "specs": {
+    "resolution": "1080p",
+    "power": "Wired",
+    "storage": "microSD or cloud",
+    "extras": "Pan and tilt",
+    "pack": "1 camera"
+   },
+   "features": {
+    "local_storage": true,
+    "high_res": false,
+    "wire_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/619huP8pU6L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BW2CYQZJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BW2CYQZJ"
+  },
+  {
+   "rank": 9,
    "asin": "B0C5QRZ47P",
    "name": "Ring Outdoor Cam (Stick Up Cam), Weather-Resistant HD Security Camera, Works with Alexa, White",
    "brand": "Ring",
@@ -312,54 +517,7 @@
    "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0C5QRZ47P"
   },
   {
-   "rank": 6,
-   "asin": "B0BY8KN5CG",
-   "name": "SEHMUA Solar Wireless Outdoor Security Camera, 2K 360° View, Battery Powered, Wi-Fi",
-   "brand": "SEHMUA",
-   "model": "Solar 2K 360°",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 6954,
-   "score": 78,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Brand app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A cheap solar pan camera for driveways and yards.",
-   "pros": [
-    "Solar powered",
-    "360° view",
-    "$39.99"
-   ],
-   "cons": [
-    "Storage options aren't in the bullets",
-    "4.2 stars",
-    "Sold by a reseller"
-   ],
-   "specs": {
-    "resolution": "2K",
-    "power": "Solar + battery",
-    "storage": "Not listed",
-    "extras": "360° view, IP65",
-    "pack": "1 camera"
-   },
-   "features": {
-    "local_storage": false,
-    "high_res": true,
-    "wire_free": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71lOmkJ39RL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BY8KN5CG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BY8KN5CG"
-  },
-  {
-   "rank": 7,
+   "rank": 10,
    "asin": "B0BWSPP9HH",
    "name": "WYZE Cam Pan v3, Indoor/Outdoor Security Camera with 360° Pan/Tilt/Zoom",
    "brand": "Wyze",
@@ -368,7 +526,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 33654,
-   "score": 76,
+   "score": 77,
    "awards": [],
    "works_with": [],
    "works_with_note": "Wyze app (no assistants listed)",
@@ -404,164 +562,6 @@
    "image": "https://m.media-amazon.com/images/I/51twbQ6sXgL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BWSPP9HH?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BWSPP9HH"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F6CKH9BB",
-   "name": "Aqara 2K Indoor/Outdoor Security Camera G100, HomeKit Secure Video, White",
-   "brand": "Aqara",
-   "model": "Camera G100",
-   "price": 35.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 1859,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A cheap 2K indoor/outdoor camera with HomeKit Secure Video and RTSP.",
-   "pros": [
-    "HomeKit Secure Video",
-    "RTSP stream and Home Assistant support",
-    "IP65",
-    "$35.99"
-   ],
-   "cons": [
-    "4.1 stars",
-    "Wired only",
-    "HomeKit Secure Video needs iCloud+"
-   ],
-   "specs": {
-    "resolution": "2K",
-    "power": "Wired",
-    "storage": "microSD or HomeKit Secure Video",
-    "extras": "IP65, RTSP",
-    "pack": "1 camera"
-   },
-   "features": {
-    "local_storage": true,
-    "high_res": true,
-    "wire_free": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61vxhvTfpSL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F6CKH9BB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0F6CKH9BB"
-  },
-  {
-   "rank": 9,
-   "asin": "B0BW2CYQZJ",
-   "name": "TP-Link Tapo 1080P Outdoor Wired Pan/Tilt Security Camera, C500",
-   "brand": "Tapo",
-   "model": "C500",
-   "price": 33.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 7210,
-   "score": 73,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "The best value outdoor camera: wired, pan and tilt, local recording, and Alexa and Google.",
-   "pros": [
-    "360° pan and tilt",
-    "microSD recording",
-    "4.5 stars, 2K+ bought in the past month",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "1080p",
-    "Needs an outdoor outlet",
-    "Smart features may need Tapo Care"
-   ],
-   "specs": {
-    "resolution": "1080p",
-    "power": "Wired",
-    "storage": "microSD or cloud",
-    "extras": "Pan and tilt",
-    "pack": "1 camera"
-   },
-   "features": {
-    "local_storage": true,
-    "high_res": false,
-    "wire_free": false
-   },
-   "image": "https://m.media-amazon.com/images/I/619huP8pU6L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BW2CYQZJ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0BW2CYQZJ"
-  },
-  {
-   "rank": 10,
-   "asin": "B0DCZGNQXB",
-   "name": "REOLINK Lumus Pro 4K Outdoor Security Camera, Plug-in Power WiFi Camera",
-   "brand": "Reolink",
-   "model": "Lumus Pro 4K",
-   "price": 84.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 309,
-   "score": 73,
-   "awards": [
-    "Best Image"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Sharp 4K with local recording and no subscription, from a brand Home Assistant users like.",
-   "pros": [
-    "4K",
-    "Free local microSD recording",
-    "Official Home Assistant integration",
-    "500+ bought in the past month"
-   ],
-   "cons": [
-    "Needs an outlet",
-    "$84.99",
-    "Voice assistants aren't named in the bullets"
-   ],
-   "specs": {
-    "resolution": "4K",
-    "power": "Plug-in",
-    "storage": "microSD, free",
-    "extras": "Spotlight",
-    "pack": "1 camera"
-   },
-   "features": {
-    "local_storage": true,
-    "high_res": true,
-    "wire_free": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51oQsODZPiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DCZGNQXB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outdoor-cameras.html#B0DCZGNQXB"
   }
  ],
  "avoid": [],

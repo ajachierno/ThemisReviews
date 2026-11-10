@@ -27,7 +27,7 @@
    "solar": 0.3,
    "multi": 0.4
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -58,59 +58,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0BMLFZ4CP",
-   "name": "SwitchBot Blind Tilt Motorized Blind Opener, Bluetooth, Solar Powered, Add Hub Mini for Alexa and Google Home",
-   "brand": "SwitchBot",
-   "model": "Blind Tilt",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1464,
-   "score": 76,
-   "awards": [
-    "Best for Blinds"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Apple Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": "SwitchBot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "600+ bought in past month",
-   "verdict": "Tilts existing horizontal blinds to within 2 degrees, and closes them when the sun hits.",
-   "pros": [
-    "Solar charging",
-    "Built-in light sensor",
-    "1,464 reviews"
-   ],
-   "cons": [
-    "Tilt only",
-    "Only some blind types fit",
-    "Hub needed for voice"
-   ],
-   "specs": {
-    "type": "Tilt motor for horizontal blinds",
-    "power": "Solar + 2000 mAh battery",
-    "hub": "Optional SwitchBot hub"
-   },
-   "features": {
-    "hub_included": false,
-    "solar": true,
-    "multi": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61kpRtr6bbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BMLFZ4CP?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0BMLFZ4CP"
-  },
-  {
-   "rank": 2,
    "asin": "B0FKH3PQT1",
    "name": "SwitchBot Automatic Curtain Opener 2-Pack with Hub Mini, Wi-Fi Remote Control, Alexa, Google Home, HomeKit",
    "brand": "SwitchBot",
@@ -119,7 +66,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 55,
-   "score": 74,
+   "score": 82,
    "awards": [
     "Best Starter Kit"
    ],
@@ -163,58 +110,7 @@
    "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0FKH3PQT1"
   },
   {
-   "rank": 3,
-   "asin": "B0FB38TSRV",
-   "name": "SwitchBot 2025 Automatic Curtain Opener 2-Pack with Remote, Bluetooth, Add Hub for Alexa, Google, HomeKit",
-   "brand": "SwitchBot",
-   "model": "Curtain 3 Rod (2025) 2-pack with remote",
-   "price": 152.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 242,
-   "score": 70,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Apple Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": "SwitchBot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "Two openers plus a Bluetooth remote, for $4 more than the plain 2-pack.",
-   "pros": [
-    "Remote included",
-    "2-pack",
-    "242 reviews"
-   ],
-   "cons": [
-    "4.1 stars",
-    "No hub included",
-    "$152.99"
-   ],
-   "specs": {
-    "type": "2 curtain openers + remote",
-    "power": "Battery",
-    "hub": "Optional SwitchBot hub"
-   },
-   "features": {
-    "hub_included": false,
-    "solar": false,
-    "multi": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51x5mzdGG6L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FB38TSRV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0FB38TSRV"
-  },
-  {
-   "rank": 4,
+   "rank": 2,
    "asin": "B0F9W85LWF",
    "name": "SwitchBot 2025 Curtain 3 Rod Automatic Curtain Opener, Bluetooth, 2-Pack, Add Hub for Matter",
    "brand": "SwitchBot",
@@ -223,7 +119,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 165,
-   "score": 70,
+   "score": 79,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -265,16 +161,120 @@
    "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0F9W85LWF"
   },
   {
-   "rank": 5,
-   "asin": "B0C6XVXPCC",
-   "name": "SwitchBot Curtain 3 Rod, Bluetooth Automatic Curtain Opener, Add Hub for Alexa, Google Home, HomeKit",
+   "rank": 3,
+   "asin": "B0BMLFZ4CP",
+   "name": "SwitchBot Blind Tilt Motorized Blind Opener, Bluetooth, Solar Powered, Add Hub Mini for Alexa and Google Home",
    "brand": "SwitchBot",
-   "model": "Curtain 3 (Rod)",
-   "price": 79.99,
+   "model": "Blind Tilt",
+   "price": 59.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 1627,
-   "score": 65,
+   "rating": 4.4,
+   "reviews_count": 1464,
+   "score": 77,
+   "awards": [
+    "Best for Blinds"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "Tilts existing horizontal blinds to within 2 degrees, and closes them when the sun hits.",
+   "pros": [
+    "Solar charging",
+    "Built-in light sensor",
+    "1,464 reviews"
+   ],
+   "cons": [
+    "Tilt only",
+    "Only some blind types fit",
+    "Hub needed for voice"
+   ],
+   "specs": {
+    "type": "Tilt motor for horizontal blinds",
+    "power": "Solar + 2000 mAh battery",
+    "hub": "Optional SwitchBot hub"
+   },
+   "features": {
+    "hub_included": false,
+    "solar": true,
+    "multi": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61kpRtr6bbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BMLFZ4CP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0BMLFZ4CP"
+  },
+  {
+   "rank": 4,
+   "asin": "B0FB38TSRV",
+   "name": "SwitchBot 2025 Automatic Curtain Opener 2-Pack with Remote, Bluetooth, Add Hub for Alexa, Google, HomeKit",
+   "brand": "SwitchBot",
+   "model": "Curtain 3 Rod (2025) 2-pack with remote",
+   "price": 152.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 242,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Two openers plus a Bluetooth remote, for $4 more than the plain 2-pack.",
+   "pros": [
+    "Remote included",
+    "2-pack",
+    "242 reviews"
+   ],
+   "cons": [
+    "4.1 stars",
+    "No hub included",
+    "$152.99"
+   ],
+   "specs": {
+    "type": "2 curtain openers + remote",
+    "power": "Battery",
+    "hub": "Optional SwitchBot hub"
+   },
+   "features": {
+    "hub_included": false,
+    "solar": false,
+    "multi": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51x5mzdGG6L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FB38TSRV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0FB38TSRV"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FSL2PLK6",
+   "name": "SwitchBot Automatic Curtain Opener with Solar Panel, Bluetooth, Add Hub for Alexa, Google Home, HomeKit",
+   "brand": "SwitchBot",
+   "model": "Curtain opener with solar panel",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 32,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -289,31 +289,31 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The most-reviewed curtain opener, for standard curtain rods.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Add the solar panel and you'll rarely, if ever, need to charge it.",
    "pros": [
-    "1,627 reviews",
-    "$79.99",
-    "Over twice the previous model's thrust"
+    "Solar panel included",
+    "4.5 stars",
+    "$99.99"
    ],
    "cons": [
-    "4.0 stars",
+    "Only 32 reviews",
     "Hub needed for voice",
-    "Older than the 2025 Rod model"
+    "Rods only"
    ],
    "specs": {
     "type": "Curtain opener for rods",
-    "power": "Battery",
+    "power": "Battery + solar panel",
     "hub": "Optional SwitchBot hub"
    },
    "features": {
     "hub_included": false,
-    "solar": false,
+    "solar": true,
     "multi": false
    },
-   "image": "https://m.media-amazon.com/images/I/61AobBeE3fL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C6XVXPCC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0C6XVXPCC"
+   "image": "https://m.media-amazon.com/images/I/61TDICiB4KL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FSL2PLK6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0FSL2PLK6"
   },
   {
    "rank": 6,
@@ -325,7 +325,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 516,
-   "score": 65,
+   "score": 70,
    "awards": [
     "Best Overall"
    ],
@@ -370,57 +370,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0FSL2PLK6",
-   "name": "SwitchBot Automatic Curtain Opener with Solar Panel, Bluetooth, Add Hub for Alexa, Google Home, HomeKit",
-   "brand": "SwitchBot",
-   "model": "Curtain opener with solar panel",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 32,
-   "score": 64,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Apple Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": "SwitchBot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Add the solar panel and you'll rarely, if ever, need to charge it.",
-   "pros": [
-    "Solar panel included",
-    "4.5 stars",
-    "$99.99"
-   ],
-   "cons": [
-    "Only 32 reviews",
-    "Hub needed for voice",
-    "Rods only"
-   ],
-   "specs": {
-    "type": "Curtain opener for rods",
-    "power": "Battery + solar panel",
-    "hub": "Optional SwitchBot hub"
-   },
-   "features": {
-    "hub_included": false,
-    "solar": true,
-    "multi": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61TDICiB4KL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FSL2PLK6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0FSL2PLK6"
-  },
-  {
-   "rank": 8,
    "asin": "B0F8BR5Q66",
    "name": "SwitchBot 2025 Curtain 3 Rod Automatic Curtain Opener, Bluetooth, Add Hub for Alexa, Google, HomeKit via Matter",
    "brand": "SwitchBot",
@@ -429,7 +378,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 177,
-   "score": 61,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -471,6 +420,57 @@
    "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0F8BR5Q66"
   },
   {
+   "rank": 8,
+   "asin": "B0C6XVXPCC",
+   "name": "SwitchBot Curtain 3 Rod, Bluetooth Automatic Curtain Opener, Add Hub for Alexa, Google Home, HomeKit",
+   "brand": "SwitchBot",
+   "model": "Curtain 3 (Rod)",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1627,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": "SwitchBot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The most-reviewed curtain opener, for standard curtain rods.",
+   "pros": [
+    "1,627 reviews",
+    "$79.99",
+    "Over twice the previous model's thrust"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Hub needed for voice",
+    "Older than the 2025 Rod model"
+   ],
+   "specs": {
+    "type": "Curtain opener for rods",
+    "power": "Battery",
+    "hub": "Optional SwitchBot hub"
+   },
+   "features": {
+    "hub_included": false,
+    "solar": false,
+    "multi": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61AobBeE3fL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C6XVXPCC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-blinds.html#B0C6XVXPCC"
+  },
+  {
    "rank": 9,
    "asin": "B0GGQQ7SP2",
    "name": "HeyBlinds Blackout Smart Motorized Blinds with Remote, 32\" W x 72\" H",
@@ -480,7 +480,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 38,
-   "score": 58,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

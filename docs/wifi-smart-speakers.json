@@ -27,7 +27,7 @@
    "sound": 0.35,
    "display": 0.3
   },
-  "reviews_ceiling": 100000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 5758,
-   "score": 79,
+   "score": 86,
    "awards": [
     "Best Smart Home Hub"
    ],
@@ -122,7 +122,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 46915,
-   "score": 76,
+   "score": 78,
    "awards": [
     "Best for Bedrooms"
    ],
@@ -162,6 +162,146 @@
   },
   {
    "rank": 3,
+   "asin": "B0BW34LCB8",
+   "name": "Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker",
+   "brand": "Sonos",
+   "model": "Era 100",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2847,
+   "score": 78,
+   "awards": [
+    "Best Sound"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The music-first pick: real stereo sound in a compact speaker, with Alexa built in.",
+   "pros": [
+    "Stereo with dual tweeters",
+    "Wi-Fi, Bluetooth, and line-in",
+    "Official Home Assistant integration",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$219",
+    "Line-in needs a Sonos adapter",
+    "Not a smart home hub"
+   ],
+   "specs": {
+    "assistant": "Alexa (built in)",
+    "extras": "Stereo, Bluetooth, line-in"
+   },
+   "features": {
+    "hub": false,
+    "sound": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ipg0FOEeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BW34LCB8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0BW34LCB8"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CL7P33RH",
+   "name": "Google Audio Bluetooth Speaker with Keychain LED - Wireless Music Streaming - Chalk",
+   "brand": "Google",
+   "model": "Nest Audio (reseller)",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 344,
+   "score": 78,
+   "awards": [],
+   "works_with": [
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The Google pick, but Google doesn't sell on Amazon, so you're paying a reseller premium.",
+   "pros": [
+    "Google Assistant",
+    "30 W woofer for its size",
+    "Broadcast to every Nest speaker"
+   ],
+   "cons": [
+    "Sold by a reseller at $129.99",
+    "Only 344 reviews on this listing",
+    "Buying from the Google Store is usually cheaper"
+   ],
+   "specs": {
+    "assistant": "Google Assistant",
+    "extras": "Multi-room with Nest and Chromecast"
+   },
+   "features": {
+    "hub": false,
+    "sound": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81-qmWPiqTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CL7P33RH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0CL7P33RH"
+  },
+  {
+   "rank": 5,
+   "asin": "B0GLH11HYK",
+   "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke",
+   "brand": "Bose",
+   "model": "Lifestyle Ultra Speaker",
+   "price": 349.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 381,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Bose app, AirPlay, Google Cast",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
+   "pros": [
+    "AirPlay and Google Cast",
+    "Adjustable EQ",
+    "AUX input"
+   ],
+   "cons": [
+    "$349.00",
+    "4.3 stars",
+    "The listing doesn't name which voice assistant"
+   ],
+   "specs": {
+    "assistant": "Voice commands (assistant not named)",
+    "extras": "AirPlay, Google Cast, AUX, adjustable EQ"
+   },
+   "features": {
+    "hub": false,
+    "sound": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81DYUJWBUoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GLH11HYK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0GLH11HYK"
+  },
+  {
+   "rank": 6,
    "asin": "B09B8V1LZ3",
    "name": "Amazon Echo Dot - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices, Charcoal",
    "brand": "Amazon",
@@ -208,146 +348,6 @@
    "image": "https://m.media-amazon.com/images/I/61J2sQtBYDL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09B8V1LZ3?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B09B8V1LZ3"
-  },
-  {
-   "rank": 4,
-   "asin": "B0BW34LCB8",
-   "name": "Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker",
-   "brand": "Sonos",
-   "model": "Era 100",
-   "price": 219.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2847,
-   "score": 69,
-   "awards": [
-    "Best Sound"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The music-first pick: real stereo sound in a compact speaker, with Alexa built in.",
-   "pros": [
-    "Stereo with dual tweeters",
-    "Wi-Fi, Bluetooth, and line-in",
-    "Official Home Assistant integration",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "$219",
-    "Line-in needs a Sonos adapter",
-    "Not a smart home hub"
-   ],
-   "specs": {
-    "assistant": "Alexa (built in)",
-    "extras": "Stereo, Bluetooth, line-in"
-   },
-   "features": {
-    "hub": false,
-    "sound": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Ipg0FOEeL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BW34LCB8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0BW34LCB8"
-  },
-  {
-   "rank": 5,
-   "asin": "B0GLH11HYK",
-   "name": "Bose New Lifestyle Ultra Speaker, Wireless Home Speaker, TrueSpatial Audio, CleanBass, AirPlay & Google Cast, White Smoke",
-   "brand": "Bose",
-   "model": "Lifestyle Ultra Speaker",
-   "price": 349.0,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 381,
-   "score": 65,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Bose app, AirPlay, Google Cast",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A room-filling Bose speaker with AirPlay and Google Cast for iPhone and Android homes alike.",
-   "pros": [
-    "AirPlay and Google Cast",
-    "Adjustable EQ",
-    "AUX input"
-   ],
-   "cons": [
-    "$349.00",
-    "4.3 stars",
-    "The listing doesn't name which voice assistant"
-   ],
-   "specs": {
-    "assistant": "Voice commands (assistant not named)",
-    "extras": "AirPlay, Google Cast, AUX, adjustable EQ"
-   },
-   "features": {
-    "hub": false,
-    "sound": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81DYUJWBUoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GLH11HYK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0GLH11HYK"
-  },
-  {
-   "rank": 6,
-   "asin": "B0CL7P33RH",
-   "name": "Google Audio Bluetooth Speaker with Keychain LED - Wireless Music Streaming - Chalk",
-   "brand": "Google",
-   "model": "Nest Audio (reseller)",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 344,
-   "score": 64,
-   "awards": [],
-   "works_with": [
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "The Google pick, but Google doesn't sell on Amazon, so you're paying a reseller premium.",
-   "pros": [
-    "Google Assistant",
-    "30 W woofer for its size",
-    "Broadcast to every Nest speaker"
-   ],
-   "cons": [
-    "Sold by a reseller at $129.99",
-    "Only 344 reviews on this listing",
-    "Buying from the Google Store is usually cheaper"
-   ],
-   "specs": {
-    "assistant": "Google Assistant",
-    "extras": "Multi-room with Nest and Chromecast"
-   },
-   "features": {
-    "hub": false,
-    "sound": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81-qmWPiqTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CL7P33RH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-speakers.html#B0CL7P33RH"
   }
  ],
  "avoid": [

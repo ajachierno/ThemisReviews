@@ -28,7 +28,7 @@
    "matter": 0.25,
    "multi_channel": 0.25
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 909,
-   "score": 90,
+   "score": 91,
    "awards": [
     "Best With Power Metering"
    ],
@@ -131,7 +131,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1123,
-   "score": 84,
+   "score": 85,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -186,7 +186,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1356,
-   "score": 83,
+   "score": 84,
    "awards": [
     "Best Overall"
    ],
@@ -244,7 +244,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 897,
-   "score": 82,
+   "score": 84,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -299,7 +299,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 466,
-   "score": 81,
+   "score": 84,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -354,7 +354,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 679,
-   "score": 79,
+   "score": 82,
    "awards": [
     "Best for Low-Voltage DIY"
    ],
@@ -408,7 +408,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 356,
-   "score": 76,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -451,6 +451,58 @@
   },
   {
    "rank": 8,
+   "asin": "B0C7QQHMCX",
+   "name": "WiFi Relay Switch 12V, eWeLink 5V USB DC 7-48V Smart Relay Module",
+   "brand": "eWeLink",
+   "model": "USB/DC Wi-Fi relay",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 198,
+   "score": 76,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "eWeLink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A cheap low-voltage relay to push a PC power button or open a door strike.",
+   "pros": [
+    "$12.99",
+    "USB 5 V or 7-48 V DC",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "Low voltage only",
+    "Unknown brand",
+    "Only 198 reviews"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "Low-voltage dry contact",
+    "radios": "Wi-Fi",
+    "extras": "Inching and self-lock modes"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": true,
+    "matter": false,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LX8YPH2qL._SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C7QQHMCX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-relays.html#B0C7QQHMCX"
+  },
+  {
+   "rank": 9,
    "asin": "B0C1GTGKQJ",
    "name": "SONOFF MINIR4 10 A Wi-Fi Smart Switch Module, Alexa and Google, No Hub Required, 4 Pack",
    "brand": "SONOFF",
@@ -501,58 +553,6 @@
    "page_url": "https://themisreviews.com/wifi-relays.html#B0C1GTGKQJ"
   },
   {
-   "rank": 9,
-   "asin": "B0C7QQHMCX",
-   "name": "WiFi Relay Switch 12V, eWeLink 5V USB DC 7-48V Smart Relay Module",
-   "brand": "eWeLink",
-   "model": "USB/DC Wi-Fi relay",
-   "price": 12.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 198,
-   "score": 68,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "eWeLink app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A cheap low-voltage relay to push a PC power button or open a door strike.",
-   "pros": [
-    "$12.99",
-    "USB 5 V or 7-48 V DC",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "Low voltage only",
-    "Unknown brand",
-    "Only 198 reviews"
-   ],
-   "specs": {
-    "channels": "1",
-    "rating": "Low-voltage dry contact",
-    "radios": "Wi-Fi",
-    "extras": "Inching and self-lock modes"
-   },
-   "features": {
-    "power_meter": false,
-    "dry_contact": true,
-    "matter": false,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61LX8YPH2qL._SL1254_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C7QQHMCX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-relays.html#B0C7QQHMCX"
-  },
-  {
    "rank": 10,
    "asin": "B0H8YW595V",
    "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
@@ -562,7 +562,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 28,
-   "score": 66,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",

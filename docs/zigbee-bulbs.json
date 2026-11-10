@@ -27,7 +27,7 @@
    "bright": 0.3,
    "open_hub": 0.35
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 238,
-   "score": 80,
+   "score": 92,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -129,7 +129,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 654,
-   "score": 78,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -185,7 +185,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 654,
-   "score": 78,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -230,6 +230,116 @@
   },
   {
    "rank": 4,
+   "asin": "B0FH59TRX1",
+   "name": "innr Smart Light Bulb, White & Color, for Hue* and Zigbee hubs, 2-Pack",
+   "brand": "innr",
+   "model": "White & Color (2-pack)",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 36,
+   "score": 84,
+   "awards": [
+    "Brightest"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A bright 1,100 lm color bulb that works with Hue bridges and open Zigbee hubs.",
+   "pros": [
+    "1,100 lumens",
+    "Works with Hue, SmartThings, Home Assistant, and Hubitat",
+    "Two for $29.99"
+   ],
+   "cons": [
+    "Doesn't work with Apple Home, per the listing",
+    "Only 36 reviews",
+    "4.0 stars"
+   ],
+   "specs": {
+    "light": "Color + white",
+    "lumens": "1,100 lm",
+    "shape": "A19",
+    "hub": "Hue, SmartThings, Home Assistant, Hubitat",
+    "pack": "2 bulbs"
+   },
+   "features": {
+    "color": true,
+    "bright": true,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71x+b-+JHgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FH59TRX1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0FH59TRX1"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FMGP1P6W",
+   "name": "Philips Hue Essential Smart LED A19 Bulb, 4-Pack",
+   "brand": "Philips Hue",
+   "model": "Essential A19 (4-pack)",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1132,
+   "score": 79,
+   "awards": [
+    "Best for Hue Homes"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "4K+ bought in past month",
+   "verdict": "Hue's more affordable color line, four bulbs for about $17.50 each.",
+   "pros": [
+    "Hue app and scene library",
+    "About $17.50 per color bulb",
+    "4K+ bought in the past month, sold by Amazon"
+   ],
+   "cons": [
+    "Full features need the Hue Bridge",
+    "Brightness isn't listed",
+    "Works best inside the Hue system"
+   ],
+   "specs": {
+    "light": "Color + white",
+    "lumens": "Not listed",
+    "shape": "A19",
+    "hub": "Hue Bridge or Hue app",
+    "pack": "4 bulbs"
+   },
+   "features": {
+    "color": true,
+    "bright": false,
+    "open_hub": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61EOL9hRBtL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FMGP1P6W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0FMGP1P6W"
+  },
+  {
+   "rank": 6,
    "asin": "B078HHWQWG",
    "name": "Sengled Zigbee Smart Light Bulbs, Daylight 60W Equivalent A19, Smart Hub Required, 4 Pack",
    "brand": "Sengled",
@@ -238,7 +348,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 3865,
-   "score": 75,
+   "score": 77,
    "awards": [
     "Best Budget White"
    ],
@@ -285,7 +395,7 @@
    "page_url": "https://themisreviews.com/zigbee-bulbs.html#B078HHWQWG"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0791ZWZ2Q",
    "name": "Sengled Zigbee Smart Light Bulbs, Daylight 60W Equivalent A19, Smart Hub Required, 8 Pack",
    "brand": "Sengled",
@@ -294,7 +404,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 3865,
-   "score": 75,
+   "score": 77,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -339,116 +449,6 @@
    "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0791ZWZ2Q"
   },
   {
-   "rank": 6,
-   "asin": "B0FMGP1P6W",
-   "name": "Philips Hue Essential Smart LED A19 Bulb, 4-Pack",
-   "brand": "Philips Hue",
-   "model": "Essential A19 (4-pack)",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1132,
-   "score": 74,
-   "awards": [
-    "Best for Hue Homes"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "4K+ bought in past month",
-   "verdict": "Hue's more affordable color line, four bulbs for about $17.50 each.",
-   "pros": [
-    "Hue app and scene library",
-    "About $17.50 per color bulb",
-    "4K+ bought in the past month, sold by Amazon"
-   ],
-   "cons": [
-    "Full features need the Hue Bridge",
-    "Brightness isn't listed",
-    "Works best inside the Hue system"
-   ],
-   "specs": {
-    "light": "Color + white",
-    "lumens": "Not listed",
-    "shape": "A19",
-    "hub": "Hue Bridge or Hue app",
-    "pack": "4 bulbs"
-   },
-   "features": {
-    "color": true,
-    "bright": false,
-    "open_hub": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61EOL9hRBtL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FMGP1P6W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0FMGP1P6W"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FH59TRX1",
-   "name": "innr Smart Light Bulb, White & Color, for Hue* and Zigbee hubs, 2-Pack",
-   "brand": "innr",
-   "model": "White & Color (2-pack)",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 36,
-   "score": 74,
-   "awards": [
-    "Brightest"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A bright 1,100 lm color bulb that works with Hue bridges and open Zigbee hubs.",
-   "pros": [
-    "1,100 lumens",
-    "Works with Hue, SmartThings, Home Assistant, and Hubitat",
-    "Two for $29.99"
-   ],
-   "cons": [
-    "Doesn't work with Apple Home, per the listing",
-    "Only 36 reviews",
-    "4.0 stars"
-   ],
-   "specs": {
-    "light": "Color + white",
-    "lumens": "1,100 lm",
-    "shape": "A19",
-    "hub": "Hue, SmartThings, Home Assistant, Hubitat",
-    "pack": "2 bulbs"
-   },
-   "features": {
-    "color": true,
-    "bright": true,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71x+b-+JHgL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FH59TRX1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0FH59TRX1"
-  },
-  {
    "rank": 8,
    "asin": "B07ZDHNN5M",
    "name": "ERIA Zigbee Smart Light Bulbs BR30, Color and White, 800LM, 65W Equivalent (2-Pack)",
@@ -458,7 +458,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 59,
-   "score": 62,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",

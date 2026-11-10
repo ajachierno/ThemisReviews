@@ -27,7 +27,7 @@
    "light_sensor": 0.3,
    "long_battery": 0.3
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,6 +65,59 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GZVPQQRX",
+   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24 GHz mmWave and Light Sensor, USB-C Powered, Hub Required",
+   "brand": "SONOFF",
+   "model": "SNZB-06P24",
+   "price": 24.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 219,
+   "score": 82,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A 24 GHz mmWave presence sensor with zones and a light sensor, sensitive enough to pick up breathing.",
+   "pros": [
+    "Detects micro-movements like breathing",
+    "Zone positioning",
+    "Light sensor built in",
+    "200+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars",
+    "Needs USB-C power",
+    "More setup than a PIR sensor"
+   ],
+   "specs": {
+    "type": "Presence (24 GHz mmWave)",
+    "power": "USB-C",
+    "hub": "Zigbee hub",
+    "extras": "Zones, self-calibration"
+   },
+   "features": {
+    "presence": true,
+    "light_sensor": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0GZVPQQRX"
+  },
+  {
+   "rank": 2,
    "asin": "B0FG2MD3YP",
    "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
    "brand": "Aqara",
@@ -121,19 +174,20 @@
    "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0FG2MD3YP"
   },
   {
-   "rank": 2,
-   "asin": "B0GZVPQQRX",
-   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24 GHz mmWave and Light Sensor, USB-C Powered, Hub Required",
-   "brand": "SONOFF",
-   "model": "SNZB-06P24",
-   "price": 24.9,
+   "rank": 3,
+   "asin": "B0H4GD6GGK",
+   "name": "Shelly BLU Motion ZB Smart Bluetooth & Zigbee Light Sensor",
+   "brand": "Shelly",
+   "model": "BLU Motion ZB",
+   "price": 26.99,
    "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 219,
+   "rating": 4.5,
+   "reviews_count": 78,
    "score": 77,
    "awards": [],
    "works_with": [
     "Home Assistant",
+    "Google Home",
     "Amazon Alexa",
     "SmartThings",
     "Hubitat Elevation",
@@ -146,35 +200,34 @@
     "subscription": true
    },
    "bought_last_month": "200+ bought in past month",
-   "verdict": "A 24 GHz mmWave presence sensor with zones and a light sensor, sensitive enough to pick up breathing.",
+   "verdict": "A compact motion and light sensor that speaks Zigbee or Bluetooth.",
    "pros": [
-    "Detects micro-movements like breathing",
-    "Zone positioning",
-    "Light sensor built in",
-    "200+ bought in the past month"
+    "Motion plus light level",
+    "Zigbee or Bluetooth",
+    "4.5 stars, 200+ bought in the past month"
    ],
    "cons": [
-    "3.8 stars",
-    "Needs USB-C power",
-    "More setup than a PIR sensor"
+    "Only 78 reviews",
+    "Battery life isn't in the bullets",
+    "$26.99"
    ],
    "specs": {
-    "type": "Presence (24 GHz mmWave)",
-    "power": "USB-C",
-    "hub": "Zigbee hub",
-    "extras": "Zones, self-calibration"
+    "type": "PIR motion",
+    "power": "Battery",
+    "hub": "Zigbee hub or Bluetooth gateway",
+    "extras": "Light sensor"
    },
    "features": {
-    "presence": true,
+    "presence": false,
     "light_sensor": true,
     "long_battery": false
    },
-   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0GZVPQQRX"
+   "image": "https://m.media-amazon.com/images/I/71k0OijsvhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H4GD6GGK?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0H4GD6GGK"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B0C1GB4DVR",
    "name": "SONOFF SNZB-03P Zigbee Motion Sensor, 3-Year Battery Life, Zigbee Bridge Required (1 Pack)",
    "brand": "SONOFF",
@@ -183,7 +236,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 903,
-   "score": 74,
+   "score": 76,
    "awards": [
     "Best Overall"
    ],
@@ -228,56 +281,6 @@
    "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0C1GB4DVR"
   },
   {
-   "rank": 4,
-   "asin": "B09QKVMMTB",
-   "name": "Aqara Zigbee 3.0 Motion Sensor P1 1 Pack, for Alert System Automations",
-   "brand": "Aqara",
-   "model": "Motion Sensor P1",
-   "price": 20.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 834,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A long-lasting motion sensor for Aqara homes, with a 5-year battery rating.",
-   "pros": [
-    "Up to 5-year battery life",
-    "834 reviews, 200+ bought in the past month",
-    "Apple Home, Alexa, and Google through the Aqara hub"
-   ],
-   "cons": [
-    "Needs an Aqara hub; not compatible with other Zigbee hubs, per the listing",
-    "No light sensor listed",
-    "$20.99"
-   ],
-   "specs": {
-    "type": "PIR motion",
-    "power": "Battery, up to 5 years",
-    "hub": "Aqara hub only",
-    "extras": "Works in low temperatures"
-   },
-   "features": {
-    "presence": false,
-    "light_sensor": false,
-    "long_battery": true
-   },
-   "image": "https://m.media-amazon.com/images/I/6197566IwpL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09QKVMMTB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B09QKVMMTB"
-  },
-  {
    "rank": 5,
    "asin": "B0D5QPH3T6",
    "name": "Aqara Zigbee Presence Sensor FP1E, mmWave Radar Wired Motion Sensor",
@@ -287,7 +290,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 502,
-   "score": 72,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -341,7 +344,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 501,
-   "score": 72,
+   "score": 76,
    "awards": [
     "Best Presence Sensor"
    ],
@@ -387,23 +390,20 @@
   },
   {
    "rank": 7,
-   "asin": "B0H4GD6GGK",
-   "name": "Shelly BLU Motion ZB Smart Bluetooth & Zigbee Light Sensor",
-   "brand": "Shelly",
-   "model": "BLU Motion ZB",
-   "price": 26.99,
+   "asin": "B09QKVMMTB",
+   "name": "Aqara Zigbee 3.0 Motion Sensor P1 1 Pack, for Alert System Automations",
+   "brand": "Aqara",
+   "model": "Motion Sensor P1",
+   "price": 20.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 78,
-   "score": 69,
+   "rating": 4.2,
+   "reviews_count": 834,
+   "score": 75,
    "awards": [],
    "works_with": [
-    "Home Assistant",
+    "Apple Home",
     "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
+    "Amazon Alexa"
    ],
    "works_with_note": null,
    "works_without": {
@@ -412,31 +412,31 @@
     "subscription": true
    },
    "bought_last_month": "200+ bought in past month",
-   "verdict": "A compact motion and light sensor that speaks Zigbee or Bluetooth.",
+   "verdict": "A long-lasting motion sensor for Aqara homes, with a 5-year battery rating.",
    "pros": [
-    "Motion plus light level",
-    "Zigbee or Bluetooth",
-    "4.5 stars, 200+ bought in the past month"
+    "Up to 5-year battery life",
+    "834 reviews, 200+ bought in the past month",
+    "Apple Home, Alexa, and Google through the Aqara hub"
    ],
    "cons": [
-    "Only 78 reviews",
-    "Battery life isn't in the bullets",
-    "$26.99"
+    "Needs an Aqara hub; not compatible with other Zigbee hubs, per the listing",
+    "No light sensor listed",
+    "$20.99"
    ],
    "specs": {
     "type": "PIR motion",
-    "power": "Battery",
-    "hub": "Zigbee hub or Bluetooth gateway",
-    "extras": "Light sensor"
+    "power": "Battery, up to 5 years",
+    "hub": "Aqara hub only",
+    "extras": "Works in low temperatures"
    },
    "features": {
     "presence": false,
-    "light_sensor": true,
-    "long_battery": false
+    "light_sensor": false,
+    "long_battery": true
    },
-   "image": "https://m.media-amazon.com/images/I/71k0OijsvhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H4GD6GGK?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B0H4GD6GGK"
+   "image": "https://m.media-amazon.com/images/I/6197566IwpL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09QKVMMTB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-motion-sensors.html#B09QKVMMTB"
   },
   {
    "rank": 8,
@@ -448,7 +448,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 423,
-   "score": 66,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -500,7 +500,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 1285,
-   "score": 64,
+   "score": 65,
    "awards": [
     "Best for Alexa"
    ],
@@ -555,7 +555,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 138,
-   "score": 54,
+   "score": 62,
    "awards": [],
    "works_with": [
     "Home Assistant",

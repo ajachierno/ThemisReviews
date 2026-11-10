@@ -28,7 +28,7 @@
    "display": 0.2,
    "long_range": 0.2
   },
-  "reviews_ceiling": 40000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,6 +59,105 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B09R1TP7HF",
+   "name": "Geevon Wireless Indoor Outdoor Thermometer with 3 Remote Sensors, Hygrometer, 200 ft Range",
+   "brand": "Geevon",
+   "model": "Indoor/outdoor thermometer (3 sensors)",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2786,
+   "score": 89,
+   "awards": [
+    "Best Multi-Room Kit"
+   ],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A 433 MHz display kit that shows four locations at once, with max/min and alarms.",
+   "pros": [
+    "3 sensors included",
+    "433 MHz stated in the listing",
+    "Max/min and alarm functions",
+    "2,786 reviews"
+   ],
+   "cons": [
+    "200 ft. range",
+    "Indoor reading starts at 50°F",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "type": "Display + 3 sensors",
+    "frequency": "433 MHz",
+    "range": "200 ft.",
+    "sensors": "3",
+    "works_with": "Its own display"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": true,
+    "display": true,
+    "long_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61r9CCYYhML._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B09R1TP7HF"
+  },
+  {
+   "rank": 2,
+   "asin": "B0DQPT4BP1",
+   "name": "TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors",
+   "brand": "TempPro",
+   "model": "TempAir 500 FT (3 sensors)",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 84,
+   "score": 89,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Standalone display",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The three-sensor version, with alerts and ±0.5°F stated accuracy.",
+   "pros": [
+    "3 waterproof sensors",
+    "±0.5°F, ±2-3% RH",
+    "Out-of-range alerts on the display"
+   ],
+   "cons": [
+    "Only 84 reviews",
+    "$29.99",
+    "Frequency isn't stated"
+   ],
+   "specs": {
+    "type": "Display + 3 sensors",
+    "frequency": "Not stated in listing",
+    "range": "500 ft.",
+    "sensors": "3",
+    "works_with": "Its own display"
+   },
+   "features": {
+    "humidity": true,
+    "multi_sensor": true,
+    "display": true,
+    "long_range": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ITv05FpKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0DQPT4BP1"
+  },
+  {
+   "rank": 3,
    "asin": "B06XKH666P",
    "name": "TempPro TempAir 500 FT Indoor Outdoor Thermometer Wireless with Sensor",
    "brand": "TempPro",
@@ -109,58 +208,55 @@
    "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B06XKH666P"
   },
   {
-   "rank": 2,
-   "asin": "B09R1TP7HF",
-   "name": "Geevon Wireless Indoor Outdoor Thermometer with 3 Remote Sensors, Hygrometer, 200 ft Range",
-   "brand": "Geevon",
-   "model": "Indoor/outdoor thermometer (3 sensors)",
-   "price": 23.99,
+   "rank": 4,
+   "asin": "B0BLX7RQRG",
+   "name": "TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor",
+   "brand": "La Crosse",
+   "model": "TX141TH-BV4",
+   "price": 20.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 2786,
+   "reviews_count": 2314,
    "score": 81,
-   "awards": [
-    "Best Multi-Room Kit"
-   ],
+   "awards": [],
    "works_with": [],
-   "works_with_note": "Standalone display",
+   "works_with_note": "La Crosse displays",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A 433 MHz display kit that shows four locations at once, with max/min and alarms.",
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A weather-resistant replacement sensor for a long list of La Crosse stations.",
    "pros": [
-    "3 sensors included",
-    "433 MHz stated in the listing",
-    "Max/min and alarm functions",
-    "2,786 reviews"
+    "330 ft. range",
+    "-40°F to 140°F",
+    "2K+ bought in the past month, sold by Amazon"
    ],
    "cons": [
-    "200 ft. range",
-    "Indoor reading starts at 50°F",
-    "Sold by the brand"
+    "Only works with the station models it lists",
+    "Batteries not included",
+    "4.3 stars"
    ],
    "specs": {
-    "type": "Display + 3 sensors",
-    "frequency": "433 MHz",
-    "range": "200 ft.",
-    "sensors": "3",
-    "works_with": "Its own display"
+    "type": "Replacement sensor",
+    "frequency": "Not stated in listing",
+    "range": "330 ft.",
+    "sensors": "1",
+    "works_with": "Listed La Crosse station models only"
    },
    "features": {
     "humidity": true,
-    "multi_sensor": true,
-    "display": true,
-    "long_range": false
+    "multi_sensor": false,
+    "display": false,
+    "long_range": true
    },
-   "image": "https://m.media-amazon.com/images/I/61r9CCYYhML._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09R1TP7HF?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B09R1TP7HF"
+   "image": "https://m.media-amazon.com/images/I/41MY2VJ3vGL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0BLX7RQRG"
   },
   {
-   "rank": 3,
+   "rank": 5,
    "asin": "B00T0K8NXC",
    "name": "AcuRite Wireless Indoor Outdoor Temperature and Humidity Sensor with A-B-C Switch (06002M / 592TXR)",
    "brand": "AcuRite",
@@ -169,7 +265,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 12126,
-   "score": 76,
+   "score": 79,
    "awards": [
     "Best Replacement Sensor"
    ],
@@ -208,102 +304,6 @@
    "image": "https://m.media-amazon.com/images/I/515r3f5dgXL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00T0K8NXC?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B00T0K8NXC"
-  },
-  {
-   "rank": 4,
-   "asin": "B0DQPT4BP1",
-   "name": "TempPro TempAir 500FT Indoor Outdoor Thermometer Wireless with 3 Sensors",
-   "brand": "TempPro",
-   "model": "TempAir 500 FT (3 sensors)",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 84,
-   "score": 76,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Standalone display",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "The three-sensor version, with alerts and ±0.5°F stated accuracy.",
-   "pros": [
-    "3 waterproof sensors",
-    "±0.5°F, ±2-3% RH",
-    "Out-of-range alerts on the display"
-   ],
-   "cons": [
-    "Only 84 reviews",
-    "$29.99",
-    "Frequency isn't stated"
-   ],
-   "specs": {
-    "type": "Display + 3 sensors",
-    "frequency": "Not stated in listing",
-    "range": "500 ft.",
-    "sensors": "3",
-    "works_with": "Its own display"
-   },
-   "features": {
-    "humidity": true,
-    "multi_sensor": true,
-    "display": true,
-    "long_range": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ITv05FpKL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQPT4BP1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0DQPT4BP1"
-  },
-  {
-   "rank": 5,
-   "asin": "B0BLX7RQRG",
-   "name": "TX141TH-BV4 Wireless Weather-resistant Temperature/Humidity Sensor",
-   "brand": "La Crosse",
-   "model": "TX141TH-BV4",
-   "price": 20.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 2314,
-   "score": 73,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "La Crosse displays",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A weather-resistant replacement sensor for a long list of La Crosse stations.",
-   "pros": [
-    "330 ft. range",
-    "-40°F to 140°F",
-    "2K+ bought in the past month, sold by Amazon"
-   ],
-   "cons": [
-    "Only works with the station models it lists",
-    "Batteries not included",
-    "4.3 stars"
-   ],
-   "specs": {
-    "type": "Replacement sensor",
-    "frequency": "Not stated in listing",
-    "range": "330 ft.",
-    "sensors": "1",
-    "works_with": "Listed La Crosse station models only"
-   },
-   "features": {
-    "humidity": true,
-    "multi_sensor": false,
-    "display": false,
-    "long_range": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41MY2VJ3vGL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BLX7RQRG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-temperature-sensors.html#B0BLX7RQRG"
   }
  ],
  "avoid": [],

@@ -28,7 +28,7 @@
    "smart_alerts": 0.25,
    "voice": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,101 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0H5BR6R7Z",
+   "name": "Blemil 5.5-inch Smart WiFi Baby Monitor with Camera and Audio",
+   "brand": "Blemil",
+   "model": "5.5\" smart monitor",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 133,
+   "score": 91,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Blemil app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "700+ bought in past month",
+   "verdict": "The biggest parent screen here, with up to 22 hours of battery.",
+   "pros": [
+    "5.5\" display",
+    "Up to 22 hours in eco mode",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 133 reviews",
+    "Cloud storage pricing isn't in the bullets",
+    "$99.99"
+   ],
+   "specs": {
+    "camera": "Auto-tracking",
+    "display": "5.5\" screen, 5000 mAh",
+    "alerts": "Cry, sound, motion"
+   },
+   "features": {
+    "screen": true,
+    "no_fee": true,
+    "smart_alerts": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dxwv4-IvL._AC_SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5BR6R7Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0H5BR6R7Z"
+  },
+  {
+   "rank": 2,
+   "asin": "B0H5BVB9CY",
+   "name": "Arenti Baby Monitor C3 Kit, 3MP WiFi 6 PTZ Camera with 5\" Wireless Display",
+   "brand": "ARENTI",
+   "model": "C3 kit (PTZ)",
+   "price": 84.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 41,
+   "score": 89,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "ARENTI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A pan-tilt kit that adds Alexa and Google plus feeding reminders.",
+   "pros": [
+    "Alexa and Google",
+    "Feeding reminders",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Only 41 reviews",
+    "New model",
+    "$84.99"
+   ],
+   "specs": {
+    "camera": "3MP pan-tilt",
+    "display": "5\" display",
+    "alerts": "Cry and movement"
+   },
+   "features": {
+    "screen": true,
+    "no_fee": true,
+    "smart_alerts": true,
+    "voice": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61iktScUXxL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5BVB9CY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0H5BVB9CY"
+  },
+  {
+   "rank": 3,
    "asin": "B09Y8TLP25",
    "name": "Tapo 2K Pan Tilt Security Camera for Baby Monitor, Dog Camera, C210",
    "brand": "Tapo",
@@ -117,7 +212,53 @@
    "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B09Y8TLP25"
   },
   {
-   "rank": 2,
+   "rank": 4,
+   "asin": "B0DJS63Y2Q",
+   "name": "ARENTI Baby Monitor D3 Kit, 3MP WiFi 6 Camera with App, 5\" Wireless Display",
+   "brand": "ARENTI",
+   "model": "D3 kit",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 245,
+   "score": 88,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "ARENTI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The single-camera D3 with lullabies and a night light.",
+   "pros": [
+    "$69.99",
+    "Lullabies and white noise",
+    "Free 7-day cloud clips"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Only 245 reviews",
+    "Fixed camera"
+   ],
+   "specs": {
+    "camera": "3MP, Wi-Fi 6",
+    "display": "5\" display",
+    "alerts": "Sound and motion zones"
+   },
+   "features": {
+    "screen": true,
+    "no_fee": true,
+    "smart_alerts": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ujK+u6MxL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DJS63Y2Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0DJS63Y2Q"
+  },
+  {
+   "rank": 5,
    "asin": "B0DJS7WRJS",
    "name": "ARENTI Baby Monitor 2 Cameras D3 Set, 3MP WiFi 6, 5\" Display,Free Phone App",
    "brand": "ARENTI",
@@ -126,7 +267,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2531,
-   "score": 80,
+   "score": 86,
    "awards": [
     "Best for Two Rooms"
    ],
@@ -165,7 +306,53 @@
    "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0DJS7WRJS"
   },
   {
-   "rank": 3,
+   "rank": 6,
+   "asin": "B0FM6T276Q",
+   "name": "1080P WiFi Baby Monitor With Camera And Audio,4\" Screen,PTZ 360°,2.4GHz",
+   "brand": "Jeeber",
+   "model": "1080p PTZ monitor",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 729,
+   "score": 82,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "900+ bought in past month",
+   "verdict": "A cheap screen-and-app monitor with cry alerts.",
+   "pros": [
+    "$59.99",
+    "4.2 stars",
+    "900+ bought in the past month"
+   ],
+   "cons": [
+    "2.4 GHz only",
+    "4\" screen",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "camera": "1080p, 360° pan-tilt",
+    "display": "4\" screen",
+    "alerts": "Cry (VOX)"
+   },
+   "features": {
+    "screen": true,
+    "no_fee": true,
+    "smart_alerts": false,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/6114HF1z05L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM6T276Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0FM6T276Q"
+  },
+  {
+   "rank": 7,
    "asin": "B07WCV632L",
    "name": "VTech VM901 Smart Wi-Fi Baby Monitor, 1080p Pan-Tilt-Zoom Camera, 5-inch Screen, Free App, Night Vision",
    "brand": "VTech",
@@ -174,7 +361,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 7630,
-   "score": 78,
+   "score": 81,
    "awards": [
     "Best Overall"
    ],
@@ -213,193 +400,6 @@
    "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B07WCV632L"
   },
   {
-   "rank": 4,
-   "asin": "B0H5BR6R7Z",
-   "name": "Blemil 5.5-inch Smart WiFi Baby Monitor with Camera and Audio",
-   "brand": "Blemil",
-   "model": "5.5\" smart monitor",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 133,
-   "score": 78,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Blemil app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "700+ bought in past month",
-   "verdict": "The biggest parent screen here, with up to 22 hours of battery.",
-   "pros": [
-    "5.5\" display",
-    "Up to 22 hours in eco mode",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 133 reviews",
-    "Cloud storage pricing isn't in the bullets",
-    "$99.99"
-   ],
-   "specs": {
-    "camera": "Auto-tracking",
-    "display": "5.5\" screen, 5000 mAh",
-    "alerts": "Cry, sound, motion"
-   },
-   "features": {
-    "screen": true,
-    "no_fee": true,
-    "smart_alerts": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61dxwv4-IvL._AC_SL1254_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5BR6R7Z?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0H5BR6R7Z"
-  },
-  {
-   "rank": 5,
-   "asin": "B0H5BVB9CY",
-   "name": "Arenti Baby Monitor C3 Kit, 3MP WiFi 6 PTZ Camera with 5\" Wireless Display",
-   "brand": "ARENTI",
-   "model": "C3 kit (PTZ)",
-   "price": 84.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 41,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "ARENTI app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A pan-tilt kit that adds Alexa and Google plus feeding reminders.",
-   "pros": [
-    "Alexa and Google",
-    "Feeding reminders",
-    "4.3 stars"
-   ],
-   "cons": [
-    "Only 41 reviews",
-    "New model",
-    "$84.99"
-   ],
-   "specs": {
-    "camera": "3MP pan-tilt",
-    "display": "5\" display",
-    "alerts": "Cry and movement"
-   },
-   "features": {
-    "screen": true,
-    "no_fee": true,
-    "smart_alerts": true,
-    "voice": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61iktScUXxL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5BVB9CY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0H5BVB9CY"
-  },
-  {
-   "rank": 6,
-   "asin": "B0DJS63Y2Q",
-   "name": "ARENTI Baby Monitor D3 Kit, 3MP WiFi 6 Camera with App, 5\" Wireless Display",
-   "brand": "ARENTI",
-   "model": "D3 kit",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 245,
-   "score": 74,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "ARENTI app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The single-camera D3 with lullabies and a night light.",
-   "pros": [
-    "$69.99",
-    "Lullabies and white noise",
-    "Free 7-day cloud clips"
-   ],
-   "cons": [
-    "4.2 stars",
-    "Only 245 reviews",
-    "Fixed camera"
-   ],
-   "specs": {
-    "camera": "3MP, Wi-Fi 6",
-    "display": "5\" display",
-    "alerts": "Sound and motion zones"
-   },
-   "features": {
-    "screen": true,
-    "no_fee": true,
-    "smart_alerts": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61ujK+u6MxL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DJS63Y2Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0DJS63Y2Q"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FM6T276Q",
-   "name": "1080P WiFi Baby Monitor With Camera And Audio,4\" Screen,PTZ 360°,2.4GHz",
-   "brand": "Jeeber",
-   "model": "1080p PTZ monitor",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 729,
-   "score": 73,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "900+ bought in past month",
-   "verdict": "A cheap screen-and-app monitor with cry alerts.",
-   "pros": [
-    "$59.99",
-    "4.2 stars",
-    "900+ bought in the past month"
-   ],
-   "cons": [
-    "2.4 GHz only",
-    "4\" screen",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "camera": "1080p, 360° pan-tilt",
-    "display": "4\" screen",
-    "alerts": "Cry (VOX)"
-   },
-   "features": {
-    "screen": true,
-    "no_fee": true,
-    "smart_alerts": false,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/6114HF1z05L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FM6T276Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-baby-monitors.html#B0FM6T276Q"
-  },
-  {
    "rank": 8,
    "asin": "B0CJN8C2KK",
    "name": "Simyke Video Baby Monitor with Wi-Fi App, 2.8-inch Display, 1200 ft Range, 2-Way Talk, Night Vision",
@@ -409,7 +409,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1279,
-   "score": 72,
+   "score": 81,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -455,7 +455,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 790,
-   "score": 71,
+   "score": 81,
    "awards": [],
    "works_with": [],
    "works_with_note": "Momcozy app",
@@ -501,7 +501,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 57,
-   "score": 65,
+   "score": 77,
    "awards": [
     "Best Smart Features"
    ],

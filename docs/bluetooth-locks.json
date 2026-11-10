@@ -27,7 +27,7 @@
    "auto_lock": 0.3,
    "voice_gateway": 0.35
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,7 +66,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4374,
-   "score": 94,
+   "score": 95,
    "awards": [
     "Best with Handle"
    ],
@@ -118,7 +118,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 727,
-   "score": 87,
+   "score": 94,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -168,7 +168,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 3720,
-   "score": 85,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -210,103 +210,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0D9JX1Y9Z",
-   "name": "DESLOC B200 Fingerprint Smart Door Lock with App Control, Matte Black",
-   "brand": "DESLOC",
-   "model": "B200",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 2629,
-   "score": 83,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A $59.99 fingerprint deadbolt with eight ways in and a fast reader.",
-   "pros": [
-    "$59.99 with 2,629 reviews",
-    "Fingerprint unlock in under 0.3 seconds",
-    "USB-C emergency power"
-   ],
-   "cons": [
-    "BHMA Grade 3",
-    "Remote access and voice need a gateway",
-    "TTLock app"
-   ],
-   "specs": {
-    "type": "Deadbolt",
-    "entry": "Fingerprint, PIN, app, eKey, fob, key, voice",
-    "app": "TTLock",
-    "remote": "With gateway",
-    "extras": "USB-C backup, AA batteries"
-   },
-   "features": {
-    "fingerprint": true,
-    "auto_lock": false,
-    "voice_gateway": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71NOHLQjg3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D9JX1Y9Z?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-locks.html#B0D9JX1Y9Z"
-  },
-  {
-   "rank": 5,
-   "asin": "B0DGQ8HCVB",
-   "name": "Keypad Smart Door Knob Lock, Yamiry Fingerprint Keyless Entry Handle Lock",
-   "brand": "Yamiry",
-   "model": "Fingerprint keypad knob",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 2290,
-   "score": 82,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Yamiry app (Bluetooth)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A fingerprint door knob for interior or side doors, with auto lock.",
-   "pros": [
-    "Fingerprint, keypad, and fob",
-    "Aluminum body",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "Stores 50 passwords and fingerprints",
-    "Knob, not a deadbolt",
-    "Voice assistants aren't mentioned"
-   ],
-   "specs": {
-    "type": "Knob",
-    "entry": "Fingerprint, keypad, fob, app",
-    "app": "Not named in bullets",
-    "remote": "With Wi-Fi gateway",
-    "extras": "Auto lock, 50 users"
-   },
-   "features": {
-    "fingerprint": true,
-    "auto_lock": true,
-    "voice_gateway": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61-7aGOeZ8L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DGQ8HCVB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-locks.html#B0DGQ8HCVB"
-  },
-  {
-   "rank": 6,
    "asin": "B0DCJYTLFX",
    "name": "Veise VE017 Fingerprint Smart Door Lock with App Control, Matte Black",
    "brand": "Veise",
@@ -315,7 +218,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1448,
-   "score": 82,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -359,6 +262,103 @@
    "page_url": "https://themisreviews.com/bluetooth-locks.html#B0DCJYTLFX"
   },
   {
+   "rank": 5,
+   "asin": "B0D9JX1Y9Z",
+   "name": "DESLOC B200 Fingerprint Smart Door Lock with App Control, Matte Black",
+   "brand": "DESLOC",
+   "model": "B200",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2629,
+   "score": 85,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A $59.99 fingerprint deadbolt with eight ways in and a fast reader.",
+   "pros": [
+    "$59.99 with 2,629 reviews",
+    "Fingerprint unlock in under 0.3 seconds",
+    "USB-C emergency power"
+   ],
+   "cons": [
+    "BHMA Grade 3",
+    "Remote access and voice need a gateway",
+    "TTLock app"
+   ],
+   "specs": {
+    "type": "Deadbolt",
+    "entry": "Fingerprint, PIN, app, eKey, fob, key, voice",
+    "app": "TTLock",
+    "remote": "With gateway",
+    "extras": "USB-C backup, AA batteries"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": false,
+    "voice_gateway": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71NOHLQjg3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D9JX1Y9Z?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-locks.html#B0D9JX1Y9Z"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DGQ8HCVB",
+   "name": "Keypad Smart Door Knob Lock, Yamiry Fingerprint Keyless Entry Handle Lock",
+   "brand": "Yamiry",
+   "model": "Fingerprint keypad knob",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2290,
+   "score": 85,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Yamiry app (Bluetooth)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A fingerprint door knob for interior or side doors, with auto lock.",
+   "pros": [
+    "Fingerprint, keypad, and fob",
+    "Aluminum body",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "Stores 50 passwords and fingerprints",
+    "Knob, not a deadbolt",
+    "Voice assistants aren't mentioned"
+   ],
+   "specs": {
+    "type": "Knob",
+    "entry": "Fingerprint, keypad, fob, app",
+    "app": "Not named in bullets",
+    "remote": "With Wi-Fi gateway",
+    "extras": "Auto lock, 50 users"
+   },
+   "features": {
+    "fingerprint": true,
+    "auto_lock": true,
+    "voice_gateway": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61-7aGOeZ8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DGQ8HCVB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-locks.html#B0DGQ8HCVB"
+  },
+  {
    "rank": 7,
    "asin": "B0FMY3JLDR",
    "name": "Yamiry Smart Deadbolt Lock with Keypad,Fingerprint Keyless Entry Door Lock",
@@ -368,7 +368,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 411,
-   "score": 78,
+   "score": 85,
    "awards": [],
    "works_with": [],
    "works_with_note": "NICE DIGI app",
@@ -415,7 +415,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 285,
-   "score": 65,
+   "score": 75,
    "awards": [
     "Best Name Brand"
    ],

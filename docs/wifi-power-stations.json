@@ -28,7 +28,7 @@
    "fast": 0.25,
    "lfp": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,55 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0GWGSKN54",
-   "name": "Anker SOLIX C1000 Gen 2 Solar Powered Generator with 200W Solar Panel",
-   "brand": "Anker SOLIX",
-   "model": "C1000 Gen 2 with 200 W Solar Panel",
-   "price": 849.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1782,
-   "score": 95,
-   "awards": [
-    "Best Solar Kit"
-   ],
-   "works_with": [],
-   "works_with_note": "Anker app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A complete solar kit that can charge off-peak to save on your power bill.",
-   "pros": [
-    "200 W solar panel included",
-    "2,000 W output",
-    "Time-of-use scheduling"
-   ],
-   "cons": [
-    "$849.99 with the panel",
-    "Ships in two packages",
-    "Anker app"
-   ],
-   "specs": {
-    "capacity": "1,024 Wh",
-    "output": "2,000 W (3,000 W peak)",
-    "ups": "Under 10 ms",
-    "extras": "200 W panel, time-of-use mode, 4,000 cycles"
-   },
-   "features": {
-    "big": true,
-    "ups": true,
-    "fast": true,
-    "lfp": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71qPbFHwvIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GWGSKN54?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0GWGSKN54"
-  },
-  {
-   "rank": 2,
    "asin": "B0FQVC4RF5",
    "name": "EF ECOFLOW Portable Power Station Delta 3 Classic, 1024Wh 1800W AC",
    "brand": "EcoFlow",
@@ -123,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1396,
-   "score": 95,
+   "score": 97,
    "awards": [],
    "works_with": [],
    "works_with_note": "EcoFlow app",
@@ -161,54 +112,7 @@
    "page_url": "https://themisreviews.com/wifi-power-stations.html#B0FQVC4RF5"
   },
   {
-   "rank": 3,
-   "asin": "B0F42CSQWG",
-   "name": "BLUETTI Elite 100 V2 Portable Power Station for Camping 1024Wh 1800W",
-   "brand": "BLUETTI",
-   "model": "Elite 100 V2",
-   "price": 499.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1845,
-   "score": 93,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "BLUETTI app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A quiet 1 kWh unit that doubles as a UPS for your router and PC.",
-   "pros": [
-    "10 ms UPS",
-    "4.5 stars from 1,845 reviews",
-    "Remote control from the app"
-   ],
-   "cons": [
-    "$499",
-    "Heavier than the mini",
-    "App needed for some settings"
-   ],
-   "specs": {
-    "capacity": "1,024 Wh",
-    "output": "1,800 W",
-    "ups": "10 ms",
-    "extras": "80% in about 45 minutes, silent mode"
-   },
-   "features": {
-    "big": true,
-    "ups": true,
-    "fast": true,
-    "lfp": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71t2GNcQZ1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F42CSQWG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0F42CSQWG"
-  },
-  {
-   "rank": 4,
+   "rank": 2,
    "asin": "B0FQV6LMVX",
    "name": "EF ECOFLOW DELTA 3 Max Portable Power Station, 2048Wh LFP Battery, 2400W",
    "brand": "EcoFlow",
@@ -217,7 +121,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 658,
-   "score": 92,
+   "score": 97,
    "awards": [
     "Best for Home Backup"
    ],
@@ -257,7 +161,150 @@
    "page_url": "https://themisreviews.com/wifi-power-stations.html#B0FQV6LMVX"
   },
   {
+   "rank": 3,
+   "asin": "B0F42CSQWG",
+   "name": "BLUETTI Elite 100 V2 Portable Power Station for Camping 1024Wh 1800W",
+   "brand": "BLUETTI",
+   "model": "Elite 100 V2",
+   "price": 499.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1845,
+   "score": 96,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "BLUETTI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A quiet 1 kWh unit that doubles as a UPS for your router and PC.",
+   "pros": [
+    "10 ms UPS",
+    "4.5 stars from 1,845 reviews",
+    "Remote control from the app"
+   ],
+   "cons": [
+    "$499",
+    "Heavier than the mini",
+    "App needed for some settings"
+   ],
+   "specs": {
+    "capacity": "1,024 Wh",
+    "output": "1,800 W",
+    "ups": "10 ms",
+    "extras": "80% in about 45 minutes, silent mode"
+   },
+   "features": {
+    "big": true,
+    "ups": true,
+    "fast": true,
+    "lfp": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71t2GNcQZ1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F42CSQWG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0F42CSQWG"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GWGSKN54",
+   "name": "Anker SOLIX C1000 Gen 2 Solar Powered Generator with 200W Solar Panel",
+   "brand": "Anker SOLIX",
+   "model": "C1000 Gen 2 with 200 W Solar Panel",
+   "price": 849.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1782,
+   "score": 96,
+   "awards": [
+    "Best Solar Kit"
+   ],
+   "works_with": [],
+   "works_with_note": "Anker app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A complete solar kit that can charge off-peak to save on your power bill.",
+   "pros": [
+    "200 W solar panel included",
+    "2,000 W output",
+    "Time-of-use scheduling"
+   ],
+   "cons": [
+    "$849.99 with the panel",
+    "Ships in two packages",
+    "Anker app"
+   ],
+   "specs": {
+    "capacity": "1,024 Wh",
+    "output": "2,000 W (3,000 W peak)",
+    "ups": "Under 10 ms",
+    "extras": "200 W panel, time-of-use mode, 4,000 cycles"
+   },
+   "features": {
+    "big": true,
+    "ups": true,
+    "fast": true,
+    "lfp": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71qPbFHwvIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GWGSKN54?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0GWGSKN54"
+  },
+  {
    "rank": 5,
+   "asin": "B0C1SMJTDT",
+   "name": "BLUETTI AC180 Portable Power Station, 1152Wh LiFePO4, 1800W (2700W Peak) AC Outlets, 0-80% in 45 Min",
+   "brand": "BLUETTI",
+   "model": "AC180",
+   "price": 499.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1908,
+   "score": 89,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "BLUETTI app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A proven LiFePO4 station; the app unlocks a 2,700 W boost for heavy loads.",
+   "pros": [
+    "1,908 reviews",
+    "Sold by Amazon",
+    "2,700 W boost mode"
+   ],
+   "cons": [
+    "Older model",
+    "UPS isn't in the bullets",
+    "$499"
+   ],
+   "specs": {
+    "capacity": "1,152 Wh",
+    "output": "1,800 W (2,700 W boost from the app)",
+    "ups": "Not stated in bullets",
+    "extras": "LiFePO4, 0–80% in 45 minutes"
+   },
+   "features": {
+    "big": true,
+    "ups": false,
+    "fast": true,
+    "lfp": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Lg8i251IL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C1SMJTDT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0C1SMJTDT"
+  },
+  {
+   "rank": 6,
    "asin": "B0HD6GN86Q",
    "name": "BLUETTI Elite 100 mini Portable Power Station for Camping 1004.8Wh 700W LFP",
    "brand": "BLUETTI",
@@ -266,7 +313,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1845,
-   "score": 88,
+   "score": 89,
    "awards": [
     "Best Budget"
    ],
@@ -306,53 +353,6 @@
    "page_url": "https://themisreviews.com/wifi-power-stations.html#B0HD6GN86Q"
   },
   {
-   "rank": 6,
-   "asin": "B0C1SMJTDT",
-   "name": "BLUETTI AC180 Portable Power Station, 1152Wh LiFePO4, 1800W (2700W Peak) AC Outlets, 0-80% in 45 Min",
-   "brand": "BLUETTI",
-   "model": "AC180",
-   "price": 499.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1908,
-   "score": 86,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "BLUETTI app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A proven LiFePO4 station; the app unlocks a 2,700 W boost for heavy loads.",
-   "pros": [
-    "1,908 reviews",
-    "Sold by Amazon",
-    "2,700 W boost mode"
-   ],
-   "cons": [
-    "Older model",
-    "UPS isn't in the bullets",
-    "$499"
-   ],
-   "specs": {
-    "capacity": "1,152 Wh",
-    "output": "1,800 W (2,700 W boost from the app)",
-    "ups": "Not stated in bullets",
-    "extras": "LiFePO4, 0–80% in 45 minutes"
-   },
-   "features": {
-    "big": true,
-    "ups": false,
-    "fast": true,
-    "lfp": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Lg8i251IL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C1SMJTDT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-power-stations.html#B0C1SMJTDT"
-  },
-  {
    "rank": 7,
    "asin": "B0D7PPG25F",
    "name": "Jackery Explorer 1000 v2 Portable Power Station, 1024Wh LiFePO4 Battery",
@@ -362,7 +362,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3731,
-   "score": 85,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -411,7 +411,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 77,
-   "score": 73,
+   "score": 84,
    "awards": [],
    "works_with": [],
    "works_with_note": "OUPES app",

@@ -27,7 +27,7 @@
    "apple_home": 0.3,
    "voice_builtin": 0.35
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 4220,
-   "score": 88,
+   "score": 94,
    "awards": [
     "Most Features"
    ],
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 3795,
-   "score": 80,
+   "score": 86,
    "awards": [
     "Best Overall"
    ],
@@ -179,7 +179,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1991,
-   "score": 76,
+   "score": 84,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -222,6 +222,54 @@
   },
   {
    "rank": 4,
+   "asin": "B0BKH83KF9",
+   "name": "Sensi Touch 2 Smart Thermostat Wi-Fi, Alexa, Energy Star Certified, ST76",
+   "brand": "Sensi",
+   "model": "Touch 2 (ST76)",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1273,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Sensi's touchscreen model with sensor support.",
+   "pros": [
+    "Color touchscreen",
+    "Sensor support",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$169.99",
+    "Only Alexa named in the bullets",
+    "4.3 stars"
+   ],
+   "specs": {
+    "screen": "Color touchscreen",
+    "c_wire": "Not stated in bullets",
+    "extras": "Sensor support",
+    "app": "Sensi"
+   },
+   "features": {
+    "sensors": true,
+    "apple_home": false,
+    "voice_builtin": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41QbqZ6hRvL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BKH83KF9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-thermostats.html#B0BKH83KF9"
+  },
+  {
+   "rank": 5,
    "asin": "B01NB1OB0I",
    "name": "Sensi Smart Thermostat, Wi-Fi, DIY, Alexa, Energy Star Certified, ST55",
    "brand": "Sensi",
@@ -230,7 +278,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 23157,
-   "score": 69,
+   "score": 70,
    "awards": [
     "Best Without Apps"
    ],
@@ -271,7 +319,7 @@
    "page_url": "https://themisreviews.com/wifi-thermostats.html#B01NB1OB0I"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B075BF6V58",
    "name": "Honeywell Home RTH9585WF1004 Wi-Fi Smart Color Thermostat, 7 Day Programmable, Touch Screen, Energy Star, Alexa Ready, Gray",
    "brand": "Honeywell Home",
@@ -280,7 +328,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 20165,
-   "score": 68,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -321,7 +369,7 @@
    "page_url": "https://themisreviews.com/wifi-thermostats.html#B075BF6V58"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B09TBGGLQB",
    "name": "Honeywell Home RTH9600WF Smart Color Thermostat ENERGY STAR Wi-Fi Programmable Touchscreen Alexa Ready - C-Wire Required",
    "brand": "Honeywell Home",
@@ -330,7 +378,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 20165,
-   "score": 68,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -370,55 +418,53 @@
    "page_url": "https://themisreviews.com/wifi-thermostats.html#B09TBGGLQB"
   },
   {
-   "rank": 7,
-   "asin": "B0BKH83KF9",
-   "name": "Sensi Touch 2 Smart Thermostat Wi-Fi, Alexa, Energy Star Certified, ST76",
-   "brand": "Sensi",
-   "model": "Touch 2 (ST76)",
-   "price": 169.99,
+   "rank": 8,
+   "asin": "B09X69FSMB",
+   "name": "Honeywell Home T5 Smart Wi-Fi Thermostat",
+   "brand": "Honeywell Home",
+   "model": "T5",
+   "price": 74.99,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1273,
+   "rating": 4.2,
+   "reviews_count": 1547,
    "score": 68,
    "awards": [],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
+   "works_with": [],
+   "works_with_note": "Honeywell Home app (no assistants listed)",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Sensi's touchscreen model with sensor support.",
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A simpler Honeywell smart thermostat for $74.99.",
    "pros": [
-    "Color touchscreen",
-    "Sensor support",
-    "Sold by Amazon"
+    "$74.99",
+    "1K+ bought in the past month",
+    "Energy Star"
    ],
    "cons": [
-    "$169.99",
-    "Only Alexa named in the bullets",
-    "4.3 stars"
+    "The listing doesn't name voice assistants",
+    "Sold by a third-party seller",
+    "No remote sensors"
    ],
    "specs": {
-    "screen": "Color touchscreen",
-    "c_wire": "Not stated in bullets",
-    "extras": "Sensor support",
-    "app": "Sensi"
+    "screen": "Touchscreen",
+    "c_wire": "Listed",
+    "extras": "Energy Star",
+    "app": "Honeywell Home"
    },
    "features": {
-    "sensors": true,
+    "sensors": false,
     "apple_home": false,
     "voice_builtin": false
    },
-   "image": "https://m.media-amazon.com/images/I/41QbqZ6hRvL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BKH83KF9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-thermostats.html#B0BKH83KF9"
+   "image": "https://m.media-amazon.com/images/I/510FSM-nJqL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09X69FSMB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-thermostats.html#B09X69FSMB"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B08J4C8871",
    "name": "Amazon Smart Thermostat – Save money and energy - Works with Alexa and Ring - C-wire required",
    "brand": "Amazon",
@@ -469,7 +515,7 @@
    "page_url": "https://themisreviews.com/wifi-thermostats.html#B08J4C8871"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B0BXZ6KXGG",
    "name": "Sensi Lite Smart Thermostat, WiFi, Alexa, DIY, Energy Star Certified, ST25",
    "brand": "Sensi",
@@ -478,7 +524,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2414,
-   "score": 59,
+   "score": 66,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -515,52 +561,6 @@
    "image": "https://m.media-amazon.com/images/I/61baXEIXz8L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BXZ6KXGG?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-thermostats.html#B0BXZ6KXGG"
-  },
-  {
-   "rank": 10,
-   "asin": "B09X69FSMB",
-   "name": "Honeywell Home T5 Smart Wi-Fi Thermostat",
-   "brand": "Honeywell Home",
-   "model": "T5",
-   "price": 74.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 1547,
-   "score": 59,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Honeywell Home app (no assistants listed)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A simpler Honeywell smart thermostat for $74.99.",
-   "pros": [
-    "$74.99",
-    "1K+ bought in the past month",
-    "Energy Star"
-   ],
-   "cons": [
-    "The listing doesn't name voice assistants",
-    "Sold by a third-party seller",
-    "No remote sensors"
-   ],
-   "specs": {
-    "screen": "Touchscreen",
-    "c_wire": "Listed",
-    "extras": "Energy Star",
-    "app": "Honeywell Home"
-   },
-   "features": {
-    "sensors": false,
-    "apple_home": false,
-    "voice_builtin": false
-   },
-   "image": "https://m.media-amazon.com/images/I/510FSM-nJqL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09X69FSMB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-thermostats.html#B09X69FSMB"
   }
  ],
  "avoid": [],

@@ -28,7 +28,7 @@
    "white": 0.25,
    "long": 0.2
   },
-  "reviews_ceiling": 40000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,108 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B09VBZC2CX",
-   "name": "Govee 100ft RGBIC LED Strip Lights, Work with Alexa and Google Assistant",
-   "brand": "Govee",
-   "model": "RGBIC 100 ft (2 x 50 ft)",
-   "price": 50.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 7573,
-   "score": 84,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "6K+ bought in past month",
-   "verdict": "Multicolor RGBIC effects across 100 ft, split into two reels for two rooms or a big ceiling.",
-   "pros": [
-    "RGBIC multicolor effects",
-    "Two 50 ft reels",
-    "Alexa and Google",
-    "6K+ bought in the past month"
-   ],
-   "cons": [
-    "$50.99",
-    "Mixed-RGB white",
-    "4.4 stars"
-   ],
-   "specs": {
-    "length": "100 ft (two 50 ft reels)",
-    "color": "RGBIC",
-    "control": "Wi-Fi app, Alexa, Google",
-    "extras": "Split rolls"
-   },
-   "features": {
-    "multicolor": true,
-    "voice": true,
-    "white": false,
-    "long": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71N76hGMHVL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09VBZC2CX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B09VBZC2CX"
-  },
-  {
-   "rank": 2,
-   "asin": "B08NP8WRJ9",
-   "name": "DAYBETTER Smart Wi-Fi LED Strip Lights 100 ft, Tuya App, Alexa and Google Assistant",
-   "brand": "DAYBETTER",
-   "model": "100 ft Tuya Wi-Fi strip",
-   "price": 21.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 25351,
-   "score": 79,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": "Tuya / Smart Life app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The Tuya version, so it joins a Smart Life setup and Home Assistant's Tuya integration.",
-   "pros": [
-    "Tuya / Smart Life app",
-    "100 ft",
-    "25,351 reviews"
-   ],
-   "cons": [
-    "RGB only",
-    "4.3 stars",
-    "$21.99"
-   ],
-   "specs": {
-    "length": "100 ft",
-    "color": "RGB",
-    "control": "Tuya app, Alexa, Google",
-    "extras": "Music sync, no hub"
-   },
-   "features": {
-    "multicolor": false,
-    "voice": true,
-    "white": false,
-    "long": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71RVIaiGNbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08NP8WRJ9?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B08NP8WRJ9"
-  },
-  {
-   "rank": 3,
    "asin": "B0D7MKV1CK",
    "name": "Govee RGBWWIC LED Strip Light 2 Pro 16.4ft, Smart Control, APP, WiFi",
    "brand": "Govee",
@@ -176,7 +74,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 624,
-   "score": 79,
+   "score": 90,
    "awards": [
     "Best Premium"
    ],
@@ -224,7 +122,371 @@
    "page_url": "https://themisreviews.com/wifi-light-strips.html#B0D7MKV1CK"
   },
   {
+   "rank": 2,
+   "asin": "B09VBZC2CX",
+   "name": "Govee 100ft RGBIC LED Strip Lights, Work with Alexa and Google Assistant",
+   "brand": "Govee",
+   "model": "RGBIC 100 ft (2 x 50 ft)",
+   "price": 50.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 7573,
+   "score": 88,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "6K+ bought in past month",
+   "verdict": "Multicolor RGBIC effects across 100 ft, split into two reels for two rooms or a big ceiling.",
+   "pros": [
+    "RGBIC multicolor effects",
+    "Two 50 ft reels",
+    "Alexa and Google",
+    "6K+ bought in the past month"
+   ],
+   "cons": [
+    "$50.99",
+    "Mixed-RGB white",
+    "4.4 stars"
+   ],
+   "specs": {
+    "length": "100 ft (two 50 ft reels)",
+    "color": "RGBIC",
+    "control": "Wi-Fi app, Alexa, Google",
+    "extras": "Split rolls"
+   },
+   "features": {
+    "multicolor": true,
+    "voice": true,
+    "white": false,
+    "long": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71N76hGMHVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09VBZC2CX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B09VBZC2CX"
+  },
+  {
+   "rank": 3,
+   "asin": "B0B2KY8X4M",
+   "name": "Tapo RGBWIC Smart LED Light Strip 16.4Ft, 1000 Lumens, L930-5",
+   "brand": "Tapo",
+   "model": "L930-5 RGBWIC",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 394,
+   "score": 84,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Tapo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "The strip for iPhone homes: bright white, 50 color zones, and Apple HomeKit support.",
+   "pros": [
+    "Apple HomeKit, Alexa, and Google",
+    "1000 lumens with real white",
+    "50 color zones",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "3.8 stars",
+    "$35.99",
+    "16.4 ft"
+   ],
+   "specs": {
+    "length": "16.4 ft",
+    "color": "RGBWIC, 50 zones",
+    "control": "Tapo app, HomeKit, Alexa, Google",
+    "extras": "1000 lumens"
+   },
+   "features": {
+    "multicolor": true,
+    "voice": true,
+    "white": true,
+    "long": false
+   },
+   "image": "https://m.media-amazon.com/images/I/813l+uyAt1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B2KY8X4M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0B2KY8X4M"
+  },
+  {
    "rank": 4,
+   "asin": "B0BXNCRPS1",
+   "name": "Govee RGBIC LED Neon Rope Lights, 10ft Gaming Lights for Gaming Desks",
+   "brand": "Govee",
+   "model": "RGBIC Neon Rope 10 ft",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 984,
+   "score": 83,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A diffused neon rope with no hot spots, made for desks and gaming setups.",
+   "pros": [
+    "Smooth neon look, no dots",
+    "42 color segments",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "$79.99 for 10 ft",
+    "Cut pieces can't be reused",
+    "Only 984 reviews"
+   ],
+   "specs": {
+    "length": "10 ft (cuttable)",
+    "color": "RGBIC, 42 segments",
+    "control": "Wi-Fi + Bluetooth, Alexa, Google",
+    "extras": "Glare-free neon diffusion"
+   },
+   "features": {
+    "multicolor": true,
+    "voice": true,
+    "white": false,
+    "long": false
+   },
+   "image": "https://m.media-amazon.com/images/I/713yIh9bdQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BXNCRPS1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0BXNCRPS1"
+  },
+  {
+   "rank": 5,
+   "asin": "B0DB69D1YJ",
+   "name": "Cync GE Smart LED Strip Light 16 ft, Color and White, Matter Compatible, Alexa and Google Home",
+   "brand": "Cync",
+   "model": "GE Cync strip (Matter)",
+   "price": 13.79,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 686,
+   "score": 82,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Cync app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A cheap Matter strip with tunable white that works on every major platform.",
+   "pros": [
+    "Matter compatible",
+    "Tunable white 2000K to 7000K",
+    "$13.79, 500+ bought in the past month"
+   ],
+   "cons": [
+    "Only 686 reviews",
+    "Length isn't in the bullets",
+    "One color at a time"
+   ],
+   "specs": {
+    "length": "Not stated in bullets",
+    "color": "RGB + tunable white 2000-7000K",
+    "control": "Matter, Cync app, Alexa, Google",
+    "extras": "Sleep/wake white cycle"
+   },
+   "features": {
+    "multicolor": false,
+    "voice": true,
+    "white": true,
+    "long": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61BasyDUFDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DB69D1YJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0DB69D1YJ"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CFQRCSQ1",
+   "name": "DAYBETTER 100 ft Smart WiFi Led Lights, RGB Led Strip Lights for Bedroom",
+   "brand": "DAYBETTER",
+   "model": "100 ft Wi-Fi strip",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 8465,
+   "score": 81,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "DAYBETTER app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A long, cheap Wi-Fi strip with a remote and voice control.",
+   "pros": [
+    "100 ft for $19.99",
+    "IR remote included",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "RGB, one color at a time",
+    "Mixed-RGB white",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "length": "100 ft",
+    "color": "RGB",
+    "control": "Wi-Fi app, IR remote, Alexa, Google",
+    "extras": "Music sync, timers"
+   },
+   "features": {
+    "multicolor": false,
+    "voice": true,
+    "white": false,
+    "long": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71BQ-ps8MlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CFQRCSQ1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0CFQRCSQ1"
+  },
+  {
+   "rank": 7,
+   "asin": "B08NP8WRJ9",
+   "name": "DAYBETTER Smart Wi-Fi LED Strip Lights 100 ft, Tuya App, Alexa and Google Assistant",
+   "brand": "DAYBETTER",
+   "model": "100 ft Tuya Wi-Fi strip",
+   "price": 21.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 25351,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Tuya / Smart Life app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The Tuya version, so it joins a Smart Life setup and Home Assistant's Tuya integration.",
+   "pros": [
+    "Tuya / Smart Life app",
+    "100 ft",
+    "25,351 reviews"
+   ],
+   "cons": [
+    "RGB only",
+    "4.3 stars",
+    "$21.99"
+   ],
+   "specs": {
+    "length": "100 ft",
+    "color": "RGB",
+    "control": "Tuya app, Alexa, Google",
+    "extras": "Music sync, no hub"
+   },
+   "features": {
+    "multicolor": false,
+    "voice": true,
+    "white": false,
+    "long": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71RVIaiGNbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08NP8WRJ9?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B08NP8WRJ9"
+  },
+  {
+   "rank": 8,
+   "asin": "B09JB9YMT2",
+   "name": "Smart Wi-Fi RGB LED Strip Lights 100 ft, App and Voice Control, Alexa and Google Assistant",
+   "brand": "hyrion",
+   "model": "100 ft Wi-Fi strip",
+   "price": 19.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 11652,
+   "score": 80,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "hyrion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Another cheap 100 ft Wi-Fi strip with voice control.",
+   "pros": [
+    "100 ft for $19.99",
+    "Alexa and Google",
+    "11,652 reviews"
+   ],
+   "cons": [
+    "RGB only",
+    "4.3 stars",
+    "Thin listing"
+   ],
+   "specs": {
+    "length": "100 ft",
+    "color": "RGB",
+    "control": "Wi-Fi app, Alexa, Google",
+    "extras": "Music sync"
+   },
+   "features": {
+    "multicolor": false,
+    "voice": true,
+    "white": false,
+    "long": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81u5K+tzvmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09JB9YMT2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B09JB9YMT2"
+  },
+  {
+   "rank": 9,
    "asin": "B07N1CMGQQ",
    "name": "Govee Smart RGB LED Strip Lights 16.4ft, Work with Alexa, Google Assistant",
    "brand": "Govee",
@@ -277,268 +539,6 @@
    "page_url": "https://themisreviews.com/wifi-light-strips.html#B07N1CMGQQ"
   },
   {
-   "rank": 5,
-   "asin": "B09JB9YMT2",
-   "name": "Smart Wi-Fi RGB LED Strip Lights 100 ft, App and Voice Control, Alexa and Google Assistant",
-   "brand": "hyrion",
-   "model": "100 ft Wi-Fi strip",
-   "price": 19.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 11652,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "hyrion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "Another cheap 100 ft Wi-Fi strip with voice control.",
-   "pros": [
-    "100 ft for $19.99",
-    "Alexa and Google",
-    "11,652 reviews"
-   ],
-   "cons": [
-    "RGB only",
-    "4.3 stars",
-    "Thin listing"
-   ],
-   "specs": {
-    "length": "100 ft",
-    "color": "RGB",
-    "control": "Wi-Fi app, Alexa, Google",
-    "extras": "Music sync"
-   },
-   "features": {
-    "multicolor": false,
-    "voice": true,
-    "white": false,
-    "long": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81u5K+tzvmL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09JB9YMT2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B09JB9YMT2"
-  },
-  {
-   "rank": 6,
-   "asin": "B0CFQRCSQ1",
-   "name": "DAYBETTER 100 ft Smart WiFi Led Lights, RGB Led Strip Lights for Bedroom",
-   "brand": "DAYBETTER",
-   "model": "100 ft Wi-Fi strip",
-   "price": 19.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 8465,
-   "score": 76,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "DAYBETTER app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A long, cheap Wi-Fi strip with a remote and voice control.",
-   "pros": [
-    "100 ft for $19.99",
-    "IR remote included",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "RGB, one color at a time",
-    "Mixed-RGB white",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "length": "100 ft",
-    "color": "RGB",
-    "control": "Wi-Fi app, IR remote, Alexa, Google",
-    "extras": "Music sync, timers"
-   },
-   "features": {
-    "multicolor": false,
-    "voice": true,
-    "white": false,
-    "long": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71BQ-ps8MlL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CFQRCSQ1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0CFQRCSQ1"
-  },
-  {
-   "rank": 7,
-   "asin": "B0BXNCRPS1",
-   "name": "Govee RGBIC LED Neon Rope Lights, 10ft Gaming Lights for Gaming Desks",
-   "brand": "Govee",
-   "model": "RGBIC Neon Rope 10 ft",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 984,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A diffused neon rope with no hot spots, made for desks and gaming setups.",
-   "pros": [
-    "Smooth neon look, no dots",
-    "42 color segments",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "$79.99 for 10 ft",
-    "Cut pieces can't be reused",
-    "Only 984 reviews"
-   ],
-   "specs": {
-    "length": "10 ft (cuttable)",
-    "color": "RGBIC, 42 segments",
-    "control": "Wi-Fi + Bluetooth, Alexa, Google",
-    "extras": "Glare-free neon diffusion"
-   },
-   "features": {
-    "multicolor": true,
-    "voice": true,
-    "white": false,
-    "long": false
-   },
-   "image": "https://m.media-amazon.com/images/I/713yIh9bdQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BXNCRPS1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0BXNCRPS1"
-  },
-  {
-   "rank": 8,
-   "asin": "B0DB69D1YJ",
-   "name": "Cync GE Smart LED Strip Light 16 ft, Color and White, Matter Compatible, Alexa and Google Home",
-   "brand": "Cync",
-   "model": "GE Cync strip (Matter)",
-   "price": 13.79,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 686,
-   "score": 71,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Cync app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A cheap Matter strip with tunable white that works on every major platform.",
-   "pros": [
-    "Matter compatible",
-    "Tunable white 2000K to 7000K",
-    "$13.79, 500+ bought in the past month"
-   ],
-   "cons": [
-    "Only 686 reviews",
-    "Length isn't in the bullets",
-    "One color at a time"
-   ],
-   "specs": {
-    "length": "Not stated in bullets",
-    "color": "RGB + tunable white 2000-7000K",
-    "control": "Matter, Cync app, Alexa, Google",
-    "extras": "Sleep/wake white cycle"
-   },
-   "features": {
-    "multicolor": false,
-    "voice": true,
-    "white": true,
-    "long": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61BasyDUFDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DB69D1YJ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0DB69D1YJ"
-  },
-  {
-   "rank": 9,
-   "asin": "B0B2KY8X4M",
-   "name": "Tapo RGBWIC Smart LED Light Strip 16.4Ft, 1000 Lumens, L930-5",
-   "brand": "Tapo",
-   "model": "L930-5 RGBWIC",
-   "price": 35.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 394,
-   "score": 71,
-   "awards": [
-    "Best for Apple Home"
-   ],
-   "works_with": [
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": "Tapo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The strip for iPhone homes: bright white, 50 color zones, and Apple HomeKit support.",
-   "pros": [
-    "Apple HomeKit, Alexa, and Google",
-    "1000 lumens with real white",
-    "50 color zones",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "3.8 stars",
-    "$35.99",
-    "16.4 ft"
-   ],
-   "specs": {
-    "length": "16.4 ft",
-    "color": "RGBWIC, 50 zones",
-    "control": "Tapo app, HomeKit, Alexa, Google",
-    "extras": "1000 lumens"
-   },
-   "features": {
-    "multicolor": true,
-    "voice": true,
-    "white": true,
-    "long": false
-   },
-   "image": "https://m.media-amazon.com/images/I/813l+uyAt1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B2KY8X4M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0B2KY8X4M"
-  },
-  {
    "rank": 10,
    "asin": "B09BG9B2JQ",
    "name": "Kasa Smart LED Light Strip, RGB, 16.4ft, Multicolor, KL400L5",
@@ -548,7 +548,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 5194,
-   "score": 70,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

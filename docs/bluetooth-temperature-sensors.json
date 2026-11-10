@@ -28,7 +28,7 @@
    "accuracy": 0.25,
    "extras": 0.2
   },
-  "reviews_ceiling": 50000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 48684,
-   "score": 95,
+   "score": 96,
    "awards": [
     "Best Overall"
    ],
@@ -119,6 +119,56 @@
   },
   {
    "rank": 2,
+   "asin": "B09DPCW47P",
+   "name": "Govee Hygrometer Thermometer 3 Pack H5100, Mini Bluetooth Humidity Sensor",
+   "brand": "Govee",
+   "model": "H5100 (3-pack)",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1056,
+   "score": 95,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "Three palm-sized sensors that can go online later with Govee's Wi-Fi gateway.",
+   "pros": [
+    "3 sensors for $31.99",
+    "Add the H5151 gateway for Wi-Fi alerts",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Gateway sold separately",
+    "Small screen",
+    "Only 1,056 reviews"
+   ],
+   "specs": {
+    "display": "Small LCD",
+    "accuracy": "±0.54°F",
+    "range": "Not stated",
+    "extras": "Works with Govee H5151 Wi-Fi gateway",
+    "pack": "3 sensors"
+   },
+   "features": {
+    "ha_support": true,
+    "display": true,
+    "accuracy": true,
+    "extras": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61ZSDxHARlL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09DPCW47P?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B09DPCW47P"
+  },
+  {
+   "rank": 3,
    "asin": "B07R586J37",
    "name": "Govee Smart Bluetooth Thermometer Hygrometer H5074, Mini Humidity Sensor",
    "brand": "Govee",
@@ -127,7 +177,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 13362,
-   "score": 84,
+   "score": 87,
    "awards": [
     "Best Mini"
    ],
@@ -171,56 +221,6 @@
    "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B07R586J37"
   },
   {
-   "rank": 3,
-   "asin": "B09DPCW47P",
-   "name": "Govee Hygrometer Thermometer 3 Pack H5100, Mini Bluetooth Humidity Sensor",
-   "brand": "Govee",
-   "model": "H5100 (3-pack)",
-   "price": 31.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1056,
-   "score": 84,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "Three palm-sized sensors that can go online later with Govee's Wi-Fi gateway.",
-   "pros": [
-    "3 sensors for $31.99",
-    "Add the H5151 gateway for Wi-Fi alerts",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Gateway sold separately",
-    "Small screen",
-    "Only 1,056 reviews"
-   ],
-   "specs": {
-    "display": "Small LCD",
-    "accuracy": "±0.54°F",
-    "range": "Not stated",
-    "extras": "Works with Govee H5151 Wi-Fi gateway",
-    "pack": "3 sensors"
-   },
-   "features": {
-    "ha_support": true,
-    "display": true,
-    "accuracy": true,
-    "extras": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61ZSDxHARlL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09DPCW47P?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B09DPCW47P"
-  },
-  {
    "rank": 4,
    "asin": "B0BVZC9Q31",
    "name": "SwitchBot IP65 Indoor/Outdoor Thermo-Hygrometer, 3-Pack, Bluetooth, 2-Year Battery Life",
@@ -230,7 +230,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 10267,
-   "score": 82,
+   "score": 87,
    "awards": [
     "Best Outdoor"
    ],
@@ -283,7 +283,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1678,
-   "score": 74,
+   "score": 84,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -334,7 +334,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1018,
-   "score": 72,
+   "score": 83,
    "awards": [
     "Best Data Logger"
    ],
@@ -378,103 +378,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0CQLD3TXR",
-   "name": "TempPro TempAir Bluetooth Hygrometer Thermometer for Greenhouse Up to 260ft",
-   "brand": "TempPro",
-   "model": "TempAir (backlit)",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1879,
-   "score": 71,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "TempPro app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "A backlit sensor whose app stores two years of data and doesn't need an account.",
-   "pros": [
-    "Backlit display",
-    "2 years of data storage",
-    "No app registration required",
-    "3K+ bought in the past month"
-   ],
-   "cons": [
-    "±0.9°F, less precise than Govee or SwitchBot",
-    "No Home Assistant integration",
-    "Bluetooth only"
-   ],
-   "specs": {
-    "display": "Backlit LCD",
-    "accuracy": "±0.9°F, ±2% RH",
-    "range": "260 ft.",
-    "extras": "2 years of data, no account needed",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "ha_support": false,
-    "display": true,
-    "accuracy": false,
-    "extras": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Ezj7kw9+L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CQLD3TXR?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B0CQLD3TXR"
-  },
-  {
-   "rank": 8,
-   "asin": "B0DFWJSYLM",
-   "name": "TempPro TempAir Bluetooth Thermometer Hygrometer, 260 ft Temperature Sensor",
-   "brand": "TempPro",
-   "model": "TempAir",
-   "price": 12.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 945,
-   "score": 69,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "TempPro app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A cheap, accurate sensor with two years of data logging.",
-   "pros": [
-    "$12.99",
-    "±0.5°F, ±2% RH",
-    "Auto-connects, 500+ bought in the past month"
-   ],
-   "cons": [
-    "Only 945 reviews",
-    "No Home Assistant integration",
-    "Bluetooth only"
-   ],
-   "specs": {
-    "display": "Not stated",
-    "accuracy": "±0.5°F, ±2% RH",
-    "range": "260 ft.",
-    "extras": "2 years of data",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "ha_support": false,
-    "display": false,
-    "accuracy": true,
-    "extras": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71YprCa-uPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DFWJSYLM?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B0DFWJSYLM"
-  },
-  {
-   "rank": 9,
    "asin": "B07DQNFJVL",
    "name": "Inkbird IBS-TH1 Plus Bluetooth Temperature and Humidity Monitor",
    "brand": "Inkbird",
@@ -483,7 +386,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 351,
-   "score": 69,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -524,6 +427,103 @@
    "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B07DQNFJVL"
   },
   {
+   "rank": 8,
+   "asin": "B0CQLD3TXR",
+   "name": "TempPro TempAir Bluetooth Hygrometer Thermometer for Greenhouse Up to 260ft",
+   "brand": "TempPro",
+   "model": "TempAir (backlit)",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1879,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "TempPro app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A backlit sensor whose app stores two years of data and doesn't need an account.",
+   "pros": [
+    "Backlit display",
+    "2 years of data storage",
+    "No app registration required",
+    "3K+ bought in the past month"
+   ],
+   "cons": [
+    "±0.9°F, less precise than Govee or SwitchBot",
+    "No Home Assistant integration",
+    "Bluetooth only"
+   ],
+   "specs": {
+    "display": "Backlit LCD",
+    "accuracy": "±0.9°F, ±2% RH",
+    "range": "260 ft.",
+    "extras": "2 years of data, no account needed",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "ha_support": false,
+    "display": true,
+    "accuracy": false,
+    "extras": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ezj7kw9+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CQLD3TXR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B0CQLD3TXR"
+  },
+  {
+   "rank": 9,
+   "asin": "B0DFWJSYLM",
+   "name": "TempPro TempAir Bluetooth Thermometer Hygrometer, 260 ft Temperature Sensor",
+   "brand": "TempPro",
+   "model": "TempAir",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 945,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "TempPro app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A cheap, accurate sensor with two years of data logging.",
+   "pros": [
+    "$12.99",
+    "±0.5°F, ±2% RH",
+    "Auto-connects, 500+ bought in the past month"
+   ],
+   "cons": [
+    "Only 945 reviews",
+    "No Home Assistant integration",
+    "Bluetooth only"
+   ],
+   "specs": {
+    "display": "Not stated",
+    "accuracy": "±0.5°F, ±2% RH",
+    "range": "260 ft.",
+    "extras": "2 years of data",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "ha_support": false,
+    "display": false,
+    "accuracy": true,
+    "extras": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71YprCa-uPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFWJSYLM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/bluetooth-temperature-sensors.html#B0DFWJSYLM"
+  },
+  {
    "rank": 10,
    "asin": "B01H3669T4",
    "name": "Elitech GSP-6 Dual Probe Bluetooth Temperature Humidity Data Logger",
@@ -533,7 +533,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 388,
-   "score": 58,
+   "score": 72,
    "awards": [],
    "works_with": [],
    "works_with_note": "Elitech app",

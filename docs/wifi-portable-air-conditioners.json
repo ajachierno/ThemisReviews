@@ -28,7 +28,7 @@
    "evap": 0.25,
    "voice": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,55 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0HCYKKLLG",
+   "name": "14,000 BTU Smart WiFi Portable Air Conditioner, Cools up to 700 Sq.Ft, Auto-Evaporation, 3-in-1 Modes, Voice & Remote Control, Quiet Operation, White",
+   "brand": "GrowthWing",
+   "model": "14,000 BTU Smart WiFi Portable AC",
+   "price": 499.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 89,
+   "score": 89,
+   "awards": [
+    "Best for Big Rooms"
+   ],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Self-evaporating, so you rarely drain it.",
+   "pros": [
+    "72 hours without draining",
+    "700 sq ft",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Voice assistants aren't named",
+    "Only 89 reviews",
+    "$499.99"
+   ],
+   "specs": {
+    "btu": "14,000 BTU ASHRAE",
+    "room": "Up to 700 sq ft",
+    "modes": "Cool, dry, fan",
+    "extras": "72-hour auto-evaporation, 42 dB sleep mode"
+   },
+   "features": {
+    "big": true,
+    "quiet": true,
+    "evap": true,
+    "voice": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61CJ5NAZgQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HCYKKLLG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B0HCYKKLLG"
+  },
+  {
+   "rank": 2,
    "asin": "B0GMGR4BJV",
    "name": "14,000 BTU Portable Air Conditioner, 4-in-1 Smart AC with WiFi",
    "brand": "Temprium",
@@ -74,7 +123,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 389,
-   "score": 80,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -117,7 +166,7 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B0GMGR4BJV"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B01DLPUWGW",
    "name": "BLACK+DECKER Smart Portable Air Conditioner, 12,000 BTU, BPACT12WT, White",
    "brand": "BLACK+DECKER",
@@ -167,7 +216,7 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWGW"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B01DLPUWHQ",
    "name": "BLACK+DECKER Smart Portable Air Conditioner, 14,000 BTU, BPACT14WT, White",
    "brand": "BLACK+DECKER",
@@ -217,7 +266,7 @@
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWHQ"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B01DLPUWJ4",
    "name": "BLACK+DECKER Smart Portable Air Conditioner with Heat, 14,000 BTU, White",
    "brand": "BLACK+DECKER",
@@ -267,55 +316,6 @@
    "image": "https://m.media-amazon.com/images/I/619Fna59kFL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01DLPUWJ4?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B01DLPUWJ4"
-  },
-  {
-   "rank": 5,
-   "asin": "B0HCYKKLLG",
-   "name": "14,000 BTU Smart WiFi Portable Air Conditioner, Cools up to 700 Sq.Ft, Auto-Evaporation, 3-in-1 Modes, Voice & Remote Control, Quiet Operation, White",
-   "brand": "GrowthWing",
-   "model": "14,000 BTU Smart WiFi Portable AC",
-   "price": 499.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 89,
-   "score": 78,
-   "awards": [
-    "Best for Big Rooms"
-   ],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Self-evaporating, so you rarely drain it.",
-   "pros": [
-    "72 hours without draining",
-    "700 sq ft",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Voice assistants aren't named",
-    "Only 89 reviews",
-    "$499.99"
-   ],
-   "specs": {
-    "btu": "14,000 BTU ASHRAE",
-    "room": "Up to 700 sq ft",
-    "modes": "Cool, dry, fan",
-    "extras": "72-hour auto-evaporation, 42 dB sleep mode"
-   },
-   "features": {
-    "big": true,
-    "quiet": true,
-    "evap": true,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61CJ5NAZgQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HCYKKLLG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-portable-air-conditioners.html#B0HCYKKLLG"
   },
   {
    "rank": 6,

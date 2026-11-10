@@ -28,7 +28,7 @@
    "solar": 0.2,
    "local": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 377,
-   "score": 82,
+   "score": 90,
    "awards": [
     "Best 4K"
    ],
@@ -116,7 +116,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 535,
-   "score": 78,
+   "score": 87,
    "awards": [],
    "works_with": [],
    "works_with_note": "Kiwibit app",
@@ -155,53 +155,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0DYDGBGQT",
-   "name": "Bird Feeder with Camera, 2K Live Video, AI Identify Bird Species",
-   "brand": "HARYMOR",
-   "model": "Bird Feeder Camera (2K, 3x zoom)",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 567,
-   "score": 72,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "HARYMOR app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A 2K feeder with zoom and a high-gain Wi-Fi antenna.",
-   "pros": [
-    "3x zoom",
-    "High-gain antenna",
-    "$69.99"
-   ],
-   "cons": [
-    "Only 567 reviews",
-    "ID plan terms aren't in the bullets",
-    "2K"
-   ],
-   "specs": {
-    "video": "2K, 3x zoom",
-    "power": "Built-in solar",
-    "id": "AI species ID",
-    "storage": "Flexible (cloud or card)"
-   },
-   "features": {
-    "free_id": false,
-    "uhd": false,
-    "solar": true,
-    "local": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81nAm4XHJGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DYDGBGQT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0DYDGBGQT"
-  },
-  {
-   "rank": 4,
    "asin": "B0FHWJF8Q7",
    "name": "Birdfy Smart Bird Feeder with Camera Solar Powered, 60FPS Slow-Motion Video",
    "brand": "Birdfy",
@@ -210,7 +163,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 146,
-   "score": 71,
+   "score": 83,
    "awards": [
     "Best Overall"
    ],
@@ -250,6 +203,53 @@
    "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0FHWJF8Q7"
   },
   {
+   "rank": 4,
+   "asin": "B0DYDGBGQT",
+   "name": "Bird Feeder with Camera, 2K Live Video, AI Identify Bird Species",
+   "brand": "HARYMOR",
+   "model": "Bird Feeder Camera (2K, 3x zoom)",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 567,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "HARYMOR app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A 2K feeder with zoom and a high-gain Wi-Fi antenna.",
+   "pros": [
+    "3x zoom",
+    "High-gain antenna",
+    "$69.99"
+   ],
+   "cons": [
+    "Only 567 reviews",
+    "ID plan terms aren't in the bullets",
+    "2K"
+   ],
+   "specs": {
+    "video": "2K, 3x zoom",
+    "power": "Built-in solar",
+    "id": "AI species ID",
+    "storage": "Flexible (cloud or card)"
+   },
+   "features": {
+    "free_id": false,
+    "uhd": false,
+    "solar": true,
+    "local": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81nAm4XHJGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DYDGBGQT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0DYDGBGQT"
+  },
+  {
    "rank": 5,
    "asin": "B0C4Y6D5BD",
    "name": "Smart Bird Feeder with Camera, AI Bird Species ID, Solar Powered, 2 L Capacity, 2K HD Live Stream, Arrival Alerts, Green",
@@ -259,7 +259,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1954,
-   "score": 70,
+   "score": 76,
    "awards": [],
    "works_with": [],
    "works_with_note": "HARYMOR app",
@@ -306,7 +306,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1312,
-   "score": 67,
+   "score": 74,
    "awards": [
     "Best Budget"
    ],
@@ -355,7 +355,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1029,
-   "score": 66,
+   "score": 74,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -394,53 +394,6 @@
   },
   {
    "rank": 8,
-   "asin": "B0B56BVWBM",
-   "name": "NETVUE by Birdfy Smart Bird Feeder with 2K Camera, Lifetime Bird ID Free",
-   "brand": "NETVUE Birdfy",
-   "model": "Smart Bird Feeder 2K (beginner)",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1464,
-   "score": 63,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Birdfy app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "The original Birdfy, with a wide 155-degree view and a 50 oz seed hopper.",
-   "pros": [
-    "1,464 reviews",
-    "155° wide view",
-    "Holds 50 oz of seed"
-   ],
-   "cons": [
-    "No solar panel listed",
-    "$109.99",
-    "2K"
-   ],
-   "specs": {
-    "video": "2K, 155° view",
-    "power": "Battery",
-    "id": "NETVUE AI",
-    "storage": "Clips in the app"
-   },
-   "features": {
-    "free_id": false,
-    "uhd": false,
-    "solar": false,
-    "local": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71f87MVMtwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B56BVWBM?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0B56BVWBM"
-  },
-  {
-   "rank": 9,
    "asin": "B0GYRNKYRT",
    "name": "Birdfy Smart Bird Feeder with Camera Solar Powered Hanging (Metal A)",
    "brand": "Birdfy",
@@ -449,7 +402,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 70,
-   "score": 63,
+   "score": 74,
    "awards": [],
    "works_with": [],
    "works_with_note": "Birdfy app",
@@ -485,6 +438,53 @@
    "image": "https://m.media-amazon.com/images/I/71+xyGKiItL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GYRNKYRT?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0GYRNKYRT"
+  },
+  {
+   "rank": 9,
+   "asin": "B0B56BVWBM",
+   "name": "NETVUE by Birdfy Smart Bird Feeder with 2K Camera, Lifetime Bird ID Free",
+   "brand": "NETVUE Birdfy",
+   "model": "Smart Bird Feeder 2K (beginner)",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1464,
+   "score": 70,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Birdfy app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "The original Birdfy, with a wide 155-degree view and a 50 oz seed hopper.",
+   "pros": [
+    "1,464 reviews",
+    "155° wide view",
+    "Holds 50 oz of seed"
+   ],
+   "cons": [
+    "No solar panel listed",
+    "$109.99",
+    "2K"
+   ],
+   "specs": {
+    "video": "2K, 155° view",
+    "power": "Battery",
+    "id": "NETVUE AI",
+    "storage": "Clips in the app"
+   },
+   "features": {
+    "free_id": false,
+    "uhd": false,
+    "solar": false,
+    "local": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71f87MVMtwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B56BVWBM?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-bird-feeders.html#B0B56BVWBM"
   }
  ],
  "avoid": [],

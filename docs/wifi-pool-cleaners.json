@@ -28,7 +28,7 @@
    "runtime": 0.25,
    "parking": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 125,
-   "score": 85,
+   "score": 96,
    "awards": [
     "Best Overall"
    ],
@@ -116,7 +116,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 50,
-   "score": 67,
+   "score": 76,
    "awards": [
     "Best Easy Retrieval"
    ],
@@ -157,6 +157,53 @@
   },
   {
    "rank": 3,
+   "asin": "B0GQ516HSY",
+   "name": "Dolphin Nautilus EON 100 Cordless Robotic Pool Cleaner, Wi-Fi, Wall & Waterline Scrubbing, Pools up to 50 ft",
+   "brand": "Dolphin",
+   "model": "Nautilus EON 100",
+   "price": 599.0,
+   "currency": "USD",
+   "rating": 3.5,
+   "reviews_count": 76,
+   "score": 74,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "MaytronicsOne app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Dolphin's cordless robot for pools up to 50 feet.",
+   "pros": [
+    "Cordless",
+    "Cleans steps and ledges",
+    "Wi-Fi app control"
+   ],
+   "cons": [
+    "3.5 stars",
+    "$599.00",
+    "Only 76 reviews"
+   ],
+   "specs": {
+    "power": "Cordless",
+    "runtime": "Up to 2.5 hours",
+    "cleans": "Floor, walls, waterline, steps",
+    "extras": "Smart navigation, top-load basket"
+   },
+   "features": {
+    "cordless": true,
+    "walls": true,
+    "runtime": false,
+    "parking": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61pIYh1OkvL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQ516HSY?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-pool-cleaners.html#B0GQ516HSY"
+  },
+  {
+   "rank": 4,
    "asin": "B09K4C9WGF",
    "name": "Dolphin Nautilus CC Plus Wi-Fi Robotic Pool Cleaner with Wall Climbing Scrubber Brush, Pools up to 40 ft",
    "brand": "Dolphin",
@@ -165,7 +212,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 3307,
-   "score": 66,
+   "score": 68,
    "awards": [
     "Best Corded"
    ],
@@ -203,53 +250,6 @@
    "image": "https://m.media-amazon.com/images/I/517bfdN3wML._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09K4C9WGF?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-pool-cleaners.html#B09K4C9WGF"
-  },
-  {
-   "rank": 4,
-   "asin": "B0GQ516HSY",
-   "name": "Dolphin Nautilus EON 100 Cordless Robotic Pool Cleaner, Wi-Fi, Wall & Waterline Scrubbing, Pools up to 50 ft",
-   "brand": "Dolphin",
-   "model": "Nautilus EON 100",
-   "price": 599.0,
-   "currency": "USD",
-   "rating": 3.5,
-   "reviews_count": 76,
-   "score": 63,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "MaytronicsOne app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Dolphin's cordless robot for pools up to 50 feet.",
-   "pros": [
-    "Cordless",
-    "Cleans steps and ledges",
-    "Wi-Fi app control"
-   ],
-   "cons": [
-    "3.5 stars",
-    "$599.00",
-    "Only 76 reviews"
-   ],
-   "specs": {
-    "power": "Cordless",
-    "runtime": "Up to 2.5 hours",
-    "cleans": "Floor, walls, waterline, steps",
-    "extras": "Smart navigation, top-load basket"
-   },
-   "features": {
-    "cordless": true,
-    "walls": true,
-    "runtime": false,
-    "parking": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61pIYh1OkvL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQ516HSY?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-pool-cleaners.html#B0GQ516HSY"
   }
  ],
  "avoid": [],

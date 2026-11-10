@@ -28,7 +28,7 @@
    "integrations": 0.3,
    "display": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -126,7 +126,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2996,
-   "score": 93,
+   "score": 95,
    "awards": [
     "Best for Enthusiasts"
    ],
@@ -169,39 +169,42 @@
   },
   {
    "rank": 3,
-   "asin": "B07D9D6CXW",
-   "name": "AcuRite Iris (5-in-1) Home Weather Station with Wi-Fi to Weather Underground (01540M)",
-   "brand": "AcuRite",
-   "model": "Iris 5-in-1 with Wi-Fi",
-   "price": 122.99,
+   "asin": "B0BBH688XG",
+   "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
+   "brand": "Ambient Weather",
+   "model": "WS-1965",
+   "price": 149.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 2990,
-   "score": 84,
+   "rating": 4.2,
+   "reviews_count": 573,
+   "score": 88,
    "awards": [],
-   "works_with": [],
-   "works_with_note": "My AcuRite",
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": "Ambient Weather Network",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "AcuRite's popular 5-in-1, connected to Weather Underground.",
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A cheaper Ambient station with wind and rain.",
    "pros": [
-    "Weather Underground",
-    "2,990 reviews",
-    "Sold by Amazon"
+    "$149.99",
+    "Alexa",
+    "Home Assistant integration"
    ],
    "cons": [
-    "4.0 stars",
-    "No solar sensor",
-    "$122.99"
+    "4.2 stars",
+    "Only 573 reviews",
+    "No UV or solar sensor listed"
    ],
    "specs": {
     "sensors": "Wind, rain, temperature, humidity",
-    "display": "Display",
-    "online": "Weather Underground",
+    "display": "Console",
+    "online": "Ambient Weather Network",
     "power": "Not stated in bullets"
    },
    "features": {
@@ -210,9 +213,9 @@
     "integrations": true,
     "display": true
    },
-   "image": "https://m.media-amazon.com/images/I/71jiKpEy1jS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07D9D6CXW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B07D9D6CXW"
+   "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BBH688XG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BBH688XG"
   },
   {
    "rank": 4,
@@ -224,7 +227,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 2231,
-   "score": 84,
+   "score": 87,
    "awards": [
     "Best No-Moving-Parts"
    ],
@@ -268,90 +271,39 @@
   },
   {
    "rank": 5,
-   "asin": "B0H7RQPHBR",
-   "name": "Sainlogic 5GHz/2.4GHz Dual-Band WiFi Weather Station, 12-in-1",
-   "brand": "Sainlogic",
-   "model": "12-in-1 Dual-Band Wi-Fi Weather Station",
-   "price": 129.98,
+   "asin": "B07D9D6CXW",
+   "name": "AcuRite Iris (5-in-1) Home Weather Station with Wi-Fi to Weather Underground (01540M)",
+   "brand": "AcuRite",
+   "model": "Iris 5-in-1 with Wi-Fi",
+   "price": 122.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1008,
-   "score": 80,
+   "rating": 4.0,
+   "reviews_count": 2990,
+   "score": 86,
    "awards": [],
    "works_with": [],
-   "works_with_note": "Inercom app",
+   "works_with_note": "My AcuRite",
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A full wind and rain station that connects over 5 GHz or 2.4 GHz Wi-Fi and stores two years of data on the device.",
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "AcuRite's popular 5-in-1, connected to Weather Underground.",
    "pros": [
-    "4.5 stars from 1,008 reviews",
-    "5 GHz or 2.4 GHz Wi-Fi",
-    "Two years of local data with Excel export",
-    "Phone alerts for temperature, humidity, and pressure"
+    "Weather Underground",
+    "2,990 reviews",
+    "Sold by Amazon"
    ],
    "cons": [
-    "$129.98",
-    "Sold by a third-party seller",
-    "No smart home platforms named in the bullets"
-   ],
-   "specs": {
-    "sensors": "Wind speed and direction, rain, pressure, temperature, humidity",
-    "display": "Indoor display (size not stated)",
-    "online": "Inercom app over 5 or 2.4 GHz Wi-Fi",
-    "power": "Not stated in bullets"
-   },
-   "features": {
-    "wind_rain": true,
-    "solar": false,
-    "integrations": false,
-    "display": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71bVVi5AZYL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7RQPHBR?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0H7RQPHBR"
-  },
-  {
-   "rank": 6,
-   "asin": "B0BBH688XG",
-   "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
-   "brand": "Ambient Weather",
-   "model": "WS-1965",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 573,
-   "score": 80,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Home Assistant"
-   ],
-   "works_with_note": "Ambient Weather Network",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A cheaper Ambient station with wind and rain.",
-   "pros": [
-    "$149.99",
-    "Alexa",
-    "Home Assistant integration"
-   ],
-   "cons": [
-    "4.2 stars",
-    "Only 573 reviews",
-    "No UV or solar sensor listed"
+    "4.0 stars",
+    "No solar sensor",
+    "$122.99"
    ],
    "specs": {
     "sensors": "Wind, rain, temperature, humidity",
-    "display": "Console",
-    "online": "Ambient Weather Network",
+    "display": "Display",
+    "online": "Weather Underground",
     "power": "Not stated in bullets"
    },
    "features": {
@@ -360,59 +312,12 @@
     "integrations": true,
     "display": true
    },
-   "image": "https://m.media-amazon.com/images/I/51IFDZYAHEL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BBH688XG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0BBH688XG"
+   "image": "https://m.media-amazon.com/images/I/71jiKpEy1jS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D9D6CXW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B07D9D6CXW"
   },
   {
-   "rank": 7,
-   "asin": "B0GXFBT2D6",
-   "name": "Sainlogic 5GHz/2.4GHz WiFi Weather Station with 24H/7D AI Weather Forecast",
-   "brand": "Sainlogic",
-   "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 510,
-   "score": 77,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Sainlogic app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Works on 5 GHz Wi-Fi as well as 2.4 GHz.",
-   "pros": [
-    "Dual-band Wi-Fi",
-    "4.4 stars",
-    "AI forecasts"
-   ],
-   "cons": [
-    "$179.99",
-    "Only 510 reviews",
-    "Forecast service details aren't in the bullets"
-   ],
-   "specs": {
-    "sensors": "Wind, rain, temperature, humidity",
-    "display": "Color display",
-    "online": "AI forecast",
-    "power": "Not stated in bullets"
-   },
-   "features": {
-    "wind_rain": true,
-    "solar": false,
-    "integrations": false,
-    "display": true
-   },
-   "image": "https://m.media-amazon.com/images/I/714Ev8TFwtL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GXFBT2D6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFBT2D6"
-  },
-  {
-   "rank": 8,
+   "rank": 6,
    "asin": "B0FM3CVKNL",
    "name": "VEVOR 7-in-1 Wi-Fi Weather Station, 7.5-Inch Display, Solar Outdoor Sensor, Rain Gauge",
    "brand": "VEVOR",
@@ -421,7 +326,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 370,
-   "score": 77,
+   "score": 84,
    "awards": [
     "Best Budget"
    ],
@@ -461,6 +366,101 @@
    "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0FM3CVKNL"
   },
   {
+   "rank": 7,
+   "asin": "B0H7RQPHBR",
+   "name": "Sainlogic 5GHz/2.4GHz Dual-Band WiFi Weather Station, 12-in-1",
+   "brand": "Sainlogic",
+   "model": "12-in-1 Dual-Band Wi-Fi Weather Station",
+   "price": 129.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1008,
+   "score": 83,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Inercom app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A full wind and rain station that connects over 5 GHz or 2.4 GHz Wi-Fi and stores two years of data on the device.",
+   "pros": [
+    "4.5 stars from 1,008 reviews",
+    "5 GHz or 2.4 GHz Wi-Fi",
+    "Two years of local data with Excel export",
+    "Phone alerts for temperature, humidity, and pressure"
+   ],
+   "cons": [
+    "$129.98",
+    "Sold by a third-party seller",
+    "No smart home platforms named in the bullets"
+   ],
+   "specs": {
+    "sensors": "Wind speed and direction, rain, pressure, temperature, humidity",
+    "display": "Indoor display (size not stated)",
+    "online": "Inercom app over 5 or 2.4 GHz Wi-Fi",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bVVi5AZYL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7RQPHBR?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0H7RQPHBR"
+  },
+  {
+   "rank": 8,
+   "asin": "B0GXFBT2D6",
+   "name": "Sainlogic 5GHz/2.4GHz WiFi Weather Station with 24H/7D AI Weather Forecast",
+   "brand": "Sainlogic",
+   "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 510,
+   "score": 82,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Sainlogic app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Works on 5 GHz Wi-Fi as well as 2.4 GHz.",
+   "pros": [
+    "Dual-band Wi-Fi",
+    "4.4 stars",
+    "AI forecasts"
+   ],
+   "cons": [
+    "$179.99",
+    "Only 510 reviews",
+    "Forecast service details aren't in the bullets"
+   ],
+   "specs": {
+    "sensors": "Wind, rain, temperature, humidity",
+    "display": "Color display",
+    "online": "AI forecast",
+    "power": "Not stated in bullets"
+   },
+   "features": {
+    "wind_rain": true,
+    "solar": false,
+    "integrations": false,
+    "display": true
+   },
+   "image": "https://m.media-amazon.com/images/I/714Ev8TFwtL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GXFBT2D6?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-weather-stations.html#B0GXFBT2D6"
+  },
+  {
    "rank": 9,
    "asin": "B0BL53M5HR",
    "name": "La Crosse Technology Professional Smart Wi-Fi Weather Station, Wind and Rain Gauges, 400 ft Range",
@@ -470,7 +470,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1411,
-   "score": 76,
+   "score": 80,
    "awards": [],
    "works_with": [],
    "works_with_note": "La Crosse View",

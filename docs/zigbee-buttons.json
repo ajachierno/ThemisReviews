@@ -28,7 +28,7 @@
    "multi_press": 0.25,
    "dimming": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 4038,
-   "score": 93,
+   "score": 97,
    "awards": [
     "Best Overall"
    ],
@@ -130,7 +130,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 962,
-   "score": 89,
+   "score": 97,
    "awards": [
     "Best Premium"
    ],
@@ -185,7 +185,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 411,
-   "score": 83,
+   "score": 92,
    "awards": [
     "Best for Home Assistant"
    ],
@@ -241,7 +241,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 191,
-   "score": 78,
+   "score": 90,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -294,7 +294,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 141,
-   "score": 75,
+   "score": 88,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -347,7 +347,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1026,
-   "score": 73,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -400,7 +400,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 754,
-   "score": 73,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -453,7 +453,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 713,
-   "score": 72,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Apple Home"
@@ -494,59 +494,6 @@
   },
   {
    "rank": 9,
-   "asin": "B07D19YXND",
-   "name": "Aqara Zigbee Wireless Mini Switch, Zigbee Button Works with HomeKit Alexa",
-   "brand": "Aqara",
-   "model": "Wireless Mini Switch",
-   "price": 15.9,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 3102,
-   "score": 70,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A tiny, cheap button with three actions for Aqara hub owners.",
-   "pros": [
-    "$15.90",
-    "Single, double, and long press",
-    "3,102 reviews, 500+ bought in the past month"
-   ],
-   "cons": [
-    "Aqara hubs only, per the listing",
-    "One button",
-    "4.3 stars"
-   ],
-   "specs": {
-    "buttons": "1",
-    "actions": "Single, double, long press",
-    "hub": "Aqara hub only",
-    "extras": "Emergency alert"
-   },
-   "features": {
-    "open_zigbee": false,
-    "multi_button": false,
-    "multi_press": true,
-    "dimming": false
-   },
-   "image": "https://m.media-amazon.com/images/I/615mty61jkL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07D19YXND?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-buttons.html#B07D19YXND"
-  },
-  {
-   "rank": 10,
    "asin": "B0G83YMKGG",
    "name": "Shelly BLU RC Button 4 ZB Smart Remote Controller, Multi-Click",
    "brand": "Shelly",
@@ -555,7 +502,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 26,
-   "score": 67,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -597,6 +544,59 @@
    "image": "https://m.media-amazon.com/images/I/71YQyFH6DNL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0G83YMKGG?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-buttons.html#B0G83YMKGG"
+  },
+  {
+   "rank": 10,
+   "asin": "B07D19YXND",
+   "name": "Aqara Zigbee Wireless Mini Switch, Zigbee Button Works with HomeKit Alexa",
+   "brand": "Aqara",
+   "model": "Wireless Mini Switch",
+   "price": 15.9,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 3102,
+   "score": 75,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A tiny, cheap button with three actions for Aqara hub owners.",
+   "pros": [
+    "$15.90",
+    "Single, double, and long press",
+    "3,102 reviews, 500+ bought in the past month"
+   ],
+   "cons": [
+    "Aqara hubs only, per the listing",
+    "One button",
+    "4.3 stars"
+   ],
+   "specs": {
+    "buttons": "1",
+    "actions": "Single, double, long press",
+    "hub": "Aqara hub only",
+    "extras": "Emergency alert"
+   },
+   "features": {
+    "open_zigbee": false,
+    "multi_button": false,
+    "multi_press": true,
+    "dimming": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615mty61jkL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D19YXND?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-buttons.html#B07D19YXND"
   }
  ],
  "avoid": [],

@@ -28,7 +28,7 @@
    "keypad": 0.25,
    "retrofit": 0.25
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 467,
-   "score": 76,
+   "score": 79,
    "awards": [
     "Best Hands-Free"
    ],
@@ -171,6 +171,60 @@
   },
   {
    "rank": 3,
+   "asin": "B0FXM1QCVT",
+   "name": "Philips Smart Lock, Matter over Thread, Fingerprint and Touchscreen Keypad Deadbolt with Auto Lock",
+   "brand": "Philips",
+   "model": "Smart Lock (Matter over Thread)",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 52,
+   "score": 77,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Philips Home Access app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A sleek touchscreen fingerprint lock on Matter over Thread.",
+   "pros": [
+    "Fingerprint",
+    "Touchscreen keypad"
+   ],
+   "cons": [
+    "$129.99, $45 more than the Bolt SE",
+    "Only 52 reviews",
+    "4.3 stars",
+    "Newer brand in locks"
+   ],
+   "specs": {
+    "type": "Touchscreen deadbolt",
+    "unlock": "Fingerprint, touchscreen code, app",
+    "extras": "Remote control in the app"
+   },
+   "features": {
+    "hands_free": false,
+    "fingerprint": true,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DcynVeYJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FXM1QCVT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0FXM1QCVT"
+  },
+  {
+   "rank": 4,
    "asin": "B0H1LG78QW",
    "name": "ULTRALOQ Bolt Mission UWB Smart Lock,Matter Over Thread,Approach to Unlock",
    "brand": "ULTRALOQ",
@@ -224,115 +278,7 @@
    "page_url": "https://themisreviews.com/thread-locks.html#B0H1LG78QW"
   },
   {
-   "rank": 4,
-   "asin": "B0FXM1QCVT",
-   "name": "Philips Smart Lock, Matter over Thread, Fingerprint and Touchscreen Keypad Deadbolt with Auto Lock",
-   "brand": "Philips",
-   "model": "Smart Lock (Matter over Thread)",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 52,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Philips Home Access app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A sleek touchscreen fingerprint lock on Matter over Thread.",
-   "pros": [
-    "Fingerprint",
-    "Touchscreen keypad"
-   ],
-   "cons": [
-    "$129.99, $45 more than the Bolt SE",
-    "Only 52 reviews",
-    "4.3 stars",
-    "Newer brand in locks"
-   ],
-   "specs": {
-    "type": "Touchscreen deadbolt",
-    "unlock": "Fingerprint, touchscreen code, app",
-    "extras": "Remote control in the app"
-   },
-   "features": {
-    "hands_free": false,
-    "fingerprint": true,
-    "keypad": true,
-    "retrofit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71DcynVeYJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FXM1QCVT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-locks.html#B0FXM1QCVT"
-  },
-  {
    "rank": 5,
-   "asin": "B0GZWVC674",
-   "name": "Schlage Sense Pro UWB Smart Deadbolt Lock, Hands-Free Unlock, Matte Black",
-   "brand": "Schlage",
-   "model": "Sense Pro (UWB)",
-   "price": 338.74,
-   "currency": "USD",
-   "rating": 3.4,
-   "reviews_count": 70,
-   "score": 63,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Schlage app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "Schlage's hands-free lock for a sturdy front door.",
-   "pros": [
-    "UWB hands-free unlock",
-    "Schlage build quality",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "$338.74",
-    "3.4 stars",
-    "Needs a Thread hub"
-   ],
-   "specs": {
-    "type": "Keypad deadbolt",
-    "unlock": "UWB hands-free, code, app",
-    "extras": "Matter, needs a Thread home hub"
-   },
-   "features": {
-    "hands_free": true,
-    "fingerprint": false,
-    "keypad": true,
-    "retrofit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/513Obhx5nYL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GZWVC674?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-locks.html#B0GZWVC674"
-  },
-  {
-   "rank": 6,
    "asin": "B0G3CPVSZW",
    "name": "Kwikset Aura Reach Smart Lock, Matter over Thread and Bluetooth Keyless Entry Deadbolt, Satin Nickel",
    "brand": "Kwikset",
@@ -341,7 +287,7 @@
    "currency": "USD",
    "rating": 3.3,
    "reviews_count": 83,
-   "score": 62,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -386,6 +332,60 @@
    "page_url": "https://themisreviews.com/thread-locks.html#B0G3CPVSZW"
   },
   {
+   "rank": 6,
+   "asin": "B0GZWVC674",
+   "name": "Schlage Sense Pro UWB Smart Deadbolt Lock, Hands-Free Unlock, Matte Black",
+   "brand": "Schlage",
+   "model": "Sense Pro (UWB)",
+   "price": 338.74,
+   "currency": "USD",
+   "rating": 3.4,
+   "reviews_count": 70,
+   "score": 71,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Schlage app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "Schlage's hands-free lock for a sturdy front door.",
+   "pros": [
+    "UWB hands-free unlock",
+    "Schlage build quality",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$338.74",
+    "3.4 stars",
+    "Needs a Thread hub"
+   ],
+   "specs": {
+    "type": "Keypad deadbolt",
+    "unlock": "UWB hands-free, code, app",
+    "extras": "Matter, needs a Thread home hub"
+   },
+   "features": {
+    "hands_free": true,
+    "fingerprint": false,
+    "keypad": true,
+    "retrofit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/513Obhx5nYL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZWVC674?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-locks.html#B0GZWVC674"
+  },
+  {
    "rank": 7,
    "asin": "B0FXWGYDQW",
    "name": "Aqara Smart Lock with Handle U300, Apple Home Key, Smart Lever Lock, Black",
@@ -395,7 +395,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 84,
-   "score": 61,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -449,7 +449,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 300,
-   "score": 60,
+   "score": 68,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -503,7 +503,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 161,
-   "score": 57,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -557,7 +557,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 84,
-   "score": 57,
+   "score": 65,
    "awards": [
     "Best Retrofit"
    ],

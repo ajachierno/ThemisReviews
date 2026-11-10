@@ -28,7 +28,7 @@
    "high_res": 0.25,
    "wide": 0.15
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,102 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0C9W1K5Y8",
-   "name": "WYZE Floodlight Camera v2, 2K HD Outdoor Security Camera with 2800 Lumens",
-   "brand": "Wyze",
-   "model": "Floodlight Camera v2",
-   "price": 99.98,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 3062,
-   "score": 83,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [],
-   "works_with_note": "Wyze app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Bright, sharp, and records around the clock to a microSD card for free.",
-   "pros": [
-    "$99.98",
-    "2,800 lumens",
-    "Continuous local recording"
-   ],
-   "cons": [
-    "Sold by a reseller",
-    "Stock status wasn't shown",
-    "4.2 stars"
-   ],
-   "specs": {
-    "video": "2K",
-    "light": "2,800 lumens",
-    "storage": "24/7 microSD, up to 30 days",
-    "power": "Hardwired"
-   },
-   "features": {
-    "free_recording": true,
-    "bright": true,
-    "high_res": true,
-    "wide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61R6KX2zN9L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C9W1K5Y8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0C9W1K5Y8"
-  },
-  {
-   "rank": 2,
-   "asin": "B0B9TTCVS8",
-   "name": "WYZE Floodlight Camera Pro, 2.5K HD Outdoor Security Camera 3000-Lumen LEDs",
-   "brand": "Wyze",
-   "model": "Floodlight Camera Pro",
-   "price": 149.93,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 1956,
-   "score": 82,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Wyze app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Wyze's Pro adds 2.5K video and three aimable light panels.",
-   "pros": [
-    "2.5K",
-    "3,000 lumens",
-    "Free local recording"
-   ],
-   "cons": [
-    "$149.93",
-    "4.2 stars",
-    "Wyze app only"
-   ],
-   "specs": {
-    "video": "2.5K",
-    "light": "3,000 lumens, 3 adjustable panels",
-    "storage": "24/7 microSD, up to 30 days",
-    "power": "Hardwired"
-   },
-   "features": {
-    "free_recording": true,
-    "bright": true,
-    "high_res": true,
-    "wide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/618j5lK4MJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B9TTCVS8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0B9TTCVS8"
-  },
-  {
-   "rank": 3,
    "asin": "B0GHR3WVT1",
    "name": "REOLINK Elite Floodlight WiFi 4K 8MP 180° Panoramic Wired Floodlight Camera",
    "brand": "Reolink",
@@ -170,7 +74,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 520,
-   "score": 82,
+   "score": 91,
    "awards": [
     "Best 4K"
    ],
@@ -212,6 +116,102 @@
    "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0GHR3WVT1"
   },
   {
+   "rank": 2,
+   "asin": "B0C9W1K5Y8",
+   "name": "WYZE Floodlight Camera v2, 2K HD Outdoor Security Camera with 2800 Lumens",
+   "brand": "Wyze",
+   "model": "Floodlight Camera v2",
+   "price": 99.98,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3062,
+   "score": 89,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [],
+   "works_with_note": "Wyze app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Bright, sharp, and records around the clock to a microSD card for free.",
+   "pros": [
+    "$99.98",
+    "2,800 lumens",
+    "Continuous local recording"
+   ],
+   "cons": [
+    "Sold by a reseller",
+    "Stock status wasn't shown",
+    "4.2 stars"
+   ],
+   "specs": {
+    "video": "2K",
+    "light": "2,800 lumens",
+    "storage": "24/7 microSD, up to 30 days",
+    "power": "Hardwired"
+   },
+   "features": {
+    "free_recording": true,
+    "bright": true,
+    "high_res": true,
+    "wide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61R6KX2zN9L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C9W1K5Y8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0C9W1K5Y8"
+  },
+  {
+   "rank": 3,
+   "asin": "B0B9TTCVS8",
+   "name": "WYZE Floodlight Camera Pro, 2.5K HD Outdoor Security Camera 3000-Lumen LEDs",
+   "brand": "Wyze",
+   "model": "Floodlight Camera Pro",
+   "price": 149.93,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1956,
+   "score": 89,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Wyze app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Wyze's Pro adds 2.5K video and three aimable light panels.",
+   "pros": [
+    "2.5K",
+    "3,000 lumens",
+    "Free local recording"
+   ],
+   "cons": [
+    "$149.93",
+    "4.2 stars",
+    "Wyze app only"
+   ],
+   "specs": {
+    "video": "2.5K",
+    "light": "3,000 lumens, 3 adjustable panels",
+    "storage": "24/7 microSD, up to 30 days",
+    "power": "Hardwired"
+   },
+   "features": {
+    "free_recording": true,
+    "bright": true,
+    "high_res": true,
+    "wide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/618j5lK4MJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B9TTCVS8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0B9TTCVS8"
+  },
+  {
    "rank": 4,
    "asin": "B0FQ1ZGF98",
    "name": "Tapo 2K Outdoor Pan/Tilt Wireless Floodlight Security Camera, C615F KIT",
@@ -221,7 +221,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 662,
-   "score": 80,
+   "score": 88,
    "awards": [
     "Best Wire-Free"
    ],
@@ -264,6 +264,149 @@
   },
   {
    "rank": 5,
+   "asin": "B0GVSSP9JC",
+   "name": "REOLINK Solar Floodlight Security Cameras Wireless Outdoor, Up to 1000lm",
+   "brand": "Reolink",
+   "model": "Solar Floodlight Camera",
+   "price": 169.97,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 459,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Reolink app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "A wire-free solar floodlight camera with a 110 dB siren and free local storage.",
+   "pros": [
+    "Solar powered",
+    "110 dB siren",
+    "No monthly fees"
+   ],
+   "cons": [
+    "1,000 lumens",
+    "$169.97",
+    "4.0 stars"
+   ],
+   "specs": {
+    "video": "2K 4MP",
+    "light": "Up to 1,000 lumens",
+    "storage": "microSD up to 512 GB or Home Hub; no fees",
+    "power": "Solar battery"
+   },
+   "features": {
+    "free_recording": true,
+    "bright": false,
+    "high_res": true,
+    "wide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51p5SYgEsAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GVSSP9JC?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0GVSSP9JC"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DB6LX5SW",
+   "name": "Arlo Wired Floodlight Security Camera 2K HDR - 1-Cam",
+   "brand": "Arlo",
+   "model": "Wired Floodlight 2K HDR",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 459,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Arlo app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": false
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "2K HDR with aimable lights; live view is free but recordings need an Arlo plan.",
+   "pros": [
+    "2K HDR",
+    "Articulating lights",
+    "$149.99"
+   ],
+   "cons": [
+    "Recordings need a subscription after the trial",
+    "4.5 stars",
+    "Only 459 reviews"
+   ],
+   "specs": {
+    "video": "2K HDR, auto zoom",
+    "light": "2,000 lumens, articulating",
+    "storage": "Cloud (paid after trial)",
+    "power": "Hardwired"
+   },
+   "features": {
+    "free_recording": false,
+    "bright": false,
+    "high_res": true,
+    "wide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51292OsJT-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DB6LX5SW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0DB6LX5SW"
+  },
+  {
+   "rank": 7,
+   "asin": "B0DDTRM7DJ",
+   "name": "eufy Security Floodlight Camera E30, 2K, AI Detection & Tracking, Outdoor",
+   "brand": "eufy",
+   "model": "Floodlight Camera E30",
+   "price": 119.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1053,
+   "score": 76,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "eufy app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "2K with AI detection and tracking from eufy.",
+   "pros": [
+    "4.4 stars",
+    "1K+ bought in the past month",
+    "AI tracking"
+   ],
+   "cons": [
+    "Storage terms aren't in the bullets",
+    "$119.98",
+    "2,000 lumens"
+   ],
+   "specs": {
+    "video": "2K, AI tracking",
+    "light": "2,000 lumens",
+    "storage": "Not stated in bullets",
+    "power": "Hardwired"
+   },
+   "features": {
+    "free_recording": false,
+    "bright": false,
+    "high_res": true,
+    "wide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41+mUA8GoAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DDTRM7DJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0DDTRM7DJ"
+  },
+  {
+   "rank": 8,
    "asin": "B0B5VLCL1N",
    "name": "Blink Wired Floodlight Camera, 2600 Lumens, HD Live View, Built-in Siren, Works with Alexa (White)",
    "brand": "Blink",
@@ -272,7 +415,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 14076,
-   "score": 73,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -313,7 +456,7 @@
    "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0B5VLCL1N"
   },
   {
-   "rank": 6,
+   "rank": 9,
    "asin": "B08F6GPQQ7",
    "name": "Ring Floodlight Cam Wired Plus, Outdoor Home or Business Security with Motion-Activated 1080p HD Video and Floodlights, White",
    "brand": "Ring",
@@ -363,149 +506,6 @@
    "image": "https://m.media-amazon.com/images/I/71LwFGZsH5L._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08F6GPQQ7?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B08F6GPQQ7"
-  },
-  {
-   "rank": 7,
-   "asin": "B0GVSSP9JC",
-   "name": "REOLINK Solar Floodlight Security Cameras Wireless Outdoor, Up to 1000lm",
-   "brand": "Reolink",
-   "model": "Solar Floodlight Camera",
-   "price": 169.97,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 459,
-   "score": 72,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Reolink app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "A wire-free solar floodlight camera with a 110 dB siren and free local storage.",
-   "pros": [
-    "Solar powered",
-    "110 dB siren",
-    "No monthly fees"
-   ],
-   "cons": [
-    "1,000 lumens",
-    "$169.97",
-    "4.0 stars"
-   ],
-   "specs": {
-    "video": "2K 4MP",
-    "light": "Up to 1,000 lumens",
-    "storage": "microSD up to 512 GB or Home Hub; no fees",
-    "power": "Solar battery"
-   },
-   "features": {
-    "free_recording": true,
-    "bright": false,
-    "high_res": true,
-    "wide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51p5SYgEsAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GVSSP9JC?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0GVSSP9JC"
-  },
-  {
-   "rank": 8,
-   "asin": "B0DDTRM7DJ",
-   "name": "eufy Security Floodlight Camera E30, 2K, AI Detection & Tracking, Outdoor",
-   "brand": "eufy",
-   "model": "Floodlight Camera E30",
-   "price": 119.98,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1053,
-   "score": 67,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "eufy app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "2K with AI detection and tracking from eufy.",
-   "pros": [
-    "4.4 stars",
-    "1K+ bought in the past month",
-    "AI tracking"
-   ],
-   "cons": [
-    "Storage terms aren't in the bullets",
-    "$119.98",
-    "2,000 lumens"
-   ],
-   "specs": {
-    "video": "2K, AI tracking",
-    "light": "2,000 lumens",
-    "storage": "Not stated in bullets",
-    "power": "Hardwired"
-   },
-   "features": {
-    "free_recording": false,
-    "bright": false,
-    "high_res": true,
-    "wide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41+mUA8GoAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DDTRM7DJ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0DDTRM7DJ"
-  },
-  {
-   "rank": 9,
-   "asin": "B0DB6LX5SW",
-   "name": "Arlo Wired Floodlight Security Camera 2K HDR - 1-Cam",
-   "brand": "Arlo",
-   "model": "Wired Floodlight 2K HDR",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 459,
-   "score": 65,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Arlo app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": false
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "2K HDR with aimable lights; live view is free but recordings need an Arlo plan.",
-   "pros": [
-    "2K HDR",
-    "Articulating lights",
-    "$149.99"
-   ],
-   "cons": [
-    "Recordings need a subscription after the trial",
-    "4.5 stars",
-    "Only 459 reviews"
-   ],
-   "specs": {
-    "video": "2K HDR, auto zoom",
-    "light": "2,000 lumens, articulating",
-    "storage": "Cloud (paid after trial)",
-    "power": "Hardwired"
-   },
-   "features": {
-    "free_recording": false,
-    "bright": false,
-    "high_res": true,
-    "wide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51292OsJT-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DB6LX5SW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-floodlight-cameras.html#B0DB6LX5SW"
   }
  ],
  "avoid": [],

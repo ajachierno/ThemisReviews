@@ -28,7 +28,7 @@
    "battery": 0.25,
    "weather": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -156,7 +156,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 54,
-   "score": 65,
+   "score": 71,
    "awards": [],
    "works_with": [],
    "works_with_note": "Smart Life app",
@@ -203,7 +203,7 @@
    "currency": "USD",
    "rating": 3.0,
    "reviews_count": 32,
-   "score": 59,
+   "score": 64,
    "awards": [
     "Longest Range"
    ],
@@ -244,53 +244,6 @@
   },
   {
    "rank": 5,
-   "asin": "B0GYW9F4F7",
-   "name": "Mailbox Chime with Wireless, WiFi Mailbox Alarm Sensor for Delivered",
-   "brand": "Irrespek",
-   "model": "WiFi Mailbox Alarm Sensor",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 2.5,
-   "reviews_count": 9,
-   "score": 57,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Set it and forget it for years.",
-   "pros": [
-    "Up to 5-year battery",
-    "IP65",
-    "Indoor chime"
-   ],
-   "cons": [
-    "2.5 stars",
-    "Only 9 reviews",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "range": "Long range",
-    "alerts": "App push and chime",
-    "power": "Replaceable battery, up to 5 years",
-    "extras": "IP65, 14°F to 140°F"
-   },
-   "features": {
-    "range": true,
-    "chime": true,
-    "battery": true,
-    "weather": true
-   },
-   "image": "https://m.media-amazon.com/images/I/613SOakUtIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GYW9F4F7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0GYW9F4F7"
-  },
-  {
-   "rank": 6,
    "asin": "B0GGZXF4Y5",
    "name": "linkshow Wi-Fi Smart Mailbox Sensor, 500 ft Long Range Mailbox Alarm with LED and Sound",
    "brand": "linkshow",
@@ -299,7 +252,7 @@
    "currency": "USD",
    "rating": 3.2,
    "reviews_count": 56,
-   "score": 54,
+   "score": 61,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -335,6 +288,53 @@
    "image": "https://m.media-amazon.com/images/I/61jCT3J-50L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GGZXF4Y5?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0GGZXF4Y5"
+  },
+  {
+   "rank": 6,
+   "asin": "B0GYW9F4F7",
+   "name": "Mailbox Chime with Wireless, WiFi Mailbox Alarm Sensor for Delivered",
+   "brand": "Irrespek",
+   "model": "WiFi Mailbox Alarm Sensor",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 2.5,
+   "reviews_count": 9,
+   "score": 61,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Set it and forget it for years.",
+   "pros": [
+    "Up to 5-year battery",
+    "IP65",
+    "Indoor chime"
+   ],
+   "cons": [
+    "2.5 stars",
+    "Only 9 reviews",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "range": "Long range",
+    "alerts": "App push and chime",
+    "power": "Replaceable battery, up to 5 years",
+    "extras": "IP65, 14°F to 140°F"
+   },
+   "features": {
+    "range": true,
+    "chime": true,
+    "battery": true,
+    "weather": true
+   },
+   "image": "https://m.media-amazon.com/images/I/613SOakUtIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GYW9F4F7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-mailbox-sensors.html#B0GYW9F4F7"
   }
  ],
  "avoid": [],

@@ -28,7 +28,7 @@
    "apple": 0.2,
    "pack": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1429,
-   "score": 85,
+   "score": 90,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -117,6 +117,61 @@
   },
   {
    "rank": 2,
+   "asin": "B0CTDCQJVZ",
+   "name": "Kasa Smart Ceiling Fan Control & Dimmer Switch, KS240, Single Pole",
+   "brand": "Kasa",
+   "model": "KS240 fan + dimmer",
+   "price": 36.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 875,
+   "score": 88,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The best smart fan control for most homes: fan and light in one switch, and it works with Apple Home.",
+   "pros": [
+    "Fan speeds and light dimming in one switch",
+    "Apple HomeKit, Alexa, and Google",
+    "1K+ bought in the past month, sold by Amazon",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Needs separate fan and light wires",
+    "Neutral required",
+    "Single pole only"
+   ],
+   "specs": {
+    "speeds": "4",
+    "light": "Yes, dimmer",
+    "install": "Wall switch",
+    "neutral": "Required"
+   },
+   "features": {
+    "light": true,
+    "speeds": true,
+    "apple": true,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51sMlIG6nyL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CTDCQJVZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B0CTDCQJVZ"
+  },
+  {
+   "rank": 3,
    "asin": "B086PPRWL7",
    "name": "TREATLIFE Smart Ceiling Fan Control and Dimmer Switch Combo, 2.4 GHz Wi-Fi, Neutral Required, Alexa, Google Home, SmartThings",
    "brand": "Treatlife",
@@ -169,112 +224,7 @@
    "page_url": "https://themisreviews.com/wifi-fan-controls.html#B086PPRWL7"
   },
   {
-   "rank": 3,
-   "asin": "B0CTDCQJVZ",
-   "name": "Kasa Smart Ceiling Fan Control & Dimmer Switch, KS240, Single Pole",
-   "brand": "Kasa",
-   "model": "KS240 fan + dimmer",
-   "price": 36.98,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 875,
-   "score": 82,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The best smart fan control for most homes: fan and light in one switch, and it works with Apple Home.",
-   "pros": [
-    "Fan speeds and light dimming in one switch",
-    "Apple HomeKit, Alexa, and Google",
-    "1K+ bought in the past month, sold by Amazon",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Needs separate fan and light wires",
-    "Neutral required",
-    "Single pole only"
-   ],
-   "specs": {
-    "speeds": "4",
-    "light": "Yes, dimmer",
-    "install": "Wall switch",
-    "neutral": "Required"
-   },
-   "features": {
-    "light": true,
-    "speeds": true,
-    "apple": true,
-    "pack": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51sMlIG6nyL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CTDCQJVZ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B0CTDCQJVZ"
-  },
-  {
    "rank": 4,
-   "asin": "B08P5D3ZKW",
-   "name": "TREATLIFE Smart 4-Speed Ceiling Fan Switch, 2.4 GHz Wi-Fi, Neutral Required, Alexa and Google Home",
-   "brand": "Treatlife",
-   "model": "4-speed fan switch",
-   "price": 38.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1402,
-   "score": 70,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A fan-only speed switch for fans without a light kit.",
-   "pros": [
-    "4 speeds",
-    "1,402 reviews",
-    "$38.99"
-   ],
-   "cons": [
-    "Fan only",
-    "Not for DC motor or remote fans",
-    "Single pole only"
-   ],
-   "specs": {
-    "speeds": "4",
-    "light": "No",
-    "install": "Wall switch",
-    "neutral": "Required"
-   },
-   "features": {
-    "light": false,
-    "speeds": true,
-    "apple": false,
-    "pack": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61+6OPjyg8L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08P5D3ZKW?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B08P5D3ZKW"
-  },
-  {
-   "rank": 5,
    "asin": "B09C21LX9R",
    "name": "SONOFF iFAN04 WiFi Ceiling Fan Light Controller, APP Control&Remote Control, Compatible with Alexa & Google Home Assistant, No Hub Required(2.4G WiFi)",
    "brand": "SONOFF",
@@ -283,7 +233,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 183,
-   "score": 69,
+   "score": 80,
    "awards": [
     "Best No-Rewire"
    ],
@@ -326,57 +276,7 @@
    "page_url": "https://themisreviews.com/wifi-fan-controls.html#B09C21LX9R"
   },
   {
-   "rank": 6,
-   "asin": "B0F5PX38GH",
-   "name": "GHome Smart Dimmer and 4-Speed Ceiling Fan Control Switch Combo, 2.4 GHz Wi-Fi, Alexa and Google Assistant",
-   "brand": "GHome",
-   "model": "Fan + dimmer combo",
-   "price": 36.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 65,
-   "score": 66,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Another 2-in-1 fan and light switch for Alexa and Google.",
-   "pros": [
-    "Fan and light in one",
-    "4 speeds",
-    "$36.99"
-   ],
-   "cons": [
-    "Only 65 reviews",
-    "4 A max",
-    "2.4 GHz only"
-   ],
-   "specs": {
-    "speeds": "4",
-    "light": "Yes, dimmer",
-    "install": "Wall switch",
-    "neutral": "Required"
-   },
-   "features": {
-    "light": true,
-    "speeds": true,
-    "apple": false,
-    "pack": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61gWAAetPuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F5PX38GH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B0F5PX38GH"
-  },
-  {
-   "rank": 7,
+   "rank": 5,
    "asin": "B0F6QDGR46",
    "name": "Smart Wi-Fi Ceiling Fan Remote Control Kit, 3 Fan Speed & Light Dimmer,Compatible with Alexa & Google Home Smart Life APP",
    "brand": "Nexete",
@@ -385,7 +285,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 151,
-   "score": 65,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -427,6 +327,106 @@
    "page_url": "https://themisreviews.com/wifi-fan-controls.html#B0F6QDGR46"
   },
   {
+   "rank": 6,
+   "asin": "B0F5PX38GH",
+   "name": "GHome Smart Dimmer and 4-Speed Ceiling Fan Control Switch Combo, 2.4 GHz Wi-Fi, Alexa and Google Assistant",
+   "brand": "GHome",
+   "model": "Fan + dimmer combo",
+   "price": 36.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 65,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Another 2-in-1 fan and light switch for Alexa and Google.",
+   "pros": [
+    "Fan and light in one",
+    "4 speeds",
+    "$36.99"
+   ],
+   "cons": [
+    "Only 65 reviews",
+    "4 A max",
+    "2.4 GHz only"
+   ],
+   "specs": {
+    "speeds": "4",
+    "light": "Yes, dimmer",
+    "install": "Wall switch",
+    "neutral": "Required"
+   },
+   "features": {
+    "light": true,
+    "speeds": true,
+    "apple": false,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61gWAAetPuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F5PX38GH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B0F5PX38GH"
+  },
+  {
+   "rank": 7,
+   "asin": "B08P5D3ZKW",
+   "name": "TREATLIFE Smart 4-Speed Ceiling Fan Switch, 2.4 GHz Wi-Fi, Neutral Required, Alexa and Google Home",
+   "brand": "Treatlife",
+   "model": "4-speed fan switch",
+   "price": 38.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1402,
+   "score": 75,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A fan-only speed switch for fans without a light kit.",
+   "pros": [
+    "4 speeds",
+    "1,402 reviews",
+    "$38.99"
+   ],
+   "cons": [
+    "Fan only",
+    "Not for DC motor or remote fans",
+    "Single pole only"
+   ],
+   "specs": {
+    "speeds": "4",
+    "light": "No",
+    "install": "Wall switch",
+    "neutral": "Required"
+   },
+   "features": {
+    "light": false,
+    "speeds": true,
+    "apple": false,
+    "pack": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61+6OPjyg8L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08P5D3ZKW?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-fan-controls.html#B08P5D3ZKW"
+  },
+  {
    "rank": 8,
    "asin": "B07YXJS276",
    "name": "MOES Wi-Fi Smart Ceiling Fan and Light Wall Switch, Smart Life/Tuya, Neutral Required, Alexa and Google Home",
@@ -436,7 +436,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 286,
-   "score": 63,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -487,7 +487,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 158,
-   "score": 63,
+   "score": 74,
    "awards": [
     "Best Name Brand"
    ],
@@ -539,7 +539,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 137,
-   "score": 61,
+   "score": 72,
    "awards": [],
    "works_with": [
     "Amazon Alexa"

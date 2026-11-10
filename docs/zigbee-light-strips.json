@@ -28,7 +28,7 @@
    "bridge_free": 0.15,
    "long": 0.25
   },
-  "reviews_ceiling": 2500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 92,
-   "score": 85,
+   "score": 94,
    "awards": [
     "Best Overall"
    ],
@@ -124,61 +124,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0D326FYQ4",
-   "name": "Philips Hue Indoor 16 Ft Smart LED Solo Lightstrip Base Kit, 1 Pack, Works with Alexa, Google Assistant and Apple HomeKit",
-   "brand": "Philips Hue",
-   "model": "Solo Lightstrip 16 ft",
-   "price": 72.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1230,
-   "score": 81,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Hue app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A 16 ft Hue strip with real white LEDs at a lower price than Flux.",
-   "pros": [
-    "1,700 lumens",
-    "RGBWW for true whites",
-    "1,230 reviews"
-   ],
-   "cons": [
-    "Sold by a reseller, 9 left at capture time",
-    "One color at a time",
-    "$72"
-   ],
-   "specs": {
-    "type": "Strip",
-    "length": "16 ft",
-    "color": "RGBWW, 1,700 lm",
-    "hub": "Hue Bridge"
-   },
-   "features": {
-    "multicolor": false,
-    "white": true,
-    "bridge_free": false,
-    "long": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61byZcAoCCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D326FYQ4?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0D326FYQ4"
-  },
-  {
-   "rank": 3,
    "asin": "B0FQLNRJCG",
    "name": "Philips Hue OmniGlow Micro LED Strip Light, 9.8ft, 1-Pack",
    "brand": "Philips Hue",
@@ -187,7 +132,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 169,
-   "score": 80,
+   "score": 88,
    "awards": [
     "Best Premium"
    ],
@@ -235,7 +180,7 @@
    "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0FQLNRJCG"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0GNTM6WK1",
    "name": "Hue Flux 10-Feet LED Strip Light, 1-Pack",
    "brand": "Philips Hue",
@@ -244,7 +189,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 92,
-   "score": 78,
+   "score": 88,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -290,6 +235,61 @@
    "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0GNTM6WK1"
   },
   {
+   "rank": 4,
+   "asin": "B0D326FYQ4",
+   "name": "Philips Hue Indoor 16 Ft Smart LED Solo Lightstrip Base Kit, 1 Pack, Works with Alexa, Google Assistant and Apple HomeKit",
+   "brand": "Philips Hue",
+   "model": "Solo Lightstrip 16 ft",
+   "price": 72.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1230,
+   "score": 83,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Hue app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A 16 ft Hue strip with real white LEDs at a lower price than Flux.",
+   "pros": [
+    "1,700 lumens",
+    "RGBWW for true whites",
+    "1,230 reviews"
+   ],
+   "cons": [
+    "Sold by a reseller, 9 left at capture time",
+    "One color at a time",
+    "$72"
+   ],
+   "specs": {
+    "type": "Strip",
+    "length": "16 ft",
+    "color": "RGBWW, 1,700 lm",
+    "hub": "Hue Bridge"
+   },
+   "features": {
+    "multicolor": false,
+    "white": true,
+    "bridge_free": false,
+    "long": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61byZcAoCCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D326FYQ4?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-light-strips.html#B0D326FYQ4"
+  },
+  {
    "rank": 5,
    "asin": "B09BDK76R2",
    "name": "Philips Hue Indoor 6-Foot Smart LED Light Strip Base Kit with Plug, Flowing Multicolor Effect, Works with Alexa, Google and Apple HomeKit",
@@ -299,7 +299,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 600,
-   "score": 77,
+   "score": 83,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -354,7 +354,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 398,
-   "score": 72,
+   "score": 79,
    "awards": [
     "Best Outdoor"
    ],
@@ -411,7 +411,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 43,
-   "score": 68,
+   "score": 76,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -466,7 +466,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 43,
-   "score": 64,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -519,7 +519,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 48,
-   "score": 62,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -573,7 +573,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 47,
-   "score": 58,
+   "score": 65,
    "awards": [
     "Best Budget"
    ],

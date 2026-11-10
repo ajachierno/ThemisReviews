@@ -28,7 +28,7 @@
    "no_hub": 0.25,
    "long_battery": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -67,7 +67,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 517,
-   "score": 83,
+   "score": 89,
    "awards": [
     "Best Overall"
    ],
@@ -119,7 +119,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 473,
-   "score": 79,
+   "score": 86,
    "awards": [
     "Best Hardwired"
    ],
@@ -170,7 +170,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 221,
-   "score": 73,
+   "score": 83,
    "awards": [],
    "works_with": [],
    "works_with_note": "Kidde app",
@@ -209,106 +209,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0F7N5YS7T",
-   "name": "Kidde Smart Smoke Detector with Ring, Hardwire & AA Battery, RGSAR-RW",
-   "brand": "Kidde",
-   "model": "Smart Smoke with Ring, hardwired (RGSAR)",
-   "price": 54.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 241,
-   "score": 72,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": "Ring app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The smoke-only hardwired Ring model, with Alexa notifications.",
-   "pros": [
-    "Alerts for every hardwired alarm",
-    "Alexa notifications",
-    "$54.98"
-   ],
-   "cons": [
-    "No CO",
-    "Needs alarm wiring",
-    "Only 241 reviews"
-   ],
-   "specs": {
-    "detects": "Smoke",
-    "power": "Hardwired + AA backup",
-    "connection": "Wi-Fi (Ring app)",
-    "extras": "Alexa notifications"
-   },
-   "features": {
-    "co": false,
-    "interconnect": true,
-    "no_hub": true,
-    "long_battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61Ue0Xcin-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F7N5YS7T?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smoke-detectors.html#B0F7N5YS7T"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FP3F4GJS",
-   "name": "Kidde Smart Smoke Detector with Ring, AA Battery, RGSDR-RW",
-   "brand": "Kidde",
-   "model": "Smart Smoke with Ring (RGSDR)",
-   "price": 49.98,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 255,
-   "score": 71,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": "Ring app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "The smoke-only version, for bedrooms and rooms without gas appliances.",
-   "pros": [
-    "$49.98",
-    "Ring app alerts, no subscription",
-    "Wire-free interconnection"
-   ],
-   "cons": [
-    "No CO",
-    "AA batteries",
-    "Only 255 reviews"
-   ],
-   "specs": {
-    "detects": "Smoke",
-    "power": "2 AA batteries",
-    "connection": "Wi-Fi (Ring app)",
-    "extras": "Fewer cooking false alarms"
-   },
-   "features": {
-    "co": false,
-    "interconnect": true,
-    "no_hub": true,
-    "long_battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61IXXfWDMmL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FP3F4GJS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smoke-detectors.html#B0FP3F4GJS"
-  },
-  {
-   "rank": 6,
    "asin": "B0G1CRBH9K",
    "name": "Kidde Smart CO Detector + Indoor Air Quality, Plug-in & AA Battery, COPDLQW",
    "brand": "Kidde",
@@ -317,7 +217,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 82,
-   "score": 71,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -359,6 +259,106 @@
    "page_url": "https://themisreviews.com/wifi-smoke-detectors.html#B0G1CRBH9K"
   },
   {
+   "rank": 5,
+   "asin": "B0F7N5YS7T",
+   "name": "Kidde Smart Smoke Detector with Ring, Hardwire & AA Battery, RGSAR-RW",
+   "brand": "Kidde",
+   "model": "Smart Smoke with Ring, hardwired (RGSAR)",
+   "price": 54.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 241,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Ring app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The smoke-only hardwired Ring model, with Alexa notifications.",
+   "pros": [
+    "Alerts for every hardwired alarm",
+    "Alexa notifications",
+    "$54.98"
+   ],
+   "cons": [
+    "No CO",
+    "Needs alarm wiring",
+    "Only 241 reviews"
+   ],
+   "specs": {
+    "detects": "Smoke",
+    "power": "Hardwired + AA backup",
+    "connection": "Wi-Fi (Ring app)",
+    "extras": "Alexa notifications"
+   },
+   "features": {
+    "co": false,
+    "interconnect": true,
+    "no_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Ue0Xcin-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F7N5YS7T?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smoke-detectors.html#B0F7N5YS7T"
+  },
+  {
+   "rank": 6,
+   "asin": "B0FP3F4GJS",
+   "name": "Kidde Smart Smoke Detector with Ring, AA Battery, RGSDR-RW",
+   "brand": "Kidde",
+   "model": "Smart Smoke with Ring (RGSDR)",
+   "price": 49.98,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 255,
+   "score": 79,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": "Ring app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "The smoke-only version, for bedrooms and rooms without gas appliances.",
+   "pros": [
+    "$49.98",
+    "Ring app alerts, no subscription",
+    "Wire-free interconnection"
+   ],
+   "cons": [
+    "No CO",
+    "AA batteries",
+    "Only 255 reviews"
+   ],
+   "specs": {
+    "detects": "Smoke",
+    "power": "2 AA batteries",
+    "connection": "Wi-Fi (Ring app)",
+    "extras": "Fewer cooking false alarms"
+   },
+   "features": {
+    "co": false,
+    "interconnect": true,
+    "no_hub": true,
+    "long_battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61IXXfWDMmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FP3F4GJS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smoke-detectors.html#B0FP3F4GJS"
+  },
+  {
    "rank": 7,
    "asin": "B0DS2W3794",
    "name": "First Alert SC5 Battery Smart Smoke & Carbon Monoxide Alarm",
@@ -368,7 +368,7 @@
    "currency": "USD",
    "rating": 2.9,
    "reviews_count": 687,
-   "score": 69,
+   "score": 76,
    "awards": [],
    "works_with": [],
    "works_with_note": "First Alert app",
@@ -415,7 +415,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 122,
-   "score": 65,
+   "score": 76,
    "awards": [],
    "works_with": [],
    "works_with_note": "Kidde app",
@@ -462,7 +462,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 79,
-   "score": 60,
+   "score": 70,
    "awards": [],
    "works_with": [],
    "works_with_note": "eufy Security (HomeBase)",

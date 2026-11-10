@@ -28,7 +28,7 @@
    "open_zigbee": 0.3,
    "battery": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,62 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GZVPQQRX",
+   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24GHz mmWave and Light Sensor, Zone Positioning, USB-C Powered, Hub Required",
+   "brand": "SONOFF",
+   "model": "SNZB-06P24",
+   "price": 24.9,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 219,
+   "score": 84,
+   "awards": [
+    "Best With Zones"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Detects breathing-level movement and lets you set up to seven zones.",
+   "pros": [
+    "24 GHz mmWave",
+    "7 configurable zones",
+    "Self-learning calibration",
+    "200+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars",
+    "USB-C powered",
+    "4 m range"
+   ],
+   "specs": {
+    "radar": "24 GHz mmWave",
+    "power": "USB-C",
+    "extras": "Light, 7 zones",
+    "hub": "Zigbee hub"
+   },
+   "features": {
+    "zones": true,
+    "light": true,
+    "open_zigbee": true,
+    "battery": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0GZVPQQRX"
+  },
+  {
+   "rank": 2,
    "asin": "B0FG2MD3YP",
    "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
    "brand": "Aqara",
@@ -123,62 +179,6 @@
    "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0FG2MD3YP"
   },
   {
-   "rank": 2,
-   "asin": "B0GZVPQQRX",
-   "name": "SONOFF SNZB-06P24 Zigbee Presence Sensor, 24GHz mmWave and Light Sensor, Zone Positioning, USB-C Powered, Hub Required",
-   "brand": "SONOFF",
-   "model": "SNZB-06P24",
-   "price": 24.9,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 219,
-   "score": 81,
-   "awards": [
-    "Best With Zones"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Detects breathing-level movement and lets you set up to seven zones.",
-   "pros": [
-    "24 GHz mmWave",
-    "7 configurable zones",
-    "Self-learning calibration",
-    "200+ bought in the past month"
-   ],
-   "cons": [
-    "3.8 stars",
-    "USB-C powered",
-    "4 m range"
-   ],
-   "specs": {
-    "radar": "24 GHz mmWave",
-    "power": "USB-C",
-    "extras": "Light, 7 zones",
-    "hub": "Zigbee hub"
-   },
-   "features": {
-    "zones": true,
-    "light": true,
-    "open_zigbee": true,
-    "battery": false
-   },
-   "image": "https://m.media-amazon.com/images/I/615r5alixWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GZVPQQRX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-presence-sensors.html#B0GZVPQQRX"
-  },
-  {
    "rank": 3,
    "asin": "B0CNGKFG9Y",
    "name": "SONOFF Zigbee Human Presence Sensor, SNZB-06P Zigbee Smart Motion Detector with 5.8GHZ cmWave Radar, Requires ZigBee Bridge (1-Pack)",
@@ -188,7 +188,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 501,
-   "score": 77,
+   "score": 80,
    "awards": [
     "Best Overall"
    ],
@@ -245,7 +245,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 52,
-   "score": 68,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -294,7 +294,7 @@
    "currency": "USD",
    "rating": 3.3,
    "reviews_count": 65,
-   "score": 65,
+   "score": 71,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -347,7 +347,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 501,
-   "score": 63,
+   "score": 66,
    "awards": [
     "Best for Aqara Homes"
    ],
@@ -400,7 +400,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 48,
-   "score": 57,
+   "score": 62,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -449,7 +449,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 24,
-   "score": 55,
+   "score": 59,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -498,7 +498,7 @@
    "currency": "USD",
    "rating": 3.2,
    "reviews_count": 20,
-   "score": 55,
+   "score": 59,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -551,7 +551,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 13,
-   "score": 50,
+   "score": 54,
    "awards": [],
    "works_with": [
     "Home Assistant",

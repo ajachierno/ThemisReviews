@@ -28,7 +28,7 @@
    "outdoor": 0.15,
    "multi": 0.25
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,112 +59,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B00JJY1QG0",
-   "name": "Lutron Caseta Smart Lamp Dimmer Kit; Plug-In Dimmer & Pico Wireless Remote",
-   "brand": "Lutron",
-   "model": "Caseta Lamp Dimmer Kit (dimmer + Pico)",
-   "price": 54.95,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1821,
-   "score": 76,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A lamp dimmer and a remote that work together right out of the box.",
-   "pros": [
-    "Pico remote included",
-    "4.7 stars from 1,821 reviews",
-    "Works without the bridge"
-   ],
-   "cons": [
-    "App and voice need the Smart Bridge",
-    "$54.95",
-    "Lamps only"
-   ],
-   "specs": {
-    "type": "Plug-in lamp dimmer",
-    "in_box": "Dimmer and Pico remote",
-    "load": "Dimmable LED and incandescent lamps"
-   },
-   "features": {
-    "pico": true,
-    "bridge": false,
-    "outdoor": false,
-    "multi": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61al3qdgnTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00JJY1QG0?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B00JJY1QG0"
-  },
-  {
-   "rank": 2,
-   "asin": "B011PHGURS",
-   "name": "Lutron Caseta Deluxe Smart Lamp Dimmer Starter Kit: 2 Lamp Dimmes & More",
-   "brand": "Lutron",
-   "model": "Caseta Deluxe Lamp Dimmer Starter Kit",
-   "price": 214.95,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 79,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Two lamp dimmers plus the hub, for a living room and bedroom.",
-   "pros": [
-    "2 dimmers and the hub",
-    "Remotes included",
-    "No wiring"
-   ],
-   "cons": [
-    "$214.95",
-    "4.4 stars",
-    "Only 79 reviews"
-   ],
-   "specs": {
-    "type": "Plug-in lamp dimmer kit",
-    "in_box": "2 lamp dimmers, Smart Hub, remotes",
-    "load": "Dimmable lamps"
-   },
-   "features": {
-    "pico": true,
-    "bridge": true,
-    "outdoor": false,
-    "multi": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61YCC++t61S._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B011PHGURS?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B011PHGURS"
-  },
-  {
-   "rank": 3,
    "asin": "B0777TC8QZ",
    "name": "Lutron Caseta Smart Lamp Dimmer Starter Kit: Lamp Dimmer, Smart Hub, Remote",
    "brand": "Lutron",
@@ -173,7 +67,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 146,
-   "score": 75,
+   "score": 86,
    "awards": [
     "Best Starter Kit"
    ],
@@ -218,7 +112,59 @@
    "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B0777TC8QZ"
   },
   {
-   "rank": 4,
+   "rank": 2,
+   "asin": "B011PHGURS",
+   "name": "Lutron Caseta Deluxe Smart Lamp Dimmer Starter Kit: 2 Lamp Dimmes & More",
+   "brand": "Lutron",
+   "model": "Caseta Deluxe Lamp Dimmer Starter Kit",
+   "price": 214.95,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 79,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "Two lamp dimmers plus the hub, for a living room and bedroom.",
+   "pros": [
+    "2 dimmers and the hub",
+    "Remotes included",
+    "No wiring"
+   ],
+   "cons": [
+    "$214.95",
+    "4.4 stars",
+    "Only 79 reviews"
+   ],
+   "specs": {
+    "type": "Plug-in lamp dimmer kit",
+    "in_box": "2 lamp dimmers, Smart Hub, remotes",
+    "load": "Dimmable lamps"
+   },
+   "features": {
+    "pico": true,
+    "bridge": true,
+    "outdoor": false,
+    "multi": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61YCC++t61S._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B011PHGURS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B011PHGURS"
+  },
+  {
+   "rank": 3,
    "asin": "B08Z4HK39S",
    "name": "Lutron Caseta Smart Outdoor Plug & Remote for Lights (Smart Hub Required)",
    "brand": "Lutron",
@@ -227,7 +173,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 136,
-   "score": 70,
+   "score": 81,
    "awards": [
     "Best Outdoor"
    ],
@@ -272,6 +218,60 @@
    "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B08Z4HK39S"
   },
   {
+   "rank": 4,
+   "asin": "B00JJY1QG0",
+   "name": "Lutron Caseta Smart Lamp Dimmer Kit; Plug-In Dimmer & Pico Wireless Remote",
+   "brand": "Lutron",
+   "model": "Caseta Lamp Dimmer Kit (dimmer + Pico)",
+   "price": 54.95,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1821,
+   "score": 80,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A lamp dimmer and a remote that work together right out of the box.",
+   "pros": [
+    "Pico remote included",
+    "4.7 stars from 1,821 reviews",
+    "Works without the bridge"
+   ],
+   "cons": [
+    "App and voice need the Smart Bridge",
+    "$54.95",
+    "Lamps only"
+   ],
+   "specs": {
+    "type": "Plug-in lamp dimmer",
+    "in_box": "Dimmer and Pico remote",
+    "load": "Dimmable LED and incandescent lamps"
+   },
+   "features": {
+    "pico": true,
+    "bridge": false,
+    "outdoor": false,
+    "multi": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61al3qdgnTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00JJY1QG0?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-plug-in-dimmers.html#B00JJY1QG0"
+  },
+  {
    "rank": 5,
    "asin": "B00KHSXB60",
    "name": "Lutron Caseta Smart Plug-In Lamp Dimmer (Smart Hub Required) for LED Bulbs",
@@ -281,7 +281,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1425,
-   "score": 68,
+   "score": 72,
    "awards": [],
    "works_with": [
     "Apple Home",

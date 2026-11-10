@@ -28,7 +28,7 @@
    "multi_sensor": 0.25,
    "no_sub": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 178,
-   "score": 86,
+   "score": 96,
    "awards": [],
    "works_with": [],
    "works_with_note": "GoveeLife app",
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2138,
-   "score": 84,
+   "score": 89,
    "awards": [],
    "works_with": [],
    "works_with_note": "MOCREO app",
@@ -164,56 +164,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0B5KF2J34",
-   "name": "Govee WiFi Thermometer Hygrometer H5103 with Electronic Ink Display",
-   "brand": "Govee",
-   "model": "H5103 (E-Ink)",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1992,
-   "score": 82,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "The Wi-Fi Govee with an E-Ink screen you can read at a glance.",
-   "pros": [
-    "E-Ink display",
-    "Direct Wi-Fi",
-    "2K+ bought in the past month"
-   ],
-   "cons": [
-    "$39.99",
-    "4.3 stars",
-    "13 days of online graphs"
-   ],
-   "specs": {
-    "connection": "Wi-Fi + Bluetooth",
-    "accuracy": "±0.54°F",
-    "display": "E-Ink",
-    "pack": "1 sensor",
-    "extras": "About 6 months battery, per listing"
-   },
-   "features": {
-    "display": true,
-    "accuracy": true,
-    "multi_sensor": false,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61DOvCvdwvL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B5KF2J34?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0B5KF2J34"
-  },
-  {
-   "rank": 4,
    "asin": "B0G7VC5D3F",
    "name": "X-Sense Smart Wi-Fi Thermometer Hygrometer, 3 Sensors & Base Station",
    "brand": "X-Sense",
@@ -222,7 +172,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 570,
-   "score": 82,
+   "score": 89,
    "awards": [
     "Best Budget"
    ],
@@ -264,7 +214,212 @@
    "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0G7VC5D3F"
   },
   {
+   "rank": 4,
+   "asin": "B0B5KF2J34",
+   "name": "Govee WiFi Thermometer Hygrometer H5103 with Electronic Ink Display",
+   "brand": "Govee",
+   "model": "H5103 (E-Ink)",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1992,
+   "score": 87,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "The Wi-Fi Govee with an E-Ink screen you can read at a glance.",
+   "pros": [
+    "E-Ink display",
+    "Direct Wi-Fi",
+    "2K+ bought in the past month"
+   ],
+   "cons": [
+    "$39.99",
+    "4.3 stars",
+    "13 days of online graphs"
+   ],
+   "specs": {
+    "connection": "Wi-Fi + Bluetooth",
+    "accuracy": "±0.54°F",
+    "display": "E-Ink",
+    "pack": "1 sensor",
+    "extras": "About 6 months battery, per listing"
+   },
+   "features": {
+    "display": true,
+    "accuracy": true,
+    "multi_sensor": false,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61DOvCvdwvL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B5KF2J34?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0B5KF2J34"
+  },
+  {
    "rank": 5,
+   "asin": "B0DQ88P15G",
+   "name": "GoveeLife 2.0 WiFi Hygrometer Thermometer with Gateway, Mini Sensor 3-Pack",
+   "brand": "GoveeLife",
+   "model": "2.0 Gateway + 3 mini sensors",
+   "price": 49.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 767,
+   "score": 87,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "GoveeLife app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "Three small sensors and a gateway, with app and email alerts.",
+   "pros": [
+    "3 sensors, room for 10 on one gateway",
+    "App and email alerts",
+    "1K+ bought in the past month"
+   ],
+   "cons": [
+    "No displays",
+    "Needs the gateway plugged in",
+    "4.3 stars"
+   ],
+   "specs": {
+    "connection": "Gateway on Wi-Fi",
+    "accuracy": "±0.54°F, ±3% RH",
+    "display": "No display",
+    "pack": "3 sensors + gateway",
+    "extras": "Up to 10 sensors per gateway"
+   },
+   "features": {
+    "display": false,
+    "accuracy": true,
+    "multi_sensor": true,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/614TshOULwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQ88P15G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0DQ88P15G"
+  },
+  {
+   "rank": 6,
+   "asin": "B0F245PNYH",
+   "name": "YoLink Freezer Thermometer Hygrometer Kit: 3-Pack + Hub",
+   "brand": "YoLink",
+   "model": "Freezer thermometer kit (3 + hub)",
+   "price": 79.59,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 978,
+   "score": 85,
+   "awards": [
+    "Best for Freezers and Outbuildings"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "900+ bought in past month",
+   "verdict": "Long-range LoRa sensors that reach detached garages and freezers, with years of battery life.",
+   "pros": [
+    "LoRa reaches farther than Wi-Fi",
+    "Up to 5 years on AA batteries",
+    "Text, email, and push alerts",
+    "4.7 stars, 900+ bought in the past month"
+   ],
+   "cons": [
+    "Alexa reports temperature only",
+    "Needs the YoLink hub",
+    "Accuracy isn't in the bullets"
+   ],
+   "specs": {
+    "connection": "LoRa to hub on Wi-Fi/Ethernet",
+    "accuracy": "Not stated in bullets",
+    "display": "Not listed",
+    "pack": "3 sensors + hub",
+    "extras": "Up to 5-year AA battery"
+   },
+   "features": {
+    "display": false,
+    "accuracy": false,
+    "multi_sensor": true,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61VUhrQ2TbL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F245PNYH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0F245PNYH"
+  },
+  {
+   "rank": 7,
+   "asin": "B0872ZWV8X",
+   "name": "Govee WiFi Thermometer Hygrometer H5179 with App Notification Alert",
+   "brand": "Govee",
+   "model": "H5179",
+   "price": 31.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 7928,
+   "score": 81,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "The best-selling Wi-Fi sensor: no gateway, accurate, and cheap.",
+   "pros": [
+    "Connects straight to Wi-Fi, no gateway",
+    "±0.54°F and ±3% RH",
+    "7,928 reviews, 3K+ bought in the past month",
+    "Export up to 2 years of data"
+   ],
+   "cons": [
+    "No display",
+    "20 days of online history",
+    "Voice assistants aren't named in the bullets"
+   ],
+   "specs": {
+    "connection": "Wi-Fi + Bluetooth",
+    "accuracy": "±0.54°F, ±3% RH",
+    "display": "No display",
+    "pack": "1 sensor",
+    "extras": "2 years of data export"
+   },
+   "features": {
+    "display": false,
+    "accuracy": true,
+    "multi_sensor": false,
+    "no_sub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61UNq0X0rwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0872ZWV8X?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0872ZWV8X"
+  },
+  {
+   "rank": 8,
    "asin": "B0CCP6HLN5",
    "name": "SwitchBot Wi-Fi Humidity Sensor 4-Pack with Hub 2 (Matter), IP65 Indoor/Outdoor Thermometer",
    "brand": "SwitchBot",
@@ -320,161 +475,6 @@
    "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0CCP6HLN5"
   },
   {
-   "rank": 6,
-   "asin": "B0872ZWV8X",
-   "name": "Govee WiFi Thermometer Hygrometer H5179 with App Notification Alert",
-   "brand": "Govee",
-   "model": "H5179",
-   "price": 31.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 7928,
-   "score": 80,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "The best-selling Wi-Fi sensor: no gateway, accurate, and cheap.",
-   "pros": [
-    "Connects straight to Wi-Fi, no gateway",
-    "±0.54°F and ±3% RH",
-    "7,928 reviews, 3K+ bought in the past month",
-    "Export up to 2 years of data"
-   ],
-   "cons": [
-    "No display",
-    "20 days of online history",
-    "Voice assistants aren't named in the bullets"
-   ],
-   "specs": {
-    "connection": "Wi-Fi + Bluetooth",
-    "accuracy": "±0.54°F, ±3% RH",
-    "display": "No display",
-    "pack": "1 sensor",
-    "extras": "2 years of data export"
-   },
-   "features": {
-    "display": false,
-    "accuracy": true,
-    "multi_sensor": false,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61UNq0X0rwL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0872ZWV8X?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0872ZWV8X"
-  },
-  {
-   "rank": 7,
-   "asin": "B0DQ88P15G",
-   "name": "GoveeLife 2.0 WiFi Hygrometer Thermometer with Gateway, Mini Sensor 3-Pack",
-   "brand": "GoveeLife",
-   "model": "2.0 Gateway + 3 mini sensors",
-   "price": 49.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 767,
-   "score": 79,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "GoveeLife app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Three small sensors and a gateway, with app and email alerts.",
-   "pros": [
-    "3 sensors, room for 10 on one gateway",
-    "App and email alerts",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "No displays",
-    "Needs the gateway plugged in",
-    "4.3 stars"
-   ],
-   "specs": {
-    "connection": "Gateway on Wi-Fi",
-    "accuracy": "±0.54°F, ±3% RH",
-    "display": "No display",
-    "pack": "3 sensors + gateway",
-    "extras": "Up to 10 sensors per gateway"
-   },
-   "features": {
-    "display": false,
-    "accuracy": true,
-    "multi_sensor": true,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/614TshOULwL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQ88P15G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0DQ88P15G"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F245PNYH",
-   "name": "YoLink Freezer Thermometer Hygrometer Kit: 3-Pack + Hub",
-   "brand": "YoLink",
-   "model": "Freezer thermometer kit (3 + hub)",
-   "price": 79.59,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 978,
-   "score": 78,
-   "awards": [
-    "Best for Freezers and Outbuildings"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "900+ bought in past month",
-   "verdict": "Long-range LoRa sensors that reach detached garages and freezers, with years of battery life.",
-   "pros": [
-    "LoRa reaches farther than Wi-Fi",
-    "Up to 5 years on AA batteries",
-    "Text, email, and push alerts",
-    "4.7 stars, 900+ bought in the past month"
-   ],
-   "cons": [
-    "Alexa reports temperature only",
-    "Needs the YoLink hub",
-    "Accuracy isn't in the bullets"
-   ],
-   "specs": {
-    "connection": "LoRa to hub on Wi-Fi/Ethernet",
-    "accuracy": "Not stated in bullets",
-    "display": "Not listed",
-    "pack": "3 sensors + hub",
-    "extras": "Up to 5-year AA battery"
-   },
-   "features": {
-    "display": false,
-    "accuracy": false,
-    "multi_sensor": true,
-    "no_sub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61VUhrQ2TbL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F245PNYH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-temperature-sensors.html#B0F245PNYH"
-  },
-  {
    "rank": 9,
    "asin": "B01HH7YD2Y",
    "name": "Temp Stick Remote WiFi Temperature & Humidity Sensor, No Subscription, Text/App/Email Alerts",
@@ -484,7 +484,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 3963,
-   "score": 73,
+   "score": 76,
    "awards": [
     "Best for Vacation Homes"
    ],
@@ -535,7 +535,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 799,
-   "score": 62,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

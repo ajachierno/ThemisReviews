@@ -28,7 +28,7 @@
    "pico": 0.25,
    "pro": 0.15
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,117 +66,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B07G5V6M6G",
-   "name": "Lutron Caseta Smart Dimmer Starter Kit w/ 1 OG Dimmer, Pico, Bracket & Hub",
-   "brand": "Lutron",
-   "model": "Caseta Smart Dimmer Starter Kit",
-   "price": 91.95,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2704,
-   "score": 93,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Apple Home",
-    "Google Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "The best way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
-   "pros": [
-    "Hub, dimmer, and Pico in one box",
-    "4.7 stars from 2,704 reviews",
-    "Sold by Amazon, 400+ bought in the past month",
-    "Works without Wi-Fi"
-   ],
-   "cons": [
-    "Standard hub, no integration port",
-    "Only one dimmer",
-    "Dimmers need a compatible load"
-   ],
-   "specs": {
-    "bridge": "Smart Hub",
-    "controls": "1 dimmer",
-    "pico": true,
-    "extras": "Wall plate bracket"
-   },
-   "features": {
-    "hub": true,
-    "switch": true,
-    "pico": true,
-    "pro": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51o7rnFLe8L._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07G5V6M6G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-bridges.html#B07G5V6M6G"
-  },
-  {
-   "rank": 2,
-   "asin": "B01M3XJUAD",
-   "name": "Lutron Caseta Deluxe Smart Dimmer Starter Kit; 2 Smart Dimmers, Hub & More",
-   "brand": "Lutron",
-   "model": "Caseta Deluxe Smart Dimmer Kit",
-   "price": 151.9,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2586,
-   "score": 93,
-   "awards": [
-    "Best Whole-Room Kit"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Apple Home",
-    "Google Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Two dimmers and two Picos with the hub, enough for two rooms.",
-   "pros": [
-    "Two dimmers and two Pico remotes",
-    "4.7 stars from 2,586 reviews",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "$151.90",
-    "Standard hub, no integration port",
-    "Dimmers need a compatible load"
-   ],
-   "specs": {
-    "bridge": "Smart Hub",
-    "controls": "2 dimmers",
-    "pico": true,
-    "extras": "2 wallplates"
-   },
-   "features": {
-    "hub": true,
-    "switch": true,
-    "pico": true,
-    "pro": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51swqnRssZL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01M3XJUAD?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-bridges.html#B01M3XJUAD"
-  },
-  {
-   "rank": 3,
    "asin": "B01AVLTHY2",
    "name": "Lutron 1111111221 Caseta Pro Wireless Smart Bridge Home Lighting Kit",
    "brand": "Lutron",
@@ -185,7 +74,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 171,
-   "score": 87,
+   "score": 96,
    "awards": [
     "Best for Hubitat and Pros"
    ],
@@ -232,6 +121,117 @@
    "page_url": "https://themisreviews.com/lutron-bridges.html#B01AVLTHY2"
   },
   {
+   "rank": 2,
+   "asin": "B07G5V6M6G",
+   "name": "Lutron Caseta Smart Dimmer Starter Kit w/ 1 OG Dimmer, Pico, Bracket & Hub",
+   "brand": "Lutron",
+   "model": "Caseta Smart Dimmer Starter Kit",
+   "price": 91.95,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2704,
+   "score": 94,
+   "awards": [
+    "Best Overall"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Apple Home",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The best way to start Caseta: the hub, a dimmer, and a Pico remote for about $21 more than the hub alone.",
+   "pros": [
+    "Hub, dimmer, and Pico in one box",
+    "4.7 stars from 2,704 reviews",
+    "Sold by Amazon, 400+ bought in the past month",
+    "Works without Wi-Fi"
+   ],
+   "cons": [
+    "Standard hub, no integration port",
+    "Only one dimmer",
+    "Dimmers need a compatible load"
+   ],
+   "specs": {
+    "bridge": "Smart Hub",
+    "controls": "1 dimmer",
+    "pico": true,
+    "extras": "Wall plate bracket"
+   },
+   "features": {
+    "hub": true,
+    "switch": true,
+    "pico": true,
+    "pro": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51o7rnFLe8L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07G5V6M6G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-bridges.html#B07G5V6M6G"
+  },
+  {
+   "rank": 3,
+   "asin": "B01M3XJUAD",
+   "name": "Lutron Caseta Deluxe Smart Dimmer Starter Kit; 2 Smart Dimmers, Hub & More",
+   "brand": "Lutron",
+   "model": "Caseta Deluxe Smart Dimmer Kit",
+   "price": 151.9,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2586,
+   "score": 94,
+   "awards": [
+    "Best Whole-Room Kit"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Apple Home",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Two dimmers and two Picos with the hub, enough for two rooms.",
+   "pros": [
+    "Two dimmers and two Pico remotes",
+    "4.7 stars from 2,586 reviews",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$151.90",
+    "Standard hub, no integration port",
+    "Dimmers need a compatible load"
+   ],
+   "specs": {
+    "bridge": "Smart Hub",
+    "controls": "2 dimmers",
+    "pico": true,
+    "extras": "2 wallplates"
+   },
+   "features": {
+    "hub": true,
+    "switch": true,
+    "pico": true,
+    "pro": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51swqnRssZL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01M3XJUAD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-bridges.html#B01M3XJUAD"
+  },
+  {
    "rank": 4,
    "asin": "B0BSHZ2CTD",
    "name": "Lutron Caseta Diva Smart Dimmer Starter Kit; Dimmer, Hub, Remote, & More",
@@ -241,7 +241,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 343,
-   "score": 85,
+   "score": 94,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -294,7 +294,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 330,
-   "score": 84,
+   "score": 93,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -339,6 +339,59 @@
   },
   {
    "rank": 6,
+   "asin": "B08FRPJFXQ",
+   "name": "Lutron Caseta Smart Switch Starter Kit; Smart Light Switch, Hub & Wallplate",
+   "brand": "Lutron",
+   "model": "Caseta Smart Switch Starter Kit",
+   "price": 83.95,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 287,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Apple Home",
+    "Google Home",
+    "SmartThings",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A starter kit with an on/off switch for fans and lights that shouldn't be dimmed.",
+   "pros": [
+    "On/off switch for non-dimmable loads",
+    "Hub and wallplate included",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "Neutral wire required",
+    "No Pico remote",
+    "4.5 stars from 287 reviews"
+   ],
+   "specs": {
+    "bridge": "Smart Hub",
+    "controls": "1 on/off switch",
+    "pico": false,
+    "extras": "Wallplate"
+   },
+   "features": {
+    "hub": true,
+    "switch": true,
+    "pico": false,
+    "pro": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51uHO02lZdL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08FRPJFXQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-bridges.html#B08FRPJFXQ"
+  },
+  {
+   "rank": 7,
    "asin": "B00XPW67ZM",
    "name": "Lutron Caseta Smart Hub Compatible with Alexa, Apple, Google Home, & More",
    "brand": "Lutron",
@@ -347,7 +400,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1967,
-   "score": 79,
+   "score": 80,
    "awards": [
     "Best Hub Only"
    ],
@@ -393,59 +446,6 @@
    "page_url": "https://themisreviews.com/lutron-bridges.html#B00XPW67ZM"
   },
   {
-   "rank": 7,
-   "asin": "B08FRPJFXQ",
-   "name": "Lutron Caseta Smart Switch Starter Kit; Smart Light Switch, Hub & Wallplate",
-   "brand": "Lutron",
-   "model": "Caseta Smart Switch Starter Kit",
-   "price": 83.95,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 287,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Apple Home",
-    "Google Home",
-    "SmartThings",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "A starter kit with an on/off switch for fans and lights that shouldn't be dimmed.",
-   "pros": [
-    "On/off switch for non-dimmable loads",
-    "Hub and wallplate included",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "Neutral wire required",
-    "No Pico remote",
-    "4.5 stars from 287 reviews"
-   ],
-   "specs": {
-    "bridge": "Smart Hub",
-    "controls": "1 on/off switch",
-    "pico": false,
-    "extras": "Wallplate"
-   },
-   "features": {
-    "hub": true,
-    "switch": true,
-    "pico": false,
-    "pro": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51uHO02lZdL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08FRPJFXQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-bridges.html#B08FRPJFXQ"
-  },
-  {
    "rank": 8,
    "asin": "B084CMKTG3",
    "name": "Lutron Caseta Smart Hub Repeater, Expands The Range of Caseta Up to 60 Feet",
@@ -455,7 +455,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 448,
-   "score": 65,
+   "score": 72,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

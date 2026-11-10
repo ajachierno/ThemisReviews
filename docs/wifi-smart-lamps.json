@@ -28,7 +28,7 @@
    "white": 0.25,
    "ic": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -66,6 +66,61 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GQTF4X6H",
+   "name": "Govee Lantern Floor Lamp, Halo Gradient RGBIC Smart Corner Lamp for Bedroom",
+   "brand": "Govee",
+   "model": "Lantern Floor Lamp",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 404,
+   "score": 98,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "A soft glowing lantern that looks good switched off.",
+   "pros": [
+    "4.8 stars",
+    "Touch-sensitive shade",
+    "Matter"
+   ],
+   "cons": [
+    "Only 404 reviews",
+    "$129.99",
+    "Decor light more than reading light"
+   ],
+   "specs": {
+    "style": "Lantern, silicone shade",
+    "brightness": "1,400 lm",
+    "color": "RGBIC + 1,000K–10,000K",
+    "extras": "Touch control on the shade"
+   },
+   "features": {
+    "matter": true,
+    "bright": true,
+    "white": true,
+    "ic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81+PY+wR8TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GQTF4X6H?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0GQTF4X6H"
+  },
+  {
+   "rank": 2,
    "asin": "B0F3NZ12GL",
    "name": "Govee Uplighter Floor Lamp for Living Room, RGBIC Ripple Projector",
    "brand": "Govee",
@@ -74,7 +129,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1506,
-   "score": 89,
+   "score": 96,
    "awards": [
     "Best Overall"
    ],
@@ -122,61 +177,6 @@
    "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0F3NZ12GL"
   },
   {
-   "rank": 2,
-   "asin": "B0GQTF4X6H",
-   "name": "Govee Lantern Floor Lamp, Halo Gradient RGBIC Smart Corner Lamp for Bedroom",
-   "brand": "Govee",
-   "model": "Lantern Floor Lamp",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 404,
-   "score": 88,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A soft glowing lantern that looks good switched off.",
-   "pros": [
-    "4.8 stars",
-    "Touch-sensitive shade",
-    "Matter"
-   ],
-   "cons": [
-    "Only 404 reviews",
-    "$129.99",
-    "Decor light more than reading light"
-   ],
-   "specs": {
-    "style": "Lantern, silicone shade",
-    "brightness": "1,400 lm",
-    "color": "RGBIC + 1,000K–10,000K",
-    "extras": "Touch control on the shade"
-   },
-   "features": {
-    "matter": true,
-    "bright": true,
-    "white": true,
-    "ic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81+PY+wR8TL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GQTF4X6H?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0GQTF4X6H"
-  },
-  {
    "rank": 3,
    "asin": "B0GQXN36K5",
    "name": "Govee Floor Lamp 3 Lite, Smart RGBIC LED Corner Lamp for Living Room",
@@ -186,7 +186,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 199,
-   "score": 84,
+   "score": 96,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -241,7 +241,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 744,
-   "score": 82,
+   "score": 91,
    "awards": [
     "Best for Reading"
    ],
@@ -290,6 +290,56 @@
   },
   {
    "rank": 5,
+   "asin": "B0DNMV22L2",
+   "name": "Corner Floor Lamp, 1500 lm RGBW, Works with Alexa and Google Assistant, Music Sync, App Control, Silver Grey",
+   "brand": "Ailofy",
+   "model": "Corner Floor Lamp (1,500 lm)",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 278,
+   "score": 87,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Ailofy app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A bright 1,500 lm color corner lamp.",
+   "pros": [
+    "$59.99",
+    "1,500 lm",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "Only 278 reviews",
+    "Lesser-known brand",
+    "No Matter"
+   ],
+   "specs": {
+    "style": "Corner pole",
+    "brightness": "1,500 lm",
+    "color": "RGBW",
+    "extras": "Music sync, 30+ scenes"
+   },
+   "features": {
+    "matter": false,
+    "bright": true,
+    "white": true,
+    "ic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71OnyqtQZkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DNMV22L2?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0DNMV22L2"
+  },
+  {
+   "rank": 6,
    "asin": "B0BLSGHRXB",
    "name": "Govee RGBIC Floor Lamp, 1000lm LED Corner Lamp",
    "brand": "Govee",
@@ -298,7 +348,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 12194,
-   "score": 79,
+   "score": 81,
    "awards": [
     "Most Popular"
    ],
@@ -341,7 +391,7 @@
    "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0BLSGHRXB"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B09W8WLQ19",
    "name": "YHW Smart RGB LED Floor Lamp, Wi-Fi, Works with Alexa and Google Home, 2000 lm Dimmable Torchiere with Remote, Black",
    "brand": "YHW",
@@ -350,7 +400,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 2304,
-   "score": 74,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -391,56 +441,6 @@
    "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B09W8WLQ19"
   },
   {
-   "rank": 7,
-   "asin": "B0DNMV22L2",
-   "name": "Corner Floor Lamp, 1500 lm RGBW, Works with Alexa and Google Assistant, Music Sync, App Control, Silver Grey",
-   "brand": "Ailofy",
-   "model": "Corner Floor Lamp (1,500 lm)",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 278,
-   "score": 74,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Ailofy app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A bright 1,500 lm color corner lamp.",
-   "pros": [
-    "$59.99",
-    "1,500 lm",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "Only 278 reviews",
-    "Lesser-known brand",
-    "No Matter"
-   ],
-   "specs": {
-    "style": "Corner pole",
-    "brightness": "1,500 lm",
-    "color": "RGBW",
-    "extras": "Music sync, 30+ scenes"
-   },
-   "features": {
-    "matter": false,
-    "bright": true,
-    "white": true,
-    "ic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71OnyqtQZkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DNMV22L2?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-smart-lamps.html#B0DNMV22L2"
-  },
-  {
    "rank": 8,
    "asin": "B0DB1739S4",
    "name": "Corner Floor Lamp, Alexa Compatible, RGBICW, Music Sync",
@@ -450,7 +450,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1224,
-   "score": 71,
+   "score": 79,
    "awards": [
     "Best Budget"
    ],
@@ -502,7 +502,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 435,
-   "score": 63,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -552,7 +552,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 333,
-   "score": 61,
+   "score": 73,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

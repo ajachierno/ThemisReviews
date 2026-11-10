@@ -28,7 +28,7 @@
    "big_platforms": 0.3,
    "energy": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 364,
-   "score": 84,
+   "score": 96,
    "awards": [
     "Best for Apple Home"
    ],
@@ -131,7 +131,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 9484,
-   "score": 82,
+   "score": 84,
    "awards": [
     "Best Overall"
    ],
@@ -176,59 +176,6 @@
   },
   {
    "rank": 3,
-   "asin": "B083JKSSR5",
-   "name": "Kasa KP303 Smart Plug Power Strip, Surge Protector, 3 Smart Outlets and 2 USB Ports, Alexa and Google Home",
-   "brand": "Kasa",
-   "model": "KP303 Smart Power Strip",
-   "price": 24.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 16527,
-   "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "2K+ bought in past month",
-   "verdict": "A compact three-outlet strip for a nightstand or TV stand.",
-   "pros": [
-    "$24.98",
-    "16,527 reviews",
-    "Surge protection"
-   ],
-   "cons": [
-    "3 outlets",
-    "No Apple Home",
-    "No energy monitoring"
-   ],
-   "specs": {
-    "outlets": "3 smart",
-    "usb": "2 ports",
-    "surge": "ETL-certified",
-    "extras": "Not stated in bullets"
-   },
-   "features": {
-    "many": false,
-    "surge": true,
-    "big_platforms": false,
-    "energy": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61yUqv7M9VL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B083JKSSR5?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-power-strips.html#B083JKSSR5"
-  },
-  {
-   "rank": 4,
    "asin": "B0CYGSFFFW",
    "name": "Tapo Smart Plug Outlet Extender, P306, 3 Individual Smart Outlets",
    "brand": "Tapo",
@@ -237,7 +184,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 663,
-   "score": 74,
+   "score": 84,
    "awards": [
     "Best Outlet Extender"
    ],
@@ -282,7 +229,7 @@
    "page_url": "https://themisreviews.com/wifi-power-strips.html#B0CYGSFFFW"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B0CP4D62RX",
    "name": "Geeni Surge Ultra Smart 8-Outlet Surge Protector, No Hub, 6 ft. Cord, Black",
    "brand": "Geeni",
@@ -291,7 +238,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 543,
-   "score": 71,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -332,57 +279,60 @@
    "page_url": "https://themisreviews.com/wifi-power-strips.html#B0CP4D62RX"
   },
   {
-   "rank": 6,
-   "asin": "B0B9WQL3FD",
-   "name": "GHome Smart Outlet Extender, 3 Smart Outlets and 3 Smart USB Ports, Works with Alexa and Google Home, 15A",
-   "brand": "GHome",
-   "model": "Smart Outlet Extender",
-   "price": 29.99,
+   "rank": 5,
+   "asin": "B083JKSSR5",
+   "name": "Kasa KP303 Smart Plug Power Strip, Surge Protector, 3 Smart Outlets and 2 USB Ports, Alexa and Google Home",
+   "brand": "Kasa",
+   "model": "KP303 Smart Power Strip",
+   "price": 24.98,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1719,
-   "score": 68,
-   "awards": [],
+   "rating": 4.6,
+   "reviews_count": 16527,
+   "score": 78,
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
-    "Google Home"
+    "Google Home",
+    "Home Assistant"
    ],
-   "works_with_note": "GHome app",
+   "works_with_note": null,
    "works_without": {
     "neutral_wire": false,
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "A cheaper wall-plug extender with smart USB ports.",
+   "bought_last_month": "2K+ bought in past month",
+   "verdict": "A compact three-outlet strip for a nightstand or TV stand.",
    "pros": [
-    "$29.99",
-    "1,719 reviews",
-    "Smart USB ports"
+    "$24.98",
+    "16,527 reviews",
+    "Surge protection"
    ],
    "cons": [
-    "USB ports switch as a group",
+    "3 outlets",
     "No Apple Home",
-    "Surge protection isn't in the bullets"
+    "No energy monitoring"
    ],
    "specs": {
-    "outlets": "3 smart + 3 always on",
-    "usb": "3 smart (grouped)",
-    "surge": "Not stated in bullets",
-    "extras": "Plugs into the wall"
+    "outlets": "3 smart",
+    "usb": "2 ports",
+    "surge": "ETL-certified",
+    "extras": "Not stated in bullets"
    },
    "features": {
-    "many": true,
-    "surge": false,
+    "many": false,
+    "surge": true,
     "big_platforms": false,
     "energy": false
    },
-   "image": "https://m.media-amazon.com/images/I/51iqEWtr35L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B9WQL3FD?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0B9WQL3FD"
+   "image": "https://m.media-amazon.com/images/I/61yUqv7M9VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B083JKSSR5?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B083JKSSR5"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B097NJ8Y4N",
    "name": "BN-LINK Smart Plug Power Strip, Surge Protector, 6 Smart Outlets, 4 USB (incl. 20W USB-C), Alexa and Google Home",
    "brand": "BN-LINK",
@@ -391,7 +341,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 629,
-   "score": 68,
+   "score": 78,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -432,6 +382,56 @@
    "page_url": "https://themisreviews.com/wifi-power-strips.html#B097NJ8Y4N"
   },
   {
+   "rank": 7,
+   "asin": "B0B9WQL3FD",
+   "name": "GHome Smart Outlet Extender, 3 Smart Outlets and 3 Smart USB Ports, Works with Alexa and Google Home, 15A",
+   "brand": "GHome",
+   "model": "Smart Outlet Extender",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1719,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "GHome app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "A cheaper wall-plug extender with smart USB ports.",
+   "pros": [
+    "$29.99",
+    "1,719 reviews",
+    "Smart USB ports"
+   ],
+   "cons": [
+    "USB ports switch as a group",
+    "No Apple Home",
+    "Surge protection isn't in the bullets"
+   ],
+   "specs": {
+    "outlets": "3 smart + 3 always on",
+    "usb": "3 smart (grouped)",
+    "surge": "Not stated in bullets",
+    "extras": "Plugs into the wall"
+   },
+   "features": {
+    "many": true,
+    "surge": false,
+    "big_platforms": false,
+    "energy": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51iqEWtr35L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B9WQL3FD?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-power-strips.html#B0B9WQL3FD"
+  },
+  {
    "rank": 8,
    "asin": "B0C453CLSY",
    "name": "Amazon Basics Smart Plug Power Strip, 6 Individually Controlled Outlets, 3 USB Ports, Works with Alexa Only",
@@ -441,7 +441,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 703,
-   "score": 65,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -490,7 +490,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 378,
-   "score": 63,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

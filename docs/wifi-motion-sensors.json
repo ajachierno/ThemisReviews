@@ -27,7 +27,7 @@
    "usb_option": 0.3,
    "voice": 0.3
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,6 +65,58 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0CNRRT45G",
+   "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor",
+   "brand": "GoveeLife",
+   "model": "Human Presence Sensor",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 263,
+   "score": 83,
+   "awards": [
+    "Best Presence Sensor"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A wired presence sensor that combines radar and infrared to tell the difference between people and moving appliances.",
+   "pros": [
+    "Detects people sitting still",
+    "Filters out appliances and plants",
+    "Alexa, Google, and IFTTT"
+   ],
+   "cons": [
+    "Wired power",
+    "3.9 stars",
+    "$39.99"
+   ],
+   "specs": {
+    "type": "Presence (mmWave + PIR)",
+    "power": "Wired",
+    "range": "Not listed",
+    "app": "Govee Home",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "presence": true,
+    "usb_option": false,
+    "voice": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61s-kBHk9BL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CNRRT45G?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0CNRRT45G"
+  },
+  {
+   "rank": 2,
    "asin": "B0GD6ND4C7",
    "name": "WiFi Motion Sensor, Smart PIR Motion Detector with Instant App Alerts",
    "brand": "Cotinse",
@@ -73,7 +125,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 272,
-   "score": 77,
+   "score": 80,
    "awards": [
     "Best Overall"
    ],
@@ -117,22 +169,21 @@
    "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0GD6ND4C7"
   },
   {
-   "rank": 2,
-   "asin": "B0CNRRT45G",
-   "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor",
-   "brand": "GoveeLife",
-   "model": "Human Presence Sensor",
-   "price": 39.99,
+   "rank": 3,
+   "asin": "B0H2QYVWZ7",
+   "name": "Akamatis Litos v3 Human Presence & Light Sensor, mmWave, 2.4 GHz Wi-Fi, for Home Assistant",
+   "brand": "Akamatis",
+   "model": "Litos v3",
+   "price": 26.99,
    "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 263,
-   "score": 77,
+   "rating": 4.4,
+   "reviews_count": 41,
+   "score": 75,
    "awards": [
-    "Best Presence Sensor"
+    "Best for Home Assistant"
    ],
    "works_with": [
-    "Amazon Alexa",
-    "Google Home"
+    "Home Assistant"
    ],
    "works_with_note": null,
    "works_without": {
@@ -140,36 +191,36 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A wired presence sensor that combines radar and infrared to tell the difference between people and moving appliances.",
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A small ESP32 presence and light sensor made only for Home Assistant, fully local.",
    "pros": [
-    "Detects people sitting still",
-    "Filters out appliances and plants",
-    "Alexa, Google, and IFTTT"
+    "24 GHz mmWave presence and a light sensor",
+    "Local control in Home Assistant",
+    "4.4 stars, 50+ bought in the past month"
    ],
    "cons": [
-    "Wired power",
-    "3.9 stars",
-    "$39.99"
+    "Works only with Home Assistant",
+    "Only 41 reviews",
+    "Needs an existing Home Assistant setup"
    ],
    "specs": {
-    "type": "Presence (mmWave + PIR)",
+    "type": "Presence (24 GHz mmWave)",
     "power": "Wired",
-    "range": "Not listed",
-    "app": "Govee Home",
+    "range": "Up to 20 ft (6 m)",
+    "app": "Home Assistant",
     "pack": "1 sensor"
    },
    "features": {
     "presence": true,
     "usb_option": false,
-    "voice": true
+    "voice": false
    },
-   "image": "https://m.media-amazon.com/images/I/61s-kBHk9BL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CNRRT45G?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0CNRRT45G"
+   "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0H2QYVWZ7"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B0CLY75LMK",
    "name": "WiFi Motion Sensor, Smart Motion Detector for Home Security, Wireless Motion Sensor App Remote Monitor, Voice Command Compatible with Alexa. 1 Pack",
    "brand": "Jiestar",
@@ -219,7 +270,7 @@
    "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0CLY75LMK"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0CQR8TDZV",
    "name": "WiFi Motion Sensor, Smart Motion Detector for Home Security, Wireless Motion Sensor App Remote Monitor, Voice Command Compatible with Alexa. 4 Pack",
    "brand": "Jiestar",
@@ -269,57 +320,6 @@
    "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0CQR8TDZV"
   },
   {
-   "rank": 5,
-   "asin": "B0H2QYVWZ7",
-   "name": "Akamatis Litos v3 Human Presence & Light Sensor, mmWave, 2.4 GHz Wi-Fi, for Home Assistant",
-   "brand": "Akamatis",
-   "model": "Litos v3",
-   "price": 26.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 41,
-   "score": 69,
-   "awards": [
-    "Best for Home Assistant"
-   ],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A small ESP32 presence and light sensor made only for Home Assistant, fully local.",
-   "pros": [
-    "24 GHz mmWave presence and a light sensor",
-    "Local control in Home Assistant",
-    "4.4 stars, 50+ bought in the past month"
-   ],
-   "cons": [
-    "Works only with Home Assistant",
-    "Only 41 reviews",
-    "Needs an existing Home Assistant setup"
-   ],
-   "specs": {
-    "type": "Presence (24 GHz mmWave)",
-    "power": "Wired",
-    "range": "Up to 20 ft (6 m)",
-    "app": "Home Assistant",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "presence": true,
-    "usb_option": false,
-    "voice": false
-   },
-   "image": "https://m.media-amazon.com/images/I/31Qnm10TMhL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H2QYVWZ7?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-motion-sensors.html#B0H2QYVWZ7"
-  },
-  {
    "rank": 6,
    "asin": "B0BZ4215GC",
    "name": "GoveeLife Wireless Smart Motion Sensor, Group Control Multiple Devices",
@@ -329,7 +329,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 451,
-   "score": 63,
+   "score": 67,
    "awards": [],
    "works_with": [],
    "works_with_note": "Govee Home app only",
@@ -376,7 +376,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 94,
-   "score": 61,
+   "score": 67,
    "awards": [
     "Best Budget"
    ],
@@ -428,7 +428,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 130,
-   "score": 59,
+   "score": 66,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

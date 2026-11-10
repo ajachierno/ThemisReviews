@@ -28,7 +28,7 @@
    "alarm": 0.2,
    "adjust": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -60,7 +60,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 624,
-   "score": 85,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -115,7 +115,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 624,
-   "score": 85,
+   "score": 87,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -168,7 +168,7 @@
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 4,
-   "score": 72,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -213,6 +213,55 @@
   },
   {
    "rank": 4,
+   "asin": "B0DPQL94K8",
+   "name": "Smart Vibration Sensor Alarm, Real-time Monitoring",
+   "brand": "Haozee",
+   "model": "Smart Vibration Sensor",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 36,
+   "score": 72,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "Tuya / Zigbee2MQTT",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A cheap vibration and tilt sensor that names Zigbee2MQTT support.",
+   "pros": [
+    "$14.99",
+    "Tilt detection",
+    "Zigbee2MQTT support"
+   ],
+   "cons": [
+    "Only 36 reviews",
+    "4.0 stars",
+    "Lesser-known brand"
+   ],
+   "specs": {
+    "detects": "Vibration, tilt",
+    "sensitivity": "Not stated in bullets",
+    "hub": "Zigbee gateway (Tuya or Zigbee2MQTT)",
+    "extras": "G-sensor"
+   },
+   "features": {
+    "open_hub": true,
+    "tilt": true,
+    "alarm": false,
+    "adjust": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51h9mNNfPJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DPQL94K8?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-vibration-sensors.html#B0DPQL94K8"
+  },
+  {
+   "rank": 5,
    "asin": "B07PJT939B",
    "name": "Aqara Zigbee Vibration Sensor, Wireless Mini Glass Break Detector",
    "brand": "Aqara",
@@ -265,55 +314,6 @@
    "page_url": "https://themisreviews.com/zigbee-vibration-sensors.html#B07PJT939B"
   },
   {
-   "rank": 5,
-   "asin": "B0DPQL94K8",
-   "name": "Smart Vibration Sensor Alarm, Real-time Monitoring",
-   "brand": "Haozee",
-   "model": "Smart Vibration Sensor",
-   "price": 14.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 36,
-   "score": 67,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "Tuya / Zigbee2MQTT",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A cheap vibration and tilt sensor that names Zigbee2MQTT support.",
-   "pros": [
-    "$14.99",
-    "Tilt detection",
-    "Zigbee2MQTT support"
-   ],
-   "cons": [
-    "Only 36 reviews",
-    "4.0 stars",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "detects": "Vibration, tilt",
-    "sensitivity": "Not stated in bullets",
-    "hub": "Zigbee gateway (Tuya or Zigbee2MQTT)",
-    "extras": "G-sensor"
-   },
-   "features": {
-    "open_hub": true,
-    "tilt": true,
-    "alarm": false,
-    "adjust": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51h9mNNfPJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DPQL94K8?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-vibration-sensors.html#B0DPQL94K8"
-  },
-  {
    "rank": 6,
    "asin": "B0G6ZH853W",
    "name": "Aqara Multi-State Sensor P100, Door and Window & Vibration Sensor, White",
@@ -323,7 +323,7 @@
    "currency": "USD",
    "rating": 3.0,
    "reviews_count": 126,
-   "score": 57,
+   "score": 63,
    "awards": [],
    "works_with": [
     "Home Assistant",

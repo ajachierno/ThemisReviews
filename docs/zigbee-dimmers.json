@@ -27,7 +27,7 @@
    "three_way": 0.35,
    "open_hub": 0.3
   },
-  "reviews_ceiling": 500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -59,7 +59,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 313,
-   "score": 80,
+   "score": 82,
    "awards": [
     "Best Overall"
    ],
@@ -115,7 +115,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 62,
-   "score": 73,
+   "score": 76,
    "awards": [
     "Most Flexible"
    ],
@@ -173,7 +173,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 33,
-   "score": 66,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",

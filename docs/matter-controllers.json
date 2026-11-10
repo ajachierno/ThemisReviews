@@ -28,7 +28,7 @@
    "local": 0.25,
    "screen": 0.15
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 1723,
-   "score": 85,
+   "score": 87,
    "awards": [
     "Best Overall"
    ],
@@ -124,20 +124,21 @@
   },
   {
    "rank": 2,
-   "asin": "B0BCR7M9KX",
-   "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Smart home hub compatible with thousands of devices",
-   "brand": "Amazon",
-   "model": "Echo Hub",
-   "price": 179.99,
+   "asin": "B0G52DX5M3",
+   "name": "Homey Pro (2026) Smart Home Hub with Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter & Thread",
+   "brand": "Homey",
+   "model": "Pro (2026)",
+   "price": 449.0,
    "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 1848,
-   "score": 82,
-   "awards": [
-    "Best for Alexa"
-   ],
+   "rating": 4.0,
+   "reviews_count": 75,
+   "score": 86,
+   "awards": [],
    "works_with": [
-    "Amazon Alexa"
+    "Homey Pro",
+    "Apple Home",
+    "Amazon Alexa",
+    "Google Home"
    ],
    "works_with_note": null,
    "works_without": {
@@ -145,34 +146,33 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": null,
-   "verdict": "A wall-mounted Alexa control panel with Zigbee, Thread, and Matter built in.",
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "Matter and Thread plus five other radios, for homes that want one hub for everything.",
    "pros": [
-    "8 in. dashboard you can customize",
-    "Zigbee, Thread, Matter, and Sidewalk built in",
-    "Arms and disarms compatible security systems",
-    "Sold by Amazon"
+    "Seven radio technologies",
+    "Works with Siri, Alexa, and Google",
+    "Local-first automations"
    ],
    "cons": [
-    "3.9 stars",
-    "Alexa only",
-    "Some features need Alexa+ or Ring subscriptions"
+    "$471",
+    "4.0 stars from 75 reviews",
+    "Overkill if you only need Matter"
    ],
    "specs": {
     "thread_br": true,
-    "radios": "Zigbee, Bluetooth, Sidewalk, Wi-Fi",
+    "radios": "Z-Wave, Zigbee, Wi-Fi, BLE, IR",
     "role": "Controller",
-    "extras": "8 in. wall-mount touchscreen"
+    "extras": "Local-first Homey Flow"
    },
    "features": {
     "thread_br": true,
     "extra_radios": true,
-    "local": false,
-    "screen": true
+    "local": true,
+    "screen": false
    },
-   "image": "https://m.media-amazon.com/images/I/71dg-Y67k5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BCR7M9KX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-controllers.html#B0BCR7M9KX"
+   "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-controllers.html#B0G52DX5M3"
   },
   {
    "rank": 3,
@@ -184,7 +184,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 1052,
-   "score": 82,
+   "score": 85,
    "awards": [
     "Best Budget"
    ],
@@ -234,21 +234,20 @@
   },
   {
    "rank": 4,
-   "asin": "B0G52DX5M3",
-   "name": "Homey Pro (2026) Smart Home Hub with Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter & Thread",
-   "brand": "Homey",
-   "model": "Pro (2026)",
-   "price": 449.0,
+   "asin": "B0BCR7M9KX",
+   "name": "Amazon Echo Hub (newest model), 8\", Redesigned with customizable control and Alexa+, Smart home hub compatible with thousands of devices",
+   "brand": "Amazon",
+   "model": "Echo Hub",
+   "price": 179.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 75,
-   "score": 76,
-   "awards": [],
+   "rating": 3.9,
+   "reviews_count": 1848,
+   "score": 84,
+   "awards": [
+    "Best for Alexa"
+   ],
    "works_with": [
-    "Homey Pro",
-    "Apple Home",
-    "Amazon Alexa",
-    "Google Home"
+    "Amazon Alexa"
    ],
    "works_with_note": null,
    "works_without": {
@@ -256,36 +255,143 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "Matter and Thread plus five other radios, for homes that want one hub for everything.",
+   "bought_last_month": null,
+   "verdict": "A wall-mounted Alexa control panel with Zigbee, Thread, and Matter built in.",
    "pros": [
-    "Seven radio technologies",
-    "Works with Siri, Alexa, and Google",
-    "Local-first automations"
+    "8 in. dashboard you can customize",
+    "Zigbee, Thread, Matter, and Sidewalk built in",
+    "Arms and disarms compatible security systems",
+    "Sold by Amazon"
    ],
    "cons": [
-    "$471",
-    "4.0 stars from 75 reviews",
-    "Overkill if you only need Matter"
+    "3.9 stars",
+    "Alexa only",
+    "Some features need Alexa+ or Ring subscriptions"
    ],
    "specs": {
     "thread_br": true,
-    "radios": "Z-Wave, Zigbee, Wi-Fi, BLE, IR",
+    "radios": "Zigbee, Bluetooth, Sidewalk, Wi-Fi",
     "role": "Controller",
-    "extras": "Local-first Homey Flow"
+    "extras": "8 in. wall-mount touchscreen"
    },
    "features": {
     "thread_br": true,
     "extra_radios": true,
-    "local": true,
-    "screen": false
+    "local": false,
+    "screen": true
    },
-   "image": "https://m.media-amazon.com/images/I/51MbbCMVMgL._SL1440_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G52DX5M3?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-controllers.html#B0G52DX5M3"
+   "image": "https://m.media-amazon.com/images/I/71dg-Y67k5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BCR7M9KX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-controllers.html#B0BCR7M9KX"
   },
   {
    "rank": 5,
+   "asin": "B0H7BQVT8F",
+   "name": "SONOFF Bridge Max Smart Home Hub (Bridge-M)",
+   "brand": "SONOFF",
+   "model": "Bridge Max (Bridge-M)",
+   "price": 59.9,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 75,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Bridges Zigbee and BTHome devices into Matter, with a local web console and no cloud.",
+   "pros": [
+    "Matter bridge for Alexa, Google, and Apple Home",
+    "Local web console",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Only 75 reviews",
+    "Bridge only, it can't control other Matter devices",
+    "$59.90"
+   ],
+   "specs": {
+    "thread_br": false,
+    "radios": "Zigbee, BTHome",
+    "role": "Bridge",
+    "extras": "90 dB alarm, local web console"
+   },
+   "features": {
+    "thread_br": false,
+    "extra_radios": true,
+    "local": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61K5+FIpVpL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7BQVT8F?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-controllers.html#B0H7BQVT8F"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CR4G1G8M",
+   "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
+   "brand": "Hubitat",
+   "model": "Elevation C-8 Pro",
+   "price": 229.95,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 403,
+   "score": 78,
+   "awards": [
+    "Best Local Hub"
+   ],
+   "works_with": [
+    "Hubitat Elevation",
+    "Amazon Alexa",
+    "Google Home",
+    "Apple Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "300+ bought in past month",
+   "verdict": "A local-first hub that runs Matter, Z-Wave, and Zigbee with no cloud and no subscription.",
+   "pros": [
+    "Automations run on the hub",
+    "Matter 1.5, Z-Wave Long Range, Zigbee, and Bluetooth",
+    "No subscription required"
+   ],
+   "cons": [
+    "4.0 stars",
+    "$229.95",
+    "A Thread border router isn't listed"
+   ],
+   "specs": {
+    "thread_br": false,
+    "radios": "Z-Wave 800 LR, Zigbee, Bluetooth",
+    "role": "Controller",
+    "extras": "No subscription"
+   },
+   "features": {
+    "thread_br": false,
+    "extra_radios": true,
+    "local": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/517X7B15XnL._SX342_SY445_QL70_FMwebp_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CR4G1G8M?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-controllers.html#B0CR4G1G8M"
+  },
+  {
+   "rank": 7,
    "asin": "B0FQJKH248",
    "name": "SwitchBot Hub 3 (3rd Gen) with Screen and Dial, IR Remote Hub, Matter Bridge, 2.4 GHz Wi-Fi",
    "brand": "SwitchBot",
@@ -340,165 +446,7 @@
    "page_url": "https://themisreviews.com/matter-controllers.html#B0FQJKH248"
   },
   {
-   "rank": 6,
-   "asin": "B0H7BQVT8F",
-   "name": "SONOFF Bridge Max Smart Home Hub (Bridge-M)",
-   "brand": "SONOFF",
-   "model": "Bridge Max (Bridge-M)",
-   "price": 59.9,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 75,
-   "score": 72,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Apple Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Bridges Zigbee and BTHome devices into Matter, with a local web console and no cloud.",
-   "pros": [
-    "Matter bridge for Alexa, Google, and Apple Home",
-    "Local web console",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Only 75 reviews",
-    "Bridge only, it can't control other Matter devices",
-    "$59.90"
-   ],
-   "specs": {
-    "thread_br": false,
-    "radios": "Zigbee, BTHome",
-    "role": "Bridge",
-    "extras": "90 dB alarm, local web console"
-   },
-   "features": {
-    "thread_br": false,
-    "extra_radios": true,
-    "local": true,
-    "screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61K5+FIpVpL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7BQVT8F?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-controllers.html#B0H7BQVT8F"
-  },
-  {
-   "rank": 7,
-   "asin": "B0CR4G1G8M",
-   "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
-   "brand": "Hubitat",
-   "model": "Elevation C-8 Pro",
-   "price": 229.95,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 403,
-   "score": 71,
-   "awards": [
-    "Best Local Hub"
-   ],
-   "works_with": [
-    "Hubitat Elevation",
-    "Amazon Alexa",
-    "Google Home",
-    "Apple Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "A local-first hub that runs Matter, Z-Wave, and Zigbee with no cloud and no subscription.",
-   "pros": [
-    "Automations run on the hub",
-    "Matter 1.5, Z-Wave Long Range, Zigbee, and Bluetooth",
-    "No subscription required"
-   ],
-   "cons": [
-    "4.0 stars",
-    "$229.95",
-    "A Thread border router isn't listed"
-   ],
-   "specs": {
-    "thread_br": false,
-    "radios": "Z-Wave 800 LR, Zigbee, Bluetooth",
-    "role": "Controller",
-    "extras": "No subscription"
-   },
-   "features": {
-    "thread_br": false,
-    "extra_radios": true,
-    "local": true,
-    "screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/517X7B15XnL._SX342_SY445_QL70_FMwebp_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CR4G1G8M?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-controllers.html#B0CR4G1G8M"
-  },
-  {
    "rank": 8,
-   "asin": "B0GRFML6M1",
-   "name": "Matter Smart Home Hub M1 Pro, Thread Border Router, Zigbee and IR Hub",
-   "brand": "Zemismart",
-   "model": "M1 Pro",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 9,
-   "score": 69,
-   "awards": [],
-   "works_with": [
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A Tuya Zigbee and IR hub that shares its devices with Apple, Google, Alexa, and SmartThings through Matter.",
-   "pros": [
-    "Thread border router, Zigbee, and IR",
-    "Ethernet or dual-band Wi-Fi",
-    "Local scenes keep running offline"
-   ],
-   "cons": [
-    "Only 9 reviews",
-    "First setup needs Ethernet",
-    "Sold by a reseller"
-   ],
-   "specs": {
-    "thread_br": true,
-    "radios": "Tuya Zigbee, IR, Ethernet, Wi-Fi",
-    "role": "Bridge and border router",
-    "extras": "Ethernet required for setup"
-   },
-   "features": {
-    "thread_br": true,
-    "extra_radios": true,
-    "local": true,
-    "screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51qSjqi991L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GRFML6M1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-controllers.html#B0GRFML6M1"
-  },
-  {
-   "rank": 9,
    "asin": "B0FNXCFN6J",
    "name": "Tapo Smart IR & IoT Hub w/ Chime, Matter-Certified, H110, Universal Remote",
    "brand": "Tapo",
@@ -507,7 +455,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 190,
-   "score": 66,
+   "score": 74,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -554,7 +502,7 @@
    "page_url": "https://themisreviews.com/matter-controllers.html#B0FNXCFN6J"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B0G3YCFLJT",
    "name": "Aeotec Smart Home Hub2 - V4, Works as a SmartThings Hub, Zigbee, Matter Gateway, Compatible with Alexa, Google Assistant, WiFi (No Z-Wave)",
    "brand": "Aeotec",
@@ -563,7 +511,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 49,
-   "score": 65,
+   "score": 74,
    "awards": [],
    "works_with": [
     "SmartThings",
@@ -604,6 +552,58 @@
    "image": "https://m.media-amazon.com/images/I/61-iyJorvrL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0G3YCFLJT?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-controllers.html#B0G3YCFLJT"
+  },
+  {
+   "rank": 10,
+   "asin": "B0GRFML6M1",
+   "name": "Matter Smart Home Hub M1 Pro, Thread Border Router, Zigbee and IR Hub",
+   "brand": "Zemismart",
+   "model": "M1 Pro",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 9,
+   "score": 73,
+   "awards": [],
+   "works_with": [
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A Tuya Zigbee and IR hub that shares its devices with Apple, Google, Alexa, and SmartThings through Matter.",
+   "pros": [
+    "Thread border router, Zigbee, and IR",
+    "Ethernet or dual-band Wi-Fi",
+    "Local scenes keep running offline"
+   ],
+   "cons": [
+    "Only 9 reviews",
+    "First setup needs Ethernet",
+    "Sold by a reseller"
+   ],
+   "specs": {
+    "thread_br": true,
+    "radios": "Tuya Zigbee, IR, Ethernet, Wi-Fi",
+    "role": "Bridge and border router",
+    "extras": "Ethernet required for setup"
+   },
+   "features": {
+    "thread_br": true,
+    "extra_radios": true,
+    "local": true,
+    "screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51qSjqi991L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GRFML6M1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-controllers.html#B0GRFML6M1"
   }
  ],
  "avoid": [

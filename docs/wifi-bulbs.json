@@ -27,7 +27,7 @@
    "bright": 0.4,
    "bluetooth": 0.2
   },
-  "reviews_ceiling": 28000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -73,7 +73,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 5904,
-   "score": 92,
+   "score": 96,
    "awards": [
     "Best Multipack"
    ],
@@ -117,6 +117,109 @@
   },
   {
    "rank": 2,
+   "asin": "B0CF25ZC4N",
+   "name": "Smart Bulbs 100W Work with Alexa/Google Home, 2 Pack",
+   "brand": "Lightinginside",
+   "model": "100 W eq. (2-pack)",
+   "price": 17.97,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 550,
+   "score": 89,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Bright 1,350 lm color bulbs on the Smart Life app, two for under $18.",
+   "pros": [
+    "1,350 lumens",
+    "Two for $17.97",
+    "Smart Life works with Home Assistant's Tuya integration"
+   ],
+   "cons": [
+    "Cloud-based Smart Life app",
+    "550 reviews",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "light": "Color + white",
+    "lumens": "1,350 lm",
+    "shape": "A19",
+    "app": "Smart Life",
+    "pack": "2 bulbs"
+   },
+   "features": {
+    "color": true,
+    "bright": true,
+    "bluetooth": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61-zbmdi4UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CF25ZC4N?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-bulbs.html#B0CF25ZC4N"
+  },
+  {
+   "rank": 3,
+   "asin": "B07X8QXR9L",
+   "name": "Feit Electric Smart Light Bulbs, A21 RGBW Color Changing, 100W Eq - 1 Pack",
+   "brand": "Feit Electric",
+   "model": "A21 RGBW 100 W eq.",
+   "price": 17.77,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 2001,
+   "score": 87,
+   "awards": [
+    "Brightest"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "The brightest bulb here at 1,600 lm, for rooms lit by a single fixture.",
+   "pros": [
+    "1,600 lumens, a 100 W equivalent",
+    "CRI 90+",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "A21 is longer than standard bulbs",
+    "4.1 stars",
+    "Feit app"
+   ],
+   "specs": {
+    "light": "Color + tunable white, CRI 90+",
+    "lumens": "1,600 lm",
+    "shape": "A21",
+    "app": "Feit Electric",
+    "pack": "1 bulb"
+   },
+   "features": {
+    "color": true,
+    "bright": true,
+    "bluetooth": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71uIDLnicVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07X8QXR9L?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-bulbs.html#B07X8QXR9L"
+  },
+  {
+   "rank": 4,
    "asin": "B0BC8N7QXN",
    "name": "Linkind Smart Light Bulbs, Work with Alexa, Google Home, AiDot",
    "brand": "Linkind",
@@ -125,7 +228,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 7915,
-   "score": 82,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -166,7 +269,7 @@
    "page_url": "https://themisreviews.com/wifi-bulbs.html#B0BC8N7QXN"
   },
   {
-   "rank": 3,
+   "rank": 5,
    "asin": "B09B7QNYHR",
    "name": "Govee Smart Light Bulbs, A19 LED Light Bulb, 800 Lumen, E26 Base",
    "brand": "Govee",
@@ -218,59 +321,7 @@
    "page_url": "https://themisreviews.com/wifi-bulbs.html#B09B7QNYHR"
   },
   {
-   "rank": 4,
-   "asin": "B07X8QXR9L",
-   "name": "Feit Electric Smart Light Bulbs, A21 RGBW Color Changing, 100W Eq - 1 Pack",
-   "brand": "Feit Electric",
-   "model": "A21 RGBW 100 W eq.",
-   "price": 17.77,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 2001,
-   "score": 79,
-   "awards": [
-    "Brightest"
-   ],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "500+ bought in past month",
-   "verdict": "The brightest bulb here at 1,600 lm, for rooms lit by a single fixture.",
-   "pros": [
-    "1,600 lumens, a 100 W equivalent",
-    "CRI 90+",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "A21 is longer than standard bulbs",
-    "4.1 stars",
-    "Feit app"
-   ],
-   "specs": {
-    "light": "Color + tunable white, CRI 90+",
-    "lumens": "1,600 lm",
-    "shape": "A21",
-    "app": "Feit Electric",
-    "pack": "1 bulb"
-   },
-   "features": {
-    "color": true,
-    "bright": true,
-    "bluetooth": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71uIDLnicVL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07X8QXR9L?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-bulbs.html#B07X8QXR9L"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0CG5VDC8P",
    "name": "Amazon Basics Smart A19 LED Light Bulb, Color Changing, 800LM, Wi-Fi, Works with Alexa Only, 1-Pack",
    "brand": "Amazon Basics",
@@ -279,7 +330,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 14765,
-   "score": 78,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -319,7 +370,7 @@
    "page_url": "https://themisreviews.com/wifi-bulbs.html#B0CG5VDC8P"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B08TB8Z5HF",
    "name": "Kasa Multicolor Dimmable Wi-Fi Smart Bulb, A19, KL125P4",
    "brand": "Kasa",
@@ -328,7 +379,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 11622,
-   "score": 77,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -370,57 +421,6 @@
    "page_url": "https://themisreviews.com/wifi-bulbs.html#B08TB8Z5HF"
   },
   {
-   "rank": 7,
-   "asin": "B0CF25ZC4N",
-   "name": "Smart Bulbs 100W Work with Alexa/Google Home, 2 Pack",
-   "brand": "Lightinginside",
-   "model": "100 W eq. (2-pack)",
-   "price": 17.97,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 550,
-   "score": 77,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Bright 1,350 lm color bulbs on the Smart Life app, two for under $18.",
-   "pros": [
-    "1,350 lumens",
-    "Two for $17.97",
-    "Smart Life works with Home Assistant's Tuya integration"
-   ],
-   "cons": [
-    "Cloud-based Smart Life app",
-    "550 reviews",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "light": "Color + white",
-    "lumens": "1,350 lm",
-    "shape": "A19",
-    "app": "Smart Life",
-    "pack": "2 bulbs"
-   },
-   "features": {
-    "color": true,
-    "bright": true,
-    "bluetooth": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61-zbmdi4UL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CF25ZC4N?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-bulbs.html#B0CF25ZC4N"
-  },
-  {
    "rank": 8,
    "asin": "B0CS8T6VPV",
    "name": "Tapo Multicolor Dimmable Smart Light Bulbs, L531E, A19 E26, 800LM",
@@ -430,7 +430,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 7556,
-   "score": 75,
+   "score": 79,
    "awards": [
     "Best Overall"
    ],
@@ -484,7 +484,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 6394,
-   "score": 74,
+   "score": 79,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -534,7 +534,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 17677,
-   "score": 68,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Amazon Alexa",

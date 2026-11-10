@@ -28,7 +28,7 @@
    "big": 0.2,
    "dual_band": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -74,7 +74,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 2717,
-   "score": 84,
+   "score": 88,
    "awards": [
     "Best Overall"
    ],
@@ -115,53 +115,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0D1QWZDKT",
-   "name": "Meowant Self-Cleaning Cat Litter Box, 75L Extra Large Open-Top, APP Control",
-   "brand": "Meowant",
-   "model": "Self-Cleaning Litter Box (75 L open top)",
-   "price": 239.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 1392,
-   "score": 80,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Meowant app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "An extra-large open-top box for cats that won't use a covered one.",
-   "pros": [
-    "Open top",
-    "Weight tracking",
-    "Sold by Amazon"
-   ],
-   "cons": [
-    "$239.99",
-    "4.0 stars",
-    "Large footprint"
-   ],
-   "specs": {
-    "design": "Open top",
-    "capacity": "75 L",
-    "safety": "Safety sensors",
-    "tracking": "Weight"
-   },
-   "features": {
-    "weight": true,
-    "safety": true,
-    "big": true,
-    "dual_band": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81Dl1q+hrJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D1QWZDKT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0D1QWZDKT"
-  },
-  {
-   "rank": 3,
    "asin": "B0GD73F98D",
    "name": "CATLINK Self Cleaning Cat Litter Box Open-X, 5G & 2.4G WiFi, Safe",
    "brand": "CATLINK",
@@ -170,7 +123,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 612,
-   "score": 80,
+   "score": 87,
    "awards": [
     "Best Connectivity"
    ],
@@ -210,7 +163,148 @@
    "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0GD73F98D"
   },
   {
+   "rank": 3,
+   "asin": "B0D1QWZDKT",
+   "name": "Meowant Self-Cleaning Cat Litter Box, 75L Extra Large Open-Top, APP Control",
+   "brand": "Meowant",
+   "model": "Self-Cleaning Litter Box (75 L open top)",
+   "price": 239.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 1392,
+   "score": 86,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Meowant app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "An extra-large open-top box for cats that won't use a covered one.",
+   "pros": [
+    "Open top",
+    "Weight tracking",
+    "Sold by Amazon"
+   ],
+   "cons": [
+    "$239.99",
+    "4.0 stars",
+    "Large footprint"
+   ],
+   "specs": {
+    "design": "Open top",
+    "capacity": "75 L",
+    "safety": "Safety sensors",
+    "tracking": "Weight"
+   },
+   "features": {
+    "weight": true,
+    "safety": true,
+    "big": true,
+    "dual_band": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81Dl1q+hrJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D1QWZDKT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0D1QWZDKT"
+  },
+  {
    "rank": 4,
+   "asin": "B0GKDQ4VGT",
+   "name": "UPFAS Automatic Self-Cleaning Cat Litter Box with App Control and Weight Monitoring, 2.4 GHz Wi-Fi or Bluetooth, Grey",
+   "brand": "UPFAS",
+   "model": "Automatic Cat Litter Box (app, weight monitoring)",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 606,
+   "score": 82,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A budget drum box that logs each cat's weight, time in the box, and visits, for medium cats and kittens.",
+   "pros": [
+    "$109.99",
+    "Weight and visit history in the app",
+    "Cleaning noise under 35 dB"
+   ],
+   "cons": [
+    "About 30 minutes of assembly",
+    "2.4 GHz Wi-Fi only",
+    "Sized for medium cats"
+   ],
+   "specs": {
+    "design": "Enclosed drum",
+    "capacity": "Not stated in bullets",
+    "safety": "Anti-pinch",
+    "tracking": "Weight, visit time and frequency"
+   },
+   "features": {
+    "weight": true,
+    "safety": true,
+    "big": false,
+    "dual_band": false
+   },
+   "image": "https://m.media-amazon.com/images/I/616zZxB0g1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GKDQ4VGT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0GKDQ4VGT"
+  },
+  {
+   "rank": 5,
+   "asin": "B0HGWT16KH",
+   "name": "Automatic Litter Box,Safety Sensor,App Control,Washable Litter Tray",
+   "brand": "Fumoi",
+   "model": "Automatic Litter Box (washable tray)",
+   "price": 229.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 323,
+   "score": 82,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "3K+ bought in past month",
+   "verdict": "A highly rated box with a washable tray.",
+   "pros": [
+    "4.4 stars",
+    "Washable tray",
+    "Safety sensor"
+   ],
+   "cons": [
+    "Only 323 reviews",
+    "$229.99",
+    "Health tracking isn't in the bullets"
+   ],
+   "specs": {
+    "design": "Enclosed",
+    "capacity": "86 L drum, 15 L waste bin",
+    "safety": "Safety sensors",
+    "tracking": "Not stated in bullets"
+   },
+   "features": {
+    "weight": false,
+    "safety": true,
+    "big": true,
+    "dual_band": false
+   },
+   "image": "https://m.media-amazon.com/images/I/714p58riH0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HGWT16KH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0HGWT16KH"
+  },
+  {
+   "rank": 6,
    "asin": "B0DFM4Z71X",
    "name": "Cumrige Automatic Litter Box,Safety Sensor,App Control,95L Large Capacity",
    "brand": "Cumrige",
@@ -219,7 +313,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 4302,
-   "score": 78,
+   "score": 80,
    "awards": [
     "Best for Big Cats"
    ],
@@ -259,7 +353,7 @@
    "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0DFM4Z71X"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0CSKBWBF6",
    "name": "Neakasa M1 Plus Open-Top Automatic Self-Cleaning Cat Litter Box with App Control and 2-Year Protection Plan",
    "brand": "Neakasa",
@@ -268,7 +362,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 5276,
-   "score": 76,
+   "score": 78,
    "awards": [],
    "works_with": [],
    "works_with_note": "Neakasa app",
@@ -306,100 +400,6 @@
    "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0CSKBWBF6"
   },
   {
-   "rank": 6,
-   "asin": "B0GKDQ4VGT",
-   "name": "UPFAS Automatic Self-Cleaning Cat Litter Box with App Control and Weight Monitoring, 2.4 GHz Wi-Fi or Bluetooth, Grey",
-   "brand": "UPFAS",
-   "model": "Automatic Cat Litter Box (app, weight monitoring)",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 606,
-   "score": 75,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A budget drum box that logs each cat's weight, time in the box, and visits, for medium cats and kittens.",
-   "pros": [
-    "$109.99",
-    "Weight and visit history in the app",
-    "Cleaning noise under 35 dB"
-   ],
-   "cons": [
-    "About 30 minutes of assembly",
-    "2.4 GHz Wi-Fi only",
-    "Sized for medium cats"
-   ],
-   "specs": {
-    "design": "Enclosed drum",
-    "capacity": "Not stated in bullets",
-    "safety": "Anti-pinch",
-    "tracking": "Weight, visit time and frequency"
-   },
-   "features": {
-    "weight": true,
-    "safety": true,
-    "big": false,
-    "dual_band": false
-   },
-   "image": "https://m.media-amazon.com/images/I/616zZxB0g1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GKDQ4VGT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0GKDQ4VGT"
-  },
-  {
-   "rank": 7,
-   "asin": "B0HGWT16KH",
-   "name": "Automatic Litter Box,Safety Sensor,App Control,Washable Litter Tray",
-   "brand": "Fumoi",
-   "model": "Automatic Litter Box (washable tray)",
-   "price": 229.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 323,
-   "score": 72,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "A highly rated box with a washable tray.",
-   "pros": [
-    "4.4 stars",
-    "Washable tray",
-    "Safety sensor"
-   ],
-   "cons": [
-    "Only 323 reviews",
-    "$229.99",
-    "Health tracking isn't in the bullets"
-   ],
-   "specs": {
-    "design": "Enclosed",
-    "capacity": "86 L drum, 15 L waste bin",
-    "safety": "Safety sensors",
-    "tracking": "Not stated in bullets"
-   },
-   "features": {
-    "weight": false,
-    "safety": true,
-    "big": true,
-    "dual_band": false
-   },
-   "image": "https://m.media-amazon.com/images/I/714p58riH0L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HGWT16KH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-litter-boxes.html#B0HGWT16KH"
-  },
-  {
    "rank": 8,
    "asin": "B0F8N6MQ34",
    "name": "WARCAT Self-Cleaning Automatic Cat Litter Box, 90 L, App-Controlled with Safety Sensors, for Multiple Cats",
@@ -409,7 +409,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 407,
-   "score": 69,
+   "score": 78,
    "awards": [],
    "works_with": [],
    "works_with_note": "Companion app",
@@ -456,7 +456,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 1292,
-   "score": 68,
+   "score": 74,
    "awards": [
     "Best Budget"
    ],

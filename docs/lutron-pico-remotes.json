@@ -27,7 +27,7 @@
    "no_hub": 0.35,
    "bundle": 0.3
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "method_url": "https://themisreviews.com/how-we-rank.html"
  },
@@ -65,6 +65,57 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B00JR202JQ",
+   "name": "Lutron Pico Remote Wall-Mounting Kit: Wireless Remote, Bracket & Wallplate",
+   "brand": "Lutron",
+   "model": "Pico wall-mounting kit",
+   "price": 39.95,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 418,
+   "score": 99,
+   "awards": [
+    "Best Wall Kit"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Everything to put a Pico on the wall as a wireless 3-way switch.",
+   "pros": [
+    "Pico, bracket, and wallplate",
+    "4.9 stars",
+    "No wiring needed"
+   ],
+   "cons": [
+    "$39.95",
+    "Only 418 reviews",
+    "Caseta devices only"
+   ],
+   "specs": {
+    "controls": "Caseta dimmers, lamp dimmers",
+    "buttons": "3",
+    "included": "Pico, bracket, wallplate",
+    "hub": "No"
+   },
+   "features": {
+    "mount": true,
+    "no_hub": true,
+    "bundle": true
+   },
+   "image": "https://m.media-amazon.com/images/I/5121R1+C21L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00JR202JQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B00JR202JQ"
+  },
+  {
+   "rank": 2,
    "asin": "B07HM6L48C",
    "name": "Lutron Caseta 3-Way Smart Dimmer Kit; LED Dimmer, Wireless Remote & Bracket",
    "brand": "Lutron",
@@ -118,7 +169,7 @@
    "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B07HM6L48C"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B00JJY1QG0",
    "name": "Lutron Caseta Smart Lamp Dimmer Kit; Plug-In Dimmer & Pico Wireless Remote",
    "brand": "Lutron",
@@ -127,7 +178,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1821,
-   "score": 95,
+   "score": 97,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -170,106 +221,7 @@
    "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B00JJY1QG0"
   },
   {
-   "rank": 3,
-   "asin": "B00JR202JQ",
-   "name": "Lutron Pico Remote Wall-Mounting Kit: Wireless Remote, Bracket & Wallplate",
-   "brand": "Lutron",
-   "model": "Pico wall-mounting kit",
-   "price": 39.95,
-   "currency": "USD",
-   "rating": 4.9,
-   "reviews_count": 418,
-   "score": 92,
-   "awards": [
-    "Best Wall Kit"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "200+ bought in past month",
-   "verdict": "Everything to put a Pico on the wall as a wireless 3-way switch.",
-   "pros": [
-    "Pico, bracket, and wallplate",
-    "4.9 stars",
-    "No wiring needed"
-   ],
-   "cons": [
-    "$39.95",
-    "Only 418 reviews",
-    "Caseta devices only"
-   ],
-   "specs": {
-    "controls": "Caseta dimmers, lamp dimmers",
-    "buttons": "3",
-    "included": "Pico, bracket, wallplate",
-    "hub": "No"
-   },
-   "features": {
-    "mount": true,
-    "no_hub": true,
-    "bundle": true
-   },
-   "image": "https://m.media-amazon.com/images/I/5121R1+C21L._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00JR202JQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B00JR202JQ"
-  },
-  {
    "rank": 4,
-   "asin": "B085D7LKDZ",
-   "name": "Lutron Pico Remote for Caseta Smart Switch, 2-Button Control, Remote",
-   "brand": "Lutron",
-   "model": "Pico 2-button remote (2-pack)",
-   "price": 53.52,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1492,
-   "score": 87,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Two on/off Picos in one box.",
-   "pros": [
-    "2 remotes",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Sold by a reseller",
-    "$53.52 for two, more than two single Picos",
-    "No dimming"
-   ],
-   "specs": {
-    "controls": "Caseta switches",
-    "buttons": "2 (on, off)",
-    "included": "2 remotes",
-    "hub": "No"
-   },
-   "features": {
-    "mount": false,
-    "no_hub": true,
-    "bundle": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51RnQknfrIL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B085D7LKDZ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B085D7LKDZ"
-  },
-  {
-   "rank": 5,
    "asin": "B0CJ6FCGWB",
    "name": "Lutron Pico Paddle Remote Wall-Mount Kit: Remote, Wallplate, & Bracket",
    "brand": "Lutron",
@@ -278,7 +230,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 87,
-   "score": 84,
+   "score": 93,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -316,6 +268,54 @@
    "image": "https://m.media-amazon.com/images/I/61lnfICZS0L._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CJ6FCGWB?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B0CJ6FCGWB"
+  },
+  {
+   "rank": 5,
+   "asin": "B085D7LKDZ",
+   "name": "Lutron Pico Remote for Caseta Smart Switch, 2-Button Control, Remote",
+   "brand": "Lutron",
+   "model": "Pico 2-button remote (2-pack)",
+   "price": 53.52,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1492,
+   "score": 89,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Two on/off Picos in one box.",
+   "pros": [
+    "2 remotes",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Sold by a reseller",
+    "$53.52 for two, more than two single Picos",
+    "No dimming"
+   ],
+   "specs": {
+    "controls": "Caseta switches",
+    "buttons": "2 (on, off)",
+    "included": "2 remotes",
+    "hub": "No"
+   },
+   "features": {
+    "mount": false,
+    "no_hub": true,
+    "bundle": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51RnQknfrIL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B085D7LKDZ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/lutron-pico-remotes.html#B085D7LKDZ"
   },
   {
    "rank": 6,
@@ -378,7 +378,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1492,
-   "score": 79,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -427,7 +427,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 633,
-   "score": 76,
+   "score": 82,
    "awards": [
     "Best for Ceiling Fans"
    ],
@@ -478,7 +478,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 186,
-   "score": 72,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -527,7 +527,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 283,
-   "score": 60,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Home Assistant",
