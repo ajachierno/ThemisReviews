@@ -23,7 +23,8 @@ def fmt(old, new):
 def spans(asin):
     """Text spans of every object that starts with this asin (product, award, avoid)."""
     res = []
-    for m in re.finditer(r'\{\s*"asin":\s*"%s"' % asin, raw):
+    # A pick with a "name" override has "name" before "asin" (the 11-03/11-04 inserts), so allow it.
+    for m in re.finditer(r'\{\s*(?:"name":\s*"(?:[^"\\]|\\.)*",\s*)?"asin":\s*"%s"' % asin, raw):
         depth, i = 0, m.start()
         while True:
             c = raw[i]
