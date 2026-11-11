@@ -106,7 +106,8 @@ def nice_date(iso):
 def render_updated(updated, captured=None, changes=None):
     cap = (f' &middot; Amazon prices checked <time datetime="{esc(captured)}">{nice_date(captured)}</time>'
            if captured else "")
-    line = f'<p class="updated">Updated <time datetime="{esc(updated)}">{nice_date(updated)}</time>{cap}</p>'
+    line = (f'<p class="updated">Updated <time datetime="{esc(updated)}">{nice_date(updated)}</time>{cap}. '
+            f'Rankings and prices are updated several times a week and can change as new data comes in.</p>')
     if not changes or len(changes) < 2:
         return line
     items = "".join(f'<li><b>{nice_date(c["date"])}:</b> {esc(" ".join(c["notes"]))}</li>' for c in changes)
@@ -411,7 +412,7 @@ def page(site, title, body, is_home=False, description=None, canonical="",
   extra cost to you. Prices and ratings come from Amazon and change over time.</p>
   <p class="foot-links"><a href="how-we-rank.html">How we rank</a> &middot; <a href="about.html">About</a> &middot; <a href="price-tracker.html">Price tracker</a> &middot;
   <a href="{esc(site['repo_url'])}/issues/new" target="_blank" rel="noopener">Report a mistake</a></p>
-  <p class="muted">{home_link}Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon,
+  <p class="muted">{home_link}Last updated on {esc(updated or site['updated'])}. Rankings and prices are updated several times a week and can change as new data comes in. Not affiliated with Amazon,
   the Z-Wave Alliance, the Connectivity Standards Alliance, the Thread Group, Lutron, or any manufacturer.</p>
 </footer>
 <a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
