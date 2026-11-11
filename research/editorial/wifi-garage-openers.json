@@ -39,10 +39,36 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Apple Home", "kind": "special", "rule": {"type": "feature", "key": "apple_home"}},
-    {"label": "Best Matter Pick", "kind": "premium", "rule": {"type": "feature", "key": "matter"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Apple Home",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "apple_home"
+      }
+    },
+    {
+      "label": "Best Matter Pick",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "matter"
+      }
+    }
   ],
   "products": [
     {
@@ -65,7 +91,7 @@
       },
       "verdict": "The most popular smart garage controller by far, and the one Amazon Key in-garage delivery is built around.",
       "pros": [
-        "61,026 reviews, 6K+ bought in the past month",
+        "61,035 reviews, 6K+ bought in the past month",
         "Wireless door sensor, no wiring to the opener",
         "Amazon Key in-garage delivery",
         "Sold by Amazon"
@@ -101,10 +127,10 @@
         "4.6 stars",
         "Works with Alexa, Ring, and Amazon Key",
         "No monthly fees",
-        "3K+ bought in the past month, sold by Amazon"
+        "2K+ bought in the past month, sold by Amazon"
       ],
       "cons": [
-        "Only 155 reviews",
+        "Only 166 reviews",
         "Single door",
         "Google and Apple Home aren't named"
       ]
@@ -132,7 +158,7 @@
       },
       "verdict": "A highly rated, cheap controller with voice control and auto-close and no monthly fees.",
       "pros": [
-        "4.5 stars from 3,946 reviews",
+        "4.5 stars from 3,951 reviews",
         "Alexa, Google, and Siri",
         "Auto-close and scheduling with no fees",
         "1K+ bought in the past month"
@@ -169,12 +195,12 @@
         "Apple HomeKit, Alexa, and Google",
         "Wired sensor for accurate status",
         "Security+ 1.0 and 2.0 openers",
-        "6,729 reviews, sold by Amazon"
+        "13,464 reviews, sold by Amazon"
       ],
       "cons": [
         "Not for Security+ 3.0 openers",
         "Adapter may be required",
-        "4.2 stars"
+        "4.3 stars"
       ]
     },
     {
@@ -207,7 +233,7 @@
       "cons": [
         "Chamberlain, LiftMaster, and Craftsman openers only",
         "$69.99",
-        "Only 195 reviews"
+        "Only 200 reviews"
       ]
     },
     {
@@ -233,8 +259,8 @@
       },
       "verdict": "The non-HomeKit meross MSG100: the same wired-sensor controller as the HK model for $18 less, with Alexa, Google, and SmartThings.",
       "pros": [
-        "$31.99, sold by Amazon",
-        "4.4 stars from 5,905 reviews",
+        "$33.79, sold by Amazon",
+        "4.3 stars from 13,464 reviews",
         "Works with Security+ 1.0 and 2.0 openers, with an adapter if needed"
       ],
       "cons": [
@@ -272,7 +298,7 @@
         "Sold by Amazon"
       ],
       "cons": [
-        "4.1 stars",
+        "4.3 stars",
         "Third door sensor sold separately",
         "2.4 GHz Wi-Fi only"
       ]
@@ -311,7 +337,7 @@
         "No monthly fees"
       ],
       "cons": [
-        "3.9 stars from 82 reviews",
+        "3.9 stars from 84 reviews",
         "The listing doesn't detail a door sensor",
         "2.4 GHz Wi-Fi only"
       ]
@@ -351,7 +377,7 @@
       "cons": [
         "Needs a Matter controller and 2.4 GHz Wi-Fi",
         "Tilt sensor is for sectional (flip-up) doors only",
-        "4.0 stars from 91 reviews"
+        "4.0 stars from 93 reviews"
       ]
     },
     {
@@ -376,7 +402,7 @@
         "matter": false,
         "multi_door": false
       },
-      "verdict": "Tied for the cheapest pick here, running on the Smart Life app with Alexa, Google, and SmartThings.",
+      "verdict": "Among the cheapest picks here, running on the Smart Life app with Alexa, Google, and SmartThings.",
       "pros": [
         "$24.59",
         "Alexa, Google, and SmartThings",

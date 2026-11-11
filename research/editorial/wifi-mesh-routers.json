@@ -34,9 +34,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Wi-Fi 7", "kind": "special", "rule": {"type": "feature", "key": "wifi7"}},
-    {"label": "Best High-End", "kind": "premium", "rule": {"type": "premium"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Wi-Fi 7",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "wifi7"
+      }
+    },
+    {
+      "label": "Best High-End",
+      "kind": "premium",
+      "rule": {
+        "type": "premium"
+      }
+    }
   ],
   "products": [
     {
@@ -60,13 +79,13 @@
       "verdict": "Whole-home Wi-Fi 6 that also replaces a Zigbee and Thread hub for Alexa.",
       "pros": [
         "Built-in Thread and Zigbee hub",
-        "4.4 stars from 10,615 reviews",
+        "4.4 stars from 10,621 reviews",
         "Automatic updates"
       ],
       "cons": [
         "Security extras need an eero Plus subscription",
         "Hub works with Alexa only",
-        "$299.99"
+        "$199.99"
       ]
     },
     {
@@ -87,11 +106,11 @@
         "wifi7": false,
         "fast_port": false
       },
-      "verdict": "A $54.99 starting point for an eero mesh, with a Zigbee hub inside.",
+      "verdict": "A $89.99 starting point for an eero mesh, with a Zigbee hub inside.",
       "pros": [
-        "$54.99",
+        "$89.99",
         "Zigbee hub",
-        "29,543 reviews"
+        "29,561 reviews"
       ],
       "cons": [
         "1,500 sq. ft. on its own",
@@ -124,35 +143,7 @@
       "cons": [
         "Smart home hub isn't mentioned in the bullets",
         "eero Plus is a subscription",
-        "$284.99"
-      ]
-    },
-    {
-      "asin": "B0C6RDKBTG",
-      "brand": "eero",
-      "model": "Pro 7 (2-pack)",
-      "systems": [],
-      "systems_label": "eero app",
-      "specs": {
-        "wifi": "Wi-Fi 7 tri-band, up to 5 Gbps plans",
-        "coverage": "4,000 sq. ft.",
-        "hub": "Not stated in bullets"
-      },
-      "features": {
-        "smart_hub": false,
-        "wifi7": true,
-        "fast_port": true
-      },
-      "verdict": "eero's tri-band Wi-Fi 7 for 5 Gbps internet.",
-      "pros": [
-        "Tri-band Wi-Fi 7",
-        "Handles 5 Gbps plans",
-        "1,570 reviews"
-      ],
-      "cons": [
-        "$549.99",
-        "4.3 stars",
-        "eero Plus is a subscription"
+        "$229.99"
       ]
     },
     {
@@ -175,7 +166,7 @@
       "pros": [
         "$149.96 for 3 units",
         "Up to 150 devices",
-        "4.4 stars from 13,395 reviews"
+        "4.4 stars from 13,429 reviews"
       ],
       "cons": [
         "No smart home hub",
@@ -231,8 +222,8 @@
       },
       "verdict": "Cheap, proven mesh for smaller homes on slower plans.",
       "pros": [
-        "$79.97",
-        "4.5 stars from 29,610 reviews",
+        "$99.99",
+        "4.4 stars from 2,431 reviews",
         "Up to 75 devices"
       ],
       "cons": [
@@ -266,8 +257,8 @@
         "Up to 200 devices"
       ],
       "cons": [
-        "$229.99",
-        "4.4 stars",
+        "$199.99",
+        "4.3 stars",
         "No smart home hub"
       ]
     },
@@ -291,7 +282,7 @@
       "pros": [
         "Wi-Fi 7",
         "2.5G Ethernet",
-        "6K+ bought in the past month"
+        "4K+ bought in the past month"
       ],
       "cons": [
         "4.3 stars",

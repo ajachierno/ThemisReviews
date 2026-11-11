@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Air purifiers",
- "data_captured": "2026-11-04",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-11",
+ "updated": "2026-11-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,14 +37,14 @@
    "asin": "B0DG5QLWP6",
    "name": "SwitchBot Air Purifier",
    "price": 89.99,
-   "why": "Highest score on the page (96): 4.5 stars from 724 reviews, $89.99."
+   "why": "Highest score on the page (96): 4.5 stars from 731 reviews, $89.99."
   },
   {
    "label": "Best Budget",
    "asin": "B08FJ678YK",
    "name": "Levoit Core 200S-P",
    "price": 69.97,
-   "why": "Highest score (79) among the cheapest third of picks (up to $69.97 each): 4.6 stars from 124,958 reviews, $69.97."
+   "why": "Highest score (80) among the cheapest third of picks (up to $69.97 each): 4.7 stars from 35,821 reviews, $69.97."
   }
  ],
  "systems_note": "Levoit (VeSync) purifiers have an official Home Assistant integration. Blueair's listings don't name a voice assistant in the bullets.",
@@ -58,7 +58,7 @@
    "price": 89.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 724,
+   "reviews_count": 731,
    "score": 96,
    "awards": [
     "Best Overall"
@@ -78,7 +78,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "A Matter purifier that works natively with Apple Home, Alexa, and Google.",
    "pros": [
     "Matter",
@@ -87,7 +87,7 @@
    ],
    "cons": [
     "4.5 stars",
-    "Only 724 reviews",
+    "Only 731 reviews",
     "2.4 GHz Wi-Fi"
    ],
    "specs": {
@@ -110,10 +110,10 @@
    "name": "GoveeLife Smart Air Purifier for Home Large Rooms, Covers up to 1046 ft²",
    "brand": "GoveeLife",
    "model": "Smart Air Purifier (1046 sq. ft.)",
-   "price": 69.99,
+   "price": 72.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 1202,
+   "reviews_count": 1206,
    "score": 89,
    "awards": [],
    "works_with": [
@@ -130,11 +130,11 @@
    "pros": [
     "4.7 stars",
     "Real-time air quality in the app",
-    "$69.99"
+    "$72.99"
    ],
    "cons": [
     "Alexa only",
-    "Only 1,202 reviews",
+    "Only 1,206 reviews",
     "No Apple Home"
    ],
    "specs": {
@@ -157,10 +157,10 @@
    "name": "GoveeLife Air Purifier for Home Large Room, Up to 1162ft², 360° Air Intake",
    "brand": "GoveeLife",
    "model": "Air Purifier (1162 sq. ft.)",
-   "price": 129.99,
+   "price": 89.99,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 629,
+   "reviews_count": 637,
    "score": 89,
    "awards": [],
    "works_with": [
@@ -173,16 +173,16 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
+   "bought_last_month": "700+ bought in past month",
    "verdict": "Govee's bigger purifier adds Google and a 24 dB sleep mode.",
    "pros": [
     "Alexa and Google",
     "24 dB sleep mode",
-    "1K+ bought in the past month"
+    "700+ bought in the past month"
    ],
    "cons": [
-    "$129.99",
-    "Only 629 reviews",
+    "$89.99",
+    "Only 637 reviews",
     "No Apple Home"
    ],
    "specs": {
@@ -208,7 +208,7 @@
    "price": 113.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 11616,
+   "reviews_count": 11649,
    "score": 88,
    "awards": [],
    "works_with": [
@@ -222,10 +222,10 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "10K+ bought in past month",
+   "bought_last_month": "8K+ bought in past month",
    "verdict": "An all-round smart purifier with schedules and a pet mode.",
    "pros": [
-    "4.6 stars from 11,616 reviews",
+    "4.6 stars from 11,649 reviews",
     "Sleep mode down to 25 dB",
     "Pet, auto, and sleep modes"
    ],
@@ -250,60 +250,15 @@
   },
   {
    "rank": 5,
-   "asin": "B0GSX69MTH",
-   "name": "BLUEAIR Air Purifiers for Home Bedroom Dorm up to 1,190 Ft², Signature SP1i",
-   "brand": "Blueair",
-   "model": "Signature SP1i",
-   "price": 179.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 87,
-   "score": 80,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "Blueair app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "Blueair's newer small-room purifier with odor filtering.",
-   "pros": [
-    "Odor filtering",
-    "Auto mode",
-    "1K+ bought in the past month"
-   ],
-   "cons": [
-    "Voice assistants aren't named in the bullets",
-    "$179.00",
-    "4.7 stars"
-   ],
-   "specs": {
-    "coverage": "248 sq. ft. in 12.5 min, 1,190 sq. ft. per hour",
-    "filter": "7-stage HEPASilent, OdorFence",
-    "app": "Blueair"
-   },
-   "features": {
-    "voice": false,
-    "auto": true,
-    "matter": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71rgLAkXG0L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GSX69MTH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-air-purifiers.html#B0GSX69MTH"
-  },
-  {
-   "rank": 6,
    "asin": "B08FJ678YK",
    "name": "Levoit Air Purifier for Home Pets Bedroom Dorm Room, Smart & Voice Control",
    "brand": "Levoit",
    "model": "Core 200S-P",
    "price": 69.97,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 124958,
-   "score": 79,
+   "rating": 4.7,
+   "reviews_count": 35821,
+   "score": 80,
    "awards": [
     "Best Budget"
    ],
@@ -321,7 +276,7 @@
    "bought_last_month": "10K+ bought in past month",
    "verdict": "A small, quiet bedroom purifier with app and voice control.",
    "pros": [
-    "124,958 reviews, 4.6 stars",
+    "35,821 reviews, 4.7 stars",
     "27 dB",
     "$69.97"
    ],
@@ -345,16 +300,16 @@
    "page_url": "https://themisreviews.com/wifi-air-purifiers.html#B08FJ678YK"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B0C3QQMMRJ",
    "name": "GoveeLife Smart Mini Air Purifier for Bedroom, with App & Alexa Control",
    "brand": "GoveeLife",
    "model": "Smart Mini Air Purifier",
    "price": 39.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3964,
-   "score": 79,
+   "rating": 4.7,
+   "reviews_count": 3975,
+   "score": 80,
    "awards": [],
    "works_with": [
     "Amazon Alexa"
@@ -365,11 +320,11 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "3K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "A $35 bedroom purifier with app control, Alexa, and filter reminders.",
    "pros": [
     "$39.99",
-    "4.6 stars from 3,964 reviews",
+    "4.7 stars from 3,975 reviews",
     "Energy Star"
    ],
    "cons": [
@@ -392,15 +347,60 @@
    "page_url": "https://themisreviews.com/wifi-air-purifiers.html#B0C3QQMMRJ"
   },
   {
+   "rank": 7,
+   "asin": "B0GSX69MTH",
+   "name": "BLUEAIR Air Purifiers for Home Bedroom Dorm up to 1,190 Ft², Signature SP1i",
+   "brand": "Blueair",
+   "model": "Signature SP1i",
+   "price": 125.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 92,
+   "score": 80,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Blueair app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "600+ bought in past month",
+   "verdict": "Blueair's newer small-room purifier with odor filtering.",
+   "pros": [
+    "Odor filtering",
+    "Auto mode",
+    "600+ bought in the past month"
+   ],
+   "cons": [
+    "Voice assistants aren't named in the bullets",
+    "$125.99",
+    "4.6 stars"
+   ],
+   "specs": {
+    "coverage": "248 sq. ft. in 12.5 min, 1,190 sq. ft. per hour",
+    "filter": "7-stage HEPASilent, OdorFence",
+    "app": "Blueair"
+   },
+   "features": {
+    "voice": false,
+    "auto": true,
+    "matter": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71rgLAkXG0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GSX69MTH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-air-purifiers.html#B0GSX69MTH"
+  },
+  {
    "rank": 8,
    "asin": "B0BN2LZ9JH",
    "name": "BLUEAIR Air Purifiers for Home up to 2,107 Ft², Blue 311i Max",
    "brand": "Blueair",
    "model": "Blue Pure 311i Max",
-   "price": 229.0,
+   "price": 149.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 2607,
+   "reviews_count": 2617,
    "score": 79,
    "awards": [],
    "works_with": [],
@@ -410,15 +410,15 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "4K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "Fast, quiet cleaning for medium rooms, with auto mode.",
    "pros": [
     "Auto mode from built-in sensors",
-    "4.5 stars from 2,607 reviews",
+    "4.5 stars from 2,617 reviews",
     "Captures 99.97% down to 0.1 microns"
    ],
    "cons": [
-    "$229.00",
+    "$149.99",
     "Voice assistants aren't named in the bullets",
     "No Matter"
    ],
@@ -445,7 +445,7 @@
    "price": 49.9,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 237,
+   "reviews_count": 241,
    "score": 70,
    "awards": [],
    "works_with": [],
@@ -464,7 +464,7 @@
    ],
    "cons": [
     "App only",
-    "Only 237 reviews",
+    "Only 241 reviews",
     "No voice control listed"
    ],
    "specs": {
@@ -498,6 +498,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-11",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

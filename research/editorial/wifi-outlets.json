@@ -31,10 +31,36 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best With Energy Monitoring", "kind": "special", "rule": {"type": "feature", "key": "energy"}},
-    {"label": "Best for Apple Home", "kind": "premium", "rule": {"type": "system", "key": "apple-home"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best With Energy Monitoring",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "energy"
+      }
+    },
+    {
+      "label": "Best for Apple Home",
+      "kind": "premium",
+      "rule": {
+        "type": "system",
+        "key": "apple-home"
+      }
+    }
   ],
   "products": [
     {
@@ -60,7 +86,7 @@
       "verdict": "The proven in-wall outlet: two sockets you can name and control separately.",
       "pros": [
         "Each socket controlled separately",
-        "4.6 stars from 7,808 reviews",
+        "4.6 stars from 7,811 reviews",
         "Away mode",
         "Home Assistant integration"
       ],
@@ -98,11 +124,11 @@
       "pros": [
         "Matter certified",
         "Energy monitoring",
-        "1K+ bought in the past month"
+        "500+ bought in the past month"
       ],
       "cons": [
         "Neutral required",
-        "Only 424 reviews",
+        "Only 430 reviews",
         "4.4 stars"
       ]
     },
@@ -136,7 +162,7 @@
       ],
       "cons": [
         "One switched socket",
-        "Only 121 reviews",
+        "Only 127 reviews",
         "Sold by a reseller"
       ]
     },
@@ -264,7 +290,7 @@
       "pros": [
         "$13.99",
         "Tamper-resistant receptacle",
-        "4.3 stars from 281 reviews"
+        "4.3 stars from 282 reviews"
       ],
       "cons": [
         "2.4 GHz only",
@@ -299,7 +325,7 @@
         "4.5 stars"
       ],
       "cons": [
-        "Only 31 reviews",
+        "Only 30 reviews",
         "Neutral required",
         "Geeni app"
       ]
@@ -332,7 +358,7 @@
       ],
       "cons": [
         "Sold only as a 6-pack",
-        "Only 39 reviews",
+        "Only 40 reviews",
         "Alexa and Google only"
       ]
     }

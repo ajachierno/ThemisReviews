@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Door and window sensors",
- "data_captured": "2026-11-05",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-11",
+ "updated": "2026-11-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,14 +36,14 @@
    "asin": "B0F5LYZRVL",
    "name": "Tapo T31 Door Sensor Starter Kit (3 sensors + H100 hub)",
    "price": 41.99,
-   "why": "Highest score on the page (83): 4.5 stars from 342 reviews, $41.99."
+   "why": "Highest score on the page (83): 4.5 stars from 345 reviews, $41.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0BTL8B72D",
    "name": "Aqara Door and Window Sensor P2",
    "price": 27.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $27.99 each): 3.6 stars from 1,142 reviews, $27.99."
+   "why": "Highest score (76) among the cheapest third of picks (up to $27.99 each): 3.7 stars from 1,146 reviews, $27.99."
   }
  ],
  "systems_note": null,
@@ -57,7 +57,7 @@
    "price": 41.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 342,
+   "reviews_count": 345,
    "score": 83,
    "awards": [
     "Best Overall"
@@ -77,10 +77,10 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
+   "bought_last_month": "500+ bought in past month",
    "verdict": "Three sensors and a hub with a built-in chime. The hub is the Matter device, so the sensors reach every platform through it.",
    "pros": [
-    "4.5 stars from 342 reviews, 1K+ bought last month, sold by Amazon",
+    "4.5 stars from 345 reviews, 500+ bought last month, sold by Amazon",
     "90 dB alarm and chime in the hub",
     "Hub takes up to 64 Tapo sensors and buttons"
    ],
@@ -108,7 +108,7 @@
    "name": "Eve Door & Window (Matter), Smart Contact Sensor, Matter over Thread, Apple Home, Alexa, Google Home, SmartThings",
    "brand": "Eve",
    "model": "Door & Window (Matter)",
-   "price": 43.95,
+   "price": 40.99,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 150,
@@ -129,7 +129,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "The Matter door sensor to get. Local only, no account, and it works on every major platform.",
    "pros": [
     "No Eve cloud, registration, or tracking",
@@ -162,9 +162,9 @@
    "model": "Door and Window Sensor P2",
    "price": 27.99,
    "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 1142,
-   "score": 75,
+   "rating": 3.7,
+   "reviews_count": 1146,
+   "score": 76,
    "awards": [
     "Best Budget"
    ],
@@ -183,7 +183,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "Aqara's native Matter sensor, the most-reviewed one here, with mixed ratings.",
    "pros": [
     "$27.99 with 1,135 reviews",
@@ -191,7 +191,7 @@
     "Voice alerts through Siri, Alexa, and Google"
    ],
    "cons": [
-    "3.6 stars",
+    "3.7 stars",
     "Needs a Thread border router",
     "Some features need the Aqara app"
    ],
@@ -216,9 +216,9 @@
    "model": "Multi-State Sensor P100",
    "price": 27.99,
    "currency": "USD",
-   "rating": 3.0,
-   "reviews_count": 125,
-   "score": 57,
+   "rating": 3.1,
+   "reviews_count": 131,
+   "score": 58,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -243,7 +243,7 @@
     "Object monitoring mode for safes, mailboxes, and cabinets"
    ],
    "cons": [
-    "3.0 stars from 125 reviews",
+    "3.1 stars from 131 reviews",
     "Object mode needs an Aqara hub on Zigbee",
     "Needs a Thread border router for Matter"
    ],
@@ -309,6 +309,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-11",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

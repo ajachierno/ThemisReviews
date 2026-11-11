@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "In-wall outlets",
- "data_captured": "2026-11-04",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-11",
+ "updated": "2026-11-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0DLLQR3K7",
    "name": "Tapo P210M",
    "price": 20.99,
-   "why": "Highest score on the page (90): 4.4 stars from 424 reviews, $20.99."
+   "why": "Highest score on the page (90): 4.4 stars from 430 reviews, $20.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0C741MSY2",
    "name": "TOPELER Smart wall outlet",
    "price": 13.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $15.00 each): 4.3 stars from 281 reviews, $13.99."
+   "why": "Highest score (75) among the cheapest third of picks (up to $15.00 each): 4.3 stars from 282 reviews, $13.99."
   },
   {
    "label": "Best With Energy Monitoring",
    "asin": "B0CBBN4K7Y",
    "name": "ELEGRP Smart in-wall outlet (6-pack)",
    "price": 79.99,
-   "why": "Highest score of the picks that fit this award (75): 4.6 stars from 39 reviews, $79.99."
+   "why": "Highest score of the picks that fit this award (75): 4.6 stars from 40 reviews, $79.99."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0DR3BNNLM",
    "name": "Leviton Decora D215R (2nd Gen)",
    "price": 30.81,
-   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 121 reviews, $30.81."
+   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 127 reviews, $30.81."
   }
  ],
  "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
@@ -73,7 +73,7 @@
    "price": 20.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 424,
+   "reviews_count": 430,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -93,16 +93,16 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
+   "bought_last_month": "500+ bought in past month",
    "verdict": "Energy monitoring and Matter in an in-wall outlet for $20.99.",
    "pros": [
     "Matter certified",
     "Energy monitoring",
-    "1K+ bought in the past month"
+    "500+ bought in the past month"
    ],
    "cons": [
     "Neutral required",
-    "Only 424 reviews",
+    "Only 430 reviews",
     "4.4 stars"
    ],
    "specs": {
@@ -229,7 +229,7 @@
    "price": 15.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 7808,
+   "reviews_count": 7811,
    "score": 78,
    "awards": [],
    "works_with": [
@@ -247,7 +247,7 @@
    "verdict": "The proven in-wall outlet: two sockets you can name and control separately.",
    "pros": [
     "Each socket controlled separately",
-    "4.6 stars from 7,808 reviews",
+    "4.6 stars from 7,811 reviews",
     "Away mode",
     "Home Assistant integration"
    ],
@@ -328,7 +328,7 @@
    "price": 30.81,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 121,
+   "reviews_count": 127,
    "score": 76,
    "awards": [
     "Best for Apple Home"
@@ -355,7 +355,7 @@
    ],
    "cons": [
     "One switched socket",
-    "Only 121 reviews",
+    "Only 127 reviews",
     "Sold by a reseller"
    ],
    "specs": {
@@ -382,7 +382,7 @@
    "price": 13.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 281,
+   "reviews_count": 282,
    "score": 75,
    "awards": [
     "Best Budget"
@@ -403,7 +403,7 @@
    "pros": [
     "$13.99",
     "Tamper-resistant receptacle",
-    "4.3 stars from 281 reviews"
+    "4.3 stars from 282 reviews"
    ],
    "cons": [
     "2.4 GHz only",
@@ -434,7 +434,7 @@
    "price": 79.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 39,
+   "reviews_count": 40,
    "score": 75,
    "awards": [
     "Best With Energy Monitoring"
@@ -458,7 +458,7 @@
    ],
    "cons": [
     "Sold only as a 6-pack",
-    "Only 39 reviews",
+    "Only 40 reviews",
     "Alexa and Google only"
    ],
    "specs": {
@@ -485,7 +485,7 @@
    "price": 59.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 31,
+   "reviews_count": 30,
    "score": 68,
    "awards": [],
    "works_with": [
@@ -506,7 +506,7 @@
     "4.5 stars"
    ],
    "cons": [
-    "Only 31 reviews",
+    "Only 30 reviews",
     "Neutral required",
     "Geeni app"
    ],
@@ -542,6 +542,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-11",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

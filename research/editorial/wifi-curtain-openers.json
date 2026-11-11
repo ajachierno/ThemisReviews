@@ -39,9 +39,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Pairs", "kind": "special", "rule": {"type": "feature", "key": "pack"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Pairs",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "pack"
+      }
+    }
   ],
   "products": [
     {
@@ -152,12 +171,12 @@
       "verdict": "A pair with a remote, for split curtains.",
       "pros": [
         "2 robots and a remote",
-        "242 reviews",
+        "246 reviews",
         "Silent mode"
       ],
       "cons": [
         "Hub needed for Wi-Fi",
-        "4.1 stars",
+        "4.0 stars",
         "$152.99"
       ]
     }

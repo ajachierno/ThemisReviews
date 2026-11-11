@@ -39,9 +39,29 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best for Alexa", "kind": "budget", "rule": {"type": "system", "key": "alexa"}},
-    {"label": "Best With Radon", "kind": "premium", "rule": {"type": "feature", "key": "radon"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best for Alexa",
+      "kind": "budget",
+      "rule": {
+        "type": "system",
+        "key": "alexa"
+      }
+    },
+    {
+      "label": "Best With Radon",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "radon"
+      }
+    }
   ],
   "products": [
     {
@@ -70,12 +90,12 @@
         "NDIR CO2 sensor",
         "Display with alarm",
         "Alexa and Google",
-        "4.4 stars, 700+ bought in the past month"
+        "4.4 stars, 600+ bought in the past month"
       ],
       "cons": [
         "No PM2.5 or VOCs",
-        "Only 256 reviews",
-        "$69.99"
+        "Only 259 reviews",
+        "$89.99"
       ]
     },
     {
@@ -101,8 +121,8 @@
       "pros": [
         "Alexa routines can run purifiers, fans, and dehumidifiers",
         "Announcements on Echo devices",
-        "5,585 reviews, sold by Amazon",
-        "$69.99"
+        "5,593 reviews, sold by Amazon",
+        "$48.99"
       ],
       "cons": [
         "No CO2 sensor",
@@ -144,7 +164,7 @@
         "$49.90"
       ],
       "cons": [
-        "Only 182 reviews",
+        "Only 188 reviews",
         "No PM2.5",
         "2.4 GHz Wi-Fi only"
       ]
@@ -184,7 +204,7 @@
       "cons": [
         "3.8 stars",
         "No CO2",
-        "Only 202 reviews"
+        "Only 205 reviews"
       ]
     },
     {
@@ -278,7 +298,7 @@
         "Sold by Amazon"
       ],
       "cons": [
-        "Only 37 reviews",
+        "Only 38 reviews",
         "$164.39",
         "Voice assistants aren't named"
       ]
@@ -336,7 +356,7 @@
       },
       "verdict": "A cheap PM2.5 monitor that can switch on a Govee air purifier.",
       "pros": [
-        "$39.98",
+        "$39.99",
         "Controls Govee purifiers",
         "4.3 stars, 900+ bought in the past month"
       ],

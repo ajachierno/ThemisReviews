@@ -38,9 +38,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best Cordless", "kind": "special", "rule": {"type": "feature", "key": "cordless"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best Cordless",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "cordless"
+      }
+    }
   ],
   "products": [
     {
@@ -72,8 +91,8 @@
       },
       "verdict": "The best-selling smart table lamp, with real white light and Matter.",
       "pros": [
-        "4.7 stars from 2,620 reviews",
-        "7K+ bought in the past month",
+        "4.7 stars from 2,631 reviews",
+        "3K+ bought in the past month",
         "Matter, so it works in Apple Home"
       ],
       "cons": [
@@ -118,7 +137,7 @@
       "cons": [
         "Power adapter not included",
         "Dims itself on battery",
-        "Only 204 reviews"
+        "Only 206 reviews"
       ]
     },
     {
@@ -179,7 +198,7 @@
       "verdict": "A simple night lamp for a kid's room, controlled by touch, voice, or app.",
       "pros": [
         "$29.99",
-        "1,512 reviews",
+        "1,515 reviews",
         "Touch, voice, and app control"
       ],
       "cons": [
@@ -249,7 +268,7 @@
         "AI lighting scenes"
       ],
       "cons": [
-        "Only 96 reviews",
+        "Only 97 reviews",
         "4.3 stars",
         "Decor light only"
       ]
@@ -312,8 +331,8 @@
       "verdict": "A regular-looking bedside lamp with a smart bulb and USB charging in the base.",
       "pros": [
         "2 USB ports",
-        "$32.99",
-        "646 reviews"
+        "$33.99",
+        "647 reviews"
       ],
       "cons": [
         "Alexa only",
@@ -355,7 +374,7 @@
       ],
       "cons": [
         "3.9 stars",
-        "$179.99",
+        "$134.99",
         "Needs a firmware update before touch controls work properly"
       ]
     }
