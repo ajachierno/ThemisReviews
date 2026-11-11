@@ -31,8 +31,20 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    }
   ],
   "products": [
     {
@@ -118,7 +130,7 @@
         "Energy Star"
       ],
       "cons": [
-        "Only 153 reviews",
+        "Only 161 reviews",
         "Sold as EVRA Energy",
         "Needs an electrician"
       ]
@@ -144,11 +156,11 @@
       "pros": [
         "Time-of-use rates",
         "Connector overheat protection",
-        "$332.98"
+        "$331.49"
       ],
       "cons": [
         "4.4 stars",
-        "Only 153 reviews",
+        "Only 161 reviews",
         "2.4 GHz Wi-Fi"
       ]
     },
@@ -205,7 +217,7 @@
         "$319.99"
       ],
       "cons": [
-        "Only 38 reviews",
+        "Only 39 reviews",
         "Only 13 left at capture time",
         "Lesser-known brand"
       ]
@@ -237,7 +249,7 @@
       ],
       "cons": [
         "32 A max",
-        "Only 57 reviews",
+        "Only 58 reviews",
         "4.6 stars"
       ]
     },
@@ -260,7 +272,7 @@
       },
       "verdict": "A 48 A hardwired charger with a 25 ft cable, UL listed and ENERGY STAR certified, with real-time energy data and scheduled charging in the Emporia app.",
       "pros": [
-        "4.8 stars from 512 reviews",
+        "4.8 stars from 513 reviews",
         "UL listed and ENERGY STAR certified",
         "Real-time energy data and charge scheduling"
       ],
@@ -268,6 +280,67 @@
         "Needs an electrician",
         "$449",
         "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0CKKPBRDS",
+      "name": "EMPORIA Level 2 EV Charger with NACS Connector, 48 A, Hardwired with Whip, UL Listed, ENERGY STAR, Wi-Fi, 24 ft Cable, White",
+      "brand": "Emporia",
+      "model": "48 A hardwired (NACS)",
+      "systems": [],
+      "systems_label": "Emporia app",
+      "specs": {
+        "power": "48 A",
+        "install": "Hardwired with whip (electrician), NACS connector, 24 ft cable",
+        "app": "Emporia"
+      },
+      "features": {
+        "high_amp": true,
+        "plug_in": false,
+        "schedule": true,
+        "load_mgmt": false
+      },
+      "verdict": "The Emporia 48 A charger with a NACS connector, so a Tesla plugs in without an adapter and the handle button opens the charge port door.",
+      "pros": [
+        "NACS connector, no adapter for Tesla",
+        "UL listed and ENERGY STAR certified",
+        "4.7 stars from 145 reviews"
+      ],
+      "cons": [
+        "Needs an electrician",
+        "$479.00",
+        "J1772 cars need the other Emporia model",
+        "2.4 GHz Wi-Fi only"
+      ]
+    },
+    {
+      "asin": "B0DQDFHTNJ",
+      "name": "Lectron Level 2 J1772 Charger (WiFi Version), 240 V, 40 A, NEMA 14-50 Plug, 16 ft Cord, Portable",
+      "brand": "Lectron",
+      "model": "40 A portable (Wi-Fi version)",
+      "systems": [],
+      "systems_label": "Lectron app",
+      "specs": {
+        "power": "40 A / 9.6 kW",
+        "install": "Portable, NEMA 14-50 plug, 16 ft cord",
+        "app": "Lectron"
+      },
+      "features": {
+        "high_amp": false,
+        "plug_in": true,
+        "schedule": true,
+        "load_mgmt": false
+      },
+      "verdict": "A 40 A portable charger that plugs into a NEMA 14-50 outlet, with scheduling and a kWh limit in the Lectron app and a carrying case.",
+      "pros": [
+        "40 A from a plug, no electrician if the outlet exists",
+        "ENERGY STAR and ETL certified",
+        "Carrying case included"
+      ],
+      "cons": [
+        "16 ft cord is shorter than the 25 ft on most picks",
+        "4.4 stars from 95 reviews",
+        "$289.99"
       ]
     }
   ],

@@ -3,7 +3,7 @@
  "page_url": "https://themisreviews.com/wifi-ev-chargers.html",
  "json_url": "https://themisreviews.com/wifi-ev-chargers.json",
  "slug": "wifi-ev-chargers",
- "title": "The Best Smart Level 2 EV Chargers",
+ "title": "The 10 Best Smart Level 2 EV Chargers",
  "subtitle": "Wi-Fi home EV chargers with scheduling and charging history, ranked.",
  "intro": "We pulled the Level 2 home EV chargers on Amazon and scored them on rating, review volume, and features: amperage, safety certification, and Wi-Fi app control.",
  "protocol": {
@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "EV chargers",
- "data_captured": "2026-11-10",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-11",
+ "updated": "2026-11-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B0FP886BVQ",
    "name": "IYILO 48 A hardwired",
    "price": 339.98,
-   "why": "Highest score on the page (90): 4.4 stars from 153 reviews, $339.98."
+   "why": "Highest score on the page (90): 4.4 stars from 161 reviews, $339.98."
   },
   {
    "label": "Best Budget",
    "asin": "B0CG8D445Q",
    "name": "AIMILER 32 A Wi-Fi charger",
    "price": 189.99,
-   "why": "Highest score (83) among the cheapest third of picks (up to $319.99 each): 4.6 stars from 1,367 reviews, $189.99."
+   "why": "Highest score (83) among the cheapest third of picks (up to $319.99 each): 4.6 stars from 1,369 reviews, $189.99."
   }
  ],
  "systems_note": "Smart EV chargers run in their own apps; none of these listings name Alexa, Google, or Apple Home. Smart Life chargers work with Home Assistant's Tuya integration. All use J1772, so Tesla and other NACS cars need an adapter unless noted.",
@@ -59,7 +59,7 @@
    "price": 339.98,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 153,
+   "reviews_count": 161,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -79,7 +79,7 @@
     "Energy Star"
    ],
    "cons": [
-    "Only 153 reviews",
+    "Only 161 reviews",
     "Sold as EVRA Energy",
     "Needs an electrician"
    ],
@@ -107,7 +107,7 @@
    "price": 449.0,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 512,
+   "reviews_count": 513,
    "score": 87,
    "awards": [],
    "works_with": [],
@@ -117,10 +117,10 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "A 48 A hardwired charger with a 25 ft cable, UL listed and ENERGY STAR certified, with real-time energy data and scheduled charging in the Emporia app.",
    "pros": [
-    "4.8 stars from 512 reviews",
+    "4.8 stars from 513 reviews",
     "UL listed and ENERGY STAR certified",
     "Real-time energy data and charge scheduling"
    ],
@@ -146,6 +146,53 @@
   },
   {
    "rank": 3,
+   "asin": "B0CKKPBRDS",
+   "name": "EMPORIA Level 2 EV Charger with NACS Connector, 48 A, Hardwired with Whip, UL Listed, ENERGY STAR, Wi-Fi, 24 ft Cable, White",
+   "brand": "Emporia",
+   "model": "48 A hardwired (NACS)",
+   "price": 479.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 145,
+   "score": 84,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Emporia app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "The Emporia 48 A charger with a NACS connector, so a Tesla plugs in without an adapter and the handle button opens the charge port door.",
+   "pros": [
+    "NACS connector, no adapter for Tesla",
+    "UL listed and ENERGY STAR certified",
+    "4.7 stars from 145 reviews"
+   ],
+   "cons": [
+    "Needs an electrician",
+    "$479.00",
+    "J1772 cars need the other Emporia model",
+    "2.4 GHz Wi-Fi only"
+   ],
+   "specs": {
+    "power": "48 A",
+    "install": "Hardwired with whip (electrician), NACS connector, 24 ft cable",
+    "app": "Emporia"
+   },
+   "features": {
+    "high_amp": true,
+    "plug_in": false,
+    "schedule": true,
+    "load_mgmt": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71+21f04nSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CKKPBRDS?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0CKKPBRDS"
+  },
+  {
+   "rank": 4,
    "asin": "B0CG8D445Q",
    "name": "Level 2 EV Charger, 32 A, Wi-Fi App, 25 ft Cable, NEMA 14-50P Plug, J1772, ETL Certified",
    "brand": "AIMILER",
@@ -153,7 +200,7 @@
    "price": 189.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1367,
+   "reviews_count": 1369,
    "score": 83,
    "awards": [
     "Best Budget"
@@ -193,7 +240,7 @@
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0CG8D445Q"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0C6YMS4KH",
    "name": "ChargePoint HomeFlex Level 2 EV Fast Charger, J1772, Smart, Hardwired, 50A",
    "brand": "ChargePoint",
@@ -201,7 +248,7 @@
    "price": 549.0,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 2331,
+   "reviews_count": 2334,
    "score": 82,
    "awards": [],
    "works_with": [],
@@ -239,15 +286,15 @@
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0C6YMS4KH"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0FP4LH8KM",
    "name": "Level 2 EV Charger, 40Amp/9.6KW/240V, NEMA 14-50P, Wi-Fi(2.4 GHz)",
    "brand": "IYILO",
    "model": "40 A NEMA 14-50",
-   "price": 332.98,
+   "price": 331.49,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 153,
+   "reviews_count": 161,
    "score": 81,
    "awards": [],
    "works_with": [],
@@ -262,11 +309,11 @@
    "pros": [
     "Time-of-use rates",
     "Connector overheat protection",
-    "$332.98"
+    "$331.49"
    ],
    "cons": [
     "4.4 stars",
-    "Only 153 reviews",
+    "Only 161 reviews",
     "2.4 GHz Wi-Fi"
    ],
    "specs": {
@@ -285,7 +332,7 @@
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0FP4LH8KM"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0H5CKVDWK",
    "name": "Upgraded 48 Amp J1772 & TESLA Level 2 EV Charger, 25ft Cable, Hardwired",
    "brand": "Grasside",
@@ -293,7 +340,7 @@
    "price": 319.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 38,
+   "reviews_count": 39,
    "score": 81,
    "awards": [],
    "works_with": [],
@@ -311,7 +358,7 @@
     "$319.99"
    ],
    "cons": [
-    "Only 38 reviews",
+    "Only 39 reviews",
     "Only 13 left at capture time",
     "Lesser-known brand"
    ],
@@ -331,15 +378,15 @@
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0H5CKVDWK"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B0G4PHH62N",
-   "name": "Level 2 EV Charger 32 Amp Portable J1772 NEMA 14-50 7.6kW 25ft Cable",
+   "name": "Level 2 EV Charger 32 Amp Portable J1772 NEMA 14-50 7.7kW 25ft Cable",
    "brand": "EVPOVO",
    "model": "32 A portable",
    "price": 143.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 57,
+   "reviews_count": 58,
    "score": 80,
    "awards": [],
    "works_with": [
@@ -360,7 +407,7 @@
    ],
    "cons": [
     "32 A max",
-    "Only 57 reviews",
+    "Only 58 reviews",
     "4.6 stars"
    ],
    "specs": {
@@ -374,12 +421,58 @@
     "schedule": true,
     "load_mgmt": false
    },
-   "image": "https://m.media-amazon.com/images/I/71PG+vQ4wfL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/71aIEJgSHSL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0G4PHH62N?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0G4PHH62N"
   },
   {
-   "rank": 8,
+   "rank": 9,
+   "asin": "B0DQDFHTNJ",
+   "name": "Lectron Level 2 J1772 Charger (WiFi Version), 240 V, 40 A, NEMA 14-50 Plug, 16 ft Cord, Portable",
+   "brand": "Lectron",
+   "model": "40 A portable (Wi-Fi version)",
+   "price": 289.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 95,
+   "score": 77,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "Lectron app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A 40 A portable charger that plugs into a NEMA 14-50 outlet, with scheduling and a kWh limit in the Lectron app and a carrying case.",
+   "pros": [
+    "40 A from a plug, no electrician if the outlet exists",
+    "ENERGY STAR and ETL certified",
+    "Carrying case included"
+   ],
+   "cons": [
+    "16 ft cord is shorter than the 25 ft on most picks",
+    "4.4 stars from 95 reviews",
+    "$289.99"
+   ],
+   "specs": {
+    "power": "40 A / 9.6 kW",
+    "install": "Portable, NEMA 14-50 plug, 16 ft cord",
+    "app": "Lectron"
+   },
+   "features": {
+    "high_amp": false,
+    "plug_in": true,
+    "schedule": true,
+    "load_mgmt": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71R+pzLTxLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQDFHTNJ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ev-chargers.html#B0DQDFHTNJ"
+  },
+  {
+   "rank": 10,
    "asin": "B0BW9DCRSG",
    "name": "Autel 50A Level 2 EV Charger, 240V Hardwired J1772, WiFi, 25ft Cable",
    "brand": "Autel",
@@ -441,6 +534,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-11",
+   "notes": [
+    "Added Emporia 48 A hardwired (NACS), Lectron 40 A portable (Wi-Fi version).",
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "Full re-check after both EVIQO chargers left Amazon on Nov 10. All eight remaining picks kept with prices and ratings confirmed. Added the Emporia 48 A with a NACS connector ($479.00, 4.7 stars from 145 reviews) for Tesla owners and the Lectron 40 A portable Wi-Fi charger ($289.99, 4.4 stars from 95 reviews), bringing the page back to ten picks."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [
