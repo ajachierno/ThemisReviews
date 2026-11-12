@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Sprinklers and timers",
- "data_captured": "2026-11-05",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-12",
+ "updated": "2026-11-12",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,29 +37,29 @@
    "label": "Best Overall",
    "asin": "B07CZ864Y9",
    "name": "Rachio Rachio 3 (8-zone)",
-   "price": 180.79,
-   "why": "Highest score on the page (90): 4.5 stars from 8,460 reviews, $180.79."
+   "price": 191.5,
+   "why": "Highest score on the page (90): 4.5 stars from 8,463 reviews, $191.50."
   },
   {
    "label": "Best Budget",
    "asin": "B0F883P8N1",
    "name": "HiOazo 4-zone Wi-Fi controller",
    "price": 39.99,
-   "why": "Highest score (77) among the cheapest third of picks (up to $77.98 each): 4.2 stars from 462 reviews, $39.99."
+   "why": "Highest score (77) among the cheapest third of picks (up to $62.54 each): 4.2 stars from 468 reviews, $39.99."
   },
   {
    "label": "Best Outdoor",
    "asin": "B01D15HOTU",
    "name": "Orbit B-hyve 12-zone indoor/outdoor",
-   "price": 116.56,
-   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,908 reviews, $116.56."
+   "price": 112.45,
+   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,909 reviews, $112.45."
   },
   {
    "label": "Best for Big Yards",
    "asin": "B07CZ5K355",
    "name": "Rachio Rachio 3 (16-zone)",
-   "price": 208.99,
-   "why": "Highest score (90) among picks marked Yes for Zones: 4.5 stars from 3,126 reviews, $208.99."
+   "price": 225.79,
+   "why": "Highest score (90) among picks marked Yes for Zones: 4.5 stars from 3,126 reviews, $225.79."
   }
  ],
  "systems_note": "Rachio and Rain Bird also have official Home Assistant integrations.",
@@ -70,10 +70,10 @@
    "name": "Rachio 3 Smart Sprinkler In-Ground WiFi Irrigation Controller, 8-Zone",
    "brand": "Rachio",
    "model": "Rachio 3 (8-zone)",
-   "price": 180.79,
+   "price": 191.5,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 8460,
+   "reviews_count": 8463,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -93,14 +93,14 @@
    "verdict": "The smart sprinkler controller most people should buy: easy app, accurate weather skips, and wide support.",
    "pros": [
     "Weather Intelligence skips for rain, wind, and freeze",
-    "8,460 reviews at 4.5 stars",
+    "8,463 reviews at 4.5 stars",
     "1K+ bought in the past month",
     "Official Home Assistant integration"
    ],
    "cons": [
     "Sold by a reseller at capture time",
     "Indoor only without an enclosure",
-    "$180.79"
+    "$191.50"
    ],
    "specs": {
     "zones": "8",
@@ -124,7 +124,7 @@
    "name": "Rachio 3 Smart Sprinkler Controller, 16-Zone, Auto Scheduling with Local Weather Intelligence, Rain, Freeze and Wind Skip",
    "brand": "Rachio",
    "model": "Rachio 3 (16-zone)",
-   "price": 208.99,
+   "price": 225.79,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3126,
@@ -143,7 +143,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "700+ bought in past month",
+   "bought_last_month": "600+ bought in past month",
    "verdict": "The 16-zone Rachio for large yards with drip lines and many beds.",
    "pros": [
     "16 zones",
@@ -151,7 +151,7 @@
     "4.5 stars"
    ],
    "cons": [
-    "$208.99",
+    "$225.79",
     "Indoor only without an enclosure",
     "Overkill for small yards"
    ],
@@ -177,10 +177,10 @@
    "name": "Rain Bird ARC6 Irrigation Controller, Smart WiFi, Indoor, 6-Station",
    "brand": "Rain Bird",
    "model": "ARC6",
-   "price": 85.0,
+   "price": 79.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 470,
+   "reviews_count": 472,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -226,10 +226,10 @@
    "name": "Orbit B-hyve Smart Indoor/Outdoor Sprinkler Controller 57950, 12-Zone, App Controlled, Weatherproof",
    "brand": "Orbit",
    "model": "B-hyve 12-zone indoor/outdoor",
-   "price": 116.56,
+   "price": 112.45,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6908,
+   "reviews_count": 6909,
    "score": 80,
    "awards": [
     "Best Outdoor"
@@ -241,12 +241,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "600+ bought in past month",
+   "bought_last_month": "500+ bought in past month",
    "verdict": "A weatherproof B-hyve that can hang outside where your old controller was.",
    "pros": [
     "Weatherproof case for outdoor mounting",
     "12 zones",
-    "6,908 reviews, sold by Amazon"
+    "6,909 reviews, sold by Amazon"
    ],
    "cons": [
     "Weather features aren't detailed in the bullets",
@@ -278,7 +278,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 462,
+   "reviews_count": 468,
    "score": 77,
    "awards": [
     "Best Budget"
@@ -290,7 +290,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "A $39.99 controller with weather skips and soak cycles for small yards.",
    "pros": [
     "$39.99",
@@ -324,10 +324,10 @@
    "name": "Orbit B-hyve Smart Sprinkler Controller, 6-Zone - 57946",
    "brand": "Orbit",
    "model": "B-hyve 6-zone indoor/outdoor",
-   "price": 96.86,
+   "price": 95.74,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 9461,
+   "reviews_count": 9463,
    "score": 76,
    "awards": [],
    "works_with": [],
@@ -341,8 +341,8 @@
    "verdict": "The 6-zone weatherproof B-hyve for average yards.",
    "pros": [
     "Indoor or outdoor",
-    "9,461 reviews at 4.5 stars",
-    "$96.86"
+    "9,463 reviews at 4.5 stars",
+    "$95.74"
    ],
    "cons": [
     "Sold by a reseller with 1 left at capture time",
@@ -371,7 +371,7 @@
    "name": "Orbit B-hyve Indoor Smart Sprinkler Controller, 8-Zone - 57925",
    "brand": "Orbit",
    "model": "B-hyve 8-zone indoor",
-   "price": 99.0,
+   "price": 82.37,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2960,
@@ -384,10 +384,10 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "An 8-zone indoor B-hyve with Wi-Fi and Bluetooth setup.",
    "pros": [
-    "8 zones for $99.00",
+    "8 zones for $82.37",
     "Wi-Fi and Bluetooth",
     "Sold by Amazon"
    ],
@@ -421,7 +421,7 @@
    "price": 42.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 119,
+   "reviews_count": 120,
    "score": 75,
    "awards": [],
    "works_with": [],
@@ -439,7 +439,7 @@
     "5-year care, per the listing"
    ],
    "cons": [
-    "Only 119 reviews",
+    "Only 120 reviews",
     "Lesser-known brand",
     "Indoor only"
    ],
@@ -465,7 +465,7 @@
    "name": "Orbit 57915 B-hyve 4-Zone Indoor Smart Sprinkler Controller",
    "brand": "Orbit",
    "model": "B-hyve 4-zone indoor (57915)",
-   "price": 77.98,
+   "price": 62.54,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3763,
@@ -478,10 +478,10 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "The cheapest name-brand smart controller, for 4-zone systems.",
    "pros": [
-    "$77.98",
+    "$62.54",
     "4.5 stars from 3,763 reviews",
     "Sold by Amazon"
    ],
@@ -523,6 +523,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-12",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

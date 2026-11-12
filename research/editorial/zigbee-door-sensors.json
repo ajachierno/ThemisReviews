@@ -51,10 +51,36 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Aqara Homes", "kind": "special", "rule": {"type": "brand", "key": "Aqara"}},
-    {"label": "Best Multi-Sensor", "kind": "premium", "rule": {"type": "feature", "key": "extra_sensors"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Aqara Homes",
+      "kind": "special",
+      "rule": {
+        "type": "brand",
+        "key": "Aqara"
+      }
+    },
+    {
+      "label": "Best Multi-Sensor",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "extra_sensors"
+      }
+    }
   ],
   "products": [
     {
@@ -153,12 +179,12 @@
       },
       "verdict": "A cheap, AAA-powered sensor with a tamper alert if someone pulls it off the frame.",
       "pros": [
-        "$13.90",
+        "$12.51",
         "Tamper alert",
-        "300+ bought in the past month"
+        "200+ bought in the past month"
       ],
       "cons": [
-        "4.1 stars",
+        "4.2 stars",
         "Needs a Zigbee hub",
         "Sold by the brand, not Amazon"
       ]
@@ -189,10 +215,10 @@
       "pros": [
         "Tamper alert",
         "Local automations keep working without internet",
-        "50+ bought in the past month"
+        "100+ bought in the past month"
       ],
       "cons": [
-        "3.8 stars from 58 reviews",
+        "4.0 stars from 75 reviews",
         "Costs more than the PR2",
         "Battery type isn't listed"
       ]
@@ -219,9 +245,9 @@
       },
       "verdict": "The most-reviewed Zigbee contact sensor. Tiny, cheap, and built around Aqara's hub.",
       "pros": [
-        "4.4 stars from 6,134 reviews",
+        "4.4 stars from 6,140 reviews",
         "Very small",
-        "400+ bought in the past month"
+        "300+ bought in the past month"
       ],
       "cons": [
         "Designed for the Aqara hub",
@@ -258,7 +284,7 @@
         "Low-battery alerts"
       ],
       "cons": [
-        "Only 67 reviews",
+        "Only 68 reviews",
         "Battery type isn't listed",
         "Sold by the brand"
       ]
@@ -293,7 +319,7 @@
       ],
       "cons": [
         "Only 3 left in stock at capture time",
-        "52 reviews",
+        "53 reviews",
         "$22.99"
       ]
     },
@@ -389,7 +415,7 @@
       "verdict": "Three of the Aqara sensors for $42.74, about $14 each, if you already run an Aqara hub.",
       "pros": [
         "About $14 per sensor",
-        "4.3 stars from 1,698 reviews, 1K+ bought in the past month",
+        "4.4 stars from 1,706 reviews, 500+ bought in the past month",
         "Apple Home and Alexa through the Aqara hub"
       ],
       "cons": [

@@ -38,10 +38,37 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best With Zones", "kind": "budget", "rule": {"type": "feature", "key": "zones"}},
-    {"label": "Best Battery-Powered", "kind": "special", "rule": {"type": "feature", "key": "battery"}},
-    {"label": "Best for Aqara Homes", "kind": "premium", "rule": {"type": "brand", "key": "Aqara"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best With Zones",
+      "kind": "budget",
+      "rule": {
+        "type": "feature",
+        "key": "zones"
+      }
+    },
+    {
+      "label": "Best Battery-Powered",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "battery"
+      }
+    },
+    {
+      "label": "Best for Aqara Homes",
+      "kind": "premium",
+      "rule": {
+        "type": "brand",
+        "key": "Aqara"
+      }
+    }
   ],
   "products": [
     {
@@ -148,11 +175,11 @@
         "Battery powered",
         "mmWave and PIR together",
         "Temperature, humidity, and light",
-        "2K+ bought in the past month"
+        "1K+ bought in the past month"
       ],
       "cons": [
-        "3.7 stars",
-        "$46.99",
+        "3.6 stars",
+        "$49.99",
         "AI learning period after setup"
       ]
     },
@@ -181,7 +208,7 @@
       "pros": [
         "AI filtering for pets and fans",
         "Matter through an Aqara hub",
-        "501 reviews"
+        "511 reviews"
       ],
       "cons": [
         "Aqara hub required",
@@ -220,8 +247,8 @@
         "Zigbee repeater"
       ],
       "cons": [
-        "3.3 stars",
-        "Only 65 reviews",
+        "3.2 stars",
+        "Only 66 reviews",
         "$49.99"
       ]
     },
@@ -288,7 +315,7 @@
       ],
       "cons": [
         "3.8 stars",
-        "Only 52 reviews",
+        "Only 55 reviews",
         "Power source isn't in the bullets"
       ]
     },
@@ -320,7 +347,7 @@
       ],
       "cons": [
         "Tuya Zigbee hub required",
-        "Only 24 reviews",
+        "Only 25 reviews",
         "Only 10 left at capture time"
       ]
     },
@@ -388,7 +415,7 @@
         "$18.99"
       ],
       "cons": [
-        "Only 13 reviews",
+        "Only 15 reviews",
         "3.5 stars",
         "Unknown brand"
       ]

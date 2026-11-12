@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Presence sensors",
- "data_captured": "2026-11-05",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-12",
+ "updated": "2026-11-12",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0CNGKFG9Y",
    "name": "SONOFF SNZB-06P",
    "price": 17.9,
-   "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 501 reviews, $17.90."
+   "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 505 reviews, $17.90."
   },
   {
    "label": "Best With Zones",
    "asin": "B0GZVPQQRX",
    "name": "SONOFF SNZB-06P24",
    "price": 24.9,
-   "why": "Highest score of the picks that fit this award (84): 3.8 stars from 219 reviews, $24.90."
+   "why": "Highest score of the picks that fit this award (84): 3.8 stars from 226 reviews, $24.90."
   },
   {
    "label": "Best Battery-Powered",
    "asin": "B0FG2MD3YP",
    "name": "Aqara FP300",
-   "price": 46.99,
-   "why": "Highest score of the picks that fit this award (82): 3.7 stars from 968 reviews, $46.99."
+   "price": 49.99,
+   "why": "Highest score of the picks that fit this award (81): 3.6 stars from 982 reviews, $49.99."
   },
   {
    "label": "Best for Aqara Homes",
    "asin": "B0D5QPH3T6",
    "name": "Aqara FP1E",
-   "price": 42.99,
-   "why": "Highest score (66) among Aqara picks: 4.0 stars from 501 reviews, $42.99."
+   "price": 39.99,
+   "why": "Highest score (66) among Aqara picks: 4.0 stars from 511 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -73,7 +73,7 @@
    "price": 24.9,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 219,
+   "reviews_count": 226,
    "score": 84,
    "awards": [
     "Best With Zones"
@@ -126,11 +126,11 @@
    "name": "Aqara Presence Sensor FP300 Wireless 5-in-1 Motion Sensor with mmWave",
    "brand": "Aqara",
    "model": "FP300",
-   "price": 46.99,
+   "price": 49.99,
    "currency": "USD",
-   "rating": 3.7,
-   "reviews_count": 968,
-   "score": 82,
+   "rating": 3.6,
+   "reviews_count": 982,
+   "score": 81,
    "awards": [
     "Best Battery-Powered"
    ],
@@ -149,17 +149,17 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "2K+ bought in past month",
+   "bought_last_month": "1K+ bought in past month",
    "verdict": "A 5-in-1 battery sensor that works over Zigbee or Matter over Thread.",
    "pros": [
     "Battery powered",
     "mmWave and PIR together",
     "Temperature, humidity, and light",
-    "2K+ bought in the past month"
+    "1K+ bought in the past month"
    ],
    "cons": [
-    "3.7 stars",
-    "$46.99",
+    "3.6 stars",
+    "$49.99",
     "AI learning period after setup"
    ],
    "specs": {
@@ -187,7 +187,7 @@
    "price": 17.9,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 501,
+   "reviews_count": 505,
    "score": 80,
    "awards": [
     "Best Overall"
@@ -206,7 +206,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "The best cheap presence sensor: detects people sitting still and only turns lights on when it's dark.",
    "pros": [
     "$17.90",
@@ -244,8 +244,8 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 52,
-   "score": 74,
+   "reviews_count": 55,
+   "score": 75,
    "awards": [],
    "works_with": [
     "Home Assistant"
@@ -265,7 +265,7 @@
    ],
    "cons": [
     "3.8 stars",
-    "Only 52 reviews",
+    "Only 55 reviews",
     "Power source isn't in the bullets"
    ],
    "specs": {
@@ -292,9 +292,9 @@
    "model": "Presence Sensor R3",
    "price": 49.99,
    "currency": "USD",
-   "rating": 3.3,
-   "reviews_count": 65,
-   "score": 71,
+   "rating": 3.2,
+   "reviews_count": 66,
+   "score": 70,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -309,7 +309,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "A 60 GHz sensor with an RGB light that can show status or act as a night light.",
    "pros": [
     "60 GHz mmWave",
@@ -317,8 +317,8 @@
     "Zigbee repeater"
    ],
    "cons": [
-    "3.3 stars",
-    "Only 65 reviews",
+    "3.2 stars",
+    "Only 66 reviews",
     "$49.99"
    ],
    "specs": {
@@ -343,10 +343,10 @@
    "name": "Aqara Zigbee Presence Sensor FP1E, mmWave Radar Wired Motion Sensor",
    "brand": "Aqara",
    "model": "FP1E",
-   "price": 42.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 501,
+   "reviews_count": 511,
    "score": 66,
    "awards": [
     "Best for Aqara Homes"
@@ -362,12 +362,12 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Aqara's wired presence sensor that ignores small pets, for Aqara hub owners.",
    "pros": [
     "AI filtering for pets and fans",
     "Matter through an Aqara hub",
-    "501 reviews"
+    "511 reviews"
    ],
    "cons": [
     "Aqara hub required",
@@ -448,7 +448,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 24,
+   "reviews_count": 25,
    "score": 59,
    "awards": [],
    "works_with": [
@@ -469,7 +469,7 @@
    ],
    "cons": [
     "Tuya Zigbee hub required",
-    "Only 24 reviews",
+    "Only 25 reviews",
     "Only 10 left at capture time"
    ],
    "specs": {
@@ -550,8 +550,8 @@
    "price": 18.99,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 13,
-   "score": 54,
+   "reviews_count": 15,
+   "score": 55,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -574,7 +574,7 @@
     "$18.99"
    ],
    "cons": [
-    "Only 13 reviews",
+    "Only 15 reviews",
     "3.5 stars",
     "Unknown brand"
    ],
@@ -611,6 +611,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-12",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -357,7 +357,7 @@
    "json": "https://themisreviews.com/z-wave-buttons.json",
    "protocol": "Z-Wave",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "updated": "2026-11-10",
    "products": 4,
    "awards": [
@@ -384,7 +384,7 @@
    "json": "https://themisreviews.com/z-wave-relays.json",
    "protocol": "Z-Wave",
    "product_type": "Relays and modules",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "updated": "2026-11-10",
    "products": 10,
    "awards": [
@@ -418,8 +418,8 @@
    "json": "https://themisreviews.com/z-wave-fan-controls.json",
    "protocol": "Z-Wave",
    "product_type": "Fan controls",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-05",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 4,
    "awards": [
     {
@@ -427,14 +427,14 @@
      "asin": "B0846CJTRN",
      "name": "Zooz ZEN30 800LR double switch",
      "price": 44.95,
-     "why": "Highest score on the page (86): 4.4 stars from 332 reviews, $44.95."
+     "why": "Highest score on the page (85): 4.3 stars from 334 reviews, $44.95."
     },
     {
      "label": "Best Speed Control",
      "asin": "B07WSG4FN4",
      "name": "Enbrighten Z-Wave fan control (3-speed)",
-     "price": 38.43,
-     "why": "Highest score (80) among picks marked Yes for Fan speeds: 4.3 stars from 120 reviews, $38.43."
+     "price": 37.9,
+     "why": "Highest score (80) among picks marked Yes for Fan speeds: 4.3 stars from 120 reviews, $37.90."
     }
    ]
   },
@@ -445,16 +445,16 @@
    "json": "https://themisreviews.com/z-wave-outlets.json",
    "protocol": "Z-Wave",
    "product_type": "In-wall outlets",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-05",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CQKPYZM9",
      "name": "Enbrighten Z-Wave duplex outlet",
-     "price": 30.04,
-     "why": "Highest score on the page (91): 4.4 stars from 103 reviews, $30.04."
+     "price": 29.48,
+     "why": "Highest score on the page (91): 4.4 stars from 103 reviews, $29.48."
     }
    ]
   },
@@ -776,8 +776,8 @@
    "json": "https://themisreviews.com/zigbee-door-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
@@ -791,22 +791,22 @@
      "label": "Best Budget",
      "asin": "B0GKFB3XCL",
      "name": "SONOFF SNZB-04PR2",
-     "price": 13.9,
-     "why": "Highest score (84) among the cheapest third of picks (up to $14.25 each): 4.1 stars from 322 reviews, $13.90."
+     "price": 12.51,
+     "why": "Highest score (85) among the cheapest third of picks (up to $14.25 each): 4.2 stars from 329 reviews, $12.51."
     },
     {
      "label": "Best for Aqara Homes",
      "asin": "B07D37VDM3",
      "name": "Aqara Door and Window Sensor",
      "price": 15.99,
-     "why": "Highest score (70) among Aqara picks: 4.4 stars from 6,134 reviews, $15.99."
+     "why": "Highest score (70) among Aqara picks: 4.4 stars from 6,140 reviews, $15.99."
     },
     {
      "label": "Best Multi-Sensor",
      "asin": "B0G52D5CY6",
      "name": "Shelly BLU Door/Window ZB",
      "price": 22.99,
-     "why": "Highest score of the picks that fit this award (86): 4.5 stars from 52 reviews, $22.99."
+     "why": "Highest score of the picks that fit this award (86): 4.5 stars from 53 reviews, $22.99."
     }
    ]
   },
@@ -987,8 +987,8 @@
    "json": "https://themisreviews.com/zigbee-sprinkler-timers.json",
    "protocol": "Zigbee",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-05",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 6,
    "awards": [
     {
@@ -1003,7 +1003,7 @@
      "asin": "B0H3LB7234",
      "name": "SONOFF Hydro ONE Lite (SWV-ZNU)",
      "price": 24.9,
-     "why": "Highest score (68) among the cheapest third of picks (up to $24.90 each): 3.7 stars from 33 reviews, $24.90."
+     "why": "Highest score (69) among the cheapest third of picks (up to $24.90 each): 3.7 stars from 34 reviews, $24.90."
     },
     {
      "label": "Best Two-Zone",
@@ -1021,8 +1021,8 @@
    "json": "https://themisreviews.com/zigbee-light-strips.json",
    "protocol": "Zigbee",
    "product_type": "Light strips",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
@@ -1030,21 +1030,21 @@
      "asin": "B0GNTQR5S1",
      "name": "Philips Hue Flux 16 ft",
      "price": 109.99,
-     "why": "Highest score on the page (94): 4.4 stars from 92 reviews, $109.99."
+     "why": "Highest score on the page (94): 4.4 stars from 95 reviews, $109.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0D326FYQ4",
      "name": "Philips Hue Solo Lightstrip 16 ft",
-     "price": 72.0,
-     "why": "Highest score (83) among the cheapest third of picks (up to $72.00 each): 4.4 stars from 1,230 reviews, $72.00."
+     "price": 70.95,
+     "why": "Highest score (83) among the cheapest third of picks (up to $70.95 each): 4.4 stars from 1,231 reviews, $70.95."
     },
     {
      "label": "Best Premium",
      "asin": "B0FQLNRJCG",
      "name": "Philips Hue OmniGlow 9.8 ft",
      "price": 139.99,
-     "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 169 reviews, $139.99."
+     "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 173 reviews, $139.99."
     }
    ]
   },
@@ -1096,8 +1096,8 @@
    "json": "https://themisreviews.com/zigbee-presence-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Presence sensors",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
@@ -1105,28 +1105,28 @@
      "asin": "B0CNGKFG9Y",
      "name": "SONOFF SNZB-06P",
      "price": 17.9,
-     "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 501 reviews, $17.90."
+     "why": "Highest score (80) among picks with at least 4.0 stars and 30 reviews: 4.0 stars from 505 reviews, $17.90."
     },
     {
      "label": "Best With Zones",
      "asin": "B0GZVPQQRX",
      "name": "SONOFF SNZB-06P24",
      "price": 24.9,
-     "why": "Highest score of the picks that fit this award (84): 3.8 stars from 219 reviews, $24.90."
+     "why": "Highest score of the picks that fit this award (84): 3.8 stars from 226 reviews, $24.90."
     },
     {
      "label": "Best Battery-Powered",
      "asin": "B0FG2MD3YP",
      "name": "Aqara FP300",
-     "price": 46.99,
-     "why": "Highest score of the picks that fit this award (82): 3.7 stars from 968 reviews, $46.99."
+     "price": 49.99,
+     "why": "Highest score of the picks that fit this award (81): 3.6 stars from 982 reviews, $49.99."
     },
     {
      "label": "Best for Aqara Homes",
      "asin": "B0D5QPH3T6",
      "name": "Aqara FP1E",
-     "price": 42.99,
-     "why": "Highest score (66) among Aqara picks: 4.0 stars from 501 reviews, $42.99."
+     "price": 39.99,
+     "why": "Highest score (66) among Aqara picks: 4.0 stars from 511 reviews, $39.99."
     }
    ]
   },
@@ -1137,23 +1137,23 @@
    "json": "https://themisreviews.com/zigbee-blinds.json",
    "protocol": "Zigbee",
    "product_type": "Blinds and shades",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0FF4YL1MW",
      "name": "JaeJaes Smart roller shades 23\" x 72\"",
-     "price": 129.99,
-     "why": "Highest score on the page (92): 4.4 stars from 83 reviews, $129.99."
+     "price": 119.99,
+     "why": "Highest score on the page (92): 4.4 stars from 87 reviews, $119.99."
     },
     {
      "label": "Best Custom Shades",
      "asin": "B07F817HJT",
      "name": "Yoolax Motorized blackout shades (custom size)",
      "price": 119.0,
-     "why": "Highest score of the picks that fit this award (87): 4.4 stars from 1,221 reviews, $119.00."
+     "why": "Highest score of the picks that fit this award (87): 4.4 stars from 1,222 reviews, $119.00."
     },
     {
      "label": "Best Premium",
@@ -1796,8 +1796,8 @@
    "json": "https://themisreviews.com/wifi-smoke-detectors.json",
    "protocol": "Wi-Fi",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 9,
    "awards": [
     {
@@ -1805,14 +1805,14 @@
      "asin": "B0FP3MM8W4",
      "name": "Kidde Smart Smoke + CO with Ring (RGCUDR)",
      "price": 69.97,
-     "why": "Highest score on the page (89): 4.3 stars from 517 reviews, $69.97."
+     "why": "Highest score on the page (89): 4.3 stars from 525 reviews, $69.97."
     },
     {
      "label": "Best Budget",
-     "asin": "B0F7N5YS7T",
-     "name": "Kidde Smart Smoke with Ring, hardwired (RGSAR)",
-     "price": 54.98,
-     "why": "Highest score (81) among the cheapest third of picks (up to $54.98 each): 4.3 stars from 241 reviews, $54.98."
+     "asin": "B0FP3F4GJS",
+     "name": "Kidde Smart Smoke with Ring (RGSDR)",
+     "price": 49.98,
+     "why": "Highest score (80) among the cheapest third of picks (up to $54.98 each): 4.2 stars from 260 reviews, $49.98."
     }
    ]
   },
@@ -1850,30 +1850,30 @@
    "json": "https://themisreviews.com/wifi-water-valves.json",
    "protocol": "Wi-Fi",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DTP7J9Z7",
      "name": "YoLink X3 + EVO valve kit (4 sensors + hub)",
-     "price": 296.99,
-     "why": "Highest score on the page (92): 4.8 stars from 545 reviews, $296.99."
+     "price": 329.99,
+     "why": "Highest score on the page (91): 4.7 stars from 548 reviews, $329.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0F2MYNQS2",
      "name": "YoLink X3 1 in. stainless valve kit",
      "price": 259.99,
-     "why": "Highest score (84) among the cheapest third of picks (up to $259.99 each): 4.7 stars from 100 reviews, $259.99."
+     "why": "Highest score (84) among the cheapest third of picks (up to $259.99 each): 4.7 stars from 101 reviews, $259.99."
     },
     {
      "label": "Best Flow Monitor",
      "asin": "B0GJRQMPGM",
      "name": "Frizzlife LPG365 with 3 leak sensors",
      "price": 499.99,
-     "why": "Highest score of the picks that fit this award (88): 4.8 stars from 42 reviews, $499.99."
+     "why": "Highest score of the picks that fit this award (86): 4.5 stars from 43 reviews, $499.99."
     }
    ]
   },
@@ -1884,37 +1884,37 @@
    "json": "https://themisreviews.com/wifi-sprinkler-controllers.json",
    "protocol": "Wi-Fi",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B07CZ864Y9",
      "name": "Rachio Rachio 3 (8-zone)",
-     "price": 180.79,
-     "why": "Highest score on the page (90): 4.5 stars from 8,460 reviews, $180.79."
+     "price": 191.5,
+     "why": "Highest score on the page (90): 4.5 stars from 8,463 reviews, $191.50."
     },
     {
      "label": "Best Budget",
      "asin": "B0F883P8N1",
      "name": "HiOazo 4-zone Wi-Fi controller",
      "price": 39.99,
-     "why": "Highest score (77) among the cheapest third of picks (up to $77.98 each): 4.2 stars from 462 reviews, $39.99."
+     "why": "Highest score (77) among the cheapest third of picks (up to $62.54 each): 4.2 stars from 468 reviews, $39.99."
     },
     {
      "label": "Best Outdoor",
      "asin": "B01D15HOTU",
      "name": "Orbit B-hyve 12-zone indoor/outdoor",
-     "price": 116.56,
-     "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,908 reviews, $116.56."
+     "price": 112.45,
+     "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,909 reviews, $112.45."
     },
     {
      "label": "Best for Big Yards",
      "asin": "B07CZ5K355",
      "name": "Rachio Rachio 3 (16-zone)",
-     "price": 208.99,
-     "why": "Highest score (90) among picks marked Yes for Zones: 4.5 stars from 3,126 reviews, $208.99."
+     "price": 225.79,
+     "why": "Highest score (90) among picks marked Yes for Zones: 4.5 stars from 3,126 reviews, $225.79."
     }
    ]
   },
@@ -2000,8 +2000,8 @@
    "json": "https://themisreviews.com/wifi-smart-speakers.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart speakers",
-   "data_captured": "2026-11-05",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 6,
    "awards": [
     {
@@ -2009,21 +2009,21 @@
      "asin": "B0D6SX8VLQ",
      "name": "Amazon Echo Dot Max",
      "price": 119.99,
-     "why": "Highest score on the page (86): 4.3 stars from 5,758 reviews, $119.99."
+     "why": "Highest score on the page (86): 4.3 stars from 5,857 reviews, $119.99."
     },
     {
      "label": "Best for Bedrooms",
      "asin": "B0BFCBKXWL",
      "name": "Amazon Echo Spot (newest)",
      "price": 109.99,
-     "why": "Highest score of the picks that fit this award (78): 4.5 stars from 46,915 reviews, $109.99."
+     "why": "Highest score of the picks that fit this award (78): 4.5 stars from 47,098 reviews, $109.99."
     },
     {
      "label": "Best Sound",
      "asin": "B0BW34LCB8",
      "name": "Sonos Era 100",
      "price": 219.0,
-     "why": "Highest score of the picks that fit this award (78): 4.4 stars from 2,847 reviews, $219.00."
+     "why": "Highest score of the picks that fit this award (78): 4.4 stars from 2,855 reviews, $219.00."
     }
    ]
   },
@@ -2530,8 +2530,8 @@
    "json": "https://themisreviews.com/wifi-pet-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Pet cameras",
-   "data_captured": "2026-11-08",
-   "updated": "2026-11-08",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 8,
    "awards": [
     {
@@ -2539,28 +2539,28 @@
      "asin": "B09GDQZLD1",
      "name": "Furbo 360° Dog Camera (no-fee version)",
      "price": 72.0,
-     "why": "Highest score on the page (90): 4.4 stars from 9,304 reviews, $72.00."
+     "why": "Highest score on the page (90): 4.4 stars from 9,341 reviews, $72.00."
     },
     {
      "label": "Best Budget",
      "asin": "B09Y8TLP25",
      "name": "Tapo C210",
-     "price": 27.99,
-     "why": "Highest score (88) among the cheapest third of picks (up to $69.98 each): 4.5 stars from 23,510 reviews, $27.99."
+     "price": 22.99,
+     "why": "Highest score (88) among the cheapest third of picks (up to $72.00 each): 4.5 stars from 23,586 reviews, $22.99."
     },
     {
      "label": "Best Treat Cam",
      "asin": "B0DZ6NMTY9",
      "name": "TKENPRO 2K treat camera with auto tracking",
-     "price": 75.98,
-     "why": "Highest score (86) among picks marked Yes for Treat toss: 4.3 stars from 1,022 reviews, $75.98."
+     "price": 85.49,
+     "why": "Highest score (86) among picks marked Yes for Treat toss: 4.3 stars from 1,024 reviews, $85.49."
     },
     {
      "label": "Best Auto-Tracking",
      "asin": "B0GGGPRRSF",
      "name": "TKENPRO 5MP treat camera",
-     "price": 75.98,
-     "why": "Highest score of the picks that fit this award (86): 4.3 stars from 1,022 reviews, $75.98."
+     "price": 85.49,
+     "why": "Highest score of the picks that fit this award (86): 4.3 stars from 1,024 reviews, $85.49."
     }
    ]
   },
@@ -2843,23 +2843,23 @@
    "json": "https://themisreviews.com/wifi-dehumidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Dehumidifiers",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GL7R3RJV",
      "name": "Midea 50 Pint Dehumidifier with Pump",
-     "price": 270.03,
-     "why": "Highest score on the page (93): 4.2 stars from 171 reviews, $270.03."
+     "price": 276.7,
+     "why": "Highest score on the page (93): 4.2 stars from 177 reviews, $276.70."
     },
     {
      "label": "Best for Large Basements",
      "asin": "B0GL7QFBJ9",
      "name": "Midea 50 Pint Dehumidifier",
      "price": 219.99,
-     "why": "Highest score of the picks that fit this award (88): 4.4 stars from 263 reviews, $219.99."
+     "why": "Highest score of the picks that fit this award (88): 4.4 stars from 270 reviews, $219.99."
     },
     {
      "label": "Best With a Pump",
@@ -2873,7 +2873,7 @@
      "asin": "B07NRDBBH5",
      "name": "Midea 22 Pint Dehumidifier",
      "price": 194.99,
-     "why": "Highest score of the picks that fit this award (82): 4.4 stars from 7,235 reviews, $194.99."
+     "why": "Highest score of the picks that fit this award (82): 4.4 stars from 7,237 reviews, $194.99."
     }
    ]
   },
@@ -2911,8 +2911,8 @@
    "json": "https://themisreviews.com/wifi-ceiling-fans.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling fans",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
@@ -2920,14 +2920,14 @@
      "asin": "B0F1MVQ4HT",
      "name": "Lumary Smart Wi-Fi Ceiling Fan (low profile)",
      "price": 159.99,
-     "why": "Highest score on the page (95): 4.4 stars from 201 reviews, $159.99."
+     "why": "Highest score on the page (95): 4.4 stars from 203 reviews, $159.99."
     },
     {
      "label": "Best for Apple Home",
      "asin": "B0GQGY896M",
      "name": "Govee Ceiling Fan with RGBIC Light 52 in.",
      "price": 189.99,
-     "why": "Highest score (90) among picks that work with Apple Home: 4.6 stars from 282 reviews, $189.99."
+     "why": "Highest score (90) among picks that work with Apple Home: 4.6 stars from 290 reviews, $189.99."
     }
    ]
   },
@@ -3006,8 +3006,8 @@
    "json": "https://themisreviews.com/wifi-camera-systems.json",
    "protocol": "Wi-Fi",
    "product_type": "Camera systems",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
@@ -3022,14 +3022,14 @@
      "asin": "B0CF9Y9WMK",
      "name": "Hiseeu 4K PoE PTZ System (6 x 5MP PTZ)",
      "price": 349.99,
-     "why": "Highest score (87) among the cheapest third of picks (up to $299.96 each): 4.3 stars from 530 reviews, $349.99."
+     "why": "Highest score (87) among the cheapest third of picks (up to $359.99 each): 4.3 stars from 535 reviews, $349.99."
     },
     {
      "label": "Best 4K",
      "asin": "B07W4WBKKJ",
      "name": "Reolink RLK8-800B6 (8-channel, 6 x 4K)",
-     "price": 755.99,
-     "why": "Highest score of the picks that fit this award (95): 4.4 stars from 916 reviews, $755.99."
+     "price": 889.99,
+     "why": "Highest score of the picks that fit this award (95): 4.4 stars from 918 reviews, $889.99."
     }
    ]
   },
@@ -3176,8 +3176,8 @@
    "json": "https://themisreviews.com/wifi-fans.json",
    "protocol": "Wi-Fi",
    "product_type": "Fans",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 9,
    "awards": [
     {
@@ -3185,28 +3185,28 @@
      "asin": "B0CS5YG5YV",
      "name": "GoveeLife 42-inch Tower Fan (150°)",
      "price": 179.99,
-     "why": "Highest score on the page (96): 4.6 stars from 969 reviews, $179.99."
+     "why": "Highest score on the page (96): 4.6 stars from 972 reviews, $179.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0BRKPCJ7P",
      "name": "DREO Smart Tower Fan (90°)",
      "price": 79.93,
-     "why": "Highest score (84) among the cheapest third of picks (up to $79.99 each): 4.5 stars from 3,743 reviews, $79.93."
+     "why": "Highest score (84) among the cheapest third of picks (up to $79.99 each): 4.5 stars from 29,937 reviews, $79.93."
     },
     {
      "label": "Best Premium",
      "asin": "B0CKQNHK1H",
      "name": "Levoit Smart Tower Fan (26 ft/s)",
      "price": 129.99,
-     "why": "Highest score (90) among the priciest third of picks: 4.5 stars from 1,494 reviews, $129.99."
+     "why": "Highest score (91) among the priciest third of picks: 4.6 stars from 510 reviews, $129.99."
     },
     {
      "label": "Best Wide Oscillation",
      "asin": "B09M8PMW26",
      "name": "DREO Pilot Max Tower Fan (120°)",
-     "price": 129.99,
-     "why": "Highest score of the picks that fit this award (88): 4.5 stars from 6,873 reviews, $129.99."
+     "price": 116.93,
+     "why": "Highest score of the picks that fit this award (88): 4.5 stars from 6,880 reviews, $116.93."
     }
    ]
   },
@@ -3251,23 +3251,23 @@
    "json": "https://themisreviews.com/wifi-ceiling-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling lights",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0F2165SNY",
      "name": "Govee RGBIC Recessed Light 4-inch",
-     "price": 149.99,
-     "why": "Highest score on the page (96): 4.5 stars from 402 reviews, $149.99."
+     "price": 109.99,
+     "why": "Highest score on the page (96): 4.5 stars from 403 reviews, $109.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0C4FBK4RY",
      "name": "Govee Smart Recessed Lighting 4-inch",
      "price": 99.99,
-     "why": "Highest score (84) among the cheapest third of picks (up to $25.00 each): 4.6 stars from 1,245 reviews, $99.99."
+     "why": "Highest score (84) among the cheapest third of picks (up to $25.00 each): 4.6 stars from 1,248 reviews, $99.99."
     }
    ]
   },
@@ -3827,8 +3827,8 @@
    "json": "https://themisreviews.com/bluetooth-propane-monitors.json",
    "protocol": "Bluetooth",
    "product_type": "Tank monitors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 6,
    "awards": [
     {
@@ -3843,7 +3843,7 @@
      "asin": "B09J6MXJKT",
      "name": "Mopeka Pro Check",
      "price": 65.99,
-     "why": "Highest score (80) among the cheapest third of picks (up to $65.99 each): 4.3 stars from 2,846 reviews, $65.99."
+     "why": "Highest score (80) among the cheapest third of picks (up to $65.99 each): 4.3 stars from 2,851 reviews, $65.99."
     },
     {
      "label": "Best for Home Tanks",
@@ -4011,23 +4011,23 @@
    "json": "https://themisreviews.com/thread-door-sensors.json",
    "protocol": "Thread",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0BZSY26WP",
      "name": "Eve Door & Window (Matter)",
-     "price": 43.95,
-     "why": "Highest score (73) among picks with at least 4.0 stars and 30 reviews: 4.1 stars from 150 reviews, $43.95."
+     "price": 40.99,
+     "why": "Highest score (73) among picks with at least 4.0 stars and 30 reviews: 4.1 stars from 150 reviews, $40.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0G6ZH853W",
      "name": "Aqara Multi-State Sensor P100",
      "price": 27.99,
-     "why": "Highest score (76) among the cheapest third of picks (up to $27.99 each): 3.0 stars from 126 reviews, $27.99."
+     "why": "Highest score (77) among the cheapest third of picks (up to $27.99 each): 3.1 stars from 132 reviews, $27.99."
     }
    ]
   },
@@ -4038,8 +4038,8 @@
    "json": "https://themisreviews.com/thread-motion-sensors.json",
    "protocol": "Thread",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 6,
    "awards": [
     {
@@ -4047,21 +4047,21 @@
      "asin": "B0H6JFC9RQ",
      "name": "GL Technologies 5-in-1 Presence Sensor LWR02",
      "price": 49.99,
-     "why": "Highest score on the page (89): 4.3 stars from 128 reviews, $49.99."
+     "why": "Highest score on the page (90): 4.4 stars from 137 reviews, $49.99."
     },
     {
      "label": "Best Budget",
-     "asin": "B0GS5F4V6R",
-     "name": "THIRDREALITY Smart Night Light-T",
+     "asin": "B0CT8W9NRB",
+     "name": "Aqara Motion and Light Sensor P2",
      "price": 29.99,
-     "why": "Highest score (71) among the cheapest third of picks (up to $29.99 each): 3.6 stars from 52 reviews, $29.99."
+     "why": "Highest score (74) among the cheapest third of picks (up to $29.99 each): 3.5 stars from 681 reviews, $29.99."
     },
     {
      "label": "Best Presence Sensor",
      "asin": "B0FG2MD3YP",
      "name": "Aqara Presence Sensor FP300",
-     "price": 46.99,
-     "why": "Highest score of the picks that fit this award (83): 3.7 stars from 969 reviews, $46.99."
+     "price": 49.99,
+     "why": "Highest score of the picks that fit this award (82): 3.6 stars from 982 reviews, $49.99."
     }
    ]
   },
@@ -4830,30 +4830,30 @@
    "json": "https://themisreviews.com/matter-lamps.json",
    "protocol": "Matter",
    "product_type": "Lamps",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GQTF4X6H",
      "name": "Govee Lantern Floor Lamp",
-     "price": 129.99,
-     "why": "Highest score on the page (94): 4.8 stars from 404 reviews, $129.99."
+     "price": 109.99,
+     "why": "Highest score on the page (94): 4.8 stars from 415 reviews, $109.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0D41XL87F",
      "name": "Govee RGBIC Smart Table Lamp 2",
-     "price": 69.99,
-     "why": "Highest score (86) among the cheapest third of picks (up to $99.99 each): 4.7 stars from 2,625 reviews, $69.99."
+     "price": 63.99,
+     "why": "Highest score (86) among the cheapest third of picks (up to $89.99 each): 4.7 stars from 2,634 reviews, $63.99."
     },
     {
      "label": "Best Bright Lamp",
      "asin": "B0GQT4YJ5F",
      "name": "Govee Floor Lamp 3",
-     "price": 169.99,
-     "why": "Highest score of the picks that fit this award (93): 4.6 stars from 281 reviews, $169.99."
+     "price": 129.99,
+     "why": "Highest score of the picks that fit this award (93): 4.6 stars from 288 reviews, $129.99."
     }
    ]
   },
@@ -4864,8 +4864,8 @@
    "json": "https://themisreviews.com/matter-air-quality-monitors.json",
    "protocol": "Matter",
    "product_type": "Air quality monitors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-06",
+   "data_captured": "2026-11-12",
+   "updated": "2026-11-12",
    "products": 2,
    "awards": [
     {
@@ -4873,14 +4873,14 @@
      "asin": "B0G2WDPB29",
      "name": "SONOFF AirGuard CO2 SAWF-08P",
      "price": 49.9,
-     "why": "Highest score of the picks that fit this award (86): 4.3 stars from 183 reviews, $49.90."
+     "why": "Highest score of the picks that fit this award (86): 4.3 stars from 188 reviews, $49.90."
     },
     {
      "label": "Best for Particles",
      "asin": "B0G2W4FVQF",
      "name": "SONOFF SAWF-07P",
      "price": 39.9,
-     "why": "Highest score of the picks that fit this award (79): 3.8 stars from 202 reviews, $39.90."
+     "why": "Highest score of the picks that fit this award (79): 3.8 stars from 206 reviews, $39.90."
     }
    ]
   },
