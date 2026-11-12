@@ -39,10 +39,35 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best Cordless", "kind": "special", "rule": {"type": "feature", "key": "cordless"}},
-    {"label": "Best Premium", "kind": "premium", "rule": {"type": "premium"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best Cordless",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "cordless"
+      }
+    },
+    {
+      "label": "Best Premium",
+      "kind": "premium",
+      "rule": {
+        "type": "premium"
+      }
+    }
   ],
   "products": [
     {
@@ -71,7 +96,7 @@
         "Sold by Amazon"
       ],
       "cons": [
-        "3.4 stars from 1,874 reviews",
+        "3.4 stars from 1,922 reviews",
         "Filters to replace",
         "Plug-in only",
         "$79.99"
@@ -100,7 +125,7 @@
       "pros": [
         "Up to a month per charge",
         "5 GHz Wi-Fi",
-        "4,617 reviews"
+        "4,626 reviews"
       ],
       "cons": [
         "$89.99",
@@ -129,12 +154,12 @@
       },
       "verdict": "Hydration goals and filter reminders in the app for about $70.",
       "pros": [
-        "$69.99",
+        "$68.99",
         "Water-level alerts",
         "Sold by Amazon"
       ],
       "cons": [
-        "Only 84 reviews",
+        "Only 89 reviews",
         "2.5 L",
         "Filters to replace"
       ]
@@ -162,11 +187,11 @@
       "pros": [
         "Wide tray for dogs",
         "Dishwasher-safe tray",
-        "4.2 stars"
+        "4.1 stars"
       ],
       "cons": [
         "Small dogs only at 3 L",
-        "Only 240 reviews",
+        "Only 241 reviews",
         "$79.99"
       ]
     },
@@ -196,8 +221,8 @@
       ],
       "cons": [
         "4.1 stars",
-        "Only 179 reviews",
-        "$84.99"
+        "Only 181 reviews",
+        "$93.99"
       ]
     },
     {
@@ -226,38 +251,8 @@
       ],
       "cons": [
         "$249.99",
-        "Only 130 reviews",
+        "Only 136 reviews",
         "4.2 stars"
-      ]
-    },
-    {
-      "asin": "B0HGF8BDWD",
-      "brand": "ODSD",
-      "model": "Filterless Cat Water Fountain (3 L)",
-      "systems": [],
-      "systems_label": "Companion app",
-      "specs": {
-        "capacity": "3 L clean, 1.35 L waste tank",
-        "power": "Plug-in or 5,000 mAh battery",
-        "filter": "Filterless, wastewater separation",
-        "tracking": "Tank levels, drain schedules"
-      },
-      "features": {
-        "intake": false,
-        "cordless": true,
-        "filterless": true,
-        "big": true
-      },
-      "verdict": "Filterless and cordless, with clean and wastewater levels in the app.",
-      "pros": [
-        "No filters to buy",
-        "Battery or plug-in",
-        "4.0 stars"
-      ],
-      "cons": [
-        "Only 65 reviews",
-        "Not for large dogs",
-        "Intake is not measured"
       ]
     },
     {
@@ -268,7 +263,7 @@
       "systems": [],
       "systems_label": "PETGUGU app",
       "specs": {
-        "capacity": "Not stated in bullets",
+        "capacity": "2 L",
         "power": "Plug-in, wireless pump",
         "filter": "8-layer filter",
         "tracking": "Daily intake and trends"
@@ -279,15 +274,15 @@
         "filterless": false,
         "big": false
       },
-      "verdict": "A budget tracking fountain with an 8-layer filter.",
+      "verdict": "A tracking fountain with an 8-layer filter and a wireless pump.",
       "pros": [
-        "$49.99",
+        "Daily intake tracking in the app",
         "8-layer filter",
         "Sensor mode"
       ],
       "cons": [
-        "Sold by Woot",
-        "Only 11 reviews",
+        "Sold by a third-party seller",
+        "$79.99 with only 19 reviews",
         "2.4 GHz Wi-Fi only"
       ]
     },
