@@ -7,6 +7,7 @@ listing on 160+ pages each day isn't practical, so this re-reads just those awar
   python research/holiday_picks.py scrape   # re-read them into research/refresh/<today>-holiday-picks.json
                                             # (visible Chrome window, ~10 s each; re-run to retry failures)
   python research/holiday_picks.py apply    # write data/holiday-prices.json from today's capture
+  python research/holiday_picks.py api      # or: re-price them through the Creators API (price only)
 
 build.py overlays data/holiday-prices.json on the holiday pages only, with each pick's own
 "regular price on <date>". Review pages keep their own numbers and "prices checked" date until
@@ -78,5 +79,33 @@ def apply():
     print(f"holiday-prices: {ok} updated today, {len(failed)} not captured: {' '.join(failed)}")
 
 
+def api():
+    """Re-price the award listings through the Amazon Creators API (no scraping). The API has no
+    rating or review fields, so those stay as last recorded; only the price and its date move.
+    Listings the API doesn't return, or returns without a price or buy-box winner, keep their
+    previous values and date."""
+    import creators_api
+    from scrape_data import load_scrape
+    asins = award_asins()
+    items, _errs = creators_api.get_items(asins)
+    last = load_scrape()
+    prices = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    ok, failed = 0, []
+    for asin in asins:
+        r = creators_api.record(asin, items.get(asin))
+        prev = prices.get(asin) or {}
+        cap = last.get(asin) or {}
+        rating = prev.get("rating") or num(cap.get("rating"))
+        reviews = prev.get("reviews_count") or num(cap.get("reviews"), int)
+        price = num(r["price"])
+        if r["notfound"] or not r["buybox"] or None in (price, rating, reviews):
+            failed.append(asin)
+            continue
+        prices[asin] = {"price": price, "rating": rating, "reviews_count": reviews, "checked": TODAY}
+        ok += 1
+    OUT.write_text(json.dumps(prices, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    print(f"holiday-prices (API): {ok} of {len(asins)} re-priced today, {len(failed)} kept as they were: {' '.join(failed)}")
+
+
 if __name__ == "__main__":
-    {"asins": lambda: print(len(award_asins()), *award_asins()), "scrape": scrape, "apply": apply}[sys.argv[1]]()
+    {"asins": lambda: print(len(award_asins()), *award_asins()), "scrape": scrape, "apply": apply, "api": api}[sys.argv[1]]()
