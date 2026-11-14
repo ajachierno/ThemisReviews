@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Outdoor lights",
- "data_captured": "2026-11-06",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-14",
+ "updated": "2026-11-14",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,22 +37,22 @@
    "label": "Best Overall",
    "asin": "B0DX1WPB9J",
    "name": "Govee Permanent Outdoor Lights Pro (200 ft)",
-   "price": 599.99,
-   "why": "Highest score on the page (95): 4.4 stars from 2,452 reviews, $599.99."
+   "price": 539.99,
+   "why": "Highest score on the page (95): 4.4 stars from 2,469 reviews, $539.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0F1XGYD3W",
    "name": "Linkind HP5 Permanent Outdoor Lights (100 ft)",
    "price": 116.99,
-   "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 242 reviews, $116.99."
+   "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 243 reviews, $116.99."
   },
   {
    "label": "Best Premium",
-   "asin": "B0FKGH55C7",
-   "name": "ASAHOM S107B Permanent Outdoor Lights (100 ft)",
-   "price": 169.99,
-   "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 503 reviews, $169.99."
+   "asin": "B0CZY49ZTL",
+   "name": "Enbrighten Eternity Permanent Outdoor Lights (100 ft)",
+   "price": 249.99,
+   "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 200 reviews, $249.99."
   }
  ],
  "systems_note": "Govee lights also work with Home Assistant's official Govee Light Local integration.",
@@ -63,10 +63,10 @@
    "name": "Govee Permanent Outdoor Lights Pro, 200ft with 120 RGBIC LED Lights, White",
    "brand": "Govee",
    "model": "Permanent Outdoor Lights Pro (200 ft)",
-   "price": 599.99,
+   "price": 539.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 2452,
+   "reviews_count": 2469,
    "score": 95,
    "awards": [
     "Best Overall"
@@ -86,7 +86,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "3K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "The upgrade: twice the length, anti-glare lenses, real white light for everyday use, and Matter.",
    "pros": [
     "Warm and cool white LEDs",
@@ -95,7 +95,7 @@
     "3K+ bought in the past month"
    ],
    "cons": [
-    "$599.99",
+    "$539.99",
     "4.4 stars",
     "Weather rating isn't in the bullets"
    ],
@@ -121,14 +121,12 @@
    "name": "ASAHOM Permanent Outdoor Lights S107B, 100FT with 72 RGBCW LEDs, Black",
    "brand": "ASAHOM",
    "model": "S107B Permanent Outdoor Lights (100 ft)",
-   "price": 169.99,
+   "price": 164.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 503,
    "score": 89,
-   "awards": [
-    "Best Premium"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -147,7 +145,7 @@
     "4.5 stars"
    ],
    "cons": [
-    "$169.99",
+    "$164.99",
     "Only 503 reviews",
     "Lesser-known brand"
    ],
@@ -178,7 +176,9 @@
    "rating": 4.5,
    "reviews_count": 200,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [],
    "works_with_note": "Enbrighten app",
    "works_without": {
@@ -217,13 +217,13 @@
   {
    "rank": 4,
    "asin": "B0F1XGYD3W",
-   "name": "Linkind Permanent Outdoor Lights HP5,100ft RGBTW Outdoot Christmas Light",
+   "name": "Linkind Permanent Outdoor Lights HP5,100ft RGBTW Outdoor Christmas Light",
    "brand": "Linkind",
    "model": "HP5 Permanent Outdoor Lights (100 ft)",
    "price": 116.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 242,
+   "reviews_count": 243,
    "score": 88,
    "awards": [
     "Best Budget"
@@ -238,7 +238,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "Tunable-white permanent lights for $40 less than Govee's.",
    "pros": [
     "Tunable white",
@@ -246,7 +246,7 @@
     "$116.99"
    ],
    "cons": [
-    "Only 242 reviews",
+    "Only 243 reviews",
     "No Matter",
     "AI features are a separate tier"
    ],
@@ -322,7 +322,7 @@
    "name": "Govee S14 Bulb Outdoor String Lights 2, 96ft RGBICWW, 30 LED Bulbs, IP66",
    "brand": "Govee",
    "model": "S14 Bulb Outdoor String Lights 2 (96 ft)",
-   "price": 84.59,
+   "price": 79.99,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1376,
@@ -380,7 +380,7 @@
    "price": 279.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 3174,
+   "reviews_count": 3201,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -394,11 +394,11 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "7K+ bought in past month",
+   "bought_last_month": "3K+ bought in past month",
    "verdict": "The best-selling permanent lights: install once and change colors for every holiday.",
    "pros": [
     "7K+ bought in the past month",
-    "4.4 stars from 3,174 reviews",
+    "4.4 stars from 3,201 reviews",
     "IP67 lights",
     "Alexa and Google"
    ],
@@ -483,7 +483,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 2301,
+   "reviews_count": 2302,
    "score": 77,
    "awards": [],
    "works_with": [
@@ -591,6 +591,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-14",
+   "notes": [
+    "New Best Premium: Enbrighten Eternity Permanent Outdoor Lights (100 ft).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

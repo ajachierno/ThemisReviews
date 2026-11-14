@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-12",
+ "updated": "2026-11-14",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -817,8 +817,8 @@
    "json": "https://themisreviews.com/zigbee-motion-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -826,21 +826,21 @@
      "asin": "B0H4GD6GGK",
      "name": "Shelly BLU Motion ZB",
      "price": 26.99,
-     "why": "Highest score (77) among picks with at least 4.0 stars and 30 reviews: 4.5 stars from 78 reviews, $26.99."
+     "why": "Highest score (77) among picks with at least 4.0 stars and 30 reviews: 4.5 stars from 86 reviews, $26.99."
     },
     {
      "label": "Best Presence Sensor",
      "asin": "B0GZVPQQRX",
      "name": "SONOFF SNZB-06P24",
      "price": 24.9,
-     "why": "Highest score (82) among picks marked Yes for Detects still people: 3.8 stars from 219 reviews, $24.90."
+     "why": "Highest score (82) among picks marked Yes for Detects still people: 3.8 stars from 226 reviews, $24.90."
     },
     {
      "label": "Most Capable",
      "asin": "B0FG2MD3YP",
      "name": "Aqara Presence Sensor FP300",
      "price": 46.99,
-     "why": "Most of this page's scored features: 3.7 stars from 969 reviews, $46.99."
+     "why": "Most of this page's scored features: 3.6 stars from 982 reviews, $46.99."
     }
    ]
   },
@@ -1205,8 +1205,8 @@
    "json": "https://themisreviews.com/zigbee-vibration-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Vibration sensors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-06",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 6,
    "awards": [
     {
@@ -1214,14 +1214,14 @@
      "asin": "B0C9DP249C",
      "name": "THIRDREALITY Smart Vibration Sensor",
      "price": 17.99,
-     "why": "Highest score on the page (87): 4.2 stars from 624 reviews, $17.99."
+     "why": "Highest score on the page (87): 4.2 stars from 629 reviews, $17.99."
     },
     {
      "label": "Best for Aqara Homes",
      "asin": "B07PJT939B",
      "name": "Aqara Vibration Sensor",
-     "price": 19.99,
-     "why": "Highest score (70) among Aqara picks: 3.8 stars from 1,917 reviews, $19.99."
+     "price": 17.99,
+     "why": "Highest score (70) among Aqara picks: 3.8 stars from 1,917 reviews, $17.99."
     }
    ]
   },
@@ -1313,23 +1313,23 @@
    "json": "https://themisreviews.com/wifi-switches.json",
    "protocol": "Wi-Fi",
    "product_type": "Light switches",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B07724HNTX",
      "name": "Kasa HS210 kit",
-     "price": 30.99,
-     "why": "Highest score on the page (96): 4.6 stars from 19,960 reviews, $30.99."
+     "price": 25.99,
+     "why": "Highest score on the page (96): 4.6 stars from 19,974 reviews, $25.99."
     },
     {
      "label": "Best Budget",
-     "asin": "B0BS3LG9TX",
-     "name": "GHome SW5",
-     "price": 14.59,
-     "why": "Highest score (86) among the cheapest third of picks (up to $14.99 each): 4.5 stars from 1,595 reviews, $14.59."
+     "asin": "B01EZV35QU",
+     "name": "Kasa HS200",
+     "price": 10.49,
+     "why": "Highest score (86) among the cheapest third of picks (up to $13.49 each): 4.5 stars from 43,276 reviews, $10.49."
     },
     {
      "label": "Best for 3-Way",
@@ -1925,23 +1925,23 @@
    "json": "https://themisreviews.com/wifi-hose-timers.json",
    "protocol": "Wi-Fi",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0HDS4CTKS",
      "name": "RAINPOINT 2-zone with flow meter (HWG023 gateway)",
-     "price": 95.99,
-     "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.99."
+     "price": 95.98,
+     "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.98."
     },
     {
      "label": "Best Budget",
      "asin": "B0H11D2TS9",
      "name": "GoveeLife H5901 with gateway",
-     "price": 49.99,
-     "why": "Highest score (79) among the cheapest third of picks (up to $49.99 each): 4.1 stars from 131 reviews, $49.99."
+     "price": 47.99,
+     "why": "Highest score (79) among the cheapest third of picks (up to $47.99 each): 4.1 stars from 133 reviews, $47.99."
     },
     {
      "label": "Best Water Tracking",
@@ -1954,8 +1954,8 @@
      "label": "Best Multi-Zone",
      "asin": "B0B1QWVQPY",
      "name": "Orbit B-hyve XD 4-port",
-     "price": 74.99,
-     "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $74.99."
+     "price": 79.99,
+     "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $79.99."
     }
    ]
   },
@@ -2639,30 +2639,30 @@
    "json": "https://themisreviews.com/wifi-outdoor-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DX1WPB9J",
      "name": "Govee Permanent Outdoor Lights Pro (200 ft)",
-     "price": 599.99,
-     "why": "Highest score on the page (95): 4.4 stars from 2,452 reviews, $599.99."
+     "price": 539.99,
+     "why": "Highest score on the page (95): 4.4 stars from 2,469 reviews, $539.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0F1XGYD3W",
      "name": "Linkind HP5 Permanent Outdoor Lights (100 ft)",
      "price": 116.99,
-     "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 242 reviews, $116.99."
+     "why": "Highest score (88) among the cheapest third of picks (up to $116.99 each): 4.4 stars from 243 reviews, $116.99."
     },
     {
      "label": "Best Premium",
-     "asin": "B0FKGH55C7",
-     "name": "ASAHOM S107B Permanent Outdoor Lights (100 ft)",
-     "price": 169.99,
-     "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 503 reviews, $169.99."
+     "asin": "B0CZY49ZTL",
+     "name": "Enbrighten Eternity Permanent Outdoor Lights (100 ft)",
+     "price": 249.99,
+     "why": "Highest score (89) among the priciest third of picks: 4.5 stars from 200 reviews, $249.99."
     }
    ]
   },
@@ -2707,8 +2707,8 @@
    "json": "https://themisreviews.com/wifi-floodlight-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Floodlight cameras",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 9,
    "awards": [
     {
@@ -2716,21 +2716,21 @@
      "asin": "B0GHR3WVT1",
      "name": "Reolink Elite Floodlight Wi-Fi 4K",
      "price": 249.99,
-     "why": "Highest score on the page (91): 4.0 stars from 520 reviews, $249.99."
+     "why": "Highest score on the page (92): 4.1 stars from 525 reviews, $249.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0C9W1K5Y8",
      "name": "Wyze Floodlight Camera v2",
-     "price": 99.98,
-     "why": "Highest score (89) among the cheapest third of picks (up to $119.98 each): 4.2 stars from 3,062 reviews, $99.98."
+     "price": 79.99,
+     "why": "Highest score (89) among the cheapest third of picks (up to $99.99 each): 4.2 stars from 3,072 reviews, $79.99."
     },
     {
      "label": "Best High-Resolution",
      "asin": "B0B9TTCVS8",
      "name": "Wyze Floodlight Camera Pro",
-     "price": 149.93,
-     "why": "Highest score of the picks that fit this award (89): 4.2 stars from 1,956 reviews, $149.93."
+     "price": 125.0,
+     "why": "Highest score of the picks that fit this award (89): 4.2 stars from 1,956 reviews, $125.00."
     }
    ]
   },
@@ -2741,8 +2741,8 @@
    "json": "https://themisreviews.com/wifi-outdoor-plugs.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor smart plugs",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -2750,14 +2750,14 @@
      "asin": "B08HQ2N235",
      "name": "meross Outdoor Smart Plug (2 sockets)",
      "price": 25.99,
-     "why": "Highest score on the page (90): 4.4 stars from 3,962 reviews, $25.99."
+     "why": "Highest score on the page (90): 4.4 stars from 7,503 reviews, $25.99."
     },
     {
      "label": "Best Budget",
-     "asin": "B07JQSX11M",
-     "name": "BN-LINK Outdoor Smart Plug (3 outlets)",
-     "price": 20.89,
-     "why": "Highest score (81) among the cheapest third of picks (up to $21.99 each): 4.3 stars from 13,777 reviews, $20.89."
+     "asin": "B094YHJJVG",
+     "name": "Amazon Basics Outdoor Smart Plug",
+     "price": 23.99,
+     "why": "Highest score (83) among the cheapest third of picks (up to $23.99 each): 4.5 stars from 3,794 reviews, $23.99."
     },
     {
      "label": "Best for Apple Home",
@@ -2782,8 +2782,8 @@
    "json": "https://themisreviews.com/wifi-power-strips.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart power strips",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 9,
    "awards": [
     {
@@ -2791,7 +2791,7 @@
      "asin": "B0F5LNYTR7",
      "name": "Tapo P316M Smart Power Strip",
      "price": 49.99,
-     "why": "Highest score on the page (96): 4.5 stars from 364 reviews, $49.99."
+     "why": "Highest score on the page (96): 4.5 stars from 365 reviews, $49.99."
     },
     {
      "label": "Best Budget",
@@ -2809,8 +2809,8 @@
    "json": "https://themisreviews.com/wifi-humidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Humidifiers",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -2818,21 +2818,21 @@
      "asin": "B0DT48R3BR",
      "name": "Dreo HM717S Smart Humidifier 8L",
      "price": 99.93,
-     "why": "Highest score on the page (96): 4.5 stars from 1,007 reviews, $99.93."
+     "why": "Highest score on the page (96): 4.5 stars from 1,008 reviews, $99.93."
     },
     {
      "label": "Best Budget",
      "asin": "B0GR99R7XD",
      "name": "Levoit Smart Humidifier 6.2L",
-     "price": 67.99,
-     "why": "Highest score (82) among the cheapest third of picks (up to $67.99 each): 4.4 stars from 45,453 reviews, $67.99."
+     "price": 67.98,
+     "why": "Highest score (82) among the cheapest third of picks (up to $67.98 each): 4.4 stars from 45,364 reviews, $67.98."
     },
     {
      "label": "Best for Large Rooms",
      "asin": "B0DHRD584W",
      "name": "GoveeLife Smart Humidifier 6L",
-     "price": 79.99,
-     "why": "Highest score of the picks that fit this award (96): 4.5 stars from 592 reviews, $79.99."
+     "price": 99.99,
+     "why": "Highest score of the picks that fit this award (96): 4.5 stars from 592 reviews, $99.99."
     }
    ]
   },
@@ -2884,23 +2884,23 @@
    "json": "https://themisreviews.com/wifi-space-heaters.json",
    "protocol": "Wi-Fi",
    "product_type": "Space heaters",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0H93JB64R",
      "name": "FLANUR Smart Space Heater 1500W",
-     "price": 55.99,
-     "why": "Highest score on the page (90): 4.4 stars from 844 reviews, $55.99."
+     "price": 69.99,
+     "why": "Highest score on the page (90): 4.4 stars from 864 reviews, $69.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0DHZ7HYQC",
      "name": "MORENTO Smart Space Heater",
      "price": 52.99,
-     "why": "Highest score (81) among the cheapest third of picks (up to $55.99 each): 4.1 stars from 238 reviews, $52.99."
+     "why": "Highest score (81) among the cheapest third of picks (up to $69.99 each): 4.1 stars from 239 reviews, $52.99."
     }
    ]
   },
@@ -3149,8 +3149,8 @@
    "json": "https://themisreviews.com/wifi-universal-remotes.json",
    "protocol": "Wi-Fi",
    "product_type": "IR blasters and remotes",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 4,
    "awards": [
     {
@@ -3158,7 +3158,7 @@
      "asin": "B0CXJC5ZZT",
      "name": "SwitchBot Universal Remote with Hub Mini (Matter)",
      "price": 85.49,
-     "why": "Highest score on the page (87): 4.2 stars from 5,332 reviews, $85.49."
+     "why": "Highest score on the page (87): 4.2 stars from 5,339 reviews, $85.49."
     },
     {
      "label": "Best for Home Assistant",
@@ -3217,30 +3217,30 @@
    "json": "https://themisreviews.com/wifi-smart-lamps.json",
    "protocol": "Wi-Fi",
    "product_type": "Lamps",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GQTF4X6H",
      "name": "Govee Lantern Floor Lamp",
-     "price": 129.99,
-     "why": "Highest score on the page (98): 4.8 stars from 404 reviews, $129.99."
+     "price": 109.99,
+     "why": "Highest score on the page (98): 4.8 stars from 415 reviews, $109.99."
     },
     {
      "label": "Best Budget",
      "asin": "B09W8WLQ19",
      "name": "YHW Smart RGB Floor Lamp (2,000 lm)",
      "price": 49.99,
-     "why": "Highest score (80) among the cheapest third of picks (up to $49.99 each): 4.2 stars from 2,304 reviews, $49.99."
+     "why": "Highest score (80) among the cheapest third of picks (up to $49.99 each): 4.2 stars from 2,306 reviews, $49.99."
     },
     {
      "label": "Most Popular",
      "asin": "B0BLSGHRXB",
      "name": "Govee RGBIC Floor Lamp",
-     "price": 69.99,
-     "why": "Most Amazon reviews on the page: 4.4 stars from 12,194 reviews, $69.99."
+     "price": 64.99,
+     "why": "Most Amazon reviews on the page: 4.4 stars from 12,194 reviews, $64.99."
     }
    ]
   },
@@ -3312,23 +3312,23 @@
    "json": "https://themisreviews.com/wifi-flush-mount-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling lights",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CRV5F1VB",
      "name": "Govee Smart Ceiling Light 12-inch",
-     "price": 69.99,
-     "why": "Highest score on the page (96): 4.5 stars from 2,047 reviews, $69.99."
+     "price": 59.99,
+     "why": "Highest score on the page (96): 4.5 stars from 2,056 reviews, $59.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0H1J192F3",
      "name": "SwitchBot RGBICWW Ceiling Light 12-inch",
      "price": 49.99,
-     "why": "Highest score (89) among the cheapest third of picks (up to $49.99 each): 3.8 stars from 95 reviews, $49.99."
+     "why": "Highest score (89) among the cheapest third of picks (up to $49.99 each): 3.8 stars from 99 reviews, $49.99."
     },
     {
      "label": "Best Premium",
@@ -3346,8 +3346,8 @@
    "json": "https://themisreviews.com/wifi-power-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Power stations",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 8,
    "awards": [
     {
@@ -3355,14 +3355,14 @@
      "asin": "B0FQVC4RF5",
      "name": "EcoFlow DELTA 3 Classic",
      "price": 462.0,
-     "why": "Highest score on the page (97): 4.7 stars from 1,396 reviews, $462.00."
+     "why": "Highest score on the page (97): 4.7 stars from 1,407 reviews, $462.00."
     },
     {
      "label": "Best Budget",
      "asin": "B0HD6GN86Q",
      "name": "BLUETTI Elite 100 mini",
-     "price": 429.0,
-     "why": "Highest score (89) among the cheapest third of picks (up to $489.00 each): 4.5 stars from 1,845 reviews, $429.00."
+     "price": 399.99,
+     "why": "Highest score (89) among the cheapest third of picks (up to $489.00 each): 4.5 stars from 1,845 reviews, $399.99."
     },
     {
      "label": "Best for Home Backup",
@@ -3380,16 +3380,16 @@
    "json": "https://themisreviews.com/wifi-water-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Water monitors",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0DSKG73XB",
      "name": "Frizzlife LP365",
-     "price": 279.98,
-     "why": "Highest score on the page (89): 4.5 stars from 382 reviews, $279.98."
+     "price": 329.99,
+     "why": "Highest score on the page (89): 4.5 stars from 385 reviews, $329.99."
     },
     {
      "label": "Best with Shutoff",
@@ -3400,10 +3400,10 @@
     },
     {
      "label": "Best Budget",
-     "asin": "B0FH6FS9TV",
-     "name": "Haozee WiFi Smart Water Valve and Auto Shut-Off",
-     "price": 159.99,
-     "why": "Highest score (71) among the cheapest third of picks (up to $159.99 each): 3.8 stars from 46 reviews, $159.99."
+     "asin": "B0HHH9DYGP",
+     "name": "GreenVation Water Flow Monitor and Valve (3/4 in)",
+     "price": 119.99,
+     "why": "Highest score (72) among the cheapest third of picks (up to $159.99 each): 4.8 stars from 17 reviews, $119.99."
     }
    ]
   },
@@ -3550,23 +3550,23 @@
    "json": "https://themisreviews.com/wifi-path-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-11-06",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 9,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0GQ3JNL38",
      "name": "Govee Outdoor Cylinder Pathway Lights",
-     "price": 144.99,
-     "why": "Highest score on the page (88): 4.4 stars from 92 reviews, $144.99."
+     "price": 129.99,
+     "why": "Highest score on the page (88): 4.4 stars from 94 reviews, $129.99."
     },
     {
      "label": "Best Budget",
-     "asin": "B0GKP32WT3",
-     "name": "Lumary Smart Landscape Lights (56 ft)",
-     "price": 71.99,
-     "why": "Highest score (79) among the cheapest third of picks (up to $16.47 each): 4.1 stars from 184 reviews, $71.99."
+     "asin": "B0FWKP22YT",
+     "name": "Govee Outdoor Pathway Lights 2 Lite",
+     "price": 119.99,
+     "why": "Highest score (87) among the cheapest third of picks (up to $15.00 each): 4.3 stars from 159 reviews, $119.99."
     }
    ]
   },
@@ -3685,8 +3685,8 @@
    "json": "https://themisreviews.com/bluetooth-temperature-sensors.json",
    "protocol": "Bluetooth",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-07",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -3694,7 +3694,7 @@
      "asin": "B07Y36FWTT",
      "name": "Govee H5075",
      "price": 11.69,
-     "why": "Highest score on the page (96): 4.5 stars from 48,684 reviews, $11.69."
+     "why": "Highest score on the page (96): 4.5 stars from 48,713 reviews, $11.69."
     }
    ]
   },
@@ -4160,8 +4160,8 @@
    "json": "https://themisreviews.com/matter-switches.json",
    "protocol": "Matter",
    "product_type": "Light switches",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-07",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -4169,14 +4169,14 @@
      "asin": "B0DKHCF53T",
      "name": "Tapo S515",
      "price": 15.99,
-     "why": "Highest score on the page (88): 4.4 stars from 605 reviews, $15.99."
+     "why": "Highest score on the page (88): 4.4 stars from 606 reviews, $15.99."
     },
     {
      "label": "Best Budget",
-     "asin": "B0C2B6RSDX",
-     "name": "Tapo S505",
-     "price": 15.99,
-     "why": "Highest score (70) among the cheapest third of picks (up to $18.99 each): 4.5 stars from 1,414 reviews, $15.99."
+     "asin": "B0CC8NP7ZD",
+     "name": "Kasa KS205",
+     "price": 12.99,
+     "why": "Highest score (71) among the cheapest third of picks (up to $15.99 each): 4.6 stars from 1,174 reviews, $12.99."
     }
    ]
   },
@@ -4316,8 +4316,8 @@
    "json": "https://themisreviews.com/matter-motion-sensors.json",
    "protocol": "Matter",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 4,
    "awards": [
     {
@@ -4325,14 +4325,14 @@
      "asin": "B0H6JFC9RQ",
      "name": "GL Technologies LWR02 5-in-1",
      "price": 49.99,
-     "why": "Highest score on the page (94): 4.3 stars from 128 reviews, $49.99."
+     "why": "Highest score on the page (95): 4.4 stars from 137 reviews, $49.99."
     },
     {
      "label": "Best Budget",
      "asin": "B0DYC9235W",
      "name": "meross MS600",
      "price": 33.99,
-     "why": "Highest score (82) among the cheapest third of picks (up to $33.99 each): 3.8 stars from 191 reviews, $33.99."
+     "why": "Highest score (82) among the cheapest third of picks (up to $33.99 each): 3.8 stars from 192 reviews, $33.99."
     },
     {
      "label": "Best Presence Sensor",
@@ -4540,8 +4540,8 @@
    "json": "https://themisreviews.com/matter-presence-sensors.json",
    "protocol": "Matter",
    "product_type": "Presence sensors",
-   "data_captured": "2026-11-09",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 3,
    "awards": [
     {
@@ -4549,7 +4549,7 @@
      "asin": "B0H6JFC9RQ",
      "name": "GL Technologies LWR02",
      "price": 49.99,
-     "why": "Highest score on the page (94): 4.3 stars from 130 reviews, $49.99."
+     "why": "Highest score on the page (95): 4.4 stars from 137 reviews, $49.99."
     },
     {
      "label": "Best Rated",
@@ -4702,8 +4702,8 @@
    "json": "https://themisreviews.com/matter-temperature-sensors.json",
    "protocol": "Matter",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 5,
    "awards": [
     {
@@ -4711,14 +4711,14 @@
      "asin": "B0CCP6HLN5",
      "name": "SwitchBot 4 outdoor sensors + Hub 2 (Matter)",
      "price": 88.39,
-     "why": "Highest score on the page (87): 4.2 stars from 10,267 reviews, $88.39."
+     "why": "Highest score on the page (87): 4.2 stars from 10,293 reviews, $88.39."
     },
     {
      "label": "Best Outdoor",
      "asin": "B0D81BVH6P",
      "name": "Eve Weather (Matter)",
-     "price": 87.95,
-     "why": "Highest score of the picks that fit this award (82): 3.6 stars from 74 reviews, $87.95."
+     "price": 84.81,
+     "why": "Highest score of the picks that fit this award (82): 3.6 stars from 74 reviews, $84.81."
     }
    ]
   },
@@ -4891,8 +4891,8 @@
    "json": "https://themisreviews.com/lutron-caseta-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Light switches",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-10",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 10,
    "awards": [
     {
@@ -4900,7 +4900,7 @@
      "asin": "B07HM6L48C",
      "name": "Lutron Caseta 3-way dimmer kit",
      "price": 74.95,
-     "why": "Highest score on the page (92): 4.7 stars from 3,057 reviews, $74.95."
+     "why": "Highest score on the page (92): 4.7 stars from 3,058 reviews, $74.95."
     },
     {
      "label": "Best Budget",
@@ -5054,8 +5054,8 @@
    "json": "https://themisreviews.com/lutron-occupancy-sensors.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-07",
-   "updated": "2026-11-01",
+   "data_captured": "2026-11-14",
+   "updated": "2026-11-14",
    "products": 2,
    "awards": [
     {
@@ -5063,7 +5063,7 @@
      "asin": "B084CMPWST",
      "name": "Lutron Caseta Occupancy Sensor (auto on/off)",
      "price": 54.95,
-     "why": "Highest score on the page (96): 4.5 stars from 961 reviews, $54.95."
+     "why": "Highest score on the page (96): 4.5 stars from 962 reviews, $54.95."
     },
     {
      "label": "Best for Bedrooms",

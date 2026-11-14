@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Light switches",
- "data_captured": "2026-11-06",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-14",
+ "updated": "2026-11-14",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,15 +36,15 @@
    "label": "Best Overall",
    "asin": "B07724HNTX",
    "name": "Kasa HS210 kit",
-   "price": 30.99,
-   "why": "Highest score on the page (96): 4.6 stars from 19,960 reviews, $30.99."
+   "price": 25.99,
+   "why": "Highest score on the page (96): 4.6 stars from 19,974 reviews, $25.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0BS3LG9TX",
-   "name": "GHome SW5",
-   "price": 14.59,
-   "why": "Highest score (86) among the cheapest third of picks (up to $14.99 each): 4.5 stars from 1,595 reviews, $14.59."
+   "asin": "B01EZV35QU",
+   "name": "Kasa HS200",
+   "price": 10.49,
+   "why": "Highest score (86) among the cheapest third of picks (up to $13.49 each): 4.5 stars from 43,276 reviews, $10.49."
   },
   {
    "label": "Best for 3-Way",
@@ -62,10 +62,10 @@
    "name": "Kasa Smart 3 Way Switch, HS210 KIT, Need Neutral Wire",
    "brand": "Kasa",
    "model": "HS210 kit",
-   "price": 30.99,
+   "price": 25.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 19960,
+   "reviews_count": 19974,
    "score": 96,
    "awards": [
     "Best Overall"
@@ -81,11 +81,11 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "3K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "The easy answer for a light controlled from two places. The kit includes both switches, so you replace both ends at once.",
    "pros": [
     "Complete 3-way kit in one box",
-    "19,960 reviews at 4.6 stars",
+    "19,974 reviews at 4.6 stars",
     "Also works as a single-pole switch",
     "Alexa and Google with no hub"
    ],
@@ -117,12 +117,14 @@
    "name": "Kasa Smart Light Switch, Single Pole, Need Neutral Wire, HS200",
    "brand": "Kasa",
    "model": "HS200",
-   "price": 15.99,
+   "price": 10.49,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 43265,
+   "reviews_count": 43276,
    "score": 86,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -134,7 +136,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "7K+ bought in past month",
+   "bought_last_month": "6K+ bought in past month",
    "verdict": "The best-selling smart switch on Amazon for good reason: it's cheap, reliable, and the Kasa app is easy to live with.",
    "pros": [
     "43,255 reviews at 4.5 stars and 7K+ bought in the past month",
@@ -166,18 +168,69 @@
   },
   {
    "rank": 3,
+   "asin": "B0DHYLF7PQ",
+   "name": "Tapo Smart Light Switch, Single Pole, Need Neutral Wire, S500(4-Pack)",
+   "brand": "Tapo",
+   "model": "S500 (4-pack)",
+   "price": 42.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 882,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "1K+ bought in past month",
+   "verdict": "TP-Link's Tapo switch in a four-pack. If you're doing several rooms, the four-pack keeps the price per switch low.",
+   "pros": [
+    "Four switches for under $11 each",
+    "4.6 stars from 882 reviews",
+    "UL certified with a 2-year warranty",
+    "Away mode and schedules"
+   ],
+   "cons": [
+    "Only sold as a 4-pack in this listing",
+    "Single-pole only",
+    "Needs a neutral wire"
+   ],
+   "specs": {
+    "neutral": "Required",
+    "three_way_text": "No (single pole)",
+    "app": "Tapo",
+    "voice": "Alexa, Google",
+    "style": "Paddle",
+    "pack": "4 switches"
+   },
+   "features": {
+    "three_way": false,
+    "alexa_and_google": true,
+    "safety_listed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61VvHFGA9PL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DHYLF7PQ?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-switches.html#B0DHYLF7PQ"
+  },
+  {
+   "rank": 4,
    "asin": "B0BS3LG9TX",
-   "name": "GHome Smart Light Switch, Single Pole, SW5-1 Pack, Neutral Wire Required",
+   "name": "GHome Smart Light Switch, Single Pole, Neutral Wire Required, SW5(1Pack)",
    "brand": "GHome",
    "model": "SW5",
-   "price": 14.59,
+   "price": 13.49,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1595,
-   "score": 86,
-   "awards": [
-    "Best Budget"
-   ],
+   "rating": 4.3,
+   "reviews_count": 985,
+   "score": 84,
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home"
@@ -217,59 +270,6 @@
    "image": "https://m.media-amazon.com/images/I/61XSCQRd1FL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BS3LG9TX?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-switches.html#B0BS3LG9TX"
-  },
-  {
-   "rank": 4,
-   "asin": "B0DHYLF7PQ",
-   "name": "Tapo Smart Light Switch, Single Pole, Need Neutral Wire, S500(4-Pack)",
-   "brand": "Tapo",
-   "model": "S500 (4-pack)",
-   "price": 42.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 882,
-   "score": 86,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "TP-Link's Tapo switch in a four-pack. If you're doing several rooms, it's the cheapest per switch on this list.",
-   "pros": [
-    "Four switches for under $11 each",
-    "4.6 stars from 882 reviews",
-    "UL certified with a 2-year warranty",
-    "Away mode and schedules"
-   ],
-   "cons": [
-    "Only sold as a 4-pack in this listing",
-    "Single-pole only",
-    "Needs a neutral wire"
-   ],
-   "specs": {
-    "neutral": "Required",
-    "three_way_text": "No (single pole)",
-    "app": "Tapo",
-    "voice": "Alexa, Google",
-    "style": "Paddle",
-    "pack": "4 switches"
-   },
-   "features": {
-    "three_way": false,
-    "alexa_and_google": true,
-    "safety_listed": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61VvHFGA9PL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DHYLF7PQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-switches.html#B0DHYLF7PQ"
   },
   {
    "rank": 5,
@@ -543,7 +543,7 @@
    "price": 14.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 4219,
+   "reviews_count": 4222,
    "score": 70,
    "awards": [],
    "works_with": [
@@ -558,9 +558,9 @@
    "bought_last_month": "3K+ bought in past month",
    "verdict": "A low-cost switch for an Alexa-only home. It's set up and controlled entirely through the Alexa app.",
    "pros": [
-    "$14.99, the third-lowest price on this list",
+    "$14.99",
     "Sets up in the Alexa app with no extra app",
-    "4.4 stars from 4,219 reviews, sold by Amazon",
+    "4.4 stars from 4,222 reviews, sold by Amazon",
     "Schedules through Alexa routines"
    ],
    "cons": [
@@ -643,6 +643,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-14",
+   "notes": [
+    "New Best Budget: Kasa HS200.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

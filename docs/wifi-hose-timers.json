@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Sprinklers and timers",
- "data_captured": "2026-11-06",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-14",
+ "updated": "2026-11-14",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,15 +37,15 @@
    "label": "Best Overall",
    "asin": "B0HDS4CTKS",
    "name": "RAINPOINT 2-zone with flow meter (HWG023 gateway)",
-   "price": 95.99,
-   "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.99."
+   "price": 95.98,
+   "why": "Highest score on the page (97): 4.9 stars from 64 reviews, $95.98."
   },
   {
    "label": "Best Budget",
    "asin": "B0H11D2TS9",
    "name": "GoveeLife H5901 with gateway",
-   "price": 49.99,
-   "why": "Highest score (79) among the cheapest third of picks (up to $49.99 each): 4.1 stars from 131 reviews, $49.99."
+   "price": 47.99,
+   "why": "Highest score (79) among the cheapest third of picks (up to $47.99 each): 4.1 stars from 133 reviews, $47.99."
   },
   {
    "label": "Best Water Tracking",
@@ -58,8 +58,8 @@
    "label": "Best Multi-Zone",
    "asin": "B0B1QWVQPY",
    "name": "Orbit B-hyve XD 4-port",
-   "price": 74.99,
-   "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $74.99."
+   "price": 79.99,
+   "why": "Highest score of the picks that fit this award (80): 4.0 stars from 2,091 reviews, $79.99."
   }
  ],
  "systems_note": "Smart Life / Tuya timers also have an official Home Assistant integration. Most timers here talk to a plug-in gateway over Bluetooth or their own radio; the gateway connects to Wi-Fi.",
@@ -70,7 +70,7 @@
    "name": "RAINPOINT 2 Zone WiFi Water Timer for Garden Hose, Sprinkler Hose Timer",
    "brand": "RAINPOINT",
    "model": "2-zone with flow meter (HWG023 gateway)",
-   "price": 95.99,
+   "price": 95.98,
    "currency": "USD",
    "rating": 4.9,
    "reviews_count": 64,
@@ -85,7 +85,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Two zones with a built-in flow meter, so you see exactly how much water each zone uses.",
    "pros": [
     "Built-in flow meter",
@@ -95,7 +95,7 @@
    ],
    "cons": [
     "Only 64 reviews",
-    "$95.99"
+    "$95.98"
    ],
    "specs": {
     "zones": "2",
@@ -171,7 +171,7 @@
    "name": "Orbit B-hyve XD 4-Port Smart Hose Watering Timer - 24634",
    "brand": "Orbit",
    "model": "B-hyve XD 4-port",
-   "price": 74.99,
+   "price": 79.99,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2091,
@@ -196,7 +196,7 @@
    "cons": [
     "4.0 stars",
     "Remote control needs a B-hyve Wi-Fi hub",
-    "$74.99"
+    "$79.99"
    ],
    "specs": {
     "zones": "4",
@@ -267,10 +267,10 @@
    "name": "GoveeLife H5901 Smart WiFi Sprinkler Timer with Gateway, 1 Water Outlet",
    "brand": "GoveeLife",
    "model": "H5901 with gateway",
-   "price": 49.99,
+   "price": 47.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 131,
+   "reviews_count": 133,
    "score": 79,
    "awards": [
     "Best Budget"
@@ -282,7 +282,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "600+ bought in past month",
+   "bought_last_month": "500+ bought in past month",
    "verdict": "A weather-smart hose timer with brass fittings and long gateway range.",
    "pros": [
     "Adjusts to rain, light, temperature, and humidity",
@@ -292,7 +292,7 @@
    ],
    "cons": [
     "One outlet",
-    "Only 131 reviews",
+    "Only 133 reviews",
     "Voice assistants aren't named"
    ],
    "specs": {
@@ -607,6 +607,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-14",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [
