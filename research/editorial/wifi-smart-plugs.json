@@ -52,9 +52,29 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Energy Monitoring", "kind": "special", "rule": {"type": "feature", "key": "energy"}},
-    {"label": "Best Outdoor", "kind": "premium", "rule": {"type": "feature", "key": "outdoor"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Energy Monitoring",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "energy"
+      }
+    },
+    {
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      }
+    }
   ],
   "products": [
     {
@@ -79,7 +99,7 @@
       },
       "verdict": "A general-purpose smart plug: tiny, cheap, reliable, and it works with Alexa and Google.",
       "pros": [
-        "$10 with 4.5 stars from 40,948 reviews",
+        "$10 with 4.5 stars from 40,975 reviews",
         "Mini size leaves the second outlet free",
         "15 A rating",
         "Sold by Amazon"
@@ -112,7 +132,7 @@
       "pros": [
         "4.7 stars from over 571,000 reviews",
         "Sets up entirely in the Alexa app",
-        "7K+ bought in the past month"
+        "8K+ bought in the past month"
       ],
       "cons": [
         "Works with Alexa only",
@@ -143,7 +163,7 @@
       "verdict": "A mini plug with real-time and historical energy monitoring, for barely more than the plain version.",
       "pros": [
         "Energy monitoring",
-        "$15.99 with 17,803 reviews",
+        "$8.99 with 17,803 reviews",
         "Sold by Amazon"
       ],
       "cons": [
@@ -304,7 +324,7 @@
       "pros": [
         "Two independently controlled outlets",
         "15 A per outlet",
-        "4.6 stars from 17,557 reviews"
+        "4.6 stars from 17,564 reviews"
       ],
       "cons": [
         "No energy monitoring",
@@ -386,7 +406,7 @@
         "google-home"
       ],
       "flag": "10 A rating, two-thirds of a standard plug",
-      "verdict": "It's cheap, but it's rated for 10 A. The Kasa EP10 costs $2 more and handles 15 A.",
+      "verdict": "It's cheap, but it's rated for 10 A. The Kasa EP10 costs $1 less and handles 15 A.",
       "reasons": [
         "10 A is about 1,200 W at 120 V, so kettles, toasters, and coffee makers can exceed it.",
         "The Kasa EP10 above costs $10.00 and is rated 15 A.",

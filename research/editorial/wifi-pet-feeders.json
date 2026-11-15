@@ -31,10 +31,35 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Two Pets", "kind": "special", "rule": {"type": "feature", "key": "multi_pet"}},
-    {"label": "Most Popular", "kind": "premium", "rule": {"type": "most_reviews"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Two Pets",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "multi_pet"
+      }
+    },
+    {
+      "label": "Most Popular",
+      "kind": "premium",
+      "rule": {
+        "type": "most_reviews"
+      }
+    }
   ],
   "products": [
     {
@@ -92,7 +117,7 @@
       ],
       "cons": [
         "4.1 stars",
-        "$119.99",
+        "$109.99",
         "1080p, not 2K"
       ]
     },
@@ -120,7 +145,7 @@
         "4.5 stars"
       ],
       "cons": [
-        "$133.99",
+        "$159.99",
         "2.4 GHz only",
         "Only 429 reviews"
       ]
@@ -143,7 +168,7 @@
         "backup_power": false,
         "multi_pet": false
       },
-      "verdict": "A 1080p camera feeder with two-way audio and dual-band Wi-Fi, rated 4.4 stars by 5,465 buyers.",
+      "verdict": "A 1080p camera feeder with two-way audio and dual-band Wi-Fi, rated 4.4 stars by 5,482 buyers.",
       "pros": [
         "1080p camera with night vision and two-way audio",
         "Works on 5 GHz Wi-Fi",
@@ -177,10 +202,10 @@
       "pros": [
         "Elevated bowl",
         "2-way audio",
-        "600+ bought in the past month"
+        "700+ bought in the past month"
       ],
       "cons": [
-        "Only 103 reviews",
+        "Only 534 reviews",
         "New brand",
         "$62.99"
       ]
