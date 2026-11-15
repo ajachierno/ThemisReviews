@@ -51,6 +51,8 @@ def award_asins():
             for x in build.page_overall_budget(cat):
                 if x and x["asin"] not in out:
                     out.append(x["asin"])
+    # The Best of 2026 picks stay priced after the freeze, even once they leave their review page.
+    out += [a for a in build.best_of.frozen_asins() if a not in out]
     return out
 
 
