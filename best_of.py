@@ -1,9 +1,10 @@
 """Best of 2026: every category's Best Overall, Best Budget and Money No Object in one table.
 
-Until FREEZE_DATE the page shows the live awards (each review page's overall, budget and premium
-award rules, with that page's own label). The first build on or after FREEZE_DATE
-writes data/best-of-2026.json; from then on the picks, ratings and review counts come only
-from that file and never change. Prices keep moving: research/holiday_picks.py (scrape or api) re-reads the
+Until the freeze the page shows the live awards (each review page's overall, budget and premium
+award rules, with that page's own label). `python best_of.py freeze`, run by the master routine on
+or after FREEZE_DATE after a git pull, writes data/best-of-2026.json once (build.py never writes it,
+so a stale checkout can't lock a different set of picks). From then on the picks, ratings and
+review counts come only from that file and never change. Prices keep moving: research/holiday_picks.py (scrape or api) re-reads the
 frozen ASINs too, and with_prices() lays the newer prices over the frozen rows at build time.
 The page is noindex and unlinked until REVEAL_DATE.
 """
@@ -52,15 +53,28 @@ def live_rows(site):
     return rows
 
 
-def load_frozen():
+def _frozen_file():
     return json.loads(FROZEN.read_text(encoding="utf-8")) if FROZEN.exists() else None
+
+
+def load_frozen():
+    """The frozen rows, or None before the freeze."""
+    f = _frozen_file()
+    return f["rows"] if f else None
+
+
+def frozen_on():
+    """The date the picks were locked (YYYY-MM-DD), or None before the freeze."""
+    f = _frozen_file()
+    return f["frozen_on"] if f else None
 
 
 def ensure_frozen(site, today):
     """Write the frozen file once, on the first call on or after FREEZE_DATE. True if written."""
     if today < FREEZE_DATE or FROZEN.exists():
         return False
-    FROZEN.write_text(json.dumps(live_rows(site), indent=1) + "\n", encoding="utf-8")
+    FROZEN.write_text(json.dumps({"frozen_on": today, "rows": live_rows(site)}, indent=1) + "\n",
+                      encoding="utf-8")
     return True
 
 
@@ -89,3 +103,17 @@ def frozen_asins():
         if r["asin"] not in out:
             out.append(r["asin"])
     return out
+
+
+if __name__ == "__main__":
+    import datetime
+    import sys
+    if sys.argv[1:] != ["freeze"]:
+        sys.exit("usage: python -X utf8 best_of.py freeze")
+    import build
+    site = build.load("site.json")
+    today = datetime.date.today().isoformat()
+    if ensure_frozen(site, today):
+        print(f"best-of-2026: froze {len(load_frozen())} picks on {today} -> {FROZEN}")
+    else:
+        print(f"best-of-2026: nothing written ({'already frozen on ' + frozen_on() if FROZEN.exists() else 'too early, freeze date ' + FREEZE_DATE})")

@@ -1481,8 +1481,7 @@ def build_holiday(site, cfg, pages):
 def build_best_of(site, today):
     """Best of 2026 table (best_of.py). noindex and unlinked until best_of.REVEAL_DATE; returns the
     sitemap entry (url, lastmod) once public, else None."""
-    best_of.ensure_frozen(site, today)
-    rows = best_of.rows_for_page(site)
+    rows = best_of.rows_for_page(site)  # the freeze itself is `python best_of.py freeze`
     live = {sub["slug"] for proto in site["protocols"] for sub in proto["subs"] if sub.get("ready")}
     public = best_of.is_public(today)
 
@@ -1500,7 +1499,9 @@ def build_best_of(site, today):
         f'<td>{r["rating"]}</td><td>{r["reviews_count"]:,}</td>'
         f'<td><a class="btn" href="{amazon_url(site, r["asin"])}" target="_blank" rel="sponsored nofollow noopener">View on Amazon</a></td></tr>'
         for r in rows)
-    lock_note = ("These picks were locked on December 31, 2026." if best_of.load_frozen() is not None else
+    locked = best_of.frozen_on()
+    lock_note = (f"These picks were locked on {datetime.date.fromisoformat(locked):%B} "
+                 f"{datetime.date.fromisoformat(locked).day}, {locked[:4]}." if locked else
                  "The picks lock on December 31, 2026. Until then this table follows each page's current awards.")
     body = f"""
   {render_quicknav(site["protocols"], compact=True)}
