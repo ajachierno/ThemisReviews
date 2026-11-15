@@ -153,6 +153,16 @@ def test_award_asins_includes_frozen():
             best_of.FROZEN = real
 
 
+def test_live_rows_overall_falls_back_to_top_rank():
+    with tempfile.TemporaryDirectory() as tmp:
+        pg = setup(tmp)
+        cat = pg[1][2]
+        cat["awards"] = []
+        cat["products"][0]["rank"] = 1
+        r = [r for r in best_of.live_rows(SITE) if r["slug"] == "zwave-locks"]
+        assert [(x["award"], x["asin"]) for x in r] == [("Best Overall", "S1")]
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

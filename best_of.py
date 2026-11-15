@@ -35,9 +35,13 @@ def live_rows(site):
         captured = cat.get("data_captured") or site["updated"]
         for rule in RULES:
             a = next((a for a in cat.get("awards", []) if a.get("rule", {}).get("type") == rule and a["asin"] in by), None)
-            if not a:
+            if a:
+                award, p = a["label"], by[a["asin"]]
+            elif rule == "overall" and cat["products"]:
+                # Same fallback as build.page_overall_budget: the page's top-ranked pick.
+                award, p = "Best Overall", min(cat["products"], key=lambda x: x.get("rank", 10**6))
+            else:
                 continue
-            award, p = a["label"], by[a["asin"]]
             nums, date = p, captured
             hp = HOLIDAY_PRICES.get(p["asin"])
             if hp and hp["checked"] > captured:
