@@ -51,7 +51,11 @@ async def run(mode, out, items):
     res = {} if mode == "products" else []
     if mode == "products" and os.path.exists(out):
         res = json.load(open(out, encoding="utf-8"))
-        items = [i for i in items if i not in res or not res[i].get("title")]
+        # Re-read a listing unless today's file already holds a real scrape of it. api_pricepass.py
+        # copies the last scrape (title included) with the API's price and marks it
+        # price_source "creators_api"; skipping those would mean ratings never refresh.
+        items = [i for i in items if i not in res or not res[i].get("title")
+                 or res[i].get("price_source") == "creators_api"]
     if mode == "search" and os.path.exists(out):
         res = json.load(open(out, encoding="utf-8"))          # resume: skip queries already captured
         done = {r.get("query") for r in res}
