@@ -102,6 +102,29 @@ def test_holiday_api_saves_list_price():
         assert "list_price" not in got["A"], "yesterday's list price doesn't carry over"
 
 
+def test_record_reads_buy_box_seller():
+    r = creators_api.record("B0TEST0001", {**ITEM, "offersV2": {"listings": [
+        {"isBuyBoxWinner": True, "merchantInfo": {"name": "Amazon Resale"}, "condition": {"value": "Used"},
+         "price": {"money": {"amount": 15.0}}}]}})
+    assert (r["seller"], r["condition"]) == ("Amazon Resale", "Used")
+    assert creators_api.record("B0TEST0001", None)["seller"] is None
+
+
+def test_price_pass_seller_flags():
+    import api_pricepass
+    import sellers
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "sellers.json"
+        products = {"smart-plugs": ["A"]}
+        brands = {"A": "THIRDREALITY", "C": "X"}
+        out = {}
+        for d, s in (("2026-11-13", "ThirdReality Store"), ("2026-11-14", "PlugDeals"), ("2026-11-15", "PlugDeals")):
+            recs = {a: {"seller": s, "condition": "New"} for a in ("A", "C")}
+            out = api_pricepass.seller_flags(products, brands, recs, d, path)
+        assert out == {"smart-plugs": ["A seller changed, ThirdReality Store -> PlugDeals on the last 2 checks"]}
+        assert "C" in sellers.load(path), "avoid picks are recorded, never flagged"
+
+
 if __name__ == "__main__":
     tests = [v for k, v in list(globals().items()) if k.startswith("test_")]
     for t in tests:

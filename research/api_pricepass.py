@@ -24,8 +24,10 @@ sys.path.insert(0, str(HERE))
 import creators_api  # noqa: E402
 from scrape_data import load_scrape  # noqa: E402
 import sales_rank  # noqa: E402
+import sellers  # noqa: E402
 
 RANKS = HERE.parent / "data" / "sales-rank.json"
+SELLERS = HERE.parent / "data" / "sellers.json"
 
 TODAY = dt.date.today().isoformat()
 
@@ -52,13 +54,29 @@ def rank_flags(products, recs, today, path=None):
     return out
 
 
+def seller_flags(products, brands, recs, today, path=None):
+    """Record today's buy-box seller in data/sellers.json; return {slug: [flag, ...]} for picks
+    (products only) whose buy box flipped away from Amazon or the brand's store (sellers.py)."""
+    path = path or SELLERS
+    hist = sellers.update(path, {a: (r.get("seller"), r.get("condition")) for a, r in recs.items()}, today)
+    out = {}
+    for slug, asins in products.items():
+        for a in asins:
+            hit = sellers.flipped(hist, a, brands.get(a))
+            if hit:
+                out.setdefault(slug, []).append(f"{a} seller changed, {hit[0]} -> {hit[1]} "
+                                                f"on the last {sellers.RUNS} checks")
+    return out
+
+
 def main(slugs):
     last = load_scrape()
-    pages, products = {}, {}
+    pages, products, brands = {}, {}, {}
     for s in slugs:
         d = json.loads((HERE.parent / "data" / "pages" / f"{s}.json").read_text(encoding="utf-8"))
         pages[s] = [p["asin"] for p in d["products"] + d.get("avoid", [])]
         products[s] = [p["asin"] for p in d["products"]]
+        brands.update({p["asin"]: p.get("brand") for p in d["products"] + d.get("avoid", [])})
     asins = list(dict.fromkeys(a for v in pages.values() for a in v))
     items, errs = creators_api.get_items(asins)
     recs = {a: creators_api.record(a, items.get(a)) for a in asins}
@@ -108,6 +126,11 @@ def main(slugs):
         for x in lines:
             print(f"{s}: FLAG {x}")
     print(f"Sales ranks recorded in {RANKS.name}; {sum(len(v) for v in falling.values())} falling pick(s)")
+    flips = seller_flags(products, brands, recs, TODAY)
+    for s, lines in flips.items():
+        for x in lines:
+            print(f"{s}: FLAG {x}")
+    print(f"Buy-box sellers recorded in {SELLERS.name}; {sum(len(v) for v in flips.values())} seller change(s)")
     print(f"\n{len(items)} of {len(asins)} listings returned by the API; "
           f"{sum(len(v) for v in flagged.values())} flagged on {len(flagged)} page(s)")
 
