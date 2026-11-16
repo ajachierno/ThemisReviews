@@ -1,7 +1,7 @@
 """Amazon Creators API client: prices, availability and buy-box state by ASIN.
 
     python -X utf8 research/creators_api.py check                    # token + one test call
-    python -X utf8 research/creators_api.py get B08D29XQS7 [B0...]   # print records as JSON
+    python -X utf8 research/creators_api.py get B07G5V6M6G [B0...]   # print records as JSON
     python -X utf8 research/creators_api.py slugs <slug> [<slug>...] # every listing on those pages
 
 ThemisReviews copy of top-10-tools/scripts/creators_api.py (same Associates account and
@@ -170,7 +170,9 @@ def main():
     if cmd == "check":
         token()
         print("token ok")
-        items, errs = get_items(["B08D29XQS7"])
+        # Amazon-sold listings the API answers (B08D29XQS7, the old test ASIN,
+        # is ItemNotAccessible, so it made a working API look broken).
+        items, errs = get_items(["B07G5V6M6G", "B0GJTFXNRX", "B07NWBD7YB"])
         print("items returned:", len(items))
         if errs:
             print("errors:", json.dumps(errs)[:600])
