@@ -1417,9 +1417,22 @@ def holiday_price(p, cat):
     """(pick, date): the pick with data/holiday-prices.json numbers when that check is newer than
     the page's own capture (research/holiday_picks.py re-reads just the award listings)."""
     hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
-    if not hp or hp["checked"] <= cat["data_captured"]:
-        return p, cat["data_captured"]
-    return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
+    own = cat["data_captured"]
+    if not hp or hp["checked"] < own or (hp["checked"] == own and hp["price"] != p.get("price")):
+        return p, own
+    if hp["checked"] == own:  # the same morning's check: page numbers stand, the list price applies
+        return ({**p, "list_price": hp["list_price"]} if hp.get("list_price") else p), own
+    q = {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}
+    return ({**q, "list_price": hp["list_price"]} if hp.get("list_price") else q), hp["checked"]
+
+
+def list_note(p):
+    """' · Amazon list price $X (N% off)' for a holiday card, when that check had a List Price above
+    the price shown; else ''. The percentage is worked out from the two prices on the card."""
+    lp, price = p.get("list_price"), p.get("price")
+    if not isinstance(lp, (int, float)) or not isinstance(price, (int, float)) or lp <= price:
+        return ""
+    return f" &middot; Amazon list price {money(lp)} ({round((lp - price) / lp * 100)}% off)"
 
 
 def build_holiday(site, cfg, pages):
@@ -1439,7 +1452,7 @@ def build_holiday(site, cfg, pages):
             dates.append(day)
             rows.append((sub, ov, bu))
             cards.append(render_pick_card(ov, cat, sub, site, ("Best Overall", "overall"),
-                                          f"regular price on {esc(day)}"))
+                                          f"regular price on {esc(day)}{list_note(ov)}"))
         if cards:
             sections.append(f'<h2 class="pick-family">{esc(fam_title)}</h2>{"".join(cards)}')
     table = "".join(

@@ -23,6 +23,9 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE))
 import creators_api  # noqa: E402
 from scrape_data import load_scrape  # noqa: E402
+import sales_rank  # noqa: E402
+
+RANKS = HERE.parent / "data" / "sales-rank.json"
 
 TODAY = dt.date.today().isoformat()
 
@@ -31,12 +34,31 @@ def words(s):
     return set(re.findall(r"[a-z0-9]+", (s or "").lower()))
 
 
+def rank_flags(products, recs, today, path=None):
+    """Record today's sales ranks in data/sales-rank.json; return {slug: [flag, ...]} for picks
+    (products only, never the avoid pick) that are falling behind their page (sales_rank.py)."""
+    path = path or RANKS
+    hist = sales_rank.update(path, {a: (r.get("cat_rank"), r.get("cat_node"), r.get("site_rank"))
+                                    for a, r in recs.items()}, today)
+    out = {}
+    for slug, asins in products.items():
+        line = sales_rank.page_line([(recs.get(a) or {}).get("cat_rank") for a in asins])
+        for a in asins:
+            hit = sales_rank.slipping(hist, a, line)
+            if hit:
+                out.setdefault(slug, []).append(
+                    f"{a} falling, #{hit[1]:,} in {hit[2]} (best #{sales_rank.best(hist, a):,} in its last "
+                    f"{sales_rank.KEEP} checks, page line #{line:,.0f})")
+    return out
+
+
 def main(slugs):
     last = load_scrape()
-    pages = {}
+    pages, products = {}, {}
     for s in slugs:
         d = json.loads((HERE.parent / "data" / "pages" / f"{s}.json").read_text(encoding="utf-8"))
         pages[s] = [p["asin"] for p in d["products"] + d.get("avoid", [])]
+        products[s] = [p["asin"] for p in d["products"]]
     asins = list(dict.fromkeys(a for v in pages.values() for a in v))
     items, errs = creators_api.get_items(asins)
     recs = {a: creators_api.record(a, items.get(a)) for a in asins}
@@ -81,6 +103,11 @@ def main(slugs):
             print("   ", m)
         for x in flagged.get(s, []):
             print("    FLAG", x)
+    falling = rank_flags(products, recs, TODAY)
+    for s, lines in falling.items():
+        for x in lines:
+            print(f"{s}: FLAG {x}")
+    print(f"Sales ranks recorded in {RANKS.name}; {sum(len(v) for v in falling.values())} falling pick(s)")
     print(f"\n{len(items)} of {len(asins)} listings returned by the API; "
           f"{sum(len(v) for v in flagged.values())} flagged on {len(flagged)} page(s)")
 
