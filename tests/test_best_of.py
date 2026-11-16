@@ -67,7 +67,7 @@ def test_live_rows_order_and_fields():
             ("zwave-locks", "Best Overall")]
         r = rows[0]
         assert r == {"slug": "zigbee-plugs", "category": "Zigbee Plugs", "award": "Best Overall", "asin": "A1",
-                     "title": "B M", "rating": 4.5, "reviews_count": 100, "price": 100,
+                     "title": "B M", "brand": "B", "rating": 4.5, "reviews_count": 100, "price": 100,
                      "price_date": "2026-11-10"}
 
 
