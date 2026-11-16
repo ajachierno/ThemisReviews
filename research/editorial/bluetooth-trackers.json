@@ -47,13 +47,34 @@
     }
   ],
   "awards": [
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Samsung", "kind": "special", "rule": {"type": "system", "key": "smartthings"}},
-    {"label": "Best for Mixed Households", "kind": "premium", "rule": {"type": "feature", "key": "both_phones"}}
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Samsung",
+      "kind": "special",
+      "rule": {
+        "type": "system",
+        "key": "smartthings"
+      }
+    },
+    {
+      "label": "Best for Mixed Households",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "both_phones"
+      }
+    }
   ],
   "products": [
     {
-      "asin": "B0GJTFXNRX", "name": "Apple AirTag (2nd Generation) Item Tracker with Precision Finding",
+      "asin": "B0GJTFXNRX",
+      "name": "Apple AirTag (2nd Generation) Item Tracker with Precision Finding",
       "brand": "Apple",
       "model": "AirTag (2nd Gen)",
       "systems": [],
@@ -75,7 +96,7 @@
       "pros": [
         "Precision Finding on iPhone and Apple Watch",
         "50% louder speaker than the first AirTag",
-        "13,191 reviews, 10K+ bought in the past month",
+        "13,144 reviews, 10K+ bought in the past month",
         "Sold by Amazon"
       ],
       "cons": [
@@ -108,7 +129,7 @@
         "iPhone and Android",
         "SOS alert to family",
         "Press it to ring your phone",
-        "17,051 reviews, 7K+ bought in the past month"
+        "17,123 reviews, 6K+ bought in the past month"
       ],
       "cons": [
         "Tile's network is smaller than Apple's or Google's",
@@ -149,7 +170,8 @@
       ]
     },
     {
-      "asin": "B0CCC69HN3", "name": "Samsung Galaxy SmartTag2 Bluetooth Tracker, for Android 11 or Later, 1 Pack, White",
+      "asin": "B0CCBXRYRC",
+      "name": "Samsung Galaxy SmartTag2 Bluetooth Tracker, for Android 11 or Later, 1 Pack, Black",
       "brand": "Samsung",
       "model": "Galaxy SmartTag2",
       "systems": [
@@ -177,12 +199,13 @@
       ],
       "cons": [
         "Galaxy phones only",
-        "Sold by a reseller",
-        "$21.79"
+        "CR2032 battery not included, per the listing",
+        "$26.93"
       ]
     },
     {
-      "asin": "B0C2ZL46QC", "name": "ATUVOS Air Tracker Tags 4 Pack, Works with Apple Find My (iOS Only)",
+      "asin": "B0C2ZL46QC",
+      "name": "ATUVOS Air Tracker Tags 4 Pack, Works with Apple Find My (iOS Only)",
       "brand": "ATUVOS",
       "model": "Air Tracker Tags (4-pack)",
       "systems": [],
@@ -202,7 +225,7 @@
       },
       "verdict": "The most-reviewed cheap Find My tags, with a loud speaker.",
       "pros": [
-        "17,051 reviews",
+        "17,088 reviews",
         "80 to 100 dB speaker",
         "No fees",
         "$26.99 for 4"
@@ -240,7 +263,7 @@
       ],
       "cons": [
         "$39",
-        "4.2 stars from 652 reviews",
+        "4.2 stars from 669 reviews",
         "One network at a time"
       ]
     },
@@ -308,7 +331,8 @@
       ]
     },
     {
-      "asin": "B0G1Y9GB16", "name": "ZHXING Air Tracker Tags 4 Pack with Cases, for Google Find Hub and Apple Find My, IP65",
+      "asin": "B0G1Y9GB16",
+      "name": "ZHXING Air Tracker Tags 4 Pack with Cases, for Google Find Hub and Apple Find My, IP65",
       "brand": "ZHXING",
       "model": "Android + Apple tags (4-pack)",
       "systems": [],
@@ -366,7 +390,7 @@
       ],
       "cons": [
         "iPhone only",
-        "Only 659 reviews",
+        "Only 672 reviews",
         "Sold by a reseller"
       ]
     }

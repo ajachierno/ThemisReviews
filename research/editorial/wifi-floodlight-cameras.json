@@ -39,9 +39,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best High-Resolution", "kind": "premium", "rule": {"type": "feature", "key": "high_res"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best High-Resolution",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "high_res"
+      }
+    }
   ],
   "products": [
     {
@@ -67,8 +86,8 @@
       },
       "verdict": "The most-reviewed floodlight camera, deeply tied into Alexa.",
       "pros": [
-        "4.7 stars from 44,586 reviews",
-        "10K+ bought in the past month",
+        "4.7 stars from 44,628 reviews",
+        "6K+ bought in the past month",
         "Sold by Amazon"
       ],
       "cons": [
@@ -78,36 +97,36 @@
       ]
     },
     {
-      "asin": "B0B5VLCL1N", "name": "Blink Wired Floodlight Camera, 2600 Lumens, HD Live View, Built-in Siren, Works with Alexa (White)",
-      "brand": "Blink",
-      "model": "Wired Floodlight Camera",
+      "asin": "B0FWFJ5Q2Z",
+      "brand": "Ring",
+      "model": "Floodlight Cam 2K",
       "systems": [
         "alexa",
         "home-assistant"
       ],
-      "systems_label": "Blink app",
+      "systems_label": "Ring app",
       "specs": {
-        "video": "HD",
-        "light": "2,600 lumens",
-        "storage": "Cloud subscription or Sync Module + USB/microSD (sold separately)",
-        "power": "Hardwired"
+        "video": "2K, up to 6x Enhanced Zoom",
+        "light": "Not stated in bullets",
+        "storage": "Cloud (Ring subscription)",
+        "power": "Not stated in bullets"
       },
       "features": {
         "free_recording": false,
-        "bright": true,
-        "high_res": false,
+        "bright": false,
+        "high_res": true,
         "wide": false
       },
-      "verdict": "A $99.99 floodlight camera with a siren, best for Blink and Alexa homes.",
+      "verdict": "Ring's newest floodlight camera, with 2K video and a siren, for Ring and Alexa homes.",
       "pros": [
-        "2,600 lumens",
+        "2K video with up to 6x zoom",
         "Built-in siren",
-        "14,076 reviews"
+        "4.6 stars, sold by Amazon"
       ],
       "cons": [
-        "Recording needs a subscription or a Sync Module",
-        "HD, not 2K",
-        "4.2 stars"
+        "Recordings need a Ring subscription",
+        "Light output isn't in the bullets",
+        "Only 599 reviews"
       ]
     },
     {
@@ -130,13 +149,13 @@
       },
       "verdict": "Bright, sharp, and records around the clock to a microSD card for free.",
       "pros": [
-        "$79.99",
         "2,800 lumens",
+        "Sold by Amazon",
         "Continuous local recording"
       ],
       "cons": [
-        "Sold by a reseller",
-        "Stock status wasn't shown",
+        "$99.98",
+        "Wyze app only",
         "4.2 stars"
       ]
     },
@@ -165,7 +184,7 @@
         "Free local recording"
       ],
       "cons": [
-        "$125.00",
+        "$149.98",
         "4.2 stars",
         "Wyze app only"
       ]
@@ -201,7 +220,7 @@
       ]
     },
     {
-      "asin": "B0GHR3WVT1",
+      "asin": "B0F7XHV4DZ",
       "brand": "Reolink",
       "model": "Elite Floodlight Wi-Fi 4K",
       "systems": [
@@ -227,7 +246,7 @@
         "Wi-Fi 6"
       ],
       "cons": [
-        "$249.99",
+        "$269.99",
         "4.1 stars",
         "microSD sold separately"
       ]
@@ -261,7 +280,7 @@
       "cons": [
         "800 lumens",
         "$119.99",
-        "Only 662 reviews"
+        "Only 673 reviews"
       ]
     },
     {
@@ -286,12 +305,12 @@
       "pros": [
         "2K HDR",
         "Articulating lights",
-        "$149.98"
+        "$149.99"
       ],
       "cons": [
         "Recordings need a subscription after the trial",
         "4.5 stars",
-        "Only 459 reviews"
+        "Only 470 reviews"
       ]
     },
     {
