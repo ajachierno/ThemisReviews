@@ -38,21 +38,21 @@
    "asin": "B0DZJ1W814",
    "name": "Shelly 2PM Gen4",
    "price": 29.24,
-   "why": "Highest score on the page (92): 4.7 stars from 916 reviews, $29.24."
+   "why": "Highest score on the page (91): 4.6 stars from 952 reviews, $29.24."
   },
   {
    "label": "Best With Power Metering",
    "asin": "B0DNQ9DKBV",
    "name": "SwitchBot Relay Switch 1PM",
    "price": 8.99,
-   "why": "Highest score of the picks that fit this award (86): 4.5 stars from 274 reviews, $8.99."
+   "why": "Highest score of the picks that fit this award (86): 4.5 stars from 275 reviews, $8.99."
   },
   {
    "label": "Best Dry Contact",
    "asin": "B0DZHZDJXT",
    "name": "Shelly 1 Mini Gen4",
-   "price": 24.98,
-   "why": "Highest score of the picks that fit this award (84): 4.6 stars from 898 reviews, $24.98."
+   "price": 24.49,
+   "why": "Highest score of the picks that fit this award (84): 4.6 stars from 935 reviews, $24.49."
   }
  ],
  "systems_note": "Matter relays work with Apple Home, Google Home, Alexa, SmartThings, Home Assistant, Hubitat, and Homey.",
@@ -65,9 +65,9 @@
    "model": "2PM Gen4",
    "price": 29.24,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 916,
-   "score": 92,
+   "rating": 4.6,
+   "reviews_count": 952,
+   "score": 91,
    "awards": [
     "Best Overall"
    ],
@@ -91,7 +91,7 @@
    "pros": [
     "Two 16 A channels",
     "Power metering",
-    "4.7 stars from 916 reviews"
+    "4.6 stars from 952 reviews"
    ],
    "cons": [
     "$29.24",
@@ -123,7 +123,7 @@
    "price": 8.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 274,
+   "reviews_count": 275,
    "score": 86,
    "awards": [
     "Best With Power Metering"
@@ -151,7 +151,7 @@
     "$8.99, 4.5 stars"
    ],
    "cons": [
-    "Only 274 reviews",
+    "Only 275 reviews",
     "Load rating isn't in the bullets",
     "Sold by SwitchBot"
    ],
@@ -177,10 +177,10 @@
    "name": "Shelly 1 Mini Gen4 Smart Relay Switch, Wi-Fi, Matter & Zigbee, 1-Channel 8A",
    "brand": "Shelly",
    "model": "1 Mini Gen4",
-   "price": 24.98,
+   "price": 24.49,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 898,
+   "reviews_count": 935,
    "score": 84,
    "awards": [
     "Best Dry Contact"
@@ -200,7 +200,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": null,
    "verdict": "The compact Matter Shelly for tight spaces.",
    "pros": [
     "Compact",
@@ -210,7 +210,7 @@
    "cons": [
     "8 A",
     "No power metering",
-    "$24.98"
+    "$87.99"
    ],
    "specs": {
     "channels": "1",
@@ -234,11 +234,11 @@
    "name": "SONOFF MINIR4M Matter Smart Switch Module, Wi-Fi, Neutral Required, 1-Pack",
    "brand": "SONOFF",
    "model": "MINIR4M",
-   "price": 12.9,
+   "price": 10.32,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 517,
-   "score": 79,
+   "rating": 4.5,
+   "reviews_count": 547,
+   "score": 78,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -261,12 +261,12 @@
     "Matter certified",
     "Detach mode keeps smart bulbs powered",
     "Works with momentary, latching, and SPDT switches",
-    "$12.90"
+    "$10.32"
    ],
    "cons": [
     "Load rating isn't in the bullets",
     "Neutral required",
-    "Only 517 reviews"
+    "Only 547 reviews"
    ],
    "specs": {
     "channels": "1",
@@ -286,6 +286,61 @@
   },
   {
    "rank": 5,
+   "asin": "B0H8YW595V",
+   "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
+   "brand": "Shelly",
+   "model": "1 Gen4",
+   "price": 24.49,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 36,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A 15 A dry-contact relay for garage doors, boilers, and lights, on Shelly USA's UL-certified Matter listing.",
+   "pros": [
+    "Dry contacts",
+    "Names Alexa, Google, SmartThings, and Home Assistant",
+    "Sold by Shelly USA, UL certified"
+   ],
+   "cons": [
+    "No power metering",
+    "Only 36 reviews on this UL listing",
+    "$87.99"
+   ],
+   "specs": {
+    "channels": "1",
+    "rating": "15 A dry contact",
+    "radios": "Matter, Wi-Fi, Zigbee",
+    "extras": "UL certified, garage door and sunset schedules"
+   },
+   "features": {
+    "power_meter": false,
+    "dry_contact": true,
+    "no_hub": true,
+    "multi_channel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71F3GYN4yyL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H8YW595V?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-relays.html#B0H8YW595V"
+  },
+  {
+   "rank": 6,
    "asin": "B0DNQ7QB16",
    "name": "SwitchBot Wi-Fi Relay Switch with Dry Contact, Power Measuring, Matter via Hub, 16 A",
    "brand": "SwitchBot",
@@ -338,61 +393,6 @@
    "image": "https://m.media-amazon.com/images/I/61HkM8ziKCL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DNQ7QB16?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-relays.html#B0DNQ7QB16"
-  },
-  {
-   "rank": 6,
-   "asin": "B0H8YW595V",
-   "name": "Shelly 1 Gen4 UL, Smart Relay Switch, Wi-Fi, Zigbee, Matter, Dry Contact",
-   "brand": "Shelly",
-   "model": "1 Gen4",
-   "price": 27.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 28,
-   "score": 71,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "1K+ bought in past month",
-   "verdict": "A 15 A dry-contact relay for garage doors, boilers, and lights, on Shelly USA's UL-certified Matter listing.",
-   "pros": [
-    "Dry contacts",
-    "Names Alexa, Google, SmartThings, and Home Assistant",
-    "Sold by Shelly USA, UL certified"
-   ],
-   "cons": [
-    "No power metering",
-    "Only 28 reviews on this UL listing",
-    "$27.99"
-   ],
-   "specs": {
-    "channels": "1",
-    "rating": "15 A dry contact",
-    "radios": "Matter, Wi-Fi, Zigbee",
-    "extras": "UL certified, garage door and sunset schedules"
-   },
-   "features": {
-    "power_meter": false,
-    "dry_contact": true,
-    "no_hub": true,
-    "multi_channel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71F3GYN4yyL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H8YW595V?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-relays.html#B0H8YW595V"
   },
   {
    "rank": 7,

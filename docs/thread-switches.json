@@ -37,28 +37,28 @@
    "asin": "B0F3JD2SK3",
    "name": "THIRDREALITY MT1",
    "price": 24.99,
-   "why": "Highest score on the page (77): 3.9 stars from 61 reviews, $24.99."
+   "why": "Highest score on the page (78): 3.9 stars from 64 reviews, $24.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0DN1H69ZP",
    "name": "Aqara H2 switch (1 channel)",
    "price": 35.99,
-   "why": "Highest score (74) among the cheapest third of picks (up to $35.99 each): 3.6 stars from 67 reviews, $35.99."
+   "why": "Highest score (76) among the cheapest third of picks (up to $35.99 each): 3.8 stars from 75 reviews, $35.99."
   },
   {
    "label": "Best for No-Neutral Boxes",
    "asin": "B0F2N68K3C",
    "name": "Aqara H2 dimmer",
    "price": 39.99,
-   "why": "Highest score of the picks that fit this award (76): 3.9 stars from 62 reviews, $39.99."
+   "why": "Highest score of the picks that fit this award (76): 3.9 stars from 64 reviews, $39.99."
   },
   {
    "label": "Best Thread Dimmer",
    "asin": "B0F18PM6JK",
    "name": "Eve Dimmer Switch (Matter)",
-   "price": 54.95,
-   "why": "Highest score (62) among picks marked Yes for Dimming: 3.4 stars from 57 reviews, $54.95."
+   "price": 44.95,
+   "why": "Highest score (62) among picks marked Yes for Dimming: 3.4 stars from 57 reviews, $44.95."
   }
  ],
  "systems_note": null,
@@ -72,8 +72,8 @@
    "price": 24.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 61,
-   "score": 77,
+   "reviews_count": 64,
+   "score": 78,
    "awards": [
     "Best Overall"
    ],
@@ -121,6 +121,64 @@
   },
   {
    "rank": 2,
+   "asin": "B0DN1H69ZP",
+   "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
+   "brand": "Aqara",
+   "model": "H2 switch (1 channel)",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 75,
+   "score": 76,
+   "awards": [
+    "Best Budget"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "Thread or Zigbee, neutral or no neutral, single-pole or 3-way. The most flexible on/off switch on this list.",
+   "pros": [
+    "Works with or without a neutral",
+    "Matter over Thread, or Zigbee with an Aqara hub",
+    "Single-pole and 3-way",
+    "Extra button works as a wireless scene switch"
+   ],
+   "cons": [
+    "3.6-star rating",
+    "Power monitoring needs a neutral",
+    "Two-button layout looks different from a standard paddle"
+   ],
+   "specs": {
+    "type": "In-wall on/off",
+    "neutral": "Optional",
+    "three_way_text": "Yes",
+    "also": "Zigbee",
+    "extras": "Decoupled scene button"
+   },
+   "features": {
+    "three_way": true,
+    "no_neutral": true,
+    "dimming": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61lq1-DChlL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DN1H69ZP?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/thread-switches.html#B0DN1H69ZP"
+  },
+  {
+   "rank": 3,
    "asin": "B0F2N68K3C",
    "name": "Aqara Smart Dimmer Switch H2, 2-in-1 Neutral, Thread/Zigbee Protocol",
    "brand": "Aqara",
@@ -128,7 +186,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 62,
+   "reviews_count": 64,
    "score": 76,
    "awards": [
     "Best for No-Neutral Boxes"
@@ -178,64 +236,6 @@
    "page_url": "https://themisreviews.com/thread-switches.html#B0F2N68K3C"
   },
   {
-   "rank": 3,
-   "asin": "B0DN1H69ZP",
-   "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
-   "brand": "Aqara",
-   "model": "H2 switch (1 channel)",
-   "price": 35.99,
-   "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 67,
-   "score": 74,
-   "awards": [
-    "Best Budget"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": true,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Thread or Zigbee, neutral or no neutral, single-pole or 3-way. The most flexible on/off switch on this list.",
-   "pros": [
-    "Works with or without a neutral",
-    "Matter over Thread, or Zigbee with an Aqara hub",
-    "Single-pole and 3-way",
-    "Extra button works as a wireless scene switch"
-   ],
-   "cons": [
-    "3.6-star rating",
-    "Power monitoring needs a neutral",
-    "Two-button layout looks different from a standard paddle"
-   ],
-   "specs": {
-    "type": "In-wall on/off",
-    "neutral": "Optional",
-    "three_way_text": "Yes",
-    "also": "Zigbee",
-    "extras": "Decoupled scene button"
-   },
-   "features": {
-    "three_way": true,
-    "no_neutral": true,
-    "dimming": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61lq1-DChlL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DN1H69ZP?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-switches.html#B0DN1H69ZP"
-  },
-  {
    "rank": 4,
    "asin": "B0DCK65T2Y",
    "name": "Eve Light Switch (Matter) – Smart Wall Switch",
@@ -244,7 +244,7 @@
    "price": 39.95,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 84,
+   "reviews_count": 85,
    "score": 69,
    "awards": [],
    "works_with": [
@@ -297,7 +297,7 @@
    "name": "Eve Dimmer Switch (Matter over Thread), Single-Pole, Neutral Wire Required",
    "brand": "Eve",
    "model": "Dimmer Switch (Matter)",
-   "price": 54.95,
+   "price": 44.95,
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 57,
@@ -355,7 +355,7 @@
    "name": "Wemo Smart Light Switch with Thread for Apple HomeKit, 3-Way Compatible",
    "brand": "Wemo",
    "model": "Smart Light Switch with Thread",
-   "price": 25.74,
+   "price": 24.99,
    "currency": "USD",
    "rating": 2.9,
    "reviews_count": 236,

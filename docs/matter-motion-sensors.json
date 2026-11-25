@@ -13,7 +13,7 @@
  },
  "product_type": "Motion sensors",
  "data_captured": "2026-11-25",
- "updated": "2026-11-14",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,22 +36,22 @@
    "label": "Best Overall",
    "asin": "B0H6JFC9RQ",
    "name": "GL Technologies LWR02 5-in-1",
-   "price": 49.99,
-   "why": "Highest score on the page (95): 4.4 stars from 137 reviews, $49.99."
+   "price": 39.99,
+   "why": "Highest score on the page (95): 4.4 stars from 145 reviews, $39.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0DYC9235W",
    "name": "meross MS600",
-   "price": 33.99,
-   "why": "Highest score (82) among the cheapest third of picks (up to $33.99 each): 3.8 stars from 192 reviews, $33.99."
+   "price": 25.99,
+   "why": "Highest score (83) among the cheapest third of picks (up to $26.99 each): 3.9 stars from 196 reviews, $25.99."
   },
   {
    "label": "Best Presence Sensor",
    "asin": "B0F9YVNJ1C",
    "name": "GL Technologies LWR01",
    "price": 39.99,
-   "why": "Highest score of the picks that fit this award (77): 3.3 stars from 143 reviews, $39.99."
+   "why": "Highest score of the picks that fit this award (76): 3.2 stars from 145 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -62,10 +62,10 @@
    "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
    "brand": "GL Technologies",
    "model": "LWR02 5-in-1",
-   "price": 49.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 137,
+   "reviews_count": 145,
    "score": 95,
    "awards": [
     "Best Overall"
@@ -85,7 +85,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": null,
    "verdict": "The most complete Matter sensor here: presence, motion, temperature, humidity, and light, on batteries.",
    "pros": [
     "Radar for stillness, PIR for movement",
@@ -94,8 +94,8 @@
     "4.4 stars"
    ],
    "cons": [
-    "Only 137 reviews",
-    "$49.99",
+    "Only 145 reviews",
+    "$39.99",
     "Needs a Thread border router"
    ],
    "specs": {
@@ -120,11 +120,11 @@
    "name": "meross Presence Sensor MS600, Matter Over Wi-Fi, 1.5m Corded Motion Sensor",
    "brand": "meross",
    "model": "MS600",
-   "price": 33.99,
+   "price": 25.99,
    "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 192,
-   "score": 82,
+   "rating": 3.9,
+   "reviews_count": 196,
+   "score": 83,
    "awards": [
     "Best Budget"
    ],
@@ -152,7 +152,7 @@
    ],
    "cons": [
     "Needs continuous power",
-    "3.8 stars",
+    "3.9 stars",
     "1.5 m cord limits placement"
    ],
    "specs": {
@@ -173,15 +173,70 @@
   },
   {
    "rank": 3,
+   "asin": "B0CT8W9NRB",
+   "name": "Aqara Motion and Light Sensor P2, Motion Detector with Light Sensor",
+   "brand": "Aqara",
+   "model": "Motion and Light Sensor P2",
+   "price": 26.99,
+   "currency": "USD",
+   "rating": 3.5,
+   "reviews_count": 686,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Aqara's native Matter motion sensor with a wide 170° view. Popular, with mixed ratings.",
+   "pros": [
+    "170° horizontal view, up to 23 ft",
+    "Separate light sensor",
+    "686 reviews"
+   ],
+   "cons": [
+    "3.5 stars",
+    "PIR only, no presence detection",
+    "Needs a Thread border router"
+   ],
+   "specs": {
+    "type": "PIR motion",
+    "radio": "Thread",
+    "power": "Battery",
+    "range": "Up to 23 ft (7 m), 170°",
+    "extras": "Separate light sensor"
+   },
+   "features": {
+    "presence": false,
+    "light_sensor": true,
+    "battery": true
+   },
+   "image": "https://m.media-amazon.com/images/I/6100lIjKBlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CT8W9NRB?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0CT8W9NRB"
+  },
+  {
+   "rank": 4,
    "asin": "B0F9YVNJ1C",
    "name": "GL Technologies LWR01 mmWave Presence Sensor, Battery-Powered, Matter over Thread",
    "brand": "GL Technologies",
    "model": "LWR01",
    "price": 39.99,
    "currency": "USD",
-   "rating": 3.3,
-   "reviews_count": 143,
-   "score": 77,
+   "rating": 3.2,
+   "reviews_count": 145,
+   "score": 76,
    "awards": [
     "Best Presence Sensor"
    ],
@@ -208,7 +263,7 @@
     "Detects stillness up to 3.5 m"
    ],
    "cons": [
-    "3.3 stars",
+    "3.2 stars",
     "Shorter range for still people",
     "Needs a Thread border router"
    ],
@@ -227,61 +282,6 @@
    "image": "https://m.media-amazon.com/images/I/41uhtIiPxQL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0F9YVNJ1C?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0F9YVNJ1C"
-  },
-  {
-   "rank": 4,
-   "asin": "B0CT8W9NRB",
-   "name": "Aqara Motion and Light Sensor P2, Motion Detector with Light Sensor",
-   "brand": "Aqara",
-   "model": "Motion and Light Sensor P2",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 3.5,
-   "reviews_count": 681,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Aqara's native Matter motion sensor with a wide 170° view. Popular, with mixed ratings.",
-   "pros": [
-    "170° horizontal view, up to 23 ft",
-    "Separate light sensor",
-    "681 reviews"
-   ],
-   "cons": [
-    "3.5 stars",
-    "PIR only, no presence detection",
-    "Needs a Thread border router"
-   ],
-   "specs": {
-    "type": "PIR motion",
-    "radio": "Thread",
-    "power": "Battery",
-    "range": "Up to 23 ft (7 m), 170°",
-    "extras": "Separate light sensor"
-   },
-   "features": {
-    "presence": false,
-    "light_sensor": true,
-    "battery": true
-   },
-   "image": "https://m.media-amazon.com/images/I/6100lIjKBlL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CT8W9NRB?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0CT8W9NRB"
   }
  ],
  "avoid": [],
@@ -300,6 +300,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-14",
    "notes": [
