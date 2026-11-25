@@ -158,7 +158,7 @@
       "pros": [
         "4.7 stars from over 571,000 reviews",
         "Sets up entirely in the Alexa app",
-        "8K+ bought in the past month"
+        "10K+ bought in the past month"
       ],
       "cons": [
         "Works with Alexa only",
@@ -309,7 +309,7 @@
       "pros": [
         "About $6.25 per plug",
         "Bluetooth-assisted pairing",
-        "4K+ bought in the past month"
+        "7K+ bought in the past month"
       ],
       "cons": [
         "Smart Life is a cloud-based app",
@@ -401,43 +401,6 @@
       "bought": "10K+ bought in past month"
     },
     {
-      "asin": "B08TNF4835",
-      "brand": "SONOFF",
-      "model": "S31",
-      "systems": [
-        "alexa",
-        "google-home"
-      ],
-      "specs": {
-        "location": "Indoor",
-        "app": "eWeLink",
-        "load": "15 A",
-        "pack": "1 plug"
-      },
-      "features": {
-        "energy": true,
-        "apple_home": false,
-        "outdoor": false
-      },
-      "verdict": "A cheap ETL-certified plug with energy monitoring and IFTTT support.",
-      "pros": [
-        "Energy monitoring for $8.72",
-        "ETL certified",
-        "IFTTT support"
-      ],
-      "cons": [
-        "4.1 stars",
-        "eWeLink app",
-        "No Apple Home"
-      ],
-      "name": "SONOFF S31 Wi-Fi Smart Plug with Energy Monitoring, 15A, ETL Certified, Works with Alexa & Google Home",
-      "image": "https://m.media-amazon.com/images/I/51HPDgFpi4L._AC_SL1500_.jpg",
-      "price": 8.72,
-      "rating": 4.1,
-      "reviews_count": 526,
-      "bought": null
-    },
-    {
       "asin": "B0D7ZXYPRL",
       "brand": "GHome",
       "model": "Smart plug",
@@ -456,11 +419,11 @@
         "apple_home": false,
         "outdoor": false
       },
-      "verdict": "About $11 for a single plug, with Bluetooth-assisted setup and 5K+ sales a month.",
+      "verdict": "About $9 for a single plug, with Bluetooth-assisted setup and 6K+ sales a month.",
       "pros": [
         "$9.34",
         "Wi-Fi plus Bluetooth setup",
-        "4K+ bought in the past month"
+        "6K+ bought in the past month"
       ],
       "cons": [
         "Sold by a third-party seller",
@@ -473,6 +436,44 @@
       "rating": 4.4,
       "reviews_count": 5007,
       "bought": "6K+ bought in past month"
+    },
+    {
+      "asin": "B0D7FQ93QN",
+      "brand": "Tapo",
+      "model": "P115 (2-pack)",
+      "systems": [
+        "alexa",
+        "google-home",
+        "home-assistant"
+      ],
+      "specs": {
+        "location": "Indoor",
+        "app": "Tapo",
+        "load": "15 A",
+        "pack": "2 plugs"
+      },
+      "features": {
+        "energy": true,
+        "apple_home": false,
+        "outdoor": false
+      },
+      "verdict": "Two energy-monitoring plugs for about $7 each, with bill estimates and an auto-shutoff for devices that draw too much power.",
+      "pros": [
+        "Energy monitoring with cost estimates",
+        "$13.98 for two plugs, 1,448 reviews",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "No Apple Home or Matter",
+        "Runs in the Tapo app, not the Kasa app",
+        "Indoor only"
+      ],
+      "name": "Tapo Smart Plug Wi-Fi, Energy Monitoring, P115(2-Pack), 15A",
+      "image": "https://m.media-amazon.com/images/I/516P58ZHCSL._AC_SL1500_.jpg",
+      "price": 13.98,
+      "rating": 4.5,
+      "reviews_count": 1448,
+      "bought": "1K+ bought in past month"
     }
   ],
   "avoid": [

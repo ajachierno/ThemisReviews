@@ -39,10 +39,38 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best for Large Basements", "kind": "premium", "rule": {"type": "feature", "key": "big"}},
-    {"label": "Best With a Pump", "kind": "special", "rule": {"type": "feature", "key": "pump"}},
-    {"label": "Best Compact", "kind": "budget", "rule": {"type": "feature", "key": "big", "value": false}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best for Large Basements",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "big"
+      }
+    },
+    {
+      "label": "Best With a Pump",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "pump"
+      }
+    },
+    {
+      "label": "Best Compact",
+      "kind": "budget",
+      "rule": {
+        "type": "feature",
+        "key": "big",
+        "value": false
+      }
+    }
   ],
   "products": [
     {
@@ -208,36 +236,6 @@
       ]
     },
     {
-      "asin": "B0GXYD5JBY",
-      "brand": "Dreo",
-      "model": "Smart Dehumidifier (Energy Star 2025)",
-      "systems": [],
-      "systems_label": "Dreo app",
-      "specs": {
-        "capacity": "Not stated in bullets",
-        "coverage": "Basement",
-        "drain": "1.85-gallon tank or hose",
-        "app": "Dreo, with energy tracking"
-      },
-      "features": {
-        "big": true,
-        "pump": false,
-        "voice": false,
-        "energy_star": true
-      },
-      "verdict": "Tracks its own energy use in the app.",
-      "pros": [
-        "Energy tracking",
-        "Energy Star",
-        "4.4 stars"
-      ],
-      "cons": [
-        "Only 224 reviews",
-        "Voice control isn't in the bullets",
-        "$279.99"
-      ]
-    },
-    {
       "asin": "B0H42G5D34",
       "brand": "LG",
       "model": "PuriCare 50-Pint WiFi Dehumidifier",
@@ -303,7 +301,8 @@
       ]
     },
     {
-      "asin": "B0DFZHBSZX", "name": "Frigidaire 22-Pint Portable Dehumidifier with Wi-Fi, Energy Star, Custom Humidity Control, Auto Shut Off",
+      "asin": "B0DFZHBSZX",
+      "name": "Frigidaire 22-Pint Portable Dehumidifier with Wi-Fi, Energy Star, Custom Humidity Control, Auto Shut Off",
       "brand": "Frigidaire",
       "model": "22-Pint Wi-Fi Dehumidifier",
       "systems": [
@@ -362,6 +361,36 @@
         "$444.41",
         "Only 168 reviews",
         "4.0 stars"
+      ]
+    },
+    {
+      "asin": "B0HFJ8WRRL",
+      "brand": "Dreo",
+      "model": "Smart Dehumidifier, 4,500 sq. ft. (Energy Star 2025)",
+      "systems": [],
+      "systems_label": "Dreo app",
+      "specs": {
+        "capacity": "75 pints a day max (95°F, 95% RH)",
+        "coverage": "Up to 4,500 sq. ft.",
+        "drain": "1.85-gallon tank or hose",
+        "app": "Dreo, with energy tracking"
+      },
+      "features": {
+        "big": true,
+        "pump": false,
+        "voice": false,
+        "energy_star": true
+      },
+      "verdict": "Dreo's current listing of its Energy Star dehumidifier, with real-time energy tracking and a 41 dB low setting in the app.",
+      "pros": [
+        "Energy tracking in the app",
+        "Energy Star 2025 certified",
+        "$187.97, sold by Amazon"
+      ],
+      "cons": [
+        "Only 48 reviews on this listing",
+        "Voice control isn't in the bullets",
+        "No pump"
       ]
     }
   ],

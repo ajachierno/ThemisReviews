@@ -56,7 +56,7 @@ PAGES = {
         "Matter-over-Thread shade motors and motorized shades, ranked.",
         "Thread blinds are new, so most have few reviews. We scored the Matter-over-Thread motors and shades on Amazon on rating, review volume, and features: retrofit fit, battery or solar power, and app support.",
         100, BLINDS_GUIDE),
-    "rf-weather-stations": _p("weather-stations", "Weather stations", "station", "The 10 Best Wireless Home Weather Stations",
+    "rf-weather-stations": _p("weather-stations", "Weather stations", "station", "The Best Wireless Home Weather Stations",
         "Indoor-outdoor weather stations with wireless sensors, ranked from live Amazon data.",
         "We pulled the wireless home weather stations selling on Amazon and scored them on rating, review volume, and features: wind and rain sensing, color displays, and Wi-Fi uploads. Most use 433 MHz or 915 MHz sensors; the table shows what each listing states.",
         20000, WEATHER_GUIDE),
