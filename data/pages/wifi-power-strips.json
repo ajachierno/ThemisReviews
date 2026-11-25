@@ -60,7 +60,7 @@
         "type": "overall"
       },
       "asin": "B0F5LNYTR7",
-      "why": "Highest score on the page (96): 4.5 stars from 365 reviews, $39.99."
+      "why": "Highest score on the page (96): 4.5 stars from 370 reviews, $39.99."
     },
     {
       "label": "Best Budget",
@@ -68,8 +68,18 @@
       "rule": {
         "type": "budget"
       },
+      "asin": "B083JKSSR5",
+      "why": "Highest score (78) among the cheapest third of picks (up to $27.99 each): 4.6 stars from 25,008 reviews, $23.01."
+    },
+    {
+      "label": "Best for Apple Home",
+      "kind": "premium",
+      "rule": {
+        "type": "system",
+        "key": "apple-home"
+      },
       "asin": "B0CYGSFFFW",
-      "why": "Highest score (84) among the cheapest third of picks (up to $32.99 each): 4.5 stars from 663 reviews, $32.99."
+      "why": "Highest score (84) among picks that work with Apple Home: 4.5 stars from 666 reviews, $32.99."
     }
   ],
   "products": [
@@ -97,7 +107,7 @@
       "verdict": "The best-known smart power strip: six outlets you control one at a time.",
       "pros": [
         "6 independent outlets",
-        "4.6 stars from 9,485 reviews",
+        "4.6 stars from 25,008 reviews",
         "Home Assistant integration"
       ],
       "cons": [
@@ -109,7 +119,7 @@
       "image": "https://m.media-amazon.com/images/I/61PI8akrKOL._AC_SL1500_.jpg",
       "price": 37.99,
       "rating": 4.6,
-      "reviews_count": 9485,
+      "reviews_count": 25008,
       "bought": "3K+ bought in past month"
     },
     {
@@ -145,15 +155,15 @@
       ],
       "cons": [
         "USB ports aren't switchable",
-        "Only 365 reviews",
+        "Only 370 reviews",
         "4.5 stars"
       ],
       "name": "Tapo Smart Wi-Fi Power Strip, Matter, P316M, Energy Monitoring",
       "image": "https://m.media-amazon.com/images/I/611LrgoYkvL._SL1500_.jpg",
       "price": 39.99,
       "rating": 4.5,
-      "reviews_count": 365,
-      "bought": "500+ bought in past month"
+      "reviews_count": 370,
+      "bought": "1K+ bought in past month"
     },
     {
       "asin": "B083JKSSR5",
@@ -179,7 +189,7 @@
       "verdict": "A compact three-outlet strip for a nightstand or TV stand.",
       "pros": [
         "$23.01",
-        "16,527 reviews",
+        "25,008 reviews",
         "Surge protection"
       ],
       "cons": [
@@ -191,8 +201,8 @@
       "image": "https://m.media-amazon.com/images/I/61yUqv7M9VL._AC_SL1500_.jpg",
       "price": 23.01,
       "rating": 4.6,
-      "reviews_count": 16527,
-      "bought": "2K+ bought in past month"
+      "reviews_count": 25008,
+      "bought": "3K+ bought in past month"
     },
     {
       "asin": "B0CYGSFFFW",
@@ -225,13 +235,13 @@
       "cons": [
         "Surge protection isn't in the bullets",
         "$32.99",
-        "Only 663 reviews"
+        "Only 666 reviews"
       ],
       "name": "Tapo Smart Plug Outlet Extender, P306, 3 Individual Smart Outlets",
       "image": "https://m.media-amazon.com/images/I/61dqJe+2c8L._SL1254_.jpg",
       "price": 32.99,
       "rating": 4.5,
-      "reviews_count": 663,
+      "reviews_count": 666,
       "bought": "500+ bought in past month"
     },
     {
@@ -268,8 +278,8 @@
       "image": "https://m.media-amazon.com/images/I/61239SvkPoL._AC_SL1500_.jpg",
       "price": 33.97,
       "rating": 4.3,
-      "reviews_count": 703,
-      "bought": "500+ bought in past month"
+      "reviews_count": 708,
+      "bought": "1K+ bought in past month"
     },
     {
       "asin": "B0CP4D62RX",
@@ -300,14 +310,14 @@
       ],
       "cons": [
         "Geeni app",
-        "Only 543 reviews",
+        "Only 547 reviews",
         "No Apple Home"
       ],
       "name": "Geeni Surge Ultra Smart 8-Outlet Surge Protector, No Hub, 6 ft. Cord, Black",
       "image": "https://m.media-amazon.com/images/I/71GkElZxN3L._AC_SL1500_.jpg",
       "price": 39.99,
       "rating": 4.4,
-      "reviews_count": 543,
+      "reviews_count": 547,
       "bought": null
     },
     {
@@ -336,7 +346,7 @@
       "pros": [
         "2 USB-C ports",
         "Flat plug",
-        "4.3 stars"
+        "4.4 stars"
       ],
       "cons": [
         "Surge protection isn't in the bullets",
@@ -345,9 +355,9 @@
       ],
       "name": "Yozisital Smart Power Strip, 6 Smart Outlets and 4 USB Ports, 5 ft Flat Plug Cord, Alexa and Google Home",
       "image": "https://m.media-amazon.com/images/I/61JkKJQEUUL._AC_SL1500_.jpg",
-      "price": 34.99,
-      "rating": 4.3,
-      "reviews_count": 378,
+      "price": 27.99,
+      "rating": 4.4,
+      "reviews_count": 383,
       "bought": null
     },
     {
@@ -378,14 +388,14 @@
       ],
       "cons": [
         "4.0 stars",
-        "$42.99",
+        "$32.29",
         "No Apple Home"
       ],
       "name": "BN-LINK Smart Plug Power Strip, Surge Protector, 6 Smart Outlets, 4 USB (incl. 20W USB-C), Alexa and Google Home",
       "image": "https://m.media-amazon.com/images/I/61QqHRzAVjL._AC_SL1500_.jpg",
-      "price": 42.99,
+      "price": 32.29,
       "rating": 4.0,
-      "reviews_count": 629,
+      "reviews_count": 630,
       "bought": null
     },
     {
@@ -412,7 +422,7 @@
       "verdict": "A cheaper wall-plug extender with smart USB ports.",
       "pros": [
         "$24.69",
-        "1,719 reviews",
+        "1,731 reviews",
         "Smart USB ports"
       ],
       "cons": [
@@ -424,8 +434,8 @@
       "image": "https://m.media-amazon.com/images/I/51iqEWtr35L._AC_SL1500_.jpg",
       "price": 24.69,
       "rating": 4.4,
-      "reviews_count": 1719,
-      "bought": "500+ bought in past month"
+      "reviews_count": 1731,
+      "bought": "1K+ bought in past month"
     }
   ],
   "avoid": [],

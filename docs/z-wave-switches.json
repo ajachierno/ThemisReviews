@@ -38,14 +38,14 @@
    "asin": "B0921F1KVY",
    "name": "Zooz ZEN76 800LR",
    "price": 43.95,
-   "why": "Highest score on the page (94): 4.3 stars from 213 reviews, $43.95."
+   "why": "Highest score on the page (95): 4.4 stars from 214 reviews, $43.95."
   },
   {
    "label": "Best Budget",
    "asin": "B0FX3CTLW2",
    "name": "UltraPro 800 Series LR paddle",
    "price": 20.06,
-   "why": "Highest score (86) among the cheapest third of picks (up to $39.99 each): 3.9 stars from 95 reviews, $20.06."
+   "why": "Highest score (86) among the cheapest third of picks (up to $39.99 each): 3.9 stars from 97 reviews, $20.06."
   }
  ],
  "systems_note": null,
@@ -58,9 +58,9 @@
    "model": "ZEN76 800LR",
    "price": 43.95,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 213,
-   "score": 94,
+   "rating": 4.4,
+   "reviews_count": 214,
+   "score": 95,
    "awards": [
     "Best Overall"
    ],
@@ -116,7 +116,7 @@
    "price": 20.06,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 95,
+   "reviews_count": 97,
    "score": 86,
    "awards": [
     "Best Budget"
@@ -171,9 +171,9 @@
    "model": "800 Series LR paddle",
    "price": 39.99,
    "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 57,
-   "score": 85,
+   "rating": 4.2,
+   "reviews_count": 62,
+   "score": 86,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -295,7 +295,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "50+ bought in past month",
    "verdict": "Two controls in one gang: the paddle dims a light and the button switches a fan on or off. Good for a bathroom or bedroom where the light and fan share one box.",
    "pros": [
     "Controls two loads separately from one switch",
@@ -391,7 +391,7 @@
    "price": 39.9,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 160,
+   "reviews_count": 161,
    "score": 68,
    "awards": [],
    "works_with": [
@@ -406,7 +406,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "A solid, name-brand 800 Series switch that's rated for fans and motors as well as lights. It's sold and shipped by Amazon.",
    "pros": [
     "800 Series with S2 security, SmartStart, and over-the-air updates",
@@ -492,15 +492,68 @@
   },
   {
    "rank": 9,
+   "asin": "B07NLVFL2Q",
+   "name": "Eaton Z-Wave Plus RF9601DW Wireless Switch, Single Pole, 3-Way, White",
+   "brand": "Eaton",
+   "model": "RF9601DW",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 88,
+   "score": 66,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A dependable Z-Wave Plus switch from a big electrical brand, with a 4.5-star rating. It's older tech, and 3-way needs Eaton's accessory switch.",
+   "pros": [
+    "4.5-star rating",
+    "Can control up to 5 other Z-Wave Plus devices directly through association",
+    "Status LED you can dim"
+   ],
+   "cons": [
+    "No Long Range or 800 Series chip",
+    "3-way needs the RF9642 accessory switch",
+    "Sold by a third-party seller"
+   ],
+   "specs": {
+    "series": "Z-Wave Plus",
+    "style": "Paddle",
+    "three_way": "RF9642 accessory switch",
+    "neutral": "Required",
+    "extras": "Dimmable blue LED"
+   },
+   "features": {
+    "long_range": false,
+    "direct_3way": false,
+    "scene_control": false,
+    "custom_led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71XyDohXCQL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07NLVFL2Q?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/z-wave-switches.html#B07NLVFL2Q"
+  },
+  {
+   "rank": 10,
    "asin": "B0FQPKFWNH",
    "name": "HomeSeer WS300 Smart Light Switch, 800 Series Z-Wave Long Range, RGB LED Indicator",
    "brand": "HomeSeer",
    "model": "WS300",
    "price": 54.95,
    "currency": "USD",
-   "rating": 3.8,
+   "rating": 3.6,
    "reviews_count": 18,
-   "score": 67,
+   "score": 65,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -542,59 +595,6 @@
    "image": "https://m.media-amazon.com/images/I/610E7AjUijL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FQPKFWNH?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/z-wave-switches.html#B0FQPKFWNH"
-  },
-  {
-   "rank": 10,
-   "asin": "B07NLVFL2Q",
-   "name": "Eaton Z-Wave Plus RF9601DW Wireless Switch, Single Pole, 3-Way, White",
-   "brand": "Eaton",
-   "model": "RF9601DW",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 86,
-   "score": 66,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A dependable Z-Wave Plus switch from a big electrical brand, with a 4.5-star rating. It's older tech, and 3-way needs Eaton's accessory switch.",
-   "pros": [
-    "4.5-star rating",
-    "Can control up to 5 other Z-Wave Plus devices directly through association",
-    "Status LED you can dim"
-   ],
-   "cons": [
-    "No Long Range or 800 Series chip",
-    "3-way needs the RF9642 accessory switch",
-    "Sold by a third-party seller"
-   ],
-   "specs": {
-    "series": "Z-Wave Plus",
-    "style": "Paddle",
-    "three_way": "RF9642 accessory switch",
-    "neutral": "Required",
-    "extras": "Dimmable blue LED"
-   },
-   "features": {
-    "long_range": false,
-    "direct_3way": false,
-    "scene_control": false,
-    "custom_led": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71XyDohXCQL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07NLVFL2Q?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/z-wave-switches.html#B07NLVFL2Q"
   }
  ],
  "avoid": [

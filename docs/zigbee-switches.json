@@ -57,9 +57,9 @@
    "model": "H2 (1 channel)",
    "price": 35.99,
    "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 67,
-   "score": 81,
+   "rating": 3.8,
+   "reviews_count": 75,
+   "score": 84,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -76,7 +76,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "Aqara's newer switch runs on Zigbee or Matter over Thread, wires with or without a neutral, and handles 3-way. The second button works as a wireless scene switch.",
    "pros": [
     "Choose Zigbee or Matter over Thread",
@@ -169,7 +169,7 @@
    "price": 33.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 533,
+   "reviews_count": 534,
    "score": 77,
    "awards": [],
    "works_with": [
@@ -188,7 +188,7 @@
    "verdict": "A switch for older boxes without a neutral, with the most reviews on this list. It's built around Aqara's hub and app.",
    "pros": [
     "Installs without a neutral wire",
-    "533 reviews and 100+ bought in the past month",
+    "534 reviews and 100+ bought in the past month",
     "Works with Apple Home, Google, Alexa, and SmartThings through the Aqara hub",
     "Cuts power if it overheats"
    ],
@@ -239,7 +239,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "50+ bought in past month",
    "verdict": "A no-neutral rocker that pairs with standard Zigbee 3.0 hubs such as SmartThings and Hubitat. Single-pole only.",
    "pros": [
     "No neutral needed",
@@ -270,6 +270,57 @@
   },
   {
    "rank": 5,
+   "asin": "B0DNHLKWYV",
+   "name": "SONOFF Zigbee Smart Light Switch ZBM5-1C-120W, Neutral or No Neutral, SONOFF Hub Required",
+   "brand": "SONOFF",
+   "model": "ZBM5-1C-120W",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 60,
+   "score": 74,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": true,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "A neutral-optional wall switch that works with Home Assistant through Zigbee2MQTT. Reviews are mixed.",
+   "pros": [
+    "Works with or without a neutral wire",
+    "Home Assistant support through Zigbee2MQTT",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "3.6-star rating",
+    "App and voice control need a SONOFF Zigbee gateway",
+    "No 3-way support listed"
+   ],
+   "specs": {
+    "neutral": "Optional",
+    "three_way_text": "Not listed",
+    "hub": "SONOFF gateway or Zigbee2MQTT",
+    "style": "Push button",
+    "extras": "eWeLink app"
+   },
+   "features": {
+    "no_neutral": true,
+    "three_way": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61ks-jXsOPL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DNHLKWYV?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-switches.html#B0DNHLKWYV"
+  },
+  {
+   "rank": 6,
    "asin": "B0D4DGJ32V",
    "name": "MOES Zigbee 3 Way Light Switch 1 Gang, Need Neutral Wire & MOES Zigbee Hub",
    "brand": "MOES",
@@ -324,63 +375,12 @@
    "page_url": "https://themisreviews.com/zigbee-switches.html#B0D4DGJ32V"
   },
   {
-   "rank": 6,
-   "asin": "B0DNHLKWYV",
-   "name": "SONOFF Zigbee Smart Light Switch ZBM5-1C-120W, Neutral or No Neutral, SONOFF Hub Required",
-   "brand": "SONOFF",
-   "model": "ZBM5-1C-120W",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 58,
-   "score": 73,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": true,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A neutral-optional wall switch that works with Home Assistant through Zigbee2MQTT. Reviews are mixed.",
-   "pros": [
-    "Works with or without a neutral wire",
-    "Home Assistant support through Zigbee2MQTT",
-    "100+ bought in the past month"
-   ],
-   "cons": [
-    "3.6-star rating",
-    "App and voice control need a SONOFF Zigbee gateway",
-    "No 3-way support listed"
-   ],
-   "specs": {
-    "neutral": "Optional",
-    "three_way_text": "Not listed",
-    "hub": "SONOFF gateway or Zigbee2MQTT",
-    "style": "Push button",
-    "extras": "eWeLink app"
-   },
-   "features": {
-    "no_neutral": true,
-    "three_way": false,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61ks-jXsOPL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DNHLKWYV?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-switches.html#B0DNHLKWYV"
-  },
-  {
    "rank": 7,
    "asin": "B0CTZRTS12",
    "name": "MOES Zigbee Smart Switch 1 Gang, Need MOES Zigbee Hub & Neutral Wire, White",
    "brand": "MOES",
    "model": "Zigbee 1 gang (neutral)",
-   "price": 21.99,
+   "price": 17.59,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 78,
@@ -434,7 +434,7 @@
    "price": 33.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 156,
+   "reviews_count": 157,
    "score": 68,
    "awards": [],
    "works_with": [
@@ -486,7 +486,7 @@
    "price": 30.59,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 264,
+   "reviews_count": 269,
    "score": 67,
    "awards": [],
    "works_with": [
@@ -504,7 +504,7 @@
    "verdict": "The neutral-wire version of Aqara's single switch. Pick it over the no-neutral model when you have a neutral, since it's a little cheaper.",
    "pros": [
     "Cheaper than the no-neutral version",
-    "264 reviews",
+    "269 reviews",
     "Apple Home, Google, and Alexa through the Aqara hub",
     "Overheat protection"
    ],

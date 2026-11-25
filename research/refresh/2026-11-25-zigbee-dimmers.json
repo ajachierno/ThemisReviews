@@ -3,10 +3,10 @@
   "title": "Enbrighten Zigbee In-Wall Smart Dimmer, Paddle, White or Light Almond",
   "byline": null,
   "price": "$44.99",
-  "rating": "4.0 out of 5 stars",
-  "reviews": "(313)",
+  "rating": "3.9 out of 5 stars",
+  "reviews": "(314)",
   "bought": "100+ bought in past month",
-  "availability": "In Stock",
+  "availability": "In Stock                 {\"isInternal\":false,\"showInsightsHub\":false,\"isRobot\":false,\"showFaceout\":true,\"merchantId\":\"ATVPDKIKX0DER\",\"availableBadges\":\"\",\"loggedIn\":false,\"asin\":\"B08428GDS8\",\"showBadge\":false,\"ingressFaceout\":\"\",\"availableFaceouts\":\"TK_BOUGHT\"}",
   "seller": "Amazon.com",
   "image": "https://m.media-amazon.com/images/I/81VZfzh+W4L._AC_SL1500_.jpg",
   "bullets": [
@@ -30,18 +30,16 @@
   },
   "first_available": null,
   "asin": "B08428GDS8",
-  "captured": "2026-11-25",
-  "rating_captured": "2026-11-12",
-  "price_source": "creators_api"
+  "captured": "2026-11-25"
  },
  "B0F2N68K3C": {
   "title": "Aqara Smart Dimmer Switch H2, 2-in-1 Neutral, Thread/Zigbee Protocol",
   "byline": "Visit the Aqara Store",
   "price": "$39.99",
   "rating": "3.9 out of 5 stars",
-  "reviews": "(62)",
+  "reviews": "(64)",
   "bought": "100+ bought in past month",
-  "availability": "In Stock",
+  "availability": "In Stock                 {\"isInternal\":false,\"showInsightsHub\":false,\"isRobot\":false,\"showFaceout\":true,\"merchantId\":\"A35PXP61BJ01A2\",\"availableBadges\":\"\",\"loggedIn\":false,\"asin\":\"B0F2N68K3C\",\"showBadge\":false,\"ingressFaceout\":\"\",\"availableFaceouts\":\"TK_BOUGHT\"}",
   "seller": "AqaraDirect",
   "image": "https://m.media-amazon.com/images/I/61JIjLOZd8L._SL1500_.jpg",
   "bullets": [
@@ -63,20 +61,19 @@
    "Material": "Acrylonitrile Butadiene Styrene",
    "Item dimensions L x W x H": "1.65 x 4.69 x 2.91 inches"
   },
+  "first_available": null,
   "asin": "B0F2N68K3C",
-  "captured": "2026-11-25",
-  "rating_captured": "2026-11-09",
-  "price_source": "creators_api"
+  "captured": "2026-11-25"
  },
  "B0GKG5NXL6": {
   "title": "Shelly Dimmer Gen4 US UL Smart Dimming, WiFi, Matter, Zigbee",
   "byline": "Visit the Shelly Store",
-  "price": "$39.98",
-  "rating": "4.3 out of 5 stars",
-  "reviews": "(33)",
-  "bought": "400+ bought in past month",
-  "availability": "In Stock",
-  "seller": "Shelly USA",
+  "price": "$13.99",
+  "rating": "4.2 out of 5 stars",
+  "reviews": "(39)",
+  "bought": null,
+  "availability": "P.when(\"A\", \"load\").execute(\"aod-assets-loaded\", function(A){\n        function logAssetsNotLoaded() {\n            if (window.ueLogError) {\n                var customError = { message: 'Failed to load AOD assets for WDG: biss_basic_display_on_website, Device: web' };\n                var additionalInfo = {\n                    logLevel : 'ERROR',\n                    attribution : 'aod_assets_not_loaded'\n                };\n                ueLogError (customError, additionalInfo);\n            }\n            if (window.ue && window.ue.count) {\n                window.ue.count(\"aod-assets-not-loaded\", 1);\n            }\n        }\n\n        function verifyAssetsLoaded() {\n            var assetsLoadedPageState = A.state('aod:assetsLoaded');\n            var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');\n\n            if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)\n                && (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {\n                A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});\n                logAssetsNotLoaded();\n            }\n        }\n\n        setTimeout(verifyAssetsLoaded, 50000)\n    });",
+  "seller": null,
   "image": "https://m.media-amazon.com/images/I/81T-a+lNRVL._SL1500_.jpg",
   "bullets": [
    "Shelly Dimmer Gen4 US, UL Certified, is a compact smart dimmer designed for advanced automation and easy installation. It fits tight spaces, supports Wi-Fi, Bluetooth, Zigbee, and Matter, and features upgraded connectors for faster wiring. With night mode and precise brightness control, it delivers reliable performance in any environment.",
@@ -97,10 +94,9 @@
    "Material": "Plastic",
    "Item dimensions L x W x H": "0.67 x 1.71 x 1.52 inches"
   },
+  "first_available": null,
   "asin": "B0GKG5NXL6",
-  "captured": "2026-11-25",
-  "rating_captured": "2026-11-09",
-  "price_source": "creators_api"
+  "captured": "2026-11-25"
  },
  "B091L1912K": {
   "title": "GLEDOPTO Triac AC Dimmer Light Switch Touch Control Brightness Zigbee 3.0 Home Smart LED Light Dimmer Hub APP/Voice/2.4G RF Remote Control Compatible with Amazon Ehco Plus",
@@ -125,9 +121,8 @@
    "Item dimensions L x W x H": "5.31 x 5.43 x 0.39 inches",
    "Circuit Type": "Hardwired"
   },
+  "first_available": null,
   "asin": "B091L1912K",
-  "captured": "2026-11-25",
-  "rating_captured": "2026-11-09",
-  "price_source": "creators_api"
+  "captured": "2026-11-25"
  }
 }

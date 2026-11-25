@@ -35,79 +35,23 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0HGQXF2W1",
-   "name": "SONOFF SNZB-02UL (E-Ink)",
-   "price": 19.92,
-   "why": "Highest score on the page (96): 4.6 stars from 194 reviews, $19.92."
-  },
-  {
-   "label": "Best Budget",
    "asin": "B0G56QWSSZ",
    "name": "SONOFF SNZB-02DR2 AirGuard TH",
    "price": 11.9,
-   "why": "Highest score (95) among the cheapest third of picks (up to $15.92 each): 4.4 stars from 760 reviews, $11.90."
+   "why": "Highest score on the page (95): 4.4 stars from 809 reviews, $11.90."
+  },
+  {
+   "label": "Best Budget",
+   "asin": "B0BYZP8NK2",
+   "name": "SONOFF SNZB-02D",
+   "price": 12.72,
+   "why": "Highest score (89) among the cheapest third of picks (up to $15.92 each): 4.3 stars from 3,519 reviews, $12.72."
   }
  ],
  "systems_note": null,
  "products": [
   {
    "rank": 1,
-   "asin": "B0HGQXF2W1",
-   "name": "SONOFF Zigbee Thermometer Hygrometer SNZB-02UL with 2.9\" E-Ink Display",
-   "brand": "SONOFF",
-   "model": "SNZB-02UL (E-Ink)",
-   "price": 19.92,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 194,
-   "score": 96,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "An E-Ink display with time, weather, and a 6-hour trend on screen.",
-   "pros": [
-    "2.9 in. E-Ink, readable in bright light",
-    "Shows clock and weather",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 194 reviews",
-    "$19.92",
-    "Weather info needs a hub"
-   ],
-   "specs": {
-    "display": "2.9 in. E-Ink",
-    "accuracy": "±0.4°F, ±2% RH",
-    "extras": "Clock, weather, 6-hour trend",
-    "power": "Battery",
-    "hub": "Zigbee hub"
-   },
-   "features": {
-    "open_zigbee": true,
-    "display": true,
-    "extras": true,
-    "accuracy": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61uhpn9flwL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HGQXF2W1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#B0HGQXF2W1"
-  },
-  {
-   "rank": 2,
    "asin": "B0G56QWSSZ",
    "name": "SONOFF SNZB-02DR2 AirGuard TH Zigbee Temperature and Humidity Sensor, 3.6-Inch LCD",
    "brand": "SONOFF",
@@ -115,10 +59,10 @@
    "price": 11.9,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 760,
+   "reviews_count": 809,
    "score": 95,
    "awards": [
-    "Best Budget"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -143,7 +87,7 @@
    ],
    "cons": [
     "Bigger than a mini sensor",
-    "Only 760 reviews",
+    "Only 809 reviews",
     "Needs a Zigbee hub"
    ],
    "specs": {
@@ -164,6 +108,60 @@
    "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#B0G56QWSSZ"
   },
   {
+   "rank": 2,
+   "asin": "B0HGQXF2W1",
+   "name": "SONOFF Zigbee Thermometer Hygrometer SNZB-02UL with 2.9\" E-Ink Display",
+   "brand": "SONOFF",
+   "model": "SNZB-02UL (E-Ink)",
+   "price": 19.92,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 221,
+   "score": 94,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "An E-Ink display with time, weather, and a 6-hour trend on screen.",
+   "pros": [
+    "2.9 in. E-Ink, readable in bright light",
+    "Shows clock and weather",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Only 221 reviews",
+    "$19.92",
+    "Weather info needs a hub"
+   ],
+   "specs": {
+    "display": "2.9 in. E-Ink",
+    "accuracy": "±0.4°F, ±2% RH",
+    "extras": "Clock, weather, 6-hour trend",
+    "power": "Battery",
+    "hub": "Zigbee hub"
+   },
+   "features": {
+    "open_zigbee": true,
+    "display": true,
+    "extras": true,
+    "accuracy": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61uhpn9flwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HGQXF2W1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#B0HGQXF2W1"
+  },
+  {
    "rank": 3,
    "asin": "B0BYZP8NK2",
    "name": "SONOFF SNZB-02D Zigbee LCD Temperature Humidity Sensor, Zigbee 3.0 Hub Required",
@@ -172,9 +170,11 @@
    "price": 12.72,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 3463,
+   "reviews_count": 3519,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -194,7 +194,7 @@
    "pros": [
     "±0.4°F and ±2% RH stated accuracy",
     "LCD display",
-    "3,463 reviews at 4.3 stars",
+    "3,519 reviews at 4.3 stars",
     "$12.72"
    ],
    "cons": [
@@ -215,7 +215,7 @@
     "extras": false,
     "accuracy": true
    },
-   "image": "https://m.media-amazon.com/images/I/51UVxJIRnmL._SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/51nWfZEze6L._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BYZP8NK2?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#B0BYZP8NK2"
   },
@@ -228,7 +228,7 @@
    "price": 15.92,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 618,
+   "reviews_count": 638,
    "score": 89,
    "awards": [],
    "works_with": [
@@ -244,7 +244,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "An IP65 waterproof sensor with a display, for greenhouses, bathrooms, and garages.",
    "pros": [
     "IP65 waterproof with a breathable membrane",
@@ -254,7 +254,7 @@
    ],
    "cons": [
     "Accuracy isn't in the bullets",
-    "Only 618 reviews",
+    "Only 638 reviews",
     "Needs a Zigbee hub"
    ],
    "specs": {
@@ -283,7 +283,7 @@
    "price": 15.92,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 1093,
+   "reviews_count": 1132,
    "score": 88,
    "awards": [],
    "works_with": [
@@ -299,13 +299,13 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "600+ bought in past month",
+   "bought_last_month": "900+ bought in past month",
    "verdict": "A probe sensor for fridges, freezers, pools, and ducts that a room sensor can't reach.",
    "pros": [
     "1.5 m stainless steel probe",
     "Reads -40°F to 239°F",
     "IP65 main unit",
-    "1,093 reviews, 600+ bought in the past month"
+    "1,132 reviews, 600+ bought in the past month"
    ],
    "cons": [
     "Temperature only, no humidity",
@@ -338,7 +338,7 @@
    "price": 15.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 462,
+   "reviews_count": 466,
    "score": 84,
    "awards": [],
    "works_with": [
@@ -354,7 +354,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "The display version of the THIRDREALITY sensor, running on easy-to-find AAA batteries.",
    "pros": [
     "LCD display",
@@ -393,7 +393,7 @@
    "price": 19.9,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 256,
+   "reviews_count": 280,
    "score": 82,
    "awards": [],
    "works_with": [
@@ -417,7 +417,7 @@
     "Names SmartThings, Echo, and Home Assistant"
    ],
    "cons": [
-    "Only 256 reviews",
+    "Only 280 reviews",
     "3.8 stars",
     "Display isn't mentioned"
    ],
@@ -447,7 +447,7 @@
    "price": 12.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 509,
+   "reviews_count": 515,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -463,7 +463,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "A simple Zigbee 3.0 sensor that pairs straight to an Echo with a Zigbee hub built in.",
    "pros": [
     "Works with Echo devices that have a Zigbee hub",
@@ -501,7 +501,7 @@
    "price": 31.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 146,
+   "reviews_count": 147,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -519,7 +519,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "A climate display with three programmable buttons that works over Zigbee or Matter over Thread.",
    "pros": [
     "Zigbee or Thread, Matter compatible",
@@ -555,10 +555,10 @@
    "name": "Aqara Zigbee Temperature and Humidity Sensor 1 Pack, Thermometer Hygrometer",
    "brand": "Aqara",
    "model": "Temperature and Humidity Sensor",
-   "price": 17.99,
+   "price": 15.98,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 5650,
+   "reviews_count": 5670,
    "score": 73,
    "awards": [],
    "works_with": [
@@ -572,10 +572,10 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": null,
    "verdict": "The most-reviewed sensor here: tiny, with air pressure too, for homes that already run an Aqara hub.",
    "pros": [
-    "5,650 reviews",
+    "5,670 reviews",
     "Temperature, humidity, and air pressure",
     "Tiny with 3M adhesive",
     "400+ bought in the past month"
@@ -598,7 +598,7 @@
     "extras": true,
     "accuracy": false
    },
-   "image": "https://m.media-amazon.com/images/I/61aOtfVCxTL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/61aOtfVCxTL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07D37FKGY?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#B07D37FKGY"
   }
@@ -606,13 +606,13 @@
  "avoid": [
   {
    "asin": "B0FSKHSLB8",
-   "name": "Zigbee Temperature and Humidity Sensor, Hub Required, 4-Pack",
+   "name": "Zigbee Temperature and Humidity Sensor, Wireless Thermometer for Home Automation, Remote Monitoring, Compatible with Hub/Gateway Devices with Zigbee Hub Built-in",
    "brand": "PersianCat",
    "model": "Zigbee temperature and humidity sensor",
    "price": 12.99,
    "currency": "USD",
-   "rating": 3.0,
-   "reviews_count": 6,
+   "rating": 4.1,
+   "reviews_count": 14,
    "flag": "Bullets describe a door sensor",
    "verdict": "The bullets were copied from a door sensor listing, so you can't tell what this temperature sensor actually does.",
    "reasons": [
@@ -629,7 +629,7 @@
     "Homey Pro"
    ],
    "bought_last_month": null,
-   "image": "https://m.media-amazon.com/images/I/41ihYaagtNL._SL1024_.jpg",
+   "image": "https://m.media-amazon.com/images/I/21Ah7kHHotL._SX342_SY445_QL70_FMwebp_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FSKHSLB8?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-temperature-sensors.html#avoid-B0FSKHSLB8"
   }
@@ -652,7 +652,9 @@
   {
    "date": "2026-11-25",
    "notes": [
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: SONOFF SNZB-02DR2 AirGuard TH.",
+    "New Best Budget: SONOFF SNZB-02D."
    ]
   },
   {

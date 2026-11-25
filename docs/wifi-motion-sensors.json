@@ -34,31 +34,31 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H2QYVWZ7",
-   "name": "Akamatis Litos v3",
-   "price": 26.99,
-   "why": "Highest score (75) among picks with at least 4.0 stars and 30 reviews: 4.4 stars from 41 reviews, $26.99."
+   "asin": "B0CNRRT45G",
+   "name": "GoveeLife Human Presence Sensor",
+   "price": 23.74,
+   "why": "Highest score on the page (84): 4.0 stars from 266 reviews, $23.74."
   },
   {
    "label": "Best Budget",
    "asin": "B0CQR8TDZV",
    "name": "Jiestar Wi-Fi motion sensor (4-pack)",
    "price": 39.99,
-   "why": "Highest score (69) among the cheapest third of picks (up to $12.34 each): 3.5 stars from 990 reviews, $39.99."
+   "why": "Highest score (69) among the cheapest third of picks (up to $12.34 each): 3.5 stars from 996 reviews, $39.99."
   },
   {
    "label": "Best Presence Sensor",
-   "asin": "B0CNRRT45G",
-   "name": "GoveeLife Human Presence Sensor",
-   "price": 39.99,
-   "why": "Highest score (83) among picks marked Yes for Detects still people: 3.9 stars from 263 reviews, $39.99."
+   "asin": "B0H2QYVWZ7",
+   "name": "Akamatis Litos v3",
+   "price": 26.99,
+   "why": "Highest score (75) among picks marked Yes for Detects still people: 4.4 stars from 42 reviews, $26.99."
   },
   {
    "label": "Best for Home Assistant",
    "asin": "B0CLY75LMK",
    "name": "Jiestar Wi-Fi motion sensor",
    "price": 13.99,
-   "why": "Highest score (69) among picks that work with Home Assistant: 3.5 stars from 990 reviews, $13.99."
+   "why": "Highest score (69) among picks that work with Home Assistant: 3.5 stars from 996 reviews, $13.99."
   }
  ],
  "systems_note": null,
@@ -69,13 +69,13 @@
    "name": "GoveeLife Human Presence Sensor, mmWave Radar & PIR Wired Motion Sensor",
    "brand": "GoveeLife",
    "model": "Human Presence Sensor",
-   "price": 39.99,
+   "price": 23.74,
    "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 263,
-   "score": 83,
+   "rating": 4.0,
+   "reviews_count": 266,
+   "score": 84,
    "awards": [
-    "Best Presence Sensor"
+    "Best Overall"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -96,8 +96,8 @@
    ],
    "cons": [
     "Wired power",
-    "3.9 stars",
-    "$39.99"
+    "4.0 stars",
+    "$23.74"
    ],
    "specs": {
     "type": "Presence (mmWave + PIR)",
@@ -118,14 +118,14 @@
   {
    "rank": 2,
    "asin": "B0GD6ND4C7",
-   "name": "WiFi Motion Sensor, Smart PIR Motion Detector with Instant App Alerts",
+   "name": "WiFi Motion Sensor, Wireless PIR Detector with App Alerts, No Hub, Indoor",
    "brand": "Cotinse",
    "model": "Wi-Fi PIR motion sensor",
-   "price": 15.99,
+   "price": 15.19,
    "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 272,
-   "score": 80,
+   "rating": 4.0,
+   "reviews_count": 348,
+   "score": 81,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -147,7 +147,7 @@
    ],
    "cons": [
     "No Home Assistant support, per the listing",
-    "3.9 stars",
+    "4.0 stars",
     "Cloud-based Smart Life app"
    ],
    "specs": {
@@ -175,10 +175,10 @@
    "price": 26.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 41,
+   "reviews_count": 42,
    "score": 75,
    "awards": [
-    "Best Overall"
+    "Best Presence Sensor"
    ],
    "works_with": [
     "Home Assistant"
@@ -198,7 +198,7 @@
    ],
    "cons": [
     "Works only with Home Assistant",
-    "Only 41 reviews",
+    "Only 42 reviews",
     "Needs an existing Home Assistant setup"
    ],
    "specs": {
@@ -226,7 +226,7 @@
    "price": 13.99,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 990,
+   "reviews_count": 996,
    "score": 69,
    "awards": [
     "Best for Home Assistant"
@@ -241,12 +241,12 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "50+ bought in past month",
    "verdict": "A mini Tuya sensor with a rotating bracket and Alexa routines.",
    "pros": [
     "Mini size with rotating bracket",
     "Alexa routines",
-    "990 reviews"
+    "996 reviews"
    ],
    "cons": [
     "3.5 stars",
@@ -278,7 +278,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 3.5,
-   "reviews_count": 990,
+   "reviews_count": 996,
    "score": 69,
    "awards": [
     "Best Budget"
@@ -330,7 +330,7 @@
    "price": 11.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 451,
+   "reviews_count": 452,
    "score": 67,
    "awards": [],
    "works_with": [],
@@ -343,7 +343,7 @@
    "bought_last_month": "400+ bought in past month",
    "verdict": "A cheap motion trigger for Govee lights. It needs another Govee Wi-Fi product as a gateway and doesn't work with voice assistants.",
    "pros": [
-    "$11.99, 4.1 stars from 451 reviews",
+    "$11.99, 4.1 stars from 452 reviews",
     "Controls Govee lights directly",
     "Adjustable trigger interval"
    ],
@@ -377,7 +377,7 @@
    "price": 12.34,
    "currency": "USD",
    "rating": 3.7,
-   "reviews_count": 94,
+   "reviews_count": 95,
    "score": 67,
    "awards": [],
    "works_with": [
@@ -427,7 +427,7 @@
    "price": 19.7,
    "currency": "USD",
    "rating": 3.4,
-   "reviews_count": 130,
+   "reviews_count": 132,
    "score": 66,
    "awards": [],
    "works_with": [
@@ -490,7 +490,9 @@
    "notes": [
     "New Best Budget: Jiestar Wi-Fi motion sensor (4-pack).",
     "New Best for Home Assistant: Jiestar Wi-Fi motion sensor.",
-    "Prices, ratings, and review counts refreshed from Amazon."
+    "Prices, ratings, and review counts refreshed from Amazon.",
+    "New Best Overall: GoveeLife Human Presence Sensor.",
+    "New Best Presence Sensor: Akamatis Litos v3."
    ]
   },
   {
