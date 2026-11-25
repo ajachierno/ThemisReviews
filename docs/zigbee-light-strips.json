@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Light strips",
- "data_captured": "2026-11-12",
- "updated": "2026-11-12",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,22 +37,22 @@
    "label": "Best Overall",
    "asin": "B0GNTQR5S1",
    "name": "Philips Hue Flux 16 ft",
-   "price": 109.99,
-   "why": "Highest score on the page (94): 4.4 stars from 95 reviews, $109.99."
+   "price": 84.97,
+   "why": "Highest score on the page (94): 4.4 stars from 95 reviews, $84.97."
   },
   {
    "label": "Best Budget",
-   "asin": "B0D326FYQ4",
-   "name": "Philips Hue Solo Lightstrip 16 ft",
-   "price": 70.95,
-   "why": "Highest score (83) among the cheapest third of picks (up to $70.95 each): 4.4 stars from 1,231 reviews, $70.95."
+   "asin": "B0GNTM6WK1",
+   "name": "Philips Hue Flux 10 ft",
+   "price": 41.16,
+   "why": "Highest score (88) among the cheapest third of picks (up to $41.16 each): 4.4 stars from 95 reviews, $41.16."
   },
   {
    "label": "Best Premium",
    "asin": "B0FQLNRJCG",
    "name": "Philips Hue OmniGlow 9.8 ft",
-   "price": 139.99,
-   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 173 reviews, $139.99."
+   "price": 127.47,
+   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 173 reviews, $127.47."
   }
  ],
  "systems_note": "Hue strips connect through the Hue Bridge (Zigbee), which shares them with every Matter platform; most also pair over Bluetooth without a bridge. The controllers drive any standard LED strip you supply.",
@@ -63,7 +63,7 @@
    "name": "Philips Hue Flux 16-Foot LED Strip Light, 3000 lm, Color and White Ambiance, Chromasync, RGBWWIC, Cuttable, Extendable",
    "brand": "Philips Hue",
    "model": "Flux 16 ft",
-   "price": 109.99,
+   "price": 84.97,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 95,
@@ -95,7 +95,7 @@
     "Sold by Amazon, 400+ bought in the past month"
    ],
    "cons": [
-    "$109.99",
+    "$84.97",
     "Only 95 reviews",
     "Full features need a Hue Bridge"
    ],
@@ -121,7 +121,7 @@
    "name": "Philips Hue OmniGlow Micro LED Strip Light, 9.8ft, 1-Pack",
    "brand": "Philips Hue",
    "model": "OmniGlow 9.8 ft",
-   "price": 139.99,
+   "price": 127.47,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 173,
@@ -152,7 +152,7 @@
     "4.4 stars, 400+ bought in the past month"
    ],
    "cons": [
-    "$139.99",
+    "$127.47",
     "9.8 ft",
     "Only 173 reviews"
    ],
@@ -178,12 +178,14 @@
    "name": "Hue Flux 10-Feet LED Strip Light, 1-Pack",
    "brand": "Philips Hue",
    "model": "Flux 10 ft",
-   "price": 79.99,
+   "price": 41.16,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 95,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -204,7 +206,7 @@
    "pros": [
     "True white plus multicolor",
     "Cuttable and extendable",
-    "$79.99, 500+ bought in the past month"
+    "$41.16, 500+ bought in the past month"
    ],
    "cons": [
     "Only 95 reviews",
@@ -233,14 +235,12 @@
    "name": "Philips Hue Indoor 16 Ft Smart LED Solo Lightstrip Base Kit, 1 Pack, Works with Alexa, Google Assistant and Apple HomeKit",
    "brand": "Philips Hue",
    "model": "Solo Lightstrip 16 ft",
-   "price": 70.95,
+   "price": 69.95,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1231,
    "score": 83,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -266,7 +266,7 @@
    "cons": [
     "Sold by a reseller, 9 left at capture time",
     "One color at a time",
-    "$70.95"
+    "$69.95"
    ],
    "specs": {
     "type": "Strip",
@@ -345,7 +345,7 @@
    "name": "Philips Hue Outdoor 7-Foot Smart LED Light Strip, White and Color Ambiance, Requires Hue Bridge, Weatherproof",
    "brand": "Philips Hue",
    "model": "Outdoor Lightstrip 7 ft",
-   "price": 78.88,
+   "price": 79.98,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 398,
@@ -400,7 +400,7 @@
    "name": "Philips Hue Essential 16 ft LED Flex Strip Light, 1-Pack",
    "brand": "Philips Hue",
    "model": "Essential Flex 16 ft",
-   "price": 99.99,
+   "price": 84.95,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 44,
@@ -430,7 +430,7 @@
    ],
    "cons": [
     "Only 44 reviews",
-    "$99.99",
+    "$84.95",
     "Hue Bridge for full control"
    ],
    "specs": {
@@ -562,7 +562,7 @@
    "name": "BTF-LIGHTING LM052 Zigbee3.0 LED Controller for Dim/CCT/RGB/RGBW/RGBCCT LED",
    "brand": "BTF-LIGHTING",
    "model": "LM052 5-in-1 controller",
-   "price": 24.99,
+   "price": 21.51,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 47,
@@ -584,7 +584,7 @@
    "bought_last_month": "50+ bought in past month",
    "verdict": "A cheap controller that makes almost any 12-24 V LED strip a Zigbee light.",
    "pros": [
-    "$24.99",
+    "$21.51",
     "Works with 5 strip types",
     "Echo and standard Zigbee hubs",
     "Relays remote signals to other controllers"
@@ -653,6 +653,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: Philips Hue Flux 10 ft.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-12",
    "notes": [

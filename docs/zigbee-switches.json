@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Light switches",
- "data_captured": "2026-11-08",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,15 +36,15 @@
    "label": "Best Overall",
    "asin": "B08X3JJD3Z",
    "name": "MOES Zigbee touch switch (no neutral)",
-   "price": 29.99,
-   "why": "Highest score (79) among picks with at least 4.0 stars and 30 reviews: 4.2 stars from 65 reviews, $29.99."
+   "price": 23.99,
+   "why": "Highest score (79) among picks with at least 4.0 stars and 30 reviews: 4.2 stars from 66 reviews, $23.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B0F6T5JCZL",
-   "name": "Martin Jerry RP-ZB-S01",
-   "price": 24.99,
-   "why": "Highest score (77) among the cheapest third of picks (up to $24.99 each): 3.6 stars from 95 reviews, $24.99."
+   "asin": "B0D4DGJ32V",
+   "name": "MOES Zigbee 3-way, 1 gang",
+   "price": 19.99,
+   "why": "Highest score (74) among the cheapest third of picks (up to $23.99 each): 3.9 stars from 58 reviews, $19.99."
   }
  ],
  "systems_note": "Brand-hub switches (Aqara, MOES, SONOFF) are shown with the systems their listings name.",
@@ -55,7 +55,7 @@
    "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
    "brand": "Aqara",
    "model": "H2 (1 channel)",
-   "price": 49.99,
+   "price": 35.99,
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 67,
@@ -112,10 +112,10 @@
    "name": "MOES Zigbee Smart Touch Wall Light Switch, No Neutral Wire, Tuya Zigbee Hub Required",
    "brand": "MOES",
    "model": "Zigbee touch switch (no neutral)",
-   "price": 29.99,
+   "price": 23.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 65,
+   "reviews_count": 66,
    "score": 79,
    "awards": [
     "Best Overall"
@@ -166,7 +166,7 @@
    "name": "Aqara Smart Light Switch (No Neutral, Single Rocker), Requires AQARA HUB",
    "brand": "Aqara",
    "model": "Smart Light Switch (no neutral, single rocker)",
-   "price": 39.99,
+   "price": 33.99,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 533,
@@ -224,9 +224,7 @@
    "rating": 3.6,
    "reviews_count": 95,
    "score": 77,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -281,7 +279,9 @@
    "rating": 3.9,
    "reviews_count": 58,
    "score": 74,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -431,7 +431,7 @@
    "name": "Aqara Zigbee Smart Light Switch (with Neutral, Double Rocker)",
    "brand": "Aqara",
    "model": "Smart Light Switch (neutral, double rocker)",
-   "price": 39.99,
+   "price": 33.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 156,
@@ -483,7 +483,7 @@
    "name": "Aqara Zigbee Smart Light Switch (with Neutral, Single Rocker)",
    "brand": "Aqara",
    "model": "Smart Light Switch (neutral, single rocker)",
-   "price": 35.99,
+   "price": 30.59,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 264,
@@ -581,6 +581,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: MOES Zigbee 3-way, 1 gang.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#433-mhz-rf"
  },
  "product_type": "Weather stations",
- "data_captured": "2026-11-08",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,22 +37,22 @@
    "label": "Best Overall",
    "asin": "B0BBH688XG",
    "name": "Ambient Weather WS-1965",
-   "price": 149.99,
-   "why": "Highest score on the page (88): 4.2 stars from 573 reviews, $149.99."
+   "price": 119.99,
+   "why": "Highest score on the page (88): 4.2 stars from 573 reviews, $119.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0CWL7ST6S",
    "name": "DreamSky Atomic clock weather station",
-   "price": 33.99,
-   "why": "Highest score (80) among the cheapest third of picks (up to $35.99 each): 4.4 stars from 3,049 reviews, $33.99."
+   "price": 28.48,
+   "why": "Highest score (80) among the cheapest third of picks (up to $35.99 each): 4.4 stars from 3,064 reviews, $28.48."
   },
   {
    "label": "Best Smart Home Station",
    "asin": "B0H7RPJ912",
    "name": "Sainlogic Wi-Fi weather station (newer)",
-   "price": 129.98,
-   "why": "Highest score of the picks that fit this award (83): 4.7 stars from 44 reviews, $129.98."
+   "price": 123.48,
+   "why": "Highest score of the picks that fit this award (83): 4.7 stars from 44 reviews, $123.48."
   }
  ],
  "systems_note": "Most stations here are standalone. Wi-Fi models upload to their own apps; Ambient Weather also has an official Home Assistant integration.",
@@ -63,7 +63,7 @@
    "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
    "brand": "Ambient Weather",
    "model": "WS-1965",
-   "price": 149.99,
+   "price": 119.99,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 573,
@@ -91,7 +91,7 @@
     "Official Home Assistant integration"
    ],
    "cons": [
-    "$149.99",
+    "$119.99",
     "4.2 stars",
     "Some features depend on Ambient Weather Network"
    ],
@@ -118,10 +118,10 @@
    "name": "AcuRite Iris (01512MCB) Indoor/Outdoor Wireless Weather Station, Color Screen",
    "brand": "AcuRite",
    "model": "Iris 5-in-1 (01512MCB)",
-   "price": 153.49,
+   "price": 109.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 7142,
+   "reviews_count": 7143,
    "score": 83,
    "awards": [],
    "works_with": [],
@@ -136,11 +136,11 @@
    "pros": [
     "Wind speed, direction, and rainfall",
     "Color display with dimmer",
-    "7,142 reviews, sold by Amazon"
+    "7,143 reviews, sold by Amazon"
    ],
    "cons": [
     "No Wi-Fi",
-    "$153.49",
+    "$109.99",
     "Frequency isn't stated"
    ],
    "specs": {
@@ -166,7 +166,7 @@
    "name": "Sainlogic 5G/2.4G WiFi Weather Station, Indoor Outdoor Wireless Monitor",
    "brand": "Sainlogic",
    "model": "Wi-Fi weather station (newer)",
-   "price": 129.98,
+   "price": 123.48,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 44,
@@ -216,10 +216,10 @@
    "name": "DreamSky Weather Station Indoor Outdoor Thermometer Wireless, Atomic Clock",
    "brand": "DreamSky",
    "model": "Atomic clock weather station",
-   "price": 33.99,
+   "price": 28.48,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 3049,
+   "reviews_count": 3064,
    "score": 80,
    "awards": [
     "Best Budget"
@@ -232,9 +232,9 @@
     "subscription": true
    },
    "bought_last_month": "2K+ bought in past month",
-   "verdict": "A $33.99 color station with WWVB atomic time, alerts, and up to 3 sensors.",
+   "verdict": "A $28.48 color station with WWVB atomic time, alerts, and up to 3 sensors.",
    "pros": [
-    "$33.99",
+    "$28.48",
     "High/low temperature alerts",
     "WWVB atomic clock with auto DST",
     "4.4 stars"
@@ -267,7 +267,7 @@
    "name": "Newentor Weather Station Wireless Indoor Outdoor Thermometer, Black,1Sensor",
    "brand": "Newentor",
    "model": "Color weather station",
-   "price": 33.99,
+   "price": 30.68,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 21707,
@@ -411,7 +411,7 @@
    "name": "La Crosse Technology V11-TH Color Wireless WiFi Weather Station…",
    "brand": "La Crosse",
    "model": "V11-TH Wi-Fi station",
-   "price": 88.99,
+   "price": 86.27,
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 81,
@@ -434,7 +434,7 @@
    "cons": [
     "3.9 stars from 81 reviews",
     "No wind or rain",
-    "$88.99"
+    "$86.27"
    ],
    "specs": {
     "measures": "Temp, humidity",
@@ -459,7 +459,7 @@
    "name": "AcuRite Wireless Home Weather Station with Color Display, Indoor Outdoor Thermometer and Temperature Sensor (02077M)",
    "brand": "AcuRite",
    "model": "02077M color station",
-   "price": 58.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 6120,
@@ -475,7 +475,7 @@
    "bought_last_month": "800+ bought in past month",
    "verdict": "A cheap color station with a 12-hour forecast and moon phase.",
    "pros": [
-    "$58.99",
+    "$39.99",
     "6,120 reviews, sold by Amazon",
     "433 MHz stated"
    ],
@@ -518,6 +518,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

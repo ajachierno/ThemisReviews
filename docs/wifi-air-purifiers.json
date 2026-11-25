@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Air purifiers",
- "data_captured": "2026-11-11",
- "updated": "2026-11-11",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,15 +36,15 @@
    "label": "Best Overall",
    "asin": "B0DG5QLWP6",
    "name": "SwitchBot Air Purifier",
-   "price": 89.99,
-   "why": "Highest score on the page (96): 4.5 stars from 731 reviews, $89.99."
+   "price": 76.49,
+   "why": "Highest score on the page (96): 4.5 stars from 732 reviews, $76.49."
   },
   {
    "label": "Best Budget",
-   "asin": "B08FJ678YK",
-   "name": "Levoit Core 200S-P",
-   "price": 69.97,
-   "why": "Highest score (80) among the cheapest third of picks (up to $69.97 each): 4.7 stars from 35,821 reviews, $69.97."
+   "asin": "B0CYHBHRHW",
+   "name": "GoveeLife Smart Air Purifier (1046 sq. ft.)",
+   "price": 59.99,
+   "why": "Highest score (89) among the cheapest third of picks (up to $59.99 each): 4.7 stars from 1,206 reviews, $59.99."
   }
  ],
  "systems_note": "Levoit (VeSync) purifiers have an official Home Assistant integration. Blueair's listings don't name a voice assistant in the bullets.",
@@ -55,10 +55,10 @@
    "name": "SwitchBot Air Purifier with Matter, Up to 3,620 sq ft, Washable Pre-Filter, Pet Mode, Alexa, HomeKit, Google Home",
    "brand": "SwitchBot",
    "model": "Air Purifier",
-   "price": 89.99,
+   "price": 76.49,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 731,
+   "reviews_count": 732,
    "score": 96,
    "awards": [
     "Best Overall"
@@ -83,11 +83,11 @@
    "pros": [
     "Matter",
     "20 dB",
-    "$89.99"
+    "$76.49"
    ],
    "cons": [
     "4.5 stars",
-    "Only 731 reviews",
+    "Only 732 reviews",
     "2.4 GHz Wi-Fi"
    ],
    "specs": {
@@ -110,12 +110,14 @@
    "name": "GoveeLife Smart Air Purifier for Home Large Rooms, Covers up to 1046 ft²",
    "brand": "GoveeLife",
    "model": "Smart Air Purifier (1046 sq. ft.)",
-   "price": 72.99,
+   "price": 59.99,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1206,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa"
    ],
@@ -130,7 +132,7 @@
    "pros": [
     "4.7 stars",
     "Real-time air quality in the app",
-    "$72.99"
+    "$59.99"
    ],
    "cons": [
     "Alexa only",
@@ -157,7 +159,7 @@
    "name": "GoveeLife Air Purifier for Home Large Room, Up to 1162ft², 360° Air Intake",
    "brand": "GoveeLife",
    "model": "Air Purifier (1162 sq. ft.)",
-   "price": 89.99,
+   "price": 79.99,
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 637,
@@ -181,7 +183,7 @@
     "700+ bought in the past month"
    ],
    "cons": [
-    "$89.99",
+    "$79.99",
     "Only 637 reviews",
     "No Apple Home"
    ],
@@ -205,7 +207,7 @@
    "name": "LEVOIT Air Purifier for Home Pets Bedroom Washable Pre-Filter",
    "brand": "Levoit",
    "model": "Vital 100S-P",
-   "price": 113.99,
+   "price": 108.29,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 11649,
@@ -230,7 +232,7 @@
     "Pet, auto, and sleep modes"
    ],
    "cons": [
-    "$113.99",
+    "$108.29",
     "No Apple Home",
     "Use genuine Levoit filters"
    ],
@@ -254,14 +256,12 @@
    "name": "Levoit Air Purifier for Home Pets Bedroom Dorm Room, Smart & Voice Control",
    "brand": "Levoit",
    "model": "Core 200S-P",
-   "price": 69.97,
+   "price": 66.46,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 35821,
+   "reviews_count": 59184,
    "score": 80,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -276,9 +276,9 @@
    "bought_last_month": "10K+ bought in past month",
    "verdict": "A small, quiet bedroom purifier with app and voice control.",
    "pros": [
-    "35,821 reviews, 4.7 stars",
+    "59,184 reviews, 4.7 stars",
     "27 dB",
-    "$69.97"
+    "$66.46"
    ],
    "cons": [
     "Small rooms",
@@ -305,7 +305,7 @@
    "name": "GoveeLife Smart Mini Air Purifier for Bedroom, with App & Alexa Control",
    "brand": "GoveeLife",
    "model": "Smart Mini Air Purifier",
-   "price": 39.99,
+   "price": 28.99,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3975,
@@ -323,7 +323,7 @@
    "bought_last_month": "2K+ bought in past month",
    "verdict": "A $35 bedroom purifier with app control, Alexa, and filter reminders.",
    "pros": [
-    "$39.99",
+    "$28.99",
     "4.7 stars from 3,975 reviews",
     "Energy Star"
    ],
@@ -498,6 +498,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: GoveeLife Smart Air Purifier (1046 sq. ft.).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-11",
    "notes": [

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Weather stations",
- "data_captured": "2026-11-08",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,15 +37,15 @@
    "label": "Best Overall",
    "asin": "B01N5TEHLI",
    "name": "Ambient Weather WS-2902",
-   "price": 199.99,
-   "why": "Highest score on the page (95): 4.4 stars from 13,173 reviews, $199.99."
+   "price": 159.99,
+   "why": "Highest score on the page (95): 4.4 stars from 13,177 reviews, $159.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B07D9D6CXW",
-   "name": "AcuRite Iris 5-in-1 with Wi-Fi",
-   "price": 122.99,
-   "why": "Highest score (86) among the cheapest third of picks (up to $129.98 each): 4.0 stars from 2,990 reviews, $122.99."
+   "asin": "B0BBH688XG",
+   "name": "Ambient Weather WS-1965",
+   "price": 119.99,
+   "why": "Highest score (88) among the cheapest third of picks (up to $119.99 each): 4.2 stars from 573 reviews, $119.99."
   }
  ],
  "systems_note": "Ambient Weather and Tempest stations have official Home Assistant integrations.",
@@ -56,10 +56,10 @@
    "name": "Ambient Weather WS-2902 Wi-Fi Smart Weather Station",
    "brand": "Ambient Weather",
    "model": "WS-2902",
-   "price": 199.99,
+   "price": 159.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 13173,
+   "reviews_count": 13177,
    "score": 95,
    "awards": [
     "Best Overall"
@@ -77,12 +77,12 @@
    "bought_last_month": "1K+ bought in past month",
    "verdict": "The best-known home weather station, and a Home Assistant favorite.",
    "pros": [
-    "13,173 reviews",
+    "13,177 reviews",
     "Full wind and rain sensors",
     "Home Assistant integration"
    ],
    "cons": [
-    "$199.99",
+    "$159.99",
     "4.4 stars",
     "Mounting pole sold separately"
    ],
@@ -108,7 +108,7 @@
    "name": "Ambient Weather WS-2000 Smart Weather Station",
    "brand": "Ambient Weather",
    "model": "WS-2000",
-   "price": 299.99,
+   "price": 239.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2996,
@@ -131,7 +131,7 @@
     "Home Assistant integration"
    ],
    "cons": [
-    "$299.99",
+    "$239.99",
     "Alexa isn't named in the bullets",
     "4.4 stars"
    ],
@@ -157,12 +157,14 @@
    "name": "Ambient Weather WS-1965 Wi-Fi Weather Station",
    "brand": "Ambient Weather",
    "model": "WS-1965",
-   "price": 149.99,
+   "price": 119.99,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 573,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant"
@@ -176,7 +178,7 @@
    "bought_last_month": "100+ bought in past month",
    "verdict": "A cheaper Ambient station with wind and rain.",
    "pros": [
-    "$149.99",
+    "$119.99",
     "Alexa",
     "Home Assistant integration"
    ],
@@ -207,7 +209,7 @@
    "name": "Tempest Weather Station with Built-in Wind Meter, Rain Gauge, and Accurate Weather Forecasts, Wireless, App and Alexa Enabled",
    "brand": "Tempest",
    "model": "Weather System",
-   "price": 349.0,
+   "price": 279.2,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 2231,
@@ -231,7 +233,7 @@
     "Home Assistant integration"
    ],
    "cons": [
-    "$349",
+    "$279.20",
     "No display console",
     "4.2 stars"
    ],
@@ -257,14 +259,12 @@
    "name": "AcuRite Iris (5-in-1) Home Weather Station with Wi-Fi to Weather Underground (01540M)",
    "brand": "AcuRite",
    "model": "Iris 5-in-1 with Wi-Fi",
-   "price": 122.99,
+   "price": 109.99,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2990,
    "score": 86,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "My AcuRite",
    "works_without": {
@@ -282,7 +282,7 @@
    "cons": [
     "4.0 stars",
     "No solar sensor",
-    "$122.99"
+    "$109.99"
    ],
    "specs": {
     "sensors": "Wind, rain, temperature, humidity",
@@ -306,10 +306,10 @@
    "name": "VEVOR 7-in-1 Wi-Fi Weather Station, 7.5-Inch Display, Solar Outdoor Sensor, Rain Gauge",
    "brand": "VEVOR",
    "model": "7-in-1 Wi-Fi Weather Station",
-   "price": 95.99,
+   "price": 73.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 370,
+   "reviews_count": 372,
    "score": 84,
    "awards": [],
    "works_with": [],
@@ -322,13 +322,13 @@
    "bought_last_month": "100+ bought in past month",
    "verdict": "The cheapest full station with wind, rain, and a solar sensor.",
    "pros": [
-    "$95.99",
+    "$73.99",
     "Solar outdoor sensor",
     "Big display"
    ],
    "cons": [
     "4.1 stars",
-    "Only 370 reviews",
+    "Only 372 reviews",
     "Fewer integrations"
    ],
    "specs": {
@@ -353,7 +353,7 @@
    "name": "Sainlogic 5GHz/2.4GHz Dual-Band WiFi Weather Station, 12-in-1",
    "brand": "Sainlogic",
    "model": "12-in-1 Dual-Band Wi-Fi Weather Station",
-   "price": 129.98,
+   "price": 123.48,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1008,
@@ -375,7 +375,7 @@
     "Phone alerts for temperature, humidity, and pressure"
    ],
    "cons": [
-    "$129.98",
+    "$123.48",
     "Sold by a third-party seller",
     "No smart home platforms named in the bullets"
    ],
@@ -401,7 +401,7 @@
    "name": "Sainlogic 5GHz/2.4GHz WiFi Weather Station with 24H/7D AI Weather Forecast",
    "brand": "Sainlogic",
    "model": "5G/2.4G Wi-Fi Weather Station (AI forecast)",
-   "price": 179.99,
+   "price": 159.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 510,
@@ -422,7 +422,7 @@
     "AI forecasts"
    ],
    "cons": [
-    "$179.99",
+    "$159.99",
     "Only 510 reviews",
     "Forecast service details aren't in the bullets"
    ],
@@ -506,6 +506,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: Ambient Weather WS-1965.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

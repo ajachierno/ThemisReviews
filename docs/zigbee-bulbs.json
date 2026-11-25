@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Smart bulbs",
- "data_captured": "2026-11-10",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,22 +36,22 @@
    "label": "Best Overall",
    "asin": "B0DN63SFWL",
    "name": "Aqara LED Bulb T2",
-   "price": 23.99,
-   "why": "Highest score on the page (92): 4.1 stars from 238 reviews, $23.99."
+   "price": 17.99,
+   "why": "Highest score on the page (92): 4.1 stars from 239 reviews, $17.99."
   },
   {
    "label": "Best Budget White",
    "asin": "B0DHFSDV46",
    "name": "THIRDREALITY Smart Color Bulb ZL1 (4-pack)",
-   "price": 29.99,
-   "why": "Highest score (86) among the cheapest third of picks (up to $7.50 each): 4.3 stars from 654 reviews, $29.99."
+   "price": 25.49,
+   "why": "Highest score (86) among the cheapest third of picks (up to $6.37 each): 4.3 stars from 657 reviews, $25.49."
   },
   {
    "label": "Best for Hue Homes",
    "asin": "B0FMGP1P6W",
    "name": "Philips Hue Essential A19 (4-pack)",
-   "price": 69.99,
-   "why": "Highest score (79) among Philips Hue picks: 4.5 stars from 1,132 reviews, $69.99."
+   "price": 39.88,
+   "why": "Highest score (79) among Philips Hue picks: 4.5 stars from 1,132 reviews, $39.88."
   },
   {
    "label": "Best Bright Bulb",
@@ -69,10 +69,10 @@
    "name": "Aqara Thread/Zigbee Smart LED Light Bulb T2 E26, 1 Pack",
    "brand": "Aqara",
    "model": "LED Bulb T2",
-   "price": 23.99,
+   "price": 17.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 238,
+   "reviews_count": 239,
    "score": 92,
    "awards": [
     "Best Overall"
@@ -103,7 +103,7 @@
    "cons": [
     "4.1 stars",
     "Zigbee mode features need an Aqara hub",
-    "$23.99 for one"
+    "$17.99 for one"
    ],
    "specs": {
     "light": "Color + wide-range white",
@@ -123,68 +123,14 @@
   },
   {
    "rank": 2,
-   "asin": "B0DHCJ67XX",
-   "name": "THIRDREALITY Smart Color Bulb ZL1, Zigbee, A19 RGBCW, 800 Lumens, Zigbee Hub Required",
-   "brand": "THIRDREALITY",
-   "model": "Smart Color Bulb ZL1",
-   "price": 11.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 654,
-   "score": 86,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Cheap color that works with nearly any Zigbee hub and strengthens your mesh.",
-   "pros": [
-    "$11.99 for full color",
-    "Pairs with Echo (4th gen) and other Zigbee 3.0 hubs",
-    "Acts as a Zigbee repeater",
-    "4.3 stars"
-   ],
-   "cons": [
-    "Brightness isn't listed",
-    "Needs a Zigbee hub",
-    "Sold by the brand"
-   ],
-   "specs": {
-    "light": "Color + white",
-    "lumens": "Not listed",
-    "shape": "A19",
-    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
-    "pack": "1 bulb"
-   },
-   "features": {
-    "color": true,
-    "bright": false,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61RYtqaKfeL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DHCJ67XX?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0DHCJ67XX"
-  },
-  {
-   "rank": 3,
    "asin": "B0DHFSDV46",
    "name": "THIRDREALITY Zigbee Smart Color Bulb ZL1 4-Pack, A19 RGBCW, 2700K-6500K, 800 Lumens",
    "brand": "THIRDREALITY",
    "model": "Smart Color Bulb ZL1 (4-pack)",
-   "price": 29.99,
+   "price": 25.49,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 654,
+   "reviews_count": 657,
    "score": 86,
    "awards": [
     "Best Budget White"
@@ -229,6 +175,60 @@
    "image": "https://m.media-amazon.com/images/I/61X+ACNuJGL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DHFSDV46?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0DHFSDV46"
+  },
+  {
+   "rank": 3,
+   "asin": "B0DHCJ67XX",
+   "name": "THIRDREALITY Smart Color Bulb ZL1, Zigbee, A19 RGBCW, 800 Lumens, Zigbee Hub Required",
+   "brand": "THIRDREALITY",
+   "model": "Smart Color Bulb ZL1",
+   "price": 10.19,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 654,
+   "score": 86,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Cheap color that works with nearly any Zigbee hub and strengthens your mesh.",
+   "pros": [
+    "$10.19 for full color",
+    "Pairs with Echo (4th gen) and other Zigbee 3.0 hubs",
+    "Acts as a Zigbee repeater",
+    "4.3 stars"
+   ],
+   "cons": [
+    "Brightness isn't listed",
+    "Needs a Zigbee hub",
+    "Sold by the brand"
+   ],
+   "specs": {
+    "light": "Color + white",
+    "lumens": "Not listed",
+    "shape": "A19",
+    "hub": "Echo with Zigbee, or any Zigbee 3.0 hub",
+    "pack": "1 bulb"
+   },
+   "features": {
+    "color": true,
+    "bright": false,
+    "open_hub": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61RYtqaKfeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DHCJ67XX?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-bulbs.html#B0DHCJ67XX"
   },
   {
    "rank": 4,
@@ -291,7 +291,7 @@
    "name": "Philips Hue Essential Smart LED A19 Bulb, 4-Pack",
    "brand": "Philips Hue",
    "model": "Essential A19 (4-pack)",
-   "price": 69.99,
+   "price": 39.88,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1132,
@@ -346,7 +346,7 @@
    "name": "Sengled Zigbee Smart Light Bulbs, Daylight 60W Equivalent A19, Smart Hub Required, 4 Pack",
    "brand": "Sengled",
    "model": "Zigbee bulb (daylight)",
-   "price": 9.99,
+   "price": 14.8,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 3865,
@@ -519,6 +519,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

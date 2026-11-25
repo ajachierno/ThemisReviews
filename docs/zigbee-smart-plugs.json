@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Smart plugs",
- "data_captured": "2026-11-08",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,15 +35,15 @@
    "label": "Best Overall",
    "asin": "B0BPY2KRHH",
    "name": "THIRDREALITY Zigbee smart plug (power monitoring)",
-   "price": 12.99,
-   "why": "Highest score on the page (95): 4.4 stars from 276 reviews, $12.99."
+   "price": 11.04,
+   "why": "Highest score on the page (95): 4.4 stars from 276 reviews, $11.04."
   },
   {
    "label": "Best Budget",
-   "asin": "B0DXQF3NQ7",
-   "name": "NOUS Zigbee smart plug (energy)",
-   "price": 11.99,
-   "why": "Highest score (88) among the cheapest third of picks (up to $12.99 each): 4.5 stars from 43 reviews, $11.99."
+   "asin": "B0G4VZB6NC",
+   "name": "THIRDREALITY Smart Plug Gen3",
+   "price": 12.74,
+   "why": "Highest score (92) among the cheapest third of picks (up to $12.74 each): 4.3 stars from 71 reviews, $12.74."
   },
   {
    "label": "Best for Hue Homes",
@@ -61,7 +61,7 @@
    "name": "THIRDREALITY Zigbee Smart Plug with Real-Time Power Monitoring, 15A, Zigbee Repeater",
    "brand": "THIRDREALITY",
    "model": "Zigbee smart plug (power monitoring)",
-   "price": 12.99,
+   "price": 11.04,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 276,
@@ -115,7 +115,7 @@
    "name": "THIRDREALITY Smart Dual Plug, Zigbee 2-in-1 Outlet with Independent Control and Power Monitoring",
    "brand": "THIRDREALITY",
    "model": "Smart Dual Plug",
-   "price": 21.84,
+   "price": 16.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 91,
@@ -166,12 +166,14 @@
    "name": "THIRDREALITY Smart Plug Gen3, Zigbee, Real-Time Power Monitoring, 15A, Repeater",
    "brand": "THIRDREALITY",
    "model": "Smart Plug Gen3",
-   "price": 14.99,
+   "price": 12.74,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 71,
    "score": 92,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -217,14 +219,12 @@
    "name": "NOUS Zigbee Smart Plug with Energy Monitoring, Zigbee Hub Required, ETL Certified",
    "brand": "NOUS",
    "model": "Zigbee smart plug (energy)",
-   "price": 11.99,
+   "price": 8.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 43,
    "score": 88,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -242,7 +242,7 @@
    "bought_last_month": null,
    "verdict": "A cheap ETL-certified plug with energy monitoring that works with Home Assistant and SmartThings.",
    "pros": [
-    "$11.99 with energy monitoring",
+    "$8.99 with energy monitoring",
     "ETL certified",
     "Works with Home Assistant and SmartThings"
    ],
@@ -271,7 +271,7 @@
    "name": "Aqara Zigbee Smart Plug with Energy Monitoring, Overload Protection",
    "brand": "Aqara",
    "model": "Zigbee smart plug",
-   "price": 29.99,
+   "price": 24.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 709,
@@ -369,7 +369,7 @@
    "name": "DOGAIN Zigbee Smart Plug, Works with SmartThings and Echo Plus, Hub Required (2 Pack)",
    "brand": "DOGAIN",
    "model": "Zigbee smart plug",
-   "price": 23.99,
+   "price": 20.39,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 340,
@@ -615,6 +615,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: THIRDREALITY Smart Plug Gen3.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Dimmers",
- "data_captured": "2026-11-09",
- "updated": "2026-11-09",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B0921T7L2V",
    "name": "Zooz ZEN77 800LR",
    "price": 46.95,
-   "why": "Highest score on the page (94): 4.4 stars from 166 reviews, $46.95."
+   "why": "Highest score on the page (93): 4.3 stars from 167 reviews, $46.95."
   },
   {
    "label": "Best Budget",
-   "asin": "B0FX36Z8VN",
-   "name": "UltraPro 800 Series LR dimmer, paddle",
-   "price": 29.99,
-   "why": "Highest score (80) among the cheapest third of picks (up to $36.99 each): 3.9 stars from 45 reviews, $29.99."
+   "asin": "B0D2DQXBC2",
+   "name": "Leviton ZW6HD-1RW",
+   "price": 37.22,
+   "why": "Highest score (69) among the cheapest third of picks (up to $37.22 each): 4.2 stars from 109 reviews, $37.22."
   }
  ],
  "systems_note": null,
@@ -58,9 +58,9 @@
    "model": "ZEN77 800LR",
    "price": 46.95,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 166,
-   "score": 94,
+   "rating": 4.3,
+   "reviews_count": 167,
+   "score": 93,
    "awards": [
     "Best Overall"
    ],
@@ -167,14 +167,12 @@
    "name": "UltraPro Z-Wave Long Range Dimmer Switch, 800 Series, Paddle, 1 Pack",
    "brand": "UltraPro",
    "model": "800 Series LR dimmer, paddle",
-   "price": 29.99,
+   "price": 38.35,
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 45,
    "score": 80,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -223,7 +221,7 @@
    "name": "Enbrighten Z-Wave Long Range Dimmer Switch, 800 Series, Toggle",
    "brand": "Enbrighten",
    "model": "800 Series LR dimmer, toggle",
-   "price": 39.99,
+   "price": 37.99,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 27,
@@ -330,12 +328,14 @@
    "name": "Leviton Decora Smart Dimmer, Z-Wave 800 Series, ZW6HD-1RW, White",
    "brand": "Leviton",
    "model": "ZW6HD-1RW",
-   "price": 46.52,
+   "price": 37.22,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 109,
    "score": 69,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -654,6 +654,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: Leviton ZW6HD-1RW.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-09",
    "notes": [

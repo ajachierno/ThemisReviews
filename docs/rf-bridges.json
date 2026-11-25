@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#433-mhz-rf"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-11-09",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0BMKB3L47",
    "name": "RTL-SDR Blog V3 + dipole antenna kit",
    "price": 47.95,
-   "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,500 reviews, $47.95."
+   "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,501 reviews, $47.95."
   },
   {
    "label": "Best Budget SDR",
-   "asin": "B0BMKZCKTF",
-   "name": "RTL-SDR Blog V3 (dongle only)",
-   "price": 37.95,
-   "why": "Highest score (78) among the cheapest third of picks (up to $44.95 each): 4.6 stars from 3,140 reviews, $37.95."
+   "asin": "B0872P4HX7",
+   "name": "BroadLink RM4 Pro",
+   "price": 39.99,
+   "why": "Highest score (80) among the cheapest third of picks (up to $39.99 each): 4.0 stars from 3,378 reviews, $39.99."
   },
   {
    "label": "Best RF Bridge",
-   "asin": "B0872P4HX7",
-   "name": "BroadLink RM4 Pro",
-   "price": 49.99,
-   "why": "Highest score of the picks that fit this award (80): 4.0 stars from 3,378 reviews, $49.99."
+   "asin": "B0F29LWRS9",
+   "name": "Toyanc Tuya IR/RF hub",
+   "price": 39.99,
+   "why": "Highest score of the picks that fit this award (64): 3.7 stars from 19 reviews, $39.99."
   },
   {
    "label": "Best Premium SDR",
-   "asin": "B01B4L48QU",
-   "name": "Nooelec NESDR Nano 2+",
-   "price": 47.95,
-   "why": "Highest score (80) among the priciest third of picks: 4.3 stars from 352 reviews, $47.95."
+   "asin": "B01GDN1T4S",
+   "name": "Nooelec NESDR SMArt v5 bundle",
+   "price": 59.95,
+   "why": "Highest score (79) among the priciest third of picks: 4.2 stars from 4,004 reviews, $59.95."
   }
  ],
  "systems_note": "SDR receivers feed Home Assistant through rtl_433, a community add-on rather than an official integration. Broadlink and Tuya hubs have official Home Assistant integrations.",
@@ -73,7 +73,7 @@
    "price": 47.95,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6500,
+   "reviews_count": 6501,
    "score": 81,
    "awards": [
     "Best SDR Receiver"
@@ -90,7 +90,7 @@
    "pros": [
     "1 PPM TCXO for stable tuning",
     "Dipole antenna kit included",
-    "6,500 reviews"
+    "6,501 reviews"
    ],
    "cons": [
     "Receive only",
@@ -119,13 +119,13 @@
    "name": "Broadlink Rm4 Pro Universal Remote with Sensor Cable,RF/IR Smart Remote",
    "brand": "BroadLink",
    "model": "RM4 Pro",
-   "price": 49.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 3378,
    "score": 80,
    "awards": [
-    "Best RF Bridge"
+    "Best Budget SDR"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -138,7 +138,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "The most popular RF bridge: it learns fixed-code 433 MHz remotes and IR, and Home Assistant supports it.",
    "pros": [
     "433 MHz RF and IR in one hub",
@@ -178,9 +178,7 @@
    "rating": 4.3,
    "reviews_count": 352,
    "score": 80,
-   "awards": [
-    "Best Premium SDR"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
    "works_without": {
@@ -222,12 +220,14 @@
    "name": "Nooelec NESDR Smart v5 RTL-SDR Bundle, 100 kHz-1.75 GHz Software Defined Radio with 3 Antennas",
    "brand": "Nooelec",
    "model": "NESDR SMArt v5 bundle",
-   "price": 54.95,
+   "price": 59.95,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 4004,
    "score": 79,
-   "awards": [],
+   "awards": [
+    "Best Premium SDR"
+   ],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
    "works_without": {
@@ -243,7 +243,7 @@
     "4,004 reviews, 1K+ bought in the past month"
    ],
    "cons": [
-    "$54.95",
+    "$59.95",
     "4.2 stars",
     "Receive only"
    ],
@@ -272,11 +272,9 @@
    "price": 37.95,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 3140,
+   "reviews_count": 3142,
    "score": 78,
-   "awards": [
-    "Best Budget SDR"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "rtl_433 (DIY)",
    "works_without": {
@@ -318,7 +316,7 @@
    "name": "Nooelec NESDR Smart v5 RTL-SDR Software Defined Radio, 100 kHz-1.75 GHz, 0.5 PPM TCXO, Aluminum Enclosure",
    "brand": "Nooelec",
    "model": "NESDR SMArt v5",
-   "price": 44.95,
+   "price": 49.95,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2884,
@@ -341,7 +339,7 @@
    "cons": [
     "No antenna in this version",
     "Receive only",
-    "$44.95"
+    "$49.95"
    ],
    "specs": {
     "type": "SDR receiver",
@@ -365,7 +363,7 @@
    "name": "Nooelec NESDR SMArTee v2 RTL-SDR with Bias Tee, 0.5 PPM TCXO, SMA Input, Aluminum Enclosure",
    "brand": "Nooelec",
    "model": "NESDR SMArTee v2",
-   "price": 44.95,
+   "price": 49.95,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 397,
@@ -464,7 +462,9 @@
    "rating": 3.7,
    "reviews_count": 19,
    "score": 64,
-   "awards": [],
+   "awards": [
+    "Best RF Bridge"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -511,7 +511,7 @@
    "name": "Wi-Fi Smart IR/RF Blaster Remote Control Hub for Curtains and Garage Doors, Tuya/Smart Life App",
    "brand": "Tuya",
    "model": "Wi-Fi IR/RF blaster",
-   "price": 32.0,
+   "price": 29.0,
    "currency": "USD",
    "rating": 3.1,
    "reviews_count": 26,
@@ -548,6 +548,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget SDR: BroadLink RM4 Pro.",
+    "New Best RF Bridge: Toyanc Tuya IR/RF hub.",
+    "New Best Premium SDR: Nooelec NESDR SMArt v5 bundle.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

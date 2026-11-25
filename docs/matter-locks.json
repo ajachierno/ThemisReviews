@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Smart locks",
- "data_captured": "2026-11-09",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -36,15 +36,15 @@
    "label": "Best Overall",
    "asin": "B0FQC6VCDW",
    "name": "ULTRALOQ Bolt SE",
-   "price": 84.99,
-   "why": "Highest score on the page (85): 4.3 stars from 10,380 reviews, $84.99."
+   "price": 75.99,
+   "why": "Highest score on the page (85): 4.3 stars from 10,383 reviews, $75.99."
   },
   {
    "label": "Best Budget Home Key",
    "asin": "B0CZNZGGS7",
    "name": "Aqara Smart Lock U50",
-   "price": 119.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $129.99 each): 4.0 stars from 684 reviews, $119.99."
+   "price": 99.99,
+   "why": "Highest score (75) among the cheapest third of picks (up to $129.99 each): 4.0 stars from 686 reviews, $99.99."
   },
   {
    "label": "Most Advanced",
@@ -62,10 +62,10 @@
    "name": "ULTRALOQ Bolt SE Wifi Smart Deadbolt Lock, Supports Matter, Remote Control",
    "brand": "ULTRALOQ",
    "model": "Bolt SE",
-   "price": 84.99,
+   "price": 75.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 10380,
+   "reviews_count": 10383,
    "score": 85,
    "awards": [
     "Best Overall"
@@ -88,7 +88,7 @@
    "bought_last_month": "1K+ bought in past month",
    "verdict": "The Matter lock most people should buy: fingerprint, Wi-Fi for the app, and Matter over Thread, for under $90.",
    "pros": [
-    "$84.99 with 10,380 reviews",
+    "$75.99 with 10,383 reviews",
     "Fingerprint reader, up to 50 prints",
     "Built-in Wi-Fi plus Matter over Thread",
     "1K+ bought in the past month"
@@ -119,7 +119,7 @@
    "name": "Aqara UWB Smart Lock U400, Keyless Entry Door Lock, Front Deadbolt, Black",
    "brand": "Aqara",
    "model": "Smart Lock U400 (UWB)",
-   "price": 269.99,
+   "price": 199.99,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 467,
@@ -149,7 +149,7 @@
     "1K+ bought in the past month"
    ],
    "cons": [
-    "$269.99",
+    "$199.99",
     "Home Key needs an Apple Thread-enabled Matter controller",
     "4.1 stars"
    ],
@@ -178,7 +178,7 @@
    "currency": "USD",
    "rating": 3.4,
    "reviews_count": 107,
-   "score": 78,
+   "score": 77,
    "awards": [
     "Most Advanced"
    ],
@@ -230,10 +230,10 @@
    "name": "Aqara Smart Lock U50, Apple Home Key, Keyless Entry Deadbolt, Black",
    "brand": "Aqara",
    "model": "Smart Lock U50",
-   "price": 119.99,
+   "price": 99.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 684,
+   "reviews_count": 686,
    "score": 75,
    "awards": [
     "Best Budget Home Key"
@@ -259,7 +259,7 @@
     "Apple Home Key",
     "Matter through a compatible Aqara hub",
     "Works with Zigbee2MQTT",
-    "$119.99"
+    "$99.99"
    ],
    "cons": [
     "No fingerprint reader",
@@ -287,7 +287,7 @@
    "name": "TCL Smart Lock, Palm Vein Keyless Entry Deadbolt with Matter Over Thread",
    "brand": "TCL",
    "model": "Palm vein deadbolt",
-   "price": 179.99,
+   "price": 139.99,
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 10,
@@ -317,7 +317,7 @@
    ],
    "cons": [
     "Only 10 reviews",
-    "$179.99",
+    "$139.99",
     "Sold by the brand"
    ],
    "specs": {
@@ -450,7 +450,7 @@
    "name": "Yale Smart Lock Deadbolt with Google Matter, Keyless Entry, Matte Black",
    "brand": "Yale",
    "model": "Smart Lock with Matter (Google)",
-   "price": 159.98,
+   "price": 159.0,
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 300,
@@ -482,7 +482,7 @@
    "cons": [
     "3.5 stars",
     "Google Home features are US and Canada only, per the listing",
-    "$159.98"
+    "$159.00"
    ],
    "specs": {
     "radio": "Thread",
@@ -509,7 +509,7 @@
    "currency": "USD",
    "rating": 3.5,
    "reviews_count": 84,
-   "score": 59,
+   "score": 58,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -570,6 +570,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

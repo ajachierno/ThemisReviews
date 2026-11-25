@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Blinds and shades",
- "data_captured": "2026-11-12",
- "updated": "2026-11-12",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -48,10 +48,10 @@
   },
   {
    "label": "Best Premium",
-   "asin": "B09STSWQCB",
-   "name": "THIRDREALITY ZigBee Smart Blind (honeycomb)",
-   "price": 158.99,
-   "why": "Highest score (80) among the priciest third of picks: 4.0 stars from 108 reviews, $158.99."
+   "asin": "B07TDHMCLB",
+   "name": "Graywind Motorized blackout roller shades",
+   "price": 148.99,
+   "why": "Highest score (80) among the priciest third of picks: 4.3 stars from 69 reviews, $148.99."
   }
  ],
  "systems_note": "Tuya Zigbee motors need a Tuya / Smart Life Zigbee gateway and work with Home Assistant through the Tuya integration or Zigbee2MQTT. Graywind and Yoolax sell several motor types on one listing; pick the Zigbee option.",
@@ -168,14 +168,12 @@
    "name": "THIRDREALITY ZigBee Smart Blind, Motorized Blackout Cordless Honeycomb Shade with Remote, AA Battery Powered, 29 in. x 72 in., Beige/White",
    "brand": "THIRDREALITY",
    "model": "ZigBee Smart Blind (honeycomb)",
-   "price": 158.99,
+   "price": 118.99,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 108,
    "score": 80,
-   "awards": [
-    "Best Premium"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -199,7 +197,7 @@
    "cons": [
     "4.0 stars",
     "Only 8 left at capture time",
-    "$158.99"
+    "$118.99"
    ],
    "specs": {
     "type": "Cordless blackout honeycomb blind",
@@ -226,7 +224,9 @@
    "rating": 4.3,
    "reviews_count": 69,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Premium"
+   ],
    "works_with": [
     "Amazon Alexa",
     "Home Assistant",
@@ -519,7 +519,7 @@
    "name": "AM22 Tuya Zigbee Blinds Motor Kit for 1.25 in. (32 mm) Tubes, Rechargeable, App/Voice Control, Alexa and Google Home",
    "brand": "Sortfle",
    "model": "AM22 Zigbee motor kit (1.25\")",
-   "price": 97.89,
+   "price": 78.31,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 7,
@@ -579,6 +579,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Premium: Graywind Motorized blackout roller shades.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-12",
    "notes": [

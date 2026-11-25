@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Garage door opener units",
- "data_captured": "2026-11-10",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,29 +37,29 @@
    "label": "Best Overall",
    "asin": "B07SKCGMY7",
    "name": "Genie StealthDrive Connect 7155-TKV",
-   "price": 322.99,
-   "why": "Highest score on the page (90): 4.4 stars from 5,106 reviews, $322.99."
+   "price": 338.81,
+   "why": "Highest score on the page (90): 4.4 stars from 5,105 reviews, $338.81."
   },
   {
    "label": "Best Budget",
-   "asin": "B0FQYSF58M",
-   "name": "Chamberlain Belt Drive myQ Opener 3/4 HP with camera",
-   "price": 248.86,
-   "why": "Highest score (87) among the cheapest third of picks (up to $248.86 each): 4.2 stars from 263 reviews, $248.86."
+   "asin": "B0FQYM9DQS",
+   "name": "Chamberlain Belt Drive myQ Opener 1/2 HP",
+   "price": 219.0,
+   "why": "Highest score (83) among the cheapest third of picks (up to $227.00 each): 4.4 stars from 205 reviews, $219.00."
   },
   {
    "label": "Best with Camera",
-   "asin": "B0G95ZTYDG",
-   "name": "Chamberlain 1 HP Belt Drive myQ Opener with camera",
-   "price": 325.0,
-   "why": "Highest score (84) among picks marked Yes for Camera: 4.5 stars from 39 reviews, $325.00."
+   "asin": "B0FQYSF58M",
+   "name": "Chamberlain Belt Drive myQ Opener 3/4 HP with camera",
+   "price": 248.86,
+   "why": "Highest score (87) among picks marked Yes for Camera: 4.2 stars from 269 reviews, $248.86."
   },
   {
    "label": "Best Premium",
    "asin": "B0C7K97GX2",
    "name": "Chamberlain Wall Mount myQ Opener",
-   "price": 521.8,
-   "why": "Highest score (85) among the priciest third of picks: 4.6 stars from 647 reviews, $521.80."
+   "price": 527.4,
+   "why": "Highest score (85) among the priciest third of picks: 4.6 stars from 647 reviews, $527.40."
   }
  ],
  "systems_note": "Chamberlain, LiftMaster, and Craftsman openers use the myQ app. Genie openers use Aladdin Connect, which also has an official Home Assistant integration.",
@@ -70,10 +70,10 @@
    "name": "Genie StealthDrive Connect Smart Belt Drive Garage Door Opener, 7155-TKV",
    "brand": "Genie",
    "model": "StealthDrive Connect 7155-TKV",
-   "price": 322.99,
+   "price": 338.81,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 5106,
+   "reviews_count": 5105,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -93,12 +93,12 @@
    "bought_last_month": "400+ bought in past month",
    "verdict": "The best-connected opener here, with Alexa, Google, and SmartThings named on the listing.",
    "pros": [
-    "5,106 reviews",
+    "5,105 reviews",
     "Battery backup",
     "Works with SmartThings"
    ],
    "cons": [
-    "$322.99",
+    "$338.81",
     "8 ft doors need an extension kit",
     "No camera"
    ],
@@ -127,10 +127,10 @@
    "price": 248.86,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 263,
+   "reviews_count": 269,
    "score": 87,
    "awards": [
-    "Best Budget"
+    "Best with Camera"
    ],
    "works_with": [],
    "works_with_note": "myQ app",
@@ -173,7 +173,7 @@
    "name": "Chamberlain Wall Mount myQ Garage Door Opener, Battery Backup",
    "brand": "Chamberlain",
    "model": "Wall Mount myQ Opener",
-   "price": 521.8,
+   "price": 527.4,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 647,
@@ -196,7 +196,7 @@
     "4.6 stars from 647 reviews"
    ],
    "cons": [
-    "$521.80",
+    "$527.40",
     "Motor rating isn't in the bullets",
     "No camera"
    ],
@@ -227,9 +227,7 @@
    "rating": 4.5,
    "reviews_count": 39,
    "score": 84,
-   "awards": [
-    "Best with Camera"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "myQ app",
    "works_without": {
@@ -276,7 +274,9 @@
    "rating": 4.4,
    "reviews_count": 205,
    "score": 83,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "myQ app",
    "works_without": {
@@ -318,7 +318,7 @@
    "name": "Genie QuietLift Connect Wi-Fi Smart Garage Door Opener with Wireless Keypad, 3/4 HPc Belt Drive, Model 3053-TKV",
    "brand": "Genie",
    "model": "QuietLift Connect (with keypad)",
-   "price": 259.94,
+   "price": 260.18,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2032,
@@ -345,7 +345,7 @@
    "cons": [
     "Battery backup isn't in the bullets",
     "Doors up to 7 ft without a kit",
-    "$259.94"
+    "$260.18"
    ],
    "specs": {
     "drive": "Belt",
@@ -369,7 +369,7 @@
    "name": "Chamberlain Chain Drive myQ Garage Door Opener, 3/4HP w/Fixed Camera",
    "brand": "Chamberlain",
    "model": "Chain Drive myQ Opener 3/4 HP with camera",
-   "price": 269.16,
+   "price": 204.0,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 168,
@@ -392,7 +392,7 @@
    "cons": [
     "Chain drive",
     "Bulbs sold separately",
-    "$269.16"
+    "$204.00"
    ],
    "specs": {
     "drive": "Chain",
@@ -544,6 +544,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: Chamberlain Belt Drive myQ Opener 1/2 HP.",
+    "New Best with Camera: Chamberlain Belt Drive myQ Opener 3/4 HP with camera.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

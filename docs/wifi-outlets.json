@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "In-wall outlets",
- "data_captured": "2026-11-11",
- "updated": "2026-11-11",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,15 +37,15 @@
    "label": "Best Overall",
    "asin": "B0DLLQR3K7",
    "name": "Tapo P210M",
-   "price": 20.99,
-   "why": "Highest score on the page (90): 4.4 stars from 430 reviews, $20.99."
+   "price": 17.99,
+   "why": "Highest score on the page (90): 4.4 stars from 430 reviews, $17.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0C741MSY2",
    "name": "TOPELER Smart wall outlet",
-   "price": 13.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $15.00 each): 4.3 stars from 282 reviews, $13.99."
+   "price": 11.99,
+   "why": "Highest score (75) among the cheapest third of picks (up to $13.33 each): 4.3 stars from 282 reviews, $11.99."
   },
   {
    "label": "Best With Energy Monitoring",
@@ -58,8 +58,8 @@
    "label": "Best for Apple Home",
    "asin": "B0DR3BNNLM",
    "name": "Leviton Decora D215R (2nd Gen)",
-   "price": 30.81,
-   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 127 reviews, $30.81."
+   "price": 26.19,
+   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 127 reviews, $26.19."
   }
  ],
  "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
@@ -70,7 +70,7 @@
    "name": "Tapo Smart Plug, Wi-Fi in-Wall Outlet, P210M, Matter Compatible",
    "brand": "Tapo",
    "model": "P210M",
-   "price": 20.99,
+   "price": 17.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 430,
@@ -94,7 +94,7 @@
     "subscription": true
    },
    "bought_last_month": "500+ bought in past month",
-   "verdict": "Energy monitoring and Matter in an in-wall outlet for $20.99.",
+   "verdict": "Energy monitoring and Matter in an in-wall outlet for $17.99.",
    "pros": [
     "Matter certified",
     "Energy monitoring",
@@ -176,7 +176,7 @@
    "name": "BN-LINK Smart In-Wall Wi-Fi Outlet with 2 Controlled Plugs and USB-C Charging, Alexa and Google Assistant",
    "brand": "BN-LINK",
    "model": "In-wall outlet with USB-C",
-   "price": 15.33,
+   "price": 15.29,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 471,
@@ -194,9 +194,9 @@
     "subscription": true
    },
    "bought_last_month": null,
-   "verdict": "Two controlled sockets plus a USB-C charging port for $15.33.",
+   "verdict": "Two controlled sockets plus a USB-C charging port for $15.29.",
    "pros": [
-    "$15.33",
+    "$15.29",
     "USB-C port",
     "Physical buttons on the faceplate"
    ],
@@ -226,7 +226,7 @@
    "name": "Kasa Smart Plug KP200, In-Wall Smart Home Wi-Fi Outlet",
    "brand": "Kasa",
    "model": "KP200",
-   "price": 15.99,
+   "price": 14.73,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 7811,
@@ -254,7 +254,7 @@
    "cons": [
     "No Apple Home",
     "No energy monitoring",
-    "$15.99"
+    "$14.73"
    ],
    "specs": {
     "controlled": "2, individually",
@@ -325,7 +325,7 @@
    "name": "Leviton Decora Smart Outlet, 15A, Wi-Fi 2nd Gen, D215R-1RW, White",
    "brand": "Leviton",
    "model": "Decora D215R (2nd Gen)",
-   "price": 30.81,
+   "price": 26.19,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 127,
@@ -379,7 +379,7 @@
    "name": "Smart Wall Outlet with 2 Individually Controlled Ports, 15 A Tamper-Resistant, 2.4 GHz Wi-Fi, Alexa and Google Home",
    "brand": "TOPELER",
    "model": "Smart wall outlet",
-   "price": 13.99,
+   "price": 11.99,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 282,
@@ -401,7 +401,7 @@
    "bought_last_month": null,
    "verdict": "The cheapest two-socket smart outlet here, and tamper resistant.",
    "pros": [
-    "$13.99",
+    "$11.99",
     "Tamper-resistant receptacle",
     "4.3 stars from 282 reviews"
    ],
@@ -482,7 +482,7 @@
    "name": "Geeni Smart Wi-Fi in-Wall Outlet, Tamper & Fire Resistant, White, 4-Pack",
    "brand": "Geeni",
    "model": "In-wall outlet (4-pack)",
-   "price": 59.99,
+   "price": 47.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 30,
@@ -499,7 +499,7 @@
     "subscription": true
    },
    "bought_last_month": "50+ bought in past month",
-   "verdict": "Four tamper-resistant smart outlets for $59.99, about $15 each.",
+   "verdict": "Four tamper-resistant smart outlets for $47.99, about $15 each.",
    "pros": [
     "4-pack",
     "Tamper and fire resistant",
@@ -542,6 +542,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-11",
    "notes": [

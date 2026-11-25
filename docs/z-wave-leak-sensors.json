@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Leak sensors",
- "data_captured": "2026-11-09",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B0716YVPLG",
    "name": "Ecolink FLF-ZWAVE5-ECO",
    "price": 34.99,
-   "why": "Highest score on the page (86): 4.3 stars from 380 reviews, $34.99."
+   "why": "Highest score on the page (86): 4.3 stars from 381 reviews, $34.99."
   },
   {
    "label": "Best Budget",
-   "asin": "B08VJ9TWBB",
-   "name": "Aeotec Water Sensor 7 Pro",
-   "price": 29.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $29.99 each): 4.1 stars from 119 reviews, $29.99."
+   "asin": "B0GXW53RZP",
+   "name": "Ezlo Water leak detector (LR)",
+   "price": 28.95,
+   "why": "Highest score (61) among the cheapest third of picks (up to $28.95 each): 3.7 stars from 11 reviews, $28.95."
   },
   {
    "label": "Best Long Range",
@@ -56,10 +56,10 @@
   },
   {
    "label": "Best Multi-Sensor",
-   "asin": "B0GYZRCWCB",
-   "name": "Aeotec Water Sensor 8",
-   "price": 39.95,
-   "why": "Highest score of the picks that fit this award (67): 4.1 stars from 6 reviews, $39.95."
+   "asin": "B08VJ9TWBB",
+   "name": "Aeotec Water Sensor 7 Pro",
+   "price": 29.99,
+   "why": "Highest score of the picks that fit this award (75): 4.1 stars from 119 reviews, $29.99."
   }
  ],
  "systems_note": null,
@@ -73,7 +73,7 @@
    "price": 34.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 380,
+   "reviews_count": 381,
    "score": 86,
    "awards": [
     "Best Overall"
@@ -96,7 +96,7 @@
     "Freeze alert at 41°F, can also tell a Z-Wave thermostat to add heat",
     "36 in. probe reaches behind appliances",
     "Rated for about 5 years on one battery",
-    "380 reviews at 4.3 stars"
+    "381 reviews at 4.3 stars"
    ],
    "cons": [
     "Older Z-Wave Plus chip",
@@ -131,7 +131,7 @@
    "reviews_count": 119,
    "score": 75,
    "awards": [
-    "Best Budget"
+    "Best Multi-Sensor"
    ],
    "works_with": [
     "Home Assistant",
@@ -238,9 +238,7 @@
    "rating": 4.1,
    "reviews_count": 6,
    "score": 67,
-   "awards": [
-    "Best Multi-Sensor"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -292,7 +290,9 @@
    "rating": 3.7,
    "reviews_count": 11,
    "score": 61,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -339,7 +339,7 @@
    "name": "NEO Z-Wave Plus 700 Water Leak Sensor with Probe, Z-Wave Hub Required",
    "brand": "NEO",
    "model": "Z-Wave Plus 700 leak sensor",
-   "price": 29.99,
+   "price": 25.64,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 15,
@@ -362,7 +362,7 @@
    "pros": [
     "Probe for hard-to-reach spots",
     "Names Home Assistant and Hubitat",
-    "$29.99"
+    "$25.64"
    ],
    "cons": [
     "Only 15 reviews",
@@ -510,6 +510,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: Ezlo Water leak detector (LR).",
+    "New Best Multi-Sensor: Aeotec Water Sensor 7 Pro.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

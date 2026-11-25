@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Humidifiers",
- "data_captured": "2026-11-14",
- "updated": "2026-11-14",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,22 +37,22 @@
    "label": "Best Overall",
    "asin": "B0DT48R3BR",
    "name": "Dreo HM717S Smart Humidifier 8L",
-   "price": 99.93,
-   "why": "Highest score on the page (96): 4.5 stars from 1,008 reviews, $99.93."
+   "price": 94.93,
+   "why": "Highest score on the page (96): 4.5 stars from 1,008 reviews, $94.93."
   },
   {
    "label": "Best Budget",
-   "asin": "B0GR99R7XD",
-   "name": "Levoit Smart Humidifier 6.2L",
-   "price": 67.98,
-   "why": "Highest score (82) among the cheapest third of picks (up to $67.98 each): 4.4 stars from 45,364 reviews, $67.98."
+   "asin": "B0DHRD584W",
+   "name": "GoveeLife Smart Humidifier 6L",
+   "price": 56.98,
+   "why": "Highest score (96) among the cheapest third of picks (up to $56.98 each): 4.5 stars from 592 reviews, $56.98."
   },
   {
    "label": "Best for Large Rooms",
-   "asin": "B0DHRD584W",
-   "name": "GoveeLife Smart Humidifier 6L",
-   "price": 99.99,
-   "why": "Highest score of the picks that fit this award (96): 4.5 stars from 592 reviews, $99.99."
+   "asin": "B095KGXPW5",
+   "name": "Levoit LV600S (warm and cool)",
+   "price": 93.49,
+   "why": "Highest score of the picks that fit this award (88): 4.4 stars from 45,453 reviews, $93.49."
   }
  ],
  "systems_note": "Levoit (VeSync) humidifiers work with Home Assistant's official VeSync integration; their listings here don't name Alexa or Google.",
@@ -63,7 +63,7 @@
    "name": "DREO 8L Smart Humidifier Large Room, 80H Runtime, Cool & Warm Mist, HM717S",
    "brand": "Dreo",
    "model": "HM717S Smart Humidifier 8L",
-   "price": 99.93,
+   "price": 94.93,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1008,
@@ -89,7 +89,7 @@
     "Alexa and Google"
    ],
    "cons": [
-    "$99.93",
+    "$94.93",
     "Only 1,008 reviews",
     "Large footprint"
    ],
@@ -115,13 +115,13 @@
    "name": "GoveeLife Smart Humidifiers for Bedroom Large Room, 6L Top Fill Humidifier",
    "brand": "GoveeLife",
    "model": "Smart Humidifier 6L",
-   "price": 99.99,
+   "price": 56.98,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 592,
    "score": 96,
    "awards": [
-    "Best for Large Rooms"
+    "Best Budget"
    ],
    "works_with": [
     "Amazon Alexa",
@@ -142,7 +142,7 @@
    ],
    "cons": [
     "Only 592 reviews",
-    "$99.99",
+    "$56.98",
     "Govee Home app"
    ],
    "specs": {
@@ -167,12 +167,14 @@
    "name": "Levoit LV600S Smart Warm&Cool Mist Humidifiers for Home Bedroom Large Room",
    "brand": "Levoit",
    "model": "LV600S (warm and cool)",
-   "price": 109.0,
+   "price": 93.49,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 45453,
    "score": 88,
-   "awards": [],
+   "awards": [
+    "Best for Large Rooms"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -190,7 +192,7 @@
     "45,453 reviews"
    ],
    "cons": [
-    "$109",
+    "$93.49",
     "4.4 stars",
     "Voice assistants aren't named in the bullets"
    ],
@@ -216,7 +218,7 @@
    "name": "DREO 6L Smart Humidifiers for Bedroom, Warm & Cool Mist for Large Room",
    "brand": "Dreo",
    "model": "Smart Humidifier 6L (warm and cool)",
-   "price": 79.91,
+   "price": 75.91,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 4464,
@@ -239,7 +241,7 @@
    "cons": [
     "Voice control isn't in the bullets",
     "4.3 stars",
-    "$79.91"
+    "$75.91"
    ],
    "specs": {
     "tank": "6 L",
@@ -263,7 +265,7 @@
    "name": "DREO 11L Smart Humidifier Large Room 700 ft², 100H Runtime, 21dB Quiet 747S",
    "brand": "Dreo",
    "model": "747S Smart Humidifier 11L",
-   "price": 99.96,
+   "price": 94.96,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 190,
@@ -286,7 +288,7 @@
    "cons": [
     "Only 190 reviews",
     "Voice control isn't in the bullets",
-    "$99.96"
+    "$94.96"
    ],
    "specs": {
     "tank": "11 L, 100-hour runtime",
@@ -310,14 +312,12 @@
    "name": "Levoit Humidifiers for Bedroom Large Room, 6.2L Tank, Smart App, Quiet 26dB",
    "brand": "Levoit",
    "model": "Smart Humidifier 6.2L",
-   "price": 67.98,
+   "price": 64.57,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 45364,
    "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -337,7 +337,7 @@
    "cons": [
     "Cool mist only",
     "Voice assistants aren't named in the bullets",
-    "$67.98"
+    "$64.57"
    ],
    "specs": {
     "tank": "6.2 L",
@@ -361,7 +361,7 @@
    "name": "Levoit Evaporative Humidifiers for Bedroom, 19dB, Superior Studio Smart",
    "brand": "Levoit",
    "model": "Superior Studio Evaporative",
-   "price": 139.99,
+   "price": 109.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 26838,
@@ -384,7 +384,7 @@
     "3K+ bought in the past month"
    ],
    "cons": [
-    "$139.99",
+    "$109.99",
     "Wick filters to replace",
     "Only 26,838 reviews"
    ],
@@ -570,6 +570,14 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: GoveeLife Smart Humidifier 6L.",
+    "New Best for Large Rooms: Levoit LV600S (warm and cool).",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-14",
    "notes": [

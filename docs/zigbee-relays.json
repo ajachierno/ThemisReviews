@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Relays and modules",
- "data_captured": "2026-11-10",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -42,24 +42,24 @@
   },
   {
    "label": "Best Budget",
-   "asin": "B08X218VMR",
-   "name": "Mic Technology 1-channel dry contact relay",
-   "price": 16.9,
-   "why": "Highest score (82) among the cheapest third of picks (up to $16.90 each): 4.5 stars from 487 reviews, $16.90."
+   "asin": "B0GXZWRZXX",
+   "name": "SONOFF MINI-ZBD dry contact",
+   "price": 11.92,
+   "why": "Highest score (75) among the cheapest third of picks (up to $14.32 each): 4.3 stars from 232 reviews, $11.92."
   },
   {
    "label": "Best With Power Metering",
    "asin": "B0DZJ1W814",
    "name": "Shelly 2PM Gen4",
-   "price": 38.99,
-   "why": "Highest score of the picks that fit this award (86): 4.7 stars from 911 reviews, $38.99."
+   "price": 29.24,
+   "why": "Highest score of the picks that fit this award (86): 4.7 stars from 916 reviews, $29.24."
   },
   {
    "label": "Best Multi-Channel",
    "asin": "B0D5XCFPTR",
    "name": "Aqara Dual Relay Module T2",
-   "price": 32.99,
-   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 117 reviews, $32.99."
+   "price": 27.99,
+   "why": "Highest score of the picks that fit this award (80): 4.4 stars from 117 reviews, $27.99."
   }
  ],
  "systems_note": "Shelly Gen4 relays speak Zigbee, Wi-Fi, and Matter, so they also appear on our Wi-Fi and Matter relay pages.",
@@ -123,10 +123,10 @@
    "name": "Shelly 2PM Gen4, Smart Relay Switch, WiFi, Matter & Zigbee, 2-Channel",
    "brand": "Shelly",
    "model": "2PM Gen4",
-   "price": 38.99,
+   "price": 29.24,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 911,
+   "reviews_count": 916,
    "score": 86,
    "awards": [
     "Best With Power Metering"
@@ -151,10 +151,10 @@
    "pros": [
     "Power metering per channel",
     "Zigbee, Wi-Fi, or Matter",
-    "4.7 stars from 911 reviews"
+    "4.7 stars from 916 reviews"
    ],
    "cons": [
-    "$38.99",
+    "$29.24",
     "Neutral requirement isn't stated",
     "Larger than single relays"
    ],
@@ -185,9 +185,7 @@
    "rating": 4.5,
    "reviews_count": 487,
    "score": 82,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -199,7 +197,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": null,
    "verdict": "A cheap low-voltage relay for garage doors that names Home Assistant support.",
    "pros": [
     "$16.90",
@@ -233,7 +231,7 @@
    "name": "Aqara Dual Relay Module T2, Requires a Neutral Line and Aqara Zigbee3.0 Hub",
    "brand": "Aqara",
    "model": "Dual Relay Module T2",
-   "price": 32.99,
+   "price": 27.99,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 117,
@@ -341,12 +339,14 @@
    "name": "SONOFF MINI-ZBD Zigbee 3.0 Dry Contact Relay, AC/DC Input, Zigbee Hub Required",
    "brand": "SONOFF",
    "model": "MINI-ZBD dry contact",
-   "price": 14.9,
+   "price": 11.92,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 232,
    "score": 75,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -364,7 +364,7 @@
    "bought_last_month": "200+ bought in past month",
    "verdict": "A cheap Zigbee dry-contact relay for garage doors, gates, and boilers.",
    "pros": [
-    "$14.90",
+    "$11.92",
     "AC or DC power",
     "NO and NC modes",
     "Acts as a Zigbee repeater"
@@ -396,7 +396,7 @@
    "name": "SONOFF ZBMINIL2 Zigbee Smart Light Switch Module, No Neutral, Hub Required, 2 Pack",
    "brand": "SONOFF",
    "model": "ZBMINIL2 no-neutral (2-pack)",
-   "price": 29.9,
+   "price": 23.92,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 992,
@@ -420,7 +420,7 @@
    "verdict": "The no-neutral option: two Zigbee relays that fit behind old switches with no neutral wire in the box.",
    "pros": [
     "No neutral wire needed",
-    "Two relays for $29.90",
+    "Two relays for $23.92",
     "992 reviews, 200+ bought last month"
    ],
    "cons": [
@@ -450,7 +450,7 @@
    "name": "SONOFF ZBMINIR2 Zigbee 3.0 Smart Relay Switch Module, 4-Pack (Zigbee Hub and Neutral Required)",
    "brand": "SONOFF",
    "model": "ZBMINIR2 (4-pack)",
-   "price": 45.9,
+   "price": 36.72,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1562,
@@ -471,7 +471,7 @@
     "subscription": true
    },
    "bought_last_month": "200+ bought in past month",
-   "verdict": "The best value way to make several existing switches smart: four relays for $45.90.",
+   "verdict": "The best value way to make several existing switches smart: four relays for $36.72.",
    "pros": [
     "4 relays in the pack",
     "Works with rocker or push-button switches",
@@ -505,7 +505,7 @@
    "name": "SONOFF MINI ONE MINI-ZB1GS Zigbee Smart Switch 16A Relay",
    "brand": "SONOFF",
    "model": "MINI ONE (MINI-ZB1GS)",
-   "price": 17.9,
+   "price": 14.32,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 95,
@@ -624,6 +624,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Budget: SONOFF MINI-ZBD dry contact.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [

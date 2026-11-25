@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-11-09",
- "updated": "2026-11-10",
+ "data_captured": "2026-11-25",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,24 +35,24 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0CR4G1G8M",
-   "name": "Hubitat Elevation C-8 Pro",
-   "price": 229.95,
-   "why": "Highest score on the page (87): 4.0 stars from 402 reviews, $229.95."
-  },
-  {
-   "label": "Best for Home Assistant",
    "asin": "B0FL858V4Q",
    "name": "Home Assistant Connect ZWA-2",
    "price": 79.0,
-   "why": "Highest score (84) among picks that work with Home Assistant: 4.6 stars from 265 reviews, $79.00."
+   "why": "Highest score (84) among picks with at least 4.0 stars and 30 reviews: 4.6 stars from 265 reviews, $79.00."
+  },
+  {
+   "label": "Best for Home Assistant",
+   "asin": "B0G8JKPMV7",
+   "name": "SONOFF Dongle Plus PZG23",
+   "price": 33.9,
+   "why": "Highest score (84) among picks that work with Home Assistant: 4.6 stars from 190 reviews, $33.90."
   },
   {
    "label": "Best Multi-Radio",
-   "asin": "B0DV9RFSR9",
-   "name": "Aeotec Z-Stick 10 Pro",
-   "price": 59.99,
-   "why": "Highest score of the picks that fit this award (84): 4.5 stars from 183 reviews, $59.99."
+   "asin": "B0CR4G1G8M",
+   "name": "Hubitat Elevation C-8 Pro",
+   "price": 184.76,
+   "why": "Highest score of the picks that fit this award (86): 3.9 stars from 405 reviews, $184.76."
   }
  ],
  "systems_note": "For USB sticks, the icons show the hub software they work with. For full hubs, they show the hub itself plus the voice assistants it connects to.",
@@ -63,13 +63,13 @@
    "name": "Hubitat Elevation C-8 Pro Smart Home Hub - Z-Wave Zigbee Matter",
    "brand": "Hubitat",
    "model": "Elevation C-8 Pro",
-   "price": 229.95,
+   "price": 184.76,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 402,
-   "score": 87,
+   "rating": 3.9,
+   "reviews_count": 405,
+   "score": 86,
    "awards": [
-    "Best Overall"
+    "Best Multi-Radio"
    ],
    "works_with": [
     "Hubitat Elevation",
@@ -92,8 +92,8 @@
     "Works with Alexa, Google Home, and Apple Home"
    ],
    "cons": [
-    "4.0 stars",
-    "$229.95",
+    "3.9 stars",
+    "$184.76",
     "Steeper learning curve than SmartThings"
    ],
    "specs": {
@@ -125,7 +125,7 @@
    "reviews_count": 265,
    "score": 84,
    "awards": [
-    "Best for Home Assistant"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant"
@@ -172,12 +172,14 @@
    "name": "SONOFF Z-Wave 800 Dongle Plus (Dongle-PZG23), USB Stick for Home Assistant and openHAB, S2 Security",
    "brand": "SONOFF",
    "model": "Dongle Plus PZG23",
-   "price": 39.9,
+   "price": 33.9,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 188,
+   "reviews_count": 190,
    "score": 84,
-   "awards": [],
+   "awards": [
+    "Best for Home Assistant"
+   ],
    "works_with": [
     "Home Assistant"
    ],
@@ -196,7 +198,7 @@
     "4.6 stars"
    ],
    "cons": [
-    "Only 188 reviews",
+    "Only 190 reviews",
     "Names Home Assistant and openHAB only",
     "Needs a computer running hub software"
    ],
@@ -228,9 +230,7 @@
    "rating": 4.5,
    "reviews_count": 183,
    "score": 84,
-   "awards": [
-    "Best Multi-Radio"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant"
    ],
@@ -276,10 +276,10 @@
    "name": "Homey Pro (2026) Smart Home Hub with Z-Wave Plus, Zigbee, Wi-Fi, BLE, Infrared, Matter and Thread",
    "brand": "Homey",
    "model": "Pro (2026)",
-   "price": 449.0,
+   "price": 399.0,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 76,
+   "reviews_count": 75,
    "score": 77,
    "awards": [],
    "works_with": [
@@ -303,7 +303,7 @@
    ],
    "cons": [
     "$471",
-    "4.0 stars from 76 reviews",
+    "4.0 stars from 75 reviews",
     "Z-Wave Plus, Long Range isn't listed"
    ],
    "specs": {
@@ -329,7 +329,7 @@
    "name": "SONOFF Z-Wave 800 PoE Dongle Max (Dongle-MZG23)",
    "brand": "SONOFF",
    "model": "PoE Dongle Max (Dongle-MZG23)",
-   "price": 44.9,
+   "price": 35.92,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 39,
@@ -491,6 +491,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-25",
+   "notes": [
+    "New Best Overall: Home Assistant Connect ZWA-2.",
+    "New Best for Home Assistant: SONOFF Dongle Plus PZG23.",
+    "New Best Multi-Radio: Hubitat Elevation C-8 Pro.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-10",
    "notes": [
