@@ -1,8 +1,10 @@
 """Click-through tests of the site's interactive bits at phone and desktop sizes."""
-import asyncio, re
+import asyncio, re, json, datetime
+from pathlib import Path
 from playwright.async_api import async_playwright
 
 BASE = "http://127.0.0.1:8765/"
+ROOT = Path(__file__).resolve().parent.parent
 VIEWS = {"desktop": dict(viewport={"width": 1366, "height": 900}),
          "phone": dict(viewport={"width": 412, "height": 915}, is_mobile=True, has_touch=True, device_scale_factor=2.6)}
 results = []
@@ -49,10 +51,15 @@ async def run(view, opts, b):
     await pg.wait_for_load_state("load")
     ok(pg.url.endswith(".html") and "index" not in pg.url, f"{v} home: type Go lands on {pg.url.split('/')[-1]}")
 
-    # Home: Black Friday link stays hidden before Nov 15, gift guides visible
+    # Home: Black Friday link shows only inside its seasonal.json window, gift guides visible
     await pg.goto(BASE + "index.html")
     bf = await pg.eval_on_selector_all("a[href*=black-friday]", "as => as.filter(a => a.offsetParent !== null).length")
-    ok(bf == 0, f"{v} home: Black Friday link hidden ({bf} visible)")
+    _bf = json.load(open(ROOT / "data" / "seasonal.json", encoding="utf-8"))["black_friday"]
+    _today = datetime.date.today().isoformat()
+    if _bf["link_from"] <= _today < _bf["link_until"]:
+        ok(bf >= 1, f"{v} home: Black Friday link visible in its window ({bf} visible)")
+    else:
+        ok(bf == 0, f"{v} home: Black Friday link hidden outside its window ({bf} visible)")
     ok(await pg.is_visible("#gift-guides"), f"{v} home: gift guides section visible")
 
     # Protocol page: works-with filter
