@@ -44,21 +44,21 @@
    "asin": "B0GKFB3XCL",
    "name": "SONOFF SNZB-04PR2",
    "price": 11.12,
-   "why": "Highest score (85) among the cheapest third of picks (up to $11.99 each): 4.2 stars from 329 reviews, $11.12."
+   "why": "Highest score (85) among the cheapest third of picks (up to $11.99 each): 4.2 stars from 360 reviews, $11.12."
   },
   {
    "label": "Best for Aqara Homes",
    "asin": "B07D37VDM3",
    "name": "Aqara Door and Window Sensor",
    "price": 14.39,
-   "why": "Highest score (70) among Aqara picks: 4.4 stars from 6,140 reviews, $14.39."
+   "why": "Highest score (70) among Aqara picks: 4.4 stars from 6,147 reviews, $14.39."
   },
   {
    "label": "Best Multi-Sensor",
    "asin": "B0G52D5CY6",
    "name": "Shelly BLU Door/Window ZB",
    "price": 22.99,
-   "why": "Highest score of the picks that fit this award (86): 4.5 stars from 53 reviews, $22.99."
+   "why": "Highest score of the picks that fit this award (86): 4.5 stars from 55 reviews, $22.99."
   }
  ],
  "systems_note": null,
@@ -128,7 +128,7 @@
    "price": 22.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 53,
+   "reviews_count": 55,
    "score": 86,
    "awards": [
     "Best Multi-Sensor"
@@ -155,7 +155,7 @@
    ],
    "cons": [
     "Only 3 left in stock at capture time",
-    "53 reviews",
+    "55 reviews",
     "$22.99"
    ],
    "specs": {
@@ -182,7 +182,7 @@
    "price": 11.12,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 329,
+   "reviews_count": 360,
    "score": 85,
    "awards": [
     "Best Budget"
@@ -200,7 +200,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "200+ bought in past month",
+   "bought_last_month": "300+ bought in past month",
    "verdict": "A cheap, AAA-powered sensor with a tamper alert if someone pulls it off the frame.",
    "pros": [
     "$11.12",
@@ -235,9 +235,9 @@
    "model": "SNZB-04PR1",
    "price": 12.72,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 75,
-   "score": 82,
+   "rating": 4.2,
+   "reviews_count": 99,
+   "score": 85,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -260,7 +260,7 @@
     "100+ bought in the past month"
    ],
    "cons": [
-    "4.0 stars from 75 reviews",
+    "4.2 stars from 99 reviews",
     "Costs more than the PR2",
     "Battery type isn't listed"
    ],
@@ -281,6 +281,59 @@
   },
   {
    "rank": 5,
+   "asin": "B08R9PH4JT",
+   "name": "THIRDREALITY Zigbee Contact Sensor, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub, Hub Required",
+   "brand": "THIRDREALITY",
+   "model": "Zigbee contact sensor",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 795,
+   "score": 81,
+   "awards": [],
+   "works_with": [
+    "Home Assistant",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": "400+ bought in past month",
+   "verdict": "The most flexible Zigbee door sensor: it pairs to Echo hubs and every major open Zigbee platform.",
+   "pros": [
+    "Works with Echo (4th gen) and other Echo Zigbee hubs",
+    "Lists Home Assistant, SmartThings, Hubitat, and Homey",
+    "AAA batteries, rated up to 2 years",
+    "300+ bought in the past month"
+   ],
+   "cons": [
+    "Bigger than coin-cell sensors",
+    "4.4 stars",
+    "Sold by the brand, not Amazon"
+   ],
+   "specs": {
+    "hub": "Echo with Zigbee, or any Zigbee hub",
+    "battery": "2 AAA, up to 2 years",
+    "extras": "Open/close only",
+    "pack": "1 sensor"
+   },
+   "features": {
+    "open_hub": true,
+    "tamper": false,
+    "extra_sensors": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41-tjH1nx-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08R9PH4JT?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B08R9PH4JT"
+  },
+  {
+   "rank": 6,
    "asin": "B09XCWRHCT",
    "name": "THIRDREALITY Zigbee Contact Sensor 2 Pack, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub",
    "brand": "THIRDREALITY",
@@ -288,7 +341,7 @@
    "price": 23.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 203,
+   "reviews_count": 204,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -332,59 +385,6 @@
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B09XCWRHCT"
   },
   {
-   "rank": 6,
-   "asin": "B08R9PH4JT",
-   "name": "THIRDREALITY Zigbee Contact Sensor, Door and Window Monitor, Works with Home Assistant, SmartThings, Homey, Hubitat or Echo Zigbee Hub, Hub Required",
-   "brand": "THIRDREALITY",
-   "model": "Zigbee contact sensor",
-   "price": 12.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 793,
-   "score": 80,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": "300+ bought in past month",
-   "verdict": "The most flexible Zigbee door sensor: it pairs to Echo hubs and every major open Zigbee platform.",
-   "pros": [
-    "Works with Echo (4th gen) and other Echo Zigbee hubs",
-    "Lists Home Assistant, SmartThings, Hubitat, and Homey",
-    "AAA batteries, rated up to 2 years",
-    "300+ bought in the past month"
-   ],
-   "cons": [
-    "Bigger than coin-cell sensors",
-    "4.3 stars",
-    "Sold by the brand, not Amazon"
-   ],
-   "specs": {
-    "hub": "Echo with Zigbee, or any Zigbee hub",
-    "battery": "2 AAA, up to 2 years",
-    "extras": "Open/close only",
-    "pack": "1 sensor"
-   },
-   "features": {
-    "open_hub": true,
-    "tamper": false,
-    "extra_sensors": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41-tjH1nx-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08R9PH4JT?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B08R9PH4JT"
-  },
-  {
    "rank": 7,
    "asin": "B0FHH6WTD6",
    "name": "Door and Window Sensor, Requires Zigbee Hub",
@@ -393,7 +393,7 @@
    "price": 9.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 68,
+   "reviews_count": 70,
    "score": 77,
    "awards": [],
    "works_with": [
@@ -417,7 +417,7 @@
     "Low-battery alerts"
    ],
    "cons": [
-    "Only 68 reviews",
+    "Only 70 reviews",
     "Battery type isn't listed",
     "Sold by the brand"
    ],
@@ -445,7 +445,7 @@
    "price": 14.39,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6140,
+   "reviews_count": 6147,
    "score": 70,
    "awards": [
     "Best for Aqara Homes"
@@ -461,10 +461,10 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "The most-reviewed Zigbee contact sensor. Tiny, cheap, and built around Aqara's hub.",
    "pros": [
-    "4.4 stars from 6,140 reviews",
+    "4.4 stars from 6,147 reviews",
     "Very small",
     "300+ bought in the past month"
    ],
@@ -484,7 +484,7 @@
     "tamper": false,
     "extra_sensors": false
    },
-   "image": "https://m.media-amazon.com/images/I/61DUCYw4XQL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/61DUCYw4XQL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07D37VDM3?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B07D37VDM3"
   },
@@ -496,9 +496,9 @@
    "model": "Door and Window Sensor (3-pack)",
    "price": 36.54,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1706,
-   "score": 70,
+   "rating": 4.3,
+   "reviews_count": 1715,
+   "score": 69,
    "awards": [],
    "works_with": [
     "Apple Home",
@@ -511,11 +511,11 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "1K+ bought in past month",
    "verdict": "Three of the Aqara sensors for $36.54, about $14 each, if you already run an Aqara hub.",
    "pros": [
     "About $14 per sensor",
-    "4.4 stars from 1,706 reviews, 500+ bought in the past month",
+    "4.3 stars from 1,715 reviews, 500+ bought in the past month",
     "Apple Home and Alexa through the Aqara hub"
    ],
    "cons": [
@@ -536,7 +536,7 @@
     "tamper": false,
     "extra_sensors": false
    },
-   "image": "https://m.media-amazon.com/images/I/61UA89xOXjL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/61UA89xOXjL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09TP7VMKB?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-door-sensors.html#B09TP7VMKB"
   },
@@ -548,9 +548,9 @@
    "model": "Zigbee mini contact sensor",
    "price": 9.49,
    "currency": "USD",
-   "rating": 3.6,
-   "reviews_count": 13,
-   "score": 47,
+   "rating": 3.4,
+   "reviews_count": 15,
+   "score": 46,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -570,7 +570,7 @@
     "Can trigger alarms on Alexa or HomePod through the brand's hubs"
    ],
    "cons": [
-    "3.6 stars from 13 reviews",
+    "3.4 stars from 15 reviews",
     "Needs a Colorpanda or Tuya hub",
     "Smart Life is a cloud-based app"
    ],
