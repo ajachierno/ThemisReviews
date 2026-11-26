@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#433-mhz-rf"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0BMKB3L47",
    "name": "RTL-SDR Blog V3 + dipole antenna kit",
    "price": 47.95,
-   "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,501 reviews, $47.95."
+   "why": "Highest score of the picks that fit this award (81): 4.4 stars from 6,502 reviews, $47.95."
   },
   {
    "label": "Best Budget SDR",
    "asin": "B0872P4HX7",
    "name": "BroadLink RM4 Pro",
    "price": 39.99,
-   "why": "Highest score (80) among the cheapest third of picks (up to $39.99 each): 4.0 stars from 3,378 reviews, $39.99."
+   "why": "Highest score (80) among the cheapest third of picks (up to $39.99 each): 4.0 stars from 3,389 reviews, $39.99."
   },
   {
    "label": "Best RF Bridge",
    "asin": "B0F29LWRS9",
    "name": "Toyanc Tuya IR/RF hub",
-   "price": 39.99,
-   "why": "Highest score of the picks that fit this award (64): 3.7 stars from 19 reviews, $39.99."
+   "price": 37.99,
+   "why": "Highest score of the picks that fit this award (64): 3.7 stars from 19 reviews, $37.99."
   },
   {
    "label": "Best Premium SDR",
    "asin": "B01GDN1T4S",
    "name": "Nooelec NESDR SMArt v5 bundle",
    "price": 59.95,
-   "why": "Highest score (79) among the priciest third of picks: 4.2 stars from 4,004 reviews, $59.95."
+   "why": "Highest score (79) among the priciest third of picks: 4.2 stars from 4,021 reviews, $59.95."
   }
  ],
  "systems_note": "SDR receivers feed Home Assistant through rtl_433, a community add-on rather than an official integration. Broadlink and Tuya hubs have official Home Assistant integrations.",
@@ -73,7 +73,7 @@
    "price": 47.95,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6501,
+   "reviews_count": 6502,
    "score": 81,
    "awards": [
     "Best SDR Receiver"
@@ -90,7 +90,7 @@
    "pros": [
     "1 PPM TCXO for stable tuning",
     "Dipole antenna kit included",
-    "6,501 reviews"
+    "6,502 reviews"
    ],
    "cons": [
     "Receive only",
@@ -122,7 +122,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 3378,
+   "reviews_count": 3389,
    "score": 80,
    "awards": [
     "Best Budget SDR"
@@ -138,13 +138,13 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "The most popular RF bridge: it learns fixed-code 433 MHz remotes and IR, and Home Assistant supports it.",
    "pros": [
     "433 MHz RF and IR in one hub",
     "Alexa, Google, and Siri voice control",
     "Official Home Assistant integration",
-    "3,378 reviews"
+    "3,389 reviews"
    ],
    "cons": [
     "Rolling-code remotes aren't supported",
@@ -176,7 +176,7 @@
    "price": 47.95,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 352,
+   "reviews_count": 354,
    "score": 80,
    "awards": [],
    "works_with": [],
@@ -194,7 +194,7 @@
     "Telescopic antenna included"
    ],
    "cons": [
-    "Only 352 reviews",
+    "Only 354 reviews",
     "MCX antenna connector",
     "$47.95"
    ],
@@ -223,7 +223,7 @@
    "price": 59.95,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 4004,
+   "reviews_count": 4021,
    "score": 79,
    "awards": [
     "Best Premium SDR"
@@ -240,7 +240,7 @@
    "pros": [
     "Bundle with antennas",
     "0.5 PPM TCXO",
-    "4,004 reviews, 1K+ bought in the past month"
+    "4,021 reviews, 1K+ bought in the past month"
    ],
    "cons": [
     "$59.95",
@@ -272,7 +272,7 @@
    "price": 37.95,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 3142,
+   "reviews_count": 3146,
    "score": 78,
    "awards": [],
    "works_with": [],
@@ -282,7 +282,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "The V3 dongle by itself, for when you already have an antenna.",
    "pros": [
     "$37.95",
@@ -319,7 +319,7 @@
    "price": 49.95,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 2884,
+   "reviews_count": 2898,
    "score": 77,
    "awards": [],
    "works_with": [],
@@ -359,53 +359,6 @@
   },
   {
    "rank": 7,
-   "asin": "B079C3FHPG",
-   "name": "Nooelec NESDR SMArTee v2 RTL-SDR with Bias Tee, 0.5 PPM TCXO, SMA Input, Aluminum Enclosure",
-   "brand": "Nooelec",
-   "model": "NESDR SMArTee v2",
-   "price": 49.95,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 397,
-   "score": 75,
-   "awards": [],
-   "works_with": [],
-   "works_with_note": "rtl_433 (DIY)",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "An SDR with an always-on bias tee for powering an active outdoor antenna.",
-   "pros": [
-    "Always-on 4.5 V bias tee",
-    "2-year warranty",
-    "Slim enough to sit next to other USB devices"
-   ],
-   "cons": [
-    "Only 397 reviews",
-    "No antenna",
-    "Receive only"
-   ],
-   "specs": {
-    "type": "SDR receiver",
-    "rf": "Not stated in bullets",
-    "direction": "Receive only",
-    "extras": "Always-on bias tee, 0.5 PPM TCXO"
-   },
-   "features": {
-    "sends": false,
-    "ha": false,
-    "tcxo": true,
-    "antenna": false
-   },
-   "image": "https://m.media-amazon.com/images/I/719zJqrduvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B079C3FHPG?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/rf-bridges.html#B079C3FHPG"
-  },
-  {
-   "rank": 8,
    "asin": "B009U7WZCA",
    "name": "Nooelec NESDR Mini USB RTL-SDR and ADS-B Receiver Set, RTL2832U and R820T Tuner",
    "brand": "Nooelec",
@@ -413,7 +366,7 @@
    "price": 44.95,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 1910,
+   "reviews_count": 1912,
    "score": 74,
    "awards": [],
    "works_with": [],
@@ -428,7 +381,7 @@
    "pros": [
     "Antenna included",
     "1-year warranty",
-    "1,910 reviews"
+    "1,912 reviews"
    ],
    "cons": [
     "No TCXO listed",
@@ -452,12 +405,59 @@
    "page_url": "https://themisreviews.com/rf-bridges.html#B009U7WZCA"
   },
   {
+   "rank": 8,
+   "asin": "B079C3FHPG",
+   "name": "Nooelec NESDR SMArTee v2 RTL-SDR with Bias Tee, 0.5 PPM TCXO, SMA Input, Aluminum Enclosure",
+   "brand": "Nooelec",
+   "model": "NESDR SMArTee v2",
+   "price": 49.95,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 401,
+   "score": 73,
+   "awards": [],
+   "works_with": [],
+   "works_with_note": "rtl_433 (DIY)",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": false,
+    "subscription": true
+   },
+   "bought_last_month": null,
+   "verdict": "An SDR with an always-on bias tee for powering an active outdoor antenna.",
+   "pros": [
+    "Always-on 4.5 V bias tee",
+    "2-year warranty",
+    "Slim enough to sit next to other USB devices"
+   ],
+   "cons": [
+    "Only 401 reviews",
+    "No antenna",
+    "Receive only"
+   ],
+   "specs": {
+    "type": "SDR receiver",
+    "rf": "Not stated in bullets",
+    "direction": "Receive only",
+    "extras": "Always-on bias tee, 0.5 PPM TCXO"
+   },
+   "features": {
+    "sends": false,
+    "ha": false,
+    "tcxo": true,
+    "antenna": false
+   },
+   "image": "https://m.media-amazon.com/images/I/719zJqrduvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B079C3FHPG?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/rf-bridges.html#B079C3FHPG"
+  },
+  {
    "rank": 9,
    "asin": "B0F29LWRS9",
    "name": "Wi-Fi Universal IR/RF Remote Hub, 433.92 MHz Fixed-Code Only",
    "brand": "Toyanc",
    "model": "Tuya IR/RF hub",
-   "price": 39.99,
+   "price": 37.99,
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 19,
@@ -513,7 +513,7 @@
    "model": "Wi-Fi IR/RF blaster",
    "price": 29.0,
    "currency": "USD",
-   "rating": 3.1,
+   "rating": 3.2,
    "reviews_count": 26,
    "flag": "Promises garage doors without the rolling-code caveat",
    "verdict": "It lists garage doors as a use, but never mentions that rolling-code garage remotes can't be copied, which the other RF hubs here state plainly.",
@@ -521,7 +521,7 @@
     "Garage doors are named in the title and bullets, with no mention of rolling codes.",
     "BroadLink and Toyanc both say rolling-code devices aren't supported, and most garage remotes made in the last 25 years use rolling codes.",
     "RF devices don't support voice control, per its own last bullet.",
-    "3.1 stars, the lowest of the RF hubs here."
+    "3.2 stars, the lowest of the RF hubs here."
    ],
    "works_with": [
     "Amazon Alexa",
@@ -548,6 +548,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

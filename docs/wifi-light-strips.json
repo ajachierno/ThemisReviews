@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Light strips",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,28 +38,28 @@
    "asin": "B0D7MKV1CK",
    "name": "Govee Strip Light 2 Pro (RGBWWIC)",
    "price": 69.99,
-   "why": "Highest score on the page (90): 4.4 stars from 635 reviews, $69.99."
+   "why": "Highest score on the page (90): 4.4 stars from 644 reviews, $69.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0DB69D1YJ",
    "name": "Cync GE Cync strip (Matter)",
    "price": 11.71,
-   "why": "Highest score (82) among the cheapest third of picks (up to $16.99 each): 4.4 stars from 697 reviews, $11.71."
+   "why": "Highest score (82) among the cheapest third of picks (up to $16.99 each): 4.4 stars from 707 reviews, $11.71."
   },
   {
    "label": "Best for Apple Home",
    "asin": "B0B2KY8X4M",
    "name": "Tapo L930-5 RGBWIC",
    "price": 27.99,
-   "why": "Highest score (84) among picks that work with Apple Home: 3.8 stars from 395 reviews, $27.99."
+   "why": "Highest score (84) among picks that work with Apple Home: 3.8 stars from 401 reviews, $27.99."
   },
   {
    "label": "Best Premium",
    "asin": "B09VBZC2CX",
    "name": "Govee RGBIC 100 ft (2 x 50 ft)",
    "price": 39.99,
-   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 7,593 reviews, $39.99."
+   "why": "Highest score (88) among the priciest third of picks: 4.4 stars from 7,642 reviews, $39.99."
   }
  ],
  "systems_note": "TP-Link (Kasa, Tapo) and Tuya/Smart Life strips also have official Home Assistant integrations. Two popular Govee RGBIC strips are left off because their listings say they don't support Wi-Fi.",
@@ -73,7 +73,7 @@
    "price": 69.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 635,
+   "reviews_count": 644,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -102,7 +102,7 @@
    ],
    "cons": [
     "$69.99",
-    "Only 635 reviews",
+    "Only 644 reviews",
     "16.4 ft"
    ],
    "specs": {
@@ -130,7 +130,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 7593,
+   "reviews_count": 7642,
    "score": 88,
    "awards": [
     "Best Premium"
@@ -145,7 +145,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "4K+ bought in past month",
+   "bought_last_month": "5K+ bought in past month",
    "verdict": "Multicolor RGBIC effects across 100 ft, split into two reels for two rooms or a big ceiling.",
    "pros": [
     "RGBIC multicolor effects",
@@ -176,6 +176,56 @@
   },
   {
    "rank": 3,
+   "asin": "B0BXNCRPS1",
+   "name": "Govee RGBIC LED Neon Rope Lights, 10ft Gaming Lights for Gaming Desks",
+   "brand": "Govee",
+   "model": "RGBIC Neon Rope 10 ft",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 988,
+   "score": 84,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Govee Home app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "200+ bought in past month",
+   "verdict": "A diffused neon rope with no hot spots, made for desks and gaming setups.",
+   "pros": [
+    "Smooth neon look, no dots",
+    "42 color segments",
+    "Alexa and Google"
+   ],
+   "cons": [
+    "$59.99 for 10 ft",
+    "Cut pieces can't be reused",
+    "Only 988 reviews"
+   ],
+   "specs": {
+    "length": "10 ft (cuttable)",
+    "color": "RGBIC, 42 segments",
+    "control": "Wi-Fi + Bluetooth, Alexa, Google",
+    "extras": "Glare-free neon diffusion"
+   },
+   "features": {
+    "multicolor": true,
+    "voice": true,
+    "white": false,
+    "long": false
+   },
+   "image": "https://m.media-amazon.com/images/I/713yIh9bdQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BXNCRPS1?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0BXNCRPS1"
+  },
+  {
+   "rank": 4,
    "asin": "B0B2KY8X4M",
    "name": "Tapo RGBWIC Smart LED Light Strip 16.4Ft, 1000 Lumens, L930-5",
    "brand": "Tapo",
@@ -183,7 +233,7 @@
    "price": 27.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 395,
+   "reviews_count": 401,
    "score": 84,
    "awards": [
     "Best for Apple Home"
@@ -200,7 +250,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "300+ bought in past month",
+   "bought_last_month": "400+ bought in past month",
    "verdict": "The strip for iPhone homes: bright white, 50 color zones, and Apple HomeKit support.",
    "pros": [
     "Apple HomeKit, Alexa, and Google",
@@ -225,59 +275,9 @@
     "white": true,
     "long": false
    },
-   "image": "https://m.media-amazon.com/images/I/813l+uyAt1L._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/71jusUZdSvL._AC_SL1276_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0B2KY8X4M?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-light-strips.html#B0B2KY8X4M"
-  },
-  {
-   "rank": 4,
-   "asin": "B0BXNCRPS1",
-   "name": "Govee RGBIC LED Neon Rope Lights, 10ft Gaming Lights for Gaming Desks",
-   "brand": "Govee",
-   "model": "RGBIC Neon Rope 10 ft",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 984,
-   "score": 83,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Govee Home app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A diffused neon rope with no hot spots, made for desks and gaming setups.",
-   "pros": [
-    "Smooth neon look, no dots",
-    "42 color segments",
-    "Alexa and Google"
-   ],
-   "cons": [
-    "$59.99 for 10 ft",
-    "Cut pieces can't be reused",
-    "Only 984 reviews"
-   ],
-   "specs": {
-    "length": "10 ft (cuttable)",
-    "color": "RGBIC, 42 segments",
-    "control": "Wi-Fi + Bluetooth, Alexa, Google",
-    "extras": "Glare-free neon diffusion"
-   },
-   "features": {
-    "multicolor": true,
-    "voice": true,
-    "white": false,
-    "long": false
-   },
-   "image": "https://m.media-amazon.com/images/I/713yIh9bdQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BXNCRPS1?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-light-strips.html#B0BXNCRPS1"
   },
   {
    "rank": 5,
@@ -288,7 +288,7 @@
    "price": 11.71,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 697,
+   "reviews_count": 707,
    "score": 82,
    "awards": [
     "Best Budget"
@@ -316,7 +316,7 @@
     "$11.71, 500+ bought in the past month"
    ],
    "cons": [
-    "Only 697 reviews",
+    "Only 707 reviews",
     "Length isn't in the bullets",
     "One color at a time"
    ],
@@ -345,7 +345,7 @@
    "price": 15.19,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 8468,
+   "reviews_count": 8474,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -395,7 +395,7 @@
    "price": 16.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 25361,
+   "reviews_count": 25363,
    "score": 80,
    "awards": [],
    "works_with": [
@@ -414,7 +414,7 @@
    "pros": [
     "Tuya / Smart Life app",
     "100 ft",
-    "25,361 reviews"
+    "25,363 reviews"
    ],
    "cons": [
     "RGB only",
@@ -433,7 +433,7 @@
     "white": false,
     "long": true
    },
-   "image": "https://m.media-amazon.com/images/I/71RVIaiGNbL._AC_SL1500_.jpg",
+   "image": "https://m.media-amazon.com/images/I/7130OJGDStL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08NP8WRJ9?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-light-strips.html#B08NP8WRJ9"
   },
@@ -446,7 +446,7 @@
    "price": 16.13,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 11657,
+   "reviews_count": 11658,
    "score": 80,
    "awards": [],
    "works_with": [
@@ -464,7 +464,7 @@
    "pros": [
     "100 ft for $16.13",
     "Alexa and Google",
-    "11,657 reviews"
+    "11,658 reviews"
    ],
    "cons": [
     "RGB only",
@@ -496,7 +496,7 @@
    "price": 18.98,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 62028,
+   "reviews_count": 62026,
    "score": 77,
    "awards": [],
    "works_with": [
@@ -512,7 +512,7 @@
    "bought_last_month": "2K+ bought in past month",
    "verdict": "The safe pick: the most-reviewed smart strip on Amazon, with voice control and music sync.",
    "pros": [
-    "62,028 reviews at 4.5 stars",
+    "62,026 reviews at 4.5 stars",
     "Alexa and Google",
     "Built-in mic for music sync",
     "$18.98"
@@ -547,7 +547,7 @@
    "price": 16.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 5196,
+   "reviews_count": 5199,
    "score": 76,
    "awards": [],
    "works_with": [
@@ -561,7 +561,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "400+ bought in past month",
+   "bought_last_month": "500+ bought in past month",
    "verdict": "A Kasa strip that slots into an existing Kasa plug and switch setup.",
    "pros": [
     "Kasa app with schedules and away mode",
@@ -606,6 +606,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

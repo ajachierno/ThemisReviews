@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Ceiling fans",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B0F1MVQ4HT",
    "name": "Lumary Smart Wi-Fi Ceiling Fan (low profile)",
    "price": 159.99,
-   "why": "Highest score on the page (95): 4.4 stars from 203 reviews, $159.99."
+   "why": "Highest score on the page (95): 4.4 stars from 206 reviews, $159.99."
   },
   {
    "label": "Best for Apple Home",
-   "asin": "B0GQGY896M",
-   "name": "Govee Ceiling Fan with RGBIC Light 52 in.",
-   "price": 159.99,
-   "why": "Highest score (90) among picks that work with Apple Home: 4.6 stars from 290 reviews, $159.99."
+   "asin": "B0GR3WJL89",
+   "name": "Linkind Matter Smart Ceiling Fan 52 in.",
+   "price": 123.49,
+   "why": "Highest score (92) among picks that work with Apple Home: 4.7 stars from 37 reviews, $123.49."
   }
  ],
  "systems_note": null,
@@ -59,7 +59,7 @@
    "price": 159.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 203,
+   "reviews_count": 206,
    "score": 95,
    "awards": [
     "Best Overall"
@@ -79,7 +79,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": null,
+   "bought_last_month": "50+ bought in past month",
    "verdict": "A flush-mount Matter fan with a reversible DC motor.",
    "pros": [
     "Matter",
@@ -88,7 +88,7 @@
    ],
    "cons": [
     "4.4 stars",
-    "Only 203 reviews",
+    "Only 206 reviews",
     "$159.99"
    ],
    "specs": {
@@ -109,6 +109,63 @@
   },
   {
    "rank": 2,
+   "asin": "B0GR3WJL89",
+   "name": "Linkind Matter 52\" Smart Ceiling Fan with Lights and Remote, Black",
+   "brand": "Linkind",
+   "model": "Matter Smart Ceiling Fan 52 in.",
+   "price": 123.49,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 37,
+   "score": 92,
+   "awards": [
+    "Best for Apple Home"
+   ],
+   "works_with": [
+    "Home Assistant",
+    "Apple Home",
+    "Google Home",
+    "Amazon Alexa",
+    "SmartThings",
+    "Hubitat Elevation",
+    "Homey Pro"
+   ],
+   "works_with_note": "AiDot app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "50+ bought in past month",
+   "verdict": "A highly rated Matter fan, though new to the market.",
+   "pros": [
+    "Matter",
+    "4.7 stars",
+    "Remote included"
+   ],
+   "cons": [
+    "Only 37 reviews",
+    "$123.49",
+    "Mount style isn't in the bullets"
+   ],
+   "specs": {
+    "size": "52 in.",
+    "mount": "Not stated in bullets",
+    "light": "LED",
+    "motor": "DC, reversible"
+   },
+   "features": {
+    "dc": true,
+    "voice": true,
+    "matter": true,
+    "reverse": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71igDtRxcXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR3WJL89?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0GR3WJL89"
+  },
+  {
+   "rank": 3,
    "asin": "B0GQGY896M",
    "name": "Govee Ceiling Fans with Lights and Remote, RGBIC Smart 52'' flush mount",
    "brand": "Govee",
@@ -116,11 +173,9 @@
    "price": 159.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 290,
+   "reviews_count": 307,
    "score": 90,
-   "awards": [
-    "Best for Apple Home"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -144,7 +199,7 @@
     "4.6 stars"
    ],
    "cons": [
-    "Only 290 reviews",
+    "Only 307 reviews",
     "$159.99",
     "Reverse isn't named in the bullets"
    ],
@@ -165,61 +220,6 @@
    "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0GQGY896M"
   },
   {
-   "rank": 3,
-   "asin": "B0GR3WJL89",
-   "name": "Linkind Matter 52\" Smart Ceiling Fan with Lights and Remote, Black",
-   "brand": "Linkind",
-   "model": "Matter Smart Ceiling Fan 52 in.",
-   "price": 123.49,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 32,
-   "score": 90,
-   "awards": [],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "AiDot app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "50+ bought in past month",
-   "verdict": "A highly rated Matter fan, though new to the market.",
-   "pros": [
-    "Matter",
-    "4.6 stars",
-    "Remote included"
-   ],
-   "cons": [
-    "Only 32 reviews",
-    "$123.49",
-    "Mount style isn't in the bullets"
-   ],
-   "specs": {
-    "size": "52 in.",
-    "mount": "Not stated in bullets",
-    "light": "LED",
-    "motor": "DC, reversible"
-   },
-   "features": {
-    "dc": true,
-    "voice": true,
-    "matter": true,
-    "reverse": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71igDtRxcXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR3WJL89?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0GR3WJL89"
-  },
-  {
    "rank": 4,
    "asin": "B0FK9P8FKZ",
    "name": "Sofucor 52 Inch Smart Ceiling Fans with Lights, Low Profile Flush Mount",
@@ -228,7 +228,7 @@
    "price": 123.49,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1959,
+   "reviews_count": 1968,
    "score": 89,
    "awards": [],
    "works_with": [
@@ -243,7 +243,7 @@
    "bought_last_month": "50+ bought in past month",
    "verdict": "A popular flush-mount fan for low ceilings.",
    "pros": [
-    "1,959 reviews",
+    "1,968 reviews",
     "Reversible DC motor",
     "$123.49"
    ],
@@ -270,6 +270,56 @@
   },
   {
    "rank": 5,
+   "asin": "B0CN38CD5J",
+   "name": "Sofucor 52 Inch Smart Ceiling Fan with Light, 5 ABS Blades",
+   "brand": "Sofucor",
+   "model": "Smart Ceiling Fan 52 in. (5 blades)",
+   "price": 128.24,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1639,
+   "score": 88,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home"
+   ],
+   "works_with_note": "Companion app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "A downrod version with Alexa and Google.",
+   "pros": [
+    "Alexa and Google",
+    "Reversible",
+    "1,639 reviews"
+   ],
+   "cons": [
+    "4.4 stars",
+    "$128.24",
+    "No Matter"
+   ],
+   "specs": {
+    "size": "52 in.",
+    "mount": "Downrod",
+    "light": "LED",
+    "motor": "DC, reversible"
+   },
+   "features": {
+    "dc": true,
+    "voice": true,
+    "matter": false,
+    "reverse": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61h8EI5ugML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CN38CD5J?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0CN38CD5J"
+  },
+  {
+   "rank": 6,
    "asin": "B0D65VQMZR",
    "name": "DREO Smart RGBIC Ceiling Fan with Lights, Low Profile, 52 Inch, Dimmable, Alexa/App, 25dB Quiet, Black",
    "brand": "Dreo",
@@ -277,7 +327,7 @@
    "price": 186.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 653,
+   "reviews_count": 668,
    "score": 88,
    "awards": [],
    "works_with": [
@@ -318,56 +368,6 @@
    "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0D65VQMZR"
   },
   {
-   "rank": 6,
-   "asin": "B0CN38CD5J",
-   "name": "Sofucor 52 Inch Smart Ceiling Fan with Light, 5 ABS Blades",
-   "brand": "Sofucor",
-   "model": "Smart Ceiling Fan 52 in. (5 blades)",
-   "price": 128.24,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1196,
-   "score": 87,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home"
-   ],
-   "works_with_note": "Companion app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "A downrod version with Alexa and Google.",
-   "pros": [
-    "Alexa and Google",
-    "Reversible",
-    "1,196 reviews"
-   ],
-   "cons": [
-    "4.3 stars",
-    "$128.24",
-    "No Matter"
-   ],
-   "specs": {
-    "size": "52 in.",
-    "mount": "Downrod",
-    "light": "LED",
-    "motor": "DC, reversible"
-   },
-   "features": {
-    "dc": true,
-    "voice": true,
-    "matter": false,
-    "reverse": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61h8EI5ugML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CN38CD5J?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-ceiling-fans.html#B0CN38CD5J"
-  },
-  {
    "rank": 7,
    "asin": "B0D7ZL3Z5T",
    "name": "DREO Ceiling Fans with Lights, 44'', RGBIC Flush Mount Smart Ceiling Fan",
@@ -376,7 +376,7 @@
    "price": 169.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 567,
+   "reviews_count": 574,
    "score": 84,
    "awards": [],
    "works_with": [
@@ -426,7 +426,7 @@
    "price": 189.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1138,
+   "reviews_count": 1152,
    "score": 83,
    "awards": [],
    "works_with": [
@@ -476,7 +476,7 @@
    "price": 135.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 1084,
+   "reviews_count": 1085,
    "score": 80,
    "awards": [],
    "works_with": [
@@ -493,7 +493,7 @@
    "verdict": "A wood-blade flush mount with Alexa and Google.",
    "pros": [
     "Wood finish",
-    "1,084 reviews",
+    "1,085 reviews",
     "Alexa and Google"
    ],
    "cons": [
@@ -526,7 +526,7 @@
    "price": 89.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 457,
+   "reviews_count": 465,
    "score": 78,
    "awards": [],
    "works_with": [
@@ -549,7 +549,7 @@
    "cons": [
     "42 in.",
     "Motor type isn't in the bullets",
-    "Only 457 reviews"
+    "Only 465 reviews"
    ],
    "specs": {
     "size": "42 in.",
@@ -584,6 +584,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "New Best for Apple Home: Linkind Matter Smart Ceiling Fan 52 in..",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

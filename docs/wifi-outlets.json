@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "In-wall outlets",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B0DLLQR3K7",
    "name": "Tapo P210M",
    "price": 17.99,
-   "why": "Highest score on the page (90): 4.4 stars from 430 reviews, $17.99."
+   "why": "Highest score on the page (90): 4.4 stars from 438 reviews, $17.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0C741MSY2",
    "name": "TOPELER Smart wall outlet",
    "price": 11.99,
-   "why": "Highest score (75) among the cheapest third of picks (up to $13.33 each): 4.3 stars from 282 reviews, $11.99."
+   "why": "Highest score (75) among the cheapest third of picks (up to $13.33 each): 4.3 stars from 283 reviews, $11.99."
   },
   {
    "label": "Best With Energy Monitoring",
@@ -59,7 +59,7 @@
    "asin": "B0DR3BNNLM",
    "name": "Leviton Decora D215R (2nd Gen)",
    "price": 26.19,
-   "why": "Highest score (76) among picks that work with Apple Home: 4.5 stars from 127 reviews, $26.19."
+   "why": "Highest score (77) among picks that work with Apple Home: 4.6 stars from 132 reviews, $26.19."
   }
  ],
  "systems_note": "Kasa and Tapo outlets have an official TP-Link integration in Home Assistant. Smart Life (Tuya) outlets work with Home Assistant's Tuya integration.",
@@ -73,7 +73,7 @@
    "price": 17.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 430,
+   "reviews_count": 438,
    "score": 90,
    "awards": [
     "Best Overall"
@@ -93,7 +93,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "1K+ bought in past month",
    "verdict": "Energy monitoring and Matter in an in-wall outlet for $17.99.",
    "pros": [
     "Matter certified",
@@ -102,7 +102,7 @@
    ],
    "cons": [
     "Neutral required",
-    "Only 430 reviews",
+    "Only 438 reviews",
     "4.4 stars"
    ],
    "specs": {
@@ -129,7 +129,7 @@
    "price": 20.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 338,
+   "reviews_count": 341,
    "score": 82,
    "awards": [],
    "works_with": [
@@ -179,7 +179,7 @@
    "price": 15.29,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 471,
+   "reviews_count": 472,
    "score": 81,
    "awards": [],
    "works_with": [
@@ -229,7 +229,7 @@
    "price": 14.73,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 7811,
+   "reviews_count": 7825,
    "score": 78,
    "awards": [],
    "works_with": [
@@ -247,7 +247,7 @@
    "verdict": "The proven in-wall outlet: two sockets you can name and control separately.",
    "pros": [
     "Each socket controlled separately",
-    "4.6 stars from 7,811 reviews",
+    "4.6 stars from 7,825 reviews",
     "Away mode",
     "Home Assistant integration"
    ],
@@ -273,63 +273,15 @@
   },
   {
    "rank": 5,
-   "asin": "B094YN5VZH",
-   "name": "Amazon Basics Smart In-Wall Outlet, Wi-Fi, 15 A, 2 Individually Controlled Outlets, Works with Alexa",
-   "brand": "Amazon Basics",
-   "model": "Smart In-Wall Outlet",
-   "price": 16.79,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1430,
-   "score": 76,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "400+ bought in past month",
-   "verdict": "Amazon's own in-wall outlet. It works with Alexa and nothing else.",
-   "pros": [
-    "$16.79",
-    "Guided install video",
-    "4.4 stars from 1,430 reviews"
-   ],
-   "cons": [
-    "Alexa only",
-    "Needs a 2-inch-deep box and neutral",
-    "No app outside Alexa"
-   ],
-   "specs": {
-    "controlled": "2, individually",
-    "extras": "15 A",
-    "radio": "2.4 GHz Wi-Fi"
-   },
-   "features": {
-    "independent": true,
-    "energy": false,
-    "big_platforms": false,
-    "usb": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71E8kyucaAL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B094YN5VZH?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-outlets.html#B094YN5VZH"
-  },
-  {
-   "rank": 6,
    "asin": "B0DR3BNNLM",
    "name": "Leviton Decora Smart Outlet, 15A, Wi-Fi 2nd Gen, D215R-1RW, White",
    "brand": "Leviton",
    "model": "Decora D215R (2nd Gen)",
    "price": 26.19,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 127,
-   "score": 76,
+   "rating": 4.6,
+   "reviews_count": 132,
+   "score": 77,
    "awards": [
     "Best for Apple Home"
    ],
@@ -355,7 +307,7 @@
    ],
    "cons": [
     "One switched socket",
-    "Only 127 reviews",
+    "Only 132 reviews",
     "Sold by a reseller"
    ],
    "specs": {
@@ -374,6 +326,54 @@
    "page_url": "https://themisreviews.com/wifi-outlets.html#B0DR3BNNLM"
   },
   {
+   "rank": 6,
+   "asin": "B094YN5VZH",
+   "name": "Amazon Basics Smart In-Wall Outlet, Wi-Fi, 15 A, 2 Individually Controlled Outlets, Works with Alexa",
+   "brand": "Amazon Basics",
+   "model": "Smart In-Wall Outlet",
+   "price": 16.79,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1438,
+   "score": 76,
+   "awards": [],
+   "works_with": [
+    "Amazon Alexa"
+   ],
+   "works_with_note": null,
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "500+ bought in past month",
+   "verdict": "Amazon's own in-wall outlet. It works with Alexa and nothing else.",
+   "pros": [
+    "$16.79",
+    "Guided install video",
+    "4.4 stars from 1,438 reviews"
+   ],
+   "cons": [
+    "Alexa only",
+    "Needs a 2-inch-deep box and neutral",
+    "No app outside Alexa"
+   ],
+   "specs": {
+    "controlled": "2, individually",
+    "extras": "15 A",
+    "radio": "2.4 GHz Wi-Fi"
+   },
+   "features": {
+    "independent": true,
+    "energy": false,
+    "big_platforms": false,
+    "usb": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71E8kyucaAL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B094YN5VZH?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-outlets.html#B094YN5VZH"
+  },
+  {
    "rank": 7,
    "asin": "B0C741MSY2",
    "name": "Smart Wall Outlet with 2 Individually Controlled Ports, 15 A Tamper-Resistant, 2.4 GHz Wi-Fi, Alexa and Google Home",
@@ -382,7 +382,7 @@
    "price": 11.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 282,
+   "reviews_count": 283,
    "score": 75,
    "awards": [
     "Best Budget"
@@ -403,7 +403,7 @@
    "pros": [
     "$11.99",
     "Tamper-resistant receptacle",
-    "4.3 stars from 282 reviews"
+    "4.3 stars from 283 reviews"
    ],
    "cons": [
     "2.4 GHz only",
@@ -542,6 +542,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

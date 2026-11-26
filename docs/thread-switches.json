@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#thread"
  },
  "product_type": "Light switches",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -41,24 +41,24 @@
   },
   {
    "label": "Best Budget",
-   "asin": "B0DN1H69ZP",
-   "name": "Aqara H2 switch (1 channel)",
-   "price": 35.99,
-   "why": "Highest score (76) among the cheapest third of picks (up to $35.99 each): 3.8 stars from 75 reviews, $35.99."
+   "asin": "B0DCK65T2Y",
+   "name": "Eve Light Switch (Matter)",
+   "price": 39.95,
+   "why": "Highest score (69) among the cheapest third of picks (up to $39.95 each): 3.9 stars from 85 reviews, $39.95."
   },
   {
    "label": "Best for No-Neutral Boxes",
-   "asin": "B0F2N68K3C",
-   "name": "Aqara H2 dimmer",
-   "price": 39.99,
-   "why": "Highest score of the picks that fit this award (76): 3.9 stars from 64 reviews, $39.99."
+   "asin": "B0DN1H69ZP",
+   "name": "Aqara H2 switch (1 channel)",
+   "price": 49.99,
+   "why": "Highest score of the picks that fit this award (76): 3.8 stars from 75 reviews, $49.99."
   },
   {
    "label": "Best Thread Dimmer",
-   "asin": "B0F18PM6JK",
-   "name": "Eve Dimmer Switch (Matter)",
-   "price": 44.95,
-   "why": "Highest score (62) among picks marked Yes for Dimming: 3.4 stars from 57 reviews, $44.95."
+   "asin": "B0F2N68K3C",
+   "name": "Aqara H2 dimmer",
+   "price": 39.99,
+   "why": "Highest score (76) among picks marked Yes for Dimming: 3.9 stars from 64 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -125,13 +125,13 @@
    "name": "Aqara Smart Light Switch H2 (2-in-1 Neutral, 2 Buttons, 1 Channel)",
    "brand": "Aqara",
    "model": "H2 switch (1 channel)",
-   "price": 35.99,
+   "price": 49.99,
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 75,
    "score": 76,
    "awards": [
-    "Best Budget"
+    "Best for No-Neutral Boxes"
    ],
    "works_with": [
     "Home Assistant",
@@ -189,7 +189,7 @@
    "reviews_count": 64,
    "score": 76,
    "awards": [
-    "Best for No-Neutral Boxes"
+    "Best Thread Dimmer"
    ],
    "works_with": [
     "Home Assistant",
@@ -246,7 +246,9 @@
    "rating": 3.9,
    "reviews_count": 85,
    "score": 69,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -302,9 +304,7 @@
    "rating": 3.4,
    "reviews_count": 57,
    "score": 62,
-   "awards": [
-    "Best Thread Dimmer"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -395,6 +395,15 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "New Best Budget: Eve Light Switch (Matter).",
+    "New Best for No-Neutral Boxes: Aqara H2 switch (1 channel).",
+    "New Best Thread Dimmer: Aqara H2 dimmer.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

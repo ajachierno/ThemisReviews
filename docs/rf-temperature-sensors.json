@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#433-mhz-rf"
  },
  "product_type": "Temperature sensors",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,14 +38,14 @@
    "asin": "B09R1TP7HF",
    "name": "Geevon Indoor/outdoor thermometer (3 sensors)",
    "price": 22.79,
-   "why": "Highest score on the page (89): 4.3 stars from 2,793 reviews, $22.79."
+   "why": "Highest score on the page (89): 4.3 stars from 2,825 reviews, $22.79."
   },
   {
    "label": "Best Multi-Room Kit",
    "asin": "B0DQPT4BP1",
    "name": "TempPro TempAir 500 FT (3 sensors)",
    "price": 28.49,
-   "why": "Highest score of the picks that fit this award (89): 4.3 stars from 84 reviews, $28.49."
+   "why": "Highest score of the picks that fit this award (87): 4.0 stars from 98 reviews, $28.49."
   }
  ],
  "systems_note": "These sensors talk to their own displays and don't connect to smart home platforms. Home Assistant users can read many of them with a USB SDR receiver and rtl_433, but that isn't supported by the makers.",
@@ -59,7 +59,7 @@
    "price": 22.79,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 2793,
+   "reviews_count": 2825,
    "score": 89,
    "awards": [
     "Best Overall"
@@ -77,7 +77,7 @@
     "3 sensors included",
     "433 MHz stated in the listing",
     "Max/min and alarm functions",
-    "2,793 reviews"
+    "2,825 reviews"
    ],
    "cons": [
     "200 ft. range",
@@ -109,9 +109,9 @@
    "model": "TempAir 500 FT (3 sensors)",
    "price": 28.49,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 84,
-   "score": 89,
+   "rating": 4.0,
+   "reviews_count": 98,
+   "score": 87,
    "awards": [
     "Best Multi-Room Kit"
    ],
@@ -122,7 +122,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "500+ bought in past month",
+   "bought_last_month": "900+ bought in past month",
    "verdict": "The three-sensor version, with alerts and ±0.5°F stated accuracy.",
    "pros": [
     "3 waterproof sensors",
@@ -130,7 +130,7 @@
     "Out-of-range alerts on the display"
    ],
    "cons": [
-    "Only 84 reviews",
+    "Only 98 reviews",
     "$28.49",
     "Frequency isn't stated"
    ],
@@ -160,7 +160,7 @@
    "price": 17.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 36216,
+   "reviews_count": 36291,
    "score": 85,
    "awards": [],
    "works_with": [],
@@ -170,11 +170,11 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "7K+ bought in past month",
+   "bought_last_month": "8K+ bought in past month",
    "verdict": "The most popular indoor-outdoor thermometer, with a long 500 ft. range.",
    "pros": [
     "500 ft. range",
-    "36,216 reviews, 7K+ bought in the past month",
+    "36,291 reviews, 7K+ bought in the past month",
     "Min/max records and trend arrows",
     "$17.99"
    ],
@@ -209,7 +209,7 @@
    "price": 20.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 2314,
+   "reviews_count": 2342,
    "score": 81,
    "awards": [],
    "works_with": [],
@@ -257,7 +257,7 @@
    "price": 17.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 12126,
+   "reviews_count": 12137,
    "score": 79,
    "awards": [],
    "works_with": [],
@@ -270,7 +270,7 @@
    "bought_last_month": "2K+ bought in past month",
    "verdict": "The replacement sensor for most AcuRite weather stations, with an A-B-C channel switch.",
    "pros": [
-    "4.6 stars from 12,126 reviews",
+    "4.6 stars from 12,137 reviews",
     "A-B-C channel switch",
     "Sold by Amazon"
    ],
@@ -313,6 +313,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Blinds and shades",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,14 +37,14 @@
    "asin": "B0BNHQJ95L",
    "name": "SwitchBot Blind Tilt 3-pack + Hub Mini",
    "price": 129.99,
-   "why": "Highest score on the page (85): 4.4 stars from 829 reviews, $129.99."
+   "why": "Highest score on the page (85): 4.4 stars from 833 reviews, $129.99."
   },
   {
    "label": "Best Budget Motor",
-   "asin": "B0CSFCCQC6",
-   "name": "Sortfle Wi-Fi tubular motor (1.5\")",
-   "price": 63.9,
-   "why": "Highest score (76) among the cheapest third of picks (up to $99.00 each): 5.0 stars from 9 reviews, $63.90."
+   "asin": "B0H6ZQ6WVN",
+   "name": "Aura SmartShade beaded-chain motor",
+   "price": 99.0,
+   "why": "Highest score (76) among the cheapest third of picks (up to $99.00 each): 3.8 stars from 33 reviews, $99.00."
   }
  ],
  "systems_note": "SwitchBot Blind Tilt is Bluetooth; the included Hub Mini puts it on Wi-Fi. Smart Life (Tuya) devices work with Home Assistant's Tuya integration.",
@@ -58,7 +58,7 @@
    "price": 129.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 829,
+   "reviews_count": 833,
    "score": 85,
    "awards": [
     "Best Overall"
@@ -75,12 +75,12 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "The easiest way to automate the horizontal blinds you already own.",
    "pros": [
     "Hub included",
     "Solar charging",
-    "829 reviews"
+    "833 reviews"
    ],
    "cons": [
     "Tilt only, doesn't raise blinds",
@@ -110,7 +110,7 @@
    "price": 121.97,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 34,
+   "reviews_count": 36,
    "score": 84,
    "awards": [],
    "works_with": [
@@ -128,7 +128,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "The Pro version mounts on the ceiling or wall for patio doors and wide windows.",
    "pros": [
     "Ceiling or wall mount",
@@ -136,7 +136,7 @@
     "No cutting needed"
    ],
    "cons": [
-    "Only 34 reviews",
+    "Only 36 reviews",
     "$121.97",
     "2.4 GHz Wi-Fi"
    ],
@@ -163,7 +163,7 @@
    "price": 104.48,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 61,
+   "reviews_count": 63,
    "score": 83,
    "awards": [],
    "works_with": [
@@ -181,7 +181,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "A Matter curtain track that adds straight to Apple Home, Alexa, or Google.",
    "pros": [
     "Apple Home certified",
@@ -191,7 +191,7 @@
    ],
    "cons": [
     "$104.48",
-    "Only 61 reviews",
+    "Only 63 reviews",
     "Replaces your curtain rod"
    ],
    "specs": {
@@ -210,6 +210,57 @@
   },
   {
    "rank": 4,
+   "asin": "B0H6ZQ6WVN",
+   "name": "Aura SmartShade Motor for Beaded-Chain Roller Shades, WiFi Dongle Included",
+   "brand": "Aura",
+   "model": "SmartShade beaded-chain motor",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 33,
+   "score": 76,
+   "awards": [
+    "Best Budget Motor"
+   ],
+   "works_with": [
+    "Amazon Alexa",
+    "Google Home",
+    "Home Assistant"
+   ],
+   "works_with_note": "Smart Life",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "100+ bought in past month",
+   "verdict": "Motorizes beaded-chain roller and zebra shades without replacing them.",
+   "pros": [
+    "Keeps your existing shades",
+    "No hub or subscription",
+    "100+ bought in the past month"
+   ],
+   "cons": [
+    "3.8 stars from 33 reviews",
+    "Shades up to 6.6 lb",
+    "Dongle must stay plugged in"
+   ],
+   "specs": {
+    "type": "Retrofit motor for beaded-chain shades",
+    "power": "Not stated in bullets",
+    "hub": "None (Wi-Fi dongle included)"
+   },
+   "features": {
+    "no_hub": true,
+    "apple": false,
+    "retrofit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71euYNisPwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H6ZQ6WVN?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-blinds.html#B0H6ZQ6WVN"
+  },
+  {
+   "rank": 5,
    "asin": "B0CSFCCQC6",
    "name": "Smart Blinds Motor | WiFi Tubular Motor for Motorized Roller Shade，Windows Shade，Roller Blinds, Suitable for 1-1/2\" (38mm) Diameter Tube - Only Motor",
    "brand": "Sortfle",
@@ -219,9 +270,7 @@
    "rating": 5.0,
    "reviews_count": 9,
    "score": 76,
-   "awards": [
-    "Best Budget Motor"
-   ],
+   "awards": [],
    "works_with": [
     "Amazon Alexa",
     "Google Home",
@@ -258,55 +307,6 @@
    "image": "https://m.media-amazon.com/images/I/51dKRacpbfL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CSFCCQC6?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/wifi-blinds.html#B0CSFCCQC6"
-  },
-  {
-   "rank": 5,
-   "asin": "B0H6ZQ6WVN",
-   "name": "Aura SmartShade Motor for Beaded-Chain Roller Shades, WiFi Dongle Included",
-   "brand": "Aura",
-   "model": "SmartShade beaded-chain motor",
-   "price": 99.0,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 32,
-   "score": 75,
-   "awards": [],
-   "works_with": [
-    "Amazon Alexa",
-    "Google Home",
-    "Home Assistant"
-   ],
-   "works_with_note": "Smart Life",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "100+ bought in past month",
-   "verdict": "Motorizes beaded-chain roller and zebra shades without replacing them.",
-   "pros": [
-    "Keeps your existing shades",
-    "No hub or subscription",
-    "100+ bought in the past month"
-   ],
-   "cons": [
-    "3.8 stars from 32 reviews",
-    "Shades up to 6.6 lb",
-    "Dongle must stay plugged in"
-   ],
-   "specs": {
-    "type": "Retrofit motor for beaded-chain shades",
-    "power": "Not stated in bullets",
-    "hub": "None (Wi-Fi dongle included)"
-   },
-   "features": {
-    "no_hub": true,
-    "apple": false,
-    "retrofit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71euYNisPwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H6ZQ6WVN?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-blinds.html#B0H6ZQ6WVN"
   }
  ],
  "avoid": [],
@@ -325,6 +325,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "New Best Budget Motor: Aura SmartShade beaded-chain motor.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

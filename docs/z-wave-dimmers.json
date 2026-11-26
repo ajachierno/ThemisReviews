@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#z-wave"
  },
  "product_type": "Dimmers",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -42,10 +42,10 @@
   },
   {
    "label": "Best Budget",
-   "asin": "B0D2DQXBC2",
-   "name": "Leviton ZW6HD-1RW",
-   "price": 37.22,
-   "why": "Highest score (69) among the cheapest third of picks (up to $37.22 each): 4.2 stars from 109 reviews, $37.22."
+   "asin": "B0G1NB8ZFD",
+   "name": "Enbrighten 800 Series LR dimmer, toggle",
+   "price": 35.99,
+   "why": "Highest score (77) among the cheapest third of picks (up to $35.99 each): 4.2 stars from 29 reviews, $35.99."
   }
  ],
  "systems_note": null,
@@ -167,7 +167,7 @@
    "name": "UltraPro Z-Wave Long Range Dimmer Switch, 800 Series, Paddle, 1 Pack",
    "brand": "UltraPro",
    "model": "800 Series LR dimmer, paddle",
-   "price": 38.35,
+   "price": 38.74,
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 47,
@@ -221,12 +221,14 @@
    "name": "Enbrighten Z-Wave Long Range Dimmer Switch, 800 Series, Toggle",
    "brand": "Enbrighten",
    "model": "800 Series LR dimmer, toggle",
-   "price": 37.99,
+   "price": 35.99,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 29,
    "score": 77,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -274,7 +276,7 @@
    "name": "Enbrighten Z-Wave Long Range Dimmer Switch, 800 Series, Paddle",
    "brand": "Enbrighten",
    "model": "800 Series LR dimmer, paddle",
-   "price": 39.99,
+   "price": 35.99,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 26,
@@ -333,9 +335,7 @@
    "rating": 4.2,
    "reviews_count": 109,
    "score": 69,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [
     "Home Assistant",
     "SmartThings",
@@ -654,6 +654,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "New Best Budget: Enbrighten 800 Series LR dimmer, toggle.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

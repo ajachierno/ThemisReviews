@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Humidifiers",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,21 +38,21 @@
    "asin": "B0DT48R3BR",
    "name": "Dreo HM717S Smart Humidifier 8L",
    "price": 94.93,
-   "why": "Highest score on the page (96): 4.5 stars from 1,008 reviews, $94.93."
+   "why": "Highest score on the page (96): 4.5 stars from 1,028 reviews, $94.93."
   },
   {
    "label": "Best Budget",
    "asin": "B0DHRD584W",
    "name": "GoveeLife Smart Humidifier 6L",
    "price": 56.98,
-   "why": "Highest score (96) among the cheapest third of picks (up to $56.98 each): 4.5 stars from 592 reviews, $56.98."
+   "why": "Highest score (95) among the cheapest third of picks (up to $56.98 each): 4.4 stars from 600 reviews, $56.98."
   },
   {
    "label": "Best for Large Rooms",
    "asin": "B095KGXPW5",
    "name": "Levoit LV600S (warm and cool)",
    "price": 93.49,
-   "why": "Highest score of the picks that fit this award (88): 4.4 stars from 45,453 reviews, $93.49."
+   "why": "Highest score of the picks that fit this award (88): 4.4 stars from 45,436 reviews, $93.49."
   }
  ],
  "systems_note": "Levoit (VeSync) humidifiers work with Home Assistant's official VeSync integration; their listings here don't name Alexa or Google.",
@@ -66,7 +66,7 @@
    "price": 94.93,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1008,
+   "reviews_count": 1028,
    "score": 96,
    "awards": [
     "Best Overall"
@@ -81,7 +81,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "The large-room pick: 8 liters, warm or cool, and voice control.",
    "pros": [
     "80-hour runtime",
@@ -90,7 +90,7 @@
    ],
    "cons": [
     "$94.93",
-    "Only 1,008 reviews",
+    "Only 1,028 reviews",
     "Large footprint"
    ],
    "specs": {
@@ -117,9 +117,9 @@
    "model": "Smart Humidifier 6L",
    "price": 56.98,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 592,
-   "score": 96,
+   "rating": 4.4,
+   "reviews_count": 600,
+   "score": 95,
    "awards": [
     "Best Budget"
    ],
@@ -136,12 +136,12 @@
    "bought_last_month": "200+ bought in past month",
    "verdict": "Warm or cool mist, auto humidity, and voice control in one.",
    "pros": [
-    "4.5 stars",
+    "4.4 stars",
     "Warm and cool mist",
     "Alexa and Google"
    ],
    "cons": [
-    "Only 592 reviews",
+    "Only 600 reviews",
     "$56.98",
     "Govee Home app"
    ],
@@ -170,7 +170,7 @@
    "price": 93.49,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 45453,
+   "reviews_count": 45436,
    "score": 88,
    "awards": [
     "Best for Large Rooms"
@@ -184,12 +184,12 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "3K+ bought in past month",
+   "bought_last_month": "4K+ bought in past month",
    "verdict": "Levoit's warm-and-cool large-room model.",
    "pros": [
     "Warm and cool mist",
     "Auto humidity",
-    "45,453 reviews"
+    "45,436 reviews"
    ],
    "cons": [
     "$93.49",
@@ -221,7 +221,7 @@
    "price": 75.91,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 4464,
+   "reviews_count": 4513,
    "score": 87,
    "awards": [],
    "works_with": [],
@@ -236,7 +236,7 @@
    "pros": [
     "Warm and cool mist",
     "Auto humidity",
-    "4,464 reviews"
+    "4,513 reviews"
    ],
    "cons": [
     "Voice control isn't in the bullets",
@@ -261,6 +261,55 @@
   },
   {
    "rank": 5,
+   "asin": "B0GR9DHR8W",
+   "name": "Levoit Evaporative Humidifiers for Bedroom, 19dB, Superior Studio Smart",
+   "brand": "Levoit",
+   "model": "Superior Studio Evaporative",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 4228,
+   "score": 83,
+   "awards": [],
+   "works_with": [
+    "Home Assistant"
+   ],
+   "works_with_note": "VeSync app",
+   "works_without": {
+    "neutral_wire": false,
+    "hub": true,
+    "subscription": true
+   },
+   "bought_last_month": "5K+ bought in past month",
+   "verdict": "Evaporative humidifying with no white dust, at a whisper-quiet 19 dB.",
+   "pros": [
+    "Evaporative, no white dust",
+    "19 dB",
+    "3K+ bought in the past month"
+   ],
+   "cons": [
+    "$109.99",
+    "Wick filters to replace",
+    "Only 4,228 reviews"
+   ],
+   "specs": {
+    "tank": "Not stated in bullets",
+    "coverage": "Up to 600 sq. ft.",
+    "mist": "Evaporative",
+    "auto": "Yes"
+   },
+   "features": {
+    "auto": true,
+    "voice": false,
+    "warm": false,
+    "big": true
+   },
+   "image": "https://m.media-amazon.com/images/I/813qus9DBCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR9DHR8W?tag=themisreviews-20&linkCode=ll1",
+   "page_url": "https://themisreviews.com/wifi-humidifiers.html#B0GR9DHR8W"
+  },
+  {
+   "rank": 6,
    "asin": "B0GZWKMDLF",
    "name": "DREO 11L Smart Humidifier Large Room 700 ft², 100H Runtime, 21dB Quiet 747S",
    "brand": "Dreo",
@@ -268,7 +317,7 @@
    "price": 94.96,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 190,
+   "reviews_count": 179,
    "score": 83,
    "awards": [],
    "works_with": [],
@@ -278,7 +327,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "1K+ bought in past month",
+   "bought_last_month": "2K+ bought in past month",
    "verdict": "The biggest tank here, for open-plan spaces.",
    "pros": [
     "11 L, 100-hour runtime",
@@ -286,7 +335,7 @@
     "1K+ bought in the past month"
    ],
    "cons": [
-    "Only 190 reviews",
+    "Only 179 reviews",
     "Voice control isn't in the bullets",
     "$94.96"
    ],
@@ -307,7 +356,7 @@
    "page_url": "https://themisreviews.com/wifi-humidifiers.html#B0GZWKMDLF"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0GR99R7XD",
    "name": "Levoit Humidifiers for Bedroom Large Room, 6.2L Tank, Smart App, Quiet 26dB",
    "brand": "Levoit",
@@ -315,7 +364,7 @@
    "price": 64.57,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 45364,
+   "reviews_count": 45436,
    "score": 82,
    "awards": [],
    "works_with": [
@@ -327,7 +376,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "7K+ bought in past month",
+   "bought_last_month": "8K+ bought in past month",
    "verdict": "A big-tank Levoit for living rooms, at 26 dB.",
    "pros": [
     "6.2 L tank",
@@ -356,55 +405,6 @@
    "page_url": "https://themisreviews.com/wifi-humidifiers.html#B0GR99R7XD"
   },
   {
-   "rank": 7,
-   "asin": "B0GR9DHR8W",
-   "name": "Levoit Evaporative Humidifiers for Bedroom, 19dB, Superior Studio Smart",
-   "brand": "Levoit",
-   "model": "Superior Studio Evaporative",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 26838,
-   "score": 82,
-   "awards": [],
-   "works_with": [
-    "Home Assistant"
-   ],
-   "works_with_note": "VeSync app",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": true,
-    "subscription": true
-   },
-   "bought_last_month": "3K+ bought in past month",
-   "verdict": "Evaporative humidifying with no white dust, at a whisper-quiet 19 dB.",
-   "pros": [
-    "Evaporative, no white dust",
-    "19 dB",
-    "3K+ bought in the past month"
-   ],
-   "cons": [
-    "$109.99",
-    "Wick filters to replace",
-    "Only 26,838 reviews"
-   ],
-   "specs": {
-    "tank": "Not stated in bullets",
-    "coverage": "Up to 600 sq. ft.",
-    "mist": "Evaporative",
-    "auto": "Yes"
-   },
-   "features": {
-    "auto": true,
-    "voice": false,
-    "warm": false,
-    "big": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81nt83Sft4L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR9DHR8W?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/wifi-humidifiers.html#B0GR9DHR8W"
-  },
-  {
    "rank": 8,
    "asin": "B0BT93MJ4G",
    "name": "GoveeLife Smart Humidifiers for Bedroom, 3L Top Fill Cool Mist Humidifier",
@@ -413,7 +413,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 3632,
+   "reviews_count": 3658,
    "score": 80,
    "awards": [],
    "works_with": [
@@ -426,7 +426,7 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "2K+ bought in past month",
+   "bought_last_month": "4K+ bought in past month",
    "verdict": "A cheap top-fill humidifier with auto humidity and voice control.",
    "pros": [
     "$29.99",
@@ -460,10 +460,10 @@
    "name": "Levoit 3L Dual 200S Smart Humidifiers for Bedroom, Top Fill, Quiet, Blue",
    "brand": "Levoit",
    "model": "Dual 200S (3L)",
-   "price": 49.99,
+   "price": 42.49,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 64424,
+   "reviews_count": 64711,
    "score": 76,
    "awards": [],
    "works_with": [
@@ -475,17 +475,17 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "700+ bought in past month",
+   "bought_last_month": "900+ bought in past month",
    "verdict": "The most-reviewed smart humidifier, with an auto mode.",
    "pros": [
-    "64,424 reviews",
+    "64,711 reviews",
     "Auto mode",
     "Quiet"
    ],
    "cons": [
     "Voice assistants aren't named in the bullets",
     "3 L",
-    "$49.99"
+    "$42.49"
    ],
    "specs": {
     "tank": "3 L, top fill",
@@ -512,7 +512,7 @@
    "price": 40.14,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 12364,
+   "reviews_count": 12507,
    "score": 76,
    "awards": [],
    "works_with": [
@@ -525,10 +525,10 @@
     "hub": true,
     "subscription": true
    },
-   "bought_last_month": "9K+ bought in past month",
+   "bought_last_month": "10K+ bought in past month",
    "verdict": "The bedroom humidifier to get: quiet, simple, and works with Alexa and Google.",
    "pros": [
-    "12,364 reviews",
+    "12,507 reviews",
     "Alexa and Google",
     "9K+ bought in the past month"
    ],
@@ -570,6 +570,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

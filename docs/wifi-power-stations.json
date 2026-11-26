@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#wifi"
  },
  "product_type": "Power stations",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -42,17 +42,17 @@
   },
   {
    "label": "Best Budget",
-   "asin": "B0HD6GN86Q",
-   "name": "BLUETTI Elite 100 mini",
-   "price": 379.99,
-   "why": "Highest score (89) among the cheapest third of picks (up to $439.00 each): 4.5 stars from 1,864 reviews, $379.99."
+   "asin": "B0C1SMJTDT",
+   "name": "BLUETTI AC180",
+   "price": 424.0,
+   "why": "Highest score (89) among the cheapest third of picks (up to $438.90 each): 4.5 stars from 2,681 reviews, $424.00."
   },
   {
    "label": "Best for Home Backup",
    "asin": "B0FQV6LMVX",
    "name": "EcoFlow DELTA 3 Max",
-   "price": 854.0,
-   "why": "Highest score (97) among picks marked Yes for UPS switchover: 4.7 stars from 684 reviews, $854.00."
+   "price": 879.0,
+   "why": "Highest score (97) among picks marked Yes for UPS switchover: 4.7 stars from 684 reviews, $879.00."
   }
  ],
  "systems_note": "All of these connect to their maker's app for monitoring and settings. None of the listings name Alexa, Google, or Home Assistant.",
@@ -112,7 +112,7 @@
    "name": "EF ECOFLOW DELTA 3 Max Portable Power Station, 2048Wh LFP Battery, 2400W",
    "brand": "EcoFlow",
    "model": "DELTA 3 Max",
-   "price": 854.0,
+   "price": 879.0,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 684,
@@ -135,7 +135,7 @@
     "Real-time energy monitoring in the app"
    ],
    "cons": [
-    "$854.00",
+    "$879.00",
     "Heavy",
     "Only 684 reviews"
    ],
@@ -161,7 +161,7 @@
    "name": "BLUETTI Elite 100 V2 Portable Power Station for Camping 1024Wh 1800W",
    "brand": "BLUETTI",
    "model": "Elite 100 V2",
-   "price": 493.0,
+   "price": 549.0,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1864,
@@ -182,7 +182,7 @@
     "Remote control from the app"
    ],
    "cons": [
-    "$493.00",
+    "$549.00",
     "Heavier than the mini",
     "App needed for some settings"
    ],
@@ -255,12 +255,14 @@
    "name": "BLUETTI AC180 Portable Power Station, 1152Wh LiFePO4, 1800W (2700W Peak) AC Outlets, 0-80% in 45 Min",
    "brand": "BLUETTI",
    "model": "AC180",
-   "price": 549.0,
+   "price": 424.0,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2681,
    "score": 89,
-   "awards": [],
+   "awards": [
+    "Best Budget"
+   ],
    "works_with": [],
    "works_with_note": "BLUETTI app",
    "works_without": {
@@ -278,7 +280,7 @@
    "cons": [
     "Older model",
     "UPS isn't in the bullets",
-    "$549.00"
+    "$424.00"
    ],
    "specs": {
     "capacity": "1,152 Wh",
@@ -307,9 +309,7 @@
    "rating": 4.5,
    "reviews_count": 1864,
    "score": 89,
-   "awards": [
-    "Best Budget"
-   ],
+   "awards": [],
    "works_with": [],
    "works_with_note": "BLUETTI app",
    "works_without": {
@@ -456,6 +456,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "New Best Budget: BLUETTI AC180.",
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

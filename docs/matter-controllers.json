@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Hubs and controllers",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -38,21 +38,21 @@
    "asin": "B0CWLHSKYC",
    "name": "Aqara Hub M3",
    "price": 118.99,
-   "why": "Highest score on the page (88): 4.1 stars from 1,725 reviews, $118.99."
+   "why": "Highest score on the page (88): 4.1 stars from 1,742 reviews, $118.99."
   },
   {
    "label": "Best Budget",
    "asin": "B0DWK8318H",
    "name": "Aqara Hub M100",
-   "price": 43.99,
-   "why": "Highest score (85) among the cheapest third of picks (up to $71.99 each): 3.8 stars from 1,053 reviews, $43.99."
+   "price": 45.99,
+   "why": "Highest score (85) among the cheapest third of picks (up to $71.99 each): 3.8 stars from 1,079 reviews, $45.99."
   },
   {
    "label": "Best Local Hub",
    "asin": "B0G52DX5M3",
    "name": "Homey Pro (2026)",
    "price": 399.0,
-   "why": "Highest score of the picks that fit this award (86): 4.0 stars from 75 reviews, $399.00."
+   "why": "Highest score of the picks that fit this award (86): 4.0 stars from 76 reviews, $399.00."
   }
  ],
  "systems_note": "Hubs that act as Matter bridges can share their devices with every Matter platform. The icons show where each hub's devices can be controlled.",
@@ -66,7 +66,7 @@
    "price": 118.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 1725,
+   "reviews_count": 1742,
    "score": 88,
    "awards": [
     "Best Overall"
@@ -92,7 +92,7 @@
     "Thread border router and Matter controller",
     "360° IR blaster with learning",
     "Ethernet with PoE or dual-band Wi-Fi",
-    "1,725 reviews, 500+ bought in the past month"
+    "1,742 reviews, 500+ bought in the past month"
    ],
    "cons": [
     "Zigbee works with Aqara devices only, per the listing",
@@ -124,7 +124,7 @@
    "price": 399.0,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 75,
+   "reviews_count": 76,
    "score": 86,
    "awards": [
     "Best Local Hub"
@@ -141,7 +141,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "50+ bought in past month",
+   "bought_last_month": "100+ bought in past month",
    "verdict": "Matter and Thread plus five other radios, for homes that want one hub for everything.",
    "pros": [
     "Seven radio technologies",
@@ -150,7 +150,7 @@
    ],
    "cons": [
     "$471",
-    "4.0 stars from 75 reviews",
+    "4.0 stars from 76 reviews",
     "Overkill if you only need Matter"
    ],
    "specs": {
@@ -175,10 +175,10 @@
    "name": "Aqara Smart Hub M100 for Home Automation, Matter Controller, Wi-Fi",
    "brand": "Aqara",
    "model": "Hub M100",
-   "price": 43.99,
+   "price": 45.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 1053,
+   "reviews_count": 1079,
    "score": 85,
    "awards": [
     "Best Budget"
@@ -201,7 +201,7 @@
    "bought_last_month": "500+ bought in past month",
    "verdict": "A tiny, cheap Thread border router and Matter bridge that plugs into any USB port.",
    "pros": [
-    "$43.99",
+    "$45.99",
     "Thread border router",
     "Local automations for Zigbee and Matter devices",
     "500+ bought in the past month"
@@ -236,7 +236,7 @@
    "price": 74.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 1851,
+   "reviews_count": 1859,
    "score": 84,
    "awards": [],
    "works_with": [
@@ -285,9 +285,9 @@
    "model": "Bridge Max (Bridge-M)",
    "price": 50.9,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 75,
-   "score": 81,
+   "rating": 4.4,
+   "reviews_count": 93,
+   "score": 82,
    "awards": [],
    "works_with": [
     "Amazon Alexa",
@@ -306,10 +306,10 @@
    "pros": [
     "Matter bridge for Alexa, Google, and Apple Home",
     "Local web console",
-    "4.5 stars"
+    "4.4 stars"
    ],
    "cons": [
-    "Only 75 reviews",
+    "Only 93 reviews",
     "Bridge only, it can't control other Matter devices",
     "$50.90"
    ],
@@ -338,7 +338,7 @@
    "price": 184.76,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 405,
+   "reviews_count": 412,
    "score": 78,
    "awards": [],
    "works_with": [
@@ -390,7 +390,7 @@
    "price": 79.99,
    "currency": "USD",
    "rating": 3.8,
-   "reviews_count": 1891,
+   "reviews_count": 1827,
    "score": 74,
    "awards": [],
    "works_with": [
@@ -445,7 +445,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 190,
+   "reviews_count": 211,
    "score": 74,
    "awards": [],
    "works_with": [
@@ -472,7 +472,7 @@
     "300+ bought in the past month"
    ],
    "cons": [
-    "Only 190 reviews",
+    "Only 211 reviews",
     "No Thread border router",
     "Hub features center on Tapo devices"
    ],
@@ -637,6 +637,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [
