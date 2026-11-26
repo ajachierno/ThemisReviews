@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Motion sensors",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,17 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H6JFC9RQ",
-   "name": "GL Technologies LWR02 5-in-1",
-   "price": 39.99,
-   "why": "Highest score on the page (95): 4.4 stars from 145 reviews, $39.99."
-  },
-  {
-   "label": "Best Budget",
    "asin": "B0DYC9235W",
    "name": "meross MS600",
    "price": 25.99,
-   "why": "Highest score (83) among the cheapest third of picks (up to $26.99 each): 3.9 stars from 196 reviews, $25.99."
+   "why": "Highest score on the page (83): 3.9 stars from 196 reviews, $25.99."
   },
   {
    "label": "Best Presence Sensor",
@@ -58,64 +51,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0H6JFC9RQ",
-   "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
-   "brand": "GL Technologies",
-   "model": "LWR02 5-in-1",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 145,
-   "score": 95,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "The most complete Matter sensor here: presence, motion, temperature, humidity, and light, on batteries.",
-   "pros": [
-    "Radar for stillness, PIR for movement",
-    "Temperature, humidity, and light too",
-    "AAA batteries rated up to 2 years, rechargeables supported",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Only 145 reviews",
-    "$39.99",
-    "Needs a Thread border router"
-   ],
-   "specs": {
-    "type": "Presence (24 GHz mmWave + PIR)",
-    "radio": "Thread",
-    "power": "2 AAA, up to 2 years",
-    "range": "Not listed",
-    "extras": "Temperature, humidity"
-   },
-   "features": {
-    "presence": true,
-    "light_sensor": true,
-    "battery": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51U1Fzg+OPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H6JFC9RQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0H6JFC9RQ"
-  },
-  {
-   "rank": 2,
    "asin": "B0DYC9235W",
    "name": "meross Presence Sensor MS600, Matter Over Wi-Fi, 1.5m Corded Motion Sensor",
    "brand": "meross",
@@ -126,7 +61,7 @@
    "reviews_count": 196,
    "score": 83,
    "awards": [
-    "Best Budget"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -172,7 +107,7 @@
    "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0DYC9235W"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0CT8W9NRB",
    "name": "Aqara Motion and Light Sensor P2, Motion Detector with Light Sensor",
    "brand": "Aqara",
@@ -227,7 +162,7 @@
    "page_url": "https://themisreviews.com/matter-motion-sensors.html#B0CT8W9NRB"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0F9YVNJ1C",
    "name": "GL Technologies LWR01 mmWave Presence Sensor, Battery-Powered, Matter over Thread",
    "brand": "GL Technologies",
@@ -256,7 +191,7 @@
     "subscription": true
    },
    "bought_last_month": null,
-   "verdict": "The earlier GL presence sensor, splashproof for bathrooms. The LWR02 has replaced it with more sensors.",
+   "verdict": "The earlier GL presence sensor, splashproof for bathrooms.",
    "pros": [
     "Battery mmWave presence",
     "IPX3, fine for bathrooms",
@@ -300,6 +235,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Dropped GL Technologies LWR02 5-in-1.",
+    "New Best Overall: meross MS600."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

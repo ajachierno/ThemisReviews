@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#zigbee"
  },
  "product_type": "Dimmers",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,10 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0GKG5NXL6",
-   "name": "Shelly Dimmer Gen4 US",
-   "price": 13.99,
-   "why": "Highest score (70) among picks with at least 4.0 stars and 30 reviews: 4.2 stars from 39 reviews, $13.99."
+   "asin": "B08428GDS8",
+   "name": "Enbrighten Zigbee in-wall dimmer",
+   "price": 44.99,
+   "why": "Highest score on the page (81): 3.9 stars from 314 reviews, $44.99."
   }
  ],
  "systems_note": null,
@@ -53,7 +53,9 @@
    "rating": 3.9,
    "reviews_count": 314,
    "score": 81,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Amazon Alexa",
@@ -151,64 +153,6 @@
    "image": "https://m.media-amazon.com/images/I/61JIjLOZd8L._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0F2N68K3C?tag=themisreviews-20&linkCode=ll1",
    "page_url": "https://themisreviews.com/zigbee-dimmers.html#B0F2N68K3C"
-  },
-  {
-   "rank": 3,
-   "asin": "B0GKG5NXL6",
-   "name": "Shelly Dimmer Gen4 US UL Smart Dimming, WiFi, Matter, Zigbee",
-   "brand": "Shelly",
-   "model": "Dimmer Gen4 US",
-   "price": 13.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 39,
-   "score": 70,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": true,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A compact dimmer module that wires in behind your wall switch and runs Zigbee, Matter, or Wi-Fi. A good fit if you want to keep the switches you have.",
-   "pros": [
-    "Zigbee, Matter, Wi-Fi, and Bluetooth in one module",
-    "Set minimum and maximum brightness, fade rate, and transition time",
-    "Schedules that can follow sunrise and sunset",
-    "UL certified, with a 3-year warranty"
-   ],
-   "cons": [
-    "A hidden module, not a wall switch",
-    "The listing doesn't state neutral, 3-way, or LED load details",
-    "Only 39 reviews"
-   ],
-   "specs": {
-    "neutral": "Not listed",
-    "three_way_text": "Not listed",
-    "led_load": "Not listed",
-    "hub": "Zigbee hub or Matter controller; Shelly app over Wi-Fi",
-    "extras": "Min/max brightness, fade rate, night mode"
-   },
-   "features": {
-    "no_neutral": false,
-    "three_way": false,
-    "open_hub": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81T-a+lNRVL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GKG5NXL6?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/zigbee-dimmers.html#B0GKG5NXL6"
   }
  ],
  "avoid": [
@@ -269,6 +213,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Dropped Shelly Dimmer Gen4 US.",
+    "New Best Overall: Enbrighten Zigbee in-wall dimmer."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

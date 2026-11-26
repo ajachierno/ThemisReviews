@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#matter"
  },
  "product_type": "Presence sensors",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -34,10 +34,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H6JFC9RQ",
-   "name": "GL Technologies LWR02",
+   "asin": "B0FG2MD3YP",
+   "name": "Aqara FP300",
    "price": 39.99,
-   "why": "Highest score on the page (95): 4.4 stars from 145 reviews, $39.99."
+   "why": "Highest score on the page (80): 3.6 stars from 1,025 reviews, $39.99."
   },
   {
    "label": "Best Rated",
@@ -51,62 +51,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0H6JFC9RQ",
-   "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
-   "brand": "GL Technologies",
-   "model": "LWR02",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 145,
-   "score": 95,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": null,
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "A well-rated 5-in-1 Thread sensor that takes rechargeable AAAs.",
-   "pros": [
-    "4.4 stars",
-    "Up to 2 years on AAA",
-    "Rechargeable cells supported"
-   ],
-   "cons": [
-    "Only 145 reviews",
-    "Lesser-known brand",
-    "$39.99"
-   ],
-   "specs": {
-    "radar": "24 GHz mmWave + PIR",
-    "power": "2 AAA, up to 2 years",
-    "extras": "Light, temperature, humidity",
-    "hub": "Thread border router"
-   },
-   "features": {
-    "battery": true,
-    "multi": true,
-    "rating": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51U1Fzg+OPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H6JFC9RQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/matter-presence-sensors.html#B0H6JFC9RQ"
-  },
-  {
-   "rank": 2,
    "asin": "B0FG2MD3YP",
    "name": "Aqara Presence Sensor FP300 1 Pack, Wireless 5-in-1 mmWave Motion Sensor",
    "brand": "Aqara",
@@ -116,7 +60,9 @@
    "rating": 3.6,
    "reviews_count": 1025,
    "score": 80,
-   "awards": [],
+   "awards": [
+    "Best Overall"
+   ],
    "works_with": [
     "Home Assistant",
     "Apple Home",
@@ -161,7 +107,7 @@
    "page_url": "https://themisreviews.com/matter-presence-sensors.html#B0FG2MD3YP"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0G8HN5THR",
    "name": "meross Presence Sensor MS605, Matter Over Thread, IP67 and Battery-Powered",
    "brand": "meross",
@@ -233,6 +179,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Dropped GL Technologies LWR02.",
+    "New Best Overall: Aqara FP300."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

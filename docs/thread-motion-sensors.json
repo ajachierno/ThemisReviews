@@ -12,8 +12,8 @@
   "url": "https://themisreviews.com/#thread"
  },
  "product_type": "Motion sensors",
- "data_captured": "2026-11-25",
- "updated": "2026-11-25",
+ "data_captured": "2026-11-26",
+ "updated": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -35,10 +35,10 @@
  "awards": [
   {
    "label": "Best Overall",
-   "asin": "B0H6JFC9RQ",
-   "name": "GL Technologies 5-in-1 Presence Sensor LWR02",
+   "asin": "B0FG2MD3YP",
+   "name": "Aqara Presence Sensor FP300",
    "price": 39.99,
-   "why": "Highest score on the page (90): 4.4 stars from 145 reviews, $39.99."
+   "why": "Highest score on the page (82): 3.6 stars from 1,025 reviews, $39.99."
   },
   {
    "label": "Best Budget",
@@ -46,76 +46,12 @@
    "name": "THIRDREALITY Smart Night Light-T",
    "price": 19.99,
    "why": "Highest score (71) among the cheapest third of picks (up to $23.99 each): 3.6 stars from 53 reviews, $19.99."
-  },
-  {
-   "label": "Best Presence Sensor",
-   "asin": "B0FG2MD3YP",
-   "name": "Aqara Presence Sensor FP300",
-   "price": 39.99,
-   "why": "Highest score of the picks that fit this award (82): 3.6 stars from 1,025 reviews, $39.99."
   }
  ],
  "systems_note": "Every sensor here runs on Thread and, except Onvis, joins your system through Matter. You need a Thread border router such as a recent Apple TV, HomePod, Nest Hub, or Echo.",
  "products": [
   {
    "rank": 1,
-   "asin": "B0H6JFC9RQ",
-   "name": "5-in-1 Presence Sensor LWR02, PIR + mmWave Radar, Matter Over Thread",
-   "brand": "GL Technologies",
-   "model": "5-in-1 Presence Sensor LWR02",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 145,
-   "score": 90,
-   "awards": [
-    "Best Overall"
-   ],
-   "works_with": [
-    "Home Assistant",
-    "Apple Home",
-    "Google Home",
-    "Amazon Alexa",
-    "SmartThings",
-    "Hubitat Elevation",
-    "Homey Pro"
-   ],
-   "works_with_note": "Matter",
-   "works_without": {
-    "neutral_wire": false,
-    "hub": false,
-    "subscription": true
-   },
-   "bought_last_month": null,
-   "verdict": "Five sensors in one small box for a room you want fully automated.",
-   "pros": [
-    "5 sensors in one",
-    "About 2 years on AAA batteries",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Only 145 reviews",
-    "$39.99",
-    "Lesser-known brand"
-   ],
-   "specs": {
-    "type": "Presence sensor, battery",
-    "sensing": "mmWave presence, PIR motion, temperature, humidity, light",
-    "power": "2 AAA, about 2 years",
-    "extras": "Ignores fans and curtains"
-   },
-   "features": {
-    "presence": true,
-    "matter": true,
-    "extra": true,
-    "outdoor": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51U1Fzg+OPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H6JFC9RQ?tag=themisreviews-20&linkCode=ll1",
-   "page_url": "https://themisreviews.com/thread-motion-sensors.html#B0H6JFC9RQ"
-  },
-  {
-   "rank": 2,
    "asin": "B0FG2MD3YP",
    "name": "Aqara Presence Sensor FP300 1 Pack, Wireless 5-in-1 mmWave Motion Sensor",
    "brand": "Aqara",
@@ -126,7 +62,7 @@
    "reviews_count": 1025,
    "score": 82,
    "awards": [
-    "Best Presence Sensor"
+    "Best Overall"
    ],
    "works_with": [
     "Home Assistant",
@@ -172,7 +108,7 @@
    "page_url": "https://themisreviews.com/thread-motion-sensors.html#B0FG2MD3YP"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0CT8W9NRB",
    "name": "Aqara Motion and Light Sensor P2, Motion Detector with Light Sensor",
    "brand": "Aqara",
@@ -227,7 +163,7 @@
    "page_url": "https://themisreviews.com/thread-motion-sensors.html#B0CT8W9NRB"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0GS5F4V6R",
    "name": "THIRDREALITY Smart Night Light-T, Matter over Thread, RGB Night Light with Motion and Illumination Sensor",
    "brand": "THIRDREALITY",
@@ -284,7 +220,7 @@
    "page_url": "https://themisreviews.com/thread-motion-sensors.html#B0GS5F4V6R"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B0H9RV4BL4",
    "name": "Matter Motion Sensor, PIR Movement Sensor, Thread Indoor Sensor",
    "brand": "mirsz",
@@ -339,7 +275,7 @@
    "page_url": "https://themisreviews.com/thread-motion-sensors.html#B0H9RV4BL4"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B0CT8Q9X39",
    "name": "Smart Motion Sensor, Wireless Home Security System, PIR Motion Detector, Hygrometer, Thermometer,Works with Apple HomeKit-Thread",
    "brand": "Onvis",
@@ -408,6 +344,13 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-26",
+   "notes": [
+    "Dropped GL Technologies 5-in-1 Presence Sensor LWR02.",
+    "New Best Overall: Aqara Presence Sensor FP300."
+   ]
+  },
   {
    "date": "2026-11-25",
    "notes": [

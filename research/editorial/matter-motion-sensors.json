@@ -56,44 +56,6 @@
   ],
   "products": [
     {
-      "asin": "B0H6JFC9RQ",
-      "brand": "GL Technologies",
-      "model": "LWR02 5-in-1",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "type": "Presence (24 GHz mmWave + PIR)",
-        "radio": "Thread",
-        "power": "2 AAA, up to 2 years",
-        "range": "Not listed",
-        "extras": "Temperature, humidity"
-      },
-      "features": {
-        "presence": true,
-        "light_sensor": true,
-        "battery": true
-      },
-      "verdict": "The most complete Matter sensor here: presence, motion, temperature, humidity, and light, on batteries.",
-      "pros": [
-        "Radar for stillness, PIR for movement",
-        "Temperature, humidity, and light too",
-        "AAA batteries rated up to 2 years, rechargeables supported",
-        "4.4 stars"
-      ],
-      "cons": [
-        "Only 145 reviews",
-        "$39.99",
-        "Needs a Thread border router"
-      ]
-    },
-    {
       "asin": "B0CT8W9NRB",
       "brand": "Aqara",
       "model": "Motion and Light Sensor P2",
@@ -193,7 +155,7 @@
         "light_sensor": false,
         "battery": true
       },
-      "verdict": "The earlier GL presence sensor, splashproof for bathrooms. The LWR02 has replaced it with more sensors.",
+      "verdict": "The earlier GL presence sensor, splashproof for bathrooms.",
       "pros": [
         "Battery mmWave presence",
         "IPX3, fine for bathrooms",
