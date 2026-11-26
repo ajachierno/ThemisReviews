@@ -52,9 +52,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best No-Neutral", "kind": "special", "rule": {"type": "feature", "key": "no_neutral"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best No-Neutral",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "no_neutral"
+      }
+    }
   ],
   "products": [
     {
@@ -209,7 +228,8 @@
       ]
     },
     {
-      "asin": "B0BVKYKKRK", "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi 2nd Gen, Matter, Neutral Required, D26HD-1RW",
+      "asin": "B0BVKYKKRK",
+      "name": "Leviton Decora Smart Dimmer Switch, Wi-Fi 2nd Gen, Matter, Neutral Required, D26HD-1RW",
       "brand": "Leviton",
       "model": "D26HD-1RW (2nd gen)",
       "systems": [
@@ -238,7 +258,7 @@
         "Bulb type, minimum dim, and maximum bright settings",
         "Wired or wireless 3-way",
         "Night settings and fade rates",
-        "300+ bought in the past month, sold by Amazon"
+        "200+ bought in the past month, sold by Amazon"
       ],
       "cons": [
         "Matter has to be turned on with a firmware update in the My Leviton app",
@@ -281,11 +301,12 @@
       "cons": [
         "Needs a Thread border router for Matter",
         "3-way isn't covered in the listing",
-        "3.9 stars"
+        "3.8 stars"
       ]
     },
     {
-      "asin": "B0F18PM6JK", "name": "Eve Dimmer Switch (Matter over Thread), Single-Pole, Neutral Wire Required",
+      "asin": "B0F18PM6JK",
+      "name": "Eve Dimmer Switch (Matter over Thread), Single-Pole, Neutral Wire Required",
       "brand": "Eve",
       "model": "Dimmer Switch (Matter)",
       "systems": [
@@ -322,7 +343,8 @@
       ]
     },
     {
-      "asin": "B0DTZ3QGL7", "name": "GE Cync Paddle Dimmer Smart Switch, Matter Compatible, Works with Alexa and Google Home",
+      "asin": "B0DTZ3QGL7",
+      "name": "GE Cync Paddle Dimmer Smart Switch, Matter Compatible, Works with Alexa and Google Home",
       "brand": "GE Cync",
       "model": "Paddle dimmer",
       "systems": [

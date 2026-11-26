@@ -45,10 +45,36 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best Bright Bulb", "kind": "special", "rule": {"type": "feature", "key": "bright"}},
-    {"label": "Best Thread Bulb", "kind": "premium", "rule": {"type": "feature", "key": "thread"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best Bright Bulb",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "bright"
+      }
+    },
+    {
+      "label": "Best Thread Bulb",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "thread"
+      }
+    }
   ],
   "products": [
     {
@@ -80,7 +106,7 @@
       "pros": [
         "1,100 lumens",
         "Matter multi-admin",
-        "1,700 reviews, 1K+ bought in the past month",
+        "1,703 reviews, 2K+ bought in the past month",
         "Sold by Amazon"
       ],
       "cons": [
@@ -117,8 +143,8 @@
       "verdict": "A well-rated single Matter bulb that works with Apple Home, Alexa, and Google.",
       "pros": [
         "$13.29",
-        "4.5 stars from 1,096 reviews",
-        "1K+ bought in the past month"
+        "4.5 stars from 1,097 reviews",
+        "500+ bought in the past month"
       ],
       "cons": [
         "Brightness and pack size aren't in the bullets",
@@ -191,7 +217,7 @@
       "verdict": "Four Matter color bulbs for about $7.50 each.",
       "pros": [
         "About $7.50 per bulb",
-        "4.4 stars from 1,538 reviews",
+        "4.4 stars from 1,661 reviews",
         "1K+ bought in the past month"
       ],
       "cons": [
@@ -225,7 +251,7 @@
         "special_shape": false,
         "thread": false
       },
-      "verdict": "Nanoleaf's Matter bulbs at 1,000 lm, with the most reviews among the brand-name options here.",
+      "verdict": "Nanoleaf's Matter bulbs at 1,000 lm, with more than 1,600 reviews.",
       "pros": [
         "1,000 lumens",
         "1,606 reviews",
@@ -266,7 +292,7 @@
       "pros": [
         "Matter over Thread, or Zigbee",
         "1,100 lumens",
-        "300+ bought in the past month"
+        "500+ bought in the past month"
       ],
       "cons": [
         "Needs a Thread border router for Matter",
@@ -416,7 +442,7 @@
         "100+ bought in the past month"
       ],
       "cons": [
-        "Only 186 reviews",
+        "Only 188 reviews",
         "$39.80 with no pack size stated",
         "800 lm"
       ]
