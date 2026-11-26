@@ -38,8 +38,20 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    }
   ],
   "products": [
     {
@@ -168,7 +180,7 @@
         "$62.99"
       ],
       "cons": [
-        "4.2 stars",
+        "4.1 stars",
         "Weather rating isn't in the bullets",
         "Only 184 reviews"
       ]
@@ -237,40 +249,8 @@
       ]
     },
     {
-      "asin": "B0FPM22JFC",
-      "brand": "APPECK",
-      "model": "RGBW Landscape Spotlights",
-      "systems": [
-        "alexa",
-        "google-home"
-      ],
-      "systems_label": "Smart Life app",
-      "specs": {
-        "type": "Spotlights",
-        "pack": "8-pack",
-        "brightness": "Not stated in bullets",
-        "extras": "Individual color per light"
-      },
-      "features": {
-        "white": true,
-        "ip67": false,
-        "voice": true,
-        "bright": false
-      },
-      "verdict": "Eight spotlights where each one can be its own color.",
-      "pros": [
-        "8-pack",
-        "Per-light color",
-        "Alexa and Google"
-      ],
-      "cons": [
-        "4.2 stars",
-        "Don't submerge",
-        "$85.49"
-      ]
-    },
-    {
-      "asin": "B0DSQKD597", "name": "Feit Electric Smart Outdoor Cone Path Lights, 100 Lumens, Color and Tunable White, Alexa and Google, PATH/RGBW/AG/4, 4-Pack",
+      "asin": "B0DSQKD597",
+      "name": "Feit Electric Smart Outdoor Cone Path Lights, 100 Lumens, Color and Tunable White, Alexa and Google, PATH/RGBW/AG/4, 4-Pack",
       "brand": "Feit Electric",
       "model": "Smart Outdoor Cone Path Lights",
       "systems": [
@@ -303,7 +283,8 @@
       ]
     },
     {
-      "asin": "B0CC3RW3YM", "name": "WiZ Elpas Bollard Smart Wi-Fi Outdoor LED Path Light Starter Kit, Works with Alexa, Google Assistant and Siri Shortcuts",
+      "asin": "B0CC3RW3YM",
+      "name": "WiZ Elpas Bollard Smart Wi-Fi Outdoor LED Path Light Starter Kit, Works with Alexa, Google Assistant and Siri Shortcuts",
       "brand": "WiZ",
       "model": "Elpas Bollard Path Light Starter Kit",
       "systems": [
