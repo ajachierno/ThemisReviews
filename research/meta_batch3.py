@@ -56,7 +56,7 @@ PAGES = {
         "No-hub smart plugs that connect straight to your router.",
         "We pulled the best-selling Wi-Fi smart plugs on Amazon and scored them on rating, review volume, and features: energy monitoring, outdoor ratings, and Apple Home support. Wi-Fi plugs with Matter are on our Matter page.",
         100000, PLUG_GUIDE),
-    "matter-smart-plugs": _p("smart-plugs", "Smart plugs", "plug", "The 10 Best Matter Smart Plugs",
+    "matter-smart-plugs": _p("smart-plugs", "Smart plugs", "plug", "The Best Matter Smart Plugs",
         "Plugs that work with Apple Home, Google Home, Alexa, SmartThings, and Home Assistant at once.",
         "We pulled the Matter smart plugs selling on Amazon and scored them on rating, review volume, and features: energy monitoring and outdoor ratings. These run Matter over Wi-Fi; Thread plugs have their own page.",
         3000, PLUG_GUIDE),

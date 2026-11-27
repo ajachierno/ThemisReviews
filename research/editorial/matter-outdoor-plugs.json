@@ -38,9 +38,28 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Budget", "kind": "budget", "rule": {"type": "budget"}},
-    {"label": "Best for Holiday Lights", "kind": "premium", "rule": {"type": "feature", "key": "multi"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Budget",
+      "kind": "budget",
+      "rule": {
+        "type": "budget"
+      }
+    },
+    {
+      "label": "Best for Holiday Lights",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "multi"
+      }
+    }
   ],
   "products": [
     {
@@ -72,7 +91,7 @@
       "pros": [
         "Matter: Apple Home, Google, Alexa, SmartThings",
         "IP65",
-        "3K+ bought in the past month"
+        "6K+ bought in the past month"
       ],
       "cons": [
         "No energy monitoring",
@@ -109,11 +128,11 @@
       "pros": [
         "4.6 stars",
         "Matter",
-        "1K+ bought in the past month"
+        "2K+ bought in the past month"
       ],
       "cons": [
         "Weather rating isn't in the bullets",
-        "Only 433 reviews",
+        "Only 437 reviews",
         "$18.99"
       ]
     },
@@ -222,12 +241,12 @@
       "pros": [
         "4.7 stars",
         "Independent outlets",
-        "500+ bought in the past month"
+        "1K+ bought in the past month"
       ],
       "cons": [
         "Only 58 reviews",
         "Weather rating isn't in the bullets",
-        "$23.54"
+        "$20.99"
       ]
     },
     {
@@ -261,7 +280,7 @@
         "Matter"
       ],
       "cons": [
-        "Only 25 reviews",
+        "Only 26 reviews",
         "Apple Home isn't named in the bullets",
         "Outlets switch together"
       ]
@@ -374,7 +393,7 @@
       "cons": [
         "3.8 stars",
         "Needs a Matter controller to set up",
-        "Only 71 reviews"
+        "Only 73 reviews"
       ]
     }
   ],

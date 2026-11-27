@@ -13,7 +13,7 @@
  },
  "product_type": "In-wall outlets",
  "data_captured": "2026-11-27",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -37,7 +37,7 @@
    "asin": "B0CT62FC6W",
    "name": "Eve Energy Outlet",
    "price": 39.99,
-   "why": "Highest score on the page (91): 4.1 stars from 177 reviews, $39.99."
+   "why": "Highest score on the page (91): 4.1 stars from 178 reviews, $39.99."
   }
  ],
  "systems_note": null,
@@ -51,7 +51,7 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 177,
+   "reviews_count": 178,
    "score": 91,
    "awards": [
     "Best Overall"
@@ -71,7 +71,7 @@
     "hub": false,
     "subscription": true
    },
-   "bought_last_month": "100+ bought in past month",
+   "bought_last_month": "200+ bought in past month",
    "verdict": "A Thread outlet with a power meter that extends your Thread network.",
    "pros": [
     "Thread",
@@ -134,7 +134,7 @@
    "cons": [
     "Neutral required",
     "Wi-Fi, not Thread",
-    "Only 438 reviews"
+    "Only 444 reviews"
    ],
    "specs": {
     "controlled": "2, individually",
@@ -212,8 +212,8 @@
    "price": 28.35,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 61,
-   "score": 59,
+   "reviews_count": 63,
+   "score": 60,
    "awards": [],
    "works_with": [
     "Home Assistant",
@@ -326,6 +326,12 @@
   }
  ],
  "changes": [
+  {
+   "date": "2026-11-27",
+   "notes": [
+    "Prices, ratings, and review counts refreshed from Amazon."
+   ]
+  },
   {
    "date": "2026-11-26",
    "notes": [

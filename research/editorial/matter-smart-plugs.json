@@ -51,9 +51,29 @@
     }
   ],
   "awards": [
-    {"label": "Best Overall", "kind": "overall", "rule": {"type": "overall"}},
-    {"label": "Best Energy Monitoring", "kind": "special", "rule": {"type": "feature", "key": "energy"}},
-    {"label": "Best Outdoor", "kind": "premium", "rule": {"type": "feature", "key": "outdoor"}}
+    {
+      "label": "Best Overall",
+      "kind": "overall",
+      "rule": {
+        "type": "overall"
+      }
+    },
+    {
+      "label": "Best Energy Monitoring",
+      "kind": "special",
+      "rule": {
+        "type": "feature",
+        "key": "energy"
+      }
+    },
+    {
+      "label": "Best Outdoor",
+      "kind": "premium",
+      "rule": {
+        "type": "feature",
+        "key": "outdoor"
+      }
+    }
   ],
   "products": [
     {
@@ -83,53 +103,15 @@
       },
       "verdict": "Cheap, well reviewed, 15 A, and it keeps working on your network when the internet is down.",
       "pros": [
-        "$7.99 with 3,085 reviews",
+        "$7.99 with 3,105 reviews",
         "15 A / 1,800 W",
         "Local control over Matter",
-        "1K+ bought in the past month, sold by Amazon"
+        "2K+ bought in the past month, sold by Amazon"
       ],
       "cons": [
         "No energy monitoring",
         "2.4 GHz Wi-Fi only",
         "Bigger than some minis"
-      ]
-    },
-    {
-      "name": "Amazon Basics Smart Plug, Matter Compatible, Works with Alexa, Google Home and Apple HomeKit, 2.4 GHz Wi-Fi, 1-Pack, White",
-      "asin": "B0DP8KKHQB",
-      "brand": "Amazon Basics",
-      "model": "Matter smart plug",
-      "systems": [
-        "home-assistant",
-        "apple-home",
-        "google-home",
-        "alexa",
-        "smartthings",
-        "hubitat",
-        "homey"
-      ],
-      "specs": {
-        "location": "Indoor",
-        "outlets": "1",
-        "load": "Not listed",
-        "pack": "1 plug",
-        "app": "None (Matter or Alexa)"
-      },
-      "features": {
-        "energy": false,
-        "outdoor": false,
-        "dual": false
-      },
-      "verdict": "Amazon's Matter plug. Cheap, and unlike the original Amazon Smart Plug it isn't locked to Alexa.",
-      "pros": [
-        "$8.31",
-        "Works with Alexa, Google, Apple Home, and SmartThings through Matter",
-        "Zero-touch Alexa setup option"
-      ],
-      "cons": [
-        "4.2 stars",
-        "Load rating isn't listed",
-        "Needs a Matter controller"
       ]
     },
     {
@@ -161,7 +143,7 @@
       "pros": [
         "Detailed energy statistics",
         "About $7.50 per plug",
-        "300+ bought in the past month"
+        "1K+ bought in the past month"
       ],
       "cons": [
         "Only sold in multipacks here",
@@ -197,7 +179,7 @@
       "verdict": "Kasa's Matter plug with energy monitoring, for people already using the Kasa app.",
       "pros": [
         "Energy monitoring",
-        "2,340 reviews",
+        "2,343 reviews",
         "Local control over Matter"
       ],
       "cons": [
@@ -239,7 +221,7 @@
         "500+ bought in the past month"
       ],
       "cons": [
-        "3,040 reviews",
+        "3,052 reviews",
         "No energy monitoring",
         "Sold by the brand, not Amazon"
       ]
@@ -310,7 +292,7 @@
       "pros": [
         "Two independently controlled outlets",
         "IP65 weather resistance",
-        "4.5 stars, 3K+ bought in the past month"
+        "4.5 stars, 6K+ bought in the past month"
       ],
       "cons": [
         "No energy monitoring",
@@ -346,7 +328,7 @@
       "verdict": "A Cync plug that joins any platform through Matter. Handy if you already have Cync lights.",
       "pros": [
         "Works with Alexa, Google, and SmartThings through Matter",
-        "500+ bought in the past month",
+        "1K+ bought in the past month",
         "Sold by Amazon"
       ],
       "cons": [
