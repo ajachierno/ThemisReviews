@@ -249,7 +249,7 @@ PAGES = {
         "In-wall outlets that work with every major smart home platform.",
         "Matter in-wall outlets are new, so this list is short. We scored the ones on Amazon on rating, review volume, and features.",
         500, OUTLET_GUIDE),
-    "wifi-security-systems": _p("security-systems", "Security systems", "system", "The 10 Best DIY Home Security Systems",
+    "wifi-security-systems": _p("security-systems", "Security systems", "system", "The Best DIY Home Security Systems",
         "Alarm kits with sensors, keypads, and sirens you install yourself, ranked from live Amazon data.",
         "We pulled the DIY home security kits on Amazon and scored them on rating, review volume, and features: optional professional monitoring, cellular backup, and smart home support.",
         20000, SECURITY_GUIDE),
