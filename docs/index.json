@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of smart home gear. Start with the system that runs your house, pick the protocol it speaks, then choose the switches, sensors, and locks that work on it.",
  "llms_txt": "https://themisreviews.com/llms.txt",
  "sitemap": "https://themisreviews.com/sitemap.xml",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every review page has a JSON twin at the same path with .json in place of .html.",
  "protocols": [
@@ -58,8 +58,8 @@
    "json": "https://themisreviews.com/z-wave-switches.json",
    "protocol": "Z-Wave",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -73,8 +73,8 @@
      "label": "Best Budget",
      "asin": "B0FX3CTLW2",
      "name": "UltraPro 800 Series LR paddle",
-     "price": 19.11,
-     "why": "Highest score (86) among the cheapest third of picks (up to $35.99 each): 3.9 stars from 97 reviews, $19.11."
+     "price": 19.08,
+     "why": "Highest score (86) among the cheapest third of picks (up to $35.99 each): 3.9 stars from 97 reviews, $19.08."
     }
    ]
   },
@@ -153,7 +153,7 @@
    "json": "https://themisreviews.com/z-wave-door-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 7,
    "awards": [
@@ -194,7 +194,7 @@
    "json": "https://themisreviews.com/z-wave-motion-sensors.json",
    "protocol": "Z-Wave",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 9,
    "awards": [
@@ -296,8 +296,8 @@
    "json": "https://themisreviews.com/z-wave-door-locks.json",
    "protocol": "Z-Wave",
    "product_type": "Smart locks",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -357,7 +357,7 @@
    "json": "https://themisreviews.com/z-wave-buttons.json",
    "protocol": "Z-Wave",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 4,
    "awards": [
@@ -384,8 +384,8 @@
    "json": "https://themisreviews.com/z-wave-relays.json",
    "protocol": "Z-Wave",
    "product_type": "Relays and modules",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -418,7 +418,7 @@
    "json": "https://themisreviews.com/z-wave-fan-controls.json",
    "protocol": "Z-Wave",
    "product_type": "Fan controls",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 4,
    "awards": [
@@ -445,7 +445,7 @@
    "json": "https://themisreviews.com/z-wave-outlets.json",
    "protocol": "Z-Wave",
    "product_type": "In-wall outlets",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 4,
    "awards": [
@@ -465,7 +465,7 @@
    "json": "https://themisreviews.com/z-wave-controllers.json",
    "protocol": "Z-Wave",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 8,
    "awards": [
@@ -499,7 +499,7 @@
    "json": "https://themisreviews.com/z-wave-sirens.json",
    "protocol": "Z-Wave",
    "product_type": "Sirens",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 3,
    "awards": [
@@ -546,7 +546,7 @@
    "json": "https://themisreviews.com/z-wave-range-extenders.json",
    "protocol": "Z-Wave",
    "product_type": "Range extenders",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -580,7 +580,7 @@
    "json": "https://themisreviews.com/z-wave-garage-openers.json",
    "protocol": "Z-Wave",
    "product_type": "Garage door openers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -607,7 +607,7 @@
    "json": "https://themisreviews.com/z-wave-water-valves.json",
    "protocol": "Z-Wave",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 2,
    "awards": [
@@ -634,7 +634,7 @@
    "json": "https://themisreviews.com/z-wave-smoke-detectors.json",
    "protocol": "Z-Wave",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 2,
    "awards": [
@@ -654,8 +654,8 @@
    "json": "https://themisreviews.com/zigbee-switches.json",
    "protocol": "Zigbee",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -681,7 +681,7 @@
    "json": "https://themisreviews.com/zigbee-dimmers.json",
    "protocol": "Zigbee",
    "product_type": "Dimmers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 2,
    "awards": [
@@ -735,8 +735,8 @@
    "json": "https://themisreviews.com/zigbee-bulbs.json",
    "protocol": "Zigbee",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -757,8 +757,8 @@
      "label": "Best for Hue Homes",
      "asin": "B0FMGP1P6W",
      "name": "Philips Hue Essential A19 (4-pack)",
-     "price": 39.88,
-     "why": "Highest score (79) among Philips Hue picks: 4.5 stars from 1,163 reviews, $39.88."
+     "price": 34.46,
+     "why": "Highest score (79) among Philips Hue picks: 4.5 stars from 1,163 reviews, $34.46."
     },
     {
      "label": "Best Bright Bulb",
@@ -776,8 +776,8 @@
    "json": "https://themisreviews.com/zigbee-door-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Door and window sensors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -792,7 +792,7 @@
      "asin": "B0GKFB3XCL",
      "name": "SONOFF SNZB-04PR2",
      "price": 11.12,
-     "why": "Highest score (85) among the cheapest third of picks (up to $11.99 each): 4.2 stars from 360 reviews, $11.12."
+     "why": "Highest score (85) among the cheapest third of picks (up to $11.45 each): 4.2 stars from 360 reviews, $11.12."
     },
     {
      "label": "Best for Aqara Homes",
@@ -817,8 +817,8 @@
    "json": "https://themisreviews.com/zigbee-motion-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -851,8 +851,8 @@
    "json": "https://themisreviews.com/zigbee-leak-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Leak sensors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -866,8 +866,8 @@
      "label": "Best Budget",
      "asin": "B09GYFN8VL",
      "name": "THIRDREALITY Zigbee leak sensor",
-     "price": 13.99,
-     "why": "Highest score (85) among the cheapest third of picks (up to $14.95 each): 4.2 stars from 359 reviews, $13.99."
+     "price": 12.89,
+     "why": "Highest score (85) among the cheapest third of picks (up to $14.95 each): 4.2 stars from 359 reviews, $12.89."
     },
     {
      "label": "Best with Alarm",
@@ -892,7 +892,7 @@
    "json": "https://themisreviews.com/zigbee-locks.json",
    "protocol": "Zigbee",
    "product_type": "Smart locks",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 4,
    "awards": [
@@ -919,8 +919,8 @@
    "json": "https://themisreviews.com/zigbee-temperature-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -935,7 +935,7 @@
      "asin": "B0BYZP8NK2",
      "name": "SONOFF SNZB-02D",
      "price": 12.72,
-     "why": "Highest score (89) among the cheapest third of picks (up to $15.92 each): 4.3 stars from 3,519 reviews, $12.72."
+     "why": "Highest score (89) among the cheapest third of picks (up to $15.59 each): 4.3 stars from 3,519 reviews, $12.72."
     }
    ]
   },
@@ -946,8 +946,8 @@
    "json": "https://themisreviews.com/zigbee-buttons.json",
    "protocol": "Zigbee",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1021,8 +1021,8 @@
    "json": "https://themisreviews.com/zigbee-light-strips.json",
    "protocol": "Zigbee",
    "product_type": "Light strips",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1055,8 +1055,8 @@
    "json": "https://themisreviews.com/zigbee-relays.json",
    "protocol": "Zigbee",
    "product_type": "Relays and modules",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1171,7 +1171,7 @@
    "json": "https://themisreviews.com/zigbee-coordinators.json",
    "protocol": "Zigbee",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -1205,16 +1205,16 @@
    "json": "https://themisreviews.com/zigbee-vibration-sensors.json",
    "protocol": "Zigbee",
    "product_type": "Vibration sensors",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 6,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0C9DP249C",
      "name": "THIRDREALITY Smart Vibration Sensor",
-     "price": 12.99,
-     "why": "Highest score on the page (86): 4.1 stars from 641 reviews, $12.99."
+     "price": 11.89,
+     "why": "Highest score on the page (86): 4.1 stars from 641 reviews, $11.89."
     },
     {
      "label": "Best for Aqara Homes",
@@ -1232,16 +1232,16 @@
    "json": "https://themisreviews.com/zigbee-repeaters.json",
    "protocol": "Zigbee",
    "product_type": "Range extenders",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 5,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0BXFBH6JR",
      "name": "Aeotec Range Extender Zi",
-     "price": 23.59,
-     "why": "Highest score on the page (90): 4.5 stars from 184 reviews, $23.59."
+     "price": 29.49,
+     "why": "Highest score on the page (90): 4.5 stars from 184 reviews, $29.49."
     },
     {
      "label": "Best Budget",
@@ -1266,7 +1266,7 @@
    "json": "https://themisreviews.com/zigbee-water-valves.json",
    "protocol": "Zigbee",
    "product_type": "Water shutoff valves",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 3,
    "awards": [
@@ -1286,7 +1286,7 @@
    "json": "https://themisreviews.com/zigbee-curtain-motors.json",
    "protocol": "Zigbee",
    "product_type": "Curtain motors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 3,
    "awards": [
@@ -1408,8 +1408,8 @@
    "json": "https://themisreviews.com/wifi-bulbs.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1430,8 +1430,8 @@
      "label": "Best Bright Bulb",
      "asin": "B0CF25ZC4N",
      "name": "Lightinginside 100 W eq. (2-pack)",
-     "price": 16.12,
-     "why": "Highest score of the picks that fit this award (89): 4.3 stars from 553 reviews, $16.12."
+     "price": 19.97,
+     "why": "Highest score of the picks that fit this award (89): 4.3 stars from 553 reviews, $19.97."
     }
    ]
   },
@@ -1510,8 +1510,8 @@
    "json": "https://themisreviews.com/wifi-leak-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Leak sensors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -1544,7 +1544,7 @@
    "json": "https://themisreviews.com/wifi-temperature-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 10,
    "awards": [
@@ -1578,8 +1578,8 @@
    "json": "https://themisreviews.com/wifi-locks.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart locks",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1619,8 +1619,8 @@
    "json": "https://themisreviews.com/wifi-thermostats.json",
    "protocol": "Wi-Fi",
    "product_type": "Thermostats",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1635,7 +1635,7 @@
      "asin": "B01NB1OB0I",
      "name": "Sensi ST55",
      "price": 74.22,
-     "why": "Highest score (70) among the cheapest third of picks (up to $80.99 each): 4.4 stars from 23,194 reviews, $74.22."
+     "why": "Highest score (70) among the cheapest third of picks (up to $80.00 each): 4.4 stars from 23,194 reviews, $74.22."
     },
     {
      "label": "Most Features",
@@ -1728,8 +1728,8 @@
    "json": "https://themisreviews.com/wifi-doorbells.json",
    "protocol": "Wi-Fi",
    "product_type": "Video doorbells",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1796,8 +1796,8 @@
    "json": "https://themisreviews.com/wifi-smoke-detectors.json",
    "protocol": "Wi-Fi",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -1823,16 +1823,16 @@
    "json": "https://themisreviews.com/wifi-air-quality-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Air quality monitors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B097YW5Q72",
      "name": "Airthings View Plus (2960)",
-     "price": 329.99,
-     "why": "Highest score on the page (91): 4.0 stars from 2,007 reviews, $329.99."
+     "price": 327.1,
+     "why": "Highest score on the page (91): 4.0 stars from 2,007 reviews, $327.10."
     },
     {
      "label": "Best for Alexa",
@@ -1884,8 +1884,8 @@
    "json": "https://themisreviews.com/wifi-sprinkler-controllers.json",
    "protocol": "Wi-Fi",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -1906,8 +1906,8 @@
      "label": "Best Outdoor",
      "asin": "B01D15HOTU",
      "name": "Orbit B-hyve 12-zone indoor/outdoor",
-     "price": 116.56,
-     "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,918 reviews, $116.56."
+     "price": 109.99,
+     "why": "Highest score of the picks that fit this award (80): 4.4 stars from 6,918 reviews, $109.99."
     },
     {
      "label": "Best for Big Yards",
@@ -1925,8 +1925,8 @@
    "json": "https://themisreviews.com/wifi-hose-timers.json",
    "protocol": "Wi-Fi",
    "product_type": "Sprinklers and timers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -1940,8 +1940,8 @@
      "label": "Best Budget",
      "asin": "B0H11D2TS9",
      "name": "GoveeLife H5901 with gateway",
-     "price": 45.12,
-     "why": "Highest score (79) among the cheapest third of picks (up to $45.12 each): 4.1 stars from 139 reviews, $45.12."
+     "price": 44.99,
+     "why": "Highest score (79) among the cheapest third of picks (up to $44.99 each): 4.1 stars from 139 reviews, $44.99."
     },
     {
      "label": "Best Water Tracking",
@@ -1954,8 +1954,8 @@
      "label": "Best Multi-Zone",
      "asin": "B0B1QWVQPY",
      "name": "Orbit B-hyve XD 4-port",
-     "price": 77.57,
-     "why": "Highest score of the picks that fit this award (80): 4.0 stars from 1,908 reviews, $77.57."
+     "price": 74.99,
+     "why": "Highest score of the picks that fit this award (80): 4.0 stars from 1,908 reviews, $74.99."
     }
    ]
   },
@@ -1966,8 +1966,8 @@
    "json": "https://themisreviews.com/wifi-robot-vacuums.json",
    "protocol": "Wi-Fi",
    "product_type": "Robot vacuums",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -1981,8 +1981,8 @@
      "label": "Best Mopping",
      "asin": "B0FSJPFDPV",
      "name": "dreame L40 Ultra Gen 2",
-     "price": 474.98,
-     "why": "Highest score (94) among picks marked Yes for Mops: 4.3 stars from 1,070 reviews, $474.98."
+     "price": 432.23,
+     "why": "Highest score (94) among picks marked Yes for Mops: 4.3 stars from 1,070 reviews, $432.23."
     },
     {
      "label": "Best Budget",
@@ -2000,7 +2000,7 @@
    "json": "https://themisreviews.com/wifi-smart-speakers.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart speakers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 6,
    "awards": [
@@ -2034,8 +2034,8 @@
    "json": "https://themisreviews.com/wifi-light-strips.json",
    "protocol": "Wi-Fi",
    "product_type": "Light strips",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2075,7 +2075,7 @@
    "json": "https://themisreviews.com/wifi-smart-displays.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart displays",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 8,
    "awards": [
@@ -2109,8 +2109,8 @@
    "json": "https://themisreviews.com/wifi-relays.json",
    "protocol": "Wi-Fi",
    "product_type": "Relays and modules",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2150,7 +2150,7 @@
    "json": "https://themisreviews.com/wifi-fan-controls.json",
    "protocol": "Wi-Fi",
    "product_type": "Fan controls",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -2170,8 +2170,8 @@
    "json": "https://themisreviews.com/wifi-presence-sensors.json",
    "protocol": "Wi-Fi",
    "product_type": "Presence sensors",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 6,
    "awards": [
     {
@@ -2197,7 +2197,7 @@
    "json": "https://themisreviews.com/wifi-blinds.json",
    "protocol": "Wi-Fi",
    "product_type": "Blinds and shades",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -2224,7 +2224,7 @@
    "json": "https://themisreviews.com/wifi-outlets.json",
    "protocol": "Wi-Fi",
    "product_type": "In-wall outlets",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -2265,7 +2265,7 @@
    "json": "https://themisreviews.com/wifi-ir-remotes.json",
    "protocol": "Wi-Fi",
    "product_type": "IR blasters and remotes",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -2299,7 +2299,7 @@
    "json": "https://themisreviews.com/wifi-air-purifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Air purifiers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -2326,8 +2326,8 @@
    "json": "https://themisreviews.com/wifi-ac-controllers.json",
    "protocol": "Wi-Fi",
    "product_type": "AC controllers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 7,
    "awards": [
     {
@@ -2360,7 +2360,7 @@
    "json": "https://themisreviews.com/wifi-energy-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Energy monitors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -2428,7 +2428,7 @@
    "json": "https://themisreviews.com/wifi-mesh-routers.json",
    "protocol": "Wi-Fi",
    "product_type": "Mesh Wi-Fi routers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -2462,8 +2462,8 @@
    "json": "https://themisreviews.com/wifi-ev-chargers.json",
    "protocol": "Wi-Fi",
    "product_type": "EV chargers",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2489,8 +2489,8 @@
    "json": "https://themisreviews.com/wifi-pet-feeders.json",
    "protocol": "Wi-Fi",
    "product_type": "Pet feeders",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2511,8 +2511,8 @@
      "label": "Best for Two Pets",
      "asin": "B0CFFKBW58",
      "name": "PETKIT YumShare Dual-Hopper with camera",
-     "price": 133.99,
-     "why": "Highest score of the picks that fit this award (84): 4.5 stars from 442 reviews, $133.99."
+     "price": 129.99,
+     "why": "Highest score of the picks that fit this award (84): 4.5 stars from 442 reviews, $129.99."
     },
     {
      "label": "Most Popular",
@@ -2571,8 +2571,8 @@
    "json": "https://themisreviews.com/wifi-baby-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Baby monitors",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2673,8 +2673,8 @@
    "json": "https://themisreviews.com/wifi-bird-feeders.json",
    "protocol": "Wi-Fi",
    "product_type": "Bird feeders",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -2695,8 +2695,8 @@
      "label": "Best 4K",
      "asin": "B0DZHNDJQM",
      "name": "Kiwibit Bird Feeder Camera 4K (external solar)",
-     "price": 129.99,
-     "why": "Highest score of the picks that fit this award (87): 4.5 stars from 541 reviews, $129.99."
+     "price": 119.99,
+     "why": "Highest score of the picks that fit this award (87): 4.5 stars from 541 reviews, $119.99."
     }
    ]
   },
@@ -2707,8 +2707,8 @@
    "json": "https://themisreviews.com/wifi-floodlight-cameras.json",
    "protocol": "Wi-Fi",
    "product_type": "Floodlight cameras",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -2741,8 +2741,8 @@
    "json": "https://themisreviews.com/wifi-outdoor-plugs.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor smart plugs",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2816,8 +2816,8 @@
    "json": "https://themisreviews.com/wifi-humidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Humidifiers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2850,8 +2850,8 @@
    "json": "https://themisreviews.com/wifi-dehumidifiers.json",
    "protocol": "Wi-Fi",
    "product_type": "Dehumidifiers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -2879,8 +2879,8 @@
      "label": "Best Compact",
      "asin": "B07NRDBBH5",
      "name": "Midea 22 Pint Dehumidifier",
-     "price": 164.99,
-     "why": "Highest score of the picks that fit this award (82): 4.4 stars from 7,249 reviews, $164.99."
+     "price": 115.24,
+     "why": "Highest score of the picks that fit this award (82): 4.4 stars from 7,249 reviews, $115.24."
     }
    ]
   },
@@ -2891,7 +2891,7 @@
    "json": "https://themisreviews.com/wifi-space-heaters.json",
    "protocol": "Wi-Fi",
    "product_type": "Space heaters",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 8,
    "awards": [
@@ -2918,7 +2918,7 @@
    "json": "https://themisreviews.com/wifi-ceiling-fans.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling fans",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -2945,8 +2945,8 @@
    "json": "https://themisreviews.com/wifi-weather-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Weather stations",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -2972,7 +2972,7 @@
    "json": "https://themisreviews.com/wifi-litter-boxes.json",
    "protocol": "Wi-Fi",
    "product_type": "Litter boxes",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -3040,16 +3040,16 @@
    "json": "https://themisreviews.com/wifi-pet-fountains.json",
    "protocol": "Wi-Fi",
    "product_type": "Pet fountains",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0FDKVJNXB",
      "name": "PETLIBRO Dockstream 2 Cordless (3 L)",
-     "price": 89.99,
-     "why": "Highest score on the page (88): 4.2 stars from 4,678 reviews, $89.99."
+     "price": 76.49,
+     "why": "Highest score on the page (88): 4.2 stars from 4,678 reviews, $76.49."
     },
     {
      "label": "Best Budget",
@@ -3081,8 +3081,8 @@
    "json": "https://themisreviews.com/wifi-garage-door-openers.json",
    "protocol": "Wi-Fi",
    "product_type": "Garage door opener units",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -3110,8 +3110,8 @@
      "label": "Best Premium",
      "asin": "B0C7K97GX2",
      "name": "Chamberlain Wall Mount myQ Opener",
-     "price": 479.0,
-     "why": "Highest score (84) among the priciest third of picks: 4.5 stars from 655 reviews, $479.00."
+     "price": 458.15,
+     "why": "Highest score (84) among the priciest third of picks: 4.5 stars from 655 reviews, $458.15."
     }
    ]
   },
@@ -3149,16 +3149,16 @@
    "json": "https://themisreviews.com/wifi-universal-remotes.json",
    "protocol": "Wi-Fi",
    "product_type": "IR blasters and remotes",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 4,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0CXJC5ZZT",
      "name": "SwitchBot Universal Remote with Hub Mini (Matter)",
-     "price": 69.99,
-     "why": "Highest score on the page (87): 4.2 stars from 5,358 reviews, $69.99."
+     "price": 68.39,
+     "why": "Highest score on the page (87): 4.2 stars from 5,358 reviews, $68.39."
     },
     {
      "label": "Best for Home Assistant",
@@ -3176,7 +3176,7 @@
    "json": "https://themisreviews.com/wifi-fans.json",
    "protocol": "Wi-Fi",
    "product_type": "Fans",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 9,
    "awards": [
@@ -3312,8 +3312,8 @@
    "json": "https://themisreviews.com/wifi-flush-mount-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Ceiling lights",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -3328,7 +3328,7 @@
      "asin": "B0DD7KV38V",
      "name": "BLNAN 13-inch Smart RGB Flush Mount",
      "price": 34.39,
-     "why": "Highest score (83) among the cheapest third of picks (up to $49.98 each): 4.4 stars from 266 reviews, $34.39."
+     "why": "Highest score (83) among the cheapest third of picks (up to $44.31 each): 4.4 stars from 266 reviews, $34.39."
     },
     {
      "label": "Best Premium",
@@ -3346,8 +3346,8 @@
    "json": "https://themisreviews.com/wifi-power-stations.json",
    "protocol": "Wi-Fi",
    "product_type": "Power stations",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -3359,10 +3359,10 @@
     },
     {
      "label": "Best Budget",
-     "asin": "B0C1SMJTDT",
-     "name": "BLUETTI AC180",
-     "price": 424.0,
-     "why": "Highest score (89) among the cheapest third of picks (up to $438.90 each): 4.5 stars from 2,681 reviews, $424.00."
+     "asin": "B0HD6GN86Q",
+     "name": "BLUETTI Elite 100 mini",
+     "price": 379.99,
+     "why": "Highest score (89) among the cheapest third of picks (up to $439.00 each): 4.5 stars from 1,864 reviews, $379.99."
     },
     {
      "label": "Best for Home Backup",
@@ -3380,7 +3380,7 @@
    "json": "https://themisreviews.com/wifi-water-monitors.json",
    "protocol": "Wi-Fi",
    "product_type": "Water monitors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 6,
    "awards": [
@@ -3414,7 +3414,7 @@
    "json": "https://themisreviews.com/wifi-pool-cleaners.json",
    "protocol": "Wi-Fi",
    "product_type": "Pool cleaners",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 4,
    "awards": [
@@ -3448,8 +3448,8 @@
    "json": "https://themisreviews.com/wifi-smart-scales.json",
    "protocol": "Wi-Fi",
    "product_type": "Smart scales",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 7,
    "awards": [
     {
@@ -3463,8 +3463,8 @@
      "label": "Best Budget",
      "asin": "B09HCJD6H1",
      "name": "Etekcity Smart Scale (Wi-Fi, color display)",
-     "price": 79.99,
-     "why": "Highest score (91) among the cheapest third of picks (up to $79.99 each): 4.7 stars from 201,168 reviews, $79.99."
+     "price": 63.99,
+     "why": "Highest score (91) among the cheapest third of picks (up to $63.99 each): 4.7 stars from 201,168 reviews, $63.99."
     },
     {
      "label": "Best Body Composition",
@@ -3482,7 +3482,7 @@
    "json": "https://themisreviews.com/wifi-sunrise-alarms.json",
    "protocol": "Wi-Fi",
    "product_type": "Sunrise alarms",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -3523,7 +3523,7 @@
    "json": "https://themisreviews.com/wifi-curtain-openers.json",
    "protocol": "Wi-Fi",
    "product_type": "Curtain motors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -3557,8 +3557,8 @@
    "json": "https://themisreviews.com/wifi-path-lights.json",
    "protocol": "Wi-Fi",
    "product_type": "Outdoor lights",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -3584,7 +3584,7 @@
    "json": "https://themisreviews.com/wifi-portable-air-conditioners.json",
    "protocol": "Wi-Fi",
    "product_type": "Air conditioners",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 6,
    "awards": [
@@ -3645,8 +3645,8 @@
    "json": "https://themisreviews.com/bluetooth-switches.json",
    "protocol": "Bluetooth",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 3,
    "awards": [
     {
@@ -3692,7 +3692,7 @@
    "json": "https://themisreviews.com/bluetooth-temperature-sensors.json",
    "protocol": "Bluetooth",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -3712,8 +3712,8 @@
    "json": "https://themisreviews.com/bluetooth-trackers.json",
    "protocol": "Bluetooth",
    "product_type": "Trackers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -3746,7 +3746,7 @@
    "json": "https://themisreviews.com/bluetooth-blinds.json",
    "protocol": "Bluetooth",
    "product_type": "Blinds and shades",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -3766,23 +3766,23 @@
    "json": "https://themisreviews.com/bluetooth-proxies.json",
    "protocol": "Bluetooth",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0D8T53CQ5",
      "name": "ELEGOO ESP-32 dev boards (3-pack)",
-     "price": 20.99,
-     "why": "Highest score on the page (84): 4.7 stars from 578 reviews, $20.99."
+     "price": 19.99,
+     "why": "Highest score on the page (84): 4.7 stars from 578 reviews, $19.99."
     },
     {
      "label": "Best Budget",
      "asin": "B08D5ZD528",
      "name": "Aitrip ESP-WROOM-32 board",
      "price": 16.99,
-     "why": "Highest score (77) among the cheapest third of picks (up to $7.00 each): 4.4 stars from 1,292 reviews, $16.99."
+     "why": "Highest score (77) among the cheapest third of picks (up to $6.66 each): 4.4 stars from 1,292 reviews, $16.99."
     },
     {
      "label": "Best Ethernet (PoE)",
@@ -3834,7 +3834,7 @@
    "json": "https://themisreviews.com/bluetooth-propane-monitors.json",
    "protocol": "Bluetooth",
    "product_type": "Tank monitors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 6,
    "awards": [
@@ -3868,8 +3868,8 @@
    "json": "https://themisreviews.com/thread-switches.json",
    "protocol": "Thread",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 5,
    "awards": [
     {
@@ -3890,8 +3890,8 @@
      "label": "Best for No-Neutral Boxes",
      "asin": "B0DN1H69ZP",
      "name": "Aqara H2 switch (1 channel)",
-     "price": 49.99,
-     "why": "Highest score of the picks that fit this award (76): 3.8 stars from 75 reviews, $49.99."
+     "price": 42.49,
+     "why": "Highest score of the picks that fit this award (76): 3.8 stars from 75 reviews, $42.49."
     },
     {
      "label": "Best Thread Dimmer",
@@ -4072,7 +4072,7 @@
    "json": "https://themisreviews.com/thread-temperature-sensors.json",
    "protocol": "Thread",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4099,7 +4099,7 @@
    "json": "https://themisreviews.com/thread-bulbs.json",
    "protocol": "Thread",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 2,
    "awards": [
@@ -4126,8 +4126,8 @@
    "json": "https://themisreviews.com/thread-locks.json",
    "protocol": "Thread",
    "product_type": "Smart locks",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -4160,8 +4160,8 @@
    "json": "https://themisreviews.com/matter-switches.json",
    "protocol": "Matter",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -4176,7 +4176,7 @@
      "asin": "B0CC8NP7ZD",
      "name": "Kasa KS205",
      "price": 12.99,
-     "why": "Highest score (71) among the cheapest third of picks (up to $15.19 each): 4.6 stars from 1,190 reviews, $12.99."
+     "why": "Highest score (71) among the cheapest third of picks (up to $15.90 each): 4.6 stars from 1,190 reviews, $12.99."
     }
    ]
   },
@@ -4187,23 +4187,23 @@
    "json": "https://themisreviews.com/matter-dimmers.json",
    "protocol": "Matter",
    "product_type": "Dimmers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B0BVKYKKRK",
      "name": "Leviton D26HD-1RW (2nd gen)",
-     "price": 53.19,
-     "why": "Highest score on the page (85): 4.6 stars from 325 reviews, $53.19."
+     "price": 57.91,
+     "why": "Highest score on the page (85): 4.6 stars from 325 reviews, $57.91."
     },
     {
      "label": "Best Budget",
      "asin": "B0CC8KRB2N",
      "name": "Kasa KS225",
-     "price": 16.96,
-     "why": "Highest score (71) among the cheapest third of picks (up to $18.51 each): 4.6 stars from 1,071 reviews, $16.96."
+     "price": 16.94,
+     "why": "Highest score (71) among the cheapest third of picks (up to $18.51 each): 4.6 stars from 1,071 reviews, $16.94."
     },
     {
      "label": "Best No-Neutral",
@@ -4255,7 +4255,7 @@
    "json": "https://themisreviews.com/matter-bulbs.json",
    "protocol": "Matter",
    "product_type": "Smart bulbs",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -4343,8 +4343,8 @@
    "json": "https://themisreviews.com/matter-leak-sensors.json",
    "protocol": "Matter",
    "product_type": "Leak sensors",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 3,
    "awards": [
     {
@@ -4358,8 +4358,8 @@
      "label": "Best Budget",
      "asin": "B0H3QG45XL",
      "name": "Shelly Flood S Gen4",
-     "price": 22.39,
-     "why": "Highest score (74) among the cheapest third of picks (up to $22.39 each): 4.3 stars from 65 reviews, $22.39."
+     "price": 27.99,
+     "why": "Highest score (74) among the cheapest third of picks (up to $27.99 each): 4.3 stars from 65 reviews, $27.99."
     }
    ]
   },
@@ -4404,8 +4404,8 @@
    "json": "https://themisreviews.com/matter-thermostats.json",
    "protocol": "Matter",
    "product_type": "Thermostats",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 7,
    "awards": [
     {
@@ -4438,7 +4438,7 @@
    "json": "https://themisreviews.com/matter-smoke-detectors.json",
    "protocol": "Matter",
    "product_type": "Smoke and CO detectors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4499,8 +4499,8 @@
    "json": "https://themisreviews.com/matter-relays.json",
    "protocol": "Matter",
    "product_type": "Relays and modules",
-   "data_captured": "2026-11-25",
-   "updated": "2026-11-25",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
@@ -4560,7 +4560,7 @@
    "json": "https://themisreviews.com/matter-air-purifiers.json",
    "protocol": "Matter",
    "product_type": "Air purifiers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4580,7 +4580,7 @@
    "json": "https://themisreviews.com/matter-outlets.json",
    "protocol": "Matter",
    "product_type": "In-wall outlets",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -4600,7 +4600,7 @@
    "json": "https://themisreviews.com/matter-controllers.json",
    "protocol": "Matter",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -4634,8 +4634,8 @@
    "json": "https://themisreviews.com/matter-outdoor-plugs.json",
    "protocol": "Matter",
    "product_type": "Outdoor smart plugs",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 9,
    "awards": [
     {
@@ -4695,7 +4695,7 @@
    "json": "https://themisreviews.com/matter-temperature-sensors.json",
    "protocol": "Matter",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -4722,7 +4722,7 @@
    "json": "https://themisreviews.com/matter-garage-openers.json",
    "protocol": "Matter",
    "product_type": "Garage door openers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4749,7 +4749,7 @@
    "json": "https://themisreviews.com/matter-robot-vacuums.json",
    "protocol": "Matter",
    "product_type": "Robot vacuums",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4776,7 +4776,7 @@
    "json": "https://themisreviews.com/matter-ceiling-fans.json",
    "protocol": "Matter",
    "product_type": "Ceiling fans",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4803,7 +4803,7 @@
    "json": "https://themisreviews.com/matter-power-strips.json",
    "protocol": "Matter",
    "product_type": "Smart power strips",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 3,
    "awards": [
@@ -4864,7 +4864,7 @@
    "json": "https://themisreviews.com/matter-air-quality-monitors.json",
    "protocol": "Matter",
    "product_type": "Air quality monitors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 2,
    "awards": [
@@ -4891,7 +4891,7 @@
    "json": "https://themisreviews.com/lutron-caseta-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 10,
    "awards": [
@@ -4932,16 +4932,16 @@
    "json": "https://themisreviews.com/lutron-pico-remotes.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Buttons and remotes",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B00JR202JQ",
      "name": "Lutron Pico wall-mounting kit",
-     "price": 39.95,
-     "why": "Highest score on the page (99): 4.9 stars from 417 reviews, $39.95."
+     "price": 38.75,
+     "why": "Highest score on the page (99): 4.9 stars from 417 reviews, $38.75."
     },
     {
      "label": "Best Wall Kit",
@@ -4966,7 +4966,7 @@
    "json": "https://themisreviews.com/lutron-fan-controls.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Fan controls",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 2,
    "awards": [
@@ -4986,16 +4986,16 @@
    "json": "https://themisreviews.com/lutron-bridges.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 8,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B01AVLTHY2",
      "name": "Lutron Caseta Smart Hub Pro Kit (L-BDGPRO2)",
-     "price": 250.0,
-     "why": "Highest score on the page (96): 4.7 stars from 171 reviews, $250.00."
+     "price": 219.99,
+     "why": "Highest score on the page (96): 4.7 stars from 171 reviews, $219.99."
     },
     {
      "label": "Best Hub Only",
@@ -5020,16 +5020,16 @@
    "json": "https://themisreviews.com/lutron-plug-in-dimmers.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Dimmers",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 5,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B011PHGURS",
      "name": "Lutron Caseta Deluxe Lamp Dimmer Starter Kit",
-     "price": 230.65,
-     "why": "Highest score on the page (86): 4.4 stars from 79 reviews, $230.65."
+     "price": 214.95,
+     "why": "Highest score on the page (86): 4.4 stars from 79 reviews, $214.95."
     },
     {
      "label": "Best Starter Kit",
@@ -5054,7 +5054,7 @@
    "json": "https://themisreviews.com/lutron-occupancy-sensors.json",
    "protocol": "Lutron Clear Connect",
    "product_type": "Motion sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 2,
    "awards": [
@@ -5081,8 +5081,8 @@
    "json": "https://themisreviews.com/rf-light-switches.json",
    "protocol": "433 MHz RF",
    "product_type": "Light switches",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
@@ -5115,7 +5115,7 @@
    "json": "https://themisreviews.com/rf-weather-stations.json",
    "protocol": "433 MHz RF",
    "product_type": "Weather stations",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-25",
    "products": 8,
    "awards": [
@@ -5149,7 +5149,7 @@
    "json": "https://themisreviews.com/rf-temperature-sensors.json",
    "protocol": "433 MHz RF",
    "product_type": "Temperature sensors",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 5,
    "awards": [
@@ -5176,7 +5176,7 @@
    "json": "https://themisreviews.com/rf-bridges.json",
    "protocol": "433 MHz RF",
    "product_type": "Hubs and controllers",
-   "data_captured": "2026-11-26",
+   "data_captured": "2026-11-27",
    "updated": "2026-11-26",
    "products": 9,
    "awards": [
@@ -5217,23 +5217,23 @@
    "json": "https://themisreviews.com/rf-remote-outlets.json",
    "protocol": "433 MHz RF",
    "product_type": "Smart plugs",
-   "data_captured": "2026-11-26",
-   "updated": "2026-11-26",
+   "data_captured": "2026-11-27",
+   "updated": "2026-11-27",
    "products": 10,
    "awards": [
     {
      "label": "Best Overall",
      "asin": "B082TX3CV1",
      "name": "HBN Outdoor Remote Control Outlets",
-     "price": 11.99,
-     "why": "Highest score on the page (96): 4.5 stars from 9,787 reviews, $11.99."
+     "price": 11.11,
+     "why": "Highest score on the page (96): 4.5 stars from 9,787 reviews, $11.11."
     },
     {
      "label": "Best Budget",
      "asin": "B09X2W2TRT",
      "name": "DEWENWILS Indoor Remote Outlet 15 A",
      "price": 8.49,
-     "why": "Highest score (84) among the cheapest third of picks (up to $11.39 each): 4.7 stars from 2,992 reviews, $8.49."
+     "why": "Highest score (84) among the cheapest third of picks (up to $11.11 each): 4.7 stars from 2,992 reviews, $8.49."
     },
     {
      "label": "Best Whole-Room Kit",
